@@ -1,0 +1,240 @@
+= Fontist Font Formulas
+
+== Purpose
+
+In Fontist, a "`Font Formula`" is used to install one or several fonts.
+
+This structure is modelled after Homebrew's Formula.
+
+== Structure of a Formula
+
+Each Formula defines:
+
+* what fonts are provided by this Formula
+* metadata of the Formula
+* what remote resources are needed to be downloaded
+* for each font provided, what styles are provided and their filenames
+* mechanism for installing the fonts
+* mechanism to test that fonts are installed
+
+== Basic formula
+
+[source,rb]
+----
+class SourceFonts < FontFormula
+
+  desc "Adobe Source Fonts"
+  homepage "https://www.adobe.com"
+  ...
+
+end
+----
+
+The `desc`, `homepage` commands are used to register metadata for the Formula.
+
+== Resources
+
+Resources are remotely fetched data.
+
+In this example, the file `source-fonts.zip` is to be downloaded from the URL
+`https://github.com/fontist/source-fonts/releases/download/v1.0/source-fonts-1.0.zip`.
+
+EXAMPLE:
+
+[source,rb]
+----
+resource "source-fonts.zip" do
+  url "https://github.com/fontist/source-fonts/releases/download/v1.0/source-fonts-1.0.zip"
+  sha256 "0107b5d4ba305cb4dff2ba19138407aa2153632a2c41592f74d20cd0d0261bfd"
+end
+----
+
+* The `url` command lets you specify where to download this resource from.
+* The `sha256` command checks the downloaded file against the provided SHA-256 hash.
+
+In some cases, multiple URLs are provided if they are not the most reliable.
+
+EXAMPLE:
+
+[source,rb]
+----
+resource "PowerPointViewer.exe" do
+  urls [
+    "https://www.dropbox.com/s/dl/6lclhxpydwgkjzh/PowerPointViewer.exe?dl=1",
+    "https://web.archive.org/web/20171225132744/http://download.microsoft.com/download/E/6/7/E675FFFC-2A6D-4AB0-B3EB-27C9F8C8F696/PowerPointViewer.exe"
+  ]
+  sha256 "249473568eba7a1e4f95498acba594e0f42e6581add4dead70c1dfb908a09423"
+  file_size "62914560"
+end
+----
+
+* The `urls` command lets you set multiple URLs.
+* The `file_size` command checks against file size downloaded.
+
+
+== Declaring fonts provided
+
+The `provides_font` command lets you declare fonts provided
+by this Formula.
+
+`provides_font` accepts two arguments here:
+
+* Font family name. For example, in the case of Adobe Source Code Pro, it is `Source Code Pro`. This name is only used in Fontist (e.g. for installing) and does not affect the usage of installed fonts.
+* An options hash:
+
+** `match_styles_from_file`: a hash that maps font styles (e.g. "`Bold`") to a filename, used for detection of fonts
+
+EXAMPLE:
+
+[source,ruby]
+----
+provides_font("Source Code Pro", match_styles_from_file: {
+  "Black" => "SourceCodePro-Black.ttf",
+  "Black Italic" => "SourceCodePro-BlackIt.ttf",
+  ...
+----
+
+EXAMPLE:
+
+[source,sh]
+----
+provides_font("Cambria", match_styles_from_file: {
+  "Bold" => "CAMBRIAB.TTF",
+  "Italic" => "CAMBRIAI.TTF",
+  "Bold Italic" => "CAMBRIAZ.TTF",
+})
+----
+
+All these declared fonts are stored inside the Formula when defined.
+
+
+== Declaring font collections and their fonts
+
+Sometimes fonts are provided in TTC format (truetype collection)
+meaning that a single file can contain multiple fonts.
+
+The `provides_font_collection` command is used to declare font collections and
+the fonts within.
+
+It takes a block with these commands:
+
+* `filename`: the filename of this font collection, used for detection.
+* `provides_font`: this works slightly differently than from the `provides_font` at the top level. It still takes two arguments, the font family name and an options hash. The options hash only accepts `:extract_styles_from_collection`, which is a map from the font style (e.g., "`Bold`") to the font name *inside* the font collection.
+
+EXAMPLE:
+
+This example shows that:
+
+* the font collection can be identified with the filename `CAMBRIA.TTC`;
+* it contains two fonts, "`Cambria`" and "`Cambria Math`";
+* the font "`Cambria`" with style "`Regular`" is provided by extracting `Cambria` from `CAMBRIA.TTC`
+* the font "`Cambria Math`" (default "`Regular`") is provided by extracting `Cambria Math` from `CAMBRIA.TTC`
+
+[source,rb]
+----
+provides_font_collection do |coll|
+  filename "CAMBRIA.TTC"
+  provides_font "Cambria", extract_styles_from_collection: {
+    "Regular" => "Cambria"
+  }
+  provides_font "Cambria Math"
+end
+----
+
+All these declared fonts are stored inside the Formula when defined.
+
+
+== Retrieving resources and extracting them
+
+The defined `extract` method is used to retrieve and extract resources.
+
+The `resource(filename)` method is used to retrieve the resource with
+the given filename. It takes a block so that the resource can be directly used.
+
+There are several methods of extracting archives, including:
+
+* `cab_extract(filename)` which extracts `filename` as a CAB file;
+* `unzip(filename)` which extracts `filename` as a ZIP file;
+
+The `match_fonts(fontdir, font-family-name)` command is then used to *match* the fonts against
+given file names. If the `fontdir` includes a file belonging to the font of `font-family-name`,
+then Fontist knows that the file contains those fonts.
+
+Once the extract method finishes, Fontist would have a full map of where each declared font
+is located.
+
+EXAMPLE:
+
+[source,ruby]
+----
+def extract
+  resource("source-fonts.zip") do |resource|
+    zip_extract(resource) do |dir|
+      match_fonts(fontdir, "Source Code Pro")
+      ...
+    end
+  end
+end
+----
+
+
+EXAMPLE:
+
+[source,ruby]
+----
+def extract
+  resource("PowerPointViewer.exe") do |resource|
+    cab_extract(resource) do |dir|
+      cab_extract(dir['ppviewer.cab']) do |fontdir|
+        match_fonts(fontdir, "Calibri")
+        match_fonts(fontdir, "Cambria")
+        ...
+      end
+    end
+  end
+end
+----
+
+
+== Installation
+
+The defined `install` method is used to install the fonts.
+
+The `install_matched_fonts` method is then used to install matched fonts in a given directory.
+
+Notice that some fonts don't need to be installed because they are bundled with the system (e.g., Arial with Windows and macOS, Cambria with Windows).
+
+EXAMPLE:
+
+[source,ruby]
+----
+def install
+  case platform
+  when :macos
+    install_matched_fonts "$HOME/Library/Fonts/Microsoft"
+  when :linux
+    install_matched_fonts "/usr/share/fonts/truetype/microsoft"
+  end
+end
+----
+
+== Testing
+
+Last but not least the `test do ... end` block enables you to test whether a font has been installed.
+
+NOTE: The `assert_predicate` method comes from Homebrew, we probably should simplify this with real Ruby.
+
+EXAMPLE:
+
+[source,ruby]
+----
+test do
+  case platform
+  when :macos
+    assert_predicate "$HOME/Library/Fonts/Microsoft/tahoma.ttf", :exist?
+  when :linux
+    assert_predicate "/usr/share/fonts/truetype/microsoft/tahoma.ttf", :exist?
+  end
+end
+----
+
