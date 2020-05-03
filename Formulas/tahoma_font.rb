@@ -4,7 +4,10 @@ class TahomaFont < FontFormula
   homepage "https://www.microsoft.com"
 
   resource "wd97vwr32.exe" do
-    url "https://nchc.dl.sourceforge.net/project/corefonts/the%20fonts/final/wd97vwr32.exe"
+    urls [
+      "https://nchc.dl.sourceforge.net/project/corefonts/the%20fonts/final/wd97vwr32.exe",
+      "http://sourceforge.mirrorservice.org/c/co/corefonts/the%20fonts/final/wd97vwr32.exe"
+    ]
     sha256 "f61126a6d17b2d126a7f31b142504dce4934f7989c55f1c13c6477b3fe80b3d2"
   end
 
