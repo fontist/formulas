@@ -13,7 +13,7 @@ class ClearTypeFonts < FontFormula
   end
 
 
-  provides_font_collection("Cambria") do |coll|
+  provides_font_collection do |coll|
     filename "CAMBRIA.TTC"
     provides_font "Cambria", extract_styles_from_collection: {
       "Regular" => "Cambria"
@@ -21,7 +21,7 @@ class ClearTypeFonts < FontFormula
     provides_font "Cambria Math"
   end
 
-  provides_font_collection("Meiryo") do |coll|
+  provides_font_collection do |coll|
     filename "MEIRYO.TTC"
     provides_font "Meiryo", extract_styles_from_collection: {
       "Regular" => "Meiryo",

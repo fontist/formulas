@@ -60,7 +60,7 @@ class SourceFonts < FontFormula
   })
 
   %w(ExtraLight Light Normal Regular Bold Heavy).each do |style|
-    provides_font_collection("Source Han Sans") do |coll|
+    provides_font_collection do |coll|
       filename "SourceHanSans-#{style}.ttc"
 
       ["", " TC", " K", " HC", " SC"].each do |variant|
