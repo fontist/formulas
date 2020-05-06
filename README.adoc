@@ -19,7 +19,7 @@ Each Formula defines:
 
 == Basic formula
 
-[source,rb]
+[source,ruby]
 ----
 class SourceFonts < FontFormula
 
@@ -41,7 +41,7 @@ In this example, the file `source-fonts.zip` is to be downloaded from the URL
 
 EXAMPLE:
 
-[source,rb]
+[source,ruby]
 ----
 resource "source-fonts.zip" do
   url "https://github.com/fontist/source-fonts/releases/download/v1.0/source-fonts-1.0.zip"
@@ -93,11 +93,12 @@ provides_font("Source Code Pro", match_styles_from_file: {
   "Black" => "SourceCodePro-Black.ttf",
   "Black Italic" => "SourceCodePro-BlackIt.ttf",
   ...
+})
 ----
 
 EXAMPLE:
 
-[source,sh]
+[source,ruby]
 ----
 provides_font("Cambria", match_styles_from_file: {
   "Bold" => "CAMBRIAB.TTF",
@@ -131,7 +132,7 @@ This example shows that:
 * the font "`Cambria`" with style "`Regular`" is provided by extracting `Cambria` from `CAMBRIA.TTC`
 * the font "`Cambria Math`" (default "`Regular`") is provided by extracting `Cambria Math` from `CAMBRIA.TTC`
 
-[source,rb]
+[source,ruby]
 ----
 provides_font_collection do |coll|
   filename "CAMBRIA.TTC"
@@ -171,7 +172,7 @@ EXAMPLE:
 def extract
   resource("source-fonts.zip") do |resource|
     zip_extract(resource) do |dir|
-      match_fonts(fontdir, "Source Code Pro")
+      match_fonts(dir, "Source Code Pro")
       ...
     end
   end
