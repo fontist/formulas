@@ -1,0 +1,47 @@
+---
+name: Segoe UI
+description: Segoe UI
+homepage: http://www.microsoft.com/typography/ctfonts
+display_progress_bar: true
+resources:
+  Segoe_UI.exe:
+    urls:
+    - https://web.archive.org/web/20170104231942if_/http://download.microsoft.com/download/F/8/8/F88CB355-ECAA-4B74-87D6-C05C81D215BF/ExcelViewer.exe
+    sha256: 56e2fcd583ffaaa316257de7b208e6be411c4e343b7e4072c95053baa11539af
+fonts:
+- name: Segoe UI
+  styles:
+  - family_name: Segoe UI
+    type: Regular
+    full_name: Segoe UI
+    post_script_name: SegoeUI
+    version: '1.00'
+    copyright: "© 2006 Microsoft Corporation. All Rights Reserved."
+    font: SEGOEUI.TTF
+  - family_name: Segoe UI
+    type: Bold
+    full_name: Segoe UI Bold
+    post_script_name: SegoeUI-Bold
+    version: '1.00'
+    copyright: "© 2006 Microsoft Corporation. All Rights Reserved."
+    font: SEGOEUIB.TTF
+  - family_name: Segoe UI
+    type: Italic
+    full_name: Segoe UI Italic
+    post_script_name: SegoeUI-Italic
+    version: '1.00'
+    copyright: "© 2006 Microsoft Corporation. All Rights Reserved."
+    font: SEGOEUII.TTF
+  - family_name: Segoe UI
+    type: Bold Italic
+    full_name: Segoe UI Bold Italic
+    post_script_name: SegoeUI-BoldItalic
+    version: '1.00'
+    copyright: "© 2006 Microsoft Corporation. All Rights Reserved."
+    font: SEGOEUIZ.TTF
+extract:
+- format: exe
+- format: msi
+- format: cab
+copyright: "© 2006 Microsoft Corporation. All Rights Reserved."
+license_url: http://www.microsoft.com/typography/fonts/default.aspx
