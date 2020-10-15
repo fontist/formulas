@@ -8,138 +8,405 @@ resources:
     - https://github.com/fontist/source-fonts/releases/download/v1.0/source-fonts-1.0.zip
     sha256: 0107b5d4ba305cb4dff2ba19138407aa2153632a2c41592f74d20cd0d0261bfd
 font_collections:
-- filename: SourceHanSans-ExtraLight.ttc
-  fonts:
-  - name: Source Hans Sans
-    styles:
-    - type: ExtraLight
-      full_name: Source Hans Sans ExtraLight
-  - name: Source Hans Sans TC
-    styles:
-    - type: ExtraLight
-      full_name: Source Hans Sans TC ExtraLight
-  - name: Source Hans Sans K
-    styles:
-    - type: ExtraLight
-      full_name: Source Hans Sans K ExtraLight
-  - name: Source Hans Sans HC
-    styles:
-    - type: ExtraLight
-      full_name: Source Hans Sans HC ExtraLight
-  - name: Source Hans Sans SC
-    styles:
-    - type: ExtraLight
-      full_name: Source Hans Sans SC ExtraLight
-- filename: SourceHanSans-Light.ttc
-  fonts:
-  - name: Source Hans Sans
-    styles:
-    - type: Light
-      full_name: Source Hans Sans Light
-  - name: Source Hans Sans TC
-    styles:
-    - type: Light
-      full_name: Source Hans Sans TC Light
-  - name: Source Hans Sans K
-    styles:
-    - type: Light
-      full_name: Source Hans Sans K Light
-  - name: Source Hans Sans HC
-    styles:
-    - type: Light
-      full_name: Source Hans Sans HC Light
-  - name: Source Hans Sans SC
-    styles:
-    - type: Light
-      full_name: Source Hans Sans SC Light
-- filename: SourceHanSans-Normal.ttc
-  fonts:
-  - name: Source Hans Sans
-    styles:
-    - type: Normal
-      full_name: Source Hans Sans Normal
-  - name: Source Hans Sans TC
-    styles:
-    - type: Normal
-      full_name: Source Hans Sans TC Normal
-  - name: Source Hans Sans K
-    styles:
-    - type: Normal
-      full_name: Source Hans Sans K Normal
-  - name: Source Hans Sans HC
-    styles:
-    - type: Normal
-      full_name: Source Hans Sans HC Normal
-  - name: Source Hans Sans SC
-    styles:
-    - type: Normal
-      full_name: Source Hans Sans SC Normal
-- filename: SourceHanSans-Regular.ttc
-  fonts:
-  - name: Source Hans Sans
-    styles:
-    - type: Regular
-      full_name: Source Hans Sans Regular
-  - name: Source Hans Sans TC
-    styles:
-    - type: Regular
-      full_name: Source Hans Sans TC Regular
-  - name: Source Hans Sans K
-    styles:
-    - type: Regular
-      full_name: Source Hans Sans K Regular
-  - name: Source Hans Sans HC
-    styles:
-    - type: Regular
-      full_name: Source Hans Sans HC Regular
-  - name: Source Hans Sans SC
-    styles:
-    - type: Regular
-      full_name: Source Hans Sans SC Regular
 - filename: SourceHanSans-Bold.ttc
   fonts:
-  - name: Source Hans Sans
+  - name: Source Han Sans
     styles:
-    - type: Bold
-      full_name: Source Hans Sans Bold
-  - name: Source Hans Sans TC
+    - family_name: Source Han Sans
+      type: Bold
+      full_name: Source Han Sans Bold
+      post_script_name: SourceHanSans-Bold
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans HC
     styles:
-    - type: Bold
-      full_name: Source Hans Sans TC Bold
-  - name: Source Hans Sans K
+    - family_name: Source Han Sans HC
+      type: Bold
+      full_name: Source Han Sans HC Bold
+      post_script_name: SourceHanSansHC-Bold
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans K
     styles:
-    - type: Bold
-      full_name: Source Hans Sans K Bold
-  - name: Source Hans Sans HC
+    - family_name: Source Han Sans K
+      type: Bold
+      full_name: Source Han Sans K Bold
+      post_script_name: SourceHanSansK-Bold
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans SC
     styles:
-    - type: Bold
-      full_name: Source Hans Sans HC Bold
-  - name: Source Hans Sans SC
+    - family_name: Source Han Sans SC
+      type: Bold
+      full_name: Source Han Sans SC Bold
+      post_script_name: SourceHanSansSC-Bold
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans TC
     styles:
-    - type: Bold
-      full_name: Source Hans Sans SC Bold
+    - family_name: Source Han Sans TC
+      type: Bold
+      full_name: Source Han Sans TC Bold
+      post_script_name: SourceHanSansTC-Bold
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+- filename: SourceHanSans-ExtraLight.ttc
+  fonts:
+  - name: Source Han Sans
+    styles:
+    - family_name: Source Han Sans
+      type: ExtraLight
+      full_name: Source Han Sans ExtraLight
+      post_script_name: SourceHanSans-ExtraLight
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans HC
+    styles:
+    - family_name: Source Han Sans HC
+      type: ExtraLight
+      full_name: Source Han Sans HC ExtraLight
+      post_script_name: SourceHanSansHC-ExtraLight
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans K
+    styles:
+    - family_name: Source Han Sans K
+      type: ExtraLight
+      full_name: Source Han Sans K ExtraLight
+      post_script_name: SourceHanSansK-ExtraLight
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans SC
+    styles:
+    - family_name: Source Han Sans SC
+      type: ExtraLight
+      full_name: Source Han Sans SC ExtraLight
+      post_script_name: SourceHanSansSC-ExtraLight
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans TC
+    styles:
+    - family_name: Source Han Sans TC
+      type: ExtraLight
+      full_name: Source Han Sans TC ExtraLight
+      post_script_name: SourceHanSansTC-ExtraLight
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
 - filename: SourceHanSans-Heavy.ttc
   fonts:
-  - name: Source Hans Sans
+  - name: Source Han Sans
     styles:
-    - type: Heavy
-      full_name: Source Hans Sans Heavy
-  - name: Source Hans Sans TC
+    - family_name: Source Han Sans
+      type: Heavy
+      full_name: Source Han Sans Heavy
+      post_script_name: SourceHanSans-Heavy
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans HC
     styles:
-    - type: Heavy
-      full_name: Source Hans Sans TC Heavy
-  - name: Source Hans Sans K
+    - family_name: Source Han Sans HC
+      type: Heavy
+      full_name: Source Han Sans HC Heavy
+      post_script_name: SourceHanSansHC-Heavy
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans K
     styles:
-    - type: Heavy
-      full_name: Source Hans Sans K Heavy
-  - name: Source Hans Sans HC
+    - family_name: Source Han Sans K
+      type: Heavy
+      full_name: Source Han Sans K Heavy
+      post_script_name: SourceHanSansK-Heavy
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans SC
     styles:
-    - type: Heavy
-      full_name: Source Hans Sans HC Heavy
-  - name: Source Hans Sans SC
+    - family_name: Source Han Sans SC
+      type: Heavy
+      full_name: Source Han Sans SC Heavy
+      post_script_name: SourceHanSansSC-Heavy
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans TC
     styles:
-    - type: Heavy
-      full_name: Source Hans Sans SC Heavy
+    - family_name: Source Han Sans TC
+      type: Heavy
+      full_name: Source Han Sans TC Heavy
+      post_script_name: SourceHanSansTC-Heavy
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+- filename: SourceHanSans-Light.ttc
+  fonts:
+  - name: Source Han Sans
+    styles:
+    - family_name: Source Han Sans
+      type: Light
+      full_name: Source Han Sans Light
+      post_script_name: SourceHanSans-Light
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans HC
+    styles:
+    - family_name: Source Han Sans HC
+      type: Light
+      full_name: Source Han Sans HC Light
+      post_script_name: SourceHanSansHC-Light
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans K
+    styles:
+    - family_name: Source Han Sans K
+      type: Light
+      full_name: Source Han Sans K Light
+      post_script_name: SourceHanSansK-Light
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans SC
+    styles:
+    - family_name: Source Han Sans SC
+      type: Light
+      full_name: Source Han Sans SC Light
+      post_script_name: SourceHanSansSC-Light
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans TC
+    styles:
+    - family_name: Source Han Sans TC
+      type: Light
+      full_name: Source Han Sans TC Light
+      post_script_name: SourceHanSansTC-Light
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+- filename: SourceHanSans-Medium.ttc
+  fonts:
+  - name: Source Han Sans
+    styles:
+    - family_name: Source Han Sans
+      type: Medium
+      full_name: Source Han Sans Medium
+      post_script_name: SourceHanSans-Medium
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans HC
+    styles:
+    - family_name: Source Han Sans HC
+      type: Medium
+      full_name: Source Han Sans HC Medium
+      post_script_name: SourceHanSansHC-Medium
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans K
+    styles:
+    - family_name: Source Han Sans K
+      type: Medium
+      full_name: Source Han Sans K Medium
+      post_script_name: SourceHanSansK-Medium
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans SC
+    styles:
+    - family_name: Source Han Sans SC
+      type: Medium
+      full_name: Source Han Sans SC Medium
+      post_script_name: SourceHanSansSC-Medium
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans TC
+    styles:
+    - family_name: Source Han Sans TC
+      type: Medium
+      full_name: Source Han Sans TC Medium
+      post_script_name: SourceHanSansTC-Medium
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+- filename: SourceHanSans-Normal.ttc
+  fonts:
+  - name: Source Han Sans
+    styles:
+    - family_name: Source Han Sans
+      type: Normal
+      full_name: Source Han Sans Normal
+      post_script_name: SourceHanSans-Normal
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans HC
+    styles:
+    - family_name: Source Han Sans HC
+      type: Normal
+      full_name: Source Han Sans HC Normal
+      post_script_name: SourceHanSansHC-Normal
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans K
+    styles:
+    - family_name: Source Han Sans K
+      type: Normal
+      full_name: Source Han Sans K Normal
+      post_script_name: SourceHanSansK-Normal
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans SC
+    styles:
+    - family_name: Source Han Sans SC
+      type: Normal
+      full_name: Source Han Sans SC Normal
+      post_script_name: SourceHanSansSC-Normal
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans TC
+    styles:
+    - family_name: Source Han Sans TC
+      type: Normal
+      full_name: Source Han Sans TC Normal
+      post_script_name: SourceHanSansTC-Normal
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+- filename: SourceHanSans-Regular.ttc
+  fonts:
+  - name: Source Han Sans
+    styles:
+    - family_name: Source Han Sans
+      type: Regular
+      full_name: Source Han Sans
+      post_script_name: SourceHanSans-Regular
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans HC
+    styles:
+    - family_name: Source Han Sans HC
+      type: Regular
+      full_name: Source Han Sans HC
+      post_script_name: SourceHanSansHC-Regular
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans K
+    styles:
+    - family_name: Source Han Sans K
+      type: Regular
+      full_name: Source Han Sans K
+      post_script_name: SourceHanSansK-Regular
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans SC
+    styles:
+    - family_name: Source Han Sans SC
+      type: Regular
+      full_name: Source Han Sans SC
+      post_script_name: SourceHanSansSC-Regular
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+  - name: Source Han Sans TC
+    styles:
+    - family_name: Source Han Sans TC
+      type: Regular
+      full_name: Source Han Sans TC
+      post_script_name: SourceHanSansTC-Regular
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
 fonts:
 - name: Source Code Pro
   styles:
