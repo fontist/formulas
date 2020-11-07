@@ -1,0 +1,66 @@
+---
+name: MingLiU
+description: MingLiU
+resources:
+  MingLiU.EXE:
+    urls:
+    - https://gitlab.com/fontmirror/archive/-/raw/master/HKSCS2004-x86.EXE
+    - https://web.archive.org/web/20200705160237/https://download.microsoft.com/download/6/1/4/6149F613-738D-4292-A6EB-65B9F50AFCB6/HKSCS2004-x86.EXE
+    sha256: 19d791a72ff7b268a2d128cc334520b716633fd5e11579794a975be88ce9babe
+font_collections:
+- filename: MINGLIU.TTC
+  fonts:
+  - name: MingLiU
+    styles:
+    - family_name: MingLiU
+      type: Regular
+      full_name: MingLiU
+      post_script_name: MingLiU
+      version: '6.90'
+      copyright: "(c) Copyright DynaComware Corp. 2008"
+  - name: MingLiU_HKSCS
+    styles:
+    - family_name: MingLiU_HKSCS
+      type: Regular
+      full_name: MingLiU_HKSCS
+      post_script_name: Ming-Lt-HKSCS-UNI-H
+      version: '6.90'
+      copyright: "(c) Copyright DynaComware Corp. 2008"
+  - name: PMingLiU
+    styles:
+    - family_name: PMingLiU
+      type: Regular
+      full_name: PMingLiU
+      post_script_name: PMingLiU
+      version: '6.90'
+      copyright: "(c) Copyright DynaComware Corp. 2008"
+- filename: MINGLIUB.TTC
+  fonts:
+  - name: MingLiU-ExtB
+    styles:
+    - family_name: MingLiU-ExtB
+      type: Regular
+      full_name: MingLiU-ExtB
+      post_script_name: MingLiU-ExtB
+      version: '6.90'
+      copyright: "(c) Copyright DynaComware Corp. 2008"
+  - name: MingLiU_HKSCS-ExtB
+    styles:
+    - family_name: MingLiU_HKSCS-ExtB
+      type: Regular
+      full_name: MingLiU_HKSCS-ExtB
+      post_script_name: Ming-Lt-HKSCS-ExtB
+      version: '6.90'
+      copyright: "(c) Copyright DynaComware Corp. 2008"
+  - name: PMingLiU-ExtB
+    styles:
+    - family_name: PMingLiU-ExtB
+      type: Regular
+      full_name: PMingLiU-ExtB
+      post_script_name: PMingLiU-ExtB
+      version: '6.90'
+      copyright: "(c) Copyright DynaComware Corp. 2008"
+extract:
+  format: cab
+copyright: "(c) Copyright DynaComware Corp. 2008"
+license_url: http://www.microsoft.com/typography
