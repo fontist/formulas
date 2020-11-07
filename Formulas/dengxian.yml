@@ -1,0 +1,39 @@
+---
+name: DengXian
+description: DengXian
+resources:
+  DengXian.exe:
+    urls:
+    - https://download.microsoft.com/download/4/0/9/4094ABA6-1A50-4FFD-A8CC-846BD66573F0/eadengfontpack.exe
+    - https://gitlab.com/fontmirror/archive/-/raw/master/eadengfontpack.exe
+    - https://web.archive.org/web/20200705160250/https://download.microsoft.com/download/4/0/9/4094ABA6-1A50-4FFD-A8CC-846BD66573F0/eadengfontpack.exe
+    sha256: '08ca36c8ac6be452523ffe38d82a7d60f227aea61ac9fda27a0a9ecdb5078aed'
+fonts:
+- name: DengXian
+  styles:
+  - family_name: DengXian
+    type: Regular
+    full_name: DengXian Regular
+    post_script_name: DengXian-Regular
+    version: '1.14'
+    copyright: Copyright(c) Beijing Founder Electronics Co.,Ltd.2012
+    font: DENG.TTF
+  - family_name: DengXian
+    type: Bold
+    full_name: DengXian Bold
+    post_script_name: DengXian-Bold
+    version: '1.14'
+    copyright: Copyright(c) Beijing Founder Electronics Co.,Ltd.2012
+    font: DENGB.TTF
+  - family_name: DengXian
+    type: Light
+    full_name: DengXian Light
+    post_script_name: DengXian-Light
+    version: '1.14'
+    copyright: Copyright(c) Beijing Founder Electronics Co.,Ltd.2012
+    font: DENGL.TTF
+extract:
+- format: exe
+- format: msi
+- format: cab
+copyright: Copyright(c) Beijing Founder Electronics Co.,Ltd.2012
