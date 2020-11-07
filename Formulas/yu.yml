@@ -1,0 +1,120 @@
+---
+name: Yu
+description: Yu
+homepage: http://www.jiyu-kobo.co.jp/
+resources:
+  Yu.exe:
+    urls:
+    - https://gitlab.com/fontmirror/archive/-/raw/master/eayufontpack.exe
+    - https://download.microsoft.com/download/E/3/2/E324A90F-5173-49F9-A9B4-FE2AFF558748/eayufontpack.exe
+    - https://web.archive.org/web/20200705162349/https://download.microsoft.com/download/E/3/2/E324A90F-5173-49F9-A9B4-FE2AFF558748/eayufontpack.exe
+    sha256: afdeffdcf235b78c6dd0b088446725e4a7e63d4a5def7f1ebc4d047476d3405e
+font_collections:
+- filename: YUGOTHB.TTC
+  fonts:
+  - name: Yu Gothic
+    styles:
+    - family_name: Yu Gothic
+      type: Bold
+      full_name: Yu Gothic Bold
+      post_script_name: YuGothic-Bold
+      version: '1.62'
+      copyright: Copyright © 2014 JIYUKOBO Ltd. All Rights Reserved.
+  - name: Yu Gothic UI
+    styles:
+    - family_name: Yu Gothic UI
+      type: Bold
+      full_name: Yu Gothic UI Bold
+      post_script_name: YuGothicUI-Bold
+      version: '1.10'
+      copyright: Copyright © 2014 JIYUKOBO Ltd. All Rights Reserved.
+    - family_name: Yu Gothic UI
+      type: Semibold
+      full_name: Yu Gothic UI Semibold
+      post_script_name: YuGothicUI-Semibold
+      version: '1.10'
+      copyright: Copyright © 2014 JIYUKOBO Ltd. All Rights Reserved.
+- filename: YUGOTHL.TTC
+  fonts:
+  - name: Yu Gothic
+    styles:
+    - family_name: Yu Gothic
+      type: Light
+      full_name: Yu Gothic Light
+      post_script_name: YuGothic-Light
+      version: '1.62'
+      copyright: Copyright © 2014 JIYUKOBO Ltd. All Rights Reserved.
+  - name: Yu Gothic UI
+    styles:
+    - family_name: Yu Gothic UI
+      type: Light
+      full_name: Yu Gothic UI Light
+      post_script_name: YuGothicUI-Light
+      version: '1.10'
+      copyright: Copyright © 2014 JIYUKOBO Ltd. All Rights Reserved.
+- filename: YUGOTHM.TTC
+  fonts:
+  - name: Yu Gothic
+    styles:
+    - family_name: Yu Gothic
+      type: Medium
+      full_name: Yu Gothic Medium
+      post_script_name: YuGothic-Medium
+      version: '1.11'
+      copyright: Copyright © 2014 JIYUKOBO Ltd. All Rights Reserved.
+  - name: Yu Gothic UI
+    styles:
+    - family_name: Yu Gothic UI
+      type: Regular
+      full_name: Yu Gothic UI Regular
+      post_script_name: YuGothicUI-Regular
+      version: '1.11'
+      copyright: Copyright © 2014 JIYUKOBO Ltd. All Rights Reserved.
+- filename: YUGOTHR.TTC
+  fonts:
+  - name: Yu Gothic
+    styles:
+    - family_name: Yu Gothic
+      type: Regular
+      full_name: Yu Gothic Regular
+      post_script_name: YuGothic-Regular
+      version: '1.62'
+      copyright: Copyright © 2014 JIYUKOBO Ltd. All Rights Reserved.
+  - name: Yu Gothic UI
+    styles:
+    - family_name: Yu Gothic UI
+      type: Semilight
+      full_name: Yu Gothic UI Semilight
+      post_script_name: YuGothicUI-Semilight
+      version: '1.10'
+      copyright: Copyright © 2014 JIYUKOBO Ltd. All Rights Reserved.
+fonts:
+- name: Yu Mincho
+  styles:
+  - family_name: Yu Mincho
+    type: Regular
+    full_name: Yu Mincho Regular
+    post_script_name: YuMincho-Regular
+    version: '1.70'
+    copyright: Copyright © 2015 JIYUKOBO Ltd. All Rights Reserved.
+    font: YUMIN.TTF
+  - family_name: Yu Mincho
+    type: Demibold
+    full_name: Yu Mincho Demibold
+    post_script_name: YuMincho-Demibold
+    version: '1.70'
+    copyright: Copyright © 2015 JIYUKOBO Ltd. All Rights Reserved.
+    font: YUMINDB.TTF
+  - family_name: Yu Mincho
+    type: Light
+    full_name: Yu Mincho Light
+    post_script_name: YuMincho-Light
+    version: '1.61'
+    copyright: Copyright © 2015 JIYUKOBO Ltd. All Rights Reserved.
+    font: YUMINL.TTF
+extract:
+- format: exe
+- format: msi
+- format: cab
+copyright: Copyright © 2015 JIYUKOBO Ltd. All Rights Reserved.
+license_url: http://www.jiyu-kobo.co.jp/
