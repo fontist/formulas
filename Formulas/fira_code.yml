@@ -1,24 +1,67 @@
 ---
-name: FiraCode
+name: Fira Code
 description: Fira Code
-homepage: http://tonsky.me
+homepage: https://tonsky.me
 resources:
-  FiraCode.zip:
+  Fira_Code.zip:
     urls:
-    - https://fonts.google.com/download?family=Fira%20Code
+    - https://github.com/tonsky/FiraCode/releases/download/5.2/Fira_Code_v5.2.zip
+    sha256: 521a72be00dd22678d248e63f817c0c79c1b6f23a4fbd377eba73d30cdca5efd
 fonts:
 - name: Fira Code
   styles:
   - family_name: Fira Code
+    type: Bold
+    full_name: Fira Code Bold
+    post_script_name: FiraCode-Bold
+    version: '5.002'
+    copyright: Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)
+    font: FiraCode-Bold.ttf
+  - family_name: Fira Code
     type: Light
     full_name: Fira Code Light
     post_script_name: FiraCode-Light
-    version: '1.208'
-    copyright: Copyright 2012-2015 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)
-    font: FiraCode-VariableFont_wght.ttf
+    version: '5.002'
+    copyright: Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)
+    font: FiraCode-Light.ttf
+  - family_name: Fira Code
+    type: Medium
+    full_name: Fira Code Medium
+    post_script_name: FiraCode-Medium
+    version: '5.002'
+    copyright: Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)
+    font: FiraCode-Medium.ttf
+  - family_name: Fira Code
+    type: Regular
+    full_name: Fira Code Regular
+    post_script_name: FiraCode-Regular
+    version: '5.002'
+    copyright: Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)
+    font: FiraCode-Regular.ttf
+  - family_name: Fira Code
+    type: Retina
+    full_name: Fira Code Retina
+    post_script_name: FiraCode-Retina
+    version: '5.002'
+    copyright: Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)
+    font: FiraCode-Retina.ttf
+  - family_name: Fira Code
+    type: SemiBold
+    full_name: Fira Code SemiBold
+    post_script_name: FiraCode-SemiBold
+    version: '5.002'
+    copyright: Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)
+    font: FiraCode-SemiBold.ttf
+  - family_name: Fira Code
+    type: Light
+    full_name: Fira Code Light
+    post_script_name: FiraCode-Light
+    version: '5.002'
+    copyright: Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)
+    font: FiraCode-VF.ttf
 extract:
   format: zip
-copyright: Copyright 2012-2015 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)
+copyright: Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2014, The Fira Code Project Authors (https://github.com/tonsky/FiraCode)
