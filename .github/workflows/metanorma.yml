@@ -2,8 +2,10 @@ name: metanorma
 
 on:
   push:
+    # switch to the v2 branch after metanorma upgrade
     branches: [ master ]
-  pull_request:
+  # enable after metanorma upgrade to v2 formulas
+  # pull_request:
 
 jobs:
   test:

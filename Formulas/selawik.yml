@@ -11,15 +11,6 @@ fonts:
 - name: Selawik
   styles:
   - family_name: Selawik
-    type: Regular
-    full_name: Selawik
-    post_script_name: Selawik-Regular
-    version: '1.01'
-    copyright: "© 2015 Microsoft Corporation (www.microsoft.com), with Reserved Font
-      Name Selawik. Selawik is a trademark of Microsoft Corporation in the United
-      States and/or other countries."
-    font: selawk.ttf
-  - family_name: Selawik
     type: Bold
     full_name: Selawik Bold
     post_script_name: Selawik-Bold
@@ -29,7 +20,20 @@ fonts:
       States and/or other countries."
     font: selawkb.ttf
   - family_name: Selawik
-    type: Light
+    type: Regular
+    full_name: Selawik
+    post_script_name: Selawik-Regular
+    version: '1.01'
+    copyright: "© 2015 Microsoft Corporation (www.microsoft.com), with Reserved Font
+      Name Selawik. Selawik is a trademark of Microsoft Corporation in the United
+      States and/or other countries."
+    font: selawk.ttf
+- name: Selawik Light
+  styles:
+  - family_name: Selawik Light
+    type: Regular
+    preferred_family_name: Selawik
+    preferred_type: Light
     full_name: Selawik Light
     post_script_name: Selawik-Light
     version: '1.01'
@@ -37,8 +41,12 @@ fonts:
       Name Selawik. Selawik is a trademark of Microsoft Corporation in the United
       States and/or other countries."
     font: selawkl.ttf
-  - family_name: Selawik
-    type: Semibold
+- name: Selawik Semibold
+  styles:
+  - family_name: Selawik Semibold
+    type: Regular
+    preferred_family_name: Selawik
+    preferred_type: Semibold
     full_name: Selawik Semibold
     post_script_name: Selawik-Semibold
     version: '1.01'
@@ -46,8 +54,12 @@ fonts:
       Name Selawik. Selawik is a trademark of Microsoft Corporation in the United
       States and/or other countries."
     font: selawksb.ttf
-  - family_name: Selawik
-    type: Semilight
+- name: Selawik Semilight
+  styles:
+  - family_name: Selawik Semilight
+    type: Regular
+    preferred_family_name: Selawik
+    preferred_type: Semilight
     full_name: Selawik Semilight
     post_script_name: Selawik-Semilight
     version: '1.01'
@@ -55,8 +67,7 @@ fonts:
       Name Selawik. Selawik is a trademark of Microsoft Corporation in the United
       States and/or other countries."
     font: selawksl.ttf
-extract:
-  format: zip
+extract: {}
 copyright: "© 2015 Microsoft Corporation (www.microsoft.com), with Reserved Font Name
   Selawik. Selawik is a trademark of Microsoft Corporation in the United States and/or
   other countries."
@@ -153,3 +164,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: create-formula https://github.com/microsoft/Selawik/releases/download/1.01/Selawik_Release.zip
