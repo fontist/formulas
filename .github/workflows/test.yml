@@ -1,0 +1,31 @@
+name: test
+
+on:
+  push:
+    branches: [ v2 ]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ ubuntu-latest ]
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: jitterbit/get-changed-files@v1
+        id: files
+        with:
+          format: 'json'
+
+      - run: |
+          echo '${{ steps.files.outputs.added_modified }}' > changed.json
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.5
+          bundler-cache: true
+
+      - run: bundle exec ruby test/test_formulas.rb

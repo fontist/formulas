@@ -65,32 +65,6 @@ fonts:
     copyright: Copyright 2001-2020 by the STIX Fonts Project Authors (https://github.com/stipub/stixfonts)
     font: STIXTwoText-Italic.otf
   - family_name: STIX Two Text
-    type: Medium
-    full_name: STIX Two Text Medium
-    post_script_name: STIXTwoText-Medium
-    version: 2.10 b156
-    description: The Scientific and Technical Information eXchange (STIX) fonts are
-      intended to satisfy the demanding needs of authors, publishers, printers, and
-      others working in the scientific, medical, and technical fields. They combine
-      a comprehensive Unicode-based collection of mathematical symbols and alphabets
-      with a set of text faces suitable for professional publishing. The fonts are
-      available royalty-free under the SIL Open Font License.
-    copyright: Copyright 2001-2020 by the STIX Fonts Project Authors (https://github.com/stipub/stixfonts)
-    font: STIXTwoText-Medium.otf
-  - family_name: STIX Two Text
-    type: Medium Italic
-    full_name: STIX Two Text Medium Italic
-    post_script_name: STIXTwoText-MediumItalic
-    version: 2.10 b156
-    description: The Scientific and Technical Information eXchange (STIX) fonts are
-      intended to satisfy the demanding needs of authors, publishers, printers, and
-      others working in the scientific, medical, and technical fields. They combine
-      a comprehensive Unicode-based collection of mathematical symbols and alphabets
-      with a set of text faces suitable for professional publishing. The fonts are
-      available royalty-free under the SIL Open Font License.
-    copyright: Copyright 2001-2020 by the STIX Fonts Project Authors (https://github.com/stipub/stixfonts)
-    font: STIXTwoText-MediumItalic.otf
-  - family_name: STIX Two Text
     type: Regular
     full_name: STIX Two Text Regular
     post_script_name: STIXTwoText-Regular
@@ -103,10 +77,14 @@ fonts:
       available royalty-free under the SIL Open Font License.
     copyright: Copyright 2001-2020 by the STIX Fonts Project Authors (https://github.com/stipub/stixfonts)
     font: STIXTwoText-Regular.otf
-  - family_name: STIX Two Text
-    type: Semibold
-    full_name: STIX Two Text Semibold
-    post_script_name: STIXTwoText-Semibold
+- name: STIX Two Text Medium
+  styles:
+  - family_name: STIX Two Text Medium
+    type: Italic
+    preferred_family_name: STIX Two Text
+    preferred_type: Medium Italic
+    full_name: STIX Two Text Medium Italic
+    post_script_name: STIXTwoText-MediumItalic
     version: 2.10 b156
     description: The Scientific and Technical Information eXchange (STIX) fonts are
       intended to satisfy the demanding needs of authors, publishers, printers, and
@@ -115,9 +93,28 @@ fonts:
       with a set of text faces suitable for professional publishing. The fonts are
       available royalty-free under the SIL Open Font License.
     copyright: Copyright 2001-2020 by the STIX Fonts Project Authors (https://github.com/stipub/stixfonts)
-    font: STIXTwoText-Semibold.otf
-  - family_name: STIX Two Text
-    type: Semibold Italic
+    font: STIXTwoText-MediumItalic.otf
+  - family_name: STIX Two Text Medium
+    type: Regular
+    preferred_family_name: STIX Two Text
+    preferred_type: Medium
+    full_name: STIX Two Text Medium
+    post_script_name: STIXTwoText-Medium
+    version: 2.10 b156
+    description: The Scientific and Technical Information eXchange (STIX) fonts are
+      intended to satisfy the demanding needs of authors, publishers, printers, and
+      others working in the scientific, medical, and technical fields. They combine
+      a comprehensive Unicode-based collection of mathematical symbols and alphabets
+      with a set of text faces suitable for professional publishing. The fonts are
+      available royalty-free under the SIL Open Font License.
+    copyright: Copyright 2001-2020 by the STIX Fonts Project Authors (https://github.com/stipub/stixfonts)
+    font: STIXTwoText-Medium.otf
+- name: STIX Two Text Semibold
+  styles:
+  - family_name: STIX Two Text Semibold
+    type: Italic
+    preferred_family_name: STIX Two Text
+    preferred_type: Semibold Italic
     full_name: STIX Two Text Semibold Italic
     post_script_name: STIXTwoText-SemiboldItalic
     version: 2.10 b156
@@ -129,8 +126,22 @@ fonts:
       available royalty-free under the SIL Open Font License.
     copyright: Copyright 2001-2020 by the STIX Fonts Project Authors (https://github.com/stipub/stixfonts)
     font: STIXTwoText-SemiboldItalic.otf
+  - family_name: STIX Two Text Semibold
+    type: Regular
+    preferred_family_name: STIX Two Text
+    preferred_type: Semibold
+    full_name: STIX Two Text Semibold
+    post_script_name: STIXTwoText-Semibold
+    version: 2.10 b156
+    description: The Scientific and Technical Information eXchange (STIX) fonts are
+      intended to satisfy the demanding needs of authors, publishers, printers, and
+      others working in the scientific, medical, and technical fields. They combine
+      a comprehensive Unicode-based collection of mathematical symbols and alphabets
+      with a set of text faces suitable for professional publishing. The fonts are
+      available royalty-free under the SIL Open Font License.
+    copyright: Copyright 2001-2020 by the STIX Fonts Project Authors (https://github.com/stipub/stixfonts)
+    font: STIXTwoText-Semibold.otf
 extract:
-  format: zip
   options:
     fonts_sub_dir: stixfonts-2.10/fonts/static_otf
 copyright: Copyright 2001-2020 by the STIX Fonts Project Authors (https://github.com/stipub/stixfonts)
@@ -244,3 +255,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: create-formula --subdir stixfonts-2.10/fonts/static_otf https://github.com/stipub/stixfonts/archive/v2.10.zip

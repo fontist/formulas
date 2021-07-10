@@ -10,7 +10,7 @@ resources:
     - http://sft.if.usp.br/msttcorefonts/comic32.exe
     sha256: 9c6df3feefde26d4e41d4a4fe5db2a89f9123a772594d7f59afd062625cd204e
 fonts:
-- name: Comic Sans
+- name: Comic Sans MS
   styles:
   - family_name: Comic Sans MS
     type: Bold
@@ -62,3 +62,4 @@ requires_license_agreement: |
   this page was last updated 28 July 1998
   © 1997 Microsoft Corporation. All rights reserved. Terms of use.
   comments to the MST group: ttwsite@microsoft.com
+command: create-formula https://gitlab.com/fontmirror/archive/-/raw/master/comic32.exe

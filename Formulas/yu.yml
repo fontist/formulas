@@ -28,36 +28,46 @@ font_collections:
       post_script_name: YuGothicUI-Bold
       version: '1.10'
       copyright: Copyright © 2014 JIYUKOBO Ltd. All Rights Reserved.
-    - family_name: Yu Gothic UI
-      type: Semibold
+  - name: Yu Gothic UI Semibold
+    styles:
+    - family_name: Yu Gothic UI Semibold
+      type: Regular
+      preferred_family_name: Yu Gothic UI
+      preferred_type: Semibold
       full_name: Yu Gothic UI Semibold
       post_script_name: YuGothicUI-Semibold
       version: '1.10'
       copyright: Copyright © 2014 JIYUKOBO Ltd. All Rights Reserved.
 - filename: YUGOTHL.TTC
   fonts:
-  - name: Yu Gothic
+  - name: Yu Gothic Light
     styles:
-    - family_name: Yu Gothic
-      type: Light
+    - family_name: Yu Gothic Light
+      type: Regular
+      preferred_family_name: Yu Gothic
+      preferred_type: Light
       full_name: Yu Gothic Light
       post_script_name: YuGothic-Light
       version: '1.62'
       copyright: Copyright © 2014 JIYUKOBO Ltd. All Rights Reserved.
-  - name: Yu Gothic UI
+  - name: Yu Gothic UI Light
     styles:
-    - family_name: Yu Gothic UI
-      type: Light
+    - family_name: Yu Gothic UI Light
+      type: Regular
+      preferred_family_name: Yu Gothic UI
+      preferred_type: Light
       full_name: Yu Gothic UI Light
       post_script_name: YuGothicUI-Light
       version: '1.10'
       copyright: Copyright © 2014 JIYUKOBO Ltd. All Rights Reserved.
 - filename: YUGOTHM.TTC
   fonts:
-  - name: Yu Gothic
+  - name: Yu Gothic Medium
     styles:
-    - family_name: Yu Gothic
-      type: Medium
+    - family_name: Yu Gothic Medium
+      type: Regular
+      preferred_family_name: Yu Gothic
+      preferred_type: Medium
       full_name: Yu Gothic Medium
       post_script_name: YuGothic-Medium
       version: '1.11'
@@ -80,10 +90,12 @@ font_collections:
       post_script_name: YuGothic-Regular
       version: '1.62'
       copyright: Copyright © 2014 JIYUKOBO Ltd. All Rights Reserved.
-  - name: Yu Gothic UI
+  - name: Yu Gothic UI Semilight
     styles:
-    - family_name: Yu Gothic UI
-      type: Semilight
+    - family_name: Yu Gothic UI Semilight
+      type: Regular
+      preferred_family_name: Yu Gothic UI
+      preferred_type: Semilight
       full_name: Yu Gothic UI Semilight
       post_script_name: YuGothicUI-Semilight
       version: '1.10'
@@ -93,29 +105,36 @@ fonts:
   styles:
   - family_name: Yu Mincho
     type: Regular
+    preferred_family_name: Yu Mincho
+    preferred_type: Regular
     full_name: Yu Mincho Regular
     post_script_name: YuMincho-Regular
     version: '1.70'
     copyright: Copyright © 2015 JIYUKOBO Ltd. All Rights Reserved.
     font: YUMIN.TTF
-  - family_name: Yu Mincho
-    type: Demibold
+- name: Yu Mincho Demibold
+  styles:
+  - family_name: Yu Mincho Demibold
+    type: Bold
+    preferred_family_name: Yu Mincho
+    preferred_type: Demibold
     full_name: Yu Mincho Demibold
     post_script_name: YuMincho-Demibold
     version: '1.70'
     copyright: Copyright © 2015 JIYUKOBO Ltd. All Rights Reserved.
     font: YUMINDB.TTF
-  - family_name: Yu Mincho
-    type: Light
+- name: Yu Mincho Light
+  styles:
+  - family_name: Yu Mincho Light
+    type: Regular
+    preferred_family_name: Yu Mincho
+    preferred_type: Light
     full_name: Yu Mincho Light
     post_script_name: YuMincho-Light
     version: '1.61'
     copyright: Copyright © 2015 JIYUKOBO Ltd. All Rights Reserved.
     font: YUMINL.TTF
-extract:
-- format: exe
-- format: msi
-- format: cab
+extract: {}
 copyright: Copyright © 2015 JIYUKOBO Ltd. All Rights Reserved.
 license_url: http://www.jiyu-kobo.co.jp/
 requires_license_agreement: |-
@@ -132,3 +151,4 @@ requires_license_agreement: |-
   If you comply with these license terms, you have the rights below.
 
   1. SUPPORT SERVICES FOR SUPPLEMENT. Microsoft provides support services for this software as described at www.support.microsoft.com/common/international.aspx.
+command: create-formula https://gitlab.com/fontmirror/archive/-/raw/master/eayufontpack.exe
