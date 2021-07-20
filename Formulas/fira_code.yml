@@ -18,49 +18,66 @@ fonts:
     copyright: Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)
     font: FiraCode-Bold.ttf
   - family_name: Fira Code
-    type: Light
-    full_name: Fira Code Light
-    post_script_name: FiraCode-Light
-    version: '5.002'
-    copyright: Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)
-    font: FiraCode-Light.ttf
-  - family_name: Fira Code
-    type: Medium
-    full_name: Fira Code Medium
-    post_script_name: FiraCode-Medium
-    version: '5.002'
-    copyright: Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)
-    font: FiraCode-Medium.ttf
-  - family_name: Fira Code
     type: Regular
     full_name: Fira Code Regular
     post_script_name: FiraCode-Regular
     version: '5.002'
     copyright: Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)
     font: FiraCode-Regular.ttf
-  - family_name: Fira Code
-    type: Retina
-    full_name: Fira Code Retina
-    post_script_name: FiraCode-Retina
-    version: '5.002'
-    copyright: Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)
-    font: FiraCode-Retina.ttf
-  - family_name: Fira Code
-    type: SemiBold
-    full_name: Fira Code SemiBold
-    post_script_name: FiraCode-SemiBold
-    version: '5.002'
-    copyright: Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)
-    font: FiraCode-SemiBold.ttf
-  - family_name: Fira Code
-    type: Light
+- name: Fira Code Light
+  styles:
+  - family_name: Fira Code Light
+    type: Regular
+    preferred_family_name: Fira Code
+    preferred_type: Light
     full_name: Fira Code Light
     post_script_name: FiraCode-Light
     version: '5.002'
     copyright: Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)
     font: FiraCode-VF.ttf
-extract:
-  format: zip
+  - family_name: Fira Code Light
+    type: Regular
+    preferred_family_name: Fira Code
+    preferred_type: Light
+    full_name: Fira Code Light
+    post_script_name: FiraCode-Light
+    version: '5.002'
+    copyright: Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)
+    font: FiraCode-Light.ttf
+- name: Fira Code Medium
+  styles:
+  - family_name: Fira Code Medium
+    type: Regular
+    preferred_family_name: Fira Code
+    preferred_type: Medium
+    full_name: Fira Code Medium
+    post_script_name: FiraCode-Medium
+    version: '5.002'
+    copyright: Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)
+    font: FiraCode-Medium.ttf
+- name: Fira Code Retina
+  styles:
+  - family_name: Fira Code Retina
+    type: Regular
+    preferred_family_name: Fira Code
+    preferred_type: Retina
+    full_name: Fira Code Retina
+    post_script_name: FiraCode-Retina
+    version: '5.002'
+    copyright: Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)
+    font: FiraCode-Retina.ttf
+- name: Fira Code SemiBold
+  styles:
+  - family_name: Fira Code SemiBold
+    type: Regular
+    preferred_family_name: Fira Code
+    preferred_type: SemiBold
+    full_name: Fira Code SemiBold
+    post_script_name: FiraCode-SemiBold
+    version: '5.002'
+    copyright: Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)
+    font: FiraCode-SemiBold.ttf
+extract: {}
 copyright: Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -157,3 +174,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: create-formula https://github.com/tonsky/FiraCode/releases/download/5.2/Fira_Code_v5.2.zip
