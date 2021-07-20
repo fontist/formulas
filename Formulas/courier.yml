@@ -10,7 +10,7 @@ resources:
     - http://sft.if.usp.br/msttcorefonts/courie32.exe
     sha256: bb511d861655dde879ae552eb86b134d6fae67cb58502e6ff73ec5d9151f3384
 fonts:
-- name: Courier
+- name: Courier New
   styles:
   - family_name: Courier New
     type: Regular
@@ -60,8 +60,10 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: couri.ttf
-extract:
-  format: cab
+extract: {}
+copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
+  plc/Type Solutions Inc. 1990-1992. All Rights Reserved
+license_url: http://www.monotype.com/html/type/license.html
 requires_license_agreement: |
   (from http://web.archive.org/web/20011222020409/http://www.microsoft.com/typography/fontpack/eula.htm)
   TrueType core fonts for the Web EULA
@@ -90,3 +92,4 @@ requires_license_agreement: |
   this page was last updated 28 July 1998
   © 1997 Microsoft Corporation. All rights reserved. Terms of use.
   comments to the MST group: ttwsite@microsoft.com
+command: create-formula https://gitlab.com/fontmirror/archive/-/raw/master/courie32.exe
