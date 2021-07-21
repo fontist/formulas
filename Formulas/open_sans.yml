@@ -7,62 +7,13 @@ resources:
     urls:
     - https://www.fontsquirrel.com/fonts/download/open-sans
 fonts:
-- name: OpenSans
+- name: Open Sans
   styles:
-  - family_name: Open Sans
-    type: Light
-    full_name: Open Sans Light
-    post_script_name: OpenSans-Light
-    version: '1.10'
-    description:
-    copyright: Digitized data copyright © 2010-2011, Google Corporation.
-    font: OpenSans-Light.ttf
-  - family_name: Open Sans
-    type: Light Italic
-    full_name: Open Sans Light Italic
-    post_script_name: OpenSansLight-Italic
-    version: '1.10'
-    description:
-    copyright: Digitized data copyright © 2010-2011, Google Corporation.
-    font: OpenSans-LightItalic.ttf
-  - family_name: Open Sans
-    type: Regular
-    full_name: Open Sans
-    post_script_name: OpenSans
-    version: '1.10'
-    description:
-    copyright: Digitized data copyright © 2010-2011, Google Corporation.
-    font: OpenSans-Regular.ttf
-  - family_name: Open Sans
-    type: Italic
-    full_name: Open Sans Italic
-    post_script_name: OpenSans-Italic
-    version: '1.10'
-    description:
-    copyright: Digitized data copyright © 2010-2011, Google Corporation.
-    font: OpenSans-Italic.ttf
-  - family_name: Open Sans
-    type: Semibold
-    full_name: Open Sans Semibold
-    post_script_name: OpenSans-Semibold
-    version: '1.10'
-    description:
-    copyright: Digitized data copyright © 2011, Google Corporation.
-    font: OpenSans-Semibold.ttf
-  - family_name: Open Sans
-    type: Semibold Italic
-    full_name: Open Sans Semibold Italic
-    post_script_name: OpenSans-SemiboldItalic
-    version: '1.10'
-    description:
-    copyright: Digitized data copyright © 2010-2011, Google Corporation.
-    font: OpenSans-SemiboldItalic.ttf
   - family_name: Open Sans
     type: Bold
     full_name: Open Sans Bold
     post_script_name: OpenSans-Bold
     version: '1.10'
-    description:
     copyright: Digitized data copyright © 2010-2011, Google Corporation.
     font: OpenSans-Bold.ttf
   - family_name: Open Sans
@@ -70,27 +21,85 @@ fonts:
     full_name: Open Sans Bold Italic
     post_script_name: OpenSans-BoldItalic
     version: '1.10'
-    description:
     copyright: Digitized data copyright © 2010-2011, Google Corporation.
     font: OpenSans-BoldItalic.ttf
   - family_name: Open Sans
-    type: Extrabold
-    full_name: Open Sans Extrabold
-    post_script_name: OpenSans-Extrabold
+    type: Italic
+    full_name: Open Sans Italic
+    post_script_name: OpenSans-Italic
     version: '1.10'
-    description:
-    copyright: Digitized data copyright © 2011, Google Corporation.
-    font: OpenSans-ExtraBold.ttf
+    copyright: Digitized data copyright © 2010-2011, Google Corporation.
+    font: OpenSans-Italic.ttf
   - family_name: Open Sans
-    type: Extrabold Italic
+    type: Regular
+    full_name: Open Sans
+    post_script_name: OpenSans
+    version: '1.10'
+    copyright: Digitized data copyright © 2010-2011, Google Corporation.
+    font: OpenSans-Regular.ttf
+- name: Open Sans Extrabold
+  styles:
+  - family_name: Open Sans Extrabold
+    type: Italic
+    preferred_family_name: Open Sans
+    preferred_type: Extrabold Italic
     full_name: Open Sans Extrabold Italic
     post_script_name: OpenSans-ExtraboldItalic
     version: '1.10'
-    description:
     copyright: Digitized data copyright © 2010-2011, Google Corporation.
     font: OpenSans-ExtraBoldItalic.ttf
-extract:
-  format: zip
+  - family_name: Open Sans Extrabold
+    type: Regular
+    preferred_family_name: Open Sans
+    preferred_type: Extrabold
+    full_name: Open Sans Extrabold
+    post_script_name: OpenSans-Extrabold
+    version: '1.10'
+    copyright: Digitized data copyright © 2011, Google Corporation.
+    font: OpenSans-ExtraBold.ttf
+- name: Open Sans Light
+  styles:
+  - family_name: Open Sans Light
+    type: Italic
+    preferred_family_name: Open Sans
+    preferred_type: Light Italic
+    full_name: Open Sans Light Italic
+    post_script_name: OpenSansLight-Italic
+    version: '1.10'
+    copyright: Digitized data copyright © 2010-2011, Google Corporation.
+    font: OpenSans-LightItalic.ttf
+  - family_name: Open Sans Light
+    type: Regular
+    preferred_family_name: Open Sans
+    preferred_type: Light
+    full_name: Open Sans Light
+    post_script_name: OpenSans-Light
+    version: '1.10'
+    copyright: Digitized data copyright © 2010-2011, Google Corporation.
+    font: OpenSans-Light.ttf
+- name: Open Sans Semibold
+  styles:
+  - family_name: Open Sans Semibold
+    type: Italic
+    preferred_family_name: Open Sans
+    preferred_type: Semibold Italic
+    full_name: Open Sans Semibold Italic
+    post_script_name: OpenSans-SemiboldItalic
+    version: '1.10'
+    copyright: Digitized data copyright © 2010-2011, Google Corporation.
+    font: OpenSans-SemiboldItalic.ttf
+  - family_name: Open Sans Semibold
+    type: Regular
+    preferred_family_name: Open Sans
+    preferred_type: Semibold
+    full_name: Open Sans Semibold
+    post_script_name: OpenSans-Semibold
+    version: '1.10'
+    copyright: Digitized data copyright © 2011, Google Corporation.
+    font: OpenSans-Semibold.ttf
+extract: {}
+copyright: Digitized data copyright © 2011, Google Corporation.
+license_url: http://www.apache.org/licenses/LICENSE-2.0
 open_license: |
   Apache License
                              Version 2.0, January 2004
@@ -293,3 +302,4 @@ open_license: |
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: create-formula https://www.fontsquirrel.com/fonts/download/open-sans

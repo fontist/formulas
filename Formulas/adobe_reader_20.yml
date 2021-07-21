@@ -21,14 +21,6 @@ fonts:
 - name: Courier Std
   styles:
   - family_name: Courier Std
-    type: Medium
-    full_name: CourierStd
-    post_script_name: CourierStd
-    version: 2.067;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168
-    copyright: "© 1989, 1990, 1991, 1992, 1993, 1996, 1997, 1998, 2001 Adobe Systems
-      Incorporated. All rights reserved."
-    font: CourierStd.otf
-  - family_name: Courier Std
     type: Bold
     full_name: CourierStd-Bold
     post_script_name: CourierStd-Bold
@@ -37,7 +29,8 @@ fonts:
       Incorporated. All rights reserved."
     font: CourierStd_Bold.otf
   - family_name: Courier Std
-    type: Bold Oblique
+    type: Bold Italic
+    preferred_type: Bold Oblique
     full_name: CourierStd-BoldOblique
     post_script_name: CourierStd-BoldOblique
     version: 2.067;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168
@@ -45,13 +38,23 @@ fonts:
       Incorporated. All rights reserved."
     font: CourierStd_BoldOblique.otf
   - family_name: Courier Std
-    type: Medium Oblique
+    type: Italic
+    preferred_type: Medium Oblique
     full_name: CourierStd-Oblique
     post_script_name: CourierStd-Oblique
     version: 2.067;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168
     copyright: "© 1989, 1990, 1991, 1992, 1993, 1996, 1997, 1998, 2001 Adobe Systems
       Incorporated. All rights reserved."
     font: CourierStd_Oblique.otf
+  - family_name: Courier Std
+    type: Regular
+    preferred_type: Medium
+    full_name: CourierStd
+    post_script_name: CourierStd
+    version: 2.067;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168
+    copyright: "© 1989, 1990, 1991, 1992, 1993, 1996, 1997, 1998, 2001 Adobe Systems
+      Incorporated. All rights reserved."
+    font: CourierStd.otf
 - name: Minion Pro
   styles:
   - family_name: Minion Pro
@@ -129,10 +132,9 @@ fonts:
     copyright: "© 1992, 1994, 1997, 2000, 2004 Adobe Systems Incorporated. All rights
       reserved."
     font: MyriadPro_Regular.otf
-extract:
-- format: seven_zip
-- format: cab
-copyright: "© 2000, 2004, 2006 Adobe Systems Incorporated. All Rights Reserved."
+extract: {}
+copyright: "© 1992, 1994, 1997, 2000, 2004 Adobe Systems Incorporated. All rights
+  reserved."
 license_url: http://www.adobe.com/type/legal.html
 requires_license_agreement: |-
   Adobe End-User License Agreement
@@ -147,3 +149,4 @@ requires_license_agreement: |-
   DISCLAIMER OF WARRANTIES: YOU AGREE THAT ADOBE HAS MADE NO EXPRESS WARRANTIES TO YOU REGARDING THE SOFTWARE AND THAT THE SOFTWARE IS BEING PROVIDED TO YOU "AS IS" WITHOUT WARRANTY OF ANY KIND. ADOBE DISCLAIMS ALL WARRANTIES WITH REGARD TO THE SOFTWARE, EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, MERCHANTABLE QUALITY, OR NONINFRINGEMENT OF THIRD-PARTY RIGHTS. Some states or jurisdictions do not allow the exclusion of implied warranties, so the above limitations may not apply to you.
 
   LIMIT OF LIABILITY: IN NO EVENT WILL ADOBE BE LIABLE TO YOU FOR ANY LOSS OF USE, INTERRUPTION OF BUSINESS, OR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY KIND (INCLUDING LOST PROFITS) REGARDLESS OF THE FORM OF ACTION WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT PRODUCT LIABILITY OR OTHERWISE, EVEN IF ADOBE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. Some states or jurisdictions do not allow the exclusion or limitation of incidental or consequential damages, so the above limitation or exclusion may not apply to you.
+command: create-formula --name Adobe\ Reader\ 20 http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2001220041/AcroRdrDC2001220041_en_US.exe

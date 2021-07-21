@@ -12,13 +12,6 @@ fonts:
 - name: DengXian
   styles:
   - family_name: DengXian
-    type: Regular
-    full_name: DengXian Regular
-    post_script_name: DengXian-Regular
-    version: '1.14'
-    copyright: Copyright(c) Beijing Founder Electronics Co.,Ltd.2012
-    font: DENG.TTF
-  - family_name: DengXian
     type: Bold
     full_name: DengXian Bold
     post_script_name: DengXian-Bold
@@ -26,16 +19,24 @@ fonts:
     copyright: Copyright(c) Beijing Founder Electronics Co.,Ltd.2012
     font: DENGB.TTF
   - family_name: DengXian
-    type: Light
+    type: Regular
+    full_name: DengXian Regular
+    post_script_name: DengXian-Regular
+    version: '1.14'
+    copyright: Copyright(c) Beijing Founder Electronics Co.,Ltd.2012
+    font: DENG.TTF
+- name: DengXian Light
+  styles:
+  - family_name: DengXian Light
+    type: Regular
+    preferred_family_name: DengXian
+    preferred_type: Light
     full_name: DengXian Light
     post_script_name: DengXian-Light
     version: '1.14'
     copyright: Copyright(c) Beijing Founder Electronics Co.,Ltd.2012
     font: DENGL.TTF
-extract:
-- format: exe
-- format: msi
-- format: cab
+extract: {}
 copyright: Copyright(c) Beijing Founder Electronics Co.,Ltd.2012
 requires_license_agreement: |-
   MICROSOFT SOFTWARE SUPPLEMENTAL LICENSE TERMS
@@ -51,3 +52,4 @@ requires_license_agreement: |-
   If you comply with these license terms, you have the rights below.
 
   1. SUPPORT SERVICES FOR SUPPLEMENT. Microsoft provides support services for this software as described at www.support.microsoft.com/common/international.aspx.
+command: create-formula https://download.microsoft.com/download/4/0/9/4094ABA6-1A50-4FFD-A8CC-846BD66573F0/eadengfontpack.exe
