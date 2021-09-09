@@ -1,0 +1,36 @@
+name: google
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+          bundler-cache: true
+
+      - name: Install otfinfo
+        run: sudo apt-get install lcdf-typetools
+
+      - name: Cache Google repo
+        uses: actions/cache@v2
+        with:
+          path: "~/.fontist/google/fonts"
+          key: key2
+
+      - name: Import new fonts
+        run: bundle exec fontist google import --formulas_path Formulas
+
+      - uses: EndBug/add-and-commit@v7
+        with:
+          add: Formulas/google
+          default_author: github_actions
+          message: 'Update formulas for Google Fonts'
