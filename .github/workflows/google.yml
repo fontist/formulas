@@ -18,7 +18,9 @@ jobs:
           bundler-cache: true
 
       - name: Install otfinfo
-        run: sudo apt-get install lcdf-typetools
+        run: |
+          sudo apt-get update
+          sudo apt-get install lcdf-typetools
 
       - name: Cache Google repo
         uses: actions/cache@v2
