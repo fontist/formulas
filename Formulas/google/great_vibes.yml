@@ -1,32 +1,27 @@
 ---
-name: GreatVibes
+name: Great Vibes
 description: Great Vibes
-homepage:
+homepage: www.typesetit.com
 resources:
-  GreatVibes.zip:
+  Great_Vibes.zip:
     urls:
     - https://fonts.google.com/download?family=Great%20Vibes
-    sha256: bb493f0fbaf4365f51d2523348066e62aba4da8f621e160560674e043e911231
+    sha256: cd9e584927ba3509f43322d2f227a02414f3223a3cd4c59bd69817cd01cae115
 fonts:
 - name: Great Vibes
   styles:
   - family_name: Great Vibes
     type: Regular
-    full_name: Great Vibes
+    full_name: Great Vibes Regular
     post_script_name: GreatVibes-Regular
-    version: '1.001'
-    copyright: |-
-      Copyright (c) 2012 TypeSETit, LLC (typesetit@att.net),
-      with Reserved Font Name "Great Vibes"
+    version: 1.010; ttfautohint (v1.8.3)
+    copyright: Copyright 2010 The Great Vibes Pro Project Authors (https://github.com/googlefonts/great-vibes)
     font: GreatVibes-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012 TypeSETit, LLC (typesetit@att.net), with Reserved Font
-  Name "Great Vibes"
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright 2010 The Great Vibes Pro Project Authors (https://github.com/googlefonts/great-vibes)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2012, TypeSETit, LLC (typesetit@att.net),
-  with Reserved Font Name "Great Vibes"
+  Copyright 2015 The Great Vibes Pro Project Authors (https://github.com/googlefonts/great-vibes)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -34,7 +29,7 @@ open_license: |-
 
 
   -----------------------------------------------------------
-  SIL OPEN FONT LICENSE Version 1.1 - 1 February 2007
+  SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
   -----------------------------------------------------------
 
   PREAMBLE
@@ -47,8 +42,8 @@ open_license: |-
   The OFL allows the licensed fonts to be used, studied, modified and
   redistributed freely as long as they are not sold by themselves. The
   fonts, including any derivative works, can be bundled, embedded,
-  redistributed and/or sold with any software provided that the font
-  names of derivative works are changed. The fonts and derivatives,
+  redistributed and/or sold with any software provided that any reserved
+  names are not used by derivative works. The fonts and derivatives,
   however, cannot be released under any other type of license. The
   requirement for fonts to remain under this license does not apply
   to any document created using the fonts or their derivatives.
@@ -119,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 52ca64384bbae2fba486780c8715673973aab99818f247c27f9a6d2176d5baa2
+command: google import --formulas_path Formulas

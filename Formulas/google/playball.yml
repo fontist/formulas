@@ -1,32 +1,27 @@
 ---
 name: Playball
 description: Playball
-homepage:
+homepage: http://www.typesetit.com/
 resources:
   Playball.zip:
     urls:
     - https://fonts.google.com/download?family=Playball
-    sha256: d5ce001d8dd58b987fca652f37f4816f67bf34d5dd486507d98e9e44fbd42d77
+    sha256: f5cce96751115f5a8bc1e163953bf1232f4d5757b3d04ee3e2634d6641164de9
 fonts:
 - name: Playball
   styles:
   - family_name: Playball
     type: Regular
-    full_name: Playball
+    full_name: Playball Regular
     post_script_name: Playball-Regular
-    version: '1.001'
-    copyright: |-
-      Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net),
-      with Reserved Font Name "Playball"
+    version: '1.010'
+    copyright: Copyright 2011 The Playball Project Authors (https://github.com/googlefonts/play-ball)
     font: Playball-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font
-  Name "Playball"
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright 2011 The Playball Project Authors (https://github.com/googlefonts/play-ball)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net),
-  with Reserved Font Name "Playball"
+  Copyright 2011 The Playball Project Authors (https://github.com/googlefonts/play-ball)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -34,7 +29,7 @@ open_license: |-
 
 
   -----------------------------------------------------------
-  SIL OPEN FONT LICENSE Version 1.1 - 1 February 2007
+  SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
   -----------------------------------------------------------
 
   PREAMBLE
@@ -47,8 +42,8 @@ open_license: |-
   The OFL allows the licensed fonts to be used, studied, modified and
   redistributed freely as long as they are not sold by themselves. The
   fonts, including any derivative works, can be bundled, embedded,
-  redistributed and/or sold with any software provided that the font
-  names of derivative works are changed. The fonts and derivatives,
+  redistributed and/or sold with any software provided that any reserved
+  names are not used by derivative works. The fonts and derivatives,
   however, cannot be released under any other type of license. The
   requirement for fonts to remain under this license does not apply
   to any document created using the fonts or their derivatives.
@@ -119,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 8fe3cdf45abd4414172017c18264a6464292dd01192614ab7caf1ae4a94cb938
+command: google import --formulas_path Formulas

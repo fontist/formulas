@@ -1,73 +1,95 @@
 ---
-name: BigShouldersDisplay
+name: Big Shoulders Display
 description: Big Shoulders Display
 homepage: http://xotype.co
 resources:
-  BigShouldersDisplay.zip:
+  Big_Shoulders_Display.zip:
     urls:
     - https://fonts.google.com/download?family=Big%20Shoulders%20Display
-    sha256: 8c49992c5c01b452096534fb7de6c74e193ac685fa5e4443a810f07269c7b71a
 fonts:
 - name: Big Shoulders Display
   styles:
   - family_name: Big Shoulders Display
-    type: Thin
-    full_name: Big Shoulders Display Thin
-    post_script_name: BigShouldersDisplay-Thin
-    version: '1.100'
+    type: Bold
+    full_name: Big Shoulders Display Bold
+    post_script_name: BigShouldersDisplay-Bold
+    version: '1.101'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
-    font: BigShouldersDisplay-Thin.ttf
-  - family_name: Big Shoulders Display
-    type: Light
-    full_name: Big Shoulders Display Light
-    post_script_name: BigShouldersDisplay-Light
-    version: '1.100'
-    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
-    font: BigShouldersDisplay-Light.ttf
+    font: BigShouldersDisplay-Bold.ttf
   - family_name: Big Shoulders Display
     type: Regular
     full_name: Big Shoulders Display Regular
     post_script_name: BigShouldersDisplay-Regular
-    version: '1.100'
+    version: '1.101'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersDisplay-Regular.ttf
-  - family_name: Big Shoulders Display
-    type: Medium
-    full_name: Big Shoulders Display Medium
-    post_script_name: BigShouldersDisplay-Medium
-    version: '1.100'
-    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
-    font: BigShouldersDisplay-Medium.ttf
-  - family_name: Big Shoulders Display
-    type: SemiBold
-    full_name: Big Shoulders Display SemiBold
-    post_script_name: BigShouldersDisplay-SemiBold
-    version: '1.100'
-    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
-    font: BigShouldersDisplay-SemiBold.ttf
-  - family_name: Big Shoulders Display
-    type: Bold
-    full_name: Big Shoulders Display Bold
-    post_script_name: BigShouldersDisplay-Bold
-    version: '1.100'
-    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
-    font: BigShouldersDisplay-Bold.ttf
-  - family_name: Big Shoulders Display
-    type: ExtraBold
-    full_name: Big Shoulders Display ExtraBold
-    post_script_name: BigShouldersDisplay-ExtraBold
-    version: '1.100'
-    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
-    font: BigShouldersDisplay-ExtraBold.ttf
-  - family_name: Big Shoulders Display
-    type: Black
+- name: Big Shoulders Display Black
+  styles:
+  - family_name: Big Shoulders Display Black
+    type: Regular
+    preferred_family_name: Big Shoulders Display
+    preferred_type: Black
     full_name: Big Shoulders Display Black
     post_script_name: BigShouldersDisplay-Black
-    version: '1.100'
+    version: '1.101'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersDisplay-Black.ttf
-extract:
-  format: zip
+- name: Big Shoulders Display ExtraBold
+  styles:
+  - family_name: Big Shoulders Display ExtraBold
+    type: Regular
+    preferred_family_name: Big Shoulders Display
+    preferred_type: ExtraBold
+    full_name: Big Shoulders Display ExtraBold
+    post_script_name: BigShouldersDisplay-ExtraBold
+    version: '1.101'
+    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
+    font: BigShouldersDisplay-ExtraBold.ttf
+- name: Big Shoulders Display Light
+  styles:
+  - family_name: Big Shoulders Display Light
+    type: Regular
+    preferred_family_name: Big Shoulders Display
+    preferred_type: Light
+    full_name: Big Shoulders Display Light
+    post_script_name: BigShouldersDisplay-Light
+    version: '1.101'
+    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
+    font: BigShouldersDisplay-Light.ttf
+- name: Big Shoulders Display Medium
+  styles:
+  - family_name: Big Shoulders Display Medium
+    type: Regular
+    preferred_family_name: Big Shoulders Display
+    preferred_type: Medium
+    full_name: Big Shoulders Display Medium
+    post_script_name: BigShouldersDisplay-Medium
+    version: '1.101'
+    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
+    font: BigShouldersDisplay-Medium.ttf
+- name: Big Shoulders Display SemiBold
+  styles:
+  - family_name: Big Shoulders Display SemiBold
+    type: Regular
+    preferred_family_name: Big Shoulders Display
+    preferred_type: SemiBold
+    full_name: Big Shoulders Display SemiBold
+    post_script_name: BigShouldersDisplay-SemiBold
+    version: '1.101'
+    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
+    font: BigShouldersDisplay-SemiBold.ttf
+- name: Big Shoulders Display Thin
+  styles:
+  - family_name: Big Shoulders Display Thin
+    type: Regular
+    preferred_family_name: Big Shoulders Display
+    preferred_type: Thin
+    full_name: Big Shoulders Display Thin
+    post_script_name: BigShouldersDisplay-Thin
+    version: '1.101'
+    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
+    font: BigShouldersDisplay-Thin.ttf
+extract: {}
 copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
@@ -164,3 +186,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 8b8983a81f53186a6c7ac222cfca46eed17bb2751f9d32885232c40c0676e0fa
+command: google import --formulas_path Formulas

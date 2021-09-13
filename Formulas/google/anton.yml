@@ -6,7 +6,7 @@ resources:
   Anton.zip:
     urls:
     - https://fonts.google.com/download?family=Anton
-    sha256: 4da60f8942e5bf2a03c42cafb4c953b1d0c60530d3155337958f0a377aa6889e
+    sha256: 530838d9a6d5a8ddccfb4e7b0aa3a17515f2d8e4529c71fe220094d0c9ebc409
 fonts:
 - name: Anton
   styles:
@@ -14,15 +14,14 @@ fonts:
     type: Regular
     full_name: Anton Regular
     post_script_name: Anton-Regular
-    version: '2.000'
-    copyright: Copyright 2011 The Anton Project Authors
+    version: 2.116; ttfautohint (v1.8.3)
+    copyright: Copyright 2020 The Anton Project Authors (https://github.com/googlefonts/AntonFont.git)
     font: Anton-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2011 The Anton Project Authors
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright 2020 The Anton Project Authors (https://github.com/googlefonts/AntonFont.git)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2016 The Anton Project Authors
+  Copyright 2020 The Anton Project Authors (https://github.com/googlefonts/AntonFont.git)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -115,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 0dbe54e0730c5664c9681257c48de486374dc480b92333b1018a6ab1d94d5570
+command: google import --formulas_path Formulas

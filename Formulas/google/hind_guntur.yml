@@ -1,57 +1,68 @@
 ---
-name: HindGuntur
+name: Hind Guntur
 description: Hind Guntur
 homepage: https://github.com/itfoundry/hind-guntur
 resources:
-  HindGuntur.zip:
+  Hind_Guntur.zip:
     urls:
     - https://fonts.google.com/download?family=Hind%20Guntur
-    sha256: d66d8bbe7c06a68d717b7746149d9e1429e0e7d99168ffb3d52da746b5614f34
+    sha256: de2c4ca781744ed5835e4d21cacde9723d9e2fdc9d32dda7df643101d17fdd91
 fonts:
 - name: Hind Guntur
   styles:
   - family_name: Hind Guntur
-    type: Light
-    full_name: Hind Guntur Light
-    post_script_name: HindGuntur-Light
-    version: 1.001;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.5.33-1714)
-      -l 8 -r 50 -G 200 -x 13 -D latn -f telu -w G -W -c -X ""
+    type: Bold
+    full_name: Hind Guntur Bold
+    post_script_name: HindGuntur-Bold
+    version: 1.002;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.8.2)
+      -l 8 -r 50 -G 200 -x 13 -D telu -f latn -a qsq -W -X ""
     copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-    font: HindGuntur-Light.ttf
+    font: HindGuntur-Bold.ttf
   - family_name: Hind Guntur
     type: Regular
     full_name: Hind Guntur Regular
     post_script_name: HindGuntur-Regular
-    version: 1.001;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.5.33-1714)
-      -l 8 -r 50 -G 200 -x 13 -D latn -f telu -w G -W -c -X ""
+    version: 1.002;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.8.2)
+      -l 8 -r 50 -G 200 -x 13 -D telu -f latn -a qsq -W -X ""
     copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
     font: HindGuntur-Regular.ttf
-  - family_name: Hind Guntur
-    type: Medium
+- name: Hind Guntur Light
+  styles:
+  - family_name: Hind Guntur Light
+    type: Regular
+    preferred_family_name: Hind Guntur
+    preferred_type: Light
+    full_name: Hind Guntur Light
+    post_script_name: HindGuntur-Light
+    version: 1.002;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.8.2)
+      -l 8 -r 50 -G 200 -x 13 -D telu -f latn -a qsq -W -X ""
+    copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
+    font: HindGuntur-Light.ttf
+- name: Hind Guntur Medium
+  styles:
+  - family_name: Hind Guntur Medium
+    type: Regular
+    preferred_family_name: Hind Guntur
+    preferred_type: Medium
     full_name: Hind Guntur Medium
     post_script_name: HindGuntur-Medium
-    version: 1.001;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.5.33-1714)
-      -l 8 -r 50 -G 200 -x 13 -D latn -f telu -w G -W -c -X ""
+    version: 1.002;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.8.2)
+      -l 8 -r 50 -G 200 -x 13 -D telu -f latn -a qsq -W -X ""
     copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
     font: HindGuntur-Medium.ttf
-  - family_name: Hind Guntur
-    type: SemiBold
+- name: Hind Guntur SemiBold
+  styles:
+  - family_name: Hind Guntur SemiBold
+    type: Regular
+    preferred_family_name: Hind Guntur
+    preferred_type: SemiBold
     full_name: Hind Guntur SemiBold
     post_script_name: HindGuntur-SemiBold
-    version: 1.001;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.5.33-1714)
-      -l 8 -r 50 -G 200 -x 13 -D latn -f telu -w G -W -c -X ""
+    version: 1.002;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.8.2)
+      -l 8 -r 50 -G 200 -x 13 -D telu -f latn -a qsq -W -X ""
     copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
     font: HindGuntur-SemiBold.ttf
-  - family_name: Hind Guntur
-    type: Bold
-    full_name: Hind Guntur Bold
-    post_script_name: HindGuntur-Bold
-    version: 1.001;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.5.33-1714)
-      -l 8 -r 50 -G 200 -x 13 -D latn -f telu -w G -W -c -X ""
-    copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-    font: HindGuntur-Bold.ttf
-extract:
-  format: zip
+extract: {}
 copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -148,3 +159,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: e661bef78a83e5b32ccd998902ded962de8f498fa672362ece4f12ed8ecc37ab
+command: google import --formulas_path Formulas

@@ -1,51 +1,14 @@
 ---
-name: RedHatDisplay
+name: Red Hat Display
 description: Red Hat Display
 homepage: http://www.mckltype.com
 resources:
-  RedHatDisplay.zip:
+  Red_Hat_Display.zip:
     urls:
     - https://fonts.google.com/download?family=Red%20Hat%20Display
-    sha256: 87c55eef973ce51b5e1bb663e14ef0b18c5d6c2394fa7c281e52a2d8f7a0e7a7
 fonts:
 - name: Red Hat Display
   styles:
-  - family_name: Red Hat Display
-    type: Regular
-    full_name: Red Hat Display
-    post_script_name: RedHatDisplay-Regular
-    version: 1.005; Red Hat Display
-    description: 'This Font Software is licensed under the SIL Open Font License,
-      Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
-    copyright: Copyright 2019 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
-    font: RedHatDisplay-Regular.ttf
-  - family_name: Red Hat Display
-    type: Italic
-    full_name: Red Hat Display It
-    post_script_name: RedHatDisplay-Italic
-    version: 1.005; Red Hat Display Italic
-    description: 'This Font Software is licensed under the SIL Open Font License,
-      Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
-    copyright: Copyright 2019 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
-    font: RedHatDisplay-Italic.ttf
-  - family_name: Red Hat Display
-    type: Medium
-    full_name: Red Hat Display Medium
-    post_script_name: RedHatDisplay-Medium
-    version: 1.005; Red Hat Display Medium
-    description: 'This Font Software is licensed under the SIL Open Font License,
-      Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
-    copyright: Copyright 2019 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
-    font: RedHatDisplay-Medium.ttf
-  - family_name: Red Hat Display
-    type: Medium Italic
-    full_name: Red Hat Display Medium It
-    post_script_name: RedHatDisplay-MediumItalic
-    version: 1.005; Red Hat Display Medium Italic
-    description: 'This Font Software is licensed under the SIL Open Font License,
-      Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
-    copyright: Copyright 2019 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
-    font: RedHatDisplay-MediumItalic.ttf
   - family_name: Red Hat Display
     type: Bold
     full_name: Red Hat Display Bold
@@ -65,16 +28,29 @@ fonts:
     copyright: Copyright 2019 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
     font: RedHatDisplay-BoldItalic.ttf
   - family_name: Red Hat Display
-    type: Black
-    full_name: Red Hat Display Black
-    post_script_name: RedHatDisplay-Black
-    version: 1.005; Red Hat Display Black
+    type: Italic
+    full_name: Red Hat Display It
+    post_script_name: RedHatDisplay-Italic
+    version: 1.005; Red Hat Display Italic
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
     copyright: Copyright 2019 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
-    font: RedHatDisplay-Black.ttf
+    font: RedHatDisplay-Italic.ttf
   - family_name: Red Hat Display
-    type: Black Italic
+    type: Regular
+    full_name: Red Hat Display
+    post_script_name: RedHatDisplay-Regular
+    version: 1.005; Red Hat Display
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    copyright: Copyright 2019 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
+    font: RedHatDisplay-Regular.ttf
+- name: Red Hat Display Black
+  styles:
+  - family_name: Red Hat Display Black
+    type: Italic
+    preferred_family_name: Red Hat Display
+    preferred_type: Black Italic
     full_name: Red Hat Display Black It
     post_script_name: RedHatDisplay-BlackItalic
     version: 1.005; Red Hat Display Black Italic
@@ -82,8 +58,42 @@ fonts:
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
     copyright: Copyright 2019 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
     font: RedHatDisplay-BlackItalic.ttf
-extract:
-  format: zip
+  - family_name: Red Hat Display Black
+    type: Regular
+    preferred_family_name: Red Hat Display
+    preferred_type: Black
+    full_name: Red Hat Display Black
+    post_script_name: RedHatDisplay-Black
+    version: 1.005; Red Hat Display Black
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    copyright: Copyright 2019 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
+    font: RedHatDisplay-Black.ttf
+- name: Red Hat Display Medium
+  styles:
+  - family_name: Red Hat Display Medium
+    type: Italic
+    preferred_family_name: Red Hat Display
+    preferred_type: Medium Italic
+    full_name: Red Hat Display Medium It
+    post_script_name: RedHatDisplay-MediumItalic
+    version: 1.005; Red Hat Display Medium Italic
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    copyright: Copyright 2019 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
+    font: RedHatDisplay-MediumItalic.ttf
+  - family_name: Red Hat Display Medium
+    type: Regular
+    preferred_family_name: Red Hat Display
+    preferred_type: Medium
+    full_name: Red Hat Display Medium
+    post_script_name: RedHatDisplay-Medium
+    version: 1.005; Red Hat Display Medium
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    copyright: Copyright 2019 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
+    font: RedHatDisplay-Medium.ttf
+extract: {}
 copyright: Copyright 2019 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -180,3 +190,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 35ec808c02dcc3af48997aa083b2d4476dd53e7533c0c1b667e4237bf95a553c
+command: google import --formulas_path Formulas

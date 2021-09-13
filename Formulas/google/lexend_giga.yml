@@ -1,28 +1,117 @@
 ---
-name: LexendGiga
+name: Lexend Giga
 description: Lexend Giga
-homepage:
+homepage: https://www.lexend.com
 resources:
-  LexendGiga.zip:
+  Lexend_Giga.zip:
     urls:
     - https://fonts.google.com/download?family=Lexend%20Giga
-    sha256: 5099ef3d2c3b097458478add0b2bc06bca3224f9e8eda8f2ad2f4280802fc693
 fonts:
 - name: Lexend Giga
   styles:
   - family_name: Lexend Giga
+    type: Bold
+    full_name: Lexend Giga Bold
+    post_script_name: LexendGiga-Bold
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendGiga-Bold.ttf
+  - family_name: Lexend Giga
     type: Regular
     full_name: Lexend Giga Regular
     post_script_name: LexendGiga-Regular
-    version: '1.001'
-    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/ThomasJockin/lexend)
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
     font: LexendGiga-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2019 The Lexend Project Authors (https://github.com/ThomasJockin/lexend)
-license_url: http://scripts.sil.org/OFL
+  - family_name: Lexend Giga
+    type: Regular
+    full_name: Lexend Giga Regular
+    post_script_name: LexendGiga-Regular
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendGiga-VariableFont_wght.ttf
+- name: Lexend Giga Black
+  styles:
+  - family_name: Lexend Giga Black
+    type: Regular
+    preferred_family_name: Lexend Giga
+    preferred_type: Black
+    full_name: Lexend Giga Black
+    post_script_name: LexendGiga-Black
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendGiga-Black.ttf
+- name: Lexend Giga ExtraBold
+  styles:
+  - family_name: Lexend Giga ExtraBold
+    type: Regular
+    preferred_family_name: Lexend Giga
+    preferred_type: ExtraBold
+    full_name: Lexend Giga ExtraBold
+    post_script_name: LexendGiga-ExtraBold
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendGiga-ExtraBold.ttf
+- name: Lexend Giga ExtraLight
+  styles:
+  - family_name: Lexend Giga ExtraLight
+    type: Regular
+    preferred_family_name: Lexend Giga
+    preferred_type: ExtraLight
+    full_name: Lexend Giga ExtraLight
+    post_script_name: LexendGiga-ExtraLight
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendGiga-ExtraLight.ttf
+- name: Lexend Giga Light
+  styles:
+  - family_name: Lexend Giga Light
+    type: Regular
+    preferred_family_name: Lexend Giga
+    preferred_type: Light
+    full_name: Lexend Giga Light
+    post_script_name: LexendGiga-Light
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendGiga-Light.ttf
+- name: Lexend Giga Medium
+  styles:
+  - family_name: Lexend Giga Medium
+    type: Regular
+    preferred_family_name: Lexend Giga
+    preferred_type: Medium
+    full_name: Lexend Giga Medium
+    post_script_name: LexendGiga-Medium
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendGiga-Medium.ttf
+- name: Lexend Giga SemiBold
+  styles:
+  - family_name: Lexend Giga SemiBold
+    type: Regular
+    preferred_family_name: Lexend Giga
+    preferred_type: SemiBold
+    full_name: Lexend Giga SemiBold
+    post_script_name: LexendGiga-SemiBold
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendGiga-SemiBold.ttf
+- name: Lexend Giga Thin
+  styles:
+  - family_name: Lexend Giga Thin
+    type: Regular
+    preferred_family_name: Lexend Giga
+    preferred_type: Thin
+    full_name: Lexend Giga Thin
+    post_script_name: LexendGiga-Thin
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendGiga-Thin.ttf
+extract: {}
+copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2018 The Lexend Project Authors (https://github.com/thomasjockin/lexend), with Reserved Font Name “RevReading Lexend”.
+  Copyright 2018 The Lexend Project Authors (https://github.com/googlefonts/lexend), with Reserved Font Name “RevReading Lexend”.
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -115,3 +204,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 3dec6bcf46566a43246010f47c9717a25dc07dec05bbdd2483ec3f37b3d96c47
+command: google import --formulas_path Formulas

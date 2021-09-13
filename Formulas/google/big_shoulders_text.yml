@@ -1,73 +1,95 @@
 ---
-name: BigShouldersText
+name: Big Shoulders Text
 description: Big Shoulders Text
 homepage: http://xotype.co
 resources:
-  BigShouldersText.zip:
+  Big_Shoulders_Text.zip:
     urls:
     - https://fonts.google.com/download?family=Big%20Shoulders%20Text
-    sha256: 6db5457899f4acd57910ad7a285665eb8f52d8d49ce97a538b1335337846d98d
 fonts:
 - name: Big Shoulders Text
   styles:
   - family_name: Big Shoulders Text
-    type: Thin
-    full_name: Big Shoulders Text Thin
-    post_script_name: BigShouldersText-Thin
-    version: '1.100'
+    type: Bold
+    full_name: Big Shoulders Text Bold
+    post_script_name: BigShouldersText-Bold
+    version: '1.101'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
-    font: BigShouldersText-Thin.ttf
-  - family_name: Big Shoulders Text
-    type: Light
-    full_name: Big Shoulders Text Light
-    post_script_name: BigShouldersText-Light
-    version: '1.100'
-    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
-    font: BigShouldersText-Light.ttf
+    font: BigShouldersText-Bold.ttf
   - family_name: Big Shoulders Text
     type: Regular
     full_name: Big Shoulders Text Regular
     post_script_name: BigShouldersText-Regular
-    version: '1.100'
+    version: '1.101'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersText-Regular.ttf
-  - family_name: Big Shoulders Text
-    type: Medium
-    full_name: Big Shoulders Text Medium
-    post_script_name: BigShouldersText-Medium
-    version: '1.100'
-    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
-    font: BigShouldersText-Medium.ttf
-  - family_name: Big Shoulders Text
-    type: SemiBold
-    full_name: Big Shoulders Text SemiBold
-    post_script_name: BigShouldersText-SemiBold
-    version: '1.100'
-    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
-    font: BigShouldersText-SemiBold.ttf
-  - family_name: Big Shoulders Text
-    type: Bold
-    full_name: Big Shoulders Text Bold
-    post_script_name: BigShouldersText-Bold
-    version: '1.100'
-    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
-    font: BigShouldersText-Bold.ttf
-  - family_name: Big Shoulders Text
-    type: ExtraBold
-    full_name: Big Shoulders Text ExtraBold
-    post_script_name: BigShouldersText-ExtraBold
-    version: '1.100'
-    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
-    font: BigShouldersText-ExtraBold.ttf
-  - family_name: Big Shoulders Text
-    type: Black
+- name: Big Shoulders Text Black
+  styles:
+  - family_name: Big Shoulders Text Black
+    type: Regular
+    preferred_family_name: Big Shoulders Text
+    preferred_type: Black
     full_name: Big Shoulders Text Black
     post_script_name: BigShouldersText-Black
-    version: '1.100'
+    version: '1.101'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersText-Black.ttf
-extract:
-  format: zip
+- name: Big Shoulders Text ExtraBold
+  styles:
+  - family_name: Big Shoulders Text ExtraBold
+    type: Regular
+    preferred_family_name: Big Shoulders Text
+    preferred_type: ExtraBold
+    full_name: Big Shoulders Text ExtraBold
+    post_script_name: BigShouldersText-ExtraBold
+    version: '1.101'
+    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
+    font: BigShouldersText-ExtraBold.ttf
+- name: Big Shoulders Text Light
+  styles:
+  - family_name: Big Shoulders Text Light
+    type: Regular
+    preferred_family_name: Big Shoulders Text
+    preferred_type: Light
+    full_name: Big Shoulders Text Light
+    post_script_name: BigShouldersText-Light
+    version: '1.101'
+    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
+    font: BigShouldersText-Light.ttf
+- name: Big Shoulders Text Medium
+  styles:
+  - family_name: Big Shoulders Text Medium
+    type: Regular
+    preferred_family_name: Big Shoulders Text
+    preferred_type: Medium
+    full_name: Big Shoulders Text Medium
+    post_script_name: BigShouldersText-Medium
+    version: '1.101'
+    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
+    font: BigShouldersText-Medium.ttf
+- name: Big Shoulders Text SemiBold
+  styles:
+  - family_name: Big Shoulders Text SemiBold
+    type: Regular
+    preferred_family_name: Big Shoulders Text
+    preferred_type: SemiBold
+    full_name: Big Shoulders Text SemiBold
+    post_script_name: BigShouldersText-SemiBold
+    version: '1.101'
+    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
+    font: BigShouldersText-SemiBold.ttf
+- name: Big Shoulders Text Thin
+  styles:
+  - family_name: Big Shoulders Text Thin
+    type: Regular
+    preferred_family_name: Big Shoulders Text
+    preferred_type: Thin
+    full_name: Big Shoulders Text Thin
+    post_script_name: BigShouldersText-Thin
+    version: '1.101'
+    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
+    font: BigShouldersText-Thin.ttf
+extract: {}
 copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
@@ -164,3 +186,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 6983a9c4e84aaa8c56329e8acad5782d5d3b82e2712e20504d2e1a10fa43607e
+command: google import --formulas_path Formulas

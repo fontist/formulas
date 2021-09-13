@@ -10,14 +10,84 @@ fonts:
 - name: Manrope
   styles:
   - family_name: Manrope
-    type: ExtraLight
+    type: Bold
+    full_name: Manrope Bold
+    post_script_name: Manrope-Bold
+    version: '4.501'
+    copyright: Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)
+    font: Manrope-Bold.ttf
+  - family_name: Manrope
+    type: Regular
+    full_name: Manrope Regular
+    post_script_name: Manrope-Regular
+    version: '4.501'
+    copyright: Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)
+    font: Manrope-Regular.ttf
+- name: Manrope ExtraBold
+  styles:
+  - family_name: Manrope ExtraBold
+    type: Regular
+    preferred_family_name: Manrope
+    preferred_type: ExtraBold
+    full_name: Manrope ExtraBold
+    post_script_name: Manrope-ExtraBold
+    version: '4.501'
+    copyright: Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)
+    font: Manrope-ExtraBold.ttf
+- name: Manrope ExtraLight
+  styles:
+  - family_name: Manrope ExtraLight
+    type: Regular
+    preferred_family_name: Manrope
+    preferred_type: ExtraLight
+    full_name: Manrope ExtraLight
+    post_script_name: Manrope-ExtraLight
+    version: '4.501'
+    copyright: Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)
+    font: Manrope-ExtraLight.ttf
+  - family_name: Manrope ExtraLight
+    type: Regular
+    preferred_family_name: Manrope
+    preferred_type: ExtraLight
     full_name: Manrope ExtraLight
     post_script_name: Manrope-ExtraLight
     version: '4.501'
     copyright: Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)
     font: Manrope-VariableFont_wght.ttf
-extract:
-  format: zip
+- name: Manrope Light
+  styles:
+  - family_name: Manrope Light
+    type: Regular
+    preferred_family_name: Manrope
+    preferred_type: Light
+    full_name: Manrope Light
+    post_script_name: Manrope-Light
+    version: '4.501'
+    copyright: Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)
+    font: Manrope-Light.ttf
+- name: Manrope Medium
+  styles:
+  - family_name: Manrope Medium
+    type: Regular
+    preferred_family_name: Manrope
+    preferred_type: Medium
+    full_name: Manrope Medium
+    post_script_name: Manrope-Medium
+    version: '4.501'
+    copyright: Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)
+    font: Manrope-Medium.ttf
+- name: Manrope SemiBold
+  styles:
+  - family_name: Manrope SemiBold
+    type: Regular
+    preferred_family_name: Manrope
+    preferred_type: SemiBold
+    full_name: Manrope SemiBold
+    post_script_name: Manrope-SemiBold
+    version: '4.501'
+    copyright: Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)
+    font: Manrope-SemiBold.ttf
+extract: {}
 copyright: Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -114,3 +184,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: fda0465a3937e85ea5ae3841fa5ff3c2f251e10ec92ee90c02e150de62af6ddf
+command: google import --formulas_path Formulas

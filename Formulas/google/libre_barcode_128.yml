@@ -1,12 +1,11 @@
 ---
-name: LibreBarcode128
+name: Libre Barcode 128
 description: Libre Barcode 128
-homepage:
 resources:
-  LibreBarcode128.zip:
+  Libre_Barcode_128.zip:
     urls:
     - https://fonts.google.com/download?family=Libre%20Barcode%20128
-    sha256: 781716a2f1fe34312d23492b571c4c6f58766feadea614014b26b167804928fd
+    sha256: 7e393454a2ea5ff4604a878be189fc360ea5a8941472f2bc054c70a3835c5a89
 fonts:
 - name: Libre Barcode 128
   styles:
@@ -14,16 +13,14 @@ fonts:
     type: Regular
     full_name: Libre Barcode 128 Regular
     post_script_name: LibreBarcode128-Regular
-    version: 1.003; ttfautohint (v1.6) -l 8 -r 50 -G 200 -x 14 -D latn -f none -w
-      G -X ""
-    copyright: Copyright 2017 The Libre Barcode Project Authors (lasse@graphicore.de)
+    version: 1.005; ttfautohint (v1.8.3)
+    copyright: Copyright 2017-2020 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)
     font: LibreBarcode128-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2017 The Libre Barcode Project Authors (lasse@graphicore.de)
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright 2017-2020 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2015 The Libre Barcode Project Authors (lasse@graphicore.de)
+  Copyright 2017-2019 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,3 +113,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 03c5e0aedfa3e638df2a24e77c1d5741dab20846c312d526c32fb21aac152a9e
+command: google import --formulas_path Formulas

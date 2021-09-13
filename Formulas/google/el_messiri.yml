@@ -1,24 +1,52 @@
 ---
-name: ElMessiri
+name: El Messiri
 description: El Messiri
 homepage: http://kieftype.com/
 resources:
-  ElMessiri.zip:
+  El_Messiri.zip:
     urls:
     - https://fonts.google.com/download?family=El%20Messiri
 fonts:
 - name: El Messiri
   styles:
   - family_name: El Messiri
+    type: Bold
+    full_name: El Messiri Bold
+    post_script_name: ElMessiri-Bold
+    version: '2.006'
+    copyright: Copyright 2015 The El Messiri Project Authors.
+    font: ElMessiri-Bold.ttf
+  - family_name: El Messiri
     type: Regular
-    full_name: El Messiri Regular
+    full_name: ElMessiri-Regular
     post_script_name: ElMessiri-Regular
-    version: 2.009; ttfautohint (v1.8.2)
-    copyright: Copyright 2015 The El Messiri Project Authors (https://github.com/Gue3bara/El-Messiri)
-    font: ElMessiri-VariableFont_wght.ttf
-extract:
-  format: zip
-copyright: Copyright 2015 The El Messiri Project Authors (https://github.com/Gue3bara/El-Messiri)
+    version: '2.006'
+    copyright: Copyright 2015 The El Messiri Project Authors.
+    font: ElMessiri-Regular.ttf
+- name: El Messiri Medium
+  styles:
+  - family_name: El Messiri Medium
+    type: Regular
+    preferred_family_name: El Messiri
+    preferred_type: Medium
+    full_name: ElMessiri-Medium
+    post_script_name: ElMessiri-Medium
+    version: '2.006'
+    copyright: Copyright 2015 The El Messiri Project Authors.
+    font: ElMessiri-Medium.ttf
+- name: El Messiri SemiBold
+  styles:
+  - family_name: El Messiri SemiBold
+    type: Regular
+    preferred_family_name: El Messiri
+    preferred_type: SemiBold
+    full_name: ElMessiri-SemiBold
+    post_script_name: ElMessiri-SemiBold
+    version: '2.006'
+    copyright: Copyright 2015 The El Messiri Project Authors.
+    font: ElMessiri-SemiBold.ttf
+extract: {}
+copyright: Copyright 2015 The El Messiri Project Authors.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright 2015 The El Messiri Project Authors.
@@ -114,3 +142,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: d6f5b749a480f819297ffe64d1dd7a1b2d2c0059671111cefbe85d0c3882d064
+command: google import --formulas_path Formulas

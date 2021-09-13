@@ -1,86 +1,101 @@
 ---
 name: Asap
 description: Asap
-homepage: http://www.omnibus-type.com
+homepage: https://www.omnibus-type.com
 resources:
   Asap.zip:
     urls:
     - https://fonts.google.com/download?family=Asap
-    sha256: 0e3119759d748129a7008ad98c1139de6a4f2e343d89e53ddd088fbac08fd754
 fonts:
 - name: Asap
   styles:
   - family_name: Asap
-    type: Regular
-    full_name: Asap Regular
-    post_script_name: Asap-Regular
-    version: 2.000; ttfautohint (v1.8)
-    copyright: Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap)
-      with Reserved Font Name "Asap".
-    font: Asap-Regular.ttf
-  - family_name: Asap
-    type: Italic
-    full_name: Asap Italic
-    post_script_name: Asap-Italic
-    version: 2.000; ttfautohint (v1.8)
-    copyright: Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap)
-      with Reserved Font Name "Asap".
-    font: Asap-Italic.ttf
-  - family_name: Asap
-    type: Medium
-    full_name: Asap Medium
-    post_script_name: Asap-Medium
-    version: 2.000; ttfautohint (v1.8)
-    copyright: Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap)
-      with Reserved Font Name "Asap".
-    font: Asap-Medium.ttf
-  - family_name: Asap
-    type: Medium Italic
-    full_name: Asap Medium Italic
-    post_script_name: Asap-MediumItalic
-    version: 2.000; ttfautohint (v1.8)
-    copyright: Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap)
-      with Reserved Font Name "Asap".
-    font: Asap-MediumItalic.ttf
-  - family_name: Asap
-    type: SemiBold
-    full_name: Asap SemiBold
-    post_script_name: Asap-SemiBold
-    version: 2.000; ttfautohint (v1.8)
-    copyright: Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap)
-      with Reserved Font Name "Asap".
-    font: Asap-SemiBold.ttf
-  - family_name: Asap
-    type: SemiBold Italic
-    full_name: Asap SemiBold Italic
-    post_script_name: Asap-SemiBoldItalic
-    version: 2.000; ttfautohint (v1.8)
-    copyright: Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap)
-      with Reserved Font Name "Asap".
-    font: Asap-SemiBoldItalic.ttf
-  - family_name: Asap
     type: Bold
     full_name: Asap Bold
     post_script_name: Asap-Bold
-    version: 2.000; ttfautohint (v1.8)
+    version: '3.001'
     copyright: Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap)
-      with Reserved Font Name "Asap".
     font: Asap-Bold.ttf
   - family_name: Asap
     type: Bold Italic
     full_name: Asap Bold Italic
     post_script_name: Asap-BoldItalic
-    version: 2.000; ttfautohint (v1.8)
+    version: '3.001'
     copyright: Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap)
-      with Reserved Font Name "Asap".
     font: Asap-BoldItalic.ttf
-extract:
-  format: zip
+  - family_name: Asap
+    type: Italic
+    full_name: Asap Italic
+    post_script_name: Asap-Italic
+    version: '3.001'
+    copyright: Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap)
+    font: Asap-Italic.ttf
+  - family_name: Asap
+    type: Italic
+    full_name: Asap Italic
+    post_script_name: Asap-Italic
+    version: '3.001'
+    copyright: Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap)
+    font: Asap-Italic-VariableFont_wght.ttf
+  - family_name: Asap
+    type: Regular
+    full_name: Asap Regular
+    post_script_name: Asap-Regular
+    version: '3.001'
+    copyright: Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap)
+    font: Asap-VariableFont_wght.ttf
+  - family_name: Asap
+    type: Regular
+    full_name: Asap Regular
+    post_script_name: Asap-Regular
+    version: '3.001'
+    copyright: Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap)
+    font: Asap-Regular.ttf
+- name: Asap Medium
+  styles:
+  - family_name: Asap Medium
+    type: Italic
+    preferred_family_name: Asap
+    preferred_type: Medium Italic
+    full_name: Asap Medium Italic
+    post_script_name: Asap-MediumItalic
+    version: '3.001'
+    copyright: Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap)
+    font: Asap-MediumItalic.ttf
+  - family_name: Asap Medium
+    type: Regular
+    preferred_family_name: Asap
+    preferred_type: Medium
+    full_name: Asap Medium
+    post_script_name: Asap-Medium
+    version: '3.001'
+    copyright: Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap)
+    font: Asap-Medium.ttf
+- name: Asap SemiBold
+  styles:
+  - family_name: Asap SemiBold
+    type: Italic
+    preferred_family_name: Asap
+    preferred_type: SemiBold Italic
+    full_name: Asap SemiBold Italic
+    post_script_name: Asap-SemiBoldItalic
+    version: '3.001'
+    copyright: Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap)
+    font: Asap-SemiBoldItalic.ttf
+  - family_name: Asap SemiBold
+    type: Regular
+    preferred_family_name: Asap
+    preferred_type: SemiBold
+    full_name: Asap SemiBold
+    post_script_name: Asap-SemiBold
+    version: '3.001'
+    copyright: Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap)
+    font: Asap-SemiBold.ttf
+extract: {}
 copyright: Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap)
-  with Reserved Font Name "Asap".
-license_url: http://scripts.sil.org/OFL
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap).
+  Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -173,3 +188,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 1bac9537f4fd718454e2fda5075f3cb91ad2acb1f5d3edb2f4f13a820f72a30d
+command: google import --formulas_path Formulas

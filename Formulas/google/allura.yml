@@ -1,12 +1,12 @@
 ---
 name: Allura
 description: Allura
-homepage:
+homepage: www.typesetit.com
 resources:
   Allura.zip:
     urls:
     - https://fonts.google.com/download?family=Allura
-    sha256: 0cdb005fb85c4b9bfe4641be578adec8cb161ecd3b845fb93120b09f93d20f83
+    sha256: eb832d311c670e9f868256c18d844adba580f8cdbc12839c890c71b1a1821e81
 fonts:
 - name: Allura
   styles:
@@ -14,19 +14,14 @@ fonts:
     type: Regular
     full_name: Allura Regular
     post_script_name: Allura-Regular
-    version: '1.005'
-    copyright: |-
-      Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net),
-      with Reserved Font Name "Allura"
+    version: '1.100'
+    copyright: Copyright 2010 The Allura Project Authors (https://github.com/googlefonts/allura)
     font: Allura-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font
-  Name "Allura"
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright 2010 The Allura Project Authors (https://github.com/googlefonts/allura)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net),
-  with Reserved Font Name "Allura"
+  Copyright 2010 The Allura Project Authors (https://github.com/googlefonts/allura)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -34,7 +29,7 @@ open_license: |-
 
 
   -----------------------------------------------------------
-  SIL OPEN FONT LICENSE Version 1.1 - 1 February 2007
+  SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
   -----------------------------------------------------------
 
   PREAMBLE
@@ -47,8 +42,8 @@ open_license: |-
   The OFL allows the licensed fonts to be used, studied, modified and
   redistributed freely as long as they are not sold by themselves. The
   fonts, including any derivative works, can be bundled, embedded,
-  redistributed and/or sold with any software provided that the font
-  names of derivative works are changed. The fonts and derivatives,
+  redistributed and/or sold with any software provided that any reserved
+  names are not used by derivative works. The fonts and derivatives,
   however, cannot be released under any other type of license. The
   requirement for fonts to remain under this license does not apply
   to any document created using the fonts or their derivatives.
@@ -119,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 620e850a006ed202e57669a5bbc302728b9ffe72175f7c62e8d4223bdc9103ba
+command: google import --formulas_path Formulas

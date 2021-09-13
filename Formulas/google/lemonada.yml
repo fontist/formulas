@@ -10,14 +10,60 @@ fonts:
 - name: Lemonada
   styles:
   - family_name: Lemonada
+    type: Bold
+    full_name: Lemonada Bold
+    post_script_name: Lemonada-Bold
+    version: 4.004; ttfautohint (v1.8.2)
+    copyright: Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)
+    font: Lemonada-Bold.ttf
+  - family_name: Lemonada
     type: Regular
     full_name: Lemonada Regular
     post_script_name: Lemonada-Regular
     version: 4.004; ttfautohint (v1.8.2)
     copyright: Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)
     font: Lemonada-VariableFont_wght.ttf
-extract:
-  format: zip
+  - family_name: Lemonada
+    type: Regular
+    full_name: Lemonada Regular
+    post_script_name: Lemonada-Regular
+    version: 4.004; ttfautohint (v1.8.2)
+    copyright: Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)
+    font: Lemonada-Regular.ttf
+- name: Lemonada Light
+  styles:
+  - family_name: Lemonada Light
+    type: Regular
+    preferred_family_name: Lemonada
+    preferred_type: Light
+    full_name: Lemonada Light
+    post_script_name: Lemonada-Light
+    version: 4.004; ttfautohint (v1.8.2)
+    copyright: Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)
+    font: Lemonada-Light.ttf
+- name: Lemonada Medium
+  styles:
+  - family_name: Lemonada Medium
+    type: Regular
+    preferred_family_name: Lemonada
+    preferred_type: Medium
+    full_name: Lemonada Medium
+    post_script_name: Lemonada-Medium
+    version: 4.004; ttfautohint (v1.8.2)
+    copyright: Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)
+    font: Lemonada-Medium.ttf
+- name: Lemonada SemiBold
+  styles:
+  - family_name: Lemonada SemiBold
+    type: Regular
+    preferred_family_name: Lemonada
+    preferred_type: SemiBold
+    full_name: Lemonada SemiBold
+    post_script_name: Lemonada-SemiBold
+    version: 4.004; ttfautohint (v1.8.2)
+    copyright: Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)
+    font: Lemonada-SemiBold.ttf
+extract: {}
 copyright: Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -114,3 +160,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 9a951d06f43a4a0b5683b76f328ceb91fa8635f4ba6fce156a224fc2b37e2a61
+command: google import --formulas_path Formulas

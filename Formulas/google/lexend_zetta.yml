@@ -1,28 +1,117 @@
 ---
-name: LexendZetta
+name: Lexend Zetta
 description: Lexend Zetta
-homepage:
+homepage: https://www.lexend.com
 resources:
-  LexendZetta.zip:
+  Lexend_Zetta.zip:
     urls:
     - https://fonts.google.com/download?family=Lexend%20Zetta
-    sha256: 477d3ee67f5e9fde95241ef4d64672c0efc2e569cddcd5c6dc9749e6c4e77386
 fonts:
 - name: Lexend Zetta
   styles:
   - family_name: Lexend Zetta
+    type: Bold
+    full_name: Lexend Zetta Bold
+    post_script_name: LexendZetta-Bold
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendZetta-Bold.ttf
+  - family_name: Lexend Zetta
     type: Regular
     full_name: Lexend Zetta Regular
     post_script_name: LexendZetta-Regular
-    version: '1.001'
-    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/ThomasJockin/lexend)
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
     font: LexendZetta-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2019 The Lexend Project Authors (https://github.com/ThomasJockin/lexend)
-license_url: http://scripts.sil.org/OFL
+  - family_name: Lexend Zetta
+    type: Regular
+    full_name: Lexend Zetta Regular
+    post_script_name: LexendZetta-Regular
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendZetta-VariableFont_wght.ttf
+- name: Lexend Zetta Black
+  styles:
+  - family_name: Lexend Zetta Black
+    type: Regular
+    preferred_family_name: Lexend Zetta
+    preferred_type: Black
+    full_name: Lexend Zetta Black
+    post_script_name: LexendZetta-Black
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendZetta-Black.ttf
+- name: Lexend Zetta ExtraBold
+  styles:
+  - family_name: Lexend Zetta ExtraBold
+    type: Regular
+    preferred_family_name: Lexend Zetta
+    preferred_type: ExtraBold
+    full_name: Lexend Zetta ExtraBold
+    post_script_name: LexendZetta-ExtraBold
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendZetta-ExtraBold.ttf
+- name: Lexend Zetta ExtraLight
+  styles:
+  - family_name: Lexend Zetta ExtraLight
+    type: Regular
+    preferred_family_name: Lexend Zetta
+    preferred_type: ExtraLight
+    full_name: Lexend Zetta ExtraLight
+    post_script_name: LexendZetta-ExtraLight
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendZetta-ExtraLight.ttf
+- name: Lexend Zetta Light
+  styles:
+  - family_name: Lexend Zetta Light
+    type: Regular
+    preferred_family_name: Lexend Zetta
+    preferred_type: Light
+    full_name: Lexend Zetta Light
+    post_script_name: LexendZetta-Light
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendZetta-Light.ttf
+- name: Lexend Zetta Medium
+  styles:
+  - family_name: Lexend Zetta Medium
+    type: Regular
+    preferred_family_name: Lexend Zetta
+    preferred_type: Medium
+    full_name: Lexend Zetta Medium
+    post_script_name: LexendZetta-Medium
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendZetta-Medium.ttf
+- name: Lexend Zetta SemiBold
+  styles:
+  - family_name: Lexend Zetta SemiBold
+    type: Regular
+    preferred_family_name: Lexend Zetta
+    preferred_type: SemiBold
+    full_name: Lexend Zetta SemiBold
+    post_script_name: LexendZetta-SemiBold
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendZetta-SemiBold.ttf
+- name: Lexend Zetta Thin
+  styles:
+  - family_name: Lexend Zetta Thin
+    type: Regular
+    preferred_family_name: Lexend Zetta
+    preferred_type: Thin
+    full_name: Lexend Zetta Thin
+    post_script_name: LexendZetta-Thin
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendZetta-Thin.ttf
+extract: {}
+copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2018 The Lexend Project Authors (https://github.com/thomasjockin/lexend), with Reserved Font Name “RevReading Lexend”.
+  Copyright 2018 The Lexend Project Authors (https://github.com/googlefonts/lexend), with Reserved Font Name “RevReading Lexend”.
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -115,3 +204,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: a433f3107bff67b24860668177349a898dcda99ebebb830e28b379477b93c87e
+command: google import --formulas_path Formulas

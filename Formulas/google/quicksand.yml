@@ -10,18 +10,71 @@ fonts:
 - name: Quicksand
   styles:
   - family_name: Quicksand
-    type: Light
+    type: Bold
+    full_name: Quicksand Bold
+    post_script_name: Quicksand-Bold
+    version: '3.006'
+    copyright: Copyright 2019 The Quicksand Project Authors (https://github.com/andrew-paglinawan/QuicksandFamily.git),
+      with Reserved Font Name "Quicksand"
+    font: Quicksand-Bold.ttf
+  - family_name: Quicksand
+    type: Regular
+    full_name: Quicksand Regular
+    post_script_name: Quicksand-Regular
+    version: '3.006'
+    copyright: Copyright 2019 The Quicksand Project Authors (https://github.com/andrew-paglinawan/QuicksandFamily.git),
+      with Reserved Font Name "Quicksand"
+    font: Quicksand-Regular.ttf
+- name: Quicksand Light
+  styles:
+  - family_name: Quicksand Light
+    type: Regular
+    preferred_family_name: Quicksand
+    preferred_type: Light
     full_name: Quicksand Light
     post_script_name: Quicksand-Light
-    version: '3.004'
+    version: '3.006'
+    copyright: Copyright 2019 The Quicksand Project Authors (https://github.com/andrew-paglinawan/QuicksandFamily.git),
+      with Reserved Font Name "Quicksand"
+    font: Quicksand-Light.ttf
+  - family_name: Quicksand Light
+    type: Regular
+    preferred_family_name: Quicksand
+    preferred_type: Light
+    full_name: Quicksand Light
+    post_script_name: Quicksand-Light
+    version: '3.006'
     copyright: Copyright 2019 The Quicksand Project Authors (https://github.com/andrew-paglinawan/QuicksandFamily.git),
       with Reserved Font Name "Quicksand"
     font: Quicksand-VariableFont_wght.ttf
-extract:
-  format: zip
+- name: Quicksand Medium
+  styles:
+  - family_name: Quicksand Medium
+    type: Regular
+    preferred_family_name: Quicksand
+    preferred_type: Medium
+    full_name: Quicksand Medium
+    post_script_name: Quicksand-Medium
+    version: '3.006'
+    copyright: Copyright 2019 The Quicksand Project Authors (https://github.com/andrew-paglinawan/QuicksandFamily.git),
+      with Reserved Font Name "Quicksand"
+    font: Quicksand-Medium.ttf
+- name: Quicksand SemiBold
+  styles:
+  - family_name: Quicksand SemiBold
+    type: Regular
+    preferred_family_name: Quicksand
+    preferred_type: SemiBold
+    full_name: Quicksand SemiBold
+    post_script_name: Quicksand-SemiBold
+    version: '3.006'
+    copyright: Copyright 2019 The Quicksand Project Authors (https://github.com/andrew-paglinawan/QuicksandFamily.git),
+      with Reserved Font Name "Quicksand"
+    font: Quicksand-SemiBold.ttf
+extract: {}
 copyright: Copyright 2019 The Quicksand Project Authors (https://github.com/andrew-paglinawan/QuicksandFamily.git),
   with Reserved Font Name "Quicksand"
-license_url: http://scripts.sil.org/OFL
+license_url: https://scripts.sil.org/OFL
 open_license: |-
   Copyright 2011 The Quicksand Project Authors (https://github.com/andrew-paglinawan/QuicksandFamily), with Reserved Font Name “Quicksand”.
 
@@ -116,3 +169,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 5204b11e6a150d3f233c434cd3e9e71e57edd98f0dd8a80f6114e05287cbaa73
+command: google import --formulas_path Formulas

@@ -6,57 +6,68 @@ resources:
   Khula.zip:
     urls:
     - https://fonts.google.com/download?family=Khula
-    sha256: 72b67ccb23947064a03385f5cb569403cf2f4ad559222a25ffbc6e575c33e128
+    sha256: 62bdf6c9d052f91dc93d92c0f41c8f052195897e1dcf5427caef75f1bfb42523
 fonts:
 - name: Khula
   styles:
   - family_name: Khula
-    type: Light
-    full_name: Khula Light
-    post_script_name: Khula-Light
-    version: 1.001;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.1) -l
-      8 -r 50 -G 200 -x 14 -D deva -f latn -w G
-    copyright: Copyright (c) 2014, Erin McLaughlin (hello@erinmclaughlin.com). Digitized
-      data copyright 2010, Google Corporation.
-    font: Khula-Light.ttf
-  - family_name: Khula
-    type: Regular
-    full_name: Khula Regular
-    post_script_name: Khula-Regular
-    version: 1.001;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.1) -l
-      8 -r 50 -G 200 -x 14 -D deva -f latn -w G
-    copyright: Copyright (c) 2014, Erin McLaughlin (hello@erinmclaughlin.com). Digitized
-      data copyright 2010, Google Corporation.
-    font: Khula-Regular.ttf
-  - family_name: Khula
-    type: SemiBold
-    full_name: Khula SemiBold
-    post_script_name: Khula-SemiBold
-    version: 1.001;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.1) -l
-      8 -r 50 -G 200 -x 14 -D deva -f latn -w G
-    copyright: Copyright (c) 2014, Erin McLaughlin (hello@erinmclaughlin.com). Digitized
-      data copyright 2010, Google Corporation.
-    font: Khula-SemiBold.ttf
-  - family_name: Khula
     type: Bold
     full_name: Khula Bold
     post_script_name: Khula-Bold
-    version: 1.001;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.1) -l
-      8 -r 50 -G 200 -x 14 -D deva -f latn -w G
+    version: 1.002;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.8.2)
+      -l 8 -r 50 -G 200 -x 14 -D deva -f latn -a qsq -W -X ""
     copyright: Copyright (c) 2014, Erin McLaughlin (hello@erinmclaughlin.com). Digitized
       data copyright 2010, Google Corporation.
     font: Khula-Bold.ttf
   - family_name: Khula
-    type: ExtraBold
+    type: Regular
+    full_name: Khula Regular
+    post_script_name: Khula-Regular
+    version: 1.002;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.8.2)
+      -l 8 -r 50 -G 200 -x 14 -D deva -f latn -a qsq -W -X ""
+    copyright: Copyright (c) 2014, Erin McLaughlin (hello@erinmclaughlin.com). Digitized
+      data copyright 2010, Google Corporation.
+    font: Khula-Regular.ttf
+- name: Khula ExtraBold
+  styles:
+  - family_name: Khula ExtraBold
+    type: Regular
+    preferred_family_name: Khula
+    preferred_type: ExtraBold
     full_name: Khula ExtraBold
     post_script_name: Khula-ExtraBold
-    version: 1.001;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.1) -l
-      8 -r 50 -G 200 -x 14 -D deva -f latn -w G
+    version: 1.002;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.8.2)
+      -l 8 -r 50 -G 200 -x 14 -D deva -f latn -a qsq -W -X ""
     copyright: Copyright (c) 2014, Erin McLaughlin (hello@erinmclaughlin.com). Digitized
       data copyright 2010, Google Corporation.
     font: Khula-ExtraBold.ttf
-extract:
-  format: zip
+- name: Khula Light
+  styles:
+  - family_name: Khula Light
+    type: Regular
+    preferred_family_name: Khula
+    preferred_type: Light
+    full_name: Khula Light
+    post_script_name: Khula-Light
+    version: 1.002;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.8.2)
+      -l 8 -r 50 -G 200 -x 14 -D deva -f latn -a qsq -W -X ""
+    copyright: Copyright (c) 2014, Erin McLaughlin (hello@erinmclaughlin.com). Digitized
+      data copyright 2010, Google Corporation.
+    font: Khula-Light.ttf
+- name: Khula SemiBold
+  styles:
+  - family_name: Khula SemiBold
+    type: Regular
+    preferred_family_name: Khula
+    preferred_type: SemiBold
+    full_name: Khula SemiBold
+    post_script_name: Khula-SemiBold
+    version: 1.002;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.8.2)
+      -l 8 -r 50 -G 200 -x 14 -D deva -f latn -a qsq -W -X ""
+    copyright: Copyright (c) 2014, Erin McLaughlin (hello@erinmclaughlin.com). Digitized
+      data copyright 2010, Google Corporation.
+    font: Khula-SemiBold.ttf
+extract: {}
 copyright: Copyright (c) 2014, Erin McLaughlin (hello@erinmclaughlin.com). Digitized
   data copyright 2010, Google Corporation.
 license_url: http://scripts.sil.org/OFL
@@ -154,3 +165,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 2e7fabd5095c8beae287ef25c52c0514b94b7064178d899a536ab778268d60df
+command: google import --formulas_path Formulas

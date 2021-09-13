@@ -10,12 +10,26 @@ fonts:
 - name: Manuale
   styles:
   - family_name: Manuale
-    type: Regular
-    full_name: Manuale Regular
-    post_script_name: Manuale-Regular
+    type: Bold
+    full_name: Manuale Bold
+    post_script_name: Manuale-Bold
     version: 1.000; ttfautohint (v1.8.1.43-b0c9)
     copyright: Copyright 2016 The Manuale Project Authors (https://github.com/Omnibus-Type/Manuale)
-    font: Manuale-VariableFont_wght.ttf
+    font: Manuale-Bold.ttf
+  - family_name: Manuale
+    type: Bold Italic
+    full_name: Manuale Bold Italic
+    post_script_name: Manuale-BoldItalic
+    version: 1.000; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2016 The Manuale Project Authors (https://github.com/Omnibus-Type/Manuale)
+    font: Manuale-BoldItalic.ttf
+  - family_name: Manuale
+    type: Italic
+    full_name: Manuale Italic
+    post_script_name: Manuale-Italic
+    version: 1.000; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2016 The Manuale Project Authors (https://github.com/Omnibus-Type/Manuale)
+    font: Manuale-Italic.ttf
   - family_name: Manuale
     type: Italic
     full_name: Manuale Italic
@@ -23,8 +37,61 @@ fonts:
     version: 1.000; ttfautohint (v1.8.1.43-b0c9)
     copyright: Copyright 2016 The Manuale Project Authors (https://github.com/Omnibus-Type/Manuale)
     font: Manuale-Italic-VariableFont_wght.ttf
-extract:
-  format: zip
+  - family_name: Manuale
+    type: Regular
+    full_name: Manuale Regular
+    post_script_name: Manuale-Regular
+    version: 1.000; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2016 The Manuale Project Authors (https://github.com/Omnibus-Type/Manuale)
+    font: Manuale-VariableFont_wght.ttf
+  - family_name: Manuale
+    type: Regular
+    full_name: Manuale Regular
+    post_script_name: Manuale-Regular
+    version: 1.000; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2016 The Manuale Project Authors (https://github.com/Omnibus-Type/Manuale)
+    font: Manuale-Regular.ttf
+- name: Manuale Medium
+  styles:
+  - family_name: Manuale Medium
+    type: Italic
+    preferred_family_name: Manuale
+    preferred_type: Medium Italic
+    full_name: Manuale Medium Italic
+    post_script_name: Manuale-MediumItalic
+    version: 1.000; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2016 The Manuale Project Authors (https://github.com/Omnibus-Type/Manuale)
+    font: Manuale-MediumItalic.ttf
+  - family_name: Manuale Medium
+    type: Regular
+    preferred_family_name: Manuale
+    preferred_type: Medium
+    full_name: Manuale Medium
+    post_script_name: Manuale-Medium
+    version: 1.000; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2016 The Manuale Project Authors (https://github.com/Omnibus-Type/Manuale)
+    font: Manuale-Medium.ttf
+- name: Manuale SemiBold
+  styles:
+  - family_name: Manuale SemiBold
+    type: Italic
+    preferred_family_name: Manuale
+    preferred_type: SemiBold Italic
+    full_name: Manuale SemiBold Italic
+    post_script_name: Manuale-SemiBoldItalic
+    version: 1.000; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2016 The Manuale Project Authors (https://github.com/Omnibus-Type/Manuale)
+    font: Manuale-SemiBoldItalic.ttf
+  - family_name: Manuale SemiBold
+    type: Regular
+    preferred_family_name: Manuale
+    preferred_type: SemiBold
+    full_name: Manuale SemiBold
+    post_script_name: Manuale-SemiBold
+    version: 1.000; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2016 The Manuale Project Authors (https://github.com/Omnibus-Type/Manuale)
+    font: Manuale-SemiBold.ttf
+extract: {}
 copyright: Copyright 2016 The Manuale Project Authors (https://github.com/Omnibus-Type/Manuale)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -121,3 +188,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 987dc7776648724914bfcec2dc9ea742fd3488aaeeb5047f1a256e3964709b52
+command: google import --formulas_path Formulas

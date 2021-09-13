@@ -10,14 +10,71 @@ fonts:
 - name: Oswald
   styles:
   - family_name: Oswald
+    type: Bold
+    full_name: Oswald Bold
+    post_script_name: Oswald-Bold
+    version: 4.100; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
+    font: Oswald-Bold.ttf
+  - family_name: Oswald
     type: Regular
     full_name: Oswald Regular
     post_script_name: Oswald-Regular
     version: 4.100; ttfautohint (v1.8.1.43-b0c9)
     copyright: Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
     font: Oswald-VariableFont_wght.ttf
-extract:
-  format: zip
+  - family_name: Oswald
+    type: Regular
+    full_name: Oswald Regular
+    post_script_name: Oswald-Regular
+    version: 4.100; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
+    font: Oswald-Regular.ttf
+- name: Oswald ExtraLight
+  styles:
+  - family_name: Oswald ExtraLight
+    type: Regular
+    preferred_family_name: Oswald
+    preferred_type: ExtraLight
+    full_name: Oswald ExtraLight
+    post_script_name: Oswald-ExtraLight
+    version: 4.100; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
+    font: Oswald-ExtraLight.ttf
+- name: Oswald Light
+  styles:
+  - family_name: Oswald Light
+    type: Regular
+    preferred_family_name: Oswald
+    preferred_type: Light
+    full_name: Oswald Light
+    post_script_name: Oswald-Light
+    version: 4.100; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
+    font: Oswald-Light.ttf
+- name: Oswald Medium
+  styles:
+  - family_name: Oswald Medium
+    type: Regular
+    preferred_family_name: Oswald
+    preferred_type: Medium
+    full_name: Oswald Medium
+    post_script_name: Oswald-Medium
+    version: 4.100; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
+    font: Oswald-Medium.ttf
+- name: Oswald SemiBold
+  styles:
+  - family_name: Oswald SemiBold
+    type: Regular
+    preferred_family_name: Oswald
+    preferred_type: SemiBold
+    full_name: Oswald SemiBold
+    post_script_name: Oswald-SemiBold
+    version: 4.100; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
+    font: Oswald-SemiBold.ttf
+extract: {}
 copyright: Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -114,3 +171,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: ec8ce9e9d458462a456d6b70be26a2d7f95457b012edac3e7d923a36746352eb
+command: google import --formulas_path Formulas

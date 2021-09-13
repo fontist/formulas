@@ -1,28 +1,117 @@
 ---
-name: LexendDeca
+name: Lexend Deca
 description: Lexend Deca
-homepage:
+homepage: https://www.lexend.com
 resources:
-  LexendDeca.zip:
+  Lexend_Deca.zip:
     urls:
     - https://fonts.google.com/download?family=Lexend%20Deca
-    sha256: 6b0289844f9d4c0cb88d42b12c90c42d4bffecec00ec047a9d9769c89610bf7a
 fonts:
 - name: Lexend Deca
   styles:
   - family_name: Lexend Deca
+    type: Bold
+    full_name: Lexend Deca Bold
+    post_script_name: LexendDeca-Bold
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendDeca-Bold.ttf
+  - family_name: Lexend Deca
     type: Regular
     full_name: Lexend Deca Regular
     post_script_name: LexendDeca-Regular
-    version: '1.001'
-    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/ThomasJockin/lexend)
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
     font: LexendDeca-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2019 The Lexend Project Authors (https://github.com/ThomasJockin/lexend)
-license_url: http://scripts.sil.org/OFL
+  - family_name: Lexend Deca
+    type: Regular
+    full_name: Lexend Deca Regular
+    post_script_name: LexendDeca-Regular
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendDeca-VariableFont_wght.ttf
+- name: Lexend Deca Black
+  styles:
+  - family_name: Lexend Deca Black
+    type: Regular
+    preferred_family_name: Lexend Deca
+    preferred_type: Black
+    full_name: Lexend Deca Black
+    post_script_name: LexendDeca-Black
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendDeca-Black.ttf
+- name: Lexend Deca ExtraBold
+  styles:
+  - family_name: Lexend Deca ExtraBold
+    type: Regular
+    preferred_family_name: Lexend Deca
+    preferred_type: ExtraBold
+    full_name: Lexend Deca ExtraBold
+    post_script_name: LexendDeca-ExtraBold
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendDeca-ExtraBold.ttf
+- name: Lexend Deca ExtraLight
+  styles:
+  - family_name: Lexend Deca ExtraLight
+    type: Regular
+    preferred_family_name: Lexend Deca
+    preferred_type: ExtraLight
+    full_name: Lexend Deca ExtraLight
+    post_script_name: LexendDeca-ExtraLight
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendDeca-ExtraLight.ttf
+- name: Lexend Deca Light
+  styles:
+  - family_name: Lexend Deca Light
+    type: Regular
+    preferred_family_name: Lexend Deca
+    preferred_type: Light
+    full_name: Lexend Deca Light
+    post_script_name: LexendDeca-Light
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendDeca-Light.ttf
+- name: Lexend Deca Medium
+  styles:
+  - family_name: Lexend Deca Medium
+    type: Regular
+    preferred_family_name: Lexend Deca
+    preferred_type: Medium
+    full_name: Lexend Deca Medium
+    post_script_name: LexendDeca-Medium
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendDeca-Medium.ttf
+- name: Lexend Deca SemiBold
+  styles:
+  - family_name: Lexend Deca SemiBold
+    type: Regular
+    preferred_family_name: Lexend Deca
+    preferred_type: SemiBold
+    full_name: Lexend Deca SemiBold
+    post_script_name: LexendDeca-SemiBold
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendDeca-SemiBold.ttf
+- name: Lexend Deca Thin
+  styles:
+  - family_name: Lexend Deca Thin
+    type: Regular
+    preferred_family_name: Lexend Deca
+    preferred_type: Thin
+    full_name: Lexend Deca Thin
+    post_script_name: LexendDeca-Thin
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendDeca-Thin.ttf
+extract: {}
+copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2018 The Lexend Project Authors (https://github.com/thomasjockin/lexend), with Reserved Font Name “RevReading Lexend”.
+  Copyright 2018 The Lexend Project Authors (https://github.com/googlefonts/lexend), with Reserved Font Name “RevReading Lexend”.
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -115,3 +204,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 9a9a0cf7e57b9ac81d0eb7f2b7049a6343658a88ad2afcf16812dd77435b4ef4
+command: google import --formulas_path Formulas

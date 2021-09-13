@@ -10,14 +10,62 @@ fonts:
 - name: Jura
   styles:
   - family_name: Jura
-    type: Light
+    type: Bold
+    full_name: Jura Bold
+    post_script_name: Jura-Bold
+    version: '5.104'
+    copyright: Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)
+    font: Jura-Bold.ttf
+  - family_name: Jura
+    type: Regular
+    full_name: Jura Regular
+    post_script_name: Jura-Regular
+    version: '5.104'
+    copyright: Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)
+    font: Jura-Regular.ttf
+- name: Jura Light
+  styles:
+  - family_name: Jura Light
+    type: Regular
+    preferred_family_name: Jura
+    preferred_type: Light
     full_name: Jura Light
     post_script_name: Jura-Light
     version: '5.104'
     copyright: Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)
     font: Jura-VariableFont_wght.ttf
-extract:
-  format: zip
+  - family_name: Jura Light
+    type: Regular
+    preferred_family_name: Jura
+    preferred_type: Light
+    full_name: Jura Light
+    post_script_name: Jura-Light
+    version: '5.104'
+    copyright: Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)
+    font: Jura-Light.ttf
+- name: Jura Medium
+  styles:
+  - family_name: Jura Medium
+    type: Regular
+    preferred_family_name: Jura
+    preferred_type: Medium
+    full_name: Jura Medium
+    post_script_name: Jura-Medium
+    version: '5.104'
+    copyright: Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)
+    font: Jura-Medium.ttf
+- name: Jura SemiBold
+  styles:
+  - family_name: Jura SemiBold
+    type: Regular
+    preferred_family_name: Jura
+    preferred_type: SemiBold
+    full_name: Jura SemiBold
+    post_script_name: Jura-SemiBold
+    version: '5.104'
+    copyright: Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)
+    font: Jura-SemiBold.ttf
+extract: {}
 copyright: Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -26,6 +74,7 @@ open_license: |-
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
   http://scripts.sil.org/OFL
+
 
   -----------------------------------------------------------
   SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
@@ -113,3 +162,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 27d3f99fa356b3b6388b7ff0a9c93744939d8b8ab682609ccd2d040c7cf63668
+command: google import --formulas_path Formulas

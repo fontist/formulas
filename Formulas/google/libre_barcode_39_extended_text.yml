@@ -1,12 +1,11 @@
 ---
-name: LibreBarcode39ExtendedText
+name: Libre Barcode 39 Extended Text
 description: Libre Barcode 39 Extended Text
-homepage:
 resources:
-  LibreBarcode39ExtendedText.zip:
+  Libre_Barcode_39_Extended_Text.zip:
     urls:
     - https://fonts.google.com/download?family=Libre%20Barcode%2039%20Extended%20Text
-    sha256: d3c2ce19db4f7170f01b9da3415c136875e808e83f68248e63a3d3555f89d7c7
+    sha256: 4362fd00da8d40162bf5972c8520464e07befbe458fffe5f73ab6a7fa2a750ae
 fonts:
 - name: Libre Barcode 39 Extended Text
   styles:
@@ -14,16 +13,14 @@ fonts:
     type: Regular
     full_name: Libre Barcode 39 Extended Text Regular
     post_script_name: LibreBarcode39ExtendedText-Regular
-    version: 1.003; ttfautohint (v1.6) -l 8 -r 50 -G 200 -x 14 -D latn -f none -w
-      G -X ""
-    copyright: Copyright 2017 The Libre Barcode Project Authors (lasse@graphicore.de)
+    version: 1.005; ttfautohint (v1.8.3)
+    copyright: Copyright 2017-2020 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)
     font: LibreBarcode39ExtendedText-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2017 The Libre Barcode Project Authors (lasse@graphicore.de)
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright 2017-2020 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2017 The Libre Barcode Project Authors (lasse@graphicore.de)
+  Copyright 2017-2019 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,3 +113,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: b436e81c8ea5469086fdb67d1bea72b65c1132b7fdd2eb7419bbc16c38267a5f
+command: google import --formulas_path Formulas

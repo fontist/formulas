@@ -1,28 +1,117 @@
 ---
-name: LexendTera
+name: Lexend Tera
 description: Lexend Tera
-homepage:
+homepage: https://www.lexend.com
 resources:
-  LexendTera.zip:
+  Lexend_Tera.zip:
     urls:
     - https://fonts.google.com/download?family=Lexend%20Tera
-    sha256: 82f644098c787c10eedcb3bf878b00ffde314a0987e2adbffeddaa5b091414af
 fonts:
 - name: Lexend Tera
   styles:
   - family_name: Lexend Tera
+    type: Bold
+    full_name: Lexend Tera Bold
+    post_script_name: LexendTera-Bold
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendTera-Bold.ttf
+  - family_name: Lexend Tera
     type: Regular
     full_name: Lexend Tera Regular
     post_script_name: LexendTera-Regular
-    version: '1.001'
-    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/ThomasJockin/lexend)
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
     font: LexendTera-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2019 The Lexend Project Authors (https://github.com/ThomasJockin/lexend)
-license_url: http://scripts.sil.org/OFL
+  - family_name: Lexend Tera
+    type: Regular
+    full_name: Lexend Tera Regular
+    post_script_name: LexendTera-Regular
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendTera-VariableFont_wght.ttf
+- name: Lexend Tera Black
+  styles:
+  - family_name: Lexend Tera Black
+    type: Regular
+    preferred_family_name: Lexend Tera
+    preferred_type: Black
+    full_name: Lexend Tera Black
+    post_script_name: LexendTera-Black
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendTera-Black.ttf
+- name: Lexend Tera ExtraBold
+  styles:
+  - family_name: Lexend Tera ExtraBold
+    type: Regular
+    preferred_family_name: Lexend Tera
+    preferred_type: ExtraBold
+    full_name: Lexend Tera ExtraBold
+    post_script_name: LexendTera-ExtraBold
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendTera-ExtraBold.ttf
+- name: Lexend Tera ExtraLight
+  styles:
+  - family_name: Lexend Tera ExtraLight
+    type: Regular
+    preferred_family_name: Lexend Tera
+    preferred_type: ExtraLight
+    full_name: Lexend Tera ExtraLight
+    post_script_name: LexendTera-ExtraLight
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendTera-ExtraLight.ttf
+- name: Lexend Tera Light
+  styles:
+  - family_name: Lexend Tera Light
+    type: Regular
+    preferred_family_name: Lexend Tera
+    preferred_type: Light
+    full_name: Lexend Tera Light
+    post_script_name: LexendTera-Light
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendTera-Light.ttf
+- name: Lexend Tera Medium
+  styles:
+  - family_name: Lexend Tera Medium
+    type: Regular
+    preferred_family_name: Lexend Tera
+    preferred_type: Medium
+    full_name: Lexend Tera Medium
+    post_script_name: LexendTera-Medium
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendTera-Medium.ttf
+- name: Lexend Tera SemiBold
+  styles:
+  - family_name: Lexend Tera SemiBold
+    type: Regular
+    preferred_family_name: Lexend Tera
+    preferred_type: SemiBold
+    full_name: Lexend Tera SemiBold
+    post_script_name: LexendTera-SemiBold
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendTera-SemiBold.ttf
+- name: Lexend Tera Thin
+  styles:
+  - family_name: Lexend Tera Thin
+    type: Regular
+    preferred_family_name: Lexend Tera
+    preferred_type: Thin
+    full_name: Lexend Tera Thin
+    post_script_name: LexendTera-Thin
+    version: '1.007'
+    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+    font: LexendTera-Thin.ttf
+extract: {}
+copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2018 The Lexend Project Authors (https://github.com/thomasjockin/lexend), with Reserved Font Name “RevReading Lexend”.
+  Copyright 2018 The Lexend Project Authors (https://github.com/googlefonts/lexend), with Reserved Font Name “RevReading Lexend”.
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -115,3 +204,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 14aacebd8e701e853a6ef6fdd77d9730121758549434b0910ee10c197037ab36
+command: google import --formulas_path Formulas

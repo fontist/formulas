@@ -1,9 +1,8 @@
 ---
-name: RugeBoogie
+name: Ruge Boogie
 description: Ruge Boogie
-homepage:
 resources:
-  RugeBoogie.zip:
+  Ruge_Boogie.zip:
     urls:
     - https://fonts.google.com/download?family=Ruge%20Boogie
     sha256: ba7a1d8cc1aa0598d0d2d36486cb8e2ca58bfb4dd49721bb948e004ee9f60de0
@@ -19,10 +18,10 @@ fonts:
       Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net),
       with Reserved Font Name "Ruge Boogie"
     font: RugeBoogie-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font
-  Name "Ruge Boogie"
+extract: {}
+copyright: |-
+  Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net),
+  with Reserved Font Name "Ruge Boogie"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net),
@@ -34,7 +33,7 @@ open_license: |-
 
 
   -----------------------------------------------------------
-  SIL OPEN FONT LICENSE Version 1.1 - 1 February 2007
+  SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
   -----------------------------------------------------------
 
   PREAMBLE
@@ -47,8 +46,8 @@ open_license: |-
   The OFL allows the licensed fonts to be used, studied, modified and
   redistributed freely as long as they are not sold by themselves. The
   fonts, including any derivative works, can be bundled, embedded,
-  redistributed and/or sold with any software provided that the font
-  names of derivative works are changed. The fonts and derivatives,
+  redistributed and/or sold with any software provided that any reserved
+  names are not used by derivative works. The fonts and derivatives,
   however, cannot be released under any other type of license. The
   requirement for fonts to remain under this license does not apply
   to any document created using the fonts or their derivatives.
@@ -119,3 +118,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: bbdf4a2fa6c4b8fbf9c4d468f12a60817bfe979aaad03a18727dc6e2c542facd
+command: google import --formulas_path Formulas

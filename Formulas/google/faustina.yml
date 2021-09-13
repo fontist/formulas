@@ -10,12 +10,19 @@ fonts:
 - name: Faustina
   styles:
   - family_name: Faustina
-    type: Regular
-    full_name: Faustina Regular
-    post_script_name: Faustina-Regular
+    type: Bold
+    full_name: Faustina Bold
+    post_script_name: Faustina-Bold
     version: 1.100; ttfautohint (v1.8.1.43-b0c9)
     copyright: Copyright 2016 The Faustina Project Authors (https://github.com/Omnibus-Type/Faustina)
-    font: Faustina-VariableFont_wght.ttf
+    font: Faustina-Bold.ttf
+  - family_name: Faustina
+    type: Bold Italic
+    full_name: Faustina Bold Italic
+    post_script_name: Faustina-BoldItalic
+    version: 1.100; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2016 The Faustina Project Authors (https://github.com/Omnibus-Type/Faustina)
+    font: Faustina-BoldItalic.ttf
   - family_name: Faustina
     type: Italic
     full_name: Faustina Italic
@@ -23,8 +30,68 @@ fonts:
     version: 1.100; ttfautohint (v1.8.1.43-b0c9)
     copyright: Copyright 2016 The Faustina Project Authors (https://github.com/Omnibus-Type/Faustina)
     font: Faustina-Italic-VariableFont_wght.ttf
-extract:
-  format: zip
+  - family_name: Faustina
+    type: Italic
+    full_name: Faustina Italic
+    post_script_name: Faustina-Italic
+    version: 1.100; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2016 The Faustina Project Authors (https://github.com/Omnibus-Type/Faustina)
+    font: Faustina-Italic.ttf
+  - family_name: Faustina
+    type: Regular
+    full_name: Faustina Regular
+    post_script_name: Faustina-Regular
+    version: 1.100; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2016 The Faustina Project Authors (https://github.com/Omnibus-Type/Faustina)
+    font: Faustina-VariableFont_wght.ttf
+  - family_name: Faustina
+    type: Regular
+    full_name: Faustina Regular
+    post_script_name: Faustina-Regular
+    version: 1.100; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2016 The Faustina Project Authors (https://github.com/Omnibus-Type/Faustina)
+    font: Faustina-Regular.ttf
+- name: Faustina Medium
+  styles:
+  - family_name: Faustina Medium
+    type: Italic
+    preferred_family_name: Faustina
+    preferred_type: Medium Italic
+    full_name: Faustina Medium Italic
+    post_script_name: Faustina-MediumItalic
+    version: 1.100; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2016 The Faustina Project Authors (https://github.com/Omnibus-Type/Faustina)
+    font: Faustina-MediumItalic.ttf
+  - family_name: Faustina Medium
+    type: Regular
+    preferred_family_name: Faustina
+    preferred_type: Medium
+    full_name: Faustina Medium
+    post_script_name: Faustina-Medium
+    version: 1.100; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2016 The Faustina Project Authors (https://github.com/Omnibus-Type/Faustina)
+    font: Faustina-Medium.ttf
+- name: Faustina SemiBold
+  styles:
+  - family_name: Faustina SemiBold
+    type: Italic
+    preferred_family_name: Faustina
+    preferred_type: SemiBold Italic
+    full_name: Faustina SemiBold Italic
+    post_script_name: Faustina-SemiBoldItalic
+    version: 1.100; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2016 The Faustina Project Authors (https://github.com/Omnibus-Type/Faustina)
+    font: Faustina-SemiBoldItalic.ttf
+  - family_name: Faustina SemiBold
+    type: Regular
+    preferred_family_name: Faustina
+    preferred_type: SemiBold
+    full_name: Faustina SemiBold
+    post_script_name: Faustina-SemiBold
+    version: 1.100; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2016 The Faustina Project Authors (https://github.com/Omnibus-Type/Faustina)
+    font: Faustina-SemiBold.ttf
+extract: {}
 copyright: Copyright 2016 The Faustina Project Authors (https://github.com/Omnibus-Type/Faustina)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -121,3 +188,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 2872683b1dfe77c4a6c637e4687f5ac50498fd94dfb194f814d180f9e03a23e9
+command: google import --formulas_path Formulas

@@ -1,14 +1,13 @@
 ---
-name: OdorMeanChey
+name: Odor Mean Chey
 description: Odor Mean Chey
-homepage:
 resources:
-  OdorMeanChey.zip:
+  Odor_Mean_Chey.zip:
     urls:
     - https://fonts.google.com/download?family=Odor%20Mean%20Chey
     sha256: 1f970f8bc52b00b71978d295e4762c71bb3b67d500f502368005f63178390fdc
 fonts:
-- name: Odor Mean Chey
+- name: OdorMeanChey
   styles:
   - family_name: OdorMeanChey
     type: Regular
@@ -16,14 +15,9 @@ fonts:
     post_script_name: OdorMeanChey
     version: 6.00 December 28, 2010
     copyright: Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
-    font: OdorMeanChey.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2010, Danh Hong (khmertype.blogspot.com danhhong@gmail.com),
-  with Reserved Font Name NiDA OdorMeanChey. This Font Software is licensed under
-  the SIL Open Font License, Version 1.1. This license is available with a FAQ at:
-  http://scripts.sil.org/OFL'
-license_url:
+    font: OdorMeanChey-Regular.ttf
+extract: {}
+copyright: Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
 open_license: |-
   Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
   with Reserved Font Name "Odor Mean Chey".
@@ -119,3 +113,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: d6604525cdbdef6f6dca1ec76b378988eaf19a2a04a525cf6016c323560ab610
+command: google import --formulas_path Formulas

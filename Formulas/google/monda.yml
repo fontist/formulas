@@ -1,39 +1,34 @@
 ---
 name: Monda
 description: Monda
-homepage: http://code.newtypography.co.uk
+homepage: http://www.sansoxygen.com
 resources:
   Monda.zip:
     urls:
     - https://fonts.google.com/download?family=Monda
-    sha256: 9669bbec2a0605cfa5100e9b60afb2b0009ba6b007c06edbe69dd95212677dde
+    sha256: 9e8423089a855460cc898467ca79e8f14e6d9f8e3e6cf30ff9c809dcf3395d10
 fonts:
 - name: Monda
   styles:
   - family_name: Monda
-    type: Regular
-    full_name: Monda Regular
-    post_script_name: Monda-Regular
-    version: 1 ; ttfautohint (v0.93.8-669f) -l 8 -r 50 -G 200 -x 0 -w "gG" -W -c
-    copyright: Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved
-      Font Names 'Monda'
-    font: Monda-Regular.ttf
-  - family_name: Monda
     type: Bold
     full_name: Monda Bold
     post_script_name: Monda-Bold
-    version: 1.000; ttfautohint (v0.93.50-fefd) -l 8 -r 50 -G 200 -x 0 -w "gG" -W
-      -c
-    copyright: Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved
-      Font Names 'Monda'
+    version: 2.100; ttfautohint (v1.8.3)
+    copyright: Copyright 2021 The Monda Project Authors (https://github.com/googlefonts/mondaFont)
     font: Monda-Bold.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved
-  Font Names 'Monda'
-license_url: http://scripts.sil.org/OFL
+  - family_name: Monda
+    type: Regular
+    full_name: Monda Regular
+    post_script_name: Monda-Regular
+    version: 2.100; ttfautohint (v1.8.3)
+    copyright: Copyright 2021 The Monda Project Authors (https://github.com/googlefonts/mondaFont)
+    font: Monda-Regular.ttf
+extract: {}
+copyright: Copyright 2021 The Monda Project Authors (https://github.com/googlefonts/mondaFont)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Names 'Monda'
+  Copyright 2021 The Monda Project Authors (https://github.com/googlefonts/mondaFont)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -126,3 +121,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 595eb8b5fa448c4105b4ea137ee93b150b70a04ac42773eb121b1c1341a709ee
+command: google import --formulas_path Formulas

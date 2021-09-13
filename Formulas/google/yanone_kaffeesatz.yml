@@ -1,23 +1,82 @@
 ---
-name: YanoneKaffeesatz
+name: Yanone Kaffeesatz
 description: Yanone Kaffeesatz
 homepage: http://yanone.de
 resources:
-  YanoneKaffeesatz.zip:
+  Yanone_Kaffeesatz.zip:
     urls:
     - https://fonts.google.com/download?family=Yanone%20Kaffeesatz
 fonts:
 - name: Yanone Kaffeesatz
   styles:
   - family_name: Yanone Kaffeesatz
-    type: ExtraLight
+    type: Bold
+    full_name: Yanone Kaffeesatz Bold
+    post_script_name: YanoneKaffeesatz-Bold
+    version: 2.001; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2010 The Yanone Kaffeesatz Project Authors (https://github.com/alexeiva/yanone-kaffeesatz)
+    font: YanoneKaffeesatz-Bold.ttf
+  - family_name: Yanone Kaffeesatz
+    type: Regular
+    full_name: Yanone Kaffeesatz Regular
+    post_script_name: YanoneKaffeesatz-Regular
+    version: 2.001; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2010 The Yanone Kaffeesatz Project Authors (https://github.com/alexeiva/yanone-kaffeesatz)
+    font: YanoneKaffeesatz-Regular.ttf
+- name: Yanone Kaffeesatz ExtraLight
+  styles:
+  - family_name: Yanone Kaffeesatz ExtraLight
+    type: Regular
+    preferred_family_name: Yanone Kaffeesatz
+    preferred_type: ExtraLight
     full_name: Yanone Kaffeesatz ExtraLight
     post_script_name: YanoneKaffeesatz-ExtraLight
     version: 2.001; ttfautohint (v1.8.1.43-b0c9)
     copyright: Copyright 2010 The Yanone Kaffeesatz Project Authors (https://github.com/alexeiva/yanone-kaffeesatz)
     font: YanoneKaffeesatz-VariableFont_wght.ttf
-extract:
-  format: zip
+  - family_name: Yanone Kaffeesatz ExtraLight
+    type: Regular
+    preferred_family_name: Yanone Kaffeesatz
+    preferred_type: ExtraLight
+    full_name: Yanone Kaffeesatz ExtraLight
+    post_script_name: YanoneKaffeesatz-ExtraLight
+    version: 2.001; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2010 The Yanone Kaffeesatz Project Authors (https://github.com/alexeiva/yanone-kaffeesatz)
+    font: YanoneKaffeesatz-ExtraLight.ttf
+- name: Yanone Kaffeesatz Light
+  styles:
+  - family_name: Yanone Kaffeesatz Light
+    type: Regular
+    preferred_family_name: Yanone Kaffeesatz
+    preferred_type: Light
+    full_name: Yanone Kaffeesatz Light
+    post_script_name: YanoneKaffeesatz-Light
+    version: 2.001; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2010 The Yanone Kaffeesatz Project Authors (https://github.com/alexeiva/yanone-kaffeesatz)
+    font: YanoneKaffeesatz-Light.ttf
+- name: Yanone Kaffeesatz Medium
+  styles:
+  - family_name: Yanone Kaffeesatz Medium
+    type: Regular
+    preferred_family_name: Yanone Kaffeesatz
+    preferred_type: Medium
+    full_name: Yanone Kaffeesatz Medium
+    post_script_name: YanoneKaffeesatz-Medium
+    version: 2.001; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2010 The Yanone Kaffeesatz Project Authors (https://github.com/alexeiva/yanone-kaffeesatz)
+    font: YanoneKaffeesatz-Medium.ttf
+- name: Yanone Kaffeesatz SemiBold
+  styles:
+  - family_name: Yanone Kaffeesatz SemiBold
+    type: Regular
+    preferred_family_name: Yanone Kaffeesatz
+    preferred_type: SemiBold
+    full_name: Yanone Kaffeesatz SemiBold
+    post_script_name: YanoneKaffeesatz-SemiBold
+    version: 2.001; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2010 The Yanone Kaffeesatz Project Authors (https://github.com/alexeiva/yanone-kaffeesatz)
+    font: YanoneKaffeesatz-SemiBold.ttf
+extract: {}
 copyright: Copyright 2010 The Yanone Kaffeesatz Project Authors (https://github.com/alexeiva/yanone-kaffeesatz)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -114,3 +173,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 62978aeb18eecefb637a7a20db45f257ff43079bef5261dded7cf3aed2c20029
+command: google import --formulas_path Formulas

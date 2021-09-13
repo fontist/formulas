@@ -1,28 +1,86 @@
 ---
-name: ReemKufi
+name: Reem Kufi
 description: Reem Kufi
-homepage:
 resources:
-  ReemKufi.zip:
+  Reem_Kufi.zip:
     urls:
     - https://fonts.google.com/download?family=Reem%20Kufi
-    sha256: a726c781e52a72a0b3ad6909af5c8d68a8e26e4fdf48a573dc5efc2859f84363
 fonts:
 - name: Reem Kufi
   styles:
   - family_name: Reem Kufi
+    type: Bold
+    full_name: Reem Kufi Bold
+    post_script_name: ReemKufi-Bold
+    version: '1.000'
+    description: Reem Kufi is a Kufic typeface based on early Kufic (Mushafi) models,
+      but retrofitted to the Fatimid Kufic grid and with borrowing from its forms.
+      Reem Kufi is largely based on the Kufic designs of the late master of Arabic
+      calligraphy Mohammad Abdul Qadir who revived this art in the 20th century and
+      formalised its rules.
+    copyright: Copyright 2015-2021 The Reem Kufi Project Authors (https://github.com/alif-type/reem-kufi).
+    font: ReemKufi-Bold.ttf
+  - family_name: Reem Kufi
     type: Regular
     full_name: Reem Kufi Regular
     post_script_name: ReemKufi-Regular
-    version: '0.004'
-    copyright: Copyright © 2015-2016 The Reem Kufi Project Authors.
+    version: '1.000'
+    description: Reem Kufi is a Kufic typeface based on early Kufic (Mushafi) models,
+      but retrofitted to the Fatimid Kufic grid and with borrowing from its forms.
+      Reem Kufi is largely based on the Kufic designs of the late master of Arabic
+      calligraphy Mohammad Abdul Qadir who revived this art in the 20th century and
+      formalised its rules.
+    copyright: Copyright 2015-2021 The Reem Kufi Project Authors (https://github.com/alif-type/reem-kufi).
+    font: ReemKufi-VariableFont_wght.ttf
+  - family_name: Reem Kufi
+    type: Regular
+    full_name: Reem Kufi Regular
+    post_script_name: ReemKufi-Regular
+    version: '1.000'
+    description: Reem Kufi is a Kufic typeface based on early Kufic (Mushafi) models,
+      but retrofitted to the Fatimid Kufic grid and with borrowing from its forms.
+      Reem Kufi is largely based on the Kufic designs of the late master of Arabic
+      calligraphy Mohammad Abdul Qadir who revived this art in the 20th century and
+      formalised its rules.
+    copyright: Copyright 2015-2021 The Reem Kufi Project Authors (https://github.com/alif-type/reem-kufi).
     font: ReemKufi-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright  2015-2016 The Reem Kufi Project Authors.
-license_url: http://scripts.sil.org/OFL
+- name: Reem Kufi Medium
+  styles:
+  - family_name: Reem Kufi Medium
+    type: Regular
+    preferred_family_name: Reem Kufi
+    preferred_type: Medium
+    full_name: Reem Kufi Medium
+    post_script_name: ReemKufi-Medium
+    version: '1.000'
+    description: Reem Kufi is a Kufic typeface based on early Kufic (Mushafi) models,
+      but retrofitted to the Fatimid Kufic grid and with borrowing from its forms.
+      Reem Kufi is largely based on the Kufic designs of the late master of Arabic
+      calligraphy Mohammad Abdul Qadir who revived this art in the 20th century and
+      formalised its rules.
+    copyright: Copyright 2015-2021 The Reem Kufi Project Authors (https://github.com/alif-type/reem-kufi).
+    font: ReemKufi-Medium.ttf
+- name: Reem Kufi SemiBold
+  styles:
+  - family_name: Reem Kufi SemiBold
+    type: Regular
+    preferred_family_name: Reem Kufi
+    preferred_type: SemiBold
+    full_name: Reem Kufi SemiBold
+    post_script_name: ReemKufi-SemiBold
+    version: '1.000'
+    description: Reem Kufi is a Kufic typeface based on early Kufic (Mushafi) models,
+      but retrofitted to the Fatimid Kufic grid and with borrowing from its forms.
+      Reem Kufi is largely based on the Kufic designs of the late master of Arabic
+      calligraphy Mohammad Abdul Qadir who revived this art in the 20th century and
+      formalised its rules.
+    copyright: Copyright 2015-2021 The Reem Kufi Project Authors (https://github.com/alif-type/reem-kufi).
+    font: ReemKufi-SemiBold.ttf
+extract: {}
+copyright: Copyright 2015-2021 The Reem Kufi Project Authors (https://github.com/alif-type/reem-kufi).
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2015-2016 The Reem Kufi Project Authors.
+  Copyright 2015-2021 The Reem Kufi Project Authors (https://github.com/alif-type/reem-kufi), with Reserved Font Name "Josefin Sans".
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -115,3 +173,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: aa6e6426b05e1df96d824441bc51b2da566a7393372cc32aac5ec5a4c0ac7bca
+command: google import --formulas_path Formulas

@@ -11,21 +11,20 @@ fonts:
 - name: Battambang
   styles:
   - family_name: Battambang
-    type: Regular
-    full_name: Battambang Regular
-    post_script_name: Battambang-Regular
-    version: 2.00 February 6, 2013
-    copyright: Copyright (c) 2013, Danh Hong (khmertype.org)
-    font: Battambang-Regular.ttf
-  - family_name: Battambang
     type: Bold
     full_name: Battambang Bold
     post_script_name: Battambang-Bold
     version: 2.00 February 6, 2013
     copyright: Copyright (c) 2013, Danh Hong (khmertype.org)
     font: Battambang-Bold.ttf
-extract:
-  format: zip
+  - family_name: Battambang
+    type: Regular
+    full_name: Battambang Regular
+    post_script_name: Battambang-Regular
+    version: 2.00 February 6, 2013
+    copyright: Copyright (c) 2013, Danh Hong (khmertype.org)
+    font: Battambang-Regular.ttf
+extract: {}
 copyright: Copyright (c) 2013, Danh Hong (khmertype.org)
 license_url: http://www.apache.org/licenses/LICENSE-2.0
 open_license: |-
@@ -123,3 +122,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: bc7608a45c16474cb1186dbd958002035cd626515fedd603cc27cf053efca4c7
+command: google import --formulas_path Formulas

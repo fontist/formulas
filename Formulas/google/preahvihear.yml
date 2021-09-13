@@ -1,14 +1,13 @@
 ---
 name: Preahvihear
 description: Preahvihear
-homepage:
 resources:
   Preahvihear.zip:
     urls:
     - https://fonts.google.com/download?family=Preahvihear
     sha256: 27980d32062c33639ee5e2e2339e6b1ff76d98f6c742877f08976d70617b1e9b
 fonts:
-- name: Preahvihear
+- name: Preah Vihear
   styles:
   - family_name: Preah Vihear
     type: Regular
@@ -16,13 +15,9 @@ fonts:
     post_script_name: PreahVihear
     version: 6.00 March 3, 2011
     copyright: Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
-    font: Preahvihear.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2010, Danh Hong (khmertype.blogspot.com danhhong@gmail.com),
-  with Reserved Font Name NiDA Preahvihear. This Font Software is licensed under the
-  SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
-license_url:
+    font: Preahvihear-Regular.ttf
+extract: {}
+copyright: Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
 open_license: |-
   Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
   with Reserved Font Name Preahvihear.
@@ -118,3 +113,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: c249e990adfa3411ee4a9addafc1f39bc5cd126dcdac56d68b99ade1346b45df
+command: google import --formulas_path Formulas

@@ -10,14 +10,84 @@ fonts:
 - name: Dosis
   styles:
   - family_name: Dosis
-    type: ExtraLight
+    type: Bold
+    full_name: Dosis Bold
+    post_script_name: Dosis-Bold
+    version: 3.001; ttfautohint (v1.8.2)
+    copyright: Copyright 2011 The Dosis Project Authors (impallari@gmail.com)
+    font: Dosis-Bold.ttf
+  - family_name: Dosis
+    type: Regular
+    full_name: Dosis Regular
+    post_script_name: Dosis-Regular
+    version: 3.001; ttfautohint (v1.8.2)
+    copyright: Copyright 2011 The Dosis Project Authors (impallari@gmail.com)
+    font: Dosis-Regular.ttf
+- name: Dosis ExtraBold
+  styles:
+  - family_name: Dosis ExtraBold
+    type: Regular
+    preferred_family_name: Dosis
+    preferred_type: ExtraBold
+    full_name: Dosis ExtraBold
+    post_script_name: Dosis-ExtraBold
+    version: 3.001; ttfautohint (v1.8.2)
+    copyright: Copyright 2011 The Dosis Project Authors (impallari@gmail.com)
+    font: Dosis-ExtraBold.ttf
+- name: Dosis ExtraLight
+  styles:
+  - family_name: Dosis ExtraLight
+    type: Regular
+    preferred_family_name: Dosis
+    preferred_type: ExtraLight
+    full_name: Dosis ExtraLight
+    post_script_name: Dosis-ExtraLight
+    version: 3.001; ttfautohint (v1.8.2)
+    copyright: Copyright 2011 The Dosis Project Authors (impallari@gmail.com)
+    font: Dosis-ExtraLight.ttf
+  - family_name: Dosis ExtraLight
+    type: Regular
+    preferred_family_name: Dosis
+    preferred_type: ExtraLight
     full_name: Dosis ExtraLight
     post_script_name: Dosis-ExtraLight
     version: 3.001; ttfautohint (v1.8.2)
     copyright: Copyright 2011 The Dosis Project Authors (impallari@gmail.com)
     font: Dosis-VariableFont_wght.ttf
-extract:
-  format: zip
+- name: Dosis Light
+  styles:
+  - family_name: Dosis Light
+    type: Regular
+    preferred_family_name: Dosis
+    preferred_type: Light
+    full_name: Dosis Light
+    post_script_name: Dosis-Light
+    version: 3.001; ttfautohint (v1.8.2)
+    copyright: Copyright 2011 The Dosis Project Authors (impallari@gmail.com)
+    font: Dosis-Light.ttf
+- name: Dosis Medium
+  styles:
+  - family_name: Dosis Medium
+    type: Regular
+    preferred_family_name: Dosis
+    preferred_type: Medium
+    full_name: Dosis Medium
+    post_script_name: Dosis-Medium
+    version: 3.001; ttfautohint (v1.8.2)
+    copyright: Copyright 2011 The Dosis Project Authors (impallari@gmail.com)
+    font: Dosis-Medium.ttf
+- name: Dosis SemiBold
+  styles:
+  - family_name: Dosis SemiBold
+    type: Regular
+    preferred_family_name: Dosis
+    preferred_type: SemiBold
+    full_name: Dosis SemiBold
+    post_script_name: Dosis-SemiBold
+    version: 3.001; ttfautohint (v1.8.2)
+    copyright: Copyright 2011 The Dosis Project Authors (impallari@gmail.com)
+    font: Dosis-SemiBold.ttf
+extract: {}
 copyright: Copyright 2011 The Dosis Project Authors (impallari@gmail.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +186,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 83323c63784f94d2a319a0238cddc071f767eb07fd6007bd394ee21329621aba
+command: google import --formulas_path Formulas

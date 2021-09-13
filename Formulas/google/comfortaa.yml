@@ -10,6 +10,14 @@ fonts:
 - name: Comfortaa
   styles:
   - family_name: Comfortaa
+    type: Bold
+    full_name: Comfortaa Bold
+    post_script_name: Comfortaa-Bold
+    version: 3.104; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2011 The Comfortaa Project Authors (https://github.com/alexeiva/comfortaa),
+      with Reserved Font Name "Comfortaa".
+    font: Comfortaa-Bold.ttf
+  - family_name: Comfortaa
     type: Regular
     full_name: Comfortaa Regular
     post_script_name: Comfortaa-Regular
@@ -17,8 +25,51 @@ fonts:
     copyright: Copyright 2011 The Comfortaa Project Authors (https://github.com/alexeiva/comfortaa),
       with Reserved Font Name "Comfortaa".
     font: Comfortaa-VariableFont_wght.ttf
-extract:
-  format: zip
+  - family_name: Comfortaa
+    type: Regular
+    full_name: Comfortaa Regular
+    post_script_name: Comfortaa-Regular
+    version: 3.104; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2011 The Comfortaa Project Authors (https://github.com/alexeiva/comfortaa),
+      with Reserved Font Name "Comfortaa".
+    font: Comfortaa-Regular.ttf
+- name: Comfortaa Light
+  styles:
+  - family_name: Comfortaa Light
+    type: Regular
+    preferred_family_name: Comfortaa
+    preferred_type: Light
+    full_name: Comfortaa Light
+    post_script_name: Comfortaa-Light
+    version: 3.104; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2011 The Comfortaa Project Authors (https://github.com/alexeiva/comfortaa),
+      with Reserved Font Name "Comfortaa".
+    font: Comfortaa-Light.ttf
+- name: Comfortaa Medium
+  styles:
+  - family_name: Comfortaa Medium
+    type: Regular
+    preferred_family_name: Comfortaa
+    preferred_type: Medium
+    full_name: Comfortaa Medium
+    post_script_name: Comfortaa-Medium
+    version: 3.104; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2011 The Comfortaa Project Authors (https://github.com/alexeiva/comfortaa),
+      with Reserved Font Name "Comfortaa".
+    font: Comfortaa-Medium.ttf
+- name: Comfortaa SemiBold
+  styles:
+  - family_name: Comfortaa SemiBold
+    type: Regular
+    preferred_family_name: Comfortaa
+    preferred_type: SemiBold
+    full_name: Comfortaa SemiBold
+    post_script_name: Comfortaa-SemiBold
+    version: 3.104; ttfautohint (v1.8.1.43-b0c9)
+    copyright: Copyright 2011 The Comfortaa Project Authors (https://github.com/alexeiva/comfortaa),
+      with Reserved Font Name "Comfortaa".
+    font: Comfortaa-SemiBold.ttf
+extract: {}
 copyright: Copyright 2011 The Comfortaa Project Authors (https://github.com/alexeiva/comfortaa),
   with Reserved Font Name "Comfortaa".
 license_url: http://scripts.sil.org/OFL
@@ -116,3 +167,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 3f64cd2b294b0c71292407b7285b0d3ca8d6417b185ac15177c75da34f221948
+command: google import --formulas_path Formulas

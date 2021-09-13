@@ -1,14 +1,13 @@
 ---
 name: Moulpali
 description: Moulpali
-homepage:
 resources:
   Moulpali.zip:
     urls:
     - https://fonts.google.com/download?family=Moulpali
     sha256: 878fc305fca4fcaf1c49b9f5ed5da7fd9d70fd9a0e28475e138251e061cc3b01
 fonts:
-- name: Moulpali
+- name: Moul Pali
   styles:
   - family_name: Moul Pali
     type: Regular
@@ -16,14 +15,9 @@ fonts:
     post_script_name: MoulPali
     version: 6.00 December 28, 2010
     copyright: Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
-    font: Moulpali.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2010, Danh Hong (khmertype.blogspot.com danhhong@gmail.com),
-  with Reserved Font Name Khmer OS Moulpali. This Font Software is licensed under
-  the SIL Open Font License, Version 1.1. This license is available with a FAQ at:
-  http://scripts.sil.org/OFL'
-license_url:
+    font: Moulpali-Regular.ttf
+extract: {}
+copyright: Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
 open_license: |-
   Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
   with Reserved Font Name Moulpali.
@@ -119,3 +113,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: efcd4441abc14d0721a3cd1c92086dcc95a24283368a4e78d7dfdcabaf8f7ee2
+command: google import --formulas_path Formulas

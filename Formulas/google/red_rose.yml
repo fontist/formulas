@@ -1,38 +1,69 @@
 ---
-name: RedRose
+name: Red Rose
 description: Red Rose
 homepage: http://magictype.in
 resources:
-  RedRose.zip:
+  Red_Rose.zip:
     urls:
     - https://fonts.google.com/download?family=Red%20Rose
-    sha256: b38568f9b6eede8102ca818e095b29c120a446e20af16c613bfe2a4930423e72
 fonts:
 - name: Red Rose
   styles:
   - family_name: Red Rose
-    type: Light
-    full_name: Red Rose Light
-    post_script_name: RedRose-Light
-    version: 1.001; ttfautohint (v1.8.3)
+    type: Bold
+    full_name: Red Rose Bold
+    post_script_name: RedRose-Bold
+    version: '2.000'
     copyright: Copyright 2018 The Red Rose Project Authors (https://github.com/magictype/redrose)
-    font: RedRose-Light.ttf
+    font: RedRose-Bold.ttf
   - family_name: Red Rose
     type: Regular
     full_name: Red Rose Regular
     post_script_name: RedRose-Regular
-    version: 1.001; ttfautohint (v1.8.3)
+    version: '2.000'
     copyright: Copyright 2018 The Red Rose Project Authors (https://github.com/magictype/redrose)
     font: RedRose-Regular.ttf
   - family_name: Red Rose
-    type: Bold
-    full_name: Red Rose Bold
-    post_script_name: RedRose-Bold
-    version: 1.001; ttfautohint (v1.8.3)
+    type: Regular
+    full_name: Red Rose Regular
+    post_script_name: RedRose-Regular
+    version: '2.000'
     copyright: Copyright 2018 The Red Rose Project Authors (https://github.com/magictype/redrose)
-    font: RedRose-Bold.ttf
-extract:
-  format: zip
+    font: RedRose-VariableFont_wght.ttf
+- name: Red Rose Light
+  styles:
+  - family_name: Red Rose Light
+    type: Regular
+    preferred_family_name: Red Rose
+    preferred_type: Light
+    full_name: Red Rose Light
+    post_script_name: RedRose-Light
+    version: '2.000'
+    copyright: Copyright 2018 The Red Rose Project Authors (https://github.com/magictype/redrose)
+    font: RedRose-Light.ttf
+- name: Red Rose Medium
+  styles:
+  - family_name: Red Rose Medium
+    type: Regular
+    preferred_family_name: Red Rose
+    preferred_type: Medium
+    full_name: Red Rose Medium
+    post_script_name: RedRose-Medium
+    version: '2.000'
+    copyright: Copyright 2018 The Red Rose Project Authors (https://github.com/magictype/redrose)
+    font: RedRose-Medium.ttf
+- name: Red Rose SemiBold
+  styles:
+  - family_name: Red Rose SemiBold
+    type: Regular
+    preferred_family_name: Red Rose
+    preferred_type: SemiBold
+    full_name: Red Rose SemiBold
+    post_script_name: RedRose-SemiBold
+    version: '2.000'
+    copyright: Copyright 2018 The Red Rose Project Authors (https://github.com/magictype/redrose)
+    font: RedRose-SemiBold.ttf
+extract: {}
 copyright: Copyright 2018 The Red Rose Project Authors (https://github.com/magictype/redrose)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
@@ -129,3 +160,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 0d1951f6180f210f2a8542ff72ee05e5f52dc40a17d1af8a58d4938531d0a78e
+command: google import --formulas_path Formulas

@@ -1,7 +1,6 @@
 ---
 name: Ruda
 description: Ruda
-homepage:
 resources:
   Ruda.zip:
     urls:
@@ -10,24 +9,80 @@ fonts:
 - name: Ruda
   styles:
   - family_name: Ruda
+    type: Bold
+    full_name: Ruda Bold
+    post_script_name: Ruda-Bold
+    version: '2.001'
+    copyright: Copyright 2019 The Ruda Project Authors (https://github.com/marmonsalve/Ruda-new)
+    font: Ruda-Bold.ttf
+  - family_name: Ruda
     type: Regular
     full_name: Ruda Regular
     post_script_name: Ruda-Regular
-    version: '2.000'
+    version: '2.001'
     copyright: Copyright 2019 The Ruda Project Authors (https://github.com/marmonsalve/Ruda-new)
     font: Ruda-VariableFont_wght.ttf
-extract:
-  format: zip
+  - family_name: Ruda
+    type: Regular
+    full_name: Ruda Regular
+    post_script_name: Ruda-Regular
+    version: '2.001'
+    copyright: Copyright 2019 The Ruda Project Authors (https://github.com/marmonsalve/Ruda-new)
+    font: Ruda-Regular.ttf
+- name: Ruda Black
+  styles:
+  - family_name: Ruda Black
+    type: Regular
+    preferred_family_name: Ruda
+    preferred_type: Black
+    full_name: Ruda Black
+    post_script_name: Ruda-Black
+    version: '2.001'
+    copyright: Copyright 2019 The Ruda Project Authors (https://github.com/marmonsalve/Ruda-new)
+    font: Ruda-Black.ttf
+- name: Ruda ExtraBold
+  styles:
+  - family_name: Ruda ExtraBold
+    type: Regular
+    preferred_family_name: Ruda
+    preferred_type: ExtraBold
+    full_name: Ruda ExtraBold
+    post_script_name: Ruda-ExtraBold
+    version: '2.001'
+    copyright: Copyright 2019 The Ruda Project Authors (https://github.com/marmonsalve/Ruda-new)
+    font: Ruda-ExtraBold.ttf
+- name: Ruda Medium
+  styles:
+  - family_name: Ruda Medium
+    type: Regular
+    preferred_family_name: Ruda
+    preferred_type: Medium
+    full_name: Ruda Medium
+    post_script_name: Ruda-Medium
+    version: '2.001'
+    copyright: Copyright 2019 The Ruda Project Authors (https://github.com/marmonsalve/Ruda-new)
+    font: Ruda-Medium.ttf
+- name: Ruda SemiBold
+  styles:
+  - family_name: Ruda SemiBold
+    type: Regular
+    preferred_family_name: Ruda
+    preferred_type: SemiBold
+    full_name: Ruda SemiBold
+    post_script_name: Ruda-SemiBold
+    version: '2.001'
+    copyright: Copyright 2019 The Ruda Project Authors (https://github.com/marmonsalve/Ruda-new)
+    font: Ruda-SemiBold.ttf
+extract: {}
 copyright: Copyright 2019 The Ruda Project Authors (https://github.com/marmonsalve/Ruda-new)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011, Mariela Monsalve (marmonsalve@gmail.com),
-  Copyright (c) 2011, Angelina Sanchez (ange_dg@yahoo.com.ar),
-  With Reserved Font Name "Ruda"
+  Copyright 2019 The Ruda Project Authors (https://github.com/marmonsalve/Ruda-new)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
   http://scripts.sil.org/OFL
+
 
   -----------------------------------------------------------
   SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
@@ -115,3 +170,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: b68d33609fbfc06215d9f23e2b9c159a6f280ef1936eef29ff61291962f12ca8
+command: google import --formulas_path Formulas

@@ -1,68 +1,94 @@
 ---
 name: Oxanium
 description: Oxanium
-homepage:
 resources:
   Oxanium.zip:
     urls:
     - https://fonts.google.com/download?family=Oxanium
-    sha256: 4c3f9148c7b701c82c9eb5120f39018f4d24e3747e464143d420afe297a85dea
 fonts:
 - name: Oxanium
   styles:
   - family_name: Oxanium
-    type: ExtraLight
-    full_name: Oxanium ExtraLight
-    post_script_name: Oxanium-ExtraLight
-    version: '1.001'
+    type: Bold
+    full_name: Oxanium Bold
+    post_script_name: Oxanium-Bold
+    version: '2.000'
     copyright: Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)
-    font: Oxanium-ExtraLight.ttf
-  - family_name: Oxanium
-    type: Light
-    full_name: Oxanium Light
-    post_script_name: Oxanium-Light
-    version: '1.001'
-    copyright: Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)
-    font: Oxanium-Light.ttf
+    font: Oxanium-Bold.ttf
   - family_name: Oxanium
     type: Regular
     full_name: Oxanium Regular
     post_script_name: Oxanium-Regular
-    version: '1.001'
+    version: '2.000'
     copyright: Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)
     font: Oxanium-Regular.ttf
-  - family_name: Oxanium
-    type: Medium
-    full_name: Oxanium Medium
-    post_script_name: Oxanium-Medium
-    version: '1.001'
-    copyright: Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)
-    font: Oxanium-Medium.ttf
-  - family_name: Oxanium
-    type: SemiBold
-    full_name: Oxanium SemiBold
-    post_script_name: Oxanium-SemiBold
-    version: '1.001'
-    copyright: Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)
-    font: Oxanium-SemiBold.ttf
-  - family_name: Oxanium
-    type: Bold
-    full_name: Oxanium Bold
-    post_script_name: Oxanium-Bold
-    version: '1.001'
-    copyright: Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)
-    font: Oxanium-Bold.ttf
-  - family_name: Oxanium
-    type: ExtraBold
+- name: Oxanium ExtraBold
+  styles:
+  - family_name: Oxanium ExtraBold
+    type: Regular
+    preferred_family_name: Oxanium
+    preferred_type: ExtraBold
     full_name: Oxanium ExtraBold
     post_script_name: Oxanium-ExtraBold
-    version: '1.001'
+    version: '2.000'
     copyright: Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)
     font: Oxanium-ExtraBold.ttf
-extract:
-  format: zip
+- name: Oxanium ExtraLight
+  styles:
+  - family_name: Oxanium ExtraLight
+    type: Regular
+    preferred_family_name: Oxanium
+    preferred_type: ExtraLight
+    full_name: Oxanium ExtraLight
+    post_script_name: Oxanium-ExtraLight
+    version: '2.000'
+    copyright: Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)
+    font: Oxanium-ExtraLight.ttf
+  - family_name: Oxanium ExtraLight
+    type: Regular
+    preferred_family_name: Oxanium
+    preferred_type: ExtraLight
+    full_name: Oxanium ExtraLight
+    post_script_name: Oxanium-ExtraLight
+    version: '2.000'
+    copyright: Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)
+    font: Oxanium-VariableFont_wght.ttf
+- name: Oxanium Light
+  styles:
+  - family_name: Oxanium Light
+    type: Regular
+    preferred_family_name: Oxanium
+    preferred_type: Light
+    full_name: Oxanium Light
+    post_script_name: Oxanium-Light
+    version: '2.000'
+    copyright: Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)
+    font: Oxanium-Light.ttf
+- name: Oxanium Medium
+  styles:
+  - family_name: Oxanium Medium
+    type: Regular
+    preferred_family_name: Oxanium
+    preferred_type: Medium
+    full_name: Oxanium Medium
+    post_script_name: Oxanium-Medium
+    version: '2.000'
+    copyright: Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)
+    font: Oxanium-Medium.ttf
+- name: Oxanium SemiBold
+  styles:
+  - family_name: Oxanium SemiBold
+    type: Regular
+    preferred_family_name: Oxanium
+    preferred_type: SemiBold
+    full_name: Oxanium SemiBold
+    post_script_name: Oxanium-SemiBold
+    version: '2.000'
+    copyright: Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)
+    font: Oxanium-SemiBold.ttf
+extract: {}
 copyright: Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)
-license_url: http://scripts.sil.org/OFL
+license_url: https://scripts.sil.org/OFL
 open_license: |-
   Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)
 
@@ -157,3 +183,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: d61a23c9a300eb93cefca8c211c131bcb95cdc8bd8c8cfd175de105ab01417d0
+command: google import --formulas_path Formulas

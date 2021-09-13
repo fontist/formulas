@@ -6,82 +6,132 @@ resources:
   Alegreya.zip:
     urls:
     - https://fonts.google.com/download?family=Alegreya
-    sha256: b9db79406f35d338e8dd8f9d2ab8f215d6db371245c85630236fe60d06df0357
 fonts:
 - name: Alegreya
   styles:
   - family_name: Alegreya
-    type: Regular
-    full_name: Alegreya Regular
-    post_script_name: Alegreya-Regular
-    version: 2.003; ttfautohint (v1.6)
-    copyright: Copyright 2011 The Alegreya Project Authors (https://github.com/huertatipografica/Alegreya)
-    font: Alegreya-Regular.ttf
-  - family_name: Alegreya
-    type: Italic
-    full_name: Alegreya Italic
-    post_script_name: Alegreya-Italic
-    version: 2.003; ttfautohint (v1.6)
-    copyright: Copyright 2011 The Alegreya Project Authors (https://github.com/huertatipografica/Alegreya)
-    font: Alegreya-Italic.ttf
-  - family_name: Alegreya
-    type: Medium
-    full_name: Alegreya Medium
-    post_script_name: Alegreya-Medium
-    version: 2.003; ttfautohint (v1.6)
-    copyright: Copyright 2011 The Alegreya Project Authors (https://github.com/huertatipografica/Alegreya)
-    font: Alegreya-Medium.ttf
-  - family_name: Alegreya
-    type: Medium Italic
-    full_name: Alegreya Medium Italic
-    post_script_name: Alegreya-MediumItalic
-    version: 2.003; ttfautohint (v1.6)
-    copyright: Copyright 2011 The Alegreya Project Authors (https://github.com/huertatipografica/Alegreya)
-    font: Alegreya-MediumItalic.ttf
-  - family_name: Alegreya
     type: Bold
     full_name: Alegreya Bold
     post_script_name: Alegreya-Bold
-    version: 2.003; ttfautohint (v1.6)
+    version: '2.009'
     copyright: Copyright 2011 The Alegreya Project Authors (https://github.com/huertatipografica/Alegreya)
     font: Alegreya-Bold.ttf
   - family_name: Alegreya
     type: Bold Italic
     full_name: Alegreya Bold Italic
     post_script_name: Alegreya-BoldItalic
-    version: 2.003; ttfautohint (v1.6)
+    version: '2.009'
     copyright: Copyright 2011 The Alegreya Project Authors (https://github.com/huertatipografica/Alegreya)
     font: Alegreya-BoldItalic.ttf
   - family_name: Alegreya
-    type: ExtraBold
-    full_name: Alegreya ExtraBold
-    post_script_name: Alegreya-ExtraBold
-    version: 2.003; ttfautohint (v1.6)
+    type: Italic
+    full_name: Alegreya Italic
+    post_script_name: Alegreya-Italic
+    version: '2.009'
     copyright: Copyright 2011 The Alegreya Project Authors (https://github.com/huertatipografica/Alegreya)
-    font: Alegreya-ExtraBold.ttf
+    font: Alegreya-Italic.ttf
   - family_name: Alegreya
-    type: ExtraBold Italic
-    full_name: Alegreya ExtraBold Italic
-    post_script_name: Alegreya-ExtraBoldItalic
-    version: 2.003; ttfautohint (v1.6)
+    type: Italic
+    full_name: Alegreya Italic
+    post_script_name: Alegreya-Italic
+    version: '2.009'
     copyright: Copyright 2011 The Alegreya Project Authors (https://github.com/huertatipografica/Alegreya)
-    font: Alegreya-ExtraBoldItalic.ttf
+    font: Alegreya-Italic-VariableFont_wght.ttf
   - family_name: Alegreya
-    type: Black
-    full_name: Alegreya Black
-    post_script_name: Alegreya-Black
-    version: 2.003; ttfautohint (v1.6)
+    type: Regular
+    full_name: Alegreya Regular
+    post_script_name: Alegreya-Regular
+    version: '2.009'
     copyright: Copyright 2011 The Alegreya Project Authors (https://github.com/huertatipografica/Alegreya)
-    font: Alegreya-Black.ttf
+    font: Alegreya-VariableFont_wght.ttf
   - family_name: Alegreya
-    type: Black Italic
+    type: Regular
+    full_name: Alegreya Regular
+    post_script_name: Alegreya-Regular
+    version: '2.009'
+    copyright: Copyright 2011 The Alegreya Project Authors (https://github.com/huertatipografica/Alegreya)
+    font: Alegreya-Regular.ttf
+- name: Alegreya Black
+  styles:
+  - family_name: Alegreya Black
+    type: Italic
+    preferred_family_name: Alegreya
+    preferred_type: Black Italic
     full_name: Alegreya Black Italic
     post_script_name: Alegreya-BlackItalic
-    version: 2.003; ttfautohint (v1.6)
+    version: '2.009'
     copyright: Copyright 2011 The Alegreya Project Authors (https://github.com/huertatipografica/Alegreya)
     font: Alegreya-BlackItalic.ttf
-extract:
-  format: zip
+  - family_name: Alegreya Black
+    type: Regular
+    preferred_family_name: Alegreya
+    preferred_type: Black
+    full_name: Alegreya Black
+    post_script_name: Alegreya-Black
+    version: '2.009'
+    copyright: Copyright 2011 The Alegreya Project Authors (https://github.com/huertatipografica/Alegreya)
+    font: Alegreya-Black.ttf
+- name: Alegreya ExtraBold
+  styles:
+  - family_name: Alegreya ExtraBold
+    type: Italic
+    preferred_family_name: Alegreya
+    preferred_type: ExtraBold Italic
+    full_name: Alegreya ExtraBold Italic
+    post_script_name: Alegreya-ExtraBoldItalic
+    version: '2.009'
+    copyright: Copyright 2011 The Alegreya Project Authors (https://github.com/huertatipografica/Alegreya)
+    font: Alegreya-ExtraBoldItalic.ttf
+  - family_name: Alegreya ExtraBold
+    type: Regular
+    preferred_family_name: Alegreya
+    preferred_type: ExtraBold
+    full_name: Alegreya ExtraBold
+    post_script_name: Alegreya-ExtraBold
+    version: '2.009'
+    copyright: Copyright 2011 The Alegreya Project Authors (https://github.com/huertatipografica/Alegreya)
+    font: Alegreya-ExtraBold.ttf
+- name: Alegreya Medium
+  styles:
+  - family_name: Alegreya Medium
+    type: Italic
+    preferred_family_name: Alegreya
+    preferred_type: Medium Italic
+    full_name: Alegreya Medium Italic
+    post_script_name: Alegreya-MediumItalic
+    version: '2.009'
+    copyright: Copyright 2011 The Alegreya Project Authors (https://github.com/huertatipografica/Alegreya)
+    font: Alegreya-MediumItalic.ttf
+  - family_name: Alegreya Medium
+    type: Regular
+    preferred_family_name: Alegreya
+    preferred_type: Medium
+    full_name: Alegreya Medium
+    post_script_name: Alegreya-Medium
+    version: '2.009'
+    copyright: Copyright 2011 The Alegreya Project Authors (https://github.com/huertatipografica/Alegreya)
+    font: Alegreya-Medium.ttf
+- name: Alegreya SemiBold
+  styles:
+  - family_name: Alegreya SemiBold
+    type: Italic
+    preferred_family_name: Alegreya
+    preferred_type: SemiBold Italic
+    full_name: Alegreya SemiBold Italic
+    post_script_name: Alegreya-SemiBoldItalic
+    version: '2.009'
+    copyright: Copyright 2011 The Alegreya Project Authors (https://github.com/huertatipografica/Alegreya)
+    font: Alegreya-SemiBoldItalic.ttf
+  - family_name: Alegreya SemiBold
+    type: Regular
+    preferred_family_name: Alegreya
+    preferred_type: SemiBold
+    full_name: Alegreya SemiBold
+    post_script_name: Alegreya-SemiBold
+    version: '2.009'
+    copyright: Copyright 2011 The Alegreya Project Authors (https://github.com/huertatipografica/Alegreya)
+    font: Alegreya-SemiBold.ttf
+extract: {}
 copyright: Copyright 2011 The Alegreya Project Authors (https://github.com/huertatipografica/Alegreya)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -178,3 +228,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 0665c1ccc142d56c51e387885f3f65189363f6909f612fe50fa03ccdecd396f2
+command: google import --formulas_path Formulas

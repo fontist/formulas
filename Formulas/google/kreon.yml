@@ -10,14 +10,60 @@ fonts:
 - name: Kreon
   styles:
   - family_name: Kreon
+    type: Bold
+    full_name: Kreon Bold
+    post_script_name: Kreon-Bold
+    version: '2.001'
+    copyright: Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon)
+    font: Kreon-Bold.ttf
+  - family_name: Kreon
     type: Light
     full_name: Kreon Light
     post_script_name: Kreon-Light
     version: '2.001'
     copyright: Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon)
     font: Kreon-VariableFont_wght.ttf
-extract:
-  format: zip
+  - family_name: Kreon
+    type: Regular
+    full_name: Kreon Regular
+    post_script_name: Kreon-Regular
+    version: '2.001'
+    copyright: Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon)
+    font: Kreon-Regular.ttf
+- name: Kreon Light
+  styles:
+  - family_name: Kreon Light
+    type: Regular
+    preferred_family_name: Kreon
+    preferred_type: Light
+    full_name: Kreon Light
+    post_script_name: Kreon-Light
+    version: '2.001'
+    copyright: Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon)
+    font: Kreon-Light.ttf
+- name: Kreon Medium
+  styles:
+  - family_name: Kreon Medium
+    type: Regular
+    preferred_family_name: Kreon
+    preferred_type: Medium
+    full_name: Kreon Medium
+    post_script_name: Kreon-Medium
+    version: '2.001'
+    copyright: Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon)
+    font: Kreon-Medium.ttf
+- name: Kreon SemiBold
+  styles:
+  - family_name: Kreon SemiBold
+    type: Regular
+    preferred_family_name: Kreon
+    preferred_type: SemiBold
+    full_name: Kreon SemiBold
+    post_script_name: Kreon-SemiBold
+    version: '2.001'
+    copyright: Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon)
+    font: Kreon-SemiBold.ttf
+extract: {}
 copyright: Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -114,3 +160,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 4626750b20d78b1f02601039785986950aa3389a4fdc1733fc2209a1e31deafc
+command: google import --formulas_path Formulas

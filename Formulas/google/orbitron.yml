@@ -10,14 +10,71 @@ fonts:
 - name: Orbitron
   styles:
   - family_name: Orbitron
+    type: Bold
+    full_name: Orbitron Bold
+    post_script_name: Orbitron-Bold
+    version: 2.000; ttfautohint (v1.8.2)
+    copyright: Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron)
+    font: Orbitron-Bold.ttf
+  - family_name: Orbitron
+    type: Regular
+    full_name: Orbitron Regular
+    post_script_name: Orbitron-Regular
+    version: 2.000; ttfautohint (v1.8.2)
+    copyright: Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron)
+    font: Orbitron-Regular.ttf
+  - family_name: Orbitron
     type: Regular
     full_name: Orbitron Regular
     post_script_name: Orbitron-Regular
     version: 2.000; ttfautohint (v1.8.2)
     copyright: Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron)
     font: Orbitron-VariableFont_wght.ttf
-extract:
-  format: zip
+- name: Orbitron Black
+  styles:
+  - family_name: Orbitron Black
+    type: Regular
+    preferred_family_name: Orbitron
+    preferred_type: Black
+    full_name: Orbitron Black
+    post_script_name: Orbitron-Black
+    version: 2.000; ttfautohint (v1.8.2)
+    copyright: Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron)
+    font: Orbitron-Black.ttf
+- name: Orbitron ExtraBold
+  styles:
+  - family_name: Orbitron ExtraBold
+    type: Regular
+    preferred_family_name: Orbitron
+    preferred_type: ExtraBold
+    full_name: Orbitron ExtraBold
+    post_script_name: Orbitron-ExtraBold
+    version: 2.000; ttfautohint (v1.8.2)
+    copyright: Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron)
+    font: Orbitron-ExtraBold.ttf
+- name: Orbitron Medium
+  styles:
+  - family_name: Orbitron Medium
+    type: Regular
+    preferred_family_name: Orbitron
+    preferred_type: Medium
+    full_name: Orbitron Medium
+    post_script_name: Orbitron-Medium
+    version: 2.000; ttfautohint (v1.8.2)
+    copyright: Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron)
+    font: Orbitron-Medium.ttf
+- name: Orbitron SemiBold
+  styles:
+  - family_name: Orbitron SemiBold
+    type: Regular
+    preferred_family_name: Orbitron
+    preferred_type: SemiBold
+    full_name: Orbitron SemiBold
+    post_script_name: Orbitron-SemiBold
+    version: 2.000; ttfautohint (v1.8.2)
+    copyright: Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron)
+    font: Orbitron-SemiBold.ttf
+extract: {}
 copyright: Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -115,3 +172,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: ccffb59d5dda1866d7e7c15c09a6db1bc8f13765fdffbd9dcf4a2ecc6395d806
+command: google import --formulas_path Formulas

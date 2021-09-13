@@ -1,12 +1,11 @@
 ---
-name: LibreBarcode39
+name: Libre Barcode 39
 description: Libre Barcode 39
-homepage:
 resources:
-  LibreBarcode39.zip:
+  Libre_Barcode_39.zip:
     urls:
     - https://fonts.google.com/download?family=Libre%20Barcode%2039
-    sha256: f1123d081af356f458ea5384d282a21a4f4d9af3ec7eb4a3d5f0a604c335e652
+    sha256: 149bdb62599745f3d5ae3977ca6cf28dd280da0f356543bc4d5127b88f3156fe
 fonts:
 - name: Libre Barcode 39
   styles:
@@ -14,16 +13,14 @@ fonts:
     type: Regular
     full_name: Libre Barcode 39 Regular
     post_script_name: LibreBarcode39-Regular
-    version: 1.003; ttfautohint (v1.6) -l 8 -r 50 -G 200 -x 14 -D latn -f none -w
-      G -X ""
-    copyright: Copyright 2017 The Libre Barcode Project Authors (lasse@graphicore.de)
+    version: 1.005; ttfautohint (v1.8.3)
+    copyright: Copyright 2017-2020 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)
     font: LibreBarcode39-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2017 The Libre Barcode Project Authors (lasse@graphicore.de)
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright 2017-2020 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2015 The Libre Barcode Project Authors (lasse@graphicore.de)
+  Copyright 2017-2019 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,3 +113,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 720cf70e021165b652f2dd46b533140f85f8ba25c7e203ee57d7ff10477e6b57
+command: google import --formulas_path Formulas

@@ -1,101 +1,1425 @@
 ---
 name: Archivo
 description: Archivo
-homepage: http://omnibus-type.com
+homepage: http://www.omnibus-type.com
 resources:
   Archivo.zip:
     urls:
     - https://fonts.google.com/download?family=Archivo
-    sha256: 48f42e25ab0ce8a0d59ea04b99b338e6dd4667bf925fbeddd34958dcb814512f
 fonts:
 - name: Archivo
   styles:
   - family_name: Archivo
-    type: Regular
-    full_name: Archivo Regular
-    post_script_name: Archivo-Regular
-    version: 1.004; ttfautohint (v1.8)
-    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
-      It was originally designed for highlights and headlines. This family is reminiscent
-      of late nineteenth century American typefaces.
-    copyright: Copyright 2019 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
-    font: Archivo-Regular.ttf
-  - family_name: Archivo
-    type: Italic
-    full_name: Archivo Italic
-    post_script_name: Archivo-Italic
-    version: 1.004; ttfautohint (v1.8)
-    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
-      It was originally designed for highlights and headlines. This family is reminiscent
-      of late nineteenth century American typefaces.
-    copyright: Copyright 2019 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
-    font: Archivo-Italic.ttf
-  - family_name: Archivo
-    type: Medium
-    full_name: Archivo Medium
-    post_script_name: Archivo-Medium
-    version: 1.004; ttfautohint (v1.8)
-    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
-      It was originally designed for highlights and headlines. This family is reminiscent
-      of late nineteenth century American typefaces.
-    copyright: Copyright 2019 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
-    font: Archivo-Medium.ttf
-  - family_name: Archivo
-    type: Medium Italic
-    full_name: Archivo Medium Italic
-    post_script_name: Archivo-MediumItalic
-    version: 1.004; ttfautohint (v1.8)
-    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
-      It was originally designed for highlights and headlines. This family is reminiscent
-      of late nineteenth century American typefaces.
-    copyright: Copyright 2019 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
-    font: Archivo-MediumItalic.ttf
-  - family_name: Archivo
-    type: SemiBold
-    full_name: Archivo SemiBold
-    post_script_name: Archivo-SemiBold
-    version: 1.004; ttfautohint (v1.8)
-    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
-      It was originally designed for highlights and headlines. This family is reminiscent
-      of late nineteenth century American typefaces.
-    copyright: Copyright 2019 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
-    font: Archivo-SemiBold.ttf
-  - family_name: Archivo
-    type: SemiBold Italic
-    full_name: Archivo SemiBold Italic
-    post_script_name: Archivo-SemiBoldItalic
-    version: 1.004; ttfautohint (v1.8)
-    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
-      It was originally designed for highlights and headlines. This family is reminiscent
-      of late nineteenth century American typefaces.
-    copyright: Copyright 2019 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
-    font: Archivo-SemiBoldItalic.ttf
-  - family_name: Archivo
     type: Bold
     full_name: Archivo Bold
     post_script_name: Archivo-Bold
-    version: 1.004; ttfautohint (v1.8)
+    version: '2.001'
     description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
       It was originally designed for highlights and headlines. This family is reminiscent
       of late nineteenth century American typefaces.
-    copyright: Copyright 2019 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
     font: Archivo-Bold.ttf
   - family_name: Archivo
     type: Bold Italic
     full_name: Archivo Bold Italic
     post_script_name: Archivo-BoldItalic
-    version: 1.004; ttfautohint (v1.8)
+    version: '2.001'
     description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
       It was originally designed for highlights and headlines. This family is reminiscent
       of late nineteenth century American typefaces.
-    copyright: Copyright 2019 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
     font: Archivo-BoldItalic.ttf
-extract:
-  format: zip
-copyright: Copyright 2019 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+  - family_name: Archivo
+    type: Italic
+    full_name: Archivo Italic
+    post_script_name: Archivo-Italic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo-Italic.ttf
+  - family_name: Archivo
+    type: Regular
+    full_name: Archivo Regular
+    post_script_name: Archivo-Regular
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo-Regular.ttf
+- name: Archivo Black
+  styles:
+  - family_name: Archivo Black
+    type: Italic
+    preferred_family_name: Archivo
+    preferred_type: Black Italic
+    full_name: Archivo Black Italic
+    post_script_name: Archivo-BlackItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo-BlackItalic.ttf
+  - family_name: Archivo Black
+    type: Regular
+    preferred_family_name: Archivo
+    preferred_type: Black
+    full_name: Archivo Black
+    post_script_name: Archivo-Black
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo-Black.ttf
+- name: Archivo Condensed
+  styles:
+  - family_name: Archivo Condensed
+    type: Bold
+    preferred_family_name: Archivo Condensed
+    preferred_type: Bold
+    full_name: Archivo Condensed Bold
+    post_script_name: ArchivoCondensed-Bold
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Condensed-Bold.ttf
+  - family_name: Archivo Condensed
+    type: Bold Italic
+    preferred_family_name: Archivo Condensed
+    preferred_type: Bold Italic
+    full_name: Archivo Condensed Bold Italic
+    post_script_name: ArchivoCondensed-BoldItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Condensed-BoldItalic.ttf
+  - family_name: Archivo Condensed
+    type: Italic
+    preferred_family_name: Archivo Condensed
+    preferred_type: Italic
+    full_name: Archivo Condensed Italic
+    post_script_name: ArchivoCondensed-Italic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Condensed-Italic.ttf
+  - family_name: Archivo Condensed
+    type: Regular
+    preferred_family_name: Archivo Condensed
+    preferred_type: Regular
+    full_name: Archivo Condensed Regular
+    post_script_name: ArchivoCondensed-Regular
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Condensed-Regular.ttf
+- name: Archivo Condensed Black
+  styles:
+  - family_name: Archivo Condensed Black
+    type: Italic
+    preferred_family_name: Archivo Condensed
+    preferred_type: Black Italic
+    full_name: Archivo Condensed Black Italic
+    post_script_name: ArchivoCondensed-BlackItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Condensed-BlackItalic.ttf
+  - family_name: Archivo Condensed Black
+    type: Regular
+    preferred_family_name: Archivo Condensed
+    preferred_type: Black
+    full_name: Archivo Condensed Black
+    post_script_name: ArchivoCondensed-Black
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Condensed-Black.ttf
+- name: Archivo Condensed ExtraBold
+  styles:
+  - family_name: Archivo Condensed ExtraBold
+    type: Italic
+    preferred_family_name: Archivo Condensed
+    preferred_type: ExtraBold Italic
+    full_name: Archivo Condensed ExtraBold Italic
+    post_script_name: ArchivoCondensed-ExtraBoldItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Condensed-ExtraBoldItalic.ttf
+  - family_name: Archivo Condensed ExtraBold
+    type: Regular
+    preferred_family_name: Archivo Condensed
+    preferred_type: ExtraBold
+    full_name: Archivo Condensed ExtraBold
+    post_script_name: ArchivoCondensed-ExtraBold
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Condensed-ExtraBold.ttf
+- name: Archivo Condensed ExtraLight
+  styles:
+  - family_name: Archivo Condensed ExtraLight
+    type: Italic
+    preferred_family_name: Archivo Condensed
+    preferred_type: ExtraLight Italic
+    full_name: Archivo Condensed ExtraLight Italic
+    post_script_name: ArchivoCondensed-ExtraLightItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Condensed-ExtraLightItalic.ttf
+  - family_name: Archivo Condensed ExtraLight
+    type: Regular
+    preferred_family_name: Archivo Condensed
+    preferred_type: ExtraLight
+    full_name: Archivo Condensed ExtraLight
+    post_script_name: ArchivoCondensed-ExtraLight
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Condensed-ExtraLight.ttf
+- name: Archivo Condensed Light
+  styles:
+  - family_name: Archivo Condensed Light
+    type: Italic
+    preferred_family_name: Archivo Condensed
+    preferred_type: Light Italic
+    full_name: Archivo Condensed Light Italic
+    post_script_name: ArchivoCondensed-LightItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Condensed-LightItalic.ttf
+  - family_name: Archivo Condensed Light
+    type: Regular
+    preferred_family_name: Archivo Condensed
+    preferred_type: Light
+    full_name: Archivo Condensed Light
+    post_script_name: ArchivoCondensed-Light
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Condensed-Light.ttf
+- name: Archivo Condensed Medium
+  styles:
+  - family_name: Archivo Condensed Medium
+    type: Italic
+    preferred_family_name: Archivo Condensed
+    preferred_type: Medium Italic
+    full_name: Archivo Condensed Medium Italic
+    post_script_name: ArchivoCondensed-MediumItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Condensed-MediumItalic.ttf
+  - family_name: Archivo Condensed Medium
+    type: Regular
+    preferred_family_name: Archivo Condensed
+    preferred_type: Medium
+    full_name: Archivo Condensed Medium
+    post_script_name: ArchivoCondensed-Medium
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Condensed-Medium.ttf
+- name: Archivo Condensed SemiBold
+  styles:
+  - family_name: Archivo Condensed SemiBold
+    type: Italic
+    preferred_family_name: Archivo Condensed
+    preferred_type: SemiBold Italic
+    full_name: Archivo Condensed SemiBold Italic
+    post_script_name: ArchivoCondensed-SemiBoldItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Condensed-SemiBoldItalic.ttf
+  - family_name: Archivo Condensed SemiBold
+    type: Regular
+    preferred_family_name: Archivo Condensed
+    preferred_type: SemiBold
+    full_name: Archivo Condensed SemiBold
+    post_script_name: ArchivoCondensed-SemiBold
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Condensed-SemiBold.ttf
+- name: Archivo Condensed Thin
+  styles:
+  - family_name: Archivo Condensed Thin
+    type: Italic
+    preferred_family_name: Archivo Condensed
+    preferred_type: Thin Italic
+    full_name: Archivo Condensed Thin Italic
+    post_script_name: ArchivoCondensed-ThinItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Condensed-ThinItalic.ttf
+  - family_name: Archivo Condensed Thin
+    type: Regular
+    preferred_family_name: Archivo Condensed
+    preferred_type: Thin
+    full_name: Archivo Condensed Thin
+    post_script_name: ArchivoCondensed-Thin
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Condensed-Thin.ttf
+- name: Archivo Expanded
+  styles:
+  - family_name: Archivo Expanded
+    type: Bold
+    preferred_family_name: Archivo Expanded
+    preferred_type: Bold
+    full_name: Archivo Expanded Bold
+    post_script_name: ArchivoExpanded-Bold
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Expanded-Bold.ttf
+  - family_name: Archivo Expanded
+    type: Bold Italic
+    preferred_family_name: Archivo Expanded
+    preferred_type: Bold Italic
+    full_name: Archivo Expanded Bold Italic
+    post_script_name: ArchivoExpanded-BoldItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Expanded-BoldItalic.ttf
+  - family_name: Archivo Expanded
+    type: Italic
+    preferred_family_name: Archivo Expanded
+    preferred_type: Italic
+    full_name: Archivo Expanded Italic
+    post_script_name: ArchivoExpanded-Italic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Expanded-Italic.ttf
+  - family_name: Archivo Expanded
+    type: Regular
+    preferred_family_name: Archivo Expanded
+    preferred_type: Regular
+    full_name: Archivo Expanded Regular
+    post_script_name: ArchivoExpanded-Regular
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Expanded-Regular.ttf
+- name: Archivo Expanded Black
+  styles:
+  - family_name: Archivo Expanded Black
+    type: Italic
+    preferred_family_name: Archivo Expanded
+    preferred_type: Black Italic
+    full_name: Archivo Expanded Black Italic
+    post_script_name: ArchivoExpanded-BlackItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Expanded-BlackItalic.ttf
+  - family_name: Archivo Expanded Black
+    type: Regular
+    preferred_family_name: Archivo Expanded
+    preferred_type: Black
+    full_name: Archivo Expanded Black
+    post_script_name: ArchivoExpanded-Black
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Expanded-Black.ttf
+- name: Archivo Expanded ExtraBold
+  styles:
+  - family_name: Archivo Expanded ExtraBold
+    type: Italic
+    preferred_family_name: Archivo Expanded
+    preferred_type: ExtraBold Italic
+    full_name: Archivo Expanded ExtraBold Italic
+    post_script_name: ArchivoExpanded-ExtraBoldItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Expanded-ExtraBoldItalic.ttf
+  - family_name: Archivo Expanded ExtraBold
+    type: Regular
+    preferred_family_name: Archivo Expanded
+    preferred_type: ExtraBold
+    full_name: Archivo Expanded ExtraBold
+    post_script_name: ArchivoExpanded-ExtraBold
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Expanded-ExtraBold.ttf
+- name: Archivo Expanded ExtraLight
+  styles:
+  - family_name: Archivo Expanded ExtraLight
+    type: Italic
+    preferred_family_name: Archivo Expanded
+    preferred_type: ExtraLight Italic
+    full_name: Archivo Expanded ExtraLight Italic
+    post_script_name: ArchivoExpanded-ExtraLightItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Expanded-ExtraLightItalic.ttf
+  - family_name: Archivo Expanded ExtraLight
+    type: Regular
+    preferred_family_name: Archivo Expanded
+    preferred_type: ExtraLight
+    full_name: Archivo Expanded ExtraLight
+    post_script_name: ArchivoExpanded-ExtraLight
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Expanded-ExtraLight.ttf
+- name: Archivo Expanded Light
+  styles:
+  - family_name: Archivo Expanded Light
+    type: Italic
+    preferred_family_name: Archivo Expanded
+    preferred_type: Light Italic
+    full_name: Archivo Expanded Light Italic
+    post_script_name: ArchivoExpanded-LightItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Expanded-LightItalic.ttf
+  - family_name: Archivo Expanded Light
+    type: Regular
+    preferred_family_name: Archivo Expanded
+    preferred_type: Light
+    full_name: Archivo Expanded Light
+    post_script_name: ArchivoExpanded-Light
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Expanded-Light.ttf
+- name: Archivo Expanded Medium
+  styles:
+  - family_name: Archivo Expanded Medium
+    type: Italic
+    preferred_family_name: Archivo Expanded
+    preferred_type: Medium Italic
+    full_name: Archivo Expanded Medium Italic
+    post_script_name: ArchivoExpanded-MediumItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Expanded-MediumItalic.ttf
+  - family_name: Archivo Expanded Medium
+    type: Regular
+    preferred_family_name: Archivo Expanded
+    preferred_type: Medium
+    full_name: Archivo Expanded Medium
+    post_script_name: ArchivoExpanded-Medium
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Expanded-Medium.ttf
+- name: Archivo Expanded SemiBold
+  styles:
+  - family_name: Archivo Expanded SemiBold
+    type: Italic
+    preferred_family_name: Archivo Expanded
+    preferred_type: SemiBold Italic
+    full_name: Archivo Expanded SemiBold Italic
+    post_script_name: ArchivoExpanded-SemiBoldItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Expanded-SemiBoldItalic.ttf
+  - family_name: Archivo Expanded SemiBold
+    type: Regular
+    preferred_family_name: Archivo Expanded
+    preferred_type: SemiBold
+    full_name: Archivo Expanded SemiBold
+    post_script_name: ArchivoExpanded-SemiBold
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Expanded-SemiBold.ttf
+- name: Archivo Expanded Thin
+  styles:
+  - family_name: Archivo Expanded Thin
+    type: Italic
+    preferred_family_name: Archivo Expanded
+    preferred_type: Thin Italic
+    full_name: Archivo Expanded Thin Italic
+    post_script_name: ArchivoExpanded-ThinItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Expanded-ThinItalic.ttf
+  - family_name: Archivo Expanded Thin
+    type: Regular
+    preferred_family_name: Archivo Expanded
+    preferred_type: Thin
+    full_name: Archivo Expanded Thin
+    post_script_name: ArchivoExpanded-Thin
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_Expanded-Thin.ttf
+- name: Archivo ExtraBold
+  styles:
+  - family_name: Archivo ExtraBold
+    type: Italic
+    preferred_family_name: Archivo
+    preferred_type: ExtraBold Italic
+    full_name: Archivo ExtraBold Italic
+    post_script_name: Archivo-ExtraBoldItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo-ExtraBoldItalic.ttf
+  - family_name: Archivo ExtraBold
+    type: Regular
+    preferred_family_name: Archivo
+    preferred_type: ExtraBold
+    full_name: Archivo ExtraBold
+    post_script_name: Archivo-ExtraBold
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo-ExtraBold.ttf
+- name: Archivo ExtraCondensed
+  styles:
+  - family_name: Archivo ExtraCondensed
+    type: Bold
+    preferred_family_name: Archivo ExtraCondensed
+    preferred_type: Bold
+    full_name: Archivo ExtraCondensed Bold
+    post_script_name: ArchivoExtraCondensed-Bold
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_ExtraCondensed-Bold.ttf
+  - family_name: Archivo ExtraCondensed
+    type: Bold Italic
+    preferred_family_name: Archivo ExtraCondensed
+    preferred_type: Bold Italic
+    full_name: Archivo ExtraCondensed Bold Italic
+    post_script_name: ArchivoExtraCondensed-BoldItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_ExtraCondensed-BoldItalic.ttf
+  - family_name: Archivo ExtraCondensed
+    type: Italic
+    preferred_family_name: Archivo ExtraCondensed
+    preferred_type: Italic
+    full_name: Archivo ExtraCondensed Italic
+    post_script_name: ArchivoExtraCondensed-Italic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_ExtraCondensed-Italic.ttf
+  - family_name: Archivo ExtraCondensed
+    type: Regular
+    preferred_family_name: Archivo ExtraCondensed
+    preferred_type: Regular
+    full_name: Archivo ExtraCondensed Regular
+    post_script_name: ArchivoExtraCondensed-Regular
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_ExtraCondensed-Regular.ttf
+- name: Archivo ExtraCondensed Black
+  styles:
+  - family_name: Archivo ExtraCondensed Black
+    type: Italic
+    preferred_family_name: Archivo ExtraCondensed
+    preferred_type: Black Italic
+    full_name: Archivo ExtraCondensed Black Italic
+    post_script_name: ArchivoExtraCondensed-BlackItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_ExtraCondensed-BlackItalic.ttf
+  - family_name: Archivo ExtraCondensed Black
+    type: Regular
+    preferred_family_name: Archivo ExtraCondensed
+    preferred_type: Black
+    full_name: Archivo ExtraCondensed Black
+    post_script_name: ArchivoExtraCondensed-Black
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_ExtraCondensed-Black.ttf
+- name: Archivo ExtraCondensed ExtraBold
+  styles:
+  - family_name: Archivo ExtraCondensed ExtraBold
+    type: Italic
+    preferred_family_name: Archivo ExtraCondensed
+    preferred_type: ExtraBold Italic
+    full_name: Archivo ExtraCondensed ExtraBold Italic
+    post_script_name: ArchivoExtraCondensed-ExtraBoldItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_ExtraCondensed-ExtraBoldItalic.ttf
+  - family_name: Archivo ExtraCondensed ExtraBold
+    type: Regular
+    preferred_family_name: Archivo ExtraCondensed
+    preferred_type: ExtraBold
+    full_name: Archivo ExtraCondensed ExtraBold
+    post_script_name: ArchivoExtraCondensed-ExtraBold
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_ExtraCondensed-ExtraBold.ttf
+- name: Archivo ExtraCondensed ExtraLight
+  styles:
+  - family_name: Archivo ExtraCondensed ExtraLight
+    type: Italic
+    preferred_family_name: Archivo ExtraCondensed
+    preferred_type: ExtraLight Italic
+    full_name: Archivo ExtraCondensed ExtraLight Italic
+    post_script_name: ArchivoExtraCondensed-ExtraLightItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_ExtraCondensed-ExtraLightItalic.ttf
+  - family_name: Archivo ExtraCondensed ExtraLight
+    type: Regular
+    preferred_family_name: Archivo ExtraCondensed
+    preferred_type: ExtraLight
+    full_name: Archivo ExtraCondensed ExtraLight
+    post_script_name: ArchivoExtraCondensed-ExtraLight
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_ExtraCondensed-ExtraLight.ttf
+- name: Archivo ExtraCondensed Light
+  styles:
+  - family_name: Archivo ExtraCondensed Light
+    type: Italic
+    preferred_family_name: Archivo ExtraCondensed
+    preferred_type: Light Italic
+    full_name: Archivo ExtraCondensed Light Italic
+    post_script_name: ArchivoExtraCondensed-LightItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_ExtraCondensed-LightItalic.ttf
+  - family_name: Archivo ExtraCondensed Light
+    type: Regular
+    preferred_family_name: Archivo ExtraCondensed
+    preferred_type: Light
+    full_name: Archivo ExtraCondensed Light
+    post_script_name: ArchivoExtraCondensed-Light
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_ExtraCondensed-Light.ttf
+- name: Archivo ExtraCondensed Medium
+  styles:
+  - family_name: Archivo ExtraCondensed Medium
+    type: Italic
+    preferred_family_name: Archivo ExtraCondensed
+    preferred_type: Medium Italic
+    full_name: Archivo ExtraCondensed Medium Italic
+    post_script_name: ArchivoExtraCondensed-MediumItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_ExtraCondensed-MediumItalic.ttf
+  - family_name: Archivo ExtraCondensed Medium
+    type: Regular
+    preferred_family_name: Archivo ExtraCondensed
+    preferred_type: Medium
+    full_name: Archivo ExtraCondensed Medium
+    post_script_name: ArchivoExtraCondensed-Medium
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_ExtraCondensed-Medium.ttf
+- name: Archivo ExtraCondensed SemiBold
+  styles:
+  - family_name: Archivo ExtraCondensed SemiBold
+    type: Italic
+    preferred_family_name: Archivo ExtraCondensed
+    preferred_type: SemiBold Italic
+    full_name: Archivo ExtraCondensed SemiBold Italic
+    post_script_name: ArchivoExtraCondensed-SemiBoldItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_ExtraCondensed-SemiBoldItalic.ttf
+  - family_name: Archivo ExtraCondensed SemiBold
+    type: Regular
+    preferred_family_name: Archivo ExtraCondensed
+    preferred_type: SemiBold
+    full_name: Archivo ExtraCondensed SemiBold
+    post_script_name: ArchivoExtraCondensed-SemiBold
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_ExtraCondensed-SemiBold.ttf
+- name: Archivo ExtraCondensed Thin
+  styles:
+  - family_name: Archivo ExtraCondensed Thin
+    type: Italic
+    preferred_family_name: Archivo ExtraCondensed
+    preferred_type: Thin Italic
+    full_name: Archivo ExtraCondensed Thin Italic
+    post_script_name: ArchivoExtraCondensed-ThinItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_ExtraCondensed-ThinItalic.ttf
+  - family_name: Archivo ExtraCondensed Thin
+    type: Regular
+    preferred_family_name: Archivo ExtraCondensed
+    preferred_type: Thin
+    full_name: Archivo ExtraCondensed Thin
+    post_script_name: ArchivoExtraCondensed-Thin
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_ExtraCondensed-Thin.ttf
+- name: Archivo ExtraLight
+  styles:
+  - family_name: Archivo ExtraLight
+    type: Italic
+    preferred_family_name: Archivo
+    preferred_type: ExtraLight Italic
+    full_name: Archivo ExtraLight Italic
+    post_script_name: Archivo-ExtraLightItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo-ExtraLightItalic.ttf
+  - family_name: Archivo ExtraLight
+    type: Regular
+    preferred_family_name: Archivo
+    preferred_type: ExtraLight
+    full_name: Archivo ExtraLight
+    post_script_name: Archivo-ExtraLight
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo-ExtraLight.ttf
+- name: Archivo Light
+  styles:
+  - family_name: Archivo Light
+    type: Italic
+    preferred_family_name: Archivo
+    preferred_type: Light Italic
+    full_name: Archivo Light Italic
+    post_script_name: Archivo-LightItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo-LightItalic.ttf
+  - family_name: Archivo Light
+    type: Regular
+    preferred_family_name: Archivo
+    preferred_type: Light
+    full_name: Archivo Light
+    post_script_name: Archivo-Light
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo-Light.ttf
+- name: Archivo Medium
+  styles:
+  - family_name: Archivo Medium
+    type: Italic
+    preferred_family_name: Archivo
+    preferred_type: Medium Italic
+    full_name: Archivo Medium Italic
+    post_script_name: Archivo-MediumItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo-MediumItalic.ttf
+  - family_name: Archivo Medium
+    type: Regular
+    preferred_family_name: Archivo
+    preferred_type: Medium
+    full_name: Archivo Medium
+    post_script_name: Archivo-Medium
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo-Medium.ttf
+- name: Archivo SemiBold
+  styles:
+  - family_name: Archivo SemiBold
+    type: Italic
+    preferred_family_name: Archivo
+    preferred_type: SemiBold Italic
+    full_name: Archivo SemiBold Italic
+    post_script_name: Archivo-SemiBoldItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo-Italic-VariableFont_wdth,wght.ttf
+  - family_name: Archivo SemiBold
+    type: Italic
+    preferred_family_name: Archivo
+    preferred_type: SemiBold Italic
+    full_name: Archivo SemiBold Italic
+    post_script_name: Archivo-SemiBoldItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo-SemiBoldItalic.ttf
+  - family_name: Archivo SemiBold
+    type: Regular
+    preferred_family_name: Archivo
+    preferred_type: SemiBold
+    full_name: Archivo SemiBold
+    post_script_name: Archivo-SemiBold
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo-VariableFont_wdth,wght.ttf
+  - family_name: Archivo SemiBold
+    type: Regular
+    preferred_family_name: Archivo
+    preferred_type: SemiBold
+    full_name: Archivo SemiBold
+    post_script_name: Archivo-SemiBold
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo-SemiBold.ttf
+- name: Archivo SemiCondensed
+  styles:
+  - family_name: Archivo SemiCondensed
+    type: Bold
+    preferred_family_name: Archivo SemiCondensed
+    preferred_type: Bold
+    full_name: Archivo SemiCondensed Bold
+    post_script_name: ArchivoSemiCondensed-Bold
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiCondensed-Bold.ttf
+  - family_name: Archivo SemiCondensed
+    type: Bold Italic
+    preferred_family_name: Archivo SemiCondensed
+    preferred_type: Bold Italic
+    full_name: Archivo SemiCondensed Bold Italic
+    post_script_name: ArchivoSemiCondensed-BoldItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiCondensed-BoldItalic.ttf
+  - family_name: Archivo SemiCondensed
+    type: Italic
+    preferred_family_name: Archivo SemiCondensed
+    preferred_type: Italic
+    full_name: Archivo SemiCondensed Italic
+    post_script_name: ArchivoSemiCondensed-Italic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiCondensed-Italic.ttf
+  - family_name: Archivo SemiCondensed
+    type: Regular
+    preferred_family_name: Archivo SemiCondensed
+    preferred_type: Regular
+    full_name: Archivo SemiCondensed Regular
+    post_script_name: ArchivoSemiCondensed-Regular
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiCondensed-Regular.ttf
+- name: Archivo SemiCondensed Black
+  styles:
+  - family_name: Archivo SemiCondensed Black
+    type: Italic
+    preferred_family_name: Archivo SemiCondensed
+    preferred_type: Black Italic
+    full_name: Archivo SemiCondensed Black Italic
+    post_script_name: ArchivoSemiCondensed-BlackItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiCondensed-BlackItalic.ttf
+  - family_name: Archivo SemiCondensed Black
+    type: Regular
+    preferred_family_name: Archivo SemiCondensed
+    preferred_type: Black
+    full_name: Archivo SemiCondensed Black
+    post_script_name: ArchivoSemiCondensed-Black
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiCondensed-Black.ttf
+- name: Archivo SemiCondensed ExtraBold
+  styles:
+  - family_name: Archivo SemiCondensed ExtraBold
+    type: Italic
+    preferred_family_name: Archivo SemiCondensed
+    preferred_type: ExtraBold Italic
+    full_name: Archivo SemiCondensed ExtraBold Italic
+    post_script_name: ArchivoSemiCondensed-ExtraBoldItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiCondensed-ExtraBoldItalic.ttf
+  - family_name: Archivo SemiCondensed ExtraBold
+    type: Regular
+    preferred_family_name: Archivo SemiCondensed
+    preferred_type: ExtraBold
+    full_name: Archivo SemiCondensed ExtraBold
+    post_script_name: ArchivoSemiCondensed-ExtraBold
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiCondensed-ExtraBold.ttf
+- name: Archivo SemiCondensed ExtraLight
+  styles:
+  - family_name: Archivo SemiCondensed ExtraLight
+    type: Italic
+    preferred_family_name: Archivo SemiCondensed
+    preferred_type: ExtraLight Italic
+    full_name: Archivo SemiCondensed ExtraLight Italic
+    post_script_name: ArchivoSemiCondensed-ExtraLightItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiCondensed-ExtraLightItalic.ttf
+  - family_name: Archivo SemiCondensed ExtraLight
+    type: Regular
+    preferred_family_name: Archivo SemiCondensed
+    preferred_type: ExtraLight
+    full_name: Archivo SemiCondensed ExtraLight
+    post_script_name: ArchivoSemiCondensed-ExtraLight
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiCondensed-ExtraLight.ttf
+- name: Archivo SemiCondensed Light
+  styles:
+  - family_name: Archivo SemiCondensed Light
+    type: Italic
+    preferred_family_name: Archivo SemiCondensed
+    preferred_type: Light Italic
+    full_name: Archivo SemiCondensed Light Italic
+    post_script_name: ArchivoSemiCondensed-LightItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiCondensed-LightItalic.ttf
+  - family_name: Archivo SemiCondensed Light
+    type: Regular
+    preferred_family_name: Archivo SemiCondensed
+    preferred_type: Light
+    full_name: Archivo SemiCondensed Light
+    post_script_name: ArchivoSemiCondensed-Light
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiCondensed-Light.ttf
+- name: Archivo SemiCondensed Medium
+  styles:
+  - family_name: Archivo SemiCondensed Medium
+    type: Italic
+    preferred_family_name: Archivo SemiCondensed
+    preferred_type: Medium Italic
+    full_name: Archivo SemiCondensed Medium Italic
+    post_script_name: ArchivoSemiCondensed-MediumItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiCondensed-MediumItalic.ttf
+  - family_name: Archivo SemiCondensed Medium
+    type: Regular
+    preferred_family_name: Archivo SemiCondensed
+    preferred_type: Medium
+    full_name: Archivo SemiCondensed Medium
+    post_script_name: ArchivoSemiCondensed-Medium
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiCondensed-Medium.ttf
+- name: Archivo SemiCondensed SemiBold
+  styles:
+  - family_name: Archivo SemiCondensed SemiBold
+    type: Italic
+    preferred_family_name: Archivo SemiCondensed
+    preferred_type: SemiBold Italic
+    full_name: Archivo SemiCondensed SemiBold Italic
+    post_script_name: ArchivoSemiCondensed-SemiBoldItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiCondensed-SemiBoldItalic.ttf
+  - family_name: Archivo SemiCondensed SemiBold
+    type: Regular
+    preferred_family_name: Archivo SemiCondensed
+    preferred_type: SemiBold
+    full_name: Archivo SemiCondensed SemiBold
+    post_script_name: ArchivoSemiCondensed-SemiBold
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiCondensed-SemiBold.ttf
+- name: Archivo SemiCondensed Thin
+  styles:
+  - family_name: Archivo SemiCondensed Thin
+    type: Italic
+    preferred_family_name: Archivo SemiCondensed
+    preferred_type: Thin Italic
+    full_name: Archivo SemiCondensed Thin Italic
+    post_script_name: ArchivoSemiCondensed-ThinItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiCondensed-ThinItalic.ttf
+  - family_name: Archivo SemiCondensed Thin
+    type: Regular
+    preferred_family_name: Archivo SemiCondensed
+    preferred_type: Thin
+    full_name: Archivo SemiCondensed Thin
+    post_script_name: ArchivoSemiCondensed-Thin
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiCondensed-Thin.ttf
+- name: Archivo SemiExpanded
+  styles:
+  - family_name: Archivo SemiExpanded
+    type: Bold
+    preferred_family_name: Archivo SemiExpanded
+    preferred_type: Bold
+    full_name: Archivo SemiExpanded Bold
+    post_script_name: ArchivoSemiExpanded-Bold
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiExpanded-Bold.ttf
+  - family_name: Archivo SemiExpanded
+    type: Bold Italic
+    preferred_family_name: Archivo SemiExpanded
+    preferred_type: Bold Italic
+    full_name: Archivo SemiExpanded Bold Italic
+    post_script_name: ArchivoSemiExpanded-BoldItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiExpanded-BoldItalic.ttf
+  - family_name: Archivo SemiExpanded
+    type: Italic
+    preferred_family_name: Archivo SemiExpanded
+    preferred_type: Italic
+    full_name: Archivo SemiExpanded Italic
+    post_script_name: ArchivoSemiExpanded-Italic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiExpanded-Italic.ttf
+  - family_name: Archivo SemiExpanded
+    type: Regular
+    preferred_family_name: Archivo SemiExpanded
+    preferred_type: Regular
+    full_name: Archivo SemiExpanded Regular
+    post_script_name: ArchivoSemiExpanded-Regular
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiExpanded-Regular.ttf
+- name: Archivo SemiExpanded Black
+  styles:
+  - family_name: Archivo SemiExpanded Black
+    type: Italic
+    preferred_family_name: Archivo SemiExpanded
+    preferred_type: Black Italic
+    full_name: Archivo SemiExpanded Black Italic
+    post_script_name: ArchivoSemiExpanded-BlackItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiExpanded-BlackItalic.ttf
+  - family_name: Archivo SemiExpanded Black
+    type: Regular
+    preferred_family_name: Archivo SemiExpanded
+    preferred_type: Black
+    full_name: Archivo SemiExpanded Black
+    post_script_name: ArchivoSemiExpanded-Black
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiExpanded-Black.ttf
+- name: Archivo SemiExpanded ExtraBold
+  styles:
+  - family_name: Archivo SemiExpanded ExtraBold
+    type: Italic
+    preferred_family_name: Archivo SemiExpanded
+    preferred_type: ExtraBold Italic
+    full_name: Archivo SemiExpanded ExtraBold Italic
+    post_script_name: ArchivoSemiExpanded-ExtraBoldItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiExpanded-ExtraBoldItalic.ttf
+  - family_name: Archivo SemiExpanded ExtraBold
+    type: Regular
+    preferred_family_name: Archivo SemiExpanded
+    preferred_type: ExtraBold
+    full_name: Archivo SemiExpanded ExtraBold
+    post_script_name: ArchivoSemiExpanded-ExtraBold
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiExpanded-ExtraBold.ttf
+- name: Archivo SemiExpanded ExtraLight
+  styles:
+  - family_name: Archivo SemiExpanded ExtraLight
+    type: Italic
+    preferred_family_name: Archivo SemiExpanded
+    preferred_type: ExtraLight Italic
+    full_name: Archivo SemiExpanded ExtraLight Italic
+    post_script_name: ArchivoSemiExpanded-ExtraLightItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiExpanded-ExtraLightItalic.ttf
+  - family_name: Archivo SemiExpanded ExtraLight
+    type: Regular
+    preferred_family_name: Archivo SemiExpanded
+    preferred_type: ExtraLight
+    full_name: Archivo SemiExpanded ExtraLight
+    post_script_name: ArchivoSemiExpanded-ExtraLight
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiExpanded-ExtraLight.ttf
+- name: Archivo SemiExpanded Light
+  styles:
+  - family_name: Archivo SemiExpanded Light
+    type: Italic
+    preferred_family_name: Archivo SemiExpanded
+    preferred_type: Light Italic
+    full_name: Archivo SemiExpanded Light Italic
+    post_script_name: ArchivoSemiExpanded-LightItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiExpanded-LightItalic.ttf
+  - family_name: Archivo SemiExpanded Light
+    type: Regular
+    preferred_family_name: Archivo SemiExpanded
+    preferred_type: Light
+    full_name: Archivo SemiExpanded Light
+    post_script_name: ArchivoSemiExpanded-Light
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiExpanded-Light.ttf
+- name: Archivo SemiExpanded Medium
+  styles:
+  - family_name: Archivo SemiExpanded Medium
+    type: Italic
+    preferred_family_name: Archivo SemiExpanded
+    preferred_type: Medium Italic
+    full_name: Archivo SemiExpanded Medium Italic
+    post_script_name: ArchivoSemiExpanded-MediumItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiExpanded-MediumItalic.ttf
+  - family_name: Archivo SemiExpanded Medium
+    type: Regular
+    preferred_family_name: Archivo SemiExpanded
+    preferred_type: Medium
+    full_name: Archivo SemiExpanded Medium
+    post_script_name: ArchivoSemiExpanded-Medium
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiExpanded-Medium.ttf
+- name: Archivo SemiExpanded SemiBold
+  styles:
+  - family_name: Archivo SemiExpanded SemiBold
+    type: Italic
+    preferred_family_name: Archivo SemiExpanded
+    preferred_type: SemiBold Italic
+    full_name: Archivo SemiExpanded SemiBold Italic
+    post_script_name: ArchivoSemiExpanded-SemiBoldItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiExpanded-SemiBoldItalic.ttf
+  - family_name: Archivo SemiExpanded SemiBold
+    type: Regular
+    preferred_family_name: Archivo SemiExpanded
+    preferred_type: SemiBold
+    full_name: Archivo SemiExpanded SemiBold
+    post_script_name: ArchivoSemiExpanded-SemiBold
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiExpanded-SemiBold.ttf
+- name: Archivo SemiExpanded Thin
+  styles:
+  - family_name: Archivo SemiExpanded Thin
+    type: Italic
+    preferred_family_name: Archivo SemiExpanded
+    preferred_type: Thin Italic
+    full_name: Archivo SemiExpanded Thin Italic
+    post_script_name: ArchivoSemiExpanded-ThinItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiExpanded-ThinItalic.ttf
+  - family_name: Archivo SemiExpanded Thin
+    type: Regular
+    preferred_family_name: Archivo SemiExpanded
+    preferred_type: Thin
+    full_name: Archivo SemiExpanded Thin
+    post_script_name: ArchivoSemiExpanded-Thin
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo_SemiExpanded-Thin.ttf
+- name: Archivo Thin
+  styles:
+  - family_name: Archivo Thin
+    type: Italic
+    preferred_family_name: Archivo
+    preferred_type: Thin Italic
+    full_name: Archivo Thin Italic
+    post_script_name: Archivo-ThinItalic
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo-ThinItalic.ttf
+  - family_name: Archivo Thin
+    type: Regular
+    preferred_family_name: Archivo
+    preferred_type: Thin
+    full_name: Archivo Thin
+    post_script_name: Archivo-Thin
+    version: '2.001'
+    description: Archivo is a grotesque sans serif typeface family from Omnibus-Type.
+      It was originally designed for highlights and headlines. This family is reminiscent
+      of late nineteenth century American typefaces.
+    copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+    font: Archivo-Thin.ttf
+extract: {}
+copyright: Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2016 The Archivo Project Authors (omnibus.type@gmail.com)
+  Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -188,3 +1512,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 6991d7a02f884d05636ce227df0b6bb2f999bcab280e8324cf994c1ba5a9d62c
+command: google import --formulas_path Formulas

@@ -11,23 +11,21 @@ fonts:
 - name: Hanuman
   styles:
   - family_name: Hanuman
-    type: Regular
-    full_name: Hanuman Regular
-    post_script_name: Hanuman-Regular
-    version: 2.00 August 13, 2011
-    copyright: Copyright by Danh Hong, 2011.
-    font: Hanuman-Regular.ttf
-  - family_name: Hanuman
     type: Bold
     full_name: Hanuman Bold
     post_script_name: Hanuman-Bold
     version: 2.00 August 14, 2011
     copyright: Copyright by Danh Hong, 2011.
     font: Hanuman-Bold.ttf
-extract:
-  format: zip
-copyright: Copyright 2011 Danh Hong (danhhong@gmail.com)
-license_url:
+  - family_name: Hanuman
+    type: Regular
+    full_name: Hanuman Regular
+    post_script_name: Hanuman-Regular
+    version: 2.00 August 13, 2011
+    copyright: Copyright by Danh Hong, 2011.
+    font: Hanuman-Regular.ttf
+extract: {}
+copyright: Copyright by Danh Hong, 2011.
 open_license: |-
   Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
   with Reserved Font Name Hanuman.
@@ -123,3 +121,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 73271b33e60da5e75833294ce754de07a2f2eebb3869faf0da36ea823a08d8c2
+command: google import --formulas_path Formulas

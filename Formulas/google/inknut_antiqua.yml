@@ -1,67 +1,93 @@
 ---
-name: InknutAntiqua
+name: Inknut Antiqua
 description: Inknut Antiqua
 homepage: http://www.forthehearts.net
 resources:
-  InknutAntiqua.zip:
+  Inknut_Antiqua.zip:
     urls:
     - https://fonts.google.com/download?family=Inknut%20Antiqua
-    sha256: 7c1a99126aa1995749e9caa09724e2781fdefa6c5327223325a0347f444929c4
+    sha256: 4ab4cafeaf4aa8fb819f3aa2d58ce44ddad337f8519ddfea6eaef6462bd9e865
 fonts:
 - name: Inknut Antiqua
   styles:
   - family_name: Inknut Antiqua
-    type: Light
-    full_name: Inknut Antiqua Light
-    post_script_name: InknutAntiqua-Light
-    version: '1.003'
+    type: Bold
+    full_name: Inknut Antiqua Bold
+    post_script_name: InknutAntiqua-Bold
+    version: 1.003; ttfautohint (v1.8.2) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a
+      qsq -W -X ""
     copyright: Copyright (c) 2014 by Claus Eggers Sørensen (es@forthehearts.net).
-    font: InknutAntiqua-Light.ttf
+    font: InknutAntiqua-Bold.ttf
   - family_name: Inknut Antiqua
     type: Regular
     full_name: Inknut Antiqua Regular
     post_script_name: InknutAntiqua-Regular
-    version: '1.003'
+    version: 1.003; ttfautohint (v1.8.2) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a
+      qsq -W -X ""
     copyright: Copyright (c) 2014 by Claus Eggers Sørensen (es@forthehearts.net).
     font: InknutAntiqua-Regular.ttf
-  - family_name: Inknut Antiqua
-    type: Medium
-    full_name: Inknut Antiqua Medium
-    post_script_name: InknutAntiqua-Medium
-    version: '1.003'
-    copyright: Copyright (c) 2014 by Claus Eggers Sørensen (es@forthehearts.net).
-    font: InknutAntiqua-Medium.ttf
-  - family_name: Inknut Antiqua
-    type: SemiBold
-    full_name: Inknut Antiqua SemiBold
-    post_script_name: InknutAntiqua-SemiBold
-    version: '1.003'
-    copyright: Copyright (c) 2014 by Claus Eggers Sørensen (es@forthehearts.net).
-    font: InknutAntiqua-SemiBold.ttf
-  - family_name: Inknut Antiqua
-    type: Bold
-    full_name: Inknut Antiqua Bold
-    post_script_name: InknutAntiqua-Bold
-    version: '1.003'
-    copyright: Copyright (c) 2014 by Claus Eggers Sørensen (es@forthehearts.net).
-    font: InknutAntiqua-Bold.ttf
-  - family_name: Inknut Antiqua
-    type: ExtraBold
-    full_name: Inknut Antiqua ExtraBold
-    post_script_name: InknutAntiqua-ExtraBold
-    version: '1.003'
-    copyright: Copyright (c) 2014 by Claus Eggers Sørensen (es@forthehearts.net).
-    font: InknutAntiqua-ExtraBold.ttf
-  - family_name: Inknut Antiqua
-    type: Black
+- name: Inknut Antiqua Black
+  styles:
+  - family_name: Inknut Antiqua Black
+    type: Regular
+    preferred_family_name: Inknut Antiqua
+    preferred_type: Black
     full_name: Inknut Antiqua Black
     post_script_name: InknutAntiqua-Black
-    version: '1.003'
+    version: 1.003; ttfautohint (v1.8.2) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a
+      qsq -W -X ""
     copyright: Copyright (c) 2014 by Claus Eggers Sørensen (es@forthehearts.net).
     font: InknutAntiqua-Black.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2014 by Claus Eggers Srensen (es@forthehearts.net).
+- name: Inknut Antiqua ExtraBold
+  styles:
+  - family_name: Inknut Antiqua ExtraBold
+    type: Regular
+    preferred_family_name: Inknut Antiqua
+    preferred_type: ExtraBold
+    full_name: Inknut Antiqua ExtraBold
+    post_script_name: InknutAntiqua-ExtraBold
+    version: 1.003; ttfautohint (v1.8.2) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a
+      qsq -W -X ""
+    copyright: Copyright (c) 2014 by Claus Eggers Sørensen (es@forthehearts.net).
+    font: InknutAntiqua-ExtraBold.ttf
+- name: Inknut Antiqua Light
+  styles:
+  - family_name: Inknut Antiqua Light
+    type: Regular
+    preferred_family_name: Inknut Antiqua
+    preferred_type: Light
+    full_name: Inknut Antiqua Light
+    post_script_name: InknutAntiqua-Light
+    version: 1.003; ttfautohint (v1.8.2) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a
+      qsq -W -X ""
+    copyright: Copyright (c) 2014 by Claus Eggers Sørensen (es@forthehearts.net).
+    font: InknutAntiqua-Light.ttf
+- name: Inknut Antiqua Medium
+  styles:
+  - family_name: Inknut Antiqua Medium
+    type: Regular
+    preferred_family_name: Inknut Antiqua
+    preferred_type: Medium
+    full_name: Inknut Antiqua Medium
+    post_script_name: InknutAntiqua-Medium
+    version: 1.003; ttfautohint (v1.8.2) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a
+      qsq -W -X ""
+    copyright: Copyright (c) 2014 by Claus Eggers Sørensen (es@forthehearts.net).
+    font: InknutAntiqua-Medium.ttf
+- name: Inknut Antiqua SemiBold
+  styles:
+  - family_name: Inknut Antiqua SemiBold
+    type: Regular
+    preferred_family_name: Inknut Antiqua
+    preferred_type: SemiBold
+    full_name: Inknut Antiqua SemiBold
+    post_script_name: InknutAntiqua-SemiBold
+    version: 1.003; ttfautohint (v1.8.2) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a
+      qsq -W -X ""
+    copyright: Copyright (c) 2014 by Claus Eggers Sørensen (es@forthehearts.net).
+    font: InknutAntiqua-SemiBold.ttf
+extract: {}
+copyright: Copyright (c) 2014 by Claus Eggers Sørensen (es@forthehearts.net).
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2014 Claus Eggers Sørensen (es@forthehearts.net)
@@ -157,3 +183,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 8aedef9461ed2186e763d9e01f30bbb5774b949b823f3c684d8265eb203e4843
+command: google import --formulas_path Formulas
