@@ -80,7 +80,7 @@ class TestFormulas
 
   def font_from_formula(data)
     data.dig("fonts", 0, "name") ||
-      data.dig("font_collections", "fonts", 0, "name")
+      data.dig("font_collections", 0, "fonts", 0, "name")
   end
 end
 
