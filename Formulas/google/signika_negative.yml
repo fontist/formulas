@@ -1,52 +1,58 @@
 ---
-name: SignikaNegative
+name: Signika Negative
 description: Signika Negative
 homepage: www.ancymonic.com
 resources:
-  SignikaNegative.zip:
+  Signika_Negative.zip:
     urls:
     - https://fonts.google.com/download?family=Signika%20Negative
-    sha256: 3398b53c45c86626deb75e8fef90c32f18b20208b700feac4e90d19790bfa1a4
 fonts:
 - name: Signika Negative
   styles:
   - family_name: Signika Negative
-    type: Light
-    full_name: Signika Negative Light
-    post_script_name: SignikaNegative-Light
-    version: 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 9 -D latn -f none -a
-      nnn -X ""
-    copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
-    font: SignikaNegative-Light.ttf
+    type: Bold
+    full_name: Signika Negative Bold
+    post_script_name: SignikaNegative-Bold
+    version: '1.002'
+    copyright: Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com), with Reserved
+      Font Names "Signika".
+    font: SignikaNegative-Bold.ttf
   - family_name: Signika Negative
     type: Regular
     full_name: Signika Negative Regular
     post_script_name: SignikaNegative-Regular
-    version: 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 9 -D latn -f none -a
-      nnn -X ""
-    copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
+    version: '1.002'
+    copyright: Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com), with Reserved
+      Font Names "Signika".
     font: SignikaNegative-Regular.ttf
-  - family_name: Signika Negative
-    type: SemiBold
+- name: Signika Negative Light
+  styles:
+  - family_name: Signika Negative Light
+    type: Regular
+    preferred_family_name: Signika Negative
+    preferred_type: Light
+    full_name: Signika Negative Light
+    post_script_name: SignikaNegative-Light
+    version: '1.002'
+    copyright: Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com), with Reserved
+      Font Names "Signika".
+    font: SignikaNegative-Light.ttf
+- name: Signika Negative SemiBold
+  styles:
+  - family_name: Signika Negative SemiBold
+    type: Regular
+    preferred_family_name: Signika Negative
+    preferred_type: SemiBold
     full_name: Signika Negative SemiBold
     post_script_name: SignikaNegative-SemiBold
-    version: 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 9 -D latn -f none -a
-      nnn -X ""
-    copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
+    version: '1.002'
+    copyright: Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com), with Reserved
+      Font Names "Signika".
     font: SignikaNegative-SemiBold.ttf
-  - family_name: Signika Negative
-    type: Bold
-    full_name: Signika Negative Bold
-    post_script_name: SignikaNegative-Bold
-    version: 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 9 -D latn -f none -a
-      nnn -X ""
-    copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
-    font: SignikaNegative-Bold.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by Anna Giedrys (info@ancymonic.com), with Reserved
+extract: {}
+copyright: Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com), with Reserved
   Font Names "Signika".
-license_url: https://scripts.sil.org/OFL
+license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Anna Giedryś (http://ancymonic.com),
   with Reserved Font Names "Signika".
@@ -142,3 +148,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 6470afb330601b22c97687f9d31e5be2f84ded0ecf5d3460c31e73557972618a
+command: google import --formulas_path Formulas
