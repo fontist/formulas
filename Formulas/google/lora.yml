@@ -10,13 +10,29 @@ fonts:
 - name: Lora
   styles:
   - family_name: Lora
-    type: Regular
-    full_name: Lora Regular
-    post_script_name: Lora-Regular
+    type: Bold
+    full_name: Lora Bold
+    post_script_name: Lora-Bold
     version: '3.000'
     copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
       with Reserved Font Name "Lora".
-    font: Lora-VariableFont_wght.ttf
+    font: Lora-Bold.ttf
+  - family_name: Lora
+    type: Bold Italic
+    full_name: Lora Bold Italic
+    post_script_name: Lora-BoldItalic
+    version: '3.000'
+    copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
+      with Reserved Font Name "Lora".
+    font: Lora-BoldItalic.ttf
+  - family_name: Lora
+    type: Italic
+    full_name: Lora Italic
+    post_script_name: Lora-Italic
+    version: '3.000'
+    copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
+      with Reserved Font Name "Lora".
+    font: Lora-Italic.ttf
   - family_name: Lora
     type: Italic
     full_name: Lora Italic
@@ -25,8 +41,67 @@ fonts:
     copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
       with Reserved Font Name "Lora".
     font: Lora-Italic-VariableFont_wght.ttf
-extract:
-  format: zip
+  - family_name: Lora
+    type: Regular
+    full_name: Lora Regular
+    post_script_name: Lora-Regular
+    version: '3.000'
+    copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
+      with Reserved Font Name "Lora".
+    font: Lora-Regular.ttf
+  - family_name: Lora
+    type: Regular
+    full_name: Lora Regular
+    post_script_name: Lora-Regular
+    version: '3.000'
+    copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
+      with Reserved Font Name "Lora".
+    font: Lora-VariableFont_wght.ttf
+- name: Lora Medium
+  styles:
+  - family_name: Lora Medium
+    type: Italic
+    preferred_family_name: Lora
+    preferred_type: Medium Italic
+    full_name: Lora Medium Italic
+    post_script_name: Lora-MediumItalic
+    version: '3.000'
+    copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
+      with Reserved Font Name "Lora".
+    font: Lora-MediumItalic.ttf
+  - family_name: Lora Medium
+    type: Regular
+    preferred_family_name: Lora
+    preferred_type: Medium
+    full_name: Lora Medium
+    post_script_name: Lora-Medium
+    version: '3.000'
+    copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
+      with Reserved Font Name "Lora".
+    font: Lora-Medium.ttf
+- name: Lora SemiBold
+  styles:
+  - family_name: Lora SemiBold
+    type: Italic
+    preferred_family_name: Lora
+    preferred_type: SemiBold Italic
+    full_name: Lora SemiBold Italic
+    post_script_name: Lora-SemiBoldItalic
+    version: '3.000'
+    copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
+      with Reserved Font Name "Lora".
+    font: Lora-SemiBoldItalic.ttf
+  - family_name: Lora SemiBold
+    type: Regular
+    preferred_family_name: Lora
+    preferred_type: SemiBold
+    full_name: Lora SemiBold
+    post_script_name: Lora-SemiBold
+    version: '3.000'
+    copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
+      with Reserved Font Name "Lora".
+    font: Lora-SemiBold.ttf
+extract: {}
 copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
   with Reserved Font Name "Lora".
 license_url: http://scripts.sil.org/OFL
@@ -124,3 +199,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: '040893e835b117792a601318fd5a1f0dd94792e8a217127fdf3a5b349c7b3c9e'
+command: google import --formulas_path Formulas
