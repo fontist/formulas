@@ -61,8 +61,12 @@ class TestFormulas
 
   def formulas
     @formulas ||= JSON.parse(File.read("changed.json")).select do |file|
-      file.start_with?("Formulas/")
+      file.start_with?("Formulas/") && downloadable?(file)
     end
+  end
+
+  def downloadable?(file)
+    !!YAML.load_file(file)["resources"]
   end
 
   def rebuild_index
