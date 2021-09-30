@@ -10,18 +10,89 @@ fonts:
 - name: Changa
   styles:
   - family_name: Changa
-    type: ExtraLight
+    type: Bold
+    full_name: Changa Bold
+    post_script_name: Changa-Bold
+    version: 3.002; ttfautohint (v1.8.2)
+    copyright: Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)
+    font: Changa-Bold.ttf
+  - family_name: Changa
+    type: Regular
+    full_name: Changa Regular
+    post_script_name: Changa-Regular
+    version: 3.002; ttfautohint (v1.8.2)
+    copyright: Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)
+    font: Changa-Regular.ttf
+- name: Changa ExtraBold
+  styles:
+  - family_name: Changa ExtraBold
+    type: Regular
+    preferred_family_name: Changa
+    preferred_type: ExtraBold
+    full_name: Changa ExtraBold
+    post_script_name: Changa-ExtraBold
+    version: 3.002; ttfautohint (v1.8.2)
+    copyright: Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)
+    font: Changa-ExtraBold.ttf
+- name: Changa ExtraLight
+  styles:
+  - family_name: Changa ExtraLight
+    type: Regular
+    preferred_family_name: Changa
+    preferred_type: ExtraLight
+    full_name: Changa ExtraLight
+    post_script_name: Changa-ExtraLight
+    version: 3.002; ttfautohint (v1.8.2)
+    copyright: Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)
+    font: Changa-ExtraLight.ttf
+  - family_name: Changa ExtraLight
+    type: Regular
+    preferred_family_name: Changa
+    preferred_type: ExtraLight
     full_name: Changa ExtraLight
     post_script_name: Changa-ExtraLight
     version: 3.002; ttfautohint (v1.8.2)
     copyright: Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)
     font: Changa-VariableFont_wght.ttf
-extract:
-  format: zip
+- name: Changa Light
+  styles:
+  - family_name: Changa Light
+    type: Regular
+    preferred_family_name: Changa
+    preferred_type: Light
+    full_name: Changa Light
+    post_script_name: Changa-Light
+    version: 3.002; ttfautohint (v1.8.2)
+    copyright: Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)
+    font: Changa-Light.ttf
+- name: Changa Medium
+  styles:
+  - family_name: Changa Medium
+    type: Regular
+    preferred_family_name: Changa
+    preferred_type: Medium
+    full_name: Changa Medium
+    post_script_name: Changa-Medium
+    version: 3.002; ttfautohint (v1.8.2)
+    copyright: Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)
+    font: Changa-Medium.ttf
+- name: Changa SemiBold
+  styles:
+  - family_name: Changa SemiBold
+    type: Regular
+    preferred_family_name: Changa
+    preferred_type: SemiBold
+    full_name: Changa SemiBold
+    post_script_name: Changa-SemiBold
+    version: 3.002; ttfautohint (v1.8.2)
+    copyright: Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)
+    font: Changa-SemiBold.ttf
+extract: {}
 copyright: Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright 2011 Eduardo Tunni (www.tipo.net.ar)
+
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
   http://scripts.sil.org/OFL
@@ -113,3 +184,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 342bd172ec76676b5ff2c3b5bd2d9684c2b1b9cfdfce193b289566cdc9e75fad
+command: google import --formulas_path Formulas

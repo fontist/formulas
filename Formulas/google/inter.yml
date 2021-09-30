@@ -10,14 +10,104 @@ fonts:
 - name: Inter
   styles:
   - family_name: Inter
+    type: Bold
+    full_name: Inter Bold
+    post_script_name: Inter-Bold
+    version: 3.012;git-06b166889
+    copyright: Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)
+    font: Inter-Bold.ttf
+  - family_name: Inter
+    type: Regular
+    full_name: Inter Regular
+    post_script_name: Inter-Regular
+    version: 3.012;git-06b166889
+    copyright: Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)
+    font: Inter-Regular.ttf
+  - family_name: Inter
     type: Regular
     full_name: Inter
     post_script_name: Inter-Regular
     version: 3.012;git-06b166889
     copyright: Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)
-    font: Inter[slnt,wght].ttf
-extract:
-  format: zip
+    font: Inter-VariableFont_slnt,wght.ttf
+- name: Inter Black
+  styles:
+  - family_name: Inter Black
+    type: Regular
+    preferred_family_name: Inter
+    preferred_type: Black
+    full_name: Inter Black
+    post_script_name: Inter-Black
+    version: 3.012;git-06b166889
+    copyright: Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)
+    font: Inter-Black.ttf
+- name: Inter ExtraBold
+  styles:
+  - family_name: Inter ExtraBold
+    type: Regular
+    preferred_family_name: Inter
+    preferred_type: ExtraBold
+    full_name: Inter ExtraBold
+    post_script_name: Inter-ExtraBold
+    version: 3.012;git-06b166889
+    copyright: Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)
+    font: Inter-ExtraBold.ttf
+- name: Inter ExtraLight
+  styles:
+  - family_name: Inter ExtraLight
+    type: Regular
+    preferred_family_name: Inter
+    preferred_type: ExtraLight
+    full_name: Inter ExtraLight
+    post_script_name: Inter-ExtraLight
+    version: 3.012;git-06b166889
+    copyright: Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)
+    font: Inter-ExtraLight.ttf
+- name: Inter Light
+  styles:
+  - family_name: Inter Light
+    type: Regular
+    preferred_family_name: Inter
+    preferred_type: Light
+    full_name: Inter Light
+    post_script_name: Inter-Light
+    version: 3.012;git-06b166889
+    copyright: Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)
+    font: Inter-Light.ttf
+- name: Inter Medium
+  styles:
+  - family_name: Inter Medium
+    type: Regular
+    preferred_family_name: Inter
+    preferred_type: Medium
+    full_name: Inter Medium
+    post_script_name: Inter-Medium
+    version: 3.012;git-06b166889
+    copyright: Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)
+    font: Inter-Medium.ttf
+- name: Inter SemiBold
+  styles:
+  - family_name: Inter SemiBold
+    type: Regular
+    preferred_family_name: Inter
+    preferred_type: SemiBold
+    full_name: Inter SemiBold
+    post_script_name: Inter-SemiBold
+    version: 3.012;git-06b166889
+    copyright: Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)
+    font: Inter-SemiBold.ttf
+- name: Inter Thin
+  styles:
+  - family_name: Inter Thin
+    type: Regular
+    preferred_family_name: Inter
+    preferred_type: Thin
+    full_name: Inter Thin
+    post_script_name: Inter-Thin
+    version: 3.012;git-06b166889
+    copyright: Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)
+    font: Inter-Thin.ttf
+extract: {}
 copyright: Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -26,6 +116,7 @@ open_license: |-
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
   http://scripts.sil.org/OFL
+
 
   -----------------------------------------------------------
   SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
@@ -66,7 +157,7 @@ open_license: |-
   "Author" refers to any designer, engineer, programmer, technical
   writer or other person who contributed to the Font Software.
 
-  PERMISSION AND CONDITIONS
+  PERMISSION & CONDITIONS
   Permission is hereby granted, free of charge, to any person obtaining
   a copy of the Font Software, to use, study, copy, merge, embed, modify,
   redistribute, and sell modified and unmodified copies of the Font
@@ -113,3 +204,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 82de8295e4d035e5fc1d8a439f4b867505cd302b26fc6edf1e2e9c323aa9ec3e
+command: google import --formulas_path Formulas
