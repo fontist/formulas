@@ -1,23 +1,115 @@
 ---
-name: HeptaSlab
+name: Hepta Slab
 description: Hepta Slab
 homepage: https://michaellagattuta.com/
 resources:
-  HeptaSlab.zip:
+  Hepta_Slab.zip:
     urls:
     - https://fonts.google.com/download?family=Hepta%20Slab
 fonts:
 - name: Hepta Slab
   styles:
   - family_name: Hepta Slab
-    type: ExtraLight
+    type: Bold
+    full_name: Hepta Slab Bold
+    post_script_name: HeptaSlab-Bold
+    version: '1.100'
+    copyright: Copyright 2018 The Hepta Slab Project Authors (https://github.com/mjlagattuta/Hepta-Slab)
+    font: HeptaSlab-Bold.ttf
+  - family_name: Hepta Slab
+    type: Regular
+    full_name: Hepta Slab Regular
+    post_script_name: HeptaSlab-Regular
+    version: '1.100'
+    copyright: Copyright 2018 The Hepta Slab Project Authors (https://github.com/mjlagattuta/Hepta-Slab)
+    font: HeptaSlab-Regular.ttf
+- name: Hepta Slab Black
+  styles:
+  - family_name: Hepta Slab Black
+    type: Regular
+    preferred_family_name: Hepta Slab
+    preferred_type: Black
+    full_name: Hepta Slab Black
+    post_script_name: HeptaSlab-Black
+    version: '1.100'
+    copyright: Copyright 2018 The Hepta Slab Project Authors (https://github.com/mjlagattuta/Hepta-Slab)
+    font: HeptaSlab-Black.ttf
+- name: Hepta Slab ExtraBold
+  styles:
+  - family_name: Hepta Slab ExtraBold
+    type: Regular
+    preferred_family_name: Hepta Slab
+    preferred_type: ExtraBold
+    full_name: Hepta Slab ExtraBold
+    post_script_name: HeptaSlab-ExtraBold
+    version: '1.100'
+    copyright: Copyright 2018 The Hepta Slab Project Authors (https://github.com/mjlagattuta/Hepta-Slab)
+    font: HeptaSlab-ExtraBold.ttf
+- name: Hepta Slab ExtraLight
+  styles:
+  - family_name: Hepta Slab ExtraLight
+    type: Regular
+    preferred_family_name: Hepta Slab
+    preferred_type: ExtraLight
+    full_name: Hepta Slab ExtraLight
+    post_script_name: HeptaSlab-ExtraLight
+    version: '1.100'
+    copyright: Copyright 2018 The Hepta Slab Project Authors (https://github.com/mjlagattuta/Hepta-Slab)
+    font: HeptaSlab-ExtraLight.ttf
+  - family_name: Hepta Slab ExtraLight
+    type: Regular
+    preferred_family_name: Hepta Slab
+    preferred_type: ExtraLight
     full_name: Hepta Slab ExtraLight
     post_script_name: HeptaSlab-ExtraLight
     version: '1.100'
     copyright: Copyright 2018 The Hepta Slab Project Authors (https://github.com/mjlagattuta/Hepta-Slab)
     font: HeptaSlab-VariableFont_wght.ttf
-extract:
-  format: zip
+- name: Hepta Slab Light
+  styles:
+  - family_name: Hepta Slab Light
+    type: Regular
+    preferred_family_name: Hepta Slab
+    preferred_type: Light
+    full_name: Hepta Slab Light
+    post_script_name: HeptaSlab-Light
+    version: '1.100'
+    copyright: Copyright 2018 The Hepta Slab Project Authors (https://github.com/mjlagattuta/Hepta-Slab)
+    font: HeptaSlab-Light.ttf
+- name: Hepta Slab Medium
+  styles:
+  - family_name: Hepta Slab Medium
+    type: Regular
+    preferred_family_name: Hepta Slab
+    preferred_type: Medium
+    full_name: Hepta Slab Medium
+    post_script_name: HeptaSlab-Medium
+    version: '1.100'
+    copyright: Copyright 2018 The Hepta Slab Project Authors (https://github.com/mjlagattuta/Hepta-Slab)
+    font: HeptaSlab-Medium.ttf
+- name: Hepta Slab SemiBold
+  styles:
+  - family_name: Hepta Slab SemiBold
+    type: Regular
+    preferred_family_name: Hepta Slab
+    preferred_type: SemiBold
+    full_name: Hepta Slab SemiBold
+    post_script_name: HeptaSlab-SemiBold
+    version: '1.100'
+    copyright: Copyright 2018 The Hepta Slab Project Authors (https://github.com/mjlagattuta/Hepta-Slab)
+    font: HeptaSlab-SemiBold.ttf
+- name: Hepta Slab Thin
+  styles:
+  - family_name: Hepta Slab Thin
+    type: Regular
+    preferred_family_name: Hepta Slab
+    preferred_type: Thin
+    full_name: Hepta Slab Thin
+    post_script_name: HeptaSlab-Thin
+    version: '1.100'
+    copyright: Copyright 2018 The Hepta Slab Project Authors (https://github.com/mjlagattuta/Hepta-Slab)
+    font: HeptaSlab-Thin.ttf
+extract: {}
 copyright: Copyright 2018 The Hepta Slab Project Authors (https://github.com/mjlagattuta/Hepta-Slab)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -114,3 +206,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 5d0173e93d5fde480728dcb455e4566c2454f0c043dbb8ab0b3762e6df4028eb
+command: google import --formulas_path Formulas

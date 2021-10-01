@@ -10,14 +10,62 @@ fonts:
 - name: Signika
   styles:
   - family_name: Signika
-    type: Light
+    type: Bold
+    full_name: Signika Bold
+    post_script_name: Signika-Bold
+    version: '2.000'
+    copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
+    font: Signika-Bold.ttf
+  - family_name: Signika
+    type: Regular
+    full_name: Signika Regular
+    post_script_name: Signika-Regular
+    version: '2.000'
+    copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
+    font: Signika-Regular.ttf
+  - family_name: Signika
+    type: Regular
+    preferred_family_name: Signika
+    preferred_type: Light
     full_name: Signika
     post_script_name: Signika-Light
     version: '2.000'
     copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
     font: Signika-VariableFont_wght.ttf
-extract:
-  format: zip
+- name: Signika Light
+  styles:
+  - family_name: Signika Light
+    type: Regular
+    preferred_family_name: Signika
+    preferred_type: Light
+    full_name: Signika Light
+    post_script_name: Signika-Light
+    version: '2.000'
+    copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
+    font: Signika-Light.ttf
+- name: Signika Medium
+  styles:
+  - family_name: Signika Medium
+    type: Regular
+    preferred_family_name: Signika
+    preferred_type: Medium
+    full_name: Signika Medium
+    post_script_name: Signika-Medium
+    version: '2.000'
+    copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
+    font: Signika-Medium.ttf
+- name: Signika SemiBold
+  styles:
+  - family_name: Signika SemiBold
+    type: Regular
+    preferred_family_name: Signika
+    preferred_type: SemiBold
+    full_name: Signika SemiBold
+    post_script_name: Signika-SemiBold
+    version: '2.000'
+    copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
+    font: Signika-SemiBold.ttf
+extract: {}
 copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
 license_url: https://scripts.sil.org/OFL
 open_license: |-
@@ -115,3 +163,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 6ed200f520c5a10b753449a34544d3d7da9ae4cb4335292872c2f9803efe915e
+command: google import --formulas_path Formulas
