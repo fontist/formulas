@@ -6,42 +6,9 @@ resources:
   Cairo.zip:
     urls:
     - https://fonts.google.com/download?family=Cairo
-    sha256: 22dc2a96e3d6ec18b7d45fdf42b74fc8976b12d550beba405d72e224885dc11e
 fonts:
 - name: Cairo
   styles:
-  - family_name: Cairo
-    type: ExtraLight
-    full_name: Cairo ExtraLight
-    post_script_name: Cairo-ExtraLight
-    version: 2.010; ttfautohint (v1.5.33-1714) -l 8 -r 50 -G 200 -x 0 -D latn -f arab
-      -w G -W -c -X ""
-    copyright: Copyright 2009 The Cairo Project Authors (gaber@gaberism.net)
-    font: Cairo-ExtraLight.ttf
-  - family_name: Cairo
-    type: Light
-    full_name: Cairo Light
-    post_script_name: Cairo-Light
-    version: 2.010; ttfautohint (v1.5.33-1714) -l 8 -r 50 -G 200 -x 0 -D latn -f arab
-      -w G -W -c -X ""
-    copyright: Copyright 2009 The Cairo Project Authors (gaber@gaberism.net)
-    font: Cairo-Light.ttf
-  - family_name: Cairo
-    type: Regular
-    full_name: Cairo Regular
-    post_script_name: Cairo-Regular
-    version: 2.010; ttfautohint (v1.5.33-1714) -l 8 -r 50 -G 200 -x 0 -D latn -f arab
-      -w G -W -c -X ""
-    copyright: Copyright 2009 The Cairo Project Authors (gaber@gaberism.net)
-    font: Cairo-Regular.ttf
-  - family_name: Cairo
-    type: SemiBold
-    full_name: Cairo SemiBold
-    post_script_name: Cairo-SemiBold
-    version: 2.010; ttfautohint (v1.5.33-1714) -l 8 -r 50 -G 200 -x 0 -D latn -f arab
-      -w G -W -c -X ""
-    copyright: Copyright 2009 The Cairo Project Authors (gaber@gaberism.net)
-    font: Cairo-SemiBold.ttf
   - family_name: Cairo
     type: Bold
     full_name: Cairo Bold
@@ -51,15 +18,62 @@ fonts:
     copyright: Copyright 2009 The Cairo Project Authors (gaber@gaberism.net)
     font: Cairo-Bold.ttf
   - family_name: Cairo
-    type: Black
+    type: Regular
+    full_name: Cairo Regular
+    post_script_name: Cairo-Regular
+    version: 2.010; ttfautohint (v1.5.33-1714) -l 8 -r 50 -G 200 -x 0 -D latn -f arab
+      -w G -W -c -X ""
+    copyright: Copyright 2009 The Cairo Project Authors (gaber@gaberism.net)
+    font: Cairo-Regular.ttf
+- name: Cairo Black
+  styles:
+  - family_name: Cairo Black
+    type: Regular
+    preferred_family_name: Cairo
+    preferred_type: Black
     full_name: Cairo Black
     post_script_name: Cairo-Black
     version: 2.010; ttfautohint (v1.5.33-1714) -l 8 -r 50 -G 200 -x 0 -D latn -f arab
       -w G -W -c -X ""
     copyright: Copyright 2009 The Cairo Project Authors (gaber@gaberism.net)
     font: Cairo-Black.ttf
-extract:
-  format: zip
+- name: Cairo ExtraLight
+  styles:
+  - family_name: Cairo ExtraLight
+    type: Regular
+    preferred_family_name: Cairo
+    preferred_type: ExtraLight
+    full_name: Cairo ExtraLight
+    post_script_name: Cairo-ExtraLight
+    version: 2.010; ttfautohint (v1.5.33-1714) -l 8 -r 50 -G 200 -x 0 -D latn -f arab
+      -w G -W -c -X ""
+    copyright: Copyright 2009 The Cairo Project Authors (gaber@gaberism.net)
+    font: Cairo-ExtraLight.ttf
+- name: Cairo Light
+  styles:
+  - family_name: Cairo Light
+    type: Regular
+    preferred_family_name: Cairo
+    preferred_type: Light
+    full_name: Cairo Light
+    post_script_name: Cairo-Light
+    version: 2.010; ttfautohint (v1.5.33-1714) -l 8 -r 50 -G 200 -x 0 -D latn -f arab
+      -w G -W -c -X ""
+    copyright: Copyright 2009 The Cairo Project Authors (gaber@gaberism.net)
+    font: Cairo-Light.ttf
+- name: Cairo SemiBold
+  styles:
+  - family_name: Cairo SemiBold
+    type: Regular
+    preferred_family_name: Cairo
+    preferred_type: SemiBold
+    full_name: Cairo SemiBold
+    post_script_name: Cairo-SemiBold
+    version: 2.010; ttfautohint (v1.5.33-1714) -l 8 -r 50 -G 200 -x 0 -D latn -f arab
+      -w G -W -c -X ""
+    copyright: Copyright 2009 The Cairo Project Authors (gaber@gaberism.net)
+    font: Cairo-SemiBold.ttf
+extract: {}
 copyright: Copyright 2009 The Cairo Project Authors (gaber@gaberism.net)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -156,3 +170,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: fbbc8c6c7c9d94f8804a33e171e6215c1f1cb0ed70b3c355a79d6bad26634afc
+command: google import --formulas_path Formulas
