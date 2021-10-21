@@ -1,36 +1,107 @@
 ---
-name: ArchivoNarrow
+name: Archivo Narrow
 description: Archivo Narrow
 homepage: http://www.omnibus-type.com
 resources:
-  ArchivoNarrow.zip:
+  Archivo_Narrow.zip:
     urls:
     - https://fonts.google.com/download?family=Archivo%20Narrow
 fonts:
 - name: Archivo Narrow
   styles:
   - family_name: Archivo Narrow
-    type: Regular
-    full_name: Archivo Narrow Regular
-    post_script_name: ArchivoNarrow-Regular
-    version: '3.000'
+    type: Bold
+    full_name: Archivo Narrow Bold
+    post_script_name: ArchivoNarrow-Bold
+    version: '2.001'
     description: Archivo Narrow was designed to be used simultaneously in print and
       digital platforms. The technical and aesthetic characteristics of the font are
       both crafted for high performance typography.
     copyright: Copyright 2019 The Archivo Narrow Project Authors (https://github.com/Omnibus-Type/ArchivoNarrow)
-    font: ArchivoNarrow-VariableFont_wght.ttf
+    font: ArchivoNarrow-Bold.ttf
+  - family_name: Archivo Narrow
+    type: Bold Italic
+    full_name: Archivo Narrow Bold Italic
+    post_script_name: ArchivoNarrow-BoldItalic
+    version: '2.001'
+    description: Archivo Narrow was designed to be used simultaneously in print and
+      digital platforms. The technical and aesthetic characteristics of the font are
+      both crafted for high performance typography.
+    copyright: Copyright 2019 The Archivo Narrow Project Authors (https://github.com/Omnibus-Type/ArchivoNarrow)
+    font: ArchivoNarrow-BoldItalic.ttf
   - family_name: Archivo Narrow
     type: Italic
     full_name: Archivo Narrow Italic
     post_script_name: ArchivoNarrow-Italic
-    version: '3.000'
+    version: '2.001'
     description: Archivo Narrow was designed to be used simultaneously in print and
       digital platforms. The technical and aesthetic characteristics of the font are
       both crafted for high performance typography.
     copyright: Copyright 2019 The Archivo Narrow Project Authors (https://github.com/Omnibus-Type/ArchivoNarrow)
-    font: ArchivoNarrow-Italic-VariableFont_wght.ttf
-extract:
-  format: zip
+    font: ArchivoNarrow-Italic.ttf
+  - family_name: Archivo Narrow
+    type: Regular
+    full_name: Archivo Narrow Regular
+    post_script_name: ArchivoNarrow-Regular
+    version: '2.001'
+    description: Archivo Narrow was designed to be used simultaneously in print and
+      digital platforms. The technical and aesthetic characteristics of the font are
+      both crafted for high performance typography.
+    copyright: Copyright 2019 The Archivo Narrow Project Authors (https://github.com/Omnibus-Type/ArchivoNarrow)
+    font: ArchivoNarrow-Regular.ttf
+- name: Archivo Narrow Medium
+  styles:
+  - family_name: Archivo Narrow Medium
+    type: Italic
+    preferred_family_name: Archivo Narrow
+    preferred_type: Medium Italic
+    full_name: Archivo Narrow Medium Italic
+    post_script_name: ArchivoNarrow-MediumItalic
+    version: '2.001'
+    description: Archivo Narrow was designed to be used simultaneously in print and
+      digital platforms. The technical and aesthetic characteristics of the font are
+      both crafted for high performance typography.
+    copyright: Copyright 2019 The Archivo Narrow Project Authors (https://github.com/Omnibus-Type/ArchivoNarrow)
+    font: ArchivoNarrow-MediumItalic.ttf
+  - family_name: Archivo Narrow Medium
+    type: Regular
+    preferred_family_name: Archivo Narrow
+    preferred_type: Medium
+    full_name: Archivo Narrow Medium
+    post_script_name: ArchivoNarrow-Medium
+    version: '2.001'
+    description: Archivo Narrow was designed to be used simultaneously in print and
+      digital platforms. The technical and aesthetic characteristics of the font are
+      both crafted for high performance typography.
+    copyright: Copyright 2019 The Archivo Narrow Project Authors (https://github.com/Omnibus-Type/ArchivoNarrow)
+    font: ArchivoNarrow-Medium.ttf
+- name: Archivo Narrow SemiBold
+  styles:
+  - family_name: Archivo Narrow SemiBold
+    type: Italic
+    preferred_family_name: Archivo Narrow
+    preferred_type: SemiBold Italic
+    full_name: Archivo Narrow SemiBold Italic
+    post_script_name: ArchivoNarrow-SemiBoldItalic
+    version: '2.001'
+    description: Archivo Narrow was designed to be used simultaneously in print and
+      digital platforms. The technical and aesthetic characteristics of the font are
+      both crafted for high performance typography.
+    copyright: Copyright 2019 The Archivo Narrow Project Authors (https://github.com/Omnibus-Type/ArchivoNarrow)
+    font: ArchivoNarrow-SemiBoldItalic.ttf
+  - family_name: Archivo Narrow SemiBold
+    type: Regular
+    preferred_family_name: Archivo Narrow
+    preferred_type: SemiBold
+    full_name: Archivo Narrow SemiBold
+    post_script_name: ArchivoNarrow-SemiBold
+    version: '2.001'
+    description: Archivo Narrow was designed to be used simultaneously in print and
+      digital platforms. The technical and aesthetic characteristics of the font are
+      both crafted for high performance typography.
+    copyright: Copyright 2019 The Archivo Narrow Project Authors (https://github.com/Omnibus-Type/ArchivoNarrow)
+    font: ArchivoNarrow-SemiBold.ttf
+extract: {}
 copyright: Copyright 2019 The Archivo Narrow Project Authors (https://github.com/Omnibus-Type/ArchivoNarrow)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -127,3 +198,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 61abf1a1aba4e06185c0828baf51ca0ba8eff72c2d9dc0d6c35bb2392a4de46c
+command: google import --formulas_path Formulas
