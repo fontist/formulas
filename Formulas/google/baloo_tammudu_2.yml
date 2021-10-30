@@ -1,36 +1,14 @@
 ---
-name: BalooTammudu2
+name: Baloo Tammudu 2
 description: Baloo Tammudu 2
 homepage: www.ektype.in
 resources:
-  BalooTammudu2.zip:
+  Baloo_Tammudu_2.zip:
     urls:
     - https://fonts.google.com/download?family=Baloo%20Tammudu%202
-    sha256: 791df1502c3490b5e202776df1c8e61e689c4e5769c949b200d71efab4a9c6ba
 fonts:
 - name: Baloo Tammudu 2
   styles:
-  - family_name: Baloo Tammudu 2
-    type: Regular
-    full_name: Baloo Tammudu 2 Regular
-    post_script_name: BalooTammudu2-Regular
-    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
-    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
-    font: BalooTammudu2-Regular.ttf
-  - family_name: Baloo Tammudu 2
-    type: Medium
-    full_name: Baloo Tammudu 2 Medium
-    post_script_name: BalooTammudu2-Medium
-    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
-    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
-    font: BalooTammudu2-Medium.ttf
-  - family_name: Baloo Tammudu 2
-    type: SemiBold
-    full_name: Baloo Tammudu 2 SemiBold
-    post_script_name: BalooTammudu2-SemiBold
-    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
-    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
-    font: BalooTammudu2-SemiBold.ttf
   - family_name: Baloo Tammudu 2
     type: Bold
     full_name: Baloo Tammudu 2 Bold
@@ -39,14 +17,46 @@ fonts:
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
     font: BalooTammudu2-Bold.ttf
   - family_name: Baloo Tammudu 2
-    type: ExtraBold
+    type: Regular
+    full_name: Baloo Tammudu 2 Regular
+    post_script_name: BalooTammudu2-Regular
+    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
+    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
+    font: BalooTammudu2-Regular.ttf
+- name: Baloo Tammudu 2 ExtraBold
+  styles:
+  - family_name: Baloo Tammudu 2 ExtraBold
+    type: Regular
+    preferred_family_name: Baloo Tammudu 2
+    preferred_type: ExtraBold
     full_name: Baloo Tammudu 2 ExtraBold
     post_script_name: BalooTammudu2-ExtraBold
     version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
     font: BalooTammudu2-ExtraBold.ttf
-extract:
-  format: zip
+- name: Baloo Tammudu 2 Medium
+  styles:
+  - family_name: Baloo Tammudu 2 Medium
+    type: Regular
+    preferred_family_name: Baloo Tammudu 2
+    preferred_type: Medium
+    full_name: Baloo Tammudu 2 Medium
+    post_script_name: BalooTammudu2-Medium
+    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
+    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
+    font: BalooTammudu2-Medium.ttf
+- name: Baloo Tammudu 2 SemiBold
+  styles:
+  - family_name: Baloo Tammudu 2 SemiBold
+    type: Regular
+    preferred_family_name: Baloo Tammudu 2
+    preferred_type: SemiBold
+    full_name: Baloo Tammudu 2 SemiBold
+    post_script_name: BalooTammudu2-SemiBold
+    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
+    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
+    font: BalooTammudu2-SemiBold.ttf
+extract: {}
 copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -143,3 +153,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 31506484458731d7ad3312776054fb8b22e1bc1fd258a631232d9a8224f6042f
+command: google import --formulas_path Formulas

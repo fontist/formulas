@@ -1,36 +1,14 @@
 ---
-name: BalooBhaina2
+name: Baloo Bhaina 2
 description: Baloo Bhaina 2
 homepage: www.ektype.in
 resources:
-  BalooBhaina2.zip:
+  Baloo_Bhaina_2.zip:
     urls:
     - https://fonts.google.com/download?family=Baloo%20Bhaina%202
-    sha256: 2d7f10d98864326c0b8cefa60785c74d57cdf19cb5a43bcc6ab7b2e924edfc9e
 fonts:
 - name: Baloo Bhaina 2
   styles:
-  - family_name: Baloo Bhaina 2
-    type: Regular
-    full_name: Baloo Bhaina 2 Regular
-    post_script_name: BalooBhaina2-Regular
-    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
-    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
-    font: BalooBhaina2-Regular.ttf
-  - family_name: Baloo Bhaina 2
-    type: Medium
-    full_name: Baloo Bhaina 2 Medium
-    post_script_name: BalooBhaina2-Medium
-    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
-    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
-    font: BalooBhaina2-Medium.ttf
-  - family_name: Baloo Bhaina 2
-    type: SemiBold
-    full_name: Baloo Bhaina 2 SemiBold
-    post_script_name: BalooBhaina2-SemiBold
-    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
-    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
-    font: BalooBhaina2-SemiBold.ttf
   - family_name: Baloo Bhaina 2
     type: Bold
     full_name: Baloo Bhaina 2 Bold
@@ -39,14 +17,46 @@ fonts:
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
     font: BalooBhaina2-Bold.ttf
   - family_name: Baloo Bhaina 2
-    type: ExtraBold
+    type: Regular
+    full_name: Baloo Bhaina 2 Regular
+    post_script_name: BalooBhaina2-Regular
+    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
+    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
+    font: BalooBhaina2-Regular.ttf
+- name: Baloo Bhaina 2 ExtraBold
+  styles:
+  - family_name: Baloo Bhaina 2 ExtraBold
+    type: Regular
+    preferred_family_name: Baloo Bhaina 2
+    preferred_type: ExtraBold
     full_name: Baloo Bhaina 2 ExtraBold
     post_script_name: BalooBhaina2-ExtraBold
     version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
     font: BalooBhaina2-ExtraBold.ttf
-extract:
-  format: zip
+- name: Baloo Bhaina 2 Medium
+  styles:
+  - family_name: Baloo Bhaina 2 Medium
+    type: Regular
+    preferred_family_name: Baloo Bhaina 2
+    preferred_type: Medium
+    full_name: Baloo Bhaina 2 Medium
+    post_script_name: BalooBhaina2-Medium
+    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
+    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
+    font: BalooBhaina2-Medium.ttf
+- name: Baloo Bhaina 2 SemiBold
+  styles:
+  - family_name: Baloo Bhaina 2 SemiBold
+    type: Regular
+    preferred_family_name: Baloo Bhaina 2
+    preferred_type: SemiBold
+    full_name: Baloo Bhaina 2 SemiBold
+    post_script_name: BalooBhaina2-SemiBold
+    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
+    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
+    font: BalooBhaina2-SemiBold.ttf
+extract: {}
 copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -143,3 +153,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 07dfa408c1d1ee071f797d82a7f8206d75161b8550a7b40d129fb3b17d6fe557
+command: google import --formulas_path Formulas
