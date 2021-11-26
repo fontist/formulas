@@ -1,12 +1,11 @@
 ---
-name: Zen Old Mincho
 description: Zen Old Mincho
 homepage: https://positype.com
 resources:
   Zen_Old_Mincho.zip:
     urls:
     - https://fonts.google.com/download?family=Zen%20Old%20Mincho
-    sha256: 06f8628cf7ad02a23c2a72915fb6e194e6194b67a06dc879e323745037fbde6c
+    sha256: 950fd13d6d5eca40119b015b419638d2f2c1e3597493989c654193617437d847
 fonts:
 - name: Zen Old Mincho
   styles:
@@ -14,14 +13,14 @@ fonts:
     type: Bold
     full_name: Zen Old Mincho Bold
     post_script_name: ZenOldMincho-Bold
-    version: '1.000'
+    version: '1.001'
     copyright: Copyright 2021 The Zen Old Mincho Project Authors (https://github.com/googlefonts/zen-oldmincho)
     font: ZenOldMincho-Bold.ttf
   - family_name: Zen Old Mincho
     type: Regular
     full_name: Zen Old Mincho Regular
     post_script_name: ZenOldMincho-Regular
-    version: '1.000'
+    version: '1.001'
     copyright: Copyright 2021 The Zen Old Mincho Project Authors (https://github.com/googlefonts/zen-oldmincho)
     font: ZenOldMincho-Regular.ttf
 - name: Zen Old Mincho Black
@@ -32,13 +31,15 @@ fonts:
     preferred_type: Black
     full_name: Zen Old Mincho Black
     post_script_name: ZenOldMincho-Black
-    version: '1.000'
+    version: '1.001'
     copyright: Copyright 2021 The Zen Old Mincho Project Authors (https://github.com/googlefonts/zen-oldmincho)
     font: ZenOldMincho-Black.ttf
 extract: {}
 copyright: Copyright 2021 The Zen Old Mincho Project Authors (https://github.com/googlefonts/zen-oldmincho)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
+  Copyright 2021 The Zen Old Mincho Project Authors (https://github.com/googlefonts/zen-oldmincho)
+
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
   http://scripts.sil.org/OFL
@@ -130,5 +131,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 355d9746f43868a0be7ab3673c0fa7cf7706e7dbd9c661c5da29b4031028a969
+digest: 6f3ca8bdaa91018c75b49135dac6d9d82b2a930137bbc0fd82952ce2401cecc7
 command: google import --formulas_path Formulas

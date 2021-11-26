@@ -1,36 +1,13 @@
 ---
-name: Baloo2
 description: Baloo 2
 homepage: www.ektype.in
 resources:
-  Baloo2.zip:
+  Baloo_2.zip:
     urls:
     - https://fonts.google.com/download?family=Baloo%202
-    sha256: d0c752efdacaaaca26b38c3c2ed80bd3c4362512e889fbea0825d8f760301039
 fonts:
 - name: Baloo 2
   styles:
-  - family_name: Baloo 2
-    type: Regular
-    full_name: Baloo 2 Regular
-    post_script_name: Baloo2-Regular
-    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
-    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
-    font: Baloo2-Regular.ttf
-  - family_name: Baloo 2
-    type: Medium
-    full_name: Baloo 2 Medium
-    post_script_name: Baloo2-Medium
-    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
-    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
-    font: Baloo2-Medium.ttf
-  - family_name: Baloo 2
-    type: SemiBold
-    full_name: Baloo 2 SemiBold
-    post_script_name: Baloo2-SemiBold
-    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
-    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
-    font: Baloo2-SemiBold.ttf
   - family_name: Baloo 2
     type: Bold
     full_name: Baloo 2 Bold
@@ -39,14 +16,46 @@ fonts:
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
     font: Baloo2-Bold.ttf
   - family_name: Baloo 2
-    type: ExtraBold
+    type: Regular
+    full_name: Baloo 2 Regular
+    post_script_name: Baloo2-Regular
+    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
+    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
+    font: Baloo2-Regular.ttf
+- name: Baloo 2 ExtraBold
+  styles:
+  - family_name: Baloo 2 ExtraBold
+    type: Regular
+    preferred_family_name: Baloo 2
+    preferred_type: ExtraBold
     full_name: Baloo 2 ExtraBold
     post_script_name: Baloo2-ExtraBold
     version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
     font: Baloo2-ExtraBold.ttf
-extract:
-  format: zip
+- name: Baloo 2 Medium
+  styles:
+  - family_name: Baloo 2 Medium
+    type: Regular
+    preferred_family_name: Baloo 2
+    preferred_type: Medium
+    full_name: Baloo 2 Medium
+    post_script_name: Baloo2-Medium
+    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
+    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
+    font: Baloo2-Medium.ttf
+- name: Baloo 2 SemiBold
+  styles:
+  - family_name: Baloo 2 SemiBold
+    type: Regular
+    preferred_family_name: Baloo 2
+    preferred_type: SemiBold
+    full_name: Baloo 2 SemiBold
+    post_script_name: Baloo2-SemiBold
+    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
+    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
+    font: Baloo2-SemiBold.ttf
+extract: {}
 copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -143,3 +152,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: f7fe984752e9ef2ed0b891976437bde48cf892ee3a2e0a3e7b4ef660a66b66a9
+command: google import --formulas_path Formulas

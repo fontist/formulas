@@ -1,23 +1,28 @@
 ---
-name: ExpletusSans
 description: Expletus Sans
-homepage:
 resources:
-  ExpletusSans.zip:
+  Expletus_Sans.zip:
     urls:
     - https://fonts.google.com/download?family=Expletus%20Sans
-    sha256: f2d46ac36ea589982beb5aaa8c2109057b2d3e5b150dce3b84c2cb3460b5f63c
 fonts:
 - name: Expletus Sans
   styles:
   - family_name: Expletus Sans
-    type: Regular
-    full_name: Expletus Sans
-    post_script_name: ExpletusSans
-    version: '7.028'
-    description: Copyright (c) 2009 by Designtown. All rights reserved.
-    copyright: Copyright (c) 2009 by Designtown. All rights reserved.
-    font: ExpletusSans-Regular.ttf
+    type: Bold
+    full_name: Expletus Sans Bold
+    post_script_name: ExpletusSans-Bold
+    version: '7.029'
+    description: Copyright (c) 2009 by Jasper de Waard. All rights reserved.
+    copyright: Copyright (c) 2009 by Jasper de Waard. All rights reserved.
+    font: ExpletusSans-Bold.ttf
+  - family_name: Expletus Sans
+    type: Bold Italic
+    full_name: Expletus Sans Bold Italic
+    post_script_name: ExpletusSans-BoldItalic
+    version: '7.029'
+    description: Copyright (c) 2009 by Jasper de Waard. All rights reserved.
+    copyright: Copyright (c) 2009 by Jasper de Waard. All rights reserved.
+    font: ExpletusSans-BoldItalic.ttf
   - family_name: Expletus Sans
     type: Italic
     full_name: Expletus Sans Italic
@@ -43,6 +48,14 @@ fonts:
     copyright: Copyright (c) 2010 by Jasper de Waard. All rights reserved.
     font: ExpletusSans-MediumItalic.ttf
   - family_name: Expletus Sans
+    type: Regular
+    full_name: Expletus Sans
+    post_script_name: ExpletusSans
+    version: '7.028'
+    description: Copyright (c) 2009 by Designtown. All rights reserved.
+    copyright: Copyright (c) 2009 by Designtown. All rights reserved.
+    font: ExpletusSans-Regular.ttf
+  - family_name: Expletus Sans
     type: SemiBold
     full_name: Expletus Sans SemiBold
     post_script_name: ExpletusSans-SemiBold
@@ -58,25 +71,8 @@ fonts:
     description: Copyright (c) 2010 by Jasper de Waard. All rights reserved.
     copyright: Copyright (c) 2010 by Jasper de Waard. All rights reserved.
     font: ExpletusSans-SemiBoldItalic.ttf
-  - family_name: Expletus Sans
-    type: Bold
-    full_name: Expletus Sans Bold
-    post_script_name: ExpletusSans-Bold
-    version: '7.029'
-    description: Copyright (c) 2009 by Jasper de Waard. All rights reserved.
-    copyright: Copyright (c) 2009 by Jasper de Waard. All rights reserved.
-    font: ExpletusSans-Bold.ttf
-  - family_name: Expletus Sans
-    type: Bold Italic
-    full_name: Expletus Sans Bold Italic
-    post_script_name: ExpletusSans-BoldItalic
-    version: '7.029'
-    description: Copyright (c) 2009 by Jasper de Waard. All rights reserved.
-    copyright: Copyright (c) 2009 by Jasper de Waard. All rights reserved.
-    font: ExpletusSans-BoldItalic.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2009 by Designtown (jasper@designtown.nl). All rights reserved.
+extract: {}
+copyright: Copyright (c) 2009 by Designtown. All rights reserved.
 license_url: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
 open_license: |-
   Copyright (c) 2011, Jasper de Waard (jasper@designtown.nl),
@@ -173,3 +169,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 38076e7d5b6d8d9a97348a0ce79c80c5a0d25212feee7f7c8ff858f1120c934c
+command: google import --formulas_path Formulas
