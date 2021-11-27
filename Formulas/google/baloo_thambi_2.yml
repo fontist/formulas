@@ -1,36 +1,13 @@
 ---
-name: BalooThambi2
 description: Baloo Thambi 2
 homepage: www.ektype.in
 resources:
-  BalooThambi2.zip:
+  Baloo_Thambi_2.zip:
     urls:
     - https://fonts.google.com/download?family=Baloo%20Thambi%202
-    sha256: fdc4365ef1182624cf090cc95d457843c679278fe41ce97c4cadb6ae66d2d669
 fonts:
 - name: Baloo Thambi 2
   styles:
-  - family_name: Baloo Thambi 2
-    type: Regular
-    full_name: Baloo Thambi 2 Regular
-    post_script_name: BalooThambi2-Regular
-    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
-    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
-    font: BalooThambi2-Regular.ttf
-  - family_name: Baloo Thambi 2
-    type: Medium
-    full_name: Baloo Thambi 2 Medium
-    post_script_name: BalooThambi2-Medium
-    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
-    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
-    font: BalooThambi2-Medium.ttf
-  - family_name: Baloo Thambi 2
-    type: SemiBold
-    full_name: Baloo Thambi 2 SemiBold
-    post_script_name: BalooThambi2-SemiBold
-    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
-    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
-    font: BalooThambi2-SemiBold.ttf
   - family_name: Baloo Thambi 2
     type: Bold
     full_name: Baloo Thambi 2 Bold
@@ -39,14 +16,46 @@ fonts:
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
     font: BalooThambi2-Bold.ttf
   - family_name: Baloo Thambi 2
-    type: ExtraBold
+    type: Regular
+    full_name: Baloo Thambi 2 Regular
+    post_script_name: BalooThambi2-Regular
+    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
+    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
+    font: BalooThambi2-Regular.ttf
+- name: Baloo Thambi 2 ExtraBold
+  styles:
+  - family_name: Baloo Thambi 2 ExtraBold
+    type: Regular
+    preferred_family_name: Baloo Thambi 2
+    preferred_type: ExtraBold
     full_name: Baloo Thambi 2 ExtraBold
     post_script_name: BalooThambi2-ExtraBold
     version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
     font: BalooThambi2-ExtraBold.ttf
-extract:
-  format: zip
+- name: Baloo Thambi 2 Medium
+  styles:
+  - family_name: Baloo Thambi 2 Medium
+    type: Regular
+    preferred_family_name: Baloo Thambi 2
+    preferred_type: Medium
+    full_name: Baloo Thambi 2 Medium
+    post_script_name: BalooThambi2-Medium
+    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
+    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
+    font: BalooThambi2-Medium.ttf
+- name: Baloo Thambi 2 SemiBold
+  styles:
+  - family_name: Baloo Thambi 2 SemiBold
+    type: Regular
+    preferred_family_name: Baloo Thambi 2
+    preferred_type: SemiBold
+    full_name: Baloo Thambi 2 SemiBold
+    post_script_name: BalooThambi2-SemiBold
+    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
+    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
+    font: BalooThambi2-SemiBold.ttf
+extract: {}
 copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -143,3 +152,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: f412a4848ac046be5b8ba4ea0b091d799f8f22d376482bbfbeadf14928a2d636
+command: google import --formulas_path Formulas
