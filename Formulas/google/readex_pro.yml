@@ -1,33 +1,83 @@
 ---
-description: Baskervville
-homepage: https://anrt-nancy.fr
+description: Readex Pro
+homepage: https://www.lexend.com
 resources:
-  Baskervville.zip:
+  Readex_Pro.zip:
     urls:
-    - https://fonts.google.com/download?family=Baskervville
-    sha256: cf40bf19fae5974ed970c57103cc9fa6d4e7a252847078d5fe3cd651759f7b0d
+    - https://fonts.google.com/download?family=Readex%20Pro
 fonts:
-- name: Baskervville
+- name: Readex Pro
   styles:
-  - family_name: Baskervville
-    type: Italic
-    full_name: Baskervville Italic
-    post_script_name: Baskervville-Italic
-    version: 1.000; ttfautohint (v1.8.3)
-    copyright: Copyright 2018 The Baskervville Project Authors (https://github.com/anrt-type/ANRT-Baskervville)
-    font: Baskervville-Italic.ttf
-  - family_name: Baskervville
+  - family_name: Readex Pro
+    type: Bold
+    full_name: Readex Pro Bold
+    post_script_name: ReadexPro-Bold
+    version: '1.203'
+    copyright: Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)
+    font: ReadexPro-Bold.ttf
+  - family_name: Readex Pro
     type: Regular
-    full_name: Baskervville Regular
-    post_script_name: Baskervville-Regular
-    version: 1.000; ttfautohint (v1.8.3)
-    copyright: Copyright 2018 The Baskervville Project Authors (https://github.com/anrt-type/ANRT-Baskervville)
-    font: Baskervville-Regular.ttf
+    full_name: Readex Pro Regular
+    post_script_name: ReadexPro-Regular
+    version: '1.203'
+    copyright: Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)
+    font: ReadexPro-VariableFont_wght.ttf
+  - family_name: Readex Pro
+    type: Regular
+    full_name: Readex Pro Regular
+    post_script_name: ReadexPro-Regular
+    version: '1.203'
+    copyright: Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)
+    font: ReadexPro-Regular.ttf
+- name: Readex Pro ExtraLight
+  styles:
+  - family_name: Readex Pro ExtraLight
+    type: Regular
+    preferred_family_name: Readex Pro
+    preferred_type: ExtraLight
+    full_name: Readex Pro ExtraLight
+    post_script_name: ReadexPro-ExtraLight
+    version: '1.203'
+    copyright: Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)
+    font: ReadexPro-ExtraLight.ttf
+- name: Readex Pro Light
+  styles:
+  - family_name: Readex Pro Light
+    type: Regular
+    preferred_family_name: Readex Pro
+    preferred_type: Light
+    full_name: Readex Pro Light
+    post_script_name: ReadexPro-Light
+    version: '1.203'
+    copyright: Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)
+    font: ReadexPro-Light.ttf
+- name: Readex Pro Medium
+  styles:
+  - family_name: Readex Pro Medium
+    type: Regular
+    preferred_family_name: Readex Pro
+    preferred_type: Medium
+    full_name: Readex Pro Medium
+    post_script_name: ReadexPro-Medium
+    version: '1.203'
+    copyright: Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)
+    font: ReadexPro-Medium.ttf
+- name: Readex Pro SemiBold
+  styles:
+  - family_name: Readex Pro SemiBold
+    type: Regular
+    preferred_family_name: Readex Pro
+    preferred_type: SemiBold
+    full_name: Readex Pro SemiBold
+    post_script_name: ReadexPro-SemiBold
+    version: '1.203'
+    copyright: Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)
+    font: ReadexPro-SemiBold.ttf
 extract: {}
-copyright: Copyright 2018 The Baskervville Project Authors (https://github.com/anrt-type/ANRT-Baskervville)
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2018 The Baskervville Project Authors (https://github.com/anrt-type/ANRT-Baskervville)
+  Copyright 2018 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro), with Reserved Font Name “RevReading Lexend”.
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -120,5 +170,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9ca2fae3cf207286cd328504d6ef599d1f9c3cebfaf26df959189dd904251fe8
+digest: 5fdf1c8d42b6f50ad4e830c27844c60846852387114cd2dcadf6dc69f1080969
 command: google import --formulas_path Formulas

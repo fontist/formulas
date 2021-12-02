@@ -1,33 +1,44 @@
 ---
-description: Baskervville
-homepage: https://anrt-nancy.fr
+description: Redacted Script
+homepage: https://github.com/christiannaths/Redacted-Font
 resources:
-  Baskervville.zip:
+  Redacted_Script.zip:
     urls:
-    - https://fonts.google.com/download?family=Baskervville
-    sha256: cf40bf19fae5974ed970c57103cc9fa6d4e7a252847078d5fe3cd651759f7b0d
+    - https://fonts.google.com/download?family=Redacted%20Script
+    sha256: 7f581d1492700943798c7b2ab6398d0fd3e0ef402a5d396faf21e1de4e7dfe07
 fonts:
-- name: Baskervville
+- name: Redacted Script
   styles:
-  - family_name: Baskervville
-    type: Italic
-    full_name: Baskervville Italic
-    post_script_name: Baskervville-Italic
-    version: 1.000; ttfautohint (v1.8.3)
-    copyright: Copyright 2018 The Baskervville Project Authors (https://github.com/anrt-type/ANRT-Baskervville)
-    font: Baskervville-Italic.ttf
-  - family_name: Baskervville
+  - family_name: Redacted Script
+    type: Bold
+    full_name: Redacted Script Bold
+    post_script_name: RedactedScript-Bold
+    version: 1.001; ttfautohint (v1.8.3)
+    copyright: Copyright 2013 The Redacted Project Authors (https://github.com/christiannaths/redacted-font)
+    font: RedactedScript-Bold.ttf
+  - family_name: Redacted Script
     type: Regular
-    full_name: Baskervville Regular
-    post_script_name: Baskervville-Regular
-    version: 1.000; ttfautohint (v1.8.3)
-    copyright: Copyright 2018 The Baskervville Project Authors (https://github.com/anrt-type/ANRT-Baskervville)
-    font: Baskervville-Regular.ttf
+    full_name: Redacted Script Regular
+    post_script_name: RedactedScript-Regular
+    version: 1.001; ttfautohint (v1.8.3)
+    copyright: Copyright 2013 The Redacted Project Authors (https://github.com/christiannaths/redacted-font)
+    font: RedactedScript-Regular.ttf
+- name: Redacted Script Light
+  styles:
+  - family_name: Redacted Script Light
+    type: Regular
+    preferred_family_name: Redacted Script
+    preferred_type: Light
+    full_name: Redacted Script Light
+    post_script_name: RedactedScript-Light
+    version: 1.001; ttfautohint (v1.8.3)
+    copyright: Copyright 2013 The Redacted Project Authors (https://github.com/christiannaths/redacted-font)
+    font: RedactedScript-Light.ttf
 extract: {}
-copyright: Copyright 2018 The Baskervville Project Authors (https://github.com/anrt-type/ANRT-Baskervville)
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2013 The Redacted Project Authors (https://github.com/christiannaths/redacted-font)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2018 The Baskervville Project Authors (https://github.com/anrt-type/ANRT-Baskervville)
+  Copyright 2013 The Redacted Project Authors (https://github.com/christiannaths/redacted-font)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -120,5 +131,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9ca2fae3cf207286cd328504d6ef599d1f9c3cebfaf26df959189dd904251fe8
+digest: a2e402b8cc1ecbfba9e172695b8e41883065acbf53959fc5fcb4ee4f4f8926e3
 command: google import --formulas_path Formulas
