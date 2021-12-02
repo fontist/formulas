@@ -4,10 +4,16 @@ require "tmpdir"
 require "fontist"
 
 class TestFormulas
+  def initialize
+    @errors = []
+  end
+
   def call
     prepare_formulas do |fonts_by_formula|
       install(fonts_by_formula)
     end
+
+    print_errors
   end
 
   def install(fonts_by_formula)
@@ -17,11 +23,11 @@ class TestFormulas
     puts "Installing.."
     fonts_by_formula.each do |formula, font|
       puts "Formula: '#{formula}', font: '#{font}'."
-      install_font(font)
+      install_font(font, formula)
     end
   end
 
-  def install_font(font)
+  def install_font(font, formula)
     Fontist::Font.install(
       font,
       force: true,
@@ -29,6 +35,8 @@ class TestFormulas
       hide_licenses: true,
       no_progress: true,
     )
+  rescue StandardError => e
+    @errors << [e, formula, font]
   end
 
   def prepare_formulas
@@ -85,6 +93,16 @@ class TestFormulas
   def font_from_formula(data)
     data.dig("fonts", 0, "name") ||
       data.dig("font_collections", 0, "fonts", 0, "name")
+  end
+
+  def print_errors
+    return if @errors.empty?
+
+    @errors.each do |e, formula, font|
+      puts "#{formula}, #{font}, #{e}"
+    end
+
+    raise "There are errors occured"
   end
 end
 

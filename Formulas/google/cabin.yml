@@ -1,5 +1,4 @@
 ---
-name: Cabin
 description: Cabin
 homepage: http://www.impallari.com
 resources:
@@ -11,21 +10,244 @@ fonts:
 - name: Cabin
   styles:
   - family_name: Cabin
-    type: Regular
-    full_name: Cabin Regular
-    post_script_name: Cabin-Regular
+    type: Bold
+    full_name: Cabin Bold
+    post_script_name: Cabin-Bold
     version: '3.001'
     copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
-    font: Cabin[wdth,wght].ttf
+    font: Cabin-Bold.ttf
+  - family_name: Cabin
+    type: Bold Italic
+    full_name: Cabin Bold Italic
+    post_script_name: Cabin-BoldItalic
+    version: '3.001'
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin-BoldItalic.ttf
   - family_name: Cabin
     type: Italic
     full_name: Cabin Italic
     post_script_name: Cabin-Italic
     version: '3.001'
     copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
-    font: Cabin-Italic[wdth,wght].ttf
-extract:
-  format: zip
+    font: Cabin-Italic-VariableFont_wdth,wght.ttf
+  - family_name: Cabin
+    type: Italic
+    full_name: Cabin Italic
+    post_script_name: Cabin-Italic
+    version: '3.001'
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin-Italic.ttf
+  - family_name: Cabin
+    type: Regular
+    full_name: Cabin Regular
+    post_script_name: Cabin-Regular
+    version: '3.001'
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin-Regular.ttf
+  - family_name: Cabin
+    type: Regular
+    full_name: Cabin Regular
+    post_script_name: Cabin-Regular
+    version: '3.001'
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin-VariableFont_wdth,wght.ttf
+- name: Cabin Condensed
+  styles:
+  - family_name: Cabin Condensed
+    type: Bold
+    preferred_family_name: Cabin Condensed
+    preferred_type: Bold
+    full_name: Cabin Condensed Bold
+    post_script_name: CabinCondensed-Bold
+    version: '3.001'
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin_Condensed-Bold.ttf
+  - family_name: Cabin Condensed
+    type: Bold Italic
+    preferred_family_name: Cabin Condensed
+    preferred_type: Bold Italic
+    full_name: Cabin Condensed Bold Italic
+    post_script_name: CabinCondensed-BoldItalic
+    version: '3.001'
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin_Condensed-BoldItalic.ttf
+  - family_name: Cabin Condensed
+    type: Italic
+    preferred_family_name: Cabin Condensed
+    preferred_type: Italic
+    full_name: Cabin Condensed Italic
+    post_script_name: CabinCondensed-Italic
+    version: '3.001'
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin_Condensed-Italic.ttf
+  - family_name: Cabin Condensed
+    type: Regular
+    preferred_family_name: Cabin Condensed
+    preferred_type: Regular
+    full_name: Cabin Condensed Regular
+    post_script_name: CabinCondensed-Regular
+    version: '3.001'
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin_Condensed-Regular.ttf
+- name: Cabin Condensed Medium
+  styles:
+  - family_name: Cabin Condensed Medium
+    type: Italic
+    preferred_family_name: Cabin Condensed
+    preferred_type: Medium Italic
+    full_name: Cabin Condensed Medium Italic
+    post_script_name: CabinCondensed-MediumItalic
+    version: '3.001'
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin_Condensed-MediumItalic.ttf
+  - family_name: Cabin Condensed Medium
+    type: Regular
+    preferred_family_name: Cabin Condensed
+    preferred_type: Medium
+    full_name: Cabin Condensed Medium
+    post_script_name: CabinCondensed-Medium
+    version: '3.001'
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin_Condensed-Medium.ttf
+- name: Cabin Condensed SemiBold
+  styles:
+  - family_name: Cabin Condensed SemiBold
+    type: Italic
+    preferred_family_name: Cabin Condensed
+    preferred_type: SemiBold Italic
+    full_name: Cabin Condensed SemiBold Italic
+    post_script_name: CabinCondensed-SemiBoldItalic
+    version: '3.001'
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin_Condensed-SemiBoldItalic.ttf
+  - family_name: Cabin Condensed SemiBold
+    type: Regular
+    preferred_family_name: Cabin Condensed
+    preferred_type: SemiBold
+    full_name: Cabin Condensed SemiBold
+    post_script_name: CabinCondensed-SemiBold
+    version: '3.001'
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin_Condensed-SemiBold.ttf
+- name: Cabin Medium
+  styles:
+  - family_name: Cabin Medium
+    type: Italic
+    preferred_family_name: Cabin
+    preferred_type: Medium Italic
+    full_name: Cabin Medium Italic
+    post_script_name: Cabin-MediumItalic
+    version: '3.001'
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin-MediumItalic.ttf
+  - family_name: Cabin Medium
+    type: Regular
+    preferred_family_name: Cabin
+    preferred_type: Medium
+    full_name: Cabin Medium
+    post_script_name: Cabin-Medium
+    version: '3.001'
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin-Medium.ttf
+- name: Cabin SemiBold
+  styles:
+  - family_name: Cabin SemiBold
+    type: Italic
+    preferred_family_name: Cabin
+    preferred_type: SemiBold Italic
+    full_name: Cabin SemiBold Italic
+    post_script_name: Cabin-SemiBoldItalic
+    version: '3.001'
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin-SemiBoldItalic.ttf
+  - family_name: Cabin SemiBold
+    type: Regular
+    preferred_family_name: Cabin
+    preferred_type: SemiBold
+    full_name: Cabin SemiBold
+    post_script_name: Cabin-SemiBold
+    version: '3.001'
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin-SemiBold.ttf
+- name: Cabin SemiCondensed
+  styles:
+  - family_name: Cabin SemiCondensed
+    type: Bold
+    preferred_family_name: Cabin SemiCondensed
+    preferred_type: Bold
+    full_name: Cabin SemiCondensed Bold
+    post_script_name: CabinSemiCondensed-Bold
+    version: '3.001'
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin_SemiCondensed-Bold.ttf
+  - family_name: Cabin SemiCondensed
+    type: Bold Italic
+    preferred_family_name: Cabin SemiCondensed
+    preferred_type: Bold Italic
+    full_name: Cabin SemiCondensed Bold Italic
+    post_script_name: CabinSemiCondensed-BoldItalic
+    version: '3.001'
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin_SemiCondensed-BoldItalic.ttf
+  - family_name: Cabin SemiCondensed
+    type: Italic
+    preferred_family_name: Cabin SemiCondensed
+    preferred_type: Italic
+    full_name: Cabin SemiCondensed Italic
+    post_script_name: CabinSemiCondensed-Italic
+    version: '3.001'
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin_SemiCondensed-Italic.ttf
+  - family_name: Cabin SemiCondensed
+    type: Regular
+    preferred_family_name: Cabin SemiCondensed
+    preferred_type: Regular
+    full_name: Cabin SemiCondensed Regular
+    post_script_name: CabinSemiCondensed-Regular
+    version: '3.001'
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin_SemiCondensed-Regular.ttf
+- name: Cabin SemiCondensed Medium
+  styles:
+  - family_name: Cabin SemiCondensed Medium
+    type: Italic
+    preferred_family_name: Cabin SemiCondensed
+    preferred_type: Medium Italic
+    full_name: Cabin SemiCondensed Medium Italic
+    post_script_name: CabinSemiCondensed-MediumItalic
+    version: '3.001'
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin_SemiCondensed-MediumItalic.ttf
+  - family_name: Cabin SemiCondensed Medium
+    type: Regular
+    preferred_family_name: Cabin SemiCondensed
+    preferred_type: Medium
+    full_name: Cabin SemiCondensed Medium
+    post_script_name: CabinSemiCondensed-Medium
+    version: '3.001'
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin_SemiCondensed-Medium.ttf
+- name: Cabin SemiCondensed SemiBold
+  styles:
+  - family_name: Cabin SemiCondensed SemiBold
+    type: Italic
+    preferred_family_name: Cabin SemiCondensed
+    preferred_type: SemiBold Italic
+    full_name: Cabin SemiCondensed SemiBold Italic
+    post_script_name: CabinSemiCondensed-SemiBoldItalic
+    version: '3.001'
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin_SemiCondensed-SemiBoldItalic.ttf
+  - family_name: Cabin SemiCondensed SemiBold
+    type: Regular
+    preferred_family_name: Cabin SemiCondensed
+    preferred_type: SemiBold
+    full_name: Cabin SemiCondensed SemiBold
+    post_script_name: CabinSemiCondensed-SemiBold
+    version: '3.001'
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin_SemiCondensed-SemiBold.ttf
+extract: {}
 copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
 license_url: https://scripts.sil.org/OFL
 open_license: |-

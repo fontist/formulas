@@ -12,35 +12,42 @@ fonts:
 - name: Cabin Condensed
   styles:
   - family_name: Cabin Condensed
-    type: Regular
-    full_name: Cabin Condensed Regular
-    post_script_name: CabinCondensed-Regular
-    version: '2.200'
-    copyright: Copyright 2016 The Cabin Project Authors (impallari@gmail.com)
-    font: CabinCondensed-Regular.ttf
-  - family_name: Cabin Condensed
-    type: Medium
-    full_name: Cabin Condensed Medium
-    post_script_name: CabinCondensed-Medium
-    version: '2.200'
-    copyright: Copyright 2016 The Cabin Project Authors (impallari@gmail.com)
-    font: CabinCondensed-Medium.ttf
-  - family_name: Cabin Condensed
-    type: SemiBold
-    full_name: Cabin Condensed SemiBold
-    post_script_name: CabinCondensed-SemiBold
-    version: '2.200'
-    copyright: Copyright 2016 The Cabin Project Authors (impallari@gmail.com)
-    font: CabinCondensed-SemiBold.ttf
-  - family_name: Cabin Condensed
     type: Bold
     full_name: Cabin Condensed Bold
     post_script_name: CabinCondensed-Bold
     version: '2.200'
     copyright: Copyright 2016 The Cabin Project Authors (impallari@gmail.com)
     font: CabinCondensed-Bold.ttf
-extract:
-  format: zip
+  - family_name: Cabin Condensed
+    type: Regular
+    full_name: Cabin Condensed Regular
+    post_script_name: CabinCondensed-Regular
+    version: '2.200'
+    copyright: Copyright 2016 The Cabin Project Authors (impallari@gmail.com)
+    font: CabinCondensed-Regular.ttf
+- name: Cabin Condensed Medium
+  styles:
+  - family_name: Cabin Condensed Medium
+    type: Regular
+    preferred_family_name: Cabin Condensed
+    preferred_type: Medium
+    full_name: Cabin Condensed Medium
+    post_script_name: CabinCondensed-Medium
+    version: '2.200'
+    copyright: Copyright 2016 The Cabin Project Authors (impallari@gmail.com)
+    font: CabinCondensed-Medium.ttf
+- name: Cabin Condensed SemiBold
+  styles:
+  - family_name: Cabin Condensed SemiBold
+    type: Regular
+    preferred_family_name: Cabin Condensed
+    preferred_type: SemiBold
+    full_name: Cabin Condensed SemiBold
+    post_script_name: CabinCondensed-SemiBold
+    version: '2.200'
+    copyright: Copyright 2016 The Cabin Project Authors (impallari@gmail.com)
+    font: CabinCondensed-SemiBold.ttf
+extract: {}
 copyright: Copyright 2016 The Cabin Project Authors (impallari@gmail.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
