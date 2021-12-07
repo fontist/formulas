@@ -5,7 +5,6 @@ resources:
   Cabin.zip:
     urls:
     - https://fonts.google.com/download?family=Cabin
-    file_size: 1126585
 fonts:
 - name: Cabin
   styles:
@@ -43,14 +42,14 @@ fonts:
     post_script_name: Cabin-Regular
     version: '3.001'
     copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
-    font: Cabin-Regular.ttf
+    font: Cabin-VariableFont_wdth,wght.ttf
   - family_name: Cabin
     type: Regular
     full_name: Cabin Regular
     post_script_name: Cabin-Regular
     version: '3.001'
     copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
-    font: Cabin-VariableFont_wdth,wght.ttf
+    font: Cabin-Regular.ttf
 - name: Cabin Condensed
   styles:
   - family_name: Cabin Condensed
@@ -344,3 +343,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 6a296b18b8f75ba87bc88ebcdf20370ab3acadc1eacd880b1d51c834f1b937af
+command: google import --formulas_path Formulas
