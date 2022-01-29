@@ -1,13 +1,12 @@
 ---
-name: WireOne
 description: Wire One
 homepage: http://cyreal.org
 resources:
-  WireOne.zip:
+  Wire_One.zip:
     urls:
     - https://fonts.google.com/download?family=Wire%20One
-    sha256: 62362f419c2f9117341ab695b6650468de4bff793fdb4aafa7cf7aae2a1ffa38
-    file_size: 48135
+    sha256: 83f71c6b85b21f4e6a7e8511ebf0eeaa1512aae264f158e93adbdc08e36d1cc9
+    file_size: 48090
 fonts:
 - name: Wire One
   styles:
@@ -18,9 +17,8 @@ fonts:
     version: '1.012'
     copyright: Copyright (c) 2011, Cyreal Type Foundry (a@cyreal.org), with Reserved
       Font Name 'Wire'
-    font: WireOne.ttf
-extract:
-  format: zip
+    font: WireOne-Regular.ttf
+extract: {}
 copyright: Copyright (c) 2011, Cyreal Type Foundry (a@cyreal.org), with Reserved Font
   Name 'Wire'
 license_url: http://scripts.sil.org/OFL
@@ -119,3 +117,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 648d5d1d19d2c2fbcff54daeb73ee9ef638068f223a7216e5d52d9d4a93ab5fe
+command: google import --formulas_path Formulas

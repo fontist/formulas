@@ -1,13 +1,12 @@
 ---
-name: Aubrey
 description: Aubrey
 homepage: http://cyreal.org
 resources:
   Aubrey.zip:
     urls:
     - https://fonts.google.com/download?family=Aubrey
-    sha256: 72a4b26f157a8bbaaac1427507f4a3f2d27312729575407389f6b58e5a971d28
-    file_size: 34530
+    sha256: 7040a8a8fcaf69426d53d19e071d0c7249ac783dd311d34c2581f4038b8c6965
+    file_size: 34644
 fonts:
 - name: Aubrey
   styles:
@@ -19,8 +18,7 @@ fonts:
     copyright: Copyright (c) 2011 by Gayaneh Bagdasaryan | Cyreal.org. All rights
       reserved.
     font: Aubrey-Regular.ttf
-extract:
-  format: zip
+extract: {}
 copyright: Copyright (c) 2011 by Gayaneh Bagdasaryan | Cyreal.org. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -118,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 25c912769574d9524b9d8b3ae0f6330e696ebe1eb73d96e911fd744f36f75b12
+command: google import --formulas_path Formulas
