@@ -1,42 +1,32 @@
 require "json"
 require "yaml"
 require "tmpdir"
+require "optparse"
 require "fontist"
 
 class TestFormulas
-  def initialize
+  def initialize(args)
+    OptionParser.new do |opts|
+      opts.banner = "Usage: ruby test_formulas.rb [options]"
+
+      opts.on("--every-platform", "Run formulas supported on every platform") do |every|
+        @every_platform = every
+      end
+
+      opts.on("--platform PLATFORM", "Run formulas supported on PLATFORM") do |platform|
+        @platform = platform
+      end
+    end.parse!
+
     @errors = []
   end
 
   def call
-    prepare_formulas do |fonts_by_formula|
-      install(fonts_by_formula)
+    prepare_formulas do |formulas|
+      install(formulas)
     end
 
     print_errors
-  end
-
-  def install(fonts_by_formula)
-    puts "Formulas changed:"
-    puts fonts_by_formula.keys
-
-    puts "Installing.."
-    fonts_by_formula.each do |formula, font|
-      puts "Formula: '#{formula}', font: '#{font}'."
-      install_font(font, formula)
-    end
-  end
-
-  def install_font(font, formula)
-    Fontist::Font.install(
-      font,
-      force: true,
-      confirmation: "yes",
-      hide_licenses: true,
-      no_progress: true,
-    )
-  rescue StandardError => e
-    @errors << [e, formula, font]
   end
 
   def prepare_formulas
@@ -44,7 +34,7 @@ class TestFormulas
       copy_formulas
       rebuild_index
 
-      yield fonts_by_formula
+      yield formulas_names
     end
   end
 
@@ -59,7 +49,7 @@ class TestFormulas
   end
 
   def copy_formulas
-    formulas.each do |formula|
+    formulas_paths.each do |formula|
       path = Fontist.formulas_repo_path.join(formula)
       dir = File.dirname(path)
       FileUtils.mkdir_p(dir)
@@ -67,43 +57,72 @@ class TestFormulas
     end
   end
 
-  def formulas
+  def formulas_paths
     @formulas ||= JSON.parse(File.read("changed.json")).select do |file|
-      file.start_with?("Formulas/") && downloadable?(file)
+      next unless file.start_with?("Formulas/")
+
+      content = YAML.load_file(file)
+      downloadable?(content) && match_platform?(content)
     end
   end
 
-  def downloadable?(file)
-    !!YAML.load_file(file)["resources"]
+  def downloadable?(content)
+    !!content["resources"]
+  end
+
+  def match_platform?(content)
+    return true if @every_platform && content["platforms"].nil?
+
+    @platform && content["platforms"] && content["platforms"].any? do |p|
+      p.start_with?(@platform)
+    end
   end
 
   def rebuild_index
     Fontist::Index.rebuild
   end
 
-  def fonts_by_formula
-    fonts = formulas.map do |file|
-      data = YAML.load_file(file)
-      font_from_formula(data)
+  def formulas_names
+    formulas_paths.map do |formula|
+      formula.sub(/^Formulas\//, "").sub(/\.yml$/, "")
     end
-
-    formulas.zip(fonts).to_h
   end
 
-  def font_from_formula(data)
-    data.dig("fonts", 0, "name") ||
-      data.dig("font_collections", 0, "fonts", 0, "name")
+  def install(formulas)
+    Fontist.log_level = :info
+
+    puts "Formulas changed:"
+    puts formulas
+
+    puts "Installing.."
+    formulas.each do |formula|
+      puts "Formula: '#{formula}'."
+      install_formula(formula)
+    end
+  end
+
+  def install_formula(formula)
+    Fontist::Font.install(
+      formula,
+      formula: true,
+      force: true,
+      confirmation: "yes",
+      hide_licenses: true,
+      no_progress: true,
+    )
+  rescue StandardError => e
+    @errors << [e, formula]
   end
 
   def print_errors
     return if @errors.empty?
 
-    @errors.each do |e, formula, font|
-      puts "#{formula}, #{font}, #{e}"
+    @errors.each do |e, formula|
+      puts "#{formula}, #{e}"
     end
 
-    raise "There are errors occured"
+    raise "There are errors occured."
   end
 end
 
-TestFormulas.new.call
+TestFormulas.new(ARGV.dup).call

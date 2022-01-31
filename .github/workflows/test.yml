@@ -2,7 +2,7 @@ name: test
 
 on:
   push:
-    branches: [ v2, v3 ]
+    branches: [ 'v[0-9]+' ]
   pull_request:
 
 jobs:
@@ -11,7 +11,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ ubuntu-latest ]
+        os: [ ubuntu-latest, macos-10.15, windows-latest ]
     steps:
       - uses: actions/checkout@v2
 
@@ -25,7 +25,14 @@ jobs:
 
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.5
+          ruby-version: 2.7
           bundler-cache: true
 
-      - run: bundle exec ruby test/test_formulas.rb
+      - if: matrix.os == 'ubuntu-latest'
+        run: bundle exec ruby test/test_formulas.rb --every-platform --platform linux
+
+      - if: matrix.os == 'macos-10.15'
+        run: bundle exec ruby test/test_formulas.rb --platform macos
+
+      - if: matrix.os == 'windows-latest'
+        run: bundle exec ruby test/test_formulas.rb --platform windows
