@@ -1,40 +1,14 @@
 ---
-name: Eczar
 description: Eczar
 homepage: http://rosettatype.com
 resources:
   Eczar.zip:
     urls:
     - https://fonts.google.com/download?family=Eczar
-    sha256: b5c4700a75f6df39d327838eded8af1389dd173032d67fa22b08d12b6b0a09de
-    file_size: 715567
+    file_size: 716784
 fonts:
 - name: Eczar
   styles:
-  - family_name: Eczar
-    type: Regular
-    full_name: Eczar Regular
-    post_script_name: Eczar-Regular
-    version: 1.103;PS 1.000;hotconv 1.0.70;makeotf.lib2.5.5900; ttfautohint (v1.3)
-    copyright: Copyright (c) 2014, Vaibhav Singh (design) and Rosetta Type Foundry
-      s.r.o. (post-production).
-    font: Eczar-Regular.ttf
-  - family_name: Eczar
-    type: Medium
-    full_name: Eczar Medium
-    post_script_name: Eczar-Medium
-    version: 1.103;PS 1.000;hotconv 1.0.70;makeotf.lib2.5.5900; ttfautohint (v1.3)
-    copyright: Copyright (c) 2014, Vaibhav Singh (design) and Rosetta Type Foundry
-      s.r.o. (post-production).
-    font: Eczar-Medium.ttf
-  - family_name: Eczar
-    type: SemiBold
-    full_name: Eczar SemiBold
-    post_script_name: Eczar-SemiBold
-    version: 1.103;PS 1.000;hotconv 1.0.70;makeotf.lib2.5.5900; ttfautohint (v1.3)
-    copyright: Copyright (c) 2014, Vaibhav Singh (design) and Rosetta Type Foundry
-      s.r.o. (post-production).
-    font: Eczar-SemiBold.ttf
   - family_name: Eczar
     type: Bold
     full_name: Eczar Bold
@@ -44,15 +18,50 @@ fonts:
       s.r.o. (post-production).
     font: Eczar-Bold.ttf
   - family_name: Eczar
-    type: ExtraBold
+    type: Regular
+    full_name: Eczar Regular
+    post_script_name: Eczar-Regular
+    version: 1.103;PS 1.000;hotconv 1.0.70;makeotf.lib2.5.5900; ttfautohint (v1.3)
+    copyright: Copyright (c) 2014, Vaibhav Singh (design) and Rosetta Type Foundry
+      s.r.o. (post-production).
+    font: Eczar-Regular.ttf
+- name: Eczar ExtraBold
+  styles:
+  - family_name: Eczar ExtraBold
+    type: Regular
+    preferred_family_name: Eczar
+    preferred_type: ExtraBold
     full_name: Eczar ExtraBold
     post_script_name: Eczar-ExtraBold
     version: 1.103;PS 1.000;hotconv 1.0.70;makeotf.lib2.5.5900; ttfautohint (v1.3)
     copyright: Copyright (c) 2014, Vaibhav Singh (design) and Rosetta Type Foundry
       s.r.o. (post-production).
     font: Eczar-ExtraBold.ttf
-extract:
-  format: zip
+- name: Eczar Medium
+  styles:
+  - family_name: Eczar Medium
+    type: Regular
+    preferred_family_name: Eczar
+    preferred_type: Medium
+    full_name: Eczar Medium
+    post_script_name: Eczar-Medium
+    version: 1.103;PS 1.000;hotconv 1.0.70;makeotf.lib2.5.5900; ttfautohint (v1.3)
+    copyright: Copyright (c) 2014, Vaibhav Singh (design) and Rosetta Type Foundry
+      s.r.o. (post-production).
+    font: Eczar-Medium.ttf
+- name: Eczar SemiBold
+  styles:
+  - family_name: Eczar SemiBold
+    type: Regular
+    preferred_family_name: Eczar
+    preferred_type: SemiBold
+    full_name: Eczar SemiBold
+    post_script_name: Eczar-SemiBold
+    version: 1.103;PS 1.000;hotconv 1.0.70;makeotf.lib2.5.5900; ttfautohint (v1.3)
+    copyright: Copyright (c) 2014, Vaibhav Singh (design) and Rosetta Type Foundry
+      s.r.o. (post-production).
+    font: Eczar-SemiBold.ttf
+extract: {}
 copyright: Copyright (c) 2014, Vaibhav Singh (design) and Rosetta Type Foundry s.r.o.
   (post-production).
 license_url: http://scripts.sil.org/OFL
@@ -150,3 +159,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: f81cf1419ab54597a395cb0900eac220095d820911e084b4ba5ef55ae36ab8bc
+command: google import --formulas_path Formulas
