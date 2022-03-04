@@ -1,12 +1,11 @@
 ---
-name: Syne
 description: Syne
 homepage: https://bonjourmonde.net
 resources:
   Syne.zip:
     urls:
     - https://fonts.google.com/download?family=Syne
-    file_size: 218913
+    file_size: 218919
 fonts:
 - name: Syne
   styles:
@@ -23,14 +22,14 @@ fonts:
     post_script_name: Syne-Regular
     version: '2.000'
     copyright: Copyright 2019 The Syne Project Authors (https://gitlab.com/bonjour-monde/fonderie/syne-typeface)
-    font: Syne-Regular.ttf
+    font: Syne-VariableFont_wght.ttf
   - family_name: Syne
     type: Regular
     full_name: Syne Regular
     post_script_name: Syne-Regular
     version: '2.000'
     copyright: Copyright 2019 The Syne Project Authors (https://gitlab.com/bonjour-monde/fonderie/syne-typeface)
-    font: Syne-VariableFont_wght.ttf
+    font: Syne-Regular.ttf
 - name: Syne ExtraBold
   styles:
   - family_name: Syne ExtraBold
@@ -161,5 +160,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: c67e4ec2fdef63479ebb059334a14641ba1c0e79b3c18590a7cae7dcb16a1585
-command: google import --formulas_path Formulas
+digest: f4d465fae7be6c53ea9027145a96ee37f6ea7a4e5371024f768155006b189bce
+command: import google --formulas_path Formulas
