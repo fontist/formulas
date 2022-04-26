@@ -1,27 +1,75 @@
 ---
-description: Arizonia
-homepage: www.typesetit.com
+description: Akshar
+homepage: https://tallchai.com
 resources:
-  Arizonia.zip:
+  Akshar.zip:
     urls:
-    - https://fonts.google.com/download?family=Arizonia
-    sha256: b112e88ec025162892746a5dc3ced6e21c7e9348dbe0ba7511888bd907a98f41
-    file_size: 63806
+    - https://fonts.google.com/download?family=Akshar
+    file_size: 395679
 fonts:
-- name: Arizonia
+- name: Akshar
   styles:
-  - family_name: Arizonia
+  - family_name: Akshar
+    type: Bold
+    full_name: Akshar Bold
+    post_script_name: Akshar-Bold
+    version: '1.000'
+    copyright: Copyright 2020 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)
+    font: Akshar-Bold.ttf
+  - family_name: Akshar
     type: Regular
-    full_name: Arizonia Regular
-    post_script_name: Arizonia-Regular
-    version: 1.010; ttfautohint (v1.8.4.7-5d5b)
-    copyright: Copyright 2007-2021 The Arizonia Project Authors (https://github.com/googlefonts/arizonia)
-    font: Arizonia-Regular.ttf
+    full_name: Akshar Regular
+    post_script_name: Akshar-Regular
+    version: '1.000'
+    copyright: Copyright 2020 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)
+    font: Akshar-Regular.ttf
+- name: Akshar Light
+  styles:
+  - family_name: Akshar Light
+    type: Regular
+    preferred_family_name: Akshar
+    preferred_type: Light
+    full_name: Akshar Light
+    post_script_name: Akshar-Light
+    version: '1.000'
+    copyright: Copyright 2020 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)
+    font: Akshar-Light.ttf
+  - family_name: Akshar Light
+    type: Regular
+    preferred_family_name: Akshar
+    preferred_type: Light
+    full_name: Akshar Light
+    post_script_name: Akshar-Light
+    version: '1.000'
+    copyright: Copyright 2020 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)
+    font: Akshar-VariableFont_wght.ttf
+- name: Akshar Medium
+  styles:
+  - family_name: Akshar Medium
+    type: Regular
+    preferred_family_name: Akshar
+    preferred_type: Medium
+    full_name: Akshar Medium
+    post_script_name: Akshar-Medium
+    version: '1.000'
+    copyright: Copyright 2020 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)
+    font: Akshar-Medium.ttf
+- name: Akshar SemiBold
+  styles:
+  - family_name: Akshar SemiBold
+    type: Regular
+    preferred_family_name: Akshar
+    preferred_type: SemiBold
+    full_name: Akshar SemiBold
+    post_script_name: Akshar-SemiBold
+    version: '1.000'
+    copyright: Copyright 2020 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)
+    font: Akshar-SemiBold.ttf
 extract: {}
-copyright: Copyright 2007-2021 The Arizonia Project Authors (https://github.com/googlefonts/arizonia)
-license_url: https://scripts.sil.org/OFL
+copyright: Copyright 2020 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)
+license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2007-2021 The Arizonia Project Authors (https://github.com/googlefonts/arizonia)
+  Copyright 2020 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -114,5 +162,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 6606ffc566432989d98428d54c2a5314fc1f22b59718e3ef395ec480eb4b6057
+digest: bf23abd969229705ec9bbbc6191dc97f7fcf3e4549a34628bc83511c456b4c99
 command: import google --formulas_path Formulas

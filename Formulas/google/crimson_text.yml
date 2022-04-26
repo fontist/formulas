@@ -1,9 +1,7 @@
 ---
-name: CrimsonText
 description: Crimson Text
-homepage:
 resources:
-  CrimsonText.zip:
+  Crimson_Text.zip:
     urls:
     - https://fonts.google.com/download?family=Crimson%20Text
     sha256: b6cf9d8f697b512c1bb2e2c61463c558e5a6b453a0fd7c0c7ad5e18a9b2bf5c2
@@ -11,34 +9,6 @@ resources:
 fonts:
 - name: Crimson Text
   styles:
-  - family_name: Crimson Text
-    type: Regular
-    full_name: Crimson Text Regular
-    post_script_name: CrimsonText-Regular
-    version: '0.13'
-    copyright: Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org),
-    font: CrimsonText-Regular.ttf
-  - family_name: Crimson Text
-    type: Italic
-    full_name: Crimson Text Italic
-    post_script_name: CrimsonText-Italic
-    version: '0.12'
-    copyright: Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org),
-    font: CrimsonText-Italic.ttf
-  - family_name: Crimson Text
-    type: SemiBold
-    full_name: Crimson Text SemiBold
-    post_script_name: CrimsonText-SemiBold
-    version: '0.12'
-    copyright: Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org),
-    font: CrimsonText-SemiBold.ttf
-  - family_name: Crimson Text
-    type: SemiBold Italic
-    full_name: Crimson Text SemiBold Italic
-    post_script_name: CrimsonText-SemiBoldItalic
-    version: '0.12'
-    copyright: Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org),
-    font: CrimsonText-SemiBoldItalic.ttf
   - family_name: Crimson Text
     type: Bold
     full_name: Crimson Text Bold
@@ -53,11 +23,43 @@ fonts:
     version: '0.12'
     copyright: Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org),
     font: CrimsonText-BoldItalic.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved
-  Font Name "Crimson".
-license_url:
+  - family_name: Crimson Text
+    type: Italic
+    full_name: Crimson Text Italic
+    post_script_name: CrimsonText-Italic
+    version: '0.12'
+    copyright: Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org),
+    font: CrimsonText-Italic.ttf
+  - family_name: Crimson Text
+    type: Regular
+    full_name: Crimson Text Regular
+    post_script_name: CrimsonText-Regular
+    version: '0.13'
+    copyright: Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org),
+    font: CrimsonText-Regular.ttf
+- name: Crimson Text SemiBold
+  styles:
+  - family_name: Crimson Text SemiBold
+    type: Italic
+    preferred_family_name: Crimson Text
+    preferred_type: SemiBold Italic
+    full_name: Crimson Text SemiBold Italic
+    post_script_name: CrimsonText-SemiBoldItalic
+    version: '0.12'
+    copyright: Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org),
+    font: CrimsonText-SemiBoldItalic.ttf
+  - family_name: Crimson Text SemiBold
+    type: Regular
+    preferred_family_name: Crimson Text
+    preferred_type: SemiBold
+    full_name: Crimson Text SemiBold
+    post_script_name: CrimsonText-SemiBold
+    version: '0.12'
+    copyright: Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org),
+    font: CrimsonText-SemiBold.ttf
+extract: {}
+copyright: Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org),
+license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org),
   with Reserved Font Name "Crimson" and "Crimson Text".
@@ -153,3 +155,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: d5319d3399ddb808dd274ff168846f629474be937a4a5ffe5d490295d11f4edf
+command: import google --formulas_path Formulas

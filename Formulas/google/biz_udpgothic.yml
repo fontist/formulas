@@ -1,27 +1,34 @@
 ---
-description: Arizonia
-homepage: www.typesetit.com
+description: BIZ UDPGothic
+homepage: http://www.morisawa.co.jp/
 resources:
-  Arizonia.zip:
+  BIZ_UDPGothic.zip:
     urls:
-    - https://fonts.google.com/download?family=Arizonia
-    sha256: b112e88ec025162892746a5dc3ced6e21c7e9348dbe0ba7511888bd907a98f41
-    file_size: 63806
+    - https://fonts.google.com/download?family=BIZ%20UDPGothic
+    sha256: 5088816ee55f8c17e04be4b74a3fe19eff284f383cb099cc20339c0360a1511d
+    file_size: 5881575
 fonts:
-- name: Arizonia
+- name: BIZ UDPGothic
   styles:
-  - family_name: Arizonia
+  - family_name: BIZ UDPGothic
+    type: Bold
+    full_name: BIZ UDPGothic Bold
+    post_script_name: BIZUDPGothic-Bold
+    version: '1.002'
+    copyright: Copyright 2022 The BIZ UDGothic Project Authors (https://github.com/googlefonts/morisawa-biz-ud-gothic)
+    font: BIZUDPGothic-Bold.ttf
+  - family_name: BIZ UDPGothic
     type: Regular
-    full_name: Arizonia Regular
-    post_script_name: Arizonia-Regular
-    version: 1.010; ttfautohint (v1.8.4.7-5d5b)
-    copyright: Copyright 2007-2021 The Arizonia Project Authors (https://github.com/googlefonts/arizonia)
-    font: Arizonia-Regular.ttf
+    full_name: BIZ UDPGothic
+    post_script_name: BIZUDPGothic-Regular
+    version: '1.002'
+    copyright: Copyright 2022 The BIZ UDGothic Project Authors (https://github.com/googlefonts/morisawa-biz-ud-gothic)
+    font: BIZUDPGothic-Regular.ttf
 extract: {}
-copyright: Copyright 2007-2021 The Arizonia Project Authors (https://github.com/googlefonts/arizonia)
+copyright: Copyright 2022 The BIZ UDGothic Project Authors (https://github.com/googlefonts/morisawa-biz-ud-gothic)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2007-2021 The Arizonia Project Authors (https://github.com/googlefonts/arizonia)
+  Copyright 2022 The BIZ UDGothic Project Authors (https://github.com/googlefonts/morisawa-biz-ud-mincho)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -114,5 +121,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 6606ffc566432989d98428d54c2a5314fc1f22b59718e3ef395ec480eb4b6057
+digest: db7a3a670a193fbd3ffd98bf8ff15086641f9ba1c14812b95d1f05c8bf94afc0
 command: import google --formulas_path Formulas

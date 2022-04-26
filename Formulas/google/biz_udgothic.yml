@@ -1,27 +1,34 @@
 ---
-description: Arizonia
-homepage: www.typesetit.com
+description: BIZ UDGothic
+homepage: http://www.morisawa.co.jp/
 resources:
-  Arizonia.zip:
+  BIZ_UDGothic.zip:
     urls:
-    - https://fonts.google.com/download?family=Arizonia
-    sha256: b112e88ec025162892746a5dc3ced6e21c7e9348dbe0ba7511888bd907a98f41
-    file_size: 63806
+    - https://fonts.google.com/download?family=BIZ%20UDGothic
+    sha256: 89a5c2359c8a87e8d72aa5ccd5a2fb2973f06b1a4d14eee77abd83f161837d22
+    file_size: 5852449
 fonts:
-- name: Arizonia
+- name: BIZ UDGothic
   styles:
-  - family_name: Arizonia
+  - family_name: BIZ UDGothic
+    type: Bold
+    full_name: BIZ UDGothic Bold
+    post_script_name: BIZUDGothic-Bold
+    version: '1.002'
+    copyright: Copyright 2022 The BIZ UDGothic Project Authors (https://github.com/googlefonts/morisawa-biz-ud-gothic)
+    font: BIZUDGothic-Bold.ttf
+  - family_name: BIZ UDGothic
     type: Regular
-    full_name: Arizonia Regular
-    post_script_name: Arizonia-Regular
-    version: 1.010; ttfautohint (v1.8.4.7-5d5b)
-    copyright: Copyright 2007-2021 The Arizonia Project Authors (https://github.com/googlefonts/arizonia)
-    font: Arizonia-Regular.ttf
+    full_name: BIZ UDGothic
+    post_script_name: BIZUDGothic-Regular
+    version: '1.002'
+    copyright: Copyright 2022 The BIZ UDGothic Project Authors (https://github.com/googlefonts/morisawa-biz-ud-gothic)
+    font: BIZUDGothic-Regular.ttf
 extract: {}
-copyright: Copyright 2007-2021 The Arizonia Project Authors (https://github.com/googlefonts/arizonia)
+copyright: Copyright 2022 The BIZ UDGothic Project Authors (https://github.com/googlefonts/morisawa-biz-ud-gothic)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2007-2021 The Arizonia Project Authors (https://github.com/googlefonts/arizonia)
+  Copyright 2022 The BIZ UDGothic Project Authors (https://github.com/googlefonts/morisawa-biz-ud-mincho)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -114,5 +121,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 6606ffc566432989d98428d54c2a5314fc1f22b59718e3ef395ec480eb4b6057
+digest: 37eb476c583ec676c712d2edd49093c81de91243305392494c787bf2d6935ea8
 command: import google --formulas_path Formulas
