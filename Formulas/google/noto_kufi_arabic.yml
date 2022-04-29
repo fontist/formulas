@@ -1,5 +1,4 @@
 ---
-name: Noto Kufi Arabic
 description: Noto Kufi Arabic
 homepage: http://www.google.com/get/noto/
 resources:
@@ -25,7 +24,7 @@ fonts:
     version: '2.102'
     description: Designed by Monotype Design Team and David Williams
     copyright: Copyright 2019 Google LLC. All Rights Reserved.
-    font: NotoKufiArabic-VariableFont_wght.ttf
+    font: NotoKufiArabic-Regular.ttf
   - family_name: Noto Kufi Arabic
     type: Regular
     full_name: Noto Kufi Arabic Regular
@@ -33,7 +32,7 @@ fonts:
     version: '2.102'
     description: Designed by Monotype Design Team and David Williams
     copyright: Copyright 2019 Google LLC. All Rights Reserved.
-    font: NotoKufiArabic-Regular.ttf
+    font: NotoKufiArabic-VariableFont_wght.ttf
 - name: Noto Kufi Arabic Black
   styles:
   - family_name: Noto Kufi Arabic Black
@@ -215,5 +214,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9ac3a57cd4a37e957b7226afb6ca7225e16a977598f9b37e4e829d445dee58e7
-command: google import --formulas_path Formulas
+digest: 23f3369754d45f8ce73b6c472f572ab478ab8adc2a92f8ea4e1299e923194e66
+command: import google --formulas_path Formulas
