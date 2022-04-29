@@ -1,13 +1,12 @@
 ---
-name: Paprika
 description: Paprika
 homepage: http://www.tipo.net.ar
 resources:
   Paprika.zip:
     urls:
     - https://fonts.google.com/download?family=Paprika
-    sha256: e95be0ebc51fe5e1defd3d9fc9a4d3741be27505f0f08b5b39bae2bfb5f0abe7
-    file_size: 23104
+    sha256: 745d01e7d97d571a5255bdb05944a706a19ec22ab7a53331eee24b9ef394222c
+    file_size: 23274
 fonts:
 - name: Paprika
   styles:
@@ -19,10 +18,9 @@ fonts:
     copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
       Font Name 'Paprika'
     font: Paprika-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
-  with Reserved Font Name 'Paprika'
+extract: {}
+copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
+  Font Name 'Paprika'
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name 'Paprika'
@@ -118,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: b9ce425ef068b176de34f9e3b2435f6184f461452248be004c8811a17d324207
+command: import google --formulas_path Formulas
