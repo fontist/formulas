@@ -1,13 +1,11 @@
 ---
-name: Noto Sans KR
 description: Noto Sans KR
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_KR.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20KR
-    sha256: 5fe6ed7e1fd02552cbb4ed32388070fb07347ed264aecb268018c3d42227dd0f
-    file_size: 22755137
+    file_size: 22749734
 fonts:
 - name: Noto Sans KR
   styles:
@@ -85,6 +83,8 @@ extract: {}
 copyright: "© 2014-2020 Adobe (http://www.adobe.com/)."
 license_url: http://scripts.sil.org/OFL
 open_license: |-
+  Copyright 2012 Google Inc. All Rights Reserved.
+
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
   http://scripts.sil.org/OFL
@@ -176,5 +176,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 6b2c181e3dd4423ddb2db279f9d87025dc5bc978cbfa6a1d00f7ad82765f8875
-command: google import --formulas_path Formulas
+digest: bafcf333601c20ab81d6f83b65fc16516b3340e1e42485ab6eb59b5811d93fee
+command: import google --formulas_path Formulas
