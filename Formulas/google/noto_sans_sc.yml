@@ -1,13 +1,11 @@
 ---
-name: Noto Sans SC
 description: Noto Sans SC
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_SC.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20SC
-    sha256: 02de3a8f7df187c72f1846233773506c1e79d566e3cd81da7311cbfa200c8e3e
-    file_size: 43756020
+    file_size: 43756654
 fonts:
 - name: Noto Sans SC
   styles:
@@ -85,6 +83,8 @@ extract: {}
 copyright: "© 2014-2020 Adobe (http://www.adobe.com/)."
 license_url: http://scripts.sil.org/OFL
 open_license: |-
+  Copyright 2012 Google Inc. All Rights Reserved.
+
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
   http://scripts.sil.org/OFL
@@ -176,5 +176,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 3c03c18b0a81c026b94cf0ebf22a2fa9b2e212ad7e648e3ec140922d7dadf9e0
-command: google import --formulas_path Formulas
+digest: 7847c29590abedb54cb73133f04133e5f8a21e8e1b9672a57ed8e20b69aa2ecc
+command: import google --formulas_path Formulas
