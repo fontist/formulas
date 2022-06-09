@@ -1,13 +1,11 @@
 ---
-name: Noto Serif SC
 description: Noto Serif SC
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Serif_SC.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Serif%20SC
-    sha256: a4dc05da5f94375b1cfac243a4f59a2af6c2210ef52da53bd47441c23a3c71b2
-    file_size: 66512352
+    file_size: 66500225
 fonts:
 - name: Noto Serif SC
   styles:
@@ -98,6 +96,8 @@ extract: {}
 copyright: Copyright © 2017 Adobe Systems Incorporated (http://www.adobe.com/).
 license_url: http://scripts.sil.org/OFL
 open_license: |-
+  Copyright 2012 Google Inc. All Rights Reserved.
+
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
   http://scripts.sil.org/OFL
@@ -189,5 +189,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 57c8a23c7d1d91a135e8536a273f84f163080cc3662d1577020b32c9059e4f6e
-command: google import --formulas_path Formulas
+digest: dc5f39f7a9a1b0f4973b1ecc32e57bd0b9cf3b0411920f8f960d55e8c9c6457e
+command: import google --formulas_path Formulas
