@@ -1,13 +1,12 @@
 ---
-name: Belleza
 description: Belleza
 homepage: http://www.tipo.net.ar
 resources:
   Belleza.zip:
     urls:
     - https://fonts.google.com/download?family=Belleza
-    sha256: c4e849cb0d80be40007053fd311e6efbaa0e227b365b7092901e3a59b84f3a85
-    file_size: 17563
+    sha256: 73ee98bb53fb761eb39bf49130149b7a2b47058b670bd5a1caa9c54b0f7d00b8
+    file_size: 17554
 fonts:
 - name: Belleza
   styles:
@@ -19,8 +18,7 @@ fonts:
     copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
       Font Name "Belleza"
     font: Belleza-Regular.ttf
-extract:
-  format: zip
+extract: {}
 copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
   Font Name "Belleza"
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: db7dca5b6effa44fd0600df5a9330e82146649b1fb22ae10b7372fa0c52bda7e
+command: import google --formulas_path Formulas
