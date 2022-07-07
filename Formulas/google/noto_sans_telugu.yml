@@ -1,12 +1,11 @@
 ---
-name: Noto Sans Telugu
 description: Noto Sans Telugu
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Telugu.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Telugu
-    file_size: 2310547
+    file_size: 2358123
 fonts:
 - name: Noto Sans Telugu
   styles:
@@ -25,7 +24,7 @@ fonts:
     version: '2.001'
     description: Designed by Monotype design team.
     copyright: Copyright 2019 Google LLC. All Rights Reserved.
-    font: NotoSansTelugu-Regular.ttf
+    font: NotoSansTelugu-VariableFont_wdth,wght.ttf
   - family_name: Noto Sans Telugu
     type: Regular
     full_name: Noto Sans Telugu Regular
@@ -33,7 +32,7 @@ fonts:
     version: '2.001'
     description: Designed by Monotype design team.
     copyright: Copyright 2019 Google LLC. All Rights Reserved.
-    font: NotoSansTelugu-VariableFont_wdth,wght.ttf
+    font: NotoSansTelugu-Regular.ttf
 - name: Noto Sans Telugu Black
   styles:
   - family_name: Noto Sans Telugu Black
@@ -533,5 +532,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 2782eb89287be2135e8e4ff42b18e236e670df38f3c34e6c5e38c6d48c738e8f
-command: google import --formulas_path Formulas
+digest: 7a2bf436619932cae3e7870ee1242a64486e6f502cb5d269dd491b666883da75
+command: import google --formulas_path Formulas

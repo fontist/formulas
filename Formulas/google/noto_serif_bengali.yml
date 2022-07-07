@@ -1,12 +1,11 @@
 ---
-name: Noto Serif Bengali
 description: Noto Serif Bengali
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Serif_Bengali.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Serif%20Bengali
-    file_size: 3600617
+    file_size: 3628337
 fonts:
 - name: Noto Serif Bengali
   styles:
@@ -25,7 +24,7 @@ fonts:
     version: '2.001'
     description: Designed by Monotype design team.
     copyright: Copyright 2019 Google Inc. All Rights Reserved.
-    font: NotoSerifBengali-Regular.ttf
+    font: NotoSerifBengali-VariableFont_wdth,wght.ttf
   - family_name: Noto Serif Bengali
     type: Regular
     full_name: Noto Serif Bengali Regular
@@ -33,7 +32,7 @@ fonts:
     version: '2.001'
     description: Designed by Monotype design team.
     copyright: Copyright 2019 Google Inc. All Rights Reserved.
-    font: NotoSerifBengali-VariableFont_wdth,wght.ttf
+    font: NotoSerifBengali-Regular.ttf
 - name: Noto Serif Bengali Black
   styles:
   - family_name: Noto Serif Bengali Black
@@ -533,5 +532,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 31ee6865464b0929b83d4e7da06f57a5fb648441abf1af866ca0613f94ab61ad
-command: google import --formulas_path Formulas
+digest: 420f895c7e5ce2e7eced0cd31ec8ba6b271aa4043f1c5994f2b519cfa8adc052
+command: import google --formulas_path Formulas

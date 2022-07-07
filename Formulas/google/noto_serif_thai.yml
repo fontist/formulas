@@ -1,12 +1,11 @@
 ---
-name: Noto Serif Thai
 description: Noto Serif Thai
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Serif_Thai.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Serif%20Thai
-    file_size: 608059
+    file_size: 609509
 fonts:
 - name: Noto Serif Thai
   styles:
@@ -25,7 +24,7 @@ fonts:
     version: '2.000'
     description: Designed by Monotype design team.
     copyright: Copyright 2016 Google Inc. All Rights Reserved.
-    font: NotoSerifThai-Regular.ttf
+    font: NotoSerifThai-VariableFont_wdth,wght.ttf
   - family_name: Noto Serif Thai
     type: Regular
     full_name: Noto Serif Thai Regular
@@ -33,7 +32,7 @@ fonts:
     version: '2.000'
     description: Designed by Monotype design team.
     copyright: Copyright 2016 Google Inc. All Rights Reserved.
-    font: NotoSerifThai-VariableFont_wdth,wght.ttf
+    font: NotoSerifThai-Regular.ttf
 - name: Noto Serif Thai Black
   styles:
   - family_name: Noto Serif Thai Black
@@ -533,5 +532,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: cd101d3f5fb1c931155a6170853b6cb67f351c0312286f56e497ccdb8621dc70
-command: google import --formulas_path Formulas
+digest: 282f3b53ae26f3c431b75d0f7eeb766171344003e0fe50d7040242570b106da9
+command: import google --formulas_path Formulas
