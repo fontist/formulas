@@ -1,12 +1,11 @@
 ---
-name: Noto Sans Armenian
 description: Noto Sans Armenian
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Armenian.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Armenian
-    file_size: 456141
+    file_size: 456658
 fonts:
 - name: Noto Sans Armenian
   styles:
@@ -25,7 +24,7 @@ fonts:
     version: '2.005'
     description: Designed by Monotype design team.
     copyright: Copyright 2015-2019 Google LLC. All Rights Reserved.
-    font: NotoSansArmenian-Regular.ttf
+    font: NotoSansArmenian-VariableFont_wdth,wght.ttf
   - family_name: Noto Sans Armenian
     type: Regular
     full_name: Noto Sans Armenian Regular
@@ -33,7 +32,7 @@ fonts:
     version: '2.005'
     description: Designed by Monotype design team.
     copyright: Copyright 2015-2019 Google LLC. All Rights Reserved.
-    font: NotoSansArmenian-VariableFont_wdth,wght.ttf
+    font: NotoSansArmenian-Regular.ttf
 - name: Noto Sans Armenian Black
   styles:
   - family_name: Noto Sans Armenian Black
@@ -533,5 +532,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 8a8e10f2b1b762ec54308bd0091a9a2569c076a18661fbb11602f9a0e4461846
-command: google import --formulas_path Formulas
+digest: c7cc31f8f3288eb292cdd11158a2614ecfd6d0eb5488e1103b1b411cc2a11c15
+command: import google --formulas_path Formulas
