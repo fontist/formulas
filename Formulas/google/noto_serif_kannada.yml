@@ -1,12 +1,11 @@
 ---
-name: Noto Serif Kannada
 description: Noto Serif Kannada
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Serif_Kannada.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Serif%20Kannada
-    file_size: 636825
+    file_size: 649259
 fonts:
 - name: Noto Serif Kannada
   styles:
@@ -25,7 +24,7 @@ fonts:
     version: '2.002'
     description: Designed by Monotype design team.
     copyright: Copyright 2017 Google Inc. All Rights Reserved.
-    font: NotoSerifKannada-VariableFont_wght.ttf
+    font: NotoSerifKannada-Regular.ttf
   - family_name: Noto Serif Kannada
     type: Regular
     full_name: Noto Serif Kannada Regular
@@ -33,7 +32,7 @@ fonts:
     version: '2.002'
     description: Designed by Monotype design team.
     copyright: Copyright 2017 Google Inc. All Rights Reserved.
-    font: NotoSerifKannada-Regular.ttf
+    font: NotoSerifKannada-VariableFont_wght.ttf
 - name: Noto Serif Kannada Black
   styles:
   - family_name: Noto Serif Kannada Black
@@ -215,5 +214,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ed6f3b2e14057324b052f6367f0248641b1a367a3fb7ca11bc8741e17018580c
-command: google import --formulas_path Formulas
+digest: f14ca42aa4e014c136d6e1bea4a21ea607a05f84f4b004b8f6d45b6d0e8f6d87
+command: import google --formulas_path Formulas

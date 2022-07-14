@@ -1,13 +1,11 @@
 ---
-name: Noto Sans Devanagari
 description: Noto Sans Devanagari
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Devanagari.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Devanagari
-    sha256: 58b570f8b559b4f0dd011ceb128d54225de4dfb39981dd2e149f951846353f3c
-    file_size: 868958
+    file_size: 870000
 fonts:
 - name: Noto Sans Devanagari
   styles:
@@ -217,5 +215,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 371d2be707d600785c30d1d0c7691958a7a78659be3bff6c791834dc06b35c32
-command: google import --formulas_path Formulas
+digest: 2a13c641f3251216bcbe9dc39fce458e54415295ab290b6e76db1b12b1457b36
+command: import google --formulas_path Formulas
