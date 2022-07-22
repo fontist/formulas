@@ -1,13 +1,12 @@
 ---
-name: PinyonScript
 description: Pinyon Script
 homepage: sorkintype.com
 resources:
-  PinyonScript.zip:
+  Pinyon_Script.zip:
     urls:
     - https://fonts.google.com/download?family=Pinyon%20Script
-    sha256: 0d557c9b2319c7b8b894ba12064e389ad1e671d66a999c4fc40a848927f0a667
-    file_size: 33617
+    sha256: 3b255c750e31d0441303a87faa05f957af44850d472ea0078fdfe8a8ab6c0b56
+    file_size: 33599
 fonts:
 - name: Pinyon Script
   styles:
@@ -27,12 +26,11 @@ fonts:
 
       This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
     font: PinyonScript-Regular.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2010 by Sorkin Type Co (eben@eyebytes.com) with Reserved
-  Font Name Pinyon Script. This Font Software is licensed under the SIL Open Font
-  License, Version 1.1. This license is copied below, and is also available with a
-  FAQ at: http://scripts.sil.org/OFL'
+extract: {}
+copyright: |-
+  Copyright (c) 2010 by Sorkin Type Co with Reserved Font Name Pinyon Script.
+
+  This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 license_url: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
 open_license: |-
   Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
@@ -129,3 +127,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 35549e160aad795c04d489ee7ba8aa6ba8dea8b3ef34a17ca7312440ef67f37d
+command: import google --formulas_path Formulas
