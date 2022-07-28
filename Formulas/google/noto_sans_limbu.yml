@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Limbu
 description: Noto Sans Limbu
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Limbu.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Limbu
-    sha256: 932ce363dca2db0c75584ceb2cb812b57106e084123e080153a52ef27181feb3
-    file_size: 10452
+    sha256: e6e375b016f85fb8002d3075ce3d5a9d37e46b1262895d1c5be12c6cd6e99eea
+    file_size: 10417
 fonts:
 - name: Noto Sans Limbu
   styles:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 1e5e5f5a239c89c3425f1cbcaa37a9931e7752a3a58a796eefdba76c9c17596a
-command: google import --formulas_path Formulas
+digest: 5fbc2b3bdc3799bca2d59c4ff414f58b002c3437915717ea70a6ffae457d63e5
+command: import google --formulas_path Formulas
