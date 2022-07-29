@@ -1,113 +1,22 @@
 ---
-description: Lora
-homepage: http://cyreal.org
+description: Noto Color Emoji
 resources:
-  Lora.zip:
+  Noto_Color_Emoji.zip:
     urls:
-    - https://fonts.google.com/download?family=Lora
-    file_size: 780424
+    - https://fonts.google.com/download?family=Noto%20Color%20Emoji
+    sha256: 6f6e150aaf00d74cf15ddc2157e006348cbd4c89adf1536608a45b8af051f39f
+    file_size: 2689998
 fonts:
-- name: Lora
+- name: noto-glyf_colr_1
   styles:
-  - family_name: Lora
-    type: Bold
-    full_name: Lora Bold
-    post_script_name: Lora-Bold
-    version: '3.001'
-    copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
-      with Reserved Font Name "Lora".
-    font: Lora-Bold.ttf
-  - family_name: Lora
-    type: Bold Italic
-    full_name: Lora Bold Italic
-    post_script_name: Lora-BoldItalic
-    version: '3.001'
-    copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
-      with Reserved Font Name "Lora".
-    font: Lora-BoldItalic.ttf
-  - family_name: Lora
-    type: Italic
-    full_name: Lora Italic
-    post_script_name: Lora-Italic
-    version: '3.001'
-    copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
-      with Reserved Font Name "Lora".
-    font: Lora-Italic.ttf
-  - family_name: Lora
-    type: Italic
-    full_name: Lora Italic
-    post_script_name: Lora-Italic
-    version: '3.001'
-    copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
-      with Reserved Font Name "Lora".
-    font: Lora-Italic-VariableFont_wght.ttf
-  - family_name: Lora
+  - family_name: noto-glyf_colr_1
     type: Regular
-    full_name: Lora Regular
-    post_script_name: Lora-Regular
-    version: '3.001'
-    copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
-      with Reserved Font Name "Lora".
-    font: Lora-VariableFont_wght.ttf
-  - family_name: Lora
-    type: Regular
-    full_name: Lora Regular
-    post_script_name: Lora-Regular
-    version: '3.001'
-    copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
-      with Reserved Font Name "Lora".
-    font: Lora-Regular.ttf
-- name: Lora Medium
-  styles:
-  - family_name: Lora Medium
-    type: Italic
-    preferred_family_name: Lora
-    preferred_type: Medium Italic
-    full_name: Lora Medium Italic
-    post_script_name: Lora-MediumItalic
-    version: '3.001'
-    copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
-      with Reserved Font Name "Lora".
-    font: Lora-MediumItalic.ttf
-  - family_name: Lora Medium
-    type: Regular
-    preferred_family_name: Lora
-    preferred_type: Medium
-    full_name: Lora Medium
-    post_script_name: Lora-Medium
-    version: '3.001'
-    copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
-      with Reserved Font Name "Lora".
-    font: Lora-Medium.ttf
-- name: Lora SemiBold
-  styles:
-  - family_name: Lora SemiBold
-    type: Italic
-    preferred_family_name: Lora
-    preferred_type: SemiBold Italic
-    full_name: Lora SemiBold Italic
-    post_script_name: Lora-SemiBoldItalic
-    version: '3.001'
-    copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
-      with Reserved Font Name "Lora".
-    font: Lora-SemiBoldItalic.ttf
-  - family_name: Lora SemiBold
-    type: Regular
-    preferred_family_name: Lora
-    preferred_type: SemiBold
-    full_name: Lora SemiBold
-    post_script_name: Lora-SemiBold
-    version: '3.001'
-    copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
-      with Reserved Font Name "Lora".
-    font: Lora-SemiBold.ttf
+    full_name: noto-glyf_colr_1 Regular
+    post_script_name: noto-glyf_colr_1-Regular
+    version: '1.000'
+    font: NotoColorEmoji-Regular.ttf
 extract: {}
-copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
-  with Reserved Font Name "Lora".
-license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic), with Reserved Font Name "Lora".
-
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
   http://scripts.sil.org/OFL
@@ -199,5 +108,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 0fb28c0b04942b03bc3dc7a5cedb40cd1410778405a8c7d132f965d406a8e11a
+digest: 36f081e8066236c1736018dead7a8bbfd4eae3b04f9a2c1fe68243e5b74a846a
 command: import google --formulas_path Formulas
