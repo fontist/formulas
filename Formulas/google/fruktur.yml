@@ -1,13 +1,12 @@
 ---
-name: Fruktur
 description: Fruktur
 homepage: www.sorkintype.com
 resources:
   Fruktur.zip:
     urls:
     - https://fonts.google.com/download?family=Fruktur
-    sha256: 05b982e3b7924f99d9b58e90a63f2a8c9018b0935c6dac8a71792a80d69418a4
-    file_size: 41865
+    sha256: b72e822a6196414ae7982cc87cbe5b590868001f6c7c645acb3eecf19b53d5d2
+    file_size: 41818
 fonts:
 - name: Fruktur
   styles:
@@ -25,10 +24,9 @@ fonts:
     copyright: Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com) with Reserved
       Font Name 'Fruktur'
     font: Fruktur-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2013, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)
-  with Reserved Font Name 'Fruktur'
+extract: {}
+copyright: Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com) with Reserved Font
+  Name 'Fruktur'
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2013 by Sorkin Type Co (www.sorkintype.com),
@@ -125,3 +123,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 072b00675c30f077e33ab3811731ed494041a864acadd1fad3f556497830afd3
+command: import google --formulas_path Formulas
