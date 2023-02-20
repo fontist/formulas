@@ -2,43 +2,45 @@ name: metanorma
 
 on:
   push:
-    # switch to the v2 branch after metanorma upgrade
-    branches: [ master ]
-  # enable after metanorma upgrade to v2 formulas
-  # pull_request:
+    branches: [ master, v2, v3 ]
+  pull_request:
 
 jobs:
+  prepare:
+    uses: metanorma/ci/.github/workflows/prepare-rake.yml@main
+
   test:
-    name: Test on Ruby ${{ matrix.ruby }} ${{ matrix.os }}
+    name: Test on Ruby ${{ matrix.ruby.version }} ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
-    continue-on-error: ${{ matrix.experimental }}
+
+    needs: prepare
+    if: needs.prepare.outputs.push-for-tag != 'true'
+
+    continue-on-error: ${{ matrix.ruby.experimental }}
     strategy:
       fail-fast: false
-      matrix:
-        ruby: [ '2.5', '2.6', '2.7', '3.0' ]
-        os: [ ubuntu-latest, windows-latest, macos-latest ]
-        experimental: [ true ]
+      max-parallel: 5
+      matrix: ${{ fromJson(needs.prepare.outputs.matrix) }}
+
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v3
         with:
           repository: metanorma/metanorma
 
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0
           path: "formulas"
 
-      - run: mkdir $HOME/.fontist
-
-      - if: matrix.os == 'windows-latest'
-        run: mv -Force formulas $HOME/.fontist/formulas
-
-      - if: matrix.os != 'windows-latest'
-        run: mv formulas $HOME/.fontist/formulas
+      - run: |
+          mkdir $HOME/.fontist
+          mv formulas $HOME/.fontist/formulas
+        shell: bash
 
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: ${{ matrix.ruby }}
+          ruby-version: ${{ matrix.ruby.version }}
+          rubygems: ${{ matrix.ruby.rubygems }}
           bundler-cache: true
 
       - run: bundle exec rake
