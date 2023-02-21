@@ -37,14 +37,14 @@ jobs:
           mv formulas $HOME/.fontist/formulas
         shell: bash
 
-      - uses: metanorma/ci/change-tmpdir-action@main
-        with:
-          tmpdir: ${{ github.workspace }}/tmp
-
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby.version }}
           rubygems: ${{ matrix.ruby.rubygems }}
           bundler-cache: true
+
+      - uses: metanorma/ci/change-tmpdir-action@main
+        with:
+          tmpdir: ${{ github.workspace }}/tmp
 
       - run: bundle exec rake
