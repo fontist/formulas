@@ -43,8 +43,6 @@ jobs:
           rubygems: ${{ matrix.ruby.rubygems }}
           bundler-cache: true
 
-      - uses: metanorma/ci/change-tmpdir-action@main
-        with:
-          tmpdir: ${{ github.workspace }}/tmp
+      - uses: metanorma/ci/inkscape-setup-action@main
 
       - run: bundle exec rake
