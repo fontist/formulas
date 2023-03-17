@@ -1,30 +1,15 @@
 ---
-name: Cantarell
 description: Cantarell
 homepage: http://abattis.org
 resources:
   Cantarell.zip:
     urls:
     - https://fonts.google.com/download?family=Cantarell
-    sha256: 5558804a5522408e3482e00b4fc0ee8aa62a86ec01e1831cdc4c5af695ba7273
-    file_size: 107064
+    sha256: d175bdf784366b7a92519ecf6b6565258dc0df96282dd7f7c2540464a6d4c8c3
+    file_size: 107297
 fonts:
 - name: Cantarell
   styles:
-  - family_name: Cantarell
-    type: Regular
-    full_name: Cantarell Regular
-    post_script_name: Cantarell-Regular
-    version: '001.001'
-    copyright: Copyright (c) 2009 Dave Crossland <dave@lab6.com>
-    font: Cantarell-Regular.ttf
-  - family_name: Cantarell
-    type: Oblique
-    full_name: Cantarell Oblique
-    post_script_name: Cantarell-Oblique
-    version: '001.001'
-    copyright: Copyright (c) 2009 Dave Crossland <dave@lab6.com>
-    font: Cantarell-Oblique.ttf
   - family_name: Cantarell
     type: Bold
     full_name: Cantarell Bold
@@ -38,11 +23,23 @@ fonts:
     post_script_name: Cantarell-BoldOblique
     version: '001.001'
     copyright: Copyright (c) 2009 Dave Crossland <dave@lab6.com>
-    font: Cantarell-BoldOblique.ttf
-extract:
-  format: zip
+    font: Cantarell-BoldItalic.ttf
+  - family_name: Cantarell
+    type: Oblique
+    full_name: Cantarell Oblique
+    post_script_name: Cantarell-Oblique
+    version: '001.001'
+    copyright: Copyright (c) 2009 Dave Crossland <dave@lab6.com>
+    font: Cantarell-Italic.ttf
+  - family_name: Cantarell
+    type: Regular
+    full_name: Cantarell Regular
+    post_script_name: Cantarell-Regular
+    version: '001.001'
+    copyright: Copyright (c) 2009 Dave Crossland <dave@lab6.com>
+    font: Cantarell-Regular.ttf
+extract: {}
 copyright: Copyright (c) 2009 Dave Crossland <dave@lab6.com>
-license_url:
 open_license: |-
   Copyright (c) 2009-2010, Understanding Limited (dave@understandinglimited.com)
 
@@ -137,3 +134,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 34eae04eb5e5ee3211e935aa1d103d1d45478f1e9206822c3f6c33b9b524ece3
+command: import google --formulas_path Formulas

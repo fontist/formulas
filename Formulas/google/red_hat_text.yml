@@ -1,12 +1,11 @@
 ---
-name: Red Hat Text
 description: Red Hat Text
-homepage: http://www.mckltype.com
+homepage: https://www.mckltype.com
 resources:
   Red_Hat_Text.zip:
     urls:
     - https://fonts.google.com/download?family=Red%20Hat%20Text
-    file_size: 362609
+    file_size: 360536
 fonts:
 - name: Red Hat Text
   styles:
@@ -14,50 +13,94 @@ fonts:
     type: Bold
     full_name: Red Hat Text Bold
     post_script_name: RedHatText-Bold
-    version: 1.005; Red Hat Text Bold
+    version: '1.021'
     description: 'This Font Software is licensed under the SIL Open Font License,
-      Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
-    copyright: Copyright 2019 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    copyright: Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
     font: RedHatText-Bold.ttf
   - family_name: Red Hat Text
     type: Bold Italic
-    full_name: Red Hat Text Bold It
+    full_name: Red Hat Text Bold Italic
     post_script_name: RedHatText-BoldItalic
-    version: 1.005; Red Hat Text Bold Italic
+    version: '1.021'
     description: 'This Font Software is licensed under the SIL Open Font License,
-      Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
-    copyright: Copyright 2019 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    copyright: Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
     font: RedHatText-BoldItalic.ttf
   - family_name: Red Hat Text
     type: Italic
-    full_name: Red Hat Text It
-    post_script_name: RedHatText-Italic
-    version: 1.005; Red Hat Text Italic
+    preferred_type: Light Italic
+    full_name: Red Hat Text Light Italic
+    post_script_name: RedHatText-LightItalic
+    version: '1.021'
     description: 'This Font Software is licensed under the SIL Open Font License,
-      Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
-    copyright: Copyright 2019 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    copyright: Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
+    font: RedHatText-Italic-VariableFont_wght.ttf
+  - family_name: Red Hat Text
+    type: Italic
+    full_name: Red Hat Text Italic
+    post_script_name: RedHatText-Italic
+    version: '1.021'
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    copyright: Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
     font: RedHatText-Italic.ttf
   - family_name: Red Hat Text
     type: Regular
-    full_name: Red Hat Text
-    post_script_name: RedHatText-Regular
-    version: 1.005; Red Hat Text
+    preferred_type: Light
+    full_name: Red Hat Text Light
+    post_script_name: RedHatText-Light
+    version: '1.021'
     description: 'This Font Software is licensed under the SIL Open Font License,
-      Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
-    copyright: Copyright 2019 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    copyright: Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
+    font: RedHatText-VariableFont_wght.ttf
+  - family_name: Red Hat Text
+    type: Regular
+    full_name: Red Hat Text Regular
+    post_script_name: RedHatText-Regular
+    version: '1.021'
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    copyright: Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
     font: RedHatText-Regular.ttf
+- name: Red Hat Text Light
+  styles:
+  - family_name: Red Hat Text Light
+    type: Italic
+    preferred_family_name: Red Hat Text
+    preferred_type: Light Italic
+    full_name: Red Hat Text Light Italic
+    post_script_name: RedHatText-LightItalic
+    version: '1.021'
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    copyright: Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
+    font: RedHatText-LightItalic.ttf
+  - family_name: Red Hat Text Light
+    type: Regular
+    preferred_family_name: Red Hat Text
+    preferred_type: Light
+    full_name: Red Hat Text Light
+    post_script_name: RedHatText-Light
+    version: '1.021'
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    copyright: Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
+    font: RedHatText-Light.ttf
 - name: Red Hat Text Medium
   styles:
   - family_name: Red Hat Text Medium
     type: Italic
     preferred_family_name: Red Hat Text
     preferred_type: Medium Italic
-    full_name: Red Hat Text Medium It
+    full_name: Red Hat Text Medium Italic
     post_script_name: RedHatText-MediumItalic
-    version: 1.005; Red Hat Text Medium Italic
+    version: '1.021'
     description: 'This Font Software is licensed under the SIL Open Font License,
-      Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
-    copyright: Copyright 2019 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    copyright: Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
     font: RedHatText-MediumItalic.ttf
   - family_name: Red Hat Text Medium
     type: Regular
@@ -65,16 +108,40 @@ fonts:
     preferred_type: Medium
     full_name: Red Hat Text Medium
     post_script_name: RedHatText-Medium
-    version: 1.005; Red Hat Text Medium
+    version: '1.021'
     description: 'This Font Software is licensed under the SIL Open Font License,
-      Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
-    copyright: Copyright 2019 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    copyright: Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
     font: RedHatText-Medium.ttf
+- name: Red Hat Text SemiBold
+  styles:
+  - family_name: Red Hat Text SemiBold
+    type: Italic
+    preferred_family_name: Red Hat Text
+    preferred_type: SemiBold Italic
+    full_name: Red Hat Text SemiBold Italic
+    post_script_name: RedHatText-SemiBoldItalic
+    version: '1.021'
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    copyright: Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
+    font: RedHatText-SemiBoldItalic.ttf
+  - family_name: Red Hat Text SemiBold
+    type: Regular
+    preferred_family_name: Red Hat Text
+    preferred_type: SemiBold
+    full_name: Red Hat Text SemiBold
+    post_script_name: RedHatText-SemiBold
+    version: '1.021'
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    copyright: Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
+    font: RedHatText-SemiBold.ttf
 extract: {}
-copyright: Copyright 2019 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2019 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
+  Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -167,5 +234,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 78092f30e375aa0dd96383cb6b6f9e245c871c79459b4544d06f50e1e72972ab
-command: google import --formulas_path Formulas
+digest: ea9bf09acfd40eedff94ecb42857516d6c1205591d0abef9e9f7ed14b4aa685d
+command: import google --formulas_path Formulas

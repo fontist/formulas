@@ -1,12 +1,11 @@
 ---
-name: Noto Naskh Arabic
 description: Noto Naskh Arabic
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Naskh_Arabic.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Naskh%20Arabic
-    file_size: 377098
+    file_size: 378907
 fonts:
 - name: Noto Naskh Arabic
   styles:
@@ -25,7 +24,7 @@ fonts:
     version: '2.001'
     description: Designed by Monotype Design Team, David Williams and Mohamad Dakak
     copyright: Copyright 2019 Google LLC. All Rights Reserved.
-    font: NotoNaskhArabic-Regular.ttf
+    font: NotoNaskhArabic-VariableFont_wght.ttf
   - family_name: Noto Naskh Arabic
     type: Regular
     full_name: Noto Naskh Arabic Regular
@@ -33,7 +32,7 @@ fonts:
     version: '2.001'
     description: Designed by Monotype Design Team, David Williams and Mohamad Dakak
     copyright: Copyright 2019 Google LLC. All Rights Reserved.
-    font: NotoNaskhArabic-VariableFont_wght.ttf
+    font: NotoNaskhArabic-Regular.ttf
 - name: Noto Naskh Arabic Medium
   styles:
   - family_name: Noto Naskh Arabic Medium
@@ -155,5 +154,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ba99da4a56fb61468c7524a06940aa6f8fc66219718459d166559b26a886728d
-command: google import --formulas_path Formulas
+digest: 6dce6d693000f622a239314060a5cd188579209854408439ada597f1cdece1df
+command: import google --formulas_path Formulas

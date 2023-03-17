@@ -1,13 +1,11 @@
 ---
-name: Noto Sans Oriya
 description: Noto Sans Oriya
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Oriya.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Oriya
-    sha256: 0e9b0f8b81dc7a11c38e7996f4231ff117013be01347924b601bfafafdd60f7a
-    file_size: 159506
+    file_size: 159409
 fonts:
 - name: Noto Sans Oriya
   styles:
@@ -148,5 +146,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: f7cd598d709dca0d06bcf6417fdc2c43fc0b0f13e547b47b9d900746082c7674
-command: google import --formulas_path Formulas
+digest: 421160f21769117bd72631e11971cd9f01c87110e4c3fd8a5a1cec9706d17b58
+command: import google --formulas_path Formulas

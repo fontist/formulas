@@ -1,12 +1,11 @@
 ---
-name: Noto Serif Tamil
 description: Noto Serif Tamil
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Serif_Tamil.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Serif%20Tamil
-    file_size: 2176648
+    file_size: 2191112
 fonts:
 - name: Noto Serif Tamil
   styles:
@@ -49,7 +48,7 @@ fonts:
     version: '2.001'
     description: Designed by Monotype design team.
     copyright: Copyright 2017 Google Inc. All Rights Reserved.
-    font: NotoSerifTamil-Regular.ttf
+    font: NotoSerifTamil-VariableFont_wdth,wght.ttf
   - family_name: Noto Serif Tamil
     type: Regular
     full_name: Noto Serif Tamil Regular
@@ -57,7 +56,7 @@ fonts:
     version: '2.001'
     description: Designed by Monotype design team.
     copyright: Copyright 2017 Google Inc. All Rights Reserved.
-    font: NotoSerifTamil-VariableFont_wdth,wght.ttf
+    font: NotoSerifTamil-Regular.ttf
 - name: Noto Serif Tamil Black
   styles:
   - family_name: Noto Serif Tamil Black
@@ -897,5 +896,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: cf7c007c2cb61a1efb2ae77fc4266f0273de584fedaf2190a299051dae9d5ec9
-command: google import --formulas_path Formulas
+digest: 2e549b3a43ea5be22792e9e4f5800223c199cdd96f84f2cf405383a933ceddc4
+command: import google --formulas_path Formulas

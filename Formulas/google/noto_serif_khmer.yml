@@ -1,12 +1,11 @@
 ---
-name: Noto Serif Khmer
 description: Noto Serif Khmer
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Serif_Khmer.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Serif%20Khmer
-    file_size: 1492205
+    file_size: 1516356
 fonts:
 - name: Noto Serif Khmer
   styles:
@@ -25,7 +24,7 @@ fonts:
     version: '2.001'
     description: Designed by Monotype design team.
     copyright: Copyright 2016 Google Inc. All Rights Reserved.
-    font: NotoSerifKhmer-Regular.ttf
+    font: NotoSerifKhmer-VariableFont_wdth,wght.ttf
   - family_name: Noto Serif Khmer
     type: Regular
     full_name: Noto Serif Khmer Regular
@@ -33,7 +32,7 @@ fonts:
     version: '2.001'
     description: Designed by Monotype design team.
     copyright: Copyright 2016 Google Inc. All Rights Reserved.
-    font: NotoSerifKhmer-VariableFont_wdth,wght.ttf
+    font: NotoSerifKhmer-Regular.ttf
 - name: Noto Serif Khmer Black
   styles:
   - family_name: Noto Serif Khmer Black
@@ -533,5 +532,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: cda4f2a0fd30b4924ec30dc48f8eedfca0d138bea9c254e47617ab42648f8fb3
-command: google import --formulas_path Formulas
+digest: 93719dcf506884572085488f4b2b0b11fa22ae3dd78309172d9b2901189de9cc
+command: import google --formulas_path Formulas

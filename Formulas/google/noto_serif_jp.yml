@@ -1,13 +1,11 @@
 ---
-name: Noto Serif JP
 description: Noto Serif JP
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Serif_JP.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Serif%20JP
-    sha256: 0ac929dbdb912d66fec17a9b5f905a00ed58c2ea9a59b211fb5dc52b6ab1b8c1
-    file_size: 36754738
+    file_size: 36754804
 fonts:
 - name: Noto Serif JP
   styles:
@@ -98,6 +96,8 @@ extract: {}
 copyright: Copyright © 2017 Adobe Systems Incorporated (http://www.adobe.com/).
 license_url: http://scripts.sil.org/OFL
 open_license: |-
+  Copyright 2012 Google Inc. All Rights Reserved.
+
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
   http://scripts.sil.org/OFL
@@ -189,5 +189,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 26d968cb3f1575e7b4bdd9960d7fa6b6097419a9469dc3026d5a0c3586e13fbd
-command: google import --formulas_path Formulas
+digest: 744f744c36b46239d161e5ad7e8fdc38176d03422c80817533a40d4187e23edb
+command: import google --formulas_path Formulas

@@ -1,12 +1,11 @@
 ---
-name: Noto Serif Telugu
 description: Noto Serif Telugu
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Serif_Telugu.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Serif%20Telugu
-    file_size: 669953
+    file_size: 682913
 fonts:
 - name: Noto Serif Telugu
   styles:
@@ -25,7 +24,7 @@ fonts:
     version: '2.001'
     description: Designed by Monotype design team.
     copyright: Copyright 2019 Google LLC. All Rights Reserved.
-    font: NotoSerifTelugu-Regular.ttf
+    font: NotoSerifTelugu-VariableFont_wght.ttf
   - family_name: Noto Serif Telugu
     type: Regular
     full_name: Noto Serif Telugu Regular
@@ -33,7 +32,7 @@ fonts:
     version: '2.001'
     description: Designed by Monotype design team.
     copyright: Copyright 2019 Google LLC. All Rights Reserved.
-    font: NotoSerifTelugu-VariableFont_wght.ttf
+    font: NotoSerifTelugu-Regular.ttf
 - name: Noto Serif Telugu Black
   styles:
   - family_name: Noto Serif Telugu Black
@@ -215,5 +214,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 2c157061953bb5d629477cb6a09f16c8a7889e2f9e19851a0b9eea57d9bba9a5
-command: google import --formulas_path Formulas
+digest: 56815c7216e1caf54f6a634da42e4456a7183bcedb518e2c719d3f453321c33d
+command: import google --formulas_path Formulas

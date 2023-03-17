@@ -1,12 +1,11 @@
 ---
-name: Noto Serif Gujarati
 description: Noto Serif Gujarati
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Serif_Gujarati.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Serif%20Gujarati
-    file_size: 585901
+    file_size: 592365
 fonts:
 - name: Noto Serif Gujarati
   styles:
@@ -25,7 +24,7 @@ fonts:
     version: '2.002'
     description: Designed by Monotype design team.
     copyright: Copyright 2017 Google LLC. All Rights Reserved.
-    font: NotoSerifGujarati-VariableFont_wght.ttf
+    font: NotoSerifGujarati-Regular.ttf
   - family_name: Noto Serif Gujarati
     type: Regular
     full_name: Noto Serif Gujarati Regular
@@ -33,7 +32,7 @@ fonts:
     version: '2.002'
     description: Designed by Monotype design team.
     copyright: Copyright 2017 Google LLC. All Rights Reserved.
-    font: NotoSerifGujarati-Regular.ttf
+    font: NotoSerifGujarati-VariableFont_wght.ttf
 - name: Noto Serif Gujarati Black
   styles:
   - family_name: Noto Serif Gujarati Black
@@ -215,5 +214,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 1131c6c87d5f7242f901a0000f3a2ee5246b7a3e27166525a3e65dc24d233c54
-command: google import --formulas_path Formulas
+digest: bcc5bdb5800b814ebcd0dd76d1992d1c8cd036f573e21e2953a04e2c809083bb
+command: import google --formulas_path Formulas

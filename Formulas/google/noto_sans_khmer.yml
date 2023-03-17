@@ -1,12 +1,11 @@
 ---
-name: Noto Sans Khmer
 description: Noto Sans Khmer
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Khmer.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Khmer
-    file_size: 1083134
+    file_size: 1101874
 fonts:
 - name: Noto Sans Khmer
   styles:
@@ -25,7 +24,7 @@ fonts:
     version: '2.001'
     description: Designed by Monotype design team.
     copyright: Copyright 2016 Google Inc. All Rights Reserved.
-    font: NotoSansKhmer-Regular.ttf
+    font: NotoSansKhmer-VariableFont_wdth,wght.ttf
   - family_name: Noto Sans Khmer
     type: Regular
     full_name: Noto Sans Khmer Regular
@@ -33,7 +32,7 @@ fonts:
     version: '2.001'
     description: Designed by Monotype design team.
     copyright: Copyright 2016 Google Inc. All Rights Reserved.
-    font: NotoSansKhmer-VariableFont_wdth,wght.ttf
+    font: NotoSansKhmer-Regular.ttf
 - name: Noto Sans Khmer Black
   styles:
   - family_name: Noto Sans Khmer Black
@@ -533,5 +532,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 7f8a3f7a82d1a6a8b4731247cd985153f0a624bbe3d64b2daa54df792e5655f9
-command: google import --formulas_path Formulas
+digest: 920487af3684bb6d4d8d27f74a5e5eb8372ea49fb4c90e4b357f30d3dfb845d2
+command: import google --formulas_path Formulas

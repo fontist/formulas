@@ -1,13 +1,11 @@
 ---
-name: Noto Serif TC
 description: Noto Serif TC
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Serif_TC.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Serif%20TC
-    sha256: f0fb917ac7cdf5a6f3777297d03f1205753a8eb5b1860c7e4362b0a73babbc72
-    file_size: 34605538
+    file_size: 34601493
 fonts:
 - name: Noto Serif TC
   styles:
@@ -98,6 +96,8 @@ extract: {}
 copyright: Copyright © 2017 Adobe Systems Incorporated (http://www.adobe.com/).
 license_url: http://scripts.sil.org/OFL
 open_license: |-
+  Copyright 2012 Google Inc. All Rights Reserved.
+
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
   http://scripts.sil.org/OFL
@@ -189,5 +189,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e7999729ad29aca7f4ac1a2ee98c2864bafd43078aa9ada7e564105ea567d7fa
-command: google import --formulas_path Formulas
+digest: '08df6e614e1d1cc153af43f21db68a5c70de6366cb18d1010f18945491e75ef6'
+command: import google --formulas_path Formulas

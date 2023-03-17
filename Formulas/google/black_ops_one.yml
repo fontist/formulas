@@ -1,13 +1,12 @@
 ---
-name: BlackOpsOne
 description: Black Ops One
 homepage: www.sorkintype.com
 resources:
-  BlackOpsOne.zip:
+  Black_Ops_One.zip:
     urls:
     - https://fonts.google.com/download?family=Black%20Ops%20One
-    sha256: 053be83985c160144d252e1e33ebfe8bc9d04f35d80f64bda16a8c313ea30ecc
-    file_size: 33607
+    sha256: 797a4189f9fbcfcb98f434fd36bcf2747b5b8018f62f2ddbd35a40944674ab12
+    file_size: 33703
 fonts:
 - name: Black Ops One
   styles:
@@ -20,10 +19,10 @@ fonts:
       Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com)
       with Reserved Font Names "Black Ops" and "Black Ops One".
     font: BlackOpsOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com) with Reserved
-  Font Names "Black Ops" and "Black Ops One".
+extract: {}
+copyright: |-
+  Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com)
+  with Reserved Font Names "Black Ops" and "Black Ops One".
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
@@ -120,3 +119,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: b8d0070cf261a9c55be388f0bf114d5ebd2df68ec149713cc66514eeb4f37e71
+command: import google --formulas_path Formulas

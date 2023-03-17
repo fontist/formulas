@@ -1,13 +1,11 @@
 ---
-name: Noto Sans JP
 description: Noto Sans JP
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_JP.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20JP
-    sha256: 0c748c227bbb8294c5575f242796938fd6e41a689fdd5a2ce7ab411aa1b56094
-    file_size: 23437823
+    file_size: 23439995
 fonts:
 - name: Noto Sans JP
   styles:
@@ -85,6 +83,8 @@ extract: {}
 copyright: "© 2014-2020 Adobe (http://www.adobe.com/)."
 license_url: http://scripts.sil.org/OFL
 open_license: |-
+  Copyright 2012 Google Inc. All Rights Reserved.
+
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
   http://scripts.sil.org/OFL
@@ -176,5 +176,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b2490272966fc453417b28163011a73c891428e40456429eb345aaa29854ab38
-command: google import --formulas_path Formulas
+digest: d9c3e0d34cc43862f9195759bd864aa201fa4cd8cf124a6178a36720fbc5fb44
+command: import google --formulas_path Formulas

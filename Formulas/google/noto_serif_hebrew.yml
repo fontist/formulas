@@ -1,12 +1,11 @@
 ---
-name: Noto Serif Hebrew
 description: Noto Serif Hebrew
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Serif_Hebrew.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Serif%20Hebrew
-    file_size: 434099
+    file_size: 435241
 fonts:
 - name: Noto Serif Hebrew
   styles:
@@ -25,7 +24,7 @@ fonts:
     version: '2.000'
     description: Designed by Monotype design team.
     copyright: Copyright 2016 Google Inc. All Rights Reserved.
-    font: NotoSerifHebrew-Regular.ttf
+    font: NotoSerifHebrew-VariableFont_wdth,wght.ttf
   - family_name: Noto Serif Hebrew
     type: Regular
     full_name: Noto Serif Hebrew Regular
@@ -33,7 +32,7 @@ fonts:
     version: '2.000'
     description: Designed by Monotype design team.
     copyright: Copyright 2016 Google Inc. All Rights Reserved.
-    font: NotoSerifHebrew-VariableFont_wdth,wght.ttf
+    font: NotoSerifHebrew-Regular.ttf
 - name: Noto Serif Hebrew Black
   styles:
   - family_name: Noto Serif Hebrew Black
@@ -533,5 +532,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 5c7905378275c9720cac4f2e045d92a178a00e07ca095adcf4353c9fd0146e15
-command: google import --formulas_path Formulas
+digest: e3dbdce3d679b744b20a9a5c2480d7944c33542313d4186db9ddfb586290498e
+command: import google --formulas_path Formulas

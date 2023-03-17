@@ -6,15 +6,19 @@ on:
   workflow_dispatch:
 
 jobs:
+  prepare:
+    uses: metanorma/ci/.github/workflows/prepare-rake.yml@main
+
   import:
     runs-on: ubuntu-latest
+    needs: prepare
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.6
+          ruby-version: ${{ needs.prepare.outputs.default-ruby-version }}
           bundler-cache: true
 
       - name: Install otfinfo
@@ -23,7 +27,7 @@ jobs:
           sudo apt-get install lcdf-typetools
 
       - name: Cache Google repo
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: "~/.fontist/google/fonts"
           key: key2

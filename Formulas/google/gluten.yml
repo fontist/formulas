@@ -1,12 +1,11 @@
 ---
-name: Gluten
 description: Gluten
 homepage: https://www.etceteratype.co
 resources:
   Gluten.zip:
     urls:
     - https://fonts.google.com/download?family=Gluten
-    file_size: 561049
+    file_size: 561044
 fonts:
 - name: Gluten
   styles:
@@ -100,7 +99,7 @@ fonts:
     post_script_name: Gluten-Thin
     version: '1.204'
     copyright: Copyright 2020 The Gluten Project Authors (https://github.com/Etcetera-Type-Co/Gluten)
-    font: Gluten-Thin.ttf
+    font: Gluten-VariableFont_wght.ttf
   - family_name: Gluten Thin
     type: Regular
     preferred_family_name: Gluten
@@ -109,7 +108,7 @@ fonts:
     post_script_name: Gluten-Thin
     version: '1.204'
     copyright: Copyright 2020 The Gluten Project Authors (https://github.com/Etcetera-Type-Co/Gluten)
-    font: Gluten-VariableFont_wght.ttf
+    font: Gluten-Thin.ttf
 extract: {}
 copyright: Copyright 2020 The Gluten Project Authors (https://github.com/Etcetera-Type-Co/Gluten)
 license_url: https://scripts.sil.org/OFL
@@ -207,5 +206,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 4d8e373756eae969d25925aee4c7c100cf531a529d89426751addd7ea11f2fe1
-command: google import --formulas_path Formulas
+digest: c5a525826c7e78bb82e9758a759150477486eae5e97fb07fe82e4bd2d13729ae
+command: import google --formulas_path Formulas

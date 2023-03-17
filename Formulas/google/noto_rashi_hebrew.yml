@@ -1,12 +1,11 @@
 ---
-name: Noto Rashi Hebrew
 description: Noto Rashi Hebrew
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Rashi_Hebrew.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Rashi%20Hebrew
-    file_size: 108529
+    file_size: 108711
 fonts:
 - name: Noto Rashi Hebrew
   styles:
@@ -25,7 +24,7 @@ fonts:
     version: '1.001'
     description: Designed by Borys Kosmynka
     copyright: Copyright 2019 Google LLC. All Rights Reserved.
-    font: NotoRashiHebrew-Regular.ttf
+    font: NotoRashiHebrew-VariableFont_wght.ttf
   - family_name: Noto Rashi Hebrew
     type: Regular
     full_name: Noto Rashi Hebrew Regular
@@ -33,7 +32,7 @@ fonts:
     version: '1.001'
     description: Designed by Borys Kosmynka
     copyright: Copyright 2019 Google LLC. All Rights Reserved.
-    font: NotoRashiHebrew-VariableFont_wght.ttf
+    font: NotoRashiHebrew-Regular.ttf
 - name: Noto Rashi Hebrew Black
   styles:
   - family_name: Noto Rashi Hebrew Black
@@ -215,5 +214,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ea07476833e53fcfa1e00a6cc5dd2ed0827ee5599a85769c22c0d8ee261f3d94
-command: google import --formulas_path Formulas
+digest: f5cddd5f03a108df72021b3065ed3dd7f2f6f761b62773a4bacf7b99905f85ec
+command: import google --formulas_path Formulas

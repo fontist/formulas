@@ -1,12 +1,11 @@
 ---
-name: Noto Sans Balinese
 description: Noto Sans Balinese
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Balinese.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Balinese
-    file_size: 245088
+    file_size: 249134
 fonts:
 - name: Noto Sans Balinese
   styles:
@@ -23,14 +22,14 @@ fonts:
     post_script_name: NotoSansBalinese-Regular
     version: '2.001'
     copyright: Copyright 2020 Noto Sans Balinese Google
-    font: NotoSansBalinese-VariableFont_wght.ttf
+    font: NotoSansBalinese-Regular.ttf
   - family_name: Noto Sans Balinese
     type: Regular
     full_name: Noto Sans Balinese Regular
     post_script_name: NotoSansBalinese-Regular
     version: '2.001'
     copyright: Copyright 2020 Noto Sans Balinese Google
-    font: NotoSansBalinese-Regular.ttf
+    font: NotoSansBalinese-VariableFont_wght.ttf
 - name: Noto Sans Balinese Medium
   styles:
   - family_name: Noto Sans Balinese Medium
@@ -150,5 +149,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 0b36c1581cb054a7a6eb58219702916ce844dd0ab178c2c1f88629526aa39521
-command: google import --formulas_path Formulas
+digest: 37a84cfc016c05faeb9774d6e38a9a76adeaa416490433651dc8123bd68aac88
+command: import google --formulas_path Formulas

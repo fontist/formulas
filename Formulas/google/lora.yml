@@ -1,12 +1,11 @@
 ---
-name: Lora
 description: Lora
 homepage: http://cyreal.org
 resources:
   Lora.zip:
     urls:
     - https://fonts.google.com/download?family=Lora
-    file_size: 782684
+    file_size: 780424
 fonts:
 - name: Lora
   styles:
@@ -14,7 +13,7 @@ fonts:
     type: Bold
     full_name: Lora Bold
     post_script_name: Lora-Bold
-    version: '3.000'
+    version: '3.001'
     copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
       with Reserved Font Name "Lora".
     font: Lora-Bold.ttf
@@ -22,7 +21,7 @@ fonts:
     type: Bold Italic
     full_name: Lora Bold Italic
     post_script_name: Lora-BoldItalic
-    version: '3.000'
+    version: '3.001'
     copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
       with Reserved Font Name "Lora".
     font: Lora-BoldItalic.ttf
@@ -30,7 +29,7 @@ fonts:
     type: Italic
     full_name: Lora Italic
     post_script_name: Lora-Italic
-    version: '3.000'
+    version: '3.001'
     copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
       with Reserved Font Name "Lora".
     font: Lora-Italic.ttf
@@ -38,7 +37,7 @@ fonts:
     type: Italic
     full_name: Lora Italic
     post_script_name: Lora-Italic
-    version: '3.000'
+    version: '3.001'
     copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
       with Reserved Font Name "Lora".
     font: Lora-Italic-VariableFont_wght.ttf
@@ -46,18 +45,18 @@ fonts:
     type: Regular
     full_name: Lora Regular
     post_script_name: Lora-Regular
-    version: '3.000'
+    version: '3.001'
     copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
       with Reserved Font Name "Lora".
-    font: Lora-Regular.ttf
+    font: Lora-VariableFont_wght.ttf
   - family_name: Lora
     type: Regular
     full_name: Lora Regular
     post_script_name: Lora-Regular
-    version: '3.000'
+    version: '3.001'
     copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
       with Reserved Font Name "Lora".
-    font: Lora-VariableFont_wght.ttf
+    font: Lora-Regular.ttf
 - name: Lora Medium
   styles:
   - family_name: Lora Medium
@@ -66,7 +65,7 @@ fonts:
     preferred_type: Medium Italic
     full_name: Lora Medium Italic
     post_script_name: Lora-MediumItalic
-    version: '3.000'
+    version: '3.001'
     copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
       with Reserved Font Name "Lora".
     font: Lora-MediumItalic.ttf
@@ -76,7 +75,7 @@ fonts:
     preferred_type: Medium
     full_name: Lora Medium
     post_script_name: Lora-Medium
-    version: '3.000'
+    version: '3.001'
     copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
       with Reserved Font Name "Lora".
     font: Lora-Medium.ttf
@@ -88,7 +87,7 @@ fonts:
     preferred_type: SemiBold Italic
     full_name: Lora SemiBold Italic
     post_script_name: Lora-SemiBoldItalic
-    version: '3.000'
+    version: '3.001'
     copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
       with Reserved Font Name "Lora".
     font: Lora-SemiBoldItalic.ttf
@@ -98,7 +97,7 @@ fonts:
     preferred_type: SemiBold
     full_name: Lora SemiBold
     post_script_name: Lora-SemiBold
-    version: '3.000'
+    version: '3.001'
     copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
       with Reserved Font Name "Lora".
     font: Lora-SemiBold.ttf
@@ -200,5 +199,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: '040893e835b117792a601318fd5a1f0dd94792e8a217127fdf3a5b349c7b3c9e'
-command: google import --formulas_path Formulas
+digest: 0fb28c0b04942b03bc3dc7a5cedb40cd1410778405a8c7d132f965d406a8e11a
+command: import google --formulas_path Formulas

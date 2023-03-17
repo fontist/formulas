@@ -1,13 +1,11 @@
 ---
-name: Noto Sans Gujarati
 description: Noto Sans Gujarati
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Gujarati.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Gujarati
-    sha256: 6588aa643df5001dd60981b6752b8f04534327ece86fe3fc8b357d263e6a6f30
-    file_size: 772006
+    file_size: 768203
 fonts:
 - name: Noto Sans Gujarati
   styles:
@@ -217,5 +215,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 993bdfc9e20cdd7fb8ccfa733b6597254c7ec5c85b35705e3bef93151116e371
-command: google import --formulas_path Formulas
+digest: 2505c03052a2e0815bda7205b4e6d095d892b4c300ddf91fb45bb37955e7fc13
+command: import google --formulas_path Formulas

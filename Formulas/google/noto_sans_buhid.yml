@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Buhid
 description: Noto Sans Buhid
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Buhid.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Buhid
-    sha256: f672c1abef5fe87af9d7f3aad32bf134fdb7bd759add9bbb94ab812e4c7e5547
-    file_size: 8107
+    sha256: f02eaec8d1377a0f2fb2edabae89e5648d776f56432ac34bd0336beba62c5c93
+    file_size: 8112
 fonts:
 - name: Noto Sans Buhid
   styles:
@@ -117,5 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 4e2dcc39408c2d95ecb992113bbb034de24cd53a68c81681fb19f4fbe828bf5c
-command: google import --formulas_path Formulas
+digest: 101a4713befb98cf76713a83cec2ede4f69746dadde6588f2d4f96284a3a58e2
+command: import google --formulas_path Formulas

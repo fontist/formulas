@@ -1,12 +1,11 @@
 ---
-name: MuseoModerno
 description: MuseoModerno
 homepage: https://www.omnibus-type.com
 resources:
   MuseoModerno.zip:
     urls:
     - https://fonts.google.com/download?family=MuseoModerno
-    file_size: 493344
+    file_size: 492818
 fonts:
 - name: MuseoModerno
   styles:
@@ -14,14 +13,14 @@ fonts:
     type: Bold
     full_name: MuseoModerno Bold
     post_script_name: MuseoModerno-Bold
-    version: '1.001'
+    version: '1.002'
     copyright: Copyright 2020 The MuseoModerno Project Authors (https://github.com/Omnibus-Type/MuseoModerno)
     font: MuseoModerno-Bold.ttf
   - family_name: MuseoModerno
     type: Regular
     full_name: MuseoModerno Regular
     post_script_name: MuseoModerno-Regular
-    version: '1.001'
+    version: '1.002'
     copyright: Copyright 2020 The MuseoModerno Project Authors (https://github.com/Omnibus-Type/MuseoModerno)
     font: MuseoModerno-Regular.ttf
 - name: MuseoModerno Black
@@ -32,7 +31,7 @@ fonts:
     preferred_type: Black
     full_name: MuseoModerno Black
     post_script_name: MuseoModerno-Black
-    version: '1.001'
+    version: '1.002'
     copyright: Copyright 2020 The MuseoModerno Project Authors (https://github.com/Omnibus-Type/MuseoModerno)
     font: MuseoModerno-Black.ttf
 - name: MuseoModerno ExtraBold
@@ -43,7 +42,7 @@ fonts:
     preferred_type: ExtraBold
     full_name: MuseoModerno ExtraBold
     post_script_name: MuseoModerno-ExtraBold
-    version: '1.001'
+    version: '1.002'
     copyright: Copyright 2020 The MuseoModerno Project Authors (https://github.com/Omnibus-Type/MuseoModerno)
     font: MuseoModerno-ExtraBold.ttf
 - name: MuseoModerno ExtraLight
@@ -54,7 +53,7 @@ fonts:
     preferred_type: ExtraLight
     full_name: MuseoModerno ExtraLight
     post_script_name: MuseoModerno-ExtraLight
-    version: '1.001'
+    version: '1.002'
     copyright: Copyright 2020 The MuseoModerno Project Authors (https://github.com/Omnibus-Type/MuseoModerno)
     font: MuseoModerno-ExtraLight.ttf
 - name: MuseoModerno Light
@@ -65,7 +64,7 @@ fonts:
     preferred_type: Light
     full_name: MuseoModerno Light
     post_script_name: MuseoModerno-Light
-    version: '1.001'
+    version: '1.002'
     copyright: Copyright 2020 The MuseoModerno Project Authors (https://github.com/Omnibus-Type/MuseoModerno)
     font: MuseoModerno-Light.ttf
 - name: MuseoModerno Medium
@@ -76,7 +75,7 @@ fonts:
     preferred_type: Medium
     full_name: MuseoModerno Medium
     post_script_name: MuseoModerno-Medium
-    version: '1.001'
+    version: '1.002'
     copyright: Copyright 2020 The MuseoModerno Project Authors (https://github.com/Omnibus-Type/MuseoModerno)
     font: MuseoModerno-Medium.ttf
 - name: MuseoModerno SemiBold
@@ -87,18 +86,9 @@ fonts:
     preferred_type: SemiBold
     full_name: MuseoModerno SemiBold
     post_script_name: MuseoModerno-SemiBold
-    version: '1.001'
+    version: '1.002'
     copyright: Copyright 2020 The MuseoModerno Project Authors (https://github.com/Omnibus-Type/MuseoModerno)
     font: MuseoModerno-SemiBold.ttf
-  - family_name: MuseoModerno SemiBold
-    type: Regular
-    preferred_family_name: MuseoModerno
-    preferred_type: SemiBold
-    full_name: MuseoModerno SemiBold
-    post_script_name: MuseoModerno-SemiBold
-    version: '1.001'
-    copyright: Copyright 2020 The MuseoModerno Project Authors (https://github.com/Omnibus-Type/MuseoModerno)
-    font: MuseoModerno-VariableFont_wght.ttf
 - name: MuseoModerno Thin
   styles:
   - family_name: MuseoModerno Thin
@@ -107,7 +97,16 @@ fonts:
     preferred_type: Thin
     full_name: MuseoModerno Thin
     post_script_name: MuseoModerno-Thin
-    version: '1.001'
+    version: '1.002'
+    copyright: Copyright 2020 The MuseoModerno Project Authors (https://github.com/Omnibus-Type/MuseoModerno)
+    font: MuseoModerno-VariableFont_wght.ttf
+  - family_name: MuseoModerno Thin
+    type: Regular
+    preferred_family_name: MuseoModerno
+    preferred_type: Thin
+    full_name: MuseoModerno Thin
+    post_script_name: MuseoModerno-Thin
+    version: '1.002'
     copyright: Copyright 2020 The MuseoModerno Project Authors (https://github.com/Omnibus-Type/MuseoModerno)
     font: MuseoModerno-Thin.ttf
 extract: {}
@@ -207,5 +206,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: fff711ae0c5017197b6ccd9248e6d08b7909b2d336eb93185194801e1470043b
-command: google import --formulas_path Formulas
+digest: f8b07cc50f6cad882563fa1337ba9c5319fbef40d733101d8116935752a02dba
+command: import google --formulas_path Formulas
