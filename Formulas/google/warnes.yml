@@ -1,13 +1,12 @@
 ---
-name: Warnes
 description: Warnes
 homepage: www.tipo.net.ar
 resources:
   Warnes.zip:
     urls:
     - https://fonts.google.com/download?family=Warnes
-    sha256: aba9407fd94818752bec7fdd81020bec3d4afadaaaf0a39410fe1e13bb23d38a
-    file_size: 35526
+    sha256: 8dbeaa6fa42d85318f802f04a5c0bb65520e5937edee3e2fcbf0ce7221ef059c
+    file_size: 35617
 fonts:
 - name: Warnes
   styles:
@@ -23,10 +22,9 @@ fonts:
     copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
       Font Name 'Warnes'
     font: Warnes-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
-  with Reserved Font Name 'Warnes'
+extract: {}
+copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
+  Font Name 'Warnes'
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name 'Warnes'
@@ -122,3 +120,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: c3af856b423100d76cca9cebd266a64e00b0ec488fc9a47395eec3a4ed48090e
+command: import google --formulas_path Formulas

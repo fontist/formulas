@@ -1,21 +1,20 @@
 ---
-name: CantoraOne
 description: Cantora One
 homepage: www.impallari.com
 resources:
-  CantoraOne.zip:
+  Cantora_One.zip:
     urls:
     - https://fonts.google.com/download?family=Cantora%20One
-    sha256: e117ac04349b3b31d08dcc6cf9a31c61ceb508423bdf0f2193aa41e307af9ae9
-    file_size: 57745
+    sha256: '069d061f99cb0ff8e0a50f544f3c502a54d4de071f707f33c55eeda6bee8427c'
+    file_size: 57862
 fonts:
 - name: Cantora One
   styles:
-  - family_name: CantoraOne
+  - family_name: Cantora One
     type: Regular
-    full_name: CantoraOne
+    full_name: Cantora One Regular
     post_script_name: CantoraOne-Regular
-    version: 1.001; ttfautohint (v0.8) -G 200 -r 50
+    version: 1.002; ttfautohint (v0.8) -G 200 -r 50
     description: |-
       Cantora ('Singer' in Spanish) is a friendly semi formal, semi condensed, semi sans serif.
       It has reminiscences of hand lettering, mixing straight and bowed stems, and natural curves.
@@ -28,8 +27,7 @@ fonts:
       Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com) with Reserved
       Font Name Cantora.
     font: CantoraOne-Regular.ttf
-extract:
-  format: zip
+extract: {}
 copyright: Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com),
   Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com) with Reserved Font
   Name Cantora.
@@ -129,3 +127,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: c2dbd2361c625441f3f7d5474093ed0dd19d10338b43af4ef074c3e129d5713b
+command: import google --formulas_path Formulas

@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Buginese
 description: Noto Sans Buginese
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Buginese.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Buginese
-    sha256: 22033a9e9cee54a6856ab97c8be6963bfd782ebc0d8d956f663f60cad179e58d
-    file_size: 6271
+    sha256: 4d76fa446f1b2d901d9c671bb82797158e81457314439ef80ecad8fa3d36b943
+    file_size: 31250
 fonts:
 - name: Noto Sans Buginese
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Buginese Regular
     post_script_name: NotoSansBuginese-Regular
-    version: '2.000'
+    version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/buginese)
     font: NotoSansBuginese-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/buginese)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/buginese)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 377432f1cf9773bb524b4325433b6c93bb55e2a7689bdf0d963d1b90442b2903
-command: google import --formulas_path Formulas
+digest: 2e6eb241b119a31fafc91fb4c2be6b119ed298561e4fbd25071858d69f9303a7
+command: import google --formulas_path Formulas

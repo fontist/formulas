@@ -1,24 +1,15 @@
 ---
-name: Mate
 description: Mate
 homepage: http://www.tipo.net.ar
 resources:
   Mate.zip:
     urls:
     - https://fonts.google.com/download?family=Mate
-    sha256: dfd231b522bb96cfb6af3512911eb5c5ca4155adffcd4c987449e6b352b38c9d
-    file_size: 31407
+    sha256: cfb409864dadcf26bbc3b7361c40278ecaaac49c986b310dfeab6b27c5bf89aa
+    file_size: 31395
 fonts:
 - name: Mate
   styles:
-  - family_name: Mate
-    type: Regular
-    full_name: Mate-Regular
-    post_script_name: Mate-Regular
-    version: '1.002'
-    copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
-      Font Name "Mate"
-    font: Mate-Regular.ttf
   - family_name: Mate
     type: Italic
     full_name: Mate Italic
@@ -27,10 +18,17 @@ fonts:
     copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
       Font Name "Mate"
     font: Mate-Italic.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
-  with Reserved Font Name "Mate"
+  - family_name: Mate
+    type: Regular
+    full_name: Mate-Regular
+    post_script_name: Mate-Regular
+    version: '1.002'
+    copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
+      Font Name "Mate"
+    font: Mate-Regular.ttf
+extract: {}
+copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
+  Font Name "Mate"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar),
@@ -127,3 +125,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 5ac8221ec39672f9b9509973b26f395864a5b50655894959ac3346afb5304c6f
+command: import google --formulas_path Formulas

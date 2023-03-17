@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Pahawh Hmong
 description: Noto Sans Pahawh Hmong
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Pahawh_Hmong.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Pahawh%20Hmong
-    sha256: b141d4031bf8e237d19479efaa1beaa1431eb054a5865e307c1f88a325d756b3
-    file_size: 12631
+    sha256: 2689265a241d27db8b25b86046de01c01639de698e8bd126cb9e49e4db0053ff
+    file_size: 43317
 fonts:
 - name: Noto Sans Pahawh Hmong
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Pahawh Hmong Regular
     post_script_name: NotoSansPahawhHmong-Regular
-    version: '2.000'
+    version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/pahawh-hmong)
     font: NotoSansPahawhHmong-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/pahawh-hmong)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/pahawh-hmong)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e83530beb9e2b25b73832eb26b7091785605c5a1aee3fa7c5cc78222fb35528e
-command: google import --formulas_path Formulas
+digest: bdd4c95c387e80d20ae5774ac3699fcc96e038030f4c245b94337d21eeffe7d3
+command: import google --formulas_path Formulas

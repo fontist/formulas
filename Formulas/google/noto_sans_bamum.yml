@@ -1,12 +1,11 @@
 ---
-name: Noto Sans Bamum
 description: Noto Sans Bamum
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Bamum.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Bamum
-    file_size: 484645
+    file_size: 578290
 fonts:
 - name: Noto Sans Bamum
   styles:
@@ -14,25 +13,25 @@ fonts:
     type: Bold
     full_name: Noto Sans Bamum Bold
     post_script_name: NotoSansBamum-Bold
-    version: '2.000'
+    version: '2.002'
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bamum)
     font: NotoSansBamum-Bold.ttf
   - family_name: Noto Sans Bamum
     type: Regular
     full_name: Noto Sans Bamum Regular
     post_script_name: NotoSansBamum-Regular
-    version: '2.000'
+    version: '2.002'
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bamum)
     font: NotoSansBamum-VariableFont_wght.ttf
   - family_name: Noto Sans Bamum
     type: Regular
     full_name: Noto Sans Bamum Regular
     post_script_name: NotoSansBamum-Regular
-    version: '2.000'
+    version: '2.002'
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bamum)
     font: NotoSansBamum-Regular.ttf
 - name: Noto Sans Bamum Medium
   styles:
@@ -42,9 +41,9 @@ fonts:
     preferred_type: Medium
     full_name: Noto Sans Bamum Medium
     post_script_name: NotoSansBamum-Medium
-    version: '2.000'
+    version: '2.002'
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bamum)
     font: NotoSansBamum-Medium.ttf
 - name: Noto Sans Bamum SemiBold
   styles:
@@ -54,15 +53,15 @@ fonts:
     preferred_type: SemiBold
     full_name: Noto Sans Bamum SemiBold
     post_script_name: NotoSansBamum-SemiBold
-    version: '2.000'
+    version: '2.002'
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bamum)
     font: NotoSansBamum-SemiBold.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bamum)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bamum)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -155,5 +154,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 399303990d0f69ac7961af6f2509f22987cf71dfc4f3e795fd95bd26a57b1038
-command: google import --formulas_path Formulas
+digest: 8d96f650b2351dc0f606283f01f8f196079fa4538ac06445784dd9ac9cb7d71a
+command: import google --formulas_path Formulas

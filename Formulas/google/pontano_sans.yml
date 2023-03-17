@@ -1,13 +1,10 @@
 ---
-name: PontanoSans
 description: Pontano Sans
-homepage:
 resources:
-  PontanoSans.zip:
+  Pontano_Sans.zip:
     urls:
     - https://fonts.google.com/download?family=Pontano%20Sans
-    sha256: 44750de2748973e22154c698d160e7259bcffd7a231ddeee753f65c47bc6a539
-    file_size: 46180
+    file_size: 46012
 fonts:
 - name: Pontano Sans
   styles:
@@ -19,8 +16,7 @@ fonts:
     copyright: Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved
       Font Names "Potano"
     font: PontanoSans-Regular.ttf
-extract:
-  format: zip
+extract: {}
 copyright: Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved
   Font Names "Potano"
 license_url: http://scripts.sil.org/OFL
@@ -119,3 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: acc5c4e324b8b0b7538f89fdc92972857109d117a5b6c8fac63f9ae2a625c2ea
+command: import google --formulas_path Formulas

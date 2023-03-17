@@ -1,12 +1,11 @@
 ---
-name: Noto Sans Sundanese
 description: Noto Sans Sundanese
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Sundanese.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Sundanese
-    file_size: 42086
+    file_size: 133088
 fonts:
 - name: Noto Sans Sundanese
   styles:
@@ -14,26 +13,26 @@ fonts:
     type: Bold
     full_name: Noto Sans Sundanese Bold
     post_script_name: NotoSansSundanese-Bold
-    version: '2.001'
+    version: '2.003'
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sundanese)
     font: NotoSansSundanese-Bold.ttf
   - family_name: Noto Sans Sundanese
     type: Regular
     full_name: Noto Sans Sundanese Regular
     post_script_name: NotoSansSundanese-Regular
-    version: '2.001'
+    version: '2.003'
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google LLC. All Rights Reserved.
-    font: NotoSansSundanese-Regular.ttf
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sundanese)
+    font: NotoSansSundanese-VariableFont_wght.ttf
   - family_name: Noto Sans Sundanese
     type: Regular
     full_name: Noto Sans Sundanese Regular
     post_script_name: NotoSansSundanese-Regular
-    version: '2.001'
+    version: '2.003'
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google LLC. All Rights Reserved.
-    font: NotoSansSundanese-VariableFont_wght.ttf
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sundanese)
+    font: NotoSansSundanese-Regular.ttf
 - name: Noto Sans Sundanese Medium
   styles:
   - family_name: Noto Sans Sundanese Medium
@@ -42,9 +41,9 @@ fonts:
     preferred_type: Medium
     full_name: Noto Sans Sundanese Medium
     post_script_name: NotoSansSundanese-Medium
-    version: '2.001'
+    version: '2.003'
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sundanese)
     font: NotoSansSundanese-Medium.ttf
 - name: Noto Sans Sundanese SemiBold
   styles:
@@ -54,15 +53,15 @@ fonts:
     preferred_type: SemiBold
     full_name: Noto Sans Sundanese SemiBold
     post_script_name: NotoSansSundanese-SemiBold
-    version: '2.001'
+    version: '2.003'
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sundanese)
     font: NotoSansSundanese-SemiBold.ttf
 extract: {}
-copyright: Copyright 2017 Google LLC. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sundanese)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sundanese)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -155,5 +154,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: de03abdb764c8e8ff6a03ecd6902623af2a36592643bf4a41597d2c2eb6f2310
-command: google import --formulas_path Formulas
+digest: d1d66a8d5b4843ac2e02724692da44205e3f692ad68966b0395c606a048fbad0
+command: import google --formulas_path Formulas

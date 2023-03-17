@@ -1,13 +1,12 @@
 ---
-name: Alex Brush
 description: Alex Brush
 homepage: www.typesetit.com
 resources:
   Alex_Brush.zip:
     urls:
     - https://fonts.google.com/download?family=Alex%20Brush
-    sha256: 40ce2874aab770cc36c1cca6270a2ea80381c63bfbdd17e590c7a889cc22f585
-    file_size: 39056
+    sha256: 81191ec2001b5cc883562833182e663d2526e070f75c4f1623c6dd37f44d55e9
+    file_size: 65215
 fonts:
 - name: Alex Brush
   styles:
@@ -15,7 +14,7 @@ fonts:
     type: Regular
     full_name: Alex Brush Regular
     post_script_name: AlexBrush-Regular
-    version: '1.101'
+    version: 1.111; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2011 The Alex Brush Project Authors (https://github.com/googlefonts/alex-brush)
     font: AlexBrush-Regular.ttf
 extract: {}
@@ -115,5 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 8896b5e7144140311b0a1e0535a6ea89b2ea4083bc5d8a57694ff64b26367d2d
-command: google import --formulas_path Formulas
+digest: 1661ee0f6cbfcbe471ac5da2e4fb1492195b8a3327e9bf4192bd2a005e176d55
+command: import google --formulas_path Formulas

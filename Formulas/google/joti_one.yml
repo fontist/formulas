@@ -1,13 +1,12 @@
 ---
-name: JotiOne
 description: Joti One
 homepage: http://www.tipo.net.ar
 resources:
-  JotiOne.zip:
+  Joti_One.zip:
     urls:
     - https://fonts.google.com/download?family=Joti%20One
-    sha256: 0be6dc9e4a07464692444ede7b98db100cfd1ddcc5ebb5f021b62010a372abb1
-    file_size: 22544
+    sha256: d3a98b01f668bcdf4f27a94225a8aa8fbcc2dc90e0da36e4055b13d3b81e8b92
+    file_size: 22537
 fonts:
 - name: Joti One
   styles:
@@ -19,10 +18,9 @@ fonts:
     copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
       Font Name 'Joti'
     font: JotiOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
-  with Reserved Font Name 'Joti'
+extract: {}
+copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
+  Font Name 'Joti'
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name 'Joti'
@@ -118,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: c5228453b0831d6de4a6bb2a0e400274cb9eaecbe6bc99b101586ed77dbba9f7
+command: import google --formulas_path Formulas

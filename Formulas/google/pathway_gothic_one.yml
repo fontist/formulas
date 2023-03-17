@@ -1,13 +1,12 @@
 ---
-name: PathwayGothicOne
 description: Pathway Gothic One
 homepage: http://www.tipo.net.ar
 resources:
-  PathwayGothicOne.zip:
+  Pathway_Gothic_One.zip:
     urls:
     - https://fonts.google.com/download?family=Pathway%20Gothic%20One
-    sha256: 38cbc4ebfefdbe903cce367075468b4f49ce2356edd274a3050bd3764e4659d2
-    file_size: 15119
+    sha256: 5e4f2862b159d5b3b4f8b08b080a40df7b1a25064a61131becb7373f9ddb0f8b
+    file_size: 15123
 fonts:
 - name: Pathway Gothic One
   styles:
@@ -19,8 +18,7 @@ fonts:
     copyright: Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
       with Reserved Font Name 'Pathway'
     font: PathwayGothicOne-Regular.ttf
-extract:
-  format: zip
+extract: {}
 copyright: Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
   with Reserved Font Name 'Pathway'
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 9bd0284bea7dedcfc316bf80e548be5aecb23bf5cce1de2b612c29650cf20c90
+command: import google --formulas_path Formulas

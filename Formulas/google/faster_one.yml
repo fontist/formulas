@@ -1,13 +1,12 @@
 ---
-name: FasterOne
 description: Faster One
 homepage: http://www.tipo.net.ar
 resources:
-  FasterOne.zip:
+  Faster_One.zip:
     urls:
     - https://fonts.google.com/download?family=Faster%20One
-    sha256: 042bba0236c4d21a526f41b247366cd1b2a22fde81132f0d09bc13c596655589
-    file_size: 21759
+    sha256: de8886340632f7e077ff02c4a210f12d2d346963fe7573a0a153f66f5b8eae21
+    file_size: 21771
 fonts:
 - name: Faster One
   styles:
@@ -19,10 +18,9 @@ fonts:
     copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
       Font Name 'Faster'
     font: FasterOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
-  with Reserved Font Name 'Faster'
+extract: {}
+copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
+  Font Name 'Faster'
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name 'Faster'
@@ -118,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: e0dbaefcca4da040e517063652e350d8b9476c83a69053af55840bbaf424b01e
+command: import google --formulas_path Formulas

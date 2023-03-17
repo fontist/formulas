@@ -5,16 +5,23 @@ resources:
   BIZ_UDPMincho.zip:
     urls:
     - https://fonts.google.com/download?family=BIZ%20UDPMincho
-    sha256: 8d1c3e0b0291b9dcc27fae06381709b4569cead596bc2df934b64a7e6f9de0eb
-    file_size: 3824058
+    sha256: 98b99995d985f9c5d7662cba250d51d92d63787d43f31dd6f3bdc4862c9a9e8c
+    file_size: 8498568
 fonts:
 - name: BIZ UDPMincho
   styles:
   - family_name: BIZ UDPMincho
+    type: Bold
+    full_name: BIZ UDPMincho Bold
+    post_script_name: BIZUDPMincho-Bold
+    version: '1.06'
+    copyright: Copyright 2022 The BIZ UDMincho Project Authors (https://github.com/googlefonts/morisawa-biz-ud-mincho)
+    font: BIZUDPMincho-Bold.ttf
+  - family_name: BIZ UDPMincho
     type: Regular
     full_name: BIZ UDPMincho
     post_script_name: BIZUDPMincho-Regular
-    version: '1.002'
+    version: '1.06'
     copyright: Copyright 2022 The BIZ UDMincho Project Authors (https://github.com/googlefonts/morisawa-biz-ud-mincho)
     font: BIZUDPMincho-Regular.ttf
 extract: {}
@@ -114,5 +121,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ba36bc632a40fceade5817739bd103b32bc9f6ed5cc594fa91a3e946c2d95f85
+digest: ae849a97fb8d5844ed6ed336523d63f52e1738e241c938e3510038e67203a352
 command: import google --formulas_path Formulas

@@ -1,13 +1,12 @@
 ---
-name: Unlock
 description: Unlock
 homepage: http://www.tipo.net.ar
 resources:
   Unlock.zip:
     urls:
     - https://fonts.google.com/download?family=Unlock
-    sha256: 63c5c03a048145acc1ccae08ca6af626354c12f638ad4e39d3848bbc94d4d71d
-    file_size: 15724
+    sha256: c6204f1a1f15de552caa6a0d6a29b9f8e49adafc2e2647e007f812a9aa6598f6
+    file_size: 15711
 fonts:
 - name: Unlock
   styles:
@@ -19,10 +18,9 @@ fonts:
     copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
       Font Name "Unlock"
     font: Unlock-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
-  with Reserved Font Name "Unlock"
+extract: {}
+copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
+  Font Name "Unlock"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar),
@@ -119,3 +117,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 5f633a004181feb32d57c69a5ca48af6ffd164ccde44ea74c577cfbf6520b6f6
+command: import google --formulas_path Formulas

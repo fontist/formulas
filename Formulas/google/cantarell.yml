@@ -5,8 +5,8 @@ resources:
   Cantarell.zip:
     urls:
     - https://fonts.google.com/download?family=Cantarell
-    sha256: d175bdf784366b7a92519ecf6b6565258dc0df96282dd7f7c2540464a6d4c8c3
-    file_size: 107297
+    sha256: 43d2a1b1ce7d40443d85b76629b285b28e18c1260568ebcad244fcd38fa06e0e
+    file_size: 104428
 fonts:
 - name: Cantarell
   styles:
@@ -14,34 +14,35 @@ fonts:
     type: Bold
     full_name: Cantarell Bold
     post_script_name: Cantarell-Bold
-    version: '001.001'
-    copyright: Copyright (c) 2009 Dave Crossland <dave@lab6.com>
+    version: '1.004'
+    copyright: Copyright 2009 The Cantarell Project Authors (https://github.com/davelab6/cantarell)
     font: Cantarell-Bold.ttf
   - family_name: Cantarell
-    type: BoldOblique
-    full_name: Cantarell Bold Oblique
-    post_script_name: Cantarell-BoldOblique
-    version: '001.001'
-    copyright: Copyright (c) 2009 Dave Crossland <dave@lab6.com>
+    type: Bold Italic
+    full_name: Cantarell Bold Italic
+    post_script_name: Cantarell-BoldItalic
+    version: '1.004'
+    copyright: Copyright 2009 The Cantarell Project Authors (https://github.com/davelab6/cantarell)
     font: Cantarell-BoldItalic.ttf
   - family_name: Cantarell
-    type: Oblique
-    full_name: Cantarell Oblique
-    post_script_name: Cantarell-Oblique
-    version: '001.001'
-    copyright: Copyright (c) 2009 Dave Crossland <dave@lab6.com>
+    type: Italic
+    full_name: Cantarell Italic
+    post_script_name: Cantarell-Italic
+    version: '1.004'
+    copyright: Copyright 2009 The Cantarell Project Authors (https://github.com/davelab6/cantarell)
     font: Cantarell-Italic.ttf
   - family_name: Cantarell
     type: Regular
     full_name: Cantarell Regular
     post_script_name: Cantarell-Regular
-    version: '001.001'
-    copyright: Copyright (c) 2009 Dave Crossland <dave@lab6.com>
+    version: '1.004'
+    copyright: Copyright 2009 The Cantarell Project Authors (https://github.com/davelab6/cantarell)
     font: Cantarell-Regular.ttf
 extract: {}
-copyright: Copyright (c) 2009 Dave Crossland <dave@lab6.com>
+copyright: Copyright 2009 The Cantarell Project Authors (https://github.com/davelab6/cantarell)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2009-2010, Understanding Limited (dave@understandinglimited.com)
+  Copyright 2009 The Cantarell Project Authors (https://github.com/davelab6/cantarell)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -134,5 +135,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 34eae04eb5e5ee3211e935aa1d103d1d45478f1e9206822c3f6c33b9b524ece3
+digest: 77d6ea2f54bb94b73cae4eda8c51b47da637efd785f60aa5b4b491fb01dc89cb
 command: import google --formulas_path Formulas

@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Osage
 description: Noto Sans Osage
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Osage.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Osage
-    sha256: 2bd069808fecdd3502973a4045d228a305659da50cf05e97fc80c2d6002df089
-    file_size: 13798
+    sha256: 872cd5dfc3fbe18aac25f5fded661ba02a77b82939d5f32aa4cb29cc1db539c4
+    file_size: 34936
 fonts:
 - name: Noto Sans Osage
   styles:
@@ -15,16 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Osage Regular
     post_script_name: NotoSansOsage-Regular
-    version: 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D osge -f none -a
-      qsq -X ""
+    version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/osage)
     font: NotoSansOsage-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/osage)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/osage)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d8fdaeedebd5e63237f27039460a87da5c9b4f7ba82d51c2cc87d2d44de7a698
-command: google import --formulas_path Formulas
+digest: 9bc485ea0994ac0924cd406d7c11c55efef33193da64e84dee1b8fbeed25002a
+command: import google --formulas_path Formulas

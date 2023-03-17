@@ -1,13 +1,12 @@
 ---
-name: Lemon
 description: Lemon
 homepage: http://www.tipo.net.ar
 resources:
   Lemon.zip:
     urls:
     - https://fonts.google.com/download?family=Lemon
-    sha256: 2816324bb768d3efca4ea3bc4d312460cf3245776ee44b9fb0aef16da05094d6
-    file_size: 19207
+    sha256: 567fda20c8cbc164c534c4b9f1f4a0083e50ae261630dd39d4bed44b0fdd7dfb
+    file_size: 19209
 fonts:
 - name: Lemon
   styles:
@@ -19,10 +18,9 @@ fonts:
     copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
       Font Name "Lemon"
     font: Lemon-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
-  with Reserved Font Name "Lemon"
+extract: {}
+copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
+  Font Name "Lemon"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar),
@@ -119,3 +117,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 026bc710fee1dc40f8f9951905ad08e7dfe76229352ca5a95b4f4252ec65ca1e
+command: import google --formulas_path Formulas

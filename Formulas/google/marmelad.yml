@@ -1,13 +1,12 @@
 ---
-name: Marmelad
 description: Marmelad
 homepage: http://cyreal.org
 resources:
   Marmelad.zip:
     urls:
     - https://fonts.google.com/download?family=Marmelad
-    sha256: 63a745e45c15c079965ef2680da5f52c52d6e2312de9dc4d30505a959ba4d732
-    file_size: 56920
+    sha256: c80e230ec4bf1ffebb8f51455692a296ed86258306385959cac0b11ae7741b55
+    file_size: 65310
 fonts:
 - name: Marmelad
   styles:
@@ -15,17 +14,14 @@ fonts:
     type: Regular
     full_name: Marmelad Regular
     post_script_name: Marmelad-Regular
-    version: '1.100'
-    copyright: Copyright 2016 The Marmelad Project Authors (manveltype@gmail.com),
-      with Reserved Font Name "Marmelad".
+    version: 1.110; ttfautohint (v1.8.4.7-5d5b)
+    copyright: Copyright 2016 The Marmelad Project Authors (https://github.com/cyrealtype/Marmelad-Cyrillic)
     font: Marmelad-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2016 The Marmelad Project Authors (manveltype@gmail.com), with
-  Reserved Font Name "Marmelad".
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright 2016 The Marmelad Project Authors (https://github.com/cyrealtype/Marmelad-Cyrillic)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2016 The Marmelad Project Authors (manveltype@gmail.com), with Reserved Font Name "Marmelad".
+  Copyright 2016 The Marmelad Project Authors (https://github.com/cyrealtype/Marmelad-Cyrillic).
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -118,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: bdd30fe788750be064584582636f6e112d9966ea275311f332b9c840d1374f29
+command: import google --formulas_path Formulas

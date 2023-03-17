@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Multani
 description: Noto Sans Multani
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Multani.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Multani
-    sha256: 8bbb5e3fd5d738f2edf3a0026c5b60acf97062f361f40d1d9ac99e41b52d522a
-    file_size: 12521
+    sha256: 15c5be9bdf1799eaa0c710e4f0349dc0dc07fa97e5a395297a72ff0a92f29ef8
+    file_size: 35293
 fonts:
 - name: Noto Sans Multani
   styles:
@@ -15,16 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Multani Regular
     post_script_name: NotoSansMultani-Regular
-    version: 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a
-      qsq -X ""
+    version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2018 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/multani)
     font: NotoSansMultani-Regular.ttf
 extract: {}
-copyright: Copyright 2018 Google LLC. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/multani)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/multani)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ec8c40edf3c91bc769ab513854feb028099f52e6c03fe8d0a301516dc40cc9b2
-command: google import --formulas_path Formulas
+digest: f3e1dbbdf8efd90c54d80ed603ed145aba09ccd605c593bc4333f66800ba8965
+command: import google --formulas_path Formulas

@@ -5,7 +5,7 @@ resources:
   Readex_Pro.zip:
     urls:
     - https://fonts.google.com/download?family=Readex%20Pro
-    file_size: 411993
+    file_size: 468277
 fonts:
 - name: Readex Pro
   styles:
@@ -13,21 +13,21 @@ fonts:
     type: Bold
     full_name: Readex Pro Bold
     post_script_name: ReadexPro-Bold
-    version: '1.203'
+    version: '1.204'
     copyright: Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)
     font: ReadexPro-Bold.ttf
   - family_name: Readex Pro
     type: Regular
     full_name: Readex Pro Regular
     post_script_name: ReadexPro-Regular
-    version: '1.203'
+    version: '1.204'
     copyright: Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)
-    font: ReadexPro-VariableFont_wght.ttf
+    font: ReadexPro-VariableFont_HEXP,wght.ttf
   - family_name: Readex Pro
     type: Regular
     full_name: Readex Pro Regular
     post_script_name: ReadexPro-Regular
-    version: '1.203'
+    version: '1.204'
     copyright: Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)
     font: ReadexPro-Regular.ttf
 - name: Readex Pro ExtraLight
@@ -38,7 +38,7 @@ fonts:
     preferred_type: ExtraLight
     full_name: Readex Pro ExtraLight
     post_script_name: ReadexPro-ExtraLight
-    version: '1.203'
+    version: '1.204'
     copyright: Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)
     font: ReadexPro-ExtraLight.ttf
 - name: Readex Pro Light
@@ -49,7 +49,7 @@ fonts:
     preferred_type: Light
     full_name: Readex Pro Light
     post_script_name: ReadexPro-Light
-    version: '1.203'
+    version: '1.204'
     copyright: Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)
     font: ReadexPro-Light.ttf
 - name: Readex Pro Medium
@@ -60,7 +60,7 @@ fonts:
     preferred_type: Medium
     full_name: Readex Pro Medium
     post_script_name: ReadexPro-Medium
-    version: '1.203'
+    version: '1.204'
     copyright: Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)
     font: ReadexPro-Medium.ttf
 - name: Readex Pro SemiBold
@@ -71,7 +71,7 @@ fonts:
     preferred_type: SemiBold
     full_name: Readex Pro SemiBold
     post_script_name: ReadexPro-SemiBold
-    version: '1.203'
+    version: '1.204'
     copyright: Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)
     font: ReadexPro-SemiBold.ttf
 extract: {}
@@ -171,5 +171,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 5fdf1c8d42b6f50ad4e830c27844c60846852387114cd2dcadf6dc69f1080969
-command: google import --formulas_path Formulas
+digest: c824dd914d7052c33e8cf607fdc35d79a15c1ea0328b53938552ddcd101caf3c
+command: import google --formulas_path Formulas

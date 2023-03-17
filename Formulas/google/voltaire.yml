@@ -1,13 +1,12 @@
 ---
-name: Voltaire
 description: Voltaire
 homepage: www.sorkintype.com
 resources:
   Voltaire.zip:
     urls:
     - https://fonts.google.com/download?family=Voltaire
-    sha256: b158f4348eadaf51f03335c6641e16eb3b5684c937e682ac3b3cd280db6b0a66
-    file_size: 15866
+    sha256: 9b5798de34f35dcd3b6bbc56e500f51301eec7dce064d8875b331c743a9c15a3
+    file_size: 15862
 fonts:
 - name: Voltaire
   styles:
@@ -24,9 +23,9 @@ fonts:
       Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
       with Reserved Font Names "Voltaire" and "Voltaire One".
     font: Voltaire-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)
+extract: {}
+copyright: |-
+  Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
   with Reserved Font Names "Voltaire" and "Voltaire One".
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -124,3 +123,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 24c62951717ebf0f8dc74312e705b42afca153522a4c6d806f6364eb0b844655
+command: import google --formulas_path Formulas

@@ -1,13 +1,12 @@
 ---
-name: Orienta
 description: Orienta
 homepage: www.tipo.net.ar
 resources:
   Orienta.zip:
     urls:
     - https://fonts.google.com/download?family=Orienta
-    sha256: d7edbc419328dee8c28bbb4d09f1c44427ee3218a147d8602f42963571511211
-    file_size: 29398
+    sha256: a6c8428117037c52691956d68add0bb631bb8ba0c931755ddb969c1bcea00a42
+    file_size: 29639
 fonts:
 - name: Orienta
   styles:
@@ -21,10 +20,9 @@ fonts:
     copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
       Font Name 'Orienta'
     font: Orienta-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
-  with Reserved Font Name 'Orienta'
+extract: {}
+copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
+  Font Name 'Orienta'
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name 'Orienta'
@@ -120,3 +118,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 2fab60f34846bf2033f5d494de80b4cfe1a6c91e095621226732075d3212f900
+command: import google --formulas_path Formulas

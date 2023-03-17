@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Tai Viet
 description: Noto Sans Tai Viet
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Tai_Viet.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Tai%20Viet
-    sha256: 8975365e38609f38a72937b3f1c792f18a56f3a92180bbcb661cf8655643dc6a
-    file_size: 18445
+    sha256: 2cec6daf89809b0f37c7ab87cfb7364571c694b39d9008872405524f09cff85c
+    file_size: 39658
 fonts:
 - name: Noto Sans Tai Viet
   styles:
@@ -15,16 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Tai Viet Regular
     post_script_name: NotoSansTaiViet-Regular
-    version: 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D tavt -f none -a
-      qsq -X ""
+    version: 2.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tai-viet)
     font: NotoSansTaiViet-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tai-viet)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tai-viet)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: f0668bdecd6489d84ba7fdf99dab2bf9738af54ba148d4283cab9b9ed42811e5
-command: google import --formulas_path Formulas
+digest: b248e27b4f01127211f6d9e5e4833d623fa30ec8e165ae6a3955b06a7b7a1f45
+command: import google --formulas_path Formulas

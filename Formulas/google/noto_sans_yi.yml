@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Yi
 description: Noto Sans Yi
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Yi.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Yi
-    sha256: 4dd155ba0318c72c3df21b66f830fdf245413d459dfac120b207ac13bf604f00
-    file_size: 86767
+    sha256: eb79dc0b6c022c0583c74c583abc937b5d1bc48241aaffad998f56a549e5de15
+    file_size: 173349
 fonts:
 - name: Noto Sans Yi
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Yi Regular
     post_script_name: NotoSansYi-Regular
-    version: '2.000'
+    version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/yi)
     font: NotoSansYi-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/yi)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/yi)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: fd754f329fe9eff6cc0f823fbe93b112038526ad564dfab50c8acd3e927dc05f
-command: google import --formulas_path Formulas
+digest: '038795bd65dc77b6ffda30c4bb39be76bfa0ee3e1451adf99f6704649d0527b7'
+command: import google --formulas_path Formulas

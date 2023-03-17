@@ -1,13 +1,12 @@
 ---
-name: FjallaOne
 description: Fjalla One
 homepage: www.sorkintype.com
 resources:
-  FjallaOne.zip:
+  Fjalla_One.zip:
     urls:
     - https://fonts.google.com/download?family=Fjalla%20One
-    sha256: fdc06072a9dc05475d99df6006ed393d14b91602c163851d53ea444b3581678d
-    file_size: 24529
+    sha256: eb2dd5e804c0215efe7f159c353585e1f811a2936248b9c3fd18d382d1280463
+    file_size: 24641
 fonts:
 - name: Fjalla One
   styles:
@@ -15,7 +14,7 @@ fonts:
     type: Regular
     full_name: Fjalla One
     post_script_name: FjallaOne-Regular
-    version: 1.001; ttfautohint (v1.6)
+    version: '1.001'
     description: Fjalla is a medium contrast display sans serif. Fjalla has been carefully
       adjusted to the restrictions of the screen. Despite having display characteristics
       Fjalla can be used in a wide range of sizes.
@@ -23,10 +22,10 @@ fonts:
       Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com)
       with Reserved Font Name "Fjalla" and Fjalla "One"
     font: FjallaOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com eben@eyebytes.com),
-  with Reserved Font Name 'Fjalla'
+extract: {}
+copyright: |-
+  Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com)
+  with Reserved Font Name "Fjalla" and Fjalla "One"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012 by Sorkin Type Co (www.sorkintype.com), with Reserved Font Name 'Fjalla'
@@ -34,8 +33,8 @@ open_license: |-
   Fjalla is a trademark of Sorkin Type Co.
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
-
-  This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
+  This license is copied below, and is also available with a FAQ at:
+  http://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -61,7 +60,7 @@ open_license: |-
   DEFINITIONS
   "Font Software" refers to the set of files released by the Copyright
   Holder(s) under this license and clearly marked as such. This may
-  include Fjalla files, build scripts and documentation.
+  include source files, build scripts and documentation.
 
   "Reserved Font Name" refers to any names specified as such after the
   copyright statement(s).
@@ -124,3 +123,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 4e48ec59448a737f96abca909491d35229d03780339a12836a2cc70d710d347d
+command: import google --formulas_path Formulas

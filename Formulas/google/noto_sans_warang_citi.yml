@@ -1,30 +1,28 @@
 ---
-name: Noto Sans Warang Citi
 description: Noto Sans Warang Citi
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Warang_Citi.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Warang%20Citi
-    sha256: 712c48f28ca75ac9b9f2c51e66db50a0aa97b0da05fb2ed82ab23a7ffc75e724
-    file_size: 16005
+    sha256: 8451b9aabd0a943d334d2af787937361d1a8caa3aeb0c520bfecf2bde5372826
+    file_size: 47247
 fonts:
-- name: Noto Sans WarangCiti
+- name: Noto Sans Warang Citi
   styles:
-  - family_name: Noto Sans WarangCiti
+  - family_name: Noto Sans Warang Citi
     type: Regular
-    preferred_family_name: Noto Sans Warang Citi
     full_name: Noto Sans Warang Citi Regular
     post_script_name: NotoSansWarangCiti-Regular
-    version: '3.000'
+    version: 3.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Mangu Purty
-    copyright: Copyright 2020 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/warang-citi)
     font: NotoSansWarangCiti-Regular.ttf
 extract: {}
-copyright: Copyright 2020 Google LLC. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/warang-citi)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/warang-citi)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 05bfd095b88d2757297da54b5ab2c437d07ef7edbe1c829a972eca6cff732d77
-command: google import --formulas_path Formulas
+digest: 4702544f767caa29a5bab8fecc87b11615d5707cc2e306187d0cdace5a261516
+command: import google --formulas_path Formulas

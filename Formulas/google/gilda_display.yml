@@ -1,31 +1,29 @@
 ---
-name: GildaDisplay
 description: Gilda Display
 homepage: http://www.tipo.net.ar
 resources:
-  GildaDisplay.zip:
+  Gilda_Display.zip:
     urls:
     - https://fonts.google.com/download?family=Gilda%20Display
-    sha256: 35bd914b13b6e3371bb272a6af92f3aa35e1614bd5130500c6726f855e3d0de7
-    file_size: 20095
+    sha256: a56e06bbc2a485fa2ede22c8d18c1a5dcac02a9af2443c90d13081d47b6bc510
+    file_size: 37792
 fonts:
 - name: Gilda Display
   styles:
   - family_name: Gilda Display
     type: Regular
-    full_name: Gilda Display
+    full_name: Gilda Display Regular
     post_script_name: GildaDisplay-Regular
-    version: '1.001'
-    copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
-      Font Name 'Gilda'
+    version: 1.002; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.22]
+    copyright: Copyright 2012 The Gilda Display Project Authors (https://github.com/etunni/gilda-display)
+      with Reserved Font Name 'Gilda'.
     font: GildaDisplay-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
-  with Reserved Font Name 'Gilda'
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright 2012 The Gilda Display Project Authors (https://github.com/etunni/gilda-display)
+  with Reserved Font Name 'Gilda'.
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name 'Gilda'
+  Copyright 2012 The Gilda Display Project Authors (https://github.com/etunni/gilda-display) with Reserved Font Name 'Gilda'.
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -118,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 9abf240f7cb9d25c46006c31340da1661299087ef8f639a0c715f39854c2be3b
+command: import google --formulas_path Formulas

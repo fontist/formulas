@@ -1,13 +1,12 @@
 ---
-name: Noto Serif Grantha
 description: Noto Serif Grantha
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Serif_Grantha.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Serif%20Grantha
-    sha256: 586a472c431c1fcabbb8365b9075e5548cfba500d5f1cd01d3987a1aede0e489
-    file_size: 159388
+    sha256: 773f61416ace2f470039fb8954af3c51a4610c0824c51c0e7620a51b4582b8ad
+    file_size: 175005
 fonts:
 - name: Noto Serif Grantha
   styles:
@@ -15,16 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Serif Grantha Regular
     post_script_name: NotoSerifGrantha-Regular
-    version: 2.001; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a
-      qsq -X ""
+    version: 2.004; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2020 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/grantha)
     font: NotoSerifGrantha-Regular.ttf
 extract: {}
-copyright: Copyright 2020 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/grantha)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/grantha)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d3171664ef9797bac745ccc39f2358d654037267d3113ac3fdc9a7d1dbe2b45e
-command: google import --formulas_path Formulas
+digest: b9512a5893b42fb818f28c5c7c50e7402c057a42a1c460d95f4b07f0636910b5
+command: import google --formulas_path Formulas

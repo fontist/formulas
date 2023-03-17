@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Tai Le
 description: Noto Sans Tai Le
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Tai_Le.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Tai%20Le
-    sha256: 3f18f39968008399cef1542ecf7d9a7af17d9b2846ee1e25241b15eb18840260
-    file_size: 13451
+    sha256: 2879d0d29261398f30b47d61295ad7f5fec6f9219f71ba568b801777aebe434b
+    file_size: 34482
 fonts:
 - name: Noto Sans Tai Le
   styles:
@@ -15,16 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Tai Le Regular
     post_script_name: NotoSansTaiLe-Regular
-    version: 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a
-      qsq -X ""
+    version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tai-le)
     font: NotoSansTaiLe-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tai-le)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tai-le)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 1b1e6f11bdc412d1c1833ab57b91fe3c905a73826fc6759bd9e1d6d5c962e9d2
-command: google import --formulas_path Formulas
+digest: 0d00e0d2dd47e4bc4345504bc7431d681e0d17123b4d2bc5b172dd855b97c744
+command: import google --formulas_path Formulas

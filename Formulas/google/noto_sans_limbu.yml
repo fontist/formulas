@@ -5,8 +5,8 @@ resources:
   Noto_Sans_Limbu.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Limbu
-    sha256: e6e375b016f85fb8002d3075ce3d5a9d37e46b1262895d1c5be12c6cd6e99eea
-    file_size: 10417
+    sha256: 8f4e65fb3660ef5c4393f988571dd09a068fc128cf33b8ea482e4f4d0bde7c90
+    file_size: 36718
 fonts:
 - name: Noto Sans Limbu
   styles:
@@ -14,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Limbu Regular
     post_script_name: NotoSansLimbu-Regular
-    version: '2.000'
+    version: 2.004; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/limbu)
     font: NotoSansLimbu-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/limbu)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/limbu)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -115,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 5fbc2b3bdc3799bca2d59c4ff414f58b002c3437915717ea70a6ffae457d63e5
+digest: f69f84ee83c97205dda30b7a28f1ac22fe1dedc53573d171babe2de253277f5c
 command: import google --formulas_path Formulas

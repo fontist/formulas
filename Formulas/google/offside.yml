@@ -1,13 +1,12 @@
 ---
-name: Offside
 description: Offside
 homepage: http://www.tipo.net.ar
 resources:
   Offside.zip:
     urls:
     - https://fonts.google.com/download?family=Offside
-    sha256: 4491d4a722d34b3b8960cd95eab5ecd8189bf8f9e9766903c682526c0b33d875
-    file_size: 16942
+    sha256: eb5f9937e83566ff03c5d2f332ab914d1c6f8b0bcbb09a2a078ede52a398c639
+    file_size: 16936
 fonts:
 - name: Offside
   styles:
@@ -19,10 +18,9 @@ fonts:
     copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
       Font Name 'Offside'
     font: Offside-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
-  with Reserved Font Name 'Offside'
+extract: {}
+copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
+  Font Name 'Offside'
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name 'Offside'
@@ -118,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: fb02545fcf5d129b253b4ccf00d1937468b48421c620a9b02e44c14e0ee91d01
+command: import google --formulas_path Formulas

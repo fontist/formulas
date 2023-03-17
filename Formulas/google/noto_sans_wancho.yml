@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Wancho
 description: Noto Sans Wancho
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Wancho.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Wancho
-    sha256: 03cb49da01d0211121e38cafa70794f6a8eccf5a277b9c8bd2a31a4a267b8642
-    file_size: 12831
+    sha256: 7d2770d387391fe6cb6c86c374ff688a07217dea5e09248eaf3366894bbb3b6c
+    file_size: 37842
 fonts:
 - name: Noto Sans Wancho
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Wancho Regular
     post_script_name: NotoSansWancho-Regular
-    version: '2.000'
+    version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2019 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/wancho)
     font: NotoSansWancho-Regular.ttf
 extract: {}
-copyright: Copyright 2019 Google LLC. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/wancho)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/wancho)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 79a43bca09e77e90255b07e18ee76cc3c564b1865bb6d5678850486d132320c3
-command: google import --formulas_path Formulas
+digest: 8276a7611e2416eb9abe9f9b47507a9d22fb4a04a029c27daad7823c0ca7752d
+command: import google --formulas_path Formulas

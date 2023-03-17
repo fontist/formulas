@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Tifinagh
 description: Noto Sans Tifinagh
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Tifinagh.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Tifinagh
-    sha256: f633897ccd85e7824e963001e854f1b060b245a0a18d5fbfffad30ed2c9cc96f
-    file_size: 21923
+    sha256: dbfcea973f59f4169044026918d513f37b84149c98de3a45b9569d1411a5be0a
+    file_size: 45654
 fonts:
 - name: Noto Sans Tifinagh
   styles:
@@ -15,16 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Tifinagh Regular
     post_script_name: NotoSansTifinagh-Regular
-    version: 2.002; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D tfng -f none -a
-      qsq -X ""
+    version: 2.005; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Mark Jamra, Neil Patel.
-    copyright: Copyright 2019 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tifinagh)
     font: NotoSansTifinagh-Regular.ttf
 extract: {}
-copyright: Copyright 2019 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tifinagh)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tifinagh)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ae76b9950f9d3e5fa81d0c675176cafdbcea195b529e5849205f2eb5d533fae6
-command: google import --formulas_path Formulas
+digest: 99860f29f18d47ad16ef811ee76585406b18db5322e5362c5e3ae03030323d2a
+command: import google --formulas_path Formulas

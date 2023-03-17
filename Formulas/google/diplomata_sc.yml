@@ -1,13 +1,12 @@
 ---
-name: DiplomataSC
 description: Diplomata SC
 homepage: http://www.tipo.net.ar
 resources:
-  DiplomataSC.zip:
+  Diplomata_SC.zip:
     urls:
     - https://fonts.google.com/download?family=Diplomata%20SC
-    sha256: 2fc27f99c6643abeae1e230838cdd6e5bbc41cb2650d3f8623b7f82620146466
-    file_size: 22492
+    sha256: 0f546c3c39a55feba765866589e2950013319f85d84f4a2bee985197738d3239
+    file_size: 22470
 fonts:
 - name: Diplomata SC
   styles:
@@ -19,10 +18,9 @@ fonts:
     copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
       Font Name "Diplomata"
     font: DiplomataSC-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
-  with Reserved Font Name "Diplomata"
+extract: {}
+copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
+  Font Name "Diplomata"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar),
@@ -119,3 +117,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 22721a754a19c98424c994b8f15c76ae296648f041d00ec9aedf1daa24836196
+command: import google --formulas_path Formulas

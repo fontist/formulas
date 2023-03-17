@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Sharada
 description: Noto Sans Sharada
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Sharada.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Sharada
-    sha256: 1641795954e9f02b5dc740e859765c6b4a429049a2059c9e36f725031c9cd907
-    file_size: 27291
+    sha256: 6f40c83afebf11d4e287d924107f5f490b6b765d5c5b5ca42e48ccb8f8725a03
+    file_size: 66727
 fonts:
 - name: Noto Sans Sharada
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Sharada Regular
     post_script_name: NotoSansSharada-Regular
-    version: '2.002'
+    version: 2.006; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2018 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sharada)
     font: NotoSansSharada-Regular.ttf
 extract: {}
-copyright: Copyright 2018 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sharada)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sharada)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 8458470bbd963a7aedb15660c171a7bcf86f4bab65a32aa5048cea136e965e9d
-command: google import --formulas_path Formulas
+digest: 8a8f7d05cb13d4e0285827c700639144b8759049bc30cc588f83e05f259b280b
+command: import google --formulas_path Formulas

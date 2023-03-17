@@ -5,7 +5,7 @@ resources:
   Libre_Bodoni.zip:
     urls:
     - https://fonts.google.com/download?family=Libre%20Bodoni
-    file_size: 386336
+    file_size: 386322
 fonts:
 - name: Libre Bodoni
   styles:
@@ -35,7 +35,7 @@ fonts:
     description: Libre Bodoni is a webfont family optimized for body text. Based on
       1923 ATF Specimens.
     copyright: Copyright 2012 The Libre Bodoni Project Authors (https://github.com/googlefonts/Libre-Bodoni/)
-    font: LibreBodoni-Italic.ttf
+    font: LibreBodoni-Italic-VariableFont_wght.ttf
   - family_name: Libre Bodoni
     type: Italic
     full_name: Libre Bodoni Italic
@@ -44,16 +44,7 @@ fonts:
     description: Libre Bodoni is a webfont family optimized for body text. Based on
       1923 ATF Specimens.
     copyright: Copyright 2012 The Libre Bodoni Project Authors (https://github.com/googlefonts/Libre-Bodoni/)
-    font: LibreBodoni-Italic-VariableFont_wght.ttf
-  - family_name: Libre Bodoni
-    type: Regular
-    full_name: Libre Bodoni Regular
-    post_script_name: LibreBodoni-Regular
-    version: '2.003'
-    description: Libre Bodoni is a webfont family optimized for body text. Based on
-      1923 ATF Specimens.
-    copyright: Copyright 2012 The Libre Bodoni Project Authors (https://github.com/googlefonts/Libre-Bodoni/)
-    font: LibreBodoni-Regular.ttf
+    font: LibreBodoni-Italic.ttf
   - family_name: Libre Bodoni
     type: Regular
     full_name: Libre Bodoni Regular
@@ -63,6 +54,15 @@ fonts:
       1923 ATF Specimens.
     copyright: Copyright 2012 The Libre Bodoni Project Authors (https://github.com/googlefonts/Libre-Bodoni/)
     font: LibreBodoni-VariableFont_wght.ttf
+  - family_name: Libre Bodoni
+    type: Regular
+    full_name: Libre Bodoni Regular
+    post_script_name: LibreBodoni-Regular
+    version: '2.003'
+    description: Libre Bodoni is a webfont family optimized for body text. Based on
+      1923 ATF Specimens.
+    copyright: Copyright 2012 The Libre Bodoni Project Authors (https://github.com/googlefonts/Libre-Bodoni/)
+    font: LibreBodoni-Regular.ttf
 - name: Libre Bodoni Medium
   styles:
   - family_name: Libre Bodoni Medium
@@ -208,5 +208,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: dda21fb7dae6abf3c133777aca736cb8a79675c141fd15a170bca1276dc09ef2
+digest: 2f3eb76a490b5bc03c3224a840e344627d57efc2f8918b84dd3137e0908af230
 command: import google --formulas_path Formulas

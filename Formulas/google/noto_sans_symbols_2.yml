@@ -1,29 +1,28 @@
 ---
-name: Noto Sans Symbols 2
 description: Noto Sans Symbols 2
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Symbols_2.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Symbols%202
-    sha256: b07f848292ed44169c555eeb410fb717be35e21e1851885bb29d11c9c73b12ed
-    file_size: 300311
+    sha256: d5ae2400bae0076a0217d6a9c80d1c155086a0f88931cb999ac2e060f988d602
+    file_size: 529582
 fonts:
-- name: Noto Sans Symbols2
+- name: Noto Sans Symbols 2
   styles:
-  - family_name: Noto Sans Symbols2
+  - family_name: Noto Sans Symbols 2
     type: Regular
-    full_name: Noto Sans Symbols2 Regular
+    full_name: Noto Sans Symbols 2 Regular
     post_script_name: NotoSansSymbols2-Regular
-    version: '2.003'
+    version: 2.005; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/symbols)
     font: NotoSansSymbols2-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/symbols)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/symbols)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: f1bdfab51d01f44bc068de614608292e4e9c4a18ba0215eb4a998e01c21346fa
-command: google import --formulas_path Formulas
+digest: 5852a6f84a693452c5e337c544f7c6cc0f2bfb4593ada6f21faeb214339a02f9
+command: import google --formulas_path Formulas

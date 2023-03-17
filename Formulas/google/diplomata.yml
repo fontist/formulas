@@ -1,13 +1,12 @@
 ---
-name: Diplomata
 description: Diplomata
 homepage: http://www.tipo.net.ar
 resources:
   Diplomata.zip:
     urls:
     - https://fonts.google.com/download?family=Diplomata
-    sha256: 29a6d35fa92fc8f926b81990a6dc8915c4c4bbf7394cced33193afa77eb50726
-    file_size: 23225
+    sha256: 758df48690fb2f032d6909c7fc3beab4d692c180e25ee90a1ae30b878b14b1e4
+    file_size: 23273
 fonts:
 - name: Diplomata
   styles:
@@ -19,10 +18,9 @@ fonts:
     copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
       Font Name "Diplomata"
     font: Diplomata-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
-  with Reserved Font Name "Diplomata"
+extract: {}
+copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
+  Font Name "Diplomata"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar),
@@ -119,3 +117,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 241e80f8c6b759e5777fac7d3146f8977cc017c510c79579cd571c4cfccba6af
+command: import google --formulas_path Formulas

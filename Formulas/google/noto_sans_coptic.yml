@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Coptic
 description: Noto Sans Coptic
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Coptic.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Coptic
-    sha256: 43a7c0f37f2c37d2747165b9f4de34d69f5c188c7b2d614f15dccd9c0b2c5c12
-    file_size: 26448
+    sha256: 98770e4fdd51132b61eb35abbd207733a38d6173cf34574c751a1482366e4923
+    file_size: 49814
 fonts:
 - name: Noto Sans Coptic
   styles:
@@ -15,16 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Coptic Regular
     post_script_name: NotoSansCoptic-Regular
-    version: 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D copt -f none -a
-      qsq -X ""
+    version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/coptic)
     font: NotoSansCoptic-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/coptic)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/coptic)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: dabdf2b819a3ef0bc2b5d6cdf75e922788a895f90981de66777e06b1acec4d0a
-command: google import --formulas_path Formulas
+digest: c6ab6f2d9df83bedaf6b97a5d908d81a7eb3105f658b3880a58a07ac2e97cbdd
+command: import google --formulas_path Formulas

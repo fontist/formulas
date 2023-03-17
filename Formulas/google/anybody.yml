@@ -5,7 +5,7 @@ resources:
   Anybody.zip:
     urls:
     - https://fonts.google.com/download?family=Anybody
-    file_size: 5000207
+    file_size: 5020836
 fonts:
 - name: Anybody
   styles:
@@ -1407,15 +1407,6 @@ fonts:
   styles:
   - family_name: Anybody UltraCondensed Thin
     type: Italic
-    preferred_family_name: Anybody UltraCondensed
-    preferred_type: Thin Italic
-    full_name: Anybody UltraCondensed Thin Italic
-    post_script_name: AnybodyUltraCondensed-ThinItalic
-    version: '1.111'
-    copyright: Copyright 2020 The Anybody Project Authors (https://github.com/Etcetera-Type-Co/Anybody)
-    font: Anybody_UltraCondensed-ThinItalic.ttf
-  - family_name: Anybody UltraCondensed Thin
-    type: Italic
     preferred_family_name: Anybody
     preferred_type: UltraCondensed Thin Italic
     full_name: Anybody UltraCondensed Thin Italic
@@ -1424,14 +1415,14 @@ fonts:
     copyright: Copyright 2020 The Anybody Project Authors (https://github.com/Etcetera-Type-Co/Anybody)
     font: Anybody-Italic-VariableFont_wdth,wght.ttf
   - family_name: Anybody UltraCondensed Thin
-    type: Regular
+    type: Italic
     preferred_family_name: Anybody UltraCondensed
-    preferred_type: Thin
-    full_name: Anybody UltraCondensed Thin
-    post_script_name: AnybodyUltraCondensed-Thin
+    preferred_type: Thin Italic
+    full_name: Anybody UltraCondensed Thin Italic
+    post_script_name: AnybodyUltraCondensed-ThinItalic
     version: '1.111'
     copyright: Copyright 2020 The Anybody Project Authors (https://github.com/Etcetera-Type-Co/Anybody)
-    font: Anybody_UltraCondensed-Thin.ttf
+    font: Anybody_UltraCondensed-ThinItalic.ttf
   - family_name: Anybody UltraCondensed Thin
     type: Regular
     preferred_family_name: Anybody
@@ -1441,6 +1432,15 @@ fonts:
     version: '1.111'
     copyright: Copyright 2020 The Anybody Project Authors (https://github.com/Etcetera-Type-Co/Anybody)
     font: Anybody-VariableFont_wdth,wght.ttf
+  - family_name: Anybody UltraCondensed Thin
+    type: Regular
+    preferred_family_name: Anybody UltraCondensed
+    preferred_type: Thin
+    full_name: Anybody UltraCondensed Thin
+    post_script_name: AnybodyUltraCondensed-Thin
+    version: '1.111'
+    copyright: Copyright 2020 The Anybody Project Authors (https://github.com/Etcetera-Type-Co/Anybody)
+    font: Anybody_UltraCondensed-Thin.ttf
 extract: {}
 copyright: Copyright 2020 The Anybody Project Authors (https://github.com/Etcetera-Type-Co/Anybody)
 license_url: https://scripts.sil.org/OFL
@@ -1538,5 +1538,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 031d15a463bdb1059b9dc15a9c5cef597e87d797fe6827e90fac36c6703cc26e
+digest: 8fde56115ce63b2e81d8261a7e3d42bbd3353882a2051e60d46e4cef78ab74bb
 command: import google --formulas_path Formulas

@@ -1,13 +1,12 @@
 ---
-name: KiteOne
 description: Kite One
 homepage: http://www.tipo.net.ar
 resources:
-  KiteOne.zip:
+  Kite_One.zip:
     urls:
     - https://fonts.google.com/download?family=Kite%20One
-    sha256: 3982d63551390eb9bdfb22a441a5e35bf57d7e56a09e4e2da9582df5d296c7dc
-    file_size: 20217
+    sha256: 59b1f0dec3ee1a80bb7c3cddf5e614600913f81b04fd02111c9b953540238b1f
+    file_size: 20198
 fonts:
 - name: Kite One
   styles:
@@ -19,10 +18,9 @@ fonts:
     copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
       Font Name 'Kite'
     font: KiteOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
-  with Reserved Font Name 'Kite'
+extract: {}
+copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
+  Font Name 'Kite'
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name 'Kite'
@@ -118,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 8df17001abaf40a092cf058ddd3725e920b142130105ef8465f7ad4d103793c2
+command: import google --formulas_path Formulas

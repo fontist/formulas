@@ -1,13 +1,12 @@
 ---
-name: Trocchi
 description: Trocchi
 homepage: http://www.newtypography.co.uk
 resources:
   Trocchi.zip:
     urls:
     - https://fonts.google.com/download?family=Trocchi
-    sha256: 5fafdefcb67f355b47fa0b3278dd532f779eb3f2a6d7c73fdb277119b5a555be
-    file_size: 37337
+    sha256: 9298a3040c46ec40295e919210c3c9a8d51ff60270f12f50eaf7fbeccd182bcb
+    file_size: 37320
 fonts:
 - name: Trocchi
   styles:
@@ -18,8 +17,7 @@ fonts:
     version: '1.100'
     copyright: Copyright 2012 The Trocchi Project Authors (vern@newtypography.co.uk)
     font: Trocchi-Regular.ttf
-extract:
-  format: zip
+extract: {}
 copyright: Copyright 2012 The Trocchi Project Authors (vern@newtypography.co.uk)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 8be07756670e5eb867fd27f8215769bdfc8eb1d129a6e1d016d3eb70faa1e241
+command: import google --formulas_path Formulas

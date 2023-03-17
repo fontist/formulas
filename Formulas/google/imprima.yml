@@ -1,13 +1,11 @@
 ---
-name: Imprima
 description: Imprima
-homepage:
 resources:
   Imprima.zip:
     urls:
     - https://fonts.google.com/download?family=Imprima
-    sha256: e65b0c2bf10ef570546d8ef486414122aa5ea4c8e51c1eb9c077d8001737d475
-    file_size: 15635
+    sha256: a27d41e643fc518f0e82099639d5496bcd7623a32b93e5c976ea917ed45dacc2
+    file_size: 15615
 fonts:
 - name: Imprima
   styles:
@@ -19,10 +17,9 @@ fonts:
     copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
       Font Name "Imprima"
     font: Imprima-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
-  with Reserved Font Name "Imprima"
+extract: {}
+copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
+  Font Name "Imprima"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name "Imprima"
@@ -118,3 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 31ec8d9cb054fb4aa291c180fbaafebadf84270a0ed80d9ce5a5ce2ca0b4a62a
+command: import google --formulas_path Formulas

@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Rejang
 description: Noto Sans Rejang
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Rejang.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Rejang
-    sha256: a7f77303e96f5d5389a7cdc0ed9194d624a7566e372bc6f5c1d7a248f0982b40
-    file_size: 6341
+    sha256: 2a1646faf86a904a3cda8804edc926014c1cdd248d293d551f788061b53dbce3
+    file_size: 31238
 fonts:
 - name: Noto Sans Rejang
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Rejang Regular
     post_script_name: NotoSansRejang-Regular
-    version: '2.000'
+    version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/rejang)
     font: NotoSansRejang-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/rejang)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/rejang)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 34b298166c77dc5fb359c0dec3cde259b27eb504d2eff9f7d04cb5bf69d3b849
-command: google import --formulas_path Formulas
+digest: 24a8f523316fe1261773e5757fb0edb57133908dce54ab0dc1de864924ea6dd1
+command: import google --formulas_path Formulas

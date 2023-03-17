@@ -1,13 +1,12 @@
 ---
-name: Metrophobic
 description: Metrophobic
 homepage: http://www.sansoxygen.com
 resources:
   Metrophobic.zip:
     urls:
     - https://fonts.google.com/download?family=Metrophobic
-    sha256: 272c97fab17664618efe73e227296a3d5b5a719165021a9b4f197fe2a9c68a32
-    file_size: 46133
+    sha256: 7ce6ac8e365db5e91ce5b57508212eebffd982acf3889ea8517e48297f84125a
+    file_size: 46094
 fonts:
 - name: Metrophobic
   styles:
@@ -19,8 +18,7 @@ fonts:
     copyright: Copyright 2011 The Metrophobic Project Authors (https://github.com/googlefonts/MetrophobicFont),
       with Reserved Font Name 'Metrophobic'.
     font: Metrophobic-Regular.ttf
-extract:
-  format: zip
+extract: {}
 copyright: Copyright 2011 The Metrophobic Project Authors (https://github.com/googlefonts/MetrophobicFont),
   with Reserved Font Name 'Metrophobic'.
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: fb0bb8ff37924c13ddd87f83db1252341011a63da9ad522fb3490a52b07f31a1
+command: import google --formulas_path Formulas

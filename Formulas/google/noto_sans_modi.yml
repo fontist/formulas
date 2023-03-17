@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Modi
 description: Noto Sans Modi
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Modi.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Modi
-    sha256: 262100a44615e15cf8deef0caaa39e19a530a81b66b5b703bd6449b1dd625a29
-    file_size: 25804
+    sha256: 35bcab17e0aba75634f4fa87e716143215975137e68b9446fb7c42507fb71e0b
+    file_size: 60160
 fonts:
 - name: Noto Sans Modi
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Modi Regular
     post_script_name: NotoSansModi-Regular
-    version: '2.000'
+    version: 2.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2018 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/modi)
     font: NotoSansModi-Regular.ttf
 extract: {}
-copyright: Copyright 2018 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/modi)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/modi)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b2d19ce4f12133737a8fba8f902f33414b6445219f681e5763c99570aed29cd6
-command: google import --formulas_path Formulas
+digest: 45803e2b8366f54230000d8112a1a4224ed4a65de4908144b4dd5173c9ae41d0
+command: import google --formulas_path Formulas

@@ -1,30 +1,67 @@
 ---
-name: Noto Sans New Tai Lue
 description: Noto Sans New Tai Lue
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_New_Tai_Lue.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20New%20Tai%20Lue
-    sha256: 80a363f0637639c53f33bec556d2e865347ce47f5d9561e5e694b3ff00f84adc
-    file_size: 10830
+    file_size: 151677
 fonts:
-- name: Noto Sans NewTaiLue
+- name: Noto Sans New Tai Lue
   styles:
-  - family_name: Noto Sans NewTaiLue
+  - family_name: Noto Sans New Tai Lue
+    type: Bold
+    full_name: Noto Sans New Tai Lue Bold
+    post_script_name: NotoSansNewTaiLue-Bold
+    version: '2.003'
+    description: Designed by Monotype design team.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/new-tai-lue)
+    font: NotoSansNewTaiLue-Bold.ttf
+  - family_name: Noto Sans New Tai Lue
     type: Regular
-    preferred_family_name: Noto Sans New Tai Lue
     full_name: Noto Sans New Tai Lue Regular
     post_script_name: NotoSansNewTaiLue-Regular
-    version: '2.000'
+    version: '2.003'
     description: Designed by Monotype design team.
-    copyright: Copyright 2020 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/new-tai-lue)
+    font: NotoSansNewTaiLue-VariableFont_wght.ttf
+  - family_name: Noto Sans New Tai Lue
+    type: Regular
+    full_name: Noto Sans New Tai Lue Regular
+    post_script_name: NotoSansNewTaiLue-Regular
+    version: '2.003'
+    description: Designed by Monotype design team.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/new-tai-lue)
     font: NotoSansNewTaiLue-Regular.ttf
+- name: Noto Sans New Tai Lue Medium
+  styles:
+  - family_name: Noto Sans New Tai Lue Medium
+    type: Regular
+    preferred_family_name: Noto Sans New Tai Lue
+    preferred_type: Medium
+    full_name: Noto Sans New Tai Lue Medium
+    post_script_name: NotoSansNewTaiLue-Medium
+    version: '2.003'
+    description: Designed by Monotype design team.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/new-tai-lue)
+    font: NotoSansNewTaiLue-Medium.ttf
+- name: Noto Sans New Tai Lue SemiBold
+  styles:
+  - family_name: Noto Sans New Tai Lue SemiBold
+    type: Regular
+    preferred_family_name: Noto Sans New Tai Lue
+    preferred_type: SemiBold
+    full_name: Noto Sans New Tai Lue SemiBold
+    post_script_name: NotoSansNewTaiLue-SemiBold
+    version: '2.003'
+    description: Designed by Monotype design team.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/new-tai-lue)
+    font: NotoSansNewTaiLue-SemiBold.ttf
 extract: {}
-copyright: Copyright 2020 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/new-tai-lue)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/new-tai-lue)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +154,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: dbfda0f22131a1ebb99ac02f3fda73b9bcc1f2cfccb1ec3911fd77ff19c2c77c
-command: google import --formulas_path Formulas
+digest: 19292fa93109402fd397b6f76dd66dea3b678088752c2bd41fdc487db86fb5dd
+command: import google --formulas_path Formulas

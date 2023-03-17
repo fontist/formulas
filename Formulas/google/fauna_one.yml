@@ -1,13 +1,12 @@
 ---
-name: FaunaOne
 description: Fauna One
 homepage: http://www.tipo.net.ar
 resources:
-  FaunaOne.zip:
+  Fauna_One.zip:
     urls:
     - https://fonts.google.com/download?family=Fauna%20One
-    sha256: 1cbcb20da78ea04bc8bebbe650917b63e383733b483706dc4cff298e54ceb5ab
-    file_size: 17175
+    sha256: 187c20c80303bce97ff589dbc1ecf1ba9a4b01f90fc1ea907af9ab98c1162eee
+    file_size: 17180
 fonts:
 - name: Fauna One
   styles:
@@ -22,8 +21,7 @@ fonts:
     copyright: Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
       with Reserved Font Name 'Fauna'
     font: FaunaOne-Regular.ttf
-extract:
-  format: zip
+extract: {}
 copyright: Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
   with Reserved Font Name 'Fauna'
 license_url: http://scripts.sil.org/OFL
@@ -121,3 +119,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 80296203836ad26323cfd993a6c426ba9416db1291e2475c6e0a3559998db438
+command: import google --formulas_path Formulas

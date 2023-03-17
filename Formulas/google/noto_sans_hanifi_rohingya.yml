@@ -1,12 +1,11 @@
 ---
-name: Noto Sans Hanifi Rohingya
 description: Noto Sans Hanifi Rohingya
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Hanifi_Rohingya.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Hanifi%20Rohingya
-    file_size: 59914
+    file_size: 161817
 fonts:
 - name: Noto Sans Hanifi Rohingya
   styles:
@@ -14,17 +13,25 @@ fonts:
     type: Bold
     full_name: Noto Sans Hanifi Rohingya Bold
     post_script_name: NotoSansHanifiRohingya-Bold
-    version: '2.100'
+    version: '2.101'
     description: Designed by Monotype Design Team and DaltonMaag.
-    copyright: Copyright 2020 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hanifi-rohingya)
     font: NotoSansHanifiRohingya-Bold.ttf
   - family_name: Noto Sans Hanifi Rohingya
     type: Regular
     full_name: Noto Sans Hanifi Rohingya Regular
     post_script_name: NotoSansHanifiRohingya-Regular
-    version: '2.100'
+    version: '2.101'
     description: Designed by Monotype Design Team and DaltonMaag.
-    copyright: Copyright 2020 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hanifi-rohingya)
+    font: NotoSansHanifiRohingya-VariableFont_wght.ttf
+  - family_name: Noto Sans Hanifi Rohingya
+    type: Regular
+    full_name: Noto Sans Hanifi Rohingya Regular
+    post_script_name: NotoSansHanifiRohingya-Regular
+    version: '2.101'
+    description: Designed by Monotype Design Team and DaltonMaag.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hanifi-rohingya)
     font: NotoSansHanifiRohingya-Regular.ttf
 - name: Noto Sans Hanifi Rohingya Medium
   styles:
@@ -34,9 +41,9 @@ fonts:
     preferred_type: Medium
     full_name: Noto Sans Hanifi Rohingya Medium
     post_script_name: NotoSansHanifiRohingya-Medium
-    version: '2.100'
+    version: '2.101'
     description: Designed by Monotype Design Team and DaltonMaag.
-    copyright: Copyright 2020 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hanifi-rohingya)
     font: NotoSansHanifiRohingya-Medium.ttf
 - name: Noto Sans Hanifi Rohingya SemiBold
   styles:
@@ -46,25 +53,15 @@ fonts:
     preferred_type: SemiBold
     full_name: Noto Sans Hanifi Rohingya SemiBold
     post_script_name: NotoSansHanifiRohingya-SemiBold
-    version: '2.100'
+    version: '2.101'
     description: Designed by Monotype Design Team and DaltonMaag.
-    copyright: Copyright 2020 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hanifi-rohingya)
     font: NotoSansHanifiRohingya-SemiBold.ttf
-- name: Noto Sans HanifiRohg
-  styles:
-  - family_name: Noto Sans HanifiRohg
-    type: Regular
-    preferred_family_name: Noto Sans Hanifi Rohingya
-    full_name: Noto Sans Hanifi Rohingya Regular
-    post_script_name: NotoSansHanifiRohingya-Regular
-    version: '2.100'
-    description: Designed by Monotype Design Team and DaltonMaag.
-    copyright: Copyright 2020 Google LLC. All Rights Reserved.
-    font: NotoSansHanifiRohingya-VariableFont_wght.ttf
 extract: {}
-copyright: Copyright 2020 Google LLC. All Rights Reserved.
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hanifi-rohingya)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hanifi-rohingya)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -157,5 +154,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e38d7717fa58d158a666be054975806513b7415be403639b23f014b91c20b97e
-command: google import --formulas_path Formulas
+digest: 1ae28a456596f5de1295513d89ae3acf69efd85126de10da3b061f69d863b5d7
+command: import google --formulas_path Formulas
