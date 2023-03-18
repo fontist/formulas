@@ -1,0 +1,45 @@
+---
+description: Monoid
+resources:
+  Monoid.zip:
+    urls:
+    - https://cdn.jsdelivr.net/gh/larsenwork/monoid@2db2d289f4e61010dd3f44e09918d9bb32fb96fd/Monoid.zip
+    sha256: c28acd76ae1f0244f7c869bf1ba3272da3eb900dd50fbbd368265468a1a34794
+    file_size: 145031
+fonts:
+- name: Monoid
+  styles:
+  - family_name: Monoid
+    type: Bold
+    full_name: Monoid Bold
+    post_script_name: Monoid-Bold
+    version: '0.61'
+    copyright: Copyright (c) 2016, Andreas Larsen
+    font: Monoid-Bold.ttf
+  - family_name: Monoid
+    type: Italic
+    full_name: Monoid Italic
+    post_script_name: Monoid-Italic
+    version: '0.61'
+    copyright: Copyright (c) 2016, Andreas Larsen
+    font: Monoid-Italic.ttf
+  - family_name: Monoid
+    type: Regular
+    full_name: Monoid Regular
+    post_script_name: Monoid-Regular
+    version: '0.61'
+    copyright: Copyright (c) 2016, Andreas Larsen
+    font: Monoid-Regular.ttf
+  - family_name: Monoid
+    type: Retina
+    full_name: Monoid Retina
+    post_script_name: Monoid-Retina
+    version: '0.62'
+    copyright: Copyright (c) 2015, @larsenwork
+    font: Monoid-Retina.ttf
+extract:
+  format: zip
+copyright: Copyright (c) 2016, Andreas Larsen
+license_url: https://github.com/larsenwork/monoid#license
+command: create-formula https://github.com/larsenwork/monoid/raw/master/Monoisome/Monoisome-Regular.ttf
+open_license: Monoid is dual licensed with MIT and OFL licenses. Pick one:)
