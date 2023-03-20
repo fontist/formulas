@@ -19,10 +19,9 @@ jobs:
         id: files
         with:
           json: true
-          write_output_files: true
 
       - run: |
-          echo "${{ steps.files.outputs.added_files }}" > changed.json
+          echo "${{ steps.files.outputs.all_changed_files }}" > changed.json
         shell: bash
 
       - uses: ruby/setup-ruby@v1
