@@ -1,0 +1,28 @@
+name: Monoisome
+description: Monoid + Font Awesome = Monoisome. See the icons directly in your code.
+homepage: https://larsenwork.com/monoid/
+repository: https://github.com/larsenwork/monoid
+resources:
+  Monoisome.ttf:
+    urls:
+    - https://github.com/larsenwork/monoid/raw/0.61/Monoisome/Monoisome-Regular.ttf
+    sha256: 0aedac5663ea33f5a7d5c802408ff0ee16cf62b680f9e05980ccd2ba40040930
+    file_size: 254384
+fonts:
+- name: Monoisome
+  styles:
+  - family_name: Monoisome
+    type: Regular
+    full_name: Monoisome Regular
+    post_script_name: Monoisome-Regular
+    version: 0.1.1
+    copyright: Font-Awesome is Copyright (c) 2015, Dave Gandy
+    font: Monoisome-Regular.ttf
+extract: {}
+copyright: Font-Awesome is Copyright (c) 2015, Dave Gandy
+license_url:  https://github.com/larsenwork/monoid#sil-open-font-license
+open_license: |-
+  SIL OPEN FONT LICENSE
+  Copyright (c) 2015, Dave Gandy, Andreas Larsen and contributors.
+  This Font Software is licensed under the SIL Open Font License, Version 1.1.
+command: create-formula https://github.com/larsenwork/monoid/raw/0.61/Monoisome/Monoisome-Regular.ttf
