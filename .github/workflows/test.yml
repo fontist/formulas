@@ -32,7 +32,7 @@ jobs:
       - if: matrix.os == 'ubuntu-latest'
         run: bundle exec ruby test/test_formulas.rb --every-platform --platform linux
 
-      - if: matrix.os == 'macos-10.15'
+      - if: matrix.os == 'macos-latest'
         run: bundle exec ruby test/test_formulas.rb --platform macos
 
       - if: matrix.os == 'windows-latest'
