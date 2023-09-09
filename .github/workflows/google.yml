@@ -32,8 +32,11 @@ jobs:
           path: "~/.fontist/google/fonts"
           key: key2
 
+      - name: Setup fontist config
+        run: bundle exec fontist config set read_timeout 60
+
       - name: Import new fonts
-        run: bundle exec fontist import google --formulas_path Formulas
+        run: bundle exec fontist import google --formulas_path Formulas -n 50
 
       - uses: EndBug/add-and-commit@v7
         with:
