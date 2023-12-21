@@ -1,13 +1,12 @@
 ---
-name: Gabriela
 description: Gabriela
 homepage: http://www.tipo.net.ar
 resources:
   Gabriela.zip:
     urls:
     - https://fonts.google.com/download?family=Gabriela
-    sha256: 179337a4edf88953eb4a25757a1d01f02a1de602e09786a5971f25f81d151a4a
-    file_size: 46803
+    sha256: e82c838d7ce76084c9cf81b8bcfb70b38ab63d2476a7e3a3f401b99e2c0c4481
+    file_size: 37839
 fonts:
 - name: Gabriela
   styles:
@@ -15,17 +14,16 @@ fonts:
     type: Regular
     full_name: Gabriela Regular
     post_script_name: Gabriela-Regular
-    version: '2.000'
-    copyright: Copyright 2013 The Gabriela Project Authors (edu@tipo.net.ar), with
-      Reserved Font Name "Gabriela".
+    version: 2.001;gftools[0.9.26]
+    copyright: Copyright 2013 The Gabriela Project Authors (https://github.com/etunni/Gabriela),
+      with Reserved Font Name "Gabriela".
     font: Gabriela-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2013 The Gabriela Project Authors (edu@tipo.net.ar), with Reserved
-  Font Name "Gabriela".
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright 2013 The Gabriela Project Authors (https://github.com/etunni/Gabriela),
+  with Reserved Font Name "Gabriela".
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2013 The Gabriela Project Authors (edu@tipo.net.ar), with Reserved Font Name “Gabriela”.
+  Copyright 2013 The Gabriela Project Authors (https://github.com/etunni/Gabriela), with Reserved Font Name "Gabriela".
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -118,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 3393fa3646543fe78c7b838d40be0d1d5c9214e0b21be9fb7f244ba52553cde3
+command: import google --formulas_path Formulas -n 50

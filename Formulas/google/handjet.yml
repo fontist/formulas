@@ -1,29 +1,117 @@
 ---
-description: Faster One
-homepage: http://www.tipo.net.ar
+description: Handjet
+homepage: https://rosettatype.com
 resources:
-  Faster_One.zip:
+  Handjet.zip:
     urls:
-    - https://fonts.google.com/download?family=Faster%20One
-    sha256: b605eb61d4629af7b0cfa0ff1231553900951a42e172f86ab6238c5af531b14f
-    file_size: 44696
+    - https://fonts.google.com/download?family=Handjet
+    file_size: 499369
 fonts:
-- name: Faster One
+- name: Handjet
   styles:
-  - family_name: Faster One
+  - family_name: Handjet
+    type: Bold
+    full_name: Handjet Bold
+    post_script_name: Handjet-Bold
+    version: '2.003'
+    copyright: Copyright 2018 The Handjet Project Authors (https://github.com/rosettatype/Handjet/)
+    font: Handjet-Bold.ttf
+  - family_name: Handjet
     type: Regular
-    full_name: Faster One Regular
-    post_script_name: FasterOne-Regular
-    version: 1.003; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
-    copyright: Copyright 2012 The Faster Project Authors (https://github.com/etunni/faster),
-      with Reserved Font Name 'Faster'
-    font: FasterOne-Regular.ttf
+    full_name: Handjet Regular
+    post_script_name: Handjet-Regular
+    version: '2.003'
+    copyright: Copyright 2018 The Handjet Project Authors (https://github.com/rosettatype/Handjet/)
+    font: Handjet-VariableFont_ELGR,ELSH,wght.ttf
+  - family_name: Handjet
+    type: Regular
+    full_name: Handjet Regular
+    post_script_name: Handjet-Regular
+    version: '2.003'
+    copyright: Copyright 2018 The Handjet Project Authors (https://github.com/rosettatype/Handjet/)
+    font: Handjet-Regular.ttf
+- name: Handjet Black
+  styles:
+  - family_name: Handjet Black
+    type: Regular
+    preferred_family_name: Handjet
+    preferred_type: Black
+    full_name: Handjet Black
+    post_script_name: Handjet-Black
+    version: '2.003'
+    copyright: Copyright 2018 The Handjet Project Authors (https://github.com/rosettatype/Handjet/)
+    font: Handjet-Black.ttf
+- name: Handjet ExtraBold
+  styles:
+  - family_name: Handjet ExtraBold
+    type: Regular
+    preferred_family_name: Handjet
+    preferred_type: ExtraBold
+    full_name: Handjet ExtraBold
+    post_script_name: Handjet-ExtraBold
+    version: '2.003'
+    copyright: Copyright 2018 The Handjet Project Authors (https://github.com/rosettatype/Handjet/)
+    font: Handjet-ExtraBold.ttf
+- name: Handjet ExtraLight
+  styles:
+  - family_name: Handjet ExtraLight
+    type: Regular
+    preferred_family_name: Handjet
+    preferred_type: ExtraLight
+    full_name: Handjet ExtraLight
+    post_script_name: Handjet-ExtraLight
+    version: '2.003'
+    copyright: Copyright 2018 The Handjet Project Authors (https://github.com/rosettatype/Handjet/)
+    font: Handjet-ExtraLight.ttf
+- name: Handjet Light
+  styles:
+  - family_name: Handjet Light
+    type: Regular
+    preferred_family_name: Handjet
+    preferred_type: Light
+    full_name: Handjet Light
+    post_script_name: Handjet-Light
+    version: '2.003'
+    copyright: Copyright 2018 The Handjet Project Authors (https://github.com/rosettatype/Handjet/)
+    font: Handjet-Light.ttf
+- name: Handjet Medium
+  styles:
+  - family_name: Handjet Medium
+    type: Regular
+    preferred_family_name: Handjet
+    preferred_type: Medium
+    full_name: Handjet Medium
+    post_script_name: Handjet-Medium
+    version: '2.003'
+    copyright: Copyright 2018 The Handjet Project Authors (https://github.com/rosettatype/Handjet/)
+    font: Handjet-Medium.ttf
+- name: Handjet SemiBold
+  styles:
+  - family_name: Handjet SemiBold
+    type: Regular
+    preferred_family_name: Handjet
+    preferred_type: SemiBold
+    full_name: Handjet SemiBold
+    post_script_name: Handjet-SemiBold
+    version: '2.003'
+    copyright: Copyright 2018 The Handjet Project Authors (https://github.com/rosettatype/Handjet/)
+    font: Handjet-SemiBold.ttf
+- name: Handjet Thin
+  styles:
+  - family_name: Handjet Thin
+    type: Regular
+    preferred_family_name: Handjet
+    preferred_type: Thin
+    full_name: Handjet Thin
+    post_script_name: Handjet-Thin
+    version: '2.003'
+    copyright: Copyright 2018 The Handjet Project Authors (https://github.com/rosettatype/Handjet/)
+    font: Handjet-Thin.ttf
 extract: {}
-copyright: Copyright 2012 The Faster Project Authors (https://github.com/etunni/faster),
-  with Reserved Font Name 'Faster'
+copyright: Copyright 2018 The Handjet Project Authors (https://github.com/rosettatype/Handjet/)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 The Faster Project Authors (https://github.com/etunni/faster), with Reserved Font Name 'Faster'
+  Copyright 2018 The Handjet Project Authors (https://github.com/rosettatype/Handjet/)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +204,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e0dbaefcca4da040e517063652e350d8b9476c83a69053af55840bbaf424b01e
+digest: 023e64b5731fb5802f2b2db5fd903387901817560686be7ca506add87af36a35
 command: import google --formulas_path Formulas -n 50

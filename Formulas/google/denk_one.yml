@@ -1,41 +1,33 @@
 ---
-name: DenkOne
 description: Denk One
-homepage: www.sorkintype.com
+homepage: http://sorkintype.com/
 resources:
-  DenkOne.zip:
+  Denk_One.zip:
     urls:
     - https://fonts.google.com/download?family=Denk%20One
-    sha256: f3b42bcb1e7a5724f5bf2985ee94496a830dcea7fe8336553bb00a674ea5bd7a
-    file_size: 26170
+    sha256: 213fee8a989fb465ed3203e62a0c8c87eea7a34274570e7dc8e4306a74609fe7
+    file_size: 145527
 fonts:
 - name: Denk One
   styles:
   - family_name: Denk One
     type: Regular
-    full_name: Denk One
+    full_name: Denk One Regular
     post_script_name: DenkOne-Regular
-    version: '1.002'
-    description: Denk is a medium contrast display sans serif. It was inspired by
-      a hand painted German sign. Inder has been carefully adjusted to the restrictions
-      of the screen. Despite having display characteristics Denk can be used in a
-      wide range of sizes.
-    copyright: Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com) with Reserved
-      Font Name 'Denk'
+    version: 1.004; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
+    copyright: Copyright 2012 The Denk One Project Authors (https://github.com/SorkinType/Voltaire)
+      with Reserved Font Name 'Denk'.
     font: DenkOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)
-  with Reserved Font Name 'Denk'
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright 2012 The Denk One Project Authors (https://github.com/SorkinType/Voltaire)
+  with Reserved Font Name 'Denk'.
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2012 by Sorkin Type Co (www.sorkintype.com), with Reserved Font Name 'Denk'
-
-  Denk is a trademark of Sorkin Type Co.
+  Copyright 2012 The Denk One Project Authors (https://github.com/SorkinType/Voltaire) with Reserved Font Name 'Denk'.
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
-
-  This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
+  This license is copied below, and is also available with a FAQ at:
+  http://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -61,7 +53,7 @@ open_license: |-
   DEFINITIONS
   "Font Software" refers to the set of files released by the Copyright
   Holder(s) under this license and clearly marked as such. This may
-  include Fjalla files, build scripts and documentation.
+  include source files, build scripts and documentation.
 
   "Reserved Font Name" refers to any names specified as such after the
   copyright statement(s).
@@ -124,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 324984444a7e4345fcd9f03c36ca7216b4698e46f03cc12bb6a2d07aba80dc37
+command: import google --formulas_path Formulas -n 50

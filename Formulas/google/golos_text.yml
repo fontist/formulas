@@ -1,29 +1,84 @@
 ---
-description: Faster One
-homepage: http://www.tipo.net.ar
+description: Golos Text
+homepage: https://www.paratype.com
 resources:
-  Faster_One.zip:
+  Golos_Text.zip:
     urls:
-    - https://fonts.google.com/download?family=Faster%20One
-    sha256: b605eb61d4629af7b0cfa0ff1231553900951a42e172f86ab6238c5af531b14f
-    file_size: 44696
+    - https://fonts.google.com/download?family=Golos%20Text
+    file_size: 302889
 fonts:
-- name: Faster One
+- name: Golos Text
   styles:
-  - family_name: Faster One
+  - family_name: Golos Text
+    type: Bold
+    full_name: Golos Text Bold
+    post_script_name: GolosText-Bold
+    version: '2.004'
+    copyright: Copyright 2019 The Golos Text Project Authors (https://github.com/googlefonts/golos-text)
+    font: GolosText-Bold.ttf
+  - family_name: Golos Text
     type: Regular
-    full_name: Faster One Regular
-    post_script_name: FasterOne-Regular
-    version: 1.003; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
-    copyright: Copyright 2012 The Faster Project Authors (https://github.com/etunni/faster),
-      with Reserved Font Name 'Faster'
-    font: FasterOne-Regular.ttf
+    full_name: Golos Text Regular
+    post_script_name: GolosText-Regular
+    version: '2.004'
+    copyright: Copyright 2019 The Golos Text Project Authors (https://github.com/googlefonts/golos-text)
+    font: GolosText-VariableFont_wght.ttf
+  - family_name: Golos Text
+    type: Regular
+    full_name: Golos Text Regular
+    post_script_name: GolosText-Regular
+    version: '2.004'
+    copyright: Copyright 2019 The Golos Text Project Authors (https://github.com/googlefonts/golos-text)
+    font: GolosText-Regular.ttf
+- name: Golos Text Black
+  styles:
+  - family_name: Golos Text Black
+    type: Regular
+    preferred_family_name: Golos Text
+    preferred_type: Black
+    full_name: Golos Text Black
+    post_script_name: GolosText-Black
+    version: '2.004'
+    copyright: Copyright 2019 The Golos Text Project Authors (https://github.com/googlefonts/golos-text)
+    font: GolosText-Black.ttf
+- name: Golos Text ExtraBold
+  styles:
+  - family_name: Golos Text ExtraBold
+    type: Regular
+    preferred_family_name: Golos Text
+    preferred_type: ExtraBold
+    full_name: Golos Text ExtraBold
+    post_script_name: GolosText-ExtraBold
+    version: '2.004'
+    copyright: Copyright 2019 The Golos Text Project Authors (https://github.com/googlefonts/golos-text)
+    font: GolosText-ExtraBold.ttf
+- name: Golos Text Medium
+  styles:
+  - family_name: Golos Text Medium
+    type: Regular
+    preferred_family_name: Golos Text
+    preferred_type: Medium
+    full_name: Golos Text Medium
+    post_script_name: GolosText-Medium
+    version: '2.004'
+    copyright: Copyright 2019 The Golos Text Project Authors (https://github.com/googlefonts/golos-text)
+    font: GolosText-Medium.ttf
+- name: Golos Text SemiBold
+  styles:
+  - family_name: Golos Text SemiBold
+    type: Regular
+    preferred_family_name: Golos Text
+    preferred_type: SemiBold
+    full_name: Golos Text SemiBold
+    post_script_name: GolosText-SemiBold
+    version: '2.004'
+    copyright: Copyright 2019 The Golos Text Project Authors (https://github.com/googlefonts/golos-text)
+    font: GolosText-SemiBold.ttf
 extract: {}
-copyright: Copyright 2012 The Faster Project Authors (https://github.com/etunni/faster),
-  with Reserved Font Name 'Faster'
+copyright: Copyright 2019 The Golos Text Project Authors (https://github.com/googlefonts/golos-text)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 The Faster Project Authors (https://github.com/etunni/faster), with Reserved Font Name 'Faster'
+  Copyright 2019 The Golos Text Project Authors (https://github.com/googlefonts/golos-text)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +171,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e0dbaefcca4da040e517063652e350d8b9476c83a69053af55840bbaf424b01e
+digest: 808456489321168b353687823261c53f9873cd3839bada059a377b04cae102ac
 command: import google --formulas_path Formulas -n 50

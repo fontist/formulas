@@ -1,29 +1,84 @@
 ---
-description: Faster One
-homepage: http://www.tipo.net.ar
+description: Gabarito
+homepage: http://www.naipe.xyz/
 resources:
-  Faster_One.zip:
+  Gabarito.zip:
     urls:
-    - https://fonts.google.com/download?family=Faster%20One
-    sha256: b605eb61d4629af7b0cfa0ff1231553900951a42e172f86ab6238c5af531b14f
-    file_size: 44696
+    - https://fonts.google.com/download?family=Gabarito
+    file_size: 366922
 fonts:
-- name: Faster One
+- name: Gabarito
   styles:
-  - family_name: Faster One
+  - family_name: Gabarito
+    type: Bold
+    full_name: Gabarito Bold
+    post_script_name: Gabarito-Bold
+    version: '1.000'
+    copyright: Copyright 2023 The Gabarito Project Authors (https://github.com/naipefoundry/gabarito)
+    font: Gabarito-Bold.ttf
+  - family_name: Gabarito
     type: Regular
-    full_name: Faster One Regular
-    post_script_name: FasterOne-Regular
-    version: 1.003; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
-    copyright: Copyright 2012 The Faster Project Authors (https://github.com/etunni/faster),
-      with Reserved Font Name 'Faster'
-    font: FasterOne-Regular.ttf
+    full_name: Gabarito Regular
+    post_script_name: Gabarito-Regular
+    version: '1.000'
+    copyright: Copyright 2023 The Gabarito Project Authors (https://github.com/naipefoundry/gabarito)
+    font: Gabarito-VariableFont_wght.ttf
+  - family_name: Gabarito
+    type: Regular
+    full_name: Gabarito Regular
+    post_script_name: Gabarito-Regular
+    version: '1.000'
+    copyright: Copyright 2023 The Gabarito Project Authors (https://github.com/naipefoundry/gabarito)
+    font: Gabarito-Regular.ttf
+- name: Gabarito Black
+  styles:
+  - family_name: Gabarito Black
+    type: Regular
+    preferred_family_name: Gabarito
+    preferred_type: Black
+    full_name: Gabarito Black
+    post_script_name: Gabarito-Black
+    version: '1.000'
+    copyright: Copyright 2023 The Gabarito Project Authors (https://github.com/naipefoundry/gabarito)
+    font: Gabarito-Black.ttf
+- name: Gabarito ExtraBold
+  styles:
+  - family_name: Gabarito ExtraBold
+    type: Regular
+    preferred_family_name: Gabarito
+    preferred_type: ExtraBold
+    full_name: Gabarito ExtraBold
+    post_script_name: Gabarito-ExtraBold
+    version: '1.000'
+    copyright: Copyright 2023 The Gabarito Project Authors (https://github.com/naipefoundry/gabarito)
+    font: Gabarito-ExtraBold.ttf
+- name: Gabarito Medium
+  styles:
+  - family_name: Gabarito Medium
+    type: Regular
+    preferred_family_name: Gabarito
+    preferred_type: Medium
+    full_name: Gabarito Medium
+    post_script_name: Gabarito-Medium
+    version: '1.000'
+    copyright: Copyright 2023 The Gabarito Project Authors (https://github.com/naipefoundry/gabarito)
+    font: Gabarito-Medium.ttf
+- name: Gabarito SemiBold
+  styles:
+  - family_name: Gabarito SemiBold
+    type: Regular
+    preferred_family_name: Gabarito
+    preferred_type: SemiBold
+    full_name: Gabarito SemiBold
+    post_script_name: Gabarito-SemiBold
+    version: '1.000'
+    copyright: Copyright 2023 The Gabarito Project Authors (https://github.com/naipefoundry/gabarito)
+    font: Gabarito-SemiBold.ttf
 extract: {}
-copyright: Copyright 2012 The Faster Project Authors (https://github.com/etunni/faster),
-  with Reserved Font Name 'Faster'
+copyright: Copyright 2023 The Gabarito Project Authors (https://github.com/naipefoundry/gabarito)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 The Faster Project Authors (https://github.com/etunni/faster), with Reserved Font Name 'Faster'
+  Copyright 2023 The Gabarito Project Authors (https://github.com/naipefoundry/gabarito)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +171,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e0dbaefcca4da040e517063652e350d8b9476c83a69053af55840bbaf424b01e
+digest: b4de117b67fa1edbc54d01b21809e6c43efb027c36c3442d92e8b96165148565
 command: import google --formulas_path Formulas -n 50

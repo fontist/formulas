@@ -1,29 +1,34 @@
 ---
-description: Faster One
-homepage: http://www.tipo.net.ar
+description: Fragment Mono
+homepage: https://weiweihuanghuang.github.io/
 resources:
-  Faster_One.zip:
+  Fragment_Mono.zip:
     urls:
-    - https://fonts.google.com/download?family=Faster%20One
-    sha256: b605eb61d4629af7b0cfa0ff1231553900951a42e172f86ab6238c5af531b14f
-    file_size: 44696
+    - https://fonts.google.com/download?family=Fragment%20Mono
+    sha256: 85d83df0bf5201306acf989ba51a70c61af7d11654b7b6164ed201e257f8356d
+    file_size: 122410
 fonts:
-- name: Faster One
+- name: Fragment Mono
   styles:
-  - family_name: Faster One
+  - family_name: Fragment Mono
+    type: Italic
+    full_name: Fragment Mono Italic
+    post_script_name: FragmentMono-Italic
+    version: 1.011; ttfautohint (v1.8.4.7-5d5b)
+    copyright: Copyright 2022 The Fragment-Mono Project Authors (https://github.com/weiweihuanghuang/fragment-mono)
+    font: FragmentMono-Italic.ttf
+  - family_name: Fragment Mono
     type: Regular
-    full_name: Faster One Regular
-    post_script_name: FasterOne-Regular
-    version: 1.003; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
-    copyright: Copyright 2012 The Faster Project Authors (https://github.com/etunni/faster),
-      with Reserved Font Name 'Faster'
-    font: FasterOne-Regular.ttf
+    full_name: Fragment Mono Regular
+    post_script_name: FragmentMono-Regular
+    version: 1.011; ttfautohint (v1.8.4.7-5d5b)
+    copyright: Copyright 2022 The Fragment-Mono Project Authors (https://github.com/weiweihuanghuang/fragment-mono)
+    font: FragmentMono-Regular.ttf
 extract: {}
-copyright: Copyright 2012 The Faster Project Authors (https://github.com/etunni/faster),
-  with Reserved Font Name 'Faster'
+copyright: Copyright 2022 The Fragment-Mono Project Authors (https://github.com/weiweihuanghuang/fragment-mono)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 The Faster Project Authors (https://github.com/etunni/faster), with Reserved Font Name 'Faster'
+  Copyright 2022 The Fragment-Mono Project Authors (https://github.com/weiweihuanghuang/fragment-mono)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +121,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e0dbaefcca4da040e517063652e350d8b9476c83a69053af55840bbaf424b01e
+digest: fdb2257afd5d1aad0b33b61ef171ac28cc8cdab9871a2509441c0d2401cde832
 command: import google --formulas_path Formulas -n 50

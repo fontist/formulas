@@ -1,32 +1,29 @@
 ---
-name: Diplomata
 description: Diplomata
 homepage: http://www.tipo.net.ar
 resources:
   Diplomata.zip:
     urls:
     - https://fonts.google.com/download?family=Diplomata
-    sha256: 29a6d35fa92fc8f926b81990a6dc8915c4c4bbf7394cced33193afa77eb50726
-    file_size: 23225
+    sha256: d2b00eaf666853aa3dcf0868bea4e63e042dc84b62c989b22dc5009e6a901542
+    file_size: 47798
 fonts:
 - name: Diplomata
   styles:
   - family_name: Diplomata
     type: Regular
-    full_name: Diplomata
+    full_name: Diplomata Regular
     post_script_name: Diplomata-Regular
-    version: '1.001'
-    copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
-      Font Name "Diplomata"
+    version: 1.002; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
+    copyright: Copyright 2011 The Diplomata Project Authors (https://github.com/etunni/diplomata),
+      with Reserved Font Name "Diplomata"
     font: Diplomata-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
+extract: {}
+copyright: Copyright 2011 The Diplomata Project Authors (https://github.com/etunni/diplomata),
   with Reserved Font Name "Diplomata"
-license_url: http://scripts.sil.org/OFL
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar),
-  with Reserved Font Name "Diplomata"
+  Copyright 2011 The Diplomata Project Authors (https://github.com/etunni/diplomata), with Reserved Font Name "Diplomata"
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -119,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 241e80f8c6b759e5777fac7d3146f8977cc017c510c79579cd571c4cfccba6af
+command: import google --formulas_path Formulas -n 50

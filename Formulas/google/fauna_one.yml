@@ -1,34 +1,29 @@
 ---
-name: FaunaOne
 description: Fauna One
 homepage: http://www.tipo.net.ar
 resources:
-  FaunaOne.zip:
+  Fauna_One.zip:
     urls:
     - https://fonts.google.com/download?family=Fauna%20One
-    sha256: 1cbcb20da78ea04bc8bebbe650917b63e383733b483706dc4cff298e54ceb5ab
-    file_size: 17175
+    sha256: 00102ffce344e0436d212edb06b31e9a8e5fe6038490ea43b6ed5a4a4bae7b2c
+    file_size: 32598
 fonts:
 - name: Fauna One
   styles:
   - family_name: Fauna One
     type: Regular
-    full_name: Fauna One
-    post_script_name: FaunaOne
-    version: '1.001'
-    description: Fauna is a modern typeface with low contrast strokes and soft terminals
-      that form traditional serifs. Its structure is soft and slightly condensed.
-      It reads clearly in paragraph composition and looks beautiful in headlines.
-    copyright: Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
+    full_name: Fauna One Regular
+    post_script_name: FaunaOne-Regular
+    version: 2.001; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
+    copyright: Copyright 2013 The Fauna One Project Authors (https://github.com/etunni/fauna-one)
       with Reserved Font Name 'Fauna'
     font: FaunaOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
+extract: {}
+copyright: Copyright 2013 The Fauna One Project Authors (https://github.com/etunni/fauna-one)
   with Reserved Font Name 'Fauna'
-license_url: http://scripts.sil.org/OFL
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Fauna'
+  Copyright 2013 The Fauna One Project Authors (https://github.com/etunni/fauna-one) with Reserved Font Name 'Fauna'
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -121,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 80296203836ad26323cfd993a6c426ba9416db1291e2475c6e0a3559998db438
+command: import google --formulas_path Formulas -n 50

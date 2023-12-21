@@ -1,32 +1,29 @@
 ---
-name: DiplomataSC
 description: Diplomata SC
 homepage: http://www.tipo.net.ar
 resources:
-  DiplomataSC.zip:
+  Diplomata_SC.zip:
     urls:
     - https://fonts.google.com/download?family=Diplomata%20SC
-    sha256: 2fc27f99c6643abeae1e230838cdd6e5bbc41cb2650d3f8623b7f82620146466
-    file_size: 22492
+    sha256: ac9aa4ef1462737a2f033452f051c093f9219f221852809dcf4d8d5f232f65c0
+    file_size: 45394
 fonts:
 - name: Diplomata SC
   styles:
   - family_name: Diplomata SC
     type: Regular
-    full_name: Diplomata SC
+    full_name: Diplomata SC Regular
     post_script_name: DiplomataSC-Regular
-    version: '1.001'
-    copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
-      Font Name "Diplomata"
+    version: 1.002; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
+    copyright: Copyright 2011 The Diplomata Project Authors (https://github.com/etunni/diplomata),
+      with Reserved Font Name "Diplomata"
     font: DiplomataSC-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
+extract: {}
+copyright: Copyright 2011 The Diplomata Project Authors (https://github.com/etunni/diplomata),
   with Reserved Font Name "Diplomata"
-license_url: http://scripts.sil.org/OFL
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar),
-  with Reserved Font Name "Diplomata"
+  Copyright 2011 The Diplomata Project Authors (https://github.com/etunni/diplomata), with Reserved Font Name "Diplomata"
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -119,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 22721a754a19c98424c994b8f15c76ae296648f041d00ec9aedf1daa24836196
+command: import google --formulas_path Formulas -n 50

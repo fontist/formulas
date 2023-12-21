@@ -1,13 +1,12 @@
 ---
-name: Castoro
 description: Castoro
 homepage: https://www.tiro.com/
 resources:
   Castoro.zip:
     urls:
     - https://fonts.google.com/download?family=Castoro
-    sha256: 7123c3df32325e997b3dd382dd05026d3339fad486e331bee0f0a8d7604afa5d
-    file_size: 124733
+    sha256: b60484c2bb8ff91232217c7a5683fd1bff725b04ae114c869b37f608e345d8fa
+    file_size: 124783
 fonts:
 - name: Castoro
   styles:
@@ -15,14 +14,14 @@ fonts:
     type: Italic
     full_name: Castoro Italic
     post_script_name: Castoro-Italic
-    version: 1.20 Build 015
+    version: '2.04'
     copyright: Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)
     font: Castoro-Italic.ttf
   - family_name: Castoro
     type: Regular
     full_name: Castoro Regular
     post_script_name: Castoro-Regular
-    version: 1.20 Build 015
+    version: '2.04'
     copyright: Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)
     font: Castoro-Regular.ttf
 extract: {}
@@ -122,5 +121,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: c043c08bec3c86fe37c2a8891f342b0fccd43221fdd9d0ba907a4f2af0bdd356
-command: google import --formulas_path Formulas
+digest: 9bdcb8498d3332176cf60f283e84fe3c9e7b165dc8eabea825b9d1eb0af10d60
+command: import google --formulas_path Formulas -n 50

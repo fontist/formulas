@@ -5,7 +5,7 @@ resources:
   Commissioner.zip:
     urls:
     - https://fonts.google.com/download?family=Commissioner
-    file_size: 1929439
+    file_size: 1002069
 fonts:
 - name: Commissioner
   styles:
@@ -13,15 +13,15 @@ fonts:
     type: Bold
     full_name: Commissioner Bold
     post_script_name: Commissioner-Bold
-    version: '1.000'
-    copyright: Copyright 2019 The Commissioner Project Authors (https://github.com/kosbarts/Commissioner)
+    version: 1.001;gftools[0.9.23]
+    copyright: Copyright 2019 The Commissioner Project Authors (github.com/kosbarts/Commissioner)
     font: Commissioner-Bold.ttf
   - family_name: Commissioner
     type: Regular
     full_name: Commissioner Regular
     post_script_name: Commissioner-Regular
-    version: '1.000'
-    copyright: Copyright 2019 The Commissioner Project Authors (https://github.com/kosbarts/Commissioner)
+    version: 1.001;gftools[0.9.23]
+    copyright: Copyright 2019 The Commissioner Project Authors (github.com/kosbarts/Commissioner)
     font: Commissioner-Regular.ttf
 - name: Commissioner Black
   styles:
@@ -31,8 +31,8 @@ fonts:
     preferred_type: Black
     full_name: Commissioner Black
     post_script_name: Commissioner-Black
-    version: '1.000'
-    copyright: Copyright 2019 The Commissioner Project Authors (https://github.com/kosbarts/Commissioner)
+    version: 1.001;gftools[0.9.23]
+    copyright: Copyright 2019 The Commissioner Project Authors (github.com/kosbarts/Commissioner)
     font: Commissioner-Black.ttf
 - name: Commissioner ExtraBold
   styles:
@@ -42,8 +42,8 @@ fonts:
     preferred_type: ExtraBold
     full_name: Commissioner ExtraBold
     post_script_name: Commissioner-ExtraBold
-    version: '1.000'
-    copyright: Copyright 2019 The Commissioner Project Authors (https://github.com/kosbarts/Commissioner)
+    version: 1.001;gftools[0.9.23]
+    copyright: Copyright 2019 The Commissioner Project Authors (github.com/kosbarts/Commissioner)
     font: Commissioner-ExtraBold.ttf
 - name: Commissioner ExtraLight
   styles:
@@ -53,8 +53,8 @@ fonts:
     preferred_type: ExtraLight
     full_name: Commissioner ExtraLight
     post_script_name: Commissioner-ExtraLight
-    version: '1.000'
-    copyright: Copyright 2019 The Commissioner Project Authors (https://github.com/kosbarts/Commissioner)
+    version: 1.001;gftools[0.9.23]
+    copyright: Copyright 2019 The Commissioner Project Authors (github.com/kosbarts/Commissioner)
     font: Commissioner-ExtraLight.ttf
 - name: Commissioner Light
   styles:
@@ -64,8 +64,8 @@ fonts:
     preferred_type: Light
     full_name: Commissioner Light
     post_script_name: Commissioner-Light
-    version: '1.000'
-    copyright: Copyright 2019 The Commissioner Project Authors (https://github.com/kosbarts/Commissioner)
+    version: 1.001;gftools[0.9.23]
+    copyright: Copyright 2019 The Commissioner Project Authors (github.com/kosbarts/Commissioner)
     font: Commissioner-Light.ttf
 - name: Commissioner Medium
   styles:
@@ -75,8 +75,8 @@ fonts:
     preferred_type: Medium
     full_name: Commissioner Medium
     post_script_name: Commissioner-Medium
-    version: '1.000'
-    copyright: Copyright 2019 The Commissioner Project Authors (https://github.com/kosbarts/Commissioner)
+    version: 1.001;gftools[0.9.23]
+    copyright: Copyright 2019 The Commissioner Project Authors (github.com/kosbarts/Commissioner)
     font: Commissioner-Medium.ttf
 - name: Commissioner SemiBold
   styles:
@@ -86,8 +86,8 @@ fonts:
     preferred_type: SemiBold
     full_name: Commissioner SemiBold
     post_script_name: Commissioner-SemiBold
-    version: '1.000'
-    copyright: Copyright 2019 The Commissioner Project Authors (https://github.com/kosbarts/Commissioner)
+    version: 1.001;gftools[0.9.23]
+    copyright: Copyright 2019 The Commissioner Project Authors (github.com/kosbarts/Commissioner)
     font: Commissioner-SemiBold.ttf
 - name: Commissioner Thin
   styles:
@@ -97,21 +97,21 @@ fonts:
     preferred_type: Thin
     full_name: Commissioner Thin
     post_script_name: Commissioner-Thin
-    version: '1.000'
-    copyright: Copyright 2019 The Commissioner Project Authors (https://github.com/kosbarts/Commissioner)
-    font: Commissioner-VariableFont_wght.ttf
+    version: 1.001;gftools[0.9.23]
+    copyright: Copyright 2019 The Commissioner Project Authors (github.com/kosbarts/Commissioner)
+    font: Commissioner-VariableFont_FLAR,VOLM,slnt,wght.ttf
   - family_name: Commissioner Thin
     type: Regular
     preferred_family_name: Commissioner
     preferred_type: Thin
     full_name: Commissioner Thin
     post_script_name: Commissioner-Thin
-    version: '1.000'
-    copyright: Copyright 2019 The Commissioner Project Authors (https://github.com/kosbarts/Commissioner)
+    version: 1.001;gftools[0.9.23]
+    copyright: Copyright 2019 The Commissioner Project Authors (github.com/kosbarts/Commissioner)
     font: Commissioner-Thin.ttf
 extract: {}
-copyright: Copyright 2019 The Commissioner Project Authors (https://github.com/kosbarts/Commissioner)
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2019 The Commissioner Project Authors (github.com/kosbarts/Commissioner)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
   Copyright 2019 The Commissioner Project Authors (https://github.com/kosbarts/Commissioner)
 
@@ -206,5 +206,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 0e44de7519fc0a2288119094a62785493306c58b6d77dce04848cc3396c2e2ac
-command: import google --formulas_path Formulas
+digest: 59e4cc42c6912a6e5e7fbc48854fe3718d84c1760768a54654aa5d985f8bea45
+command: import google --formulas_path Formulas -n 50

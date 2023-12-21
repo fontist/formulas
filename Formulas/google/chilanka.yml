@@ -1,13 +1,12 @@
 ---
-name: Chilanka
 description: Chilanka
 homepage: https://smc.org.in
 resources:
   Chilanka.zip:
     urls:
     - https://fonts.google.com/download?family=Chilanka
-    sha256: e154a1c2cb1b41d9b734afca8e1659fae3d7e11b10b89c7dc612482588808a02
-    file_size: 165804
+    sha256: 2b4478dfb39d5e75dbcde854f9d51759fb7e43d7b8b77aa280d8312ecbd8cbb1
+    file_size: 169345
 fonts:
 - name: Chilanka
   styles:
@@ -15,7 +14,7 @@ fonts:
     type: Regular
     full_name: Chilanka Regular
     post_script_name: Chilanka-Regular
-    version: '1.510'
+    version: '1.600'
     description: Chilanka is Malayalam handwriting style font designed by Santhosh
       Thottingal. Chilanka follows the common style one can see in everyday handwriting
       of Malayalam. It has a comprehensive Malayalam glyph set that contains most
@@ -26,14 +25,13 @@ fonts:
       style of designer, but is based on many handwriting samples he observed. A uniform
       set was selected from them for the font. Even though the style is handwriting,
       the glyphs follow the horizontal baseline and can be used for body text too.
-    copyright: Copyright 2019 The Chilanka Project Authors (https://gitlab.com/smc/fonts/chilanka)
+    copyright: Copyright 2020 The Chilanka Project Authors (https://gitlab.com/smc/fonts/chilanka)
     font: Chilanka-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2019 The Chilanka Project Authors (https://gitlab.com/smc/fonts/chilanka)
+extract: {}
+copyright: Copyright 2020 The Chilanka Project Authors (https://gitlab.com/smc/fonts/chilanka)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2019 The Chilanka Project Authors (https://gitlab.com/smc/fonts/chilanka)
+  Copyright 2023 The Chilanka Project Authors (https://gitlab.com/smc/fonts/chilanka/)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -126,3 +124,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 202ed4e69056cf1225dab479011cc7dbc719d877c240728335bd8dba28cd6a5f
+command: import google --formulas_path Formulas -n 50

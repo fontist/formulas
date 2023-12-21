@@ -1,29 +1,106 @@
 ---
-description: Faster One
-homepage: http://www.tipo.net.ar
+description: Cairo Play
+homepage: https://gaber.design
 resources:
-  Faster_One.zip:
+  Cairo_Play.zip:
     urls:
-    - https://fonts.google.com/download?family=Faster%20One
-    sha256: b605eb61d4629af7b0cfa0ff1231553900951a42e172f86ab6238c5af531b14f
-    file_size: 44696
+    - https://fonts.google.com/download?family=Cairo%20Play
+    file_size: 860701
 fonts:
-- name: Faster One
+- name: Cairo Play
   styles:
-  - family_name: Faster One
+  - family_name: Cairo Play
+    type: Bold
+    full_name: Cairo Play Bold
+    post_script_name: CairoPlay-Bold
+    version: 3.130;gftools[0.9.24]
+    copyright: Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
+    font: CairoPlay-Bold.ttf
+  - family_name: Cairo Play
     type: Regular
-    full_name: Faster One Regular
-    post_script_name: FasterOne-Regular
-    version: 1.003; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
-    copyright: Copyright 2012 The Faster Project Authors (https://github.com/etunni/faster),
-      with Reserved Font Name 'Faster'
-    font: FasterOne-Regular.ttf
+    full_name: Cairo Play Regular
+    post_script_name: CairoPlay-Regular
+    version: 3.130;gftools[0.9.24]
+    copyright: Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
+    font: CairoPlay-VariableFont_slnt,wght.ttf
+  - family_name: Cairo Play
+    type: Regular
+    full_name: Cairo Play Regular
+    post_script_name: CairoPlay-Regular
+    version: 3.130;gftools[0.9.24]
+    copyright: Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
+    font: CairoPlay-Regular.ttf
+- name: Cairo Play Black
+  styles:
+  - family_name: Cairo Play Black
+    type: Regular
+    preferred_family_name: Cairo Play
+    preferred_type: Black
+    full_name: Cairo Play Black
+    post_script_name: CairoPlay-Black
+    version: 3.130;gftools[0.9.24]
+    copyright: Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
+    font: CairoPlay-Black.ttf
+- name: Cairo Play ExtraBold
+  styles:
+  - family_name: Cairo Play ExtraBold
+    type: Regular
+    preferred_family_name: Cairo Play
+    preferred_type: ExtraBold
+    full_name: Cairo Play ExtraBold
+    post_script_name: CairoPlay-ExtraBold
+    version: 3.130;gftools[0.9.24]
+    copyright: Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
+    font: CairoPlay-ExtraBold.ttf
+- name: Cairo Play ExtraLight
+  styles:
+  - family_name: Cairo Play ExtraLight
+    type: Regular
+    preferred_family_name: Cairo Play
+    preferred_type: ExtraLight
+    full_name: Cairo Play ExtraLight
+    post_script_name: CairoPlay-ExtraLight
+    version: 3.130;gftools[0.9.24]
+    copyright: Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
+    font: CairoPlay-ExtraLight.ttf
+- name: Cairo Play Light
+  styles:
+  - family_name: Cairo Play Light
+    type: Regular
+    preferred_family_name: Cairo Play
+    preferred_type: Light
+    full_name: Cairo Play Light
+    post_script_name: CairoPlay-Light
+    version: 3.130;gftools[0.9.24]
+    copyright: Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
+    font: CairoPlay-Light.ttf
+- name: Cairo Play Medium
+  styles:
+  - family_name: Cairo Play Medium
+    type: Regular
+    preferred_family_name: Cairo Play
+    preferred_type: Medium
+    full_name: Cairo Play Medium
+    post_script_name: CairoPlay-Medium
+    version: 3.130;gftools[0.9.24]
+    copyright: Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
+    font: CairoPlay-Medium.ttf
+- name: Cairo Play SemiBold
+  styles:
+  - family_name: Cairo Play SemiBold
+    type: Regular
+    preferred_family_name: Cairo Play
+    preferred_type: SemiBold
+    full_name: Cairo Play SemiBold
+    post_script_name: CairoPlay-SemiBold
+    version: 3.130;gftools[0.9.24]
+    copyright: Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
+    font: CairoPlay-SemiBold.ttf
 extract: {}
-copyright: Copyright 2012 The Faster Project Authors (https://github.com/etunni/faster),
-  with Reserved Font Name 'Faster'
-license_url: https://scripts.sil.org/OFL
+copyright: Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
+license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 The Faster Project Authors (https://github.com/etunni/faster), with Reserved Font Name 'Faster'
+  Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +193,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e0dbaefcca4da040e517063652e350d8b9476c83a69053af55840bbaf424b01e
+digest: 3d943e89d8b3e453c83226829f294024f6437c320ca129971080714522d26b1f
 command: import google --formulas_path Formulas -n 50

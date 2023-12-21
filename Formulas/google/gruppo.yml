@@ -1,35 +1,27 @@
 ---
-name: Gruppo
 description: Gruppo
-homepage:
+homepage: http://www.sansoxygen.com
 resources:
   Gruppo.zip:
     urls:
     - https://fonts.google.com/download?family=Gruppo
-    sha256: bd58e6997aa9dd9ac8e9be1e78fcecf336859d60aa00757404ef931ee2832454
-    file_size: 36100
+    sha256: 77f3762db57849cf729263c9ef62e8f8569c507b7ae227199be7c066e9434398
+    file_size: 41856
 fonts:
 - name: Gruppo
   styles:
   - family_name: Gruppo
     type: Regular
-    full_name: Gruppo
-    post_script_name: Gruppo
-    version: '1.000'
-    description: Gruppo X was concieved as a display typeface for style conscious,
-      laid-back branding where 'little is more', or, in Jasper Morrison's words "Special
-      is generally less useful than normal".
-    copyright: Copyright (c) 2010 Vernon Adams (vern@newtypography.co.uk). Available
-      under the terms of the SIL OFL v1.1 from http://scripts.sil.org/OFL
+    full_name: Gruppo Regular
+    post_script_name: Gruppo-Regular
+    version: 1.001; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.28]
+    copyright: Copyright 2010 The Gruppo Project Authors (https://github.com/googlefonts/GruppoFont)
     font: Gruppo-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010 Vernon Adams (vern@newtypography.co.uk) with Reserved
-  Font Name 'Gruppo'. Available under the terms of the SIL OFL v1.1 from http://scripts.sil.org/OFL
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright 2010 The Gruppo Project Authors (https://github.com/googlefonts/GruppoFont)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2010, 2011 vernon adams (vern@newtypography.co.uk),
-  with Reserved Font Name Gruppo.
+  Copyright 2010 The Gruppo Project Authors (https://github.com/googlefonts/GruppoFont)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -122,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 0302a7a9d7568a3886dd039cb6dd1ee9ce986bfbdd282b0f3e21c0caf60d284e
+command: import google --formulas_path Formulas -n 50

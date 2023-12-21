@@ -1,29 +1,52 @@
 ---
-description: Faster One
-homepage: http://www.tipo.net.ar
+description: Carlito
+homepage: http://www.lukaszdziedzic.eu
 resources:
-  Faster_One.zip:
+  Carlito.zip:
     urls:
-    - https://fonts.google.com/download?family=Faster%20One
-    sha256: b605eb61d4629af7b0cfa0ff1231553900951a42e172f86ab6238c5af531b14f
-    file_size: 44696
+    - https://fonts.google.com/download?family=Carlito
+    sha256: f8036b29d843144babc3688efd6af9410a7ba7ff90e4f9ef08dab6aab89f5506
+    file_size: 1077294
 fonts:
-- name: Faster One
+- name: Carlito
   styles:
-  - family_name: Faster One
+  - family_name: Carlito
+    type: Bold
+    full_name: Carlito Bold
+    post_script_name: Carlito-Bold
+    version: '1.104'
+    description: Carlito is a sanserif typeface family based on Lato.
+    copyright: Copyright 2013 The Carlito Project Authors (https://github.com/googlefonts/carlito)
+    font: Carlito-Bold.ttf
+  - family_name: Carlito
+    type: Bold Italic
+    full_name: Carlito Bold Italic
+    post_script_name: Carlito-BoldItalic
+    version: '1.104'
+    description: Carlito is a sanserif typeface family based on Lato.
+    copyright: Copyright 2013 The Carlito Project Authors (https://github.com/googlefonts/carlito)
+    font: Carlito-BoldItalic.ttf
+  - family_name: Carlito
+    type: Italic
+    full_name: Carlito Italic
+    post_script_name: Carlito-Italic
+    version: '1.104'
+    description: Carlito is a sanserif typeface family based on Lato.
+    copyright: Copyright 2013 The Carlito Project Authors (https://github.com/googlefonts/carlito)
+    font: Carlito-Italic.ttf
+  - family_name: Carlito
     type: Regular
-    full_name: Faster One Regular
-    post_script_name: FasterOne-Regular
-    version: 1.003; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
-    copyright: Copyright 2012 The Faster Project Authors (https://github.com/etunni/faster),
-      with Reserved Font Name 'Faster'
-    font: FasterOne-Regular.ttf
+    full_name: Carlito Regular
+    post_script_name: Carlito-Regular
+    version: '1.104'
+    description: Carlito is a sanserif typeface family based on Lato.
+    copyright: Copyright 2013 The Carlito Project Authors (https://github.com/googlefonts/carlito)
+    font: Carlito-Regular.ttf
 extract: {}
-copyright: Copyright 2012 The Faster Project Authors (https://github.com/etunni/faster),
-  with Reserved Font Name 'Faster'
+copyright: Copyright 2013 The Carlito Project Authors (https://github.com/googlefonts/carlito)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 The Faster Project Authors (https://github.com/etunni/faster), with Reserved Font Name 'Faster'
+  Copyright 2013 The Carlito Project Authors (https://github.com/googlefonts/carlito), with Reserved Font Name "Carlito"
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +139,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e0dbaefcca4da040e517063652e350d8b9476c83a69053af55840bbaf424b01e
+digest: a7081e3ccd1678642a519c17225b1762b7b11f557002a1661bb07ddc475e9abc
 command: import google --formulas_path Formulas -n 50

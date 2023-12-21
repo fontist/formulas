@@ -1,13 +1,12 @@
 ---
-name: Calistoga
 description: Calistoga
-homepage: www.sorkintype.com
+homepage: http://sorkintype.com/
 resources:
   Calistoga.zip:
     urls:
     - https://fonts.google.com/download?family=Calistoga
-    sha256: 54f47d8b875b4013ab35ad748d1c1aafcf6368b83569256f00749a03cdcfd7b5
-    file_size: 62894
+    sha256: 778751c82872c6ab6629b19805019cbb256f293e92834e9d386f4fb656db5183
+    file_size: 109658
 fonts:
 - name: Calistoga
   styles:
@@ -15,15 +14,14 @@ fonts:
     type: Regular
     full_name: Calistoga Regular
     post_script_name: Calistoga-Regular
-    version: '1.005'
+    version: 1.008; ttfautohint (v1.8.4.7-5d5b)
     description: Calistoga was inspired by the posters Oscar M. Bryn made for the
       Santa Fe Railroad.
     copyright: Copyright 2019 The Calistoga Project Authors (https://github.com/SorkinType/Calistoga)
     font: Calistoga-Regular.ttf
-extract:
-  format: zip
+extract: {}
 copyright: Copyright 2019 The Calistoga Project Authors (https://github.com/SorkinType/Calistoga)
-license_url: http://scripts.sil.org/OFL
+license_url: https://scripts.sil.org/OFL
 open_license: |-
   Copyright 2019 The Calistoga Project Authors (https://github.com/SorkinType/Calistoga)
 
@@ -118,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 2260c81f1e5ceaa6514a09cce9ae9ad96da83e14923c4077b1d436c619c8b057
+command: import google --formulas_path Formulas -n 50
