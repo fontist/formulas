@@ -1,31 +1,27 @@
 ---
-name: Michroma
 description: Michroma
-homepage:
+homepage: http://www.sansoxygen.com
 resources:
   Michroma.zip:
     urls:
     - https://fonts.google.com/download?family=Michroma
-    sha256: edc80b3c6d508cf42aba94fc096547162089c4d940cff09d7922fc01ba54e76f
-    file_size: 32643
+    sha256: 3888a3272b5d1b6c87d4cae0241ade440dea0e86d008440319aa9bd7937231b6
+    file_size: 35386
 fonts:
 - name: Michroma
   styles:
   - family_name: Michroma
     type: Regular
-    full_name: Michroma
-    post_script_name: Michroma
-    version: '1.000'
-    copyright: vernon adams
-    font: Michroma.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, vernon adams (vern@newtypography.co.uk), with Reserved
-  Font Names 'Michroma'
-license_url: http://scripts.sil.org/OFL
+    full_name: Michroma Regular
+    post_script_name: Michroma-Regular
+    version: 1.100; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.29]
+    copyright: Copyright 2011 The Michroma Project Authors (https://github.com/googlefonts/Michroma-font)
+    font: Michroma-Regular.ttf
+extract: {}
+copyright: Copyright 2011 The Michroma Project Authors (https://github.com/googlefonts/Michroma-font)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk),
-  with Reserved Font Name Michroma.
+  Copyright 2011 The Michroma Project Authors (https://github.com/googlefonts/Michroma-font)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -118,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 5667eee0347772d1312c7625aabbb20282d20e043e2943166b7edc8cf9c9e6e6
+command: import google --formulas_path Formulas -n 50

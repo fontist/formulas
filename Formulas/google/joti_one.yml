@@ -1,31 +1,29 @@
 ---
-name: JotiOne
 description: Joti One
 homepage: http://www.tipo.net.ar
 resources:
-  JotiOne.zip:
+  Joti_One.zip:
     urls:
     - https://fonts.google.com/download?family=Joti%20One
-    sha256: 0be6dc9e4a07464692444ede7b98db100cfd1ddcc5ebb5f021b62010a372abb1
-    file_size: 22544
+    sha256: 53ec74a82917ce518415fa97b7613284c921bdf8afd0ca1b556d605356149396
+    file_size: 33716
 fonts:
 - name: Joti One
   styles:
   - family_name: Joti One
     type: Regular
-    full_name: Joti One
+    full_name: Joti One Regular
     post_script_name: JotiOne-Regular
-    version: '1.001'
-    copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
-      Font Name 'Joti'
+    version: 1.002; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.24]
+    copyright: Copyright 2012 The Joti One Project Authors (https://github.com/etunni/joti),
+      with Reserved Font Name "Joti"
     font: JotiOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
-  with Reserved Font Name 'Joti'
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright 2012 The Joti One Project Authors (https://github.com/etunni/joti),
+  with Reserved Font Name "Joti"
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name 'Joti'
+  Copyright 2012 The Joti One Project Authors (https://github.com/etunni/joti), with Reserved Font Name "Joti"
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -118,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: c5228453b0831d6de4a6bb2a0e400274cb9eaecbe6bc99b101586ed77dbba9f7
+command: import google --formulas_path Formulas -n 50

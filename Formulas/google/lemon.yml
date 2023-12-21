@@ -1,13 +1,12 @@
 ---
-name: Lemon
 description: Lemon
 homepage: http://www.tipo.net.ar
 resources:
   Lemon.zip:
     urls:
     - https://fonts.google.com/download?family=Lemon
-    sha256: 2816324bb768d3efca4ea3bc4d312460cf3245776ee44b9fb0aef16da05094d6
-    file_size: 19207
+    sha256: 206aed7c7abceb2294032268b91ae4be372a12429f47d0dd3bcb2bbb1cd7d02c
+    file_size: 43153
 fonts:
 - name: Lemon
   styles:
@@ -15,18 +14,16 @@ fonts:
     type: Regular
     full_name: Lemon Regular
     post_script_name: Lemon-Regular
-    version: '1.002'
-    copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
-      Font Name "Lemon"
+    version: 1.003; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.24]
+    copyright: Copyright 2011 The Lemon Project Authors (https://github.com/etunni/lemon)
+      with Reserved Font Name "Lemon"
     font: Lemon-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
+extract: {}
+copyright: Copyright 2011 The Lemon Project Authors (https://github.com/etunni/lemon)
   with Reserved Font Name "Lemon"
-license_url: http://scripts.sil.org/OFL
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar),
-  with Reserved Font Name "Lemon"
+  Copyright 2011 The Lemon Project Authors (https://github.com/etunni/lemon) with Reserved Font Name "Lemon"
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -119,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 026bc710fee1dc40f8f9951905ad08e7dfe76229352ca5a95b4f4252ec65ca1e
+command: import google --formulas_path Formulas -n 50

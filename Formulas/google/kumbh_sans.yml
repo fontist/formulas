@@ -1,11 +1,10 @@
 ---
-name: Kumbh Sans
 description: Kumbh Sans
 resources:
   Kumbh_Sans.zip:
     urls:
     - https://fonts.google.com/download?family=Kumbh%20Sans
-    file_size: 297801
+    file_size: 330646
 fonts:
 - name: Kumbh Sans
   styles:
@@ -13,21 +12,21 @@ fonts:
     type: Bold
     full_name: Kumbh Sans Bold
     post_script_name: KumbhSans-Bold
-    version: '1.003'
+    version: '1.004'
     copyright: Copyright 2020 The KumbhSans Project Authors (https://github.com/xconsau/KumbhSans)
     font: KumbhSans-Bold.ttf
   - family_name: Kumbh Sans
     type: Regular
     full_name: Kumbh Sans Regular
     post_script_name: KumbhSans-Regular
-    version: '1.003'
+    version: '1.004'
     copyright: Copyright 2020 The KumbhSans Project Authors (https://github.com/xconsau/KumbhSans)
-    font: KumbhSans-VariableFont_wght.ttf
+    font: KumbhSans-VariableFont_YOPQ,wght.ttf
   - family_name: Kumbh Sans
     type: Regular
     full_name: Kumbh Sans Regular
     post_script_name: KumbhSans-Regular
-    version: '1.003'
+    version: '1.004'
     copyright: Copyright 2020 The KumbhSans Project Authors (https://github.com/xconsau/KumbhSans)
     font: KumbhSans-Regular.ttf
 - name: Kumbh Sans Black
@@ -38,7 +37,7 @@ fonts:
     preferred_type: Black
     full_name: Kumbh Sans Black
     post_script_name: KumbhSans-Black
-    version: '1.003'
+    version: '1.004'
     copyright: Copyright 2020 The KumbhSans Project Authors (https://github.com/xconsau/KumbhSans)
     font: KumbhSans-Black.ttf
 - name: Kumbh Sans ExtraBold
@@ -49,7 +48,7 @@ fonts:
     preferred_type: ExtraBold
     full_name: Kumbh Sans ExtraBold
     post_script_name: KumbhSans-ExtraBold
-    version: '1.003'
+    version: '1.004'
     copyright: Copyright 2020 The KumbhSans Project Authors (https://github.com/xconsau/KumbhSans)
     font: KumbhSans-ExtraBold.ttf
 - name: Kumbh Sans ExtraLight
@@ -60,7 +59,7 @@ fonts:
     preferred_type: ExtraLight
     full_name: Kumbh Sans ExtraLight
     post_script_name: KumbhSans-ExtraLight
-    version: '1.003'
+    version: '1.004'
     copyright: Copyright 2020 The KumbhSans Project Authors (https://github.com/xconsau/KumbhSans)
     font: KumbhSans-ExtraLight.ttf
 - name: Kumbh Sans Light
@@ -71,7 +70,7 @@ fonts:
     preferred_type: Light
     full_name: Kumbh Sans Light
     post_script_name: KumbhSans-Light
-    version: '1.003'
+    version: '1.004'
     copyright: Copyright 2020 The KumbhSans Project Authors (https://github.com/xconsau/KumbhSans)
     font: KumbhSans-Light.ttf
 - name: Kumbh Sans Medium
@@ -82,7 +81,7 @@ fonts:
     preferred_type: Medium
     full_name: Kumbh Sans Medium
     post_script_name: KumbhSans-Medium
-    version: '1.003'
+    version: '1.004'
     copyright: Copyright 2020 The KumbhSans Project Authors (https://github.com/xconsau/KumbhSans)
     font: KumbhSans-Medium.ttf
 - name: Kumbh Sans SemiBold
@@ -93,7 +92,7 @@ fonts:
     preferred_type: SemiBold
     full_name: Kumbh Sans SemiBold
     post_script_name: KumbhSans-SemiBold
-    version: '1.003'
+    version: '1.004'
     copyright: Copyright 2020 The KumbhSans Project Authors (https://github.com/xconsau/KumbhSans)
     font: KumbhSans-SemiBold.ttf
 - name: Kumbh Sans Thin
@@ -104,7 +103,7 @@ fonts:
     preferred_type: Thin
     full_name: Kumbh Sans Thin
     post_script_name: KumbhSans-Thin
-    version: '1.003'
+    version: '1.004'
     copyright: Copyright 2020 The KumbhSans Project Authors (https://github.com/xconsau/KumbhSans)
     font: KumbhSans-Thin.ttf
 extract: {}
@@ -204,5 +203,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: c727836ffda93149bad086b9ca408ccc17dd0b60e5a3c60e1602758619877749
-command: google import --formulas_path Formulas
+digest: 33d623e3d95be065ae014fb16f7e0084664c8b500f6e9c30a18b11736598c0b2
+command: import google --formulas_path Formulas -n 50

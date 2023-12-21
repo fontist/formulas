@@ -1,32 +1,27 @@
 ---
-name: Mako
 description: Mako
 homepage: newtypography.co.uk
 resources:
   Mako.zip:
     urls:
     - https://fonts.google.com/download?family=Mako
-    sha256: f637319a3141063e4a68be6159f545c1fe3264b4e2160c409b35b30396a8a209
-    file_size: 49083
+    sha256: bc6b6d86774c78708c5f246b4db895362343923529f722f85a7083d74582d1a3
+    file_size: 42152
 fonts:
 - name: Mako
   styles:
   - family_name: Mako
     type: Regular
-    full_name: Mako
-    post_script_name: Mako
-    version: '1.000'
-    description: Copyright (c) 2007 by vernon adams. All rights reserved.
-    copyright: Copyright (c) 2007 by vernon adams. All rights reserved.
+    full_name: Mako Regular
+    post_script_name: Mako-Regular
+    version: 1.100; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]
+    copyright: Copyright 2007 The Mako Project Authors (https://github.com/googlefonts/MakoFont)
     font: Mako-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2007 by vernon adams (vern@newtypography.co.uk) with Reserved
-  Font Name 'Mako'. All rights reserved.
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright 2007 The Mako Project Authors (https://github.com/googlefonts/MakoFont)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk),
-  with Reserved Font Names "Mako".
+  Copyright 2011 The Mako Project Authors (https://github.com/googlefonts/MakoFont)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -119,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 6b05764c6296852ee3a2d400cddc370cdbeaa25967098288a0c977fbe7369317
+command: import google --formulas_path Formulas -n 50

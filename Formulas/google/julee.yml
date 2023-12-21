@@ -1,32 +1,28 @@
 ---
-name: Julee
 description: Julee
-homepage:
 resources:
   Julee.zip:
     urls:
     - https://fonts.google.com/download?family=Julee
-    sha256: 151d3a76cc5d21fb11228f099bd125e99131bbb6a7414e2d12b2d21376893188
-    file_size: 19082
+    sha256: 646346b461312fd5ef0c391360bb38683ecd4eaaa91fd7ebead5373f2ea8eab5
+    file_size: 38250
 fonts:
 - name: Julee
   styles:
   - family_name: Julee
     type: Regular
-    full_name: Julee-Regular
+    full_name: Julee Regular
     post_script_name: Julee-Regular
-    version: '1.001'
-    copyright: Copyright (c) 2011, Julian Tunni (jotadejulian@hotmail.com), with Reserved
-      Font Name "Julee"
+    version: 1.002; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
+    copyright: Copyright 2011 The Julee Project Authors (https://github.com/etunni/julee)
+      with Reserved Font Name is "Julee"
     font: Julee-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Julian Tunni (jotadejulian@hotmail.com), with Reserved
-  Font Name "Julee"
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright 2011 The Julee Project Authors (https://github.com/etunni/julee)
+  with Reserved Font Name is "Julee"
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011, Julian Rodríguez Tunni, with
-  Reserved Font Name is "Julee"
+  Copyright 2011 The Julee Project Authors (https://github.com/etunni/julee) with Reserved Font Name is "Julee"
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -119,3 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: a8f0d7d8b9e29c1d685b2c15c3c453d5732128fc364f13f5bf82f87beaf8e324
+command: import google --formulas_path Formulas -n 50

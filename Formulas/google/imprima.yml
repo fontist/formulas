@@ -1,31 +1,29 @@
 ---
-name: Imprima
 description: Imprima
-homepage:
+homepage: http://www.tipo.net.ar
 resources:
   Imprima.zip:
     urls:
     - https://fonts.google.com/download?family=Imprima
-    sha256: e65b0c2bf10ef570546d8ef486414122aa5ea4c8e51c1eb9c077d8001737d475
-    file_size: 15635
+    sha256: 006e5d0c51e5e7058d28ad562f864aff2267793f3fa5ffa3da1a606b266207c4
+    file_size: 31265
 fonts:
 - name: Imprima
   styles:
   - family_name: Imprima
     type: Regular
-    full_name: Imprima
+    full_name: Imprima Regular
     post_script_name: Imprima-Regular
-    version: '1.001'
-    copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
-      Font Name "Imprima"
+    version: 1.002; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
+    copyright: Copyright 2012 The Imprima Project Authors (https://github.com/etunni/imprima),
+      with Reserved Font Name "Imprima"
     font: Imprima-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
+extract: {}
+copyright: Copyright 2012 The Imprima Project Authors (https://github.com/etunni/imprima),
   with Reserved Font Name "Imprima"
-license_url: http://scripts.sil.org/OFL
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name "Imprima"
+  Copyright 2012 The Imprima Project Authors (https://github.com/etunni/imprima), with Reserved Font Name "Imprima"
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -118,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 31ec8d9cb054fb4aa291c180fbaafebadf84270a0ed80d9ce5a5ce2ca0b4a62a
+command: import google --formulas_path Formulas -n 50

@@ -1,12 +1,11 @@
 ---
 description: Joan
-homepage: https://www.paolobiagini.com/
 resources:
   Joan.zip:
     urls:
     - https://fonts.google.com/download?family=Joan
-    sha256: 8e837a6501f527abf6e436b2ff87fe4e28461ebd5cb8f99c3cecf78e9e71328b
-    file_size: 182120
+    sha256: eb719af3ad5f9c83145f86fc681c9a3152a739cb269172b0ba2f4c34b4947518
+    file_size: 156245
 fonts:
 - name: Joan
   styles:
@@ -14,7 +13,7 @@ fonts:
     type: Regular
     full_name: Joan Regular
     post_script_name: Joan-Regular
-    version: 1.000; ttfautohint (v1.8.3)
+    version: 1.001; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.30]
     copyright: Copyright 2021 The Joan Project Authors (https://github.com/PaoloBiagini/Joan)
     font: Joan-Regular.ttf
 extract: {}
@@ -114,5 +113,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 6b48a89028533843cd6aecd1bbac0d86d00b380ebcbc1cb6f4352b5f63bc8a37
-command: import google --formulas_path Formulas
+digest: f7b875a359853c7ba67b515eda6ea5c51f40bfabde8179ce1d828c95b867a638
+command: import google --formulas_path Formulas -n 50

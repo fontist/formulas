@@ -1,45 +1,108 @@
 ---
-name: Lateef
 description: Lateef
-homepage: http://www.sil.org/
+homepage: https://www.sil.org/
 resources:
   Lateef.zip:
     urls:
     - https://fonts.google.com/download?family=Lateef
-    sha256: e0ecc2bf1ef1228651a3e09ccc7cda9d946534d3aa50c19d898498a719ea4471
-    file_size: 103595
+    sha256: b156d60edbb1d1269873b05ec5dfaabb23b9f5df1c6686202f3807dd046e41d7
+    file_size: 714013
 fonts:
 - name: Lateef
   styles:
   - family_name: Lateef
+    type: Bold
+    full_name: Lateef Bold
+    post_script_name: Lateef-Bold
+    version: '4.200'
+    description: Arabic script font for Sindhi and other languages of southern Asia
+    copyright: Copyright (c) 1994-2023 SIL International.
+    font: Lateef-Bold.ttf
+  - family_name: Lateef
     type: Regular
     full_name: Lateef
-    post_script_name: Lateef
-    version: 1.001 (build 117/117)
-    description: Lateef, an extended Arabic font, is named after Shah Abdul Lateef
-      Bhitai, the famous Sindhi mystic and poet. It is intended to be an appropriate
-      style for use in Sindhi and other languages of the South Asian region.
-    copyright: Copyright (c) 2004-2008, SIL International (http://www.sil.org/), and
-      released under the SIL Open Font License, with Reserved Font Names "Lateef"
-      and "SIL".
-    font: LateefRegOT.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2004-2008, SIL International (http://www.sil.org/), and released
-  under the SIL Open Font License, with Reserved Font Names "Lateef" and "SIL".
-license_url: http://scripts.sil.org/ofl
+    post_script_name: Lateef-Regular
+    version: '4.200'
+    description: Arabic script font for Sindhi and other languages of southern Asia
+    copyright: Copyright (c) 1994-2023 SIL International.
+    font: Lateef-Regular.ttf
+- name: Lateef ExtraBold
+  styles:
+  - family_name: Lateef ExtraBold
+    type: Regular
+    preferred_family_name: Lateef
+    preferred_type: ExtraBold
+    full_name: Lateef ExtraBold
+    post_script_name: Lateef-ExtraBold
+    version: '4.200'
+    description: Arabic script font for Sindhi and other languages of southern Asia
+    copyright: Copyright (c) 1994-2023 SIL International.
+    font: Lateef-ExtraBold.ttf
+- name: Lateef ExtraLight
+  styles:
+  - family_name: Lateef ExtraLight
+    type: Regular
+    preferred_family_name: Lateef
+    preferred_type: ExtraLight
+    full_name: Lateef ExtraLight
+    post_script_name: Lateef-ExtraLight
+    version: '4.200'
+    description: Arabic script font for Sindhi and other languages of southern Asia
+    copyright: Copyright (c) 1994-2023 SIL International.
+    font: Lateef-ExtraLight.ttf
+- name: Lateef Light
+  styles:
+  - family_name: Lateef Light
+    type: Regular
+    preferred_family_name: Lateef
+    preferred_type: Light
+    full_name: Lateef Light
+    post_script_name: Lateef-Light
+    version: '4.200'
+    description: Arabic script font for Sindhi and other languages of southern Asia
+    copyright: Copyright (c) 1994-2023 SIL International.
+    font: Lateef-Light.ttf
+- name: Lateef Medium
+  styles:
+  - family_name: Lateef Medium
+    type: Regular
+    preferred_family_name: Lateef
+    preferred_type: Medium
+    full_name: Lateef Medium
+    post_script_name: Lateef-Medium
+    version: '4.200'
+    description: Arabic script font for Sindhi and other languages of southern Asia
+    copyright: Copyright (c) 1994-2023 SIL International.
+    font: Lateef-Medium.ttf
+- name: Lateef SemiBold
+  styles:
+  - family_name: Lateef SemiBold
+    type: Regular
+    preferred_family_name: Lateef
+    preferred_type: SemiBold
+    full_name: Lateef SemiBold
+    post_script_name: Lateef-SemiBold
+    version: '4.200'
+    description: Arabic script font for Sindhi and other languages of southern Asia
+    copyright: Copyright (c) 1994-2023 SIL International.
+    font: Lateef-SemiBold.ttf
+extract: {}
+copyright: Copyright (c) 1994-2023 SIL International.
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 1994-2008, SIL International (http://www.sil.org/).
+  Copyright (c) 1994-2023, SIL International (https://www.sil.org/), with
+  Reserved Font Names "Lateef" and "SIL".
+  Latin glyphs copyright (c) 2018 The Crimson Pro Project Authors
+  (https://github.com/Fonthausen/CrimsonPro)
 
-  This Font Software is licensed under the SIL Open Font License, Version 1.1,
-  with Reserved Font Names "Lateef" and "SIL".
-  This license is copied below, and is also available with an FAQ at:
+  This Font Software is licensed under the SIL Open Font License, Version 1.1.
+  This license is copied below, and is also available with a FAQ at:
   http://scripts.sil.org/OFL
 
 
-  ----------------------------------------------------
+  -----------------------------------------------------------
   SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
-  ----------------------------------------------------
+  -----------------------------------------------------------
 
   PREAMBLE
   The goals of the Open Font License (OFL) are to stimulate worldwide
@@ -123,3 +186,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 1ff0d0229cbc6adcec78ac61986b48bb7c23c022a0b04902921a2f4aabb54d4f
+command: import google --formulas_path Formulas -n 50

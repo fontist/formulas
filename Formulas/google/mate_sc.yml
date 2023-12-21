@@ -1,13 +1,12 @@
 ---
-name: MateSC
 description: Mate SC
 homepage: http://www.tipo.net.ar
 resources:
-  MateSC.zip:
+  Mate_SC.zip:
     urls:
     - https://fonts.google.com/download?family=Mate%20SC
-    sha256: 2c45e69e6a4d394d63f1a8e944055c557d229a9c3c5864492fffcc52d6fd7b23
-    file_size: 16634
+    sha256: c00c29c289cc32feba9cf0a4caabda5b9ce3d572902dfca158345a947d73b7c2
+    file_size: 38146
 fonts:
 - name: Mate SC
   styles:
@@ -15,18 +14,16 @@ fonts:
     type: Regular
     full_name: Mate SC Regular
     post_script_name: MateSC-Regular
-    version: '1.002'
-    copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
-      Font Name "Mate"
+    version: 1.003; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.24]
+    copyright: Copyright 2011 The Mate Project Authors (https://github.com/etunni/mate)
+      with Reserved Font Name "Mate"
     font: MateSC-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
+extract: {}
+copyright: Copyright 2011 The Mate Project Authors (https://github.com/etunni/mate)
   with Reserved Font Name "Mate"
-license_url: http://scripts.sil.org/OFL
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar),
-  with Reserved Font Name "Mate"
+  Copyright 2011 The Mate Project Authors (https://github.com/etunni/mate) with Reserved Font Name "Mate"
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -119,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: ff6e89965a6e68bdb20a42b0c42fc5656b9bf3b409d96b5bc22554a7a73dacb7
+command: import google --formulas_path Formulas -n 50

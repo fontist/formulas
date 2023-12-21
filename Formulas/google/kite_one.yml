@@ -1,31 +1,29 @@
 ---
-name: KiteOne
 description: Kite One
 homepage: http://www.tipo.net.ar
 resources:
-  KiteOne.zip:
+  Kite_One.zip:
     urls:
     - https://fonts.google.com/download?family=Kite%20One
-    sha256: 3982d63551390eb9bdfb22a441a5e35bf57d7e56a09e4e2da9582df5d296c7dc
-    file_size: 20217
+    sha256: fad80aef2509f9ab298792d4b71b8c399b864b6b1971fe8c5a25b5e1915bbcb1
+    file_size: 37998
 fonts:
 - name: Kite One
   styles:
   - family_name: Kite One
     type: Regular
-    full_name: Kite One
+    full_name: Kite One Regular
     post_script_name: KiteOne-Regular
-    version: '1.001'
-    copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
-      Font Name 'Kite'
+    version: 1.002; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
+    copyright: Copyright 2011 The Kite One Project Authors (https://github.com/etunni/Kite-One)
+      with Reserved Font Name is "Kite"
     font: KiteOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
-  with Reserved Font Name 'Kite'
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright 2011 The Kite One Project Authors (https://github.com/etunni/Kite-One)
+  with Reserved Font Name is "Kite"
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name 'Kite'
+  Copyright 2011 The Kite One Project Authors (https://github.com/etunni/Kite-One) with Reserved Font Name is "Kite"
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -118,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 8df17001abaf40a092cf058ddd3725e920b142130105ef8465f7ad4d103793c2
+command: import google --formulas_path Formulas -n 50
