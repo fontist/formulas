@@ -1,13 +1,12 @@
 ---
-name: Alike
 description: Alike
 homepage: http://cyreal.org
 resources:
   Alike.zip:
     urls:
     - https://fonts.google.com/download?family=Alike
-    sha256: 9cd2efe1e528efbb522839dfbcffabdee345b200c6816b9069bc740c6a591d2c
-    file_size: 39511
+    sha256: 159d315b71da083095bc745d35a872c14255d867ee2ccbe9106b9ad5e85bba99
+    file_size: 39137
 fonts:
 - name: Alike
   styles:
@@ -15,16 +14,16 @@ fonts:
     type: Regular
     full_name: Alike Regular
     post_script_name: Alike-Regular
-    version: '1.213'
-    copyright: Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name
-      'Alike'.
+    version: 1.301; ttfautohint (v1.8.4.7-5d5b)
+    copyright: Copyright 2009 The Alike Project Authors (https://github.com/cyrealtype/Alike)
+      with Reserved Font Name "Alike" and "Alike Angular".
     font: Alike-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name 'Alike'.
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright 2009 The Alike Project Authors (https://github.com/cyrealtype/Alike)
+  with Reserved Font Name "Alike" and "Alike Angular".
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011, Cyreal (www.cyreal.org), with Reserved Font Name 'Alike'.
+  Copyright 2009 The Alike Project Authors (https://github.com/cyrealtype/Alike) with Reserved Font Name "Alike" and "Alike Angular".
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 1cf655cf4f07e76ec3581f8fd2dd0284a43f86cfdb8b07b607876ad956a406b4
+command: import google --formulas_path Formulas -n 50

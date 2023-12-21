@@ -5,8 +5,8 @@ resources:
   Blaka.zip:
     urls:
     - https://fonts.google.com/download?family=Blaka
-    sha256: 603ded71842e13aeb5ba4d5834c002ffa9e3909773971ed3aab7f1111a463a85
-    file_size: 31131
+    sha256: 8cac861c10879f311ea355cbd3885d45617e2855d497bf0bd383b92879219645
+    file_size: 31329
 fonts:
 - name: Blaka
   styles:
@@ -14,7 +14,7 @@ fonts:
     type: Regular
     full_name: Blaka Regular
     post_script_name: Blaka-Regular
-    version: 1.001; ttfautohint (v1.8.4.7-5d5b)
+    version: 1.003; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2019 The Blaka Project Authors (https://github.com/Gue3bara/Blaka)
     font: Blaka-Regular.ttf
 extract: {}
@@ -114,5 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: bdbfb0ba698983aaf30b25d55300a86b55c6967720a1486105313f735ecd8cd2
-command: import google --formulas_path Formulas
+digest: 6a30413807b4020068b9e85ed8123d66cb5151f3fec3c349b167a784b5822106
+command: import google --formulas_path Formulas -n 50

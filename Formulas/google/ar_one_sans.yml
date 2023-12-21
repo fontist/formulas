@@ -1,48 +1,62 @@
 ---
-description: Balsamiq Sans
-homepage: http://balsamiq.com
+description: AR One Sans
+homepage: http://www.google.com/fonts
 resources:
-  Balsamiq_Sans.zip:
+  AR_One_Sans.zip:
     urls:
-    - https://fonts.google.com/download?family=Balsamiq%20Sans
-    sha256: aa661444ad406e44a89165a8fe3ada21426c2eb2ff0940a577260014f13c048d
-    file_size: 913158
+    - https://fonts.google.com/download?family=AR%20One%20Sans
+    file_size: 292299
 fonts:
-- name: Balsamiq Sans
+- name: AR One Sans
   styles:
-  - family_name: Balsamiq Sans
+  - family_name: AR One Sans
     type: Bold
-    full_name: Balsamiq Sans Bold
-    post_script_name: BalsamiqSans-Bold
-    version: 1.020; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.26]
-    copyright: Copyright 2011 The Balsamiq Sans Project Authors (https://github.com/balsamiq/balsamiqsans)
-    font: BalsamiqSans-Bold.ttf
-  - family_name: Balsamiq Sans
-    type: Bold Italic
-    full_name: Balsamiq Sans Bold Italic
-    post_script_name: BalsamiqSans-BoldItalic
-    version: 1.020; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.26]
-    copyright: Copyright 2011 The Balsamiq Sans Project Authors (https://github.com/balsamiq/balsamiqsans)
-    font: BalsamiqSans-BoldItalic.ttf
-  - family_name: Balsamiq Sans
-    type: Italic
-    full_name: Balsamiq Sans Italic
-    post_script_name: BalsamiqSans-Italic
-    version: 1.020; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.26]
-    copyright: Copyright 2011 The Balsamiq Sans Project Authors (https://github.com/balsamiq/balsamiqsans)
-    font: BalsamiqSans-Italic.ttf
-  - family_name: Balsamiq Sans
+    full_name: AR One Sans Bold
+    post_script_name: AROneSans-Bold
+    version: 1.001;gftools[0.9.33]
+    copyright: Copyright 2018 The AR One Project Authors (https://github.com/niteeshy/ar-one-sans)
+    font: AROneSans-Bold.ttf
+  - family_name: AR One Sans
     type: Regular
-    full_name: Balsamiq Sans Regular
-    post_script_name: BalsamiqSans-Regular
-    version: 1.020; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.26]
-    copyright: Copyright 2011 The Balsamiq Sans Project Authors (https://github.com/balsamiq/balsamiqsans)
-    font: BalsamiqSans-Regular.ttf
+    full_name: AR One Sans Regular
+    post_script_name: AROneSans-Regular
+    version: 1.001;gftools[0.9.33]
+    copyright: Copyright 2018 The AR One Project Authors (https://github.com/niteeshy/ar-one-sans)
+    font: AROneSans-VariableFont_ARRR,wght.ttf
+  - family_name: AR One Sans
+    type: Regular
+    full_name: AR One Sans Regular
+    post_script_name: AROneSans-Regular
+    version: 1.001;gftools[0.9.33]
+    copyright: Copyright 2018 The AR One Project Authors (https://github.com/niteeshy/ar-one-sans)
+    font: AROneSans-Regular.ttf
+- name: AR One Sans Medium
+  styles:
+  - family_name: AR One Sans Medium
+    type: Regular
+    preferred_family_name: AR One Sans
+    preferred_type: Medium
+    full_name: AR One Sans Medium
+    post_script_name: AROneSans-Medium
+    version: 1.001;gftools[0.9.33]
+    copyright: Copyright 2018 The AR One Project Authors (https://github.com/niteeshy/ar-one-sans)
+    font: AROneSans-Medium.ttf
+- name: AR One Sans SemiBold
+  styles:
+  - family_name: AR One Sans SemiBold
+    type: Regular
+    preferred_family_name: AR One Sans
+    preferred_type: SemiBold
+    full_name: AR One Sans SemiBold
+    post_script_name: AROneSans-SemiBold
+    version: 1.001;gftools[0.9.33]
+    copyright: Copyright 2018 The AR One Project Authors (https://github.com/niteeshy/ar-one-sans)
+    font: AROneSans-SemiBold.ttf
 extract: {}
-copyright: Copyright 2011 The Balsamiq Sans Project Authors (https://github.com/balsamiq/balsamiqsans)
+copyright: Copyright 2018 The AR One Project Authors (https://github.com/niteeshy/ar-one-sans)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2011 The Balsamiq Sans Project Authors (https://github.com/balsamiq/balsamiqsans)
+  Copyright 2022 The Ar-One-Sans Project Authors (https://github.com/niteeshy/ar-one-sans)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -135,5 +149,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9e3f1c2b15ed39f76c462acd6c456a198da3f4b9e6346b33399c54ad04d728f2
+digest: 4a596cdc31e3e5d1ce4208f69a6c73d9f57ad5719391705bda43697b10259436
 command: import google --formulas_path Formulas -n 50

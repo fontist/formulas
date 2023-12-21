@@ -1,13 +1,12 @@
 ---
-name: Bangers
 description: Bangers
 homepage: http://www.sansoxygen.com
 resources:
   Bangers.zip:
     urls:
     - https://fonts.google.com/download?family=Bangers
-    sha256: 76f27ee3b9f2a9f28236ef05d867c141b2574e1b23c2ae568e7c05a06e0634a3
-    file_size: 46598
+    sha256: a69140490ff401884a6161a82782396ec0453849d321f30f89fd606711ee34d1
+    file_size: 48304
 fonts:
 - name: Bangers
   styles:
@@ -15,16 +14,14 @@ fonts:
     type: Regular
     full_name: Bangers Regular
     post_script_name: Bangers-Regular
-    version: '2.000'
-    copyright: Copyright 2010 The Bangers Project Authors (contact@sansoxygen.com)
+    version: 2.100; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.31]
+    copyright: Copyright 2010 The Bangers Project Authors (https://github.com/googlefonts/bangers)
     font: Bangers-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2010 The Bangers Project Authors (contact@sansoxygen.com)
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright 2010 The Bangers Project Authors (https://github.com/googlefonts/bangers)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2010 The Bangers Project Authors (contact@sansoxygen.com),
-  with Reserved Font Name Bangers.
+  Copyright 2010 The Bangers Project Authors (https://github.com/googlefonts/bangers)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: ce71a3ccb954325c19019950938211d695d6530063b65f425b7d1bc87d210c50
+command: import google --formulas_path Formulas -n 50

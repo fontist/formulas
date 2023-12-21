@@ -1,13 +1,12 @@
 ---
-name: Alatsi
 description: Alatsi
-homepage: www.sorkintype.com
+homepage: http://sorkintype.com/
 resources:
   Alatsi.zip:
     urls:
     - https://fonts.google.com/download?family=Alatsi
-    sha256: e2e5ba094883d753a6eb4b20387eae1b81b382e7bcaf9708533db2aa34ef507e
-    file_size: 57917
+    sha256: fb70bdbf8dda2775a3433810ffbf9d540f2ce5f7f32fe80e2ba39191bc1d86dc
+    file_size: 66400
 fonts:
 - name: Alatsi
   styles:
@@ -15,15 +14,14 @@ fonts:
     type: Regular
     full_name: Alatsi Regular
     post_script_name: Alatsi-Regular
-    version: '1.004'
+    version: 1.005; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2019 The Alatsi Project Authors (https://github.com/SorkinType/Alatsi)
     font: Alatsi-Regular.ttf
-extract:
-  format: zip
+extract: {}
 copyright: Copyright 2019 The Alatsi Project Authors (https://github.com/SorkinType/Alatsi)
-license_url: http://scripts.sil.org/OFL
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2016 The Alatsi Project Authors (https://github.com/sorkintype/alatsi)
+  Copyright 2019 The Alatsi Project Authors (https://github.com/SorkinType/Alatsi)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: bda3ad5ec364461a6e8ac194d2ea8cb12b5804bb5539bb54e7bcfe3b70267d4c
+command: import google --formulas_path Formulas -n 50

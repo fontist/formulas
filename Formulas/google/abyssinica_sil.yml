@@ -1,48 +1,31 @@
 ---
-description: Balsamiq Sans
-homepage: http://balsamiq.com
+description: Abyssinica SIL
+homepage: http://scripts.sil.org
 resources:
-  Balsamiq_Sans.zip:
+  Abyssinica_SIL.zip:
     urls:
-    - https://fonts.google.com/download?family=Balsamiq%20Sans
-    sha256: aa661444ad406e44a89165a8fe3ada21426c2eb2ff0940a577260014f13c048d
-    file_size: 913158
+    - https://fonts.google.com/download?family=Abyssinica%20SIL
+    sha256: 67615b12f3c5a86971f0f6997f22849e5571b1b956de157a9e971070d712bf33
+    file_size: 141932
 fonts:
-- name: Balsamiq Sans
+- name: Abyssinica SIL
   styles:
-  - family_name: Balsamiq Sans
-    type: Bold
-    full_name: Balsamiq Sans Bold
-    post_script_name: BalsamiqSans-Bold
-    version: 1.020; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.26]
-    copyright: Copyright 2011 The Balsamiq Sans Project Authors (https://github.com/balsamiq/balsamiqsans)
-    font: BalsamiqSans-Bold.ttf
-  - family_name: Balsamiq Sans
-    type: Bold Italic
-    full_name: Balsamiq Sans Bold Italic
-    post_script_name: BalsamiqSans-BoldItalic
-    version: 1.020; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.26]
-    copyright: Copyright 2011 The Balsamiq Sans Project Authors (https://github.com/balsamiq/balsamiqsans)
-    font: BalsamiqSans-BoldItalic.ttf
-  - family_name: Balsamiq Sans
-    type: Italic
-    full_name: Balsamiq Sans Italic
-    post_script_name: BalsamiqSans-Italic
-    version: 1.020; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.26]
-    copyright: Copyright 2011 The Balsamiq Sans Project Authors (https://github.com/balsamiq/balsamiqsans)
-    font: BalsamiqSans-Italic.ttf
-  - family_name: Balsamiq Sans
+  - family_name: Abyssinica SIL
     type: Regular
-    full_name: Balsamiq Sans Regular
-    post_script_name: BalsamiqSans-Regular
-    version: 1.020; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.26]
-    copyright: Copyright 2011 The Balsamiq Sans Project Authors (https://github.com/balsamiq/balsamiqsans)
-    font: BalsamiqSans-Regular.ttf
+    full_name: Abyssinica SIL
+    post_script_name: AbyssinicaSIL-Regular
+    version: '2.200'
+    description: Ethiopic script font designed in a calligraphic style
+    copyright: Copyright (c) 2000-2022 by SIL International
+    font: AbyssinicaSIL-Regular.ttf
 extract: {}
-copyright: Copyright 2011 The Balsamiq Sans Project Authors (https://github.com/balsamiq/balsamiqsans)
-license_url: https://scripts.sil.org/OFL
+copyright: Copyright (c) 2000-2022 by SIL International
+license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2011 The Balsamiq Sans Project Authors (https://github.com/balsamiq/balsamiqsans)
+  This Font Software is Copyright (c) 2000-2022, SIL International (http://scripts.sil.org/)
+  with Reserved Font Names "Abyssinica" and "SIL".
+
+  Modern Gurage glyphs Copyright (c) 2021-2022 The Ge'ez Frontier Foundation.
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -135,5 +118,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9e3f1c2b15ed39f76c462acd6c456a198da3f4b9e6346b33399c54ad04d728f2
+digest: 19392cbc8f2652cf1608a858ee6645247dee36d3b951762e649a5bd636a816fd
 command: import google --formulas_path Formulas -n 50

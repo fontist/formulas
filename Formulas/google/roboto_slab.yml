@@ -1,12 +1,11 @@
 ---
-name: Roboto Slab
 description: Roboto Slab
 homepage: Google.com
 resources:
   Roboto_Slab.zip:
     urls:
     - https://fonts.google.com/download?family=Roboto%20Slab
-    file_size: 999530
+    file_size: 780831
 fonts:
 - name: Roboto Slab
   styles:
@@ -14,21 +13,21 @@ fonts:
     type: Bold
     full_name: Roboto Slab Bold
     post_script_name: RobotoSlab-Bold
-    version: 2.000; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.002'
     copyright: Copyright 2018 The Roboto Slab Project Authors (https://github.com/googlefonts/robotoslab)
     font: RobotoSlab-Bold.ttf
   - family_name: Roboto Slab
     type: Regular
     full_name: Roboto Slab Regular
     post_script_name: RobotoSlab-Regular
-    version: 2.000; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.002'
     copyright: Copyright 2018 The Roboto Slab Project Authors (https://github.com/googlefonts/robotoslab)
     font: RobotoSlab-VariableFont_wght.ttf
   - family_name: Roboto Slab
     type: Regular
     full_name: Roboto Slab Regular
     post_script_name: RobotoSlab-Regular
-    version: 2.000; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.002'
     copyright: Copyright 2018 The Roboto Slab Project Authors (https://github.com/googlefonts/robotoslab)
     font: RobotoSlab-Regular.ttf
 - name: Roboto Slab Black
@@ -39,7 +38,7 @@ fonts:
     preferred_type: Black
     full_name: Roboto Slab Black
     post_script_name: RobotoSlab-Black
-    version: 2.000; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.002'
     copyright: Copyright 2018 The Roboto Slab Project Authors (https://github.com/googlefonts/robotoslab)
     font: RobotoSlab-Black.ttf
 - name: Roboto Slab ExtraBold
@@ -50,7 +49,7 @@ fonts:
     preferred_type: ExtraBold
     full_name: Roboto Slab ExtraBold
     post_script_name: RobotoSlab-ExtraBold
-    version: 2.000; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.002'
     copyright: Copyright 2018 The Roboto Slab Project Authors (https://github.com/googlefonts/robotoslab)
     font: RobotoSlab-ExtraBold.ttf
 - name: Roboto Slab ExtraLight
@@ -61,7 +60,7 @@ fonts:
     preferred_type: ExtraLight
     full_name: Roboto Slab ExtraLight
     post_script_name: RobotoSlab-ExtraLight
-    version: 2.000; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.002'
     copyright: Copyright 2018 The Roboto Slab Project Authors (https://github.com/googlefonts/robotoslab)
     font: RobotoSlab-ExtraLight.ttf
 - name: Roboto Slab Light
@@ -72,7 +71,7 @@ fonts:
     preferred_type: Light
     full_name: Roboto Slab Light
     post_script_name: RobotoSlab-Light
-    version: 2.000; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.002'
     copyright: Copyright 2018 The Roboto Slab Project Authors (https://github.com/googlefonts/robotoslab)
     font: RobotoSlab-Light.ttf
 - name: Roboto Slab Medium
@@ -83,7 +82,7 @@ fonts:
     preferred_type: Medium
     full_name: Roboto Slab Medium
     post_script_name: RobotoSlab-Medium
-    version: 2.000; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.002'
     copyright: Copyright 2018 The Roboto Slab Project Authors (https://github.com/googlefonts/robotoslab)
     font: RobotoSlab-Medium.ttf
 - name: Roboto Slab SemiBold
@@ -94,7 +93,7 @@ fonts:
     preferred_type: SemiBold
     full_name: Roboto Slab SemiBold
     post_script_name: RobotoSlab-SemiBold
-    version: 2.000; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.002'
     copyright: Copyright 2018 The Roboto Slab Project Authors (https://github.com/googlefonts/robotoslab)
     font: RobotoSlab-SemiBold.ttf
 - name: Roboto Slab Thin
@@ -105,7 +104,7 @@ fonts:
     preferred_type: Thin
     full_name: Roboto Slab Thin
     post_script_name: RobotoSlab-Thin
-    version: 2.000; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.002'
     copyright: Copyright 2018 The Roboto Slab Project Authors (https://github.com/googlefonts/robotoslab)
     font: RobotoSlab-Thin.ttf
 extract: {}
@@ -313,5 +312,5 @@ open_license: |-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
-digest: 6b897af10a0f26c45c1fc63952fc6ecf666ff04a55efff41fcdc8e4337e04fc1
-command: google import --formulas_path Formulas
+digest: b2a7b345a77ea0832d2fd156a49f6088f9b24b6496cdb70343482129b2d74b95
+command: import google --formulas_path Formulas -n 50

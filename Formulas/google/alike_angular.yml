@@ -1,13 +1,12 @@
 ---
-name: AlikeAngular
 description: Alike Angular
 homepage: http://cyreal.org
 resources:
-  AlikeAngular.zip:
+  Alike_Angular.zip:
     urls:
     - https://fonts.google.com/download?family=Alike%20Angular
-    sha256: 4604ec355a23585066148995557129ecd011d583fd3ce82c16e69b82e3642c61
-    file_size: 36724
+    sha256: cfffbcec0d17130a50c739e7c25b1d9029740673643745c7955e245e6f75745f
+    file_size: 35668
 fonts:
 - name: Alike Angular
   styles:
@@ -15,19 +14,16 @@ fonts:
     type: Regular
     full_name: Alike Angular Regular
     post_script_name: AlikeAngular-Regular
-    version: '1.211'
-    copyright: |-
-      Copyright (c) 2011, Cyreal (www.cyreal.org)
+    version: 1.300; ttfautohint (v1.8.4.7-5d5b)
+    copyright: Copyright 2009 The Alike Angular Project Authors (https://github.com/cyrealtype/Alike-Angular)
       with Reserved Font Name "Alike" and "Alike Angular".
     font: AlikeAngular-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name "Alike"
-  and "Alike Angular".
-license_url: http://scripts.sil.org/OFL
-open_license: |-
-  Copyright (c) 2011, Cyreal (www.cyreal.org),
+extract: {}
+copyright: Copyright 2009 The Alike Angular Project Authors (https://github.com/cyrealtype/Alike-Angular)
   with Reserved Font Name "Alike" and "Alike Angular".
+license_url: https://scripts.sil.org/OFL
+open_license: |-
+  Copyright 2009 The Alike Angular Project Authors (https://github.com/cyrealtype/Alike-Angular) with Reserved Font Name "Alike" and "Alike Angular".
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -120,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: f987df6e9e217cdc1da58d2953240c9f35246609bfadf3d0dfa234fae2d67b79
+command: import google --formulas_path Formulas -n 50

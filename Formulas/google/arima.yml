@@ -5,7 +5,7 @@ resources:
   Arima.zip:
     urls:
     - https://fonts.google.com/download?family=Arima
-    file_size: 861875
+    file_size: 880112
 fonts:
 - name: Arima
   styles:
@@ -13,14 +13,14 @@ fonts:
     type: Bold
     full_name: Arima Bold
     post_script_name: Arima-Bold
-    version: '1.100'
+    version: 1.101;gftools[0.9.23]
     copyright: Copyright 2020 The Arima Project Authors (https://github.com/NDISCOVER/Arima-Font)
     font: Arima-Bold.ttf
   - family_name: Arima
     type: Regular
     full_name: Arima Regular
     post_script_name: Arima-Regular
-    version: '1.100'
+    version: 1.101;gftools[0.9.23]
     copyright: Copyright 2020 The Arima Project Authors (https://github.com/NDISCOVER/Arima-Font)
     font: Arima-Regular.ttf
 - name: Arima ExtraLight
@@ -31,7 +31,7 @@ fonts:
     preferred_type: ExtraLight
     full_name: Arima ExtraLight
     post_script_name: Arima-ExtraLight
-    version: '1.100'
+    version: 1.101;gftools[0.9.23]
     copyright: Copyright 2020 The Arima Project Authors (https://github.com/NDISCOVER/Arima-Font)
     font: Arima-ExtraLight.ttf
 - name: Arima Light
@@ -42,7 +42,7 @@ fonts:
     preferred_type: Light
     full_name: Arima Light
     post_script_name: Arima-Light
-    version: '1.100'
+    version: 1.101;gftools[0.9.23]
     copyright: Copyright 2020 The Arima Project Authors (https://github.com/NDISCOVER/Arima-Font)
     font: Arima-Light.ttf
 - name: Arima Medium
@@ -53,7 +53,7 @@ fonts:
     preferred_type: Medium
     full_name: Arima Medium
     post_script_name: Arima-Medium
-    version: '1.100'
+    version: 1.101;gftools[0.9.23]
     copyright: Copyright 2020 The Arima Project Authors (https://github.com/NDISCOVER/Arima-Font)
     font: Arima-Medium.ttf
 - name: Arima SemiBold
@@ -64,7 +64,7 @@ fonts:
     preferred_type: SemiBold
     full_name: Arima SemiBold
     post_script_name: Arima-SemiBold
-    version: '1.100'
+    version: 1.101;gftools[0.9.23]
     copyright: Copyright 2020 The Arima Project Authors (https://github.com/NDISCOVER/Arima-Font)
     font: Arima-SemiBold.ttf
 - name: Arima Thin
@@ -75,7 +75,7 @@ fonts:
     preferred_type: Thin
     full_name: Arima Thin
     post_script_name: Arima-Thin
-    version: '1.100'
+    version: 1.101;gftools[0.9.23]
     copyright: Copyright 2020 The Arima Project Authors (https://github.com/NDISCOVER/Arima-Font)
     font: Arima-VariableFont_wght.ttf
   - family_name: Arima Thin
@@ -84,7 +84,7 @@ fonts:
     preferred_type: Thin
     full_name: Arima Thin
     post_script_name: Arima-Thin
-    version: '1.100'
+    version: 1.101;gftools[0.9.23]
     copyright: Copyright 2020 The Arima Project Authors (https://github.com/NDISCOVER/Arima-Font)
     font: Arima-Thin.ttf
 extract: {}
@@ -184,5 +184,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: eae1336695ff0ea632de7ac11dc16f15863c847ced6745ca7be6864d15d39fca
-command: import google --formulas_path Formulas
+digest: 763cc142a7e092ee90c5898567d4b0b32ce2f92528f963e558d47872d2ef4012
+command: import google --formulas_path Formulas -n 50

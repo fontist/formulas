@@ -5,8 +5,8 @@ resources:
   BIZ_UDPGothic.zip:
     urls:
     - https://fonts.google.com/download?family=BIZ%20UDPGothic
-    sha256: 5088816ee55f8c17e04be4b74a3fe19eff284f383cb099cc20339c0360a1511d
-    file_size: 5881575
+    sha256: e491950b733920299387e0e18ee740c6ac323255f7be952fc083563163c98af0
+    file_size: 5893569
 fonts:
 - name: BIZ UDPGothic
   styles:
@@ -14,14 +14,14 @@ fonts:
     type: Bold
     full_name: BIZ UDPGothic Bold
     post_script_name: BIZUDPGothic-Bold
-    version: '1.002'
+    version: '1.051'
     copyright: Copyright 2022 The BIZ UDGothic Project Authors (https://github.com/googlefonts/morisawa-biz-ud-gothic)
     font: BIZUDPGothic-Bold.ttf
   - family_name: BIZ UDPGothic
     type: Regular
     full_name: BIZ UDPGothic
     post_script_name: BIZUDPGothic-Regular
-    version: '1.002'
+    version: '1.051'
     copyright: Copyright 2022 The BIZ UDGothic Project Authors (https://github.com/googlefonts/morisawa-biz-ud-gothic)
     font: BIZUDPGothic-Regular.ttf
 extract: {}
@@ -121,5 +121,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d8fe12ab5dcf99d952fd84dafe6422fb700380f563154d93d7de7dc4c40b17af
-command: import google --formulas_path Formulas
+digest: 290b5bdc1b61965c8a2e6e49abdb8b84a04387b9fc3f62edc46cd4c51683fca4
+command: import google --formulas_path Formulas -n 50
