@@ -1,22 +1,29 @@
 ---
 description: Noto Color Emoji
+homepage: https://github.com/googlefonts/noto-emoji
 resources:
   Noto_Color_Emoji.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Color%20Emoji
-    sha256: 6f6e150aaf00d74cf15ddc2157e006348cbd4c89adf1536608a45b8af051f39f
-    file_size: 2689998
+    sha256: 0ac69f371647536feff4274de1d06a368c11e2168141a22eec0609f0f8d97137
+    file_size: 7652636
 fonts:
-- name: noto-glyf_colr_1
+- name: Noto Color Emoji
   styles:
-  - family_name: noto-glyf_colr_1
+  - family_name: Noto Color Emoji
     type: Regular
-    full_name: noto-glyf_colr_1 Regular
-    post_script_name: noto-glyf_colr_1-Regular
-    version: '1.000'
+    full_name: Noto Color Emoji
+    post_script_name: NotoColorEmoji
+    version: 2.042;GOOG;noto-emoji:20231129:7f49a00d523ae5f94e52fd9f9a39bac9cf65f958
+    description: Color emoji font using COLRv1.
+    copyright: Copyright 2022 Google Inc.
     font: NotoColorEmoji-Regular.ttf
 extract: {}
+copyright: Copyright 2022 Google Inc.
+license_url: http://scripts.sil.org/OFL
 open_license: |-
+  Copyright 2021 Google Inc. All Rights Reserved.
+
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
   http://scripts.sil.org/OFL
@@ -108,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 36f081e8066236c1736018dead7a8bbfd4eae3b04f9a2c1fe68243e5b74a846a
-command: import google --formulas_path Formulas
+digest: c079956601bcdb2918d663104d4a5a1c3f9f12c49f400208285d9fd39a2b63df
+command: import google --formulas_path Formulas -n 50

@@ -1,28 +1,73 @@
 ---
-description: Noto Sans Glagolitic
+description: Noto Emoji
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Glagolitic.zip:
+  Noto_Emoji.zip:
     urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Glagolitic
-    sha256: 1d47819ae69ace094f20b55ce90c71637b1e663c0fc2ae1310123e2ee3e6d09f
-    file_size: 46761
+    - https://fonts.google.com/download?family=Noto%20Emoji
+    file_size: 4103073
 fonts:
-- name: Noto Sans Glagolitic
+- name: Noto Emoji
   styles:
-  - family_name: Noto Sans Glagolitic
+  - family_name: Noto Emoji
+    type: Bold
+    full_name: Noto Emoji Bold
+    post_script_name: NotoEmoji-Bold
+    version: '2.001'
+    copyright: Copyright 2013, 2022 Google Inc. All Rights Reserved.
+    font: NotoEmoji-Bold.ttf
+  - family_name: Noto Emoji
     type: Regular
-    full_name: Noto Sans Glagolitic Regular
-    post_script_name: NotoSansGlagolitic-Regular
-    version: 2.002; ttfautohint (v1.8.4.7-5d5b)
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/glagolitic)
-    font: NotoSansGlagolitic-Regular.ttf
+    full_name: Noto Emoji Regular
+    post_script_name: NotoEmoji-Regular
+    version: '2.001'
+    copyright: Copyright 2013, 2022 Google Inc. All Rights Reserved.
+    font: NotoEmoji-VariableFont_wght.ttf
+  - family_name: Noto Emoji
+    type: Regular
+    full_name: Noto Emoji Regular
+    post_script_name: NotoEmoji-Regular
+    version: '2.001'
+    copyright: Copyright 2013, 2022 Google Inc. All Rights Reserved.
+    font: NotoEmoji-Regular.ttf
+- name: Noto Emoji Light
+  styles:
+  - family_name: Noto Emoji Light
+    type: Regular
+    preferred_family_name: Noto Emoji
+    preferred_type: Light
+    full_name: Noto Emoji Light
+    post_script_name: NotoEmoji-Light
+    version: '2.001'
+    copyright: Copyright 2013, 2022 Google Inc. All Rights Reserved.
+    font: NotoEmoji-Light.ttf
+- name: Noto Emoji Medium
+  styles:
+  - family_name: Noto Emoji Medium
+    type: Regular
+    preferred_family_name: Noto Emoji
+    preferred_type: Medium
+    full_name: Noto Emoji Medium
+    post_script_name: NotoEmoji-Medium
+    version: '2.001'
+    copyright: Copyright 2013, 2022 Google Inc. All Rights Reserved.
+    font: NotoEmoji-Medium.ttf
+- name: Noto Emoji SemiBold
+  styles:
+  - family_name: Noto Emoji SemiBold
+    type: Regular
+    preferred_family_name: Noto Emoji
+    preferred_type: SemiBold
+    full_name: Noto Emoji SemiBold
+    post_script_name: NotoEmoji-SemiBold
+    version: '2.001'
+    copyright: Copyright 2013, 2022 Google Inc. All Rights Reserved.
+    font: NotoEmoji-SemiBold.ttf
 extract: {}
-copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/glagolitic)
-license_url: https://scripts.sil.org/OFL
+copyright: Copyright 2013, 2022 Google Inc. All Rights Reserved.
+license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/glagolitic)
+  Copyright 2013 Google LLC
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -115,5 +160,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 4afb3c2f2129c7131c515710b20316dee5367cc64f7c2b7cbb2b7660bce12be8
+digest: 000e8c2a1c00008db07beba0442ec8a083fcd2ed6dcf26713c35ca076f789276
 command: import google --formulas_path Formulas -n 50

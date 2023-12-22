@@ -1,13 +1,12 @@
 ---
-name: Noto Music
 description: Noto Music
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Music.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Music
-    sha256: 98319f0c562064a4b0d707bd91e432ed1181800b02a6fdee28ba927e9bf7dfff
-    file_size: 48431
+    sha256: cc8eaa6e4ca4393402c6edd1d411b553d74e6429de1912e205ba6e9daca9e813
+    file_size: 97688
 fonts:
 - name: Noto Music
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Music Regular
     post_script_name: NotoMusic-Regular
-    version: '2.000'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2018 Google Inc. All Rights Reserved.
+    version: 2.003; ttfautohint (v1.8.4.7-5d5b)
+    description: Designed by Monotype design team, Benjamin Yang.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/music)
     font: NotoMusic-Regular.ttf
 extract: {}
-copyright: Copyright 2018 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/music)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/music)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: bf35ccd600a72486a13e7e7e7082219e081a46a98fe4b361487ac5247f4e839f
-command: google import --formulas_path Formulas
+digest: f70d55b2597ab97f7f0b0fdec007c1b706878b3529493bfa36354d34d24ab922
+command: import google --formulas_path Formulas -n 50

@@ -1,13 +1,12 @@
 ---
-name: Norican
 description: Norican
-homepage: www.newtypography.co.uk
+homepage: http://www.sansoxygen.com
 resources:
   Norican.zip:
     urls:
     - https://fonts.google.com/download?family=Norican
-    sha256: a463e737415e5127d225a6233961613cde2514bd56e4538c538c88d487090ca2
-    file_size: 28374
+    sha256: 460a531fa2bf90b1f5070933e468e2d536f9eb6f9f9c887fafbe4a02ae4bf420
+    file_size: 50546
 fonts:
 - name: Norican
   styles:
@@ -15,18 +14,14 @@ fonts:
     type: Regular
     full_name: Norican Regular
     post_script_name: Norican-Regular
-    version: '1.001'
-    copyright: Copyright (c) 2011 by vernon adams (www.newtypography.co.uk), with
-      Reserved Font Names "Norican"
+    version: 1.100; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]
+    copyright: Copyright 2011 The Norican Project Authors (https://github.com/googlefonts/NoricanFont)
     font: Norican-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by vernon adams (www.newtypography.co.uk vern@newtypography.co.uk),
-  with Reserved Font Names "Norican"
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright 2011 The Norican Project Authors (https://github.com/googlefonts/NoricanFont)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk),
-  with Reserved Font Names "Norican"
+  Copyright 2011 The Norican Project Authors (https://github.com/googlefonts/NoricanFont)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -119,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 2632b76afc0015d98a21ba9b85c6ffef764fa0d1227b3aac9d95e6afc6f55490
+command: import google --formulas_path Formulas -n 50

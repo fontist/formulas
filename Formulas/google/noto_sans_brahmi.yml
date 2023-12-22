@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Brahmi
 description: Noto Sans Brahmi
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Brahmi.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Brahmi
-    sha256: cbf6c5db4dd0a4111b855aac5cd447d039cc0dc29cf5320279d6832f9ababfde
-    file_size: 22542
+    sha256: 621a0daa7d1f1bba357fa1266a34955bd017f1f904e18379f72dc315d7bcc46f
+    file_size: 56863
 fonts:
 - name: Noto Sans Brahmi
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Brahmi Regular
     post_script_name: NotoSansBrahmi-Regular
-    version: '2.001'
+    version: 2.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2018 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/brahmi)
     font: NotoSansBrahmi-Regular.ttf
 extract: {}
-copyright: Copyright 2018 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/brahmi)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/brahmi)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 70cb9de9e587727786843b3ad7125d8bd7d2b770f0bf3d48a3bfd8d0d6a48461
-command: google import --formulas_path Formulas
+digest: 38456ec813fd4f3ccdeb6de6c4e000f6e3cb59440934951321754447d8c4eabd
+command: import google --formulas_path Formulas -n 50

@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Elymaic
 description: Noto Sans Elymaic
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Elymaic.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Elymaic
-    sha256: 4add2584b0230ce5b106fdce8e4eb2227ceb08be4278e3fd83cb89885320da69
-    file_size: 7629
+    sha256: b6159d34a876572f2484f435bdf11a2e35e309a90f6780ff7ee0ab1528b38e51
+    file_size: 34848
 fonts:
 - name: Noto Sans Elymaic
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Elymaic Regular
     post_script_name: NotoSansElymaic-Regular
-    version: '1.000'
+    version: 1.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Morgane Pierson
-    copyright: Copyright 2019 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/elymaic)
     font: NotoSansElymaic-Regular.ttf
 extract: {}
-copyright: Copyright 2019 Google LLC. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/elymaic)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/elymaic)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 4b9b79a853886f22fabe68ae543e2655ea6a1d2be2a9be874b22553d5d71abfa
-command: google import --formulas_path Formulas
+digest: 7f75717d772803ab76d1eb853f286972ed6a59413ee5812ea5865cd0612e6d92
+command: import google --formulas_path Formulas -n 50

@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Chakma
 description: Noto Sans Chakma
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Chakma.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Chakma
-    sha256: e1793d755e7773d7efd7e75c1e9cce3acfa2c02510111cdd5054dc2439190ee7
-    file_size: 34795
+    sha256: 1096d4391ea6ddc7cc1068612b4e93ab92038b325211a3af39dc55080eb1b754
+    file_size: 66215
 fonts:
 - name: Noto Sans Chakma
   styles:
@@ -15,16 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Chakma Regular
     post_script_name: NotoSansChakma-Regular
-    version: 2.001; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D cakm -f none -a
-      qsq -X ""
+    version: 2.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/chakma)
     font: NotoSansChakma-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/chakma)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/chakma)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: c5d78d3c101f6cc4ba5262fbcf1c2452f8f610f3699100a3fc0553b8e4149aff
-command: google import --formulas_path Formulas
+digest: e5c6b10262e1d4b66fe640960c009f400435d87ecd545edecace0d4659a0fb2f
+command: import google --formulas_path Formulas -n 50

@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Carian
 description: Noto Sans Carian
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Carian.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Carian
-    sha256: a84bbc15cdba2b1565df1676924cdfffc3025b678b709f727b8cd916cc43bc3a
-    file_size: 9658
+    sha256: 30547cbd3697ee7695c80ddb6c39067359f1eaa6fb90829b673bf87437e71daf
+    file_size: 31982
 fonts:
 - name: Noto Sans Carian
   styles:
@@ -15,16 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Carian Regular
     post_script_name: NotoSansCarian-Regular
-    version: 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D cari -f none -a
-      qsq -X ""
+    version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/carian)
     font: NotoSansCarian-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/carian)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/carian)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 8e72a127a4859d6c459adc193a92d49bd52b93ee40566f2cf6cfd37388a0c153
-command: google import --formulas_path Formulas
+digest: f1f3c1c1a18c21727adf225190a3125827b7d00e91b97172d038cf2f3e8cc8d5
+command: import google --formulas_path Formulas -n 50

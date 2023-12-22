@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Hanunoo
 description: Noto Sans Hanunoo
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Hanunoo.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Hanunoo
-    sha256: b1815dd9a46c53aabcc1b8c05c9f342ef9ab85bff4cbe7069f20e7b6f6a9cfd0
-    file_size: 6704
+    sha256: 51738275bd6e17c80c6b56a1d3438afc9575f3aabd163446962748c0f4a20d2e
+    file_size: 32109
 fonts:
 - name: Noto Sans Hanunoo
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Hanunoo Regular
     post_script_name: NotoSansHanunoo-Regular
-    version: '2.000'
+    version: 2.004; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hanunoo)
     font: NotoSansHanunoo-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hanunoo)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hanunoo)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: da4eeb1ce4e408b04307d4df24dd3737c4e160240ec0c82297db7f14fbdd9a0d
-command: google import --formulas_path Formulas
+digest: f8a1f05e23d9805bd0ef7621a6614cc7eee4eefbf81893e9c1ec2d5e5a34f938
+command: import google --formulas_path Formulas -n 50

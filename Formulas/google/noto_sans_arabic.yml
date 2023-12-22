@@ -1,12 +1,11 @@
 ---
-name: Noto Sans Arabic
 description: Noto Sans Arabic
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Arabic.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Arabic
-    file_size: 3286196
+    file_size: 3332368
 fonts:
 - name: Noto Sans Arabic
   styles:
@@ -25,7 +24,7 @@ fonts:
     version: '2.004'
     description: Designed by Monotype Design Team, Nadine Chahine and Nizar Qandah
     copyright: Copyright 2015-2020 Google LLC. All Rights Reserved.
-    font: NotoSansArabic-Regular.ttf
+    font: NotoSansArabic-VariableFont_wdth,wght.ttf
   - family_name: Noto Sans Arabic
     type: Regular
     full_name: Noto Sans Arabic Regular
@@ -33,7 +32,7 @@ fonts:
     version: '2.004'
     description: Designed by Monotype Design Team, Nadine Chahine and Nizar Qandah
     copyright: Copyright 2015-2020 Google LLC. All Rights Reserved.
-    font: NotoSansArabic-VariableFont_wdth,wght.ttf
+    font: NotoSansArabic-Regular.ttf
 - name: Noto Sans Arabic Black
   styles:
   - family_name: Noto Sans Arabic Black
@@ -533,5 +532,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 8fc588bd4751d7d1e60c7fe0225cd163abf109f903fdae748a0f4fbb3bb832df
-command: google import --formulas_path Formulas
+digest: 9ea776a3b8521ec0d2ca5e527ba9c87548e1da225ab6ca2d42f0a5945100f72e
+command: import google --formulas_path Formulas -n 50

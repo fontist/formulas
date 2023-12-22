@@ -1,30 +1,28 @@
 ---
-name: Noto Sans Egyptian Hieroglyphs
 description: Noto Sans Egyptian Hieroglyphs
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Egyptian_Hieroglyphs.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Egyptian%20Hieroglyphs
-    sha256: 3a4c2a53a2e3f0e26a09e8a891cf2d778d93697960401fc397e3bda2a0bb23c7
-    file_size: 322797
+    sha256: c3310791aad910221728278e42c4ee431ec0a79d4626228829149cb7be05b555
+    file_size: 514936
 fonts:
-- name: Noto Sans EgyptHiero
+- name: Noto Sans Egyptian Hieroglyphs
   styles:
-  - family_name: Noto Sans EgyptHiero
+  - family_name: Noto Sans Egyptian Hieroglyphs
     type: Regular
-    preferred_family_name: Noto Sans Egyptian Hieroglyphs
     full_name: Noto Sans Egyptian Hieroglyphs Regular
     post_script_name: NotoSansEgyptianHieroglyphs-Regular
-    version: '2.000'
+    version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/egyptian-hieroglyphs)
     font: NotoSansEgyptianHieroglyphs-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/egyptian-hieroglyphs)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/egyptian-hieroglyphs)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: cc0718619f537fdd05a4e65246b83b27caf9e552d1396a210be63a0577de2a59
-command: google import --formulas_path Formulas
+digest: 04b7ac4dcf10b84cef4361b8da80e2892db88285e87c165c2074d99641633a78
+command: import google --formulas_path Formulas -n 50

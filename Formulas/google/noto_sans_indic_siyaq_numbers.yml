@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Indic Siyaq Numbers
 description: Noto Sans Indic Siyaq Numbers
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Indic_Siyaq_Numbers.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Indic%20Siyaq%20Numbers
-    sha256: 96ee1069b0bf39d40cc0e9f6f6609ac22c75d84413396e009d0d6955631607d5
-    file_size: 19453
+    sha256: 486cde0f36d3b8385879628cfe912b177c0350024a32c26d23b1019564e7ee9e
+    file_size: 42166
 fonts:
 - name: Noto Sans Indic Siyaq Numbers
   styles:
@@ -15,16 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Indic Siyaq Numbers Regular
     post_script_name: NotoSansIndicSiyaqNumbers-Regular
-    version: 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a
-      qsq -X ""
+    version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2019 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/indic-siyaq-numbers)
     font: NotoSansIndicSiyaqNumbers-Regular.ttf
 extract: {}
-copyright: Copyright 2019 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/indic-siyaq-numbers)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/indic-siyaq-numbers)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 3831160bf52fff0ce6e9470d7f9d2999a68cdb36d8df9ca5a81209d442e6a917
-command: google import --formulas_path Formulas
+digest: 5a58d518106de019ea1b76bb0aac60957e09975f54dec1526b742a1c9c8b73ff
+command: import google --formulas_path Formulas -n 50

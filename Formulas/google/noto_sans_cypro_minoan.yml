@@ -1,28 +1,27 @@
 ---
-description: Noto Sans Glagolitic
+description: Noto Sans Cypro Minoan
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Glagolitic.zip:
+  Noto_Sans_Cypro_Minoan.zip:
     urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Glagolitic
-    sha256: 1d47819ae69ace094f20b55ce90c71637b1e663c0fc2ae1310123e2ee3e6d09f
-    file_size: 46761
+    - https://fonts.google.com/download?family=Noto%20Sans%20Cypro%20Minoan
+    sha256: b07bc2b7c22b1902565847c108e1e4cb2054576c668b659799442b5fda3a6f1b
+    file_size: 37297
 fonts:
-- name: Noto Sans Glagolitic
+- name: Noto Sans Cypro Minoan
   styles:
-  - family_name: Noto Sans Glagolitic
+  - family_name: Noto Sans Cypro Minoan
     type: Regular
-    full_name: Noto Sans Glagolitic Regular
-    post_script_name: NotoSansGlagolitic-Regular
-    version: 2.002; ttfautohint (v1.8.4.7-5d5b)
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/glagolitic)
-    font: NotoSansGlagolitic-Regular.ttf
+    full_name: Noto Sans Cypro Minoan Regular
+    post_script_name: NotoSansCyproMinoan-Regular
+    version: 1.503; ttfautohint (v1.8.4.7-5d5b)
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/cypro-minoan)
+    font: NotoSansCyproMinoan-Regular.ttf
 extract: {}
-copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/glagolitic)
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/cypro-minoan)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/glagolitic)
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/cypro-minoan)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -115,5 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 4afb3c2f2129c7131c515710b20316dee5367cc64f7c2b7cbb2b7660bce12be8
+digest: ff93777916df43253fe923a4aaae9410ab2ccae7422f74dd425c47f8824e3f03
 command: import google --formulas_path Formulas -n 50

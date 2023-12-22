@@ -1,28 +1,81 @@
 ---
-description: Noto Sans Glagolitic
-homepage: http://www.google.com/get/noto/
+description: Narnoor
+homepage: https://software.sil.org/wstech/
 resources:
-  Noto_Sans_Glagolitic.zip:
+  Narnoor.zip:
     urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Glagolitic
-    sha256: 1d47819ae69ace094f20b55ce90c71637b1e663c0fc2ae1310123e2ee3e6d09f
-    file_size: 46761
+    - https://fonts.google.com/download?family=Narnoor
+    sha256: 02a2208f7e4407dbda1f5785199de9917fbaa54f5086d3b3e1f5f959b2488969
+    file_size: 183887
 fonts:
-- name: Noto Sans Glagolitic
+- name: Narnoor
   styles:
-  - family_name: Noto Sans Glagolitic
+  - family_name: Narnoor
+    type: Bold
+    full_name: Narnoor Bold
+    post_script_name: Narnoor-Bold
+    version: '3.000'
+    description: Gunjala Gondi script font
+    copyright: Original font copyright (c) 2014-2017 CDAST, University of Hyderabad,
+      Hyderabad (cdast@uohyd.ernet.in).
+    font: Narnoor-Bold.ttf
+  - family_name: Narnoor
     type: Regular
-    full_name: Noto Sans Glagolitic Regular
-    post_script_name: NotoSansGlagolitic-Regular
-    version: 2.002; ttfautohint (v1.8.4.7-5d5b)
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/glagolitic)
-    font: NotoSansGlagolitic-Regular.ttf
+    full_name: Narnoor
+    post_script_name: Narnoor-Regular
+    version: '3.000'
+    description: Gunjala Gondi script font
+    copyright: Original font copyright (c) 2014-2017 CDAST, University of Hyderabad,
+      Hyderabad (cdast@uohyd.ernet.in).
+    font: Narnoor-Regular.ttf
+- name: Narnoor ExtraBold
+  styles:
+  - family_name: Narnoor ExtraBold
+    type: Regular
+    preferred_family_name: Narnoor
+    preferred_type: ExtraBold
+    full_name: Narnoor ExtraBold
+    post_script_name: Narnoor-ExtraBold
+    version: '3.000'
+    description: Gunjala Gondi script font
+    copyright: Original font copyright (c) 2014-2017 CDAST, University of Hyderabad,
+      Hyderabad (cdast@uohyd.ernet.in).
+    font: Narnoor-ExtraBold.ttf
+- name: Narnoor Medium
+  styles:
+  - family_name: Narnoor Medium
+    type: Regular
+    preferred_family_name: Narnoor
+    preferred_type: Medium
+    full_name: Narnoor Medium
+    post_script_name: Narnoor-Medium
+    version: '3.000'
+    description: Gunjala Gondi script font
+    copyright: Original font copyright (c) 2014-2017 CDAST, University of Hyderabad,
+      Hyderabad (cdast@uohyd.ernet.in).
+    font: Narnoor-Medium.ttf
+- name: Narnoor SemiBold
+  styles:
+  - family_name: Narnoor SemiBold
+    type: Regular
+    preferred_family_name: Narnoor
+    preferred_type: SemiBold
+    full_name: Narnoor SemiBold
+    post_script_name: Narnoor-SemiBold
+    version: '3.000'
+    description: Gunjala Gondi script font
+    copyright: Original font copyright (c) 2014-2017 CDAST, University of Hyderabad,
+      Hyderabad (cdast@uohyd.ernet.in).
+    font: Narnoor-SemiBold.ttf
 extract: {}
-copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/glagolitic)
+copyright: Original font copyright (c) 2014-2017 CDAST, University of Hyderabad, Hyderabad
+  (cdast@uohyd.ernet.in).
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/glagolitic)
+  Original font copyright (c) 2014-2017 CDAST, University of Hyderabad, Hyderabad (cdast@uohyd.ernet.in).
+  Additions and modifications copyright (c) 2015-2023 SIL International (https://www.sil.org/).
+  Latin glyphs copyright (c) 2010, 2012, 2014, 2021 Adobe Systems Incorporated
+  (http://www.adobe.com/), with Reserved Font Name 'Source'.
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -115,5 +168,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 4afb3c2f2129c7131c515710b20316dee5367cc64f7c2b7cbb2b7660bce12be8
+digest: c39ac1c072e8a74be31ecff220453585038d2b7af1c818e0f12f200d5898e17b
 command: import google --formulas_path Formulas -n 50

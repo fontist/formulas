@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Bhaiksuki
 description: Noto Sans Bhaiksuki
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Bhaiksuki.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Bhaiksuki
-    sha256: 30bbd3eafcf9b023bd4c1564730929b21446858b949a4a3f96fbe4614c97bc45
-    file_size: 90509
+    sha256: 35afd553fc5347ff8fa5bbd3f95c82ebf118776c39f8d87d85265f475f826d78
+    file_size: 159327
 fonts:
 - name: Noto Sans Bhaiksuki
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Bhaiksuki Regular
     post_script_name: NotoSansBhaiksuki-Regular
-    version: '2.001'
+    version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bhaiksuki)
     font: NotoSansBhaiksuki-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bhaiksuki)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bhaiksuki)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 0cc2e7c4ec552da9eda0f4aacd851abfaf802a5f62a257e339bbd0acf17119d5
-command: google import --formulas_path Formulas
+digest: a61650f12c3ad7a1b2a2d684da62a96e318f52fbd2881b11052cbdde5770158f
+command: import google --formulas_path Formulas -n 50

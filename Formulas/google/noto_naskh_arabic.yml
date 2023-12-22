@@ -5,7 +5,7 @@ resources:
   Noto_Naskh_Arabic.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Naskh%20Arabic
-    file_size: 378907
+    file_size: 503840
 fonts:
 - name: Noto Naskh Arabic
   styles:
@@ -13,25 +13,25 @@ fonts:
     type: Bold
     full_name: Noto Naskh Arabic Bold
     post_script_name: NotoNaskhArabic-Bold
-    version: '2.001'
-    description: Designed by Monotype Design Team, David Williams and Mohamad Dakak
-    copyright: Copyright 2019 Google LLC. All Rights Reserved.
+    version: '2.016'
+    description: Monotype Design Team, David Williams, Mohamad Dakak and Nizar Qandah
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/arabic)
     font: NotoNaskhArabic-Bold.ttf
   - family_name: Noto Naskh Arabic
     type: Regular
     full_name: Noto Naskh Arabic Regular
     post_script_name: NotoNaskhArabic-Regular
-    version: '2.001'
-    description: Designed by Monotype Design Team, David Williams and Mohamad Dakak
-    copyright: Copyright 2019 Google LLC. All Rights Reserved.
+    version: '2.016'
+    description: Monotype Design Team, David Williams, Mohamad Dakak and Nizar Qandah
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/arabic)
     font: NotoNaskhArabic-VariableFont_wght.ttf
   - family_name: Noto Naskh Arabic
     type: Regular
     full_name: Noto Naskh Arabic Regular
     post_script_name: NotoNaskhArabic-Regular
-    version: '2.001'
-    description: Designed by Monotype Design Team, David Williams and Mohamad Dakak
-    copyright: Copyright 2019 Google LLC. All Rights Reserved.
+    version: '2.016'
+    description: Monotype Design Team, David Williams, Mohamad Dakak and Nizar Qandah
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/arabic)
     font: NotoNaskhArabic-Regular.ttf
 - name: Noto Naskh Arabic Medium
   styles:
@@ -41,9 +41,9 @@ fonts:
     preferred_type: Medium
     full_name: Noto Naskh Arabic Medium
     post_script_name: NotoNaskhArabic-Medium
-    version: '2.001'
-    description: Designed by Monotype Design Team, David Williams and Mohamad Dakak
-    copyright: Copyright 2019 Google LLC. All Rights Reserved.
+    version: '2.016'
+    description: Monotype Design Team, David Williams, Mohamad Dakak and Nizar Qandah
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/arabic)
     font: NotoNaskhArabic-Medium.ttf
 - name: Noto Naskh Arabic SemiBold
   styles:
@@ -53,15 +53,15 @@ fonts:
     preferred_type: SemiBold
     full_name: Noto Naskh Arabic SemiBold
     post_script_name: NotoNaskhArabic-SemiBold
-    version: '2.001'
-    description: Designed by Monotype Design Team, David Williams and Mohamad Dakak
-    copyright: Copyright 2019 Google LLC. All Rights Reserved.
+    version: '2.016'
+    description: Monotype Design Team, David Williams, Mohamad Dakak and Nizar Qandah
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/arabic)
     font: NotoNaskhArabic-SemiBold.ttf
 extract: {}
-copyright: Copyright 2019 Google LLC. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/arabic)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/arabic)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -154,5 +154,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 6dce6d693000f622a239314060a5cd188579209854408439ada597f1cdece1df
-command: import google --formulas_path Formulas
+digest: b87e8657a100a29f6d906cd23d5b8c4fd2a75de3276de5cccae8118a9ccc7ae6
+command: import google --formulas_path Formulas -n 50

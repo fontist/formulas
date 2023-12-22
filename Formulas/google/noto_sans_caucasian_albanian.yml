@@ -1,30 +1,28 @@
 ---
-name: Noto Sans Caucasian Albanian
 description: Noto Sans Caucasian Albanian
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Caucasian_Albanian.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Caucasian%20Albanian
-    sha256: 5792c555f020d9107ea01fc913125fd6d05f8a1ece1eab7abcdf594741a084b6
-    file_size: 13101
+    sha256: 33a40b19d5c521bab6865200779473aeaf2a46c3cb29f3657f0e8392fe4a0867
+    file_size: 43437
 fonts:
-- name: Noto Sans CaucAlban
+- name: Noto Sans Caucasian Albanian
   styles:
-  - family_name: Noto Sans CaucAlban
+  - family_name: Noto Sans Caucasian Albanian
     type: Regular
-    preferred_family_name: Noto Sans Caucasian Albanian
     full_name: Noto Sans Caucasian Albanian Regular
     post_script_name: NotoSansCaucasianAlbanian-Regular
-    version: '2.001'
+    version: 2.005; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2018 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/caucasian-albanian)
     font: NotoSansCaucasianAlbanian-Regular.ttf
 extract: {}
-copyright: Copyright 2018 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/caucasian-albanian)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/caucasian-albanian)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 455bfac495cf617fe42ca6d61a6de2a8cd1b7d97777910c6d876fd63c81d9a61
-command: google import --formulas_path Formulas
+digest: c18ab82a0045014ca861bdba619b785d0da3735a7a7e1d7fdb0a97e5eeb06390
+command: import google --formulas_path Formulas -n 50

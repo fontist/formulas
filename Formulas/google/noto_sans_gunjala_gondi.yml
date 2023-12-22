@@ -1,29 +1,67 @@
 ---
-name: Noto Sans Gunjala Gondi
 description: Noto Sans Gunjala Gondi
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Gunjala_Gondi.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Gunjala%20Gondi
-    sha256: 3745e9e9233d6f4b629db40e7a24d001c6168c244ba2f113f68eb94e444c15d9
-    file_size: 25008
+    file_size: 265943
 fonts:
 - name: Noto Sans Gunjala Gondi
   styles:
   - family_name: Noto Sans Gunjala Gondi
+    type: Bold
+    full_name: Noto Sans Gunjala Gondi Bold
+    post_script_name: NotoSansGunjalaGondi-Bold
+    version: '1.004'
+    description: Designed by Ek Type
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/gunjala-gondi)
+    font: NotoSansGunjalaGondi-Bold.ttf
+  - family_name: Noto Sans Gunjala Gondi
     type: Regular
     full_name: Noto Sans Gunjala Gondi Regular
     post_script_name: NotoSansGunjalaGondi-Regular
-    version: '1.002'
+    version: '1.004'
     description: Designed by Ek Type
-    copyright: Copyright 2019 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/gunjala-gondi)
+    font: NotoSansGunjalaGondi-VariableFont_wght.ttf
+  - family_name: Noto Sans Gunjala Gondi
+    type: Regular
+    full_name: Noto Sans Gunjala Gondi Regular
+    post_script_name: NotoSansGunjalaGondi-Regular
+    version: '1.004'
+    description: Designed by Ek Type
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/gunjala-gondi)
     font: NotoSansGunjalaGondi-Regular.ttf
+- name: Noto Sans Gunjala Gondi Medium
+  styles:
+  - family_name: Noto Sans Gunjala Gondi Medium
+    type: Regular
+    preferred_family_name: Noto Sans Gunjala Gondi
+    preferred_type: Medium
+    full_name: Noto Sans Gunjala Gondi Medium
+    post_script_name: NotoSansGunjalaGondi-Medium
+    version: '1.004'
+    description: Designed by Ek Type
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/gunjala-gondi)
+    font: NotoSansGunjalaGondi-Medium.ttf
+- name: Noto Sans Gunjala Gondi SemiBold
+  styles:
+  - family_name: Noto Sans Gunjala Gondi SemiBold
+    type: Regular
+    preferred_family_name: Noto Sans Gunjala Gondi
+    preferred_type: SemiBold
+    full_name: Noto Sans Gunjala Gondi SemiBold
+    post_script_name: NotoSansGunjalaGondi-SemiBold
+    version: '1.004'
+    description: Designed by Ek Type
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/gunjala-gondi)
+    font: NotoSansGunjalaGondi-SemiBold.ttf
 extract: {}
-copyright: Copyright 2019 Google LLC. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/gunjala-gondi)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/gunjala-gondi)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +154,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e89550aef693530537ba15c48ac58f69da3dbb8a58d15ab563e82db81d8a664c
-command: google import --formulas_path Formulas
+digest: a2cbcb40211307f465f4d1560596235a6fcd2771dfa46643cf48790d3384b179
+command: import google --formulas_path Formulas -n 50

@@ -1,13 +1,11 @@
 ---
-name: Noto Nastaliq Urdu
 description: Noto Nastaliq Urdu
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Nastaliq_Urdu.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Nastaliq%20Urdu
-    sha256: 5914dda040b402e654bc209adc7488cabd28d1d792df997cda9828a1a1083b61
-    file_size: 442393
+    file_size: 1373459
 fonts:
 - name: Noto Nastaliq Urdu
   styles:
@@ -15,25 +13,60 @@ fonts:
     type: Bold
     full_name: Noto Nastaliq Urdu Bold
     post_script_name: NotoNastaliqUrdu-Bold
-    version: 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D arab -f none -a
-      qsq -X ""
-    description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    version: '3.007'
+    description: 'Designed by Monotype design team  (Patrick Giasson: type design,
+      Kamal Mansour: OpenType code, Glenda Bellarosa). Updated by Simon Cozens.'
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nastaliq)
     font: NotoNastaliqUrdu-Bold.ttf
   - family_name: Noto Nastaliq Urdu
     type: Regular
     full_name: Noto Nastaliq Urdu Regular
     post_script_name: NotoNastaliqUrdu-Regular
-    version: 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D arab -f none -a
-      qsq -X ""
-    description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    version: '3.007'
+    description: 'Designed by Monotype design team  (Patrick Giasson: type design,
+      Kamal Mansour: OpenType code, Glenda Bellarosa). Updated by Simon Cozens.'
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nastaliq)
+    font: NotoNastaliqUrdu-VariableFont_wght.ttf
+  - family_name: Noto Nastaliq Urdu
+    type: Regular
+    full_name: Noto Nastaliq Urdu Regular
+    post_script_name: NotoNastaliqUrdu-Regular
+    version: '3.007'
+    description: 'Designed by Monotype design team  (Patrick Giasson: type design,
+      Kamal Mansour: OpenType code, Glenda Bellarosa). Updated by Simon Cozens.'
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nastaliq)
     font: NotoNastaliqUrdu-Regular.ttf
+- name: Noto Nastaliq Urdu Medium
+  styles:
+  - family_name: Noto Nastaliq Urdu Medium
+    type: Regular
+    preferred_family_name: Noto Nastaliq Urdu
+    preferred_type: Medium
+    full_name: Noto Nastaliq Urdu Medium
+    post_script_name: NotoNastaliqUrdu-Medium
+    version: '3.007'
+    description: 'Designed by Monotype design team  (Patrick Giasson: type design,
+      Kamal Mansour: OpenType code, Glenda Bellarosa). Updated by Simon Cozens.'
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nastaliq)
+    font: NotoNastaliqUrdu-Medium.ttf
+- name: Noto Nastaliq Urdu SemiBold
+  styles:
+  - family_name: Noto Nastaliq Urdu SemiBold
+    type: Regular
+    preferred_family_name: Noto Nastaliq Urdu
+    preferred_type: SemiBold
+    full_name: Noto Nastaliq Urdu SemiBold
+    post_script_name: NotoNastaliqUrdu-SemiBold
+    version: '3.007'
+    description: 'Designed by Monotype design team  (Patrick Giasson: type design,
+      Kamal Mansour: OpenType code, Glenda Bellarosa). Updated by Simon Cozens.'
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nastaliq)
+    font: NotoNastaliqUrdu-SemiBold.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nastaliq)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nastaliq)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -126,5 +159,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ff170b642eba95617769a9baed1a6a5dae4a56b2d657f6140765f8895cd7255f
-command: google import --formulas_path Formulas
+digest: a00cc72fad74c30c3be8df2fbde1365c110f0eb938a8fb9c769d6603b341afa2
+command: import google --formulas_path Formulas -n 50

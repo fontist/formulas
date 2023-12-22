@@ -1,30 +1,28 @@
 ---
-name: Noto Sans Anatolian Hieroglyphs
 description: Noto Sans Anatolian Hieroglyphs
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Anatolian_Hieroglyphs.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Anatolian%20Hieroglyphs
-    sha256: 2fe6063d18a0394c4acabb0e6fec03312ceb52de02902b49c191d5cdfbc09733
-    file_size: 133342
+    sha256: 6d688ead5a6ab97e6a4f799b70e30d8d7febca146bf935ebd8f9eacaa6182dbc
+    file_size: 220457
 fonts:
-- name: Noto Sans AnatoHiero
+- name: Noto Sans Anatolian Hieroglyphs
   styles:
-  - family_name: Noto Sans AnatoHiero
+  - family_name: Noto Sans Anatolian Hieroglyphs
     type: Regular
-    preferred_family_name: Noto Sans Anatolian Hieroglyphs
     full_name: Noto Sans Anatolian Hieroglyphs Regular
     post_script_name: NotoSansAnatolianHieroglyphs-Regular
-    version: '2.000'
+    version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/anatolian-hieroglyphs)
     font: NotoSansAnatolianHieroglyphs-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/anatolian-hieroglyphs)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/anatolian-hieroglyphs)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: f09c1321ba88bc5e0b9e560ba6a300da8c76830156b02323643dbb600f562489
-command: google import --formulas_path Formulas
+digest: 8ec37c09d57d288da27bba5a76283d24b25493812e2fb0d823e922247b110764
+command: import google --formulas_path Formulas -n 50

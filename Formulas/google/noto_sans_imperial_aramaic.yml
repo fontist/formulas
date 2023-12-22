@@ -1,30 +1,28 @@
 ---
-name: Noto Sans Imperial Aramaic
 description: Noto Sans Imperial Aramaic
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Imperial_Aramaic.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Imperial%20Aramaic
-    sha256: a96bbee62cac7d95f257ccad4685bdc986c1e77c5052e5ceb0cb293274ee5dc9
-    file_size: 6281
+    sha256: 7f069928c04600f82e3ddc3d1a44bc16b407284e9f42ffde143f674d249cb606
+    file_size: 31720
 fonts:
-- name: Noto Sans ImpAramaic
+- name: Noto Sans Imperial Aramaic
   styles:
-  - family_name: Noto Sans ImpAramaic
+  - family_name: Noto Sans Imperial Aramaic
     type: Regular
-    preferred_family_name: Noto Sans Imperial Aramaic
     full_name: Noto Sans Imperial Aramaic Regular
     post_script_name: NotoSansImperialAramaic-Regular
-    version: '2.000'
+    version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/imperial-aramaic)
     font: NotoSansImperialAramaic-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/imperial-aramaic)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/imperial-aramaic)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: f9eae729cffdb67bdea03af6254036ee8fd66d6a6e40cd6f2fc7805e172c9d19
-command: google import --formulas_path Formulas
+digest: 6d369108e444351dfae868bc1d72bdbf86e2949609f973c53b709599f4787d44
+command: import google --formulas_path Formulas -n 50

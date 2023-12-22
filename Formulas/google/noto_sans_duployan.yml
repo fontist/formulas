@@ -1,29 +1,39 @@
 ---
-name: Noto Sans Duployan
 description: Noto Sans Duployan
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Duployan.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Duployan
-    sha256: 7271fad1523e9b2776fbdf88ae0487b45ce908b5548f4c5c6823636b4710d482
-    file_size: 10459
+    sha256: b744f72c96d23e58c8a02dcaf1c78ade83acd7a4170800c33160fd4827a831ba
+    file_size: 1307133
 fonts:
 - name: Noto Sans Duployan
   styles:
   - family_name: Noto Sans Duployan
+    type: Bold
+    full_name: Noto Sans Duployan Bold
+    post_script_name: NotoSansDuployan-Bold
+    version: '3.001'
+    description: Designed by David Corbett
+    copyright: Copyright 2018-2019 David Corbett. Copyright 2019-2022 Google LLC.
+      All Rights Reserved.
+    font: NotoSansDuployan-Bold.ttf
+  - family_name: Noto Sans Duployan
     type: Regular
     full_name: Noto Sans Duployan Regular
     post_script_name: NotoSansDuployan-Regular
-    version: '2.000'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2018 Google LLC. All Rights Reserved.
+    version: '3.001'
+    description: Designed by David Corbett
+    copyright: Copyright 2018-2019 David Corbett. Copyright 2019-2022 Google LLC.
+      All Rights Reserved.
     font: NotoSansDuployan-Regular.ttf
 extract: {}
-copyright: Copyright 2018 Google LLC. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2018-2019 David Corbett. Copyright 2019-2022 Google LLC. All
+  Rights Reserved.
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/duployan)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +126,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ca1aed133a54b5273418c540531bfbe114672c962638884293a7e1a4f374203a
-command: google import --formulas_path Formulas
+digest: 2c79a48dfb7368640a2b66883eb6bb3e999597ae2dbd82025cea83f8f7dc746d
+command: import google --formulas_path Formulas -n 50

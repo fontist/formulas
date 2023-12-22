@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Hatran
 description: Noto Sans Hatran
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Hatran.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Hatran
-    sha256: 29ce38dd67bd89e0ef7d4b165d940dc22a2a342a9a2585ef079475b5c6b7ce54
-    file_size: 4926
+    sha256: c0c277f6989322d27a89c47ff354d4e19a746dd8d1a864caf78742fffee87b60
+    file_size: 30184
 fonts:
 - name: Noto Sans Hatran
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Hatran Regular
     post_script_name: NotoSansHatran-Regular
-    version: '2.000'
+    version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2018 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hatran)
     font: NotoSansHatran-Regular.ttf
 extract: {}
-copyright: Copyright 2018 Google LLC. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hatran)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hatran)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: fb95d895e7b44f75671818810c8248b8e1cf9e75601ba22b4e3422cbd7547a09
-command: google import --formulas_path Formulas
+digest: 5e21cc4a18ee1df66838fa0c719feaf40918f96db4e70900345ccd8862174439
+command: import google --formulas_path Formulas -n 50
