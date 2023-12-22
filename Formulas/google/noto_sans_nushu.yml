@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Nushu
 description: Noto Sans Nushu
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Nushu.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Nushu
-    sha256: d4fb923b836350ede06b5fd1651827af2983c2dc18ff97035fab424b5827ca21
-    file_size: 65026
+    sha256: b420228a2fb9d6c618fbcaba6aeb452fe518e798754428b2769ab7c0580f18d6
+    file_size: 104727
 fonts:
 - name: Noto Sans Nushu
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Nushu Regular
     post_script_name: NotoSansNushu-Regular
-    version: '1.002'
+    version: 1.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Lisa Huang
-    copyright: Copyright 2020 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nushu)
     font: NotoSansNushu-Regular.ttf
 extract: {}
-copyright: Copyright 2020 Google LLC. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nushu)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nushu)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 1a35059600208faacd12a02a2dfe359ae95b7458658180594c15d3de8bab1562
-command: google import --formulas_path Formulas
+digest: b9e127b94851de8ecedb359c5540781a7fd818d75e49fb689ca856bb7f196a6e
+command: import google --formulas_path Formulas -n 50

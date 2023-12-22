@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Kharoshthi
 description: Noto Sans Kharoshthi
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Kharoshthi.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Kharoshthi
-    sha256: db6dcec8d97d1e3cf7f7a34c358461f16ec3095b36a2c82a28e4db8d5ede904f
-    file_size: 21933
+    sha256: d17fb67221cba8ce4738e16216c74a32ccff61e097acb91fff7cfb46ad628405
+    file_size: 51469
 fonts:
 - name: Noto Sans Kharoshthi
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Kharoshthi Regular
     post_script_name: NotoSansKharoshthi-Regular
-    version: '2.001'
+    version: 2.004; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/kharoshthi)
     font: NotoSansKharoshthi-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/kharoshthi)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/kharoshthi)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 70bb950d9814b7a9c8aef5384667dd7623a80e4fac6c35ba7a356c1490a1d5ee
-command: google import --formulas_path Formulas
+digest: b1fe64be0026807e7815f07cec069b32b41ff1dbd35bd4fe2175e932541330c1
+command: import google --formulas_path Formulas -n 50

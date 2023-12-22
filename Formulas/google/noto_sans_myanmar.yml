@@ -1,13 +1,11 @@
 ---
-name: Noto Sans Myanmar
 description: Noto Sans Myanmar
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Myanmar.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Myanmar
-    sha256: 6fdbad52632d134b0174d849f7459e763210459461deafee5b713cebf93df138
-    file_size: 877186
+    file_size: 874826
 fonts:
 - name: Noto Sans Myanmar
   styles:
@@ -217,5 +215,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e7391deb91cfcd7d7dbde3ba912a99ce9a3a772e73abcdfa31697d6b7e1a782c
-command: google import --formulas_path Formulas
+digest: c5c2e17c52b785071d016017a3f40f6bf5e111832d0f93b93fb2f3490ff42e59
+command: import google --formulas_path Formulas -n 50

@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Mongolian
 description: Noto Sans Mongolian
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Mongolian.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Mongolian
-    sha256: ae26de72e6980741501c30c1c486d342c8a3f06404358b96794d5408e19bc933
-    file_size: 94279
+    sha256: a6b42141216c9730489751e7313f6472f536a46c24082c85a709bc07dc3faeeb
+    file_size: 116236
 fonts:
 - name: Noto Sans Mongolian
   styles:
@@ -15,16 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Mongolian Regular
     post_script_name: NotoSansMongolian-Regular
-    version: 2.001; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D mong -f none -a
-      qsq -X ""
+    version: 2.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2018 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mongolian)
     font: NotoSansMongolian-Regular.ttf
 extract: {}
-copyright: Copyright 2018 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mongolian)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mongolian)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: a5971d9d88858e17adad9d4ea709cefe951390528399b75eca8960582a5f3fac
-command: google import --formulas_path Formulas
+digest: 324bf762653703a511203db4f39a59cac328b92e6ba4a5198c465ec881f6a84f
+command: import google --formulas_path Formulas -n 50

@@ -1,28 +1,61 @@
 ---
-description: Noto Sans Kaithi
-homepage: http://www.google.com/get/noto/
+description: Noto Sans Nag Mundari
 resources:
-  Noto_Sans_Kaithi.zip:
+  Noto_Sans_Nag_Mundari.zip:
     urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Kaithi
-    sha256: e93a32e457bb8a2d71500a188d47294e70fd133194e564f6db1d88d47e87abb3
-    file_size: 69526
+    - https://fonts.google.com/download?family=Noto%20Sans%20Nag%20Mundari
+    file_size: 135405
 fonts:
-- name: Noto Sans Kaithi
+- name: Noto Sans Nag Mundari
   styles:
-  - family_name: Noto Sans Kaithi
+  - family_name: Noto Sans Nag Mundari
+    type: Bold
+    full_name: Noto Sans Nag Mundari Bold
+    post_script_name: NotoSansNagMundari-Bold
+    version: '1.000'
+    copyright: "\"Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nag-mundari)"
+    font: NotoSansNagMundari-Bold.ttf
+  - family_name: Noto Sans Nag Mundari
     type: Regular
-    full_name: Noto Sans Kaithi Regular
-    post_script_name: NotoSansKaithi-Regular
-    version: 2.004; ttfautohint (v1.8.4.7-5d5b)
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/kaithi)
-    font: NotoSansKaithi-Regular.ttf
+    full_name: Noto Sans Nag Mundari Regular
+    post_script_name: NotoSansNagMundari-Regular
+    version: '1.000'
+    copyright: "\"Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nag-mundari)"
+    font: NotoSansNagMundari-VariableFont_wght.ttf
+  - family_name: Noto Sans Nag Mundari
+    type: Regular
+    full_name: Noto Sans Nag Mundari Regular
+    post_script_name: NotoSansNagMundari-Regular
+    version: '1.000'
+    copyright: "\"Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nag-mundari)"
+    font: NotoSansNagMundari-Regular.ttf
+- name: Noto Sans Nag Mundari Medium
+  styles:
+  - family_name: Noto Sans Nag Mundari Medium
+    type: Regular
+    preferred_family_name: Noto Sans Nag Mundari
+    preferred_type: Medium
+    full_name: Noto Sans Nag Mundari Medium
+    post_script_name: NotoSansNagMundari-Medium
+    version: '1.000'
+    copyright: "\"Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nag-mundari)"
+    font: NotoSansNagMundari-Medium.ttf
+- name: Noto Sans Nag Mundari SemiBold
+  styles:
+  - family_name: Noto Sans Nag Mundari SemiBold
+    type: Regular
+    preferred_family_name: Noto Sans Nag Mundari
+    preferred_type: SemiBold
+    full_name: Noto Sans Nag Mundari SemiBold
+    post_script_name: NotoSansNagMundari-SemiBold
+    version: '1.000'
+    copyright: "\"Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nag-mundari)"
+    font: NotoSansNagMundari-SemiBold.ttf
 extract: {}
-copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/kaithi)
+copyright: "\"Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nag-mundari)"
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/kaithi)
+  Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nag-mundari)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -115,5 +148,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 04f7dc31f374f9b72762e65738f60fc20a9307e507b4dfc69f5fdb7e90186c99
+digest: 8801839e08bec2d11fa7ce3ce94f86fd2ad2203faff6e6fc1414b9bf117895f9
 command: import google --formulas_path Formulas -n 50

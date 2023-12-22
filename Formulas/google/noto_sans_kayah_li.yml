@@ -1,12 +1,11 @@
 ---
-name: Noto Sans Kayah Li
 description: Noto Sans Kayah Li
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Kayah_Li.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Kayah%20Li
-    file_size: 34373
+    file_size: 116742
 fonts:
 - name: Noto Sans Kayah Li
   styles:
@@ -14,25 +13,25 @@ fonts:
     type: Bold
     full_name: Noto Sans Kayah Li Bold
     post_script_name: NotoSansKayahLi-Bold
-    version: '2.001'
+    version: '2.002'
     description: Designed by Monotype design team and Sérgio Martins.
-    copyright: Copyright 2017-2019 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/kayah-li)
     font: NotoSansKayahLi-Bold.ttf
   - family_name: Noto Sans Kayah Li
     type: Regular
     full_name: Noto Sans Kayah Li Regular
     post_script_name: NotoSansKayahLi-Regular
-    version: '2.001'
+    version: '2.002'
     description: Designed by Monotype design team and Sérgio Martins.
-    copyright: Copyright 2017-2019 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/kayah-li)
     font: NotoSansKayahLi-VariableFont_wght.ttf
   - family_name: Noto Sans Kayah Li
     type: Regular
     full_name: Noto Sans Kayah Li Regular
     post_script_name: NotoSansKayahLi-Regular
-    version: '2.001'
+    version: '2.002'
     description: Designed by Monotype design team and Sérgio Martins.
-    copyright: Copyright 2017-2019 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/kayah-li)
     font: NotoSansKayahLi-Regular.ttf
 - name: Noto Sans Kayah Li Medium
   styles:
@@ -42,9 +41,9 @@ fonts:
     preferred_type: Medium
     full_name: Noto Sans Kayah Li Medium
     post_script_name: NotoSansKayahLi-Medium
-    version: '2.001'
+    version: '2.002'
     description: Designed by Monotype design team and Sérgio Martins.
-    copyright: Copyright 2017-2019 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/kayah-li)
     font: NotoSansKayahLi-Medium.ttf
 - name: Noto Sans Kayah Li SemiBold
   styles:
@@ -54,15 +53,15 @@ fonts:
     preferred_type: SemiBold
     full_name: Noto Sans Kayah Li SemiBold
     post_script_name: NotoSansKayahLi-SemiBold
-    version: '2.001'
+    version: '2.002'
     description: Designed by Monotype design team and Sérgio Martins.
-    copyright: Copyright 2017-2019 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/kayah-li)
     font: NotoSansKayahLi-SemiBold.ttf
 extract: {}
-copyright: Copyright 2017-2019 Google LLC. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/kayah-li)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/kayah-li)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -155,5 +154,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 3a98caf543df3411452480e5cffde14192830cea8daa6b62060e424c41c24a3a
-command: google import --formulas_path Formulas
+digest: 9ea1b9a324072d43609ff91bc69f0b20f387bc1512c148b8e5cf873643f1eed0
+command: import google --formulas_path Formulas -n 50

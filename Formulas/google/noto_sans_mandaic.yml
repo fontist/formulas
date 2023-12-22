@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Mandaic
 description: Noto Sans Mandaic
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Mandaic.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Mandaic
-    sha256: 76cce9cd0a0fa3336457f53904f469ea5e9fd7c633a09cb19b678d6acdd82f5b
-    file_size: 15928
+    sha256: 4b2f0e6db5a2eab13e81e555fe886034d6af485241ae1deb82af1148ce287343
+    file_size: 36773
 fonts:
 - name: Noto Sans Mandaic
   styles:
@@ -15,16 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Mandaic Regular
     post_script_name: NotoSansMandaic-Regular
-    version: 2.001; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a
-      qsq -X ""
+    version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2020 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mandaic)
     font: NotoSansMandaic-Regular.ttf
 extract: {}
-copyright: Copyright 2020 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mandaic)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mandaic)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: cc268819d07fbcb5e9e287048accb94e87092fe656d90294e1312b73ea5b2817
-command: google import --formulas_path Formulas
+digest: c6cf66e22e21c66ab67ad5f0fe5cf07a4c22b3bcb45e7745d6bd038cebe36023
+command: import google --formulas_path Formulas -n 50

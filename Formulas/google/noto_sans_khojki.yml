@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Khojki
 description: Noto Sans Khojki
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Khojki.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Khojki
-    sha256: 6c7779bf3b7bb8adf8833b69bc6f6dfe43d550185612ddac0cb9b681030edb9e
-    file_size: 33872
+    sha256: a47ea35fdc0d7c7a47e61eeafbe3423e8eab03c56f7937ba4e640ec29b662c03
+    file_size: 57638
 fonts:
 - name: Noto Sans Khojki
   styles:
@@ -15,16 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Khojki Regular
     post_script_name: NotoSansKhojki-Regular
-    version: 2.001; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a
-      qsq -X ""
+    version: 2.004; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2018 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/khojki)
     font: NotoSansKhojki-Regular.ttf
 extract: {}
-copyright: Copyright 2018 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/khojki)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/khojki)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 07dfb12db9333cdc464cfe5ee5f5fbbbbd474900dbd1eadff684f2cc023fff2a
-command: google import --formulas_path Formulas
+digest: 89e6a6a7c5855e5e5242dcda6f5643e33d8c1f16b4b3f51e47822350e8dd0760
+command: import google --formulas_path Formulas -n 50

@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Math
 description: Noto Sans Math
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Math.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Math
-    sha256: e558d574daf0696909a5ee521c1a2eb85396bdeb3454cf3b9828540e006ba2bc
-    file_size: 320817
+    sha256: 65cd6cc412108e6de5255faaa686123ffc8484adf7805f254b2b160a2eabe325
+    file_size: 320416
 fonts:
 - name: Noto Sans Math
   styles:
@@ -117,5 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 3c6da35459d4f30a172e396e3ea318dad5fee738d23eb99ed45057e72672795d
-command: google import --formulas_path Formulas
+digest: f2bb24a4dd812865dfd58e198864e5034d4cc2349315a3f3a52680485414529a
+command: import google --formulas_path Formulas -n 50

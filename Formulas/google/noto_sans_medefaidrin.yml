@@ -1,12 +1,11 @@
 ---
-name: Noto Sans Medefaidrin
 description: Noto Sans Medefaidrin
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Medefaidrin.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Medefaidrin
-    file_size: 96709
+    file_size: 187795
 fonts:
 - name: Noto Sans Medefaidrin
   styles:
@@ -14,22 +13,22 @@ fonts:
     type: Bold
     full_name: Noto Sans Medefaidrin Bold
     post_script_name: NotoSansMedefaidrin-Bold
-    version: '1.001'
-    copyright: Copyright 2020 Google Inc. All Rights Reserved.
+    version: '1.002'
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/medefaidrin)
     font: NotoSansMedefaidrin-Bold.ttf
   - family_name: Noto Sans Medefaidrin
     type: Regular
     full_name: Noto Sans Medefaidrin Regular
     post_script_name: NotoSansMedefaidrin-Regular
-    version: '1.001'
-    copyright: Copyright 2020 Google Inc. All Rights Reserved.
+    version: '1.002'
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/medefaidrin)
     font: NotoSansMedefaidrin-VariableFont_wght.ttf
   - family_name: Noto Sans Medefaidrin
     type: Regular
     full_name: Noto Sans Medefaidrin Regular
     post_script_name: NotoSansMedefaidrin-Regular
-    version: '1.001'
-    copyright: Copyright 2020 Google Inc. All Rights Reserved.
+    version: '1.002'
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/medefaidrin)
     font: NotoSansMedefaidrin-Regular.ttf
 - name: Noto Sans Medefaidrin Medium
   styles:
@@ -39,8 +38,8 @@ fonts:
     preferred_type: Medium
     full_name: Noto Sans Medefaidrin Medium
     post_script_name: NotoSansMedefaidrin-Medium
-    version: '1.001'
-    copyright: Copyright 2020 Google Inc. All Rights Reserved.
+    version: '1.002'
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/medefaidrin)
     font: NotoSansMedefaidrin-Medium.ttf
 - name: Noto Sans Medefaidrin SemiBold
   styles:
@@ -50,14 +49,14 @@ fonts:
     preferred_type: SemiBold
     full_name: Noto Sans Medefaidrin SemiBold
     post_script_name: NotoSansMedefaidrin-SemiBold
-    version: '1.001'
-    copyright: Copyright 2020 Google Inc. All Rights Reserved.
+    version: '1.002'
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/medefaidrin)
     font: NotoSansMedefaidrin-SemiBold.ttf
 extract: {}
-copyright: Copyright 2020 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/medefaidrin)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/medefaidrin)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -150,5 +149,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 4117b2143cdabf9aa71112a5b3dd5516ce7df52d3534529d7e097528f52c5f52
-command: google import --formulas_path Formulas
+digest: 75884094b04523cc3c541a8616cee36208db8f3238bdad167c6fc8f9f44febd6
+command: import google --formulas_path Formulas -n 50

@@ -1,30 +1,28 @@
 ---
-name: Noto Sans Inscriptional Parthian
 description: Noto Sans Inscriptional Parthian
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Inscriptional_Parthian.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Inscriptional%20Parthian
-    sha256: 2d6c6c470f0c9b9d80c222a9b3e8614b72127ff22cd151638cc889905bf5f563
-    file_size: 6909
+    sha256: 1e2cdb80f40e86e73874a326316d8e99e9ccccee4e643d91bbaa210009a18cf8
+    file_size: 32045
 fonts:
-- name: Noto Sans InsParthi
+- name: Noto Sans Inscriptional Parthian
   styles:
-  - family_name: Noto Sans InsParthi
+  - family_name: Noto Sans Inscriptional Parthian
     type: Regular
-    preferred_family_name: Noto Sans Inscriptional Parthian
     full_name: Noto Sans Inscriptional Parthian Regular
     post_script_name: NotoSansInscriptionalParthian-Regular
-    version: '2.000'
+    version: 2.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/inscriptional-parthian)
     font: NotoSansInscriptionalParthian-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/inscriptional-parthian)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/inscriptional-parthian)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: a10c5910a142d860eddbc5fc8206f7fd90ca91c5dd9267329a2994861281cdf2
-command: google import --formulas_path Formulas
+digest: e378131f733c54c36996d2792599c7b12ad48463b1c2f477912d863b208d802c
+command: import google --formulas_path Formulas -n 50

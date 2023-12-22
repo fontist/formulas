@@ -1,28 +1,67 @@
 ---
-description: Noto Sans Kaithi
+description: Noto Sans NKo Unjoined
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Kaithi.zip:
+  Noto_Sans_NKo_Unjoined.zip:
     urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Kaithi
-    sha256: e93a32e457bb8a2d71500a188d47294e70fd133194e564f6db1d88d47e87abb3
-    file_size: 69526
+    - https://fonts.google.com/download?family=Noto%20Sans%20NKo%20Unjoined
+    file_size: 140047
 fonts:
-- name: Noto Sans Kaithi
+- name: Noto Sans NKo Unjoined
   styles:
-  - family_name: Noto Sans Kaithi
-    type: Regular
-    full_name: Noto Sans Kaithi Regular
-    post_script_name: NotoSansKaithi-Regular
-    version: 2.004; ttfautohint (v1.8.4.7-5d5b)
+  - family_name: Noto Sans NKo Unjoined
+    type: Bold
+    full_name: Noto Sans NKo Unjoined Bold
+    post_script_name: NotoSansNKoUnjoined-Bold
+    version: '2.004'
     description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/kaithi)
-    font: NotoSansKaithi-Regular.ttf
+    copyright: Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nko)
+    font: NotoSansNKoUnjoined-Bold.ttf
+  - family_name: Noto Sans NKo Unjoined
+    type: Regular
+    full_name: Noto Sans NKo Unjoined Regular
+    post_script_name: NotoSansNKoUnjoined-Regular
+    version: '2.004'
+    description: Designed by Monotype design team.
+    copyright: Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nko)
+    font: NotoSansNKoUnjoined-VariableFont_wght.ttf
+  - family_name: Noto Sans NKo Unjoined
+    type: Regular
+    full_name: Noto Sans NKo Unjoined Regular
+    post_script_name: NotoSansNKoUnjoined-Regular
+    version: '2.004'
+    description: Designed by Monotype design team.
+    copyright: Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nko)
+    font: NotoSansNKoUnjoined-Regular.ttf
+- name: Noto Sans NKo Unjoined Medium
+  styles:
+  - family_name: Noto Sans NKo Unjoined Medium
+    type: Regular
+    preferred_family_name: Noto Sans NKo Unjoined
+    preferred_type: Medium
+    full_name: Noto Sans NKo Unjoined Medium
+    post_script_name: NotoSansNKoUnjoined-Medium
+    version: '2.004'
+    description: Designed by Monotype design team.
+    copyright: Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nko)
+    font: NotoSansNKoUnjoined-Medium.ttf
+- name: Noto Sans NKo Unjoined SemiBold
+  styles:
+  - family_name: Noto Sans NKo Unjoined SemiBold
+    type: Regular
+    preferred_family_name: Noto Sans NKo Unjoined
+    preferred_type: SemiBold
+    full_name: Noto Sans NKo Unjoined SemiBold
+    post_script_name: NotoSansNKoUnjoined-SemiBold
+    version: '2.004'
+    description: Designed by Monotype design team.
+    copyright: Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nko)
+    font: NotoSansNKoUnjoined-SemiBold.ttf
 extract: {}
-copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/kaithi)
+copyright: Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nko)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/kaithi)
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nko)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -115,5 +154,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 04f7dc31f374f9b72762e65738f60fc20a9307e507b4dfc69f5fdb7e90186c99
+digest: 0b4106e8a8443db6b8cf077df67910c4bde9c0897d2ae5af36cee9d785c903e4
 command: import google --formulas_path Formulas -n 50

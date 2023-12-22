@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Mahajani
 description: Noto Sans Mahajani
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Mahajani.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Mahajani
-    sha256: 80444596c0b3b75db4a598ad88c263b110dd59a749def6d79a3b3f635e229c65
-    file_size: 15449
+    sha256: c4a45dc4ba4ccce9f8fb0050d55e5a2342b21226b4a254cfc4d6abc597208ca5
+    file_size: 38161
 fonts:
 - name: Noto Sans Mahajani
   styles:
@@ -15,16 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Mahajani Regular
     post_script_name: NotoSansMahajani-Regular
-    version: 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a
-      qsq -X ""
+    version: 2.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2018 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mahajani)
     font: NotoSansMahajani-Regular.ttf
 extract: {}
-copyright: Copyright 2018 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mahajani)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mahajani)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: a1fff01ccd0e73ca5f54d7571a639b0fb9a084916cdc5d644b8b09717b2a96fd
-command: google import --formulas_path Formulas
+digest: 025445611ddb4ffa773d1a666642155d11b587c886ffc152b3dcc0dfb1ee0b64
+command: import google --formulas_path Formulas -n 50

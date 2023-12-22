@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Mro
 description: Noto Sans Mro
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Mro.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Mro
-    sha256: abccdc4f6872c5208ac0fac452fef4190ebc63e9b4ad4e74a1327022ec2e238b
-    file_size: 6479
+    sha256: 33d0813a473cb505db946b5f8a462a2101bfd11d055a26ab53a4d005bf9849e2
+    file_size: 32787
 fonts:
 - name: Noto Sans Mro
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Mro Regular
     post_script_name: NotoSansMro-Regular
-    version: '2.000'
+    version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2018 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mro)
     font: NotoSansMro-Regular.ttf
 extract: {}
-copyright: Copyright 2018 Google LLC. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mro)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mro)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: c04b3963a812d89743491bb399b00c3982fd63b053ea94d98d9f39fdb6abb742
-command: google import --formulas_path Formulas
+digest: 3a1c66ffc6995343658472b6d4a7882984cb3cbeac175b624cbaaf425a71ad4d
+command: import google --formulas_path Formulas -n 50

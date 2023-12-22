@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Mende Kikakui
 description: Noto Sans Mende Kikakui
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Mende_Kikakui.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Mende%20Kikakui
-    sha256: 3cea3b88695e088ade27a403d0c2575fe7c00d35a4989b1873be3e150e5ffaa5
-    file_size: 20042
+    sha256: cc0164765a57dfc9969399275b87e893844a61881cc53296e1fd4fffe3475bc4
+    file_size: 53228
 fonts:
 - name: Noto Sans Mende Kikakui
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Mende Kikakui Regular
     post_script_name: NotoSansMendeKikakui-Regular
-    version: '2.000'
+    version: 2.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mende-kikakui)
     font: NotoSansMendeKikakui-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mende-kikakui)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mende-kikakui)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: f286252111ef46215300bc70f6506022a2d7d65e8cf8f5e87055ee845a11d6c6
-command: google import --formulas_path Formulas
+digest: 80f61b363f32d424944ef6045cc18c3a7d9f9a26ebbe87b2bdb90548e0230a1e
+command: import google --formulas_path Formulas -n 50

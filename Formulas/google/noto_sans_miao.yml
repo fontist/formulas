@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Miao
 description: Noto Sans Miao
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Miao.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Miao
-    sha256: f72abf9635268a3940c85efbd3663a689e781eeacb1a21cd62ebbe4e22649f42
-    file_size: 17741
+    sha256: acda3068f71290115c40a2737a9ba50f29b7221b3c5fa2558f7da2d5a1848b35
+    file_size: 48696
 fonts:
 - name: Noto Sans Miao
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Miao Regular
     post_script_name: NotoSansMiao-Regular
-    version: '2.001'
+    version: 2.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/miao)
     font: NotoSansMiao-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/miao)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/miao)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 6aea941353ccc8c03a5e1ef17835a903076ef6fd1093189ee22fd9fec361c262
-command: google import --formulas_path Formulas
+digest: 9c22be6ca13486fc718fb95a904cbbef169c506846a6aa7d5d30a11055ceb7df
+command: import google --formulas_path Formulas -n 50

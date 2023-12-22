@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Mayan Numerals
 description: Noto Sans Mayan Numerals
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Mayan_Numerals.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Mayan%20Numerals
-    sha256: d27191ae9664a93f0a462197659fd0e171d6664347bbf3a6d5a9863c9cf98603
-    file_size: 4049
+    sha256: b394240b2268c5babaa0db4caa743c5a7d6df70bd89b493129951da5114c6549
+    file_size: 29474
 fonts:
 - name: Noto Sans Mayan Numerals
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Mayan Numerals Regular
     post_script_name: NotoSansMayanNumerals-Regular
-    version: '2.000'
+    version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2019 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mayan-numerals)
     font: NotoSansMayanNumerals-Regular.ttf
 extract: {}
-copyright: Copyright 2019 Google LLC. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mayan-numerals)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mayan-numerals)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 18d9a77daa27189c57d427ea738d537485fd84f8da7474083d20f2d5977cd499
-command: google import --formulas_path Formulas
+digest: ee1da8eea8336766ba34125ecdf2c1372f8882a91f4b066cd908033cace5303b
+command: import google --formulas_path Formulas -n 50

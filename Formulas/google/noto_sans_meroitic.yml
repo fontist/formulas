@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Meroitic
 description: Noto Sans Meroitic
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Meroitic.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Meroitic
-    sha256: 1b61935484b42d35bdd98ae6ead5033665887c4daf572c47dcaa7668c9259a33
-    file_size: 18072
+    sha256: 4321723fa42c5d5c23757025927b8fdb40dd5f5df541ee3a41b7c378b137436e
+    file_size: 48918
 fonts:
 - name: Noto Sans Meroitic
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Meroitic Regular
     post_script_name: NotoSansMeroitic-Regular
-    version: '2.000'
+    version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/meroitic)
     font: NotoSansMeroitic-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/meroitic)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/meroitic)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 5579e664ef2081abd2e192549a947a840f49bde232335694e120b196633fc641
-command: google import --formulas_path Formulas
+digest: ff149958a494a24da93eaab75cf65fa06dba4dc6961d197da08d6d8558aee068
+command: import google --formulas_path Formulas -n 50

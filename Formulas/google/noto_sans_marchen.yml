@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Marchen
 description: Noto Sans Marchen
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Marchen.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Marchen
-    sha256: f9fe377338b7245788b096e28abea07c222261b5f8e0b781bafe90d5f8fc27fd
-    file_size: 41750
+    sha256: 5bd1ebe0e7bbf2e85eff3e4333dc46419715f6008746298fc5b6e43fd8cc43c3
+    file_size: 102811
 fonts:
 - name: Noto Sans Marchen
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Marchen Regular
     post_script_name: NotoSansMarchen-Regular
-    version: '2.002'
+    version: 2.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2020 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/marchen)
     font: NotoSansMarchen-Regular.ttf
 extract: {}
-copyright: Copyright 2020 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/marchen)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/marchen)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 53ae29e96d6bd1e5e29ff6cccf6202b60613cacf12db578e6a3cb79a7e9dd576
-command: google import --formulas_path Formulas
+digest: e107f2ac8379bc30e93bfb70d1196b2f1d6db4be9fc182352938e20784e0f570
+command: import google --formulas_path Formulas -n 50

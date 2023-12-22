@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Manichaean
 description: Noto Sans Manichaean
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Manichaean.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Manichaean
-    sha256: ab87bd16ea292cc162505be5372e8b317f37517cb4f01c9bf1d210ba83338029
-    file_size: 23888
+    sha256: e8cb11777793b037cefdd50edd9b1ea2c3454cb5d26e47290468d80a81c78445
+    file_size: 48066
 fonts:
 - name: Noto Sans Manichaean
   styles:
@@ -15,16 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Manichaean Regular
     post_script_name: NotoSansManichaean-Regular
-    version: 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a
-      qsq -X ""
+    version: 2.005; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2018 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/manichaean)
     font: NotoSansManichaean-Regular.ttf
 extract: {}
-copyright: Copyright 2018 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/manichaean)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/manichaean)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 4efd92dfbc947e9a014231c2cb1fddf83c12d56502c9953efe3e775af02de558
-command: google import --formulas_path Formulas
+digest: e470e059f85e0af85c3f097a02726f39b96fd28d28ca61eac2f8425d2a70200a
+command: import google --formulas_path Formulas -n 50

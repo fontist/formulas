@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Khudawadi
 description: Noto Sans Khudawadi
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Khudawadi.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Khudawadi
-    sha256: 4abad7f17e8e4cb7ce776332343e398ad6e0769addf6071e510553fd02f20a33
-    file_size: 13149
+    sha256: a696db981315107e369f90f3e9d6b746804e265f71e7aad0462dea9df57a9b91
+    file_size: 41122
 fonts:
 - name: Noto Sans Khudawadi
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Khudawadi Regular
     post_script_name: NotoSansKhudawadi-Regular
-    version: '2.000'
+    version: 2.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2018 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/khudawadi)
     font: NotoSansKhudawadi-Regular.ttf
 extract: {}
-copyright: Copyright 2018 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/khudawadi)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/khudawadi)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 07bd488d9c2798bd76f1060ad7077517025e3f0b90e24ec97073c63c22769dbe
-command: google import --formulas_path Formulas
+digest: 1659f5f3c7159864da3717b8df1ef80ba3e3dfdafaf2d86eacaccedd1849b0d9
+command: import google --formulas_path Formulas -n 50

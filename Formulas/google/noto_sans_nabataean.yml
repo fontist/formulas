@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Nabataean
 description: Noto Sans Nabataean
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Nabataean.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Nabataean
-    sha256: 0abe2aed715a976870da6180a86e088071f725ad4075f3034ce37c63c3f05f00
-    file_size: 7127
+    sha256: 3ac13e4afa24def82f6111bd60df59722922c036d6b382cab3e8705c7c187050
+    file_size: 33319
 fonts:
 - name: Noto Sans Nabataean
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Nabataean Regular
     post_script_name: NotoSansNabataean-Regular
-    version: '2.000'
+    version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2018 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nabataean)
     font: NotoSansNabataean-Regular.ttf
 extract: {}
-copyright: Copyright 2018 Google LLC. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nabataean)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nabataean)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b1f07050726564dcb8024f636de6f1aa00d530bb5787f61ad7d9bc1c7782c406
-command: google import --formulas_path Formulas
+digest: 78b90fb7885e895a52bd5ea441ddbe632a6204639b0cda2a5ae0c533a7340961
+command: import google --formulas_path Formulas -n 50

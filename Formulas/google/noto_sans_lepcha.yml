@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Lepcha
 description: Noto Sans Lepcha
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Lepcha.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Lepcha
-    sha256: 1855c1c714214beecdc0c20ae6b9e4cae499f1fc6b3e5ff47583233581b937a3
-    file_size: 15498
+    sha256: 1495a5b59609b07de419521fafb689ffe0697f2887bdf1f80703dfccde74b94f
+    file_size: 44535
 fonts:
 - name: Noto Sans Lepcha
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Lepcha Regular
     post_script_name: NotoSansLepcha-Regular
-    version: '2.000'
+    version: 2.006; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/lepcha)
     font: NotoSansLepcha-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/lepcha)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/lepcha)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d6fc02b79ab9713201d8effa30a306cd5957c81cb701e946ffd299d51cf1d2d3
-command: google import --formulas_path Formulas
+digest: f784f2b99568c0a0235ece5ed925f8653da52c14e6dbb1a4ce5eaee74388e689
+command: import google --formulas_path Formulas -n 50
