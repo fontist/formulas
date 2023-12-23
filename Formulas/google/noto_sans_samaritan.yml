@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Samaritan
 description: Noto Sans Samaritan
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Samaritan.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Samaritan
-    sha256: 38c478d03cdee3066f8c41d85652d638738b82e2fbfe533f7e359ddc4a0ae30a
-    file_size: 9020
+    sha256: 5614117c7dd2ec7c716128d5e9dbf53ef6e8eb76f6546d85474b2ba43ac7fad8
+    file_size: 32009
 fonts:
 - name: Noto Sans Samaritan
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Samaritan Regular
     post_script_name: NotoSansSamaritan-Regular
-    version: '2.000'
+    version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/samaritan)
     font: NotoSansSamaritan-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/samaritan)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/samaritan)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 2ddeac25e4286db173eec31b8cd8646823184be533d1631cc438291c4c0c51b3
-command: google import --formulas_path Formulas
+digest: 34a2c269dd7a3d9f0a15954d78633ca4e73dc2eef212577ec648af227524c5c1
+command: import google --formulas_path Formulas -n 50

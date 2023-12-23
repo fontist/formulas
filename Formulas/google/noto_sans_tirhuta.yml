@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Tirhuta
 description: Noto Sans Tirhuta
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Tirhuta.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Tirhuta
-    sha256: 2bc634f098ab4d3b1da187a5b7c147e9dea50b8351743fb75e5c6a321ab2ca99
-    file_size: 53636
+    sha256: d7f631f3a07eab37080157571c959445c29b32dcce5c23b1a3afeec6493a5b6a
+    file_size: 76090
 fonts:
 - name: Noto Sans Tirhuta
   styles:
@@ -15,16 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Tirhuta Regular
     post_script_name: NotoSansTirhuta-Regular
-    version: 2.001; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a
-      qsq -X ""
+    version: 2.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2018 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tirhuta)
     font: NotoSansTirhuta-Regular.ttf
 extract: {}
-copyright: Copyright 2018 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tirhuta)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tirhuta)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9d3adf143695fdfb00936768bf3ca469366137c58b92b7757da9faf2329f7428
-command: google import --formulas_path Formulas
+digest: 7184e6748fe1edad98bfe8682c4ce505652bcaa34643774abb188a3a9484e424
+command: import google --formulas_path Formulas -n 50

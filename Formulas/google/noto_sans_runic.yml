@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Runic
 description: Noto Sans Runic
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Runic.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Runic
-    sha256: 1699c2c8cc539060df349f3d0b0e1cc3c160b7782f2323ca037c6991c852d579
-    file_size: 7297
+    sha256: f38f0c47d744d31e4c9ae0a049dc287e8fbd816fcecf7e4f45dd45e9a517d0d6
+    file_size: 32681
 fonts:
 - name: Noto Sans Runic
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Runic Regular
     post_script_name: NotoSansRunic-Regular
-    version: '2.000'
+    version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/runic)
     font: NotoSansRunic-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/runic)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/runic)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 439c1dc79260b82461fbc9ca42e139e221e4c556b857d07f3909e58636ec9bdb
-command: google import --formulas_path Formulas
+digest: 7983b18774862ca946019b7d78f701065c8fcd6c13274930da972691761fa5e6
+command: import google --formulas_path Formulas -n 50

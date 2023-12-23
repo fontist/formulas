@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Tagbanwa
 description: Noto Sans Tagbanwa
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Tagbanwa.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Tagbanwa
-    sha256: 6cd4d7eb197b3ef35544b85f3e245883aac57d150530a681fad40d599a4d84fe
-    file_size: 5842
+    sha256: 811d72a6c30d075401a6dc896bc53a5e973f86e183fdbd613b5e0dacf2df6dbc
+    file_size: 28526
 fonts:
 - name: Noto Sans Tagbanwa
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Tagbanwa Regular
     post_script_name: NotoSansTagbanwa-Regular
-    version: '2.000'
+    version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tagbanwa)
     font: NotoSansTagbanwa-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tagbanwa)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tagbanwa)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 956236c4f3cda46df3f5852cad84bbddc6486d08329b97e707c4e56a485cff4e
-command: google import --formulas_path Formulas
+digest: 40203a9ca987a78ab98a842a79ae09364a8195632324a0c0564c4629de36a60b
+command: import google --formulas_path Formulas -n 50

@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Osmanya
 description: Noto Sans Osmanya
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Osmanya.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Osmanya
-    sha256: af40de81d6f63f5d641a117382c2354898b00841f8b4b0455faab4c184b6e660
-    file_size: 11690
+    sha256: 27532b095736c9a1ffebcb1802eb21113ed210df50152f7793f42c126b8e499f
+    file_size: 34332
 fonts:
 - name: Noto Sans Osmanya
   styles:
@@ -15,16 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Osmanya Regular
     post_script_name: NotoSansOsmanya-Regular
-    version: 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D osma -f none -a
-      qsq -X ""
+    version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/osmanya)
     font: NotoSansOsmanya-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/osmanya)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/osmanya)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: f7261d1c8ce1a5d3287b66146b79435a795d1e37adaf327519767170285e6fb0
-command: google import --formulas_path Formulas
+digest: 0541c9d92cb06ea2377ef3a8ff5fae258979b61b61a5ec39e8ed803695ae2b2b
+command: import google --formulas_path Formulas -n 50

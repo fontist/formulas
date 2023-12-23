@@ -1,30 +1,28 @@
 ---
-name: Noto Sans Pau Cin Hau
 description: Noto Sans Pau Cin Hau
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Pau_Cin_Hau.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Pau%20Cin%20Hau
-    sha256: 9e84279e587bb53698c357fdb52c30b0ba7933f19dc1d33ad0ca27115e2f1694
-    file_size: 7288
+    sha256: 486bdff5529bc798bef0f09fc19a563d6cc7c976c66d97748375d27f234d0aa9
+    file_size: 33638
 fonts:
-- name: Noto Sans PauCinHau
+- name: Noto Sans Pau Cin Hau
   styles:
-  - family_name: Noto Sans PauCinHau
+  - family_name: Noto Sans Pau Cin Hau
     type: Regular
-    preferred_family_name: Noto Sans Pau Cin Hau
     full_name: Noto Sans Pau Cin Hau Regular
     post_script_name: NotoSansPauCinHau-Regular
-    version: '2.000'
+    version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/pau-cin-hau)
     font: NotoSansPauCinHau-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/pau-cin-hau)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/pau-cin-hau)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9374b19d34b99715b6acc1974386488717bdb44eeb4efaa9138dcf4fd3963c05
-command: google import --formulas_path Formulas
+digest: c9e4551499ee79bc0f2ab3df0347f925d4b8c91adc61afa3e1005fb0257530cb
+command: import google --formulas_path Formulas -n 50

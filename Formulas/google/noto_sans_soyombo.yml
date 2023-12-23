@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Soyombo
 description: Noto Sans Soyombo
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Soyombo.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Soyombo
-    sha256: dc2729533cc0e14992b09c33923b7e9327785efa8099d455096a91dc3c3133db
-    file_size: 29985
+    sha256: 75b193bd04484f09b2cfd8ff2ccc722f9f2aadafa9f258f5bdbb97a771d13773
+    file_size: 62230
 fonts:
 - name: Noto Sans Soyombo
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Soyombo Regular
     post_script_name: NotoSansSoyombo-Regular
-    version: '2.000'
+    version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2019 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/soyombo)
     font: NotoSansSoyombo-Regular.ttf
 extract: {}
-copyright: Copyright 2019 Google LLC. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/soyombo)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/soyombo)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b99fc035ec2e09bcec9dff236e3dfe1b7e75a53c6198c63f9a7ddc94dad4365d
-command: google import --formulas_path Formulas
+digest: adc06c9b40bc02f7ed8a06a6876006f4d802c19363769e239c2895e3a544ff58
+command: import google --formulas_path Formulas -n 50

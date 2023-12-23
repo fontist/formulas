@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Saurashtra
 description: Noto Sans Saurashtra
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Saurashtra.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Saurashtra
-    sha256: 4451e41b8503215cfc17479b3ba204a5f0a08d5739f76a7c327f96c755cb8003
-    file_size: 23061
+    sha256: 5ce60500b95354a8be4a6948b0c4566825fdce2513205ca33174e68f79dbe551
+    file_size: 44666
 fonts:
 - name: Noto Sans Saurashtra
   styles:
@@ -15,16 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Saurashtra Regular
     post_script_name: NotoSansSaurashtra-Regular
-    version: 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D saur -f none -a
-      qsq -X ""
+    version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/saurashtra)
     font: NotoSansSaurashtra-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/saurashtra)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/saurashtra)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 165a3ae41e1250747c814b9194df5a9aa0725cb6b085af8f2400653bdd04638f
-command: google import --formulas_path Formulas
+digest: 5a54e85a7e2c23e160fc1f16c92fc2df23a884e93fbe481b87bd613ad95a32c1
+command: import google --formulas_path Formulas -n 50

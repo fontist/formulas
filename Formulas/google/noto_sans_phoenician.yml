@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Phoenician
 description: Noto Sans Phoenician
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Phoenician.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Phoenician
-    sha256: afe2ae1673c5dfeb5383ec732e065f10fd8bf3af3369c66fa7b0e741ad2d95e0
-    file_size: 6240
+    sha256: f15ad5ca60dbfc4414257e2eee099543e21d0c5ae988e1ca4c994ea846255730
+    file_size: 31757
 fonts:
 - name: Noto Sans Phoenician
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Phoenician Regular
     post_script_name: NotoSansPhoenician-Regular
-    version: '2.000'
+    version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/phoenician)
     font: NotoSansPhoenician-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/phoenician)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/phoenician)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d7d39e31c63150eac00ed3cf14b8d9789ab210bbbf3f92b28a920114c58641e4
-command: google import --formulas_path Formulas
+digest: 8e16711a3701a56dd0e17bbe79c7d82f12be2d2a1fabb1aff8c5a0914d3f0c35
+command: import google --formulas_path Formulas -n 50

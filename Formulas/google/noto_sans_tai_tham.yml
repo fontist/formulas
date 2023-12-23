@@ -1,12 +1,11 @@
 ---
-name: Noto Sans Tai Tham
 description: Noto Sans Tai Tham
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Tai_Tham.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Tai%20Tham
-    file_size: 227663
+    file_size: 316043
 fonts:
 - name: Noto Sans Tai Tham
   styles:
@@ -14,25 +13,25 @@ fonts:
     type: Bold
     full_name: Noto Sans Tai Tham Bold
     post_script_name: NotoSansTaiTham-Bold
-    version: '2.000'
+    version: '2.002'
     description: Designed by Monotype design team, revised by David Williams.
-    copyright: Copyright 2020 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tai-tham)
     font: NotoSansTaiTham-Bold.ttf
   - family_name: Noto Sans Tai Tham
     type: Regular
     full_name: Noto Sans Tai Tham Regular
     post_script_name: NotoSansTaiTham-Regular
-    version: '2.000'
+    version: '2.002'
     description: Designed by Monotype design team, revised by David Williams.
-    copyright: Copyright 2020 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tai-tham)
     font: NotoSansTaiTham-VariableFont_wght.ttf
   - family_name: Noto Sans Tai Tham
     type: Regular
     full_name: Noto Sans Tai Tham Regular
     post_script_name: NotoSansTaiTham-Regular
-    version: '2.000'
+    version: '2.002'
     description: Designed by Monotype design team, revised by David Williams.
-    copyright: Copyright 2020 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tai-tham)
     font: NotoSansTaiTham-Regular.ttf
 - name: Noto Sans Tai Tham Medium
   styles:
@@ -42,9 +41,9 @@ fonts:
     preferred_type: Medium
     full_name: Noto Sans Tai Tham Medium
     post_script_name: NotoSansTaiTham-Medium
-    version: '2.000'
+    version: '2.002'
     description: Designed by Monotype design team, revised by David Williams.
-    copyright: Copyright 2020 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tai-tham)
     font: NotoSansTaiTham-Medium.ttf
 - name: Noto Sans Tai Tham SemiBold
   styles:
@@ -54,15 +53,15 @@ fonts:
     preferred_type: SemiBold
     full_name: Noto Sans Tai Tham SemiBold
     post_script_name: NotoSansTaiTham-SemiBold
-    version: '2.000'
+    version: '2.002'
     description: Designed by Monotype design team, revised by David Williams.
-    copyright: Copyright 2020 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tai-tham)
     font: NotoSansTaiTham-SemiBold.ttf
 extract: {}
-copyright: Copyright 2020 Google LLC. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tai-tham)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tai-tham)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -155,5 +154,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 410ebef3c11c04e0a83d37099b1ebc4a397aef963a54f8317f43c4b40600916a
-command: google import --formulas_path Formulas
+digest: 19fc9b99455a20eca496828d8b5f1dce9c9c8bb46b352a640829b8ee6391d305
+command: import google --formulas_path Formulas -n 50

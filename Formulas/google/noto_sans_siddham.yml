@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Siddham
 description: Noto Sans Siddham
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Siddham.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Siddham
-    sha256: 9e958d0137e2beea33d53a8edbb76662e0707f05b63a65ec70c9abede5734aa4
-    file_size: 64849
+    sha256: b64371128fc50e320469792454add04ab279236e43d4f333b67ed07841add4e0
+    file_size: 113939
 fonts:
 - name: Noto Sans Siddham
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Siddham Regular
     post_script_name: NotoSansSiddham-Regular
-    version: '2.001'
+    version: 2.005; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2019 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/siddham)
     font: NotoSansSiddham-Regular.ttf
 extract: {}
-copyright: Copyright 2019 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/siddham)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/siddham)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 13937dcff6bd7bfcb0a3de938d108c343c3ff4b971ebac484168342bb4a42bd5
-command: google import --formulas_path Formulas
+digest: 739fe9e6358ab9ab1c9603c108098e89fc80f24ee79f011c20c644212fdc959b
+command: import google --formulas_path Formulas -n 50

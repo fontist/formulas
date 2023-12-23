@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Shavian
 description: Noto Sans Shavian
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Shavian.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Shavian
-    sha256: 9ea9bbd55c815c9aacd0caa0474068be44b846b55a415a58d9dcec637603edd6
-    file_size: 9795
+    sha256: 2684f40a5311ce0232f1243c35424c76bd663fb8ee5a25400011c91433cb3dd4
+    file_size: 32387
 fonts:
 - name: Noto Sans Shavian
   styles:
@@ -15,16 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Shavian Regular
     post_script_name: NotoSansShavian-Regular
-    version: 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D shaw -f none -a
-      qsq -X ""
+    version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/shavian)
     font: NotoSansShavian-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/shavian)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/shavian)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: c97767bebf62521f2353f9c8087a705c1c2417d627b7696218174442e6c9242b
-command: google import --formulas_path Formulas
+digest: c84c4926bca20b29b2dc733829d7c747a864ce7191290fdc28eac95ca577e34d
+command: import google --formulas_path Formulas -n 50

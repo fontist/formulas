@@ -1,30 +1,28 @@
 ---
-name: Noto Sans Old Persian
 description: Noto Sans Old Persian
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Old_Persian.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Old%20Persian
-    sha256: 9503778de5245c70fb973e5d3fb30abb8c14a8f12c002d1a449a6538ccba83ad
-    file_size: 8102
+    sha256: f7f3b493007b73a846d654394891fd5f04d536b2a668d84ec52ba8230430d0db
+    file_size: 34292
 fonts:
-- name: Noto Sans OldPersian
+- name: Noto Sans Old Persian
   styles:
-  - family_name: Noto Sans OldPersian
+  - family_name: Noto Sans Old Persian
     type: Regular
-    preferred_family_name: Noto Sans Old Persian
     full_name: Noto Sans Old Persian Regular
     post_script_name: NotoSansOldPersian-Regular
-    version: '2.000'
+    version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-persian)
     font: NotoSansOldPersian-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-persian)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-persian)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 150a4a626445dde85f3a582a396a2620236d19fcf33aac5ba483ae07e0ddc967
-command: google import --formulas_path Formulas
+digest: 89f5a631db11376d291f0f920adb09421e654a6e51c79aadd90df1e05e52839b
+command: import google --formulas_path Formulas -n 50

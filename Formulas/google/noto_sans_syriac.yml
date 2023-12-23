@@ -1,24 +1,37 @@
 ---
-name: Noto Sans Syriac
 description: Noto Sans Syriac
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Syriac.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Syriac
-    sha256: a2027d5863631b5903dcad6098f5662cc07435be8da33473e566f8ae712afbbb
-    file_size: 280961
+    file_size: 451622
 fonts:
 - name: Noto Sans Syriac
   styles:
   - family_name: Noto Sans Syriac
+    type: Bold
+    full_name: Noto Sans Syriac Bold
+    post_script_name: NotoSansSyriac-Bold
+    version: '3.000'
+    description: Designed by Monotype design team.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/syriac)
+    font: NotoSansSyriac-Bold.ttf
+  - family_name: Noto Sans Syriac
     type: Regular
     full_name: Noto Sans Syriac Regular
     post_script_name: NotoSansSyriac-Regular
-    version: 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a
-      qsq -X ""
+    version: '3.000'
     description: Designed by Monotype design team.
-    copyright: Copyright 2018 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/syriac)
+    font: NotoSansSyriac-VariableFont_wght.ttf
+  - family_name: Noto Sans Syriac
+    type: Regular
+    full_name: Noto Sans Syriac Regular
+    post_script_name: NotoSansSyriac-Regular
+    version: '3.000'
+    description: Designed by Monotype design team.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/syriac)
     font: NotoSansSyriac-Regular.ttf
 - name: Noto Sans Syriac Black
   styles:
@@ -28,11 +41,70 @@ fonts:
     preferred_type: Black
     full_name: Noto Sans Syriac Black
     post_script_name: NotoSansSyriac-Black
-    version: 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a
-      qsq -X ""
+    version: '3.000'
     description: Designed by Monotype design team.
-    copyright: Copyright 2018 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/syriac)
     font: NotoSansSyriac-Black.ttf
+- name: Noto Sans Syriac ExtraBold
+  styles:
+  - family_name: Noto Sans Syriac ExtraBold
+    type: Regular
+    preferred_family_name: Noto Sans Syriac
+    preferred_type: ExtraBold
+    full_name: Noto Sans Syriac ExtraBold
+    post_script_name: NotoSansSyriac-ExtraBold
+    version: '3.000'
+    description: Designed by Monotype design team.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/syriac)
+    font: NotoSansSyriac-ExtraBold.ttf
+- name: Noto Sans Syriac ExtraLight
+  styles:
+  - family_name: Noto Sans Syriac ExtraLight
+    type: Regular
+    preferred_family_name: Noto Sans Syriac
+    preferred_type: ExtraLight
+    full_name: Noto Sans Syriac ExtraLight
+    post_script_name: NotoSansSyriac-ExtraLight
+    version: '3.000'
+    description: Designed by Monotype design team.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/syriac)
+    font: NotoSansSyriac-ExtraLight.ttf
+- name: Noto Sans Syriac Light
+  styles:
+  - family_name: Noto Sans Syriac Light
+    type: Regular
+    preferred_family_name: Noto Sans Syriac
+    preferred_type: Light
+    full_name: Noto Sans Syriac Light
+    post_script_name: NotoSansSyriac-Light
+    version: '3.000'
+    description: Designed by Monotype design team.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/syriac)
+    font: NotoSansSyriac-Light.ttf
+- name: Noto Sans Syriac Medium
+  styles:
+  - family_name: Noto Sans Syriac Medium
+    type: Regular
+    preferred_family_name: Noto Sans Syriac
+    preferred_type: Medium
+    full_name: Noto Sans Syriac Medium
+    post_script_name: NotoSansSyriac-Medium
+    version: '3.000'
+    description: Designed by Monotype design team.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/syriac)
+    font: NotoSansSyriac-Medium.ttf
+- name: Noto Sans Syriac SemiBold
+  styles:
+  - family_name: Noto Sans Syriac SemiBold
+    type: Regular
+    preferred_family_name: Noto Sans Syriac
+    preferred_type: SemiBold
+    full_name: Noto Sans Syriac SemiBold
+    post_script_name: NotoSansSyriac-SemiBold
+    version: '3.000'
+    description: Designed by Monotype design team.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/syriac)
+    font: NotoSansSyriac-SemiBold.ttf
 - name: Noto Sans Syriac Thin
   styles:
   - family_name: Noto Sans Syriac Thin
@@ -41,16 +113,15 @@ fonts:
     preferred_type: Thin
     full_name: Noto Sans Syriac Thin
     post_script_name: NotoSansSyriac-Thin
-    version: 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a
-      qsq -X ""
+    version: '3.000'
     description: Designed by Monotype design team.
-    copyright: Copyright 2018 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/syriac)
     font: NotoSansSyriac-Thin.ttf
 extract: {}
-copyright: Copyright 2018 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/syriac)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/syriac)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -143,5 +214,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 96e071fce330c6708711ab24fb0090fdeb31f1d4077783dca547ca396bf1cce7
-command: google import --formulas_path Formulas
+digest: a7039bac498eb39235f0217cbd50d73bc86145338a1946577fde2d3cf517e811
+command: import google --formulas_path Formulas -n 50

@@ -1,28 +1,67 @@
 ---
-description: Noto Sans Psalter Pahlavi
+description: Noto Sans Tangsa
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Psalter_Pahlavi.zip:
+  Noto_Sans_Tangsa.zip:
     urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Psalter%20Pahlavi
-    sha256: 1a6e4311635eae10e86ace178a1fa68dc2117af47cdc21cb5650c478f4953519
-    file_size: 40652
+    - https://fonts.google.com/download?family=Noto%20Sans%20Tangsa
+    file_size: 187025
 fonts:
-- name: Noto Sans Psalter Pahlavi
+- name: Noto Sans Tangsa
   styles:
-  - family_name: Noto Sans Psalter Pahlavi
+  - family_name: Noto Sans Tangsa
+    type: Bold
+    full_name: Noto Sans Tangsa Bold
+    post_script_name: NotoSansTangsa-Bold
+    version: '1.506'
+    description: Designed by David Williams.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tangsa)
+    font: NotoSansTangsa-Bold.ttf
+  - family_name: Noto Sans Tangsa
     type: Regular
-    full_name: Noto Sans Psalter Pahlavi Regular
-    post_script_name: NotoSansPsalterPahlavi-Regular
-    version: 2.002; ttfautohint (v1.8.4.7-5d5b)
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/psalter-pahlavi)
-    font: NotoSansPsalterPahlavi-Regular.ttf
+    full_name: Noto Sans Tangsa Regular
+    post_script_name: NotoSansTangsa-Regular
+    version: '1.506'
+    description: Designed by David Williams.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tangsa)
+    font: NotoSansTangsa-VariableFont_wght.ttf
+  - family_name: Noto Sans Tangsa
+    type: Regular
+    full_name: Noto Sans Tangsa Regular
+    post_script_name: NotoSansTangsa-Regular
+    version: '1.506'
+    description: Designed by David Williams.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tangsa)
+    font: NotoSansTangsa-Regular.ttf
+- name: Noto Sans Tangsa Medium
+  styles:
+  - family_name: Noto Sans Tangsa Medium
+    type: Regular
+    preferred_family_name: Noto Sans Tangsa
+    preferred_type: Medium
+    full_name: Noto Sans Tangsa Medium
+    post_script_name: NotoSansTangsa-Medium
+    version: '1.506'
+    description: Designed by David Williams.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tangsa)
+    font: NotoSansTangsa-Medium.ttf
+- name: Noto Sans Tangsa SemiBold
+  styles:
+  - family_name: Noto Sans Tangsa SemiBold
+    type: Regular
+    preferred_family_name: Noto Sans Tangsa
+    preferred_type: SemiBold
+    full_name: Noto Sans Tangsa SemiBold
+    post_script_name: NotoSansTangsa-SemiBold
+    version: '1.506'
+    description: Designed by David Williams.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tangsa)
+    font: NotoSansTangsa-SemiBold.ttf
 extract: {}
-copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/psalter-pahlavi)
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tangsa)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/psalter-pahlavi)
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tangsa)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -115,5 +154,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 194f4649ebf6fd2cfef514b79fb2fb014a6c8418ccd98f512e8d2cfa527ba262
+digest: d935fafd80fa5ff4b5524bc31c2db4a8ecef16078b3ca2cbef7a90178d17374a
 command: import google --formulas_path Formulas -n 50

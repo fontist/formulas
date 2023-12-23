@@ -1,30 +1,28 @@
 ---
-name: Noto Sans Old Sogdian
 description: Noto Sans Old Sogdian
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Old_Sogdian.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Old%20Sogdian
-    sha256: a5d1840ac5995461fa760bb9b5cbce2f06f1508df9cc8ad33a33a48e212ab777
-    file_size: 9783
+    sha256: 055ac1757175baa67e5433453993d363550433c5b8e3fdffa0cef9a82524eb0c
+    file_size: 37377
 fonts:
-- name: Noto Sans OldSogdian
+- name: Noto Sans Old Sogdian
   styles:
-  - family_name: Noto Sans OldSogdian
+  - family_name: Noto Sans Old Sogdian
     type: Regular
-    preferred_family_name: Noto Sans Old Sogdian
     full_name: Noto Sans Old Sogdian Regular
     post_script_name: NotoSansOldSogdian-Regular
-    version: '2.000'
+    version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2019 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-sogdian)
     font: NotoSansOldSogdian-Regular.ttf
 extract: {}
-copyright: Copyright 2019 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-sogdian)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-sogdian)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 22fd11f30d0b0aac7735afa5a2e2106837f4515cb2abf60f5ff018ddaf587290
-command: google import --formulas_path Formulas
+digest: f5866828dc35c75c52fa0fd186d123416c914e7e0db6e55a91314969166de57d
+command: import google --formulas_path Formulas -n 50

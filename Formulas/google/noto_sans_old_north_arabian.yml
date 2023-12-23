@@ -1,30 +1,28 @@
 ---
-name: Noto Sans Old North Arabian
 description: Noto Sans Old North Arabian
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Old_North_Arabian.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Old%20North%20Arabian
-    sha256: 064ac1132328c2a9d9c7f0b7505a82d4d18627fbc44d50383d2856489a91c3f0
-    file_size: 6393
+    sha256: 5c423aa423bcf400ee683942ed15c8fd30d03b37b8820c12162ad7752a7ca4b2
+    file_size: 32260
 fonts:
-- name: Noto Sans OldNorArab
+- name: Noto Sans Old North Arabian
   styles:
-  - family_name: Noto Sans OldNorArab
+  - family_name: Noto Sans Old North Arabian
     type: Regular
-    preferred_family_name: Noto Sans Old North Arabian
     full_name: Noto Sans Old North Arabian Regular
     post_script_name: NotoSansOldNorthArabian-Regular
-    version: '2.000'
+    version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2018 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-north-arabian)
     font: NotoSansOldNorthArabian-Regular.ttf
 extract: {}
-copyright: Copyright 2018 Google LLC. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-north-arabian)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-north-arabian)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: da0e4b744668ec3d67eec424fe67bd7d56615ff115e5ea7b0e9859f6807bde71
-command: google import --formulas_path Formulas
+digest: def2eddf3120c60b928dbf96170f0f71eb85bbf3d3e2a00a5c6d24766f7b48d1
+command: import google --formulas_path Formulas -n 50

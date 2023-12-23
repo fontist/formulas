@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Sogdian
 description: Noto Sans Sogdian
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Sogdian.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Sogdian
-    sha256: 4b1a272f8193f8d6ac0e79a6c3395c18fadaf405d71b8646b3fe823c69dba960
-    file_size: 42683
+    sha256: cf94e2a9966c6403a44521700d31c91f79a12031bc068b9286da8f366d384fb1
+    file_size: 65139
 fonts:
 - name: Noto Sans Sogdian
   styles:
@@ -15,16 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Sogdian Regular
     post_script_name: NotoSansSogdian-Regular
-    version: 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a
-      qsq -X ""
+    version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2019 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sogdian)
     font: NotoSansSogdian-Regular.ttf
 extract: {}
-copyright: Copyright 2019 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sogdian)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sogdian)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 4e44bb29e9987d4fc6369d286b8487031f08eda1e37d8903eebc7e4f7692ed77
-command: google import --formulas_path Formulas
+digest: 84f7817cad93e5b1051199ff07793766f65c8e1a32f6d980c090733af218847e
+command: import google --formulas_path Formulas -n 50

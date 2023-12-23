@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Old Permic
 description: Noto Sans Old Permic
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Old_Permic.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Old%20Permic
-    sha256: be31aeb4ee0a1bf5eb1412082202649ab06afad900fea9d7404c9d6326ef4b37
-    file_size: 7666
+    sha256: ee07dbae27da53a34ffd6ae92be2fb0a697282fb62b978328c0060a7bfd469b3
+    file_size: 31223
 fonts:
 - name: Noto Sans Old Permic
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Old Permic Regular
     post_script_name: NotoSansOldPermic-Regular
-    version: '2.000'
+    version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-permic)
     font: NotoSansOldPermic-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-permic)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-permic)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: '08425d17b301dbbe8abb09391417360be19c74357673f17c06c629ef48ae27e9'
-command: google import --formulas_path Formulas
+digest: 74a92ac71c9ce8db2e5fdfbb4335b037d2b766148c309ce149f33d92aaa9dbfb
+command: import google --formulas_path Formulas -n 50

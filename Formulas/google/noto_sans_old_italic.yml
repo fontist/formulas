@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Old Italic
 description: Noto Sans Old Italic
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Old_Italic.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Old%20Italic
-    sha256: 89bff5e165f6505110e3eb4c26bbd882743697575f02b9f9e814424e6256300e
-    file_size: 7046
+    sha256: ff2bc93b4e71b5497d433d17cf78aae770b2a75c02c37311cb367905659e892e
+    file_size: 31170
 fonts:
 - name: Noto Sans Old Italic
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Old Italic Regular
     post_script_name: NotoSansOldItalic-Regular
-    version: '2.002'
+    version: 2.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-italic)
     font: NotoSansOldItalic-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-italic)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-italic)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: fcf481f359924d398951fdd467aaef3610dd5cd2b002c8115fc31b2651561132
-command: google import --formulas_path Formulas
+digest: 8030c1d7536322dac1b77d9e45f11afd3676426a356bc60bca5e6222d0544e3c
+command: import google --formulas_path Formulas -n 50
