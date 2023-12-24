@@ -1,30 +1,73 @@
 ---
-name: Noto Traditional Nushu
 description: Noto Traditional Nushu
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Traditional_Nushu.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Traditional%20Nushu
-    sha256: 261eb847fcaf097e0932965615aea161489e11492346e054dd1a02c816b07cda
-    file_size: 152420
+    file_size: 655359
 fonts:
 - name: Noto Traditional Nushu
   styles:
   - family_name: Noto Traditional Nushu
+    type: Bold
+    full_name: Noto Traditional Nushu Bold
+    post_script_name: NotoTraditionalNushu-Bold
+    version: '2.003'
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nushu)
+    font: NotoTraditionalNushu-Bold.ttf
+  - family_name: Noto Traditional Nushu
     type: Regular
     full_name: Noto Traditional Nushu Regular
     post_script_name: NotoTraditionalNushu-Regular
-    version: 1.001; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a
-      qsq -X ""
-    description: Designed by LIU Zhao.
-    copyright: Copyright 2020 Google LLC. All Rights Reserved.
+    version: '2.003'
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nushu)
+    font: NotoTraditionalNushu-VariableFont_wght.ttf
+  - family_name: Noto Traditional Nushu
+    type: Regular
+    full_name: Noto Traditional Nushu Regular
+    post_script_name: NotoTraditionalNushu-Regular
+    version: '2.003'
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nushu)
     font: NotoTraditionalNushu-Regular.ttf
+- name: Noto Traditional Nushu Light
+  styles:
+  - family_name: Noto Traditional Nushu Light
+    type: Regular
+    preferred_family_name: Noto Traditional Nushu
+    preferred_type: Light
+    full_name: Noto Traditional Nushu Light
+    post_script_name: NotoTraditionalNushu-Light
+    version: '2.003'
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nushu)
+    font: NotoTraditionalNushu-Light.ttf
+- name: Noto Traditional Nushu Medium
+  styles:
+  - family_name: Noto Traditional Nushu Medium
+    type: Regular
+    preferred_family_name: Noto Traditional Nushu
+    preferred_type: Medium
+    full_name: Noto Traditional Nushu Medium
+    post_script_name: NotoTraditionalNushu-Medium
+    version: '2.003'
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nushu)
+    font: NotoTraditionalNushu-Medium.ttf
+- name: Noto Traditional Nushu SemiBold
+  styles:
+  - family_name: Noto Traditional Nushu SemiBold
+    type: Regular
+    preferred_family_name: Noto Traditional Nushu
+    preferred_type: SemiBold
+    full_name: Noto Traditional Nushu SemiBold
+    post_script_name: NotoTraditionalNushu-SemiBold
+    version: '2.003'
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nushu)
+    font: NotoTraditionalNushu-SemiBold.ttf
 extract: {}
-copyright: Copyright 2020 Google LLC. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nushu)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nushu)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +160,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 784435fb90d986fa6b37d441a4360abae285f64148d82da17acadb9601c436f7
-command: google import --formulas_path Formulas
+digest: 622b5f1f567d0f38d9eb298317c10d5d58350f3a82e57d77217157b93ee59729
+command: import google --formulas_path Formulas -n 50

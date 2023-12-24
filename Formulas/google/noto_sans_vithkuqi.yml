@@ -1,29 +1,67 @@
 ---
-description: Nuosu SIL
-homepage: https://www.sil.org/
+description: Noto Sans Vithkuqi
+homepage: http://www.google.com/get/noto/
 resources:
-  Nuosu_SIL.zip:
+  Noto_Sans_Vithkuqi.zip:
     urls:
-    - https://fonts.google.com/download?family=Nuosu%20SIL
-    sha256: ec77a0aadbae96dcb5865f7df05d9d8d4768a45c8c14552508f21950e6fff0c9
-    file_size: 135016
+    - https://fonts.google.com/download?family=Noto%20Sans%20Vithkuqi
+    file_size: 184305
 fonts:
-- name: Nuosu SIL
+- name: Noto Sans Vithkuqi
   styles:
-  - family_name: Nuosu SIL
+  - family_name: Noto Sans Vithkuqi
+    type: Bold
+    full_name: Noto Sans Vithkuqi Bold
+    post_script_name: NotoSansVithkuqi-Bold
+    version: '1.001'
+    description: Designed by Lewis McGuffie
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/vithkuqi)
+    font: NotoSansVithkuqi-Bold.ttf
+  - family_name: Noto Sans Vithkuqi
     type: Regular
-    full_name: Nuosu SIL
-    post_script_name: NuosuSIL-Regular
-    version: '2.300'
-    description: Yi script font
-    copyright: Copyright (c) 1999-2022 SIL International
-    font: NuosuSIL-Regular.ttf
+    full_name: Noto Sans Vithkuqi Regular
+    post_script_name: NotoSansVithkuqi-Regular
+    version: '1.001'
+    description: Designed by Lewis McGuffie
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/vithkuqi)
+    font: NotoSansVithkuqi-VariableFont_wght.ttf
+  - family_name: Noto Sans Vithkuqi
+    type: Regular
+    full_name: Noto Sans Vithkuqi Regular
+    post_script_name: NotoSansVithkuqi-Regular
+    version: '1.001'
+    description: Designed by Lewis McGuffie
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/vithkuqi)
+    font: NotoSansVithkuqi-Regular.ttf
+- name: Noto Sans Vithkuqi Medium
+  styles:
+  - family_name: Noto Sans Vithkuqi Medium
+    type: Regular
+    preferred_family_name: Noto Sans Vithkuqi
+    preferred_type: Medium
+    full_name: Noto Sans Vithkuqi Medium
+    post_script_name: NotoSansVithkuqi-Medium
+    version: '1.001'
+    description: Designed by Lewis McGuffie
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/vithkuqi)
+    font: NotoSansVithkuqi-Medium.ttf
+- name: Noto Sans Vithkuqi SemiBold
+  styles:
+  - family_name: Noto Sans Vithkuqi SemiBold
+    type: Regular
+    preferred_family_name: Noto Sans Vithkuqi
+    preferred_type: SemiBold
+    full_name: Noto Sans Vithkuqi SemiBold
+    post_script_name: NotoSansVithkuqi-SemiBold
+    version: '1.001'
+    description: Designed by Lewis McGuffie
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/vithkuqi)
+    font: NotoSansVithkuqi-SemiBold.ttf
 extract: {}
-copyright: Copyright (c) 1999-2022 SIL International
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/vithkuqi)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 1999-2022 SIL International (http://www.sil.org)
-  with Reserved Font Names "Nuosu" and "SIL".
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/vithkuqi)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +154,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: f09ecb18631c406a83202ebf7005999628f6b0dbbfca20ab9a71203884227fac
+digest: b9f46ecc04ec41c3f5fa82d8cda98716ae310de3d0405c990f72b23a32c5b023
 command: import google --formulas_path Formulas -n 50

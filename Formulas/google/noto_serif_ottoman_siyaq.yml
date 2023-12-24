@@ -1,29 +1,28 @@
 ---
-description: Nuosu SIL
-homepage: https://www.sil.org/
+description: Noto Serif Ottoman Siyaq
+homepage: https://www.google.com/get/noto/
 resources:
-  Nuosu_SIL.zip:
+  Noto_Serif_Ottoman_Siyaq.zip:
     urls:
-    - https://fonts.google.com/download?family=Nuosu%20SIL
-    sha256: ec77a0aadbae96dcb5865f7df05d9d8d4768a45c8c14552508f21950e6fff0c9
-    file_size: 135016
+    - https://fonts.google.com/download?family=Noto%20Serif%20Ottoman%20Siyaq
+    sha256: 7cdc8665d2a12ddda651b8ac7d86c86271e3cfca7cd60b0cd98d7084e911bf7d
+    file_size: 41140
 fonts:
-- name: Nuosu SIL
+- name: Noto Serif Ottoman Siyaq
   styles:
-  - family_name: Nuosu SIL
+  - family_name: Noto Serif Ottoman Siyaq
     type: Regular
-    full_name: Nuosu SIL
-    post_script_name: NuosuSIL-Regular
-    version: '2.300'
-    description: Yi script font
-    copyright: Copyright (c) 1999-2022 SIL International
-    font: NuosuSIL-Regular.ttf
+    full_name: Noto Serif Ottoman Siyaq Regular
+    post_script_name: NotoSerifOttomanSiyaq-Regular
+    version: 1.006; ttfautohint (v1.8.4.7-5d5b)
+    description: Sérgio Martins
+    copyright: Copyright 2022 Google LLC. All Rights Reserved.
+    font: NotoSerifOttomanSiyaq-Regular.ttf
 extract: {}
-copyright: Copyright (c) 1999-2022 SIL International
+copyright: Copyright 2022 Google LLC. All Rights Reserved.
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 1999-2022 SIL International (http://www.sil.org)
-  with Reserved Font Names "Nuosu" and "SIL".
+  Copyright 2023 The Noto Project Authors (https://github.com/notofonts/noto-project-template)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: f09ecb18631c406a83202ebf7005999628f6b0dbbfca20ab9a71203884227fac
+digest: 54b5d0c36d0ad15073c89a3d59da94921efec2ed5c9ac46942cc4ce8a20cb0d7
 command: import google --formulas_path Formulas -n 50

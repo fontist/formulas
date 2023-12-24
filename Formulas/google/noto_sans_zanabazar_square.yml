@@ -1,30 +1,28 @@
 ---
-name: Noto Sans Zanabazar Square
 description: Noto Sans Zanabazar Square
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Zanabazar_Square.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Zanabazar%20Square
-    sha256: 8002a224bcdb3e09803a7ca3583b8c453a40ba8c0149daa9e9f9cca96bf3985a
-    file_size: 10535
+    sha256: 8c5ec0711311056054b12fdc583a2b55306b999e923992027c80800878e50a7e
+    file_size: 37525
 fonts:
-- name: Noto Sans Zanabazar
+- name: Noto Sans Zanabazar Square
   styles:
-  - family_name: Noto Sans Zanabazar
+  - family_name: Noto Sans Zanabazar Square
     type: Regular
-    preferred_family_name: Noto Sans Zanabazar Square
     full_name: Noto Sans Zanabazar Square Regular
     post_script_name: NotoSansZanabazarSquare-Regular
-    version: '2.001'
+    version: 2.006; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2020 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/zanabazar-square)
     font: NotoSansZanabazarSquare-Regular.ttf
 extract: {}
-copyright: Copyright 2020 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/zanabazar-square)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/zanabazar-square)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: bda406cd4e3f9e1b7ab3bf3278f3c5582f7f7ef9a6cb3893fb2bd3d00b667304
-command: google import --formulas_path Formulas
+digest: 2ef761e9c887910da5ad57b8fa1801f996fe8970a3fa1c4aecdda271b27de759
+command: import google --formulas_path Formulas -n 50

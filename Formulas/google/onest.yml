@@ -1,29 +1,117 @@
 ---
-description: Nuosu SIL
-homepage: https://www.sil.org/
+description: Onest
+homepage: https://onest.md
 resources:
-  Nuosu_SIL.zip:
+  Onest.zip:
     urls:
-    - https://fonts.google.com/download?family=Nuosu%20SIL
-    sha256: ec77a0aadbae96dcb5865f7df05d9d8d4768a45c8c14552508f21950e6fff0c9
-    file_size: 135016
+    - https://fonts.google.com/download?family=Onest
+    file_size: 389852
 fonts:
-- name: Nuosu SIL
+- name: Onest
   styles:
-  - family_name: Nuosu SIL
+  - family_name: Onest
+    type: Bold
+    full_name: Onest Bold
+    post_script_name: Onest-Bold
+    version: 1.000;gftools[0.9.33]
+    copyright: Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest)
+    font: Onest-Bold.ttf
+  - family_name: Onest
     type: Regular
-    full_name: Nuosu SIL
-    post_script_name: NuosuSIL-Regular
-    version: '2.300'
-    description: Yi script font
-    copyright: Copyright (c) 1999-2022 SIL International
-    font: NuosuSIL-Regular.ttf
+    full_name: Onest Regular
+    post_script_name: Onest-Regular
+    version: 1.000;gftools[0.9.33]
+    copyright: Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest)
+    font: Onest-VariableFont_wght.ttf
+  - family_name: Onest
+    type: Regular
+    full_name: Onest Regular
+    post_script_name: Onest-Regular
+    version: 1.000;gftools[0.9.33]
+    copyright: Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest)
+    font: Onest-Regular.ttf
+- name: Onest Black
+  styles:
+  - family_name: Onest Black
+    type: Regular
+    preferred_family_name: Onest
+    preferred_type: Black
+    full_name: Onest Black
+    post_script_name: Onest-Black
+    version: 1.000;gftools[0.9.33]
+    copyright: Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest)
+    font: Onest-Black.ttf
+- name: Onest ExtraBold
+  styles:
+  - family_name: Onest ExtraBold
+    type: Regular
+    preferred_family_name: Onest
+    preferred_type: ExtraBold
+    full_name: Onest ExtraBold
+    post_script_name: Onest-ExtraBold
+    version: 1.000;gftools[0.9.33]
+    copyright: Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest)
+    font: Onest-ExtraBold.ttf
+- name: Onest ExtraLight
+  styles:
+  - family_name: Onest ExtraLight
+    type: Regular
+    preferred_family_name: Onest
+    preferred_type: ExtraLight
+    full_name: Onest ExtraLight
+    post_script_name: Onest-ExtraLight
+    version: 1.000;gftools[0.9.33]
+    copyright: Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest)
+    font: Onest-ExtraLight.ttf
+- name: Onest Light
+  styles:
+  - family_name: Onest Light
+    type: Regular
+    preferred_family_name: Onest
+    preferred_type: Light
+    full_name: Onest Light
+    post_script_name: Onest-Light
+    version: 1.000;gftools[0.9.33]
+    copyright: Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest)
+    font: Onest-Light.ttf
+- name: Onest Medium
+  styles:
+  - family_name: Onest Medium
+    type: Regular
+    preferred_family_name: Onest
+    preferred_type: Medium
+    full_name: Onest Medium
+    post_script_name: Onest-Medium
+    version: 1.000;gftools[0.9.33]
+    copyright: Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest)
+    font: Onest-Medium.ttf
+- name: Onest SemiBold
+  styles:
+  - family_name: Onest SemiBold
+    type: Regular
+    preferred_family_name: Onest
+    preferred_type: SemiBold
+    full_name: Onest SemiBold
+    post_script_name: Onest-SemiBold
+    version: 1.000;gftools[0.9.33]
+    copyright: Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest)
+    font: Onest-SemiBold.ttf
+- name: Onest Thin
+  styles:
+  - family_name: Onest Thin
+    type: Regular
+    preferred_family_name: Onest
+    preferred_type: Thin
+    full_name: Onest Thin
+    post_script_name: Onest-Thin
+    version: 1.000;gftools[0.9.33]
+    copyright: Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest)
+    font: Onest-Thin.ttf
 extract: {}
-copyright: Copyright (c) 1999-2022 SIL International
+copyright: Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 1999-2022 SIL International (http://www.sil.org)
-  with Reserved Font Names "Nuosu" and "SIL".
+  Copyright 2021 The Onest Project Authors (https://github.com/googlefonts/onest)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +204,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: f09ecb18631c406a83202ebf7005999628f6b0dbbfca20ab9a71203884227fac
+digest: 43098f06d79f9f0f962db85500fd566fb1e9fa0fca11726f307c36158a662aef
 command: import google --formulas_path Formulas -n 50

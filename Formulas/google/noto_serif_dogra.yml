@@ -5,8 +5,8 @@ resources:
   Noto_Serif_Dogra.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Serif%20Dogra
-    sha256: b5cb5b14ed6b01170d103b436bb5800fbe7a5a6d6ce5885ea54e86a4b49502cc
-    file_size: 15473
+    sha256: 6ee5f8c5c1497492e6dd17535143b94053081a171850065a2042a1747c75741e
+    file_size: 48846
 fonts:
 - name: Noto Serif Dogra
   styles:
@@ -14,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Serif Dogra Regular
     post_script_name: NotoSerifDogra-Regular
-    version: '1.003'
+    version: 1.007; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Ek Type
-    copyright: Copyright 2019 Google LLC. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/dogra)
     font: NotoSerifDogra-Regular.ttf
 extract: {}
-copyright: Copyright 2019 Google LLC. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/dogra)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/dogra)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -115,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: bdb52058eca1f6192f474ebf89a96e9016e0be12cc4e28fe031cf1718df9e1ca
-command: import google --formulas_path Formulas
+digest: e223125cdb27cc49850832cbbc997bac143503639789282133866d4d78b27aac
+command: import google --formulas_path Formulas -n 50

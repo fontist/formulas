@@ -5,8 +5,8 @@ resources:
   Noto_Serif_Balinese.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Serif%20Balinese
-    sha256: 6044ab07481a85472495502848a4871c7f177d1ae4ababddb8d0818e11a3925d
-    file_size: 27299
+    sha256: b931f96f3f44c432f7efa4cdd81e96da2b45792ebfb9aca01b4e644e1a11b7d0
+    file_size: 65410
 fonts:
 - name: Noto Serif Balinese
   styles:
@@ -14,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Serif Balinese Regular
     post_script_name: NotoSerifBalinese-Regular
-    version: '2.000'
+    version: 2.005; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/balinese)
     font: NotoSerifBalinese-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/balinese)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/balinese)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -115,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 67cd2a411a68a5b37ecb24d45c3b1300acbde7587365016c2892835ba5fd13d9
-command: import google --formulas_path Formulas
+digest: e2af239ad9d7ddcf14f5a3792348e98df0d670e1abebf6ef0c8030d71f65b643
+command: import google --formulas_path Formulas -n 50

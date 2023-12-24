@@ -1,33 +1,29 @@
 ---
-name: Orienta
 description: Orienta
 homepage: www.tipo.net.ar
 resources:
   Orienta.zip:
     urls:
     - https://fonts.google.com/download?family=Orienta
-    sha256: d7edbc419328dee8c28bbb4d09f1c44427ee3218a147d8602f42963571511211
-    file_size: 29398
+    sha256: 9d64a93b8d46c1890a3d571a507e0787314b8e761afefaa4d34c3928ef550c4a
+    file_size: 31100
 fonts:
 - name: Orienta
   styles:
   - family_name: Orienta
     type: Regular
-    full_name: Orienta
+    full_name: Orienta Regular
     post_script_name: Orienta-Regular
-    version: '1.001'
-    description: '"Orienta" is a spacious sans serif, with excellent visual performance
-      at very small text sizes.'
-    copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
-      Font Name 'Orienta'
+    version: 1.002; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
+    copyright: Copyright 2012 The Orienta Project Authors (https://github.com/etunni/orienta)
+      with Reserved Font Name 'Orienta'
     font: Orienta-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
+extract: {}
+copyright: Copyright 2012 The Orienta Project Authors (https://github.com/etunni/orienta)
   with Reserved Font Name 'Orienta'
-license_url: http://scripts.sil.org/OFL
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name 'Orienta'
+  Copyright 2012 The Orienta Project Authors (https://github.com/etunni/orienta) with Reserved Font Name 'Orienta'
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -120,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 2fab60f34846bf2033f5d494de80b4cfe1a6c91e095621226732075d3212f900
+command: import google --formulas_path Formulas -n 50

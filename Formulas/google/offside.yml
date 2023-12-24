@@ -1,31 +1,29 @@
 ---
-name: Offside
 description: Offside
 homepage: http://www.tipo.net.ar
 resources:
   Offside.zip:
     urls:
     - https://fonts.google.com/download?family=Offside
-    sha256: 4491d4a722d34b3b8960cd95eab5ecd8189bf8f9e9766903c682526c0b33d875
-    file_size: 16942
+    sha256: 27d277cf04f9c76246c49057e92296469b535c44d18cc253852bb6f033fb4cb9
+    file_size: 34268
 fonts:
 - name: Offside
   styles:
   - family_name: Offside
     type: Regular
-    full_name: Offside
+    full_name: Offside Regular
     post_script_name: Offside-Regular
-    version: '1.001'
-    copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
-      Font Name 'Offside'
+    version: 1.002; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
+    copyright: Copyright 2012 The Offside Project Authors (https://github.com/etunni/offside)
+      with Reserved Font Name 'Offside'
     font: Offside-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
+extract: {}
+copyright: Copyright 2012 The Offside Project Authors (https://github.com/etunni/offside)
   with Reserved Font Name 'Offside'
-license_url: http://scripts.sil.org/OFL
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name 'Offside'
+  Copyright 2012 The Offside Project Authors (https://github.com/etunni/offside) with Reserved Font Name 'Offside'
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -118,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: fb02545fcf5d129b253b4ccf00d1937468b48421c620a9b02e44c14e0ee91d01
+command: import google --formulas_path Formulas -n 50

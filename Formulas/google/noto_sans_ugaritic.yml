@@ -1,13 +1,12 @@
 ---
-name: Noto Sans Ugaritic
 description: Noto Sans Ugaritic
 homepage: http://www.google.com/get/noto/
 resources:
   Noto_Sans_Ugaritic.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Ugaritic
-    sha256: f111a767d479062ddb1a6b4f586384cbe4ef24f8cedd982182ae7323f1f1733a
-    file_size: 5653
+    sha256: fbae9a75768915610cc4ec572ea1ea19e7a9ae7aa663a96a7f0038028f426d9d
+    file_size: 31341
 fonts:
 - name: Noto Sans Ugaritic
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Sans Ugaritic Regular
     post_script_name: NotoSansUgaritic-Regular
-    version: '2.000'
+    version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/ugaritic)
     font: NotoSansUgaritic-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/ugaritic)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/ugaritic)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e68c46723a434f22ee80bd2d5dfb4be2ca340e48fb8fcd8fd4ed39cabe2e2ac0
-command: google import --formulas_path Formulas
+digest: a1c86fa991ea10cffdc61f598d2035ff5595b191cf1717832ed3d0816c47c88a
+command: import google --formulas_path Formulas -n 50

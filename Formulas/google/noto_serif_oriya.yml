@@ -1,29 +1,67 @@
 ---
-description: Nuosu SIL
-homepage: https://www.sil.org/
+description: Noto Serif Oriya
+homepage: https://www.google.com/get/noto/
 resources:
-  Nuosu_SIL.zip:
+  Noto_Serif_Oriya.zip:
     urls:
-    - https://fonts.google.com/download?family=Nuosu%20SIL
-    sha256: ec77a0aadbae96dcb5865f7df05d9d8d4768a45c8c14552508f21950e6fff0c9
-    file_size: 135016
+    - https://fonts.google.com/download?family=Noto%20Serif%20Oriya
+    file_size: 374610
 fonts:
-- name: Nuosu SIL
+- name: Noto Serif Oriya
   styles:
-  - family_name: Nuosu SIL
+  - family_name: Noto Serif Oriya
+    type: Bold
+    full_name: Noto Serif Oriya Bold
+    post_script_name: NotoSerifOriya-Bold
+    version: '1.051'
+    description: Designed by David Williams
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/oriya)
+    font: NotoSerifOriya-Bold.ttf
+  - family_name: Noto Serif Oriya
     type: Regular
-    full_name: Nuosu SIL
-    post_script_name: NuosuSIL-Regular
-    version: '2.300'
-    description: Yi script font
-    copyright: Copyright (c) 1999-2022 SIL International
-    font: NuosuSIL-Regular.ttf
+    full_name: Noto Serif Oriya Regular
+    post_script_name: NotoSerifOriya-Regular
+    version: '1.051'
+    description: Designed by David Williams
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/oriya)
+    font: NotoSerifOriya-VariableFont_wght.ttf
+  - family_name: Noto Serif Oriya
+    type: Regular
+    full_name: Noto Serif Oriya Regular
+    post_script_name: NotoSerifOriya-Regular
+    version: '1.051'
+    description: Designed by David Williams
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/oriya)
+    font: NotoSerifOriya-Regular.ttf
+- name: Noto Serif Oriya Medium
+  styles:
+  - family_name: Noto Serif Oriya Medium
+    type: Regular
+    preferred_family_name: Noto Serif Oriya
+    preferred_type: Medium
+    full_name: Noto Serif Oriya Medium
+    post_script_name: NotoSerifOriya-Medium
+    version: '1.051'
+    description: Designed by David Williams
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/oriya)
+    font: NotoSerifOriya-Medium.ttf
+- name: Noto Serif Oriya SemiBold
+  styles:
+  - family_name: Noto Serif Oriya SemiBold
+    type: Regular
+    preferred_family_name: Noto Serif Oriya
+    preferred_type: SemiBold
+    full_name: Noto Serif Oriya SemiBold
+    post_script_name: NotoSerifOriya-SemiBold
+    version: '1.051'
+    description: Designed by David Williams
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/oriya)
+    font: NotoSerifOriya-SemiBold.ttf
 extract: {}
-copyright: Copyright (c) 1999-2022 SIL International
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/oriya)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 1999-2022 SIL International (http://www.sil.org)
-  with Reserved Font Names "Nuosu" and "SIL".
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/oriya)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +154,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: f09ecb18631c406a83202ebf7005999628f6b0dbbfca20ab9a71203884227fac
+digest: d30d7c3618777b845fab22f48659909afa52d7276eb53613c6cb1e9ceffb3a53
 command: import google --formulas_path Formulas -n 50

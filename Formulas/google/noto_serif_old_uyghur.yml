@@ -1,29 +1,28 @@
 ---
-description: Nuosu SIL
-homepage: https://www.sil.org/
+description: Noto Serif Old Uyghur
+homepage: http://www.google.com/get/noto/
 resources:
-  Nuosu_SIL.zip:
+  Noto_Serif_Old_Uyghur.zip:
     urls:
-    - https://fonts.google.com/download?family=Nuosu%20SIL
-    sha256: ec77a0aadbae96dcb5865f7df05d9d8d4768a45c8c14552508f21950e6fff0c9
-    file_size: 135016
+    - https://fonts.google.com/download?family=Noto%20Serif%20Old%20Uyghur
+    sha256: 2bed4f400a46bbd8ba34ac82b5d277caad825fd6bd265da53e727346a8f78ab0
+    file_size: 44221
 fonts:
-- name: Nuosu SIL
+- name: Noto Serif Old Uyghur
   styles:
-  - family_name: Nuosu SIL
+  - family_name: Noto Serif Old Uyghur
     type: Regular
-    full_name: Nuosu SIL
-    post_script_name: NuosuSIL-Regular
-    version: '2.300'
-    description: Yi script font
-    copyright: Copyright (c) 1999-2022 SIL International
-    font: NuosuSIL-Regular.ttf
+    full_name: Noto Serif Old Uyghur Regular
+    post_script_name: NotoSerifOldUyghur-Regular
+    version: 1.003; ttfautohint (v1.8.4.7-5d5b)
+    description: Designed by Lewis McGuffie.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-uyghur)
+    font: NotoSerifOldUyghur-Regular.ttf
 extract: {}
-copyright: Copyright (c) 1999-2022 SIL International
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-uyghur)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 1999-2022 SIL International (http://www.sil.org)
-  with Reserved Font Names "Nuosu" and "SIL".
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-uyghur)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: f09ecb18631c406a83202ebf7005999628f6b0dbbfca20ab9a71203884227fac
+digest: 149d374fbe95d34f296317d50116dd8c709ce676e83ab995b7a231c2e0b19ab4
 command: import google --formulas_path Formulas -n 50

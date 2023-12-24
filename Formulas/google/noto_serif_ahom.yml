@@ -5,8 +5,8 @@ resources:
   Noto_Serif_Ahom.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Serif%20Ahom
-    sha256: ee3aa19abf39213b071f628283b55469805b109c60f83c8a2fcf52a961783ab9
-    file_size: 13023
+    sha256: 15b9d61ab12481c6d1ce586424370fdb8f639515fb9ae12d9d738ccd5e02a570
+    file_size: 45931
 fonts:
 - name: Noto Serif Ahom
   styles:
@@ -14,15 +14,15 @@ fonts:
     type: Regular
     full_name: Noto Serif Ahom Regular
     post_script_name: NotoSerifAhom-Regular
-    version: '2.003'
+    version: 2.007; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2018 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/ahom)
     font: NotoSerifAhom-Regular.ttf
 extract: {}
-copyright: Copyright 2018 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/ahom)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/ahom)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -115,5 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 2f91b1993f697949f64cf57555956a697b5a27b34d554f4eabb067c65dfaa610
-command: import google --formulas_path Formulas
+digest: 310f3ef27c2a1049e83270a2a170dad8766c1094f2ab0615fecc64eb94d1fc7c
+command: import google --formulas_path Formulas -n 50
