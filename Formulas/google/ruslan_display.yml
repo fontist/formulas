@@ -1,9 +1,7 @@
 ---
-name: RuslanDisplay
 description: Ruslan Display
-homepage:
 resources:
-  RuslanDisplay.zip:
+  Ruslan_Display.zip:
     urls:
     - https://fonts.google.com/download?family=Ruslan%20Display
     sha256: b7f13449c4f7d624eb0248575ecf4b93d63a32e1794cd163346d1609af7c2959
@@ -22,9 +20,8 @@ fonts:
     copyright: 'Copyright (c) 2010, 2011, Denis Masharov <denis.masharov@gmail.com>,
       Vladimir Rabdu. This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
-    font: RuslanDisplay.ttf
-extract:
-  format: zip
+    font: RuslanDisplay-Regular.ttf
+extract: {}
 copyright: 'Copyright (c) 2010, 2011, Denis Masharov <denis.masharov@gmail.com>, Vladimir
   Rabdu. This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is available with a FAQ at: http://scripts.sil.org/OFL'
@@ -124,3 +121,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 63870cb647199466e2a27c9465613dacbf7c97d1ded02432843d856b3ac7aeb8
+command: import google --formulas_path Formulas -n 50

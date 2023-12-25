@@ -1,13 +1,12 @@
 ---
-name: PathwayGothicOne
 description: Pathway Gothic One
 homepage: http://www.tipo.net.ar
 resources:
-  PathwayGothicOne.zip:
+  Pathway_Gothic_One.zip:
     urls:
     - https://fonts.google.com/download?family=Pathway%20Gothic%20One
-    sha256: 38cbc4ebfefdbe903cce367075468b4f49ce2356edd274a3050bd3764e4659d2
-    file_size: 15119
+    sha256: 60e6d195023720593751b58d808c547799c4c7d734079fd363200c16fc1eb1d0
+    file_size: 28394
 fonts:
 - name: Pathway Gothic One
   styles:
@@ -15,17 +14,16 @@ fonts:
     type: Regular
     full_name: Pathway Gothic One Regular
     post_script_name: PathwayGothicOne-Regular
-    version: '1.002'
-    copyright: Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
+    version: 1.003; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.26]
+    copyright: Copyright 2013 The Pathway Gothic Project Authors (https://github.com/etunni/pathway-gothic),
       with Reserved Font Name 'Pathway'
     font: PathwayGothicOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
+extract: {}
+copyright: Copyright 2013 The Pathway Gothic Project Authors (https://github.com/etunni/pathway-gothic),
   with Reserved Font Name 'Pathway'
-license_url: http://scripts.sil.org/OFL
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Pathway'
+  Copyright 2013 The Pathway Gothic Project Authors (https://github.com/etunni/pathway-gothic), with Reserved Font Name 'Pathway'
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -118,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 9bd0284bea7dedcfc316bf80e548be5aecb23bf5cce1de2b612c29650cf20c90
+command: import google --formulas_path Formulas -n 50

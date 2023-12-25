@@ -1,12 +1,11 @@
 ---
-name: Outfit
 description: Outfit
 homepage: www.fragtypefoundry.xyz
 resources:
   Outfit.zip:
     urls:
     - https://fonts.google.com/download?family=Outfit
-    file_size: 230102
+    file_size: 321873
 fonts:
 - name: Outfit
   styles:
@@ -14,14 +13,14 @@ fonts:
     type: Bold
     full_name: Outfit Bold
     post_script_name: Outfit-Bold
-    version: '1.000'
+    version: 1.100;gftools[0.9.27]
     copyright: Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
     font: Outfit-Bold.ttf
   - family_name: Outfit
     type: Regular
     full_name: Outfit Regular
     post_script_name: Outfit-Regular
-    version: '1.000'
+    version: 1.100;gftools[0.9.27]
     copyright: Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
     font: Outfit-Regular.ttf
 - name: Outfit Black
@@ -32,7 +31,7 @@ fonts:
     preferred_type: Black
     full_name: Outfit Black
     post_script_name: Outfit-Black
-    version: '1.000'
+    version: 1.100;gftools[0.9.27]
     copyright: Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
     font: Outfit-Black.ttf
 - name: Outfit ExtraBold
@@ -43,7 +42,7 @@ fonts:
     preferred_type: ExtraBold
     full_name: Outfit ExtraBold
     post_script_name: Outfit-ExtraBold
-    version: '1.000'
+    version: 1.100;gftools[0.9.27]
     copyright: Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
     font: Outfit-ExtraBold.ttf
 - name: Outfit ExtraLight
@@ -54,7 +53,7 @@ fonts:
     preferred_type: ExtraLight
     full_name: Outfit ExtraLight
     post_script_name: Outfit-ExtraLight
-    version: '1.000'
+    version: 1.100;gftools[0.9.27]
     copyright: Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
     font: Outfit-ExtraLight.ttf
 - name: Outfit Light
@@ -65,7 +64,7 @@ fonts:
     preferred_type: Light
     full_name: Outfit Light
     post_script_name: Outfit-Light
-    version: '1.000'
+    version: 1.100;gftools[0.9.27]
     copyright: Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
     font: Outfit-Light.ttf
 - name: Outfit Medium
@@ -76,7 +75,7 @@ fonts:
     preferred_type: Medium
     full_name: Outfit Medium
     post_script_name: Outfit-Medium
-    version: '1.000'
+    version: 1.100;gftools[0.9.27]
     copyright: Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
     font: Outfit-Medium.ttf
 - name: Outfit SemiBold
@@ -87,7 +86,7 @@ fonts:
     preferred_type: SemiBold
     full_name: Outfit SemiBold
     post_script_name: Outfit-SemiBold
-    version: '1.000'
+    version: 1.100;gftools[0.9.27]
     copyright: Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
     font: Outfit-SemiBold.ttf
 - name: Outfit Thin
@@ -98,7 +97,7 @@ fonts:
     preferred_type: Thin
     full_name: Outfit Thin
     post_script_name: Outfit-Thin
-    version: '1.000'
+    version: 1.100;gftools[0.9.27]
     copyright: Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
     font: Outfit-VariableFont_wght.ttf
   - family_name: Outfit Thin
@@ -107,7 +106,7 @@ fonts:
     preferred_type: Thin
     full_name: Outfit Thin
     post_script_name: Outfit-Thin
-    version: '1.000'
+    version: 1.100;gftools[0.9.27]
     copyright: Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
     font: Outfit-Thin.ttf
 extract: {}
@@ -207,5 +206,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: fdb288920d942205ac875ec269b1b2775b34495607b95d285cecf147538ece22
-command: google import --formulas_path Formulas
+digest: 8e3b5524520e1bda489f70864b42d6348ee3c04160275f25033e0f001f39db2c
+command: import google --formulas_path Formulas -n 50

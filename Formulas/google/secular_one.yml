@@ -1,13 +1,12 @@
 ---
-name: SecularOne
 description: Secular One
-homepage: http://Hagilda.com
+homepage: https://hagilda.com/
 resources:
-  SecularOne.zip:
+  Secular_One.zip:
     urls:
     - https://fonts.google.com/download?family=Secular%20One
-    sha256: 1ccaa2771c537d7257ab38400c38291ee5878751c81817cf14182adde26fbbeb
-    file_size: 30793
+    sha256: a63f104377dd7f7064d1e9e39c8e0d3855bb6717711f3054cc69c23d59a85c33
+    file_size: 44651
 fonts:
 - name: Secular One
   styles:
@@ -15,15 +14,14 @@ fonts:
     type: Regular
     full_name: Secular One Regular
     post_script_name: SecularOne-Regular
-    version: '1.001'
-    copyright: Copyright 2016 Michal Sahar. All rights reserved.
+    version: 1.002; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.29]
+    copyright: Copyright 2016 The Secular One Project Authors (https://github.com/googlefonts/secular)
     font: SecularOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2016 Michal Sahar. All rights reserved.
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright 2016 The Secular One Project Authors (https://github.com/googlefonts/secular)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2016 Michal Sahar. All rights reserved.
+  Copyright 2016 The Secular One Project Authors (https://github.com/googlefonts/secular)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 11fd0d85dedf9da742c70dab73b6dbb65968712e9dff92bbabe4bf15f7e85b12
+command: import google --formulas_path Formulas -n 50

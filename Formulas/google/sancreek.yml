@@ -1,13 +1,11 @@
 ---
-name: Sancreek
 description: Sancreek
-homepage:
 resources:
   Sancreek.zip:
     urls:
     - https://fonts.google.com/download?family=Sancreek
-    sha256: 445f137ade4c1cb82fb3506c80b0633377c15a7d288c339789ef1ce5cb575203
-    file_size: 33005
+    sha256: d7c9459fe39d1d08d7d3e1a5b0268d25fd8f800e43b804009790d05d229cbba0
+    file_size: 33039
 fonts:
 - name: Sancreek
   styles:
@@ -19,8 +17,7 @@ fonts:
     copyright: Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk), with
       Reserved Font Names "Sancreek"
     font: Sancreek-Regular.ttf
-extract:
-  format: zip
+extract: {}
 copyright: Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk), with Reserved
   Font Names "Sancreek"
 license_url: http://scripts.sil.org/OFL
@@ -119,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 5b60a989358fc73c19ee8ad2289d85fd94593e0d6404af740ace35ddb33ec401
+command: import google --formulas_path Formulas -n 50

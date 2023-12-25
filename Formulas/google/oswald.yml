@@ -1,12 +1,11 @@
 ---
-name: Oswald
 description: Oswald
 homepage: http://www.sansoxygen.com
 resources:
   Oswald.zip:
     urls:
     - https://fonts.google.com/download?family=Oswald
-    file_size: 370386
+    file_size: 361374
 fonts:
 - name: Oswald
   styles:
@@ -14,21 +13,21 @@ fonts:
     type: Bold
     full_name: Oswald Bold
     post_script_name: Oswald-Bold
-    version: 4.100; ttfautohint (v1.8.1.43-b0c9)
+    version: 4.103;gftools[0.9.33.dev8+g029e19f]
     copyright: Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
     font: Oswald-Bold.ttf
   - family_name: Oswald
     type: Regular
     full_name: Oswald Regular
     post_script_name: Oswald-Regular
-    version: 4.100; ttfautohint (v1.8.1.43-b0c9)
+    version: 4.103;gftools[0.9.33.dev8+g029e19f]
     copyright: Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
     font: Oswald-VariableFont_wght.ttf
   - family_name: Oswald
     type: Regular
     full_name: Oswald Regular
     post_script_name: Oswald-Regular
-    version: 4.100; ttfautohint (v1.8.1.43-b0c9)
+    version: 4.103;gftools[0.9.33.dev8+g029e19f]
     copyright: Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
     font: Oswald-Regular.ttf
 - name: Oswald ExtraLight
@@ -39,7 +38,7 @@ fonts:
     preferred_type: ExtraLight
     full_name: Oswald ExtraLight
     post_script_name: Oswald-ExtraLight
-    version: 4.100; ttfautohint (v1.8.1.43-b0c9)
+    version: 4.103;gftools[0.9.33.dev8+g029e19f]
     copyright: Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
     font: Oswald-ExtraLight.ttf
 - name: Oswald Light
@@ -50,7 +49,7 @@ fonts:
     preferred_type: Light
     full_name: Oswald Light
     post_script_name: Oswald-Light
-    version: 4.100; ttfautohint (v1.8.1.43-b0c9)
+    version: 4.103;gftools[0.9.33.dev8+g029e19f]
     copyright: Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
     font: Oswald-Light.ttf
 - name: Oswald Medium
@@ -61,7 +60,7 @@ fonts:
     preferred_type: Medium
     full_name: Oswald Medium
     post_script_name: Oswald-Medium
-    version: 4.100; ttfautohint (v1.8.1.43-b0c9)
+    version: 4.103;gftools[0.9.33.dev8+g029e19f]
     copyright: Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
     font: Oswald-Medium.ttf
 - name: Oswald SemiBold
@@ -72,12 +71,12 @@ fonts:
     preferred_type: SemiBold
     full_name: Oswald SemiBold
     post_script_name: Oswald-SemiBold
-    version: 4.100; ttfautohint (v1.8.1.43-b0c9)
+    version: 4.103;gftools[0.9.33.dev8+g029e19f]
     copyright: Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
     font: Oswald-SemiBold.ttf
 extract: {}
 copyright: Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
-license_url: http://scripts.sil.org/OFL
+license_url: https://scripts.sil.org/OFL
 open_license: |-
   Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
 
@@ -172,5 +171,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ec8ce9e9d458462a456d6b70be26a2d7f95457b012edac3e7d923a36746352eb
-command: google import --formulas_path Formulas
+digest: e737877d1c812d685310afa5970364e52ba67fa2dd39e2cb28749b254b3e7d72
+command: import google --formulas_path Formulas -n 50
