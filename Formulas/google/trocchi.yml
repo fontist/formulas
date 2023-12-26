@@ -1,13 +1,12 @@
 ---
-name: Trocchi
 description: Trocchi
-homepage: http://www.newtypography.co.uk
+homepage: http://www.sansoxygen.com
 resources:
   Trocchi.zip:
     urls:
     - https://fonts.google.com/download?family=Trocchi
-    sha256: 5fafdefcb67f355b47fa0b3278dd532f779eb3f2a6d7c73fdb277119b5a555be
-    file_size: 37337
+    sha256: 06a8b8db82130f997d72a55d0d26fc74127010195cb6cd09eb6dd74179069430
+    file_size: 39750
 fonts:
 - name: Trocchi
   styles:
@@ -15,15 +14,14 @@ fonts:
     type: Regular
     full_name: Trocchi Regular
     post_script_name: Trocchi-Regular
-    version: '1.100'
-    copyright: Copyright 2012 The Trocchi Project Authors (vern@newtypography.co.uk)
+    version: 1.101; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.27]
+    copyright: Copyright 2012 The Trocchi Project Authors (https://github.com/m4rc1e/Trocchi)
     font: Trocchi-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2012 The Trocchi Project Authors (vern@newtypography.co.uk)
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright 2012 The Trocchi Project Authors (https://github.com/m4rc1e/Trocchi)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 The Trocchi Project Authors (vern@newtypography.co.uk)
+  Copyright 2012 The Trocchi Project Authors (https://github.com/m4rc1e/Trocchi)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 8be07756670e5eb867fd27f8215769bdfc8eb1d129a6e1d016d3eb70faa1e241
+command: import google --formulas_path Formulas -n 50

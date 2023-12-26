@@ -1,62 +1,74 @@
 ---
-name: Teko
 description: Teko
-homepage: http://www.indiantypefoundry.com
 resources:
   Teko.zip:
     urls:
     - https://fonts.google.com/download?family=Teko
-    sha256: 842ca6b8e17ac060b756cf31e7680efe03e60250760d6749562da57e2074dbbf
-    file_size: 573670
+    file_size: 402566
 fonts:
 - name: Teko
   styles:
   - family_name: Teko
-    type: Light
-    full_name: Teko Light
-    post_script_name: Teko-Light
-    version: 1.106;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
-      -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G
-    copyright: Copyright 2014 Indian Type Foundry. All rights reserved.
-    font: Teko-Light.ttf
+    type: Bold
+    full_name: Teko Bold
+    post_script_name: Teko-Bold
+    version: 2.000;gftools[0.9.28.dev9+g7d2139d.d20230707]
+    copyright: Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)
+    font: Teko-Bold.ttf
   - family_name: Teko
     type: Regular
     full_name: Teko Regular
     post_script_name: Teko-Regular
-    version: 1.106;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
-      -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G
-    copyright: Copyright 2014 Indian Type Foundry. All rights reserved.
+    version: 2.000;gftools[0.9.28.dev9+g7d2139d.d20230707]
+    copyright: Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)
     font: Teko-Regular.ttf
-  - family_name: Teko
-    type: Medium
+- name: Teko Light
+  styles:
+  - family_name: Teko Light
+    type: Regular
+    preferred_family_name: Teko
+    preferred_type: Light
+    full_name: Teko Light
+    post_script_name: Teko-Light
+    version: 2.000;gftools[0.9.28.dev9+g7d2139d.d20230707]
+    copyright: Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)
+    font: Teko-VariableFont_wght.ttf
+  - family_name: Teko Light
+    type: Regular
+    preferred_family_name: Teko
+    preferred_type: Light
+    full_name: Teko Light
+    post_script_name: Teko-Light
+    version: 2.000;gftools[0.9.28.dev9+g7d2139d.d20230707]
+    copyright: Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)
+    font: Teko-Light.ttf
+- name: Teko Medium
+  styles:
+  - family_name: Teko Medium
+    type: Regular
+    preferred_family_name: Teko
+    preferred_type: Medium
     full_name: Teko Medium
     post_script_name: Teko-Medium
-    version: 1.106;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
-      -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G
-    copyright: Copyright 2014 Indian Type Foundry. All rights reserved.
+    version: 2.000;gftools[0.9.28.dev9+g7d2139d.d20230707]
+    copyright: Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)
     font: Teko-Medium.ttf
-  - family_name: Teko
-    type: SemiBold
+- name: Teko SemiBold
+  styles:
+  - family_name: Teko SemiBold
+    type: Regular
+    preferred_family_name: Teko
+    preferred_type: SemiBold
     full_name: Teko SemiBold
     post_script_name: Teko-SemiBold
-    version: 1.106;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
-      -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G
-    copyright: Copyright 2014 Indian Type Foundry. All rights reserved.
+    version: 2.000;gftools[0.9.28.dev9+g7d2139d.d20230707]
+    copyright: Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)
     font: Teko-SemiBold.ttf
-  - family_name: Teko
-    type: Bold
-    full_name: Teko Bold
-    post_script_name: Teko-Bold
-    version: 1.106;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
-      -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G
-    copyright: Copyright 2014 Indian Type Foundry. All rights reserved.
-    font: Teko-Bold.ttf
-extract:
-  format: zip
-copyright: Copyright 2014 Indian Type Foundry. All rights reserved.
+extract: {}
+copyright: Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2014, Indian Type Foundry (info@indiantypefoundry.com).
+  Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -149,3 +161,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 91d524184ad727c02774f959abe40503a542e9e98e733b31937d781fe49a6929
+command: import google --formulas_path Formulas -n 50

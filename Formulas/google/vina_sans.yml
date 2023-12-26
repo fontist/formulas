@@ -1,72 +1,26 @@
 ---
-description: Sen
+description: Vina Sans
 resources:
-  Sen.zip:
+  Vina_Sans.zip:
     urls:
-    - https://fonts.google.com/download?family=Sen
-    file_size: 124132
+    - https://fonts.google.com/download?family=Vina%20Sans
+    sha256: 1f11f46a572f7879234995595848139c549a91fa4eee196e3f200e8c5086e32a
+    file_size: 41157
 fonts:
-- name: Sen
+- name: Vina Sans
   styles:
-  - family_name: Sen
-    type: Bold
-    full_name: Sen Bold
-    post_script_name: Sen-Bold
-    version: 2.000;gftools[0.9.31]
-    copyright: Copyright 2023 The Sen Project Authors (https://github.com/philatype/Sen/)
-    font: Sen-Bold.ttf
-  - family_name: Sen
+  - family_name: Vina Sans
     type: Regular
-    full_name: Sen Regular
-    post_script_name: Sen-Regular
-    version: 2.000;gftools[0.9.31]
-    copyright: Copyright 2023 The Sen Project Authors (https://github.com/philatype/Sen/)
-    font: Sen-VariableFont_wght.ttf
-  - family_name: Sen
-    type: Regular
-    full_name: Sen Regular
-    post_script_name: Sen-Regular
-    version: 2.000;gftools[0.9.31]
-    copyright: Copyright 2023 The Sen Project Authors (https://github.com/philatype/Sen/)
-    font: Sen-Regular.ttf
-- name: Sen ExtraBold
-  styles:
-  - family_name: Sen ExtraBold
-    type: Regular
-    preferred_family_name: Sen
-    preferred_type: ExtraBold
-    full_name: Sen ExtraBold
-    post_script_name: Sen-ExtraBold
-    version: 2.000;gftools[0.9.31]
-    copyright: Copyright 2023 The Sen Project Authors (https://github.com/philatype/Sen/)
-    font: Sen-ExtraBold.ttf
-- name: Sen Medium
-  styles:
-  - family_name: Sen Medium
-    type: Regular
-    preferred_family_name: Sen
-    preferred_type: Medium
-    full_name: Sen Medium
-    post_script_name: Sen-Medium
-    version: 2.000;gftools[0.9.31]
-    copyright: Copyright 2023 The Sen Project Authors (https://github.com/philatype/Sen/)
-    font: Sen-Medium.ttf
-- name: Sen SemiBold
-  styles:
-  - family_name: Sen SemiBold
-    type: Regular
-    preferred_family_name: Sen
-    preferred_type: SemiBold
-    full_name: Sen SemiBold
-    post_script_name: Sen-SemiBold
-    version: 2.000;gftools[0.9.31]
-    copyright: Copyright 2023 The Sen Project Authors (https://github.com/philatype/Sen/)
-    font: Sen-SemiBold.ttf
+    full_name: Vina Sans Regular
+    post_script_name: VinaSans-Regular
+    version: 1.002; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.28]
+    copyright: Copyright 2023 The Vina Sans Project Authors (https://github.com/nguyentype/vinasans)
+    font: VinaSans-Regular.ttf
 extract: {}
-copyright: Copyright 2023 The Sen Project Authors (https://github.com/philatype/Sen/)
+copyright: Copyright 2023 The Vina Sans Project Authors (https://github.com/nguyentype/vinasans)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2015 The Sen Project Authors (https://github.com/philatype/Sen/)
+  Copyright 2023 The Vina Sans Project Authors (https://github.com/nguyentype/vinasans)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -159,5 +113,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 3f31a8132e4252011d862c1003e54cf7c209ae477bcbf493ee28da5614bfa2c1
+digest: 1f173fcfb16301e17ac01e2a02bdbb1a59fcf5e871727f6e74b4fcd930b54edb
 command: import google --formulas_path Formulas -n 50

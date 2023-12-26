@@ -1,31 +1,29 @@
 ---
-name: Strait
 description: Strait
 homepage: http://www.tipo.net.ar
 resources:
   Strait.zip:
     urls:
     - https://fonts.google.com/download?family=Strait
-    sha256: fdd1e0bfaf29394571479809be5c12f70640d35879c5a4c32c6f26bf0543acfe
-    file_size: 17428
+    sha256: 3bb0acc5a76d1abd2e7ae603dfb4bd2fa8f5cc73f2056556c1ebcea4debaad55
+    file_size: 31756
 fonts:
 - name: Strait
   styles:
   - family_name: Strait
     type: Regular
-    full_name: Strait
+    full_name: Strait Regular
     post_script_name: Strait-Regular
-    version: '1.001'
-    copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
-      Font Name 'Strait'
+    version: 1.002; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
+    copyright: Copyright 2012 The Strait Project Authors (https://github.com/etunni/strait),
+      with Reserved Font Name 'Strait'
     font: Strait-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
+extract: {}
+copyright: Copyright 2012 The Strait Project Authors (https://github.com/etunni/strait),
   with Reserved Font Name 'Strait'
-license_url: http://scripts.sil.org/OFL
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name 'Strait'
+  Copyright 2012 The Strait Project Authors (https://github.com/etunni/strait), with Reserved Font Name 'Strait'
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -118,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: b185798aec93ca17c0f53e31677afe6281aabead9a2d8d62c99b6ce1aa7fc362
+command: import google --formulas_path Formulas -n 50

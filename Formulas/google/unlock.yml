@@ -1,13 +1,12 @@
 ---
-name: Unlock
 description: Unlock
 homepage: http://www.tipo.net.ar
 resources:
   Unlock.zip:
     urls:
     - https://fonts.google.com/download?family=Unlock
-    sha256: 63c5c03a048145acc1ccae08ca6af626354c12f638ad4e39d3848bbc94d4d71d
-    file_size: 15724
+    sha256: abced24267b701e33b30fdab0b117cd17e6457e71e8b2b73581d4b5b2d23ecb6
+    file_size: 32234
 fonts:
 - name: Unlock
   styles:
@@ -15,18 +14,16 @@ fonts:
     type: Regular
     full_name: Unlock Regular
     post_script_name: Unlock-Regular
-    version: '1.002'
-    copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
-      Font Name "Unlock"
+    version: 1.003; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
+    copyright: Copyright 2011 The Unlock Project Authors (https://github.com/etunni/unlock),
+      with Reserved Font Name 'Unlock'
     font: Unlock-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
-  with Reserved Font Name "Unlock"
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright 2011 The Unlock Project Authors (https://github.com/etunni/unlock),
+  with Reserved Font Name 'Unlock'
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar),
-  with Reserved Font Name "Unlock"
+  Copyright 2011 The Unlock Project Authors (https://github.com/etunni/unlock), with Reserved Font Name 'Unlock'
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -119,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 5f633a004181feb32d57c69a5ca48af6ffd164ccde44ea74c577cfbf6520b6f6
+command: import google --formulas_path Formulas -n 50

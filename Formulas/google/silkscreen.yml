@@ -1,72 +1,34 @@
 ---
-description: Sen
+description: Silkscreen
+homepage: https://kottke.org/
 resources:
-  Sen.zip:
+  Silkscreen.zip:
     urls:
-    - https://fonts.google.com/download?family=Sen
-    file_size: 124132
+    - https://fonts.google.com/download?family=Silkscreen
+    sha256: 97268acc7d9d88cfa37fe01ae427ce77c3d305ec2ec3e822ba103230f83a9e72
+    file_size: 24218
 fonts:
-- name: Sen
+- name: Silkscreen
   styles:
-  - family_name: Sen
+  - family_name: Silkscreen
     type: Bold
-    full_name: Sen Bold
-    post_script_name: Sen-Bold
-    version: 2.000;gftools[0.9.31]
-    copyright: Copyright 2023 The Sen Project Authors (https://github.com/philatype/Sen/)
-    font: Sen-Bold.ttf
-  - family_name: Sen
+    full_name: Silkscreen Bold
+    post_script_name: Silkscreen-Bold
+    version: 1.001; ttfautohint (v1.8.4.7-5d5b)
+    copyright: Copyright 2001 The Silkscreen Project Authors (https://github.com/googlefonts/silkscreen)
+    font: Silkscreen-Bold.ttf
+  - family_name: Silkscreen
     type: Regular
-    full_name: Sen Regular
-    post_script_name: Sen-Regular
-    version: 2.000;gftools[0.9.31]
-    copyright: Copyright 2023 The Sen Project Authors (https://github.com/philatype/Sen/)
-    font: Sen-VariableFont_wght.ttf
-  - family_name: Sen
-    type: Regular
-    full_name: Sen Regular
-    post_script_name: Sen-Regular
-    version: 2.000;gftools[0.9.31]
-    copyright: Copyright 2023 The Sen Project Authors (https://github.com/philatype/Sen/)
-    font: Sen-Regular.ttf
-- name: Sen ExtraBold
-  styles:
-  - family_name: Sen ExtraBold
-    type: Regular
-    preferred_family_name: Sen
-    preferred_type: ExtraBold
-    full_name: Sen ExtraBold
-    post_script_name: Sen-ExtraBold
-    version: 2.000;gftools[0.9.31]
-    copyright: Copyright 2023 The Sen Project Authors (https://github.com/philatype/Sen/)
-    font: Sen-ExtraBold.ttf
-- name: Sen Medium
-  styles:
-  - family_name: Sen Medium
-    type: Regular
-    preferred_family_name: Sen
-    preferred_type: Medium
-    full_name: Sen Medium
-    post_script_name: Sen-Medium
-    version: 2.000;gftools[0.9.31]
-    copyright: Copyright 2023 The Sen Project Authors (https://github.com/philatype/Sen/)
-    font: Sen-Medium.ttf
-- name: Sen SemiBold
-  styles:
-  - family_name: Sen SemiBold
-    type: Regular
-    preferred_family_name: Sen
-    preferred_type: SemiBold
-    full_name: Sen SemiBold
-    post_script_name: Sen-SemiBold
-    version: 2.000;gftools[0.9.31]
-    copyright: Copyright 2023 The Sen Project Authors (https://github.com/philatype/Sen/)
-    font: Sen-SemiBold.ttf
+    full_name: Silkscreen Regular
+    post_script_name: Silkscreen-Regular
+    version: 1.001; ttfautohint (v1.8.4.7-5d5b)
+    copyright: Copyright 2001 The Silkscreen Project Authors (https://github.com/googlefonts/silkscreen)
+    font: Silkscreen-Regular.ttf
 extract: {}
-copyright: Copyright 2023 The Sen Project Authors (https://github.com/philatype/Sen/)
+copyright: Copyright 2001 The Silkscreen Project Authors (https://github.com/googlefonts/silkscreen)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2015 The Sen Project Authors (https://github.com/philatype/Sen/)
+  Copyright 2001 The Silkscreen Project Authors (https://github.com/googlefonts/silkscreen)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -159,5 +121,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 3f31a8132e4252011d862c1003e54cf7c209ae477bcbf493ee28da5614bfa2c1
+digest: 02ec0f253bbcbea49056b46be4e31f22943a9ef1af5fac809be95dfc5ca7497c
 command: import google --formulas_path Formulas -n 50

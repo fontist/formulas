@@ -1,32 +1,27 @@
 ---
-name: SeymourOne
 description: Seymour One
-homepage: newtypography.co.uk
+homepage: http://www.sansoxygen.com
 resources:
-  SeymourOne.zip:
+  Seymour_One.zip:
     urls:
     - https://fonts.google.com/download?family=Seymour%20One
-    sha256: 966425f0b526e935738755496a0d945b0293300328081719a26e502a28636214
-    file_size: 43913
+    sha256: 148c62398178cfec1f36d1acab9c0c56656cd22bb31f19644a1ac10ea00371b6
+    file_size: 56868
 fonts:
 - name: Seymour One
   styles:
   - family_name: Seymour One
-    type: Book
-    full_name: Seymour One
+    type: Regular
+    full_name: Seymour One Regular
     post_script_name: SeymourOne
-    version: 1.000; ttfautohint (v0.93) -l 8 -r 50 -G 200 -x 0 -w "gGD" -c
-    description: Copyright (c) 2011-12 by Vernon Adams. All rights reserved.
-    copyright: Copyright (c) 2011-12 by vernon adams. All rights reserved.
+    version: 1.100; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]
+    copyright: Copyright 2011 The Seymour One Project Authors (https://github.com/googlefonts/seymourFont)
     font: SeymourOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011-12 by vernon adams (vern@newtypography.co.uk) with Reserved
-  Font Names 'Seymour'. All rights reserved.
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright 2011 The Seymour One Project Authors (https://github.com/googlefonts/seymourFont)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2012, vernon adams (vern@newtypography.co.uk),
-  with Reserved Font Name 'Seymour' and 'Seymour One'.
+  Copyright 2011 The Seymour One Project Authors (https://github.com/googlefonts/seymourFont)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -119,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 9dbf0eb8732aa067a8fa412169c32cf542b7288d170492de1daeeef5e5e0a45d
+command: import google --formulas_path Formulas -n 50

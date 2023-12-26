@@ -1,37 +1,28 @@
 ---
-name: Voltaire
 description: Voltaire
-homepage: www.sorkintype.com
+homepage: http://sorkintype.com/
 resources:
   Voltaire.zip:
     urls:
     - https://fonts.google.com/download?family=Voltaire
-    sha256: b158f4348eadaf51f03335c6641e16eb3b5684c937e682ac3b3cd280db6b0a66
-    file_size: 15866
+    sha256: 13f6a31174e07671fbfc44a14b1fb2cb371fe87d3a58868569137cabe0ed408a
+    file_size: 110571
 fonts:
 - name: Voltaire
   styles:
   - family_name: Voltaire
     type: Regular
-    full_name: Voltaire
-    post_script_name: Voltaire
-    version: '1.003'
+    full_name: Voltaire Regular
+    post_script_name: Voltaire-Regular
+    version: 1.008; ttfautohint (v1.8.4.7-5d5b)
     description: Voltaire is a low contrast condensed semi-geometric style sans serif.
-      Voltaire is highly readable and will work from medium yext sizes all the way
-      up to larger display settings. Voltaire was inspired by 20th century Swedish
-      posters whose letters  have similar forms.
-    copyright: |-
-      Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
-      with Reserved Font Names "Voltaire" and "Voltaire One".
+    copyright: Copyright 2011 The Voltaire Project Authors (https://github.com/SorkinType/Voltaire)
     font: Voltaire-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)
-  with Reserved Font Names "Voltaire" and "Voltaire One".
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright 2011 The Voltaire Project Authors (https://github.com/SorkinType/Voltaire)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
-  with Reserved Font Name "Voltaire".
+  Copyright 2011 The Voltaire Project Authors (https://github.com/SorkinType/Voltaire)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -124,3 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 24c62951717ebf0f8dc74312e705b42afca153522a4c6d806f6364eb0b844655
+command: import google --formulas_path Formulas -n 50

@@ -1,35 +1,29 @@
 ---
-name: Warnes
 description: Warnes
 homepage: www.tipo.net.ar
 resources:
   Warnes.zip:
     urls:
     - https://fonts.google.com/download?family=Warnes
-    sha256: aba9407fd94818752bec7fdd81020bec3d4afadaaaf0a39410fe1e13bb23d38a
-    file_size: 35526
+    sha256: 87696c238b9877b830db6623aec81781f385c98a3ea55a6578dcc43fe6aed882
+    file_size: 36088
 fonts:
 - name: Warnes
   styles:
   - family_name: Warnes
     type: Regular
-    full_name: Warnes
+    full_name: Warnes Regular
     post_script_name: Warnes-Regular
-    version: '1.001'
-    description: The retro look of this typeface reminds us of the metal badges used
-      in the past to show car model names. The family name “Warnes” is the name of
-      a street in the city of Buenos Aires where all the shops are garages selling
-      spare parts.
-    copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
-      Font Name 'Warnes'
+    version: 1.002; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
+    copyright: Copyright 2012 The Warnes Project Authors (https://github.com/etunni/warnes),
+      with Reserved Font Name 'Warnes'
     font: Warnes-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
+extract: {}
+copyright: Copyright 2012 The Warnes Project Authors (https://github.com/etunni/warnes),
   with Reserved Font Name 'Warnes'
-license_url: http://scripts.sil.org/OFL
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name 'Warnes'
+  Copyright 2012 The Warnes Project Authors (https://github.com/etunni/warnes), with Reserved Font Name 'Warnes'
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -122,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: c3af856b423100d76cca9cebd266a64e00b0ec488fc9a47395eec3a4ed48090e
+command: import google --formulas_path Formulas -n 50

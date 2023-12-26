@@ -1,32 +1,27 @@
 ---
-name: Shanti
 description: Shanti
-homepage: http://www.newtypography.co.uk
+homepage: http://www.sansoxygen.com
 resources:
   Shanti.zip:
     urls:
     - https://fonts.google.com/download?family=Shanti
-    sha256: c2c0ccb1a12fd50759399f5062a34851d28fbad28ed6215fc41de9b1a5b0827e
-    file_size: 51016
+    sha256: ac0adff89104f91ed2549c71b5f9357954753b9c9c4ce2b525e9aee0f398381d
+    file_size: 39434
 fonts:
 - name: Shanti
   styles:
   - family_name: Shanti
     type: Regular
-    full_name: Shanti
-    post_script_name: Shanti
-    version: '1.000'
-    description: Copyright (c) 2011 by . All rights reserved.
-    copyright: Copyright (c) 2011 by vernon adams. All rights reserved.
+    full_name: Shanti Regular
+    post_script_name: Shanti-Regular
+    version: 1.100; ttfautohint (v1.8.4)
+    copyright: Copyright 2011 The Shanti Project Authors (https://github.com/googlefonts/ShantiFont)
     font: Shanti-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved
-  Font Names 'Shanti'. All rights reserved.
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright 2011 The Shanti Project Authors (https://github.com/googlefonts/ShantiFont)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk),
-  with Reserved Font Names "Shanti".
+  Copyright 2011 The Shanti Project Authors (https://github.com/googlefonts/ShantiFont)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -119,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 29bffec56e91c7ebd42998f3a2f1f8ccd551f2c3374f8b98de8c61a3b7518144
+command: import google --formulas_path Formulas -n 50
