@@ -1,12 +1,11 @@
 ---
-name: Yanone Kaffeesatz
 description: Yanone Kaffeesatz
 homepage: http://yanone.de
 resources:
   Yanone_Kaffeesatz.zip:
     urls:
     - https://fonts.google.com/download?family=Yanone%20Kaffeesatz
-    file_size: 307320
+    file_size: 306823
 fonts:
 - name: Yanone Kaffeesatz
   styles:
@@ -14,14 +13,14 @@ fonts:
     type: Bold
     full_name: Yanone Kaffeesatz Bold
     post_script_name: YanoneKaffeesatz-Bold
-    version: 2.001; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.002'
     copyright: Copyright 2010 The Yanone Kaffeesatz Project Authors (https://github.com/alexeiva/yanone-kaffeesatz)
     font: YanoneKaffeesatz-Bold.ttf
   - family_name: Yanone Kaffeesatz
     type: Regular
     full_name: Yanone Kaffeesatz Regular
     post_script_name: YanoneKaffeesatz-Regular
-    version: 2.001; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.002'
     copyright: Copyright 2010 The Yanone Kaffeesatz Project Authors (https://github.com/alexeiva/yanone-kaffeesatz)
     font: YanoneKaffeesatz-Regular.ttf
 - name: Yanone Kaffeesatz ExtraLight
@@ -32,7 +31,7 @@ fonts:
     preferred_type: ExtraLight
     full_name: Yanone Kaffeesatz ExtraLight
     post_script_name: YanoneKaffeesatz-ExtraLight
-    version: 2.001; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.002'
     copyright: Copyright 2010 The Yanone Kaffeesatz Project Authors (https://github.com/alexeiva/yanone-kaffeesatz)
     font: YanoneKaffeesatz-VariableFont_wght.ttf
   - family_name: Yanone Kaffeesatz ExtraLight
@@ -41,7 +40,7 @@ fonts:
     preferred_type: ExtraLight
     full_name: Yanone Kaffeesatz ExtraLight
     post_script_name: YanoneKaffeesatz-ExtraLight
-    version: 2.001; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.002'
     copyright: Copyright 2010 The Yanone Kaffeesatz Project Authors (https://github.com/alexeiva/yanone-kaffeesatz)
     font: YanoneKaffeesatz-ExtraLight.ttf
 - name: Yanone Kaffeesatz Light
@@ -52,7 +51,7 @@ fonts:
     preferred_type: Light
     full_name: Yanone Kaffeesatz Light
     post_script_name: YanoneKaffeesatz-Light
-    version: 2.001; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.002'
     copyright: Copyright 2010 The Yanone Kaffeesatz Project Authors (https://github.com/alexeiva/yanone-kaffeesatz)
     font: YanoneKaffeesatz-Light.ttf
 - name: Yanone Kaffeesatz Medium
@@ -63,7 +62,7 @@ fonts:
     preferred_type: Medium
     full_name: Yanone Kaffeesatz Medium
     post_script_name: YanoneKaffeesatz-Medium
-    version: 2.001; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.002'
     copyright: Copyright 2010 The Yanone Kaffeesatz Project Authors (https://github.com/alexeiva/yanone-kaffeesatz)
     font: YanoneKaffeesatz-Medium.ttf
 - name: Yanone Kaffeesatz SemiBold
@@ -74,14 +73,14 @@ fonts:
     preferred_type: SemiBold
     full_name: Yanone Kaffeesatz SemiBold
     post_script_name: YanoneKaffeesatz-SemiBold
-    version: 2.001; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.002'
     copyright: Copyright 2010 The Yanone Kaffeesatz Project Authors (https://github.com/alexeiva/yanone-kaffeesatz)
     font: YanoneKaffeesatz-SemiBold.ttf
 extract: {}
 copyright: Copyright 2010 The Yanone Kaffeesatz Project Authors (https://github.com/alexeiva/yanone-kaffeesatz)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2010, The Yanone Kaffeesatz Project Authors (post@yanone.de)
+  Copyright 2010 The Yanone Kaffeesatz Project Authors (https://github.com/alexeiva/yanone-kaffeesatz)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -174,5 +173,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 62978aeb18eecefb637a7a20db45f257ff43079bef5261dded7cf3aed2c20029
-command: google import --formulas_path Formulas
+digest: 547b393d71978ecfae66e847362ed142826dc0c25fee9ec690d85cdb8b41a62e
+command: import google --formulas_path Formulas -n 50
