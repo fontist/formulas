@@ -1,13 +1,11 @@
 ---
-name: YeonSung
 description: Yeon Sung
-homepage:
 resources:
-  YeonSung.zip:
+  Yeon_Sung.zip:
     urls:
     - https://fonts.google.com/download?family=Yeon%20Sung
-    sha256: 7637dace1ee8f459adb836043b83a8a9bc51f20801b699f379125963a56adf71
-    file_size: 1098758
+    sha256: 20e581ca0dca91bc8dd6d5ee895ffc8be6c9b1de31b31f1e462f381cf01f65a8
+    file_size: 1098538
 fonts:
 - name: Yeon Sung
   styles:
@@ -18,8 +16,7 @@ fonts:
     version: '1.00'
     copyright: Copyright 2018 The Yeon Sung Project Authors
     font: YeonSung-Regular.ttf
-extract:
-  format: zip
+extract: {}
 copyright: Copyright 2018 The Yeon Sung Project Authors
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -27,7 +24,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -116,3 +113,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 1709cb82756807acad6baaa4a1f7d057a308fbbace6ddade1f30b9d1b66f0311
+command: import google --formulas_path Formulas -n 50

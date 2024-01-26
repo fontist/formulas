@@ -1,13 +1,11 @@
 ---
-name: Jua
 description: Jua
-homepage:
 resources:
   Jua.zip:
     urls:
     - https://fonts.google.com/download?family=Jua
-    sha256: 7f92253d2681bed77e6674df74739bff563c05048482db854e5300f0e62a8ab4
-    file_size: 725608
+    sha256: 480b9e70055fd3f9b16133ea616c4f5ac03959174a27204bdc84a712b2f305c8
+    file_size: 725740
 fonts:
 - name: Jua
   styles:
@@ -18,8 +16,7 @@ fonts:
     version: '1.00'
     copyright: Copyright 2018 The BM JUA Project Authors
     font: Jua-Regular.ttf
-extract:
-  format: zip
+extract: {}
 copyright: Copyright 2018 The BM JUA Project Authors
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -27,7 +24,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -116,3 +113,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: b87821ad6bab82ed18ecab5f20dafcc04eea0c3199e8766c60b10bb8d0422d01
+command: import google --formulas_path Formulas -n 50
