@@ -37,6 +37,6 @@ jobs:
           BASE_PATH: ${{ steps.configure-pages.outputs.base_path }}/
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/.vuepress/dist
+          path: docs/.vitepress/dist
       - id: deploy-pages
         uses: actions/deploy-pages@v4
