@@ -87,10 +87,10 @@ Here is an example which works with Github releases:
 resources:
   fonts.zip:
     urls:
-    - url: https://example.com/repos/acme/formulas/releases/assets/38777461
-      headers:
-        Accept: application/octet-stream
-        Authorization: token ghp_1234567890abcdefghi
+      - url: https://example.com/repos/acme/formulas/releases/assets/38777461
+        headers:
+          Accept: application/octet-stream
+          Authorization: token ghp_1234567890abcdefghi
 ```
 
 A token can be obtained on the [GitHub Settings > Tokens page](https://github.com/settings/tokens). This token should have at least the `repo` scope for access to these assets.

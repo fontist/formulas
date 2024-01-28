@@ -4,7 +4,10 @@ layout: home
 ---
 
 <script setup>
+  // Add a bigger in-content search box. It's not exposed by default so we
+  // have to dig into the '.../dist/' by ourselves.
 import VPNavBarSearch from "vitepress/dist/client/theme-default/components/VPNavBarSearch.vue"
+// https://github.com/vuejs/vitepress/issues/800
 import HomeContent from "./.vitepress/theme/components/HomeContent.vue"
 </script>
 
@@ -18,8 +21,8 @@ import HomeContent from "./.vitepress/theme/components/HomeContent.vue"
 <br />
 
 <p style="font-size: 1.2em; line-height: 1.8em" align=center>
-  <a href="/formulas/">📘 List of all formulas</a><br />
-  <a href="/guide/">🍰 Create your own formula</a>
+  <a href="./formulas/">📘 List of all formulas</a><br />
+  <a href="./guide/create-formula.html">🍰 Create your own formula</a>
 </p>
 
 </HomeContent>

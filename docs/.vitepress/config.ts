@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -12,28 +12,26 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' }
+      { text: "Home", link: "/" },
+      { text: "Guide", link: "/guide/" },
     ],
 
     // https://vitepress.dev/reference/default-theme-search
     search: {
-      provider: 'local',
+      provider: "local",
     },
 
     sidebar: {
       "/guide/": [
         {
-          text: 'Guide',
-          items: [
-            { text: 'Create a Formula', link: '/guide/create-formula' },
-          ]
-        }
-      ]
+          text: "Guide",
+          items: [{ text: "Create a Formula", link: "/guide/create-formula" }],
+        },
+      ],
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/fontist/formulas' }
-    ]
-  }
-})
+      { icon: "github", link: "https://github.com/fontist/formulas" },
+    ],
+  },
+});
