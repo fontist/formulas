@@ -1,8 +1,8 @@
 <script setup>
-import VPNavBarSearch from "vitepress/dist/client/theme-default/components/VPNavBarSearch.vue"
+import Search from "vitepress-plugin-pagefind/Search.vue"
 </script>
 
-<VPNavBarSearch />
+<Search />
 
 <style>
   /* We need to "infect" the '.VPNavBar' internal styles. To do that we need

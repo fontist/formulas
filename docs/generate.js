@@ -10,6 +10,10 @@ const projectRoot = resolve(process.cwd(), "..")
 await rm("formula", { recursive: true, force: true })
 await mkdir("formula", { recursive: true })
 
+function escapeHTML(html) {
+  return html.replace(/</g, "&lt;").replace(/>/g, "&gt;")
+}
+
 for (const relativeFilePath of await glob("**/*.y{a,}ml", { cwd: join(projectRoot, "Formulas"), nodir: true })) {
   const absoluteFilePath = join(projectRoot, "Formulas", relativeFilePath)
   const text = await readFile(absoluteFilePath, "utf8")
@@ -24,6 +28,7 @@ for (const relativeFilePath of await glob("**/*.y{a,}ml", { cwd: join(projectRoo
       return style.family_name
     }
   })
+  const githubURL = `https://github.com/fontist/formulas/blob/main/Formulas/${relativeFilePath}`
 
   const name = yaml.name || yaml.description || basename(slug)
 
@@ -32,25 +37,13 @@ for (const relativeFilePath of await glob("**/*.y{a,}ml", { cwd: join(projectRoo
 
 ${yaml.description || ""}
 
-~~~sh
-fontist install "${name}"
-~~~
-
-[📜 View the source recipe](${yaml.yaml_url})
-
-Includes these fonts:
+[📜 View source recipe](${githubURL})
 
 ${fontNames.map(font => `- ${font}`).join("\n")}
 
-${yaml.copyright || ""}
+${escapeHTML(yaml.copyright || "")}
 
-${yaml.license_url ? `[${yaml.license_url}](${yaml.license_url})` : ""}
-
-${licenseHTML ? `\
-<details>
-<summary>License agreement</summary>
-${licenseHTML}
-</details>` : ""}`
+${yaml.license_url ? `[${yaml.license_url}](${yaml.license_url})` : ""}`
 
   await mkdir(dirname(`formula/${slug}.md`), { recursive: true });
   await writeFile(`formula/${slug}.md`, md)

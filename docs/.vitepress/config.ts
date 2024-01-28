@@ -1,9 +1,16 @@
 import { defineConfig } from 'vitepress'
+import { pagefindPlugin } from 'vitepress-plugin-pagefind'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  ignoreDeadLinks: true,
+
   title: "Fontist Formulas",
   description: "Index of all Fontist Formulas",
+
+  vite: {
+    plugins: [pagefindPlugin()]
+  },
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -13,19 +20,19 @@ export default defineConfig({
     ],
 
     // https://vitepress.dev/reference/default-theme-search
-    search: {
-      provider: 'local',
-      // https://vitepress.dev/reference/default-theme-search#example-excluding-pages-from-search
-      options: {
-        _render(src, env, md) {
-          const html = md.render(src, env)
-          if (env.frontmatter?.search === false) return ''
-          if (env.relativePath.match(/(^|\/)guide($|\/)/)) return ''
-          console.debug(`Indexing ${env.relativePath} for search!`)
-          return html
-        }
-      }
-    },
+    // search: {
+    //   provider: 'local',
+    //   // https://vitepress.dev/reference/default-theme-search#example-excluding-pages-from-search
+    //   options: {
+    //     _render(src, env, md) {
+    //       const html = md.render(src, env)
+    //       if (env.frontmatter?.search === false) return ''
+    //       if (env.relativePath.match(/(^|\/)guide($|\/)/)) return ''
+    //       console.debug(`Indexing ${env.relativePath} for search!`)
+    //       return html
+    //     }
+    //   }
+    // },
 
     sidebar: {
       "/guide/": [

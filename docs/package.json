@@ -15,6 +15,7 @@
   },
   "scripts": {
     "dev": "vitepress dev",
+    "prebuild": "node generate.js",
     "build": "vitepress build",
     "preview": "vitepress preview",
     "format": "prettier -w ."
