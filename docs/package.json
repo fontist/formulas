@@ -14,6 +14,7 @@
     "yaml": "^2.3.4"
   },
   "scripts": {
+    "predev": "node generate.js",
     "dev": "vitepress dev",
     "prebuild": "node generate.js",
     "build": "vitepress build",
