@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^3.2.4",
+    "typescript": "^5.3.3",
+    "vitepress": "^1.0.0-rc.40",
+    "vue": "^3.4.15",
+    "vue-tsc": "^1.8.27",
+    "@types/node": "^20.11.8",
+    "marked": "^11.2.0",
+    "pagefind": "^1.0.4",
+    "vitepress-plugin-pagefind": "^0.2.10",
+    "yaml": "^2.3.4"
+  },
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "format": "prettier -w ."
+  }
+}
