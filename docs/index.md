@@ -9,6 +9,7 @@ layout: home
 import VPNavBarSearch from "vitepress/dist/client/theme-default/components/VPNavBarSearch.vue"
 // https://github.com/vuejs/vitepress/issues/800
 import HomeContent from "./.vitepress/theme/components/HomeContent.vue"
+import { withBase } from "vitepress"
 </script>
 
 <HomeContent>
@@ -21,13 +22,22 @@ import HomeContent from "./.vitepress/theme/components/HomeContent.vue"
 <br />
 
 <p style="font-size: 1.2em; line-height: 1.8em" align=center>
-  <a href="./formulas/">📘 List of all formulas</a><br />
-  <a href="./guide/create-formula.html">🍰 Create your own formula</a>
+  <a :href="withBase('/formulas/')">📘 List of all formulas</a><br />
+  <a :href="withBase('/guide/create-formula')">🍰 Create your own formula</a>
 </p>
 
 </HomeContent>
 
 <style>
+  .VPContent.is-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .VPContent.is-home > * {
+    width: 100%;
+  }
+
   #bigsearch #local-search {
     flex-grow: 1 !important;
     margin: 0 auto;
