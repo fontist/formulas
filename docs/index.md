@@ -23,7 +23,9 @@ import { withBase } from "vitepress"
   <a :href="withBase('/guide/create-formula')">🍰 Create your own formula</a>
 </p>
 
-<style scoped>
+<!-- This is global CSS so that we can infect things and
+    sub-components without using ':deep()' everywhere. -->
+<style>
   .my-index-page .VPContent {
     display: flex;
     align-items: center;
@@ -32,11 +34,7 @@ import { withBase } from "vitepress"
   .my-index-page .VPContent > * {
     width: 100%;
   }
-</style>
 
-<!-- This is global CSS so that we can infect the '#bigsearch'
-    sub-components without using ':deep()' everywhere. -->
-<style>
   #bigsearch #local-search {
     flex-grow: 1 !important;
     margin: 0 auto;
