@@ -34,8 +34,8 @@ import { withBase } from "vitepress"
   }
 </style>
 
-<!-- This is global CSS so that we can infect the
-    '#bigsearch' without using ':deep()' everywhere. -->
+<!-- This is global CSS so that we can infect the '#bigsearch'
+    sub-components without using ':deep()' everywhere. -->
 <style>
   #bigsearch #local-search {
     flex-grow: 1 !important;
