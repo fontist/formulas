@@ -32,7 +32,11 @@ import { withBase } from "vitepress"
   .my-index-page .VPContent > * {
     width: 100%;
   }
+</style>
 
+<!-- This is global CSS so that we can infect the
+    '#bigsearch' without using ':deep()' everywhere. -->
+<style>
   #bigsearch #local-search {
     flex-grow: 1 !important;
     margin: 0 auto;
