@@ -24,14 +24,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v3
+        with:
+          version: latest
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
-      - run: npm ci
+          node-version: latest
+      - run: pnpm install
         working-directory: docs
       - id: configure-pages
         uses: actions/configure-pages@v4
-      - run: npm run build
+      - run: pnpm build
         working-directory: docs
         env:
           BASE_PATH: ${{ steps.configure-pages.outputs.base_path }}/

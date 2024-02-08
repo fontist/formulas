@@ -1,20 +1,17 @@
 ---
 search: false
 layout: home
+pageClass: my-index-page
 ---
 
 <script setup>
   // Add a bigger in-content search box. It's not exposed by default so we
   // have to dig into the '.../dist/' by ourselves.
 import VPNavBarSearch from "vitepress/dist/client/theme-default/components/VPNavBarSearch.vue"
-// https://github.com/vuejs/vitepress/issues/800
-import HomeContent from "./.vitepress/theme/components/HomeContent.vue"
 import { withBase } from "vitepress"
 </script>
 
-<HomeContent>
 <br />
-
 <h1 align=center>Fontist Formulas</h1>
 
 <br />
@@ -26,15 +23,13 @@ import { withBase } from "vitepress"
   <a :href="withBase('/guide/create-formula')">🍰 Create your own formula</a>
 </p>
 
-</HomeContent>
-
-<style>
-  .VPContent.is-home {
+<style scoped>
+  .my-index-page .VPContent {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .VPContent.is-home > * {
+  .my-index-page .VPContent > * {
     width: 100%;
   }
 
