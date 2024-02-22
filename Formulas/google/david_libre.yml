@@ -1,13 +1,12 @@
 ---
-name: David Libre
 description: David Libre
 homepage: www.monotype.com
 resources:
   David_Libre.zip:
     urls:
     - https://fonts.google.com/download?family=David%20Libre
-    sha256: 214d8fec58bae1886794fc7c3bc2c4be2e58720d27592909339739b00c521fe7
-    file_size: 184112
+    sha256: 11dbb70ed87435852f02b6f611b035ac44ae5b84ff2b6e86fc733a6427310b84
+    file_size: 184040
 fonts:
 - name: David Libre
   styles:
@@ -60,7 +59,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -149,5 +148,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b12b074bc1e8c1b247d4fc9eed79c7b0a2920f7504deb502f740b14892f80670
-command: google import --formulas_path Formulas
+digest: ae8f95ef6784055e37e77c8d9f0ef106e86bfc8f0e094eed552ebc561be91ff2
+command: import google --formulas_path Formulas -n 50
