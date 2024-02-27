@@ -2,7 +2,8 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  ignoreDeadLinks: true,
+  // https://vitepress.dev/guide/routing#generating-clean-url
+  cleanUrls: true,
 
   title: "Fontist Formulas",
   description: "Index of all Fontist Formulas",
