@@ -11,7 +11,12 @@ await rm("formulas", { recursive: true, force: true });
 await mkdir("formulas", { recursive: true });
 
 function escapeHTML(html) {
-  return html.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  return html
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
 }
 
 const allFormulas = [];

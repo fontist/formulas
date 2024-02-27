@@ -4,16 +4,20 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   ignoreDeadLinks: true,
 
-  base: process.env.BASE_PATH,
-
   title: "Fontist Formulas",
   description: "Index of all Fontist Formulas",
 
+  // https://github.com/vuejs/vitepress/issues/3508
+  base: process.env.BASE_PATH,
+
   themeConfig: {
+    logo: "/logo.png",
+
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
       { text: "Guide", link: "/guide/" },
+      { text: "Formulas", link: "/formulas/" },
     ],
 
     // https://vitepress.dev/reference/default-theme-search

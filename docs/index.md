@@ -5,10 +5,10 @@ pageClass: my-index-page
 ---
 
 <script setup>
-  // Add a bigger in-content search box. It's not exposed by default so we
-  // have to dig into the '.../dist/' by ourselves.
+// We are dipping into the default theme components here to grab
+// and use the `VPNavBarSearch` component as a primary feature of
+// our home page.
 import VPNavBarSearch from "vitepress/dist/client/theme-default/components/VPNavBarSearch.vue"
-import { withBase } from "vitepress"
 </script>
 
 <br />
@@ -18,10 +18,12 @@ import { withBase } from "vitepress"
 <VPNavBarSearch id="bigsearch" />
 <br />
 
-<p style="font-size: 1.2em; line-height: 1.8em" align=center>
-  <a :href="withBase('/formulas/')">📘 List of all formulas</a><br />
-  <a :href="withBase('/guide/create-formula')">🍰 Create your own formula</a>
-</p>
+<div align=center style="font-size: 1.2em; line-height: 1.8em">
+
+[📘 List of all formulas](/formulas/)<br />
+[🍰 Create your own formula](/guide/create-formula)
+
+</div>
 
 <!-- This is global CSS so that we can infect things and
     sub-components without using ':deep()' everywhere. -->
@@ -45,9 +47,11 @@ import { withBase } from "vitepress"
     background: var(--vp-c-bg-alt) !important;
   }
 
-  /* All this CSS is copied from the '@media (min-width: 768px)' blocks
-     in the 'VPNavBarSearch' and 'VPNavBarSearchButton' components. Make
-     sure that it's kept up to date. Treat it like a black box. */
+  /* All this CSS is copied from the `@media (min-width: 768px)` blocks
+     in the `VPNavBarSearch`` and 'VPNavBarSearchButton` components. Make
+     sure that it's kept up to date. Treat it like a black box. This is
+     here to make the homepage search box fill the width like it normally
+     does even when the screen side gets small which normally shrinks it. */
   #bigsearch {
     flex-grow: 1;
     padding-left: 24px;
