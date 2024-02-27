@@ -30,7 +30,13 @@ export default defineConfig({
       "/guide/": [
         {
           text: "Guide",
-          items: [{ text: "Create a Formula", link: "/guide/create-formula" }],
+          items: [
+            { text: "Create a Formula", link: "/guide/create-formula" },
+            {
+              text: "Private repositories",
+              link: "/guide/private-repositories",
+            },
+          ],
         },
       ],
     },
