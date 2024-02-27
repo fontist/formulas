@@ -2,6 +2,12 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  ignoreDeadLinks: [
+    "./www.woowahan.com",
+    "./www.woowahan.comm",
+    "./http//scripts.sil.org/OFL",
+  ],
+
   // https://vitepress.dev/guide/routing#generating-clean-url
   cleanUrls: true,
 

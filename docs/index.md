@@ -13,11 +13,9 @@ import VPNavBarSearch from "vitepress/dist/client/theme-default/components/VPNav
 
 <br />
 <h1 align=center>Fontist Formulas</h1>
-
 <br />
 <VPNavBarSearch id="bigsearch" />
 <br />
-
 <div align=center style="font-size: 1.2em; line-height: 1.8em">
 
 [📘 List of all formulas](/formulas/)<br />
@@ -26,7 +24,9 @@ import VPNavBarSearch from "vitepress/dist/client/theme-default/components/VPNav
 </div>
 
 <!-- This is global CSS so that we can infect things and
-    sub-components without using ':deep()' everywhere. -->
+    sub-components without using ':deep()' everywhere.
+    See https://vitepress.dev/guide/using-vue#script-and-style
+    for more info on VitePress's `<style>` stuff in Markdown. -->
 <style>
   .my-index-page .VPContent {
     display: flex;
