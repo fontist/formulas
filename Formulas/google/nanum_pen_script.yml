@@ -2,36 +2,36 @@
 description: Nanum Pen Script
 homepage: http://www.nhncorp.com
 resources:
-  NanumPenScript.zip:
+  Nanum_Pen_Script.zip:
     urls:
     - https://fonts.google.com/download?family=Nanum%20Pen%20Script
-    sha256: 00c162578675998d0eb26ff9b8535a212baad60e68d5a1785c68d02e003b7f42
-    file_size: 1389939
+    sha256: 2ce54702ae8382da0fae937617af500cd500d9304ad4ae77f4a5f59bd0129b9b
+    file_size: 1390293
 fonts:
-- name: Nanum Pen Script
+- name: Nanum Pen
   styles:
   - family_name: Nanum Pen
     type: Regular
-    full_name: Nanum Pen Regular
-    post_script_name: NanumPen-Regular
-    version: '1.10'
+    full_name: Nanum Pen
+    post_script_name: NanumPen
+    version: 1.100;PS 1;hotconv 1.0.57;makeotf.lib2.0.21895
     copyright: Copyright © 2010 NHN Corporation. All rights reserved. Font designed
       by Sandoll Communications Inc.
     font: NanumPenScript-Regular.ttf
-extract:
-  format: zip
+extract: {}
 copyright: Copyright © 2010 NHN Corporation. All rights reserved. Font designed by
   Sandoll Communications Inc.
-license_url: http://scripts.sil.org/OFL
+license_url: http://www.nhncorp.com
 open_license: |-
   Copyright (c) 2010, NHN Corporation (http://www.nhncorp.com),
   with Reserved Font Name Nanum, Naver Nanum, NanumGothic, Naver
   NanumGothic, NanumMyeongjo, Naver NanumMyeongjo, NanumBrush, Naver
   NanumBrush, NanumPen, Naver NanumPen.
 
+
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -120,3 +120,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: a26022f25651a7550740352975da7f26a682d18a3b39ebb1caa2243586f49317
+command: import google --formulas_path Formulas -n 5000 --no-cache

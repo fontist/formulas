@@ -1,61 +1,65 @@
 ---
-name: GFS Neohellenic
 description: GFS Neohellenic
 homepage: www.greekfontsociety.org
 resources:
-  GFSNeohellenic.zip:
+  GFS_Neohellenic.zip:
     urls:
     - https://fonts.google.com/download?family=GFS%20Neohellenic
-    sha256: 94d5693a57b0285000d709653f3172d656f47bbee45fa585e0070dd8b4b074ef
-    file_size: 482491
+    sha256: d4e51bfa7f088fbd227063fff3e5ab68c09aa9c36b53ca2b6484829d7c9266f8
+    file_size: 482209
 fonts:
 - name: GFS Neohellenic
   styles:
   - family_name: GFS Neohellenic
-    type: Regular
-    full_name: GFS Neohellenic Regular
-    post_script_name: GFSNeohellenic-Regular
-    version: '1.0'
-    copyright: Copyright (c) Takis Katsoulidis and George D. Matthiopoulos, 1993-2001.
-      All rights reserved.
-    font: GFSNeohellenic.ttf
-  - family_name: GFS Neohellenic
-    type: Italic
-    full_name: GFS Neohellenic Italic
-    post_script_name: GFSNeohellenic-Italic
-    version: '1.0'
-    copyright: Copyright (c) Takis Katsoulidis and George D. Matthiopoulos  , 2001.
-      All rights reserved.
-    font: GFSNeohellenicItalic.ttf
-  - family_name: GFS Neohellenic
     type: Bold
+    preferred_family_name: GFS Neohellenic
+    preferred_type: Bold
     full_name: GFS Neohellenic Bold
     post_script_name: GFSNeohellenic-Bold
     version: '1.0'
     copyright: Copyright (c) Designed by Takis Katsoulidis and George D. Matthiopoulos.,
       2001. All rights reserved.
-    font: GFSNeohellenicBold.ttf
+    font: GFSNeohellenic-Bold.ttf
   - family_name: GFS Neohellenic
     type: Bold Italic
+    preferred_family_name: GFS Neohellenic
+    preferred_type: Bold Italic
     full_name: GFS Neohellenic Bold Italic
     post_script_name: GFSNeohellenic-BoldItalic
     version: '1.0'
     copyright: Copyright (c) Designed by Takis Katsoulidis and George D. Matthiopoulos.,
       2001. All rights reserved.
-    font: GFSNeohellenicBoldItalic.ttf
-extract:
-  format: zip
-copyright: Copyright (c) Takis Katsoulidis and George D. Matthiopoulos (gfs@greekfontsociety.gr),
-  1993-2001. All rights reserved.
-license_url:
+    font: GFSNeohellenic-BoldItalic.ttf
+  - family_name: GFS Neohellenic
+    type: Italic
+    preferred_family_name: GFS Neohellenic
+    preferred_type: Italic
+    full_name: GFS Neohellenic Italic
+    post_script_name: GFSNeohellenic-Italic
+    version: '1.0'
+    copyright: Copyright (c) Takis Katsoulidis and George D. Matthiopoulos  , 2001.
+      All rights reserved.
+    font: GFSNeohellenic-Italic.ttf
+  - family_name: GFS Neohellenic
+    type: Regular
+    preferred_family_name: GFS Neohellenic
+    preferred_type: Regular
+    full_name: GFS Neohellenic Regular
+    post_script_name: GFSNeohellenic-Regular
+    version: '1.0'
+    copyright: Copyright (c) Takis Katsoulidis and George D. Matthiopoulos, 1993-2001.
+      All rights reserved.
+    font: GFSNeohellenic-Regular.ttf
+extract: {}
+copyright: Copyright (c) Designed by Takis Katsoulidis and George D. Matthiopoulos.,
+  2001. All rights reserved.
 open_license: |-
   Copyright (c) 2007, Greek Font Society (www.greekfontsociety.org | gfs@greekfontsociety.org),
   with Reserved Font Name 'GFS Neohellenic'.
 
-
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -144,3 +148,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: f0abd1684799c7e7f42f7b7a785ce92234b26dc6e9819a2124305a36546ee632
+command: import google --formulas_path Formulas -n 5000 --no-cache

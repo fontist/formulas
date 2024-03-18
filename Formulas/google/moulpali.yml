@@ -4,8 +4,8 @@ resources:
   Moulpali.zip:
     urls:
     - https://fonts.google.com/download?family=Moulpali
-    sha256: 6a9a6da7c49bc98eb32feb82458f9797c99e1700bbbef7fd83b296a1508f24ed
-    file_size: 48226
+    sha256: 1c23dbb3c5077b6640df4d7ac326f9e2a8b257ab2b9ea1ed1bb6a63f327fc45c
+    file_size: 47946
 fonts:
 - name: Moulpali
   styles:
@@ -13,7 +13,7 @@ fonts:
     type: Regular
     full_name: Moulpali Regular
     post_script_name: Moulpali-Regular
-    version: 8.001; ttfautohint (v1.8.3)
+    version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Moulpali Project Authors (https://github.com/danhhong/Moulpali)
     font: Moulpali-Regular.ttf
 extract: {}
@@ -24,7 +24,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -114,4 +114,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: e783e76f03b5a6b38b432e5984c389ef3e66564afd24a6a510ae1cfc6511afab
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

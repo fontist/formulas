@@ -1,12 +1,12 @@
 ---
 description: Black Ops One
-homepage: www.sorkintype.com
+homepage: http://sorkintype.com/
 resources:
   Black_Ops_One.zip:
     urls:
     - https://fonts.google.com/download?family=Black%20Ops%20One
-    sha256: 797a4189f9fbcfcb98f434fd36bcf2747b5b8018f62f2ddbd35a40944674ab12
-    file_size: 33703
+    sha256: 7a91052d1692079a9f85d5968f76e87b540d9133879c503e104c16be9ab10f33
+    file_size: 75157
 fonts:
 - name: Black Ops One
   styles:
@@ -14,23 +14,19 @@ fonts:
     type: Regular
     full_name: Black Ops One Regular
     post_script_name: BlackOpsOne-Regular
-    version: '1.003'
-    copyright: |-
-      Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com)
-      with Reserved Font Names "Black Ops" and "Black Ops One".
+    version: 1.004; ttfautohint (v1.8.4.7-5d5b)
+    description: A low contrast semi geometric typeface
+    copyright: Copyright 2022 The PinyonScript Project Authors (https://github.com/SorkinType/Black-Ops)
     font: BlackOpsOne-Regular.ttf
 extract: {}
-copyright: |-
-  Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com)
-  with Reserved Font Names "Black Ops" and "Black Ops One".
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The PinyonScript Project Authors (https://github.com/SorkinType/Black-Ops)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
-  with Reserved Font Name "Black Ops".
+  Copyright 2022 The Black-Ops Project Authors (https://github.com/googlefonts/googlefonts-project-template)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -120,4 +116,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: b8d0070cf261a9c55be388f0bf114d5ebd2df68ec149713cc66514eeb4f37e71
-command: import google --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

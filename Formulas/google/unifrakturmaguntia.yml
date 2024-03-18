@@ -1,13 +1,11 @@
 ---
-name: UnifrakturMaguntia
 description: UnifrakturMaguntia
-homepage:
 resources:
   UnifrakturMaguntia.zip:
     urls:
     - https://fonts.google.com/download?family=UnifrakturMaguntia
-    sha256: 034bfe931ab9463dd1bfbd19c214a0846ee651dd9c08d04da1234eb27dca59dd
-    file_size: 45106
+    sha256: 0a5d5c4727a2a55ac52da99b42bc8b6225a45378b646406f0dec6f865fbba27a
+    file_size: 45266
 fonts:
 - name: UnifrakturMaguntia
   styles:
@@ -17,12 +15,9 @@ fonts:
     post_script_name: UnifrakturMaguntia
     version: '2010-11-24'
     copyright: Copyright (c) 2010 j. 'mach' wust with Reserved Font Name UnifrakturMaguntia.
-    font: UnifrakturMaguntia-Book.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010 j. 'mach' wust (j.mach.wust@gmail.com) with Reserved
-  Font Name UnifrakturMaguntia. Copyright (c) 2009 Peter Wiegel (wiegel@peter-wiegel.de).
-  This Font Software is licensed under the SIL Open Font License, Version 1.1.
+    font: UnifrakturMaguntia-Regular.ttf
+extract: {}
+copyright: Copyright (c) 2010 j. 'mach' wust with Reserved Font Name UnifrakturMaguntia.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, j. 'mach' wust, with Reserved Font Name UnifrakturMaguntia.
@@ -30,7 +25,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -119,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 2bdeeb9952db650ec9dd2919739dc541a68522db30786f9c2639613338a541ca
+command: import google --formulas_path Formulas -n 5000 --no-cache

@@ -4,8 +4,8 @@ resources:
   Moul.zip:
     urls:
     - https://fonts.google.com/download?family=Moul
-    sha256: 9c40ad4158e241c0f75ef4843a2d6773d220c60ea8f043b88d9e6382654776d5
-    file_size: 69758
+    sha256: dae5c754a7b5f4f80304da8eb1b36c85cd1e71f4d48c46a6643050a5b796484f
+    file_size: 69649
 fonts:
 - name: Moul
   styles:
@@ -13,7 +13,7 @@ fonts:
     type: Regular
     full_name: Moul Regular
     post_script_name: Moul-Regular
-    version: 8.001; ttfautohint (v1.8.3)
+    version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Moul Project Authors (https://github.com/danhhong/Moul)
     font: Moul-Regular.ttf
 extract: {}
@@ -24,7 +24,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -114,4 +114,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: afa1a69f436ffdf3d6333e54eb68d40392579cbae24536cac062a5cd16ead424
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

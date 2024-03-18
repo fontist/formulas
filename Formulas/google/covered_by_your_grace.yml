@@ -1,12 +1,11 @@
 ---
 description: Covered By Your Grace
-homepage:
 resources:
-  CoveredByYourGrace.zip:
+  Covered_By_Your_Grace.zip:
     urls:
     - https://fonts.google.com/download?family=Covered%20By%20Your%20Grace
-    sha256: dab96538099ce525a402f9e3c6896372d4198392d7b160f48b9548d509322a61
-    file_size: 28228
+    sha256: 1ccfd3866b74e020b31d88f40e84e3463b911f3033c45abf20bf9890050c758a
+    file_size: 28631
 fonts:
 - name: Covered By Your Grace
   styles:
@@ -15,17 +14,16 @@ fonts:
     full_name: Covered By Your Grace
     post_script_name: CoveredByYourGrace
     copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
-    font: CoveredByYourGrace.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)
+    font: CoveredByYourGrace-Regular.ttf
+extract: {}
+copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -114,3 +112,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: fc57f4114ccfb25665d15a1535dc10f0f75f91d56c0d681e51ffe4b427ad5855
+command: import google --formulas_path Formulas -n 5000 --no-cache

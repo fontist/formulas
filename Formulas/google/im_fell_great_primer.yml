@@ -1,29 +1,15 @@
 ---
-name: IM Fell Great Primer
 description: IM Fell Great Primer
 homepage: www.iginomarini.com
 resources:
-  IMFellGreatPrimer.zip:
+  IM_Fell_Great_Primer.zip:
     urls:
     - https://fonts.google.com/download?family=IM%20Fell%20Great%20Primer
-    sha256: 60c87e9a5bccb9f9ef2191b9b5c9a2fc4f03ef5c5c1e2bed90e46a13b409050c
-    file_size: 263214
+    sha256: cdc5362366594e8120d0367ae11079d3578d1bb7e66ec29dac84b70df30a549b
+    file_size: 263213
 fonts:
-- name: IM Fell Great Primer
+- name: IM FELL Great Primer
   styles:
-  - family_name: IM FELL Great Primer
-    type: Regular
-    full_name: IM FELL Great Primer Roman
-    post_script_name: IM_FELL_Great_Primer_Roman
-    version: '3.00'
-    description: Fell Types - Great Primer size - Roman. Typeface from the  types
-      bequeathed in 1686 to the University of Oxford by John Fell. Originally cut
-      by Peter De Walpergen. Acquisition in 1684. To be printed at 17 points to match
-      the original size. Autospaced and autokerned using iKern© developed by Igino
-      Marini.
-    copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name
-      IM FELL Great Primer Roman"
-    font: IMFeGPrm28P.ttf
   - family_name: IM FELL Great Primer
     type: Italic
     full_name: IM FELL Great Primer Italic
@@ -36,18 +22,31 @@ fonts:
       Marini.
     copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name
       IM FELL Great Primer Italic"
-    font: IMFeGPit28P.ttf
-extract:
-  format: zip
-copyright: "© 2007 Igino Marini (www.iginomarini.com mail@iginomarini.com) With Reserved
-  Font Name IM FELL Great Primer Roman"
+    font: IMFellGreatPrimer-Italic.ttf
+  - family_name: IM FELL Great Primer
+    type: Regular
+    preferred_family_name: IM FELL Great Primer
+    full_name: IM FELL Great Primer Roman
+    post_script_name: IM_FELL_Great_Primer_Roman
+    version: '3.00'
+    description: Fell Types - Great Primer size - Roman. Typeface from the  types
+      bequeathed in 1686 to the University of Oxford by John Fell. Originally cut
+      by Peter De Walpergen. Acquisition in 1684. To be printed at 17 points to match
+      the original size. Autospaced and autokerned using iKern© developed by Igino
+      Marini.
+    copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name
+      IM FELL Great Primer Roman"
+    font: IMFellGreatPrimer-Regular.ttf
+extract: {}
+copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name IM FELL
+  Great Primer Italic"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Igino Marini (mail@iginomarini.com)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -136,3 +135,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 7f13ed162ce37ff8406795be82ba658919a8e4e0da3e6c18a52e98d9db564cac
+command: import google --formulas_path Formulas -n 5000 --no-cache

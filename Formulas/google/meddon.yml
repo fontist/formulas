@@ -1,13 +1,11 @@
 ---
-name: Meddon
 description: Meddon
-homepage:
 resources:
   Meddon.zip:
     urls:
     - https://fonts.google.com/download?family=Meddon
-    sha256: 24a77dcd66463aab70c86fd0002750147c1a49666b61fd991e9a05ede689bff3
-    file_size: 81899
+    sha256: 45a141685300262c045c13c41fca2079b504d7808107fd4e499cca91b9a5747e
+    file_size: 82193
 fonts:
 - name: Meddon
   styles:
@@ -18,11 +16,9 @@ fonts:
     version: '1.000'
     description: Copyright (c) 2011 by Vernon Adams. All rights reserved.
     copyright: Copyright (c) 2011 by Vernon Adams. All rights reserved.
-    font: Meddon.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by Vernon Adams (vern@newtypography.co.uk) with Reserved
-  Font Name 'Meddon'. All rights reserved.
+    font: Meddon-Regular.ttf
+extract: {}
+copyright: Copyright (c) 2011 by Vernon Adams. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, 2011 by vernon adams (vern@newtypography.co.uk),
@@ -30,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -119,3 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 499562c28911f5ac373403b4c29046132956ddcd192ec6ba1b1efd9cd899af95
+command: import google --formulas_path Formulas -n 5000 --no-cache

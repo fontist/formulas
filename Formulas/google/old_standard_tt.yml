@@ -1,39 +1,37 @@
 ---
-name: Old Standard TT
 description: Old Standard TT
 homepage: http://www.thessalonica.org.ru
 resources:
-  OldStandardTT.zip:
+  Old_Standard_TT.zip:
     urls:
     - https://fonts.google.com/download?family=Old%20Standard%20TT
-    sha256: '0694c9e96553c689d01558d92cfe4308abece1b5162a99f9499e065ad18439b5'
-    file_size: 292453
+    sha256: 5db46b2991ab95e9b64953cf878d4ff64e4bcff20ff76e024e19c2aba97a4c57
+    file_size: 292067
 fonts:
 - name: Old Standard TT
   styles:
-  - family_name: Old Standard TT
-    type: Regular
-    full_name: Old Standard TT Regular
-    post_script_name: OldStandardTT-Regular
-    version: '3.000'
-    copyright: Copyright 2011 The Old Standard Project Authors (amkryukov@gmail.com)
-    font: OldStandard-Regular.ttf
-  - family_name: Old Standard TT
-    type: Italic
-    full_name: Old Standard TT Italic
-    post_script_name: OldStandardTT-Italic
-    version: '3.000'
-    copyright: Copyright 2011 The Old Standard Project Authors (amkryukov@gmail.com)
-    font: OldStandard-Italic.ttf
   - family_name: Old Standard TT
     type: Bold
     full_name: Old Standard TT Bold
     post_script_name: OldStandardTT-Bold
     version: '3.000'
     copyright: Copyright 2011 The Old Standard Project Authors (amkryukov@gmail.com)
-    font: OldStandard-Bold.ttf
-extract:
-  format: zip
+    font: OldStandardTT-Bold.ttf
+  - family_name: Old Standard TT
+    type: Italic
+    full_name: Old Standard TT Italic
+    post_script_name: OldStandardTT-Italic
+    version: '3.000'
+    copyright: Copyright 2011 The Old Standard Project Authors (amkryukov@gmail.com)
+    font: OldStandardTT-Italic.ttf
+  - family_name: Old Standard TT
+    type: Regular
+    full_name: Old Standard TT Regular
+    post_script_name: OldStandardTT-Regular
+    version: '3.000'
+    copyright: Copyright 2011 The Old Standard Project Authors (amkryukov@gmail.com)
+    font: OldStandardTT-Regular.ttf
+extract: {}
 copyright: Copyright 2011 The Old Standard Project Authors (amkryukov@gmail.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -41,7 +39,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -130,3 +128,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: '0600900017c8680b70f1125b2485e6c55183d5a17a7b8edac0e43ef069789143'
+command: import google --formulas_path Formulas -n 5000 --no-cache

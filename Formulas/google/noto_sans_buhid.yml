@@ -5,8 +5,8 @@ resources:
   Noto_Sans_Buhid.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Buhid
-    sha256: f02eaec8d1377a0f2fb2edabae89e5648d776f56432ac34bd0336beba62c5c93
-    file_size: 8112
+    sha256: 76bd159722e1c1a2512dc0b8df268102c0201b45a8fccfd4de53f84355932f6f
+    file_size: 20797
 fonts:
 - name: Noto Sans Buhid
   styles:
@@ -14,20 +14,19 @@ fonts:
     type: Regular
     full_name: Noto Sans Buhid Regular
     post_script_name: NotoSansBuhid-Regular
-    version: 2.000; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D buhd -f none -a
-      qsq -X ""
+    version: '2.001'
     description: Designed by Monotype design team.
-    copyright: Copyright 2017 Google Inc. All Rights Reserved.
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/buhid)
     font: NotoSansBuhid-Regular.ttf
 extract: {}
-copyright: Copyright 2017 Google Inc. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/buhid)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/buhid)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -117,4 +116,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 101a4713befb98cf76713a83cec2ede4f69746dadde6588f2d4f96284a3a58e2
-command: import google --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

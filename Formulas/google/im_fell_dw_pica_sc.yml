@@ -1,18 +1,18 @@
 ---
-name: IM Fell DW Pica SC
 description: IM Fell DW Pica SC
 homepage: www.iginomarini.com
 resources:
-  IMFellDWPicaSC.zip:
+  IM_Fell_DW_Pica_SC.zip:
     urls:
     - https://fonts.google.com/download?family=IM%20Fell%20DW%20Pica%20SC
-    sha256: 3d81d054f38c9ed48d2034cb4ef9766459a965d595fbcd679d93410e2e611f73
-    file_size: 112559
+    sha256: 0d129860f7f0349f51054bc8c3dc2e26fed0a40237437df1a531b43b2aca3886
+    file_size: 112558
 fonts:
-- name: IM Fell DW Pica SC
+- name: IM FELL DW Pica SC
   styles:
   - family_name: IM FELL DW Pica SC
     type: Regular
+    preferred_family_name: IM FELL DW Pica SC
     full_name: IM FELL DW Pica SC
     post_script_name: IM_FELL_DW_Pica_SC
     version: '3.00'
@@ -23,18 +23,17 @@ fonts:
       developed by Igino Marini.
     copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name
       IM FELL DW Pica SC"
-    font: IMFePIsc28P.ttf
-extract:
-  format: zip
-copyright: "© 2007 Igino Marini (www.iginomarini.com mail@iginomarini.com) With Reserved
-  Font Name IM FELL DW Pica SC"
+    font: IMFellDWPicaSC-Regular.ttf
+extract: {}
+copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name IM FELL
+  DW Pica SC"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Igino Marini (mail@iginomarini.com)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -123,3 +122,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: '003580e854613a3f3389c2d9367cbdd6b441e0be9ae97c0056ea5a511dc4e260'
+command: import google --formulas_path Formulas -n 5000 --no-cache

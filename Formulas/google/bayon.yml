@@ -1,12 +1,11 @@
 ---
-name: Bayon
 description: Bayon
 resources:
   Bayon.zip:
     urls:
     - https://fonts.google.com/download?family=Bayon
-    sha256: 9b1d34be3f736af9a9d1a9516b5b5d70cd9c30771b0cbb06456e3d0b6869672e
-    file_size: 28010
+    sha256: b604edcd22a38c95b575eba7ef6a1d3f264e985ced885e669def34fa8051f12a
+    file_size: 28171
 fonts:
 - name: Bayon
   styles:
@@ -14,18 +13,18 @@ fonts:
     type: Regular
     full_name: Bayon Regular
     post_script_name: Bayon-Regular
-    version: 6.00 December 28, 2010
-    copyright: Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
+    version: 8.001; ttfautohint (v1.8.3)
+    copyright: Copyright 2019 The Bayon Project Authors (https://github.com/danhhong/Bayon)
     font: Bayon-Regular.ttf
 extract: {}
-copyright: Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
+copyright: Copyright 2019 The Bayon Project Authors (https://github.com/danhhong/Bayon)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
-  with Reserved Font Name Bayon.
+  Copyright 2019 The Bayon Project Authors (https://github.com/danhhong/Bayon)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -115,4 +114,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: f85d559ef272db103e4928b237210dd42b7cce1dba3c9d82ca9aaebdb5312add
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

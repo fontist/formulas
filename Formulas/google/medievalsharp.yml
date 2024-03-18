@@ -1,13 +1,11 @@
 ---
-name: MedievalSharp
 description: MedievalSharp
-homepage:
 resources:
   MedievalSharp.zip:
     urls:
     - https://fonts.google.com/download?family=MedievalSharp
-    sha256: 49633ec1059d38850ab962d2f5f64527387c574978f126a5871bb22ec3549a9a
-    file_size: 76737
+    sha256: a0e7a0d8cecb9e7084ae26c6657cd166ed24c4e119bbf3cf54335211d6447c10
+    file_size: 76653
 fonts:
 - name: MedievalSharp
   styles:
@@ -17,10 +15,9 @@ fonts:
     post_script_name: MedievalSharp
     version: '1.0'
     copyright: wmk69
-    font: MedievalSharp.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Wojciech 'wmk69' Kalinowski (wmk69@o2.pl)
+    font: MedievalSharp-Regular.ttf
+extract: {}
+copyright: wmk69
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, wmk69 (wmk69@o2.pl),
@@ -28,17 +25,14 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
-
-  SIL OPEN FONT LICENSE
-
-  Version 1.1 - 26 February 2007
-
+  -----------------------------------------------------------
+  SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+  -----------------------------------------------------------
 
   PREAMBLE
-
   The goals of the Open Font License (OFL) are to stimulate worldwide
   development of collaborative font projects, to support the font creation
   efforts of academic and linguistic communities, and to provide a free and
@@ -54,9 +48,7 @@ open_license: |-
   requirement for fonts to remain under this license does not apply
   to any document created using the fonts or their derivatives.
 
-
   DEFINITIONS
-
   "Font Software" refers to the set of files released by the Copyright
   Holder(s) under this license and clearly marked as such. This may
   include source files, build scripts and documentation.
@@ -68,16 +60,14 @@ open_license: |-
   distributed by the Copyright Holder(s).
 
   "Modified Version" refers to any derivative made by adding to, deleting,
-  or substituting — in part or in whole — any of the components of the
+  or substituting -- in part or in whole -- any of the components of the
   Original Version, by changing formats or by porting the Font Software to a
   new environment.
 
   "Author" refers to any designer, engineer, programmer, technical
   writer or other person who contributed to the Font Software.
 
-
   PERMISSION & CONDITIONS
-
   Permission is hereby granted, free of charge, to any person obtaining
   a copy of the Font Software, to use, study, copy, merge, embed, modify,
   redistribute, and sell modified and unmodified copies of the Font
@@ -110,15 +100,11 @@ open_license: |-
   remain under this license does not apply to any document created
   using the Font Software.
 
-
   TERMINATION
-
   This license becomes null and void if any of the above conditions are
   not met.
 
-
   DISCLAIMER
-
   THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
@@ -128,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 5adf120078c7ea0f3cd03bfbfc256d54830154a0063f33d60c6fb8ed5a2f2f23
+command: import google --formulas_path Formulas -n 5000 --no-cache

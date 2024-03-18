@@ -5,8 +5,8 @@ resources:
   Bakbak_One.zip:
     urls:
     - https://fonts.google.com/download?family=Bakbak%20One
-    sha256: 0c1e40a096f8b1b01e0de47ce469af0c27b940bbf20ef1cdadf7fed54e725406
-    file_size: 116699
+    sha256: 7671b76a3b852f5ad354b75953cb9927eea8e8fc27a0db97d0a922078d26c372
+    file_size: 116963
 fonts:
 - name: Bakbak One
   styles:
@@ -14,18 +14,18 @@ fonts:
     type: Regular
     full_name: Bakbak One Regular
     post_script_name: BakbakOne-Regular
-    version: 1.002; ttfautohint (v1.8.3)
-    copyright: Copyright 2021 The BakBak One Project Authors (https://github.com/googlefonts/bakbak)
+    version: 1.003; ttfautohint (v1.8.3)
+    copyright: Copyright 2021 The Bakbak One Project Authors (https://github.com/googlefonts/bakbak)
     font: BakbakOne-Regular.ttf
 extract: {}
-copyright: Copyright 2021 The BakBak One Project Authors (https://github.com/googlefonts/bakbak)
+copyright: Copyright 2021 The Bakbak One Project Authors (https://github.com/googlefonts/bakbak)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
   Copyright 2021 The Bakbak One Project Authors (https://github.com/googlefonts/bakbak)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -115,4 +115,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 1d9be1df314862c235be545080d4db4f47acca6b500df58ac1ccc788ade9f5db
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

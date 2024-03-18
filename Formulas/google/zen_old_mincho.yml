@@ -5,8 +5,8 @@ resources:
   Zen_Old_Mincho.zip:
     urls:
     - https://fonts.google.com/download?family=Zen%20Old%20Mincho
-    sha256: 950fd13d6d5eca40119b015b419638d2f2c1e3597493989c654193617437d847
-    file_size: 8748972
+    sha256: 2e701c733464b265762c9a943fe763599a8c75fcf97d6d424c5f9bdeb6f4343f
+    file_size: 14745704
 fonts:
 - name: Zen Old Mincho
   styles:
@@ -14,14 +14,14 @@ fonts:
     type: Bold
     full_name: Zen Old Mincho Bold
     post_script_name: ZenOldMincho-Bold
-    version: '1.001'
+    version: '1.500'
     copyright: Copyright 2021 The Zen Old Mincho Project Authors (https://github.com/googlefonts/zen-oldmincho)
     font: ZenOldMincho-Bold.ttf
   - family_name: Zen Old Mincho
     type: Regular
     full_name: Zen Old Mincho Regular
     post_script_name: ZenOldMincho-Regular
-    version: '1.001'
+    version: '1.500'
     copyright: Copyright 2021 The Zen Old Mincho Project Authors (https://github.com/googlefonts/zen-oldmincho)
     font: ZenOldMincho-Regular.ttf
 - name: Zen Old Mincho Black
@@ -32,9 +32,31 @@ fonts:
     preferred_type: Black
     full_name: Zen Old Mincho Black
     post_script_name: ZenOldMincho-Black
-    version: '1.001'
+    version: '1.500'
     copyright: Copyright 2021 The Zen Old Mincho Project Authors (https://github.com/googlefonts/zen-oldmincho)
     font: ZenOldMincho-Black.ttf
+- name: Zen Old Mincho Medium
+  styles:
+  - family_name: Zen Old Mincho Medium
+    type: Regular
+    preferred_family_name: Zen Old Mincho
+    preferred_type: Medium
+    full_name: Zen Old Mincho Medium
+    post_script_name: ZenOldMincho-Medium
+    version: '1.500'
+    copyright: Copyright 2021 The Zen Old Mincho Project Authors (https://github.com/googlefonts/zen-oldmincho)
+    font: ZenOldMincho-Medium.ttf
+- name: Zen Old Mincho SemiBold
+  styles:
+  - family_name: Zen Old Mincho SemiBold
+    type: Regular
+    preferred_family_name: Zen Old Mincho
+    preferred_type: SemiBold
+    full_name: Zen Old Mincho SemiBold
+    post_script_name: ZenOldMincho-SemiBold
+    version: '1.500'
+    copyright: Copyright 2021 The Zen Old Mincho Project Authors (https://github.com/googlefonts/zen-oldmincho)
+    font: ZenOldMincho-SemiBold.ttf
 extract: {}
 copyright: Copyright 2021 The Zen Old Mincho Project Authors (https://github.com/googlefonts/zen-oldmincho)
 license_url: https://scripts.sil.org/OFL
@@ -43,7 +65,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -133,4 +155,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 6f3ca8bdaa91018c75b49135dac6d9d82b2a930137bbc0fd82952ce2401cecc7
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

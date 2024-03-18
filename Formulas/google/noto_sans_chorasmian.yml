@@ -5,8 +5,8 @@ resources:
   Noto_Sans_Chorasmian.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Chorasmian
-    sha256: 9ef1c1d824cb30d4c863a12ed693a39546c7e5d14a5d1bef2f52ad94f3778442
-    file_size: 37737
+    sha256: 98e4ec6c93e9b689bf0fdfa1468165f52d3d165f9e209397f2da4f9bd946e754
+    file_size: 37902
 fonts:
 - name: Noto Sans Chorasmian
   styles:
@@ -14,7 +14,7 @@ fonts:
     type: Regular
     full_name: Noto Sans Chorasmian Regular
     post_script_name: NotoSansChorasmian-Regular
-    version: 1.002; ttfautohint (v1.8.4.7-5d5b)
+    version: 1.004; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/chorasmian)
     font: NotoSansChorasmian-Regular.ttf
 extract: {}
@@ -25,7 +25,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -115,4 +115,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: '050969a8f3cfaf681aefd1720c5fdb071680fdc46821b314fd24fdc230aea34d'
-command: import google --formulas_path Formulas -n 50
+command: import google --formulas_path Formulas -n 5000 --no-cache

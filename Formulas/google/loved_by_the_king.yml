@@ -1,13 +1,12 @@
 ---
-name: Loved by the King
 description: Loved by the King
 homepage: http://kimberlygeswein.com
 resources:
-  LovedbytheKing.zip:
+  Loved_by_the_King.zip:
     urls:
     - https://fonts.google.com/download?family=Loved%20by%20the%20King
-    sha256: b420952223a40c97205d2b50bd8cbef05291a76bf4c5f136d68dc1e9e111cd9f
-    file_size: 19719
+    sha256: d8861644c843ec3ddd950c86843a5969cc456000e10010a864d0598cc3968a8e
+    file_size: 19741
 fonts:
 - name: Loved by the King
   styles:
@@ -18,18 +17,16 @@ fonts:
     version: 1.002 2006
     description: Copyright (c) 2006 by Kimberly Geswein. All rights reserved.
     copyright: Copyright (c) 2006 by Kimberly Geswein. All rights reserved.
-    font: LovedbytheKing.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2006 by Kimberly Geswein (kimberlygeswein@gmail.com). All
-  rights reserved.
+    font: LovedbytheKing-Regular.ttf
+extract: {}
+copyright: Copyright (c) 2006 by Kimberly Geswein. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -118,3 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: '051085716c87555e92617b0fac5e8233c00cc5592989bb37463c4c9e22870166'
+command: import google --formulas_path Formulas -n 5000 --no-cache

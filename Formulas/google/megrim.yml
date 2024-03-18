@@ -1,35 +1,33 @@
 ---
-name: Megrim
 description: Megrim
-homepage:
 resources:
   Megrim.zip:
     urls:
     - https://fonts.google.com/download?family=Megrim
-    sha256: d730590bd495a93c489afff668cfc8f55f7e16dc5ac8793b185b5c8f06f3fa4e
-    file_size: 27958
+    sha256: 4f371e6fa1051403f0db33e53a23f69379dda81f030a0b3ac8ef47c513c4dcc9
+    file_size: 28100
 fonts:
 - name: Megrim
   styles:
   - family_name: Megrim
     type: Medium
+    preferred_family_name: Megrim
+    preferred_type: Medium
     full_name: Megrim
     post_script_name: Megrim
     version: '20110427'
     copyright: Copyright (c) 2010, 2011 by Daniel Johnson. Released under the terms
       of the SIL Open Font License.
-    font: Megrim.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010, 2011 by Daniel Johnson (il.basso.buffo@gmail.com).
-  Released under the terms of the SIL Open Font License.
-license_url:
+    font: Megrim-Regular.ttf
+extract: {}
+copyright: Copyright (c) 2010, 2011 by Daniel Johnson. Released under the terms of
+  the SIL Open Font License.
 open_license: |-
   Copyright (c) 2009, 2010, 2011 Daniel Johnson (<il.basso.buffo@gmail.com>).
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -118,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 5338a6e3d3a418cee20e9257dfc454d9afd375342fa31b548b7d336ba1593589
+command: import google --formulas_path Formulas -n 5000 --no-cache

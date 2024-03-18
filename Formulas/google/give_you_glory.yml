@@ -2,11 +2,11 @@
 description: Give You Glory
 homepage: http://kimberlygeswein.com
 resources:
-  GiveYouGlory.zip:
+  Give_You_Glory.zip:
     urls:
     - https://fonts.google.com/download?family=Give%20You%20Glory
-    sha256: 6406d0bd0ff4136db432bba26c4ee27d50e67a0af29a4f9cfa53bd423cb225d1
-    file_size: 27477
+    sha256: 0617102abb84793687238f86379f4a634c40238e082d055f15b3a087ab118ac3
+    file_size: 27630
 fonts:
 - name: Give You Glory
   styles:
@@ -21,19 +21,18 @@ fonts:
     copyright: 'Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com). This Font
       Software is licensed under the SIL Open Font License, Version 1.1.  This license
       is available with a FAQ at:  http://scripts.sil.org/OFL'
-    font: GiveYouGlory.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com).
-  This Font Software is licensed under the SIL Open Font License, Version 1.1. This
-  license is available with a FAQ at: http://scripts.sil.org/OFL'
+    font: GiveYouGlory-Regular.ttf
+extract: {}
+copyright: 'Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com). This Font
+  Software is licensed under the SIL Open Font License, Version 1.1.  This license
+  is available with a FAQ at:  http://scripts.sil.org/OFL'
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -122,3 +121,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 0bcbe1dfcdef8ea970d8dca0511fa0ac0990069c48a8200f47e5a10bbf93a9df
+command: import google --formulas_path Formulas -n 5000 --no-cache

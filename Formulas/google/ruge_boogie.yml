@@ -1,36 +1,31 @@
 ---
-name: Ruge Boogie
 description: Ruge Boogie
+homepage: www.typesetit.com
 resources:
   Ruge_Boogie.zip:
     urls:
     - https://fonts.google.com/download?family=Ruge%20Boogie
-    sha256: 3d4c3914dac784754177e48fd7016d67ea3c6ba6f9c347f52bd772010cf71630
-    file_size: 139228
+    sha256: c0b6ca1e103337a74c979a3288ae55f9ab94857e3b3682343825102369fe58c6
+    file_size: 139486
 fonts:
 - name: Ruge Boogie
   styles:
   - family_name: Ruge Boogie
     type: Regular
-    full_name: Ruge Boogie
+    full_name: Ruge Boogie Regular
     post_script_name: RugeBoogie-Regular
-    version: '1.003'
-    copyright: |-
-      Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net),
-      with Reserved Font Name "Ruge Boogie"
+    version: 1.010; ttfautohint (v1.8.3)
+    copyright: Copyright 2015 The Ruge Boogie Project Authors (https://github.com/googlefonts/ruge-boogie)
     font: RugeBoogie-Regular.ttf
 extract: {}
-copyright: |-
-  Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net),
-  with Reserved Font Name "Ruge Boogie"
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2015 The Ruge Boogie Project Authors (https://github.com/googlefonts/ruge-boogie)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net),
-  with Reserved Font Name "Ruge Boogie"
+  Copyright 2015 The Ruge Boogie Project Authors (https://github.com/googlefonts/ruge-boogie)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -120,4 +115,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: bbdf4a2fa6c4b8fbf9c4d468f12a60817bfe979aaad03a18727dc6e2c542facd
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

@@ -2,23 +2,22 @@
 description: Bungee Shade
 homepage: http://www.djr.com
 resources:
-  BungeeShade.zip:
+  Bungee_Shade.zip:
     urls:
     - https://fonts.google.com/download?family=Bungee%20Shade
-    sha256: 5dc011987761839ddc9dfcba5eba9278073fa73c1fd3975f894417a9e2c8d9c3
-    file_size: 163203
+    sha256: fd1f58883e428128ebef1123057decf51eacef94f2e8b584206f813e59b19b0b
+    file_size: 163142
 fonts:
 - name: Bungee Shade
   styles:
   - family_name: Bungee Shade
     type: Regular
-    full_name: Bungee Shade Regular
+    full_name: Bungee Shade
     post_script_name: BungeeShade-Regular
-    version: 1.001;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900
+    version: 1.000;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900
     copyright: Copyright 2008 The Bungee Project Authors (david@djr.com)
     font: BungeeShade-Regular.ttf
-extract:
-  format: zip
+extract: {}
 copyright: Copyright 2008 The Bungee Project Authors (david@djr.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -26,7 +25,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -115,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 2943ed2e2788fe108ca5609d65dfd561e9ade6019422e19a79f02d30529a5a14
+command: import google --formulas_path Formulas -n 5000 --no-cache

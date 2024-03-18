@@ -1,13 +1,11 @@
 ---
-name: Holtwood One SC
 description: Holtwood One SC
-homepage:
 resources:
-  HoltwoodOneSC.zip:
+  Holtwood_One_SC.zip:
     urls:
     - https://fonts.google.com/download?family=Holtwood%20One%20SC
-    sha256: 54ee8d79bb48aec60bd835b25766fbf489b6f04a6cf03559821fd00b33e83ded
-    file_size: 21207
+    sha256: 7e75d27da194c1509196cb45645321615a13f5a1a09748dcdeea89a58df56ccd
+    file_size: 21239
 fonts:
 - name: Holtwood One SC
   styles:
@@ -18,11 +16,9 @@ fonts:
     version: '1.000'
     description: Copyright (c) 2011 by vernon adams. All rights reserved.
     copyright: Copyright (c) 2011 by vernon adams. All rights reserved.
-    font: HoltwoodOneSC.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved
-  Font Name 'Holtwood'. All rights reserved.
+    font: HoltwoodOneSC-Regular.ttf
+extract: {}
+copyright: Copyright (c) 2011 by vernon adams. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk),
@@ -30,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -119,3 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: bd5a9328276bed9bf499e800825407aeea7170c5c5d7eebf8e6395bcd9e95d7c
+command: import google --formulas_path Formulas -n 5000 --no-cache

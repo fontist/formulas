@@ -5,8 +5,8 @@ resources:
   BIZ_UDGothic.zip:
     urls:
     - https://fonts.google.com/download?family=BIZ%20UDGothic
-    sha256: 89a5c2359c8a87e8d72aa5ccd5a2fb2973f06b1a4d14eee77abd83f161837d22
-    file_size: 5852449
+    sha256: 43e63ff9ae22491c3514af8643397af99eca2bf0b81adea1157b63f1430e07d9
+    file_size: 5866414
 fonts:
 - name: BIZ UDGothic
   styles:
@@ -14,14 +14,14 @@ fonts:
     type: Bold
     full_name: BIZ UDGothic Bold
     post_script_name: BIZUDGothic-Bold
-    version: '1.002'
+    version: '1.05'
     copyright: Copyright 2022 The BIZ UDGothic Project Authors (https://github.com/googlefonts/morisawa-biz-ud-gothic)
     font: BIZUDGothic-Bold.ttf
   - family_name: BIZ UDGothic
     type: Regular
     full_name: BIZ UDGothic
     post_script_name: BIZUDGothic-Regular
-    version: '1.002'
+    version: '1.05'
     copyright: Copyright 2022 The BIZ UDGothic Project Authors (https://github.com/googlefonts/morisawa-biz-ud-gothic)
     font: BIZUDGothic-Regular.ttf
 extract: {}
@@ -32,7 +32,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -122,4 +122,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 1158f75f2158b33dc4708e1920cd651b3ad5899421fd5a98d7f13e397d43e75e
-command: import google --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

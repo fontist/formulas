@@ -1,11 +1,12 @@
 ---
 description: ABeeZee
+homepage: https://carrois.com/
 resources:
   ABeeZee.zip:
     urls:
     - https://fonts.google.com/download?family=ABeeZee
-    sha256: c857de68ce2e4caad334e2f24a2daa71d5ccb904c25c03ee409b150bc0f5234b
-    file_size: 51772
+    sha256: 87b9401efdc195946c6da3e1ba7d5b5ddf01a6f2733b17664c85184eee6af81a
+    file_size: 53032
 fonts:
 - name: ABeeZee
   styles:
@@ -13,25 +14,28 @@ fonts:
     type: Italic
     full_name: ABeeZee Italic
     post_script_name: ABeeZee-Italic
-    version: '1.002'
-    copyright: Copyright (c) 2011 by Anja Meiners, with Reserved Font Name 'ABeeZee'
+    version: 1.003; ttfautohint (v1.8.3)
+    copyright: Copyright 2011 The ABeeZee Project Authors (https://github.com/googlefonts/abeezee)
+      with Reserved Font Name ABeeZee
     font: ABeeZee-Italic.ttf
   - family_name: ABeeZee
     type: Regular
     full_name: ABeeZee Regular
     post_script_name: ABeeZee-Regular
-    version: '1.002'
-    copyright: Copyright (c) 2011 by Anja Meiners, with Reserved Font Name 'ABeeZee'
+    version: 1.003; ttfautohint (v1.8.3)
+    copyright: Copyright 2011 The ABeeZee Project Authors (https://github.com/googlefonts/abeezee)
+      with Reserved Font Name ABeeZee
     font: ABeeZee-Regular.ttf
 extract: {}
-copyright: Copyright (c) 2011 by Anja Meiners, with Reserved Font Name 'ABeeZee'
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2011 The ABeeZee Project Authors (https://github.com/googlefonts/abeezee)
+  with Reserved Font Name ABeeZee
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011 by Anja Meiners, with Reserved Font Name 'ABeeZee'
+  Copyright 2011 The ABeeZee Project Authors (https://github.com/googlefonts/abeezee), with Reserved Font Name 'ABeeZee'
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -121,4 +125,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 74cf1429158276fd918aa2d08bba809ac92cda5f06fa12435080db39d705483b
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

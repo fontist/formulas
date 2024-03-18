@@ -1,13 +1,12 @@
 ---
-name: Shippori Mincho
 description: Shippori Mincho
 homepage: http://fontdasu.com
 resources:
   Shippori_Mincho.zip:
     urls:
     - https://fonts.google.com/download?family=Shippori%20Mincho
-    sha256: a85ea793127fe5e46494b4b05d2c68aacf69511c0d506a20f567bac836358262
-    file_size: 23057616
+    sha256: '0688a2b15fde5a6886286ac76b6182955d5350102de516014f4b163376a60b6a'
+    file_size: 23049632
 fonts:
 - name: Shippori Mincho
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Bold
     full_name: Shippori Mincho Bold
     post_script_name: ShipporiMincho-Bold
-    version: 3.000; ttfautohint (v1.8.3)
-    copyright: Copyright 2020 The Shippori Min Project Authors (https://github.com/fontdasu/ShipporiMincho)
+    version: 3.110; ttfautohint (v1.8.3)
+    copyright: Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)
     font: ShipporiMincho-Bold.ttf
   - family_name: Shippori Mincho
     type: Regular
     full_name: Shippori Mincho Regular
     post_script_name: ShipporiMincho-Regular
-    version: 3.000; ttfautohint (v1.8.3)
-    copyright: Copyright 2020 The Shippori Min Project Authors (https://github.com/fontdasu/ShipporiMincho)
+    version: 3.110; ttfautohint (v1.8.3)
+    copyright: Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)
     font: ShipporiMincho-Regular.ttf
 - name: Shippori Mincho ExtraBold
   styles:
@@ -33,8 +32,8 @@ fonts:
     preferred_type: ExtraBold
     full_name: Shippori Mincho ExtraBold
     post_script_name: ShipporiMincho-ExtraBold
-    version: 3.000; ttfautohint (v1.8.3)
-    copyright: Copyright 2020 The Shippori Min Project Authors (https://github.com/fontdasu/ShipporiMincho)
+    version: 3.110; ttfautohint (v1.8.3)
+    copyright: Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)
     font: ShipporiMincho-ExtraBold.ttf
 - name: Shippori Mincho Medium
   styles:
@@ -44,8 +43,8 @@ fonts:
     preferred_type: Medium
     full_name: Shippori Mincho Medium
     post_script_name: ShipporiMincho-Medium
-    version: 3.000; ttfautohint (v1.8.3)
-    copyright: Copyright 2020 The Shippori Min Project Authors (https://github.com/fontdasu/ShipporiMincho)
+    version: 3.110; ttfautohint (v1.8.3)
+    copyright: Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)
     font: ShipporiMincho-Medium.ttf
 - name: Shippori Mincho SemiBold
   styles:
@@ -55,18 +54,18 @@ fonts:
     preferred_type: SemiBold
     full_name: Shippori Mincho SemiBold
     post_script_name: ShipporiMincho-SemiBold
-    version: 3.000; ttfautohint (v1.8.3)
-    copyright: Copyright 2020 The Shippori Min Project Authors (https://github.com/fontdasu/ShipporiMincho)
+    version: 3.110; ttfautohint (v1.8.3)
+    copyright: Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)
     font: ShipporiMincho-SemiBold.ttf
 extract: {}
-copyright: Copyright 2020 The Shippori Min Project Authors (https://github.com/fontdasu/ShipporiMincho)
+copyright: Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2020 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)
+  Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -156,4 +155,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 8cae85e48994bbd00cf46a7af030a559432fea881f6261dcb926a95b025c9c98
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

@@ -2,32 +2,557 @@
 description: Encode Sans
 homepage: http://www.impallari.com
 resources:
-  EncodeSans.zip:
+  Encode_Sans.zip:
     urls:
     - https://fonts.google.com/download?family=Encode%20Sans
-    file_size: 2583613
+    file_size: 2585917
 fonts:
 - name: Encode Sans
   styles:
   - family_name: Encode Sans
-    type: Condensed Thin
+    type: Bold
+    full_name: Encode Sans Bold
+    post_script_name: EncodeSans-Bold
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans-Bold.ttf
+  - family_name: Encode Sans
+    type: Regular
+    full_name: Encode Sans Regular
+    post_script_name: EncodeSans-Regular
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans-Regular.ttf
+- name: Encode Sans Black
+  styles:
+  - family_name: Encode Sans Black
+    type: Regular
+    preferred_family_name: Encode Sans
+    preferred_type: Black
+    full_name: Encode Sans Black
+    post_script_name: EncodeSans-Black
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans-Black.ttf
+- name: Encode Sans Condensed
+  styles:
+  - family_name: Encode Sans Condensed
+    type: Bold
+    preferred_family_name: Encode Sans Condensed
+    preferred_type: Bold
+    full_name: Encode Sans Condensed Bold
+    post_script_name: EncodeSansCondensed-Bold
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_Condensed-Bold.ttf
+  - family_name: Encode Sans Condensed
+    type: Regular
+    preferred_family_name: Encode Sans Condensed
+    preferred_type: Regular
+    full_name: Encode Sans Condensed Regular
+    post_script_name: EncodeSansCondensed-Regular
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_Condensed-Regular.ttf
+- name: Encode Sans Condensed Black
+  styles:
+  - family_name: Encode Sans Condensed Black
+    type: Regular
+    preferred_family_name: Encode Sans Condensed
+    preferred_type: Black
+    full_name: Encode Sans Condensed Black
+    post_script_name: EncodeSansCondensed-Black
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_Condensed-Black.ttf
+- name: Encode Sans Condensed ExtraBold
+  styles:
+  - family_name: Encode Sans Condensed ExtraBold
+    type: Regular
+    preferred_family_name: Encode Sans Condensed
+    preferred_type: ExtraBold
+    full_name: Encode Sans Condensed ExtraBold
+    post_script_name: EncodeSansCondensed-ExtraBold
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_Condensed-ExtraBold.ttf
+- name: Encode Sans Condensed ExtraLight
+  styles:
+  - family_name: Encode Sans Condensed ExtraLight
+    type: Regular
+    preferred_family_name: Encode Sans Condensed
+    preferred_type: ExtraLight
+    full_name: Encode Sans Condensed ExtraLight
+    post_script_name: EncodeSansCondensed-ExtraLight
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_Condensed-ExtraLight.ttf
+- name: Encode Sans Condensed Light
+  styles:
+  - family_name: Encode Sans Condensed Light
+    type: Regular
+    preferred_family_name: Encode Sans Condensed
+    preferred_type: Light
+    full_name: Encode Sans Condensed Light
+    post_script_name: EncodeSansCondensed-Light
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_Condensed-Light.ttf
+- name: Encode Sans Condensed Medium
+  styles:
+  - family_name: Encode Sans Condensed Medium
+    type: Regular
+    preferred_family_name: Encode Sans Condensed
+    preferred_type: Medium
+    full_name: Encode Sans Condensed Medium
+    post_script_name: EncodeSansCondensed-Medium
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_Condensed-Medium.ttf
+- name: Encode Sans Condensed SemiBold
+  styles:
+  - family_name: Encode Sans Condensed SemiBold
+    type: Regular
+    preferred_family_name: Encode Sans Condensed
+    preferred_type: SemiBold
+    full_name: Encode Sans Condensed SemiBold
+    post_script_name: EncodeSansCondensed-SemiBold
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_Condensed-SemiBold.ttf
+- name: Encode Sans Condensed Thin
+  styles:
+  - family_name: Encode Sans Condensed Thin
+    type: Regular
+    preferred_family_name: Encode Sans
+    preferred_type: Condensed Thin
     full_name: Encode Sans Condensed Thin
     post_script_name: EncodeSans-CondensedThin
     version: '3.002'
     copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
       with Reserved Font Name 'Encode Sans'.
-    font: EncodeSans[wdth,wght].ttf
-extract:
-  format: zip
+    font: EncodeSans-VariableFont_wdth,wght.ttf
+  - family_name: Encode Sans Condensed Thin
+    type: Regular
+    preferred_family_name: Encode Sans Condensed
+    preferred_type: Thin
+    full_name: Encode Sans Condensed Thin
+    post_script_name: EncodeSansCondensed-Thin
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_Condensed-Thin.ttf
+- name: Encode Sans Expanded
+  styles:
+  - family_name: Encode Sans Expanded
+    type: Bold
+    preferred_family_name: Encode Sans Expanded
+    preferred_type: Bold
+    full_name: Encode Sans Expanded Bold
+    post_script_name: EncodeSansExpanded-Bold
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_Expanded-Bold.ttf
+  - family_name: Encode Sans Expanded
+    type: Regular
+    preferred_family_name: Encode Sans Expanded
+    preferred_type: Regular
+    full_name: Encode Sans Expanded Regular
+    post_script_name: EncodeSansExpanded-Regular
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_Expanded-Regular.ttf
+- name: Encode Sans Expanded Black
+  styles:
+  - family_name: Encode Sans Expanded Black
+    type: Regular
+    preferred_family_name: Encode Sans Expanded
+    preferred_type: Black
+    full_name: Encode Sans Expanded Black
+    post_script_name: EncodeSansExpanded-Black
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_Expanded-Black.ttf
+- name: Encode Sans Expanded ExtraBold
+  styles:
+  - family_name: Encode Sans Expanded ExtraBold
+    type: Regular
+    preferred_family_name: Encode Sans Expanded
+    preferred_type: ExtraBold
+    full_name: Encode Sans Expanded ExtraBold
+    post_script_name: EncodeSansExpanded-ExtraBold
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_Expanded-ExtraBold.ttf
+- name: Encode Sans Expanded ExtraLight
+  styles:
+  - family_name: Encode Sans Expanded ExtraLight
+    type: Regular
+    preferred_family_name: Encode Sans Expanded
+    preferred_type: ExtraLight
+    full_name: Encode Sans Expanded ExtraLight
+    post_script_name: EncodeSansExpanded-ExtraLight
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_Expanded-ExtraLight.ttf
+- name: Encode Sans Expanded Light
+  styles:
+  - family_name: Encode Sans Expanded Light
+    type: Regular
+    preferred_family_name: Encode Sans Expanded
+    preferred_type: Light
+    full_name: Encode Sans Expanded Light
+    post_script_name: EncodeSansExpanded-Light
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_Expanded-Light.ttf
+- name: Encode Sans Expanded Medium
+  styles:
+  - family_name: Encode Sans Expanded Medium
+    type: Regular
+    preferred_family_name: Encode Sans Expanded
+    preferred_type: Medium
+    full_name: Encode Sans Expanded Medium
+    post_script_name: EncodeSansExpanded-Medium
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_Expanded-Medium.ttf
+- name: Encode Sans Expanded SemiBold
+  styles:
+  - family_name: Encode Sans Expanded SemiBold
+    type: Regular
+    preferred_family_name: Encode Sans Expanded
+    preferred_type: SemiBold
+    full_name: Encode Sans Expanded SemiBold
+    post_script_name: EncodeSansExpanded-SemiBold
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_Expanded-SemiBold.ttf
+- name: Encode Sans Expanded Thin
+  styles:
+  - family_name: Encode Sans Expanded Thin
+    type: Regular
+    preferred_family_name: Encode Sans Expanded
+    preferred_type: Thin
+    full_name: Encode Sans Expanded Thin
+    post_script_name: EncodeSansExpanded-Thin
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_Expanded-Thin.ttf
+- name: Encode Sans ExtraBold
+  styles:
+  - family_name: Encode Sans ExtraBold
+    type: Regular
+    preferred_family_name: Encode Sans
+    preferred_type: ExtraBold
+    full_name: Encode Sans ExtraBold
+    post_script_name: EncodeSans-ExtraBold
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans-ExtraBold.ttf
+- name: Encode Sans ExtraLight
+  styles:
+  - family_name: Encode Sans ExtraLight
+    type: Regular
+    preferred_family_name: Encode Sans
+    preferred_type: ExtraLight
+    full_name: Encode Sans ExtraLight
+    post_script_name: EncodeSans-ExtraLight
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans-ExtraLight.ttf
+- name: Encode Sans Light
+  styles:
+  - family_name: Encode Sans Light
+    type: Regular
+    preferred_family_name: Encode Sans
+    preferred_type: Light
+    full_name: Encode Sans Light
+    post_script_name: EncodeSans-Light
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans-Light.ttf
+- name: Encode Sans Medium
+  styles:
+  - family_name: Encode Sans Medium
+    type: Regular
+    preferred_family_name: Encode Sans
+    preferred_type: Medium
+    full_name: Encode Sans Medium
+    post_script_name: EncodeSans-Medium
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans-Medium.ttf
+- name: Encode Sans SemiBold
+  styles:
+  - family_name: Encode Sans SemiBold
+    type: Regular
+    preferred_family_name: Encode Sans
+    preferred_type: SemiBold
+    full_name: Encode Sans SemiBold
+    post_script_name: EncodeSans-SemiBold
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans-SemiBold.ttf
+- name: Encode Sans SemiCondensed
+  styles:
+  - family_name: Encode Sans SemiCondensed
+    type: Bold
+    preferred_family_name: Encode Sans SemiCondensed
+    preferred_type: Bold
+    full_name: Encode Sans SemiCondensed Bold
+    post_script_name: EncodeSansSemiCondensed-Bold
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_SemiCondensed-Bold.ttf
+  - family_name: Encode Sans SemiCondensed
+    type: Regular
+    preferred_family_name: Encode Sans SemiCondensed
+    preferred_type: Regular
+    full_name: Encode Sans SemiCondensed Regular
+    post_script_name: EncodeSansSemiCondensed-Regular
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_SemiCondensed-Regular.ttf
+- name: Encode Sans SemiCondensed Black
+  styles:
+  - family_name: Encode Sans SemiCondensed Black
+    type: Regular
+    preferred_family_name: Encode Sans SemiCondensed
+    preferred_type: Black
+    full_name: Encode Sans SemiCondensed Black
+    post_script_name: EncodeSansSemiCondensed-Black
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_SemiCondensed-Black.ttf
+- name: Encode Sans SemiCondensed ExtraBold
+  styles:
+  - family_name: Encode Sans SemiCondensed ExtraBold
+    type: Regular
+    preferred_family_name: Encode Sans SemiCondensed
+    preferred_type: ExtraBold
+    full_name: Encode Sans SemiCondensed ExtraBold
+    post_script_name: EncodeSansSemiCondensed-ExtraBold
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_SemiCondensed-ExtraBold.ttf
+- name: Encode Sans SemiCondensed ExtraLight
+  styles:
+  - family_name: Encode Sans SemiCondensed ExtraLight
+    type: Regular
+    preferred_family_name: Encode Sans SemiCondensed
+    preferred_type: ExtraLight
+    full_name: Encode Sans SemiCondensed ExtraLight
+    post_script_name: EncodeSansSemiCondensed-ExtraLight
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_SemiCondensed-ExtraLight.ttf
+- name: Encode Sans SemiCondensed Light
+  styles:
+  - family_name: Encode Sans SemiCondensed Light
+    type: Regular
+    preferred_family_name: Encode Sans SemiCondensed
+    preferred_type: Light
+    full_name: Encode Sans SemiCondensed Light
+    post_script_name: EncodeSansSemiCondensed-Light
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_SemiCondensed-Light.ttf
+- name: Encode Sans SemiCondensed Medium
+  styles:
+  - family_name: Encode Sans SemiCondensed Medium
+    type: Regular
+    preferred_family_name: Encode Sans SemiCondensed
+    preferred_type: Medium
+    full_name: Encode Sans SemiCondensed Medium
+    post_script_name: EncodeSansSemiCondensed-Medium
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_SemiCondensed-Medium.ttf
+- name: Encode Sans SemiCondensed SemiBold
+  styles:
+  - family_name: Encode Sans SemiCondensed SemiBold
+    type: Regular
+    preferred_family_name: Encode Sans SemiCondensed
+    preferred_type: SemiBold
+    full_name: Encode Sans SemiCondensed SemiBold
+    post_script_name: EncodeSansSemiCondensed-SemiBold
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_SemiCondensed-SemiBold.ttf
+- name: Encode Sans SemiCondensed Thin
+  styles:
+  - family_name: Encode Sans SemiCondensed Thin
+    type: Regular
+    preferred_family_name: Encode Sans SemiCondensed
+    preferred_type: Thin
+    full_name: Encode Sans SemiCondensed Thin
+    post_script_name: EncodeSansSemiCondensed-Thin
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_SemiCondensed-Thin.ttf
+- name: Encode Sans SemiExpanded
+  styles:
+  - family_name: Encode Sans SemiExpanded
+    type: Bold
+    preferred_family_name: Encode Sans SemiExpanded
+    preferred_type: Bold
+    full_name: Encode Sans SemiExpanded Bold
+    post_script_name: EncodeSansSemiExpanded-Bold
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_SemiExpanded-Bold.ttf
+  - family_name: Encode Sans SemiExpanded
+    type: Regular
+    preferred_family_name: Encode Sans SemiExpanded
+    preferred_type: Regular
+    full_name: Encode Sans SemiExpanded Regular
+    post_script_name: EncodeSansSemiExpanded-Regular
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_SemiExpanded-Regular.ttf
+- name: Encode Sans SemiExpanded Black
+  styles:
+  - family_name: Encode Sans SemiExpanded Black
+    type: Regular
+    preferred_family_name: Encode Sans SemiExpanded
+    preferred_type: Black
+    full_name: Encode Sans SemiExpanded Black
+    post_script_name: EncodeSansSemiExpanded-Black
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_SemiExpanded-Black.ttf
+- name: Encode Sans SemiExpanded ExtraBold
+  styles:
+  - family_name: Encode Sans SemiExpanded ExtraBold
+    type: Regular
+    preferred_family_name: Encode Sans SemiExpanded
+    preferred_type: ExtraBold
+    full_name: Encode Sans SemiExpanded ExtraBold
+    post_script_name: EncodeSansSemiExpanded-ExtraBold
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_SemiExpanded-ExtraBold.ttf
+- name: Encode Sans SemiExpanded ExtraLight
+  styles:
+  - family_name: Encode Sans SemiExpanded ExtraLight
+    type: Regular
+    preferred_family_name: Encode Sans SemiExpanded
+    preferred_type: ExtraLight
+    full_name: Encode Sans SemiExpanded ExtraLight
+    post_script_name: EncodeSansSemiExpanded-ExtraLight
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_SemiExpanded-ExtraLight.ttf
+- name: Encode Sans SemiExpanded Light
+  styles:
+  - family_name: Encode Sans SemiExpanded Light
+    type: Regular
+    preferred_family_name: Encode Sans SemiExpanded
+    preferred_type: Light
+    full_name: Encode Sans SemiExpanded Light
+    post_script_name: EncodeSansSemiExpanded-Light
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_SemiExpanded-Light.ttf
+- name: Encode Sans SemiExpanded Medium
+  styles:
+  - family_name: Encode Sans SemiExpanded Medium
+    type: Regular
+    preferred_family_name: Encode Sans SemiExpanded
+    preferred_type: Medium
+    full_name: Encode Sans SemiExpanded Medium
+    post_script_name: EncodeSansSemiExpanded-Medium
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_SemiExpanded-Medium.ttf
+- name: Encode Sans SemiExpanded SemiBold
+  styles:
+  - family_name: Encode Sans SemiExpanded SemiBold
+    type: Regular
+    preferred_family_name: Encode Sans SemiExpanded
+    preferred_type: SemiBold
+    full_name: Encode Sans SemiExpanded SemiBold
+    post_script_name: EncodeSansSemiExpanded-SemiBold
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_SemiExpanded-SemiBold.ttf
+- name: Encode Sans SemiExpanded Thin
+  styles:
+  - family_name: Encode Sans SemiExpanded Thin
+    type: Regular
+    preferred_family_name: Encode Sans SemiExpanded
+    preferred_type: Thin
+    full_name: Encode Sans SemiExpanded Thin
+    post_script_name: EncodeSansSemiExpanded-Thin
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans_SemiExpanded-Thin.ttf
+- name: Encode Sans Thin
+  styles:
+  - family_name: Encode Sans Thin
+    type: Regular
+    preferred_family_name: Encode Sans
+    preferred_type: Thin
+    full_name: Encode Sans Thin
+    post_script_name: EncodeSans-Thin
+    version: '3.002'
+    copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
+      with Reserved Font Name 'Encode Sans'.
+    font: EncodeSans-Thin.ttf
+extract: {}
 copyright: Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans),
   with Reserved Font Name 'Encode Sans'.
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name "Encode Sans”.
+  Copyright 2020 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name "Encode Sans.
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  https://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -116,3 +641,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 33016016ee04d0645e6caec911b08e689540eed74dc843cda369dcda11401b80
+command: import google --formulas_path Formulas -n 5000 --no-cache

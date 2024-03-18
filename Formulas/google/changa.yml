@@ -1,12 +1,11 @@
 ---
-name: Changa
 description: Changa
 homepage: http://www.tipo.net.ar
 resources:
   Changa.zip:
     urls:
     - https://fonts.google.com/download?family=Changa
-    file_size: 318823
+    file_size: 319311
 fonts:
 - name: Changa
   styles:
@@ -14,15 +13,22 @@ fonts:
     type: Bold
     full_name: Changa Bold
     post_script_name: Changa-Bold
-    version: 3.002; ttfautohint (v1.8.2)
-    copyright: Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)
+    version: '3.003'
+    copyright: Copyright 2018 The Changa Project Authors (https://github.com/eliheuer/changa-vf)
     font: Changa-Bold.ttf
   - family_name: Changa
     type: Regular
     full_name: Changa Regular
     post_script_name: Changa-Regular
-    version: 3.002; ttfautohint (v1.8.2)
-    copyright: Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)
+    version: '3.003'
+    copyright: Copyright 2018 The Changa Project Authors (https://github.com/eliheuer/changa-vf)
+    font: Changa-VariableFont_wght.ttf
+  - family_name: Changa
+    type: Regular
+    full_name: Changa Regular
+    post_script_name: Changa-Regular
+    version: '3.003'
+    copyright: Copyright 2018 The Changa Project Authors (https://github.com/eliheuer/changa-vf)
     font: Changa-Regular.ttf
 - name: Changa ExtraBold
   styles:
@@ -32,8 +38,8 @@ fonts:
     preferred_type: ExtraBold
     full_name: Changa ExtraBold
     post_script_name: Changa-ExtraBold
-    version: 3.002; ttfautohint (v1.8.2)
-    copyright: Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)
+    version: '3.003'
+    copyright: Copyright 2018 The Changa Project Authors (https://github.com/eliheuer/changa-vf)
     font: Changa-ExtraBold.ttf
 - name: Changa ExtraLight
   styles:
@@ -43,18 +49,9 @@ fonts:
     preferred_type: ExtraLight
     full_name: Changa ExtraLight
     post_script_name: Changa-ExtraLight
-    version: 3.002; ttfautohint (v1.8.2)
-    copyright: Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)
+    version: '3.003'
+    copyright: Copyright 2018 The Changa Project Authors (https://github.com/eliheuer/changa-vf)
     font: Changa-ExtraLight.ttf
-  - family_name: Changa ExtraLight
-    type: Regular
-    preferred_family_name: Changa
-    preferred_type: ExtraLight
-    full_name: Changa ExtraLight
-    post_script_name: Changa-ExtraLight
-    version: 3.002; ttfautohint (v1.8.2)
-    copyright: Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)
-    font: Changa-VariableFont_wght.ttf
 - name: Changa Light
   styles:
   - family_name: Changa Light
@@ -63,8 +60,8 @@ fonts:
     preferred_type: Light
     full_name: Changa Light
     post_script_name: Changa-Light
-    version: 3.002; ttfautohint (v1.8.2)
-    copyright: Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)
+    version: '3.003'
+    copyright: Copyright 2018 The Changa Project Authors (https://github.com/eliheuer/changa-vf)
     font: Changa-Light.ttf
 - name: Changa Medium
   styles:
@@ -74,8 +71,8 @@ fonts:
     preferred_type: Medium
     full_name: Changa Medium
     post_script_name: Changa-Medium
-    version: 3.002; ttfautohint (v1.8.2)
-    copyright: Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)
+    version: '3.003'
+    copyright: Copyright 2018 The Changa Project Authors (https://github.com/eliheuer/changa-vf)
     font: Changa-Medium.ttf
 - name: Changa SemiBold
   styles:
@@ -85,18 +82,18 @@ fonts:
     preferred_type: SemiBold
     full_name: Changa SemiBold
     post_script_name: Changa-SemiBold
-    version: 3.002; ttfautohint (v1.8.2)
-    copyright: Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)
+    version: '3.003'
+    copyright: Copyright 2018 The Changa Project Authors (https://github.com/eliheuer/changa-vf)
     font: Changa-SemiBold.ttf
 extract: {}
-copyright: Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)
+copyright: Copyright 2018 The Changa Project Authors (https://github.com/eliheuer/changa-vf)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2011 Eduardo Tunni (www.tipo.net.ar)
+  Copyright 2018 The Changa Project Authors (https://github.com/googlefonts/changa-vf)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -186,4 +183,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 342bd172ec76676b5ff2c3b5bd2d9684c2b1b9cfdfce193b289566cdc9e75fad
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

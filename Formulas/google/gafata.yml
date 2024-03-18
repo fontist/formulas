@@ -1,13 +1,11 @@
 ---
-name: Gafata
 description: Gafata
-homepage:
 resources:
   Gafata.zip:
     urls:
     - https://fonts.google.com/download?family=Gafata
-    sha256: 508a44e9a3efd30390a67a279a7ad7227c741c273feff061efd9e73d34a8f341
-    file_size: 19068
+    sha256: c359c2ea564b91a8755fc5cc3d8c63757b3ed55c6c89d80bc1021703ebb168f4
+    file_size: 19076
 fonts:
 - name: Gafata
   styles:
@@ -15,12 +13,11 @@ fonts:
     type: Regular
     full_name: Gafata
     post_script_name: Gafata-Regular
-    version: 4.002; ttfautohint (v0.94.20-1c74) -l 7 -r 28 -G 0 -x 13 -w "" -W -c
+    version: '4.002'
     copyright: Copyright (c) 2010-2012, Lautaro Hourcade (lautaro.uy@gmail.com), with
       Reserved Font Name 'Gafata'
     font: Gafata-Regular.ttf
-extract:
-  format: zip
+extract: {}
 copyright: Copyright (c) 2010-2012, Lautaro Hourcade (lautaro.uy@gmail.com), with
   Reserved Font Name 'Gafata'
 license_url: http://scripts.sil.org/OFL
@@ -29,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -118,3 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: eb7d0b0bc67b380520d17fe637241eb942bc7c09d787320cd63bb4c1b41eb3c6
+command: import google --formulas_path Formulas -n 5000 --no-cache

@@ -4,8 +4,8 @@ resources:
   Taprom.zip:
     urls:
     - https://fonts.google.com/download?family=Taprom
-    sha256: b55817d1d8649bf8b5bd25ce21ef58d51bf3dc3981b4aee0dc0848d230cb05c6
-    file_size: 100720
+    sha256: 72ba655c4d9733a9198466079ee9cf369563ec854f8c9c67d0eb22e0ab8dbef0
+    file_size: 100234
 fonts:
 - name: Taprom
   styles:
@@ -13,7 +13,7 @@ fonts:
     type: Regular
     full_name: Taprom Regular
     post_script_name: Taprom-Regular
-    version: 8.001; ttfautohint (v1.8.3)
+    version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Taprom Project Authors (https://github.com/danhhong/Taprom)
     font: Taprom-Regular.ttf
 extract: {}
@@ -24,7 +24,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -114,4 +114,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 4f1c4d491d8818d3e30bea1ec938a9389ee13e8565460a76cde72dff2d90ce9d
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

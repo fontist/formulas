@@ -1,12 +1,11 @@
 ---
-name: Big Shoulders Display
 description: Big Shoulders Display
 homepage: http://xotype.co
 resources:
   Big_Shoulders_Display.zip:
     urls:
     - https://fonts.google.com/download?family=Big%20Shoulders%20Display
-    file_size: 546855
+    file_size: 548580
 fonts:
 - name: Big Shoulders Display
   styles:
@@ -14,14 +13,14 @@ fonts:
     type: Bold
     full_name: Big Shoulders Display Bold
     post_script_name: BigShouldersDisplay-Bold
-    version: '1.101'
+    version: '2.002'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersDisplay-Bold.ttf
   - family_name: Big Shoulders Display
     type: Regular
     full_name: Big Shoulders Display Regular
     post_script_name: BigShouldersDisplay-Regular
-    version: '1.101'
+    version: '2.002'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersDisplay-Regular.ttf
 - name: Big Shoulders Display Black
@@ -32,7 +31,7 @@ fonts:
     preferred_type: Black
     full_name: Big Shoulders Display Black
     post_script_name: BigShouldersDisplay-Black
-    version: '1.101'
+    version: '2.002'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersDisplay-Black.ttf
 - name: Big Shoulders Display ExtraBold
@@ -43,9 +42,20 @@ fonts:
     preferred_type: ExtraBold
     full_name: Big Shoulders Display ExtraBold
     post_script_name: BigShouldersDisplay-ExtraBold
-    version: '1.101'
+    version: '2.002'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersDisplay-ExtraBold.ttf
+- name: Big Shoulders Display ExtraLight
+  styles:
+  - family_name: Big Shoulders Display ExtraLight
+    type: Regular
+    preferred_family_name: Big Shoulders Display
+    preferred_type: ExtraLight
+    full_name: Big Shoulders Display ExtraLight
+    post_script_name: BigShouldersDisplay-ExtraLight
+    version: '2.002'
+    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
+    font: BigShouldersDisplay-ExtraLight.ttf
 - name: Big Shoulders Display Light
   styles:
   - family_name: Big Shoulders Display Light
@@ -54,7 +64,7 @@ fonts:
     preferred_type: Light
     full_name: Big Shoulders Display Light
     post_script_name: BigShouldersDisplay-Light
-    version: '1.101'
+    version: '2.002'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersDisplay-Light.ttf
 - name: Big Shoulders Display Medium
@@ -65,7 +75,7 @@ fonts:
     preferred_type: Medium
     full_name: Big Shoulders Display Medium
     post_script_name: BigShouldersDisplay-Medium
-    version: '1.101'
+    version: '2.002'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersDisplay-Medium.ttf
 - name: Big Shoulders Display SemiBold
@@ -76,7 +86,7 @@ fonts:
     preferred_type: SemiBold
     full_name: Big Shoulders Display SemiBold
     post_script_name: BigShouldersDisplay-SemiBold
-    version: '1.101'
+    version: '2.002'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersDisplay-SemiBold.ttf
 - name: Big Shoulders Display Thin
@@ -87,7 +97,16 @@ fonts:
     preferred_type: Thin
     full_name: Big Shoulders Display Thin
     post_script_name: BigShouldersDisplay-Thin
-    version: '1.101'
+    version: '2.002'
+    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
+    font: BigShouldersDisplay-VariableFont_wght.ttf
+  - family_name: Big Shoulders Display Thin
+    type: Regular
+    preferred_family_name: Big Shoulders Display
+    preferred_type: Thin
+    full_name: Big Shoulders Display Thin
+    post_script_name: BigShouldersDisplay-Thin
+    version: '2.002'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersDisplay-Thin.ttf
 extract: {}
@@ -98,7 +117,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -188,4 +207,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 8b8983a81f53186a6c7ac222cfca46eed17bb2751f9d32885232c40c0676e0fa
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

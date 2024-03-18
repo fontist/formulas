@@ -1,12 +1,11 @@
 ---
-name: Big Shoulders Inline Text
 description: Big Shoulders Inline Text
 homepage: http://xotype.co
 resources:
   Big_Shoulders_Inline_Text.zip:
     urls:
     - https://fonts.google.com/download?family=Big%20Shoulders%20Inline%20Text
-    file_size: 1080050
+    file_size: 1080839
 fonts:
 - name: Big Shoulders Inline Text
   styles:
@@ -14,14 +13,14 @@ fonts:
     type: Bold
     full_name: Big Shoulders Inline Text Bold
     post_script_name: BigShouldersInlineText-Bold
-    version: '1.000'
+    version: '2.002'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersInlineText-Bold.ttf
   - family_name: Big Shoulders Inline Text
     type: Regular
     full_name: Big Shoulders Inline Text Regular
     post_script_name: BigShouldersInlineText-Regular
-    version: '1.000'
+    version: '2.002'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersInlineText-Regular.ttf
 - name: Big Shoulders Inline Text Black
@@ -32,7 +31,7 @@ fonts:
     preferred_type: Black
     full_name: Big Shoulders Inline Text Black
     post_script_name: BigShouldersInlineText-Black
-    version: '1.000'
+    version: '2.002'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersInlineText-Black.ttf
 - name: Big Shoulders Inline Text ExtraBold
@@ -43,9 +42,20 @@ fonts:
     preferred_type: ExtraBold
     full_name: Big Shoulders Inline Text ExtraBold
     post_script_name: BigShouldersInlineText-ExtraBold
-    version: '1.000'
+    version: '2.002'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersInlineText-ExtraBold.ttf
+- name: Big Shoulders Inline Text ExtraLight
+  styles:
+  - family_name: Big Shoulders Inline Text ExtraLight
+    type: Regular
+    preferred_family_name: Big Shoulders Inline Text
+    preferred_type: ExtraLight
+    full_name: Big Shoulders Inline Text ExtraLight
+    post_script_name: BigShouldersInlineText-ExtraLight
+    version: '2.002'
+    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
+    font: BigShouldersInlineText-ExtraLight.ttf
 - name: Big Shoulders Inline Text Light
   styles:
   - family_name: Big Shoulders Inline Text Light
@@ -54,7 +64,7 @@ fonts:
     preferred_type: Light
     full_name: Big Shoulders Inline Text Light
     post_script_name: BigShouldersInlineText-Light
-    version: '1.000'
+    version: '2.002'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersInlineText-Light.ttf
 - name: Big Shoulders Inline Text Medium
@@ -65,7 +75,7 @@ fonts:
     preferred_type: Medium
     full_name: Big Shoulders Inline Text Medium
     post_script_name: BigShouldersInlineText-Medium
-    version: '1.000'
+    version: '2.002'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersInlineText-Medium.ttf
 - name: Big Shoulders Inline Text SemiBold
@@ -76,7 +86,7 @@ fonts:
     preferred_type: SemiBold
     full_name: Big Shoulders Inline Text SemiBold
     post_script_name: BigShouldersInlineText-SemiBold
-    version: '1.000'
+    version: '2.002'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersInlineText-SemiBold.ttf
 - name: Big Shoulders Inline Text Thin
@@ -87,7 +97,16 @@ fonts:
     preferred_type: Thin
     full_name: Big Shoulders Inline Text Thin
     post_script_name: BigShouldersInlineText-Thin
-    version: '1.000'
+    version: '2.002'
+    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
+    font: BigShouldersInlineText-VariableFont_wght.ttf
+  - family_name: Big Shoulders Inline Text Thin
+    type: Regular
+    preferred_family_name: Big Shoulders Inline Text
+    preferred_type: Thin
+    full_name: Big Shoulders Inline Text Thin
+    post_script_name: BigShouldersInlineText-Thin
+    version: '2.002'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersInlineText-Thin.ttf
 extract: {}
@@ -98,7 +117,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -188,4 +207,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 6e07677eee50a70f2b975f6f8296cc595f17c052f747d7d36fb64359ba1e4039
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

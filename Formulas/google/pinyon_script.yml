@@ -1,44 +1,32 @@
 ---
 description: Pinyon Script
-homepage: sorkintype.com
+homepage: http://sorkintype.com
 resources:
   Pinyon_Script.zip:
     urls:
     - https://fonts.google.com/download?family=Pinyon%20Script
-    sha256: 3b255c750e31d0441303a87faa05f957af44850d472ea0078fdfe8a8ab6c0b56
-    file_size: 33599
+    sha256: 779393547deb257ced39e60968ed3544dc5b78004248561f04c7531b81a86fd5
+    file_size: 68267
 fonts:
 - name: Pinyon Script
   styles:
   - family_name: Pinyon Script
     type: Regular
-    full_name: Pinyon Script
-    post_script_name: PinyonScript
-    version: '1.005'
-    description: Pinyon Script is a romantic round hand script style font. It also
-      sports swashes which are confident and showy somehow giving the type a feeling
-      suggestive of the American west. Perhaps this is why, despite refinement and
-      aristocratic style; Pinyon Script manages to feel so friendly . Nicole Script
-      uses a high stroke contrast and is very slanted making it most suitable for
-      use at larger sizes.
-    copyright: |-
-      Copyright (c) 2010 by Sorkin Type Co with Reserved Font Name Pinyon Script.
-
-      This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
+    full_name: Pinyon Script Regular
+    post_script_name: PinyonScript-Regular
+    version: 1.007; ttfautohint (v1.8.4.7-5d5b)
+    description: Pinyon Script is a Engish Roundhand connected script font
+    copyright: Copyright 2022 The PinyonScript Project Authors (https://github.com/SorkinType/Pinyon)
     font: PinyonScript-Regular.ttf
 extract: {}
-copyright: |-
-  Copyright (c) 2010 by Sorkin Type Co with Reserved Font Name Pinyon Script.
-
-  This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
-license_url: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+copyright: Copyright 2022 The PinyonScript Project Authors (https://github.com/SorkinType/Pinyon)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
-  with Reserved Font Name "Pinyon Script".
+  Copyright 2022 The Pinyon Script Project Authors (https://github.com/SorkinType/Pinyon)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -128,4 +116,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 35549e160aad795c04d489ee7ba8aa6ba8dea8b3ef34a17ca7312440ef67f37d
-command: import google --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

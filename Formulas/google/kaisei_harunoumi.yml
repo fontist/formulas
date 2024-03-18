@@ -1,13 +1,12 @@
 ---
-name: Kaisei HarunoUmi
 description: Kaisei HarunoUmi
 homepage: https://font-kai.jp
 resources:
   Kaisei_HarunoUmi.zip:
     urls:
     - https://fonts.google.com/download?family=Kaisei%20HarunoUmi
-    sha256: 23204f931bb9b67b67fdb677670e9875d69eb9818b07c88ffe8ea982cd4e4eca
-    file_size: 8040437
+    sha256: 31c4f9948b093eada615daa5c019b0e2b3d1859a37da0203663350a206e2ad1a
+    file_size: 8034680
 fonts:
 - name: Kaisei HarunoUmi
   styles:
@@ -15,14 +14,14 @@ fonts:
     type: Bold
     full_name: Kaisei HarunoUmi Bold
     post_script_name: KaiseiHarunoUmi-Bold
-    version: 5.002; ttfautohint (v1.8.3)
+    version: '5.003'
     copyright: Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)
     font: KaiseiHarunoUmi-Bold.ttf
   - family_name: Kaisei HarunoUmi
     type: Regular
     full_name: Kaisei HarunoUmi Regular
     post_script_name: KaiseiHarunoUmi-Regular
-    version: 5.002; ttfautohint (v1.8.3)
+    version: '5.003'
     copyright: Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)
     font: KaiseiHarunoUmi-Regular.ttf
 - name: Kaisei HarunoUmi Medium
@@ -33,7 +32,7 @@ fonts:
     preferred_type: Medium
     full_name: Kaisei HarunoUmi Medium
     post_script_name: KaiseiHarunoUmi-Medium
-    version: 5.002; ttfautohint (v1.8.3)
+    version: '5.003'
     copyright: Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)
     font: KaiseiHarunoUmi-Medium.ttf
 extract: {}
@@ -44,7 +43,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -134,4 +133,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 7dc0f39a211083f9e3102c6e85ae77951dc4653e1bb6a88965cc28114de3a638
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

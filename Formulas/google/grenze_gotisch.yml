@@ -1,12 +1,11 @@
 ---
-name: Grenze Gotisch
 description: Grenze Gotisch
 homepage: www.omnibus-type.com
 resources:
   Grenze_Gotisch.zip:
     urls:
     - https://fonts.google.com/download?family=Grenze%20Gotisch
-    file_size: 522507
+    file_size: 525316
 fonts:
 - name: Grenze Gotisch
   styles:
@@ -14,7 +13,7 @@ fonts:
     type: Bold
     full_name: Grenze Gotisch Bold
     post_script_name: GrenzeGotisch-Bold
-    version: '1.001'
+    version: '1.002'
     description: 'Grenze Gotisch: a peculiar version of Grenze, now presenting Blackletter
       uppercase letters and little dramatic details in certain lowercase letters,
       which intensify its expressive burden.'
@@ -24,7 +23,7 @@ fonts:
     type: Regular
     full_name: Grenze Gotisch Regular
     post_script_name: GrenzeGotisch-Regular
-    version: '1.001'
+    version: '1.002'
     description: 'Grenze Gotisch: a peculiar version of Grenze, now presenting Blackletter
       uppercase letters and little dramatic details in certain lowercase letters,
       which intensify its expressive burden.'
@@ -34,7 +33,7 @@ fonts:
     type: Regular
     full_name: Grenze Gotisch Regular
     post_script_name: GrenzeGotisch-Regular
-    version: '1.001'
+    version: '1.002'
     description: 'Grenze Gotisch: a peculiar version of Grenze, now presenting Blackletter
       uppercase letters and little dramatic details in certain lowercase letters,
       which intensify its expressive burden.'
@@ -48,7 +47,7 @@ fonts:
     preferred_type: Black
     full_name: Grenze Gotisch Black
     post_script_name: GrenzeGotisch-Black
-    version: '1.001'
+    version: '1.002'
     description: 'Grenze Gotisch: a peculiar version of Grenze, now presenting Blackletter
       uppercase letters and little dramatic details in certain lowercase letters,
       which intensify its expressive burden.'
@@ -62,7 +61,7 @@ fonts:
     preferred_type: ExtraBold
     full_name: Grenze Gotisch ExtraBold
     post_script_name: GrenzeGotisch-ExtraBold
-    version: '1.001'
+    version: '1.002'
     description: 'Grenze Gotisch: a peculiar version of Grenze, now presenting Blackletter
       uppercase letters and little dramatic details in certain lowercase letters,
       which intensify its expressive burden.'
@@ -76,7 +75,7 @@ fonts:
     preferred_type: ExtraLight
     full_name: Grenze Gotisch ExtraLight
     post_script_name: GrenzeGotisch-ExtraLight
-    version: '1.001'
+    version: '1.002'
     description: 'Grenze Gotisch: a peculiar version of Grenze, now presenting Blackletter
       uppercase letters and little dramatic details in certain lowercase letters,
       which intensify its expressive burden.'
@@ -90,7 +89,7 @@ fonts:
     preferred_type: Light
     full_name: Grenze Gotisch Light
     post_script_name: GrenzeGotisch-Light
-    version: '1.001'
+    version: '1.002'
     description: 'Grenze Gotisch: a peculiar version of Grenze, now presenting Blackletter
       uppercase letters and little dramatic details in certain lowercase letters,
       which intensify its expressive burden.'
@@ -104,7 +103,7 @@ fonts:
     preferred_type: Medium
     full_name: Grenze Gotisch Medium
     post_script_name: GrenzeGotisch-Medium
-    version: '1.001'
+    version: '1.002'
     description: 'Grenze Gotisch: a peculiar version of Grenze, now presenting Blackletter
       uppercase letters and little dramatic details in certain lowercase letters,
       which intensify its expressive burden.'
@@ -118,7 +117,7 @@ fonts:
     preferred_type: SemiBold
     full_name: Grenze Gotisch SemiBold
     post_script_name: GrenzeGotisch-SemiBold
-    version: '1.001'
+    version: '1.002'
     description: 'Grenze Gotisch: a peculiar version of Grenze, now presenting Blackletter
       uppercase letters and little dramatic details in certain lowercase letters,
       which intensify its expressive burden.'
@@ -132,7 +131,7 @@ fonts:
     preferred_type: Thin
     full_name: Grenze Gotisch Thin
     post_script_name: GrenzeGotisch-Thin
-    version: '1.001'
+    version: '1.002'
     description: 'Grenze Gotisch: a peculiar version of Grenze, now presenting Blackletter
       uppercase letters and little dramatic details in certain lowercase letters,
       which intensify its expressive burden.'
@@ -146,7 +145,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -236,4 +235,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 6ea87fd7ddd6a1c940d913ccde0f25214fbe86ffd1c6ae3ab0b94c1bfa4f4413
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

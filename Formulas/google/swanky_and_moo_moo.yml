@@ -1,13 +1,11 @@
 ---
-name: Swanky and Moo Moo
 description: Swanky and Moo Moo
-homepage:
 resources:
-  SwankyandMooMoo.zip:
+  Swanky_and_Moo_Moo.zip:
     urls:
     - https://fonts.google.com/download?family=Swanky%20and%20Moo%20Moo
-    sha256: ab7529dcce5eade084e18742cb1dfb3ee5776d3c81ebb798640a9dae041947c3
-    file_size: 30651
+    sha256: 0e8a8cb1e2f1a57747594ad18d237b18d81eb22fd2ad650b4dab86b30e0266b8
+    file_size: 30917
 fonts:
 - name: Swanky and Moo Moo
   styles:
@@ -17,17 +15,16 @@ fonts:
     post_script_name: SwankyandMooMoo
     version: 1.002 2001
     copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
-    font: SwankyandMooMoo.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)
+    font: SwankyandMooMoo-Regular.ttf
+extract: {}
+copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -116,3 +113,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: c8653d21a2ba914f1889d7194e7ff18de7c22cde569fd84e9761950a14688aec
+command: import google --formulas_path Formulas -n 5000 --no-cache

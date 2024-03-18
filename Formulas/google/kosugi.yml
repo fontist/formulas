@@ -1,25 +1,24 @@
 ---
-name: Kosugi
 description: Kosugi
 resources:
   Kosugi.zip:
     urls:
     - https://fonts.google.com/download?family=Kosugi
-    sha256: eb4d9eff24ee6f64700f08332bb7f6eefcc26046a7a1d5acfb4a0982f7212558
-    file_size: 1468532
+    sha256: 7fbf113ac03ae9802bae28eb4405d110448198b25008245c5c6b6519b2b42171
+    file_size: 1467853
 fonts:
-- name: MotoyaLCedar
+- name: Kosugi
   styles:
-  - family_name: MotoyaLCedar
-    type: W3 mono
-    full_name: MotoyaLCedar W3 mono
-    post_script_name: MotoyaLCedar-W3-90ms-RKSJ-H
-    version: '1.01'
-    copyright: Copyright(C)2010 MOTOYA CO.,LTD.
+  - family_name: Kosugi
+    type: Regular
+    full_name: Kosugi Regular
+    post_script_name: Kosugi-Regular
+    version: '4.002'
+    copyright: Copyright 2010 The Kosugi Project Authors (https://github.com/googlefonts/kosugi)
     font: Kosugi-Regular.ttf
 extract: {}
-copyright: Copyright(C)2010 MOTOYA CO.,LTD.
-license_url: http://www.apache.org/licenses/LICENSE-2.0
+copyright: Copyright 2010 The Kosugi Project Authors (https://github.com/googlefonts/kosugi)
+license_url: https://www.apache.org/licenses/LICENSE-2.0
 open_license: |-
   Apache License
                              Version 2.0, January 2004
@@ -223,4 +222,4 @@ open_license: |-
      See the License for the specific language governing permissions and
      limitations under the License.
 digest: 599e774ccec06b58a47a57775a8ea98d1eb3f17dea84103fbcdac526fe23b12a
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

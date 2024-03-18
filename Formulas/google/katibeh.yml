@@ -1,27 +1,25 @@
 ---
-name: Katibeh
 description: Katibeh
 homepage: https://github.com/Tarobish/Mirza
 resources:
   Katibeh.zip:
     urls:
     - https://fonts.google.com/download?family=Katibeh
-    sha256: fe3bc41ebb03754968f2a88c5126a9b7504e6c78db9bb2a2a424e2067203ddf6
-    file_size: 83861
+    sha256: 041c08e362beea3ca3b5bfc289ff452f4c7206047b0d3fdc93ac2239f6848ee4
+    file_size: 83730
 fonts:
 - name: Katibeh
   styles:
   - family_name: Katibeh
     type: Regular
-    full_name: Katibeh Regular
+    full_name: Katibeh
     post_script_name: Katibeh-Regular
-    version: 1.0010g
+    version: 1.0000g
     copyright: Copyright 2015, 2016 KB-Studio (www.k-b-studio.com|tarobish@gmail.com).
       Copyright 2015, 2016 Lasse Fister (lasse@graphicore.de). Copyright 2015, 2016
       Eduardo Tunni(edu@tipo.net.ar).
     font: Katibeh-Regular.ttf
-extract:
-  format: zip
+extract: {}
 copyright: Copyright 2015, 2016 KB-Studio (www.k-b-studio.com|tarobish@gmail.com).
   Copyright 2015, 2016 Lasse Fister (lasse@graphicore.de). Copyright 2015, 2016 Eduardo
   Tunni(edu@tipo.net.ar).
@@ -31,7 +29,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -120,3 +118,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 8886dedaf3cdc814796195a0250a28387761aaf7f616bd1e390dd7e868987a11
+command: import google --formulas_path Formulas -n 5000 --no-cache

@@ -1,13 +1,12 @@
 ---
-name: Zen Antique Soft
 description: Zen Antique Soft
 homepage: https://positype.com
 resources:
   Zen_Antique_Soft.zip:
     urls:
     - https://fonts.google.com/download?family=Zen%20Antique%20Soft
-    sha256: 27dc1f31df8d0bf5f4198f5968e5d66da4d9a1068c2f660cd735981e9d4389b7
-    file_size: 3562166
+    sha256: dd08a64fdccc1151b8e0963403f40322545d7b797e79e6167d1ff3ae3549e341
+    file_size: 3560073
 fonts:
 - name: Zen Antique Soft
   styles:
@@ -15,16 +14,18 @@ fonts:
     type: Regular
     full_name: Zen Antique Soft Regular
     post_script_name: ZenAntiqueSoft-Regular
-    version: '1.000'
+    version: '1.001'
     copyright: Copyright 2021 The Zen Antique Project Authors (https://github.com/googlefonts/zen-antique)
     font: ZenAntiqueSoft-Regular.ttf
 extract: {}
 copyright: Copyright 2021 The Zen Antique Project Authors (https://github.com/googlefonts/zen-antique)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
+  Copyright 2021 The Zen Antique Project Authors (https://github.com/googlefonts/zen-antique)
+
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -114,4 +115,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: cca1ce327c0a52454a908e3499eb5a7daf6362af040e5ad35ba603ca631627b7
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

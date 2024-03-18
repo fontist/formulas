@@ -4,8 +4,8 @@ resources:
   Dangrek.zip:
     urls:
     - https://fonts.google.com/download?family=Dangrek
-    sha256: 2a712d0c99840c17e4a99628568e80251b3c31cb82718436b114ab9bef23865e
-    file_size: 34369
+    sha256: 1571613a0ba8862ddd1b44c070f62308ec3a7f750a2f2b64da24140ed49eed66
+    file_size: 34417
 fonts:
 - name: Dangrek
   styles:
@@ -13,7 +13,7 @@ fonts:
     type: Regular
     full_name: Dangrek Regular
     post_script_name: Dangrek-Regular
-    version: 8.000; ttfautohint (v1.8.3)
+    version: 8.001; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Dangrek Project Authors (https://github.com/danhhong/Dangrek)
     font: Dangrek-Regular.ttf
 extract: {}
@@ -24,7 +24,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -114,4 +114,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 8ee91de04d3a4bf6325657eaf646c4db6a29704937e131294a2b2c5507ebad36
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

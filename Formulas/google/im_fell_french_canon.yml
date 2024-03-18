@@ -1,29 +1,15 @@
 ---
-name: IM Fell French Canon
 description: IM Fell French Canon
 homepage: www.iginomarini.com
 resources:
-  IMFellFrenchCanon.zip:
+  IM_Fell_French_Canon.zip:
     urls:
     - https://fonts.google.com/download?family=IM%20Fell%20French%20Canon
-    sha256: ae609a50b638b27c62fff1d32ad648cb75194c254a07bbc378f262fd4e319508
-    file_size: 179262
+    sha256: '08a7eb314a4627c4b812cf0b31cc5b32ef382bf2fd946078f8f96d0deea7262d'
+    file_size: 179261
 fonts:
-- name: IM Fell French Canon
+- name: IM FELL French Canon
   styles:
-  - family_name: IM FELL French Canon
-    type: Regular
-    full_name: IM FELL French Canon Roman
-    post_script_name: IM_FELL_French_Canon_Roman
-    version: '3.00'
-    description: Fell Types - French Canon size - Roman. Typeface from the  types
-      bequeathed in 1686 to the University of Oxford by John Fell. Originally cut
-      by Peter De Walpergen. Acquisition in 1686. To be printed at 39 points to match
-      the original size. Autospaced and autokerned using iKern© developed by Igino
-      Marini.
-    copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name
-      IM FELL French Canon Roman"
-    font: IMFeFCrm28P.ttf
   - family_name: IM FELL French Canon
     type: Italic
     full_name: IM FELL French Canon Italic
@@ -36,18 +22,31 @@ fonts:
       Marini.
     copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name
       IM FELL French Canon Italic"
-    font: IMFeFCit28P.ttf
-extract:
-  format: zip
-copyright: "© 2007 Igino Marini (www.iginomarini.com mail@iginomarini.com) With Reserved
-  Font Name IM FELL French Canon Roman"
+    font: IMFellFrenchCanon-Italic.ttf
+  - family_name: IM FELL French Canon
+    type: Regular
+    preferred_family_name: IM FELL French Canon
+    full_name: IM FELL French Canon Roman
+    post_script_name: IM_FELL_French_Canon_Roman
+    version: '3.00'
+    description: Fell Types - French Canon size - Roman. Typeface from the  types
+      bequeathed in 1686 to the University of Oxford by John Fell. Originally cut
+      by Peter De Walpergen. Acquisition in 1686. To be printed at 39 points to match
+      the original size. Autospaced and autokerned using iKern© developed by Igino
+      Marini.
+    copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name
+      IM FELL French Canon Roman"
+    font: IMFellFrenchCanon-Regular.ttf
+extract: {}
+copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name IM FELL
+  French Canon Italic"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Igino Marini (mail@iginomarini.com)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -136,3 +135,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: af34acfb3e2627d7716c650fcbe579181b7b8a698e2e3e6c1c2695c33b33c406
+command: import google --formulas_path Formulas -n 5000 --no-cache

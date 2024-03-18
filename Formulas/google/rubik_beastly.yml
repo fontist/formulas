@@ -5,8 +5,8 @@ resources:
   Rubik_Beastly.zip:
     urls:
     - https://fonts.google.com/download?family=Rubik%20Beastly
-    sha256: ba45cb21d160bce112ad719a38152517cc901dd6156b5aeb4d9e8789146b54c9
-    file_size: 463769
+    sha256: c9d1d0c34bfb0b2186f0da7adc5a80d3bc101520909e10b4875a8699c6bfa98b
+    file_size: 294925
 fonts:
 - name: Rubik Beastly
   styles:
@@ -14,18 +14,18 @@ fonts:
     type: Regular
     full_name: Rubik Beastly Regular
     post_script_name: RubikBeastly-Regular
-    version: 2.103; ttfautohint (v1.8.3)
-    copyright: Copyright 2015 The Rubik Filtered Project Authors (https://github.com/googlefonts/rubik)
+    version: '2.200'
+    copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
     font: RubikBeastly-Regular.ttf
 extract: {}
-copyright: Copyright 2015 The Rubik Filtered Project Authors (https://github.com/googlefonts/rubik)
+copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
   Copyright 2020 The Rubik Filtered Project Authors (https://https://github.com/NaN-xyz/Rubik-Filtered)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -115,4 +115,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: b46d1abca9200328b2b79866085c4a8f58781afb6d606c3c183c33079f682894
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

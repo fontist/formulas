@@ -1,13 +1,12 @@
 ---
-name: Reggae One
 description: Reggae One
 homepage: http://fontworks.co.jp/
 resources:
   Reggae_One.zip:
     urls:
     - https://fonts.google.com/download?family=Reggae%20One
-    sha256: d80bf7555aa01d0eb1acf9ec357a67d383ca538a40ee78b8c481eeb0a9de044b
-    file_size: 1422901
+    sha256: 6b4bfe6483152cb55504e7ff99fc63b5ec7af88af26704000e200cc44f181f56
+    file_size: 1421241
 fonts:
 - name: Reggae One
   styles:
@@ -15,7 +14,7 @@ fonts:
     type: Regular
     full_name: Reggae One Regular
     post_script_name: ReggaeOne-Regular
-    version: 1.000; ttfautohint (v1.8.3)
+    version: '1.100'
     copyright: Copyright 2020 The Reggae Project Authors (https://github.com/fontworks-fonts/Reggae/),
       all rights reserved.
     font: ReggaeOne-Regular.ttf
@@ -28,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -118,4 +117,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 89f33b4d0a86cf1e1afad652fdb25456a5f501f01bcd3e147ea4a75c3b2d2380
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

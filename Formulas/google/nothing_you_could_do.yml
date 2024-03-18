@@ -2,11 +2,11 @@
 description: Nothing You Could Do
 homepage: http://kimberlygeswein.com
 resources:
-  NothingYouCouldDo.zip:
+  Nothing_You_Could_Do.zip:
     urls:
     - https://fonts.google.com/download?family=Nothing%20You%20Could%20Do
-    sha256: edc392e651bf112a9e4f11a93602d2a71e204bf585e5ff998b037e1c2a081457
-    file_size: 23458
+    sha256: c7bfd93e78c92bfc8f868eccf199ce659223125184c61ca18e6005e093d15116
+    file_size: 23521
 fonts:
 - name: Nothing You Could Do
   styles:
@@ -21,19 +21,18 @@ fonts:
     copyright: 'Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com). This Font
       Software is licensed under the SIL Open Font License, Version 1.1.  This license
       available with a FAQ at:  http://scripts.sil.org/OFL'
-    font: NothingYouCouldDo.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com).
-  This Font Software is licensed under the SIL Open Font License, Version 1.1. This
-  license available with a FAQ at: http://scripts.sil.org/OFL'
+    font: NothingYouCouldDo-Regular.ttf
+extract: {}
+copyright: 'Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com). This Font
+  Software is licensed under the SIL Open Font License, Version 1.1.  This license
+  available with a FAQ at:  http://scripts.sil.org/OFL'
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -122,3 +121,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 8739d823162ae9a050fc54893e870ce71f7edbcc89bf012793a4505453160bde
+command: import google --formulas_path Formulas -n 5000 --no-cache

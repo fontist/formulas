@@ -1,12 +1,11 @@
 ---
 description: Gloria Hallelujah
-homepage:
 resources:
-  GloriaHallelujah.zip:
+  Gloria_Hallelujah.zip:
     urls:
     - https://fonts.google.com/download?family=Gloria%20Hallelujah
-    sha256: 984cf6c876759996e1e049bc8ff5ad01ee82e9948e33982f5108b63523f2c9ae
-    file_size: 32604
+    sha256: 4d756e1e1227c3abeb21fc10bef8acf2ab6d88d659f36ed01101fc0ae129b2c5
+    file_size: 32758
 fonts:
 - name: Gloria Hallelujah
   styles:
@@ -16,17 +15,16 @@ fonts:
     post_script_name: GloriaHallelujah
     version: 1.004 2010
     copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
-    font: GloriaHallelujah.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)
+    font: GloriaHallelujah-Regular.ttf
+extract: {}
+copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -115,3 +113,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 6b9a85213f521d5495239bb840bdd85dbf36a58ef8a506f9396bb0fb1d78e455
+command: import google --formulas_path Formulas -n 5000 --no-cache

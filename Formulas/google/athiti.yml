@@ -1,60 +1,80 @@
 ---
-name: Athiti
 description: Athiti
 homepage: www.cadsondemak.com
 resources:
   Athiti.zip:
     urls:
     - https://fonts.google.com/download?family=Athiti
-    sha256: c205ec944b24727da5dd1e7ea0ed23f4c7737efa018b01083147d73ee1cddcbc
-    file_size: 435863
+    sha256: b9e7c30283959520ab97c16f2ce35a74370826d1512c1bc1265a5c479f3bd6ec
+    file_size: 435422
 fonts:
 - name: Athiti
   styles:
   - family_name: Athiti
-    type: ExtraLight
-    full_name: Athiti ExtraLight
-    post_script_name: Athiti-ExtraLight
-    version: '1.033'
-    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: Athiti-ExtraLight.ttf
-  - family_name: Athiti
-    type: Light
-    full_name: Athiti Light
-    post_script_name: Athiti-Light
-    version: '1.033'
-    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: Athiti-Light.ttf
-  - family_name: Athiti
-    type: Regular
-    full_name: Athiti Regular
-    post_script_name: Athiti-Regular
-    version: '1.033'
-    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: Athiti-Regular.ttf
-  - family_name: Athiti
-    type: Medium
-    full_name: Athiti Medium
-    post_script_name: Athiti-Medium
-    version: '1.033'
-    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: Athiti-Medium.ttf
-  - family_name: Athiti
-    type: SemiBold
-    full_name: Athiti SemiBold
-    post_script_name: Athiti-SemiBold
-    version: '1.033'
-    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: Athiti-SemiBold.ttf
-  - family_name: Athiti
     type: Bold
     full_name: Athiti Bold
     post_script_name: Athiti-Bold
-    version: '1.033'
+    version: '1.032'
+    description: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
     copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
     font: Athiti-Bold.ttf
-extract:
-  format: zip
+  - family_name: Athiti
+    type: Regular
+    full_name: Athiti-Regular
+    post_script_name: Athiti-Regular
+    version: '1.032'
+    description: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    font: Athiti-Regular.ttf
+- name: Athiti ExtraLight
+  styles:
+  - family_name: Athiti ExtraLight
+    type: Regular
+    preferred_family_name: Athiti
+    preferred_type: ExtraLight
+    full_name: Athiti-ExtraLight
+    post_script_name: Athiti-ExtraLight
+    version: '1.032'
+    description: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    font: Athiti-ExtraLight.ttf
+- name: Athiti Light
+  styles:
+  - family_name: Athiti Light
+    type: Regular
+    preferred_family_name: Athiti
+    preferred_type: Light
+    full_name: Athiti-Light
+    post_script_name: Athiti-Light
+    version: '1.032'
+    description: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    font: Athiti-Light.ttf
+- name: Athiti Medium
+  styles:
+  - family_name: Athiti Medium
+    type: Regular
+    preferred_family_name: Athiti
+    preferred_type: Medium
+    full_name: Athiti-Medium
+    post_script_name: Athiti-Medium
+    version: '1.032'
+    description: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    font: Athiti-Medium.ttf
+- name: Athiti SemiBold
+  styles:
+  - family_name: Athiti SemiBold
+    type: Regular
+    preferred_family_name: Athiti
+    preferred_type: SemiBold
+    full_name: Athiti-SemiBold
+    post_script_name: Athiti-SemiBold
+    version: '1.032'
+    description: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    font: Athiti-SemiBold.ttf
+extract: {}
 copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -62,7 +82,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -151,3 +171,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: b228c973746dcd43d10c2c830266b20602b1ad8c0267ed6cb43e6444748ff001
+command: import google --formulas_path Formulas -n 5000 --no-cache

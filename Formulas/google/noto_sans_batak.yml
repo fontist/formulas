@@ -5,8 +5,8 @@ resources:
   Noto_Sans_Batak.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Batak
-    sha256: d44812525f9e09b9288194dd991126799726457b4ba2a58d2dd2814aff7bd4bf
-    file_size: 40158
+    sha256: b017a49c59a6f10ae8e7507cdbd72cd996cd89270f0a447d5bf2c0c7fa8c82b2
+    file_size: 41003
 fonts:
 - name: Noto Sans Batak
   styles:
@@ -14,7 +14,7 @@ fonts:
     type: Regular
     full_name: Noto Sans Batak Regular
     post_script_name: NotoSansBatak-Regular
-    version: 2.002; ttfautohint (v1.8.4.7-5d5b)
+    version: 2.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/batak)
     font: NotoSansBatak-Regular.ttf
@@ -116,4 +116,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: bca17c7c44916d3442f1da10e4d033262562df7865e3d2a1359f65c3f10ab841
-command: import google --formulas_path Formulas -n 50
+command: import google --formulas_path Formulas -n 5000 --no-cache

@@ -1,12 +1,11 @@
 ---
-name: Yrsa
 description: Yrsa
 homepage: https://rosettatype.com
 resources:
   Yrsa.zip:
     urls:
     - https://fonts.google.com/download?family=Yrsa
-    file_size: 947064
+    file_size: 949167
 fonts:
 - name: Yrsa
   styles:
@@ -14,42 +13,42 @@ fonts:
     type: Bold
     full_name: Yrsa Bold
     post_script_name: Yrsa-Bold
-    version: '2.001'
+    version: '2.004'
     copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
     font: Yrsa-Bold.ttf
   - family_name: Yrsa
     type: Bold Italic
     full_name: Yrsa Bold Italic
     post_script_name: Yrsa-BoldItalic
-    version: '2.001'
+    version: '2.004'
     copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
     font: Yrsa-BoldItalic.ttf
   - family_name: Yrsa
     type: Italic
     full_name: Yrsa Italic
     post_script_name: Yrsa-Italic
-    version: '2.001'
+    version: '2.004'
     copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
-    font: Yrsa-Italic.ttf
+    font: Yrsa-Italic-VariableFont_wght.ttf
   - family_name: Yrsa
     type: Italic
     full_name: Yrsa Italic
     post_script_name: Yrsa-Italic
-    version: '2.001'
+    version: '2.004'
     copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
-    font: Yrsa-Italic-VariableFont_wght.ttf
+    font: Yrsa-Italic.ttf
   - family_name: Yrsa
     type: Regular
     full_name: Yrsa Regular
     post_script_name: Yrsa-Regular
-    version: '2.001'
+    version: '2.004'
     copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
     font: Yrsa-VariableFont_wght.ttf
   - family_name: Yrsa
     type: Regular
     full_name: Yrsa Regular
     post_script_name: Yrsa-Regular
-    version: '2.001'
+    version: '2.004'
     copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
     font: Yrsa-Regular.ttf
 - name: Yrsa Light
@@ -60,7 +59,7 @@ fonts:
     preferred_type: Light Italic
     full_name: Yrsa Light Italic
     post_script_name: Yrsa-LightItalic
-    version: '2.001'
+    version: '2.004'
     copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
     font: Yrsa-LightItalic.ttf
   - family_name: Yrsa Light
@@ -69,7 +68,7 @@ fonts:
     preferred_type: Light
     full_name: Yrsa Light
     post_script_name: Yrsa-Light
-    version: '2.001'
+    version: '2.004'
     copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
     font: Yrsa-Light.ttf
 - name: Yrsa Medium
@@ -80,7 +79,7 @@ fonts:
     preferred_type: Medium Italic
     full_name: Yrsa Medium Italic
     post_script_name: Yrsa-MediumItalic
-    version: '2.001'
+    version: '2.004'
     copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
     font: Yrsa-MediumItalic.ttf
   - family_name: Yrsa Medium
@@ -89,7 +88,7 @@ fonts:
     preferred_type: Medium
     full_name: Yrsa Medium
     post_script_name: Yrsa-Medium
-    version: '2.001'
+    version: '2.004'
     copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
     font: Yrsa-Medium.ttf
 - name: Yrsa SemiBold
@@ -100,7 +99,7 @@ fonts:
     preferred_type: SemiBold Italic
     full_name: Yrsa SemiBold Italic
     post_script_name: Yrsa-SemiBoldItalic
-    version: '2.001'
+    version: '2.004'
     copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
     font: Yrsa-SemiBoldItalic.ttf
   - family_name: Yrsa SemiBold
@@ -109,7 +108,7 @@ fonts:
     preferred_type: SemiBold
     full_name: Yrsa SemiBold
     post_script_name: Yrsa-SemiBold
-    version: '2.001'
+    version: '2.004'
     copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
     font: Yrsa-SemiBold.ttf
 extract: {}
@@ -120,7 +119,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -210,4 +209,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 5dab60b985f68532c1021944b22d786bd69b14a9952a79317d76d0db2c08ef87
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

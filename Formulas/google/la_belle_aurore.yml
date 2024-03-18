@@ -1,12 +1,11 @@
 ---
 description: La Belle Aurore
-homepage:
 resources:
-  LaBelleAurore.zip:
+  La_Belle_Aurore.zip:
     urls:
     - https://fonts.google.com/download?family=La%20Belle%20Aurore
-    sha256: 9257e05aca236df5f58cca39ea2f838a397de2d6f0d9ecdeb0fa54c5f0e4af18
-    file_size: 30807
+    sha256: ca7958c790cabcb52e7365ceb39bf5ce6dbdecc023b645a1ecc8ccc1a30993c1
+    file_size: 31010
 fonts:
 - name: La Belle Aurore
   styles:
@@ -17,17 +16,16 @@ fonts:
     version: 1.001 2001
     description: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
     copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
-    font: LaBelleAurore.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)
+    font: LaBelleAurore-Regular.ttf
+extract: {}
+copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -116,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: a1e84ff991dd5c22ebf5604cb62319150c558dfe477a36f9e0ef9f41c9996bc4
+command: import google --formulas_path Formulas -n 5000 --no-cache

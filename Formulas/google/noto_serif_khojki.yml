@@ -5,7 +5,7 @@ resources:
   Noto_Serif_Khojki.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Serif%20Khojki
-    file_size: 347022
+    file_size: 355698
 fonts:
 - name: Noto Serif Khojki
   styles:
@@ -13,7 +13,7 @@ fonts:
     type: Bold
     full_name: Noto Serif Khojki Bold
     post_script_name: NotoSerifKhojki-Bold
-    version: '2.004'
+    version: '2.005'
     description: Designed by Juan Bruce
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/khojki)
     font: NotoSerifKhojki-Bold.ttf
@@ -21,7 +21,7 @@ fonts:
     type: Regular
     full_name: Noto Serif Khojki Regular
     post_script_name: NotoSerifKhojki-Regular
-    version: '2.004'
+    version: '2.005'
     description: Designed by Juan Bruce
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/khojki)
     font: NotoSerifKhojki-VariableFont_wght.ttf
@@ -29,7 +29,7 @@ fonts:
     type: Regular
     full_name: Noto Serif Khojki Regular
     post_script_name: NotoSerifKhojki-Regular
-    version: '2.004'
+    version: '2.005'
     description: Designed by Juan Bruce
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/khojki)
     font: NotoSerifKhojki-Regular.ttf
@@ -41,7 +41,7 @@ fonts:
     preferred_type: Medium
     full_name: Noto Serif Khojki Medium
     post_script_name: NotoSerifKhojki-Medium
-    version: '2.004'
+    version: '2.005'
     description: Designed by Juan Bruce
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/khojki)
     font: NotoSerifKhojki-Medium.ttf
@@ -53,7 +53,7 @@ fonts:
     preferred_type: SemiBold
     full_name: Noto Serif Khojki SemiBold
     post_script_name: NotoSerifKhojki-SemiBold
-    version: '2.004'
+    version: '2.005'
     description: Designed by Juan Bruce
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/khojki)
     font: NotoSerifKhojki-SemiBold.ttf
@@ -65,7 +65,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -155,4 +155,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 6c342db23866b752d942f255b04ec03520224f6eb1a7db7f744c359195e840f5
-command: import google --formulas_path Formulas -n 50
+command: import google --formulas_path Formulas -n 5000 --no-cache

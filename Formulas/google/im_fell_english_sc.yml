@@ -1,18 +1,18 @@
 ---
-name: IM Fell English SC
 description: IM Fell English SC
 homepage: www.iginomarini.com
 resources:
-  IMFellEnglishSC.zip:
+  IM_Fell_English_SC.zip:
     urls:
     - https://fonts.google.com/download?family=IM%20Fell%20English%20SC
-    sha256: c508f59a1a2ff0353f45096d42d911d78f11bd19acc73b0712eb9fe1d29fc7e2
-    file_size: 110592
+    sha256: a54870900895d24fe09ae29875ca8e587520a0a2e0161f104c5f2ef6f640746a
+    file_size: 110591
 fonts:
-- name: IM Fell English SC
+- name: IM FELL English SC
   styles:
   - family_name: IM FELL English SC
     type: Regular
+    preferred_family_name: IM FELL English SC
     full_name: IM FELL English SC
     post_script_name: IM_FELL_English_SC
     version: '3.00'
@@ -22,18 +22,17 @@ fonts:
       size. Autospaced and autokerned using iKern© developed by Igino Marini.
     copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name
       IM FELL English SC"
-    font: IMFeENsc28P.ttf
-extract:
-  format: zip
-copyright: "© 2007 Igino Marini (www.iginomarini.com mail@iginomarini.com) With Reserved
-  Font Name IM FELL English SC"
+    font: IMFellEnglishSC-Regular.ttf
+extract: {}
+copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name IM FELL
+  English SC"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Igino Marini (mail@iginomarini.com)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -122,3 +121,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: e24f0604302f9216f68e673bbd06308c31283a8b8124cd0153fc6d5de7dda4bb
+command: import google --formulas_path Formulas -n 5000 --no-cache

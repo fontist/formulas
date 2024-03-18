@@ -4,8 +4,8 @@ resources:
   Metal.zip:
     urls:
     - https://fonts.google.com/download?family=Metal
-    sha256: e5034d2d0bbef63bd03358f6d610cc448ee2d88e140e751ffa0b1a3e42203a73
-    file_size: 64086
+    sha256: 34834862237d1833922eae078fc92ecedbc864127b54e6413c4224125c2b0c66
+    file_size: 63874
 fonts:
 - name: Metal
   styles:
@@ -13,7 +13,7 @@ fonts:
     type: Regular
     full_name: Metal Regular
     post_script_name: Metal-Regular
-    version: 8.001; ttfautohint (v1.8.3)
+    version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Metal Project Authors (https://github.com/danhhong/Metal)
     font: Metal-Regular.ttf
 extract: {}
@@ -24,7 +24,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -114,4 +114,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 5b9a2a95579c0e94bfefbaf1af35d2279cb5fdcb78e45422a296315d96960426
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

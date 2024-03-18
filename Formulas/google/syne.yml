@@ -5,7 +5,7 @@ resources:
   Syne.zip:
     urls:
     - https://fonts.google.com/download?family=Syne
-    file_size: 218919
+    file_size: 258202
 fonts:
 - name: Syne
   styles:
@@ -13,21 +13,21 @@ fonts:
     type: Bold
     full_name: Syne Bold
     post_script_name: Syne-Bold
-    version: '2.000'
+    version: '2.200'
     copyright: Copyright 2019 The Syne Project Authors (https://gitlab.com/bonjour-monde/fonderie/syne-typeface)
     font: Syne-Bold.ttf
   - family_name: Syne
     type: Regular
     full_name: Syne Regular
     post_script_name: Syne-Regular
-    version: '2.000'
+    version: '2.200'
     copyright: Copyright 2019 The Syne Project Authors (https://gitlab.com/bonjour-monde/fonderie/syne-typeface)
     font: Syne-VariableFont_wght.ttf
   - family_name: Syne
     type: Regular
     full_name: Syne Regular
     post_script_name: Syne-Regular
-    version: '2.000'
+    version: '2.200'
     copyright: Copyright 2019 The Syne Project Authors (https://gitlab.com/bonjour-monde/fonderie/syne-typeface)
     font: Syne-Regular.ttf
 - name: Syne ExtraBold
@@ -38,7 +38,7 @@ fonts:
     preferred_type: ExtraBold
     full_name: Syne ExtraBold
     post_script_name: Syne-ExtraBold
-    version: '2.000'
+    version: '2.200'
     copyright: Copyright 2019 The Syne Project Authors (https://gitlab.com/bonjour-monde/fonderie/syne-typeface)
     font: Syne-ExtraBold.ttf
 - name: Syne Medium
@@ -49,7 +49,7 @@ fonts:
     preferred_type: Medium
     full_name: Syne Medium
     post_script_name: Syne-Medium
-    version: '2.000'
+    version: '2.200'
     copyright: Copyright 2019 The Syne Project Authors (https://gitlab.com/bonjour-monde/fonderie/syne-typeface)
     font: Syne-Medium.ttf
 - name: Syne SemiBold
@@ -60,7 +60,7 @@ fonts:
     preferred_type: SemiBold
     full_name: Syne SemiBold
     post_script_name: Syne-SemiBold
-    version: '2.000'
+    version: '2.200'
     copyright: Copyright 2019 The Syne Project Authors (https://gitlab.com/bonjour-monde/fonderie/syne-typeface)
     font: Syne-SemiBold.ttf
 extract: {}
@@ -71,7 +71,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -161,4 +161,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: f4d465fae7be6c53ea9027145a96ee37f6ea7a4e5371024f768155006b189bce
-command: import google --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

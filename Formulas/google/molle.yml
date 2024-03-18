@@ -1,13 +1,12 @@
 ---
-name: Molle
 description: Molle
 homepage: www.sorkintype.com
 resources:
   Molle.zip:
     urls:
     - https://fonts.google.com/download?family=Molle
-    sha256: '08d927b57176d28827261dc7d8a364cfe8719cb25a3230f3dc3ca96fb3bc309e'
-    file_size: 35175
+    sha256: e890f4443097dd8977d5fac1ea8c396c22e1f15d20caf42fbaf754d80c161971
+    file_size: 35208
 fonts:
 - name: Molle
   styles:
@@ -15,24 +14,26 @@ fonts:
     type: Regular
     full_name: Molle
     post_script_name: Molle-Regular
-    version: '1.002'
+    version: 1.001; ttfautohint (v0.92) -l 12 -r 12 -G 200 -x 10 -w "g"
     description: Molle is a distinctive looking bottom heavy display script inspired
       by lettering seen on an Italian poster. Molle is best used from medium to large
       sizes.
-    copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved
-      Font Name "Molle"
-    font: Molle-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)
+    copyright: |-
+      Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
+      with Reserved Font Name "Spinnaker".
+    font: Molle-Italic.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
   with Reserved Font Name "Spinnaker".
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2012 by Sorkin Type Co (www.sorkintype.com), with Reserved Font Name "Molle"
+  Copyright (c) 2012 by Sorkin Type Co (www.sorkintype.com),
+  with Reserved Font Name "Molle".
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -121,3 +122,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: aaac4b182048d8e7c4881d5458e7e4a5c63196527d5e891718ae9187e6a488ba
+command: import google --formulas_path Formulas -n 5000 --no-cache

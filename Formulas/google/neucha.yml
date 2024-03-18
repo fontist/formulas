@@ -1,13 +1,12 @@
 ---
-name: Neucha
 description: Neucha
 homepage: http://www.jovanny.ru/
 resources:
   Neucha.zip:
     urls:
     - https://fonts.google.com/download?family=Neucha
-    sha256: 8238077bde39a03377d34d45f8d1335f6d0d59bdc6c0bee73d2afb54ca0570f8
-    file_size: 57910
+    sha256: eb707bcfa822a2f2ee5bfadf92ce5f104759444e4df8229ecb7674bfd32e17bc
+    file_size: 57631
 fonts:
 - name: Neucha
   styles:
@@ -18,18 +17,16 @@ fonts:
     version: '001.001'
     description: Copyright (c) 2005-2010 by Jovanny Lemonad. All rights reserved.
     copyright: Copyright (c) 2005-2010 by Jovanny Lemonad. All rights reserved.
-    font: Neucha.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2005-2010 by Jovanny Lemonad (lemonad@jovanny.ru). All rights
-  reserved.
+    font: Neucha-Regular.ttf
+extract: {}
+copyright: Copyright (c) 2005-2010 by Jovanny Lemonad. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2008-2010 by Jovanny Lemonad (http://www.jovanny.ru)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -118,3 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 43bc2c138401e69400e92e2438ee18dc0bfc725bc8fe960b0f33357815a40f6a
+command: import google --formulas_path Formulas -n 5000 --no-cache

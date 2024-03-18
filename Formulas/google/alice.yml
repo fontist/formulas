@@ -1,12 +1,12 @@
 ---
 description: Alice
-homepage: http://cyreal.org
+homepage: https://cyreal.org
 resources:
   Alice.zip:
     urls:
     - https://fonts.google.com/download?family=Alice
-    sha256: 74fe7e46c8dcdac3762625b89c5eb1bae66d64bee24e6ed51a83180d3308a0ea
-    file_size: 61454
+    sha256: cd66312da175150aa2ea540ed6765364b12750d359a560bf5145b4f847cd6180
+    file_size: 60622
 fonts:
 - name: Alice
   styles:
@@ -14,20 +14,18 @@ fonts:
     type: Regular
     full_name: Alice Regular
     post_script_name: Alice-Regular
-    version: '2.000'
-    copyright: Copyright 2011 The Alice Project Authors (contact@cyreal.org) with
-      Reserved Font Name "Alice"
+    version: 2.003; ttfautohint (v1.8.3)
+    copyright: Copyright 2011 The Alice Project Authors (https://github.com/cyrealtype/Alice)
     font: Alice-Regular.ttf
 extract: {}
-copyright: Copyright 2011 The Alice Project Authors (contact@cyreal.org) with Reserved
-  Font Name "Alice"
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2011 The Alice Project Authors (https://github.com/cyrealtype/Alice)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2011 The Alice Project Authors (contact@cyreal.org) with Reserved Font Name "Alice"
+  Copyright 2011 The Alice Project Authors (https://github.com/cyrealtype/Alice)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -117,4 +115,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 1101bb0535af16cd9d15730575828d128fe8b3b1ea4c1c7af764fd4d372764b5
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

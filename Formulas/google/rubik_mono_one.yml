@@ -1,12 +1,11 @@
 ---
 description: Rubik Mono One
-homepage: http://www.google.com/fonts
 resources:
-  RubikMonoOne.zip:
+  Rubik_Mono_One.zip:
     urls:
     - https://fonts.google.com/download?family=Rubik%20Mono%20One
-    sha256: ea2a3d039652f4a576c3568d1399a0557467ea09fb501533ef233a91ec19c906
-    file_size: 38687
+    sha256: 90ce48b110bdd97cd6761fbc975f5b926389520008dc80f74f75c321a2fda960
+    file_size: 38731
 fonts:
 - name: Rubik Mono One
   styles:
@@ -14,19 +13,20 @@ fonts:
     type: Regular
     full_name: Rubik Mono One Regular
     post_script_name: RubikMonoOne-Regular
-    version: '2.000'
-    copyright: Copyright 2015 The Rubik Project Authors (mail@hubertfischer.com)
+    version: '1.001'
+    copyright: Copyright (c) 2013, 2014, Hubert and Fischer, Philipp Hubert (philipp@hubertfischer.com),
+      Sebastian Fischer (sebastian@hubertfischer.com)
     font: RubikMonoOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2015 The Rubik Project Authors (mail@hubertfischer.com)
+extract: {}
+copyright: Copyright (c) 2013, 2014, Hubert and Fischer, Philipp Hubert (philipp@hubertfischer.com),
+  Sebastian Fischer (sebastian@hubertfischer.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2015 The Rubik Project Authors (mail@hubertfischer.com)
+  Copyright (c) 2013, 2014, Hubert and Fischer, Philipp Hubert (philipp@hubertfischer.com), Sebastian Fischer (sebastian@hubertfischer.com)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -115,3 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: c55d214e8b0ca0d062b13fef07d5a71be595a32890ad64011eb057b65138461c
+command: import google --formulas_path Formulas -n 5000 --no-cache

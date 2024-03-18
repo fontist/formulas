@@ -1,12 +1,12 @@
 ---
 description: Belleza
-homepage: http://www.tipo.net.ar
+homepage: https://www.tipo.net.ar
 resources:
   Belleza.zip:
     urls:
     - https://fonts.google.com/download?family=Belleza
-    sha256: 73ee98bb53fb761eb39bf49130149b7a2b47058b670bd5a1caa9c54b0f7d00b8
-    file_size: 17554
+    sha256: 34d66b2bcc2ce8f2b64b9d2a932349d05b6080f3d9b77a407587400f1f6fb2cc
+    file_size: 33000
 fonts:
 - name: Belleza
   styles:
@@ -14,20 +14,18 @@ fonts:
     type: Regular
     full_name: Belleza Regular
     post_script_name: Belleza-Regular
-    version: '1.002'
-    copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
-      Font Name "Belleza"
+    version: 1.003; ttfautohint (v1.8.4.7-5d5b)
+    copyright: Copyright 2012 The Belleza Project Authors (https://github.com/etunni/belleza)
     font: Belleza-Regular.ttf
 extract: {}
-copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
-  Font Name "Belleza"
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2012 The Belleza Project Authors (https://github.com/etunni/belleza)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name "Belleza"
+  Copyright 2012 The Belleza Project Authors (https://github.com/etunni/belleza)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -117,4 +115,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: db7dca5b6effa44fd0600df5a9330e82146649b1fb22ae10b7372fa0c52bda7e
-command: import google --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

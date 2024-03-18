@@ -1,12 +1,11 @@
 ---
 description: Nova Oval
-homepage:
 resources:
-  NovaOval.zip:
+  Nova_Oval.zip:
     urls:
     - https://fonts.google.com/download?family=Nova%20Oval
-    sha256: 3b7c8995c33a6d582ab6dcf58fe1071306d3c9619c475a44db779055ea01036f
-    file_size: 43129
+    sha256: 2f7c89c311bd0638f46abc9e3f22fc52fdc20026ff14552eb512c91ba2bb4557
+    file_size: 42950
 fonts:
 - name: Nova Oval
   styles:
@@ -16,12 +15,9 @@ fonts:
     post_script_name: NovaOval
     version: '2.000'
     copyright: Copyright (c) 2011, wmk69 (wmk69@o2.pl)
-    font: NovaOval.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2011, wmk69 (wmk69@o2.pl) with Reserved Font Names ''NovaOval''
-  and ''Nova Oval''. This Font Software is licensed under the SIL Open Font License,
-  Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    font: NovaOval-Regular.ttf
+extract: {}
+copyright: Copyright (c) 2011, wmk69 (wmk69@o2.pl)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, wmk69 (wmk69@o2.pl),
@@ -29,17 +25,14 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
-
-  SIL OPEN FONT LICENSE
-
-  Version 1.1 - 26 February 2007
-
+  -----------------------------------------------------------
+  SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+  -----------------------------------------------------------
 
   PREAMBLE
-
   The goals of the Open Font License (OFL) are to stimulate worldwide
   development of collaborative font projects, to support the font creation
   efforts of academic and linguistic communities, and to provide a free and
@@ -55,9 +48,7 @@ open_license: |-
   requirement for fonts to remain under this license does not apply
   to any document created using the fonts or their derivatives.
 
-
   DEFINITIONS
-
   "Font Software" refers to the set of files released by the Copyright
   Holder(s) under this license and clearly marked as such. This may
   include source files, build scripts and documentation.
@@ -69,16 +60,14 @@ open_license: |-
   distributed by the Copyright Holder(s).
 
   "Modified Version" refers to any derivative made by adding to, deleting,
-  or substituting — in part or in whole — any of the components of the
+  or substituting -- in part or in whole -- any of the components of the
   Original Version, by changing formats or by porting the Font Software to a
   new environment.
 
   "Author" refers to any designer, engineer, programmer, technical
   writer or other person who contributed to the Font Software.
 
-
   PERMISSION & CONDITIONS
-
   Permission is hereby granted, free of charge, to any person obtaining
   a copy of the Font Software, to use, study, copy, merge, embed, modify,
   redistribute, and sell modified and unmodified copies of the Font
@@ -111,15 +100,11 @@ open_license: |-
   remain under this license does not apply to any document created
   using the Font Software.
 
-
   TERMINATION
-
   This license becomes null and void if any of the above conditions are
   not met.
 
-
   DISCLAIMER
-
   THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
@@ -129,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 396b0a1dcd4a4915ce43d5501f07c0fde14703b9d128f761421a06a06737554b
+command: import google --formulas_path Formulas -n 5000 --no-cache

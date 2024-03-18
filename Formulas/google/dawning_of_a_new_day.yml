@@ -1,33 +1,32 @@
 ---
-name: Dawning of a New Day
 description: Dawning of a New Day
-homepage:
 resources:
-  DawningofaNewDay.zip:
+  Dawning_of_a_New_Day.zip:
     urls:
     - https://fonts.google.com/download?family=Dawning%20of%20a%20New%20Day
-    sha256: 87b6c75e506f55ee439dfb0a7f94d34e3b63d936e50c103e5264d1e6dd4be7b7
-    file_size: 29300
+    sha256: 25814dff4169433f49fe4a15f7af65bce67aa02d8fa99a19f666609b25851abb
+    file_size: 29409
 fonts:
 - name: Dawning of a New Day
   styles:
   - family_name: Dawning of a New Day
     type: Regular
+    preferred_family_name: Dawning of a New Day
+    preferred_type: Regular
     full_name: Dawning of a New Day
     post_script_name: DawningofaNewDay
     version: 1.002 2010
     copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
-    font: DawningofaNewDay.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)
+    font: DawningofaNewDay-Regular.ttf
+extract: {}
+copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 license_url: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 open_license: |-
   Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -116,3 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 4279a34e05f86734430d336bd2b11db8f930d03111dd7480efa1d570c33ec7e9
+command: import google --formulas_path Formulas -n 5000 --no-cache

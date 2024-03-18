@@ -1,13 +1,12 @@
 ---
-name: Stick
 description: Stick
 homepage: http://fontworks.co.jp/
 resources:
   Stick.zip:
     urls:
     - https://fonts.google.com/download?family=Stick
-    sha256: 4e6585d2a8eb1d0175360088ab1ad5006f83ef106e2600fdb7f93769dda7bc84
-    file_size: 1422234
+    sha256: 64b7cbbff435370029b7f7e0161db84969cc18083b0c9ee6a7abd9558e1d96f7
+    file_size: 1420979
 fonts:
 - name: Stick
   styles:
@@ -15,7 +14,7 @@ fonts:
     type: Regular
     full_name: Stick Regular
     post_script_name: Stick-Regular
-    version: 1.000; ttfautohint (v1.8.3)
+    version: '1.100'
     copyright: Copyright 2020 The Stick Project Authors (https://github.com/fontworks-fonts/Stick/)
     font: Stick-Regular.ttf
 extract: {}
@@ -26,7 +25,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -116,4 +115,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 19d9d052fc86fb49d06ae4b25942ab56e13880066e32333680a9b97ed2f06e0c
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

@@ -1,12 +1,11 @@
 ---
-name: Podkova
 description: Podkova
 homepage: http://cyreal.org
 resources:
   Podkova.zip:
     urls:
     - https://fonts.google.com/download?family=Podkova
-    file_size: 324606
+    file_size: 323727
 fonts:
 - name: Podkova
   styles:
@@ -14,21 +13,21 @@ fonts:
     type: Bold
     full_name: Podkova Bold
     post_script_name: Podkova-Bold
-    version: 2.102; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.103'
     copyright: Copyright 2011 The Podkova Project Authors (https://github.com/cyrealtype/Podkova)
     font: Podkova-Bold.ttf
   - family_name: Podkova
     type: Regular
     full_name: Podkova Regular
     post_script_name: Podkova-Regular
-    version: 2.102; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.103'
     copyright: Copyright 2011 The Podkova Project Authors (https://github.com/cyrealtype/Podkova)
     font: Podkova-VariableFont_wght.ttf
   - family_name: Podkova
     type: Regular
     full_name: Podkova Regular
     post_script_name: Podkova-Regular
-    version: 2.102; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.103'
     copyright: Copyright 2011 The Podkova Project Authors (https://github.com/cyrealtype/Podkova)
     font: Podkova-Regular.ttf
 - name: Podkova ExtraBold
@@ -39,7 +38,7 @@ fonts:
     preferred_type: ExtraBold
     full_name: Podkova ExtraBold
     post_script_name: Podkova-ExtraBold
-    version: 2.102; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.103'
     copyright: Copyright 2011 The Podkova Project Authors (https://github.com/cyrealtype/Podkova)
     font: Podkova-ExtraBold.ttf
 - name: Podkova Medium
@@ -50,7 +49,7 @@ fonts:
     preferred_type: Medium
     full_name: Podkova Medium
     post_script_name: Podkova-Medium
-    version: 2.102; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.103'
     copyright: Copyright 2011 The Podkova Project Authors (https://github.com/cyrealtype/Podkova)
     font: Podkova-Medium.ttf
 - name: Podkova SemiBold
@@ -61,7 +60,7 @@ fonts:
     preferred_type: SemiBold
     full_name: Podkova SemiBold
     post_script_name: Podkova-SemiBold
-    version: 2.102; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.103'
     copyright: Copyright 2011 The Podkova Project Authors (https://github.com/cyrealtype/Podkova)
     font: Podkova-SemiBold.ttf
 extract: {}
@@ -72,7 +71,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -162,4 +161,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 6e1001d6741ee8d265595e9eca9a8b268fa7538e512110f9aa8031876c8dc193
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

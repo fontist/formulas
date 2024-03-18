@@ -4,8 +4,8 @@ resources:
   Koh_Santepheap.zip:
     urls:
     - https://fonts.google.com/download?family=Koh%20Santepheap
-    sha256: 51cfb38c15e120b12ed8b19fb745070620b15535b6b8a0e11587cb8bca126fba
-    file_size: 320185
+    sha256: b570a34c1ec080f032415834769a1073ca95e071aa407c259e6d90932ae2e500
+    file_size: 317771
 fonts:
 - name: Koh Santepheap
   styles:
@@ -13,14 +13,14 @@ fonts:
     type: Bold
     full_name: Koh Santepheap Bold
     post_script_name: KohSantepheap-Bold
-    version: 2.001; ttfautohint (v1.8.3)
+    version: 2.002; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Koh Santepheap Project Authors (https://github.com/danhhong/KohSantepheap)
     font: KohSantepheap-Bold.ttf
   - family_name: Koh Santepheap
     type: Regular
     full_name: Koh Santepheap Regular
     post_script_name: KohSantepheap-Regular
-    version: 2.001; ttfautohint (v1.8.3)
+    version: 2.002; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Koh Santepheap Project Authors (https://github.com/danhhong/KohSantepheap)
     font: KohSantepheap-Regular.ttf
 - name: Koh Santepheap Black
@@ -31,7 +31,7 @@ fonts:
     preferred_type: Black
     full_name: Koh Santepheap Black
     post_script_name: KohSantepheap-Black
-    version: 2.001; ttfautohint (v1.8.3)
+    version: 2.002; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Koh Santepheap Project Authors (https://github.com/danhhong/KohSantepheap)
     font: KohSantepheap-Black.ttf
 - name: Koh Santepheap Light
@@ -42,7 +42,7 @@ fonts:
     preferred_type: Light
     full_name: Koh Santepheap Light
     post_script_name: KohSantepheap-Light
-    version: 2.001; ttfautohint (v1.8.3)
+    version: 2.002; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Koh Santepheap Project Authors (https://github.com/danhhong/KohSantepheap)
     font: KohSantepheap-Light.ttf
 - name: Koh Santepheap Thin
@@ -53,7 +53,7 @@ fonts:
     preferred_type: Thin
     full_name: Koh Santepheap Thin
     post_script_name: KohSantepheap-Thin
-    version: 2.001; ttfautohint (v1.8.3)
+    version: 2.002; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Koh Santepheap Project Authors (https://github.com/danhhong/KohSantepheap)
     font: KohSantepheap-Thin.ttf
 extract: {}
@@ -64,7 +64,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -154,4 +154,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: fdc093569f92071fda7fd6e8374c01aaafe89e6bac9f517b1ef633a26ccd3781
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

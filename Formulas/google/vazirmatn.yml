@@ -4,7 +4,7 @@ resources:
   Vazirmatn.zip:
     urls:
     - https://fonts.google.com/download?family=Vazirmatn
-    file_size: 762033
+    file_size: 769606
 fonts:
 - name: Vazirmatn
   styles:
@@ -12,7 +12,7 @@ fonts:
     type: Bold
     full_name: Vazirmatn Bold
     post_script_name: Vazirmatn-Bold
-    version: '32.102'
+    version: '33.003'
     description: The first version of Vazirmatn (formerly named Vazir) was based on
       DejaVu 2.35 (was committed to the public domain) to begin designing and developing
       this new typeface. Non-Arabic (Latin) glyphs and data in the full version are
@@ -24,7 +24,7 @@ fonts:
     type: Regular
     full_name: Vazirmatn Regular
     post_script_name: Vazirmatn-Regular
-    version: '32.102'
+    version: '33.003'
     description: The first version of Vazirmatn (formerly named Vazir) was based on
       DejaVu 2.35 (was committed to the public domain) to begin designing and developing
       this new typeface. Non-Arabic (Latin) glyphs and data in the full version are
@@ -36,7 +36,7 @@ fonts:
     type: Regular
     full_name: Vazirmatn Regular
     post_script_name: Vazirmatn-Regular
-    version: '32.102'
+    version: '33.003'
     description: The first version of Vazirmatn (formerly named Vazir) was based on
       DejaVu 2.35 (was committed to the public domain) to begin designing and developing
       this new typeface. Non-Arabic (Latin) glyphs and data in the full version are
@@ -52,7 +52,7 @@ fonts:
     preferred_type: Black
     full_name: Vazirmatn Black
     post_script_name: Vazirmatn-Black
-    version: '32.102'
+    version: '33.003'
     description: The first version of Vazirmatn (formerly named Vazir) was based on
       DejaVu 2.35 (was committed to the public domain) to begin designing and developing
       this new typeface. Non-Arabic (Latin) glyphs and data in the full version are
@@ -68,7 +68,7 @@ fonts:
     preferred_type: ExtraBold
     full_name: Vazirmatn ExtraBold
     post_script_name: Vazirmatn-ExtraBold
-    version: '32.102'
+    version: '33.003'
     description: The first version of Vazirmatn (formerly named Vazir) was based on
       DejaVu 2.35 (was committed to the public domain) to begin designing and developing
       this new typeface. Non-Arabic (Latin) glyphs and data in the full version are
@@ -84,7 +84,7 @@ fonts:
     preferred_type: ExtraLight
     full_name: Vazirmatn ExtraLight
     post_script_name: Vazirmatn-ExtraLight
-    version: '32.102'
+    version: '33.003'
     description: The first version of Vazirmatn (formerly named Vazir) was based on
       DejaVu 2.35 (was committed to the public domain) to begin designing and developing
       this new typeface. Non-Arabic (Latin) glyphs and data in the full version are
@@ -100,7 +100,7 @@ fonts:
     preferred_type: Light
     full_name: Vazirmatn Light
     post_script_name: Vazirmatn-Light
-    version: '32.102'
+    version: '33.003'
     description: The first version of Vazirmatn (formerly named Vazir) was based on
       DejaVu 2.35 (was committed to the public domain) to begin designing and developing
       this new typeface. Non-Arabic (Latin) glyphs and data in the full version are
@@ -116,7 +116,7 @@ fonts:
     preferred_type: Medium
     full_name: Vazirmatn Medium
     post_script_name: Vazirmatn-Medium
-    version: '32.102'
+    version: '33.003'
     description: The first version of Vazirmatn (formerly named Vazir) was based on
       DejaVu 2.35 (was committed to the public domain) to begin designing and developing
       this new typeface. Non-Arabic (Latin) glyphs and data in the full version are
@@ -132,7 +132,7 @@ fonts:
     preferred_type: SemiBold
     full_name: Vazirmatn SemiBold
     post_script_name: Vazirmatn-SemiBold
-    version: '32.102'
+    version: '33.003'
     description: The first version of Vazirmatn (formerly named Vazir) was based on
       DejaVu 2.35 (was committed to the public domain) to begin designing and developing
       this new typeface. Non-Arabic (Latin) glyphs and data in the full version are
@@ -148,7 +148,7 @@ fonts:
     preferred_type: Thin
     full_name: Vazirmatn Thin
     post_script_name: Vazirmatn-Thin
-    version: '32.102'
+    version: '33.003'
     description: The first version of Vazirmatn (formerly named Vazir) was based on
       DejaVu 2.35 (was committed to the public domain) to begin designing and developing
       this new typeface. Non-Arabic (Latin) glyphs and data in the full version are
@@ -164,7 +164,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -254,4 +254,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 765f22e4f3035d8f06f31bdcb65309a358d5a1a7b14539a08994358c29e259ab
-command: import google --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

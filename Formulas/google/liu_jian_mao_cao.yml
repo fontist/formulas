@@ -1,13 +1,12 @@
 ---
-name: Liu Jian Mao Cao
 description: Liu Jian Mao Cao
 homepage: http://www.zhongqifont.com/
 resources:
   Liu_Jian_Mao_Cao.zip:
     urls:
     - https://fonts.google.com/download?family=Liu%20Jian%20Mao%20Cao
-    sha256: fd104c1733cd2a1d09b5c5830f453bd6ec064c2185a3d6be73dfc3b3d30e6890
-    file_size: 2723343
+    sha256: 909135c04d717f664cb4e577bdff39f2b28119315f68d709372f948311c1c404
+    file_size: 2722358
 fonts:
 - name: Liu Jian Mao Cao
   styles:
@@ -15,7 +14,7 @@ fonts:
     type: Regular
     full_name: Liu Jian Mao Cao Regular
     post_script_name: LiuJianMaoCao-Regular
-    version: '1.001'
+    version: '1.003'
     copyright: Copyright 2018 The Liu Jian Mao Cao Project Authors (https://www.github.com/googlefonts/liujianmaocao)
     font: LiuJianMaoCao-Regular.ttf
 extract: {}
@@ -26,7 +25,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -116,4 +115,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: e1277d5a157f80cb331a673908384b3356635cddcb0edf853c4e671020500ffd
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

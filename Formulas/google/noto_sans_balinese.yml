@@ -5,7 +5,7 @@ resources:
   Noto_Sans_Balinese.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Balinese
-    file_size: 249134
+    file_size: 328106
 fonts:
 - name: Noto Sans Balinese
   styles:
@@ -13,23 +13,23 @@ fonts:
     type: Bold
     full_name: Noto Sans Balinese Bold
     post_script_name: NotoSansBalinese-Bold
-    version: '2.001'
-    copyright: Copyright 2020 Noto Sans Balinese Google
+    version: '2.003'
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/balinese)
     font: NotoSansBalinese-Bold.ttf
   - family_name: Noto Sans Balinese
     type: Regular
     full_name: Noto Sans Balinese Regular
     post_script_name: NotoSansBalinese-Regular
-    version: '2.001'
-    copyright: Copyright 2020 Noto Sans Balinese Google
-    font: NotoSansBalinese-Regular.ttf
+    version: '2.003'
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/balinese)
+    font: NotoSansBalinese-VariableFont_wght.ttf
   - family_name: Noto Sans Balinese
     type: Regular
     full_name: Noto Sans Balinese Regular
     post_script_name: NotoSansBalinese-Regular
-    version: '2.001'
-    copyright: Copyright 2020 Noto Sans Balinese Google
-    font: NotoSansBalinese-VariableFont_wght.ttf
+    version: '2.003'
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/balinese)
+    font: NotoSansBalinese-Regular.ttf
 - name: Noto Sans Balinese Medium
   styles:
   - family_name: Noto Sans Balinese Medium
@@ -38,8 +38,8 @@ fonts:
     preferred_type: Medium
     full_name: Noto Sans Balinese Medium
     post_script_name: NotoSansBalinese-Medium
-    version: '2.001'
-    copyright: Copyright 2020 Noto Sans Balinese Google
+    version: '2.003'
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/balinese)
     font: NotoSansBalinese-Medium.ttf
 - name: Noto Sans Balinese SemiBold
   styles:
@@ -49,18 +49,18 @@ fonts:
     preferred_type: SemiBold
     full_name: Noto Sans Balinese SemiBold
     post_script_name: NotoSansBalinese-SemiBold
-    version: '2.001'
-    copyright: Copyright 2020 Noto Sans Balinese Google
+    version: '2.003'
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/balinese)
     font: NotoSansBalinese-SemiBold.ttf
 extract: {}
-copyright: Copyright 2020 Noto Sans Balinese Google
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/balinese)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/balinese)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -150,4 +150,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 37a84cfc016c05faeb9774d6e38a9a76adeaa416490433651dc8123bd68aac88
-command: import google --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

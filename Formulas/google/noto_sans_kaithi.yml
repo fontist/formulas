@@ -5,8 +5,8 @@ resources:
   Noto_Sans_Kaithi.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Kaithi
-    sha256: ea1e8af892d32ff4b291c6c810a66f15738bde0ef6c90d37e5b93be4152a5281
-    file_size: 69521
+    sha256: fe136415b00a77084be93e14afab0be9af3ad218e0bb96e2ab9a537d34c93f8c
+    file_size: 69821
 fonts:
 - name: Noto Sans Kaithi
   styles:
@@ -14,7 +14,7 @@ fonts:
     type: Regular
     full_name: Noto Sans Kaithi Regular
     post_script_name: NotoSansKaithi-Regular
-    version: 2.004; ttfautohint (v1.8.4.7-5d5b)
+    version: 2.005; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/kaithi)
     font: NotoSansKaithi-Regular.ttf
@@ -116,4 +116,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 8cde29e89ff49816b752cdbdc5bed0feeb41b5929aa837203acd6c9d511711d8
-command: import google --formulas_path Formulas -n 50
+command: import google --formulas_path Formulas -n 5000 --no-cache

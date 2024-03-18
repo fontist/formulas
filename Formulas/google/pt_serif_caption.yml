@@ -1,33 +1,15 @@
 ---
-name: PT Serif Caption
 description: PT Serif Caption
 homepage: http://www.paratype.com
 resources:
-  PTSerifCaption.zip:
+  PT_Serif_Caption.zip:
     urls:
     - https://fonts.google.com/download?family=PT%20Serif%20Caption
-    sha256: 9bd91d3fdfe6632b704e8ad9cce56db036f47ccb4360640a93547de26b4cb25d
-    file_size: 276735
+    sha256: 9fc03a559d98032953702eb95b1e52eecde7833fb069db3bddd08271cbc2d49b
+    file_size: 275927
 fonts:
 - name: PT Serif Caption
   styles:
-  - family_name: PT Serif Caption
-    type: Regular
-    full_name: PT Serif Caption
-    post_script_name: PTSerif-Caption
-    version: 1.000W OFL
-    description: 'PT Serif is a universal type family designed for use together with
-      PT Sans released earlier. PT Serif coordinates with PT Sans on metrics, proportions,
-      weights and design. It consists of six styles: regular and bold weights with
-      corresponding italics form a standard computer font family; two caption styles
-      (regular and italic) are for texts of small point sizes. The letterforms are
-      distinguished by large x-height, modest stroke contrast, robust wedge-like serifs,
-      and triangular terminals. Due to these features the face can be qualified as
-      matched to modern trends of type design and of enhanced legibility. Mentioned
-      characteristics beside conventional use in business applications and printed
-      stuff make the fonts quite useable for advertising and display typography.'
-    copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
-    font: PT_Serif-Caption-Web-Regular.ttf
   - family_name: PT Serif Caption
     type: Italic
     full_name: PT Serif Caption Italic
@@ -44,18 +26,35 @@ fonts:
       characteristics beside conventional use in business applications and printed
       stuff make the fonts quite useable for advertising and display typography.'
     copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
-    font: PT_Serif-Caption-Web-Italic.ttf
-extract:
-  format: zip
-copyright: Copyright © 2010 ParaType Ltd (yakupov@paratype.com). All rights reserved.
+    font: PTSerifCaption-Italic.ttf
+  - family_name: PT Serif Caption
+    type: Regular
+    full_name: PT Serif Caption
+    post_script_name: PTSerif-Caption
+    version: 1.000W OFL
+    description: 'PT Serif is a universal type family designed for use together with
+      PT Sans released earlier. PT Serif coordinates with PT Sans on metrics, proportions,
+      weights and design. It consists of six styles: regular and bold weights with
+      corresponding italics form a standard computer font family; two caption styles
+      (regular and italic) are for texts of small point sizes. The letterforms are
+      distinguished by large x-height, modest stroke contrast, robust wedge-like serifs,
+      and triangular terminals. Due to these features the face can be qualified as
+      matched to modern trends of type design and of enhanced legibility. Mentioned
+      characteristics beside conventional use in business applications and printed
+      stuff make the fonts quite useable for advertising and display typography.'
+    copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
+    font: PTSerifCaption-Regular.ttf
+extract: {}
+copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
 license_url: http://scripts.sil.org/OFL_web
 open_license: |-
   Copyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),
   with Reserved Font Names "PT Sans", "PT Serif" and "ParaType".
 
-  This Font Software is licensed under the SIL Open Font License, Version 1.1
+  This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
+
 
   -----------------------------------------------------------
   SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
@@ -143,3 +142,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 2076c61ad495253e8b45237a8455be360824cd3bc95ec7eaa12591dc5ffc8ff2
+command: import google --formulas_path Formulas -n 5000 --no-cache

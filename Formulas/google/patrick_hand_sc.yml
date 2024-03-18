@@ -1,33 +1,32 @@
 ---
-name: Patrick Hand SC
 description: Patrick Hand SC
 homepage: http://www.patrickwagesreiter.at
 resources:
-  PatrickHandSC.zip:
+  Patrick_Hand_SC.zip:
     urls:
     - https://fonts.google.com/download?family=Patrick%20Hand%20SC
-    sha256: 67a52e8f10b756720380fff246e7dab8532c970423ee330d075923b26cff093d
-    file_size: 67919
+    sha256: ca25fc159d22571d56b41b482ecfed045b3212dc1c6d95172dd3dd16781c28f7
+    file_size: 67944
 fonts:
 - name: Patrick Hand SC
   styles:
   - family_name: Patrick Hand SC
     type: Regular
-    full_name: Patrick Hand SC Regular
+    full_name: Patrick Hand SC
     post_script_name: PatrickHandSC-Regular
-    version: 2.001; ttfautohint (v1.8.2)
-    copyright: Copyright 2012 The Patrick Hand Authors (mail@patrickwagesreiter.at)
+    version: 1.003;PS 001.003;hotconv 1.0.70;makeotf.lib2.5.58329; ttfautohint (v0.94.20-1c74)
+      -l 8 -r 50 -G 200 -x 14 -w "gGD" -c -f
+    copyright: Copyright (c) 2012 Patrick Wagesreiter (mail@patrickwagesreiter.at)
     font: PatrickHandSC-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2012 The Patrick Hand Authors (mail@patrickwagesreiter.at)
+extract: {}
+copyright: Copyright (c) 2012 Patrick Wagesreiter (mail@patrickwagesreiter.at)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 The Patrick Hand Authors (mail@patrickwagesreiter.at)
+  Copyright (c) 2010-2012 Patrick Wagesreiter (mail@patrickwagesreiter.at)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -116,3 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 35aa834812b81935c7708c0b8dd2a1c955a51925d63492b55aae6bbb610bddf4
+command: import google --formulas_path Formulas -n 5000 --no-cache

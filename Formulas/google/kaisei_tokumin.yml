@@ -1,13 +1,12 @@
 ---
-name: Kaisei Tokumin
 description: Kaisei Tokumin
 homepage: https://font-kai.jp
 resources:
   Kaisei_Tokumin.zip:
     urls:
     - https://fonts.google.com/download?family=Kaisei%20Tokumin
-    sha256: e509d5b50df6b20be664929ccccbf9908b9a625ea467f630ce1c9d543273020b
-    file_size: 10813165
+    sha256: 0355fe29a236e7f30314e29e38964aa3c6bd2bfd7177398517193e625b2ad4e9
+    file_size: 10805800
 fonts:
 - name: Kaisei Tokumin
   styles:
@@ -15,14 +14,14 @@ fonts:
     type: Bold
     full_name: Kaisei Tokumin Bold
     post_script_name: KaiseiTokumin-Bold
-    version: 5.002; ttfautohint (v1.8.3)
+    version: '5.003'
     copyright: Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)
     font: KaiseiTokumin-Bold.ttf
   - family_name: Kaisei Tokumin
     type: Regular
     full_name: Kaisei Tokumin Regular
     post_script_name: KaiseiTokumin-Regular
-    version: 5.002; ttfautohint (v1.8.3)
+    version: '5.003'
     copyright: Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)
     font: KaiseiTokumin-Regular.ttf
 - name: Kaisei Tokumin ExtraBold
@@ -33,7 +32,7 @@ fonts:
     preferred_type: ExtraBold
     full_name: Kaisei Tokumin ExtraBold
     post_script_name: KaiseiTokumin-ExtraBold
-    version: 5.002; ttfautohint (v1.8.3)
+    version: '5.003'
     copyright: Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)
     font: KaiseiTokumin-ExtraBold.ttf
 - name: Kaisei Tokumin Medium
@@ -44,7 +43,7 @@ fonts:
     preferred_type: Medium
     full_name: Kaisei Tokumin Medium
     post_script_name: KaiseiTokumin-Medium
-    version: 5.002; ttfautohint (v1.8.3)
+    version: '5.003'
     copyright: Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)
     font: KaiseiTokumin-Medium.ttf
 extract: {}
@@ -55,7 +54,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -145,4 +144,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 553ac1661c91e3cc301b59f3d4e201579f2374e90e4a7eb5f464b0ad781be976
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

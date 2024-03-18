@@ -1,33 +1,31 @@
 ---
 description: Paprika
-homepage: http://www.tipo.net.ar
+homepage: https://www.tipo.net.ar/
 resources:
   Paprika.zip:
     urls:
     - https://fonts.google.com/download?family=Paprika
-    sha256: 745d01e7d97d571a5255bdb05944a706a19ec22ab7a53331eee24b9ef394222c
-    file_size: 23274
+    sha256: a390e248e00d1ec682141c31efea508964ef57e4143a34f6f7d1c0ad48d8a1e2
+    file_size: 47014
 fonts:
 - name: Paprika
   styles:
   - family_name: Paprika
     type: Regular
-    full_name: Paprika
+    full_name: Paprika Regular
     post_script_name: Paprika-Regular
-    version: '1.001'
-    copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
-      Font Name 'Paprika'
+    version: 1.010; ttfautohint (v1.8.3)
+    copyright: Copyright 2012 The Paprika Project Authors (https://github.com/etunni/paprika)
     font: Paprika-Regular.ttf
 extract: {}
-copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
-  Font Name 'Paprika'
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2012 The Paprika Project Authors (https://github.com/etunni/paprika)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name 'Paprika'
+  Copyright 2012 The Paprika Project Authors (https://github.com/etunni/paprika)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -117,4 +115,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: b9ce425ef068b176de34f9e3b2435f6184f461452248be004c8811a17d324207
-command: import google --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

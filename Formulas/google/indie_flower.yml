@@ -1,32 +1,31 @@
 ---
 description: Indie Flower
-homepage: http://www.kimberlygeswein.com
 resources:
-  IndieFlower.zip:
+  Indie_Flower.zip:
     urls:
     - https://fonts.google.com/download?family=Indie%20Flower
-    sha256: 767fbcbd7eca85701f0b3c406dbbbbaabfdfdfb645cd010ce306aa2c27770478
-    file_size: 32737
+    sha256: 363388cb29b10b4196337c48dd833f70c6ec5be8438077f99fe07527b359b4e2
+    file_size: 32957
 fonts:
 - name: Indie Flower
   styles:
   - family_name: Indie Flower
     type: Regular
-    full_name: Indie Flower Regular
-    post_script_name: IndieFlower-Regular
-    version: '2.000'
-    copyright: Copyright 2010 The Indie Flower Authors (kimberlygeswein.com)
+    full_name: Indie Flower
+    post_script_name: IndieFlower
+    version: 1.001 2010
+    description: "."
+    copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
     font: IndieFlower-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2010 The Indie Flower Authors (kimberlygeswein.com)
+extract: {}
+copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2010 The Indie Flower Authors (kimberlygeswein.com),
+  Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -115,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: e1daaf937e96d13cd495c7ad51322964ba87f96c6aadbb99d12b0ac6356deb10
+command: import google --formulas_path Formulas -n 5000 --no-cache

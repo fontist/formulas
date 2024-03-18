@@ -5,7 +5,7 @@ resources:
   M_PLUS_1_Code.zip:
     urls:
     - https://fonts.google.com/download?family=M%20PLUS%201%20Code
-    file_size: 9036942
+    file_size: 9015669
 fonts:
 - name: M PLUS 1 Code
   styles:
@@ -13,21 +13,21 @@ fonts:
     type: Bold
     full_name: M PLUS 1 Code Bold
     post_script_name: MPLUS1Code-Bold
-    version: '1.002'
+    version: '1.005'
     copyright: Copyright 2021 The M+ FONTS Project Authors (https://github.com/coz-m/MPLUS_FONTS)
     font: MPLUS1Code-Bold.ttf
   - family_name: M PLUS 1 Code
     type: Regular
     full_name: M PLUS 1 Code Regular
     post_script_name: MPLUS1Code-Regular
-    version: '1.002'
+    version: '1.005'
     copyright: Copyright 2021 The M+ FONTS Project Authors (https://github.com/coz-m/MPLUS_FONTS)
     font: MPLUS1Code-VariableFont_wght.ttf
   - family_name: M PLUS 1 Code
     type: Regular
     full_name: M PLUS 1 Code Regular
     post_script_name: MPLUS1Code-Regular
-    version: '1.002'
+    version: '1.005'
     copyright: Copyright 2021 The M+ FONTS Project Authors (https://github.com/coz-m/MPLUS_FONTS)
     font: MPLUS1Code-Regular.ttf
 - name: M PLUS 1 Code ExtraLight
@@ -38,7 +38,7 @@ fonts:
     preferred_type: ExtraLight
     full_name: M PLUS 1 Code ExtraLight
     post_script_name: MPLUS1Code-ExtraLight
-    version: '1.002'
+    version: '1.005'
     copyright: Copyright 2021 The M+ FONTS Project Authors (https://github.com/coz-m/MPLUS_FONTS)
     font: MPLUS1Code-ExtraLight.ttf
 - name: M PLUS 1 Code Light
@@ -49,7 +49,7 @@ fonts:
     preferred_type: Light
     full_name: M PLUS 1 Code Light
     post_script_name: MPLUS1Code-Light
-    version: '1.002'
+    version: '1.005'
     copyright: Copyright 2021 The M+ FONTS Project Authors (https://github.com/coz-m/MPLUS_FONTS)
     font: MPLUS1Code-Light.ttf
 - name: M PLUS 1 Code Medium
@@ -60,7 +60,7 @@ fonts:
     preferred_type: Medium
     full_name: M PLUS 1 Code Medium
     post_script_name: MPLUS1Code-Medium
-    version: '1.002'
+    version: '1.005'
     copyright: Copyright 2021 The M+ FONTS Project Authors (https://github.com/coz-m/MPLUS_FONTS)
     font: MPLUS1Code-Medium.ttf
 - name: M PLUS 1 Code SemiBold
@@ -71,7 +71,7 @@ fonts:
     preferred_type: SemiBold
     full_name: M PLUS 1 Code SemiBold
     post_script_name: MPLUS1Code-SemiBold
-    version: '1.002'
+    version: '1.005'
     copyright: Copyright 2021 The M+ FONTS Project Authors (https://github.com/coz-m/MPLUS_FONTS)
     font: MPLUS1Code-SemiBold.ttf
 - name: M PLUS 1 Code Thin
@@ -82,7 +82,7 @@ fonts:
     preferred_type: Thin
     full_name: M PLUS 1 Code Thin
     post_script_name: MPLUS1Code-Thin
-    version: '1.002'
+    version: '1.005'
     copyright: Copyright 2021 The M+ FONTS Project Authors (https://github.com/coz-m/MPLUS_FONTS)
     font: MPLUS1Code-Thin.ttf
 extract: {}
@@ -93,7 +93,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -183,4 +183,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 68808986059c31d3eeed73633f1f240cee65f60f9320f4e235e95e2f848fdab4
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

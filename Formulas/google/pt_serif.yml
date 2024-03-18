@@ -1,50 +1,15 @@
 ---
-name: PT Serif
 description: PT Serif
 homepage: http://www.paratype.com
 resources:
-  PTSerif.zip:
+  PT_Serif.zip:
     urls:
     - https://fonts.google.com/download?family=PT%20Serif
-    sha256: 6fa11bef62d1331f968c804d59fe35a8a38cccc5036593fcc39f1892534f5960
-    file_size: 437696
+    sha256: 54e7d420bb35f555a26152d765a0c5ca9fcdc518288bce9340d1ed2bacfada9a
+    file_size: 438038
 fonts:
 - name: PT Serif
   styles:
-  - family_name: PT Serif
-    type: Regular
-    full_name: PT Serif
-    post_script_name: PTSerif-Regular
-    version: 1.000W OFL
-    description: 'PT Serif is a universal type family designed for use together with
-      PT Sans released earlier. PT Serif coordinates with PT Sans on metrics, proportions,
-      weights and design. It consists of six styles: regular and bold weights with
-      corresponding italics form a standard computer font family; two caption styles
-      (regular and italic) are for texts of small point sizes. The letterforms are
-      distinguished by large x-height, modest stroke contrast, robust wedge-like serifs,
-      and triangular terminals. Due to these features the face can be qualified as
-      matched to modern trends of type design and of enhanced legibility. Mentioned
-      characteristics beside conventional use in business applications and printed
-      stuff make the fonts quite useable for advertising and display typography.'
-    copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
-    font: PT_Serif-Web-Regular.ttf
-  - family_name: PT Serif
-    type: Italic
-    full_name: PT Serif Italic
-    post_script_name: PTSerif-Italic
-    version: 1.000W OFL
-    description: 'PT Serif is a universal type family designed for use together with
-      PT Sans released earlier. PT Serif coordinates with PT Sans on metrics, proportions,
-      weights and design. It consists of six styles: regular and bold weights with
-      corresponding italics form a standard computer font family; two caption styles
-      (regular and italic) are for texts of small point sizes. The letterforms are
-      distinguished by large x-height, modest stroke contrast, robust wedge-like serifs,
-      and triangular terminals. Due to these features the face can be qualified as
-      matched to modern trends of type design and of enhanced legibility. Mentioned
-      characteristics beside conventional use in business applications and printed
-      stuff make the fonts quite useable for advertising and display typography.'
-    copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
-    font: PT_Serif-Web-Italic.ttf
   - family_name: PT Serif
     type: Bold
     full_name: PT Serif Bold
@@ -61,7 +26,7 @@ fonts:
       characteristics beside conventional use in business applications and printed
       stuff make the fonts quite useable for advertising and display typography.'
     copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
-    font: PT_Serif-Web-Bold.ttf
+    font: PTSerif-Bold.ttf
   - family_name: PT Serif
     type: Bold Italic
     full_name: PT Serif Bold Italic
@@ -78,18 +43,52 @@ fonts:
       characteristics beside conventional use in business applications and printed
       stuff make the fonts quite useable for advertising and display typography.'
     copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
-    font: PT_Serif-Web-BoldItalic.ttf
-extract:
-  format: zip
-copyright: Copyright © 2010 ParaType Ltd (yakupov@paratype.com). All rights reserved.
+    font: PTSerif-BoldItalic.ttf
+  - family_name: PT Serif
+    type: Italic
+    full_name: PT Serif Italic
+    post_script_name: PTSerif-Italic
+    version: 1.000W OFL
+    description: 'PT Serif is a universal type family designed for use together with
+      PT Sans released earlier. PT Serif coordinates with PT Sans on metrics, proportions,
+      weights and design. It consists of six styles: regular and bold weights with
+      corresponding italics form a standard computer font family; two caption styles
+      (regular and italic) are for texts of small point sizes. The letterforms are
+      distinguished by large x-height, modest stroke contrast, robust wedge-like serifs,
+      and triangular terminals. Due to these features the face can be qualified as
+      matched to modern trends of type design and of enhanced legibility. Mentioned
+      characteristics beside conventional use in business applications and printed
+      stuff make the fonts quite useable for advertising and display typography.'
+    copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
+    font: PTSerif-Italic.ttf
+  - family_name: PT Serif
+    type: Regular
+    full_name: PT Serif
+    post_script_name: PTSerif-Regular
+    version: 1.000W OFL
+    description: 'PT Serif is a universal type family designed for use together with
+      PT Sans released earlier. PT Serif coordinates with PT Sans on metrics, proportions,
+      weights and design. It consists of six styles: regular and bold weights with
+      corresponding italics form a standard computer font family; two caption styles
+      (regular and italic) are for texts of small point sizes. The letterforms are
+      distinguished by large x-height, modest stroke contrast, robust wedge-like serifs,
+      and triangular terminals. Due to these features the face can be qualified as
+      matched to modern trends of type design and of enhanced legibility. Mentioned
+      characteristics beside conventional use in business applications and printed
+      stuff make the fonts quite useable for advertising and display typography.'
+    copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
+    font: PTSerif-Regular.ttf
+extract: {}
+copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
 license_url: http://scripts.sil.org/OFL_web
 open_license: |-
   Copyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),
   with Reserved Font Names "PT Sans", "PT Serif" and "ParaType".
 
-  This Font Software is licensed under the SIL Open Font License, Version 1.1
+  This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
+
 
   -----------------------------------------------------------
   SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
@@ -177,3 +176,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 9a3ef2c97bb22dfbcb58ed87eaced8dfc7a7f4856eed453809269a84b24540a2
+command: import google --formulas_path Formulas -n 5000 --no-cache

@@ -4,7 +4,7 @@ resources:
   Spline_Sans.zip:
     urls:
     - https://fonts.google.com/download?family=Spline%20Sans
-    file_size: 253642
+    file_size: 254305
 fonts:
 - name: Spline Sans
   styles:
@@ -12,23 +12,23 @@ fonts:
     type: Bold
     full_name: Spline Sans Bold
     post_script_name: SplineSans-Bold
-    version: '1.000'
+    version: '1.001'
     copyright: Copyright 2021 The Spline Sans Project Authors (https://github.com/SorkinType/SplineSans)
     font: SplineSans-Bold.ttf
   - family_name: Spline Sans
     type: Regular
     full_name: Spline Sans Regular
     post_script_name: SplineSans-Regular
-    version: '1.000'
+    version: '1.001'
     copyright: Copyright 2021 The Spline Sans Project Authors (https://github.com/SorkinType/SplineSans)
-    font: SplineSans-Regular.ttf
+    font: SplineSans-VariableFont_wght.ttf
   - family_name: Spline Sans
     type: Regular
     full_name: Spline Sans Regular
     post_script_name: SplineSans-Regular
-    version: '1.000'
+    version: '1.001'
     copyright: Copyright 2021 The Spline Sans Project Authors (https://github.com/SorkinType/SplineSans)
-    font: SplineSans-VariableFont_wght.ttf
+    font: SplineSans-Regular.ttf
 - name: Spline Sans Light
   styles:
   - family_name: Spline Sans Light
@@ -37,7 +37,7 @@ fonts:
     preferred_type: Light
     full_name: Spline Sans Light
     post_script_name: SplineSans-Light
-    version: '1.000'
+    version: '1.001'
     copyright: Copyright 2021 The Spline Sans Project Authors (https://github.com/SorkinType/SplineSans)
     font: SplineSans-Light.ttf
 - name: Spline Sans Medium
@@ -48,7 +48,7 @@ fonts:
     preferred_type: Medium
     full_name: Spline Sans Medium
     post_script_name: SplineSans-Medium
-    version: '1.000'
+    version: '1.001'
     copyright: Copyright 2021 The Spline Sans Project Authors (https://github.com/SorkinType/SplineSans)
     font: SplineSans-Medium.ttf
 - name: Spline Sans SemiBold
@@ -59,7 +59,7 @@ fonts:
     preferred_type: SemiBold
     full_name: Spline Sans SemiBold
     post_script_name: SplineSans-SemiBold
-    version: '1.000'
+    version: '1.001'
     copyright: Copyright 2021 The Spline Sans Project Authors (https://github.com/SorkinType/SplineSans)
     font: SplineSans-SemiBold.ttf
 extract: {}
@@ -70,7 +70,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -160,4 +160,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 5d619cbaf2e36a538ae75d93f0312bad4702dc0278205ec17506f97a53768676
-command: import google --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

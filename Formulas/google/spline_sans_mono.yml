@@ -4,7 +4,7 @@ resources:
   Spline_Sans_Mono.zip:
     urls:
     - https://fonts.google.com/download?family=Spline%20Sans%20Mono
-    file_size: 212346
+    file_size: 460858
 fonts:
 - name: Spline Sans Mono
   styles:
@@ -12,54 +12,102 @@ fonts:
     type: Bold
     full_name: Spline Sans Mono Bold
     post_script_name: SplineSansMono-Bold
-    version: '1.002'
+    version: '1.004'
     copyright: Copyright 2022 The Spline Sans Mono Project Authors (https://github.com/SorkinType/SplineSansMono)
     font: SplineSansMono-Bold.ttf
+  - family_name: Spline Sans Mono
+    type: Bold Italic
+    full_name: Spline Sans Mono Bold Italic
+    post_script_name: SplineSansMono-BoldItalic
+    version: '1.004'
+    copyright: Copyright 2022 The Spline Sans Mono Project Authors (https://github.com/SorkinType/SplineSansMono)
+    font: SplineSansMono-BoldItalic.ttf
+  - family_name: Spline Sans Mono
+    type: Italic
+    full_name: Spline Sans Mono Italic
+    post_script_name: SplineSansMono-Italic
+    version: '1.004'
+    copyright: Copyright 2022 The Spline Sans Mono Project Authors (https://github.com/SorkinType/SplineSansMono)
+    font: SplineSansMono-Italic-VariableFont_wght.ttf
+  - family_name: Spline Sans Mono
+    type: Italic
+    full_name: Spline Sans Mono Italic
+    post_script_name: SplineSansMono-Italic
+    version: '1.004'
+    copyright: Copyright 2022 The Spline Sans Mono Project Authors (https://github.com/SorkinType/SplineSansMono)
+    font: SplineSansMono-Italic.ttf
   - family_name: Spline Sans Mono
     type: Regular
     full_name: Spline Sans Mono Regular
     post_script_name: SplineSansMono-Regular
-    version: '1.002'
+    version: '1.004'
     copyright: Copyright 2022 The Spline Sans Mono Project Authors (https://github.com/SorkinType/SplineSansMono)
     font: SplineSansMono-VariableFont_wght.ttf
   - family_name: Spline Sans Mono
     type: Regular
     full_name: Spline Sans Mono Regular
     post_script_name: SplineSansMono-Regular
-    version: '1.002'
+    version: '1.004'
     copyright: Copyright 2022 The Spline Sans Mono Project Authors (https://github.com/SorkinType/SplineSansMono)
     font: SplineSansMono-Regular.ttf
 - name: Spline Sans Mono Light
   styles:
+  - family_name: Spline Sans Mono Light
+    type: Italic
+    preferred_family_name: Spline Sans Mono
+    preferred_type: Light Italic
+    full_name: Spline Sans Mono Light Italic
+    post_script_name: SplineSansMono-LightItalic
+    version: '1.004'
+    copyright: Copyright 2022 The Spline Sans Mono Project Authors (https://github.com/SorkinType/SplineSansMono)
+    font: SplineSansMono-LightItalic.ttf
   - family_name: Spline Sans Mono Light
     type: Regular
     preferred_family_name: Spline Sans Mono
     preferred_type: Light
     full_name: Spline Sans Mono Light
     post_script_name: SplineSansMono-Light
-    version: '1.002'
+    version: '1.004'
     copyright: Copyright 2022 The Spline Sans Mono Project Authors (https://github.com/SorkinType/SplineSansMono)
     font: SplineSansMono-Light.ttf
 - name: Spline Sans Mono Medium
   styles:
+  - family_name: Spline Sans Mono Medium
+    type: Italic
+    preferred_family_name: Spline Sans Mono
+    preferred_type: Medium Italic
+    full_name: Spline Sans Mono Medium Italic
+    post_script_name: SplineSansMono-MediumItalic
+    version: '1.004'
+    copyright: Copyright 2022 The Spline Sans Mono Project Authors (https://github.com/SorkinType/SplineSansMono)
+    font: SplineSansMono-MediumItalic.ttf
   - family_name: Spline Sans Mono Medium
     type: Regular
     preferred_family_name: Spline Sans Mono
     preferred_type: Medium
     full_name: Spline Sans Mono Medium
     post_script_name: SplineSansMono-Medium
-    version: '1.002'
+    version: '1.004'
     copyright: Copyright 2022 The Spline Sans Mono Project Authors (https://github.com/SorkinType/SplineSansMono)
     font: SplineSansMono-Medium.ttf
 - name: Spline Sans Mono SemiBold
   styles:
+  - family_name: Spline Sans Mono SemiBold
+    type: Italic
+    preferred_family_name: Spline Sans Mono
+    preferred_type: SemiBold Italic
+    full_name: Spline Sans Mono SemiBold Italic
+    post_script_name: SplineSansMono-SemiBoldItalic
+    version: '1.004'
+    copyright: Copyright 2022 The Spline Sans Mono Project Authors (https://github.com/SorkinType/SplineSansMono)
+    font: SplineSansMono-SemiBoldItalic.ttf
   - family_name: Spline Sans Mono SemiBold
     type: Regular
     preferred_family_name: Spline Sans Mono
     preferred_type: SemiBold
     full_name: Spline Sans Mono SemiBold
     post_script_name: SplineSansMono-SemiBold
-    version: '1.002'
+    version: '1.004'
     copyright: Copyright 2022 The Spline Sans Mono Project Authors (https://github.com/SorkinType/SplineSansMono)
     font: SplineSansMono-SemiBold.ttf
 extract: {}
@@ -70,7 +118,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -160,4 +208,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: f32bae6fc3b84eff409d24f24e73d5191aa85bc51ffaa4c4b01f08da057ab767
-command: import google --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

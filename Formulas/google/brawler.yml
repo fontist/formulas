@@ -5,28 +5,34 @@ resources:
   Brawler.zip:
     urls:
     - https://fonts.google.com/download?family=Brawler
-    sha256: a953a96340955feed220c8d5a191913f53ec90e16cad623a11e7e2fff59cac07
-    file_size: 50241
+    sha256: 9e74b9deb87206f935894b04fabf7b86ced54e26325eb6fa237bc67e0f27582b
+    file_size: 55958
 fonts:
 - name: Brawler
   styles:
   - family_name: Brawler
+    type: Bold
+    full_name: Brawler Bold
+    post_script_name: Brawler-Bold
+    version: 1.101; ttfautohint (v1.8.3)
+    copyright: Copyright 2011 The Brawler Project Authors (https://github.com/cyrealtype/Brawler)
+    font: Brawler-Bold.ttf
+  - family_name: Brawler
     type: Regular
     full_name: Brawler Regular
     post_script_name: Brawler-Regular
-    version: '1.001'
-    copyright: Copyright (c) 2011 by Oleg Frolov | Cyreal. All rights reserved.
+    version: 1.101; ttfautohint (v1.8.3)
+    copyright: Copyright 2011 The Brawler Project Authors (https://github.com/cyrealtype/Brawler)
     font: Brawler-Regular.ttf
 extract: {}
-copyright: Copyright (c) 2011 by Oleg Frolov | Cyreal. All rights reserved.
+copyright: Copyright 2011 The Brawler Project Authors (https://github.com/cyrealtype/Brawler)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011, Cyreal (www.cyreal.org),
-  with Reserved Font Name "Brawler".
+  Copyright 2011 The Brawler Project Authors (https://github.com/cyrealtype/Brawler)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -116,4 +122,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 374609c409643a9e55d454339624fea8c9c31580d52833a897566283394467f9
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

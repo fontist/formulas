@@ -2,11 +2,11 @@
 description: Goudy Bookletter 1911
 homepage: http://sortsmill.googlecode.com
 resources:
-  GoudyBookletter1911.zip:
+  Goudy_Bookletter_1911.zip:
     urls:
     - https://fonts.google.com/download?family=Goudy%20Bookletter%201911
-    sha256: 2d57a72a739819d888384c2a0a7f0d6f65996889392b4f2f25a7a6972cca1197
-    file_size: 41410
+    sha256: 183468981b841a942d18312b098f91069a3fd326caa16e72e0df4338fd1dab90
+    file_size: 41412
 fonts:
 - name: Goudy Bookletter 1911
   styles:
@@ -16,17 +16,17 @@ fonts:
     post_script_name: GoudyBookletter1911
     version: 2010.07.03
     copyright: Copyright (c) 2010, Barry Schwartz (crudfactory.com)
-    font: GoudyBookletter1911.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010, Barry Schwartz (crudfactory.com chemoelectric@chemoelectric.org)
+    font: GoudyBookletter1911-Regular.ttf
+extract: {}
+copyright: Copyright (c) 2010, Barry Schwartz (crudfactory.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Barry Schwartz (crudfactory.com)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
+
 
   -----------------------------------------------------------
   SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
@@ -114,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 0ab044c23518f04fb98cdc45cc82aaaa1e23d7b6a0e5d3e95076cbbd8a29ac2c
+command: import google --formulas_path Formulas -n 5000 --no-cache

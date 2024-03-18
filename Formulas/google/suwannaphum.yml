@@ -4,8 +4,8 @@ resources:
   Suwannaphum.zip:
     urls:
     - https://fonts.google.com/download?family=Suwannaphum
-    sha256: e2d5ad81ef3d1d7c0d2b279316dae61a7295a3da7c6ff7c6484283a9683b5955
-    file_size: 232984
+    sha256: 4719bf8a74f6ae960ca0c56fdbb61a1cfdf204182d914376d4e5f95146ecab84
+    file_size: 231306
 fonts:
 - name: Suwannaphum
   styles:
@@ -13,14 +13,14 @@ fonts:
     type: Bold
     full_name: Suwannaphum Bold
     post_script_name: Suwannaphum-Bold
-    version: 8.001; ttfautohint (v1.8.3)
+    version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Suwannaphum Project Authors (https://github.com/danhhong/Suwannaphum)
     font: Suwannaphum-Bold.ttf
   - family_name: Suwannaphum
     type: Regular
     full_name: Suwannaphum Regular
     post_script_name: Suwannaphum-Regular
-    version: 8.001; ttfautohint (v1.8.3)
+    version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Suwannaphum Project Authors (https://github.com/danhhong/Suwannaphum)
     font: Suwannaphum-Regular.ttf
 - name: Suwannaphum Black
@@ -31,7 +31,7 @@ fonts:
     preferred_type: Black
     full_name: Suwannaphum Black
     post_script_name: Suwannaphum-Black
-    version: 8.001; ttfautohint (v1.8.3)
+    version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Suwannaphum Project Authors (https://github.com/danhhong/Suwannaphum)
     font: Suwannaphum-Black.ttf
 - name: Suwannaphum Light
@@ -42,7 +42,7 @@ fonts:
     preferred_type: Light
     full_name: Suwannaphum Light
     post_script_name: Suwannaphum-Light
-    version: 8.001; ttfautohint (v1.8.3)
+    version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Suwannaphum Project Authors (https://github.com/danhhong/Suwannaphum)
     font: Suwannaphum-Light.ttf
 - name: Suwannaphum Thin
@@ -53,7 +53,7 @@ fonts:
     preferred_type: Thin
     full_name: Suwannaphum Thin
     post_script_name: Suwannaphum-Thin
-    version: 8.001; ttfautohint (v1.8.3)
+    version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Suwannaphum Project Authors (https://github.com/danhhong/Suwannaphum)
     font: Suwannaphum-Thin.ttf
 extract: {}
@@ -64,7 +64,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -154,4 +154,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: c0b8790de80802a80091faf7786b51a1c1896181c905cede0090bf1d7cd8f8e5
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

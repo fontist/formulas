@@ -4,8 +4,8 @@ resources:
   Hanuman.zip:
     urls:
     - https://fonts.google.com/download?family=Hanuman
-    sha256: dc0d4c6aadfc0b7462e0fc6560bd85889bc83a107ced9942a6926a333a131218
-    file_size: 237766
+    sha256: 818665a6bab005061fe55915b0a2ad2ef6489ebbbfe9366e1f4769e0f250652a
+    file_size: 236394
 fonts:
 - name: Hanuman
   styles:
@@ -13,14 +13,14 @@ fonts:
     type: Bold
     full_name: Hanuman Bold
     post_script_name: Hanuman-Bold
-    version: 8.001; ttfautohint (v1.8.3)
+    version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Hanuman Project Authors (https://github.com/danhhong/Hanuman)
     font: Hanuman-Bold.ttf
   - family_name: Hanuman
     type: Regular
     full_name: Hanuman Regular
     post_script_name: Hanuman-Regular
-    version: 8.001; ttfautohint (v1.8.3)
+    version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Hanuman Project Authors (https://github.com/danhhong/Hanuman)
     font: Hanuman-Regular.ttf
 - name: Hanuman Black
@@ -31,7 +31,7 @@ fonts:
     preferred_type: Black
     full_name: Hanuman Black
     post_script_name: Hanuman-Black
-    version: 8.001; ttfautohint (v1.8.3)
+    version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Hanuman Project Authors (https://github.com/danhhong/Hanuman)
     font: Hanuman-Black.ttf
 - name: Hanuman Light
@@ -42,7 +42,7 @@ fonts:
     preferred_type: Light
     full_name: Hanuman Light
     post_script_name: Hanuman-Light
-    version: 8.001; ttfautohint (v1.8.3)
+    version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Hanuman Project Authors (https://github.com/danhhong/Hanuman)
     font: Hanuman-Light.ttf
 - name: Hanuman Thin
@@ -53,7 +53,7 @@ fonts:
     preferred_type: Thin
     full_name: Hanuman Thin
     post_script_name: Hanuman-Thin
-    version: 8.001; ttfautohint (v1.8.3)
+    version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Hanuman Project Authors (https://github.com/danhhong/Hanuman)
     font: Hanuman-Thin.ttf
 extract: {}
@@ -64,7 +64,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -154,4 +154,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: b0ace5c779f7265eab0b869e4647a169a0940d98f9290add84ced975dd2beced
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

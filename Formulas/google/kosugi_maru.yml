@@ -1,25 +1,24 @@
 ---
-name: Kosugi Maru
 description: Kosugi Maru
 resources:
   Kosugi_Maru.zip:
     urls:
     - https://fonts.google.com/download?family=Kosugi%20Maru
-    sha256: 9c3d10f062e1b7c5a072f1f09ef055066c7cb9da9814bc6c428b1483beaf6928
-    file_size: 2082867
+    sha256: decb5b2f3d847b960110a8c362544b9aa25b6468589acec4cde2cf1248d5b758
+    file_size: 2082566
 fonts:
-- name: MotoyaLMaru
+- name: Kosugi Maru
   styles:
-  - family_name: MotoyaLMaru
-    type: W3 mono
-    full_name: MotoyaLMaru W3 mono
-    post_script_name: MotoyaLMaru-W3-90ms-RKSJ-H
-    version: '1.01'
-    copyright: Copyright(C)2010 MOTOYA CO.,LTD.
+  - family_name: Kosugi Maru
+    type: Regular
+    full_name: Kosugi Maru Regular
+    post_script_name: KosugiMaru-Regular
+    version: '4.002'
+    copyright: Copyright 2010 The Kosugi Maru Project Authors \(https://github.com/googlefonts/kosugi-maru\)
     font: KosugiMaru-Regular.ttf
 extract: {}
-copyright: Copyright(C)2010 MOTOYA CO.,LTD.
-license_url: http://www.apache.org/licenses/LICENSE-2.0
+copyright: Copyright 2010 The Kosugi Maru Project Authors \(https://github.com/googlefonts/kosugi-maru\)
+license_url: https://www.apache.org/licenses/LICENSE-2.0
 open_license: |-
   Apache License
                              Version 2.0, January 2004
@@ -223,4 +222,4 @@ open_license: |-
      See the License for the specific language governing permissions and
      limitations under the License.
 digest: 19df568522f3c80b32f28ec6b2b280db8fc9ac8e0ba7675eb5e436404ce348ba
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

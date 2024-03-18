@@ -1,12 +1,11 @@
 ---
-name: Big Shoulders Stencil Text
 description: Big Shoulders Stencil Text
 homepage: http://xotype.co
 resources:
   Big_Shoulders_Stencil_Text.zip:
     urls:
     - https://fonts.google.com/download?family=Big%20Shoulders%20Stencil%20Text
-    file_size: 570109
+    file_size: 571715
 fonts:
 - name: Big Shoulders Stencil Text
   styles:
@@ -14,14 +13,14 @@ fonts:
     type: Bold
     full_name: Big Shoulders Stencil Text Bold
     post_script_name: BigShouldersStencilText-Bold
-    version: '1.000'
+    version: '2.001'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersStencilText-Bold.ttf
   - family_name: Big Shoulders Stencil Text
     type: Regular
     full_name: Big Shoulders Stencil Text Regular
     post_script_name: BigShouldersStencilText-Regular
-    version: '1.000'
+    version: '2.001'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersStencilText-Regular.ttf
 - name: Big Shoulders Stencil Text Black
@@ -32,7 +31,7 @@ fonts:
     preferred_type: Black
     full_name: Big Shoulders Stencil Text Black
     post_script_name: BigShouldersStencilText-Black
-    version: '1.000'
+    version: '2.001'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersStencilText-Black.ttf
 - name: Big Shoulders Stencil Text ExtraBold
@@ -43,9 +42,20 @@ fonts:
     preferred_type: ExtraBold
     full_name: Big Shoulders Stencil Text ExtraBold
     post_script_name: BigShouldersStencilText-ExtraBold
-    version: '1.000'
+    version: '2.001'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersStencilText-ExtraBold.ttf
+- name: Big Shoulders Stencil Text ExtraLight
+  styles:
+  - family_name: Big Shoulders Stencil Text ExtraLight
+    type: Regular
+    preferred_family_name: Big Shoulders Stencil Text
+    preferred_type: ExtraLight
+    full_name: Big Shoulders Stencil Text ExtraLight
+    post_script_name: BigShouldersStencilText-ExtraLight
+    version: '2.001'
+    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
+    font: BigShouldersStencilText-ExtraLight.ttf
 - name: Big Shoulders Stencil Text Light
   styles:
   - family_name: Big Shoulders Stencil Text Light
@@ -54,7 +64,7 @@ fonts:
     preferred_type: Light
     full_name: Big Shoulders Stencil Text Light
     post_script_name: BigShouldersStencilText-Light
-    version: '1.000'
+    version: '2.001'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersStencilText-Light.ttf
 - name: Big Shoulders Stencil Text Medium
@@ -65,7 +75,7 @@ fonts:
     preferred_type: Medium
     full_name: Big Shoulders Stencil Text Medium
     post_script_name: BigShouldersStencilText-Medium
-    version: '1.000'
+    version: '2.001'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersStencilText-Medium.ttf
 - name: Big Shoulders Stencil Text SemiBold
@@ -76,7 +86,7 @@ fonts:
     preferred_type: SemiBold
     full_name: Big Shoulders Stencil Text SemiBold
     post_script_name: BigShouldersStencilText-SemiBold
-    version: '1.000'
+    version: '2.001'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersStencilText-SemiBold.ttf
 - name: Big Shoulders Stencil Text Thin
@@ -87,7 +97,16 @@ fonts:
     preferred_type: Thin
     full_name: Big Shoulders Stencil Text Thin
     post_script_name: BigShouldersStencilText-Thin
-    version: '1.000'
+    version: '2.001'
+    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
+    font: BigShouldersStencilText-VariableFont_wght.ttf
+  - family_name: Big Shoulders Stencil Text Thin
+    type: Regular
+    preferred_family_name: Big Shoulders Stencil Text
+    preferred_type: Thin
+    full_name: Big Shoulders Stencil Text Thin
+    post_script_name: BigShouldersStencilText-Thin
+    version: '2.001'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersStencilText-Thin.ttf
 extract: {}
@@ -98,7 +117,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -188,4 +207,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: f552c8db6932c15ff627451c18e9b5c14c050e367dacc546a8c44e7c4df5a669
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

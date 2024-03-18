@@ -1,27 +1,25 @@
 ---
-name: Jomhuria
 description: Jomhuria
 homepage: https://github.com/Tarobish/Jomhuria
 resources:
   Jomhuria.zip:
     urls:
     - https://fonts.google.com/download?family=Jomhuria
-    sha256: 45926ac5c9474dff6263ae2d9ad8cb51d7ffa1c9c6c53e665f1eaddb7bb78b89
-    file_size: 86063
+    sha256: 85ab4d4268587c918e339b139dfc67ce1492308f3a05a3d2f66a4c274d46a212
+    file_size: 85623
 fonts:
 - name: Jomhuria
   styles:
   - family_name: Jomhuria
     type: Regular
-    full_name: Jomhuria Regular
+    full_name: Jomhuria
     post_script_name: Jomhuria-Regular
-    version: '1.0010'
+    version: '1.0000'
     copyright: Copyright 2015 KB-Studio (www.k-b-studio.com|tarobish@gmail.com). Copyright
       2015 Lasse Fister (lasse@graphicore.de). Copyright 2015 Sorkin Type Co (www.sorkintype.com).
       Copyright 2010-2015 Khaled Hosny (khaledhosny@eglug.org).
     font: Jomhuria-Regular.ttf
-extract:
-  format: zip
+extract: {}
 copyright: Copyright 2015 KB-Studio (www.k-b-studio.com|tarobish@gmail.com). Copyright
   2015 Lasse Fister (lasse@graphicore.de). Copyright 2015 Sorkin Type Co (www.sorkintype.com).
   Copyright 2010-2015 Khaled Hosny (khaledhosny@eglug.org).
@@ -31,7 +29,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -120,3 +118,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 01cc8c8727cdc4446a16b769d18057efc2ae3091498f88796cc0c5df279c3215
+command: import google --formulas_path Formulas -n 5000 --no-cache

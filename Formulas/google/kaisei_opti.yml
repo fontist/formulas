@@ -1,13 +1,12 @@
 ---
-name: Kaisei Opti
 description: Kaisei Opti
 homepage: https://font-kai.jp
 resources:
   Kaisei_Opti.zip:
     urls:
     - https://fonts.google.com/download?family=Kaisei%20Opti
-    sha256: c290a63b7266055e8c6acc8ea04d5b094a533cb43480cd0efe43d1cba59d8db2
-    file_size: 7925636
+    sha256: 9035db20fea85c696b22b4e3a9a92a5fee55ea164945be5ef900a041786dbce2
+    file_size: 7919981
 fonts:
 - name: Kaisei Opti
   styles:
@@ -15,14 +14,14 @@ fonts:
     type: Bold
     full_name: Kaisei Opti Bold
     post_script_name: KaiseiOpti-Bold
-    version: 5.002; ttfautohint (v1.8.3)
+    version: '5.003'
     copyright: Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)
     font: KaiseiOpti-Bold.ttf
   - family_name: Kaisei Opti
     type: Regular
     full_name: Kaisei Opti Regular
     post_script_name: KaiseiOpti-Regular
-    version: 5.002; ttfautohint (v1.8.3)
+    version: '5.003'
     copyright: Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)
     font: KaiseiOpti-Regular.ttf
 - name: Kaisei Opti Medium
@@ -33,7 +32,7 @@ fonts:
     preferred_type: Medium
     full_name: Kaisei Opti Medium
     post_script_name: KaiseiOpti-Medium
-    version: 5.002; ttfautohint (v1.8.3)
+    version: '5.003'
     copyright: Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)
     font: KaiseiOpti-Medium.ttf
 extract: {}
@@ -44,7 +43,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -134,4 +133,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 956ab7ff645cee23b90f8cb675891cefd5e189bb0dcb5b2fbf39c1cf91ee39d2
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

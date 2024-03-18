@@ -5,8 +5,8 @@ resources:
   Aubrey.zip:
     urls:
     - https://fonts.google.com/download?family=Aubrey
-    sha256: 7040a8a8fcaf69426d53d19e071d0c7249ac783dd311d34c2581f4038b8c6965
-    file_size: 34644
+    sha256: 71c42b8e5c979b065b3268ae8b2d3d830706ed569bd43105722948ab87adf407
+    file_size: 27466
 fonts:
 - name: Aubrey
   styles:
@@ -14,20 +14,18 @@ fonts:
     type: Regular
     full_name: Aubrey Regular
     post_script_name: Aubrey-Regular
-    version: '1.001'
-    copyright: Copyright (c) 2011 by Gayaneh Bagdasaryan | Cyreal.org. All rights
-      reserved.
+    version: 1.102; ttfautohint (v1.8.3)
+    copyright: Copyright 2011 The Aubrey Project Authors (https://github.com/cyrealtype/Aubrey)
     font: Aubrey-Regular.ttf
 extract: {}
-copyright: Copyright (c) 2011 by Gayaneh Bagdasaryan | Cyreal.org. All rights reserved.
+copyright: Copyright 2011 The Aubrey Project Authors (https://github.com/cyrealtype/Aubrey)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011, Cyreal (www.cyreal.org),
-  with Reserved Font Name "Aubrey".
+  Copyright 2011 The Aubrey Project Authors (https://github.com/cyrealtype/Aubrey)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -117,4 +115,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 25c912769574d9524b9d8b3ae0f6330e696ebe1eb73d96e911fd744f36f75b12
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

@@ -1,48 +1,15 @@
 ---
-name: Martel
 description: Martel
 homepage: http://www.typeoff.de
 resources:
   Martel.zip:
     urls:
     - https://fonts.google.com/download?family=Martel
-    sha256: c969913e586887e96cc093adcc4dcc9367f5d0397b2106cc39861e91c9fbd60f
-    file_size: 613445
+    sha256: b9c93cd07bbbbf14244d7974df1c5b1f888576dfd819f11aa7057c6d5312824c
+    file_size: 615205
 fonts:
 - name: Martel
   styles:
-  - family_name: Martel
-    type: UltraLight
-    full_name: Martel UltraLight
-    post_script_name: Martel-UltraLight
-    version: 1.001; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
-      -W -c
-    copyright: Copyright (c) 2015 Dan Reynolds.
-    font: Martel-UltraLight.ttf
-  - family_name: Martel
-    type: Light
-    full_name: Martel Light
-    post_script_name: Martel-Light
-    version: 1.001; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
-      -W -c
-    copyright: Copyright (c) 2015 Dan Reynolds.
-    font: Martel-Light.ttf
-  - family_name: Martel
-    type: Regular
-    full_name: Martel
-    post_script_name: Martel-Regular
-    version: 1.001; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
-      -W -c
-    copyright: Copyright (c) 2015 Dan Reynolds.
-    font: Martel-Regular.ttf
-  - family_name: Martel
-    type: DemiBold
-    full_name: Martel DemiBold
-    post_script_name: Martel-DemiBold
-    version: 1.001; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
-      -W -c
-    copyright: Copyright (c) 2015 Dan Reynolds.
-    font: Martel-DemiBold.ttf
   - family_name: Martel
     type: Bold
     full_name: Martel Bold
@@ -52,32 +19,82 @@ fonts:
     copyright: Copyright (c) 2015 Dan Reynolds.
     font: Martel-Bold.ttf
   - family_name: Martel
-    type: ExtraBold
+    type: Regular
+    full_name: Martel
+    post_script_name: Martel-Regular
+    version: 1.001; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
+      -W -c
+    copyright: Copyright (c) 2015 Dan Reynolds.
+    font: Martel-Regular.ttf
+- name: Martel DemiBold
+  styles:
+  - family_name: Martel DemiBold
+    type: Regular
+    preferred_family_name: Martel
+    preferred_type: DemiBold
+    full_name: Martel DemiBold
+    post_script_name: Martel-DemiBold
+    version: 1.001; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
+      -W -c
+    copyright: Copyright (c) 2015 Dan Reynolds.
+    font: Martel-SemiBold.ttf
+- name: Martel ExtraBold
+  styles:
+  - family_name: Martel ExtraBold
+    type: Regular
+    preferred_family_name: Martel
+    preferred_type: ExtraBold
     full_name: Martel ExtraBold
     post_script_name: Martel-ExtraBold
     version: 1.001; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
       -W -c
     copyright: Copyright (c) 2015 Dan Reynolds.
     font: Martel-ExtraBold.ttf
-  - family_name: Martel
-    type: Heavy
+- name: Martel Heavy
+  styles:
+  - family_name: Martel Heavy
+    type: Regular
+    preferred_family_name: Martel
+    preferred_type: Heavy
     full_name: Martel Heavy
     post_script_name: Martel-Heavy
     version: 1.001; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
       -W -c
     copyright: Copyright (c) 2015 Dan Reynolds.
-    font: Martel-Heavy.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2015 Dan Reynolds. Copyright (c) 2010-2015, Sorkin Type Co
-  (www.sorkintype.com) with Reserved Font Name 'Merriweather'
+    font: Martel-Black.ttf
+- name: Martel Light
+  styles:
+  - family_name: Martel Light
+    type: Regular
+    preferred_family_name: Martel
+    preferred_type: Light
+    full_name: Martel Light
+    post_script_name: Martel-Light
+    version: 1.001; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
+      -W -c
+    copyright: Copyright (c) 2015 Dan Reynolds.
+    font: Martel-Light.ttf
+- name: Martel UltraLight
+  styles:
+  - family_name: Martel UltraLight
+    type: Regular
+    preferred_family_name: Martel
+    preferred_type: UltraLight
+    full_name: Martel UltraLight
+    post_script_name: Martel-UltraLight
+    version: 1.001; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
+      -W -c
+    copyright: Copyright (c) 2015 Dan Reynolds.
+    font: Martel-ExtraLight.ttf
+extract: {}
+copyright: Copyright (c) 2015 Dan Reynolds.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2015 Dan Reynolds. Copyright (c) 2010-2015, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -166,3 +183,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 3285906a8840d112270acde27dac3bb9e4e51fa0338fba312e84add59bbc4bfe
+command: import google --formulas_path Formulas -n 5000 --no-cache

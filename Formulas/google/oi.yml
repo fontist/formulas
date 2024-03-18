@@ -1,13 +1,12 @@
 ---
-name: Oi
 description: Oi
 homepage: www.kostasbartsokas.gr
 resources:
   Oi.zip:
     urls:
     - https://fonts.google.com/download?family=Oi
-    sha256: f0371c053b296e4a89a85a049cf0cf37612cb661e63c47b0c99595ae93eb9f21
-    file_size: 131668
+    sha256: 032e883126c09f40ec244baea9bdd731d76d1f572f2d939660b36c3ad1ca2680
+    file_size: 131469
 fonts:
 - name: Oi
   styles:
@@ -15,7 +14,7 @@ fonts:
     type: Regular
     full_name: Oi Regular
     post_script_name: Oi-Regular
-    version: '2.000'
+    version: '3.000'
     copyright: Copyright 2019 The Oi Project Authors (github.com/kosbarts/Oi)
     font: Oi-Regular.ttf
 extract: {}
@@ -26,7 +25,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -116,4 +115,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: bb06b6546ceab6ec2ed396f0dd364d26b95edb339cd1166886bdfa8af2238824
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

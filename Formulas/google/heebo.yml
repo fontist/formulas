@@ -1,11 +1,11 @@
 ---
 description: Heebo
-homepage: meirsadan.com
+homepage: ezertypehouse.com
 resources:
   Heebo.zip:
     urls:
     - https://fonts.google.com/download?family=Heebo
-    file_size: 245898
+    file_size: 374912
 fonts:
 - name: Heebo
   styles:
@@ -13,21 +13,21 @@ fonts:
     type: Bold
     full_name: Heebo Bold
     post_script_name: Heebo-Bold
-    version: '3.001'
+    version: '3.100'
     copyright: Copyright 2014 The Heebo Project Authors (https://github.com/OdedEzer/heebo)
     font: Heebo-Bold.ttf
   - family_name: Heebo
     type: Regular
     full_name: Heebo Regular
     post_script_name: Heebo-Regular
-    version: '3.001'
+    version: '3.100'
     copyright: Copyright 2014 The Heebo Project Authors (https://github.com/OdedEzer/heebo)
     font: Heebo-VariableFont_wght.ttf
   - family_name: Heebo
     type: Regular
     full_name: Heebo Regular
     post_script_name: Heebo-Regular
-    version: '3.001'
+    version: '3.100'
     copyright: Copyright 2014 The Heebo Project Authors (https://github.com/OdedEzer/heebo)
     font: Heebo-Regular.ttf
 - name: Heebo Black
@@ -38,7 +38,7 @@ fonts:
     preferred_type: Black
     full_name: Heebo Black
     post_script_name: Heebo-Black
-    version: '3.001'
+    version: '3.100'
     copyright: Copyright 2014 The Heebo Project Authors (https://github.com/OdedEzer/heebo)
     font: Heebo-Black.ttf
 - name: Heebo ExtraBold
@@ -49,7 +49,7 @@ fonts:
     preferred_type: ExtraBold
     full_name: Heebo ExtraBold
     post_script_name: Heebo-ExtraBold
-    version: '3.001'
+    version: '3.100'
     copyright: Copyright 2014 The Heebo Project Authors (https://github.com/OdedEzer/heebo)
     font: Heebo-ExtraBold.ttf
 - name: Heebo ExtraLight
@@ -60,7 +60,7 @@ fonts:
     preferred_type: ExtraLight
     full_name: Heebo ExtraLight
     post_script_name: Heebo-ExtraLight
-    version: '3.001'
+    version: '3.100'
     copyright: Copyright 2014 The Heebo Project Authors (https://github.com/OdedEzer/heebo)
     font: Heebo-ExtraLight.ttf
 - name: Heebo Light
@@ -71,7 +71,7 @@ fonts:
     preferred_type: Light
     full_name: Heebo Light
     post_script_name: Heebo-Light
-    version: '3.001'
+    version: '3.100'
     copyright: Copyright 2014 The Heebo Project Authors (https://github.com/OdedEzer/heebo)
     font: Heebo-Light.ttf
 - name: Heebo Medium
@@ -82,7 +82,7 @@ fonts:
     preferred_type: Medium
     full_name: Heebo Medium
     post_script_name: Heebo-Medium
-    version: '3.001'
+    version: '3.100'
     copyright: Copyright 2014 The Heebo Project Authors (https://github.com/OdedEzer/heebo)
     font: Heebo-Medium.ttf
 - name: Heebo SemiBold
@@ -93,7 +93,7 @@ fonts:
     preferred_type: SemiBold
     full_name: Heebo SemiBold
     post_script_name: Heebo-SemiBold
-    version: '3.001'
+    version: '3.100'
     copyright: Copyright 2014 The Heebo Project Authors (https://github.com/OdedEzer/heebo)
     font: Heebo-SemiBold.ttf
 - name: Heebo Thin
@@ -104,18 +104,18 @@ fonts:
     preferred_type: Thin
     full_name: Heebo Thin
     post_script_name: Heebo-Thin
-    version: '3.001'
+    version: '3.100'
     copyright: Copyright 2014 The Heebo Project Authors (https://github.com/OdedEzer/heebo)
     font: Heebo-Thin.ttf
 extract: {}
 copyright: Copyright 2014 The Heebo Project Authors (https://github.com/OdedEzer/heebo)
-license_url: http://scripts.sil.org/OFL
+license_url: https://scripts.sil.org/OFL
 open_license: |-
   Copyright 2014 The Heebo Project Authors (https://github.com/OdedEzer/heebo)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -205,4 +205,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: a412cf819b7f6e1f8c9bc487dbef8981219b7a7bcf23b26d032fabea2c19f24a
-command: import google --formulas_path Formulas -n 50
+command: import google --formulas_path Formulas -n 5000 --no-cache

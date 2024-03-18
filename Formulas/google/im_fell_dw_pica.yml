@@ -1,29 +1,15 @@
 ---
-name: IM Fell DW Pica
 description: IM Fell DW Pica
 homepage: www.iginomarini.com
 resources:
-  IMFellDWPica.zip:
+  IM_Fell_DW_Pica.zip:
     urls:
     - https://fonts.google.com/download?family=IM%20Fell%20DW%20Pica
-    sha256: 847aaad158f011c76353e12492f2d959596a0a595eb8ba76241cf61d6f9b3cd2
-    file_size: 260702
+    sha256: 187496c7ab9d32fb16f49401f8217d657e8508f17b16549ab47bc7168b48f0ed
+    file_size: 260701
 fonts:
-- name: IM Fell DW Pica
+- name: IM FELL DW Pica
   styles:
-  - family_name: IM FELL DW Pica
-    type: Regular
-    full_name: IM FELL DW Pica Roman
-    post_script_name: IM_FELL_DW_Pica_Roman
-    version: '3.00'
-    description: Fell Types - De Walpergen Pica size - Roman . Typeface from the  types
-      bequeathed in 1686 to the University of Oxford by John Fell. Originally cut
-      by Peter De Walpergen. Acquisition in 1692 (after the bequest). To be printed
-      at 12.5 points to match the original size. Autospaced and autokerned using iKern©
-      developed by Igino Marini.
-    copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name
-      IM FELL DW Pica Roman"
-    font: IMFePIrm28P.ttf
   - family_name: IM FELL DW Pica
     type: Italic
     full_name: IM FELL DW Pica Italic
@@ -36,18 +22,31 @@ fonts:
       developed by Igino Marini.
     copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name
       IM FELL DW Pica Italic"
-    font: IMFePIit28P.ttf
-extract:
-  format: zip
-copyright: "© 2007 Igino Marini (www.iginomarini.com mail@iginomarini.com) With Reserved
-  Font Name IM FELL DW Pica Roman"
+    font: IMFellDWPica-Italic.ttf
+  - family_name: IM FELL DW Pica
+    type: Regular
+    preferred_family_name: IM FELL DW Pica
+    full_name: IM FELL DW Pica Roman
+    post_script_name: IM_FELL_DW_Pica_Roman
+    version: '3.00'
+    description: Fell Types - De Walpergen Pica size - Roman . Typeface from the  types
+      bequeathed in 1686 to the University of Oxford by John Fell. Originally cut
+      by Peter De Walpergen. Acquisition in 1692 (after the bequest). To be printed
+      at 12.5 points to match the original size. Autospaced and autokerned using iKern©
+      developed by Igino Marini.
+    copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name
+      IM FELL DW Pica Roman"
+    font: IMFellDWPica-Regular.ttf
+extract: {}
+copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name IM FELL
+  DW Pica Italic"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Igino Marini (mail@iginomarini.com)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -136,3 +135,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 5afeb92ae1ebb68abe23c1a649ffc7b5a886bc7cf741a26be4b53ddd0584a23a
+command: import google --formulas_path Formulas -n 5000 --no-cache

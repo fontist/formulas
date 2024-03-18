@@ -1,12 +1,11 @@
 ---
-name: Baloo Tamma 2
 description: Baloo Tamma 2
 homepage: www.ektype.in
 resources:
   Baloo_Tamma_2.zip:
     urls:
     - https://fonts.google.com/download?family=Baloo%20Tamma%202
-    file_size: 767089
+    file_size: 764361
 fonts:
 - name: Baloo Tamma 2
   styles:
@@ -14,14 +13,21 @@ fonts:
     type: Bold
     full_name: Baloo Tamma 2 Bold
     post_script_name: BalooTamma2-Bold
-    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
+    version: '1.700'
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
     font: BalooTamma2-Bold.ttf
   - family_name: Baloo Tamma 2
     type: Regular
     full_name: Baloo Tamma 2 Regular
     post_script_name: BalooTamma2-Regular
-    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
+    version: '1.700'
+    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
+    font: BalooTamma2-VariableFont_wght.ttf
+  - family_name: Baloo Tamma 2
+    type: Regular
+    full_name: Baloo Tamma 2 Regular
+    post_script_name: BalooTamma2-Regular
+    version: '1.700'
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
     font: BalooTamma2-Regular.ttf
 - name: Baloo Tamma 2 ExtraBold
@@ -32,7 +38,7 @@ fonts:
     preferred_type: ExtraBold
     full_name: Baloo Tamma 2 ExtraBold
     post_script_name: BalooTamma2-ExtraBold
-    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
+    version: '1.700'
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
     font: BalooTamma2-ExtraBold.ttf
 - name: Baloo Tamma 2 Medium
@@ -43,7 +49,7 @@ fonts:
     preferred_type: Medium
     full_name: Baloo Tamma 2 Medium
     post_script_name: BalooTamma2-Medium
-    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
+    version: '1.700'
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
     font: BalooTamma2-Medium.ttf
 - name: Baloo Tamma 2 SemiBold
@@ -54,18 +60,18 @@ fonts:
     preferred_type: SemiBold
     full_name: Baloo Tamma 2 SemiBold
     post_script_name: BalooTamma2-SemiBold
-    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
+    version: '1.700'
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
     font: BalooTamma2-SemiBold.ttf
 extract: {}
 copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2015 Ek Type (www.ektype.in)
+  Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -155,4 +161,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 965cd88bbf3f6600db7933319cfab01e39bb6b3e500dda582f5ae2bc732ba8f1
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

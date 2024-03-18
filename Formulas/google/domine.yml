@@ -1,15 +1,24 @@
 ---
-name: Domine
 description: Domine
 homepage: www.impallari.com
 resources:
   Domine.zip:
     urls:
     - https://fonts.google.com/download?family=Domine
-    file_size: 199101
+    file_size: 200102
 fonts:
 - name: Domine
   styles:
+  - family_name: Domine
+    type: Bold
+    full_name: Domine Bold
+    post_script_name: Domine-Bold
+    version: '2.000'
+    description: Domine was designed, tested and optimized for body text on the web.
+      It shines at 14 and 16 px. Domine is a perfect choice for newspapers or magazines
+      websites, where text is the main focus.
+    copyright: Copyright 2020 The Domine Project Authors (https://github.com/googlefonts/domine)
+    font: Domine-Bold.ttf
   - family_name: Domine
     type: Regular
     full_name: Domine Regular
@@ -20,8 +29,45 @@ fonts:
       websites, where text is the main focus.
     copyright: Copyright 2020 The Domine Project Authors (https://github.com/googlefonts/domine)
     font: Domine-VariableFont_wght.ttf
-extract:
-  format: zip
+  - family_name: Domine
+    type: Regular
+    full_name: Domine Regular
+    post_script_name: Domine-Regular
+    version: '2.000'
+    description: Domine was designed, tested and optimized for body text on the web.
+      It shines at 14 and 16 px. Domine is a perfect choice for newspapers or magazines
+      websites, where text is the main focus.
+    copyright: Copyright 2020 The Domine Project Authors (https://github.com/googlefonts/domine)
+    font: Domine-Regular.ttf
+- name: Domine Medium
+  styles:
+  - family_name: Domine Medium
+    type: Regular
+    preferred_family_name: Domine
+    preferred_type: Medium
+    full_name: Domine Medium
+    post_script_name: Domine-Medium
+    version: '2.000'
+    description: Domine was designed, tested and optimized for body text on the web.
+      It shines at 14 and 16 px. Domine is a perfect choice for newspapers or magazines
+      websites, where text is the main focus.
+    copyright: Copyright 2020 The Domine Project Authors (https://github.com/googlefonts/domine)
+    font: Domine-Medium.ttf
+- name: Domine SemiBold
+  styles:
+  - family_name: Domine SemiBold
+    type: Regular
+    preferred_family_name: Domine
+    preferred_type: SemiBold
+    full_name: Domine SemiBold
+    post_script_name: Domine-SemiBold
+    version: '2.000'
+    description: Domine was designed, tested and optimized for body text on the web.
+      It shines at 14 and 16 px. Domine is a perfect choice for newspapers or magazines
+      websites, where text is the main focus.
+    copyright: Copyright 2020 The Domine Project Authors (https://github.com/googlefonts/domine)
+    font: Domine-SemiBold.ttf
+extract: {}
 copyright: Copyright 2020 The Domine Project Authors (https://github.com/googlefonts/domine)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -33,7 +79,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -122,3 +168,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: b2de27d9af6494cb7323489e1ab6a6206fd9bd28b120d3ad56cbe5ce1075dc4b
+command: import google --formulas_path Formulas -n 5000 --no-cache

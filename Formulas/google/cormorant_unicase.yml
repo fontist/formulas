@@ -5,8 +5,8 @@ resources:
   Cormorant_Unicase.zip:
     urls:
     - https://fonts.google.com/download?family=Cormorant%20Unicase
-    sha256: f53f1a00ee75e306dd6cded0ed246863b17f29e44e0b83fa9ca681f1c10afe2e
-    file_size: 666230
+    sha256: c5cb6e343097c44f21d0efd0b0a9b452e80c1cb30c35419234acc72234a4a60b
+    file_size: 745371
 fonts:
 - name: Cormorant Unicase
   styles:
@@ -14,14 +14,14 @@ fonts:
     type: Bold
     full_name: Cormorant Unicase Bold
     post_script_name: CormorantUnicase-Bold
-    version: '3.303'
+    version: '4.000'
     copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
     font: CormorantUnicase-Bold.ttf
   - family_name: Cormorant Unicase
     type: Regular
     full_name: Cormorant Unicase Regular
     post_script_name: CormorantUnicase-Regular
-    version: '3.303'
+    version: '4.000'
     copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
     font: CormorantUnicase-Regular.ttf
 - name: Cormorant Unicase Light
@@ -32,7 +32,7 @@ fonts:
     preferred_type: Light
     full_name: Cormorant Unicase Light
     post_script_name: CormorantUnicase-Light
-    version: '3.303'
+    version: '4.000'
     copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
     font: CormorantUnicase-Light.ttf
 - name: Cormorant Unicase Medium
@@ -43,7 +43,7 @@ fonts:
     preferred_type: Medium
     full_name: Cormorant Unicase Medium
     post_script_name: CormorantUnicase-Medium
-    version: '3.303'
+    version: '4.000'
     copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
     font: CormorantUnicase-Medium.ttf
 - name: Cormorant Unicase SemiBold
@@ -54,18 +54,18 @@ fonts:
     preferred_type: SemiBold
     full_name: Cormorant Unicase SemiBold
     post_script_name: CormorantUnicase-SemiBold
-    version: '3.303'
+    version: '4.000'
     copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
     font: CormorantUnicase-SemiBold.ttf
 extract: {}
 copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
-license_url: http://scripts.sil.org/OFL
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2015, Christian Thalmann and the Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
+  Copyright 2015 the Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -155,4 +155,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 93212e9697fb36b9908bbe831e5b74775507122e9c117f370fb00c997c69d123
-command: import google --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

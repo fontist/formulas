@@ -1,13 +1,12 @@
 ---
-name: Pangolin
 description: Pangolin
 homepage: http://fonts.google.com
 resources:
   Pangolin.zip:
     urls:
     - https://fonts.google.com/download?family=Pangolin
-    sha256: ad4cda6b559393c5229b5e8cc3723be0e7ab564db7a33ac841328a7287624fae
-    file_size: 233312
+    sha256: 1653d53999051a11cd850351709658470c5fce7f79ca35f2681a21b2e5fbeeeb
+    file_size: 233346
 fonts:
 - name: Pangolin
   styles:
@@ -15,11 +14,10 @@ fonts:
     type: Regular
     full_name: Pangolin Regular
     post_script_name: Pangolin-Regular
-    version: '1.101'
+    version: '1.100'
     copyright: Copyright 2016 The Pangolin Project Authors (https://github.com/googlefonts/pangolin)
     font: Pangolin-Regular.ttf
-extract:
-  format: zip
+extract: {}
 copyright: Copyright 2016 The Pangolin Project Authors (https://github.com/googlefonts/pangolin)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -27,7 +25,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -116,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 8f44f7cf88a713435eab18300ca31236dc2866aa735d10b7390701f339cc4644
+command: import google --formulas_path Formulas -n 5000 --no-cache

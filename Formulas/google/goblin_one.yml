@@ -2,11 +2,11 @@
 description: Goblin One
 homepage: www.sorkintype.com
 resources:
-  GoblinOne.zip:
+  Goblin_One.zip:
     urls:
     - https://fonts.google.com/download?family=Goblin%20One
-    sha256: 15a1311dee003188a30387a10c4d5832f797b40273b6468b21adde03c225f325
-    file_size: 19769
+    sha256: a95876ce9aa318638d2e5369a83d5b933676d715f313ce7a8123ec8c85378157
+    file_size: 19768
 fonts:
 - name: Goblin One
   styles:
@@ -22,12 +22,9 @@ fonts:
       fun. Goblin is suitable for use in medium to large sizes including headlines.
       This font was made specifically to be web type.
     copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
-    font: GoblinOne.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)
-  with Reserved Font Name "Goblin". This Font Software is licensed under the SIL Open
-  Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    font: GoblinOne-Regular.ttf
+extract: {}
+copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
@@ -35,7 +32,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -124,3 +121,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 130a90967584567147dfc8bf9cde0638b8d637a47c1bd5a72ce7caca2fbbb7dc
+command: import google --formulas_path Formulas -n 5000 --no-cache

@@ -5,7 +5,7 @@ resources:
   Baloo_2.zip:
     urls:
     - https://fonts.google.com/download?family=Baloo%202
-    file_size: 1300650
+    file_size: 1044755
 fonts:
 - name: Baloo 2
   styles:
@@ -13,14 +13,21 @@ fonts:
     type: Bold
     full_name: Baloo 2 Bold
     post_script_name: Baloo2-Bold
-    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
+    version: '1.700'
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
     font: Baloo2-Bold.ttf
   - family_name: Baloo 2
     type: Regular
     full_name: Baloo 2 Regular
     post_script_name: Baloo2-Regular
-    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
+    version: '1.700'
+    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
+    font: Baloo2-VariableFont_wght.ttf
+  - family_name: Baloo 2
+    type: Regular
+    full_name: Baloo 2 Regular
+    post_script_name: Baloo2-Regular
+    version: '1.700'
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
     font: Baloo2-Regular.ttf
 - name: Baloo 2 ExtraBold
@@ -31,7 +38,7 @@ fonts:
     preferred_type: ExtraBold
     full_name: Baloo 2 ExtraBold
     post_script_name: Baloo2-ExtraBold
-    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
+    version: '1.700'
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
     font: Baloo2-ExtraBold.ttf
 - name: Baloo 2 Medium
@@ -42,7 +49,7 @@ fonts:
     preferred_type: Medium
     full_name: Baloo 2 Medium
     post_script_name: Baloo2-Medium
-    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
+    version: '1.700'
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
     font: Baloo2-Medium.ttf
 - name: Baloo 2 SemiBold
@@ -53,18 +60,18 @@ fonts:
     preferred_type: SemiBold
     full_name: Baloo 2 SemiBold
     post_script_name: Baloo2-SemiBold
-    version: 1.640;hotconv 1.0.111;makeotfexe 2.5.65597; ttfautohint (v1.8.3)
+    version: '1.700'
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
     font: Baloo2-SemiBold.ttf
 extract: {}
 copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2015 Ek Type (www.ektype.in)
+  Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -154,4 +161,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: f7fe984752e9ef2ed0b891976437bde48cf892ee3a2e0a3e7b4ef660a66b66a9
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

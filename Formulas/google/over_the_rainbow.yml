@@ -1,13 +1,11 @@
 ---
-name: Over the Rainbow
 description: Over the Rainbow
-homepage:
 resources:
-  OvertheRainbow.zip:
+  Over_the_Rainbow.zip:
     urls:
     - https://fonts.google.com/download?family=Over%20the%20Rainbow
-    sha256: a736e9fdf9553b56f0b46cc6cc3ae874ad00f092ebecf918cb6ce1218e4636a5
-    file_size: 29515
+    sha256: 4c93aa376c9f35ea56dbc549a1bb83390f03e6b5f718c9f6ca42c1b9ca994e8d
+    file_size: 29588
 fonts:
 - name: Over the Rainbow
   styles:
@@ -17,17 +15,16 @@ fonts:
     post_script_name: OvertheRainbow
     version: 1.002 2010
     copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
-    font: OvertheRainbow.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)
+    font: OvertheRainbow-Regular.ttf
+extract: {}
+copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -116,3 +113,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: f9ca78ca3414348e263a9be021244099cd5fa4cfd791da88eaee5dfbe5a8fa11
+command: import google --formulas_path Formulas -n 5000 --no-cache

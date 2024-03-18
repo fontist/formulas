@@ -1,12 +1,12 @@
 ---
 description: Bad Script
-homepage: http://https://www.behance.net/gaslighttypefoundry
+homepage: http://cyreal.org
 resources:
-  BadScript.zip:
+  Bad_Script.zip:
     urls:
     - https://fonts.google.com/download?family=Bad%20Script
-    sha256: 63ab83f6df273c1b20b178766195fc21c5af1765ed492a2ad5a4b021aa47d2d7
-    file_size: 37575
+    sha256: bf7a9a0f386bce11e39bab3f97b2c8c7bfc06e3c1d4120d7375ebfce2367d679
+    file_size: 37509
 fonts:
 - name: Bad Script
   styles:
@@ -14,19 +14,21 @@ fonts:
     type: Regular
     full_name: Bad Script Regular
     post_script_name: BadScript-Regular
-    version: '2.000'
-    copyright: Copyright 2011 The Bad Script Project Authors (gaslighttypefoundry@gmail.com)
+    version: '1.003'
+    copyright: Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name
+      "Bad Script".
     font: BadScript-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2011 The Bad Script Project Authors (gaslighttypefoundry@gmail.com)
+extract: {}
+copyright: Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name "Bad
+  Script".
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2011 The Bad Script Project Authors (gaslighttypefoundry@gmail.com)
+  Copyright (c) 2011, Cyreal (www.cyreal.org),
+  with Reserved Font Name "Bad Script".
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -115,3 +117,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: b2b2accf282756df7de6a3477036fea2ae3888941121c9fbc710de0be2f31baa
+command: import google --formulas_path Formulas -n 5000 --no-cache

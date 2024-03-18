@@ -1,12 +1,11 @@
 ---
-name: Manrope
 description: Manrope
 homepage: http://gent.media
 resources:
   Manrope.zip:
     urls:
     - https://fonts.google.com/download?family=Manrope
-    file_size: 363757
+    file_size: 363612
 fonts:
 - name: Manrope
   styles:
@@ -14,14 +13,14 @@ fonts:
     type: Bold
     full_name: Manrope Bold
     post_script_name: Manrope-Bold
-    version: '4.501'
+    version: '4.504'
     copyright: Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)
     font: Manrope-Bold.ttf
   - family_name: Manrope
     type: Regular
     full_name: Manrope Regular
     post_script_name: Manrope-Regular
-    version: '4.501'
+    version: '4.504'
     copyright: Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)
     font: Manrope-Regular.ttf
 - name: Manrope ExtraBold
@@ -32,7 +31,7 @@ fonts:
     preferred_type: ExtraBold
     full_name: Manrope ExtraBold
     post_script_name: Manrope-ExtraBold
-    version: '4.501'
+    version: '4.504'
     copyright: Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)
     font: Manrope-ExtraBold.ttf
 - name: Manrope ExtraLight
@@ -43,18 +42,18 @@ fonts:
     preferred_type: ExtraLight
     full_name: Manrope ExtraLight
     post_script_name: Manrope-ExtraLight
-    version: '4.501'
+    version: '4.504'
     copyright: Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)
-    font: Manrope-ExtraLight.ttf
+    font: Manrope-VariableFont_wght.ttf
   - family_name: Manrope ExtraLight
     type: Regular
     preferred_family_name: Manrope
     preferred_type: ExtraLight
     full_name: Manrope ExtraLight
     post_script_name: Manrope-ExtraLight
-    version: '4.501'
+    version: '4.504'
     copyright: Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)
-    font: Manrope-VariableFont_wght.ttf
+    font: Manrope-ExtraLight.ttf
 - name: Manrope Light
   styles:
   - family_name: Manrope Light
@@ -63,7 +62,7 @@ fonts:
     preferred_type: Light
     full_name: Manrope Light
     post_script_name: Manrope-Light
-    version: '4.501'
+    version: '4.504'
     copyright: Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)
     font: Manrope-Light.ttf
 - name: Manrope Medium
@@ -74,7 +73,7 @@ fonts:
     preferred_type: Medium
     full_name: Manrope Medium
     post_script_name: Manrope-Medium
-    version: '4.501'
+    version: '4.504'
     copyright: Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)
     font: Manrope-Medium.ttf
 - name: Manrope SemiBold
@@ -85,18 +84,18 @@ fonts:
     preferred_type: SemiBold
     full_name: Manrope SemiBold
     post_script_name: Manrope-SemiBold
-    version: '4.501'
+    version: '4.504'
     copyright: Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)
     font: Manrope-SemiBold.ttf
 extract: {}
 copyright: Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2020 The Manrope Project Authors (https://github.com/sharanda/manrope)
+  Copyright 2018 The Manrope Project Authors (https://github.com/sharanda/manrope)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -186,4 +185,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: fda0465a3937e85ea5ae3841fa5ff3c2f251e10ec92ee90c02e150de62af6ddf
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

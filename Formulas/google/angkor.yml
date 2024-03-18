@@ -1,12 +1,11 @@
 ---
-name: Angkor
 description: Angkor
 resources:
   Angkor.zip:
     urls:
     - https://fonts.google.com/download?family=Angkor
-    sha256: 78f7677f86adeacee0da7673d09f63a23e0d2a9120eb56a06159541b429ea897
-    file_size: 38775
+    sha256: 7177bcc4c78291dc91cea146aab245abf3cff79748c6529ee6e0f6e2880c49e4
+    file_size: 38768
 fonts:
 - name: Angkor
   styles:
@@ -14,18 +13,18 @@ fonts:
     type: Regular
     full_name: Angkor Regular
     post_script_name: Angkor-Regular
-    version: 3.10 December 28, 2010
-    copyright: Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
+    version: 8.000; ttfautohint (v1.8.3)
+    copyright: Copyright 2020 The Angkor Project Authors (https://github.com/danhhong/Angkor)
     font: Angkor-Regular.ttf
 extract: {}
-copyright: Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
+copyright: Copyright 2020 The Angkor Project Authors (https://github.com/danhhong/Angkor)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
-  with Reserved Font Name Angkor.
+  Copyright 2020 The Angkor Project Authors (https://github.com/danhhong/Angkor)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -115,4 +114,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 49c59822a6711ad55153ec2cc96862348e735fc6d26efa4c0c6e5f35153f7de2
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

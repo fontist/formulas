@@ -1,12 +1,11 @@
 ---
-name: Kreon
 description: Kreon
 homepage: https://juliapetretta.net, https://elih.blog
 resources:
   Kreon.zip:
     urls:
     - https://fonts.google.com/download?family=Kreon
-    file_size: 168943
+    file_size: 170686
 fonts:
 - name: Kreon
   styles:
@@ -14,22 +13,17 @@ fonts:
     type: Bold
     full_name: Kreon Bold
     post_script_name: Kreon-Bold
-    version: '2.001'
-    copyright: Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon)
+    version: '2.002'
+    copyright: Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon),
+      with Reserved Font Name "Kreon"
     font: Kreon-Bold.ttf
-  - family_name: Kreon
-    type: Light
-    full_name: Kreon Light
-    post_script_name: Kreon-Light
-    version: '2.001'
-    copyright: Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon)
-    font: Kreon-VariableFont_wght.ttf
   - family_name: Kreon
     type: Regular
     full_name: Kreon Regular
     post_script_name: Kreon-Regular
-    version: '2.001'
-    copyright: Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon)
+    version: '2.002'
+    copyright: Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon),
+      with Reserved Font Name "Kreon"
     font: Kreon-Regular.ttf
 - name: Kreon Light
   styles:
@@ -39,8 +33,19 @@ fonts:
     preferred_type: Light
     full_name: Kreon Light
     post_script_name: Kreon-Light
-    version: '2.001'
-    copyright: Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon)
+    version: '2.002'
+    copyright: Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon),
+      with Reserved Font Name "Kreon"
+    font: Kreon-VariableFont_wght.ttf
+  - family_name: Kreon Light
+    type: Regular
+    preferred_family_name: Kreon
+    preferred_type: Light
+    full_name: Kreon Light
+    post_script_name: Kreon-Light
+    version: '2.002'
+    copyright: Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon),
+      with Reserved Font Name "Kreon"
     font: Kreon-Light.ttf
 - name: Kreon Medium
   styles:
@@ -50,8 +55,9 @@ fonts:
     preferred_type: Medium
     full_name: Kreon Medium
     post_script_name: Kreon-Medium
-    version: '2.001'
-    copyright: Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon)
+    version: '2.002'
+    copyright: Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon),
+      with Reserved Font Name "Kreon"
     font: Kreon-Medium.ttf
 - name: Kreon SemiBold
   styles:
@@ -61,18 +67,20 @@ fonts:
     preferred_type: SemiBold
     full_name: Kreon SemiBold
     post_script_name: Kreon-SemiBold
-    version: '2.001'
-    copyright: Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon)
+    version: '2.002'
+    copyright: Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon),
+      with Reserved Font Name "Kreon"
     font: Kreon-SemiBold.ttf
 extract: {}
-copyright: Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon)
+copyright: Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon),
+  with Reserved Font Name "Kreon"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2010 by Julia Petretta (www.juliapetretta.com), with Reserved Font Name "Kreon".
+  Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon), with Reserved Font Name "Kreon".
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -162,4 +170,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 4626750b20d78b1f02601039785986950aa3389a4fdc1733fc2209a1e31deafc
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

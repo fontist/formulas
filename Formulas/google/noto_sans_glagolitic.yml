@@ -5,8 +5,8 @@ resources:
   Noto_Sans_Glagolitic.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Glagolitic
-    sha256: 1d47819ae69ace094f20b55ce90c71637b1e663c0fc2ae1310123e2ee3e6d09f
-    file_size: 46761
+    sha256: 012051e8c4dc31365fe63324122578ee74357b79d736743525ef030414a12228
+    file_size: 47919
 fonts:
 - name: Noto Sans Glagolitic
   styles:
@@ -14,7 +14,7 @@ fonts:
     type: Regular
     full_name: Noto Sans Glagolitic Regular
     post_script_name: NotoSansGlagolitic-Regular
-    version: 2.002; ttfautohint (v1.8.4.7-5d5b)
+    version: 2.004; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/glagolitic)
     font: NotoSansGlagolitic-Regular.ttf
@@ -26,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -116,4 +116,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 4afb3c2f2129c7131c515710b20316dee5367cc64f7c2b7cbb2b7660bce12be8
-command: import google --formulas_path Formulas -n 50
+command: import google --formulas_path Formulas -n 5000 --no-cache

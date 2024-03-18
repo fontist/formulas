@@ -2,11 +2,11 @@
 description: Just Me Again Down Here
 homepage: http://kimberlygeswein.com
 resources:
-  JustMeAgainDownHere.zip:
+  Just_Me_Again_Down_Here.zip:
     urls:
     - https://fonts.google.com/download?family=Just%20Me%20Again%20Down%20Here
-    sha256: 36cdf03b25203dd51205299802b76cca1b38e0e47dc132fe5889985c8a2a1829
-    file_size: 37597
+    sha256: 8151168dfdf1766667d6401673e0836e223c5bfcc0ab9e3fb583e8927c1ad964
+    file_size: 37507
 fonts:
 - name: Just Me Again Down Here
   styles:
@@ -17,18 +17,16 @@ fonts:
     version: 1.002 2007
     description: Copyright (c) 2011 by Kimberly Geswein. All rights reserved.
     copyright: Copyright (c) 2011 by Kimberly Geswein. All rights reserved.
-    font: JustMeAgainDownHere.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by Kimberly Geswein (kimberlygeswein@gmail.com). All
-  rights reserved.
+    font: JustMeAgainDownHere-Regular.ttf
+extract: {}
+copyright: Copyright (c) 2011 by Kimberly Geswein. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -117,3 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 131cb66399b9ca97d0f8801285be292b115ea4a8c6f8066e42ae1691ec3f1f17
+command: import google --formulas_path Formulas -n 5000 --no-cache

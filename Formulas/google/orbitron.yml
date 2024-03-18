@@ -1,12 +1,11 @@
 ---
-name: Orbitron
 description: Orbitron
 homepage: https://www.theleagueofmoveabletype.com/
 resources:
   Orbitron.zip:
     urls:
     - https://fonts.google.com/download?family=Orbitron
-    file_size: 97260
+    file_size: 97837
 fonts:
 - name: Orbitron
   styles:
@@ -14,23 +13,26 @@ fonts:
     type: Bold
     full_name: Orbitron Bold
     post_script_name: Orbitron-Bold
-    version: 2.000; ttfautohint (v1.8.2)
-    copyright: Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron)
+    version: '2.001'
+    copyright: 'Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron),
+      with Reserved Font Name: "Orbitron".'
     font: Orbitron-Bold.ttf
   - family_name: Orbitron
     type: Regular
     full_name: Orbitron Regular
     post_script_name: Orbitron-Regular
-    version: 2.000; ttfautohint (v1.8.2)
-    copyright: Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron)
-    font: Orbitron-Regular.ttf
+    version: '2.001'
+    copyright: 'Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron),
+      with Reserved Font Name: "Orbitron".'
+    font: Orbitron-VariableFont_wght.ttf
   - family_name: Orbitron
     type: Regular
     full_name: Orbitron Regular
     post_script_name: Orbitron-Regular
-    version: 2.000; ttfautohint (v1.8.2)
-    copyright: Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron)
-    font: Orbitron-VariableFont_wght.ttf
+    version: '2.001'
+    copyright: 'Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron),
+      with Reserved Font Name: "Orbitron".'
+    font: Orbitron-Regular.ttf
 - name: Orbitron Black
   styles:
   - family_name: Orbitron Black
@@ -39,8 +41,9 @@ fonts:
     preferred_type: Black
     full_name: Orbitron Black
     post_script_name: Orbitron-Black
-    version: 2.000; ttfautohint (v1.8.2)
-    copyright: Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron)
+    version: '2.001'
+    copyright: 'Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron),
+      with Reserved Font Name: "Orbitron".'
     font: Orbitron-Black.ttf
 - name: Orbitron ExtraBold
   styles:
@@ -50,8 +53,9 @@ fonts:
     preferred_type: ExtraBold
     full_name: Orbitron ExtraBold
     post_script_name: Orbitron-ExtraBold
-    version: 2.000; ttfautohint (v1.8.2)
-    copyright: Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron)
+    version: '2.001'
+    copyright: 'Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron),
+      with Reserved Font Name: "Orbitron".'
     font: Orbitron-ExtraBold.ttf
 - name: Orbitron Medium
   styles:
@@ -61,8 +65,9 @@ fonts:
     preferred_type: Medium
     full_name: Orbitron Medium
     post_script_name: Orbitron-Medium
-    version: 2.000; ttfautohint (v1.8.2)
-    copyright: Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron)
+    version: '2.001'
+    copyright: 'Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron),
+      with Reserved Font Name: "Orbitron".'
     font: Orbitron-Medium.ttf
 - name: Orbitron SemiBold
   styles:
@@ -72,19 +77,20 @@ fonts:
     preferred_type: SemiBold
     full_name: Orbitron SemiBold
     post_script_name: Orbitron-SemiBold
-    version: 2.000; ttfautohint (v1.8.2)
-    copyright: Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron)
+    version: '2.001'
+    copyright: 'Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron),
+      with Reserved Font Name: "Orbitron".'
     font: Orbitron-SemiBold.ttf
 extract: {}
-copyright: Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron)
+copyright: 'Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron),
+  with Reserved Font Name: "Orbitron".'
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron)
-  with Reserved Font Name "Orbitron"
+  Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron), with Reserved Font Name: "Orbitron"
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -174,4 +180,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: ccffb59d5dda1866d7e7c15c09a6db1bc8f13765fdffbd9dcf4a2ecc6395d806
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

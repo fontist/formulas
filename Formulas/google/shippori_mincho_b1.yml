@@ -1,13 +1,12 @@
 ---
-name: Shippori Mincho B1
 description: Shippori Mincho B1
 homepage: http://fontdasu.com
 resources:
   Shippori_Mincho_B1.zip:
     urls:
     - https://fonts.google.com/download?family=Shippori%20Mincho%20B1
-    sha256: 2c68cb857774c195d9ba65f5e1d9960af0ebfe939c483c5725b8c63dab4362e9
-    file_size: 34201962
+    sha256: 37c3998ae886e1e41336b033fc1a1b10c8670df2a48ce097dd455c7349b50618
+    file_size: 34188536
 fonts:
 - name: Shippori Mincho B1
   styles:
@@ -15,15 +14,15 @@ fonts:
     type: Bold
     full_name: Shippori Mincho B1 Bold
     post_script_name: ShipporiMinchoB1-Bold
-    version: 3.000; ttfautohint (v1.8.3)
-    copyright: Copyright 2020 The Shippori Min Project Authors (https://github.com/fontdasu/ShipporiMincho)
+    version: 3.110; ttfautohint (v1.8.3)
+    copyright: Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)
     font: ShipporiMinchoB1-Bold.ttf
   - family_name: Shippori Mincho B1
     type: Regular
     full_name: Shippori Mincho B1 Regular
     post_script_name: ShipporiMinchoB1-Regular
-    version: 3.000; ttfautohint (v1.8.3)
-    copyright: Copyright 2020 The Shippori Min Project Authors (https://github.com/fontdasu/ShipporiMincho)
+    version: 3.110; ttfautohint (v1.8.3)
+    copyright: Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)
     font: ShipporiMinchoB1-Regular.ttf
 - name: Shippori Mincho B1 ExtraBold
   styles:
@@ -33,8 +32,8 @@ fonts:
     preferred_type: ExtraBold
     full_name: Shippori Mincho B1 ExtraBold
     post_script_name: ShipporiMinchoB1-ExtraBold
-    version: 3.000; ttfautohint (v1.8.3)
-    copyright: Copyright 2020 The Shippori Min Project Authors (https://github.com/fontdasu/ShipporiMincho)
+    version: 3.110; ttfautohint (v1.8.3)
+    copyright: Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)
     font: ShipporiMinchoB1-ExtraBold.ttf
 - name: Shippori Mincho B1 Medium
   styles:
@@ -44,8 +43,8 @@ fonts:
     preferred_type: Medium
     full_name: Shippori Mincho B1 Medium
     post_script_name: ShipporiMinchoB1-Medium
-    version: 3.000; ttfautohint (v1.8.3)
-    copyright: Copyright 2020 The Shippori Min Project Authors (https://github.com/fontdasu/ShipporiMincho)
+    version: 3.110; ttfautohint (v1.8.3)
+    copyright: Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)
     font: ShipporiMinchoB1-Medium.ttf
 - name: Shippori Mincho B1 SemiBold
   styles:
@@ -55,18 +54,18 @@ fonts:
     preferred_type: SemiBold
     full_name: Shippori Mincho B1 SemiBold
     post_script_name: ShipporiMinchoB1-SemiBold
-    version: 3.000; ttfautohint (v1.8.3)
-    copyright: Copyright 2020 The Shippori Min Project Authors (https://github.com/fontdasu/ShipporiMincho)
+    version: 3.110; ttfautohint (v1.8.3)
+    copyright: Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)
     font: ShipporiMinchoB1-SemiBold.ttf
 extract: {}
-copyright: Copyright 2020 The Shippori Min Project Authors (https://github.com/fontdasu/ShipporiMincho)
+copyright: Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2020 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)
+  Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -156,4 +155,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 0ca62c72a545b9d0ec83e1d51b229557d8fbdac22229fe706133c070328011a0
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

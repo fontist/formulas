@@ -5,7 +5,7 @@ resources:
   Roboto_Flex.zip:
     urls:
     - https://fonts.google.com/download?family=Roboto%20Flex
-    file_size: 988700
+    file_size: 1008665
 fonts:
 - name: Roboto Flex
   styles:
@@ -13,14 +13,14 @@ fonts:
     type: Regular
     full_name: Roboto Flex Regular
     post_script_name: RobotoFlex-Regular
-    version: '3.100'
+    version: 3.200;gftools[0.9.32]
     copyright: Copyright 2017 The Roboto Flex Project Authors (https://github.com/TypeNetwork/Roboto-Flex)
-    font: RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf
+    font: RobotoFlex-VariableFont_GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf
   - family_name: Roboto Flex
     type: Regular
     full_name: Roboto Flex Regular
     post_script_name: RobotoFlex-Regular
-    version: '3.100'
+    version: 3.200;gftools[0.9.32]
     copyright: Copyright 2017 The Roboto Flex Project Authors (https://github.com/TypeNetwork/Roboto-Flex)
     font: RobotoFlex-Regular.ttf
 extract: {}
@@ -31,7 +31,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -121,4 +121,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: e4df4ee7460a5d341800947e8286e1cbc15c980bb7c31cff20785fc992afceff
-command: import google --formulas_path Formulas -n 50
+command: import google --formulas_path Formulas -n 5000 --no-cache

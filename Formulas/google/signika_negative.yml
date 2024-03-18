@@ -1,12 +1,11 @@
 ---
-name: Signika Negative
 description: Signika Negative
 homepage: www.ancymonic.com
 resources:
   Signika_Negative.zip:
     urls:
     - https://fonts.google.com/download?family=Signika%20Negative
-    file_size: 924830
+    file_size: 924419
 fonts:
 - name: Signika Negative
   styles:
@@ -14,17 +13,15 @@ fonts:
     type: Bold
     full_name: Signika Negative Bold
     post_script_name: SignikaNegative-Bold
-    version: '1.002'
-    copyright: Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com), with Reserved
-      Font Names "Signika".
+    version: '2.001'
+    copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
     font: SignikaNegative-Bold.ttf
   - family_name: Signika Negative
     type: Regular
     full_name: Signika Negative Regular
     post_script_name: SignikaNegative-Regular
-    version: '1.002'
-    copyright: Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com), with Reserved
-      Font Names "Signika".
+    version: '2.001'
+    copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
     font: SignikaNegative-Regular.ttf
 - name: Signika Negative Light
   styles:
@@ -34,10 +31,29 @@ fonts:
     preferred_type: Light
     full_name: Signika Negative Light
     post_script_name: SignikaNegative-Light
-    version: '1.002'
-    copyright: Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com), with Reserved
-      Font Names "Signika".
+    version: '2.001'
+    copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
+    font: SignikaNegative-VariableFont_wght.ttf
+  - family_name: Signika Negative Light
+    type: Regular
+    preferred_family_name: Signika Negative
+    preferred_type: Light
+    full_name: Signika Negative Light
+    post_script_name: SignikaNegative-Light
+    version: '2.001'
+    copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
     font: SignikaNegative-Light.ttf
+- name: Signika Negative Medium
+  styles:
+  - family_name: Signika Negative Medium
+    type: Regular
+    preferred_family_name: Signika Negative
+    preferred_type: Medium
+    full_name: Signika Negative Medium
+    post_script_name: SignikaNegative-Medium
+    version: '2.001'
+    copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
+    font: SignikaNegative-Medium.ttf
 - name: Signika Negative SemiBold
   styles:
   - family_name: Signika Negative SemiBold
@@ -46,21 +62,18 @@ fonts:
     preferred_type: SemiBold
     full_name: Signika Negative SemiBold
     post_script_name: SignikaNegative-SemiBold
-    version: '1.002'
-    copyright: Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com), with Reserved
-      Font Names "Signika".
+    version: '2.001'
+    copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
     font: SignikaNegative-SemiBold.ttf
 extract: {}
-copyright: Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com), with Reserved
-  Font Names "Signika".
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011 by Anna Giedryś (http://ancymonic.com),
-  with Reserved Font Names "Signika".
+  Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -150,4 +163,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 6470afb330601b22c97687f9d31e5be2f84ded0ecf5d3460c31e73557972618a
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

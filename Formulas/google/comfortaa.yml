@@ -1,12 +1,11 @@
 ---
-name: Comfortaa
 description: Comfortaa
 homepage: http://aajohan.deviantart.com
 resources:
   Comfortaa.zip:
     urls:
     - https://fonts.google.com/download?family=Comfortaa
-    file_size: 363087
+    file_size: 364842
 fonts:
 - name: Comfortaa
   styles:
@@ -14,7 +13,7 @@ fonts:
     type: Bold
     full_name: Comfortaa Bold
     post_script_name: Comfortaa-Bold
-    version: 3.104; ttfautohint (v1.8.1.43-b0c9)
+    version: '3.105'
     copyright: Copyright 2011 The Comfortaa Project Authors (https://github.com/alexeiva/comfortaa),
       with Reserved Font Name "Comfortaa".
     font: Comfortaa-Bold.ttf
@@ -22,7 +21,7 @@ fonts:
     type: Regular
     full_name: Comfortaa Regular
     post_script_name: Comfortaa-Regular
-    version: 3.104; ttfautohint (v1.8.1.43-b0c9)
+    version: '3.105'
     copyright: Copyright 2011 The Comfortaa Project Authors (https://github.com/alexeiva/comfortaa),
       with Reserved Font Name "Comfortaa".
     font: Comfortaa-VariableFont_wght.ttf
@@ -30,7 +29,7 @@ fonts:
     type: Regular
     full_name: Comfortaa Regular
     post_script_name: Comfortaa-Regular
-    version: 3.104; ttfautohint (v1.8.1.43-b0c9)
+    version: '3.105'
     copyright: Copyright 2011 The Comfortaa Project Authors (https://github.com/alexeiva/comfortaa),
       with Reserved Font Name "Comfortaa".
     font: Comfortaa-Regular.ttf
@@ -42,7 +41,7 @@ fonts:
     preferred_type: Light
     full_name: Comfortaa Light
     post_script_name: Comfortaa-Light
-    version: 3.104; ttfautohint (v1.8.1.43-b0c9)
+    version: '3.105'
     copyright: Copyright 2011 The Comfortaa Project Authors (https://github.com/alexeiva/comfortaa),
       with Reserved Font Name "Comfortaa".
     font: Comfortaa-Light.ttf
@@ -54,7 +53,7 @@ fonts:
     preferred_type: Medium
     full_name: Comfortaa Medium
     post_script_name: Comfortaa-Medium
-    version: 3.104; ttfautohint (v1.8.1.43-b0c9)
+    version: '3.105'
     copyright: Copyright 2011 The Comfortaa Project Authors (https://github.com/alexeiva/comfortaa),
       with Reserved Font Name "Comfortaa".
     font: Comfortaa-Medium.ttf
@@ -66,7 +65,7 @@ fonts:
     preferred_type: SemiBold
     full_name: Comfortaa SemiBold
     post_script_name: Comfortaa-SemiBold
-    version: 3.104; ttfautohint (v1.8.1.43-b0c9)
+    version: '3.105'
     copyright: Copyright 2011 The Comfortaa Project Authors (https://github.com/alexeiva/comfortaa),
       with Reserved Font Name "Comfortaa".
     font: Comfortaa-SemiBold.ttf
@@ -79,7 +78,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -169,4 +168,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 3f64cd2b294b0c71292407b7285b0d3ca8d6417b185ac15177c75da34f221948
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

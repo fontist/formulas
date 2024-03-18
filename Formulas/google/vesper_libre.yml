@@ -2,27 +2,14 @@
 description: Vesper Libre
 homepage: www.motaitalic.com
 resources:
-  VesperLibre.zip:
+  Vesper_Libre.zip:
     urls:
     - https://fonts.google.com/download?family=Vesper%20Libre
-    sha256: 3b1fc71090e7fb02302a778a2010e8bb412ae34d8a1158536ed8875f65516874
-    file_size: 350004
+    sha256: ac43c68f907b42dd3b2d8bdfb28de170aea2436aa30e6a592e86ea72df34080b
+    file_size: 351493
 fonts:
 - name: Vesper Libre
   styles:
-  - family_name: Vesper Libre
-    type: Regular
-    full_name: Vesper Libre
-    post_script_name: VesperLibre-Regular
-    version: '1.058'
-    font: VesperLibre-Regular.ttf
-  - family_name: Vesper Libre
-    type: Medium
-    full_name: Vesper Libre Medium
-    post_script_name: VesperLibre-Medium
-    version: '1.058'
-    copyright: Copyright (c) 2007, Robert Keller (www.motaitalic.com)
-    font: VesperLibre-Medium.ttf
   - family_name: Vesper Libre
     type: Bold
     full_name: Vesper Libre Bold
@@ -31,14 +18,34 @@ fonts:
     copyright: Copyright (c) 2007, Robert Keller (www.motaitalic.com)
     font: VesperLibre-Bold.ttf
   - family_name: Vesper Libre
-    type: Heavy
+    type: Regular
+    full_name: Vesper Libre
+    post_script_name: VesperLibre-Regular
+    version: '1.058'
+    font: VesperLibre-Regular.ttf
+- name: Vesper Libre Heavy
+  styles:
+  - family_name: Vesper Libre Heavy
+    type: Regular
+    preferred_family_name: Vesper Libre
+    preferred_type: Heavy
     full_name: Vesper Libre Heavy
     post_script_name: VesperLibre-Heavy
     version: '1.058'
     copyright: Copyright (c) 2007, Robert Keller (www.motaitalic.com)
-    font: VesperLibre-Heavy.ttf
-extract:
-  format: zip
+    font: VesperLibre-Black.ttf
+- name: Vesper Libre Medium
+  styles:
+  - family_name: Vesper Libre Medium
+    type: Regular
+    preferred_family_name: Vesper Libre
+    preferred_type: Medium
+    full_name: Vesper Libre Medium
+    post_script_name: VesperLibre-Medium
+    version: '1.058'
+    copyright: Copyright (c) 2007, Robert Keller (www.motaitalic.com)
+    font: VesperLibre-Medium.ttf
+extract: {}
 copyright: Copyright (c) 2007, Robert Keller (www.motaitalic.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -46,7 +53,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -135,3 +142,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: d96db285081e49a77f9ce311c4c02c6dfc510800053bb1c7c1bdbf7929b3731d
+command: import google --formulas_path Formulas -n 5000 --no-cache

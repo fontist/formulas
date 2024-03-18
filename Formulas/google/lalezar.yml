@@ -1,33 +1,31 @@
 ---
-name: Lalezar
 description: Lalezar
-homepage: http://www.borna.design
+homepage: www.borna.design
 resources:
   Lalezar.zip:
     urls:
     - https://fonts.google.com/download?family=Lalezar
-    sha256: dca902ff5acb9229f7a2f9b39ae732b6ff62408951a7e05978a429c3a8d29d58
-    file_size: 115163
+    sha256: ed51663943a4955942eef9d33206c5984a796767dd97743ac42cd76ea8a011ba
+    file_size: 115216
 fonts:
 - name: Lalezar
   styles:
   - family_name: Lalezar
     type: Regular
-    full_name: Lalezar Regular
+    full_name: Lalezar-Regular
     post_script_name: Lalezar-Regular
-    version: '1.004'
-    copyright: Copyright 2015 The Lalezar Project Authors (https://github.com/BornaIz/Lalezar)
+    version: '1.000'
+    copyright: Copyright © 2015 by Borna Izadpanah (www.borna.design). All rights
+      reserved.
     font: Lalezar-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2015 The Lalezar Project Authors (https://github.com/BornaIz/Lalezar)
-license_url: http://scripts.sil.org/OFL
+extract: {}
+copyright: Copyright © 2015 by Borna Izadpanah (www.borna.design). All rights reserved.
 open_license: |-
-  Copyright 2015 The Lalezar Project Authors (https://github.com/BornaIz/Lalezar)
+  Copyright 2015 Borna Izadpanah (www.borna.design).
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -116,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: e694d85ad6f44967c37276bab75cfcb1c2076c992f43a2f4a81f3bd352a590c8
+command: import google --formulas_path Formulas -n 5000 --no-cache

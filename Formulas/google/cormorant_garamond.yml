@@ -5,8 +5,8 @@ resources:
   Cormorant_Garamond.zip:
     urls:
     - https://fonts.google.com/download?family=Cormorant%20Garamond
-    sha256: ffdc9a561160050169d56540c87cfb7c741283165a7b4efdae85ed75eeab81cc
-    file_size: 2069717
+    sha256: 53f6be53b87eca7135f3001953d8a458f61e16b60133d8cf33726c9a813eac8b
+    file_size: 1550814
 fonts:
 - name: Cormorant Garamond
   styles:
@@ -14,28 +14,28 @@ fonts:
     type: Bold
     full_name: Cormorant Garamond Bold
     post_script_name: CormorantGaramond-Bold
-    version: '3.303'
+    version: '4.000'
     copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
     font: CormorantGaramond-Bold.ttf
   - family_name: Cormorant Garamond
     type: Bold Italic
     full_name: Cormorant Garamond Bold Italic
     post_script_name: CormorantGaramond-BoldItalic
-    version: '3.303'
+    version: '4.000'
     copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
     font: CormorantGaramond-BoldItalic.ttf
   - family_name: Cormorant Garamond
     type: Italic
     full_name: Cormorant Garamond Italic
     post_script_name: CormorantGaramond-Italic
-    version: '3.303'
+    version: '4.000'
     copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
     font: CormorantGaramond-Italic.ttf
   - family_name: Cormorant Garamond
     type: Regular
     full_name: Cormorant Garamond Regular
     post_script_name: CormorantGaramond-Regular
-    version: '3.303'
+    version: '4.000'
     copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
     font: CormorantGaramond-Regular.ttf
 - name: Cormorant Garamond Light
@@ -46,7 +46,7 @@ fonts:
     preferred_type: Light Italic
     full_name: Cormorant Garamond Light Italic
     post_script_name: CormorantGaramond-LightItalic
-    version: '3.303'
+    version: '4.000'
     copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
     font: CormorantGaramond-LightItalic.ttf
   - family_name: Cormorant Garamond Light
@@ -55,7 +55,7 @@ fonts:
     preferred_type: Light
     full_name: Cormorant Garamond Light
     post_script_name: CormorantGaramond-Light
-    version: '3.303'
+    version: '4.000'
     copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
     font: CormorantGaramond-Light.ttf
 - name: Cormorant Garamond Medium
@@ -66,7 +66,7 @@ fonts:
     preferred_type: Medium Italic
     full_name: Cormorant Garamond Medium Italic
     post_script_name: CormorantGaramond-MediumItalic
-    version: '3.303'
+    version: '4.000'
     copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
     font: CormorantGaramond-MediumItalic.ttf
   - family_name: Cormorant Garamond Medium
@@ -75,7 +75,7 @@ fonts:
     preferred_type: Medium
     full_name: Cormorant Garamond Medium
     post_script_name: CormorantGaramond-Medium
-    version: '3.303'
+    version: '4.000'
     copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
     font: CormorantGaramond-Medium.ttf
 - name: Cormorant Garamond SemiBold
@@ -86,7 +86,7 @@ fonts:
     preferred_type: SemiBold Italic
     full_name: Cormorant Garamond SemiBold Italic
     post_script_name: CormorantGaramond-SemiBoldItalic
-    version: '3.303'
+    version: '4.000'
     copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
     font: CormorantGaramond-SemiBoldItalic.ttf
   - family_name: Cormorant Garamond SemiBold
@@ -95,18 +95,18 @@ fonts:
     preferred_type: SemiBold
     full_name: Cormorant Garamond SemiBold
     post_script_name: CormorantGaramond-SemiBold
-    version: '3.303'
+    version: '4.000'
     copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
     font: CormorantGaramond-SemiBold.ttf
 extract: {}
 copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
-license_url: http://scripts.sil.org/OFL
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2015, Christian Thalmann and the Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
+  Copyright 2015 the Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -196,4 +196,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 2dc4a0d08c5513ac61a00ec39199fd5405e456f179e0b80ac82b2e32d2ad06ba
-command: import google --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

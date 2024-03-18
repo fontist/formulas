@@ -5,8 +5,8 @@ resources:
   Noto_Sans_Brahmi.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Brahmi
-    sha256: 0e9fe0604ba9d03600373f61c967a39ccae86d9902cbb2fc5ba510cd4c343ce4
-    file_size: 56857
+    sha256: 0dabbd3022cc3d8b881b16911a355912ecc6fc319b23429a97062cea96041dd0
+    file_size: 60750
 fonts:
 - name: Noto Sans Brahmi
   styles:
@@ -14,7 +14,7 @@ fonts:
     type: Regular
     full_name: Noto Sans Brahmi Regular
     post_script_name: NotoSansBrahmi-Regular
-    version: 2.003; ttfautohint (v1.8.4.7-5d5b)
+    version: 2.004; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/brahmi)
     font: NotoSansBrahmi-Regular.ttf
@@ -116,4 +116,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: b0abb5a31f1eca5646209db2e04d089cdb065e3298eb831ee2964ed1fc6aa114
-command: import google --formulas_path Formulas -n 50
+command: import google --formulas_path Formulas -n 5000 --no-cache

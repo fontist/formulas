@@ -1,13 +1,12 @@
 ---
-name: Dekko
 description: Dekko
 homepage: www.sorkintype.com
 resources:
   Dekko.zip:
     urls:
     - https://fonts.google.com/download?family=Dekko
-    sha256: 5751cfbdfc9eb12c2b24d8404378973f2c7c41b0a6f71f4ecf4f389ea2990f47
-    file_size: 106257
+    sha256: 2ac94ab9772c5b1b6bcefa879f4afe2ee7bfa8f1940ffba903ed722ad25ad1ea
+    file_size: 106414
 fonts:
 - name: Dekko
   styles:
@@ -15,13 +14,11 @@ fonts:
     type: Regular
     full_name: Dekko
     post_script_name: Dekko
-    version: 1.001; ttfautohint (v1.1) -l 8 -r 50 -G 0 -x 0 -D deva -f latn -w gG
-      -W
-    copyright: Copyright (c) 2000, Modular Infotech, Pune, INDIA. Latin Portions added
-      2014 by Eben Sorkin Sorkin Type Co, Boston MA, USA
+    version: '2.001'
+    copyright: Copyright (c) 2000, Modular Infotech, Pune, INDIA. Copyright (c) 2014,
+      Sorkin Type Co, Boston, MA, USA (www.sorkintype.com)
     font: Dekko-Regular.ttf
-extract:
-  format: zip
+extract: {}
 copyright: Copyright (c) 2000, Modular Infotech, Pune, INDIA. Copyright (c) 2014,
   Sorkin Type Co, Boston, MA, USA (www.sorkintype.com)
 license_url: http://scripts.sil.org/OFL
@@ -29,8 +26,8 @@ open_license: |-
   Copyright (c) 2000, Modular Infotech, Pune, INDIA. Copyright (c) 2014, Sorkin Type Co, Boston, MA, USA (www.sorkintype.com)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
-
-  This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
+  This license is copied below, and is also available with a FAQ at:
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -119,3 +116,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 6c99ba8711a8feb16316d624e42c3f7722f85bd24a8d8cba2b5642b83f328588
+command: import google --formulas_path Formulas -n 5000 --no-cache

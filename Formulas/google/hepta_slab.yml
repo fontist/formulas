@@ -1,12 +1,11 @@
 ---
-name: Hepta Slab
 description: Hepta Slab
 homepage: https://michaellagattuta.com/
 resources:
   Hepta_Slab.zip:
     urls:
     - https://fonts.google.com/download?family=Hepta%20Slab
-    file_size: 1075975
+    file_size: 1083216
 fonts:
 - name: Hepta Slab
   styles:
@@ -14,14 +13,14 @@ fonts:
     type: Bold
     full_name: Hepta Slab Bold
     post_script_name: HeptaSlab-Bold
-    version: '1.100'
+    version: '1.102'
     copyright: Copyright 2018 The Hepta Slab Project Authors (https://github.com/mjlagattuta/Hepta-Slab)
     font: HeptaSlab-Bold.ttf
   - family_name: Hepta Slab
     type: Regular
     full_name: Hepta Slab Regular
     post_script_name: HeptaSlab-Regular
-    version: '1.100'
+    version: '1.102'
     copyright: Copyright 2018 The Hepta Slab Project Authors (https://github.com/mjlagattuta/Hepta-Slab)
     font: HeptaSlab-Regular.ttf
 - name: Hepta Slab Black
@@ -32,7 +31,7 @@ fonts:
     preferred_type: Black
     full_name: Hepta Slab Black
     post_script_name: HeptaSlab-Black
-    version: '1.100'
+    version: '1.102'
     copyright: Copyright 2018 The Hepta Slab Project Authors (https://github.com/mjlagattuta/Hepta-Slab)
     font: HeptaSlab-Black.ttf
 - name: Hepta Slab ExtraBold
@@ -43,7 +42,7 @@ fonts:
     preferred_type: ExtraBold
     full_name: Hepta Slab ExtraBold
     post_script_name: HeptaSlab-ExtraBold
-    version: '1.100'
+    version: '1.102'
     copyright: Copyright 2018 The Hepta Slab Project Authors (https://github.com/mjlagattuta/Hepta-Slab)
     font: HeptaSlab-ExtraBold.ttf
 - name: Hepta Slab ExtraLight
@@ -54,18 +53,18 @@ fonts:
     preferred_type: ExtraLight
     full_name: Hepta Slab ExtraLight
     post_script_name: HeptaSlab-ExtraLight
-    version: '1.100'
+    version: '1.102'
     copyright: Copyright 2018 The Hepta Slab Project Authors (https://github.com/mjlagattuta/Hepta-Slab)
-    font: HeptaSlab-ExtraLight.ttf
+    font: HeptaSlab-VariableFont_wght.ttf
   - family_name: Hepta Slab ExtraLight
     type: Regular
     preferred_family_name: Hepta Slab
     preferred_type: ExtraLight
     full_name: Hepta Slab ExtraLight
     post_script_name: HeptaSlab-ExtraLight
-    version: '1.100'
+    version: '1.102'
     copyright: Copyright 2018 The Hepta Slab Project Authors (https://github.com/mjlagattuta/Hepta-Slab)
-    font: HeptaSlab-VariableFont_wght.ttf
+    font: HeptaSlab-ExtraLight.ttf
 - name: Hepta Slab Light
   styles:
   - family_name: Hepta Slab Light
@@ -74,7 +73,7 @@ fonts:
     preferred_type: Light
     full_name: Hepta Slab Light
     post_script_name: HeptaSlab-Light
-    version: '1.100'
+    version: '1.102'
     copyright: Copyright 2018 The Hepta Slab Project Authors (https://github.com/mjlagattuta/Hepta-Slab)
     font: HeptaSlab-Light.ttf
 - name: Hepta Slab Medium
@@ -85,7 +84,7 @@ fonts:
     preferred_type: Medium
     full_name: Hepta Slab Medium
     post_script_name: HeptaSlab-Medium
-    version: '1.100'
+    version: '1.102'
     copyright: Copyright 2018 The Hepta Slab Project Authors (https://github.com/mjlagattuta/Hepta-Slab)
     font: HeptaSlab-Medium.ttf
 - name: Hepta Slab SemiBold
@@ -96,7 +95,7 @@ fonts:
     preferred_type: SemiBold
     full_name: Hepta Slab SemiBold
     post_script_name: HeptaSlab-SemiBold
-    version: '1.100'
+    version: '1.102'
     copyright: Copyright 2018 The Hepta Slab Project Authors (https://github.com/mjlagattuta/Hepta-Slab)
     font: HeptaSlab-SemiBold.ttf
 - name: Hepta Slab Thin
@@ -107,7 +106,7 @@ fonts:
     preferred_type: Thin
     full_name: Hepta Slab Thin
     post_script_name: HeptaSlab-Thin
-    version: '1.100'
+    version: '1.102'
     copyright: Copyright 2018 The Hepta Slab Project Authors (https://github.com/mjlagattuta/Hepta-Slab)
     font: HeptaSlab-Thin.ttf
 extract: {}
@@ -118,7 +117,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -208,4 +207,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 5d0173e93d5fde480728dcb455e4566c2454f0c043dbb8ab0b3762e6df4028eb
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

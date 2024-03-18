@@ -1,13 +1,12 @@
 ---
-name: Kaisei Decol
 description: Kaisei Decol
 homepage: https://font-kai.jp
 resources:
   Kaisei_Decol.zip:
     urls:
     - https://fonts.google.com/download?family=Kaisei%20Decol
-    sha256: fbcf057835248edaa6a099b549a4883124def9bb2cfb30901b0c5fa5e5de0b67
-    file_size: 7925783
+    sha256: 72e1d28a29d36b9ffd94a72ce8214bea667d3781df14acdfe53de472fff7b7c9
+    file_size: 7920360
 fonts:
 - name: Kaisei Decol
   styles:
@@ -15,14 +14,14 @@ fonts:
     type: Bold
     full_name: Kaisei Decol Bold
     post_script_name: KaiseiDecol-Bold
-    version: 5.002; ttfautohint (v1.8.3)
+    version: '5.003'
     copyright: Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)
     font: KaiseiDecol-Bold.ttf
   - family_name: Kaisei Decol
     type: Regular
     full_name: Kaisei Decol Regular
     post_script_name: KaiseiDecol-Regular
-    version: 5.002; ttfautohint (v1.8.3)
+    version: '5.003'
     copyright: Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)
     font: KaiseiDecol-Regular.ttf
 - name: Kaisei Decol Medium
@@ -33,7 +32,7 @@ fonts:
     preferred_type: Medium
     full_name: Kaisei Decol Medium
     post_script_name: KaiseiDecol-Medium
-    version: 5.002; ttfautohint (v1.8.3)
+    version: '5.003'
     copyright: Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)
     font: KaiseiDecol-Medium.ttf
 extract: {}
@@ -44,7 +43,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -134,4 +133,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: b231968e94a2f6e8b6a95e7e2f948f8b7b0f49c625b5a696beefb29fde895cae
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

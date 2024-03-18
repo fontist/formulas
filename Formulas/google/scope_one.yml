@@ -2,24 +2,23 @@
 description: Scope One
 homepage: http://www.daltonmaag.com/
 resources:
-  ScopeOne.zip:
+  Scope_One.zip:
     urls:
     - https://fonts.google.com/download?family=Scope%20One
-    sha256: fd23281a3001e34b877b4e98861d0b8a9165f3adab89fb2d41eba57314a00987
-    file_size: 44528
+    sha256: 4e8a6f2cbc5958b8b6207b616defa74c01841752e6ef44ca40cf8b1e780b568b
+    file_size: 44498
 fonts:
 - name: Scope One
   styles:
   - family_name: Scope One
     type: Regular
-    full_name: Scope One Regular
+    full_name: Scope One
     post_script_name: ScopeOne-Regular
-    version: 1.002; ttfautohint (v1.4.1) -l 11 -r 50 -G 50 -x 14 -D latn -f latn -m
+    version: 1.001; ttfautohint (v1.4.1) -l 11 -r 50 -G 50 -x 14 -D latn -f latn -m
       "ttfautohint.ctrl" -w G -X ""
     copyright: Copyright 2015 Dalton Maag Ltd (info@daltonmaag.com)
     font: ScopeOne-Regular.ttf
-extract:
-  format: zip
+extract: {}
 copyright: Copyright 2015 Dalton Maag Ltd (info@daltonmaag.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -27,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -116,3 +115,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: be59b547de5349b42139b5b8d8cfbcd5e45816a5ff90db19ed1958bb6b4e8180
+command: import google --formulas_path Formulas -n 5000 --no-cache

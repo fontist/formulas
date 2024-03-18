@@ -1,12 +1,11 @@
 ---
-name: Imbue
 description: Imbue
 homepage: https://www.etceteratype.co
 resources:
   Imbue.zip:
     urls:
     - https://fonts.google.com/download?family=Imbue
-    file_size: 2089054
+    file_size: 2094954
 fonts:
 - name: Imbue
   styles:
@@ -16,14 +15,14 @@ fonts:
     post_script_name: Imbue-Bold
     version: '1.102'
     copyright: Copyright 2020 The Imbue Project Authors (https://github.com/Etcetera-Type-Co/Imbue)
-    font: Imbue-Bold.ttf
+    font: Imbue_14pt-Bold.ttf
   - family_name: Imbue
     type: Regular
     full_name: Imbue Regular
     post_script_name: Imbue-Regular
     version: '1.102'
     copyright: Copyright 2020 The Imbue Project Authors (https://github.com/Etcetera-Type-Co/Imbue)
-    font: Imbue-Regular.ttf
+    font: Imbue_14pt-Regular.ttf
 - name: Imbue 24pt
   styles:
   - family_name: Imbue 24pt
@@ -422,7 +421,7 @@ fonts:
     post_script_name: Imbue-Black
     version: '1.102'
     copyright: Copyright 2020 The Imbue Project Authors (https://github.com/Etcetera-Type-Co/Imbue)
-    font: Imbue-Black.ttf
+    font: Imbue_14pt-Black.ttf
 - name: Imbue ExtraBold
   styles:
   - family_name: Imbue ExtraBold
@@ -433,7 +432,7 @@ fonts:
     post_script_name: Imbue-ExtraBold
     version: '1.102'
     copyright: Copyright 2020 The Imbue Project Authors (https://github.com/Etcetera-Type-Co/Imbue)
-    font: Imbue-ExtraBold.ttf
+    font: Imbue_14pt-ExtraBold.ttf
 - name: Imbue ExtraLight
   styles:
   - family_name: Imbue ExtraLight
@@ -444,7 +443,7 @@ fonts:
     post_script_name: Imbue-ExtraLight
     version: '1.102'
     copyright: Copyright 2020 The Imbue Project Authors (https://github.com/Etcetera-Type-Co/Imbue)
-    font: Imbue-ExtraLight.ttf
+    font: Imbue_14pt-ExtraLight.ttf
 - name: Imbue Light
   styles:
   - family_name: Imbue Light
@@ -455,7 +454,7 @@ fonts:
     post_script_name: Imbue-Light
     version: '1.102'
     copyright: Copyright 2020 The Imbue Project Authors (https://github.com/Etcetera-Type-Co/Imbue)
-    font: Imbue-Light.ttf
+    font: Imbue_14pt-Light.ttf
 - name: Imbue Medium
   styles:
   - family_name: Imbue Medium
@@ -466,7 +465,7 @@ fonts:
     post_script_name: Imbue-Medium
     version: '1.102'
     copyright: Copyright 2020 The Imbue Project Authors (https://github.com/Etcetera-Type-Co/Imbue)
-    font: Imbue-Medium.ttf
+    font: Imbue_14pt-Medium.ttf
 - name: Imbue SemiBold
   styles:
   - family_name: Imbue SemiBold
@@ -477,7 +476,7 @@ fonts:
     post_script_name: Imbue-SemiBold
     version: '1.102'
     copyright: Copyright 2020 The Imbue Project Authors (https://github.com/Etcetera-Type-Co/Imbue)
-    font: Imbue-SemiBold.ttf
+    font: Imbue_14pt-SemiBold.ttf
 - name: Imbue Thin
   styles:
   - family_name: Imbue Thin
@@ -497,7 +496,7 @@ fonts:
     post_script_name: Imbue-Thin
     version: '1.102'
     copyright: Copyright 2020 The Imbue Project Authors (https://github.com/Etcetera-Type-Co/Imbue)
-    font: Imbue-Thin.ttf
+    font: Imbue_14pt-Thin.ttf
 extract: {}
 copyright: Copyright 2020 The Imbue Project Authors (https://github.com/Etcetera-Type-Co/Imbue)
 license_url: https://scripts.sil.org/OFL
@@ -506,7 +505,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -596,4 +595,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: e399e76e2ba28fbf7f5e8dffabf6ffc269e7cae914b7ba83c849992db5dbaee7
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

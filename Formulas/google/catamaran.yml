@@ -1,24 +1,114 @@
 ---
-name: Catamaran
 description: Catamaran
-homepage:
 resources:
   Catamaran.zip:
     urls:
     - https://fonts.google.com/download?family=Catamaran
-    file_size: 359876
+    file_size: 362225
 fonts:
 - name: Catamaran
   styles:
   - family_name: Catamaran
-    type: Thin
+    type: Bold
+    full_name: Catamaran Bold
+    post_script_name: Catamaran-Bold
+    version: '2.000'
+    copyright: Copyright 2020 The Catamaran Project Authors (https://github.com/VanillaandCream/Catamaran-Tamil)
+    font: Catamaran-Bold.ttf
+  - family_name: Catamaran
+    type: Regular
+    full_name: Catamaran Regular
+    post_script_name: Catamaran-Regular
+    version: '2.000'
+    copyright: Copyright 2020 The Catamaran Project Authors (https://github.com/VanillaandCream/Catamaran-Tamil)
+    font: Catamaran-Regular.ttf
+- name: Catamaran Black
+  styles:
+  - family_name: Catamaran Black
+    type: Regular
+    preferred_family_name: Catamaran
+    preferred_type: Black
+    full_name: Catamaran Black
+    post_script_name: Catamaran-Black
+    version: '2.000'
+    copyright: Copyright 2020 The Catamaran Project Authors (https://github.com/VanillaandCream/Catamaran-Tamil)
+    font: Catamaran-Black.ttf
+- name: Catamaran ExtraBold
+  styles:
+  - family_name: Catamaran ExtraBold
+    type: Regular
+    preferred_family_name: Catamaran
+    preferred_type: ExtraBold
+    full_name: Catamaran ExtraBold
+    post_script_name: Catamaran-ExtraBold
+    version: '2.000'
+    copyright: Copyright 2020 The Catamaran Project Authors (https://github.com/VanillaandCream/Catamaran-Tamil)
+    font: Catamaran-ExtraBold.ttf
+- name: Catamaran ExtraLight
+  styles:
+  - family_name: Catamaran ExtraLight
+    type: Regular
+    preferred_family_name: Catamaran
+    preferred_type: ExtraLight
+    full_name: Catamaran ExtraLight
+    post_script_name: Catamaran-ExtraLight
+    version: '2.000'
+    copyright: Copyright 2020 The Catamaran Project Authors (https://github.com/VanillaandCream/Catamaran-Tamil)
+    font: Catamaran-ExtraLight.ttf
+- name: Catamaran Light
+  styles:
+  - family_name: Catamaran Light
+    type: Regular
+    preferred_family_name: Catamaran
+    preferred_type: Light
+    full_name: Catamaran Light
+    post_script_name: Catamaran-Light
+    version: '2.000'
+    copyright: Copyright 2020 The Catamaran Project Authors (https://github.com/VanillaandCream/Catamaran-Tamil)
+    font: Catamaran-Light.ttf
+- name: Catamaran Medium
+  styles:
+  - family_name: Catamaran Medium
+    type: Regular
+    preferred_family_name: Catamaran
+    preferred_type: Medium
+    full_name: Catamaran Medium
+    post_script_name: Catamaran-Medium
+    version: '2.000'
+    copyright: Copyright 2020 The Catamaran Project Authors (https://github.com/VanillaandCream/Catamaran-Tamil)
+    font: Catamaran-Medium.ttf
+- name: Catamaran SemiBold
+  styles:
+  - family_name: Catamaran SemiBold
+    type: Regular
+    preferred_family_name: Catamaran
+    preferred_type: SemiBold
+    full_name: Catamaran SemiBold
+    post_script_name: Catamaran-SemiBold
+    version: '2.000'
+    copyright: Copyright 2020 The Catamaran Project Authors (https://github.com/VanillaandCream/Catamaran-Tamil)
+    font: Catamaran-SemiBold.ttf
+- name: Catamaran Thin
+  styles:
+  - family_name: Catamaran Thin
+    type: Regular
+    preferred_family_name: Catamaran
+    preferred_type: Thin
     full_name: Catamaran Thin
     post_script_name: Catamaran-Thin
     version: '2.000'
     copyright: Copyright 2020 The Catamaran Project Authors (https://github.com/VanillaandCream/Catamaran-Tamil)
     font: Catamaran-VariableFont_wght.ttf
-extract:
-  format: zip
+  - family_name: Catamaran Thin
+    type: Regular
+    preferred_family_name: Catamaran
+    preferred_type: Thin
+    full_name: Catamaran Thin
+    post_script_name: Catamaran-Thin
+    version: '2.000'
+    copyright: Copyright 2020 The Catamaran Project Authors (https://github.com/VanillaandCream/Catamaran-Tamil)
+    font: Catamaran-Thin.ttf
+extract: {}
 copyright: Copyright 2020 The Catamaran Project Authors (https://github.com/VanillaandCream/Catamaran-Tamil)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -26,7 +116,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -115,3 +205,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 2913a789f49fa7cb481ae9cfdb1f89c674dcbe4d53567a71b1a92d304d5e952c
+command: import google --formulas_path Formulas -n 5000 --no-cache

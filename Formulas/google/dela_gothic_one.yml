@@ -1,13 +1,12 @@
 ---
-name: Dela Gothic One
 description: Dela Gothic One
 homepage: twitter.com/artakana
 resources:
   Dela_Gothic_One.zip:
     urls:
     - https://fonts.google.com/download?family=Dela%20Gothic%20One
-    sha256: eed6dc6eeb91a633ceffbe26ce50ea388de2bd5292a109cd47da923a20cf8312
-    file_size: 1581010
+    sha256: 971ac3514e86d1a44c03d7f0798c44b0ad092626131f66d9c6004ce06b58ddf1
+    file_size: 1578097
 fonts:
 - name: Dela Gothic One
   styles:
@@ -15,18 +14,16 @@ fonts:
     type: Regular
     full_name: Dela Gothic One Regular
     post_script_name: DelaGothicOne-Regular
-    version: 1.003; ttfautohint (v1.8.3)
+    version: '1.005'
     copyright: Copyright 2020 The Dela Gothic Project Authors (https://github.com/syakuzen/DelaGothic)
     font: DelaGothicOne-Regular.ttf
 extract: {}
 copyright: Copyright 2020 The Dela Gothic Project Authors (https://github.com/syakuzen/DelaGothic)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2020 The Dela Gothic Project Authors (https://github.com/syakuzen/DelaGothic)
-
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -116,4 +113,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: dd4b20c91b8ada84ab675df5dad1f47175631da1c74986c3ebece5c57a63300b
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

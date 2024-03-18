@@ -5,8 +5,8 @@ resources:
   Noto_Sans_Khojki.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Khojki
-    sha256: a47ea35fdc0d7c7a47e61eeafbe3423e8eab03c56f7937ba4e640ec29b662c03
-    file_size: 57638
+    sha256: ff3f2137ec247c2e6eb9a7ca3673fb19a83cfa001af72eb223b12ba32a92b008
+    file_size: 58366
 fonts:
 - name: Noto Sans Khojki
   styles:
@@ -14,7 +14,7 @@ fonts:
     type: Regular
     full_name: Noto Sans Khojki Regular
     post_script_name: NotoSansKhojki-Regular
-    version: 2.004; ttfautohint (v1.8.4.7-5d5b)
+    version: 2.005; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/khojki)
     font: NotoSansKhojki-Regular.ttf
@@ -26,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -116,4 +116,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 89e6a6a7c5855e5e5242dcda6f5643e33d8c1f16b4b3f51e47822350e8dd0760
-command: import google --formulas_path Formulas -n 50
+command: import google --formulas_path Formulas -n 5000 --no-cache

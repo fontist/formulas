@@ -1,13 +1,11 @@
 ---
-name: Siemreap
 description: Siemreap
-homepage:
 resources:
   Siemreap.zip:
     urls:
     - https://fonts.google.com/download?family=Siemreap
-    sha256: 6b4c7e8cfa9fff847abdabbdf97b45f9e3ef70e985bbc55ac20235230efe7522
-    file_size: 51437
+    sha256: 755cf6f3f71a617b694fe19d34cafc1974e4a6757cfb7500c83c90ee2f221ebe
+    file_size: 52110
 fonts:
 - name: Siemreap
   styles:
@@ -17,21 +15,16 @@ fonts:
     post_script_name: Siemreap
     version: 6.00 December 28, 2010
     copyright: Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
-    font: Siemreap.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2010, Danh Hong (khmertype.blogspot.com danhhong@gmail.com),
-  with Reserved Font Name Khmer OS Siemreap. This Font Software is licensed under
-  the SIL Open Font License, Version 1.1. This license is available with a FAQ at:
-  http://scripts.sil.org/OFL'
-license_url:
+    font: Siemreap-Regular.ttf
+extract: {}
+copyright: Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
 open_license: |-
   Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
   with Reserved Font Name Siemreap.
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -120,3 +113,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 42bdfddd8769f60283ae4337495e23cc9024bfcefb90205fb41271ceb3b5e31a
+command: import google --formulas_path Formulas -n 5000 --no-cache

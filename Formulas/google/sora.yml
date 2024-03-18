@@ -1,15 +1,21 @@
 ---
-name: Sora
 description: Sora
 homepage: https://fonts.barnbrook.net
 resources:
   Sora.zip:
     urls:
     - https://fonts.google.com/download?family=Sora
-    file_size: 316101
+    file_size: 317564
 fonts:
 - name: Sora
   styles:
+  - family_name: Sora
+    type: Bold
+    full_name: Sora Bold
+    post_script_name: Sora-Bold
+    version: '2.000'
+    copyright: Copyright 2019 The Sora Project Authors (https://github.com/sora-xor/sora-font)
+    font: Sora-Bold.ttf
   - family_name: Sora
     type: Regular
     full_name: Sora Regular
@@ -17,16 +23,88 @@ fonts:
     version: '2.000'
     copyright: Copyright 2019 The Sora Project Authors (https://github.com/sora-xor/sora-font)
     font: Sora-VariableFont_wght.ttf
-extract:
-  format: zip
+  - family_name: Sora
+    type: Regular
+    full_name: Sora Regular
+    post_script_name: Sora-Regular
+    version: '2.000'
+    copyright: Copyright 2019 The Sora Project Authors (https://github.com/sora-xor/sora-font)
+    font: Sora-Regular.ttf
+- name: Sora ExtraBold
+  styles:
+  - family_name: Sora ExtraBold
+    type: Regular
+    preferred_family_name: Sora
+    preferred_type: ExtraBold
+    full_name: Sora ExtraBold
+    post_script_name: Sora-ExtraBold
+    version: '2.000'
+    copyright: Copyright 2019 The Sora Project Authors (https://github.com/sora-xor/sora-font)
+    font: Sora-ExtraBold.ttf
+- name: Sora ExtraLight
+  styles:
+  - family_name: Sora ExtraLight
+    type: Regular
+    preferred_family_name: Sora
+    preferred_type: ExtraLight
+    full_name: Sora ExtraLight
+    post_script_name: Sora-ExtraLight
+    version: '2.000'
+    copyright: Copyright 2019 The Sora Project Authors (https://github.com/sora-xor/sora-font)
+    font: Sora-ExtraLight.ttf
+- name: Sora Light
+  styles:
+  - family_name: Sora Light
+    type: Regular
+    preferred_family_name: Sora
+    preferred_type: Light
+    full_name: Sora Light
+    post_script_name: Sora-Light
+    version: '2.000'
+    copyright: Copyright 2019 The Sora Project Authors (https://github.com/sora-xor/sora-font)
+    font: Sora-Light.ttf
+- name: Sora Medium
+  styles:
+  - family_name: Sora Medium
+    type: Regular
+    preferred_family_name: Sora
+    preferred_type: Medium
+    full_name: Sora Medium
+    post_script_name: Sora-Medium
+    version: '2.000'
+    copyright: Copyright 2019 The Sora Project Authors (https://github.com/sora-xor/sora-font)
+    font: Sora-Medium.ttf
+- name: Sora SemiBold
+  styles:
+  - family_name: Sora SemiBold
+    type: Regular
+    preferred_family_name: Sora
+    preferred_type: SemiBold
+    full_name: Sora SemiBold
+    post_script_name: Sora-SemiBold
+    version: '2.000'
+    copyright: Copyright 2019 The Sora Project Authors (https://github.com/sora-xor/sora-font)
+    font: Sora-SemiBold.ttf
+- name: Sora Thin
+  styles:
+  - family_name: Sora Thin
+    type: Regular
+    preferred_family_name: Sora
+    preferred_type: Thin
+    full_name: Sora Thin
+    post_script_name: Sora-Thin
+    version: '2.000'
+    copyright: Copyright 2019 The Sora Project Authors (https://github.com/sora-xor/sora-font)
+    font: Sora-Thin.ttf
+extract: {}
 copyright: Copyright 2019 The Sora Project Authors (https://github.com/sora-xor/sora-font)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
   Copyright 2019 The Sora Project Authors (https://github.com/sora-xor/sora-font)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
-
-  This license is copied below, and is also available with a FAQ at: https://scripts.sil.org/OFL
+  This license is copied below, and is also available with a FAQ at:
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -115,3 +193,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 2ec1b93dca8ffd103248a8aec15962a824cf26a14d62ac5f77547f0302b46fdb
+command: import google --formulas_path Formulas -n 5000 --no-cache

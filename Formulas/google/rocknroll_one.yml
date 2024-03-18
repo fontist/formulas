@@ -1,13 +1,12 @@
 ---
-name: RocknRoll One
 description: RocknRoll One
 homepage: http://fontworks.co.jp/
 resources:
   RocknRoll_One.zip:
     urls:
     - https://fonts.google.com/download?family=RocknRoll%20One
-    sha256: cc473ca02f0287f6f3488d63df703f367f85a6794b51c017d230dbe48c406572
-    file_size: 1631068
+    sha256: 6494470031c30595233b85d7008d40abac10a3fd7b334e09cd069ea0763588ff
+    file_size: 1629993
 fonts:
 - name: RocknRoll One
   styles:
@@ -15,7 +14,7 @@ fonts:
     type: Regular
     full_name: RocknRoll One Regular
     post_script_name: RocknRollOne-Regular
-    version: 1.000; ttfautohint (v1.8.3)
+    version: '1.100'
     copyright: Copyright 2020 The RocknRoll Project Authors (https://github.com/fontworks-fonts/RocknRoll)
     font: RocknRollOne-Regular.ttf
 extract: {}
@@ -26,7 +25,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -116,4 +115,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 7a409c15c36b5207cffb3279ccac66d8a7800af3d9747eb34aa034f272a5c66c
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

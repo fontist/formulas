@@ -1,12 +1,11 @@
 ---
-name: Jura
 description: Jura
 homepage: http://www.danieljohnson.name
 resources:
   Jura.zip:
     urls:
     - https://fonts.google.com/download?family=Jura
-    file_size: 410831
+    file_size: 412170
 fonts:
 - name: Jura
   styles:
@@ -14,14 +13,14 @@ fonts:
     type: Bold
     full_name: Jura Bold
     post_script_name: Jura-Bold
-    version: '5.104'
+    version: '5.106'
     copyright: Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)
     font: Jura-Bold.ttf
   - family_name: Jura
     type: Regular
     full_name: Jura Regular
     post_script_name: Jura-Regular
-    version: '5.104'
+    version: '5.106'
     copyright: Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)
     font: Jura-Regular.ttf
 - name: Jura Light
@@ -32,7 +31,7 @@ fonts:
     preferred_type: Light
     full_name: Jura Light
     post_script_name: Jura-Light
-    version: '5.104'
+    version: '5.106'
     copyright: Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)
     font: Jura-VariableFont_wght.ttf
   - family_name: Jura Light
@@ -41,7 +40,7 @@ fonts:
     preferred_type: Light
     full_name: Jura Light
     post_script_name: Jura-Light
-    version: '5.104'
+    version: '5.106'
     copyright: Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)
     font: Jura-Light.ttf
 - name: Jura Medium
@@ -52,7 +51,7 @@ fonts:
     preferred_type: Medium
     full_name: Jura Medium
     post_script_name: Jura-Medium
-    version: '5.104'
+    version: '5.106'
     copyright: Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)
     font: Jura-Medium.ttf
 - name: Jura SemiBold
@@ -63,18 +62,18 @@ fonts:
     preferred_type: SemiBold
     full_name: Jura SemiBold
     post_script_name: Jura-SemiBold
-    version: '5.104'
+    version: '5.106'
     copyright: Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)
     font: Jura-SemiBold.ttf
 extract: {}
 copyright: Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2016 The Jura Font Project Authors (daniel@danieljohnson.name)
+  Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -164,4 +163,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 27d3f99fa356b3b6388b7ff0a9c93744939d8b8ab682609ccd2d040c7cf63668
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

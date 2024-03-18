@@ -1,24 +1,790 @@
 ---
-name: Inconsolata
 description: Inconsolata
 homepage: http://www.levien.com | http://www.cyreal.org | http://fonts.google.com
 resources:
   Inconsolata.zip:
     urls:
     - https://fonts.google.com/download?family=Inconsolata
-    file_size: 3854577
+    file_size: 3914425
 fonts:
 - name: Inconsolata
   styles:
+  - family_name: Inconsolata
+    type: Bold
+    full_name: Inconsolata Bold
+    post_script_name: Inconsolata-Bold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata-Bold.ttf
   - family_name: Inconsolata
     type: Regular
     full_name: Inconsolata Regular
     post_script_name: Inconsolata-Regular
     version: '3.001'
     copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
-    font: Inconsolata[wdth,wght].ttf
-extract:
-  format: zip
+    font: Inconsolata-VariableFont_wdth,wght.ttf
+  - family_name: Inconsolata
+    type: Regular
+    full_name: Inconsolata Regular
+    post_script_name: Inconsolata-Regular
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata-Regular.ttf
+- name: Inconsolata Black
+  styles:
+  - family_name: Inconsolata Black
+    type: Regular
+    preferred_family_name: Inconsolata
+    preferred_type: Black
+    full_name: Inconsolata Black
+    post_script_name: Inconsolata-Black
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata-Black.ttf
+- name: Inconsolata Condensed
+  styles:
+  - family_name: Inconsolata Condensed
+    type: Bold
+    preferred_family_name: Inconsolata Condensed
+    preferred_type: Bold
+    full_name: Inconsolata Condensed Bold
+    post_script_name: InconsolataCondensed-Bold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_Condensed-Bold.ttf
+  - family_name: Inconsolata Condensed
+    type: Regular
+    preferred_family_name: Inconsolata Condensed
+    preferred_type: Regular
+    full_name: Inconsolata Condensed Regular
+    post_script_name: InconsolataCondensed-Regular
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_Condensed-Regular.ttf
+- name: Inconsolata Condensed Black
+  styles:
+  - family_name: Inconsolata Condensed Black
+    type: Regular
+    preferred_family_name: Inconsolata Condensed
+    preferred_type: Black
+    full_name: Inconsolata Condensed Black
+    post_script_name: InconsolataCondensed-Black
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_Condensed-Black.ttf
+- name: Inconsolata Condensed ExtraBold
+  styles:
+  - family_name: Inconsolata Condensed ExtraBold
+    type: Regular
+    preferred_family_name: Inconsolata Condensed
+    preferred_type: ExtraBold
+    full_name: Inconsolata Condensed ExtraBold
+    post_script_name: InconsolataCondensed-ExtraBold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_Condensed-ExtraBold.ttf
+- name: Inconsolata Condensed ExtraLight
+  styles:
+  - family_name: Inconsolata Condensed ExtraLight
+    type: Regular
+    preferred_family_name: Inconsolata Condensed
+    preferred_type: ExtraLight
+    full_name: Inconsolata Condensed ExtraLight
+    post_script_name: InconsolataCondensed-ExtraLight
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_Condensed-ExtraLight.ttf
+- name: Inconsolata Condensed Light
+  styles:
+  - family_name: Inconsolata Condensed Light
+    type: Regular
+    preferred_family_name: Inconsolata Condensed
+    preferred_type: Light
+    full_name: Inconsolata Condensed Light
+    post_script_name: InconsolataCondensed-Light
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_Condensed-Light.ttf
+- name: Inconsolata Condensed Medium
+  styles:
+  - family_name: Inconsolata Condensed Medium
+    type: Regular
+    preferred_family_name: Inconsolata Condensed
+    preferred_type: Medium
+    full_name: Inconsolata Condensed Medium
+    post_script_name: InconsolataCondensed-Medium
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_Condensed-Medium.ttf
+- name: Inconsolata Condensed SemiBold
+  styles:
+  - family_name: Inconsolata Condensed SemiBold
+    type: Regular
+    preferred_family_name: Inconsolata Condensed
+    preferred_type: SemiBold
+    full_name: Inconsolata Condensed SemiBold
+    post_script_name: InconsolataCondensed-SemiBold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_Condensed-SemiBold.ttf
+- name: Inconsolata Expanded
+  styles:
+  - family_name: Inconsolata Expanded
+    type: Bold
+    preferred_family_name: Inconsolata Expanded
+    preferred_type: Bold
+    full_name: Inconsolata Expanded Bold
+    post_script_name: InconsolataExpanded-Bold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_Expanded-Bold.ttf
+  - family_name: Inconsolata Expanded
+    type: Regular
+    preferred_family_name: Inconsolata Expanded
+    preferred_type: Regular
+    full_name: Inconsolata Expanded Regular
+    post_script_name: InconsolataExpanded-Regular
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_Expanded-Regular.ttf
+- name: Inconsolata Expanded Black
+  styles:
+  - family_name: Inconsolata Expanded Black
+    type: Regular
+    preferred_family_name: Inconsolata Expanded
+    preferred_type: Black
+    full_name: Inconsolata Expanded Black
+    post_script_name: InconsolataExpanded-Black
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_Expanded-Black.ttf
+- name: Inconsolata Expanded ExtraBold
+  styles:
+  - family_name: Inconsolata Expanded ExtraBold
+    type: Regular
+    preferred_family_name: Inconsolata Expanded
+    preferred_type: ExtraBold
+    full_name: Inconsolata Expanded ExtraBold
+    post_script_name: InconsolataExpanded-ExtraBold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_Expanded-ExtraBold.ttf
+- name: Inconsolata Expanded ExtraLight
+  styles:
+  - family_name: Inconsolata Expanded ExtraLight
+    type: Regular
+    preferred_family_name: Inconsolata Expanded
+    preferred_type: ExtraLight
+    full_name: Inconsolata Expanded ExtraLight
+    post_script_name: InconsolataExpanded-ExtraLight
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_Expanded-ExtraLight.ttf
+- name: Inconsolata Expanded Light
+  styles:
+  - family_name: Inconsolata Expanded Light
+    type: Regular
+    preferred_family_name: Inconsolata Expanded
+    preferred_type: Light
+    full_name: Inconsolata Expanded Light
+    post_script_name: InconsolataExpanded-Light
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_Expanded-Light.ttf
+- name: Inconsolata Expanded Medium
+  styles:
+  - family_name: Inconsolata Expanded Medium
+    type: Regular
+    preferred_family_name: Inconsolata Expanded
+    preferred_type: Medium
+    full_name: Inconsolata Expanded Medium
+    post_script_name: InconsolataExpanded-Medium
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_Expanded-Medium.ttf
+- name: Inconsolata Expanded SemiBold
+  styles:
+  - family_name: Inconsolata Expanded SemiBold
+    type: Regular
+    preferred_family_name: Inconsolata Expanded
+    preferred_type: SemiBold
+    full_name: Inconsolata Expanded SemiBold
+    post_script_name: InconsolataExpanded-SemiBold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_Expanded-SemiBold.ttf
+- name: Inconsolata ExtraBold
+  styles:
+  - family_name: Inconsolata ExtraBold
+    type: Regular
+    preferred_family_name: Inconsolata
+    preferred_type: ExtraBold
+    full_name: Inconsolata ExtraBold
+    post_script_name: Inconsolata-ExtraBold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata-ExtraBold.ttf
+- name: Inconsolata ExtraCondensed
+  styles:
+  - family_name: Inconsolata ExtraCondensed
+    type: Bold
+    preferred_family_name: Inconsolata ExtraCondensed
+    preferred_type: Bold
+    full_name: Inconsolata ExtraCondensed Bold
+    post_script_name: InconsolataExtraCondensed-Bold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_ExtraCondensed-Bold.ttf
+  - family_name: Inconsolata ExtraCondensed
+    type: Regular
+    preferred_family_name: Inconsolata ExtraCondensed
+    preferred_type: Regular
+    full_name: Inconsolata ExtraCondensed Regular
+    post_script_name: InconsolataExtraCondensed-Regular
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_ExtraCondensed-Regular.ttf
+- name: Inconsolata ExtraCondensed Black
+  styles:
+  - family_name: Inconsolata ExtraCondensed Black
+    type: Regular
+    preferred_family_name: Inconsolata ExtraCondensed
+    preferred_type: Black
+    full_name: Inconsolata ExtraCondensed Black
+    post_script_name: InconsolataExtraCondensed-Black
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_ExtraCondensed-Black.ttf
+- name: Inconsolata ExtraCondensed ExtraBold
+  styles:
+  - family_name: Inconsolata ExtraCondensed ExtraBold
+    type: Regular
+    preferred_family_name: Inconsolata ExtraCondensed
+    preferred_type: ExtraBold
+    full_name: Inconsolata ExtraCondensed ExtraBold
+    post_script_name: InconsolataExtraCondensed-ExtraBold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_ExtraCondensed-ExtraBold.ttf
+- name: Inconsolata ExtraCondensed ExtraLight
+  styles:
+  - family_name: Inconsolata ExtraCondensed ExtraLight
+    type: Regular
+    preferred_family_name: Inconsolata ExtraCondensed
+    preferred_type: ExtraLight
+    full_name: Inconsolata ExtraCondensed ExtraLight
+    post_script_name: InconsolataExtraCondensed-ExtraLight
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_ExtraCondensed-ExtraLight.ttf
+- name: Inconsolata ExtraCondensed Light
+  styles:
+  - family_name: Inconsolata ExtraCondensed Light
+    type: Regular
+    preferred_family_name: Inconsolata ExtraCondensed
+    preferred_type: Light
+    full_name: Inconsolata ExtraCondensed Light
+    post_script_name: InconsolataExtraCondensed-Light
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_ExtraCondensed-Light.ttf
+- name: Inconsolata ExtraCondensed Medium
+  styles:
+  - family_name: Inconsolata ExtraCondensed Medium
+    type: Regular
+    preferred_family_name: Inconsolata ExtraCondensed
+    preferred_type: Medium
+    full_name: Inconsolata ExtraCondensed Medium
+    post_script_name: InconsolataExtraCondensed-Medium
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_ExtraCondensed-Medium.ttf
+- name: Inconsolata ExtraCondensed SemiBold
+  styles:
+  - family_name: Inconsolata ExtraCondensed SemiBold
+    type: Regular
+    preferred_family_name: Inconsolata ExtraCondensed
+    preferred_type: SemiBold
+    full_name: Inconsolata ExtraCondensed SemiBold
+    post_script_name: InconsolataExtraCondensed-SemiBold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_ExtraCondensed-SemiBold.ttf
+- name: Inconsolata ExtraExpanded
+  styles:
+  - family_name: Inconsolata ExtraExpanded
+    type: Bold
+    preferred_family_name: Inconsolata ExtraExpanded
+    preferred_type: Bold
+    full_name: Inconsolata ExtraExpanded Bold
+    post_script_name: InconsolataExtraExpanded-Bold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_ExtraExpanded-Bold.ttf
+  - family_name: Inconsolata ExtraExpanded
+    type: Regular
+    preferred_family_name: Inconsolata ExtraExpanded
+    preferred_type: Regular
+    full_name: Inconsolata ExtraExpanded Regular
+    post_script_name: InconsolataExtraExpanded-Regular
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_ExtraExpanded-Regular.ttf
+- name: Inconsolata ExtraExpanded Black
+  styles:
+  - family_name: Inconsolata ExtraExpanded Black
+    type: Regular
+    preferred_family_name: Inconsolata ExtraExpanded
+    preferred_type: Black
+    full_name: Inconsolata ExtraExpanded Black
+    post_script_name: InconsolataExtraExpanded-Black
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_ExtraExpanded-Black.ttf
+- name: Inconsolata ExtraExpanded ExtraBold
+  styles:
+  - family_name: Inconsolata ExtraExpanded ExtraBold
+    type: Regular
+    preferred_family_name: Inconsolata ExtraExpanded
+    preferred_type: ExtraBold
+    full_name: Inconsolata ExtraExpanded ExtraBold
+    post_script_name: InconsolataExtraExpanded-ExtraBold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_ExtraExpanded-ExtraBold.ttf
+- name: Inconsolata ExtraExpanded ExtraLight
+  styles:
+  - family_name: Inconsolata ExtraExpanded ExtraLight
+    type: Regular
+    preferred_family_name: Inconsolata ExtraExpanded
+    preferred_type: ExtraLight
+    full_name: Inconsolata ExtraExpanded ExtraLight
+    post_script_name: InconsolataExtraExpanded-ExtraLight
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_ExtraExpanded-ExtraLight.ttf
+- name: Inconsolata ExtraExpanded Light
+  styles:
+  - family_name: Inconsolata ExtraExpanded Light
+    type: Regular
+    preferred_family_name: Inconsolata ExtraExpanded
+    preferred_type: Light
+    full_name: Inconsolata ExtraExpanded Light
+    post_script_name: InconsolataExtraExpanded-Light
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_ExtraExpanded-Light.ttf
+- name: Inconsolata ExtraExpanded Medium
+  styles:
+  - family_name: Inconsolata ExtraExpanded Medium
+    type: Regular
+    preferred_family_name: Inconsolata ExtraExpanded
+    preferred_type: Medium
+    full_name: Inconsolata ExtraExpanded Medium
+    post_script_name: InconsolataExtraExpanded-Medium
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_ExtraExpanded-Medium.ttf
+- name: Inconsolata ExtraExpanded SemiBold
+  styles:
+  - family_name: Inconsolata ExtraExpanded SemiBold
+    type: Regular
+    preferred_family_name: Inconsolata ExtraExpanded
+    preferred_type: SemiBold
+    full_name: Inconsolata ExtraExpanded SemiBold
+    post_script_name: InconsolataExtraExpanded-SemiBold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_ExtraExpanded-SemiBold.ttf
+- name: Inconsolata ExtraLight
+  styles:
+  - family_name: Inconsolata ExtraLight
+    type: Regular
+    preferred_family_name: Inconsolata
+    preferred_type: ExtraLight
+    full_name: Inconsolata ExtraLight
+    post_script_name: Inconsolata-ExtraLight
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata-ExtraLight.ttf
+- name: Inconsolata Light
+  styles:
+  - family_name: Inconsolata Light
+    type: Regular
+    preferred_family_name: Inconsolata
+    preferred_type: Light
+    full_name: Inconsolata Light
+    post_script_name: Inconsolata-Light
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata-Light.ttf
+- name: Inconsolata Medium
+  styles:
+  - family_name: Inconsolata Medium
+    type: Regular
+    preferred_family_name: Inconsolata
+    preferred_type: Medium
+    full_name: Inconsolata Medium
+    post_script_name: Inconsolata-Medium
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata-Medium.ttf
+- name: Inconsolata SemiBold
+  styles:
+  - family_name: Inconsolata SemiBold
+    type: Regular
+    preferred_family_name: Inconsolata
+    preferred_type: SemiBold
+    full_name: Inconsolata SemiBold
+    post_script_name: Inconsolata-SemiBold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata-SemiBold.ttf
+- name: Inconsolata SemiCondensed
+  styles:
+  - family_name: Inconsolata SemiCondensed
+    type: Bold
+    preferred_family_name: Inconsolata SemiCondensed
+    preferred_type: Bold
+    full_name: Inconsolata SemiCondensed Bold
+    post_script_name: InconsolataSemiCondensed-Bold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_SemiCondensed-Bold.ttf
+  - family_name: Inconsolata SemiCondensed
+    type: Regular
+    preferred_family_name: Inconsolata SemiCondensed
+    preferred_type: Regular
+    full_name: Inconsolata SemiCondensed Regular
+    post_script_name: InconsolataSemiCondensed-Regular
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_SemiCondensed-Regular.ttf
+- name: Inconsolata SemiCondensed Black
+  styles:
+  - family_name: Inconsolata SemiCondensed Black
+    type: Regular
+    preferred_family_name: Inconsolata SemiCondensed
+    preferred_type: Black
+    full_name: Inconsolata SemiCondensed Black
+    post_script_name: InconsolataSemiCondensed-Black
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_SemiCondensed-Black.ttf
+- name: Inconsolata SemiCondensed ExtraBold
+  styles:
+  - family_name: Inconsolata SemiCondensed ExtraBold
+    type: Regular
+    preferred_family_name: Inconsolata SemiCondensed
+    preferred_type: ExtraBold
+    full_name: Inconsolata SemiCondensed ExtraBold
+    post_script_name: InconsolataSemiCondensed-ExtraBold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_SemiCondensed-ExtraBold.ttf
+- name: Inconsolata SemiCondensed ExtraLight
+  styles:
+  - family_name: Inconsolata SemiCondensed ExtraLight
+    type: Regular
+    preferred_family_name: Inconsolata SemiCondensed
+    preferred_type: ExtraLight
+    full_name: Inconsolata SemiCondensed ExtraLight
+    post_script_name: InconsolataSemiCondensed-ExtraLight
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_SemiCondensed-ExtraLight.ttf
+- name: Inconsolata SemiCondensed Light
+  styles:
+  - family_name: Inconsolata SemiCondensed Light
+    type: Regular
+    preferred_family_name: Inconsolata SemiCondensed
+    preferred_type: Light
+    full_name: Inconsolata SemiCondensed Light
+    post_script_name: InconsolataSemiCondensed-Light
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_SemiCondensed-Light.ttf
+- name: Inconsolata SemiCondensed Medium
+  styles:
+  - family_name: Inconsolata SemiCondensed Medium
+    type: Regular
+    preferred_family_name: Inconsolata SemiCondensed
+    preferred_type: Medium
+    full_name: Inconsolata SemiCondensed Medium
+    post_script_name: InconsolataSemiCondensed-Medium
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_SemiCondensed-Medium.ttf
+- name: Inconsolata SemiCondensed SemiBold
+  styles:
+  - family_name: Inconsolata SemiCondensed SemiBold
+    type: Regular
+    preferred_family_name: Inconsolata SemiCondensed
+    preferred_type: SemiBold
+    full_name: Inconsolata SemiCondensed SemiBold
+    post_script_name: InconsolataSemiCondensed-SemiBold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_SemiCondensed-SemiBold.ttf
+- name: Inconsolata SemiExpanded
+  styles:
+  - family_name: Inconsolata SemiExpanded
+    type: Bold
+    preferred_family_name: Inconsolata SemiExpanded
+    preferred_type: Bold
+    full_name: Inconsolata SemiExpanded Bold
+    post_script_name: InconsolataSemiExpanded-Bold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_SemiExpanded-Bold.ttf
+  - family_name: Inconsolata SemiExpanded
+    type: Regular
+    preferred_family_name: Inconsolata SemiExpanded
+    preferred_type: Regular
+    full_name: Inconsolata SemiExpanded Regular
+    post_script_name: InconsolataSemiExpanded-Regular
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_SemiExpanded-Regular.ttf
+- name: Inconsolata SemiExpanded Black
+  styles:
+  - family_name: Inconsolata SemiExpanded Black
+    type: Regular
+    preferred_family_name: Inconsolata SemiExpanded
+    preferred_type: Black
+    full_name: Inconsolata SemiExpanded Black
+    post_script_name: InconsolataSemiExpanded-Black
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_SemiExpanded-Black.ttf
+- name: Inconsolata SemiExpanded ExtraBold
+  styles:
+  - family_name: Inconsolata SemiExpanded ExtraBold
+    type: Regular
+    preferred_family_name: Inconsolata SemiExpanded
+    preferred_type: ExtraBold
+    full_name: Inconsolata SemiExpanded ExtraBold
+    post_script_name: InconsolataSemiExpanded-ExtraBold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_SemiExpanded-ExtraBold.ttf
+- name: Inconsolata SemiExpanded ExtraLight
+  styles:
+  - family_name: Inconsolata SemiExpanded ExtraLight
+    type: Regular
+    preferred_family_name: Inconsolata SemiExpanded
+    preferred_type: ExtraLight
+    full_name: Inconsolata SemiExpanded ExtraLight
+    post_script_name: InconsolataSemiExpanded-ExtraLight
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_SemiExpanded-ExtraLight.ttf
+- name: Inconsolata SemiExpanded Light
+  styles:
+  - family_name: Inconsolata SemiExpanded Light
+    type: Regular
+    preferred_family_name: Inconsolata SemiExpanded
+    preferred_type: Light
+    full_name: Inconsolata SemiExpanded Light
+    post_script_name: InconsolataSemiExpanded-Light
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_SemiExpanded-Light.ttf
+- name: Inconsolata SemiExpanded Medium
+  styles:
+  - family_name: Inconsolata SemiExpanded Medium
+    type: Regular
+    preferred_family_name: Inconsolata SemiExpanded
+    preferred_type: Medium
+    full_name: Inconsolata SemiExpanded Medium
+    post_script_name: InconsolataSemiExpanded-Medium
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_SemiExpanded-Medium.ttf
+- name: Inconsolata SemiExpanded SemiBold
+  styles:
+  - family_name: Inconsolata SemiExpanded SemiBold
+    type: Regular
+    preferred_family_name: Inconsolata SemiExpanded
+    preferred_type: SemiBold
+    full_name: Inconsolata SemiExpanded SemiBold
+    post_script_name: InconsolataSemiExpanded-SemiBold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_SemiExpanded-SemiBold.ttf
+- name: Inconsolata UltraCondensed
+  styles:
+  - family_name: Inconsolata UltraCondensed
+    type: Bold
+    preferred_family_name: Inconsolata UltraCondensed
+    preferred_type: Bold
+    full_name: Inconsolata UltraCondensed Bold
+    post_script_name: InconsolataUltraCondensed-Bold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_UltraCondensed-Bold.ttf
+  - family_name: Inconsolata UltraCondensed
+    type: Regular
+    preferred_family_name: Inconsolata UltraCondensed
+    preferred_type: Regular
+    full_name: Inconsolata UltraCondensed Regular
+    post_script_name: InconsolataUltraCondensed-Regular
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_UltraCondensed-Regular.ttf
+- name: Inconsolata UltraCondensed Black
+  styles:
+  - family_name: Inconsolata UltraCondensed Black
+    type: Regular
+    preferred_family_name: Inconsolata UltraCondensed
+    preferred_type: Black
+    full_name: Inconsolata UltraCondensed Black
+    post_script_name: InconsolataUltraCondensed-Black
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_UltraCondensed-Black.ttf
+- name: Inconsolata UltraCondensed ExtraBold
+  styles:
+  - family_name: Inconsolata UltraCondensed ExtraBold
+    type: Regular
+    preferred_family_name: Inconsolata UltraCondensed
+    preferred_type: ExtraBold
+    full_name: Inconsolata UltraCondensed ExtraBold
+    post_script_name: InconsolataUltraCondensed-ExtraBold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_UltraCondensed-ExtraBold.ttf
+- name: Inconsolata UltraCondensed ExtraLight
+  styles:
+  - family_name: Inconsolata UltraCondensed ExtraLight
+    type: Regular
+    preferred_family_name: Inconsolata UltraCondensed
+    preferred_type: ExtraLight
+    full_name: Inconsolata UltraCondensed ExtraLight
+    post_script_name: InconsolataUltraCondensed-ExtraLight
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_UltraCondensed-ExtraLight.ttf
+- name: Inconsolata UltraCondensed Light
+  styles:
+  - family_name: Inconsolata UltraCondensed Light
+    type: Regular
+    preferred_family_name: Inconsolata UltraCondensed
+    preferred_type: Light
+    full_name: Inconsolata UltraCondensed Light
+    post_script_name: InconsolataUltraCondensed-Light
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_UltraCondensed-Light.ttf
+- name: Inconsolata UltraCondensed Medium
+  styles:
+  - family_name: Inconsolata UltraCondensed Medium
+    type: Regular
+    preferred_family_name: Inconsolata UltraCondensed
+    preferred_type: Medium
+    full_name: Inconsolata UltraCondensed Medium
+    post_script_name: InconsolataUltraCondensed-Medium
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_UltraCondensed-Medium.ttf
+- name: Inconsolata UltraCondensed SemiBold
+  styles:
+  - family_name: Inconsolata UltraCondensed SemiBold
+    type: Regular
+    preferred_family_name: Inconsolata UltraCondensed
+    preferred_type: SemiBold
+    full_name: Inconsolata UltraCondensed SemiBold
+    post_script_name: InconsolataUltraCondensed-SemiBold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_UltraCondensed-SemiBold.ttf
+- name: Inconsolata UltraExpanded
+  styles:
+  - family_name: Inconsolata UltraExpanded
+    type: Bold
+    preferred_family_name: Inconsolata UltraExpanded
+    preferred_type: Bold
+    full_name: Inconsolata UltraExpanded Bold
+    post_script_name: InconsolataUltraExpanded-Bold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_UltraExpanded-Bold.ttf
+  - family_name: Inconsolata UltraExpanded
+    type: Regular
+    preferred_family_name: Inconsolata UltraExpanded
+    preferred_type: Regular
+    full_name: Inconsolata UltraExpanded Regular
+    post_script_name: InconsolataUltraExpanded-Regular
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_UltraExpanded-Regular.ttf
+- name: Inconsolata UltraExpanded Black
+  styles:
+  - family_name: Inconsolata UltraExpanded Black
+    type: Regular
+    preferred_family_name: Inconsolata UltraExpanded
+    preferred_type: Black
+    full_name: Inconsolata UltraExpanded Black
+    post_script_name: InconsolataUltraExpanded-Black
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_UltraExpanded-Black.ttf
+- name: Inconsolata UltraExpanded ExtraBold
+  styles:
+  - family_name: Inconsolata UltraExpanded ExtraBold
+    type: Regular
+    preferred_family_name: Inconsolata UltraExpanded
+    preferred_type: ExtraBold
+    full_name: Inconsolata UltraExpanded ExtraBold
+    post_script_name: InconsolataUltraExpanded-ExtraBold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_UltraExpanded-ExtraBold.ttf
+- name: Inconsolata UltraExpanded ExtraLight
+  styles:
+  - family_name: Inconsolata UltraExpanded ExtraLight
+    type: Regular
+    preferred_family_name: Inconsolata UltraExpanded
+    preferred_type: ExtraLight
+    full_name: Inconsolata UltraExpanded ExtraLight
+    post_script_name: InconsolataUltraExpanded-ExtraLight
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_UltraExpanded-ExtraLight.ttf
+- name: Inconsolata UltraExpanded Light
+  styles:
+  - family_name: Inconsolata UltraExpanded Light
+    type: Regular
+    preferred_family_name: Inconsolata UltraExpanded
+    preferred_type: Light
+    full_name: Inconsolata UltraExpanded Light
+    post_script_name: InconsolataUltraExpanded-Light
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_UltraExpanded-Light.ttf
+- name: Inconsolata UltraExpanded Medium
+  styles:
+  - family_name: Inconsolata UltraExpanded Medium
+    type: Regular
+    preferred_family_name: Inconsolata UltraExpanded
+    preferred_type: Medium
+    full_name: Inconsolata UltraExpanded Medium
+    post_script_name: InconsolataUltraExpanded-Medium
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_UltraExpanded-Medium.ttf
+- name: Inconsolata UltraExpanded SemiBold
+  styles:
+  - family_name: Inconsolata UltraExpanded SemiBold
+    type: Regular
+    preferred_family_name: Inconsolata UltraExpanded
+    preferred_type: SemiBold
+    full_name: Inconsolata UltraExpanded SemiBold
+    post_script_name: InconsolataUltraExpanded-SemiBold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: Inconsolata_UltraExpanded-SemiBold.ttf
+extract: {}
 copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -26,7 +792,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -115,3 +881,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: ef20baae2fa1f2c97108589e3df997d47e43c82c448897c1e67caf517fa16b37
+command: import google --formulas_path Formulas -n 5000 --no-cache

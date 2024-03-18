@@ -4,8 +4,8 @@ resources:
   Freehand.zip:
     urls:
     - https://fonts.google.com/download?family=Freehand
-    sha256: 41a040ebee007a8a074e19e6c93c96319f2678d16a8991abb713dde31b8cc380
-    file_size: 109721
+    sha256: 78afebabf38edb240ec0c98f3ff86e8948b34e6625dd0ce7200eb238935912c0
+    file_size: 109220
 fonts:
 - name: Freehand
   styles:
@@ -13,7 +13,7 @@ fonts:
     type: Regular
     full_name: Freehand Regular
     post_script_name: Freehand-Regular
-    version: 8.001; ttfautohint (v1.8.3)
+    version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Freehand Project Authors (https://github.com/danhhong/Freehand)
     font: Freehand-Regular.ttf
 extract: {}
@@ -24,7 +24,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -114,4 +114,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 03437dbf7720ce8a47cc0c18fdade58fbaf5609760d8f7ca94e7488d4bc16f5f
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

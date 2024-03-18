@@ -1,12 +1,11 @@
 ---
-name: Sawarabi Mincho
 description: Sawarabi Mincho
 resources:
   Sawarabi_Mincho.zip:
     urls:
     - https://fonts.google.com/download?family=Sawarabi%20Mincho
-    sha256: 691ce2901c73cbd04a2ea572b03e94eef21930166232c0fe47bf3250e5f20aed
-    file_size: 581157
+    sha256: 797c89f51c69ba716a66ae751127dcc6ad27bd0f1157b023daad4ba81fbd6df9
+    file_size: 582077
 fonts:
 - name: Sawarabi Mincho
   styles:
@@ -21,9 +20,11 @@ extract: {}
 copyright: Copyright 2016 The Sawarabi Mincho Project Authors.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
+  Copyright 2016 The Sawarabi Mincho Project Authors.
+
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -112,5 +113,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d9ca15a51941c1ee80a58b6db858e48f5b2faf9ccc5673dd2615cca505e2c09b
-command: google import --formulas_path Formulas
+digest: ac4e4dec4f6fc4838229f28b88bff11b3431221964c03a88113d49d6956c5b8c
+command: import google --formulas_path Formulas -n 5000 --no-cache

@@ -1,12 +1,11 @@
 ---
-name: Baloo Bhai 2
 description: Baloo Bhai 2
 homepage: www.ektype.in
 resources:
   Baloo_Bhai_2.zip:
     urls:
     - https://fonts.google.com/download?family=Baloo%20Bhai%202
-    file_size: 1041243
+    file_size: 1239247
 fonts:
 - name: Baloo Bhai 2
   styles:
@@ -14,14 +13,21 @@ fonts:
     type: Bold
     full_name: Baloo Bhai 2 Bold
     post_script_name: BalooBhai2-Bold
-    version: 1.640;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220; ttfautohint (v1.8.3)
+    version: '1.700'
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
     font: BalooBhai2-Bold.ttf
   - family_name: Baloo Bhai 2
     type: Regular
     full_name: Baloo Bhai 2 Regular
     post_script_name: BalooBhai2-Regular
-    version: 1.640;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220; ttfautohint (v1.8.3)
+    version: '1.700'
+    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
+    font: BalooBhai2-VariableFont_wght.ttf
+  - family_name: Baloo Bhai 2
+    type: Regular
+    full_name: Baloo Bhai 2 Regular
+    post_script_name: BalooBhai2-Regular
+    version: '1.700'
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
     font: BalooBhai2-Regular.ttf
 - name: Baloo Bhai 2 ExtraBold
@@ -32,7 +38,7 @@ fonts:
     preferred_type: ExtraBold
     full_name: Baloo Bhai 2 ExtraBold
     post_script_name: BalooBhai2-ExtraBold
-    version: 1.640;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220; ttfautohint (v1.8.3)
+    version: '1.700'
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
     font: BalooBhai2-ExtraBold.ttf
 - name: Baloo Bhai 2 Medium
@@ -43,7 +49,7 @@ fonts:
     preferred_type: Medium
     full_name: Baloo Bhai 2 Medium
     post_script_name: BalooBhai2-Medium
-    version: 1.640;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220; ttfautohint (v1.8.3)
+    version: '1.700'
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
     font: BalooBhai2-Medium.ttf
 - name: Baloo Bhai 2 SemiBold
@@ -54,18 +60,18 @@ fonts:
     preferred_type: SemiBold
     full_name: Baloo Bhai 2 SemiBold
     post_script_name: BalooBhai2-SemiBold
-    version: 1.640;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220; ttfautohint (v1.8.3)
+    version: '1.700'
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
     font: BalooBhai2-SemiBold.ttf
 extract: {}
 copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2015 Ek Type (www.ektype.in)
+  Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -155,4 +161,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: f651c23d4a7f5fdd1e4dfd5e0533672ee2b89b1da2053636898d32ac7ccf5cd0
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

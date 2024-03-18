@@ -1,32 +1,31 @@
 ---
 description: Poiret One
-homepage: http://www.behance.net/Denis_Masharov
+homepage: denis.masharov@gmail.com
 resources:
-  PoiretOne.zip:
+  Poiret_One.zip:
     urls:
     - https://fonts.google.com/download?family=Poiret%20One
-    sha256: faefcc38ccca536f759f532bc7967e437a62cccc0ddf6e96dfe102423ac3763d
-    file_size: 24095
+    sha256: 8ab3186f7062751f546433c671a3a3470a60f3dfc7999363513fa2552408296e
+    file_size: 24070
 fonts:
 - name: Poiret One
   styles:
   - family_name: Poiret One
     type: Regular
-    full_name: Poiret One Regular
+    full_name: Poiret One
     post_script_name: PoiretOne-Regular
-    version: '1.101'
-    copyright: Copyright 2011 The Poiret One Project Authors (https://github.com/alexeiva/poiretone)
+    version: '1.001'
+    copyright: Copyright (c) 2011, Denis Masharov (denis.masharov@gmail.com)
     font: PoiretOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2011 The Poiret One Project Authors (https://github.com/alexeiva/poiretone)
+extract: {}
+copyright: Copyright (c) 2011, Denis Masharov (denis.masharov@gmail.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2011 The Poiret One Project Authors (https://github.com/alexeiva/poiretone)
+  Copyright (c) 2011, Denis Masharov (denis.masharov@gmail.com)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -115,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 5eaae3fc6b289912d2744a32264ef62a00ad4c3e0731d47f9f9a426a384b3f9e
+command: import google --formulas_path Formulas -n 5000 --no-cache

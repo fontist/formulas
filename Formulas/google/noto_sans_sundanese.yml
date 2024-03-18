@@ -5,7 +5,7 @@ resources:
   Noto_Sans_Sundanese.zip:
     urls:
     - https://fonts.google.com/download?family=Noto%20Sans%20Sundanese
-    file_size: 133088
+    file_size: 137565
 fonts:
 - name: Noto Sans Sundanese
   styles:
@@ -13,7 +13,7 @@ fonts:
     type: Bold
     full_name: Noto Sans Sundanese Bold
     post_script_name: NotoSansSundanese-Bold
-    version: '2.003'
+    version: '2.005'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sundanese)
     font: NotoSansSundanese-Bold.ttf
@@ -21,7 +21,7 @@ fonts:
     type: Regular
     full_name: Noto Sans Sundanese Regular
     post_script_name: NotoSansSundanese-Regular
-    version: '2.003'
+    version: '2.005'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sundanese)
     font: NotoSansSundanese-VariableFont_wght.ttf
@@ -29,7 +29,7 @@ fonts:
     type: Regular
     full_name: Noto Sans Sundanese Regular
     post_script_name: NotoSansSundanese-Regular
-    version: '2.003'
+    version: '2.005'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sundanese)
     font: NotoSansSundanese-Regular.ttf
@@ -41,7 +41,7 @@ fonts:
     preferred_type: Medium
     full_name: Noto Sans Sundanese Medium
     post_script_name: NotoSansSundanese-Medium
-    version: '2.003'
+    version: '2.005'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sundanese)
     font: NotoSansSundanese-Medium.ttf
@@ -53,7 +53,7 @@ fonts:
     preferred_type: SemiBold
     full_name: Noto Sans Sundanese SemiBold
     post_script_name: NotoSansSundanese-SemiBold
-    version: '2.003'
+    version: '2.005'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sundanese)
     font: NotoSansSundanese-SemiBold.ttf
@@ -65,7 +65,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -155,4 +155,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 6a157eeed0b063e6b3d030771dee929cb30fb53c8fb8b2c72a58d1c79b6df79a
-command: import google --formulas_path Formulas -n 50
+command: import google --formulas_path Formulas -n 5000 --no-cache

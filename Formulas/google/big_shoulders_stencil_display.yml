@@ -1,12 +1,11 @@
 ---
-name: Big Shoulders Stencil Display
 description: Big Shoulders Stencil Display
 homepage: http://xotype.co
 resources:
   Big_Shoulders_Stencil_Display.zip:
     urls:
     - https://fonts.google.com/download?family=Big%20Shoulders%20Stencil%20Display
-    file_size: 560611
+    file_size: 562148
 fonts:
 - name: Big Shoulders Stencil Display
   styles:
@@ -14,14 +13,14 @@ fonts:
     type: Bold
     full_name: Big Shoulders Stencil Display Bold
     post_script_name: BigShouldersStencilDisplay-Bold
-    version: '1.000'
+    version: '2.001'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersStencilDisplay-Bold.ttf
   - family_name: Big Shoulders Stencil Display
     type: Regular
     full_name: Big Shoulders Stencil Display Regular
     post_script_name: BigShouldersStencilDisplay-Regular
-    version: '1.000'
+    version: '2.001'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersStencilDisplay-Regular.ttf
 - name: Big Shoulders Stencil Display Black
@@ -32,7 +31,7 @@ fonts:
     preferred_type: Black
     full_name: Big Shoulders Stencil Display Black
     post_script_name: BigShouldersStencilDisplay-Black
-    version: '1.000'
+    version: '2.001'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersStencilDisplay-Black.ttf
 - name: Big Shoulders Stencil Display ExtraBold
@@ -43,9 +42,20 @@ fonts:
     preferred_type: ExtraBold
     full_name: Big Shoulders Stencil Display ExtraBold
     post_script_name: BigShouldersStencilDisplay-ExtraBold
-    version: '1.000'
+    version: '2.001'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersStencilDisplay-ExtraBold.ttf
+- name: Big Shoulders Stencil Display ExtraLight
+  styles:
+  - family_name: Big Shoulders Stencil Display ExtraLight
+    type: Regular
+    preferred_family_name: Big Shoulders Stencil Display
+    preferred_type: ExtraLight
+    full_name: Big Shoulders Stencil Display ExtraLight
+    post_script_name: BigShouldersStencilDisplay-ExtraLight
+    version: '2.001'
+    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
+    font: BigShouldersStencilDisplay-ExtraLight.ttf
 - name: Big Shoulders Stencil Display Light
   styles:
   - family_name: Big Shoulders Stencil Display Light
@@ -54,7 +64,7 @@ fonts:
     preferred_type: Light
     full_name: Big Shoulders Stencil Display Light
     post_script_name: BigShouldersStencilDisplay-Light
-    version: '1.000'
+    version: '2.001'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersStencilDisplay-Light.ttf
 - name: Big Shoulders Stencil Display Medium
@@ -65,7 +75,7 @@ fonts:
     preferred_type: Medium
     full_name: Big Shoulders Stencil Display Medium
     post_script_name: BigShouldersStencilDisplay-Medium
-    version: '1.000'
+    version: '2.001'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersStencilDisplay-Medium.ttf
 - name: Big Shoulders Stencil Display SemiBold
@@ -76,7 +86,7 @@ fonts:
     preferred_type: SemiBold
     full_name: Big Shoulders Stencil Display SemiBold
     post_script_name: BigShouldersStencilDisplay-SemiBold
-    version: '1.000'
+    version: '2.001'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersStencilDisplay-SemiBold.ttf
 - name: Big Shoulders Stencil Display Thin
@@ -87,7 +97,16 @@ fonts:
     preferred_type: Thin
     full_name: Big Shoulders Stencil Display Thin
     post_script_name: BigShouldersStencilDisplay-Thin
-    version: '1.000'
+    version: '2.001'
+    copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
+    font: BigShouldersStencilDisplay-VariableFont_wght.ttf
+  - family_name: Big Shoulders Stencil Display Thin
+    type: Regular
+    preferred_family_name: Big Shoulders Stencil Display
+    preferred_type: Thin
+    full_name: Big Shoulders Stencil Display Thin
+    post_script_name: BigShouldersStencilDisplay-Thin
+    version: '2.001'
     copyright: Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
     font: BigShouldersStencilDisplay-Thin.ttf
 extract: {}
@@ -98,7 +117,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -188,4 +207,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 0a4ee0898163cdcfe0e48d3436361d267ece341d51625f35da8f4e3ac759ceeb
-command: google import --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

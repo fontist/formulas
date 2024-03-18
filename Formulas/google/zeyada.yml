@@ -1,13 +1,11 @@
 ---
-name: Zeyada
 description: Zeyada
-homepage:
 resources:
   Zeyada.zip:
     urls:
     - https://fonts.google.com/download?family=Zeyada
-    sha256: 891e94d738c44e1c477345f0f9b240b7afc9a2ff3bc1b9999efcada37e0f9fd5
-    file_size: 32890
+    sha256: ac5bbf20bf80986aeffee2efbcfb2eeea461da1f034795dda3517fd9c04d2db2
+    file_size: 33106
 fonts:
 - name: Zeyada
   styles:
@@ -17,17 +15,16 @@ fonts:
     post_script_name: Zeyada
     version: 1.002 2010
     copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
-    font: Zeyada.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)
+    font: Zeyada-Regular.ttf
+extract: {}
+copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -116,3 +113,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 78f07dec21d5d70e3001e4586acd679ba6c49386d9b13aabec4f795ad33bfb71
+command: import google --formulas_path Formulas -n 5000 --no-cache

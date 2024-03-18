@@ -1,16 +1,22 @@
 ---
-name: Geo
 description: Geo
-homepage:
 resources:
   Geo.zip:
     urls:
     - https://fonts.google.com/download?family=Geo
-    sha256: 3df390f8c0e1a7775646f9d40a3d42d772916d950ce5295e18459bdde9e41a14
-    file_size: 34740
+    sha256: 97464aed878cb2e50ff94e882c46e191a951f8b76e03857c600e4db7cd10393e
+    file_size: 34750
 fonts:
 - name: Geo
   styles:
+  - family_name: Geo
+    type: Oblique
+    full_name: Geo Oblique
+    post_script_name: Geo-Oblique
+    version: '001.2'
+    copyright: Copyright (c) 2000-2010, Ben Weiner (ben@readingtype.org.uk), with
+      Reserved Font Name Geo.
+    font: Geo-Italic.ttf
   - family_name: Geo
     type: Regular
     full_name: Geo
@@ -19,16 +25,7 @@ fonts:
     copyright: Copyright (c) 2000-2010, Ben Weiner (ben@readingtype.org.uk), with
       Reserved Font Name Geo.
     font: Geo-Regular.ttf
-  - family_name: Geo
-    type: Oblique
-    full_name: Geo Oblique
-    post_script_name: Geo-Oblique
-    version: '001.2'
-    copyright: Copyright (c) 2000-2010, Ben Weiner (ben@readingtype.org.uk), with
-      Reserved Font Name Geo.
-    font: Geo-Oblique.ttf
-extract:
-  format: zip
+extract: {}
 copyright: Copyright (c) 2000-2010, Ben Weiner (ben@readingtype.org.uk), with Reserved
   Font Name Geo.
 license_url: http://scripts.sil.org/OFL
@@ -38,7 +35,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -127,3 +124,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: 230b2393aa2cc8a751d47633ae235fb36365f97c47863c5e5cd8b15983b9c6dd
+command: import google --formulas_path Formulas -n 5000 --no-cache

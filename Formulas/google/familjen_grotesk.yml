@@ -5,7 +5,7 @@ resources:
   Familjen_Grotesk.zip:
     urls:
     - https://fonts.google.com/download?family=Familjen%20Grotesk
-    file_size: 331687
+    file_size: 334107
 fonts:
 - name: Familjen Grotesk
   styles:
@@ -13,42 +13,42 @@ fonts:
     type: Bold
     full_name: Familjen Grotesk Bold
     post_script_name: FamiljenGrotesk-Bold
-    version: '2.000'
+    version: '2.002'
     copyright: Copyright 2021 The Familjen Grotesk Project Authors (https://github.com/Familjen-Sthlm/Familjen-Grotesk)
     font: FamiljenGrotesk-Bold.ttf
   - family_name: Familjen Grotesk
     type: Bold Italic
     full_name: Familjen Grotesk Bold Italic
     post_script_name: FamiljenGrotesk-BoldItalic
-    version: '2.000'
+    version: '2.002'
     copyright: Copyright 2021 The Familjen Grotesk Project Authors (https://github.com/Familjen-Sthlm/Familjen-Grotesk)
     font: FamiljenGrotesk-BoldItalic.ttf
   - family_name: Familjen Grotesk
     type: Italic
     full_name: Familjen Grotesk Italic
     post_script_name: FamiljenGrotesk-Italic
-    version: '2.000'
+    version: '2.002'
     copyright: Copyright 2021 The Familjen Grotesk Project Authors (https://github.com/Familjen-Sthlm/Familjen-Grotesk)
     font: FamiljenGrotesk-Italic-VariableFont_wght.ttf
   - family_name: Familjen Grotesk
     type: Italic
     full_name: Familjen Grotesk Italic
     post_script_name: FamiljenGrotesk-Italic
-    version: '2.000'
+    version: '2.002'
     copyright: Copyright 2021 The Familjen Grotesk Project Authors (https://github.com/Familjen-Sthlm/Familjen-Grotesk)
     font: FamiljenGrotesk-Italic.ttf
   - family_name: Familjen Grotesk
     type: Regular
     full_name: Familjen Grotesk Regular
     post_script_name: FamiljenGrotesk-Regular
-    version: '2.000'
+    version: '2.002'
     copyright: Copyright 2021 The Familjen Grotesk Project Authors (https://github.com/Familjen-Sthlm/Familjen-Grotesk)
     font: FamiljenGrotesk-VariableFont_wght.ttf
   - family_name: Familjen Grotesk
     type: Regular
     full_name: Familjen Grotesk Regular
     post_script_name: FamiljenGrotesk-Regular
-    version: '2.000'
+    version: '2.002'
     copyright: Copyright 2021 The Familjen Grotesk Project Authors (https://github.com/Familjen-Sthlm/Familjen-Grotesk)
     font: FamiljenGrotesk-Regular.ttf
 - name: Familjen Grotesk Medium
@@ -59,7 +59,7 @@ fonts:
     preferred_type: Medium Italic
     full_name: Familjen Grotesk Medium Italic
     post_script_name: FamiljenGrotesk-MediumItalic
-    version: '2.000'
+    version: '2.002'
     copyright: Copyright 2021 The Familjen Grotesk Project Authors (https://github.com/Familjen-Sthlm/Familjen-Grotesk)
     font: FamiljenGrotesk-MediumItalic.ttf
   - family_name: Familjen Grotesk Medium
@@ -68,7 +68,7 @@ fonts:
     preferred_type: Medium
     full_name: Familjen Grotesk Medium
     post_script_name: FamiljenGrotesk-Medium
-    version: '2.000'
+    version: '2.002'
     copyright: Copyright 2021 The Familjen Grotesk Project Authors (https://github.com/Familjen-Sthlm/Familjen-Grotesk)
     font: FamiljenGrotesk-Medium.ttf
 - name: Familjen Grotesk SemiBold
@@ -79,7 +79,7 @@ fonts:
     preferred_type: SemiBold Italic
     full_name: Familjen Grotesk SemiBold Italic
     post_script_name: FamiljenGrotesk-SemiBoldItalic
-    version: '2.000'
+    version: '2.002'
     copyright: Copyright 2021 The Familjen Grotesk Project Authors (https://github.com/Familjen-Sthlm/Familjen-Grotesk)
     font: FamiljenGrotesk-SemiBoldItalic.ttf
   - family_name: Familjen Grotesk SemiBold
@@ -88,7 +88,7 @@ fonts:
     preferred_type: SemiBold
     full_name: Familjen Grotesk SemiBold
     post_script_name: FamiljenGrotesk-SemiBold
-    version: '2.000'
+    version: '2.002'
     copyright: Copyright 2021 The Familjen Grotesk Project Authors (https://github.com/Familjen-Sthlm/Familjen-Grotesk)
     font: FamiljenGrotesk-SemiBold.ttf
 extract: {}
@@ -99,7 +99,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -189,4 +189,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: b2394585ff56ad5394c79a4f9d5ea78de00fde12fd244253bd995a655bf6c8fa
-command: import google --formulas_path Formulas
+command: import google --formulas_path Formulas -n 5000 --no-cache

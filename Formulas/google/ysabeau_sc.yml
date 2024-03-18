@@ -4,7 +4,7 @@ resources:
   Ysabeau_SC.zip:
     urls:
     - https://fonts.google.com/download?family=Ysabeau%20SC
-    file_size: 662723
+    file_size: 662674
 fonts:
 - name: Ysabeau SC
   styles:
@@ -12,21 +12,21 @@ fonts:
     type: Bold
     full_name: Ysabeau SC Bold
     post_script_name: YsabeauSC-Bold
-    version: '2.001;gftools[0.9.30]; featfreeze: smcp'
+    version: '2.002; featfreeze: smcp'
     copyright: Copyright 2023 The Ysabeau Project Authors (https://github.com/CatharsisFonts/Ysabeau)
     font: YsabeauSC-VariableFont_wght.ttf
   - family_name: Ysabeau SC
     type: Bold
     full_name: Ysabeau SC Bold
     post_script_name: YsabeauSC-Bold
-    version: '2.001;gftools[0.9.30]; featfreeze: smcp'
+    version: '2.002; featfreeze: smcp'
     copyright: Copyright 2023 The Ysabeau Project Authors (https://github.com/CatharsisFonts/Ysabeau)
     font: YsabeauSC-Bold.ttf
   - family_name: Ysabeau SC
     type: Regular
     full_name: Ysabeau SC Regular
     post_script_name: YsabeauSC-Regular
-    version: '2.001;gftools[0.9.30]; featfreeze: smcp'
+    version: '2.002; featfreeze: smcp'
     copyright: Copyright 2023 The Ysabeau Project Authors (https://github.com/CatharsisFonts/Ysabeau)
     font: YsabeauSC-Regular.ttf
 - name: Ysabeau SC Black
@@ -37,7 +37,7 @@ fonts:
     preferred_type: Black
     full_name: Ysabeau SC Black
     post_script_name: YsabeauSC-Black
-    version: '2.001;gftools[0.9.30]; featfreeze: smcp'
+    version: '2.002; featfreeze: smcp'
     copyright: Copyright 2023 The Ysabeau Project Authors (https://github.com/CatharsisFonts/Ysabeau)
     font: YsabeauSC-Black.ttf
 - name: Ysabeau SC ExtraBold
@@ -48,7 +48,7 @@ fonts:
     preferred_type: ExtraBold
     full_name: Ysabeau SC ExtraBold
     post_script_name: YsabeauSC-ExtraBold
-    version: '2.001;gftools[0.9.30]; featfreeze: smcp'
+    version: '2.002; featfreeze: smcp'
     copyright: Copyright 2023 The Ysabeau Project Authors (https://github.com/CatharsisFonts/Ysabeau)
     font: YsabeauSC-ExtraBold.ttf
 - name: Ysabeau SC ExtraLight
@@ -59,7 +59,7 @@ fonts:
     preferred_type: ExtraLight
     full_name: Ysabeau SC ExtraLight
     post_script_name: YsabeauSC-ExtraLight
-    version: '2.001;gftools[0.9.30]; featfreeze: smcp'
+    version: '2.002; featfreeze: smcp'
     copyright: Copyright 2023 The Ysabeau Project Authors (https://github.com/CatharsisFonts/Ysabeau)
     font: YsabeauSC-ExtraLight.ttf
 - name: Ysabeau SC Light
@@ -70,7 +70,7 @@ fonts:
     preferred_type: Light
     full_name: Ysabeau SC Light
     post_script_name: YsabeauSC-Light
-    version: '2.001;gftools[0.9.30]; featfreeze: smcp'
+    version: '2.002; featfreeze: smcp'
     copyright: Copyright 2023 The Ysabeau Project Authors (https://github.com/CatharsisFonts/Ysabeau)
     font: YsabeauSC-Light.ttf
 - name: Ysabeau SC Medium
@@ -81,7 +81,7 @@ fonts:
     preferred_type: Medium
     full_name: Ysabeau SC Medium
     post_script_name: YsabeauSC-Medium
-    version: '2.001;gftools[0.9.30]; featfreeze: smcp'
+    version: '2.002; featfreeze: smcp'
     copyright: Copyright 2023 The Ysabeau Project Authors (https://github.com/CatharsisFonts/Ysabeau)
     font: YsabeauSC-Medium.ttf
 - name: Ysabeau SC SemiBold
@@ -92,7 +92,7 @@ fonts:
     preferred_type: SemiBold
     full_name: Ysabeau SC SemiBold
     post_script_name: YsabeauSC-SemiBold
-    version: '2.001;gftools[0.9.30]; featfreeze: smcp'
+    version: '2.002; featfreeze: smcp'
     copyright: Copyright 2023 The Ysabeau Project Authors (https://github.com/CatharsisFonts/Ysabeau)
     font: YsabeauSC-SemiBold.ttf
 - name: Ysabeau SC Thin
@@ -103,7 +103,7 @@ fonts:
     preferred_type: Thin
     full_name: Ysabeau SC Thin
     post_script_name: YsabeauSC-Thin
-    version: '2.001;gftools[0.9.30]; featfreeze: smcp'
+    version: '2.002; featfreeze: smcp'
     copyright: Copyright 2023 The Ysabeau Project Authors (https://github.com/CatharsisFonts/Ysabeau)
     font: YsabeauSC-Thin.ttf
 extract: {}
@@ -114,7 +114,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -204,4 +204,4 @@ open_license: |-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 digest: 2ba078991dba558cf35ff7866692c01c6c7c43139424d3b00134089f778c027e
-command: import google --formulas_path Formulas -n 50
+command: import google --formulas_path Formulas -n 5000 --no-cache

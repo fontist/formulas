@@ -1,15 +1,20 @@
 ---
-name: Cinzel
 description: Cinzel
-homepage:
 resources:
   Cinzel.zip:
     urls:
     - https://fonts.google.com/download?family=Cinzel
-    file_size: 283758
+    file_size: 284201
 fonts:
 - name: Cinzel
   styles:
+  - family_name: Cinzel
+    type: Bold
+    full_name: Cinzel Bold
+    post_script_name: Cinzel-Bold
+    version: '2.000'
+    copyright: Copyright 2020 The Cinzel Project Authors (https://github.com/NDISCOVER/Cinzel)
+    font: Cinzel-Bold.ttf
   - family_name: Cinzel
     type: Regular
     full_name: Cinzel Regular
@@ -17,8 +22,58 @@ fonts:
     version: '2.000'
     copyright: Copyright 2020 The Cinzel Project Authors (https://github.com/NDISCOVER/Cinzel)
     font: Cinzel-VariableFont_wght.ttf
-extract:
-  format: zip
+  - family_name: Cinzel
+    type: Regular
+    full_name: Cinzel Regular
+    post_script_name: Cinzel-Regular
+    version: '2.000'
+    copyright: Copyright 2020 The Cinzel Project Authors (https://github.com/NDISCOVER/Cinzel)
+    font: Cinzel-Regular.ttf
+- name: Cinzel Black
+  styles:
+  - family_name: Cinzel Black
+    type: Regular
+    preferred_family_name: Cinzel
+    preferred_type: Black
+    full_name: Cinzel Black
+    post_script_name: Cinzel-Black
+    version: '2.000'
+    copyright: Copyright 2020 The Cinzel Project Authors (https://github.com/NDISCOVER/Cinzel)
+    font: Cinzel-Black.ttf
+- name: Cinzel ExtraBold
+  styles:
+  - family_name: Cinzel ExtraBold
+    type: Regular
+    preferred_family_name: Cinzel
+    preferred_type: ExtraBold
+    full_name: Cinzel ExtraBold
+    post_script_name: Cinzel-ExtraBold
+    version: '2.000'
+    copyright: Copyright 2020 The Cinzel Project Authors (https://github.com/NDISCOVER/Cinzel)
+    font: Cinzel-ExtraBold.ttf
+- name: Cinzel Medium
+  styles:
+  - family_name: Cinzel Medium
+    type: Regular
+    preferred_family_name: Cinzel
+    preferred_type: Medium
+    full_name: Cinzel Medium
+    post_script_name: Cinzel-Medium
+    version: '2.000'
+    copyright: Copyright 2020 The Cinzel Project Authors (https://github.com/NDISCOVER/Cinzel)
+    font: Cinzel-Medium.ttf
+- name: Cinzel SemiBold
+  styles:
+  - family_name: Cinzel SemiBold
+    type: Regular
+    preferred_family_name: Cinzel
+    preferred_type: SemiBold
+    full_name: Cinzel SemiBold
+    post_script_name: Cinzel-SemiBold
+    version: '2.000'
+    copyright: Copyright 2020 The Cinzel Project Authors (https://github.com/NDISCOVER/Cinzel)
+    font: Cinzel-SemiBold.ttf
+extract: {}
 copyright: Copyright 2020 The Cinzel Project Authors (https://github.com/NDISCOVER/Cinzel)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
@@ -26,7 +81,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -115,3 +170,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: a9474e104d6ba097586330d84d41c21aff592e554fd844275d2e41dfa4eacc78
+command: import google --formulas_path Formulas -n 5000 --no-cache

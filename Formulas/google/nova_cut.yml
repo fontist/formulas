@@ -1,12 +1,11 @@
 ---
 description: Nova Cut
-homepage:
 resources:
-  NovaCut.zip:
+  Nova_Cut.zip:
     urls:
     - https://fonts.google.com/download?family=Nova%20Cut
-    sha256: 87ff2364915c45969742904f9beb6b3db175bc7428dea31962653cac585f1ded
-    file_size: 41680
+    sha256: 8fe443aa4805721438cec45041cf4175cb515382685ffba8a9bbd7b12ea59214
+    file_size: 41555
 fonts:
 - name: Nova Cut
   styles:
@@ -16,12 +15,9 @@ fonts:
     post_script_name: NovaCut
     version: '2.000'
     copyright: Copyright (c) 2011, wmk69 (wmk69@o2.pl)
-    font: NovaCut.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2011, wmk69 (wmk69@o2.pl) with Reserved Font Names ''NovaCut''
-  and ''Nova Cut''. This Font Software is licensed under the SIL Open Font License,
-  Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    font: NovaCut-Regular.ttf
+extract: {}
+copyright: Copyright (c) 2011, wmk69 (wmk69@o2.pl)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, wmk69 (wmk69@o2.pl),
@@ -29,17 +25,14 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
-
-  SIL OPEN FONT LICENSE
-
-  Version 1.1 - 26 February 2007
-
+  -----------------------------------------------------------
+  SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+  -----------------------------------------------------------
 
   PREAMBLE
-
   The goals of the Open Font License (OFL) are to stimulate worldwide
   development of collaborative font projects, to support the font creation
   efforts of academic and linguistic communities, and to provide a free and
@@ -55,9 +48,7 @@ open_license: |-
   requirement for fonts to remain under this license does not apply
   to any document created using the fonts or their derivatives.
 
-
   DEFINITIONS
-
   "Font Software" refers to the set of files released by the Copyright
   Holder(s) under this license and clearly marked as such. This may
   include source files, build scripts and documentation.
@@ -69,16 +60,14 @@ open_license: |-
   distributed by the Copyright Holder(s).
 
   "Modified Version" refers to any derivative made by adding to, deleting,
-  or substituting — in part or in whole — any of the components of the
+  or substituting -- in part or in whole -- any of the components of the
   Original Version, by changing formats or by porting the Font Software to a
   new environment.
 
   "Author" refers to any designer, engineer, programmer, technical
   writer or other person who contributed to the Font Software.
 
-
   PERMISSION & CONDITIONS
-
   Permission is hereby granted, free of charge, to any person obtaining
   a copy of the Font Software, to use, study, copy, merge, embed, modify,
   redistribute, and sell modified and unmodified copies of the Font
@@ -111,15 +100,11 @@ open_license: |-
   remain under this license does not apply to any document created
   using the Font Software.
 
-
   TERMINATION
-
   This license becomes null and void if any of the above conditions are
   not met.
 
-
   DISCLAIMER
-
   THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
@@ -129,3 +114,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+digest: b8fdfab6b6c7fb3b937689dc3353859653edfa1574d13a602cbc6d55cc288512
+command: import google --formulas_path Formulas -n 5000 --no-cache
