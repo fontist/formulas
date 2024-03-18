@@ -37,7 +37,7 @@ jobs:
         run: bundle exec fontist config set read_timeout 60
 
       - name: Import new fonts
-        run: bundle exec fontist import google --formulas_path Formulas -n 50 --no-cache
+        run: bundle exec fontist import google --formulas_path Formulas -n 5000 --no-cache
 
       - uses: EndBug/add-and-commit@v7
         with:
