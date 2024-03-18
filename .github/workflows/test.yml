@@ -20,9 +20,9 @@ jobs:
         with:
           json: true
 
-      - run: |
-          echo "${{ steps.files.outputs.all_changed_files }}" > changed.json
-        shell: bash
+      # - run: |
+          # echo "${{ steps.files.outputs.all_changed_files }}" > changed.json
+        # shell: bash
 
       - uses: ruby/setup-ruby@v1
         with:
