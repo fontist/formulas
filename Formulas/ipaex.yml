@@ -1,9 +1,8 @@
 ---
-name: IPAex
-description: IPAex (Ver.004.01)
 homepage: https://moji.or.jp/ipafont/ipaex00401/
+description: IPAex
 resources:
-  ipaex00401.zip:
+  IPAex.zip:
     urls:
     - https://moji.or.jp/wp-content/ipafont/IPAexfont/IPAexfont00401.zip
     sha256: bcf8374ab3f9672c421120430dd19a51c99f5265cf06fc340d9a661ddfd7974b
@@ -15,9 +14,11 @@ fonts:
     type: Regular
     full_name: IPAexGothic
     post_script_name: IPAexGothic
-    version: 'Version 004.01'
     description: ゴシック体
-    copyright: Copyright (c) Information-technology Promotion Agency, Japan (IPA), 2003-2019. You must accept "https://opensource.org/licenses/IPA/" to use this product.
+    version: '004.01'
+    copyright: Copyright(c) Information-technology Promotion Agency, Japan (IPA),
+      2003-2019. You must accept "https://opensource.org/licenses/IPA/" to use this
+      product.
     font: ipaexg.ttf
 - name: IPAexMincho
   styles:
@@ -25,14 +26,18 @@ fonts:
     type: Regular
     full_name: IPAexMincho
     post_script_name: IPAexMincho
-    version: 'Version 004.01'
     description: 明朝体
-    copyright: Copyright (c) Information-technology Promotion Agency, Japan (IPA), 2003-2019. You must accept "https://opensource.org/licenses/IPA/" to use this product.
+    version: '004.01'
+    copyright: Copyright(c) Information-technology Promotion Agency, Japan (IPA),
+      2003-2019. You must accept "https://opensource.org/licenses/IPA/" to use this
+      product.
     font: ipaexm.ttf
 extract:
   format: zip
-copyright: Copyright (c) Information-technology Promotion Agency, Japan (IPA), 2003-2019. You must accept "https://opensource.org/licenses/IPA/" to use this product.
-license_url: https://moji.or.jp/ipafont/license/
+copyright: Copyright(c) Information-technology Promotion Agency, Japan (IPA), 2003-2019.
+  You must accept "https://opensource.org/licenses/IPA/" to use this product.
+license_url: https://opensource.org/licenses/IPA/
+command: create-formula https://moji.or.jp/wp-content/ipafont/IPAexfont/IPAexfont00401.zip
 requires_license_agreement: |
   IPA FONT LICENSE AGREEMENT V1.0
   The Licensor provides the Licensed Program (as defined in Article 1 below) under the terms of this license agreement (“Agreement”). Any use, reproduction or distribution of the Licensed Program, or any exercise of rights under this Agreement by a Recipient ( (as defined in Article 1 below) constitutes the Recipient's acceptance of this Agreement.
