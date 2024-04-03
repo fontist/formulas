@@ -1,45 +1,23 @@
 ---
-description: Space Mono
+description: Space Mono Italic
 homepage: www.colophon-foundry.org
 resources:
-  SpaceMono.zip:
+  Space_Mono_Italic.ttf:
     urls:
-    - https://fonts.google.com/download?family=Space%20Mono
-    sha256: 9bc44498e3b559a3a1289ca5baab124e3ef04bd476e2cf53f553a32a60b31bf3
-    file_size: 185322
+    - https://fonts.gstatic.com/s/spacemono/v13/i7dNIFZifjKcF5UAWdDRYER8QHi-EwWMbg.ttf
+    sha256: d966f87a0f05796cf27b40d72b6203ab7ed994a8f0f6848d2b271086377d6572
+    file_size: 103524
 fonts:
 - name: Space Mono
   styles:
-  - family_name: Space Mono
-    type: Regular
-    full_name: Space Mono Regular
-    post_script_name: SpaceMono-Regular
-    version: 1.001;PS 1.003;hotconv 1.0.81;makeotf.lib2.5.63406
-    copyright: Copyright 2016 Google Inc. All Rights Reserved.
-    font: SpaceMono-Regular.ttf
   - family_name: Space Mono
     type: Italic
     full_name: Space Mono Italic
     post_script_name: SpaceMono-Italic
     version: 1.001;PS 1.001;hotconv 1.0.81;makeotf.lib2.5.63406
     copyright: Copyright 2016 Google Inc. All Rights Reserved.
-    font: SpaceMono-Italic.ttf
-  - family_name: Space Mono
-    type: Bold
-    full_name: Space Mono Bold
-    post_script_name: SpaceMono-Bold
-    version: 1.001;PS 1.001;hotconv 1.0.81;makeotf.lib2.5.63406
-    copyright: Copyright 2016 Google Inc. All Rights Reserved.
-    font: SpaceMono-Bold.ttf
-  - family_name: Space Mono
-    type: Bold Italic
-    full_name: Space Mono Bold Italic
-    post_script_name: SpaceMono-BoldItalic
-    version: 1.001;PS 1.001;hotconv 1.0.81;makeotf.lib2.5.63406
-    copyright: Copyright 2016 Google Inc. All Rights Reserved.
-    font: SpaceMono-BoldItalic.ttf
-extract:
-  format: zip
+    font: i7dNIFZifjKcF5UAWdDRYER8QHi-EwWMbg.ttf
+extract: {}
 copyright: Copyright 2016 Google Inc. All Rights Reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -136,3 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: create-formula https://fonts.gstatic.com/s/spacemono/v13/i7dNIFZifjKcF5UAWdDRYER8QHi-EwWMbg.ttf
