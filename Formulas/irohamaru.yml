@@ -1,0 +1,52 @@
+---
+description: irohamaru
+resources:
+  irohamaru.zip:
+    urls:
+    - https://modi.jpn.org/download/MODI_irohamaru_2016_0727.zip
+    sha256: 1eba27483d2f3a4e4d1f7a8d0e576cdf803bb828529d26b18fb1f66e223f1742
+    file_size: 15440920
+fonts:
+- name: irohamaru Light
+  styles:
+  - family_name: irohamaru Light
+    type: Regular
+    preferred_family_name: irohamaru
+    preferred_type: Light
+    full_name: irohamaru Light
+    post_script_name: irohamaru-Light
+    version: '1.01'
+    description: Dr. Ken Lunde (project architect, glyph set definition & overall
+      production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+    copyright: "[Source Han Sans]"
+    font: irohamaru-Light.ttf
+- name: irohamaru Medium
+  styles:
+  - family_name: irohamaru Medium
+    type: Regular
+    preferred_family_name: irohamaru
+    preferred_type: Medium
+    full_name: irohamaru Medium
+    post_script_name: irohamaru-Medium
+    version: '1.01'
+    description: Dr. Ken Lunde (project architect, glyph set definition & overall
+      production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+    copyright: "[Source Han Sans]"
+    font: irohamaru-Medium.ttf
+- name: irohamaru Regular
+  styles:
+  - family_name: irohamaru Regular
+    type: Regular
+    preferred_family_name: irohamaru
+    preferred_type: Regular
+    full_name: irohamaru Regular
+    post_script_name: irohamaru-Regular
+    version: '1.00'
+    description: Dr. Ken Lunde (project architect, glyph set definition & overall
+      production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+    copyright: "[Source Han Sans]"
+    font: irohamaru-Regular.ttf
+extract: {}
+copyright: "[Source Han Sans]"
+license_url: http://scripts.sil.org/OFL
+command: create-formula https://modi.jpn.org/download/MODI_irohamaru_2016_0727.zip
