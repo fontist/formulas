@@ -1,12 +1,13 @@
 ---
+name: Belleza
 description: Belleza
-homepage: http://www.tipo.net.ar
+homepage: https://www.tipo.net.ar
 resources:
-  Belleza.zip:
-    urls:
-    - https://fonts.google.com/download?family=Belleza
-    sha256: 73ee98bb53fb761eb39bf49130149b7a2b47058b670bd5a1caa9c54b0f7d00b8
-    file_size: 17554
+  Belleza:
+    source: google
+    family: Belleza
+    files:
+    - https://fonts.gstatic.com/s/belleza/v17/0nkoC9_pNeMfhX4BtcbyawzruP8.ttf
 fonts:
 - name: Belleza
   styles:
@@ -14,20 +15,18 @@ fonts:
     type: Regular
     full_name: Belleza Regular
     post_script_name: Belleza-Regular
-    version: '1.002'
-    copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
-      Font Name "Belleza"
-    font: Belleza-Regular.ttf
+    version: 1.003; ttfautohint (v1.8.4.7-5d5b)
+    copyright: Copyright 2012 The Belleza Project Authors (https://github.com/etunni/belleza)
+    font: 0nkoC9_pNeMfhX4BtcbyawzruP8.ttf
 extract: {}
-copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
-  Font Name "Belleza"
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2012 The Belleza Project Authors (https://github.com/etunni/belleza)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name "Belleza"
+  Copyright 2012 The Belleza Project Authors (https://github.com/etunni/belleza)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -116,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: db7dca5b6effa44fd0600df5a9330e82146649b1fb22ae10b7372fa0c52bda7e
-command: import google --formulas_path Formulas
+command: import google -n 9999

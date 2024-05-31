@@ -1,81 +1,20 @@
 ---
+name: Sono
 description: Sono
 homepage: https://tyfromtheinternet.com
 resources:
-  Sono.zip:
-    urls:
-    - https://fonts.google.com/download?family=Sono
-    file_size: 611213
+  Sono:
+    source: google
+    family: Sono
+    files:
+    - https://fonts.gstatic.com/s/sono/v6/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVNkWdEnR4qYeB4Q.ttf
+    - https://fonts.gstatic.com/s/sono/v6/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxV6EWdEnR4qYeB4Q.ttf
+    - https://fonts.gstatic.com/s/sono/v6/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVtkWdEnR4qYeB4Q.ttf
+    - https://fonts.gstatic.com/s/sono/v6/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVhEWdEnR4qYeB4Q.ttf
+    - https://fonts.gstatic.com/s/sono/v6/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVaEKdEnR4qYeB4Q.ttf
+    - https://fonts.gstatic.com/s/sono/v6/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVUUKdEnR4qYeB4Q.ttf
+    - https://fonts.gstatic.com/s/sono/v6/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVNkKdEnR4qYeB4Q.ttf
 fonts:
-- name: Sono
-  styles:
-  - family_name: Sono
-    type: Bold
-    full_name: Sono Bold
-    post_script_name: Sono-Bold
-    version: '2.112'
-    copyright: Copyright 2020 The Sono Project Authors (https://github.com/sursly/sono)
-    font: Sono_Proportional-Bold.ttf
-  - family_name: Sono
-    type: Regular
-    full_name: Sono Regular
-    post_script_name: Sono-Regular
-    version: '2.112'
-    copyright: Copyright 2020 The Sono Project Authors (https://github.com/sursly/sono)
-    font: Sono_Proportional-Regular.ttf
-- name: Sono ExtraBold
-  styles:
-  - family_name: Sono ExtraBold
-    type: Regular
-    preferred_family_name: Sono
-    preferred_type: ExtraBold
-    full_name: Sono ExtraBold
-    post_script_name: Sono-ExtraBold
-    version: '2.112'
-    copyright: Copyright 2020 The Sono Project Authors (https://github.com/sursly/sono)
-    font: Sono_Proportional-ExtraBold.ttf
-- name: Sono ExtraLight
-  styles:
-  - family_name: Sono ExtraLight
-    type: Regular
-    preferred_family_name: Sono
-    preferred_type: ExtraLight
-    full_name: Sono ExtraLight
-    post_script_name: Sono-ExtraLight
-    version: '2.112'
-    copyright: Copyright 2020 The Sono Project Authors (https://github.com/sursly/sono)
-    font: Sono-VariableFont_MONO,wght.ttf
-  - family_name: Sono ExtraLight
-    type: Regular
-    preferred_family_name: Sono
-    preferred_type: ExtraLight
-    full_name: Sono ExtraLight
-    post_script_name: Sono-ExtraLight
-    version: '2.112'
-    copyright: Copyright 2020 The Sono Project Authors (https://github.com/sursly/sono)
-    font: Sono_Proportional-ExtraLight.ttf
-- name: Sono Light
-  styles:
-  - family_name: Sono Light
-    type: Regular
-    preferred_family_name: Sono
-    preferred_type: Light
-    full_name: Sono Light
-    post_script_name: Sono-Light
-    version: '2.112'
-    copyright: Copyright 2020 The Sono Project Authors (https://github.com/sursly/sono)
-    font: Sono_Proportional-Light.ttf
-- name: Sono Medium
-  styles:
-  - family_name: Sono Medium
-    type: Regular
-    preferred_family_name: Sono
-    preferred_type: Medium
-    full_name: Sono Medium
-    post_script_name: Sono-Medium
-    version: '2.112'
-    copyright: Copyright 2020 The Sono Project Authors (https://github.com/sursly/sono)
-    font: Sono_Proportional-Medium.ttf
 - name: Sono Monospace
   styles:
   - family_name: Sono Monospace
@@ -86,7 +25,7 @@ fonts:
     post_script_name: SonoMonospace-Bold
     version: '2.112'
     copyright: Copyright 2020 The Sono Project Authors (https://github.com/sursly/sono)
-    font: Sono-Bold.ttf
+    font: aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVUUKdEnR4qYeB4Q.ttf
   - family_name: Sono Monospace
     type: Regular
     preferred_family_name: Sono Monospace
@@ -95,7 +34,7 @@ fonts:
     post_script_name: SonoMonospace-Regular
     version: '2.112'
     copyright: Copyright 2020 The Sono Project Authors (https://github.com/sursly/sono)
-    font: Sono-Regular.ttf
+    font: aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVtkWdEnR4qYeB4Q.ttf
 - name: Sono Monospace ExtraBold
   styles:
   - family_name: Sono Monospace ExtraBold
@@ -106,7 +45,7 @@ fonts:
     post_script_name: SonoMonospace-ExtraBold
     version: '2.112'
     copyright: Copyright 2020 The Sono Project Authors (https://github.com/sursly/sono)
-    font: Sono-ExtraBold.ttf
+    font: aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVNkKdEnR4qYeB4Q.ttf
 - name: Sono Monospace ExtraLight
   styles:
   - family_name: Sono Monospace ExtraLight
@@ -117,7 +56,7 @@ fonts:
     post_script_name: SonoMonospace-ExtraLight
     version: '2.112'
     copyright: Copyright 2020 The Sono Project Authors (https://github.com/sursly/sono)
-    font: Sono-ExtraLight.ttf
+    font: aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVNkWdEnR4qYeB4Q.ttf
 - name: Sono Monospace Light
   styles:
   - family_name: Sono Monospace Light
@@ -128,7 +67,7 @@ fonts:
     post_script_name: SonoMonospace-Light
     version: '2.112'
     copyright: Copyright 2020 The Sono Project Authors (https://github.com/sursly/sono)
-    font: Sono-Light.ttf
+    font: aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxV6EWdEnR4qYeB4Q.ttf
 - name: Sono Monospace Medium
   styles:
   - family_name: Sono Monospace Medium
@@ -139,7 +78,7 @@ fonts:
     post_script_name: SonoMonospace-Medium
     version: '2.112'
     copyright: Copyright 2020 The Sono Project Authors (https://github.com/sursly/sono)
-    font: Sono-Medium.ttf
+    font: aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVhEWdEnR4qYeB4Q.ttf
 - name: Sono Monospace SemiBold
   styles:
   - family_name: Sono Monospace SemiBold
@@ -150,18 +89,7 @@ fonts:
     post_script_name: SonoMonospace-SemiBold
     version: '2.112'
     copyright: Copyright 2020 The Sono Project Authors (https://github.com/sursly/sono)
-    font: Sono-SemiBold.ttf
-- name: Sono SemiBold
-  styles:
-  - family_name: Sono SemiBold
-    type: Regular
-    preferred_family_name: Sono
-    preferred_type: SemiBold
-    full_name: Sono SemiBold
-    post_script_name: Sono-SemiBold
-    version: '2.112'
-    copyright: Copyright 2020 The Sono Project Authors (https://github.com/sursly/sono)
-    font: Sono_Proportional-SemiBold.ttf
+    font: aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVaEKdEnR4qYeB4Q.ttf
 extract: {}
 copyright: Copyright 2020 The Sono Project Authors (https://github.com/sursly/sono)
 license_url: https://scripts.sil.org/OFL
@@ -170,7 +98,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -259,5 +187,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 2bcf21c7d52b4be7a8aedd2988e17f525fadcd14c86560ad36a6eaa560d4ef6a
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

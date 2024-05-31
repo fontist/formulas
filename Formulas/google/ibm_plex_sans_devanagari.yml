@@ -3,11 +3,17 @@ name: IBM Plex Sans Devanagari
 description: IBM Plex Sans Devanagari
 homepage: http://www.boldmonday.com
 resources:
-  IBM_Plex_Sans_Devanagari.zip:
-    urls:
-    - https://fonts.google.com/download?family=IBM%20Plex%20Sans%20Devanagari
-    sha256: b449b556308a70109311349d3f6c24f20a6f3da918a480b04c50b04668a340c9
-    file_size: 1049685
+  IBM Plex Sans Devanagari:
+    source: google
+    family: IBM Plex Sans Devanagari
+    files:
+    - https://fonts.gstatic.com/s/ibmplexsansdevanagari/v11/XRXB3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_HMUjwUcjwCEQq.ttf
+    - https://fonts.gstatic.com/s/ibmplexsansdevanagari/v11/XRXA3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_HnWnQe-b8AV0z0w.ttf
+    - https://fonts.gstatic.com/s/ibmplexsansdevanagari/v11/XRXA3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_H-WrQe-b8AV0z0w.ttf
+    - https://fonts.gstatic.com/s/ibmplexsansdevanagari/v11/XRXH3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O__VUL0c83gCA.ttf
+    - https://fonts.gstatic.com/s/ibmplexsansdevanagari/v11/XRXA3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_HoWvQe-b8AV0z0w.ttf
+    - https://fonts.gstatic.com/s/ibmplexsansdevanagari/v11/XRXA3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_HjWzQe-b8AV0z0w.ttf
+    - https://fonts.gstatic.com/s/ibmplexsansdevanagari/v11/XRXA3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_H6W3Qe-b8AV0z0w.ttf
 fonts:
 - name: IBM Plex Sans Devanagari
   styles:
@@ -17,14 +23,14 @@ fonts:
     post_script_name: IBMPlexSansDevanagari-Bold
     version: '1.1'
     copyright: Copyright 2019 IBM Corp. All rights reserved.
-    font: IBMPlexSansDevanagari-Bold.ttf
+    font: XRXA3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_H6W3Qe-b8AV0z0w.ttf
   - family_name: IBM Plex Sans Devanagari
     type: Regular
     full_name: IBM Plex Sans Devanagari Regular
     post_script_name: IBMPlexSansDevanagari-Regular
     version: '1.1'
     copyright: Copyright 2019 IBM Corp. All rights reserved.
-    font: IBMPlexSansDevanagari-Regular.ttf
+    font: XRXH3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O__VUL0c83gCA.ttf
 - name: IBM Plex Sans Devanagari ExtraLight
   styles:
   - family_name: IBM Plex Sans Devanagari ExtraLight
@@ -35,7 +41,7 @@ fonts:
     post_script_name: IBMPlexSansDevanagari-ExtraLight
     version: '1.1'
     copyright: Copyright 2019 IBM Corp. All rights reserved.
-    font: IBMPlexSansDevanagari-ExtraLight.ttf
+    font: XRXA3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_HnWnQe-b8AV0z0w.ttf
 - name: IBM Plex Sans Devanagari Light
   styles:
   - family_name: IBM Plex Sans Devanagari Light
@@ -46,7 +52,7 @@ fonts:
     post_script_name: IBMPlexSansDevanagari-Light
     version: '1.1'
     copyright: Copyright 2019 IBM Corp. All rights reserved.
-    font: IBMPlexSansDevanagari-Light.ttf
+    font: XRXA3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_H-WrQe-b8AV0z0w.ttf
 - name: IBM Plex Sans Devanagari Medium
   styles:
   - family_name: IBM Plex Sans Devanagari Medium
@@ -57,7 +63,7 @@ fonts:
     post_script_name: IBMPlexSansDevanagari-Medium
     version: '1.1'
     copyright: Copyright 2019 IBM Corp. All rights reserved.
-    font: IBMPlexSansDevanagari-Medium.ttf
+    font: XRXA3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_HoWvQe-b8AV0z0w.ttf
 - name: IBM Plex Sans Devanagari SemiBold
   styles:
   - family_name: IBM Plex Sans Devanagari SemiBold
@@ -68,7 +74,7 @@ fonts:
     post_script_name: IBMPlexSansDevanagari-SemiBold
     version: '1.1'
     copyright: Copyright 2019 IBM Corp. All rights reserved.
-    font: IBMPlexSansDevanagari-SemiBold.ttf
+    font: XRXA3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_HjWzQe-b8AV0z0w.ttf
 - name: IBM Plex Sans Devanagari Thin
   styles:
   - family_name: IBM Plex Sans Devanagari Thin
@@ -79,7 +85,7 @@ fonts:
     post_script_name: IBMPlexSansDevanagari-Thin
     version: '1.1'
     copyright: Copyright 2019 IBM Corp. All rights reserved.
-    font: IBMPlexSansDevanagari-Thin.ttf
+    font: XRXB3JCMvG4IDoS9SubXB6W-UX5iehIMBFR2-O_HMUjwUcjwCEQq.ttf
 extract: {}
 copyright: Copyright 2019 IBM Corp. All rights reserved.
 license_url: http://scripts.sil.org/OFL
@@ -87,8 +93,8 @@ open_license: |-
   Copyright © 2017 IBM Corp. with Reserved Font Name "Plex"
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
-  This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+
+  This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -177,5 +183,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 719b110e07aff3e276cb284b5af139e06383bc6468ac9ed34261503422955edb
-command: google import --formulas_path Formulas
+command: import google -n 9999

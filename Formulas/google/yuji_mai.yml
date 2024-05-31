@@ -3,11 +3,11 @@ name: Yuji Mai
 description: Yuji Mai
 homepage: http://www.moji-sekkei.jp/
 resources:
-  Yuji_Mai.zip:
-    urls:
-    - https://fonts.google.com/download?family=Yuji%20Mai
-    sha256: 549494de6f1670783fc6052e617140469ad9c1d97a192697c2cb4ea2061cf170
-    file_size: 5064155
+  Yuji Mai:
+    source: google
+    family: Yuji Mai
+    files:
+    - https://fonts.gstatic.com/s/yujimai/v5/ZgNQjPxdJ7DEHrS0gC38hmHmNpCO.ttf
 fonts:
 - name: Yuji Mai
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: YujiMai-Regular
     version: '3.002'
     copyright: Copyright 2021 The Yuji Project Authors (https://github.com/Kinutafontfactory/Yuji)
-    font: YujiMai-Regular.ttf
+    font: ZgNQjPxdJ7DEHrS0gC38hmHmNpCO.ttf
 extract: {}
 copyright: Copyright 2021 The Yuji Project Authors (https://github.com/Kinutafontfactory/Yuji)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 1c230a44e6388b545ba426e039160625eca0ac5af5ab614f3bbb0f69cb354996
-command: google import --formulas_path Formulas
+command: import google -n 9999

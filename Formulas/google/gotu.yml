@@ -3,11 +3,11 @@ name: Gotu
 description: Gotu
 homepage: www.ektype.in
 resources:
-  Gotu.zip:
-    urls:
-    - https://fonts.google.com/download?family=Gotu
-    sha256: 2834064d16c77c3523c1105d9e817a0d2619acbccdbb18a24634d404e8195ffe
-    file_size: 282238
+  Gotu:
+    source: google
+    family: Gotu
+    files:
+    - https://fonts.gstatic.com/s/gotu/v16/o-0FIpksx3QOlH0Lioh6-hU.ttf
 fonts:
 - name: Gotu
   styles:
@@ -17,9 +17,8 @@ fonts:
     post_script_name: Gotu-Regular
     version: 2.320;hotconv 1.0.109;makeotfexe 2.5.65596; ttfautohint (v1.8.1)
     copyright: Copyright (c) 2016, Ek Type. All rights reserved.
-    font: Gotu-Regular.ttf
-extract:
-  format: zip
+    font: o-0FIpksx3QOlH0Lioh6-hU.ttf
+extract: {}
 copyright: Copyright (c) 2016, Ek Type. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: "\uFEFFCopyright (c) 2016 Ek Type (www.ektype.in)\n\nThis Font Software
@@ -74,3 +73,4 @@ open_license: "\uFEFFCopyright (c) 2016 Ek Type (www.ektype.in)\n\nThis Font Sof
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
+command: import google -n 9999

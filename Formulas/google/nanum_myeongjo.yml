@@ -1,41 +1,51 @@
 ---
+name: Nanum Myeongjo
 description: Nanum Myeongjo
 homepage: http://www.nhncorp.com
 resources:
-  NanumMyeongjo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Nanum%20Myeongjo
-    sha256: 39dedef2a8b552ef57de77c55d06b2b9d15dcca5cd68b802a00664f5275de654
-    file_size: 4612408
+  Nanum Myeongjo:
+    source: google
+    family: Nanum Myeongjo
+    files:
+    - https://fonts.gstatic.com/s/nanummyeongjo/v22/9Btx3DZF0dXLMZlywRbVRNhxy1LreHQ8juyl.ttf
+    - https://fonts.gstatic.com/s/nanummyeongjo/v22/9Bty3DZF0dXLMZlywRbVRNhxy2pXV1A0pfCs5Kos.ttf
+    - https://fonts.gstatic.com/s/nanummyeongjo/v22/9Bty3DZF0dXLMZlywRbVRNhxy2pLVFA0pfCs5Kos.ttf
 fonts:
-- name: Nanum Myeongjo
+- name: NanumMyeongjo
   styles:
   - family_name: NanumMyeongjo
-    type: Regular
-    full_name: NanumMyeongjo
-    post_script_name: NanumMyeongjo
-    version: 2.030;PS 1;hotconv 1.0.56;makeotf.lib2.0.21325
-    copyright: Copyright © 2010 NHN Corporation. All rights reserved. Font designed
-      by FONTRIX.
-    font: NanumMyeongjo-Regular.ttf
-  - family_name: NanumMyeongjo
     type: Bold
+    preferred_family_name: NanumMyeongjo
+    preferred_type: Bold
     full_name: NanumMyeongjoBold
     post_script_name: NanumMyeongjoBold
     version: 2.030;PS 1;hotconv 1.0.56;makeotf.lib2.0.21325
     copyright: Copyright © 2010 NHN Corporation. All rights reserved. Font designed
       by FONTRIX.
-    font: NanumMyeongjo-Bold.ttf
+    font: 9Bty3DZF0dXLMZlywRbVRNhxy2pXV1A0pfCs5Kos.ttf
   - family_name: NanumMyeongjo
-    type: ExtraBold
+    type: Regular
+    preferred_family_name: NanumMyeongjo
+    preferred_type: Regular
+    full_name: NanumMyeongjo
+    post_script_name: NanumMyeongjo
+    version: 2.030;PS 1;hotconv 1.0.56;makeotf.lib2.0.21325
+    copyright: Copyright © 2010 NHN Corporation. All rights reserved. Font designed
+      by FONTRIX.
+    font: 9Btx3DZF0dXLMZlywRbVRNhxy1LreHQ8juyl.ttf
+- name: NanumMyeongjoExtraBold
+  styles:
+  - family_name: NanumMyeongjoExtraBold
+    type: Regular
+    preferred_family_name: NanumMyeongjo
+    preferred_type: ExtraBold
     full_name: NanumMyeongjoExtraBold
     post_script_name: NanumMyeongjoExtraBold
     version: 2.030;PS 1;hotconv 1.0.56;makeotf.lib2.0.21325
     copyright: Copyright © 2010 NHN Corporation. All rights reserved. Font designed
       by FONTRIX.
-    font: NanumMyeongjo-ExtraBold.ttf
-extract:
-  format: zip
+    font: 9Bty3DZF0dXLMZlywRbVRNhxy2pLVFA0pfCs5Kos.ttf
+extract: {}
 copyright: Copyright © 2010 NHN Corporation. All rights reserved. Font designed by
   FONTRIX.
 license_url: http://www.nhncorp.com
@@ -116,3 +126,4 @@ open_license: |-
   IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
   INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE
   OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

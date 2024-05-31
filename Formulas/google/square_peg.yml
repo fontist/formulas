@@ -1,12 +1,13 @@
 ---
+name: Square Peg
 description: Square Peg
 homepage: www.typesetit.com
 resources:
-  Square_Peg.zip:
-    urls:
-    - https://fonts.google.com/download?family=Square%20Peg
-    sha256: 6105fd9dcb3aef3deecc5f83aaffa8dbf6bc7eccc60cb0d6e1e4622b901615b3
-    file_size: 64430
+  Square Peg:
+    source: google
+    family: Square Peg
+    files:
+    - https://fonts.gstatic.com/s/squarepeg/v5/y83eW48Nzw6ZlUHc-phrBDHrHHfrFPE.ttf
 fonts:
 - name: Square Peg
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: SquarePeg-Regular
     version: 1.010; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 1995-2021 The Square Peg Project Authors (https://github.com/googlefonts/square-peg)
-    font: SquarePeg-Regular.ttf
+    font: y83eW48Nzw6ZlUHc-phrBDHrHHfrFPE.ttf
 extract: {}
 copyright: Copyright 1995-2021 The Square Peg Project Authors (https://github.com/googlefonts/square-peg)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: f6d42441bc6c81d871cb9cc293dc94845878e2787d6851f77ec8290047544244
-command: import google --formulas_path Formulas
+command: import google -n 9999

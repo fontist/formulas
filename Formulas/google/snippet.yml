@@ -3,11 +3,11 @@ name: Snippet
 description: Snippet
 homepage: http://www.gesine-todt.de
 resources:
-  Snippet.zip:
-    urls:
-    - https://fonts.google.com/download?family=Snippet
-    sha256: 55cbc4428248f8c5d00fe22787f008e0ca7ccd68bf8a8ba0ca3baaf66385e263
-    file_size: 20924
+  Snippet:
+    source: google
+    family: Snippet
+    files:
+    - https://fonts.gstatic.com/s/snippet/v21/bWt47f7XfQH9Gupu2v_Afcp9QWc.ttf
 fonts:
 - name: Snippet
   styles:
@@ -20,12 +20,11 @@ fonts:
     copyright: 'Copyright (c) 2011 Gesine Todt Ê(www.gesine-todt.de), with Reserved
       Font Name "Snippet". This Font Software is licensed under the SIL Open Font
       License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
-    font: Snippet.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2011 Gesine Todt (www.gesine-todt.de hallo@gesine-todt.de),
-  with Reserved Font Name "Snippet". This Font Software is licensed under the SIL
-  Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    font: bWt47f7XfQH9Gupu2v_Afcp9QWc.ttf
+extract: {}
+copyright: 'Copyright (c) 2011 Gesine Todt Ê(www.gesine-todt.de), with Reserved Font
+  Name "Snippet". This Font Software is licensed under the SIL Open Font License,
+  Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 Gesine Todt  (www.gesine-todt.de), with Reserved
@@ -122,3 +121,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

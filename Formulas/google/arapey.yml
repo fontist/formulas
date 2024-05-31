@@ -3,22 +3,15 @@ name: Arapey
 description: Arapey
 homepage: http://www.tipo.net.ar
 resources:
-  Arapey.zip:
-    urls:
-    - https://fonts.google.com/download?family=Arapey
-    sha256: 9d09d7aa5a700a45b3bf088cbdb72938864839fe4c46e4eed92580418aeeafa5
-    file_size: 31190
+  Arapey:
+    source: google
+    family: Arapey
+    files:
+    - https://fonts.gstatic.com/s/arapey/v16/-W__XJn-UDDA2RC6Z9AcZkIzeg.ttf
+    - https://fonts.gstatic.com/s/arapey/v16/-W_9XJn-UDDA2RCKZdoYREcjeo0k.ttf
 fonts:
 - name: Arapey
   styles:
-  - family_name: Arapey
-    type: Regular
-    full_name: Arapey Regular
-    post_script_name: Arapey-Regular
-    version: '1.002'
-    copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
-      Font Name "Arapey"
-    font: Arapey-Regular.ttf
   - family_name: Arapey
     type: Italic
     full_name: Arapey Italic
@@ -26,11 +19,18 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
       Font Name "Arapey"
-    font: Arapey-Italic.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
-  with Reserved Font Name "Arapey"
+    font: "-W_9XJn-UDDA2RCKZdoYREcjeo0k.ttf"
+  - family_name: Arapey
+    type: Regular
+    full_name: Arapey Regular
+    post_script_name: Arapey-Regular
+    version: '1.002'
+    copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
+      Font Name "Arapey"
+    font: "-W__XJn-UDDA2RC6Z9AcZkIzeg.ttf"
+extract: {}
+copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
+  Font Name "Arapey"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar),
@@ -127,3 +127,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

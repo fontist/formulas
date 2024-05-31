@@ -1,47 +1,49 @@
 ---
+name: Anonymous Pro
 description: Anonymous Pro
 homepage: http://www.ms-studio.com
 resources:
-  AnonymousPro.zip:
-    urls:
-    - https://fonts.google.com/download?family=Anonymous%20Pro
-    sha256: 8c844215ae1cb4bd5c8593f3387ff97d4c1fb50f8dd49545cd8c8f18360fdd92
-    file_size: 192371
+  Anonymous Pro:
+    source: google
+    family: Anonymous Pro
+    files:
+    - https://fonts.gstatic.com/s/anonymouspro/v21/rP2Bp2a15UIB7Un-bOeISG3pLlw89CH98Ko.ttf
+    - https://fonts.gstatic.com/s/anonymouspro/v21/rP2fp2a15UIB7Un-bOeISG3pHl428AP44Kqr2Q.ttf
+    - https://fonts.gstatic.com/s/anonymouspro/v21/rP2cp2a15UIB7Un-bOeISG3pFuAT0CnW7KOywKo.ttf
+    - https://fonts.gstatic.com/s/anonymouspro/v21/rP2ap2a15UIB7Un-bOeISG3pHl4OTCzc6IG30KqB9Q.ttf
 fonts:
 - name: Anonymous Pro
   styles:
-  - family_name: Anonymous Pro
-    type: Regular
-    full_name: Anonymous Pro Regular
-    post_script_name: AnonymousPro-Regular
-    version: '1.003'
-    copyright: Copyright (c) Mark Simonson 2009-2010. All rights reserved.
-    font: AnonymousPro-Regular.ttf
-  - family_name: Anonymous Pro
-    type: Italic
-    full_name: Anonymous Pro Italic
-    post_script_name: AnonymousPro-Italic
-    version: '1.003'
-    copyright: Copyright (c) Mark Simonson 2009-2010. All rights reserved.
-    font: AnonymousPro-Italic.ttf
   - family_name: Anonymous Pro
     type: Bold
     full_name: Anonymous Pro Bold
     post_script_name: AnonymousPro-Bold
     version: '1.003'
     copyright: Copyright (c) Mark Simonson 2009-2010. All rights reserved.
-    font: AnonymousPro-Bold.ttf
+    font: rP2cp2a15UIB7Un-bOeISG3pFuAT0CnW7KOywKo.ttf
   - family_name: Anonymous Pro
     type: Bold Italic
     full_name: Anonymous Pro Bold Italic
     post_script_name: AnonymousPro-BoldItalic
     version: '1.003'
     copyright: Copyright (c) Mark Simonson 2009-2010. All rights reserved.
-    font: AnonymousPro-BoldItalic.ttf
-extract:
-  format: zip
+    font: rP2ap2a15UIB7Un-bOeISG3pHl4OTCzc6IG30KqB9Q.ttf
+  - family_name: Anonymous Pro
+    type: Italic
+    full_name: Anonymous Pro Italic
+    post_script_name: AnonymousPro-Italic
+    version: '1.003'
+    copyright: Copyright (c) Mark Simonson 2009-2010. All rights reserved.
+    font: rP2fp2a15UIB7Un-bOeISG3pHl428AP44Kqr2Q.ttf
+  - family_name: Anonymous Pro
+    type: Regular
+    full_name: Anonymous Pro Regular
+    post_script_name: AnonymousPro-Regular
+    version: '1.003'
+    copyright: Copyright (c) Mark Simonson 2009-2010. All rights reserved.
+    font: rP2Bp2a15UIB7Un-bOeISG3pLlw89CH98Ko.ttf
+extract: {}
 copyright: Copyright (c) Mark Simonson 2009-2010. All rights reserved.
-license_url:
 open_license: |-
   Copyright (c) 2009, Mark Simonson (http://www.ms-studio.com, mark@marksimonson.com),
   with Reserved Font Name Anonymous Pro.
@@ -137,3 +139,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

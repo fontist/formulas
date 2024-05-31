@@ -3,11 +3,11 @@ name: Quando
 description: Quando
 homepage: http://www.sorkintype.com/
 resources:
-  Quando.zip:
-    urls:
-    - https://fonts.google.com/download?family=Quando
-    sha256: dabbd4190dc8893b692ba31dc20d82ec96dccc6b83b3efa59d2db0d8dcf8c9e1
-    file_size: 53076
+  Quando:
+    source: google
+    family: Quando
+    files:
+    - https://fonts.gstatic.com/s/quando/v16/xMQVuFNaVa6YuW0pC6WzKX_QmA.ttf
 fonts:
 - name: Quando
   styles:
@@ -25,11 +25,10 @@ fonts:
       familiarity makes it suitable for a broad range of uses.
     copyright: Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com) with Reserved
       Font Name "Quando"
-    font: Quando-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)
-  with Reserved Font Name "Quando"
+    font: xMQVuFNaVa6YuW0pC6WzKX_QmA.ttf
+extract: {}
+copyright: Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com) with Reserved
+  Font Name "Quando"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com), with Reserved Font Name "Quando".
@@ -125,3 +124,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -3,58 +3,74 @@ name: DM Mono
 description: DM Mono
 homepage: https://www.colophon-foundry.org
 resources:
-  DMMono.zip:
-    urls:
-    - https://fonts.google.com/download?family=DM%20Mono
-    sha256: 92e14403e9ae3a74f66f6d9f4dab43cf5cd0413e71eec0d57b59d4bf42aca752
-    file_size: 164577
+  DM Mono:
+    source: google
+    family: DM Mono
+    files:
+    - https://fonts.gstatic.com/s/dmmono/v14/aFTR7PB1QTsUX8KYvrGyIYSnbKX9Rlk.ttf
+    - https://fonts.gstatic.com/s/dmmono/v14/aFTT7PB1QTsUX8KYth-orYataIf4VllXuA.ttf
+    - https://fonts.gstatic.com/s/dmmono/v14/aFTU7PB1QTsUX8KYhh2aBYyMcKw.ttf
+    - https://fonts.gstatic.com/s/dmmono/v14/aFTW7PB1QTsUX8KYth-QAa6JYKzkXw.ttf
+    - https://fonts.gstatic.com/s/dmmono/v14/aFTR7PB1QTsUX8KYvumzIYSnbKX9Rlk.ttf
+    - https://fonts.gstatic.com/s/dmmono/v14/aFTT7PB1QTsUX8KYth-o9YetaIf4VllXuA.ttf
 fonts:
 - name: DM Mono
   styles:
-  - family_name: DM Mono
-    type: Light
-    full_name: DM Mono Light
-    post_script_name: DMMono-Light
-    version: 1.000; ttfautohint (v1.8.2.53-6de2)
-    copyright: Copyright 2020 The DM Mono Project Authors (https://www.github.com/googlefonts/dm-mono)
-    font: DMMono-Light.ttf
-  - family_name: DM Mono
-    type: Light Italic
-    full_name: DM Mono Light Italic
-    post_script_name: DMMono-LightItalic
-    version: 1.000; ttfautohint (v1.8.2.53-6de2)
-    copyright: Copyright 2020 The DM Mono Project Authors (https://www.github.com/googlefonts/dm-mono)
-    font: DMMono-LightItalic.ttf
-  - family_name: DM Mono
-    type: Regular
-    full_name: DM Mono Regular
-    post_script_name: DMMono-Regular
-    version: 1.000; ttfautohint (v1.8.2.53-6de2)
-    copyright: Copyright 2020 The DM Mono Project Authors (https://www.github.com/googlefonts/dm-mono)
-    font: DMMono-Regular.ttf
   - family_name: DM Mono
     type: Italic
     full_name: DM Mono Italic
     post_script_name: DMMono-Italic
     version: 1.000; ttfautohint (v1.8.2.53-6de2)
     copyright: Copyright 2020 The DM Mono Project Authors (https://www.github.com/googlefonts/dm-mono)
-    font: DMMono-Italic.ttf
+    font: aFTW7PB1QTsUX8KYth-QAa6JYKzkXw.ttf
   - family_name: DM Mono
-    type: Medium
-    full_name: DM Mono Medium
-    post_script_name: DMMono-Medium
+    type: Regular
+    full_name: DM Mono Regular
+    post_script_name: DMMono-Regular
     version: 1.000; ttfautohint (v1.8.2.53-6de2)
     copyright: Copyright 2020 The DM Mono Project Authors (https://www.github.com/googlefonts/dm-mono)
-    font: DMMono-Medium.ttf
-  - family_name: DM Mono
-    type: Medium Italic
+    font: aFTU7PB1QTsUX8KYhh2aBYyMcKw.ttf
+- name: DM Mono Light
+  styles:
+  - family_name: DM Mono Light
+    type: Italic
+    preferred_family_name: DM Mono
+    preferred_type: Light Italic
+    full_name: DM Mono Light Italic
+    post_script_name: DMMono-LightItalic
+    version: 1.000; ttfautohint (v1.8.2.53-6de2)
+    copyright: Copyright 2020 The DM Mono Project Authors (https://www.github.com/googlefonts/dm-mono)
+    font: aFTT7PB1QTsUX8KYth-orYataIf4VllXuA.ttf
+  - family_name: DM Mono Light
+    type: Regular
+    preferred_family_name: DM Mono
+    preferred_type: Light
+    full_name: DM Mono Light
+    post_script_name: DMMono-Light
+    version: 1.000; ttfautohint (v1.8.2.53-6de2)
+    copyright: Copyright 2020 The DM Mono Project Authors (https://www.github.com/googlefonts/dm-mono)
+    font: aFTR7PB1QTsUX8KYvrGyIYSnbKX9Rlk.ttf
+- name: DM Mono Medium
+  styles:
+  - family_name: DM Mono Medium
+    type: Italic
+    preferred_family_name: DM Mono
+    preferred_type: Medium Italic
     full_name: DM Mono Medium Italic
     post_script_name: DMMono-MediumItalic
     version: 1.000; ttfautohint (v1.8.2.53-6de2)
     copyright: Copyright 2020 The DM Mono Project Authors (https://www.github.com/googlefonts/dm-mono)
-    font: DMMono-MediumItalic.ttf
-extract:
-  format: zip
+    font: aFTT7PB1QTsUX8KYth-o9YetaIf4VllXuA.ttf
+  - family_name: DM Mono Medium
+    type: Regular
+    preferred_family_name: DM Mono
+    preferred_type: Medium
+    full_name: DM Mono Medium
+    post_script_name: DMMono-Medium
+    version: 1.000; ttfautohint (v1.8.2.53-6de2)
+    copyright: Copyright 2020 The DM Mono Project Authors (https://www.github.com/googlefonts/dm-mono)
+    font: aFTR7PB1QTsUX8KYvumzIYSnbKX9Rlk.ttf
+extract: {}
 copyright: Copyright 2020 The DM Mono Project Authors (https://www.github.com/googlefonts/dm-mono)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -151,3 +167,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

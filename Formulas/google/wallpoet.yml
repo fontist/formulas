@@ -1,13 +1,12 @@
 ---
 name: Wallpoet
 description: Wallpoet
-homepage:
 resources:
-  Wallpoet.zip:
-    urls:
-    - https://fonts.google.com/download?family=Wallpoet
-    sha256: 3cbd24f6398367c60d85067777e218410b126cf7de0c547e707d28ec0b88c115
-    file_size: 21539
+  Wallpoet:
+    source: google
+    family: Wallpoet
+    files:
+    - https://fonts.gstatic.com/s/wallpoet/v20/f0X10em2_8RnXVVdUNbu7cXP8L8G.ttf
 fonts:
 - name: Wallpoet
   styles:
@@ -18,10 +17,9 @@ fonts:
     version: '1.000'
     description: Copyright (c) 2011 by Lars Berggren. All rights reserved.
     copyright: Copyright (c) 2011 by Lars Berggren. All rights reserved.
-    font: Wallpoet-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by Lars Berggren (punktlars@gmail.com). All rights reserved.
+    font: f0X10em2_8RnXVVdUNbu7cXP8L8G.ttf
+extract: {}
+copyright: Copyright (c) 2011 by Lars Berggren. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 6 April 2011, Lars Berggren (lars@punktlars.se),
@@ -118,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

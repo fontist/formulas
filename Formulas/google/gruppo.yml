@@ -1,12 +1,13 @@
 ---
+name: Gruppo
 description: Gruppo
 homepage: http://www.sansoxygen.com
 resources:
-  Gruppo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Gruppo
-    sha256: 77f3762db57849cf729263c9ef62e8f8569c507b7ae227199be7c066e9434398
-    file_size: 41856
+  Gruppo:
+    source: google
+    family: Gruppo
+    files:
+    - https://fonts.gstatic.com/s/gruppo/v21/WwkfxPmzE06v_ZWFWXDAOIEQUQ.ttf
 fonts:
 - name: Gruppo
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: Gruppo-Regular
     version: 1.001; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.28]
     copyright: Copyright 2010 The Gruppo Project Authors (https://github.com/googlefonts/GruppoFont)
-    font: Gruppo-Regular.ttf
+    font: WwkfxPmzE06v_ZWFWXDAOIEQUQ.ttf
 extract: {}
 copyright: Copyright 2010 The Gruppo Project Authors (https://github.com/googlefonts/GruppoFont)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 0302a7a9d7568a3886dd039cb6dd1ee9ce986bfbdd282b0f3e21c0caf60d284e
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

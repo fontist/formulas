@@ -1,12 +1,13 @@
 ---
+name: Mansalva
 description: Mansalva
 homepage: https://bigital.com/
 resources:
-  Mansalva.zip:
-    urls:
-    - https://fonts.google.com/download?family=Mansalva
-    sha256: a630757f7272dfbb1ed4de54801218c880dbcd0a69c91d0c8b19eb34ce5ccc2c
-    file_size: 166029
+  Mansalva:
+    source: google
+    family: Mansalva
+    files:
+    - https://fonts.gstatic.com/s/mansalva/v14/aWB4m0aacbtDfvq5NJllI47vdyBg.ttf
 fonts:
 - name: Mansalva
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: Mansalva-Regular
     version: 2.112; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2022 The Mansalva Project Authors (https://github.com/carolinashort/mansalva)
-    font: Mansalva-Regular.ttf
+    font: aWB4m0aacbtDfvq5NJllI47vdyBg.ttf
 extract: {}
 copyright: Copyright 2022 The Mansalva Project Authors (https://github.com/carolinashort/mansalva)
 license_url: https://scripts.sil.org/OFL
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 14177104aa57be48e55af1d74e7b432451e62c6121f50c8d183a3697efb506db
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

@@ -1,12 +1,12 @@
 ---
+name: Nova Cut
 description: Nova Cut
-homepage:
 resources:
-  NovaCut.zip:
-    urls:
-    - https://fonts.google.com/download?family=Nova%20Cut
-    sha256: 87ff2364915c45969742904f9beb6b3db175bc7428dea31962653cac585f1ded
-    file_size: 41680
+  Nova Cut:
+    source: google
+    family: Nova Cut
+    files:
+    - https://fonts.gstatic.com/s/novacut/v24/KFOkCnSYu8mL-39LkWxPKTM1K9nz.ttf
 fonts:
 - name: Nova Cut
   styles:
@@ -16,12 +16,9 @@ fonts:
     post_script_name: NovaCut
     version: '2.000'
     copyright: Copyright (c) 2011, wmk69 (wmk69@o2.pl)
-    font: NovaCut.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2011, wmk69 (wmk69@o2.pl) with Reserved Font Names ''NovaCut''
-  and ''Nova Cut''. This Font Software is licensed under the SIL Open Font License,
-  Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    font: KFOkCnSYu8mL-39LkWxPKTM1K9nz.ttf
+extract: {}
+copyright: Copyright (c) 2011, wmk69 (wmk69@o2.pl)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, wmk69 (wmk69@o2.pl),
@@ -129,3 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

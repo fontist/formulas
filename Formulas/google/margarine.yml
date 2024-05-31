@@ -3,11 +3,11 @@ name: Margarine
 description: Margarine
 homepage: http://www.astigmatic.com/
 resources:
-  Margarine.zip:
-    urls:
-    - https://fonts.google.com/download?family=Margarine
-    sha256: 1665adadf876ce6dba1d67fdd5560ea85bfe37c680b2c581aa45a7cd9eae403e
-    file_size: 84788
+  Margarine:
+    source: google
+    family: Margarine
+    files:
+    - https://fonts.gstatic.com/s/margarine/v25/qkBXXvoE6trLT9Y7YLye5JRLkAXbMQ.ttf
 fonts:
 - name: Margarine
   styles:
@@ -19,11 +19,11 @@ fonts:
     copyright: |-
       Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
       Font Name "Margarine"
-    font: Margarine-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com),
-  with Reserved Font Name "Margarine"
+    font: qkBXXvoE6trLT9Y7YLye5JRLkAXbMQ.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+  Font Name "Margarine"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI)
@@ -120,3 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

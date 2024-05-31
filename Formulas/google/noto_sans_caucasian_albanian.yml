@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Caucasian Albanian
 description: Noto Sans Caucasian Albanian
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Caucasian_Albanian.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Caucasian%20Albanian
-    sha256: 33a40b19d5c521bab6865200779473aeaf2a46c3cb29f3657f0e8392fe4a0867
-    file_size: 43437
+  Noto Sans Caucasian Albanian:
+    source: google
+    family: Noto Sans Caucasian Albanian
+    files:
+    - https://fonts.gstatic.com/s/notosanscaucasianalbanian/v18/nKKA-HM_FYFRJvXzVXaANsU0VzsAc46QGOkWytlTs-TXrYDmoVmRSZo.ttf
 fonts:
 - name: Noto Sans Caucasian Albanian
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.005; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/caucasian-albanian)
-    font: NotoSansCaucasianAlbanian-Regular.ttf
+    font: nKKA-HM_FYFRJvXzVXaANsU0VzsAc46QGOkWytlTs-TXrYDmoVmRSZo.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/caucasian-albanian)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: c18ab82a0045014ca861bdba619b785d0da3735a7a7e1d7fdb0a97e5eeb06390
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

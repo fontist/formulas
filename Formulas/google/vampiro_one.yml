@@ -1,12 +1,13 @@
 ---
+name: Vampiro One
 description: Vampiro One
 homepage: www.sorkintype.com
 resources:
-  VampiroOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Vampiro%20One
-    sha256: 5bce01cf328cb1297a18a944fb5ff956a9b631ba74d56e735cf97a1a2fd1ec6b
-    file_size: 20488
+  Vampiro One:
+    source: google
+    family: Vampiro One
+    files:
+    - https://fonts.gstatic.com/s/vampiroone/v18/gokqH6DoDl5yXvJytFsdLkqnsvhIor3K.ttf
 fonts:
 - name: Vampiro One
   styles:
@@ -20,11 +21,10 @@ fonts:
       at medium to large sizes.
     copyright: Copyright (c) 2012 by Sorkin Type Co (www.sorkintype.com), with Reserved
       Font Name 'Vampiro'
-    font: VampiroOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)
-  with Reserved Font Name 'Vampiro'.
+    font: gokqH6DoDl5yXvJytFsdLkqnsvhIor3K.ttf
+extract: {}
+copyright: Copyright (c) 2012 by Sorkin Type Co (www.sorkintype.com), with Reserved
+  Font Name 'Vampiro'
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012 by Sorkin Type Co (www.sorkintype.com), with Reserved Font Name 'Vampiro'
@@ -122,3 +122,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

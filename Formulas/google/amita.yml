@@ -3,23 +3,15 @@ name: Amita
 description: Amita
 homepage: http://www.tipo.net.ar
 resources:
-  Amita.zip:
-    urls:
-    - https://fonts.google.com/download?family=Amita
-    sha256: 51ce9cf7601a111bd3a147b5a7482ab0c802e2ecd36eaf05565d022decc87528
-    file_size: 198605
+  Amita:
+    source: google
+    family: Amita
+    files:
+    - https://fonts.gstatic.com/s/amita/v18/HhyaU5si9Om7PQlvAfSKEZZL.ttf
+    - https://fonts.gstatic.com/s/amita/v18/HhyXU5si9Om7PTHTLtCCOopCTKkI.ttf
 fonts:
 - name: Amita
   styles:
-  - family_name: Amita
-    type: Regular
-    full_name: Amita Regular
-    post_script_name: Amita-Regular
-    version: '1.004'
-    copyright: Copyright (c) 2014, Eduardo Rodriguez Tunni. Copyright (c) 2000, Modular
-      Infotech, Pune, INDIA. All rights reserved. Copyright (c) 2011 by Brian J. Bonislawsky
-      DBA Astigmatic (AOETI) (astigma@astigmatic.com). All rights reserved.
-    font: Amita-Regular.ttf
   - family_name: Amita
     type: Bold
     full_name: Amita Bold
@@ -28,9 +20,17 @@ fonts:
     copyright: Copyright (c) 2014, Eduardo Rodriguez Tunni. Copyright (c) 2000, Modular
       Infotech, Pune, INDIA. All rights reserved. Copyright (c) 2011 by Brian J. Bonislawsky
       DBA Astigmatic (AOETI) (astigma@astigmatic.com). All rights reserved.
-    font: Amita-Bold.ttf
-extract:
-  format: zip
+    font: HhyXU5si9Om7PTHTLtCCOopCTKkI.ttf
+  - family_name: Amita
+    type: Regular
+    full_name: Amita Regular
+    post_script_name: Amita-Regular
+    version: '1.004'
+    copyright: Copyright (c) 2014, Eduardo Rodriguez Tunni. Copyright (c) 2000, Modular
+      Infotech, Pune, INDIA. All rights reserved. Copyright (c) 2011 by Brian J. Bonislawsky
+      DBA Astigmatic (AOETI) (astigma@astigmatic.com). All rights reserved.
+    font: HhyaU5si9Om7PQlvAfSKEZZL.ttf
+extract: {}
 copyright: Copyright (c) 2014, Eduardo Rodriguez Tunni. Copyright (c) 2000, Modular
   Infotech, Pune, INDIA. All rights reserved. Copyright (c) 2011 by Brian J. Bonislawsky
   DBA Astigmatic (AOETI) (astigma@astigmatic.com). All rights reserved.
@@ -130,3 +130,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

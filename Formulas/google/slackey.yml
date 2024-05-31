@@ -3,11 +3,11 @@ name: Slackey
 description: Slackey
 homepage: http://www.fontbros.com/sideshow.php
 resources:
-  Slackey.zip:
-    urls:
-    - https://fonts.google.com/download?family=Slackey
-    sha256: 82b2b5162117746f7897552c97fbc08fc706e3232f082a286162e9adf2a383bd
-    file_size: 27497
+  Slackey:
+    source: google
+    family: Slackey
+    files:
+    - https://fonts.gstatic.com/s/slackey/v28/N0bV2SdQO-5yM0-dKlRaJdbWgdY.ttf
 fonts:
 - name: Slackey
   styles:
@@ -17,13 +17,12 @@ fonts:
     post_script_name: Slackey-Regular
     version: '1.001'
     copyright: Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.
-    font: Slackey-Regular.ttf
-extract:
-  format: zip
+    font: N0bV2SdQO-5yM0-dKlRaJdbWgdY.ttf
+extract: {}
 copyright: Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.
 license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |2-
-                                   Apache License
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -224,3 +223,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999

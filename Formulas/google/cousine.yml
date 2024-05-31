@@ -3,48 +3,50 @@ name: Cousine
 description: Cousine
 homepage: http://www.monotypeimaging.com
 resources:
-  Cousine.zip:
-    urls:
-    - https://fonts.google.com/download?family=Cousine
-    sha256: 615a5cec088b209149ef862591afb3b9544a4f7a5dd74bc036d4ae9c44ac5583
-    file_size: 665865
+  Cousine:
+    source: google
+    family: Cousine
+    files:
+    - https://fonts.gstatic.com/s/cousine/v27/d6lIkaiiRdih4SpPzSMlzTbtz9k.ttf
+    - https://fonts.gstatic.com/s/cousine/v27/d6lKkaiiRdih4SpP_SEvyRTo39l8hw.ttf
+    - https://fonts.gstatic.com/s/cousine/v27/d6lNkaiiRdih4SpP9Z8K6T7G09BlnmQ.ttf
+    - https://fonts.gstatic.com/s/cousine/v27/d6lPkaiiRdih4SpP_SEXdTvM1_JgjmRpOA.ttf
 fonts:
 - name: Cousine
   styles:
-  - family_name: Cousine
-    type: Regular
-    full_name: Cousine Regular
-    post_script_name: Cousine-Regular
-    version: '1.21'
-    copyright: Digitized data copyright (c) 2010-2012 Google Corporation.
-    font: Cousine-Regular.ttf
-  - family_name: Cousine
-    type: Italic
-    full_name: Cousine Italic
-    post_script_name: Cousine-Italic
-    version: '1.21'
-    copyright: Digitized data copyright (c) 2010-2012 Google Corporation.
-    font: Cousine-Italic.ttf
   - family_name: Cousine
     type: Bold
     full_name: Cousine Bold
     post_script_name: Cousine-Bold
     version: '1.21'
     copyright: Digitized data copyright (c) 2010-2012 Google Corporation.
-    font: Cousine-Bold.ttf
+    font: d6lNkaiiRdih4SpP9Z8K6T7G09BlnmQ.ttf
   - family_name: Cousine
     type: Bold Italic
     full_name: Cousine Bold Italic
     post_script_name: Cousine-BoldItalic
     version: '1.21'
     copyright: Digitized data copyright (c) 2010-2012 Google Corporation.
-    font: Cousine-BoldItalic.ttf
-extract:
-  format: zip
+    font: d6lPkaiiRdih4SpP_SEXdTvM1_JgjmRpOA.ttf
+  - family_name: Cousine
+    type: Italic
+    full_name: Cousine Italic
+    post_script_name: Cousine-Italic
+    version: '1.21'
+    copyright: Digitized data copyright (c) 2010-2012 Google Corporation.
+    font: d6lKkaiiRdih4SpP_SEvyRTo39l8hw.ttf
+  - family_name: Cousine
+    type: Regular
+    full_name: Cousine Regular
+    post_script_name: Cousine-Regular
+    version: '1.21'
+    copyright: Digitized data copyright (c) 2010-2012 Google Corporation.
+    font: d6lIkaiiRdih4SpPzSMlzTbtz9k.ttf
+extract: {}
 copyright: Digitized data copyright (c) 2010-2012 Google Corporation.
 license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |2-
-                                   Apache License
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -245,3 +247,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999

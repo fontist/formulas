@@ -3,11 +3,11 @@ name: Courgette
 description: Courgette
 homepage: www.sorkintype.com
 resources:
-  Courgette.zip:
-    urls:
-    - https://fonts.google.com/download?family=Courgette
-    sha256: 2091cdd4e397379220ffcf6184ff839e12a22667b582e9534ccf3e5c8630a60e
-    file_size: 55740
+  Courgette:
+    source: google
+    family: Courgette
+    files:
+    - https://fonts.gstatic.com/s/courgette/v17/wEO_EBrAnc9BLjLQAUkFUfAL3EsHiA.ttf
 fonts:
 - name: Courgette
   styles:
@@ -22,11 +22,10 @@ fonts:
       that it also works well in smaller sizes and even in massed text.
     copyright: Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com) with Reserved
       Font Name "Courgette".
-    font: Courgette-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)
-  with Reserved Font Name "Courgette".
+    font: wEO_EBrAnc9BLjLQAUkFUfAL3EsHiA.ttf
+extract: {}
+copyright: Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com) with Reserved Font
+  Name "Courgette".
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012 by Sorkin Type Co (www.sorkintype.com), with Reserved Font Name "Courgette".
@@ -122,3 +121,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

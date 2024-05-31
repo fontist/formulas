@@ -1,12 +1,13 @@
 ---
+name: Rubik Moonrocks
 description: Rubik Moonrocks
 homepage: http://www.google.com/fonts
 resources:
-  Rubik_Moonrocks.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rubik%20Moonrocks
-    sha256: 1a365a1f0b55a070e3e0ca478ce42b1fbcfa8e529cecae689fda1a16c5203614
-    file_size: 213205
+  Rubik Moonrocks:
+    source: google
+    family: Rubik Moonrocks
+    files:
+    - https://fonts.gstatic.com/s/rubikmoonrocks/v5/845ANMAmAI2VUZMLu_W0M7HqlDHnXcD7JGy1Sw.ttf
 fonts:
 - name: Rubik Moonrocks
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: RubikMoonrocks-Regular
     version: '2.200'
     copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
-    font: RubikMoonrocks-Regular.ttf
+    font: 845ANMAmAI2VUZMLu_W0M7HqlDHnXcD7JGy1Sw.ttf
 extract: {}
 copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 56ffdf647c63c76c363804bef4279f08cbdd97fec2f09e8d5797f1abe035afec
-command: import google --formulas_path Formulas
+command: import google -n 9999

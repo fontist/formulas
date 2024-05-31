@@ -3,11 +3,12 @@ name: Birthstone Bounce
 description: Birthstone Bounce
 homepage: www.typesetit.com
 resources:
-  Birthstone_Bounce.zip:
-    urls:
-    - https://fonts.google.com/download?family=Birthstone%20Bounce
-    sha256: 5fa0898467bf151da8388b9abf81e63c42de5fc86fae2f771a80a8a4570dcb8b
-    file_size: 309972
+  Birthstone Bounce:
+    source: google
+    family: Birthstone Bounce
+    files:
+    - https://fonts.gstatic.com/s/birthstonebounce/v11/ga6XaxZF43lIvTWrktHOTBJZGH7dEeVJGIMYDo_8.ttf
+    - https://fonts.gstatic.com/s/birthstonebounce/v11/ga6SaxZF43lIvTWrktHOTBJZGH7dEd29MacQJZP1LmD9.ttf
 fonts:
 - name: Birthstone Bounce
   styles:
@@ -17,7 +18,7 @@ fonts:
     post_script_name: BirthstoneBounce-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Birthstone Bounce Project Authors (https://github.com/googlefonts/birthstone-bounce)
-    font: BirthstoneBounce-Regular.ttf
+    font: ga6XaxZF43lIvTWrktHOTBJZGH7dEeVJGIMYDo_8.ttf
 - name: Birthstone Bounce Medium
   styles:
   - family_name: Birthstone Bounce Medium
@@ -28,7 +29,7 @@ fonts:
     post_script_name: BirthstoneBounce-Medium
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Birthstone Bounce Project Authors (https://github.com/googlefonts/birthstone-bounce)
-    font: BirthstoneBounce-Medium.ttf
+    font: ga6SaxZF43lIvTWrktHOTBJZGH7dEd29MacQJZP1LmD9.ttf
 extract: {}
 copyright: Copyright 2019 The Birthstone Bounce Project Authors (https://github.com/googlefonts/birthstone-bounce)
 license_url: https://scripts.sil.org/OFL
@@ -126,5 +127,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d7e58c9e696d71522ce512fbc0c0e03423662091ed0e3d6385777b4fd95998a9
-command: google import --formulas_path Formulas
+command: import google -n 9999

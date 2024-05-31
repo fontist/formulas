@@ -3,11 +3,11 @@ name: Yuji Boku
 description: Yuji Boku
 homepage: http://www.moji-sekkei.jp/
 resources:
-  Yuji_Boku.zip:
-    urls:
-    - https://fonts.google.com/download?family=Yuji%20Boku
-    sha256: 48da7360211fa8c3d665c187e71a5d4b493bba0e5e6242b86cd287f222bbe889
-    file_size: 5074780
+  Yuji Boku:
+    source: google
+    family: Yuji Boku
+    files:
+    - https://fonts.gstatic.com/s/yujiboku/v5/P5sAzZybeNzXsA9xj1Fkjb2r2dgvJA.ttf
 fonts:
 - name: Yuji Boku
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: YujiBoku-Regular
     version: '3.002'
     copyright: Copyright 2021 The Yuji Project Authors (https://github.com/Kinutafontfactory/Yuji)
-    font: YujiBoku-Regular.ttf
+    font: P5sAzZybeNzXsA9xj1Fkjb2r2dgvJA.ttf
 extract: {}
 copyright: Copyright 2021 The Yuji Project Authors (https://github.com/Kinutafontfactory/Yuji)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 72a862ee101dbf78ebe4175e1c868d93eeee89b6695dc4bfc2cf41c0e4deb77e
-command: google import --formulas_path Formulas
+command: import google -n 9999

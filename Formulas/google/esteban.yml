@@ -1,13 +1,12 @@
 ---
 name: Esteban
 description: Esteban
-homepage:
 resources:
-  Esteban.zip:
-    urls:
-    - https://fonts.google.com/download?family=Esteban
-    sha256: '09ced9f85a503171d053c3f5f223100e5b2a32f347902328f690df252be3de65'
-    file_size: 24403
+  Esteban:
+    source: google
+    family: Esteban
+    files:
+    - https://fonts.gstatic.com/s/esteban/v15/r05bGLZE-bdGdN-GdOuD5jokU8E.ttf
 fonts:
 - name: Esteban
   styles:
@@ -18,11 +17,10 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Angelica Diaz Rivera (www.typereview.wordpress.com),
       with Reserved Font Name "Esteban"
-    font: Esteban-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Angelica Diaz Rivera (www.typereview.wordpress.com
-  angiecina@gmail.com), with Reserved Font Name "Esteban"
+    font: r05bGLZE-bdGdN-GdOuD5jokU8E.ttf
+extract: {}
+copyright: Copyright (c) 2011, Angelica Diaz Rivera (www.typereview.wordpress.com),
+  with Reserved Font Name "Esteban"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Ang�lica D�iaz (http://typereview.wordpress.com|angiecina@gmail.com),
@@ -119,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

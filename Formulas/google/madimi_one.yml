@@ -1,12 +1,13 @@
 ---
+name: Madimi One
 description: Madimi One
 homepage: http://tavatake.africa
 resources:
-  Madimi_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Madimi%20One
-    sha256: c39751aad73440fd8f0f76832e3bf73fd50d69fa9e4f9009d9d36133b966c2bf
-    file_size: 52683
+  Madimi One:
+    source: google
+    family: Madimi One
+    files:
+    - https://fonts.gstatic.com/s/madimione/v1/2V0YKIEADpA8U6RygDnZZFQoBoHMd2U.ttf
 fonts:
 - name: Madimi One
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: MadimiOne-Regular
     version: 1.000; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2024 The Madimi One Project Authors (https://github.com/TaVaTake/madimi)
-    font: MadimiOne-Regular.ttf
+    font: 2V0YKIEADpA8U6RygDnZZFQoBoHMd2U.ttf
 extract: {}
 copyright: Copyright 2024 The Madimi One Project Authors (https://github.com/TaVaTake/madimi)
 license_url: https://openfontlicense.org
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 50f210feb216f8ee147bd64b2749cdcfc8e3b760b6eeba9505a1f2defd870dc9
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

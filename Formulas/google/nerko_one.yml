@@ -2,11 +2,11 @@
 name: Nerko One
 description: Nerko One
 resources:
-  Nerko_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Nerko%20One
-    sha256: 9c6d99551f07d168111e78fe02e3950f736ef898b4bef355ffba62f229a54001
-    file_size: 43820
+  Nerko One:
+    source: google
+    family: Nerko One
+    files:
+    - https://fonts.gstatic.com/s/nerkoone/v16/m8JQjfZSc7OXlB3ZMOjzcJ5BZmqa3A.ttf
 fonts:
 - name: Nerko One
   styles:
@@ -16,7 +16,7 @@ fonts:
     post_script_name: NerkoOne-Regular
     version: '1.101'
     copyright: Copyright 2013 The Nerko One Project Authors (https://github.com/nermink99/Nerko/)
-    font: NerkoOne-Regular.ttf
+    font: m8JQjfZSc7OXlB3ZMOjzcJ5BZmqa3A.ttf
 extract: {}
 copyright: Copyright 2013 The Nerko One Project Authors (https://github.com/nermink99/Nerko/)
 license_url: http://scripts.sil.org/OFL
@@ -114,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ca8cb07face6570100fc6d8663d7aa2918f09cddcff9f8d8782a571d20ab9941
-command: google import --formulas_path Formulas
+command: import google -n 9999

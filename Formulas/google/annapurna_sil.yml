@@ -1,12 +1,14 @@
 ---
+name: Annapurna SIL
 description: Annapurna SIL
 homepage: https://www.sil.org
 resources:
-  Annapurna_SIL.zip:
-    urls:
-    - https://fonts.google.com/download?family=Annapurna%20SIL
-    sha256: 13e4c22429d2be9fab908ce17954fc4a08a552d950452f25bae3dfb1d2428212
-    file_size: 254877
+  Annapurna SIL:
+    source: google
+    family: Annapurna SIL
+    files:
+    - https://fonts.gstatic.com/s/annapurnasil/v2/yYLv0hDY0f2iu9tPmRWtllid8NN9dZT_PZs.ttf
+    - https://fonts.gstatic.com/s/annapurnasil/v2/yYLy0hDY0f2iu9tPmRWtllidyG9SUZzUIZJ008A.ttf
 fonts:
 - name: Annapurna SIL
   styles:
@@ -18,7 +20,7 @@ fonts:
     description: Annapurna SIL is a high-quality font family that supports the many
       diverse languages that use the Devanagari script.
     copyright: Copyright (c) 2007-2023 by SIL International
-    font: AnnapurnaSIL-Bold.ttf
+    font: yYLy0hDY0f2iu9tPmRWtllidyG9SUZzUIZJ008A.ttf
   - family_name: Annapurna SIL
     type: Regular
     full_name: Annapurna SIL
@@ -27,7 +29,7 @@ fonts:
     description: Annapurna SIL is a high-quality font family that supports the many
       diverse languages that use the Devanagari script.
     copyright: Copyright (c) 2007-2023 by SIL International
-    font: AnnapurnaSIL-Regular.ttf
+    font: yYLv0hDY0f2iu9tPmRWtllid8NN9dZT_PZs.ttf
 extract: {}
 copyright: Copyright (c) 2007-2023 by SIL International
 license_url: https://scripts.sil.org/OFL
@@ -126,5 +128,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 273d59d5461796e4b738d3ccb20fe7d8db91dfdf9259f7b24444c7f62e689531
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

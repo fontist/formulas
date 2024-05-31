@@ -1,12 +1,13 @@
 ---
+name: Jockey One
 description: Jockey One
 homepage: www.type-together.com
 resources:
-  JockeyOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Jockey%20One
-    sha256: 74353251f271d0b40fd070e9566cabcd710f79060b930e7b26a6e4360bfca350
-    file_size: 23341
+  Jockey One:
+    source: google
+    family: Jockey One
+    files:
+    - https://fonts.gstatic.com/s/jockeyone/v21/HTxpL2g2KjCFj4x8WI6ArIb7HYOk4xc.ttf
 fonts:
 - name: Jockey One
   styles:
@@ -17,11 +18,10 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Copyright (c) 2011, TypeTogether (www.type-together.com),
       with Reserved Font Names "Jockey" and "Jockey One"
-    font: JockeyOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Copyright (c) 2011, TypeTogether (www.type-together.com
-  info@type-together.com), with Reserved Font Names "Jockey" and "Jockey One"
+    font: HTxpL2g2KjCFj4x8WI6ArIb7HYOk4xc.ttf
+extract: {}
+copyright: Copyright (c) 2011, Copyright (c) 2011, TypeTogether (www.type-together.com),
+  with Reserved Font Names "Jockey" and "Jockey One"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, TypeTogether (www.type-together.com),
@@ -118,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

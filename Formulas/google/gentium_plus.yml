@@ -1,12 +1,16 @@
 ---
+name: Gentium Plus
 description: Gentium Plus
 homepage: http://www.sil.org/
 resources:
-  Gentium_Plus.zip:
-    urls:
-    - https://fonts.google.com/download?family=Gentium%20Plus
-    sha256: 644b05c88dfbdfee9bf28aa61c4e40ede1f2ea047b0e90643e085cc4a3e0703f
-    file_size: 1682354
+  Gentium Plus:
+    source: google
+    family: Gentium Plus
+    files:
+    - https://fonts.gstatic.com/s/gentiumplus/v2/Iurd6Ytw-oSPaZ00r2bNe8VpjJtM6G0t9w.ttf
+    - https://fonts.gstatic.com/s/gentiumplus/v2/IurD6Ytw-oSPaZ00r2bNe8VZjpFIymg9957e.ttf
+    - https://fonts.gstatic.com/s/gentiumplus/v2/IurC6Ytw-oSPaZ00r2bNe8VRMLRo4EYx_ofHsw.ttf
+    - https://fonts.gstatic.com/s/gentiumplus/v2/IurA6Ytw-oSPaZ00r2bNe8VZjqn05Uw13ILXs-h6.ttf
 fonts:
 - name: Gentium Plus
   styles:
@@ -17,7 +21,7 @@ fonts:
     version: '6.101'
     description: Font family for languages that use Latin, Cyrillic, and Greek scripts
     copyright: Copyright (c) 2003-2022 SIL International
-    font: GentiumPlus-Bold.ttf
+    font: IurC6Ytw-oSPaZ00r2bNe8VRMLRo4EYx_ofHsw.ttf
   - family_name: Gentium Plus
     type: Bold Italic
     full_name: Gentium Plus Bold Italic
@@ -25,7 +29,7 @@ fonts:
     version: '6.101'
     description: Font family for languages that use Latin, Cyrillic, and Greek scripts
     copyright: Copyright (c) 2003-2022 SIL International
-    font: GentiumPlus-BoldItalic.ttf
+    font: IurA6Ytw-oSPaZ00r2bNe8VZjqn05Uw13ILXs-h6.ttf
   - family_name: Gentium Plus
     type: Italic
     full_name: Gentium Plus Italic
@@ -33,7 +37,7 @@ fonts:
     version: '6.101'
     description: Font family for languages that use Latin, Cyrillic, and Greek scripts
     copyright: Copyright (c) 2003-2022 SIL International
-    font: GentiumPlus-Italic.ttf
+    font: IurD6Ytw-oSPaZ00r2bNe8VZjpFIymg9957e.ttf
   - family_name: Gentium Plus
     type: Regular
     full_name: Gentium Plus
@@ -41,7 +45,7 @@ fonts:
     version: '6.101'
     description: Font family for languages that use Latin, Cyrillic, and Greek scripts
     copyright: Copyright (c) 2003-2022 SIL International
-    font: GentiumPlus-Regular.ttf
+    font: Iurd6Ytw-oSPaZ00r2bNe8VpjJtM6G0t9w.ttf
 extract: {}
 copyright: Copyright (c) 2003-2022 SIL International
 license_url: http://scripts.sil.org/OFL
@@ -140,5 +144,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: fb1cc17b2801dfafc6ef562907142fb872f12b5608384dea734d24f139b566a2
-command: import google --formulas_path Formulas
+command: import google -n 9999

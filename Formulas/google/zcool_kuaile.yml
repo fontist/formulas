@@ -3,11 +3,11 @@ name: ZCOOL KuaiLe
 description: ZCOOL KuaiLe
 homepage: http://zcool.com.cn
 resources:
-  ZCOOLKuaiLe.zip:
-    urls:
-    - https://fonts.google.com/download?family=ZCOOL%20KuaiLe
-    sha256: 43236c852cb574f0260fda3940a5ac7432afaaab482e49fd7b39b196ffbf5227
-    file_size: 1870865
+  ZCOOL KuaiLe:
+    source: google
+    family: ZCOOL KuaiLe
+    files:
+    - https://fonts.gstatic.com/s/zcoolkuaile/v19/tssqApdaRQokwFjFJjvM6h2WpozzoXhC2g.ttf
 fonts:
 - name: ZCOOL KuaiLe
   styles:
@@ -17,9 +17,8 @@ fonts:
     post_script_name: ZCOOLKuaiLe-Regular
     version: '2.000'
     copyright: Copyright 2018 The ZCOOL KuaiLe Project Authors (https://www.github.com/googlefonts/zcool-kuaile)
-    font: ZCOOLKuaiLe-Regular.ttf
-extract:
-  format: zip
+    font: tssqApdaRQokwFjFJjvM6h2WpozzoXhC2g.ttf
+extract: {}
 copyright: Copyright 2018 The ZCOOL KuaiLe Project Authors (https://www.github.com/googlefonts/zcool-kuaile)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

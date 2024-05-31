@@ -1,24 +1,16 @@
 ---
 name: Gorditas
 description: Gorditas
-homepage:
 resources:
-  Gorditas.zip:
-    urls:
-    - https://fonts.google.com/download?family=Gorditas
-    sha256: 9deb4f73d002883fa27d31318dbe6aa7a7ab8e876ce5835c949a4f3e18847fea
-    file_size: 109291
+  Gorditas:
+    source: google
+    family: Gorditas
+    files:
+    - https://fonts.gstatic.com/s/gorditas/v22/ll8_K2aTVD26DsPEtQDoDa4AlxYb.ttf
+    - https://fonts.gstatic.com/s/gorditas/v22/ll84K2aTVD26DsPEtThUIooIvAoShA1i.ttf
 fonts:
 - name: Gorditas
   styles:
-  - family_name: Gorditas
-    type: Regular
-    full_name: Gorditas
-    post_script_name: Gorditas-Regular
-    version: '1.001'
-    copyright: Copyright (c) 2011, Gustavo Dipre (gbrenda1987@gmail.com), with Reserved
-      Font Name "Gorditas".
-    font: Gorditas-Regular.ttf
   - family_name: Gorditas
     type: Bold
     full_name: Gorditas Bold
@@ -26,9 +18,16 @@ fonts:
     version: '001.001'
     copyright: Copyright (c) 2011, Gustavo Dipre (gbrenda1987@gmail.com), with Reserved
       Font Name "Gorditas".
-    font: Gorditas-Bold.ttf
-extract:
-  format: zip
+    font: ll84K2aTVD26DsPEtThUIooIvAoShA1i.ttf
+  - family_name: Gorditas
+    type: Regular
+    full_name: Gorditas
+    post_script_name: Gorditas-Regular
+    version: '1.001'
+    copyright: Copyright (c) 2011, Gustavo Dipre (gbrenda1987@gmail.com), with Reserved
+      Font Name "Gorditas".
+    font: ll8_K2aTVD26DsPEtQDoDa4AlxYb.ttf
+extract: {}
 copyright: Copyright (c) 2011, Gustavo Dipre (gbrenda1987@gmail.com), with Reserved
   Font Name "Gorditas".
 license_url: http://scripts.sil.org/OFL
@@ -126,3 +125,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

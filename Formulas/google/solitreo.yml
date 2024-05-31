@@ -1,12 +1,13 @@
 ---
+name: Solitreo
 description: Solitreo
 homepage: https://www.elih.blog
 resources:
-  Solitreo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Solitreo
-    sha256: 0bf0aafc05cd650fde92c2c3f34b2233d61e620282186f17b9ce9d8072dcab64
-    file_size: 52412
+  Solitreo:
+    source: google
+    family: Solitreo
+    files:
+    - https://fonts.gstatic.com/s/solitreo/v2/r05YGLlS5a9KYsyNO8upyDYtStiJ.ttf
 fonts:
 - name: Solitreo
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: Solitreo-Regular
     version: 1.100; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2019 The Solitreo Project Authors (https://github.com/ladinoprojects/solitreo)
-    font: Solitreo-Regular.ttf
+    font: r05YGLlS5a9KYsyNO8upyDYtStiJ.ttf
 extract: {}
 copyright: Copyright 2019 The Solitreo Project Authors (https://github.com/ladinoprojects/solitreo)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 81641a052cd3ba39731da3fa49a3b5d5117ad2ce73a9fe26cf088884b598f955
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

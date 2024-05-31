@@ -1,32 +1,18 @@
 ---
 name: Puritan
 description: Puritan
-homepage:
 resources:
-  Puritan.zip:
-    urls:
-    - https://fonts.google.com/download?family=Puritan
-    sha256: a4a31c5b371211ca36e9bcc345d333dde58f499c3bcc768f401254200f5f1cd2
-    file_size: 112960
+  Puritan:
+    source: google
+    family: Puritan
+    files:
+    - https://fonts.gstatic.com/s/puritan/v24/845YNMgkAJ2VTtIo9JrwRdaI50M.ttf
+    - https://fonts.gstatic.com/s/puritan/v24/845aNMgkAJ2VTtIoxJj6QfSN90PfXA.ttf
+    - https://fonts.gstatic.com/s/puritan/v24/845dNMgkAJ2VTtIozCbfYd6j-0rGRes.ttf
+    - https://fonts.gstatic.com/s/puritan/v24/845fNMgkAJ2VTtIoxJjC_dup_2jDVevnLQ.ttf
 fonts:
 - name: Puritan
   styles:
-  - family_name: Puritan
-    type: Regular
-    full_name: Puritan Regular
-    post_script_name: Puritan-Regular
-    version: 2.0a
-    copyright: Copyright 1999-2010 Ben Weiner. Licensed under the Open Font License
-      v1.1 (http://scripts.sil.org/OFL)
-    font: Puritan-Regular.ttf
-  - family_name: Puritan
-    type: Italic
-    full_name: Puritan Italic
-    post_script_name: Puritan-Italic
-    version: 2.0a
-    copyright: Copyright 1999-2010 Ben Weiner. Licensed under the Open Font License
-      v1.1 (http://scripts.sil.org/OFL)
-    font: Puritan-Italic.ttf
   - family_name: Puritan
     type: Bold
     full_name: Puritan Bold
@@ -34,7 +20,7 @@ fonts:
     version: '2.1'
     copyright: Copyright 1999-2010 Ben Weiner. Licensed under the Open Font License
       v1.1 (http://scripts.sil.org/OFL)
-    font: Puritan-Bold.ttf
+    font: 845dNMgkAJ2VTtIozCbfYd6j-0rGRes.ttf
   - family_name: Puritan
     type: BoldItalic
     full_name: Puritan Bold Italic
@@ -42,11 +28,26 @@ fonts:
     version: '2.1'
     copyright: Copyright 1999-2010 Ben Weiner. Licensed under the Open Font License
       v1.1 (http://scripts.sil.org/OFL)
-    font: Puritan-BoldItalic.ttf
-extract:
-  format: zip
-copyright: Copyright 1999-2010 Ben Weiner (ben@readingtype.org.uk). Licensed under
-  the Open Font License v1.1 (http://scripts.sil.org/OFL)
+    font: 845fNMgkAJ2VTtIoxJjC_dup_2jDVevnLQ.ttf
+  - family_name: Puritan
+    type: Italic
+    full_name: Puritan Italic
+    post_script_name: Puritan-Italic
+    version: 2.0a
+    copyright: Copyright 1999-2010 Ben Weiner. Licensed under the Open Font License
+      v1.1 (http://scripts.sil.org/OFL)
+    font: 845aNMgkAJ2VTtIoxJj6QfSN90PfXA.ttf
+  - family_name: Puritan
+    type: Regular
+    full_name: Puritan Regular
+    post_script_name: Puritan-Regular
+    version: 2.0a
+    copyright: Copyright 1999-2010 Ben Weiner. Licensed under the Open Font License
+      v1.1 (http://scripts.sil.org/OFL)
+    font: 845YNMgkAJ2VTtIo9JrwRdaI50M.ttf
+extract: {}
+copyright: Copyright 1999-2010 Ben Weiner. Licensed under the Open Font License v1.1
+  (http://scripts.sil.org/OFL)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 1999-2010 Ben Weiner (ben@readingtype.org.uk),
@@ -143,3 +144,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

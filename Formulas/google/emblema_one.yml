@@ -1,12 +1,13 @@
 ---
+name: Emblema One
 description: Emblema One
 homepage: www.sorkintype.com
 resources:
-  EmblemaOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Emblema%20One
-    sha256: 5ee4f5dad230f729dc11b31cdeac239abc407e6b9f730ada5aed90630e7582ca
-    file_size: 29432
+  Emblema One:
+    source: google
+    family: Emblema One
+    files:
+    - https://fonts.gstatic.com/s/emblemaone/v21/nKKT-GQ0F5dSY8vzG0rOEIRBHl57G_f_.ttf
 fonts:
 - name: Emblema One
   styles:
@@ -21,11 +22,10 @@ fonts:
       has been made for display purposes and should be used from medium to large sizes.
     copyright: Copyright (c) 2011 by Sorkin Type Co with Reserved Font Names "Emblema"
       and "Emblema One"
-    font: EmblemaOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by Sorkin Type Co (eben@eyebytes.com) with Reserved
-  Font Names "Emblema" and "Emblema One"
+    font: nKKT-GQ0F5dSY8vzG0rOEIRBHl57G_f_.ttf
+extract: {}
+copyright: Copyright (c) 2011 by Sorkin Type Co with Reserved Font Names "Emblema"
+  and "Emblema One"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
@@ -122,3 +122,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

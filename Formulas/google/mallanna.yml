@@ -1,13 +1,12 @@
 ---
 name: Mallanna
 description: Mallanna
-homepage:
 resources:
-  Mallanna.zip:
-    urls:
-    - https://fonts.google.com/download?family=Mallanna
-    sha256: c4f9328effa0cab56a9150c4fcbc215a0ccd03355cae9fb5f160fc33848b9918
-    file_size: 232363
+  Mallanna:
+    source: google
+    family: Mallanna
+    files:
+    - https://fonts.gstatic.com/s/mallanna/v14/hv-Vlzx-KEQb84YaDGwzEzRwVvJ-.ttf
 fonts:
 - name: Mallanna
   styles:
@@ -20,9 +19,8 @@ fonts:
     copyright: Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org).
       Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk), with Reserved Font
       Name Nunito
-    font: Mallanna-Regular.ttf
-extract:
-  format: zip
+    font: hv-Vlzx-KEQb84YaDGwzEzRwVvJ-.ttf
+extract: {}
 copyright: Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org).
   Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk), with Reserved Font
   Name Nunito
@@ -121,3 +119,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,12 +1,15 @@
 ---
+name: Redacted Script
 description: Redacted Script
 homepage: https://github.com/christiannaths/Redacted-Font
 resources:
-  Redacted_Script.zip:
-    urls:
-    - https://fonts.google.com/download?family=Redacted%20Script
-    sha256: 7f581d1492700943798c7b2ab6398d0fd3e0ef402a5d396faf21e1de4e7dfe07
-    file_size: 24999
+  Redacted Script:
+    source: google
+    family: Redacted Script
+    files:
+    - https://fonts.gstatic.com/s/redactedscript/v10/ypvEbXGRglhokR7dcC3d1-R6zmxqHUzVmbI397ldkg.ttf
+    - https://fonts.gstatic.com/s/redactedscript/v10/ypvBbXGRglhokR7dcC3d1-R6zmxSsWTxkZkr_g.ttf
+    - https://fonts.gstatic.com/s/redactedscript/v10/ypvEbXGRglhokR7dcC3d1-R6zmxqDUvVmbI397ldkg.ttf
 fonts:
 - name: Redacted Script
   styles:
@@ -16,14 +19,14 @@ fonts:
     post_script_name: RedactedScript-Bold
     version: 1.001; ttfautohint (v1.8.3)
     copyright: Copyright 2013 The Redacted Project Authors (https://github.com/christiannaths/redacted-font)
-    font: RedactedScript-Bold.ttf
+    font: ypvEbXGRglhokR7dcC3d1-R6zmxqDUvVmbI397ldkg.ttf
   - family_name: Redacted Script
     type: Regular
     full_name: Redacted Script Regular
     post_script_name: RedactedScript-Regular
     version: 1.001; ttfautohint (v1.8.3)
     copyright: Copyright 2013 The Redacted Project Authors (https://github.com/christiannaths/redacted-font)
-    font: RedactedScript-Regular.ttf
+    font: ypvBbXGRglhokR7dcC3d1-R6zmxSsWTxkZkr_g.ttf
 - name: Redacted Script Light
   styles:
   - family_name: Redacted Script Light
@@ -34,7 +37,7 @@ fonts:
     post_script_name: RedactedScript-Light
     version: 1.001; ttfautohint (v1.8.3)
     copyright: Copyright 2013 The Redacted Project Authors (https://github.com/christiannaths/redacted-font)
-    font: RedactedScript-Light.ttf
+    font: ypvEbXGRglhokR7dcC3d1-R6zmxqHUzVmbI397ldkg.ttf
 extract: {}
 copyright: Copyright 2013 The Redacted Project Authors (https://github.com/christiannaths/redacted-font)
 license_url: https://scripts.sil.org/OFL
@@ -43,7 +46,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -132,5 +135,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: a2e402b8cc1ecbfba9e172695b8e41883065acbf53959fc5fcb4ee4f4f8926e3
-command: google import --formulas_path Formulas
+command: import google -n 9999

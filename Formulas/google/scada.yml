@@ -3,44 +3,46 @@ name: Scada
 description: Scada
 homepage: http://scada.lv/
 resources:
-  Scada.zip:
-    urls:
-    - https://fonts.google.com/download?family=Scada
-    sha256: 18eafd852b50f2416c7e1c68cb73bb85cccf523750fc498d8835244f0db4d3d0
-    file_size: 164039
+  Scada:
+    source: google
+    family: Scada
+    files:
+    - https://fonts.gstatic.com/s/scada/v15/RLpxK5Pv5qumeWJoxzUobkvv.ttf
+    - https://fonts.gstatic.com/s/scada/v15/RLp_K5Pv5qumeVJqzTEKa1vvffg.ttf
+    - https://fonts.gstatic.com/s/scada/v15/RLp8K5Pv5qumeVrU6BEgRVfmZOE5.ttf
+    - https://fonts.gstatic.com/s/scada/v15/RLp6K5Pv5qumeVJq9Y0lT1PEYfE5p6g.ttf
 fonts:
 - name: Scada
   styles:
-  - family_name: Scada
-    type: Regular
-    full_name: Scada Regular
-    post_script_name: Scada-Regular
-    version: '4.000'
-    copyright: Copyright 2012 The Scada Project Authors (lemonad@jovanny.ru)
-    font: Scada-Regular.ttf
-  - family_name: Scada
-    type: Italic
-    full_name: Scada Italic
-    post_script_name: Scada-Italic
-    version: '4.000'
-    copyright: Copyright 2012 The Scada Project Authors (lemonad@jovanny.ru)
-    font: Scada-Italic.ttf
   - family_name: Scada
     type: Bold
     full_name: Scada Bold
     post_script_name: Scada-Bold
     version: '4.000'
     copyright: Copyright 2012 The Scada Project Authors (lemonad@jovanny.ru)
-    font: Scada-Bold.ttf
+    font: RLp8K5Pv5qumeVrU6BEgRVfmZOE5.ttf
   - family_name: Scada
     type: Bold Italic
     full_name: Scada Bold Italic
     post_script_name: Scada-BoldItalic
     version: '4.000'
     copyright: Copyright 2012 The Scada Project Authors (lemonad@jovanny.ru)
-    font: Scada-BoldItalic.ttf
-extract:
-  format: zip
+    font: RLp6K5Pv5qumeVJq9Y0lT1PEYfE5p6g.ttf
+  - family_name: Scada
+    type: Italic
+    full_name: Scada Italic
+    post_script_name: Scada-Italic
+    version: '4.000'
+    copyright: Copyright 2012 The Scada Project Authors (lemonad@jovanny.ru)
+    font: RLp_K5Pv5qumeVJqzTEKa1vvffg.ttf
+  - family_name: Scada
+    type: Regular
+    full_name: Scada Regular
+    post_script_name: Scada-Regular
+    version: '4.000'
+    copyright: Copyright 2012 The Scada Project Authors (lemonad@jovanny.ru)
+    font: RLpxK5Pv5qumeWJoxzUobkvv.ttf
+extract: {}
 copyright: Copyright 2012 The Scada Project Authors (lemonad@jovanny.ru)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -137,3 +139,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,11 +1,12 @@
 ---
+name: Hubballi
 description: Hubballi
 resources:
-  Hubballi.zip:
-    urls:
-    - https://fonts.google.com/download?family=Hubballi
-    sha256: 03e31e5a8036e11ed410428c339424becd97a8a14dde86d52d5077bb5e813230
-    file_size: 87398
+  Hubballi:
+    source: google
+    family: Hubballi
+    files:
+    - https://fonts.gstatic.com/s/hubballi/v7/o-0JIpUj3WIZ1RFN56B7yBBNYuSF.ttf
 fonts:
 - name: Hubballi
   styles:
@@ -15,7 +16,7 @@ fonts:
     post_script_name: Hubballi-Regular
     version: 1.000; ttfautohint (v1.8.3)
     copyright: Copyright 2016 The Hubballi Project Authors (https://github.com/erinmclaughlin/Hubballi)
-    font: Hubballi-Regular.ttf
+    font: o-0JIpUj3WIZ1RFN56B7yBBNYuSF.ttf
 extract: {}
 copyright: Copyright 2016 The Hubballi Project Authors (https://github.com/erinmclaughlin/Hubballi)
 license_url: http://scripts.sil.org/OFL
@@ -113,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 0b872cbcf9f26fca033e47703ef44e4ca66281bca78f3f89589b27591fefae6c
-command: import google --formulas_path Formulas
+command: import google -n 9999

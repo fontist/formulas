@@ -1,12 +1,14 @@
 ---
+name: Agdasima
 description: Agdasima
 homepage: https://fonts.google.com/
 resources:
-  Agdasima.zip:
-    urls:
-    - https://fonts.google.com/download?family=Agdasima
-    sha256: ddb900f06d33d8fafd5c6d39c4e8d4d2948a7d9b2701dc3e3413a9e28f6bac06
-    file_size: 33013
+  Agdasima:
+    source: google
+    family: Agdasima
+    files:
+    - https://fonts.gstatic.com/s/agdasima/v4/PN_zRfyxp2f1fUCgAMg6rzjb_-Da.ttf
+    - https://fonts.gstatic.com/s/agdasima/v4/PN_0Rfyxp2f1fUCgAPCGgBzT1PzTz2Mi.ttf
 fonts:
 - name: Agdasima
   styles:
@@ -16,14 +18,14 @@ fonts:
     post_script_name: Agdasima-Bold
     version: '2.002'
     copyright: Copyright 2023 The Agdasima Project Authors (https://github.com/docrepair-fonts/agdasima-fonts).
-    font: Agdasima-Bold.ttf
+    font: PN_0Rfyxp2f1fUCgAPCGgBzT1PzTz2Mi.ttf
   - family_name: Agdasima
     type: Regular
     full_name: Agdasima Regular
     post_script_name: Agdasima-Regular
     version: '2.002'
     copyright: Copyright 2023 The Agdasima Project Authors (https://github.com/docrepair-fonts/agdasima-fonts).
-    font: Agdasima-Regular.ttf
+    font: PN_zRfyxp2f1fUCgAMg6rzjb_-Da.ttf
 extract: {}
 copyright: Copyright 2023 The Agdasima Project Authors (https://github.com/docrepair-fonts/agdasima-fonts).
 license_url: https://scripts.sil.org/OFL
@@ -32,7 +34,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -121,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 3bbb1eb998bd8ad0f89860cd7927341d8302ee1c7f8f370764b2fe22a1a78a90
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

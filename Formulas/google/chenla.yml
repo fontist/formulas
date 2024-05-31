@@ -1,10 +1,12 @@
 ---
+name: Chenla
 description: Chenla
 resources:
-  Chenla.zip:
-    urls:
-    - https://fonts.google.com/download?family=Chenla
-    sha256: 36cb174adc7c3ed72b42838d8b699c22d9f245816bb017b64095daad6c0ac4c5
+  Chenla:
+    source: google
+    family: Chenla
+    files:
+    - https://fonts.gstatic.com/s/chenla/v25/SZc43FDpIKu8WZ9eXxfonUPL6Q.ttf
 fonts:
 - name: Chenla
   styles:
@@ -14,7 +16,7 @@ fonts:
     post_script_name: Chenla
     version: 6.00 December 28, 2010
     copyright: Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
-    font: Chenla-Regular.ttf
+    font: SZc43FDpIKu8WZ9eXxfonUPL6Q.ttf
 extract: {}
 copyright: Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
 open_license: |-
@@ -112,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 8db047aae94785984d0efb1d7688d76de1d9b547f574e5e07ecff66fd95a39c7
-command: google import --formulas_path Formulas
+command: import google -n 9999

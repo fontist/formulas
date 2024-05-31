@@ -3,11 +3,11 @@ name: Amethysta
 description: Amethysta
 homepage: http://cyreal.org
 resources:
-  Amethysta.zip:
-    urls:
-    - https://fonts.google.com/download?family=Amethysta
-    sha256: 4b967d6df0b737ee375b49f6aa3d3e2eaf602c553cb1743010e1648accf17ff4
-    file_size: 35610
+  Amethysta:
+    source: google
+    family: Amethysta
+    files:
+    - https://fonts.gstatic.com/s/amethysta/v16/rP2Fp2K15kgb_F3ibfWIGDWCBl0O8Q.ttf
 fonts:
 - name: Amethysta
   styles:
@@ -23,12 +23,15 @@ fonts:
       This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at:
       http://scripts.sil.org/OFL
-    font: Amethysta-Regular.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name "Amethysta".  This
-  Font Software is licensed under the SIL Open Font License, Version 1.1. This license
-  is available with a FAQ at: http://scripts.sil.org/OFL'
+    font: rP2Fp2K15kgb_F3ibfWIGDWCBl0O8Q.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011, Cyreal (www.cyreal.org)
+  with Reserved Font Name "Amethysta".
+
+  This Font Software is licensed under the SIL Open Font License,
+  Version 1.1. This license is available with a FAQ at:
+  http://scripts.sil.org/OFL
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Cyreal (www.cyreal.org),
@@ -125,3 +128,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

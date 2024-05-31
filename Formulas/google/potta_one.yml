@@ -2,11 +2,11 @@
 name: Potta One
 description: Potta One
 resources:
-  Potta_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Potta%20One
-    sha256: 1af11cfa34014bfe753b11e9472b8116082a964204eb9be4bdd16c76bb4aca1a
-    file_size: 2690817
+  Potta One:
+    source: google
+    family: Potta One
+    files:
+    - https://fonts.gstatic.com/s/pottaone/v16/FeVSS05Bp6cy7xI-YfxQ3Z5nm29Gww.ttf
 fonts:
 - name: Potta One
   styles:
@@ -17,7 +17,7 @@ fonts:
     version: '1.000'
     copyright: Copyright 2020 The Potta Project Authors (https://github.com/go108go/Potta),
       all rights reserved.
-    font: PottaOne-Regular.ttf
+    font: FeVSS05Bp6cy7xI-YfxQ3Z5nm29Gww.ttf
 extract: {}
 copyright: Copyright 2020 The Potta Project Authors (https://github.com/go108go/Potta),
   all rights reserved.
@@ -116,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: bced6ddbaeb6248a1f88ceae77a8dba1bef5507a70962dcc2562e7f2d7023622
-command: google import --formulas_path Formulas
+command: import google -n 9999

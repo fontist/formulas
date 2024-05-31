@@ -1,12 +1,16 @@
 ---
+name: Charis SIL
 description: Charis SIL
 homepage: http://www.sil.org/
 resources:
-  Charis_SIL.zip:
-    urls:
-    - https://fonts.google.com/download?family=Charis%20SIL
-    sha256: 2550b5a307432d6f335cf9243f2ab606549bbd26d0c6204d11ff720126af2f34
-    file_size: 1444183
+  Charis SIL:
+    source: google
+    family: Charis SIL
+    files:
+    - https://fonts.gstatic.com/s/charissil/v2/oPWK_kV3l-s-Q8govXvKrPrmYjZ2Xn0.ttf
+    - https://fonts.gstatic.com/s/charissil/v2/oPWI_kV3l-s-Q8govXvKnPjsZhRzTn2Ozw.ttf
+    - https://fonts.gstatic.com/s/charissil/v2/oPWJ_kV3l-s-Q8govXvKlEbJRj5dQnSX1ko.ttf
+    - https://fonts.gstatic.com/s/charissil/v2/oPWX_kV3l-s-Q8govXvKnPjU2jtXRlaSxkrMCQ.ttf
 fonts:
 - name: Charis SIL
   styles:
@@ -17,7 +21,7 @@ fonts:
     version: '6.101'
     description: Font family for languages that use Latin and Cyrillic scripts
     copyright: Copyright (c) 1997-2022 SIL International
-    font: CharisSIL-Bold.ttf
+    font: oPWJ_kV3l-s-Q8govXvKlEbJRj5dQnSX1ko.ttf
   - family_name: Charis SIL
     type: Bold Italic
     full_name: Charis SIL Bold Italic
@@ -25,7 +29,7 @@ fonts:
     version: '6.101'
     description: Font family for languages that use Latin and Cyrillic scripts
     copyright: Copyright (c) 1997-2022 SIL International
-    font: CharisSIL-BoldItalic.ttf
+    font: oPWX_kV3l-s-Q8govXvKnPjU2jtXRlaSxkrMCQ.ttf
   - family_name: Charis SIL
     type: Italic
     full_name: Charis SIL Italic
@@ -33,7 +37,7 @@ fonts:
     version: '6.101'
     description: Font family for languages that use Latin and Cyrillic scripts
     copyright: Copyright (c) 1997-2022 SIL International
-    font: CharisSIL-Italic.ttf
+    font: oPWI_kV3l-s-Q8govXvKnPjsZhRzTn2Ozw.ttf
   - family_name: Charis SIL
     type: Regular
     full_name: Charis SIL
@@ -41,7 +45,7 @@ fonts:
     version: '6.101'
     description: Font family for languages that use Latin and Cyrillic scripts
     copyright: Copyright (c) 1997-2022 SIL International
-    font: CharisSIL-Regular.ttf
+    font: oPWK_kV3l-s-Q8govXvKrPrmYjZ2Xn0.ttf
 extract: {}
 copyright: Copyright (c) 1997-2022 SIL International
 license_url: http://scripts.sil.org/OFL
@@ -140,5 +144,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: f6ee9fd9e9a198f1f597caa08cb60a2e864312d5ae7e8e76c4caa60d66b00338
-command: import google --formulas_path Formulas
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Mea Culpa
 description: Mea Culpa
 homepage: www.typesetit.com
 resources:
-  Mea_Culpa.zip:
-    urls:
-    - https://fonts.google.com/download?family=Mea%20Culpa
-    sha256: 470aa3c9176d1387660be30af6a0c6e2ae58a8de2021706e912615ea62658512
-    file_size: 78277
+  Mea Culpa:
+    source: google
+    family: Mea Culpa
+    files:
+    - https://fonts.gstatic.com/s/meaculpa/v6/AMOTz4GcuWbEIuza8jsZms0QW3mqyg.ttf
 fonts:
 - name: Mea Culpa
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: MeaCulpa-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2003-2021 The Mea Culpa Project Authors (https://github.com/googlefonts/mea-culpa)
-    font: MeaCulpa-Regular.ttf
+    font: AMOTz4GcuWbEIuza8jsZms0QW3mqyg.ttf
 extract: {}
 copyright: Copyright 2003-2021 The Mea Culpa Project Authors (https://github.com/googlefonts/mea-culpa)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 7f3721248a608b6b64c3a0e8bc8f868f3d5aed7a3ca0c59733a6ff1bf5e2f6b6
-command: google import --formulas_path Formulas
+command: import google -n 9999

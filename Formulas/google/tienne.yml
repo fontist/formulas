@@ -1,23 +1,17 @@
 ---
 name: Tienne
 description: Tienne
-homepage:
 resources:
-  Tienne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Tienne
-    sha256: fb47e6708e0515783bae3aade6fd1b79ee545a13543b8f17edab9307c2ed1d71
-    file_size: 116800
+  Tienne:
+    source: google
+    family: Tienne
+    files:
+    - https://fonts.gstatic.com/s/tienne/v20/AYCKpX7pe9YCRP0LkEPHSFNyxw.ttf
+    - https://fonts.gstatic.com/s/tienne/v20/AYCJpX7pe9YCRP0zLGzjQHhuzvef5Q.ttf
+    - https://fonts.gstatic.com/s/tienne/v20/AYCJpX7pe9YCRP0zFG7jQHhuzvef5Q.ttf
 fonts:
 - name: Tienne
   styles:
-  - family_name: Tienne
-    type: Regular
-    full_name: Tienne Regular
-    post_script_name: Tienne-Regular
-    version: '1.001'
-    copyright: Copyright (c) 2011 by vernon adams. All rights reserved. with
-    font: Tienne-Regular.ttf
   - family_name: Tienne
     type: Bold
     full_name: Tienne Bold
@@ -29,18 +23,27 @@ fonts:
       Font Software is licensed under the SIL Open Font License, Version
       1.1. This license is available with a FAQ at:
       http://scripts.sil.org/OFL
-    font: Tienne-Bold.ttf
+    font: AYCJpX7pe9YCRP0zLGzjQHhuzvef5Q.ttf
   - family_name: Tienne
-    type: Black
+    type: Regular
+    full_name: Tienne Regular
+    post_script_name: Tienne-Regular
+    version: '1.001'
+    copyright: Copyright (c) 2011 by vernon adams. All rights reserved. with
+    font: AYCKpX7pe9YCRP0LkEPHSFNyxw.ttf
+- name: Tienne Black
+  styles:
+  - family_name: Tienne Black
+    type: Regular
+    preferred_family_name: Tienne
+    preferred_type: Black
     full_name: Tienne Black
     post_script_name: Tienne-Black
     version: '001.001'
     copyright: Copyright (c) 2011 by vernon adams. All rights reserved. with
-    font: Tienne-Black.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved
-  Font Names 'Tienne'
+    font: AYCJpX7pe9YCRP0zFG7jQHhuzvef5Q.ttf
+extract: {}
+copyright: Copyright (c) 2011 by vernon adams. All rights reserved. with
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Cyreal (www.cyreal.org),
@@ -139,3 +142,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

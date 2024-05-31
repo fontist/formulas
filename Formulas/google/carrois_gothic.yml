@@ -1,12 +1,13 @@
 ---
+name: Carrois Gothic
 description: Carrois Gothic
 homepage: http://www.carrois.com
 resources:
-  CarroisGothic.zip:
-    urls:
-    - https://fonts.google.com/download?family=Carrois%20Gothic
-    sha256: 0ed228bdf4005643e4faf7773312284d7bc7b1faa237476d42c6810252b78bfb
-    file_size: 24356
+  Carrois Gothic:
+    source: google
+    family: Carrois Gothic
+    files:
+    - https://fonts.gstatic.com/s/carroisgothic/v16/Z9XPDmFATg-N1PLtLOOxvIHl9ZmD3i7ajcJ-.ttf
 fonts:
 - name: Carrois Gothic
   styles:
@@ -16,9 +17,8 @@ fonts:
     post_script_name: CarroisGothic-Regular
     version: '1.002'
     copyright: Copyright (c) 2011 by Ralph du Carrois, with Reserved Font Name 'Carrois'
-    font: CarroisGothic-Regular.ttf
-extract:
-  format: zip
+    font: Z9XPDmFATg-N1PLtLOOxvIHl9ZmD3i7ajcJ-.ttf
+extract: {}
 copyright: Copyright (c) 2011 by Ralph du Carrois, with Reserved Font Name 'Carrois'
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -115,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

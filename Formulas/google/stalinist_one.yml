@@ -3,11 +3,11 @@ name: Stalinist One
 description: Stalinist One
 homepage: http://jovanny.ru
 resources:
-  Stalinist_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Stalinist%20One
-    sha256: ffa8c23dd0ee885e4d093ca1720f3418b68435fb55e155888fcf4e84b7be381e
-    file_size: 24752
+  Stalinist One:
+    source: google
+    family: Stalinist One
+    files:
+    - https://fonts.gstatic.com/s/stalinistone/v56/MQpS-WezM9W4Dd7D3B7I-UT7eZ-UPyacPbo.ttf
 fonts:
 - name: Stalinist One
   styles:
@@ -18,7 +18,7 @@ fonts:
     version: '3.004'
     copyright: Copyright (c) 2009-2011, Alexey Maslov, Jovanny Lemonad (lemonad@jovanny.ru),
       with Reserved Font Name 'Stalinist'
-    font: StalinistOne-Regular.ttf
+    font: MQpS-WezM9W4Dd7D3B7I-UT7eZ-UPyacPbo.ttf
 extract: {}
 copyright: Copyright (c) 2009-2011, Alexey Maslov, Jovanny Lemonad (lemonad@jovanny.ru),
   with Reserved Font Name 'Stalinist'
@@ -117,5 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 793aed36fbe34ef42f390587c5c13b8e801c6441711ec15f039e2a457e632663
-command: google import --formulas_path Formulas
+command: import google -n 9999

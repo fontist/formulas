@@ -3,11 +3,11 @@ name: Bonheur Royale
 description: Bonheur Royale
 homepage: www.typesetit.com
 resources:
-  Bonheur_Royale.zip:
-    urls:
-    - https://fonts.google.com/download?family=Bonheur%20Royale
-    sha256: c7f7f6a4bac1ae1f486e076c2f44b4c7d1eff5ba0baa30c422f757c5a38b2577
-    file_size: 69147
+  Bonheur Royale:
+    source: google
+    family: Bonheur Royale
+    files:
+    - https://fonts.gstatic.com/s/bonheurroyale/v13/c4m51nt_GMTrtX-b9GcG4-YRmYK_c0f1N5Ij.ttf
 fonts:
 - name: Bonheur Royale
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: BonheurRoyale-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2005-2021 The Bonheur Royale Project Authors (https://github.com/googlefonts/bonheur-royale)
-    font: BonheurRoyale-Regular.ttf
+    font: c4m51nt_GMTrtX-b9GcG4-YRmYK_c0f1N5Ij.ttf
 extract: {}
 copyright: Copyright 2005-2021 The Bonheur Royale Project Authors (https://github.com/googlefonts/bonheur-royale)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 5a4fb7de1ddc3d864e31191826ccbfcc6757bd53237a9ccae822d1ec410473ed
-command: google import --formulas_path Formulas
+command: import google -n 9999

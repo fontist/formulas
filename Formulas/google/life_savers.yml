@@ -1,26 +1,18 @@
 ---
+name: Life Savers
 description: Life Savers
 homepage: www.impallari.com
 resources:
-  LifeSavers.zip:
-    urls:
-    - https://fonts.google.com/download?family=Life%20Savers
-    sha256: af7941441c2b0ca39e3eda6d1e1a98d1060b42768135cf2b1410ecb067782be2
-    file_size: 218636
+  Life Savers:
+    source: google
+    family: Life Savers
+    files:
+    - https://fonts.gstatic.com/s/lifesavers/v20/ZXuie1UftKKabUQMgxAal_lrFgpbuNvB.ttf
+    - https://fonts.gstatic.com/s/lifesavers/v20/ZXu_e1UftKKabUQMgxAal8HXOS5Tk8fIpPRW.ttf
+    - https://fonts.gstatic.com/s/lifesavers/v20/ZXu_e1UftKKabUQMgxAal8HLOi5Tk8fIpPRW.ttf
 fonts:
 - name: Life Savers
   styles:
-  - family_name: Life Savers
-    type: Regular
-    full_name: Life Savers Regular
-    post_script_name: LifeSavers-Regular
-    version: 3.001; ttfautohint (v0.95) -l 8 -r 50 -G 200 -x 14 -w "G"
-    copyright: |-
-      Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com),
-      Copyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com),
-      Copyright (c) 2012, Igino Marini. (www.ikern.com|mail@iginomarini.com),
-      with Reserved Font Name Life Savers.
-    font: LifeSavers-Regular.ttf
   - family_name: Life Savers
     type: Bold
     full_name: Life Savers Bold
@@ -31,20 +23,35 @@ fonts:
       Copyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com),
       Copyright (c) 2012, Igino Marini. (www.ikern.com|mail@iginomarini.com),
       with Reserved Font Name Life Savers.
-    font: LifeSavers-Bold.ttf
+    font: ZXu_e1UftKKabUQMgxAal8HXOS5Tk8fIpPRW.ttf
   - family_name: Life Savers
-    type: ExtraBold
+    type: Regular
+    full_name: Life Savers Regular
+    post_script_name: LifeSavers-Regular
+    version: 3.001; ttfautohint (v0.95) -l 8 -r 50 -G 200 -x 14 -w "G"
+    copyright: |-
+      Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com),
+      Copyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com),
+      Copyright (c) 2012, Igino Marini. (www.ikern.com|mail@iginomarini.com),
+      with Reserved Font Name Life Savers.
+    font: ZXuie1UftKKabUQMgxAal_lrFgpbuNvB.ttf
+- name: Life Savers ExtraBold
+  styles:
+  - family_name: Life Savers ExtraBold
+    type: Regular
+    preferred_family_name: Life Savers
+    preferred_type: ExtraBold
     full_name: Life Savers ExtraBold
     post_script_name: LifeSavers-ExtraBold
     version: 3.001; ttfautohint (v0.95) -l 8 -r 50 -G 200 -x 14 -w "G"
     copyright: Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com),
-    font: LifeSavers-ExtraBold.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com),
-  Copyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com),  Copyright
-  (c) 2012, Igino Marini. (www.ikern.com|mail@iginomarini.com), with Reserved Font
-  Name Life Savers.
+    font: ZXu_e1UftKKabUQMgxAal8HLOi5Tk8fIpPRW.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com),
+  Copyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com),
+  Copyright (c) 2012, Igino Marini. (www.ikern.com|mail@iginomarini.com),
+  with Reserved Font Name Life Savers.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com),
@@ -143,3 +150,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

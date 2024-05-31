@@ -3,11 +3,11 @@ name: Prata
 description: Prata
 homepage: http://www.cyreal.org
 resources:
-  Prata.zip:
-    urls:
-    - https://fonts.google.com/download?family=Prata
-    sha256: 7cbdf0e63bc68df70d73488610c85dce078b9a769aa5bd0029dd9ec100266710
-    file_size: 49631
+  Prata:
+    source: google
+    family: Prata
+    files:
+    - https://fonts.gstatic.com/s/prata/v20/6xKhdSpbNNCT-vWIAG_5LWwJ.ttf
 fonts:
 - name: Prata
   styles:
@@ -17,9 +17,8 @@ fonts:
     post_script_name: Prata-Regular
     version: '2.000'
     copyright: Copyright 2011 The Prata Project Authors (contact@cyreal.org)
-    font: Prata-Regular.ttf
-extract:
-  format: zip
+    font: 6xKhdSpbNNCT-vWIAG_5LWwJ.ttf
+extract: {}
 copyright: Copyright 2011 The Prata Project Authors (contact@cyreal.org)
 license_url: http://scripts.sil.org/OFL
-open_license: ''
+command: import google -n 9999

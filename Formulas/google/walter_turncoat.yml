@@ -1,12 +1,13 @@
 ---
+name: Walter Turncoat
 description: Walter Turncoat
 homepage: http://www.fontbros.com/sideshow.php
 resources:
-  WalterTurncoat.zip:
-    urls:
-    - https://fonts.google.com/download?family=Walter%20Turncoat
-    sha256: 328900424bb176c9026e91318a44b9717baee105fda69295010e399597b425fb
-    file_size: 82557
+  Walter Turncoat:
+    source: google
+    family: Walter Turncoat
+    files:
+    - https://fonts.gstatic.com/s/walterturncoat/v23/snfys0Gs98ln43n0d-14ULoToe67YB2dQ5ZPqQ.ttf
 fonts:
 - name: Walter Turncoat
   styles:
@@ -16,13 +17,12 @@ fonts:
     post_script_name: WalterTurncoat-Regular
     version: '1.001'
     copyright: Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.
-    font: WalterTurncoat-Regular.ttf
-extract:
-  format: zip
+    font: snfys0Gs98ln43n0d-14ULoToe67YB2dQ5ZPqQ.ttf
+extract: {}
 copyright: Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.
 license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |2-
-                                   Apache License
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -223,3 +223,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999

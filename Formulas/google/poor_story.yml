@@ -1,12 +1,13 @@
 ---
+name: Poor Story
 description: Poor Story
 homepage: http://www.yoonfont.co.kr
 resources:
-  PoorStory.zip:
-    urls:
-    - https://fonts.google.com/download?family=Poor%20Story
-    sha256: a52ca1bdd51c56f4162da84c0075f23852722ed91b2e649b565154ba66b967a6
-    file_size: 1006111
+  Poor Story:
+    source: google
+    family: Poor Story
+    files:
+    - https://fonts.gstatic.com/s/poorstory/v20/jizfREFUsnUct9P6cDfd4OmnLD0Z4zM.ttf
 fonts:
 - name: Poor Story
   styles:
@@ -16,9 +17,8 @@ fonts:
     post_script_name: PoorStory-Regular
     version: '3.00'
     copyright: Copyright (c) YoonDesign Inc. All Rights Reserved.
-    font: PoorStory-Regular.ttf
-extract:
-  format: zip
+    font: jizfREFUsnUct9P6cDfd4OmnLD0Z4zM.ttf
+extract: {}
 copyright: Copyright (c) YoonDesign Inc. All Rights Reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -115,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

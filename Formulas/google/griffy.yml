@@ -3,11 +3,11 @@ name: Griffy
 description: Griffy
 homepage: http://www.fontbros.com/foundries/neapolitan
 resources:
-  Griffy.zip:
-    urls:
-    - https://fonts.google.com/download?family=Griffy
-    sha256: 4c0acadd228ede7f1737088377ffb04fd231fdd58ff4b94089765e2a03a4a676
-    file_size: 99521
+  Griffy:
+    source: google
+    family: Griffy
+    files:
+    - https://fonts.gstatic.com/s/griffy/v22/FwZa7-ox2FQh9kfwSNSEwM2zpA.ttf
 fonts:
 - name: Griffy
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: '1.000'
     copyright: Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com)
       with Reseved Font Name "Griffy"
-    font: Griffy-Regular.ttf
-extract:
-  format: zip
+    font: FwZa7-ox2FQh9kfwSNSEwM2zpA.ttf
+extract: {}
 copyright: Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com)
   with Reseved Font Name "Griffy"
 license_url: http://scripts.sil.org/OFL
@@ -119,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,11 +1,12 @@
 ---
+name: League Gothic
 description: League Gothic
 resources:
-  League_Gothic.zip:
-    urls:
-    - https://fonts.google.com/download?family=League%20Gothic
-    sha256: 7e06b5f654c6e178ab9a4993a19ad63c9d108bc2b4e92388b4c07d8de0be3808
-    file_size: 101563
+  League Gothic:
+    source: google
+    family: League Gothic
+    files:
+    - https://fonts.gstatic.com/s/leaguegothic/v11/qFdR35CBi4tvBz81xy7WG7ep-BQAY7Krj7feObpH_-amidQ6Q9hn.ttf
 fonts:
 - name: League Gothic
   styles:
@@ -15,36 +16,7 @@ fonts:
     post_script_name: LeagueGothic-Regular
     version: '2.001'
     copyright: Copyright 2020 The League Gothic Project Authors (https://github.com/theleagueof/league-gothic)
-    font: LeagueGothic-Regular-VariableFont_wdth.ttf
-  - family_name: League Gothic
-    type: Regular
-    full_name: League Gothic Regular
-    post_script_name: LeagueGothic-Regular
-    version: '2.001'
-    copyright: Copyright 2020 The League Gothic Project Authors (https://github.com/theleagueof/league-gothic)
-    font: LeagueGothic-Regular.ttf
-- name: League Gothic Condensed
-  styles:
-  - family_name: League Gothic Condensed
-    type: Regular
-    preferred_family_name: League Gothic Condensed
-    preferred_type: Regular
-    full_name: League Gothic Condensed Regular
-    post_script_name: LeagueGothicCondensed-Regular
-    version: '2.001'
-    copyright: Copyright 2020 The League Gothic Project Authors (https://github.com/theleagueof/league-gothic)
-    font: LeagueGothic_Condensed-Regular.ttf
-- name: League Gothic SemiCondensed
-  styles:
-  - family_name: League Gothic SemiCondensed
-    type: Regular
-    preferred_family_name: League Gothic SemiCondensed
-    preferred_type: Regular
-    full_name: League Gothic SemiCondensed Regular
-    post_script_name: LeagueGothicSemiCondensed-Regular
-    version: '2.001'
-    copyright: Copyright 2020 The League Gothic Project Authors (https://github.com/theleagueof/league-gothic)
-    font: LeagueGothic_SemiCondensed-Regular.ttf
+    font: qFdR35CBi4tvBz81xy7WG7ep-BQAY7Krj7feObpH_-amidQ6Q9hn.ttf
 extract: {}
 copyright: Copyright 2020 The League Gothic Project Authors (https://github.com/theleagueof/league-gothic)
 license_url: https://scripts.sil.org/OFL
@@ -53,7 +25,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -142,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 95cb3b839b381c3354c30ed8cbb12c7efd0d6946beddaeb20831e7f9e17f7f3a
-command: import google --formulas_path Formulas
+command: import google -n 9999

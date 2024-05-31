@@ -1,12 +1,13 @@
 ---
+name: Pathway Gothic One
 description: Pathway Gothic One
 homepage: http://www.tipo.net.ar
 resources:
-  Pathway_Gothic_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Pathway%20Gothic%20One
-    sha256: 60e6d195023720593751b58d808c547799c4c7d734079fd363200c16fc1eb1d0
-    file_size: 28394
+  Pathway Gothic One:
+    source: google
+    family: Pathway Gothic One
+    files:
+    - https://fonts.gstatic.com/s/pathwaygothicone/v15/MwQrbgD32-KAvjkYGNUUxAtW7pEBwx-dTFxeb80flQ.ttf
 fonts:
 - name: Pathway Gothic One
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 1.003; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.26]
     copyright: Copyright 2013 The Pathway Gothic Project Authors (https://github.com/etunni/pathway-gothic),
       with Reserved Font Name 'Pathway'
-    font: PathwayGothicOne-Regular.ttf
+    font: MwQrbgD32-KAvjkYGNUUxAtW7pEBwx-dTFxeb80flQ.ttf
 extract: {}
 copyright: Copyright 2013 The Pathway Gothic Project Authors (https://github.com/etunni/pathway-gothic),
   with Reserved Font Name 'Pathway'
@@ -27,7 +28,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -116,5 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9bd0284bea7dedcfc316bf80e548be5aecb23bf5cce1de2b612c29650cf20c90
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

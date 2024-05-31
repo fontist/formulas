@@ -3,24 +3,24 @@ name: Patrick Hand SC
 description: Patrick Hand SC
 homepage: http://www.patrickwagesreiter.at
 resources:
-  PatrickHandSC.zip:
-    urls:
-    - https://fonts.google.com/download?family=Patrick%20Hand%20SC
-    sha256: 67a52e8f10b756720380fff246e7dab8532c970423ee330d075923b26cff093d
-    file_size: 67919
+  Patrick Hand SC:
+    source: google
+    family: Patrick Hand SC
+    files:
+    - https://fonts.gstatic.com/s/patrickhandsc/v15/0nkwC9f7MfsBiWcLtY65AWDK873ViSi6JQc7Vg.ttf
 fonts:
 - name: Patrick Hand SC
   styles:
   - family_name: Patrick Hand SC
     type: Regular
-    full_name: Patrick Hand SC Regular
+    full_name: Patrick Hand SC
     post_script_name: PatrickHandSC-Regular
-    version: 2.001; ttfautohint (v1.8.2)
-    copyright: Copyright 2012 The Patrick Hand Authors (mail@patrickwagesreiter.at)
-    font: PatrickHandSC-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2012 The Patrick Hand Authors (mail@patrickwagesreiter.at)
+    version: 1.003;PS 001.003;hotconv 1.0.70;makeotf.lib2.5.58329; ttfautohint (v0.94.20-1c74)
+      -l 8 -r 50 -G 200 -x 14 -w "gGD" -c -f
+    copyright: Copyright (c) 2012 Patrick Wagesreiter (mail@patrickwagesreiter.at)
+    font: 0nkwC9f7MfsBiWcLtY65AWDK873ViSi6JQc7Vg.ttf
+extract: {}
+copyright: Copyright (c) 2012 Patrick Wagesreiter (mail@patrickwagesreiter.at)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright 2012 The Patrick Hand Authors (mail@patrickwagesreiter.at)
@@ -116,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

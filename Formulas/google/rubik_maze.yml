@@ -1,12 +1,13 @@
 ---
+name: Rubik Maze
 description: Rubik Maze
 homepage: http://www.google.com/fonts
 resources:
-  Rubik_Maze.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rubik%20Maze
-    sha256: 7bfc1a89e61eda292f942203969058cc60f98a206dc449c7343257173284ce58
-    file_size: 205623
+  Rubik Maze:
+    source: google
+    family: Rubik Maze
+    files:
+    - https://fonts.gstatic.com/s/rubikmaze/v2/xMQRuF9ZVa2ftiJEavXSAX7inS-bxV4.ttf
 fonts:
 - name: Rubik Maze
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: RubikMaze-Regular
     version: '2.200'
     copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
-    font: RubikMaze-Regular.ttf
+    font: xMQRuF9ZVa2ftiJEavXSAX7inS-bxV4.ttf
 extract: {}
 copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 38b36be06ecb95ebb520b5945d7e4e36843c93a8d006b8ec4a64cb2931ba14a6
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

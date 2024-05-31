@@ -1,12 +1,13 @@
 ---
+name: Contrail One
 description: Contrail One
 homepage: www.sorkintype.com
 resources:
-  ContrailOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Contrail%20One
-    sha256: 276038bf3ae10128520597009aa033be8627edcb5d739a8f4c70240d23a64924
-    file_size: 17642
+  Contrail One:
+    source: google
+    family: Contrail One
+    files:
+    - https://fonts.gstatic.com/s/contrailone/v19/eLGbP-j_JA-kG0_Zo51noafdZUvt_c092w.ttf
 fonts:
 - name: Contrail One
   styles:
@@ -18,10 +19,10 @@ fonts:
     copyright: |-
       Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
       with Reserved Font Names "Contrail" and "Contrail One".
-    font: ContrailOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)
+    font: eLGbP-j_JA-kG0_Zo51noafdZUvt_c092w.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
   with Reserved Font Names "Contrail" and "Contrail One".
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -119,3 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

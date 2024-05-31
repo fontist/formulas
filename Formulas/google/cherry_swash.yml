@@ -1,31 +1,31 @@
 ---
+name: Cherry Swash
 description: Cherry Swash
-homepage:
 resources:
-  CherrySwash.zip:
-    urls:
-    - https://fonts.google.com/download?family=Cherry%20Swash
-    sha256: cdc217651c1b6e279dcb8e18f82971cef3c34ae66a44c85ebc4fd74b324939f1
-    file_size: 30005
+  Cherry Swash:
+    source: google
+    family: Cherry Swash
+    files:
+    - https://fonts.gstatic.com/s/cherryswash/v20/i7dNIFByZjaNAMxtZcnfAy58QHi-EwWMbg.ttf
+    - https://fonts.gstatic.com/s/cherryswash/v20/i7dSIFByZjaNAMxtZcnfAy5E_FeaGy6QZ3WfYg.ttf
 fonts:
 - name: Cherry Swash
   styles:
-  - family_name: Cherry Swash
-    type: Regular
-    full_name: Cherry Swash
-    post_script_name: CherrySwash-Regular
-    version: '1.001'
-    copyright: Copyright (c) 2012, Natalia Kasatkina (kasatkinanataliya@gmail.com)
-    font: CherrySwash-Regular.ttf
   - family_name: Cherry Swash
     type: Bold
     full_name: Cherry Swash Bold
     post_script_name: CherrySwash-Bold
     version: '1.001'
     copyright: Copyright (c) 2012, Natalia Kasatkina (kasatkinanataliya@gmail.com)
-    font: CherrySwash-Bold.ttf
-extract:
-  format: zip
+    font: i7dSIFByZjaNAMxtZcnfAy5E_FeaGy6QZ3WfYg.ttf
+  - family_name: Cherry Swash
+    type: Regular
+    full_name: Cherry Swash
+    post_script_name: CherrySwash-Regular
+    version: '1.001'
+    copyright: Copyright (c) 2012, Natalia Kasatkina (kasatkinanataliya@gmail.com)
+    font: i7dNIFByZjaNAMxtZcnfAy58QHi-EwWMbg.ttf
+extract: {}
 copyright: Copyright (c) 2012, Natalia Kasatkina (kasatkinanataliya@gmail.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -122,3 +122,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

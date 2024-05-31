@@ -1,12 +1,12 @@
 ---
+name: Nova Round
 description: Nova Round
-homepage:
 resources:
-  NovaRound.zip:
-    urls:
-    - https://fonts.google.com/download?family=Nova%20Round
-    sha256: f89b055b4fc9c9c2f3ecf0ec86e9208474282530a6a115f3fc938b879a617964
-    file_size: 42643
+  Nova Round:
+    source: google
+    family: Nova Round
+    files:
+    - https://fonts.gstatic.com/s/novaround/v21/flU9Rqquw5UhEnlwTJYTYYfeeetYEBc.ttf
 fonts:
 - name: Nova Round
   styles:
@@ -16,12 +16,9 @@ fonts:
     post_script_name: NovaRound
     version: '2.000'
     copyright: Copyright (c) 2011, wmk69 (wmk69@o2.pl)
-    font: NovaRound.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2011, wmk69 (wmk69@o2.pl) with Reserved Font Names ''NovaRound''
-  and ''Nova Round''. This Font Software is licensed under the SIL Open Font License,
-  Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    font: flU9Rqquw5UhEnlwTJYTYYfeeetYEBc.ttf
+extract: {}
+copyright: Copyright (c) 2011, wmk69 (wmk69@o2.pl)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, wmk69 (wmk69@o2.pl),
@@ -129,3 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

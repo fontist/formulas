@@ -1,23 +1,17 @@
 ---
+name: Cinzel Decorative
 description: Cinzel Decorative
-homepage:
 resources:
-  CinzelDecorative.zip:
-    urls:
-    - https://fonts.google.com/download?family=Cinzel%20Decorative
-    sha256: 52658c70672b8e5022955316c2ca306250e4e849170f47cd8a65f232854a2556
-    file_size: 81946
+  Cinzel Decorative:
+    source: google
+    family: Cinzel Decorative
+    files:
+    - https://fonts.gstatic.com/s/cinzeldecorative/v16/daaCSScvJGqLYhG8nNt8KPPswUAPnh7URs1LaCyC.ttf
+    - https://fonts.gstatic.com/s/cinzeldecorative/v16/daaHSScvJGqLYhG8nNt8KPPswUAPniZoaelDQzCLlQXE.ttf
+    - https://fonts.gstatic.com/s/cinzeldecorative/v16/daaHSScvJGqLYhG8nNt8KPPswUAPniZQa-lDQzCLlQXE.ttf
 fonts:
 - name: Cinzel Decorative
   styles:
-  - family_name: Cinzel Decorative
-    type: Regular
-    full_name: Cinzel Decorative Regular
-    post_script_name: CinzelDecorative-Regular
-    version: 1.002;PS 001.002;hotconv 1.0.56;makeotf.lib2.0.21325
-    copyright: Copyright © 2012 Natanael Gama (info@ndiscovered.com), with Reserved
-      Font Name 'Cinzel'
-    font: CinzelDecorative-Regular.ttf
   - family_name: Cinzel Decorative
     type: Bold
     full_name: Cinzel Decorative Bold
@@ -25,18 +19,29 @@ fonts:
     version: 1.002;PS 001.002;hotconv 1.0.56;makeotf.lib2.0.21325
     copyright: Copyright © 2012 Natanael Gama (info@ndiscovered.com), with Reserved
       Font Name 'Cinzel'
-    font: CinzelDecorative-Bold.ttf
+    font: daaHSScvJGqLYhG8nNt8KPPswUAPniZoaelDQzCLlQXE.ttf
   - family_name: Cinzel Decorative
-    type: Black
+    type: Regular
+    full_name: Cinzel Decorative Regular
+    post_script_name: CinzelDecorative-Regular
+    version: 1.002;PS 001.002;hotconv 1.0.56;makeotf.lib2.0.21325
+    copyright: Copyright © 2012 Natanael Gama (info@ndiscovered.com), with Reserved
+      Font Name 'Cinzel'
+    font: daaCSScvJGqLYhG8nNt8KPPswUAPnh7URs1LaCyC.ttf
+- name: Cinzel Decorative Black
+  styles:
+  - family_name: Cinzel Decorative Black
+    type: Regular
+    preferred_family_name: Cinzel Decorative
+    preferred_type: Black
     full_name: Cinzel Decorative Black
     post_script_name: CinzelDecorative-Black
     version: 1.002;PS 001.002;hotconv 1.0.56;makeotf.lib2.0.21325
     copyright: Copyright © 2012 Natanael Gama (info@ndiscovered.com), with Reserved
       Font Name 'Cinzel'
-    font: CinzelDecorative-Black.ttf
-extract:
-  format: zip
-copyright: Copyright  2012 Natanael Gama (info@ndiscovered.com), with Reserved Font
+    font: daaHSScvJGqLYhG8nNt8KPPswUAPniZQa-lDQzCLlQXE.ttf
+extract: {}
+copyright: Copyright © 2012 Natanael Gama (info@ndiscovered.com), with Reserved Font
   Name 'Cinzel'
 license_url: http://scripts.sil.org/ofl
 open_license: |-
@@ -133,3 +138,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

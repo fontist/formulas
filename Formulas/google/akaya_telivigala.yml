@@ -2,11 +2,11 @@
 name: Akaya Telivigala
 description: Akaya Telivigala
 resources:
-  Akaya_Telivigala.zip:
-    urls:
-    - https://fonts.google.com/download?family=Akaya%20Telivigala
-    sha256: fb42324ca9d5a8de6a0e5de9fca881e658ef1c09cc53b826bc802d0fd6e24bf6
-    file_size: 194626
+  Akaya Telivigala:
+    source: google
+    family: Akaya Telivigala
+    files:
+    - https://fonts.gstatic.com/s/akayatelivigala/v22/lJwc-oo_iG9wXqU3rCTD395tp0uifdLdsIH0YH8.ttf
 fonts:
 - name: Akaya Telivigala
   styles:
@@ -16,7 +16,7 @@ fonts:
     post_script_name: AkayaTelivigala-Regular
     version: 1.002; ttfautohint (v1.8.3)
     copyright: Copyright 2015 The Akaya Telivigala Project Authors (https://github.com/vaishnavimurthy/Akaya-Telivigala)
-    font: AkayaTelivigala-Regular.ttf
+    font: lJwc-oo_iG9wXqU3rCTD395tp0uifdLdsIH0YH8.ttf
 extract: {}
 copyright: Copyright 2015 The Akaya Telivigala Project Authors (https://github.com/vaishnavimurthy/Akaya-Telivigala)
 license_url: http://scripts.sil.org/OFL
@@ -114,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d058098216349f018b9e19c6db39265e219311d68d258b0cf81165bb5fc66088
-command: google import --formulas_path Formulas
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Viaoda Libre
 description: Viaoda Libre
 homepage: https://gydient.com/
 resources:
-  ViaodaLibre.zip:
-    urls:
-    - https://fonts.google.com/download?family=Viaoda%20Libre
-    sha256: bf0251e9b58c348953111bba2be4779a0556e2dbd1726561aaab5a79d5ecf79c
-    file_size: 90803
+  Viaoda Libre:
+    source: google
+    family: Viaoda Libre
+    files:
+    - https://fonts.gstatic.com/s/viaodalibre/v18/vEFW2_lWCgoR6OKuRz9kcRVJb2IY2tOHXg.ttf
 fonts:
 - name: Viaoda Libre
   styles:
@@ -16,9 +17,8 @@ fonts:
     post_script_name: ViaodaLibre-Regular
     version: '2.000'
     copyright: Copyright 2020 The Viaodalibre Project Authors (https://github.com/bettergui/ViaodaLibre)
-    font: ViaodaLibre-Regular.ttf
-extract:
-  format: zip
+    font: vEFW2_lWCgoR6OKuRz9kcRVJb2IY2tOHXg.ttf
+extract: {}
 copyright: Copyright 2020 The Viaodalibre Project Authors (https://github.com/bettergui/ViaodaLibre)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -115,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

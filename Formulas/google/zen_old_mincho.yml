@@ -1,12 +1,17 @@
 ---
+name: Zen Old Mincho
 description: Zen Old Mincho
 homepage: https://positype.com
 resources:
-  Zen_Old_Mincho.zip:
-    urls:
-    - https://fonts.google.com/download?family=Zen%20Old%20Mincho
-    sha256: 950fd13d6d5eca40119b015b419638d2f2c1e3597493989c654193617437d847
-    file_size: 8748972
+  Zen Old Mincho:
+    source: google
+    family: Zen Old Mincho
+    files:
+    - https://fonts.gstatic.com/s/zenoldmincho/v11/tss0ApVaYytLwxTqcxfMyBveyYb3g31S2s8p.ttf
+    - https://fonts.gstatic.com/s/zenoldmincho/v11/tss3ApVaYytLwxTqcxfMyBveyb4Dqlla8dMgPgBu.ttf
+    - https://fonts.gstatic.com/s/zenoldmincho/v11/tss3ApVaYytLwxTqcxfMyBveyb4vrVla8dMgPgBu.ttf
+    - https://fonts.gstatic.com/s/zenoldmincho/v11/tss3ApVaYytLwxTqcxfMyBveyb5LrFla8dMgPgBu.ttf
+    - https://fonts.gstatic.com/s/zenoldmincho/v11/tss3ApVaYytLwxTqcxfMyBveyb5zrlla8dMgPgBu.ttf
 fonts:
 - name: Zen Old Mincho
   styles:
@@ -14,16 +19,16 @@ fonts:
     type: Bold
     full_name: Zen Old Mincho Bold
     post_script_name: ZenOldMincho-Bold
-    version: '1.001'
+    version: '1.500'
     copyright: Copyright 2021 The Zen Old Mincho Project Authors (https://github.com/googlefonts/zen-oldmincho)
-    font: ZenOldMincho-Bold.ttf
+    font: tss3ApVaYytLwxTqcxfMyBveyb5LrFla8dMgPgBu.ttf
   - family_name: Zen Old Mincho
     type: Regular
     full_name: Zen Old Mincho Regular
     post_script_name: ZenOldMincho-Regular
-    version: '1.001'
+    version: '1.500'
     copyright: Copyright 2021 The Zen Old Mincho Project Authors (https://github.com/googlefonts/zen-oldmincho)
-    font: ZenOldMincho-Regular.ttf
+    font: tss0ApVaYytLwxTqcxfMyBveyYb3g31S2s8p.ttf
 - name: Zen Old Mincho Black
   styles:
   - family_name: Zen Old Mincho Black
@@ -32,9 +37,31 @@ fonts:
     preferred_type: Black
     full_name: Zen Old Mincho Black
     post_script_name: ZenOldMincho-Black
-    version: '1.001'
+    version: '1.500'
     copyright: Copyright 2021 The Zen Old Mincho Project Authors (https://github.com/googlefonts/zen-oldmincho)
-    font: ZenOldMincho-Black.ttf
+    font: tss3ApVaYytLwxTqcxfMyBveyb5zrlla8dMgPgBu.ttf
+- name: Zen Old Mincho Medium
+  styles:
+  - family_name: Zen Old Mincho Medium
+    type: Regular
+    preferred_family_name: Zen Old Mincho
+    preferred_type: Medium
+    full_name: Zen Old Mincho Medium
+    post_script_name: ZenOldMincho-Medium
+    version: '1.500'
+    copyright: Copyright 2021 The Zen Old Mincho Project Authors (https://github.com/googlefonts/zen-oldmincho)
+    font: tss3ApVaYytLwxTqcxfMyBveyb4Dqlla8dMgPgBu.ttf
+- name: Zen Old Mincho SemiBold
+  styles:
+  - family_name: Zen Old Mincho SemiBold
+    type: Regular
+    preferred_family_name: Zen Old Mincho
+    preferred_type: SemiBold
+    full_name: Zen Old Mincho SemiBold
+    post_script_name: ZenOldMincho-SemiBold
+    version: '1.500'
+    copyright: Copyright 2021 The Zen Old Mincho Project Authors (https://github.com/googlefonts/zen-oldmincho)
+    font: tss3ApVaYytLwxTqcxfMyBveyb4vrVla8dMgPgBu.ttf
 extract: {}
 copyright: Copyright 2021 The Zen Old Mincho Project Authors (https://github.com/googlefonts/zen-oldmincho)
 license_url: https://scripts.sil.org/OFL
@@ -132,5 +159,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 6f3ca8bdaa91018c75b49135dac6d9d82b2a930137bbc0fd82952ce2401cecc7
-command: google import --formulas_path Formulas
+command: import google -n 9999

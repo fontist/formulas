@@ -1,17 +1,20 @@
 ---
+name: Cantata One
 description: Cantata One
 homepage: http://www.sorkintype.com/
 resources:
-  CantataOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Cantata%20One
-    sha256: e0b39c3c75ed9402911897fc8bf6723258cd6c885bf0699bdb58742b01ae30d8
-    file_size: 43947
+  Cantata One:
+    source: google
+    family: Cantata One
+    files:
+    - https://fonts.gstatic.com/s/cantataone/v15/PlI5Fl60Nb5obNzNe2jslVxEt8CwfGaD.ttf
 fonts:
 - name: Cantata One
   styles:
   - family_name: Cantata One
     type: Regular
+    preferred_family_name: Cantata One
+    preferred_type: Regular
     full_name: CantataOne-Regular
     post_script_name: CantataOne-Regular
     version: '1.002'
@@ -24,11 +27,13 @@ fonts:
       with Reserved Font Name "Cantata"
 
       This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
-    font: CantataOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com),
+    font: PlI5Fl60Nb5obNzNe2jslVxEt8CwfGaD.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com)
   with Reserved Font Name "Cantata"
+
+  This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
@@ -125,3 +130,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

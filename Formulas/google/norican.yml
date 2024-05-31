@@ -1,12 +1,13 @@
 ---
+name: Norican
 description: Norican
 homepage: http://www.sansoxygen.com
 resources:
-  Norican.zip:
-    urls:
-    - https://fonts.google.com/download?family=Norican
-    sha256: 460a531fa2bf90b1f5070933e468e2d536f9eb6f9f9c887fafbe4a02ae4bf420
-    file_size: 50546
+  Norican:
+    source: google
+    family: Norican
+    files:
+    - https://fonts.gstatic.com/s/norican/v15/MwQ2bhXp1eSBqjkPGJJRtGs-lbA.ttf
 fonts:
 - name: Norican
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: Norican-Regular
     version: 1.100; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]
     copyright: Copyright 2011 The Norican Project Authors (https://github.com/googlefonts/NoricanFont)
-    font: Norican-Regular.ttf
+    font: MwQ2bhXp1eSBqjkPGJJRtGs-lbA.ttf
 extract: {}
 copyright: Copyright 2011 The Norican Project Authors (https://github.com/googlefonts/NoricanFont)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 2632b76afc0015d98a21ba9b85c6ffef764fa0d1227b3aac9d95e6afc6f55490
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

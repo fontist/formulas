@@ -1,12 +1,13 @@
 ---
+name: Island Moments
 description: Island Moments
 homepage: www.typesetit.com
 resources:
-  Island_Moments.zip:
-    urls:
-    - https://fonts.google.com/download?family=Island%20Moments
-    sha256: 93aac0d2b487a42dd46ff1e25aadcbf00462283e0258d86ff41001110c42666d
-    file_size: 201426
+  Island Moments:
+    source: google
+    family: Island Moments
+    files:
+    - https://fonts.gstatic.com/s/islandmoments/v6/NaPBcZfVGvBdxIt7Ar0qzkXJF-TGIohbZ6SY.ttf
 fonts:
 - name: Island Moments
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: IslandMoments-Regular
     version: '1.010'
     copyright: Copyright 2013-2021 The Island Moments Project Authors (https://github.com/googlefonts/island-moments)
-    font: IslandMoments-Regular.ttf
+    font: NaPBcZfVGvBdxIt7Ar0qzkXJF-TGIohbZ6SY.ttf
 extract: {}
 copyright: Copyright 2013-2021 The Island Moments Project Authors (https://github.com/googlefonts/island-moments)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ea3d23c8f54d621bf75e44339adfc33b3c0481a345df008da8ebf5797434cf10
-command: google import --formulas_path Formulas
+command: import google -n 9999

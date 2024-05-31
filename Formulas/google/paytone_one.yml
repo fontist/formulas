@@ -1,12 +1,13 @@
 ---
+name: Paytone One
 description: Paytone One
 homepage: http://www.sansoxygen.com
 resources:
-  Paytone_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Paytone%20One
-    sha256: 13ee2b7c23bcef93c072bb81b4ff9c51a3cafb30d750a9d98e45a4ad0bf0b722
-    file_size: 55705
+  Paytone One:
+    source: google
+    family: Paytone One
+    files:
+    - https://fonts.gstatic.com/s/paytoneone/v23/0nksC9P7MfYHj2oFtYm2CiTqivr9iBq_.ttf
 fonts:
 - name: Paytone One
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: PaytoneOne-Regular
     version: 1.002; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
     copyright: Copyright 2011 The Paytone Project Authors (https://github.com/googlefonts/paytoneFont)
-    font: PaytoneOne-Regular.ttf
+    font: 0nksC9P7MfYHj2oFtYm2CiTqivr9iBq_.ttf
 extract: {}
 copyright: Copyright 2011 The Paytone Project Authors (https://github.com/googlefonts/paytoneFont)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 42aee12d3158b587f206f0297ee164dc957233ec7461360fcaf353aca2e69174
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

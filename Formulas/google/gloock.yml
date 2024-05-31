@@ -1,12 +1,13 @@
 ---
+name: Gloock
 description: Gloock
 homepage: https://www.behance.net/dwarte
 resources:
-  Gloock.zip:
-    urls:
-    - https://fonts.google.com/download?family=Gloock
-    sha256: 85d043a6aeaa42ca899cafaa27d65002edc6fe34361d0b4791bdbbfd513164a3
-    file_size: 51546
+  Gloock:
+    source: google
+    family: Gloock
+    files:
+    - https://fonts.gstatic.com/s/gloock/v6/Iurb6YFw84WUY4N5jxylBrdRjQ.ttf
 fonts:
 - name: Gloock
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: Gloock-Regular
     version: 1.000; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2022 The Gloock Project Authors (https://github.com/duartp/gloock)
-    font: Gloock-Regular.ttf
+    font: Iurb6YFw84WUY4N5jxylBrdRjQ.ttf
 extract: {}
 copyright: Copyright 2022 The Gloock Project Authors (https://github.com/duartp/gloock)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d93dc281ec3e47731ddfbe3bcc9c8e4bb22aa6d64d3159aab012cd0f893efd24
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

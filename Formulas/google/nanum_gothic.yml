@@ -1,42 +1,52 @@
 ---
+name: Nanum Gothic
 description: Nanum Gothic
 homepage: http://www.nhncorp.com
 resources:
-  NanumGothic.zip:
-    urls:
-    - https://fonts.google.com/download?family=Nanum%20Gothic
-    sha256: 3c613e10f6a1f08640c99212a864c2af52942606fee233ef53878978e8a2dc4f
-    file_size: 6740438
+  Nanum Gothic:
+    source: google
+    family: Nanum Gothic
+    files:
+    - https://fonts.gstatic.com/s/nanumgothic/v23/PN_3Rfi-oW3hYwmKDpxS7F_z_tLfxno73g.ttf
+    - https://fonts.gstatic.com/s/nanumgothic/v23/PN_oRfi-oW3hYwmKDpxS7F_LQv37zlEn14YEUQ.ttf
+    - https://fonts.gstatic.com/s/nanumgothic/v23/PN_oRfi-oW3hYwmKDpxS7F_LXv77zlEn14YEUQ.ttf
 fonts:
-- name: Nanum Gothic
+- name: NanumGothic
   styles:
   - family_name: NanumGothic
-    type: Regular
-    full_name: NanumGothic
-    post_script_name: NanumGothic
-    version: 3.020;PS 1;hotconv 1.0.57;makeotf.lib2.0.21895
-    copyright: Copyright © 2011 NHN Corporation. All rights reserved. Font designed
-      by Sandoll Communications Inc.
-    font: NanumGothic-Regular.ttf
-  - family_name: NanumGothic
     type: Bold
+    preferred_family_name: NanumGothic
+    preferred_type: Bold
     full_name: NanumGothicBold
     post_script_name: NanumGothicBold
     version: 3.020;PS 1;hotconv 1.0.57;makeotf.lib2.0.21895
     copyright: Copyright © 2011 NHN Corporation. All rights reserved. Font designed
       by Sandoll Communications Inc.
-    font: NanumGothic-Bold.ttf
+    font: PN_oRfi-oW3hYwmKDpxS7F_LQv37zlEn14YEUQ.ttf
   - family_name: NanumGothic
-    type: ExtraBold
+    type: Regular
+    preferred_family_name: NanumGothic
+    preferred_type: Regular
+    full_name: NanumGothic
+    post_script_name: NanumGothic
+    version: 3.020;PS 1;hotconv 1.0.57;makeotf.lib2.0.21895
+    copyright: Copyright © 2011 NHN Corporation. All rights reserved. Font designed
+      by Sandoll Communications Inc.
+    font: PN_3Rfi-oW3hYwmKDpxS7F_z_tLfxno73g.ttf
+- name: NanumGothicExtraBold
+  styles:
+  - family_name: NanumGothicExtraBold
+    type: Regular
+    preferred_family_name: NanumGothic
+    preferred_type: ExtraBold
     full_name: NanumGothicExtraBold
     post_script_name: NanumGothicExtraBold
     version: 3.020;PS 1;hotconv 1.0.57;makeotf.lib2.0.21895
     copyright: Copyright © 2011 NHN Corporation. All rights reserved. Font designed
       by Sandoll Communications Inc.
-    font: NanumGothic-ExtraBold.ttf
-extract:
-  format: zip
-copyright: Copyright © 2010 NHN Corporation. All rights reserved. Font designed by
+    font: PN_oRfi-oW3hYwmKDpxS7F_LXv77zlEn14YEUQ.ttf
+extract: {}
+copyright: Copyright © 2011 NHN Corporation. All rights reserved. Font designed by
   Sandoll Communications Inc.
 license_url: http://www.nhncorp.com
 open_license: |-
@@ -136,3 +146,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

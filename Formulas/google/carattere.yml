@@ -3,11 +3,11 @@ name: Carattere
 description: Carattere
 homepage: www.typesetit.com
 resources:
-  Carattere.zip:
-    urls:
-    - https://fonts.google.com/download?family=Carattere
-    sha256: dab188136f62814044934103b0b56f7b663a1fb6fb339fc5411416c136c61fb9
-    file_size: 64398
+  Carattere:
+    source: google
+    family: Carattere
+    files:
+    - https://fonts.gstatic.com/s/carattere/v7/4iCv6Kp1b9dXlgt_CkvTt2aMH4V_gg.ttf
 fonts:
 - name: Carattere
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: Carattere-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Carattere Project Authors (https://github.com/googlefonts/carattere)
-    font: Carattere-Regular.ttf
+    font: 4iCv6Kp1b9dXlgt_CkvTt2aMH4V_gg.ttf
 extract: {}
 copyright: Copyright 2020 The Carattere Project Authors (https://github.com/googlefonts/carattere)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ee45dafdb00ba5464fbe5c93ff933e76a2297c2a5e98d6be803efb09d4aa9186
-command: google import --formulas_path Formulas
+command: import google -n 9999

@@ -1,12 +1,14 @@
 ---
+name: BIZ UDMincho
 description: BIZ UDMincho
 homepage: http://www.morisawa.co.jp/
 resources:
-  BIZ_UDMincho.zip:
-    urls:
-    - https://fonts.google.com/download?family=BIZ%20UDMincho
-    sha256: 37691a7832f3fb2959055a1c9cb9f2ea9aa86dcb1634dbf0b1d3fa17a9aa74e0
-    file_size: 8457786
+  BIZ UDMincho:
+    source: google
+    family: BIZ UDMincho
+    files:
+    - https://fonts.gstatic.com/s/bizudmincho/v9/EJRRQgI6eOxFjBdKs38yhtW1dwT7rcpY8Q.ttf
+    - https://fonts.gstatic.com/s/bizudmincho/v9/EJROQgI6eOxFjBdKs38yhtWNyyvfpeFE-IyCrw.ttf
 fonts:
 - name: BIZ UDMincho
   styles:
@@ -16,14 +18,14 @@ fonts:
     post_script_name: BIZUDMincho-Bold
     version: '1.06'
     copyright: Copyright 2022 The BIZ UDMincho Project Authors (https://github.com/googlefonts/morisawa-biz-ud-mincho)
-    font: BIZUDMincho-Bold.ttf
+    font: EJROQgI6eOxFjBdKs38yhtWNyyvfpeFE-IyCrw.ttf
   - family_name: BIZ UDMincho
     type: Regular
     full_name: BIZ UDMincho
     post_script_name: BIZUDMincho-Regular
     version: '1.06'
     copyright: Copyright 2022 The BIZ UDMincho Project Authors (https://github.com/googlefonts/morisawa-biz-ud-mincho)
-    font: BIZUDMincho-Regular.ttf
+    font: EJRRQgI6eOxFjBdKs38yhtW1dwT7rcpY8Q.ttf
 extract: {}
 copyright: Copyright 2022 The BIZ UDMincho Project Authors (https://github.com/googlefonts/morisawa-biz-ud-mincho)
 license_url: https://scripts.sil.org/OFL
@@ -32,7 +34,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -121,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 50108988c2f52031905369a3004da17e1bf87fbf5c30ac824505b8135319c774
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

@@ -1,11 +1,16 @@
 ---
+name: Noto Sans Lisu
 description: Noto Sans Lisu
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Lisu.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Lisu
-    file_size: 26005
+  Noto Sans Lisu:
+    source: google
+    family: Noto Sans Lisu
+    files:
+    - https://fonts.gstatic.com/s/notosanslisu/v25/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHP2Vwt29IlxkVdig.ttf
+    - https://fonts.gstatic.com/s/notosanslisu/v25/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHP61wt29IlxkVdig.ttf
+    - https://fonts.gstatic.com/s/notosanslisu/v25/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHPB1st29IlxkVdig.ttf
+    - https://fonts.gstatic.com/s/notosanslisu/v25/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHPPlst29IlxkVdig.ttf
 fonts:
 - name: Noto Sans Lisu
   styles:
@@ -13,26 +18,18 @@ fonts:
     type: Bold
     full_name: Noto Sans Lisu Bold
     post_script_name: NotoSansLisu-Bold
-    version: '2.100'
+    version: '2.102'
     description: Designed by Monotype design team.
-    copyright: Copyright 2019 Google LLC. All Rights Reserved.
-    font: NotoSansLisu-Bold.ttf
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/lisu)
+    font: uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHPPlst29IlxkVdig.ttf
   - family_name: Noto Sans Lisu
     type: Regular
     full_name: Noto Sans Lisu Regular
     post_script_name: NotoSansLisu-Regular
-    version: '2.100'
+    version: '2.102'
     description: Designed by Monotype design team.
-    copyright: Copyright 2019 Google LLC. All Rights Reserved.
-    font: NotoSansLisu-VariableFont_wght.ttf
-  - family_name: Noto Sans Lisu
-    type: Regular
-    full_name: Noto Sans Lisu Regular
-    post_script_name: NotoSansLisu-Regular
-    version: '2.100'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2019 Google LLC. All Rights Reserved.
-    font: NotoSansLisu-Regular.ttf
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/lisu)
+    font: uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHP2Vwt29IlxkVdig.ttf
 - name: Noto Sans Lisu Medium
   styles:
   - family_name: Noto Sans Lisu Medium
@@ -41,10 +38,10 @@ fonts:
     preferred_type: Medium
     full_name: Noto Sans Lisu Medium
     post_script_name: NotoSansLisu-Medium
-    version: '2.100'
+    version: '2.102'
     description: Designed by Monotype design team.
-    copyright: Copyright 2019 Google LLC. All Rights Reserved.
-    font: NotoSansLisu-Medium.ttf
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/lisu)
+    font: uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHP61wt29IlxkVdig.ttf
 - name: Noto Sans Lisu SemiBold
   styles:
   - family_name: Noto Sans Lisu SemiBold
@@ -53,19 +50,19 @@ fonts:
     preferred_type: SemiBold
     full_name: Noto Sans Lisu SemiBold
     post_script_name: NotoSansLisu-SemiBold
-    version: '2.100'
+    version: '2.102'
     description: Designed by Monotype design team.
-    copyright: Copyright 2019 Google LLC. All Rights Reserved.
-    font: NotoSansLisu-SemiBold.ttf
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/lisu)
+    font: uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHPB1st29IlxkVdig.ttf
 extract: {}
-copyright: Copyright 2019 Google LLC. All Rights Reserved.
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/lisu)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/lisu)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -154,5 +151,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d153adcfa2f8f05048118a2bfcf3ccbac00657af63deea65666603d1950c59b9
-command: import google --formulas_path Formulas
+command: import google -n 9999

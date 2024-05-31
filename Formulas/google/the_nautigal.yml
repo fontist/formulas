@@ -1,12 +1,14 @@
 ---
+name: The Nautigal
 description: The Nautigal
 homepage: www.typesetit.com
 resources:
-  The_Nautigal.zip:
-    urls:
-    - https://fonts.google.com/download?family=The%20Nautigal
-    sha256: 4fd94e8ecc9d8f0c8b15742ec46236ad1a289a2ab27d90226d0ee2f93604e70c
-    file_size: 145537
+  The Nautigal:
+    source: google
+    family: The Nautigal
+    files:
+    - https://fonts.gstatic.com/s/thenautigal/v6/VdGZAZ8ZH51Lvng9fQV2bfKr5wVk09Se5Q.ttf
+    - https://fonts.gstatic.com/s/thenautigal/v6/VdGGAZ8ZH51Lvng9fQV2bfKTWypA2_-C7LoS7g.ttf
 fonts:
 - name: The Nautigal
   styles:
@@ -16,14 +18,14 @@ fonts:
     post_script_name: TheNautigal-Bold
     version: 1.100; ttfautohint (v1.8.3)
     copyright: Copyright 2013-2021 The The Nautigal Project Authors (https://github.com/googlefonts/the-nautigal)
-    font: TheNautigal-Bold.ttf
+    font: VdGGAZ8ZH51Lvng9fQV2bfKTWypA2_-C7LoS7g.ttf
   - family_name: The Nautigal
     type: Regular
     full_name: The Nautigal Regular
     post_script_name: TheNautigal-Regular
     version: 1.100; ttfautohint (v1.8.3)
     copyright: Copyright 2013-2021 The The Nautigal Project Authors (https://github.com/googlefonts/the-nautigal)
-    font: TheNautigal-Regular.ttf
+    font: VdGZAZ8ZH51Lvng9fQV2bfKr5wVk09Se5Q.ttf
 extract: {}
 copyright: Copyright 2013-2021 The The Nautigal Project Authors (https://github.com/googlefonts/the-nautigal)
 license_url: https://scripts.sil.org/OFL
@@ -32,7 +34,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -121,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 7dda93bdccb43c0a4813c76d307274198c0082212e110f787e845f9d2a6d066a
-command: google import --formulas_path Formulas
+command: import google -n 9999

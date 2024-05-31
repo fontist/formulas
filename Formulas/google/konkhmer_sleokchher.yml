@@ -1,11 +1,12 @@
 ---
+name: Konkhmer Sleokchher
 description: Konkhmer Sleokchher
 resources:
-  Konkhmer_Sleokchher.zip:
-    urls:
-    - https://fonts.google.com/download?family=Konkhmer%20Sleokchher
-    sha256: 6c179b31815b628120fc37f699f8a38f5d0a66daf9907538928ab76538f44e76
-    file_size: 619981
+  Konkhmer Sleokchher:
+    source: google
+    family: Konkhmer Sleokchher
+    files:
+    - https://fonts.gstatic.com/s/konkhmersleokchher/v2/_Xmw-GE-rjmabA_M-aPOZOsCrUv825LFI3507E0d-W0.ttf
 fonts:
 - name: Konkhmer Sleokchher
   styles:
@@ -15,7 +16,7 @@ fonts:
     post_script_name: KonkhmerSleokchher-Regular
     version: 1.000; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
     copyright: Copyright 2022 The Konkhmer Sleokchher Project Authors (https://github.com/suonmaysophanith7/KonKhmer_SleokChher)
-    font: KonkhmerSleokchher-Regular.ttf
+    font: _Xmw-GE-rjmabA_M-aPOZOsCrUv825LFI3507E0d-W0.ttf
 extract: {}
 copyright: Copyright 2022 The Konkhmer Sleokchher Project Authors (https://github.com/suonmaysophanith7/KonKhmer_SleokChher)
 license_url: https://scripts.sil.org/OFL
@@ -24,7 +25,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -113,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b2a960eecffef4b394ce423bc0a0357f43f12eb6fabf9d8c7c0a8d86392e022f
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

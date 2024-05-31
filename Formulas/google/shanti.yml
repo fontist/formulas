@@ -1,12 +1,13 @@
 ---
+name: Shanti
 description: Shanti
 homepage: http://www.sansoxygen.com
 resources:
-  Shanti.zip:
-    urls:
-    - https://fonts.google.com/download?family=Shanti
-    sha256: ac0adff89104f91ed2549c71b5f9357954753b9c9c4ce2b525e9aee0f398381d
-    file_size: 39434
+  Shanti:
+    source: google
+    family: Shanti
+    files:
+    - https://fonts.gstatic.com/s/shanti/v25/t5thIREMM4uSDgzgU0ezpKfwzA.ttf
 fonts:
 - name: Shanti
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: Shanti-Regular
     version: 1.100; ttfautohint (v1.8.4)
     copyright: Copyright 2011 The Shanti Project Authors (https://github.com/googlefonts/ShantiFont)
-    font: Shanti-Regular.ttf
+    font: t5thIREMM4uSDgzgU0ezpKfwzA.ttf
 extract: {}
 copyright: Copyright 2011 The Shanti Project Authors (https://github.com/googlefonts/ShantiFont)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 29bffec56e91c7ebd42998f3a2f1f8ccd551f2c3374f8b98de8c61a3b7518144
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

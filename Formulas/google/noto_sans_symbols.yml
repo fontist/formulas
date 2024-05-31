@@ -1,11 +1,21 @@
 ---
+name: Noto Sans Symbols
 description: Noto Sans Symbols
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Symbols.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Symbols
-    file_size: 1063699
+  Noto Sans Symbols:
+    source: google
+    family: Noto Sans Symbols
+    files:
+    - https://fonts.gstatic.com/s/notosanssymbols/v43/rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3gfQ4gavVFRkzrbQ.ttf
+    - https://fonts.gstatic.com/s/notosanssymbols/v43/rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3g_Q8gavVFRkzrbQ.ttf
+    - https://fonts.gstatic.com/s/notosanssymbols/v43/rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3gIw8gavVFRkzrbQ.ttf
+    - https://fonts.gstatic.com/s/notosanssymbols/v43/rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3gfQ8gavVFRkzrbQ.ttf
+    - https://fonts.gstatic.com/s/notosanssymbols/v43/rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3gTw8gavVFRkzrbQ.ttf
+    - https://fonts.gstatic.com/s/notosanssymbols/v43/rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3gowggavVFRkzrbQ.ttf
+    - https://fonts.gstatic.com/s/notosanssymbols/v43/rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3gmgggavVFRkzrbQ.ttf
+    - https://fonts.gstatic.com/s/notosanssymbols/v43/rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3g_QggavVFRkzrbQ.ttf
+    - https://fonts.gstatic.com/s/notosanssymbols/v43/rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3g1AggavVFRkzrbQ.ttf
 fonts:
 - name: Noto Sans Symbols
   styles:
@@ -16,7 +26,7 @@ fonts:
     version: '2.003'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/symbols)
-    font: NotoSansSymbols-Bold.ttf
+    font: rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3gmgggavVFRkzrbQ.ttf
   - family_name: Noto Sans Symbols
     type: Regular
     full_name: Noto Sans Symbols Regular
@@ -24,15 +34,7 @@ fonts:
     version: '2.003'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/symbols)
-    font: NotoSansSymbols-VariableFont_wght.ttf
-  - family_name: Noto Sans Symbols
-    type: Regular
-    full_name: Noto Sans Symbols Regular
-    post_script_name: NotoSansSymbols-Regular
-    version: '2.003'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/symbols)
-    font: NotoSansSymbols-Regular.ttf
+    font: rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3gfQ8gavVFRkzrbQ.ttf
 - name: Noto Sans Symbols Black
   styles:
   - family_name: Noto Sans Symbols Black
@@ -44,7 +46,7 @@ fonts:
     version: '2.003'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/symbols)
-    font: NotoSansSymbols-Black.ttf
+    font: rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3g1AggavVFRkzrbQ.ttf
 - name: Noto Sans Symbols ExtraBold
   styles:
   - family_name: Noto Sans Symbols ExtraBold
@@ -56,7 +58,7 @@ fonts:
     version: '2.003'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/symbols)
-    font: NotoSansSymbols-ExtraBold.ttf
+    font: rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3g_QggavVFRkzrbQ.ttf
 - name: Noto Sans Symbols ExtraLight
   styles:
   - family_name: Noto Sans Symbols ExtraLight
@@ -68,7 +70,7 @@ fonts:
     version: '2.003'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/symbols)
-    font: NotoSansSymbols-ExtraLight.ttf
+    font: rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3g_Q8gavVFRkzrbQ.ttf
 - name: Noto Sans Symbols Light
   styles:
   - family_name: Noto Sans Symbols Light
@@ -80,7 +82,7 @@ fonts:
     version: '2.003'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/symbols)
-    font: NotoSansSymbols-Light.ttf
+    font: rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3gIw8gavVFRkzrbQ.ttf
 - name: Noto Sans Symbols Medium
   styles:
   - family_name: Noto Sans Symbols Medium
@@ -92,7 +94,7 @@ fonts:
     version: '2.003'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/symbols)
-    font: NotoSansSymbols-Medium.ttf
+    font: rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3gTw8gavVFRkzrbQ.ttf
 - name: Noto Sans Symbols SemiBold
   styles:
   - family_name: Noto Sans Symbols SemiBold
@@ -104,7 +106,7 @@ fonts:
     version: '2.003'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/symbols)
-    font: NotoSansSymbols-SemiBold.ttf
+    font: rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3gowggavVFRkzrbQ.ttf
 - name: Noto Sans Symbols Thin
   styles:
   - family_name: Noto Sans Symbols Thin
@@ -116,7 +118,7 @@ fonts:
     version: '2.003'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/symbols)
-    font: NotoSansSymbols-Thin.ttf
+    font: rP2up3q65FkAtHfwd-eIS2brbDN6gxP34F9jRRCe4W3gfQ4gavVFRkzrbQ.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/symbols)
 license_url: https://scripts.sil.org/OFL
@@ -125,7 +127,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -214,5 +216,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9e95ce5de291bca6c3bd5b687eb03c63d4978783c6352b28b3a26f8ffbff07ca
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

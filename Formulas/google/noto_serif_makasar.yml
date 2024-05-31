@@ -1,12 +1,13 @@
 ---
+name: Noto Serif Makasar
 description: Noto Serif Makasar
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Serif_Makasar.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Serif%20Makasar
-    sha256: 9fa1c81ea6e8b6515468aaf230a74c0c16868b32862fc08aded439e4b8258bc0
-    file_size: 32927
+  Noto Serif Makasar:
+    source: google
+    family: Noto Serif Makasar
+    files:
+    - https://fonts.gstatic.com/s/notoserifmakasar/v1/memjYbqtyH-NiZpFH_9zcvB_PqkfY9S7j4HTVSmevw.ttf
 fonts:
 - name: Noto Serif Makasar
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 1.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Sérgio Martins
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/makasar)
-    font: NotoSerifMakasar-Regular.ttf
+    font: memjYbqtyH-NiZpFH_9zcvB_PqkfY9S7j4HTVSmevw.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/makasar)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 129b4e2de28fbe91a5edd37126a0977cb3d6dab148e9f3d7e21240fc8654e27a
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

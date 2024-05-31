@@ -1,13 +1,12 @@
 ---
 name: Carme
 description: Carme
-homepage:
 resources:
-  Carme.zip:
-    urls:
-    - https://fonts.google.com/download?family=Carme
-    sha256: 1fd4ff54701c85df6e1325505782f6e860bb6f9dbad364f41336444078b78e43
-    file_size: 27780
+  Carme:
+    source: google
+    family: Carme
+    files:
+    - https://fonts.gstatic.com/s/carme/v16/ptRHTiWdbvZIDOjGxLNrxfbZ.ttf
 fonts:
 - name: Carme
   styles:
@@ -17,11 +16,9 @@ fonts:
     post_script_name: Carme
     version: '1.000'
     copyright: Copyright (c) 2010-2011, Ruben Prol (ipanemagrafica@gmail.com|www.ipanemagrafica.com),
-    font: Carme-Regular.ttf
-extract:
-  format: zip
+    font: ptRHTiWdbvZIDOjGxLNrxfbZ.ttf
+extract: {}
 copyright: Copyright (c) 2010-2011, Ruben Prol (ipanemagrafica@gmail.com|www.ipanemagrafica.com),
-  with Reserved Font Name Carme.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010-2011, Rubén Prol (ipanemagrafica@gmail.com|www.ipanemagrafica.com),
@@ -119,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

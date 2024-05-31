@@ -1,12 +1,13 @@
 ---
+name: Rhodium Libre
 description: Rhodium Libre
 homepage: http://www.dunwichtype.com
 resources:
-  RhodiumLibre.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rhodium%20Libre
-    sha256: 586d3c1b6e23c845f4ba9ebbf8069b857666d424306a86b454a7d04cc66e1ede
-    file_size: 105532
+  Rhodium Libre:
+    source: google
+    family: Rhodium Libre
+    files:
+    - https://fonts.gstatic.com/s/rhodiumlibre/v19/1q2AY5adA0tn_ukeHcQHqpx6pETLeo2gm2U.ttf
 fonts:
 - name: Rhodium Libre
   styles:
@@ -16,11 +17,9 @@ fonts:
     post_script_name: RhodiumLibre-Regular
     version: 1.001; ttfautohint (v1.3)
     copyright: Copyright © 2015 by James Puckett. All rights reserved.
-    font: RhodiumLibre-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2014, Dunwich Type Founders (http://dunwichtype.com). Rhodium
-  is a trademark of Dunwich Type Founders.
+    font: 1q2AY5adA0tn_ukeHcQHqpx6pETLeo2gm2U.ttf
+extract: {}
+copyright: Copyright © 2015 by James Puckett. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2014, Dunwich Type Founders (http://dunwichtype.com). Rhodium is a trademark of Dunwich Type Founders.
@@ -116,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

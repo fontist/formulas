@@ -1,12 +1,13 @@
 ---
+name: Mr De Haviland
 description: Mr De Haviland
 homepage: http://www.sudtipos.com
 resources:
-  MrDeHaviland.zip:
-    urls:
-    - https://fonts.google.com/download?family=Mr%20De%20Haviland
-    sha256: efc41c8a1967e9acad6345b6be25c1e69735c72dd35c4c95b245a5a7fc8f11b9
-    file_size: 25357
+  Mr De Haviland:
+    source: google
+    family: Mr De Haviland
+    files:
+    - https://fonts.gstatic.com/s/mrdehaviland/v14/OpNVnooIhJj96FdB73296ksbOj3C4ULVNTlB.ttf
 fonts:
 - name: Mr De Haviland
   styles:
@@ -18,11 +19,11 @@ fonts:
     copyright: |-
       Copyright (c) 2006 Alejandro Paul (sudtipos@sudtipos.com),
       with Reserved Font Name "Mr De Haviland"
-    font: MrDeHaviland-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2006 Alejandro Paul (sudtipos@sudtipos.com), with Reserved
-  Font Name "Mr De Haviland"
+    font: OpNVnooIhJj96FdB73296ksbOj3C4ULVNTlB.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2006 Alejandro Paul (sudtipos@sudtipos.com),
+  with Reserved Font Name "Mr De Haviland"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 Alejandro Paul (sudtipos@sudtipos.com),
@@ -119,3 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

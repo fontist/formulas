@@ -1,12 +1,12 @@
 ---
+name: Sue Ellen Francisco
 description: Sue Ellen Francisco
-homepage:
 resources:
-  SueEllenFrancisco.zip:
-    urls:
-    - https://fonts.google.com/download?family=Sue%20Ellen%20Francisco
-    sha256: 63dc2d62f54fc0e1da54caf68fe7346a13dc6e495f34acebbfe0f0f5630c8e64
-    file_size: 27275
+  Sue Ellen Francisco:
+    source: google
+    family: Sue Ellen Francisco
+    files:
+    - https://fonts.gstatic.com/s/sueellenfrancisco/v20/wXK3E20CsoJ9j1DDkjHcQ5ZL8xRaxru9ropF2lqk9H4.ttf
 fonts:
 - name: Sue Ellen Francisco
   styles:
@@ -16,10 +16,9 @@ fonts:
     post_script_name: SueEllenFrancisco
     version: 1.002 2007
     copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
-    font: SueEllenFrancisco-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)
+    font: wXK3E20CsoJ9j1DDkjHcQ5ZL8xRaxru9ropF2lqk9H4.ttf
+extract: {}
+copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
@@ -115,3 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

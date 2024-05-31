@@ -1,11 +1,12 @@
 ---
+name: Protest Revolution
 description: Protest Revolution
 resources:
-  Protest_Revolution.zip:
-    urls:
-    - https://fonts.google.com/download?family=Protest%20Revolution
-    sha256: d00ed63f7cc247f9409ba3d57a7df7f913129b1c2c3202b67c970c942da3d29d
-    file_size: 352265
+  Protest Revolution:
+    source: google
+    family: Protest Revolution
+    files:
+    - https://fonts.gstatic.com/s/protestrevolution/v2/11hcGofZ0kXBbxQXFB7MJsjtqnVw6Z2s8PIzTG1nQw.ttf
 fonts:
 - name: Protest Revolution
   styles:
@@ -15,7 +16,7 @@ fonts:
     post_script_name: ProtestRevolution-Regular
     version: 2.005; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2020 The Protest Project Authors (https://github.com/octaviopardo/Protest)
-    font: ProtestRevolution-Regular.ttf
+    font: 11hcGofZ0kXBbxQXFB7MJsjtqnVw6Z2s8PIzTG1nQw.ttf
 extract: {}
 copyright: Copyright 2020 The Protest Project Authors (https://github.com/octaviopardo/Protest)
 license_url: https://scripts.sil.org/OFL
@@ -24,7 +25,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  https://openfontlicense.org
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -113,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 1d5eb5cd127157bbe43ca064f2387c24b64e517a3895d774b65fea96277310b9
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

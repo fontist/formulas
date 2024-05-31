@@ -1,12 +1,13 @@
 ---
+name: Bacasime Antique
 description: Bacasime Antique
 homepage: https://fonts.google.com/
 resources:
-  Bacasime_Antique.zip:
-    urls:
-    - https://fonts.google.com/download?family=Bacasime%20Antique
-    sha256: bb96f5df82487aa9007f9246754d9bbf8bc8ad4ee1d38d2a2a0bf312b728274c
-    file_size: 21713
+  Bacasime Antique:
+    source: google
+    family: Bacasime Antique
+    files:
+    - https://fonts.gstatic.com/s/bacasimeantique/v1/tDbX2pGXkFYEykldjZSrmI6T_XWZOwStSUrV_BE.ttf
 fonts:
 - name: Bacasime Antique
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: '2.000'
     copyright: Copyright 2023 The Bacasime Antique Project Authors (https://github.com/docrepair-fonts/bacasime-antique-fonts),
       with Reserved Font Name "Playfair".
-    font: BacasimeAntique-Regular.ttf
+    font: tDbX2pGXkFYEykldjZSrmI6T_XWZOwStSUrV_BE.ttf
 extract: {}
 copyright: Copyright 2023 The Bacasime Antique Project Authors (https://github.com/docrepair-fonts/bacasime-antique-fonts),
   with Reserved Font Name "Playfair".
@@ -27,7 +28,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -116,5 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ad4c0bbbeaba20268fb66426155764cdeb481f0daf82e09c79c4593044b951a1
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

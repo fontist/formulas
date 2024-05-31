@@ -1,11 +1,12 @@
 ---
+name: Taprom
 description: Taprom
 resources:
-  Taprom.zip:
-    urls:
-    - https://fonts.google.com/download?family=Taprom
-    sha256: b55817d1d8649bf8b5bd25ce21ef58d51bf3dc3981b4aee0dc0848d230cb05c6
-    file_size: 100720
+  Taprom:
+    source: google
+    family: Taprom
+    files:
+    - https://fonts.gstatic.com/s/taprom/v27/UcCn3F82JHycULbFQyk3-0kvHg.ttf
 fonts:
 - name: Taprom
   styles:
@@ -13,9 +14,9 @@ fonts:
     type: Regular
     full_name: Taprom Regular
     post_script_name: Taprom-Regular
-    version: 8.001; ttfautohint (v1.8.3)
+    version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Taprom Project Authors (https://github.com/danhhong/Taprom)
-    font: Taprom-Regular.ttf
+    font: UcCn3F82JHycULbFQyk3-0kvHg.ttf
 extract: {}
 copyright: Copyright 2019 The Taprom Project Authors (https://github.com/danhhong/Taprom)
 license_url: https://scripts.sil.org/OFL
@@ -113,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 4f1c4d491d8818d3e30bea1ec938a9389ee13e8565460a76cde72dff2d90ce9d
-command: google import --formulas_path Formulas
+command: import google -n 9999

@@ -1,11 +1,12 @@
 ---
+name: Protest Strike
 description: Protest Strike
 resources:
-  Protest_Strike.zip:
-    urls:
-    - https://fonts.google.com/download?family=Protest%20Strike
-    sha256: 95e3b2de9c78603c1194104e50830ace8b58aaff1122c53b00a28e148bafd31d
-    file_size: 43246
+  Protest Strike:
+    source: google
+    family: Protest Strike
+    files:
+    - https://fonts.gstatic.com/s/proteststrike/v2/0QI5MXdf4Y67Rn6vBog67ZjFlpzW0gZOs7BX.ttf
 fonts:
 - name: Protest Strike
   styles:
@@ -15,7 +16,7 @@ fonts:
     post_script_name: ProtestStrike-Regular
     version: 2.005; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2020 The Protest Project Authors (https://github.com/octaviopardo/Protest)
-    font: ProtestStrike-Regular.ttf
+    font: 0QI5MXdf4Y67Rn6vBog67ZjFlpzW0gZOs7BX.ttf
 extract: {}
 copyright: Copyright 2020 The Protest Project Authors (https://github.com/octaviopardo/Protest)
 license_url: https://scripts.sil.org/OFL
@@ -24,7 +25,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  https://openfontlicense.org
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -113,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 51e60c5771666105b132bb9c626d31b31d605c61eb72e8296590447d0bbba02c
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

@@ -3,22 +3,15 @@ name: Mountains of Christmas
 description: Mountains of Christmas
 homepage: http://www.fontbros.com/tartworkshop.php
 resources:
-  MountainsofChristmas.zip:
-    urls:
-    - https://fonts.google.com/download?family=Mountains%20of%20Christmas
-    sha256: 6f8ab12c75e8452cfb25fae781ec6238200279c40dcb544d8816b4c8c2640dce
-    file_size: 151489
+  Mountains of Christmas:
+    source: google
+    family: Mountains of Christmas
+    files:
+    - https://fonts.gstatic.com/s/mountainsofchristmas/v22/3y9w6a4zcCnn5X0FDyrKi2ZRUBIy8uxoUo7ePNamMPNpJpc.ttf
+    - https://fonts.gstatic.com/s/mountainsofchristmas/v22/3y9z6a4zcCnn5X0FDyrKi2ZRUBIy8uxoUo7eBGqJFPtCOp6IaEA.ttf
 fonts:
 - name: Mountains of Christmas
   styles:
-  - family_name: Mountains of Christmas
-    type: Regular
-    full_name: Mountains of Christmas Regular
-    post_script_name: MountainsofChristmas-Regular
-    version: '1.003'
-    copyright: Copyright (c) 2010 2011, Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com)
-      with Reserved Font Name "Mountains of Christmas"
-    font: MountainsofChristmas-Regular.ttf
   - family_name: Mountains of Christmas
     type: Bold
     full_name: Mountains of Christmas Bold
@@ -26,14 +19,21 @@ fonts:
     version: '1.003'
     copyright: Copyright (c) 2010 2011, Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com)
       with Reserved Font Name "Mountains of Christmas"
-    font: MountainsofChristmas-Bold.ttf
-extract:
-  format: zip
+    font: 3y9z6a4zcCnn5X0FDyrKi2ZRUBIy8uxoUo7eBGqJFPtCOp6IaEA.ttf
+  - family_name: Mountains of Christmas
+    type: Regular
+    full_name: Mountains of Christmas Regular
+    post_script_name: MountainsofChristmas-Regular
+    version: '1.003'
+    copyright: Copyright (c) 2010 2011, Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com)
+      with Reserved Font Name "Mountains of Christmas"
+    font: 3y9w6a4zcCnn5X0FDyrKi2ZRUBIy8uxoUo7ePNamMPNpJpc.ttf
+extract: {}
 copyright: Copyright (c) 2010 2011, Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com)
   with Reserved Font Name "Mountains of Christmas"
 license_url: http://scripts.sil.org/OFL
-open_license: |2-
-                                   Apache License
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -234,3 +234,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999

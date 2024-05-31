@@ -1,11 +1,18 @@
 ---
+name: Readex Pro
 description: Readex Pro
 homepage: https://www.lexend.com
 resources:
-  Readex_Pro.zip:
-    urls:
-    - https://fonts.google.com/download?family=Readex%20Pro
-    file_size: 465481
+  Readex Pro:
+    source: google
+    family: Readex Pro
+    files:
+    - https://fonts.gstatic.com/s/readexpro/v21/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCYUSmgmsglvjkag.ttf
+    - https://fonts.gstatic.com/s/readexpro/v21/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCv0Smgmsglvjkag.ttf
+    - https://fonts.gstatic.com/s/readexpro/v21/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTC4USmgmsglvjkag.ttf
+    - https://fonts.gstatic.com/s/readexpro/v21/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTC00Smgmsglvjkag.ttf
+    - https://fonts.gstatic.com/s/readexpro/v21/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCP0Omgmsglvjkag.ttf
+    - https://fonts.gstatic.com/s/readexpro/v21/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCBkOmgmsglvjkag.ttf
 fonts:
 - name: Readex Pro
   styles:
@@ -15,21 +22,14 @@ fonts:
     post_script_name: ReadexPro-Bold
     version: '1.204'
     copyright: Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)
-    font: ReadexPro-Bold.ttf
+    font: SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCBkOmgmsglvjkag.ttf
   - family_name: Readex Pro
     type: Regular
     full_name: Readex Pro Regular
     post_script_name: ReadexPro-Regular
     version: '1.204'
     copyright: Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)
-    font: ReadexPro-VariableFont_HEXP,wght.ttf
-  - family_name: Readex Pro
-    type: Regular
-    full_name: Readex Pro Regular
-    post_script_name: ReadexPro-Regular
-    version: '1.204'
-    copyright: Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)
-    font: ReadexPro-Regular.ttf
+    font: SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTC4USmgmsglvjkag.ttf
 - name: Readex Pro ExtraLight
   styles:
   - family_name: Readex Pro ExtraLight
@@ -40,7 +40,7 @@ fonts:
     post_script_name: ReadexPro-ExtraLight
     version: '1.204'
     copyright: Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)
-    font: ReadexPro-ExtraLight.ttf
+    font: SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCYUSmgmsglvjkag.ttf
 - name: Readex Pro Light
   styles:
   - family_name: Readex Pro Light
@@ -51,7 +51,7 @@ fonts:
     post_script_name: ReadexPro-Light
     version: '1.204'
     copyright: Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)
-    font: ReadexPro-Light.ttf
+    font: SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCv0Smgmsglvjkag.ttf
 - name: Readex Pro Medium
   styles:
   - family_name: Readex Pro Medium
@@ -62,7 +62,7 @@ fonts:
     post_script_name: ReadexPro-Medium
     version: '1.204'
     copyright: Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)
-    font: ReadexPro-Medium.ttf
+    font: SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTC00Smgmsglvjkag.ttf
 - name: Readex Pro SemiBold
   styles:
   - family_name: Readex Pro SemiBold
@@ -73,7 +73,7 @@ fonts:
     post_script_name: ReadexPro-SemiBold
     version: '1.204'
     copyright: Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)
-    font: ReadexPro-SemiBold.ttf
+    font: SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCP0Omgmsglvjkag.ttf
 extract: {}
 copyright: Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)
 license_url: https://scripts.sil.org/OFL
@@ -82,7 +82,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -171,5 +171,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: c824dd914d7052c33e8cf607fdc35d79a15c1ea0328b53938552ddcd101caf3c
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

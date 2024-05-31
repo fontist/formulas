@@ -1,11 +1,12 @@
 ---
+name: Protest Guerrilla
 description: Protest Guerrilla
 resources:
-  Protest_Guerrilla.zip:
-    urls:
-    - https://fonts.google.com/download?family=Protest%20Guerrilla
-    sha256: 6e63195b12a7f1cb0fb02263d4ab93a67cc64b92346cf8bbb208464139336e56
-    file_size: 44107
+  Protest Guerrilla:
+    source: google
+    family: Protest Guerrilla
+    files:
+    - https://fonts.gstatic.com/s/protestguerrilla/v2/Qw3HZR5PDSL6K3irtrY-VJB2YzARHV0koJ8y_eiS.ttf
 fonts:
 - name: Protest Guerrilla
   styles:
@@ -15,7 +16,7 @@ fonts:
     post_script_name: ProtestGuerrilla-Regular
     version: 2.005; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2020 The Protest Project Authors (https://github.com/octaviopardo/Protest)
-    font: ProtestGuerrilla-Regular.ttf
+    font: Qw3HZR5PDSL6K3irtrY-VJB2YzARHV0koJ8y_eiS.ttf
 extract: {}
 copyright: Copyright 2020 The Protest Project Authors (https://github.com/octaviopardo/Protest)
 license_url: https://scripts.sil.org/OFL
@@ -24,7 +25,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  https://openfontlicense.org
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -113,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d04618c3a66487df1a35eff22e3b427d4f3b209077994828c18b09846001812e
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

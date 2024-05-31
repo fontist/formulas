@@ -1,11 +1,21 @@
 ---
+name: Murecho
 description: Murecho
 homepage: http://positype.com
 resources:
-  Murecho.zip:
-    urls:
-    - https://fonts.google.com/download?family=Murecho
-    file_size: 5292622
+  Murecho:
+    source: google
+    family: Murecho
+    files:
+    - https://fonts.gstatic.com/s/murecho/v11/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMpr5HWZLCpUOaM6.ttf
+    - https://fonts.gstatic.com/s/murecho/v11/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMrr5XWZLCpUOaM6.ttf
+    - https://fonts.gstatic.com/s/murecho/v11/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMo15XWZLCpUOaM6.ttf
+    - https://fonts.gstatic.com/s/murecho/v11/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMpr5XWZLCpUOaM6.ttf
+    - https://fonts.gstatic.com/s/murecho/v11/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMpZ5XWZLCpUOaM6.ttf
+    - https://fonts.gstatic.com/s/murecho/v11/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMq14nWZLCpUOaM6.ttf
+    - https://fonts.gstatic.com/s/murecho/v11/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMqM4nWZLCpUOaM6.ttf
+    - https://fonts.gstatic.com/s/murecho/v11/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMrr4nWZLCpUOaM6.ttf
+    - https://fonts.gstatic.com/s/murecho/v11/q5uYsoq3NOBn_I-ggCJg98TBOoNFCMrC4nWZLCpUOaM6.ttf
 fonts:
 - name: Murecho
   styles:
@@ -15,14 +25,14 @@ fonts:
     post_script_name: Murecho-Bold
     version: '1.010'
     copyright: Copyright 2021 The Murecho Project Authors (https://github.com/positype/Murecho-Project)
-    font: Murecho-Bold.ttf
+    font: q5uYsoq3NOBn_I-ggCJg98TBOoNFCMqM4nWZLCpUOaM6.ttf
   - family_name: Murecho
     type: Regular
     full_name: Murecho Regular
     post_script_name: Murecho-Regular
     version: '1.010'
     copyright: Copyright 2021 The Murecho Project Authors (https://github.com/positype/Murecho-Project)
-    font: Murecho-Regular.ttf
+    font: q5uYsoq3NOBn_I-ggCJg98TBOoNFCMpr5XWZLCpUOaM6.ttf
 - name: Murecho Black
   styles:
   - family_name: Murecho Black
@@ -33,7 +43,7 @@ fonts:
     post_script_name: Murecho-Black
     version: '1.010'
     copyright: Copyright 2021 The Murecho Project Authors (https://github.com/positype/Murecho-Project)
-    font: Murecho-Black.ttf
+    font: q5uYsoq3NOBn_I-ggCJg98TBOoNFCMrC4nWZLCpUOaM6.ttf
 - name: Murecho ExtraBold
   styles:
   - family_name: Murecho ExtraBold
@@ -44,7 +54,7 @@ fonts:
     post_script_name: Murecho-ExtraBold
     version: '1.010'
     copyright: Copyright 2021 The Murecho Project Authors (https://github.com/positype/Murecho-Project)
-    font: Murecho-ExtraBold.ttf
+    font: q5uYsoq3NOBn_I-ggCJg98TBOoNFCMrr4nWZLCpUOaM6.ttf
 - name: Murecho ExtraLight
   styles:
   - family_name: Murecho ExtraLight
@@ -55,7 +65,7 @@ fonts:
     post_script_name: Murecho-ExtraLight
     version: '1.010'
     copyright: Copyright 2021 The Murecho Project Authors (https://github.com/positype/Murecho-Project)
-    font: Murecho-ExtraLight.ttf
+    font: q5uYsoq3NOBn_I-ggCJg98TBOoNFCMrr5XWZLCpUOaM6.ttf
 - name: Murecho Light
   styles:
   - family_name: Murecho Light
@@ -66,7 +76,7 @@ fonts:
     post_script_name: Murecho-Light
     version: '1.010'
     copyright: Copyright 2021 The Murecho Project Authors (https://github.com/positype/Murecho-Project)
-    font: Murecho-Light.ttf
+    font: q5uYsoq3NOBn_I-ggCJg98TBOoNFCMo15XWZLCpUOaM6.ttf
 - name: Murecho Medium
   styles:
   - family_name: Murecho Medium
@@ -77,7 +87,7 @@ fonts:
     post_script_name: Murecho-Medium
     version: '1.010'
     copyright: Copyright 2021 The Murecho Project Authors (https://github.com/positype/Murecho-Project)
-    font: Murecho-Medium.ttf
+    font: q5uYsoq3NOBn_I-ggCJg98TBOoNFCMpZ5XWZLCpUOaM6.ttf
 - name: Murecho SemiBold
   styles:
   - family_name: Murecho SemiBold
@@ -88,7 +98,7 @@ fonts:
     post_script_name: Murecho-SemiBold
     version: '1.010'
     copyright: Copyright 2021 The Murecho Project Authors (https://github.com/positype/Murecho-Project)
-    font: Murecho-SemiBold.ttf
+    font: q5uYsoq3NOBn_I-ggCJg98TBOoNFCMq14nWZLCpUOaM6.ttf
 - name: Murecho Thin
   styles:
   - family_name: Murecho Thin
@@ -99,16 +109,7 @@ fonts:
     post_script_name: Murecho-Thin
     version: '1.010'
     copyright: Copyright 2021 The Murecho Project Authors (https://github.com/positype/Murecho-Project)
-    font: Murecho-VariableFont_wght.ttf
-  - family_name: Murecho Thin
-    type: Regular
-    preferred_family_name: Murecho
-    preferred_type: Thin
-    full_name: Murecho Thin
-    post_script_name: Murecho-Thin
-    version: '1.010'
-    copyright: Copyright 2021 The Murecho Project Authors (https://github.com/positype/Murecho-Project)
-    font: Murecho-Thin.ttf
+    font: q5uYsoq3NOBn_I-ggCJg98TBOoNFCMpr5HWZLCpUOaM6.ttf
 extract: {}
 copyright: Copyright 2021 The Murecho Project Authors (https://github.com/positype/Murecho-Project)
 license_url: https://scripts.sil.org/OFL
@@ -117,7 +118,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -206,5 +207,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: dd235d4ec46b348499c49619dd678d9bd92f8eec4d3cb70affa94711fae33cc6
-command: google import --formulas_path Formulas
+command: import google -n 9999

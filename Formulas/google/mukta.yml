@@ -3,65 +3,90 @@ name: Mukta
 description: Mukta
 homepage: www.ektype.in
 resources:
-  Mukta.zip:
-    urls:
-    - https://fonts.google.com/download?family=Mukta
-    sha256: 8e3c18500529f014682f438be21754ca499431547c12d9e2a823ec9532cffff9
-    file_size: 1356281
+  Mukta:
+    source: google
+    family: Mukta
+    files:
+    - https://fonts.gstatic.com/s/mukta/v14/iJWHBXyXfDDVXbEOjFma-2HW7ZB_.ttf
+    - https://fonts.gstatic.com/s/mukta/v14/iJWHBXyXfDDVXbFqj1ma-2HW7ZB_.ttf
+    - https://fonts.gstatic.com/s/mukta/v14/iJWKBXyXfDDVXYnGp32S0H3f.ttf
+    - https://fonts.gstatic.com/s/mukta/v14/iJWHBXyXfDDVXbEyjlma-2HW7ZB_.ttf
+    - https://fonts.gstatic.com/s/mukta/v14/iJWHBXyXfDDVXbEeiVma-2HW7ZB_.ttf
+    - https://fonts.gstatic.com/s/mukta/v14/iJWHBXyXfDDVXbF6iFma-2HW7ZB_.ttf
+    - https://fonts.gstatic.com/s/mukta/v14/iJWHBXyXfDDVXbFmi1ma-2HW7ZB_.ttf
 fonts:
 - name: Mukta
   styles:
-  - family_name: Mukta
-    type: ExtraLight
-    full_name: Mukta ExtraLight
-    post_script_name: Mukta-ExtraLight
-    version: 2.538;PS 1.002;hotconv 16.6.51;makeotf.lib2.5.65220; ttfautohint (v1.6)
-    copyright: Copyright (c) 2014, Girish Dalvi, Ek Type. All rights reserved.
-    font: Mukta-ExtraLight.ttf
-  - family_name: Mukta
-    type: Light
-    full_name: Mukta Light
-    post_script_name: Mukta-Light
-    version: 2.538;PS 1.002;hotconv 16.6.51;makeotf.lib2.5.65220; ttfautohint (v1.6)
-    copyright: Copyright (c) 2014, Girish Dalvi, Ek Type. All rights reserved.
-    font: Mukta-Light.ttf
-  - family_name: Mukta
-    type: Regular
-    full_name: Mukta Regular
-    post_script_name: Mukta-Regular
-    version: 2.538;PS 1.001;hotconv 16.6.51;makeotf.lib2.5.65220; ttfautohint (v1.6)
-    copyright: Copyright (c) 2014, Girish Dalvi, Ek Type. All rights reserved.
-    font: Mukta-Regular.ttf
-  - family_name: Mukta
-    type: Medium
-    full_name: Mukta Medium
-    post_script_name: Mukta-Medium
-    version: 2.538;PS 1.002;hotconv 16.6.51;makeotf.lib2.5.65220; ttfautohint (v1.6)
-    copyright: Copyright (c) 2014, Girish Dalvi, Ek Type. All rights reserved.
-    font: Mukta-Medium.ttf
-  - family_name: Mukta
-    type: SemiBold
-    full_name: Mukta SemiBold
-    post_script_name: Mukta-SemiBold
-    version: 2.538;PS 1.002;hotconv 16.6.51;makeotf.lib2.5.65220; ttfautohint (v1.6)
-    copyright: Copyright (c) 2014, Girish Dalvi, Ek Type. All rights reserved.
-    font: Mukta-SemiBold.ttf
   - family_name: Mukta
     type: Bold
     full_name: Mukta Bold
     post_script_name: Mukta-Bold
     version: 2.538;PS 1.002;hotconv 16.6.51;makeotf.lib2.5.65220; ttfautohint (v1.6)
     copyright: Copyright (c) 2014, Girish Dalvi, Ek Type. All rights reserved.
-    font: Mukta-Bold.ttf
+    font: iJWHBXyXfDDVXbF6iFma-2HW7ZB_.ttf
   - family_name: Mukta
-    type: ExtraBold
+    type: Regular
+    full_name: Mukta Regular
+    post_script_name: Mukta-Regular
+    version: 2.538;PS 1.001;hotconv 16.6.51;makeotf.lib2.5.65220; ttfautohint (v1.6)
+    copyright: Copyright (c) 2014, Girish Dalvi, Ek Type. All rights reserved.
+    font: iJWKBXyXfDDVXYnGp32S0H3f.ttf
+- name: Mukta ExtraBold
+  styles:
+  - family_name: Mukta ExtraBold
+    type: Regular
+    preferred_family_name: Mukta
+    preferred_type: ExtraBold
     full_name: Mukta ExtraBold
     post_script_name: Mukta-ExtraBold
     version: 2.538;PS 1.002;hotconv 16.6.51;makeotf.lib2.5.65220; ttfautohint (v1.6)
     copyright: Copyright (c) 2014, Girish Dalvi, Ek Type. All rights reserved.
-    font: Mukta-ExtraBold.ttf
-extract:
-  format: zip
+    font: iJWHBXyXfDDVXbFmi1ma-2HW7ZB_.ttf
+- name: Mukta ExtraLight
+  styles:
+  - family_name: Mukta ExtraLight
+    type: Regular
+    preferred_family_name: Mukta
+    preferred_type: ExtraLight
+    full_name: Mukta ExtraLight
+    post_script_name: Mukta-ExtraLight
+    version: 2.538;PS 1.002;hotconv 16.6.51;makeotf.lib2.5.65220; ttfautohint (v1.6)
+    copyright: Copyright (c) 2014, Girish Dalvi, Ek Type. All rights reserved.
+    font: iJWHBXyXfDDVXbEOjFma-2HW7ZB_.ttf
+- name: Mukta Light
+  styles:
+  - family_name: Mukta Light
+    type: Regular
+    preferred_family_name: Mukta
+    preferred_type: Light
+    full_name: Mukta Light
+    post_script_name: Mukta-Light
+    version: 2.538;PS 1.002;hotconv 16.6.51;makeotf.lib2.5.65220; ttfautohint (v1.6)
+    copyright: Copyright (c) 2014, Girish Dalvi, Ek Type. All rights reserved.
+    font: iJWHBXyXfDDVXbFqj1ma-2HW7ZB_.ttf
+- name: Mukta Medium
+  styles:
+  - family_name: Mukta Medium
+    type: Regular
+    preferred_family_name: Mukta
+    preferred_type: Medium
+    full_name: Mukta Medium
+    post_script_name: Mukta-Medium
+    version: 2.538;PS 1.002;hotconv 16.6.51;makeotf.lib2.5.65220; ttfautohint (v1.6)
+    copyright: Copyright (c) 2014, Girish Dalvi, Ek Type. All rights reserved.
+    font: iJWHBXyXfDDVXbEyjlma-2HW7ZB_.ttf
+- name: Mukta SemiBold
+  styles:
+  - family_name: Mukta SemiBold
+    type: Regular
+    preferred_family_name: Mukta
+    preferred_type: SemiBold
+    full_name: Mukta SemiBold
+    post_script_name: Mukta-SemiBold
+    version: 2.538;PS 1.002;hotconv 16.6.51;makeotf.lib2.5.65220; ttfautohint (v1.6)
+    copyright: Copyright (c) 2014, Girish Dalvi, Ek Type. All rights reserved.
+    font: iJWHBXyXfDDVXbEeiVma-2HW7ZB_.ttf
+extract: {}
 copyright: Copyright (c) 2014, Girish Dalvi, Ek Type. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -158,3 +183,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Ceviche One
 description: Ceviche One
 homepage: www.latinotype.com
 resources:
-  CevicheOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Ceviche%20One
-    sha256: eebb363e9c5ab48eef4788c332ff81743017595471498aea529a739e88a3c305
-    file_size: 23588
+  Ceviche One:
+    source: google
+    family: Ceviche One
+    files:
+    - https://fonts.gstatic.com/s/cevicheone/v16/gyB4hws1IcA6JzR-GB_JX6zdZ4vZVbgZ.ttf
 fonts:
 - name: Ceviche One
   styles:
@@ -17,9 +18,8 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011 by LatinoType Limitada (luciano@latinotype.com),
       with Reserved Font Names "Cecivhe" and "Ceviche One"
-    font: CevicheOne-Regular.ttf
-extract:
-  format: zip
+    font: gyB4hws1IcA6JzR-GB_JX6zdZ4vZVbgZ.ttf
+extract: {}
 copyright: Copyright (c) 2011 by LatinoType Limitada (luciano@latinotype.com), with
   Reserved Font Names "Cecivhe" and "Ceviche One"
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

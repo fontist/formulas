@@ -1,12 +1,13 @@
 ---
+name: Voltaire
 description: Voltaire
 homepage: http://sorkintype.com/
 resources:
-  Voltaire.zip:
-    urls:
-    - https://fonts.google.com/download?family=Voltaire
-    sha256: 13f6a31174e07671fbfc44a14b1fb2cb371fe87d3a58868569137cabe0ed408a
-    file_size: 110571
+  Voltaire:
+    source: google
+    family: Voltaire
+    files:
+    - https://fonts.gstatic.com/s/voltaire/v20/1Pttg8PcRfSblAvGvQooYKVnBOif.ttf
 fonts:
 - name: Voltaire
   styles:
@@ -17,16 +18,16 @@ fonts:
     version: 1.008; ttfautohint (v1.8.4.7-5d5b)
     description: Voltaire is a low contrast condensed semi-geometric style sans serif.
     copyright: Copyright 2011 The Voltaire Project Authors (https://github.com/SorkinType/Voltaire)
-    font: Voltaire-Regular.ttf
+    font: 1Pttg8PcRfSblAvGvQooYKVnBOif.ttf
 extract: {}
 copyright: Copyright 2011 The Voltaire Project Authors (https://github.com/SorkinType/Voltaire)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2011 The Voltaire Project Authors (https://github.com/SorkinType/Voltaire)
+  Copyright 2024 The Voltaire Project Authors (https://github.com/SorkinType/Voltaire)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 24c62951717ebf0f8dc74312e705b42afca153522a4c6d806f6364eb0b844655
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

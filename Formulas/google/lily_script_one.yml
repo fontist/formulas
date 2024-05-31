@@ -1,12 +1,12 @@
 ---
+name: Lily Script One
 description: Lily Script One
-homepage:
 resources:
-  LilyScriptOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Lily%20Script%20One
-    sha256: 4b83fc538124e9fd9e3d0bd04a04fc4679c65f72741bdf01710359a9042cf8e8
-    file_size: 21353
+  Lily Script One:
+    source: google
+    family: Lily Script One
+    files:
+    - https://fonts.gstatic.com/s/lilyscriptone/v15/LhW9MV7ZMfIPdMxeBjBvFN8SXLS4gsSjQNsRMg.ttf
 fonts:
 - name: Lily Script One
   styles:
@@ -17,10 +17,9 @@ fonts:
     version: 1.002;PS 001.001;hotconv 1.0.70;makeotf.lib2.5.58329
     copyright: Copyright (c) 2012, Julia Petretta (www.juliapetretta.com julia.petretta@googlemail.com),
       with Reserved Font Name 'Lily'
-    font: LilyScriptOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012-2013, Julia Petretta (www.juliapetretta.com julia.petretta@googlemail.com),
+    font: LhW9MV7ZMfIPdMxeBjBvFN8SXLS4gsSjQNsRMg.ttf
+extract: {}
+copyright: Copyright (c) 2012, Julia Petretta (www.juliapetretta.com julia.petretta@googlemail.com),
   with Reserved Font Name 'Lily'
 license_url: http//scripts.sil.org/OFL
 open_license: |-
@@ -117,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

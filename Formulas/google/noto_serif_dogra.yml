@@ -1,12 +1,13 @@
 ---
+name: Noto Serif Dogra
 description: Noto Serif Dogra
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Serif_Dogra.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Serif%20Dogra
-    sha256: 6ee5f8c5c1497492e6dd17535143b94053081a171850065a2042a1747c75741e
-    file_size: 48846
+  Noto Serif Dogra:
+    source: google
+    family: Noto Serif Dogra
+    files:
+    - https://fonts.gstatic.com/s/notoserifdogra/v23/MQpP-XquKMC7ROPP3QOOlm7xPu3fGy63IbPzkns.ttf
 fonts:
 - name: Noto Serif Dogra
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 1.007; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Ek Type
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/dogra)
-    font: NotoSerifDogra-Regular.ttf
+    font: MQpP-XquKMC7ROPP3QOOlm7xPu3fGy63IbPzkns.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/dogra)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e223125cdb27cc49850832cbbc997bac143503639789282133866d4d78b27aac
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

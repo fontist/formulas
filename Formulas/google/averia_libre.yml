@@ -1,39 +1,34 @@
 ---
+name: Averia Libre
 description: Averia Libre
-homepage:
 resources:
-  AveriaLibre.zip:
-    urls:
-    - https://fonts.google.com/download?family=Averia%20Libre
-    sha256: 80dbedcd4d3ca8d578c8fd3bd6ca1044b2af4911edddb3f186069bbcbf4dbfcb
-    file_size: 398770
+  Averia Libre:
+    source: google
+    family: Averia Libre
+    files:
+    - https://fonts.gstatic.com/s/averialibre/v16/2V0FKIcMGZEnV6xygz7eNjEarovtb07t-pQgTw.ttf
+    - https://fonts.gstatic.com/s/averialibre/v16/2V0HKIcMGZEnV6xygz7eNjESAJFhbUTp2JEwT4Sk.ttf
+    - https://fonts.gstatic.com/s/averialibre/v16/2V0aKIcMGZEnV6xygz7eNjEiAqPJZ2Xx8w.ttf
+    - https://fonts.gstatic.com/s/averialibre/v16/2V0EKIcMGZEnV6xygz7eNjESAKnNRWDh8405.ttf
+    - https://fonts.gstatic.com/s/averialibre/v16/2V0FKIcMGZEnV6xygz7eNjEavoztb07t-pQgTw.ttf
+    - https://fonts.gstatic.com/s/averialibre/v16/2V0HKIcMGZEnV6xygz7eNjESAJFxakTp2JEwT4Sk.ttf
 fonts:
 - name: Averia Libre
   styles:
   - family_name: Averia Libre
-    type: Light
-    full_name: Averia Libre Light
-    post_script_name: AveriaLibre-Light
+    type: Bold
+    full_name: Averia Libre Bold
+    post_script_name: AveriaLibre-Bold
     version: '1.002'
-    copyright: Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name
-      'Averia' and 'Averia Libre'.
-    font: AveriaLibre-Light.ttf
+    copyright: 2011, Dan Sayers (i@iotic.com
+    font: 2V0FKIcMGZEnV6xygz7eNjEavoztb07t-pQgTw.ttf
   - family_name: Averia Libre
-    type: Light Italic
-    full_name: Averia Libre Light Italic
-    post_script_name: AveriaLibre-LightItalic
+    type: Bold Italic
+    full_name: Averia Libre Bold Italic
+    post_script_name: AveriaLibre-BoldItalic
     version: '1.002'
-    copyright: Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name
-      'Averia' and 'Averia Libre'.
-    font: AveriaLibre-LightItalic.ttf
-  - family_name: Averia Libre
-    type: Regular
-    full_name: Averia Libre Regular
-    post_script_name: AveriaLibre-Regular
-    version: '1.002'
-    copyright: Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name
-      'Averia' and 'Averia Libre'.
-    font: AveriaLibre-Regular.ttf
+    copyright: 2011, Dan Sayers (i@iotic.com
+    font: 2V0HKIcMGZEnV6xygz7eNjESAJFxakTp2JEwT4Sk.ttf
   - family_name: Averia Libre
     type: Italic
     full_name: Averia Libre Italic
@@ -41,23 +36,38 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name
       'Averia' and 'Averia Libre'.
-    font: AveriaLibre-Italic.ttf
+    font: 2V0EKIcMGZEnV6xygz7eNjESAKnNRWDh8405.ttf
   - family_name: Averia Libre
-    type: Bold
-    full_name: Averia Libre Bold
-    post_script_name: AveriaLibre-Bold
+    type: Regular
+    full_name: Averia Libre Regular
+    post_script_name: AveriaLibre-Regular
     version: '1.002'
-    copyright: 2011, Dan Sayers (i@iotic.com
-    font: AveriaLibre-Bold.ttf
-  - family_name: Averia Libre
-    type: Bold Italic
-    full_name: Averia Libre Bold Italic
-    post_script_name: AveriaLibre-BoldItalic
+    copyright: Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name
+      'Averia' and 'Averia Libre'.
+    font: 2V0aKIcMGZEnV6xygz7eNjEiAqPJZ2Xx8w.ttf
+- name: Averia Libre Light
+  styles:
+  - family_name: Averia Libre Light
+    type: Italic
+    preferred_family_name: Averia Libre
+    preferred_type: Light Italic
+    full_name: Averia Libre Light Italic
+    post_script_name: AveriaLibre-LightItalic
     version: '1.002'
-    copyright: 2011, Dan Sayers (i@iotic.com
-    font: AveriaLibre-BoldItalic.ttf
-extract:
-  format: zip
+    copyright: Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name
+      'Averia' and 'Averia Libre'.
+    font: 2V0HKIcMGZEnV6xygz7eNjESAJFhbUTp2JEwT4Sk.ttf
+  - family_name: Averia Libre Light
+    type: Regular
+    preferred_family_name: Averia Libre
+    preferred_type: Light
+    full_name: Averia Libre Light
+    post_script_name: AveriaLibre-Light
+    version: '1.002'
+    copyright: Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name
+      'Averia' and 'Averia Libre'.
+    font: 2V0FKIcMGZEnV6xygz7eNjEarovtb07t-pQgTw.ttf
+extract: {}
 copyright: Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name 'Averia'
   and 'Averia Libre'.
 license_url: http://scripts.sil.org/OFL
@@ -156,3 +166,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

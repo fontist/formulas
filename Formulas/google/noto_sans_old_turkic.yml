@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Old Turkic
 description: Noto Sans Old Turkic
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Old_Turkic.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Old%20Turkic
-    sha256: cccc644525b6827fac0dc6149a4c03561ad561767cba800515df2fa44e067f71
-    file_size: 34412
+  Noto Sans Old Turkic:
+    source: google
+    family: Noto Sans Old Turkic
+    files:
+    - https://fonts.gstatic.com/s/notosansoldturkic/v17/yMJNMJVya43H0SUF_WmcGEQVqoEMKDKbsE2RjEw-Vyws.ttf
 fonts:
 - name: Noto Sans Old Turkic
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-turkic)
-    font: NotoSansOldTurkic-Regular.ttf
+    font: yMJNMJVya43H0SUF_WmcGEQVqoEMKDKbsE2RjEw-Vyws.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-turkic)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 48c3d74e2acfa44462df4f9685e79c277b022fd4123b9f5a79f48c152e241dd2
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

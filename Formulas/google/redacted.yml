@@ -1,12 +1,13 @@
 ---
+name: Redacted
 description: Redacted
 homepage: https://github.com/christiannaths/Redacted-Font
 resources:
-  Redacted.zip:
-    urls:
-    - https://fonts.google.com/download?family=Redacted
-    sha256: d1115bcee304e9b23baabbde63d8990a46f7d5a84a6bf5a38a176c2e62c8da17
-    file_size: 7375
+  Redacted:
+    source: google
+    family: Redacted
+    files:
+    - https://fonts.gstatic.com/s/redacted/v8/Z9XVDmdRShme2O_7aITe4u2El6GC.ttf
 fonts:
 - name: Redacted
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: Redacted-Regular
     version: 1.002; ttfautohint (v1.8.3)
     copyright: Copyright 2013 The Redacted Project Authors (https://github.com/christiannaths/redacted-font)
-    font: Redacted-Regular.ttf
+    font: Z9XVDmdRShme2O_7aITe4u2El6GC.ttf
 extract: {}
 copyright: Copyright 2013 The Redacted Project Authors (https://github.com/christiannaths/redacted-font)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 13577174698a52c87d6001c84431cd9b65c50d78d4fbb862fddf40baf4128199
-command: google import --formulas_path Formulas
+command: import google -n 9999

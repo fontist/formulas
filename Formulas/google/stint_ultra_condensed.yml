@@ -1,12 +1,13 @@
 ---
+name: Stint Ultra Condensed
 description: Stint Ultra Condensed
 homepage: http://www.astigmatic.com/
 resources:
-  StintUltraCondensed.zip:
-    urls:
-    - https://fonts.google.com/download?family=Stint%20Ultra%20Condensed
-    sha256: 1ff297a3225d95e55dfe01ac4fcfe5dd2eb641b405bdaad1212d2e37e8b20137
-    file_size: 22947
+  Stint Ultra Condensed:
+    source: google
+    family: Stint Ultra Condensed
+    files:
+    - https://fonts.gstatic.com/s/stintultracondensed/v23/-W_gXIrsVjjeyEnPC45qD2NoFPtBE0xCh2A-qhUO2cNvdg.ttf
 fonts:
 - name: Stint Ultra Condensed
   styles:
@@ -18,11 +19,11 @@ fonts:
     copyright: |-
       Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
       Font Name "Stint Ultra Condensed"
-    font: StintUltraCondensed-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com),
-  with Reserved Font Name "Stint Ultra Condensed"
+    font: "-W_gXIrsVjjeyEnPC45qD2NoFPtBE0xCh2A-qhUO2cNvdg.ttf"
+extract: {}
+copyright: |-
+  Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+  Font Name "Stint Ultra Condensed"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Names "Stint Ultra Condensed"
@@ -118,3 +119,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

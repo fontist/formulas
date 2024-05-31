@@ -3,11 +3,11 @@ name: Milonga
 description: Milonga
 homepage: www.impallari.com
 resources:
-  Milonga.zip:
-    urls:
-    - https://fonts.google.com/download?family=Milonga
-    sha256: 47b2bea6498dde55c310de26537362176a5387a921e5a2ccb9f1bcf926c1ee7e
-    file_size: 69346
+  Milonga:
+    source: google
+    family: Milonga
+    files:
+    - https://fonts.gstatic.com/s/milonga/v22/SZc53FHnIaK9W5kffz3GkUrS8DI.ttf
 fonts:
 - name: Milonga
   styles:
@@ -27,13 +27,12 @@ fonts:
       Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),
       Copyright (c) 2011, Brenda Gallo (gbrenda1987@gmail.com),
       Copyright (c) 2011, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved Font Name Milonga.
-    font: Milonga-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),
-  Copyright (c) 2011, Brenda Gallo (gbrenda1987@gmail.com), Copyright (c) 2011, Rodrigo
-  Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved Font Name
-  Milonga.
+    font: SZc53FHnIaK9W5kffz3GkUrS8DI.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),
+  Copyright (c) 2011, Brenda Gallo (gbrenda1987@gmail.com),
+  Copyright (c) 2011, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved Font Name Milonga.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),
@@ -131,3 +130,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

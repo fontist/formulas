@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Kaithi
 description: Noto Sans Kaithi
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Kaithi.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Kaithi
-    sha256: ea1e8af892d32ff4b291c6c810a66f15738bde0ef6c90d37e5b93be4152a5281
-    file_size: 69521
+  Noto Sans Kaithi:
+    source: google
+    family: Noto Sans Kaithi
+    files:
+    - https://fonts.gstatic.com/s/notosanskaithi/v21/buEtppS9f8_vkXadMBJJu0tWjLwjQi0KdoZIKlo.ttf
 fonts:
 - name: Noto Sans Kaithi
   styles:
@@ -14,10 +15,10 @@ fonts:
     type: Regular
     full_name: Noto Sans Kaithi Regular
     post_script_name: NotoSansKaithi-Regular
-    version: 2.004; ttfautohint (v1.8.4.7-5d5b)
+    version: 2.005; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/kaithi)
-    font: NotoSansKaithi-Regular.ttf
+    font: buEtppS9f8_vkXadMBJJu0tWjLwjQi0KdoZIKlo.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/kaithi)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  https://openfontlicense.org
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 8cde29e89ff49816b752cdbdc5bed0feeb41b5929aa837203acd6c9d511711d8
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

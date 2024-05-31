@@ -1,12 +1,13 @@
 ---
+name: Agbalumo
 description: Agbalumo
 homepage: http://sorkintype.com
 resources:
-  Agbalumo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Agbalumo
-    sha256: d22cca4c64c75d82321db78f3c24f579381901a8198bd98d5f6965ab79b8765f
-    file_size: 217845
+  Agbalumo:
+    source: google
+    family: Agbalumo
+    files:
+    - https://fonts.gstatic.com/s/agbalumo/v5/55xvey5uMdT2N37KZcMFirl08KDJ.ttf
 fonts:
 - name: Agbalumo
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: Agbalumo-Regular
     version: 1.000; ttfautohint (v1.8.4)
     copyright: Copyright 2023 The Agbalumo Project Authors (https://github.com/SorkinType/Agbalumo)
-    font: Agbalumo-Regular.ttf
+    font: 55xvey5uMdT2N37KZcMFirl08KDJ.ttf
 extract: {}
 copyright: Copyright 2023 The Agbalumo Project Authors (https://github.com/SorkinType/Agbalumo)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 64af5c548e887826d5bc9ad0567784166202effd06eb6ac40437e165c07c5e07
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

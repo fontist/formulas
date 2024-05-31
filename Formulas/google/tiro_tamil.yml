@@ -1,12 +1,14 @@
 ---
+name: Tiro Tamil
 description: Tiro Tamil
 homepage: https://github.com/TiroTypeworks/Indigo
 resources:
-  Tiro_Tamil.zip:
-    urls:
-    - https://fonts.google.com/download?family=Tiro%20Tamil
-    sha256: 3a93d00cfe621376f1923dc63a4cfe1b1f26a55966173eae1e71f8d6b3d6306d
-    file_size: 190763
+  Tiro Tamil:
+    source: google
+    family: Tiro Tamil
+    files:
+    - https://fonts.gstatic.com/s/tirotamil/v10/m8JXjfVIf7OT22n3M-S_ULRvamODxdI.ttf
+    - https://fonts.gstatic.com/s/tirotamil/v10/m8JVjfVIf7OT22n3M-S_YLZlbkGG1dKEDw.ttf
 fonts:
 - name: Tiro Tamil
   styles:
@@ -16,14 +18,14 @@ fonts:
     post_script_name: TiroTamil-Italic
     version: '1.52'
     copyright: Copyright 2020 The Indigo Project Authors (https://github.com/TiroTypeworks/Indigo)
-    font: TiroTamil-Italic.ttf
+    font: m8JVjfVIf7OT22n3M-S_YLZlbkGG1dKEDw.ttf
   - family_name: Tiro Tamil
     type: Regular
     full_name: Tiro Tamil Regular
     post_script_name: TiroTamil-Regular
     version: '1.52'
     copyright: Copyright 2020 The Indigo Project Authors (https://github.com/TiroTypeworks/Indigo)
-    font: TiroTamil-Regular.ttf
+    font: m8JXjfVIf7OT22n3M-S_ULRvamODxdI.ttf
 extract: {}
 copyright: Copyright 2020 The Indigo Project Authors (https://github.com/TiroTypeworks/Indigo)
 license_url: https://scripts.sil.org/OFL
@@ -121,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 4e2f2c358a60a21e8b25c37e3f1a4b8ce8691a0b5e8ac091ed7b7fecf46de9e4
-command: import google --formulas_path Formulas
+command: import google -n 9999

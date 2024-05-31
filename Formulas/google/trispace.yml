@@ -3,10 +3,18 @@ name: Trispace
 description: Trispace
 homepage: https://etceteratype.co
 resources:
-  Trispace.zip:
-    urls:
-    - https://fonts.google.com/download?family=Trispace
-    file_size: 2025208
+  Trispace:
+    source: google
+    family: Trispace
+    files:
+    - https://fonts.gstatic.com/s/trispace/v24/Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbH9qoQl0zHugpt0.ttf
+    - https://fonts.gstatic.com/s/trispace/v24/Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbP9roQl0zHugpt0.ttf
+    - https://fonts.gstatic.com/s/trispace/v24/Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbCFroQl0zHugpt0.ttf
+    - https://fonts.gstatic.com/s/trispace/v24/Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbH9roQl0zHugpt0.ttf
+    - https://fonts.gstatic.com/s/trispace/v24/Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbE1roQl0zHugpt0.ttf
+    - https://fonts.gstatic.com/s/trispace/v24/Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbKFsoQl0zHugpt0.ttf
+    - https://fonts.gstatic.com/s/trispace/v24/Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbJhsoQl0zHugpt0.ttf
+    - https://fonts.gstatic.com/s/trispace/v24/Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbP9soQl0zHugpt0.ttf
 fonts:
 - name: Trispace
   styles:
@@ -16,186 +24,14 @@ fonts:
     post_script_name: Trispace-Bold
     version: '1.210'
     copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace-Bold.ttf
+    font: Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbJhsoQl0zHugpt0.ttf
   - family_name: Trispace
     type: Regular
     full_name: Trispace Regular
     post_script_name: Trispace-Regular
     version: '1.210'
     copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace-Regular.ttf
-- name: Trispace Condensed
-  styles:
-  - family_name: Trispace Condensed
-    type: Bold
-    preferred_family_name: Trispace Condensed
-    preferred_type: Bold
-    full_name: Trispace Condensed Bold
-    post_script_name: TrispaceCondensed-Bold
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_Condensed-Bold.ttf
-  - family_name: Trispace Condensed
-    type: Regular
-    preferred_family_name: Trispace Condensed
-    preferred_type: Regular
-    full_name: Trispace Condensed Regular
-    post_script_name: TrispaceCondensed-Regular
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_Condensed-Regular.ttf
-- name: Trispace Condensed ExtraBold
-  styles:
-  - family_name: Trispace Condensed ExtraBold
-    type: Regular
-    preferred_family_name: Trispace Condensed
-    preferred_type: ExtraBold
-    full_name: Trispace Condensed ExtraBold
-    post_script_name: TrispaceCondensed-ExtraBold
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_Condensed-ExtraBold.ttf
-- name: Trispace Condensed ExtraLight
-  styles:
-  - family_name: Trispace Condensed ExtraLight
-    type: Regular
-    preferred_family_name: Trispace Condensed
-    preferred_type: ExtraLight
-    full_name: Trispace Condensed ExtraLight
-    post_script_name: TrispaceCondensed-ExtraLight
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_Condensed-ExtraLight.ttf
-- name: Trispace Condensed Light
-  styles:
-  - family_name: Trispace Condensed Light
-    type: Regular
-    preferred_family_name: Trispace Condensed
-    preferred_type: Light
-    full_name: Trispace Condensed Light
-    post_script_name: TrispaceCondensed-Light
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_Condensed-Light.ttf
-- name: Trispace Condensed Medium
-  styles:
-  - family_name: Trispace Condensed Medium
-    type: Regular
-    preferred_family_name: Trispace Condensed
-    preferred_type: Medium
-    full_name: Trispace Condensed Medium
-    post_script_name: TrispaceCondensed-Medium
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_Condensed-Medium.ttf
-- name: Trispace Condensed SemiBold
-  styles:
-  - family_name: Trispace Condensed SemiBold
-    type: Regular
-    preferred_family_name: Trispace Condensed
-    preferred_type: SemiBold
-    full_name: Trispace Condensed SemiBold
-    post_script_name: TrispaceCondensed-SemiBold
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_Condensed-SemiBold.ttf
-- name: Trispace Condensed Thin
-  styles:
-  - family_name: Trispace Condensed Thin
-    type: Regular
-    preferred_family_name: Trispace Condensed
-    preferred_type: Thin
-    full_name: Trispace Condensed Thin
-    post_script_name: TrispaceCondensed-Thin
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_Condensed-Thin.ttf
-- name: Trispace Expanded
-  styles:
-  - family_name: Trispace Expanded
-    type: Bold
-    preferred_family_name: Trispace Expanded
-    preferred_type: Bold
-    full_name: Trispace Expanded Bold
-    post_script_name: TrispaceExpanded-Bold
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_Expanded-Bold.ttf
-  - family_name: Trispace Expanded
-    type: Regular
-    preferred_family_name: Trispace Expanded
-    preferred_type: Regular
-    full_name: Trispace Expanded Regular
-    post_script_name: TrispaceExpanded-Regular
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_Expanded-Regular.ttf
-- name: Trispace Expanded ExtraBold
-  styles:
-  - family_name: Trispace Expanded ExtraBold
-    type: Regular
-    preferred_family_name: Trispace Expanded
-    preferred_type: ExtraBold
-    full_name: Trispace Expanded ExtraBold
-    post_script_name: TrispaceExpanded-ExtraBold
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_Expanded-ExtraBold.ttf
-- name: Trispace Expanded ExtraLight
-  styles:
-  - family_name: Trispace Expanded ExtraLight
-    type: Regular
-    preferred_family_name: Trispace Expanded
-    preferred_type: ExtraLight
-    full_name: Trispace Expanded ExtraLight
-    post_script_name: TrispaceExpanded-ExtraLight
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_Expanded-ExtraLight.ttf
-- name: Trispace Expanded Light
-  styles:
-  - family_name: Trispace Expanded Light
-    type: Regular
-    preferred_family_name: Trispace Expanded
-    preferred_type: Light
-    full_name: Trispace Expanded Light
-    post_script_name: TrispaceExpanded-Light
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_Expanded-Light.ttf
-- name: Trispace Expanded Medium
-  styles:
-  - family_name: Trispace Expanded Medium
-    type: Regular
-    preferred_family_name: Trispace Expanded
-    preferred_type: Medium
-    full_name: Trispace Expanded Medium
-    post_script_name: TrispaceExpanded-Medium
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_Expanded-Medium.ttf
-- name: Trispace Expanded SemiBold
-  styles:
-  - family_name: Trispace Expanded SemiBold
-    type: Regular
-    preferred_family_name: Trispace Expanded
-    preferred_type: SemiBold
-    full_name: Trispace Expanded SemiBold
-    post_script_name: TrispaceExpanded-SemiBold
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_Expanded-SemiBold.ttf
-- name: Trispace Expanded Thin
-  styles:
-  - family_name: Trispace Expanded Thin
-    type: Regular
-    preferred_family_name: Trispace Expanded
-    preferred_type: Thin
-    full_name: Trispace Expanded Thin
-    post_script_name: TrispaceExpanded-Thin
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_Expanded-Thin.ttf
+    font: Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbH9roQl0zHugpt0.ttf
 - name: Trispace ExtraBold
   styles:
   - family_name: Trispace ExtraBold
@@ -206,7 +42,7 @@ fonts:
     post_script_name: Trispace-ExtraBold
     version: '1.210'
     copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace-ExtraBold.ttf
+    font: Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbP9soQl0zHugpt0.ttf
 - name: Trispace ExtraLight
   styles:
   - family_name: Trispace ExtraLight
@@ -217,7 +53,7 @@ fonts:
     post_script_name: Trispace-ExtraLight
     version: '1.210'
     copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace-ExtraLight.ttf
+    font: Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbP9roQl0zHugpt0.ttf
 - name: Trispace Light
   styles:
   - family_name: Trispace Light
@@ -228,7 +64,7 @@ fonts:
     post_script_name: Trispace-Light
     version: '1.210'
     copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace-Light.ttf
+    font: Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbCFroQl0zHugpt0.ttf
 - name: Trispace Medium
   styles:
   - family_name: Trispace Medium
@@ -239,7 +75,7 @@ fonts:
     post_script_name: Trispace-Medium
     version: '1.210'
     copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace-Medium.ttf
+    font: Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbE1roQl0zHugpt0.ttf
 - name: Trispace SemiBold
   styles:
   - family_name: Trispace SemiBold
@@ -250,179 +86,7 @@ fonts:
     post_script_name: Trispace-SemiBold
     version: '1.210'
     copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace-SemiBold.ttf
-- name: Trispace SemiCondensed
-  styles:
-  - family_name: Trispace SemiCondensed
-    type: Bold
-    preferred_family_name: Trispace SemiCondensed
-    preferred_type: Bold
-    full_name: Trispace SemiCondensed Bold
-    post_script_name: TrispaceSemiCondensed-Bold
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_SemiCondensed-Bold.ttf
-  - family_name: Trispace SemiCondensed
-    type: Regular
-    preferred_family_name: Trispace SemiCondensed
-    preferred_type: Regular
-    full_name: Trispace SemiCondensed Regular
-    post_script_name: TrispaceSemiCondensed-Regular
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_SemiCondensed-Regular.ttf
-- name: Trispace SemiCondensed ExtraBold
-  styles:
-  - family_name: Trispace SemiCondensed ExtraBold
-    type: Regular
-    preferred_family_name: Trispace SemiCondensed
-    preferred_type: ExtraBold
-    full_name: Trispace SemiCondensed ExtraBold
-    post_script_name: TrispaceSemiCondensed-ExtraBold
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_SemiCondensed-ExtraBold.ttf
-- name: Trispace SemiCondensed ExtraLight
-  styles:
-  - family_name: Trispace SemiCondensed ExtraLight
-    type: Regular
-    preferred_family_name: Trispace SemiCondensed
-    preferred_type: ExtraLight
-    full_name: Trispace SemiCondensed ExtraLight
-    post_script_name: TrispaceSemiCondensed-ExtraLight
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_SemiCondensed-ExtraLight.ttf
-- name: Trispace SemiCondensed Light
-  styles:
-  - family_name: Trispace SemiCondensed Light
-    type: Regular
-    preferred_family_name: Trispace SemiCondensed
-    preferred_type: Light
-    full_name: Trispace SemiCondensed Light
-    post_script_name: TrispaceSemiCondensed-Light
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_SemiCondensed-Light.ttf
-- name: Trispace SemiCondensed Medium
-  styles:
-  - family_name: Trispace SemiCondensed Medium
-    type: Regular
-    preferred_family_name: Trispace SemiCondensed
-    preferred_type: Medium
-    full_name: Trispace SemiCondensed Medium
-    post_script_name: TrispaceSemiCondensed-Medium
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_SemiCondensed-Medium.ttf
-- name: Trispace SemiCondensed SemiBold
-  styles:
-  - family_name: Trispace SemiCondensed SemiBold
-    type: Regular
-    preferred_family_name: Trispace SemiCondensed
-    preferred_type: SemiBold
-    full_name: Trispace SemiCondensed SemiBold
-    post_script_name: TrispaceSemiCondensed-SemiBold
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_SemiCondensed-SemiBold.ttf
-- name: Trispace SemiCondensed Thin
-  styles:
-  - family_name: Trispace SemiCondensed Thin
-    type: Regular
-    preferred_family_name: Trispace SemiCondensed
-    preferred_type: Thin
-    full_name: Trispace SemiCondensed Thin
-    post_script_name: TrispaceSemiCondensed-Thin
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_SemiCondensed-Thin.ttf
-- name: Trispace SemiExpanded
-  styles:
-  - family_name: Trispace SemiExpanded
-    type: Bold
-    preferred_family_name: Trispace SemiExpanded
-    preferred_type: Bold
-    full_name: Trispace SemiExpanded Bold
-    post_script_name: TrispaceSemiExpanded-Bold
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_SemiExpanded-Bold.ttf
-  - family_name: Trispace SemiExpanded
-    type: Regular
-    preferred_family_name: Trispace SemiExpanded
-    preferred_type: Regular
-    full_name: Trispace SemiExpanded Regular
-    post_script_name: TrispaceSemiExpanded-Regular
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_SemiExpanded-Regular.ttf
-- name: Trispace SemiExpanded ExtraBold
-  styles:
-  - family_name: Trispace SemiExpanded ExtraBold
-    type: Regular
-    preferred_family_name: Trispace SemiExpanded
-    preferred_type: ExtraBold
-    full_name: Trispace SemiExpanded ExtraBold
-    post_script_name: TrispaceSemiExpanded-ExtraBold
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_SemiExpanded-ExtraBold.ttf
-- name: Trispace SemiExpanded ExtraLight
-  styles:
-  - family_name: Trispace SemiExpanded ExtraLight
-    type: Regular
-    preferred_family_name: Trispace SemiExpanded
-    preferred_type: ExtraLight
-    full_name: Trispace SemiExpanded ExtraLight
-    post_script_name: TrispaceSemiExpanded-ExtraLight
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_SemiExpanded-ExtraLight.ttf
-- name: Trispace SemiExpanded Light
-  styles:
-  - family_name: Trispace SemiExpanded Light
-    type: Regular
-    preferred_family_name: Trispace SemiExpanded
-    preferred_type: Light
-    full_name: Trispace SemiExpanded Light
-    post_script_name: TrispaceSemiExpanded-Light
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_SemiExpanded-Light.ttf
-- name: Trispace SemiExpanded Medium
-  styles:
-  - family_name: Trispace SemiExpanded Medium
-    type: Regular
-    preferred_family_name: Trispace SemiExpanded
-    preferred_type: Medium
-    full_name: Trispace SemiExpanded Medium
-    post_script_name: TrispaceSemiExpanded-Medium
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_SemiExpanded-Medium.ttf
-- name: Trispace SemiExpanded SemiBold
-  styles:
-  - family_name: Trispace SemiExpanded SemiBold
-    type: Regular
-    preferred_family_name: Trispace SemiExpanded
-    preferred_type: SemiBold
-    full_name: Trispace SemiExpanded SemiBold
-    post_script_name: TrispaceSemiExpanded-SemiBold
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_SemiExpanded-SemiBold.ttf
-- name: Trispace SemiExpanded Thin
-  styles:
-  - family_name: Trispace SemiExpanded Thin
-    type: Regular
-    preferred_family_name: Trispace SemiExpanded
-    preferred_type: Thin
-    full_name: Trispace SemiExpanded Thin
-    post_script_name: TrispaceSemiExpanded-Thin
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace_SemiExpanded-Thin.ttf
+    font: Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbKFsoQl0zHugpt0.ttf
 - name: Trispace Thin
   styles:
   - family_name: Trispace Thin
@@ -433,16 +97,7 @@ fonts:
     post_script_name: Trispace-Thin
     version: '1.210'
     copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace-Thin.ttf
-  - family_name: Trispace Thin
-    type: Regular
-    preferred_family_name: Trispace
-    preferred_type: Thin
-    full_name: Trispace Thin
-    post_script_name: Trispace-Thin
-    version: '1.210'
-    copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
-    font: Trispace-VariableFont_wdth,wght.ttf
+    font: Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbH9qoQl0zHugpt0.ttf
 extract: {}
 copyright: Copyright 2020 The Trispace Project Authors (https://github.com/Etcetera-Type-Co/Trispace)
 license_url: https://scripts.sil.org/OFL
@@ -451,7 +106,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -540,5 +195,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b6539dc7951c1ca9d8e05a0a86ef4161a98ddca63f3d591ba3abd1f50b5b412e
-command: google import --formulas_path Formulas
+command: import google -n 9999

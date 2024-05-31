@@ -1,12 +1,13 @@
 ---
+name: Bowlby One
 description: Bowlby One
 homepage: http://www.newtypography.co.uk
 resources:
-  BowlbyOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Bowlby%20One
-    sha256: acbff8500ebc44c3c28cd721384e951b258e88fbe123b74f6a8bcbc50d062061
-    file_size: 37563
+  Bowlby One:
+    source: google
+    family: Bowlby One
+    files:
+    - https://fonts.gstatic.com/s/bowlbyone/v23/taiPGmVuC4y96PFeqp8smo6C_Z0wcK4.ttf
 fonts:
 - name: Bowlby One
   styles:
@@ -19,9 +20,8 @@ fonts:
       Reserved Font Names "Bowlby" "Bowlby One" and "Bowlby One SC". This Font Software
       is licensed under the SIL Open Font License, Version 1.1. This license is available
       with a FAQ at: http://scripts.sil.org/OFL'
-    font: BowlbyOne-Regular.ttf
-extract:
-  format: zip
+    font: taiPGmVuC4y96PFeqp8smo6C_Z0wcK4.ttf
+extract: {}
 copyright: 'Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk), with Reserved
   Font Names "Bowlby" "Bowlby One" and "Bowlby One SC". This Font Software is licensed
   under the SIL Open Font License, Version 1.1. This license is available with a FAQ
@@ -122,3 +122,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Londrina Outline
 description: Londrina Outline
 homepage: http://www.tipospereira.com
 resources:
-  LondrinaOutline.zip:
-    urls:
-    - https://fonts.google.com/download?family=Londrina%20Outline
-    sha256: c2ff6993e2e2cd34986fe55a77d79be41dab425fcd38d39199191da1d17aabc5
-    file_size: 82038
+  Londrina Outline:
+    source: google
+    family: Londrina Outline
+    files:
+    - https://fonts.gstatic.com/s/londrinaoutline/v27/C8c44dM8vmb14dfsZxhetg3pDH-SfuoxrSKMDvI.ttf
 fonts:
 - name: Londrina Outline
   styles:
@@ -17,9 +18,8 @@ fonts:
     version: '1.002'
     copyright: Copyright 2011 The Londrina Outline Authors (https://github.com/marcelommp/Londrina-Typeface),
       with Reserved Font Name "Londrina Outline"
-    font: LondrinaOutline-Regular.ttf
-extract:
-  format: zip
+    font: C8c44dM8vmb14dfsZxhetg3pDH-SfuoxrSKMDvI.ttf
+extract: {}
 copyright: Copyright 2011 The Londrina Outline Authors (https://github.com/marcelommp/Londrina-Typeface),
   with Reserved Font Name "Londrina Outline"
 license_url: http://scripts.sil.org/OFL
@@ -117,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

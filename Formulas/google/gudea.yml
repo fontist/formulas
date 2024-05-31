@@ -1,32 +1,17 @@
 ---
 name: Gudea
 description: Gudea
-homepage:
 resources:
-  Gudea.zip:
-    urls:
-    - https://fonts.google.com/download?family=Gudea
-    sha256: 41d36e072a8398c7e9c619e484258fea37dae11e5a647511d14a3bc9bcd7f293
-    file_size: 44431
+  Gudea:
+    source: google
+    family: Gudea
+    files:
+    - https://fonts.gstatic.com/s/gudea/v15/neIFzCqgsI0mp-CP9IGON7Ez.ttf
+    - https://fonts.gstatic.com/s/gudea/v15/neILzCqgsI0mp9CN_oWsMqEzSJQ.ttf
+    - https://fonts.gstatic.com/s/gudea/v15/neIIzCqgsI0mp9gz26WGHK06UY30.ttf
 fonts:
 - name: Gudea
   styles:
-  - family_name: Gudea
-    type: Regular
-    full_name: Gudea
-    post_script_name: Gudea
-    version: '1.003'
-    copyright: Copyright (c) 2012, Agustina Mingote (agustinamingote@gmail.com), with
-      Reserved Font Names "Gudea"
-    font: Gudea-Regular.ttf
-  - family_name: Gudea
-    type: Italic
-    full_name: Gudea Italic
-    post_script_name: Gudea-Italic
-    version: '1.002'
-    copyright: Copyright (c) 2012, Agustina Mingote (agustinamingote@gmail.com), with
-      Reserved Font Names "Gudea"
-    font: Gudea-Italic.ttf
   - family_name: Gudea
     type: Bold
     full_name: Gudea Bold
@@ -34,9 +19,24 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2012, Agustina Mingote (agustinamingote@gmail.com), with
       Reserved Font Names "Gudea"
-    font: Gudea-Bold.ttf
-extract:
-  format: zip
+    font: neIIzCqgsI0mp9gz26WGHK06UY30.ttf
+  - family_name: Gudea
+    type: Italic
+    full_name: Gudea Italic
+    post_script_name: Gudea-Italic
+    version: '1.002'
+    copyright: Copyright (c) 2012, Agustina Mingote (agustinamingote@gmail.com), with
+      Reserved Font Names "Gudea"
+    font: neILzCqgsI0mp9CN_oWsMqEzSJQ.ttf
+  - family_name: Gudea
+    type: Regular
+    full_name: Gudea
+    post_script_name: Gudea
+    version: '1.003'
+    copyright: Copyright (c) 2012, Agustina Mingote (agustinamingote@gmail.com), with
+      Reserved Font Names "Gudea"
+    font: neIFzCqgsI0mp-CP9IGON7Ez.ttf
+extract: {}
 copyright: Copyright (c) 2012, Agustina Mingote (agustinamingote@gmail.com), with
   Reserved Font Names "Gudea"
 license_url: http://scripts.sil.org/OFL
@@ -136,3 +136,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,13 +1,12 @@
 ---
 name: Coiny
 description: Coiny
-homepage:
 resources:
-  Coiny.zip:
-    urls:
-    - https://fonts.google.com/download?family=Coiny
-    sha256: 666402ef7bba9a16279ee7bb008891616ddee54ecf40520d72e9da177782a058
-    file_size: 65687
+  Coiny:
+    source: google
+    family: Coiny
+    files:
+    - https://fonts.gstatic.com/s/coiny/v16/gyByhwU1K989PXwbElSvO5Tc.ttf
 fonts:
 - name: Coiny
   styles:
@@ -17,10 +16,9 @@ fonts:
     post_script_name: Coiny-Regular
     version: '001.001'
     copyright: Copyright (c) 2015, Marcelo Magalhaes
-    font: Coiny-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2015 Marcelo Magalhaes (marcelommp@gmail.com @marcelommp)
+    font: gyByhwU1K989PXwbElSvO5Tc.ttf
+extract: {}
+copyright: Copyright (c) 2015, Marcelo Magalhaes
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright 2015 Marcelo Magalhaes (marcelommp@gmail.com @marcelommp)
@@ -116,3 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

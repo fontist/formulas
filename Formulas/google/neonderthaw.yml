@@ -1,12 +1,13 @@
 ---
+name: Neonderthaw
 description: Neonderthaw
 homepage: www.typesetit.com
 resources:
-  Neonderthaw.zip:
-    urls:
-    - https://fonts.google.com/download?family=Neonderthaw
-    sha256: 56611b03fec02c034c74e7496cb92749d6a6375fc1c526394b0081b95f9cdf06
-    file_size: 117327
+  Neonderthaw:
+    source: google
+    family: Neonderthaw
+    files:
+    - https://fonts.gstatic.com/s/neonderthaw/v6/Iure6Yx5-oWVZI0r-17AeZZJprVA4XQ0.ttf
 fonts:
 - name: Neonderthaw
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: Neonderthaw-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2014-2021 The Neonderthaw Project Authors (https://github.com/googlefonts/neonderthaw)
-    font: Neonderthaw-Regular.ttf
+    font: Iure6Yx5-oWVZI0r-17AeZZJprVA4XQ0.ttf
 extract: {}
 copyright: Copyright 2014-2021 The Neonderthaw Project Authors (https://github.com/googlefonts/neonderthaw)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 4d1aa97a9a36b5a123794df1b04db57e8317b47d213b9ebb15e92f085f16f898
-command: google import --formulas_path Formulas
+command: import google -n 9999

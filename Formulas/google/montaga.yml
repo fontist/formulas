@@ -1,13 +1,12 @@
 ---
 name: Montaga
 description: Montaga
-homepage:
 resources:
-  Montaga.zip:
-    urls:
-    - https://fonts.google.com/download?family=Montaga
-    sha256: a958743e52096691effa3ee99c7104ddbe73910bc7f0cfa1eb1d35c676ccf1ef
-    file_size: 19210
+  Montaga:
+    source: google
+    family: Montaga
+    files:
+    - https://fonts.gstatic.com/s/montaga/v13/H4cnBX2Ml8rCkEO_0gYQ7LO5mqc.ttf
 fonts:
 - name: Montaga
   styles:
@@ -18,9 +17,8 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011, Alejandra Rodriguez (ale_guez@yahoo.com.ar http://twitter.com/ale_guez),
       with Reserved Font Name "Montaga"
-    font: Montaga-Regular.ttf
-extract:
-  format: zip
+    font: H4cnBX2Ml8rCkEO_0gYQ7LO5mqc.ttf
+extract: {}
 copyright: Copyright (c) 2011, Alejandra Rodriguez (ale_guez@yahoo.com.ar http://twitter.com/ale_guez),
   with Reserved Font Name "Montaga"
 license_url: http://scripts.sil.org/OFL
@@ -119,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

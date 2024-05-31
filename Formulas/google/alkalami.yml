@@ -1,12 +1,13 @@
 ---
+name: Alkalami
 description: Alkalami
 homepage: www.sil.org
 resources:
-  Alkalami.zip:
-    urls:
-    - https://fonts.google.com/download?family=Alkalami
-    sha256: f5dc4bb46e496dff9da164d496434cecb45c856ad8b282c6e04d0e3154c7acef
-    file_size: 70311
+  Alkalami:
+    source: google
+    family: Alkalami
+    files:
+    - https://fonts.gstatic.com/s/alkalami/v7/zOL_4pfDmqRL95WXi5eLw8BMuvhH.ttf
 fonts:
 - name: Alkalami
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: '3.000'
     description: Arabic script font for use in the Kano region of Nigeria and Niger
     copyright: Copyright (c) SIL International, 2015-2023
-    font: Alkalami-Regular.ttf
+    font: zOL_4pfDmqRL95WXi5eLw8BMuvhH.ttf
 extract: {}
 copyright: Copyright (c) SIL International, 2015-2023
 license_url: http://scripts.sil.org/OFL
@@ -26,13 +27,13 @@ open_license: |-
   with Reserved Font Names "Alkalami" and "SIL".
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
-  This license is copied below, and is also available with a FAQ at:
+
+  This license is copied below, and is also available with an FAQ at:
   http://scripts.sil.org/OFL
 
-
-  -----------------------------------------------------------
+  ----------------------------------------------------
   SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
-  -----------------------------------------------------------
+  ----------------------------------------------------
 
   PREAMBLE
   The goals of the Open Font License (OFL) are to stimulate worldwide
@@ -116,5 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d6c72c8a99b7e45e6eccaabe6b79e6ecc7ce16ade05541fdbb4e766aadf252d6
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

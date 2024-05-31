@@ -1,11 +1,12 @@
 ---
+name: Yarndings 12 Charted
 description: Yarndings 12 Charted
 resources:
-  Yarndings_12_Charted.zip:
-    urls:
-    - https://fonts.google.com/download?family=Yarndings%2012%20Charted
-    sha256: aadc3372244a437b890261113297a298e694dcea56abf1cb373cea63434986e8
-    file_size: 23820
+  Yarndings 12 Charted:
+    source: google
+    family: Yarndings 12 Charted
+    files:
+    - https://fonts.gstatic.com/s/yarndings12charted/v2/eLGDP_DlKhO-DUfeqM4I_vDdJgmIh7hAvvbJ0t-dHaJH.ttf
 fonts:
 - name: Yarndings 12 Charted
   styles:
@@ -15,7 +16,7 @@ fonts:
     post_script_name: Yarndings12Charted-Regular
     version: 1.000; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type-yarndings)
-    font: Yarndings12Charted-Regular.ttf
+    font: eLGDP_DlKhO-DUfeqM4I_vDdJgmIh7hAvvbJ0t-dHaJH.ttf
 extract: {}
 copyright: Copyright 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type-yarndings)
 license_url: https://openfontlicense.org
@@ -113,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 6470136ed3e90c1c81e6924c2f1b22fb279235109b25cf0030239f6514b87909
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

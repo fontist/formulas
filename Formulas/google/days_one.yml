@@ -1,12 +1,13 @@
 ---
+name: Days One
 description: Days One
 homepage: http://jovanny.ru/
 resources:
-  DaysOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Days%20One
-    sha256: f2c2b03df038104cb812945cde169906395019f5a364fffae354c0aa831f01b2
-    file_size: 31885
+  Days One:
+    source: google
+    family: Days One
+    files:
+    - https://fonts.gstatic.com/s/daysone/v18/mem9YaCnxnKRiYZOCLYVeLkWVNBt.ttf
 fonts:
 - name: Days One
   styles:
@@ -19,11 +20,10 @@ fonts:
       Lemonad. All rights reserved.
     copyright: Copyright (c) 2009 by Alexander Kalachev, Alexey Maslov, Jovanny Lemonad.
       All rights reserved.
-    font: DaysOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2009 by Alexander Kalachev, Alexey Maslov, Jovanny Lemonad
-  (lemonad@jovanny.ru). All rights reserved.
+    font: mem9YaCnxnKRiYZOCLYVeLkWVNBt.ttf
+extract: {}
+copyright: Copyright (c) 2009 by Alexander Kalachev, Alexey Maslov, Jovanny Lemonad.
+  All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Jovanny Lemonad (http://www.jovanny.ru)
@@ -120,3 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

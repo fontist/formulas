@@ -1,13 +1,12 @@
 ---
 name: UnifrakturCook
 description: UnifrakturCook
-homepage:
 resources:
-  UnifrakturCook.zip:
-    urls:
-    - https://fonts.google.com/download?family=UnifrakturCook
-    sha256: bf58531c64daadd593b7b22d33062cc09dbc542f665fcdf91b5a5b0e6664a597
-    file_size: 27594
+  UnifrakturCook:
+    source: google
+    family: UnifrakturCook
+    files:
+    - https://fonts.gstatic.com/s/unifrakturcook/v23/IurA6Yli8YOdcoky-0PTTdkm56n05Uw13ILXs-h6.ttf
 fonts:
 - name: UnifrakturCook
   styles:
@@ -17,12 +16,9 @@ fonts:
     post_script_name: UnifrakturCook-Bold
     version: '2011-09-01'
     copyright: Copyright (c) 2010 j. 'mach' wust with Reserved Font Name UnifrakturCook.
-    font: UnifrakturCook-Bold.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010 j. 'mach' wust (j.mach.wust@gmail.com) with Reserved
-  Font Name UnifrakturCook. Copyright (c) 2009 Peter Wiegel (wiegel@peter-wiegel.de).
-  This Font Software is licensed under the SIL Open Font License, Version 1.1.
+    font: IurA6Yli8YOdcoky-0PTTdkm56n05Uw13ILXs-h6.ttf
+extract: {}
+copyright: Copyright (c) 2010 j. 'mach' wust with Reserved Font Name UnifrakturCook.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, j. 'mach' wust, with Reserved Font Name UnifrakturCook.
@@ -119,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

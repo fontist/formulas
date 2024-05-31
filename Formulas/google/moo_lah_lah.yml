@@ -1,12 +1,13 @@
 ---
+name: Moo Lah Lah
 description: Moo Lah Lah
 homepage: www.typesetit.com
 resources:
-  Moo_Lah_Lah.zip:
-    urls:
-    - https://fonts.google.com/download?family=Moo%20Lah%20Lah
-    sha256: e6e0b1d72d276d265ad4274cf4c6d1aa235b154d7e6745186f15b26865104818
-    file_size: 137876
+  Moo Lah Lah:
+    source: google
+    family: Moo Lah Lah
+    files:
+    - https://fonts.gstatic.com/s/moolahlah/v6/dg4h_p_opKZOA0w1AYcm55wtYQYugjW4.ttf
 fonts:
 - name: Moo Lah Lah
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: MooLahLah-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2003-2021 The Moo Lah Lah Project Authors (https://github.com/googlefonts/moolahlah)
-    font: MooLahLah-Regular.ttf
+    font: dg4h_p_opKZOA0w1AYcm55wtYQYugjW4.ttf
 extract: {}
 copyright: Copyright 2003-2021 The Moo Lah Lah Project Authors (https://github.com/googlefonts/moolahlah)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: fddacd3bd57e7ca9ae805c66ce0af9ccad23350688975d7d0bc1e4b927aec8a2
-command: google import --formulas_path Formulas
+command: import google -n 9999

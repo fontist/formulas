@@ -1,12 +1,14 @@
 ---
+name: Tai Heritage Pro
 description: Tai Heritage Pro
 homepage: http://scripts.sil.org
 resources:
-  Tai_Heritage_Pro.zip:
-    urls:
-    - https://fonts.google.com/download?family=Tai%20Heritage%20Pro
-    sha256: 8347a1ce925057ac9560fafd05ade76b8d6169471c008fb2cfbc28c9f1936b13
-    file_size: 110999
+  Tai Heritage Pro:
+    source: google
+    family: Tai Heritage Pro
+    files:
+    - https://fonts.gstatic.com/s/taiheritagepro/v6/sZlfdQid-zgaNiNIYcUzJMU3IYyNoHxSENxuLuE.ttf
+    - https://fonts.gstatic.com/s/taiheritagepro/v6/sZlYdQid-zgaNiNIYcUzJMU3IYyNmMB9NNRFMuhjCXY.ttf
 fonts:
 - name: Tai Heritage Pro
   styles:
@@ -17,7 +19,7 @@ fonts:
     version: '2.600'
     description: Copyright (c) 1995-2012 by SIL International
     copyright: Copyright (c) 1995-2017, SIL International (www.sil.org)
-    font: TaiHeritagePro-Bold.ttf
+    font: sZlYdQid-zgaNiNIYcUzJMU3IYyNmMB9NNRFMuhjCXY.ttf
   - family_name: Tai Heritage Pro
     type: Regular
     full_name: Tai Heritage Pro
@@ -25,7 +27,7 @@ fonts:
     version: '2.600'
     description: Copyright (c) 1995-2012 by SIL International
     copyright: Copyright (c) 1995-2017, SIL International (www.sil.org)
-    font: TaiHeritagePro-Regular.ttf
+    font: sZlfdQid-zgaNiNIYcUzJMU3IYyNoHxSENxuLuE.ttf
 extract: {}
 copyright: Copyright (c) 1995-2017, SIL International (www.sil.org)
 license_url: http://scripts.sil.org/OFL
@@ -124,5 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 10473a46e47a4e91f6ca7729ef159b44ecf5b84ca44be6dda6d472cca37bae7b
-command: import google --formulas_path Formulas
+command: import google -n 9999

@@ -1,33 +1,19 @@
 ---
+name: Lobster Two
 description: Lobster Two
 homepage: www.impallari.com
 resources:
-  LobsterTwo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Lobster%20Two
-    sha256: 994bb680db25f72c527fc6b963a23291657fee1ba041a0461385d8d724a27c61
-    file_size: 319994
+  Lobster Two:
+    source: google
+    family: Lobster Two
+    files:
+    - https://fonts.gstatic.com/s/lobstertwo/v20/BngMUXZGTXPUvIoyV6yN59fK7KSJ4ACD.ttf
+    - https://fonts.gstatic.com/s/lobstertwo/v20/BngOUXZGTXPUvIoyV6yN5-fI5qCr5RCDY_k.ttf
+    - https://fonts.gstatic.com/s/lobstertwo/v20/BngRUXZGTXPUvIoyV6yN5-92w4CByxyKeuDp.ttf
+    - https://fonts.gstatic.com/s/lobstertwo/v20/BngTUXZGTXPUvIoyV6yN5-fI3hyEwRiof_DpXMY.ttf
 fonts:
 - name: Lobster Two
   styles:
-  - family_name: Lobster Two
-    type: Regular
-    full_name: Lobster Two
-    post_script_name: LobsterTwo
-    version: '1.006'
-    description: Copyright (c) 2011 by Pablo Impallari. All rights reserved.
-    copyright: Copyright (c) 2011 by Pablo Impallari. www.impallari.com. All rights
-      reserved.
-    font: LobsterTwo-Regular.ttf
-  - family_name: Lobster Two
-    type: Italic
-    full_name: Lobster Two Italic
-    post_script_name: LobsterTwo-Italic
-    version: '1.006'
-    description: Copyright (c) 2011 by Pablo Impallari. All rights reserved.
-    copyright: Copyright (c) 2011 by Pablo Impallari. www.impallari.com. All rights
-      reserved.
-    font: LobsterTwo-Italic.ttf
   - family_name: Lobster Two
     type: Bold
     full_name: Lobster Two Bold
@@ -36,7 +22,7 @@ fonts:
     description: Copyright (c) 2011 by Pablo Impallari. All rights reserved.
     copyright: Copyright (c) 2011 by Pablo Impallari. www.impallari.com. All rights
       reserved.
-    font: LobsterTwo-Bold.ttf
+    font: BngRUXZGTXPUvIoyV6yN5-92w4CByxyKeuDp.ttf
   - family_name: Lobster Two
     type: Bold Italic
     full_name: Lobster Two Bold Italic
@@ -45,11 +31,27 @@ fonts:
     description: Copyright (c) 2011 by Pablo Impallari. All rights reserved.
     copyright: Copyright (c) 2011 by Pablo Impallari. www.impallari.com. All rights
       reserved.
-    font: LobsterTwo-BoldItalic.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com).
-  All rights reserved.
+    font: BngTUXZGTXPUvIoyV6yN5-fI3hyEwRiof_DpXMY.ttf
+  - family_name: Lobster Two
+    type: Italic
+    full_name: Lobster Two Italic
+    post_script_name: LobsterTwo-Italic
+    version: '1.006'
+    description: Copyright (c) 2011 by Pablo Impallari. All rights reserved.
+    copyright: Copyright (c) 2011 by Pablo Impallari. www.impallari.com. All rights
+      reserved.
+    font: BngOUXZGTXPUvIoyV6yN5-fI5qCr5RCDY_k.ttf
+  - family_name: Lobster Two
+    type: Regular
+    full_name: Lobster Two
+    post_script_name: LobsterTwo
+    version: '1.006'
+    description: Copyright (c) 2011 by Pablo Impallari. All rights reserved.
+    copyright: Copyright (c) 2011 by Pablo Impallari. www.impallari.com. All rights
+      reserved.
+    font: BngMUXZGTXPUvIoyV6yN59fK7KSJ4ACD.ttf
+extract: {}
+copyright: Copyright (c) 2011 by Pablo Impallari. www.impallari.com. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),
@@ -147,3 +149,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

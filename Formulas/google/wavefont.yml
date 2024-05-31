@@ -1,10 +1,20 @@
 ---
+name: Wavefont
 description: Wavefont
 resources:
-  Wavefont.zip:
-    urls:
-    - https://fonts.google.com/download?family=Wavefont
-    file_size: 74574
+  Wavefont:
+    source: google
+    family: Wavefont
+    files:
+    - https://fonts.gstatic.com/s/wavefont/v10/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI3V0rDHXKtOXOg4.ttf
+    - https://fonts.gstatic.com/s/wavefont/v10/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI1V07DHXKtOXOg4.ttf
+    - https://fonts.gstatic.com/s/wavefont/v10/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI2L07DHXKtOXOg4.ttf
+    - https://fonts.gstatic.com/s/wavefont/v10/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI3V07DHXKtOXOg4.ttf
+    - https://fonts.gstatic.com/s/wavefont/v10/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI3n07DHXKtOXOg4.ttf
+    - https://fonts.gstatic.com/s/wavefont/v10/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI0L1LDHXKtOXOg4.ttf
+    - https://fonts.gstatic.com/s/wavefont/v10/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI0y1LDHXKtOXOg4.ttf
+    - https://fonts.gstatic.com/s/wavefont/v10/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI1V1LDHXKtOXOg4.ttf
+    - https://fonts.gstatic.com/s/wavefont/v10/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI181LDHXKtOXOg4.ttf
 fonts:
 - name: Wavefont
   styles:
@@ -14,14 +24,14 @@ fonts:
     post_script_name: Wavefont-Bold
     version: 3.005;gftools[0.9.33]
     copyright: Copyright 2022 The Wavefont Project Authors (https://github.com/dy/wavefont)
-    font: Wavefont-Bold.ttf
+    font: L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI0y1LDHXKtOXOg4.ttf
   - family_name: Wavefont
     type: Regular
     full_name: Wavefont Regular
     post_script_name: Wavefont-Regular
     version: 3.005;gftools[0.9.33]
     copyright: Copyright 2022 The Wavefont Project Authors (https://github.com/dy/wavefont)
-    font: Wavefont-Regular.ttf
+    font: L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI3V07DHXKtOXOg4.ttf
 - name: Wavefont Black
   styles:
   - family_name: Wavefont Black
@@ -32,7 +42,7 @@ fonts:
     post_script_name: Wavefont-Black
     version: 3.005;gftools[0.9.33]
     copyright: Copyright 2022 The Wavefont Project Authors (https://github.com/dy/wavefont)
-    font: Wavefont-Black.ttf
+    font: L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI181LDHXKtOXOg4.ttf
 - name: Wavefont ExtraBold
   styles:
   - family_name: Wavefont ExtraBold
@@ -43,7 +53,7 @@ fonts:
     post_script_name: Wavefont-ExtraBold
     version: 3.005;gftools[0.9.33]
     copyright: Copyright 2022 The Wavefont Project Authors (https://github.com/dy/wavefont)
-    font: Wavefont-ExtraBold.ttf
+    font: L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI1V1LDHXKtOXOg4.ttf
 - name: Wavefont ExtraLight
   styles:
   - family_name: Wavefont ExtraLight
@@ -54,7 +64,7 @@ fonts:
     post_script_name: Wavefont-ExtraLight
     version: 3.005;gftools[0.9.33]
     copyright: Copyright 2022 The Wavefont Project Authors (https://github.com/dy/wavefont)
-    font: Wavefont-ExtraLight.ttf
+    font: L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI1V07DHXKtOXOg4.ttf
 - name: Wavefont Light
   styles:
   - family_name: Wavefont Light
@@ -65,7 +75,7 @@ fonts:
     post_script_name: Wavefont-Light
     version: 3.005;gftools[0.9.33]
     copyright: Copyright 2022 The Wavefont Project Authors (https://github.com/dy/wavefont)
-    font: Wavefont-Light.ttf
+    font: L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI2L07DHXKtOXOg4.ttf
 - name: Wavefont Medium
   styles:
   - family_name: Wavefont Medium
@@ -76,7 +86,7 @@ fonts:
     post_script_name: Wavefont-Medium
     version: 3.005;gftools[0.9.33]
     copyright: Copyright 2022 The Wavefont Project Authors (https://github.com/dy/wavefont)
-    font: Wavefont-Medium.ttf
+    font: L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI3n07DHXKtOXOg4.ttf
 - name: Wavefont SemiBold
   styles:
   - family_name: Wavefont SemiBold
@@ -87,7 +97,7 @@ fonts:
     post_script_name: Wavefont-SemiBold
     version: 3.005;gftools[0.9.33]
     copyright: Copyright 2022 The Wavefont Project Authors (https://github.com/dy/wavefont)
-    font: Wavefont-SemiBold.ttf
+    font: L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI0L1LDHXKtOXOg4.ttf
 - name: Wavefont Thin
   styles:
   - family_name: Wavefont Thin
@@ -98,16 +108,7 @@ fonts:
     post_script_name: Wavefont-Thin
     version: 3.005;gftools[0.9.33]
     copyright: Copyright 2022 The Wavefont Project Authors (https://github.com/dy/wavefont)
-    font: Wavefont-VariableFont_ROND,YELA,wght.ttf
-  - family_name: Wavefont Thin
-    type: Regular
-    preferred_family_name: Wavefont
-    preferred_type: Thin
-    full_name: Wavefont Thin
-    post_script_name: Wavefont-Thin
-    version: 3.005;gftools[0.9.33]
-    copyright: Copyright 2022 The Wavefont Project Authors (https://github.com/dy/wavefont)
-    font: Wavefont-Thin.ttf
+    font: L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI3V0rDHXKtOXOg4.ttf
 extract: {}
 copyright: Copyright 2022 The Wavefont Project Authors (https://github.com/dy/wavefont)
 license_url: https://scripts.sil.org/OFL
@@ -116,7 +117,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -205,5 +206,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9e96398a194a287500629d07c731c6b4c5f3a8a0f8645ee3262018e9ad52e35c
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

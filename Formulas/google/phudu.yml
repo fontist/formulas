@@ -1,10 +1,18 @@
 ---
+name: Phudu
 description: Phudu
 resources:
-  Phudu.zip:
-    urls:
-    - https://fonts.google.com/download?family=Phudu
-    file_size: 271327
+  Phudu:
+    source: google
+    family: Phudu
+    files:
+    - https://fonts.gstatic.com/s/phudu/v4/0FlJVPSHk0ya-7OUeO_U-Lwm7PkK62zUSwWuz38Tgg.ttf
+    - https://fonts.gstatic.com/s/phudu/v4/0FlJVPSHk0ya-7OUeO_U-Lwm7PkKtWzUSwWuz38Tgg.ttf
+    - https://fonts.gstatic.com/s/phudu/v4/0FlJVPSHk0ya-7OUeO_U-Lwm7PkKh2zUSwWuz38Tgg.ttf
+    - https://fonts.gstatic.com/s/phudu/v4/0FlJVPSHk0ya-7OUeO_U-Lwm7PkKa2vUSwWuz38Tgg.ttf
+    - https://fonts.gstatic.com/s/phudu/v4/0FlJVPSHk0ya-7OUeO_U-Lwm7PkKUmvUSwWuz38Tgg.ttf
+    - https://fonts.gstatic.com/s/phudu/v4/0FlJVPSHk0ya-7OUeO_U-Lwm7PkKNWvUSwWuz38Tgg.ttf
+    - https://fonts.gstatic.com/s/phudu/v4/0FlJVPSHk0ya-7OUeO_U-Lwm7PkKHGvUSwWuz38Tgg.ttf
 fonts:
 - name: Phudu
   styles:
@@ -14,14 +22,14 @@ fonts:
     post_script_name: Phudu-Bold
     version: 1.005;gftools[0.9.23]
     copyright: Copyright 2022 The Phudu Project Authors (https://github.com/duongtrtype/DTPhudu)
-    font: Phudu-Bold.ttf
+    font: 0FlJVPSHk0ya-7OUeO_U-Lwm7PkKUmvUSwWuz38Tgg.ttf
   - family_name: Phudu
     type: Regular
     full_name: Phudu Regular
     post_script_name: Phudu-Regular
     version: 1.005;gftools[0.9.23]
     copyright: Copyright 2022 The Phudu Project Authors (https://github.com/duongtrtype/DTPhudu)
-    font: Phudu-Regular.ttf
+    font: 0FlJVPSHk0ya-7OUeO_U-Lwm7PkKtWzUSwWuz38Tgg.ttf
 - name: Phudu Black
   styles:
   - family_name: Phudu Black
@@ -32,7 +40,7 @@ fonts:
     post_script_name: Phudu-Black
     version: 1.005;gftools[0.9.23]
     copyright: Copyright 2022 The Phudu Project Authors (https://github.com/duongtrtype/DTPhudu)
-    font: Phudu-Black.ttf
+    font: 0FlJVPSHk0ya-7OUeO_U-Lwm7PkKHGvUSwWuz38Tgg.ttf
 - name: Phudu ExtraBold
   styles:
   - family_name: Phudu ExtraBold
@@ -43,7 +51,7 @@ fonts:
     post_script_name: Phudu-ExtraBold
     version: 1.005;gftools[0.9.23]
     copyright: Copyright 2022 The Phudu Project Authors (https://github.com/duongtrtype/DTPhudu)
-    font: Phudu-ExtraBold.ttf
+    font: 0FlJVPSHk0ya-7OUeO_U-Lwm7PkKNWvUSwWuz38Tgg.ttf
 - name: Phudu Light
   styles:
   - family_name: Phudu Light
@@ -54,16 +62,7 @@ fonts:
     post_script_name: Phudu-Light
     version: 1.005;gftools[0.9.23]
     copyright: Copyright 2022 The Phudu Project Authors (https://github.com/duongtrtype/DTPhudu)
-    font: Phudu-VariableFont_wght.ttf
-  - family_name: Phudu Light
-    type: Regular
-    preferred_family_name: Phudu
-    preferred_type: Light
-    full_name: Phudu Light
-    post_script_name: Phudu-Light
-    version: 1.005;gftools[0.9.23]
-    copyright: Copyright 2022 The Phudu Project Authors (https://github.com/duongtrtype/DTPhudu)
-    font: Phudu-Light.ttf
+    font: 0FlJVPSHk0ya-7OUeO_U-Lwm7PkK62zUSwWuz38Tgg.ttf
 - name: Phudu Medium
   styles:
   - family_name: Phudu Medium
@@ -74,7 +73,7 @@ fonts:
     post_script_name: Phudu-Medium
     version: 1.005;gftools[0.9.23]
     copyright: Copyright 2022 The Phudu Project Authors (https://github.com/duongtrtype/DTPhudu)
-    font: Phudu-Medium.ttf
+    font: 0FlJVPSHk0ya-7OUeO_U-Lwm7PkKh2zUSwWuz38Tgg.ttf
 - name: Phudu SemiBold
   styles:
   - family_name: Phudu SemiBold
@@ -85,7 +84,7 @@ fonts:
     post_script_name: Phudu-SemiBold
     version: 1.005;gftools[0.9.23]
     copyright: Copyright 2022 The Phudu Project Authors (https://github.com/duongtrtype/DTPhudu)
-    font: Phudu-SemiBold.ttf
+    font: 0FlJVPSHk0ya-7OUeO_U-Lwm7PkKa2vUSwWuz38Tgg.ttf
 extract: {}
 copyright: Copyright 2022 The Phudu Project Authors (https://github.com/duongtrtype/DTPhudu)
 license_url: https://scripts.sil.org/OFL
@@ -94,7 +93,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -183,5 +182,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 1a1f45922746fe26a75719ddd36ae00325a32dc537c0d2d5b20a1248adf905cf
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

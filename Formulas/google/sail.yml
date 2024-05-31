@@ -3,11 +3,11 @@ name: Sail
 description: Sail
 homepage: www.latinotype.com
 resources:
-  Sail.zip:
-    urls:
-    - https://fonts.google.com/download?family=Sail
-    sha256: 8e162dbc5cd55556588c2cb9c3ae11909b09e739365f473f800b4b809c9ed4a5
-    file_size: 20609
+  Sail:
+    source: google
+    family: Sail
+    files:
+    - https://fonts.gstatic.com/s/sail/v16/DPEjYwiBxwYJFBTDADYAbvw.ttf
 fonts:
 - name: Sail
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011 by LatinoType Limitada (luciano@latinotype.com),
       with Reserved Font Names "Sail"
-    font: Sail-Regular.ttf
-extract:
-  format: zip
+    font: DPEjYwiBxwYJFBTDADYAbvw.ttf
+extract: {}
 copyright: Copyright (c) 2011 by LatinoType Limitada (luciano@latinotype.com), with
   Reserved Font Names "Sail"
 license_url: http://scripts.sil.org/OFL
@@ -119,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

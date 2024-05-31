@@ -1,23 +1,16 @@
 ---
+name: Delius Unicase
 description: Delius Unicase
-homepage:
 resources:
-  DeliusUnicase.zip:
-    urls:
-    - https://fonts.google.com/download?family=Delius%20Unicase
-    sha256: f5991e7014bdedeb03916e2025bbe4b52ede9ae2e05dc1320025bbf7c41daecf
-    file_size: 33134
+  Delius Unicase:
+    source: google
+    family: Delius Unicase
+    files:
+    - https://fonts.gstatic.com/s/deliusunicase/v28/845BNMEwEIOVT8BmgfSzIr_6mmLHd-73LXWs.ttf
+    - https://fonts.gstatic.com/s/deliusunicase/v28/845CNMEwEIOVT8BmgfSzIr_6mlp7WMr_BmmlS5aw.ttf
 fonts:
 - name: Delius Unicase
   styles:
-  - family_name: Delius Unicase
-    type: Regular
-    full_name: Delius Unicase
-    post_script_name: DeliusUnicase-Regular
-    version: '1.002'
-    copyright: Copyright (c) 2010, 2011, Natalia Raices<nraices@gmail.com>, with Reserved
-      Font Name "Delius" "Delius Unicase" "Delius Swash Caps".
-    font: DeliusUnicase-Regular.ttf
   - family_name: Delius Unicase
     type: Bold
     full_name: Delius Unicase Bold
@@ -25,9 +18,16 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2010, 2011, Natalia Raices<nraices@gmail.com>, with Reserved
       Font Name "Delius" "Delius Unicase" "Delius Swash Caps".
-    font: DeliusUnicase-Bold.ttf
-extract:
-  format: zip
+    font: 845CNMEwEIOVT8BmgfSzIr_6mlp7WMr_BmmlS5aw.ttf
+  - family_name: Delius Unicase
+    type: Regular
+    full_name: Delius Unicase
+    post_script_name: DeliusUnicase-Regular
+    version: '1.002'
+    copyright: Copyright (c) 2010, 2011, Natalia Raices<nraices@gmail.com>, with Reserved
+      Font Name "Delius" "Delius Unicase" "Delius Swash Caps".
+    font: 845BNMEwEIOVT8BmgfSzIr_6mmLHd-73LXWs.ttf
+extract: {}
 copyright: Copyright (c) 2010, 2011, Natalia Raices<nraices@gmail.com>, with Reserved
   Font Name "Delius" "Delius Unicase" "Delius Swash Caps".
 license_url: http://scripts.sil.org/OFL
@@ -128,3 +128,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

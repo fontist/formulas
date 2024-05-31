@@ -1,11 +1,16 @@
 ---
+name: Suwannaphum
 description: Suwannaphum
 resources:
-  Suwannaphum.zip:
-    urls:
-    - https://fonts.google.com/download?family=Suwannaphum
-    sha256: e2d5ad81ef3d1d7c0d2b279316dae61a7295a3da7c6ff7c6484283a9683b5955
-    file_size: 232984
+  Suwannaphum:
+    source: google
+    family: Suwannaphum
+    files:
+    - https://fonts.gstatic.com/s/suwannaphum/v31/jAnAgHV7GtDvc8jbe8hXXL3B9cSWXx2VZmk.ttf
+    - https://fonts.gstatic.com/s/suwannaphum/v31/jAnfgHV7GtDvc8jbe8hXXL0J1-S8cRGcf3Ai.ttf
+    - https://fonts.gstatic.com/s/suwannaphum/v31/jAnCgHV7GtDvc8jbe8hXXIWl_8C0Wg2V.ttf
+    - https://fonts.gstatic.com/s/suwannaphum/v31/jAnfgHV7GtDvc8jbe8hXXL0Z0OS8cRGcf3Ai.ttf
+    - https://fonts.gstatic.com/s/suwannaphum/v31/jAnfgHV7GtDvc8jbe8hXXL0h0uS8cRGcf3Ai.ttf
 fonts:
 - name: Suwannaphum
   styles:
@@ -13,16 +18,16 @@ fonts:
     type: Bold
     full_name: Suwannaphum Bold
     post_script_name: Suwannaphum-Bold
-    version: 8.001; ttfautohint (v1.8.3)
+    version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Suwannaphum Project Authors (https://github.com/danhhong/Suwannaphum)
-    font: Suwannaphum-Bold.ttf
+    font: jAnfgHV7GtDvc8jbe8hXXL0Z0OS8cRGcf3Ai.ttf
   - family_name: Suwannaphum
     type: Regular
     full_name: Suwannaphum Regular
     post_script_name: Suwannaphum-Regular
-    version: 8.001; ttfautohint (v1.8.3)
+    version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Suwannaphum Project Authors (https://github.com/danhhong/Suwannaphum)
-    font: Suwannaphum-Regular.ttf
+    font: jAnCgHV7GtDvc8jbe8hXXIWl_8C0Wg2V.ttf
 - name: Suwannaphum Black
   styles:
   - family_name: Suwannaphum Black
@@ -31,9 +36,9 @@ fonts:
     preferred_type: Black
     full_name: Suwannaphum Black
     post_script_name: Suwannaphum-Black
-    version: 8.001; ttfautohint (v1.8.3)
+    version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Suwannaphum Project Authors (https://github.com/danhhong/Suwannaphum)
-    font: Suwannaphum-Black.ttf
+    font: jAnfgHV7GtDvc8jbe8hXXL0h0uS8cRGcf3Ai.ttf
 - name: Suwannaphum Light
   styles:
   - family_name: Suwannaphum Light
@@ -42,9 +47,9 @@ fonts:
     preferred_type: Light
     full_name: Suwannaphum Light
     post_script_name: Suwannaphum-Light
-    version: 8.001; ttfautohint (v1.8.3)
+    version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Suwannaphum Project Authors (https://github.com/danhhong/Suwannaphum)
-    font: Suwannaphum-Light.ttf
+    font: jAnfgHV7GtDvc8jbe8hXXL0J1-S8cRGcf3Ai.ttf
 - name: Suwannaphum Thin
   styles:
   - family_name: Suwannaphum Thin
@@ -53,9 +58,9 @@ fonts:
     preferred_type: Thin
     full_name: Suwannaphum Thin
     post_script_name: Suwannaphum-Thin
-    version: 8.001; ttfautohint (v1.8.3)
+    version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Suwannaphum Project Authors (https://github.com/danhhong/Suwannaphum)
-    font: Suwannaphum-Thin.ttf
+    font: jAnAgHV7GtDvc8jbe8hXXL3B9cSWXx2VZmk.ttf
 extract: {}
 copyright: Copyright 2019 The Suwannaphum Project Authors (https://github.com/danhhong/Suwannaphum)
 license_url: https://scripts.sil.org/OFL
@@ -153,5 +158,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: c0b8790de80802a80091faf7786b51a1c1896181c905cede0090bf1d7cd8f8e5
-command: google import --formulas_path Formulas
+command: import google -n 9999

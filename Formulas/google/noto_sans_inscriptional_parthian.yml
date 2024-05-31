@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Inscriptional Parthian
 description: Noto Sans Inscriptional Parthian
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Inscriptional_Parthian.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Inscriptional%20Parthian
-    sha256: 1e2cdb80f40e86e73874a326316d8e99e9ccccee4e643d91bbaa210009a18cf8
-    file_size: 32045
+  Noto Sans Inscriptional Parthian:
+    source: google
+    family: Noto Sans Inscriptional Parthian
+    files:
+    - https://fonts.gstatic.com/s/notosansinscriptionalparthian/v16/k3k7o-IMPvpLmixcA63oYi-yStDkgXuXncL7dzfW3P4TAJ2yklBJ2jNkLlLr.ttf
 fonts:
 - name: Noto Sans Inscriptional Parthian
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/inscriptional-parthian)
-    font: NotoSansInscriptionalParthian-Regular.ttf
+    font: k3k7o-IMPvpLmixcA63oYi-yStDkgXuXncL7dzfW3P4TAJ2yklBJ2jNkLlLr.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/inscriptional-parthian)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e378131f733c54c36996d2792599c7b12ad48463b1c2f477912d863b208d802c
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

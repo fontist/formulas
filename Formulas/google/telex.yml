@@ -3,11 +3,11 @@ name: Telex
 description: Telex
 homepage: http://www.huertatipografica.com.ar
 resources:
-  Telex.zip:
-    urls:
-    - https://fonts.google.com/download?family=Telex
-    sha256: 6ba52c9cb275d280718135966912c14e6812712ec3216ab664cdc43e36b18df2
-    file_size: 23799
+  Telex:
+    source: google
+    family: Telex
+    files:
+    - https://fonts.gstatic.com/s/telex/v17/ieVw2Y1fKWmIO9fTB1piKFIf.ttf
 fonts:
 - name: Telex
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: '1.100'
     copyright: Copyright 2011 The Telex Project Authors (info@andrestorresi.com.ar),
       with Reserved Font Name Telex.
-    font: Telex-Regular.ttf
-extract:
-  format: zip
+    font: ieVw2Y1fKWmIO9fTB1piKFIf.ttf
+extract: {}
 copyright: Copyright 2011 The Telex Project Authors (info@andrestorresi.com.ar), with
   Reserved Font Name Telex.
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

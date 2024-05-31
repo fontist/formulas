@@ -1,11 +1,12 @@
 ---
+name: Monomaniac One
 description: Monomaniac One
 resources:
-  Monomaniac_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Monomaniac%20One
-    sha256: 94128f73d24a8c1b82ccf8249592f1de9dfe79a90fe1b1002a1a7ecd9c4afb82
-    file_size: 55564
+  Monomaniac One:
+    source: google
+    family: Monomaniac One
+    files:
+    - https://fonts.gstatic.com/s/monomaniacone/v11/4iC06K17YctZjx50EU-QlwPmcqRnqYkB5kwI.ttf
 fonts:
 - name: Monomaniac One
   styles:
@@ -16,7 +17,7 @@ fonts:
     version: 1.000; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Monomaniac Project Authors (https://github.com/ManiackersDesign/monomaniac),
       all rights reserved.
-    font: MonomaniacOne-Regular.ttf
+    font: 4iC06K17YctZjx50EU-QlwPmcqRnqYkB5kwI.ttf
 extract: {}
 copyright: Copyright 2020 The Monomaniac Project Authors (https://github.com/ManiackersDesign/monomaniac),
   all rights reserved.
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b5187ce526efdb5d2f4f366e27eaaa1649c31584cdd56f81ad99e2466fa86a6b
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

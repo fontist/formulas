@@ -3,11 +3,11 @@ name: Flow Block
 description: Flow Block
 homepage: http://danross.co/flow
 resources:
-  Flow_Block.zip:
-    urls:
-    - https://fonts.google.com/download?family=Flow%20Block
-    sha256: a8ba36ab398d7c8211da11115b209d112ef6629390093b53f65453d24b6a8b9f
-    file_size: 13180
+  Flow Block:
+    source: google
+    family: Flow Block
+    files:
+    - https://fonts.gstatic.com/s/flowblock/v11/wlp0gwfPCEB65UmTk-d6-WZlbCBXE_I.ttf
 fonts:
 - name: Flow Block
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: FlowBlock-Regular
     version: 1.101; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Flow Project Authors (https://github.com/HYPD/flow-typeface)
-    font: FlowBlock-Regular.ttf
+    font: wlp0gwfPCEB65UmTk-d6-WZlbCBXE_I.ttf
 extract: {}
 copyright: Copyright 2020 The Flow Project Authors (https://github.com/HYPD/flow-typeface)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 044c67ab944e5b77b6fc37d7bf5d41fa4b7e6f0d84d1f6d149985d4ee46e1829
-command: google import --formulas_path Formulas
+command: import google -n 9999

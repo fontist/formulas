@@ -3,11 +3,11 @@ name: Are You Serious
 description: Are You Serious
 homepage: www.typesetit.com
 resources:
-  Are_You_Serious.zip:
-    urls:
-    - https://fonts.google.com/download?family=Are%20You%20Serious
-    sha256: 847051b3198934ad0d249f45b24faa8f24c2f07a2866173fb546e4506fd73cc2
-    file_size: 76878
+  Are You Serious:
+    source: google
+    family: Are You Serious
+    files:
+    - https://fonts.gstatic.com/s/areyouserious/v12/ll8kK2GVSSr-PtjQ5nONVcNn4306hT9nCGRayg.ttf
 fonts:
 - name: Are You Serious
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: AreYouSerious-Regular
     version: '1.100'
     copyright: Copyright 2004 The RU Serius Project Authors (https://github.com/googlefonts/are-you-serious)
-    font: AreYouSerious-Regular.ttf
+    font: ll8kK2GVSSr-PtjQ5nONVcNn4306hT9nCGRayg.ttf
 extract: {}
 copyright: Copyright 2004 The RU Serius Project Authors (https://github.com/googlefonts/are-you-serious)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b3daf147791c31ff213e8a8efd71400bb934346f4ee0e23dce44c454f6c77bb0
-command: google import --formulas_path Formulas
+command: import google -n 9999

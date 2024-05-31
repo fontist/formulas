@@ -1,11 +1,18 @@
 ---
+name: Maven Pro
 description: Maven Pro
 homepage: http://www.admixdesigns.com/
 resources:
-  Maven_Pro.zip:
-    urls:
-    - https://fonts.google.com/download?family=Maven%20Pro
-    file_size: 234677
+  Maven Pro:
+    source: google
+    family: Maven Pro
+    files:
+    - https://fonts.gstatic.com/s/mavenpro/v36/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8SX25nCpozp5GvU.ttf
+    - https://fonts.gstatic.com/s/mavenpro/v36/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8Rf25nCpozp5GvU.ttf
+    - https://fonts.gstatic.com/s/mavenpro/v36/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8fvx5nCpozp5GvU.ttf
+    - https://fonts.gstatic.com/s/mavenpro/v36/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8cLx5nCpozp5GvU.ttf
+    - https://fonts.gstatic.com/s/mavenpro/v36/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8aXx5nCpozp5GvU.ttf
+    - https://fonts.gstatic.com/s/mavenpro/v36/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8Yzx5nCpozp5GvU.ttf
 fonts:
 - name: Maven Pro
   styles:
@@ -13,26 +20,18 @@ fonts:
     type: Bold
     full_name: Maven Pro Bold
     post_script_name: MavenPro-Bold
-    version: '2.101'
+    version: '2.102'
     copyright: Copyright 2011 The Maven Pro Project Authors (http://www.vissol.co.uk/mavenpro/),
       with Reserved Font Name "Maven Pro".
-    font: MavenPro-Bold.ttf
+    font: 7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8cLx5nCpozp5GvU.ttf
   - family_name: Maven Pro
     type: Regular
     full_name: Maven Pro Regular
     post_script_name: MavenPro-Regular
-    version: '2.101'
+    version: '2.102'
     copyright: Copyright 2011 The Maven Pro Project Authors (http://www.vissol.co.uk/mavenpro/),
       with Reserved Font Name "Maven Pro".
-    font: MavenPro-Regular.ttf
-  - family_name: Maven Pro
-    type: Regular
-    full_name: Maven Pro Regular
-    post_script_name: MavenPro-Regular
-    version: '2.101'
-    copyright: Copyright 2011 The Maven Pro Project Authors (http://www.vissol.co.uk/mavenpro/),
-      with Reserved Font Name "Maven Pro".
-    font: MavenPro-VariableFont_wght.ttf
+    font: 7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8SX25nCpozp5GvU.ttf
 - name: Maven Pro Black
   styles:
   - family_name: Maven Pro Black
@@ -41,10 +40,10 @@ fonts:
     preferred_type: Black
     full_name: Maven Pro Black
     post_script_name: MavenPro-Black
-    version: '2.101'
+    version: '2.102'
     copyright: Copyright 2011 The Maven Pro Project Authors (http://www.vissol.co.uk/mavenpro/),
       with Reserved Font Name "Maven Pro".
-    font: MavenPro-Black.ttf
+    font: 7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8Yzx5nCpozp5GvU.ttf
 - name: Maven Pro ExtraBold
   styles:
   - family_name: Maven Pro ExtraBold
@@ -53,10 +52,10 @@ fonts:
     preferred_type: ExtraBold
     full_name: Maven Pro ExtraBold
     post_script_name: MavenPro-ExtraBold
-    version: '2.101'
+    version: '2.102'
     copyright: Copyright 2011 The Maven Pro Project Authors (http://www.vissol.co.uk/mavenpro/),
       with Reserved Font Name "Maven Pro".
-    font: MavenPro-ExtraBold.ttf
+    font: 7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8aXx5nCpozp5GvU.ttf
 - name: Maven Pro Medium
   styles:
   - family_name: Maven Pro Medium
@@ -65,10 +64,10 @@ fonts:
     preferred_type: Medium
     full_name: Maven Pro Medium
     post_script_name: MavenPro-Medium
-    version: '2.101'
+    version: '2.102'
     copyright: Copyright 2011 The Maven Pro Project Authors (http://www.vissol.co.uk/mavenpro/),
       with Reserved Font Name "Maven Pro".
-    font: MavenPro-Medium.ttf
+    font: 7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8Rf25nCpozp5GvU.ttf
 - name: Maven Pro SemiBold
   styles:
   - family_name: Maven Pro SemiBold
@@ -77,10 +76,10 @@ fonts:
     preferred_type: SemiBold
     full_name: Maven Pro SemiBold
     post_script_name: MavenPro-SemiBold
-    version: '2.101'
+    version: '2.102'
     copyright: Copyright 2011 The Maven Pro Project Authors (http://www.vissol.co.uk/mavenpro/),
       with Reserved Font Name "Maven Pro".
-    font: MavenPro-SemiBold.ttf
+    font: 7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8fvx5nCpozp5GvU.ttf
 extract: {}
 copyright: Copyright 2011 The Maven Pro Project Authors (http://www.vissol.co.uk/mavenpro/),
   with Reserved Font Name "Maven Pro".
@@ -179,5 +178,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 3355ddabce7a2f905567819bff436d5dbdc5c333477abcc8e6b475774af38be5
-command: import google --formulas_path Formulas
+command: import google -n 9999

@@ -1,12 +1,14 @@
 ---
+name: Tiro Devanagari Marathi
 description: Tiro Devanagari Marathi
 homepage: https://github.com/TiroTypeworks/Indigo
 resources:
-  Tiro_Devanagari_Marathi.zip:
-    urls:
-    - https://fonts.google.com/download?family=Tiro%20Devanagari%20Marathi
-    sha256: d745314643f9f09c24a982018bd0f4080d68666a5bceffb5a19f6d9dfc3906ba
-    file_size: 390316
+  Tiro Devanagari Marathi:
+    source: google
+    family: Tiro Devanagari Marathi
+    files:
+    - https://fonts.gstatic.com/s/tirodevanagarimarathi/v5/fC1xPZBSZHrRhS3rd4M0MAPNJUHl4znXCxAkotDrDJYM2lAZ.ttf
+    - https://fonts.gstatic.com/s/tirodevanagarimarathi/v5/fC1zPZBSZHrRhS3rd4M0MAPNJUHl4znXCxAkouDpBpIu30AZbUY.ttf
 fonts:
 - name: Tiro Devanagari Marathi
   styles:
@@ -16,14 +18,14 @@ fonts:
     post_script_name: TiroDevaMarathi-Italic
     version: '1.52'
     copyright: Copyright 2020 The Indigo Project Authors (https://github.com/TiroTypeworks/Indigo)
-    font: TiroDevanagariMarathi-Italic.ttf
+    font: fC1zPZBSZHrRhS3rd4M0MAPNJUHl4znXCxAkouDpBpIu30AZbUY.ttf
   - family_name: Tiro Devanagari Marathi
     type: Regular
     full_name: Tiro Devanagari Marathi Regular
     post_script_name: TiroDevaMarathi-Regular
     version: '1.52'
     copyright: Copyright 2020 The Indigo Project Authors (https://github.com/TiroTypeworks/Indigo)
-    font: TiroDevanagariMarathi-Regular.ttf
+    font: fC1xPZBSZHrRhS3rd4M0MAPNJUHl4znXCxAkotDrDJYM2lAZ.ttf
 extract: {}
 copyright: Copyright 2020 The Indigo Project Authors (https://github.com/TiroTypeworks/Indigo)
 license_url: https://scripts.sil.org/OFL
@@ -121,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 388267530ac6baf2526ddb9121b9c87873b0460bc7afdd380519452476de67da
-command: import google --formulas_path Formulas
+command: import google -n 9999

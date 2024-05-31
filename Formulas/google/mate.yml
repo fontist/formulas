@@ -1,12 +1,14 @@
 ---
+name: Mate
 description: Mate
 homepage: http://www.tipo.net.ar
 resources:
-  Mate.zip:
-    urls:
-    - https://fonts.google.com/download?family=Mate
-    sha256: 572d78d3a7f902493c0be6c154f6f0471555387ee93b70257a4b0fd9aa903248
-    file_size: 69997
+  Mate:
+    source: google
+    family: Mate
+    files:
+    - https://fonts.gstatic.com/s/mate/v17/m8JdjftRd7WZ2z28WoXSaLU.ttf
+    - https://fonts.gstatic.com/s/mate/v17/m8JTjftRd7WZ6z-2XqfXeLVdbw.ttf
 fonts:
 - name: Mate
   styles:
@@ -17,7 +19,7 @@ fonts:
     version: 1.003; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.24]
     copyright: Copyright 2011 The Mate Project Authors (https://github.com/etunni/mate)
       with Reserved Font Name "Mate"
-    font: Mate-Italic.ttf
+    font: m8JTjftRd7WZ6z-2XqfXeLVdbw.ttf
   - family_name: Mate
     type: Regular
     full_name: Mate Regular
@@ -25,7 +27,7 @@ fonts:
     version: 1.003; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.24]
     copyright: Copyright 2011 The Mate Project Authors (https://github.com/etunni/mate)
       with Reserved Font Name "Mate"
-    font: Mate-Regular.ttf
+    font: m8JdjftRd7WZ2z28WoXSaLU.ttf
 extract: {}
 copyright: Copyright 2011 The Mate Project Authors (https://github.com/etunni/mate)
   with Reserved Font Name "Mate"
@@ -35,7 +37,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -124,5 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 5ac8221ec39672f9b9509973b26f395864a5b50655894959ac3346afb5304c6f
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

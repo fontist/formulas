@@ -1,12 +1,12 @@
 ---
+name: Text Me One
 description: Text Me One
-homepage:
 resources:
-  TextMeOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Text%20Me%20One
-    sha256: 69ca9bb8b9138e3ddffcb988093e2949f48906a3515f9ed01504d7953251c2dc
-    file_size: 18786
+  Text Me One:
+    source: google
+    family: Text Me One
+    files:
+    - https://fonts.gstatic.com/s/textmeone/v24/i7dOIFdlayuLUvgoFvHQFWZcalayGhyV.ttf
 fonts:
 - name: Text Me One
   styles:
@@ -17,9 +17,8 @@ fonts:
     version: '1.003'
     copyright: Copyright (c) 2012, Julia Petretta (julia.petretta@googlemail.com),
       with Reserved Font Name 'Text Me'
-    font: TextMeOne-Regular.ttf
-extract:
-  format: zip
+    font: i7dOIFdlayuLUvgoFvHQFWZcalayGhyV.ttf
+extract: {}
 copyright: Copyright (c) 2012, Julia Petretta (julia.petretta@googlemail.com), with
   Reserved Font Name 'Text Me'
 license_url: http://scripts.sil.org/OFL
@@ -117,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

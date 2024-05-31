@@ -1,36 +1,32 @@
 ---
 name: Content
 description: Content
-homepage:
 resources:
-  Content.zip:
-    urls:
-    - https://fonts.google.com/download?family=Content
-    sha256: 0d29a4b6e4029e5adcad2ae82cddf6eff1a6103297ee0bc79bb7a4a40db76ee1
-    file_size: 105207
+  Content:
+    source: google
+    family: Content
+    files:
+    - https://fonts.gstatic.com/s/content/v24/zrfl0HLayePhU_AwUaDyIiL0RCg.ttf
+    - https://fonts.gstatic.com/s/content/v24/zrfg0HLayePhU_AwaRzdBirfWCHvkAI.ttf
 fonts:
 - name: Content
   styles:
-  - family_name: Content
-    type: Regular
-    full_name: Content
-    post_script_name: Content
-    version: 6.00 December 28, 2010
-    copyright: Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
-    font: Content-Regular.ttf
   - family_name: Content
     type: Bold
     full_name: Content Bold
     post_script_name: Content-Bold
     version: 6.00 December 28, 2010
     copyright: Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
-    font: Content-Bold.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2010, Danh Hong (khmertype.blogspot.com danhhong@gmail.com),
-  with Reserved Font Name Khmer OS Content. This Font Software is licensed under the
-  SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
-license_url:
+    font: zrfg0HLayePhU_AwaRzdBirfWCHvkAI.ttf
+  - family_name: Content
+    type: Regular
+    full_name: Content
+    post_script_name: Content
+    version: 6.00 December 28, 2010
+    copyright: Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
+    font: zrfl0HLayePhU_AwUaDyIiL0RCg.ttf
+extract: {}
+copyright: Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
 open_license: |-
   Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
   with Reserved Font Name Content.
@@ -126,3 +122,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

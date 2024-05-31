@@ -3,11 +3,11 @@ name: Ephesis
 description: Ephesis
 homepage: www.typesetit.com
 resources:
-  Ephesis.zip:
-    urls:
-    - https://fonts.google.com/download?family=Ephesis
-    sha256: 870d6337fae540d5f1304e027f614c98a1f509c03c7a3c9736bdc7945564ef2e
-    file_size: 68966
+  Ephesis:
+    source: google
+    family: Ephesis
+    files:
+    - https://fonts.gstatic.com/s/ephesis/v9/uU9PCBUS8IerL2VG7xPb3vyHmlI.ttf
 fonts:
 - name: Ephesis
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: Ephesis-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2004-2021 The Ephesis Project Authors (https://github.com/googlefonts/ephesis)
-    font: Ephesis-Regular.ttf
+    font: uU9PCBUS8IerL2VG7xPb3vyHmlI.ttf
 extract: {}
 copyright: Copyright 2004-2021 The Ephesis Project Authors (https://github.com/googlefonts/ephesis)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 024cc5782dc43e0d2e5b2a222144434c93279461752e20d8058d70189678d13a
-command: google import --formulas_path Formulas
+command: import google -n 9999

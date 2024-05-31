@@ -1,30 +1,28 @@
 ---
+name: Wire One
 description: Wire One
 homepage: http://cyreal.org
 resources:
-  Wire_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Wire%20One
-    sha256: 83f71c6b85b21f4e6a7e8511ebf0eeaa1512aae264f158e93adbdc08e36d1cc9
-    file_size: 48090
+  Wire One:
+    source: google
+    family: Wire One
+    files:
+    - https://fonts.gstatic.com/s/wireone/v28/qFdH35Wah5htUhV75WGiWdrCwwcJ.ttf
 fonts:
 - name: Wire One
   styles:
   - family_name: Wire One
     type: Regular
-    full_name: Wire One
-    post_script_name: WireOne
-    version: '1.012'
-    copyright: Copyright (c) 2011, Cyreal Type Foundry (a@cyreal.org), with Reserved
-      Font Name 'Wire'
-    font: WireOne-Regular.ttf
+    full_name: Wire One Regular
+    post_script_name: WireOne-Regular
+    version: 1.102; ttfautohint (v1.8.3)
+    copyright: Copyright 2011 The Wire One Project Authors (https://github.com/cyrealtype/Wire-One)
+    font: qFdH35Wah5htUhV75WGiWdrCwwcJ.ttf
 extract: {}
-copyright: Copyright (c) 2011, Cyreal Type Foundry (a@cyreal.org), with Reserved Font
-  Name 'Wire'
+copyright: Copyright 2011 The Wire One Project Authors (https://github.com/cyrealtype/Wire-One)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011, Cyreal (www.cyreal.org),
-  with Reserved Font Name "Wire One".
+  Copyright 2011 The Wire One Project Authors (https://github.com/cyrealtype/Wire-One)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -117,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 648d5d1d19d2c2fbcff54daeb73ee9ef638068f223a7216e5d52d9d4a93ab5fe
-command: google import --formulas_path Formulas
+command: import google -n 9999

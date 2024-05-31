@@ -3,11 +3,11 @@ name: Langar
 description: Langar
 homepage: www.type.land
 resources:
-  Langar.zip:
-    urls:
-    - https://fonts.google.com/download?family=Langar
-    sha256: e4c1f31f40d561f156a8bc18185d05aa1e363481278bad90d1687cbf470d2ced
-    file_size: 80244
+  Langar:
+    source: google
+    family: Langar
+    files:
+    - https://fonts.gstatic.com/s/langar/v27/kJEyBukW7AIlgjGVrTVZ99sqrQ.ttf
 fonts:
 - name: Langar
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: Langar-Regular
     version: 1.001; ttfautohint (v1.8.3)
     copyright: Copyright 2016 The Langar Project Authors (https://github.com/typeland/Langar)
-    font: Langar-Regular.ttf
+    font: kJEyBukW7AIlgjGVrTVZ99sqrQ.ttf
 extract: {}
 copyright: Copyright 2016 The Langar Project Authors (https://github.com/typeland/Langar)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d4e150d4dc4864346c4562e79add4e6b584fbd577aa7c3a2795f00afe8a78378
-command: google import --formulas_path Formulas
+command: import google -n 9999

@@ -1,34 +1,32 @@
 ---
 name: Alef
 description: Alef
-homepage:
 resources:
-  Alef.zip:
-    urls:
-    - https://fonts.google.com/download?family=Alef
-    sha256: df2b4db4b9f1c813c136359e01c213182df4d8cdb152322a9532d47fac64be00
-    file_size: 91178
+  Alef:
+    source: google
+    family: Alef
+    files:
+    - https://fonts.gstatic.com/s/alef/v21/FeVfS0NQpLYgrjJbC5FxxbU.ttf
+    - https://fonts.gstatic.com/s/alef/v21/FeVQS0NQpLYglo50L5la2bxii28.ttf
 fonts:
 - name: Alef
   styles:
-  - family_name: Alef
-    type: Regular
-    full_name: Alef Regular
-    post_script_name: Alef-Regular
-    version: 1.002;PS 001.002;hotconv 1.0.56;makeotf.lib2.0.21325
-    copyright: Copyright (c) 2012 by Hagilda. All rights reserved.
-    font: Alef-Regular.ttf
   - family_name: Alef
     type: Bold
     full_name: Alef Bold
     post_script_name: Alef-Bold
     version: 1.002;PS 001.002;hotconv 1.0.56;makeotf.lib2.0.21325
     copyright: Copyright (c) 2012 by Hagilda. All rights reserved.
-    font: Alef-Bold.ttf
-extract:
-  format: zip
+    font: FeVQS0NQpLYglo50L5la2bxii28.ttf
+  - family_name: Alef
+    type: Regular
+    full_name: Alef Regular
+    post_script_name: Alef-Regular
+    version: 1.002;PS 001.002;hotconv 1.0.56;makeotf.lib2.0.21325
+    copyright: Copyright (c) 2012 by Hagilda. All rights reserved.
+    font: FeVfS0NQpLYgrjJbC5FxxbU.ttf
+extract: {}
 copyright: Copyright (c) 2012 by Hagilda. All rights reserved.
-license_url:
 open_license: |-
   Copyright (c) 2012, HaGilda & Mushon Zer-Aviv (<http://alef.hagilda.com|alef@hagilda.com>),
   with Reserved Font Name Alef.
@@ -124,3 +122,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

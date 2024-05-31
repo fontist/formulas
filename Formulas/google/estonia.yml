@@ -3,11 +3,11 @@ name: Estonia
 description: Estonia
 homepage: www.typesetit.com
 resources:
-  Estonia.zip:
-    urls:
-    - https://fonts.google.com/download?family=Estonia
-    sha256: 798000c80ab179a02b423d25b6563a2d99e1116b0aea74bec790dfd2cdb4fcba
-    file_size: 487675
+  Estonia:
+    source: google
+    family: Estonia
+    files:
+    - https://fonts.gstatic.com/s/estonia/v11/7Au_p_4ijSecA1yHCCL8zkwMIFg.ttf
 fonts:
 - name: Estonia
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: Estonia-Regular
     version: 1.014; ttfautohint (v1.8.3)
     copyright: Copyright 2010-2021 The Estonia Project Authors (https://github.com/googlefonts/estonia)
-    font: Estonia-Regular.ttf
+    font: 7Au_p_4ijSecA1yHCCL8zkwMIFg.ttf
 extract: {}
 copyright: Copyright 2010-2021 The Estonia Project Authors (https://github.com/googlefonts/estonia)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: da83448c024f6d6fc83c7160b3901a631be14f383e9545770d53d2cd45b434ed
-command: google import --formulas_path Formulas
+command: import google -n 9999

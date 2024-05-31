@@ -3,58 +3,78 @@ name: Pridi
 description: Pridi
 homepage: www.cadsondemak.com
 resources:
-  Pridi.zip:
-    urls:
-    - https://fonts.google.com/download?family=Pridi
-    sha256: 334ab4a297ecf198e0c9dfbbc2ec762bea1fa361f587fff097219baf2b6d3fe2
-    file_size: 452162
+  Pridi:
+    source: google
+    family: Pridi
+    files:
+    - https://fonts.gstatic.com/s/pridi/v13/2sDdZG5JnZLfkc1SiE0jRUG0AqUc.ttf
+    - https://fonts.gstatic.com/s/pridi/v13/2sDdZG5JnZLfkc02i00jRUG0AqUc.ttf
+    - https://fonts.gstatic.com/s/pridi/v13/2sDQZG5JnZLfkfWao2krbl29.ttf
+    - https://fonts.gstatic.com/s/pridi/v13/2sDdZG5JnZLfkc1uik0jRUG0AqUc.ttf
+    - https://fonts.gstatic.com/s/pridi/v13/2sDdZG5JnZLfkc1CjU0jRUG0AqUc.ttf
+    - https://fonts.gstatic.com/s/pridi/v13/2sDdZG5JnZLfkc0mjE0jRUG0AqUc.ttf
 fonts:
 - name: Pridi
   styles:
-  - family_name: Pridi
-    type: ExtraLight
-    full_name: Pridi ExtraLight
-    post_script_name: Pridi-ExtraLight
-    version: '1.001'
-    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: Pridi-ExtraLight.ttf
-  - family_name: Pridi
-    type: Light
-    full_name: Pridi Light
-    post_script_name: Pridi-Light
-    version: '1.003'
-    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: Pridi-Light.ttf
-  - family_name: Pridi
-    type: Regular
-    full_name: Pridi Regular
-    post_script_name: Pridi-Regular
-    version: '1.001'
-    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: Pridi-Regular.ttf
-  - family_name: Pridi
-    type: Medium
-    full_name: Pridi Medium
-    post_script_name: Pridi-Medium
-    version: '1.001'
-    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: Pridi-Medium.ttf
-  - family_name: Pridi
-    type: SemiBold
-    full_name: Pridi SemiBold
-    post_script_name: Pridi-SemiBold
-    version: '1.001'
-    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: Pridi-SemiBold.ttf
   - family_name: Pridi
     type: Bold
     full_name: Pridi Bold
     post_script_name: Pridi-Bold
     version: '1.001'
     copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: Pridi-Bold.ttf
-extract:
-  format: zip
+    font: 2sDdZG5JnZLfkc0mjE0jRUG0AqUc.ttf
+  - family_name: Pridi
+    type: Regular
+    full_name: Pridi Regular
+    post_script_name: Pridi-Regular
+    version: '1.001'
+    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    font: 2sDQZG5JnZLfkfWao2krbl29.ttf
+- name: Pridi ExtraLight
+  styles:
+  - family_name: Pridi ExtraLight
+    type: Regular
+    preferred_family_name: Pridi
+    preferred_type: ExtraLight
+    full_name: Pridi ExtraLight
+    post_script_name: Pridi-ExtraLight
+    version: '1.001'
+    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    font: 2sDdZG5JnZLfkc1SiE0jRUG0AqUc.ttf
+- name: Pridi Light
+  styles:
+  - family_name: Pridi Light
+    type: Regular
+    preferred_family_name: Pridi
+    preferred_type: Light
+    full_name: Pridi Light
+    post_script_name: Pridi-Light
+    version: '1.003'
+    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    font: 2sDdZG5JnZLfkc02i00jRUG0AqUc.ttf
+- name: Pridi Medium
+  styles:
+  - family_name: Pridi Medium
+    type: Regular
+    preferred_family_name: Pridi
+    preferred_type: Medium
+    full_name: Pridi Medium
+    post_script_name: Pridi-Medium
+    version: '1.001'
+    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    font: 2sDdZG5JnZLfkc1uik0jRUG0AqUc.ttf
+- name: Pridi SemiBold
+  styles:
+  - family_name: Pridi SemiBold
+    type: Regular
+    preferred_family_name: Pridi
+    preferred_type: SemiBold
+    full_name: Pridi SemiBold
+    post_script_name: Pridi-SemiBold
+    version: '1.001'
+    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    font: 2sDdZG5JnZLfkc1CjU0jRUG0AqUc.ttf
+extract: {}
 copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -151,3 +171,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Rubik Scribble
 description: Rubik Scribble
 homepage: http://www.google.com/fonts
 resources:
-  Rubik_Scribble.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rubik%20Scribble
-    sha256: 8531fecef73f1c740b2b84d6ce9950afed20c8b3cbc71abb7700fb10ae0a161c
-    file_size: 299756
+  Rubik Scribble:
+    source: google
+    family: Rubik Scribble
+    files:
+    - https://fonts.gstatic.com/s/rubikscribble/v1/snfzs0Cp48d67SuHQOpjXLsQpbqbSjORSo9W.ttf
 fonts:
 - name: Rubik Scribble
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: RubikScribble-Regular
     version: '2.201'
     copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
-    font: RubikScribble-Regular.ttf
+    font: snfzs0Cp48d67SuHQOpjXLsQpbqbSjORSo9W.ttf
 extract: {}
 copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 6443163b912f6fe374bbce4e6dcfa18d87c8160c28c987a960c43bebec906a3c
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

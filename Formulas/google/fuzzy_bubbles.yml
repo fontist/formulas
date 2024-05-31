@@ -1,12 +1,14 @@
 ---
+name: Fuzzy Bubbles
 description: Fuzzy Bubbles
 homepage: www.typesetit.com
 resources:
-  Fuzzy_Bubbles.zip:
-    urls:
-    - https://fonts.google.com/download?family=Fuzzy%20Bubbles
-    sha256: 8bd3a72b1e11a16f58b862af2bd6acbe8ed0d0a6ecd636a344e452d74853187d
-    file_size: 130710
+  Fuzzy Bubbles:
+    source: google
+    family: Fuzzy Bubbles
+    files:
+    - https://fonts.gstatic.com/s/fuzzybubbles/v7/6qLGKZMbrgv9pwtjPEVNV0F2NnP5Zxsreko.ttf
+    - https://fonts.gstatic.com/s/fuzzybubbles/v7/6qLbKZMbrgv9pwtjPEVNV0F2Ds_WQxMAZkM1pn4.ttf
 fonts:
 - name: Fuzzy Bubbles
   styles:
@@ -16,14 +18,14 @@ fonts:
     post_script_name: FuzzyBubbles-Bold
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2005 The Fuzzy Bubbles Project Authors (https://github.com/googlefonts/fuzzy-bubbles)
-    font: FuzzyBubbles-Bold.ttf
+    font: 6qLbKZMbrgv9pwtjPEVNV0F2Ds_WQxMAZkM1pn4.ttf
   - family_name: Fuzzy Bubbles
     type: Regular
     full_name: Fuzzy Bubbles Regular
     post_script_name: FuzzyBubbles-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2005 The Fuzzy Bubbles Project Authors (https://github.com/googlefonts/fuzzy-bubbles)
-    font: FuzzyBubbles-Regular.ttf
+    font: 6qLGKZMbrgv9pwtjPEVNV0F2NnP5Zxsreko.ttf
 extract: {}
 copyright: Copyright 2005 The Fuzzy Bubbles Project Authors (https://github.com/googlefonts/fuzzy-bubbles)
 license_url: https://scripts.sil.org/OFL
@@ -32,7 +34,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -121,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: fbf6ba63c6ee6056c166573a2c73b377e64303b6da4ddcce8205bbdb514ea846
-command: google import --formulas_path Formulas
+command: import google -n 9999

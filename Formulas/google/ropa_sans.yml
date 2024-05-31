@@ -1,23 +1,17 @@
 ---
+name: Ropa Sans
 description: Ropa Sans
 homepage: http://www.lettersoup.de
 resources:
-  RopaSans.zip:
-    urls:
-    - https://fonts.google.com/download?family=Ropa%20Sans
-    sha256: f97b871b80e3d62d008a5d92e1edbea9f01d73d844717f0fab3503cd7d32b567
-    file_size: 59483
+  Ropa Sans:
+    source: google
+    family: Ropa Sans
+    files:
+    - https://fonts.gstatic.com/s/ropasans/v15/EYqxmaNOzLlWtsZSScyKWjloU5KP2g.ttf
+    - https://fonts.gstatic.com/s/ropasans/v15/EYq3maNOzLlWtsZSScy6WDNscZef2mNE.ttf
 fonts:
 - name: Ropa Sans
   styles:
-  - family_name: Ropa Sans
-    type: Regular
-    full_name: Ropa Sans Regular
-    post_script_name: RopaSans-Regular
-    version: '1.100'
-    copyright: Copyright 2013 The Ropa Sans Project Authors (nikoltchev@lettersoup.de),
-      with Reserved Font Name "Ropa Sans".
-    font: RopaSans-Regular.ttf
   - family_name: Ropa Sans
     type: Italic
     full_name: Ropa Sans Italic
@@ -25,9 +19,16 @@ fonts:
     version: '1.100'
     copyright: Copyright 2013 The Ropa Sans Project Authors (nikoltchev@lettersoup.de),
       with Reserved Font Name "Ropa Sans".
-    font: RopaSans-Italic.ttf
-extract:
-  format: zip
+    font: EYq3maNOzLlWtsZSScy6WDNscZef2mNE.ttf
+  - family_name: Ropa Sans
+    type: Regular
+    full_name: Ropa Sans Regular
+    post_script_name: RopaSans-Regular
+    version: '1.100'
+    copyright: Copyright 2013 The Ropa Sans Project Authors (nikoltchev@lettersoup.de),
+      with Reserved Font Name "Ropa Sans".
+    font: EYqxmaNOzLlWtsZSScyKWjloU5KP2g.ttf
+extract: {}
 copyright: Copyright 2013 The Ropa Sans Project Authors (nikoltchev@lettersoup.de),
   with Reserved Font Name "Ropa Sans".
 license_url: http://scripts.sil.org/OFL
@@ -125,3 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Londrina Sketch
 description: Londrina Sketch
 homepage: http://www.tipospereira.com
 resources:
-  LondrinaSketch.zip:
-    urls:
-    - https://fonts.google.com/download?family=Londrina%20Sketch
-    sha256: d33200362a683d8419f94a9e9a6c1be09d847a8e6fb9ad6f9bb906636c83ff90
-    file_size: 138773
+  Londrina Sketch:
+    source: google
+    family: Londrina Sketch
+    files:
+    - https://fonts.gstatic.com/s/londrinasketch/v25/c4m41npxGMTnomOHtRU68eIJn8qfWWn5Pos6CA.ttf
 fonts:
 - name: Londrina Sketch
   styles:
@@ -17,9 +18,8 @@ fonts:
     version: '1.002'
     copyright: Copyright 2011 The Londrina Sketch Authors (https://github.com/marcelommp/Londrina-Typeface),
       with Reserved Font Name "Londrina Sketch"
-    font: LondrinaSketch-Regular.ttf
-extract:
-  format: zip
+    font: c4m41npxGMTnomOHtRU68eIJn8qfWWn5Pos6CA.ttf
+extract: {}
 copyright: Copyright 2011 The Londrina Sketch Authors (https://github.com/marcelommp/Londrina-Typeface),
   with Reserved Font Name "Londrina Sketch"
 license_url: http://scripts.sil.org/OFL
@@ -117,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Avestan
 description: Noto Sans Avestan
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Avestan.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Avestan
-    sha256: b9eebfd89e30b980e56a5f52e651a52286a71d62aacc109537622ad144f6e975
-    file_size: 35653
+  Noto Sans Avestan:
+    source: google
+    family: Noto Sans Avestan
+    files:
+    - https://fonts.gstatic.com/s/notosansavestan/v21/bWti7ejKfBziStx7lIzKOLQZKhIJkyu9SASLji8U.ttf
 fonts:
 - name: Noto Sans Avestan
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/avestan)
-    font: NotoSansAvestan-Regular.ttf
+    font: bWti7ejKfBziStx7lIzKOLQZKhIJkyu9SASLji8U.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/avestan)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ec3073fe0a4dae87c5961b6ff772286235aaa5296db993a854004e9b6d9a8be1
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

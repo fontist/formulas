@@ -3,11 +3,11 @@ name: Itim
 description: Itim
 homepage: www.katatrad.com
 resources:
-  Itim.zip:
-    urls:
-    - https://fonts.google.com/download?family=Itim
-    sha256: 665f262a769a55751d47ca9c25a4b7fea64f91ba74d8762ac15c8babff86de48
-    file_size: 142447
+  Itim:
+    source: google
+    family: Itim
+    files:
+    - https://fonts.gstatic.com/s/itim/v14/0nknC9ziJOYewARKkc7ZdwU.ttf
 fonts:
 - name: Itim
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: 1.002g
     copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com), Copyright
       (c) 2014, Pablo Impallari (www.impallari.com|impallari@gmail.com)
-    font: Itim-Regular.ttf
-extract:
-  format: zip
+    font: 0nknC9ziJOYewARKkc7ZdwU.ttf
+extract: {}
 copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com), Copyright (c)
   2014, Pablo Impallari (www.impallari.com|impallari@gmail.com)
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

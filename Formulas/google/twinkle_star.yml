@@ -1,12 +1,13 @@
 ---
+name: Twinkle Star
 description: Twinkle Star
 homepage: www.typesetit.com
 resources:
-  Twinkle_Star.zip:
-    urls:
-    - https://fonts.google.com/download?family=Twinkle%20Star
-    sha256: 6b34bc53be9dc664b858c1b566bf75e56aa88d6a650e1206153b677881e75466
-    file_size: 134343
+  Twinkle Star:
+    source: google
+    family: Twinkle Star
+    files:
+    - https://fonts.gstatic.com/s/twinklestar/v6/pe0pMI6IL4dPoFl9LGEmY6WaA_Rue1UwVg.ttf
 fonts:
 - name: Twinkle Star
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: TwinkleStar-Regular
     version: 2.010; ttfautohint (v1.8.3)
     copyright: Copyright 2003 The Twinkle Star Project Authors (https://github.com/googlefonts/twinkle-star)
-    font: TwinkleStar-Regular.ttf
+    font: pe0pMI6IL4dPoFl9LGEmY6WaA_Rue1UwVg.ttf
 extract: {}
 copyright: Copyright 2003 The Twinkle Star Project Authors (https://github.com/googlefonts/twinkle-star)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 49e08eb123dfdacb4201706a42656f87702398cb8289ddf4e0cfa086e28996d3
-command: google import --formulas_path Formulas
+command: import google -n 9999

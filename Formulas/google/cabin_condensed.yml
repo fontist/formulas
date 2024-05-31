@@ -1,12 +1,16 @@
 ---
+name: Cabin Condensed
 description: Cabin Condensed
 homepage: http://www.impallari.com
 resources:
-  CabinCondensed.zip:
-    urls:
-    - https://fonts.google.com/download?family=Cabin%20Condensed
-    sha256: 13549bed5769749045c072ccc00e186ad2fdca910c50e677650655c0a3bee171
-    file_size: 181517
+  Cabin Condensed:
+    source: google
+    family: Cabin Condensed
+    files:
+    - https://fonts.gstatic.com/s/cabincondensed/v20/nwpMtK6mNhBK2err_hqkYhHRqmwaYOjZ5HZl8Q.ttf
+    - https://fonts.gstatic.com/s/cabincondensed/v20/nwpJtK6mNhBK2err_hqkYhHRqmwilMH97F15-K1oqQ.ttf
+    - https://fonts.gstatic.com/s/cabincondensed/v20/nwpJtK6mNhBK2err_hqkYhHRqmwiuMb97F15-K1oqQ.ttf
+    - https://fonts.gstatic.com/s/cabincondensed/v20/nwpJtK6mNhBK2err_hqkYhHRqmwi3Mf97F15-K1oqQ.ttf
 fonts:
 - name: Cabin Condensed
   styles:
@@ -16,14 +20,14 @@ fonts:
     post_script_name: CabinCondensed-Bold
     version: '2.200'
     copyright: Copyright 2016 The Cabin Project Authors (impallari@gmail.com)
-    font: CabinCondensed-Bold.ttf
+    font: nwpJtK6mNhBK2err_hqkYhHRqmwi3Mf97F15-K1oqQ.ttf
   - family_name: Cabin Condensed
     type: Regular
     full_name: Cabin Condensed Regular
     post_script_name: CabinCondensed-Regular
     version: '2.200'
     copyright: Copyright 2016 The Cabin Project Authors (impallari@gmail.com)
-    font: CabinCondensed-Regular.ttf
+    font: nwpMtK6mNhBK2err_hqkYhHRqmwaYOjZ5HZl8Q.ttf
 - name: Cabin Condensed Medium
   styles:
   - family_name: Cabin Condensed Medium
@@ -34,7 +38,7 @@ fonts:
     post_script_name: CabinCondensed-Medium
     version: '2.200'
     copyright: Copyright 2016 The Cabin Project Authors (impallari@gmail.com)
-    font: CabinCondensed-Medium.ttf
+    font: nwpJtK6mNhBK2err_hqkYhHRqmwilMH97F15-K1oqQ.ttf
 - name: Cabin Condensed SemiBold
   styles:
   - family_name: Cabin Condensed SemiBold
@@ -45,7 +49,7 @@ fonts:
     post_script_name: CabinCondensed-SemiBold
     version: '2.200'
     copyright: Copyright 2016 The Cabin Project Authors (impallari@gmail.com)
-    font: CabinCondensed-SemiBold.ttf
+    font: nwpJtK6mNhBK2err_hqkYhHRqmwiuMb97F15-K1oqQ.ttf
 extract: {}
 copyright: Copyright 2016 The Cabin Project Authors (impallari@gmail.com)
 license_url: http://scripts.sil.org/OFL
@@ -143,3 +147,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

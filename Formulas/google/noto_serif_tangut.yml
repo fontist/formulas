@@ -1,12 +1,13 @@
 ---
+name: Noto Serif Tangut
 description: Noto Serif Tangut
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Serif_Tangut.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Serif%20Tangut
-    sha256: 512ee2d1b8cdff0b5eb9e1590892d43a615b80fcc5a70094ba255252f11be4b8
-    file_size: 2898183
+  Noto Serif Tangut:
+    source: google
+    family: Noto Serif Tangut
+    files:
+    - https://fonts.gstatic.com/s/notoseriftangut/v16/xn76YGc72GKoTvER4Gn3b4m9Ern7Em41fcvN2KT4.ttf
 fonts:
 - name: Noto Serif Tangut
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.169; ttfautohint (v1.8.4.7-5d5b)
     description: See README.md in https://github.com/notofonts/tangut for credits
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tangut)
-    font: NotoSerifTangut-Regular.ttf
+    font: xn76YGc72GKoTvER4Gn3b4m9Ern7Em41fcvN2KT4.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tangut)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: '08dbb2e115efee8fd14a4475850a555e073f845779edc1c9a3842909ce04eb21'
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

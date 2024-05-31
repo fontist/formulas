@@ -3,11 +3,11 @@ name: Kurale
 description: Kurale
 homepage: http://www.tipo.net.ar
 resources:
-  Kurale.zip:
-    urls:
-    - https://fonts.google.com/download?family=Kurale
-    sha256: 6c2776adc82efa3ce367014211b8d93d5de250b09d8d0c092ade5f1dd85eec5c
-    file_size: 103811
+  Kurale:
+    source: google
+    family: Kurale
+    files:
+    - https://fonts.gstatic.com/s/kurale/v12/4iCs6KV9e9dXjho6eAT3v02QFg.ttf
 fonts:
 - name: Kurale
   styles:
@@ -17,9 +17,8 @@ fonts:
     post_script_name: Kurale-Regular
     version: '2.000'
     copyright: Copyright 2013 The Kurale Project Authors (edu@tipo.net.ar)
-    font: Kurale-Regular.ttf
-extract:
-  format: zip
+    font: 4iCs6KV9e9dXjho6eAT3v02QFg.ttf
+extract: {}
 copyright: Copyright 2013 The Kurale Project Authors (edu@tipo.net.ar)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

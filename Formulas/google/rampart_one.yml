@@ -3,11 +3,11 @@ name: Rampart One
 description: Rampart One
 homepage: http://fontworks.co.jp/
 resources:
-  Rampart_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rampart%20One
-    sha256: 6b4ae9bf532b4755f0437277bb4b8820a9fb12a500405044e5e347b487270f55
-    file_size: 2447561
+  Rampart One:
+    source: google
+    family: Rampart One
+    files:
+    - https://fonts.gstatic.com/s/rampartone/v9/K2F1fZFGl_JSR1tAWNG9R6qgLS76ZHOM.ttf
 fonts:
 - name: Rampart One
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: RampartOne-Regular
     version: '1.100'
     copyright: Copyright 2020 The Rampart Project Authors (https://github.com/fontworks-fonts/Rampart/)
-    font: RampartOne-Regular.ttf
+    font: K2F1fZFGl_JSR1tAWNG9R6qgLS76ZHOM.ttf
 extract: {}
 copyright: Copyright 2020 The Rampart Project Authors (https://github.com/fontworks-fonts/Rampart/)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 30df046c05eb758a6779f6631b77ba777a9ee1ec04d3fab3adcfbf84e50709bc
-command: google import --formulas_path Formulas
+command: import google -n 9999

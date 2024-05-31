@@ -3,44 +3,54 @@ name: Farro
 description: Farro
 homepage: https://grayscale.com.hk/
 resources:
-  Farro.zip:
-    urls:
-    - https://fonts.google.com/download?family=Farro
-    sha256: 5c40a9e674da1c5b8ba2970989913aa95ae615f289978e9cfca42fcf63766388
-    file_size: 137445
+  Farro:
+    source: google
+    family: Farro
+    files:
+    - https://fonts.gstatic.com/s/farro/v14/i7dJIFl3byGNHa3hNJ6-WkJUQUq7.ttf
+    - https://fonts.gstatic.com/s/farro/v14/i7dEIFl3byGNHZVNHLq2cV5d.ttf
+    - https://fonts.gstatic.com/s/farro/v14/i7dJIFl3byGNHa25NZ6-WkJUQUq7.ttf
+    - https://fonts.gstatic.com/s/farro/v14/i7dJIFl3byGNHa3xM56-WkJUQUq7.ttf
 fonts:
 - name: Farro
   styles:
-  - family_name: Farro
-    type: Light
-    full_name: Farro Light
-    post_script_name: Farro-Light
-    version: '1.101'
-    copyright: Copyright 2018 The Farro Project Authors (https://github.com/grayscaleltd/farro)
-    font: Farro-Light.ttf
-  - family_name: Farro
-    type: Regular
-    full_name: Farro Regular
-    post_script_name: Farro-Regular
-    version: '1.101'
-    copyright: Copyright 2018 The Farro Project Authors (https://github.com/grayscaleltd/farro)
-    font: Farro-Regular.ttf
-  - family_name: Farro
-    type: Medium
-    full_name: Farro Medium
-    post_script_name: Farro-Medium
-    version: '1.101'
-    copyright: Copyright 2018 The Farro Project Authors (https://github.com/grayscaleltd/farro)
-    font: Farro-Medium.ttf
   - family_name: Farro
     type: Bold
     full_name: Farro Bold
     post_script_name: Farro-Bold
     version: '1.101'
     copyright: Copyright 2018 The Farro Project Authors (https://github.com/grayscaleltd/farro)
-    font: Farro-Bold.ttf
-extract:
-  format: zip
+    font: i7dJIFl3byGNHa3xM56-WkJUQUq7.ttf
+  - family_name: Farro
+    type: Regular
+    full_name: Farro Regular
+    post_script_name: Farro-Regular
+    version: '1.101'
+    copyright: Copyright 2018 The Farro Project Authors (https://github.com/grayscaleltd/farro)
+    font: i7dEIFl3byGNHZVNHLq2cV5d.ttf
+- name: Farro Light
+  styles:
+  - family_name: Farro Light
+    type: Regular
+    preferred_family_name: Farro
+    preferred_type: Light
+    full_name: Farro Light
+    post_script_name: Farro-Light
+    version: '1.101'
+    copyright: Copyright 2018 The Farro Project Authors (https://github.com/grayscaleltd/farro)
+    font: i7dJIFl3byGNHa3hNJ6-WkJUQUq7.ttf
+- name: Farro Medium
+  styles:
+  - family_name: Farro Medium
+    type: Regular
+    preferred_family_name: Farro
+    preferred_type: Medium
+    full_name: Farro Medium
+    post_script_name: Farro-Medium
+    version: '1.101'
+    copyright: Copyright 2018 The Farro Project Authors (https://github.com/grayscaleltd/farro)
+    font: i7dJIFl3byGNHa25NZ6-WkJUQUq7.ttf
+extract: {}
 copyright: Copyright 2018 The Farro Project Authors (https://github.com/grayscaleltd/farro)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -137,3 +147,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

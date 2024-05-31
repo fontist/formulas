@@ -1,13 +1,12 @@
 ---
 name: VT323
 description: VT323
-homepage:
 resources:
-  VT323.zip:
-    urls:
-    - https://fonts.google.com/download?family=VT323
-    sha256: 8d4a7a9af4e1b90eace1b645ac1ac81bb4eb7dbd2aa7599a602802eeaf64b60f
-    file_size: 44567
+  VT323:
+    source: google
+    family: VT323
+    files:
+    - https://fonts.gstatic.com/s/vt323/v17/pxiKyp0ihIEF2hsYHpT2dkNE.ttf
 fonts:
 - name: VT323
   styles:
@@ -17,9 +16,8 @@ fonts:
     post_script_name: VT323-Regular
     version: '2.000'
     copyright: Copyright 2011, The VT323 Project Authors (peter.hull@oikoi.com)
-    font: VT323-Regular.ttf
-extract:
-  format: zip
+    font: pxiKyp0ihIEF2hsYHpT2dkNE.ttf
+extract: {}
 copyright: Copyright 2011, The VT323 Project Authors (peter.hull@oikoi.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

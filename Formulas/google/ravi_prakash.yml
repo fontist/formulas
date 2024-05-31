@@ -1,12 +1,12 @@
 ---
+name: Ravi Prakash
 description: Ravi Prakash
-homepage:
 resources:
-  RaviPrakash.zip:
-    urls:
-    - https://fonts.google.com/download?family=Ravi%20Prakash
-    sha256: 113c36e36ed0340e9b26653619d07746ff47858c18028de2235836919f85fb2d
-    file_size: 120518
+  Ravi Prakash:
+    source: google
+    family: Ravi Prakash
+    files:
+    - https://fonts.gstatic.com/s/raviprakash/v19/gokpH6fsDkVrF9Bv9X8SOAKHmNZEq6TTFw.ttf
 fonts:
 - name: Ravi Prakash
   styles:
@@ -17,9 +17,8 @@ fonts:
     version: 1.0.4; ttfautohint (v1.2.42-39fb)
     copyright: Copyright (c) 2011 Silicon Andhra (fonts.siliconandhra.org). Copyright
       (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name 'Joti'
-    font: RaviPrakash-Regular.ttf
-extract:
-  format: zip
+    font: gokpH6fsDkVrF9Bv9X8SOAKHmNZEq6TTFw.ttf
+extract: {}
 copyright: Copyright (c) 2011 Silicon Andhra (fonts.siliconandhra.org). Copyright
   (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name 'Joti'
 license_url: http://scripts.sil.org/OFL
@@ -117,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,12 +1,12 @@
 ---
+name: Concert One
 description: Concert One
-homepage:
 resources:
-  ConcertOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Concert%20One
-    sha256: 35dea8f91462792e5221c8ac4a5b8d450841b21232a3936241b832652b502667
-    file_size: 35811
+  Concert One:
+    source: google
+    family: Concert One
+    files:
+    - https://fonts.gstatic.com/s/concertone/v21/VEM1Ro9xs5PjtzCu-srDqRTlhv-CuVAQ.ttf
 fonts:
 - name: Concert One
   styles:
@@ -18,9 +18,8 @@ fonts:
     copyright: Copyright (c) 2011, 2011 Johan Kallas (johankallas@gmail.com), Copyright
       (c) 2011, 2011 Mihkel Virkus (mihkelvirkus@gmail.com), with Reserved Font Name
       Concert.
-    font: ConcertOne-Regular.ttf
-extract:
-  format: zip
+    font: VEM1Ro9xs5PjtzCu-srDqRTlhv-CuVAQ.ttf
+extract: {}
 copyright: Copyright (c) 2011, 2011 Johan Kallas (johankallas@gmail.com), Copyright
   (c) 2011, 2011 Mihkel Virkus (mihkelvirkus@gmail.com), with Reserved Font Name Concert.
 license_url: http://scripts.sil.org/OFL
@@ -120,3 +119,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

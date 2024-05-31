@@ -3,11 +3,11 @@ name: Dokdo
 description: Dokdo
 homepage: http://fontrix.co.kr/
 resources:
-  Dokdo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Dokdo
-    sha256: b182f7709494cc42798ae1c6331a6d52dc96b8a441bb6058a95825327ae129e5
-    file_size: 720165
+  Dokdo:
+    source: google
+    family: Dokdo
+    files:
+    - https://fonts.gstatic.com/s/dokdo/v17/esDf315XNuCBLxLo4NaMlKcH.ttf
 fonts:
 - name: Dokdo
   styles:
@@ -17,9 +17,8 @@ fonts:
     post_script_name: Dokdo-Regular
     version: '2.00'
     copyright: Copyright (c) 2005-2017 FONTRIX. All Rights Reserved.
-    font: Dokdo-Regular.ttf
-extract:
-  format: zip
+    font: esDf315XNuCBLxLo4NaMlKcH.ttf
+extract: {}
 copyright: Copyright (c) 2005-2017 FONTRIX. All Rights Reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

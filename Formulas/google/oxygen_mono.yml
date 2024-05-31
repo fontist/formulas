@@ -1,26 +1,28 @@
 ---
+name: Oxygen Mono
 description: Oxygen Mono
 homepage: newtypography.co.uk
 resources:
-  OxygenMono.zip:
-    urls:
-    - https://fonts.google.com/download?family=Oxygen%20Mono
-    sha256: 28a9b8de27f65bc26da5155a1dadb79491705f2f3e489ceaea5ab3b1584bc1fe
-    file_size: 35649
+  Oxygen Mono:
+    source: google
+    family: Oxygen Mono
+    files:
+    - https://fonts.gstatic.com/s/oxygenmono/v14/h0GsssGg9FxgDgCjLeAd7ijfze-PPlUu.ttf
 fonts:
 - name: Oxygen Mono
   styles:
   - family_name: Oxygen Mono
     type: Regular
+    preferred_family_name: Oxygen Mono
+    preferred_type: Regular
     full_name: Oxygen Mono
     post_script_name: OxygenMono-Regular
     version: 0.201; ttfautohint (v0.8) -r 50 -G 200 -x
     copyright: Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk), with Reserved
       Font Names 'Oxygen'
-    font: OxygenMono-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved
+    font: h0GsssGg9FxgDgCjLeAd7ijfze-PPlUu.ttf
+extract: {}
+copyright: Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk), with Reserved
   Font Names 'Oxygen'
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -117,3 +119,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

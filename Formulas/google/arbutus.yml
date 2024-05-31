@@ -3,11 +3,11 @@ name: Arbutus
 description: Arbutus
 homepage: www.sorkintype.com
 resources:
-  Arbutus.zip:
-    urls:
-    - https://fonts.google.com/download?family=Arbutus
-    sha256: 32fdcfde3ef7ab52beba8509ccf10fdec7cd3dabaaee1fb4dda7ea2cf4300259
-    file_size: 42252
+  Arbutus:
+    source: google
+    family: Arbutus
+    files:
+    - https://fonts.gstatic.com/s/arbutus/v28/NaPYcZ7dG_5J3poob9JtryO8fMU.ttf
 fonts:
 - name: Arbutus
   styles:
@@ -23,12 +23,15 @@ fonts:
       This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at:
       http://scripts.sil.org/OFL
-    font: Arbutus-Regular.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved
-  Font Name "Arbutus".  This Font Software is licensed under the SIL Open Font License,
-  Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    font: NaPYcZ7dG_5J3poob9JtryO8fMU.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
+  with Reserved Font Name "Arbutus".
+
+  This Font Software is licensed under the SIL Open Font License,
+  Version 1.1. This license is available with a FAQ at:
+  http://scripts.sil.org/OFL
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
@@ -125,3 +128,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -3,11 +3,11 @@ name: Explora
 description: Explora
 homepage: www.typesetit.com
 resources:
-  Explora.zip:
-    urls:
-    - https://fonts.google.com/download?family=Explora
-    sha256: 8ab2833fd52c52fccea6c4f525a7ccaac9cd738a872901b36def0ed52195a6a9
-    file_size: 85128
+  Explora:
+    source: google
+    family: Explora
+    files:
+    - https://fonts.gstatic.com/s/explora/v9/tsstApxFfjUH4wrvc1qPonC3vqc.ttf
 fonts:
 - name: Explora
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: Explora-Regular
     version: '1.010'
     copyright: Copyright 2011 The Explora Project Authors (https://github.com/googlefonts/explora)
-    font: Explora-Regular.ttf
+    font: tsstApxFfjUH4wrvc1qPonC3vqc.ttf
 extract: {}
 copyright: Copyright 2011 The Explora Project Authors (https://github.com/googlefonts/explora)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 40424c9dea8644363ace2c42fc8a022ce2ff34a4ef5bb6602924d8b819091c74
-command: google import --formulas_path Formulas
+command: import google -n 9999

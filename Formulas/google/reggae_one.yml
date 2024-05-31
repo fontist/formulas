@@ -3,11 +3,11 @@ name: Reggae One
 description: Reggae One
 homepage: http://fontworks.co.jp/
 resources:
-  Reggae_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Reggae%20One
-    sha256: d80bf7555aa01d0eb1acf9ec357a67d383ca538a40ee78b8c481eeb0a9de044b
-    file_size: 1422901
+  Reggae One:
+    source: google
+    family: Reggae One
+    files:
+    - https://fonts.gstatic.com/s/reggaeone/v16/7r3DqX5msMIkeuwJwOJt_a5L5uH-mts.ttf
 fonts:
 - name: Reggae One
   styles:
@@ -15,10 +15,10 @@ fonts:
     type: Regular
     full_name: Reggae One Regular
     post_script_name: ReggaeOne-Regular
-    version: 1.000; ttfautohint (v1.8.3)
+    version: '1.100'
     copyright: Copyright 2020 The Reggae Project Authors (https://github.com/fontworks-fonts/Reggae/),
       all rights reserved.
-    font: ReggaeOne-Regular.ttf
+    font: 7r3DqX5msMIkeuwJwOJt_a5L5uH-mts.ttf
 extract: {}
 copyright: Copyright 2020 The Reggae Project Authors (https://github.com/fontworks-fonts/Reggae/),
   all rights reserved.
@@ -28,7 +28,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -117,5 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 89f33b4d0a86cf1e1afad652fdb25456a5f501f01bcd3e147ea4a75c3b2d2380
-command: google import --formulas_path Formulas
+command: import google -n 9999

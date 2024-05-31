@@ -1,13 +1,12 @@
 ---
 name: Allerta
 description: Allerta
-homepage:
 resources:
-  Allerta.zip:
-    urls:
-    - https://fonts.google.com/download?family=Allerta
-    sha256: 972ceda22d260aa93ec8cb274ff5a06492ffac1f47b8217e30b080bde5beeaf8
-    file_size: 12511
+  Allerta:
+    source: google
+    family: Allerta
+    files:
+    - https://fonts.gstatic.com/s/allerta/v18/TwMO-IAHRlkbx940UnEdSQqO5uY.ttf
 fonts:
 - name: Allerta
   styles:
@@ -17,9 +16,8 @@ fonts:
     post_script_name: Allerta-Regular
     version: '1.0'
     copyright: Copyright (c) 2009, Matt McInerney <matt@pixelspread.com>
-    font: Allerta-Regular.ttf
-extract:
-  format: zip
+    font: TwMO-IAHRlkbx940UnEdSQqO5uY.ttf
+extract: {}
 copyright: Copyright (c) 2009, Matt McInerney <matt@pixelspread.com>
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -117,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

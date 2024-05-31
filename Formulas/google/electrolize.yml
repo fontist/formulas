@@ -3,11 +3,11 @@ name: Electrolize
 description: Electrolize
 homepage: http://cyreal.org
 resources:
-  Electrolize.zip:
-    urls:
-    - https://fonts.google.com/download?family=Electrolize
-    sha256: 26b08ec4e582218fef46040b3df7f627ee9055b0612e31c8325cb854d5587a81
-    file_size: 25059
+  Electrolize:
+    source: google
+    family: Electrolize
+    files:
+    - https://fonts.gstatic.com/s/electrolize/v18/cIf5Ma1dtE0zSiGSiED7AUEGso5tQafB.ttf
 fonts:
 - name: Electrolize
   styles:
@@ -27,12 +27,15 @@ fonts:
       This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at:
       http://scripts.sil.org/OFL
-    font: Electrolize-Regular.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved
-  Font Name "Electrolize" This Font Software is licensed under the SIL Open Font License,
-  Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    font: cIf5Ma1dtE0zSiGSiED7AUEGso5tQafB.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011, Cyreal (www.cyreal.org)
+  with Reserved Font Name "Electrolize"
+
+  This Font Software is licensed under the SIL Open Font License,
+  Version 1.1. This license is available with a FAQ at:
+  http://scripts.sil.org/OFL
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Cyreal (www.cyreal.org),
@@ -129,3 +132,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

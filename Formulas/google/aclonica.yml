@@ -3,11 +3,11 @@ name: Aclonica
 description: Aclonica
 homepage: http://www.astigmatic.com/
 resources:
-  Aclonica.zip:
-    urls:
-    - https://fonts.google.com/download?family=Aclonica
-    sha256: 8a233c679555455802b6c2d92e4420142a8a38685babe450af18ff3e0b704b33
-    file_size: 33867
+  Aclonica:
+    source: google
+    family: Aclonica
+    files:
+    - https://fonts.gstatic.com/s/aclonica/v22/K2FyfZJVlfNNSEBXGb7TCI6oBjLz.ttf
 fonts:
 - name: Aclonica
   styles:
@@ -19,13 +19,14 @@ fonts:
     copyright: |-
       Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.
       http://www.apache.org/licenses/LICENSE-2.0.html
-    font: Aclonica-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010 Brian J. Bonislawsky (astigma@astigmatic.com)
+    font: K2FyfZJVlfNNSEBXGb7TCI6oBjLz.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.
+  http://www.apache.org/licenses/LICENSE-2.0.html
 license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |2-
-                                   Apache License
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -226,3 +227,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999

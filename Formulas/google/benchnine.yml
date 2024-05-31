@@ -3,30 +3,16 @@ name: BenchNine
 description: BenchNine
 homepage: newtypography.co.uk
 resources:
-  BenchNine.zip:
-    urls:
-    - https://fonts.google.com/download?family=BenchNine
-    sha256: 3d7b0a2e86597938b13205c7b902fb99fe600af242d42d07eae66489474fda1b
-    file_size: 97143
+  BenchNine:
+    source: google
+    family: BenchNine
+    files:
+    - https://fonts.gstatic.com/s/benchnine/v16/ahcev8612zF4jxrwMosT--tRhWa8q0v8ag.ttf
+    - https://fonts.gstatic.com/s/benchnine/v16/ahcbv8612zF4jxrwMosrV8N1jU2gog.ttf
+    - https://fonts.gstatic.com/s/benchnine/v16/ahcev8612zF4jxrwMosT6-xRhWa8q0v8ag.ttf
 fonts:
 - name: BenchNine
   styles:
-  - family_name: BenchNine
-    type: Light
-    full_name: BenchNine Light
-    post_script_name: BenchNine-Light
-    version: 1 ; ttfautohint (v0.92.18-e454-dirty) -l 8 -r 50 -G 200 -x 0 -w "g"
-    copyright: Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved
-      Font Name 'BenchNine'
-    font: BenchNine-Light.ttf
-  - family_name: BenchNine
-    type: Regular
-    full_name: BenchNine Regular
-    post_script_name: BenchNine-Regular
-    version: 1 ; ttfautohint (v0.92.18-e454-dirty) -l 8 -r 50 -G 200 -x 0 -w "g"
-    copyright: Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved
-      Font Name 'BenchNine'
-    font: BenchNine-Regular.ttf
   - family_name: BenchNine
     type: Bold
     full_name: BenchNine Bold
@@ -34,9 +20,28 @@ fonts:
     version: 1 ; ttfautohint (v0.92.18-e454-dirty) -l 8 -r 50 -G 200 -x 0 -w "g"
     copyright: Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved
       Font Name 'BenchNine'
-    font: BenchNine-Bold.ttf
-extract:
-  format: zip
+    font: ahcev8612zF4jxrwMosT6-xRhWa8q0v8ag.ttf
+  - family_name: BenchNine
+    type: Regular
+    full_name: BenchNine Regular
+    post_script_name: BenchNine-Regular
+    version: 1 ; ttfautohint (v0.92.18-e454-dirty) -l 8 -r 50 -G 200 -x 0 -w "g"
+    copyright: Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved
+      Font Name 'BenchNine'
+    font: ahcbv8612zF4jxrwMosrV8N1jU2gog.ttf
+- name: BenchNine Light
+  styles:
+  - family_name: BenchNine Light
+    type: Regular
+    preferred_family_name: BenchNine
+    preferred_type: Light
+    full_name: BenchNine Light
+    post_script_name: BenchNine-Light
+    version: 1 ; ttfautohint (v0.92.18-e454-dirty) -l 8 -r 50 -G 200 -x 0 -w "g"
+    copyright: Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved
+      Font Name 'BenchNine'
+    font: ahcev8612zF4jxrwMosT--tRhWa8q0v8ag.ttf
+extract: {}
 copyright: Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved
   Font Name 'BenchNine'
 license_url: http://scripts.sil.org/OFL
@@ -134,3 +139,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

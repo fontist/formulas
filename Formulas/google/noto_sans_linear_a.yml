@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Linear A
 description: Noto Sans Linear A
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Linear_A.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Linear%20A
-    sha256: cc019fcf608bfbe862b273a4557253ed0aa29bee483783859fe7d4d6740b2bd6
-    file_size: 88035
+  Noto Sans Linear A:
+    source: google
+    family: Noto Sans Linear A
+    files:
+    - https://fonts.gstatic.com/s/notosanslineara/v18/oPWS_l16kP4jCuhpgEGmwJOiA18FZj22zmHQAGQicw.ttf
 fonts:
 - name: Noto Sans Linear A
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/linear-a)
-    font: NotoSansLinearA-Regular.ttf
+    font: oPWS_l16kP4jCuhpgEGmwJOiA18FZj22zmHQAGQicw.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/linear-a)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 20e8ef94522eddc0ec977d16d0d31cd679732cc0bcc3b4a1a89a6ff7ea28d890
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

@@ -1,23 +1,16 @@
 ---
+name: Montserrat Subrayada
 description: Montserrat Subrayada
-homepage:
 resources:
-  MontserratSubrayada.zip:
-    urls:
-    - https://fonts.google.com/download?family=Montserrat%20Subrayada
-    sha256: 2f1166abe44c09941d7666e5710e120d76926ee11c5b2a01cd6f1e95092d7c58
-    file_size: 23960
+  Montserrat Subrayada:
+    source: google
+    family: Montserrat Subrayada
+    files:
+    - https://fonts.gstatic.com/s/montserratsubrayada/v19/U9MD6c-o9H7PgjlTHThBnNHGVUORwteQQE8LYuceqGT-.ttf
+    - https://fonts.gstatic.com/s/montserratsubrayada/v19/U9MM6c-o9H7PgjlTHThBnNHGVUORwteQQHe3TcMWg3j36Ebz.ttf
 fonts:
 - name: Montserrat Subrayada
   styles:
-  - family_name: Montserrat Subrayada
-    type: Regular
-    full_name: MontserratSubrayada-Regular
-    post_script_name: MontserratSubrayada-Regular
-    version: '2.001'
-    copyright: Copyright (c) 2011-2012, Julieta Ulanovsky (julieta.ulanovsky@gmail.com),
-      with Reserved Font Names 'Montserrat'
-    font: MontserratSubrayada-Regular.ttf
   - family_name: Montserrat Subrayada
     type: Bold
     full_name: MontserratSubrayada-Bold
@@ -25,9 +18,16 @@ fonts:
     version: '2.001'
     copyright: Copyright (c) 2011-2012, Julieta Ulanovsky (julieta.ulanovsky@gmail.com),
       with Reserved Font Names 'Montserrat'
-    font: MontserratSubrayada-Bold.ttf
-extract:
-  format: zip
+    font: U9MM6c-o9H7PgjlTHThBnNHGVUORwteQQHe3TcMWg3j36Ebz.ttf
+  - family_name: Montserrat Subrayada
+    type: Regular
+    full_name: MontserratSubrayada-Regular
+    post_script_name: MontserratSubrayada-Regular
+    version: '2.001'
+    copyright: Copyright (c) 2011-2012, Julieta Ulanovsky (julieta.ulanovsky@gmail.com),
+      with Reserved Font Names 'Montserrat'
+    font: U9MD6c-o9H7PgjlTHThBnNHGVUORwteQQE8LYuceqGT-.ttf
+extract: {}
 copyright: Copyright (c) 2011-2012, Julieta Ulanovsky (julieta.ulanovsky@gmail.com),
   with Reserved Font Names 'Montserrat'
 license_url: http://scripts.sil.org/OFL
@@ -125,3 +125,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

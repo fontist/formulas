@@ -3,11 +3,11 @@ name: Italianno
 description: Italianno
 homepage: www.typesetit.com
 resources:
-  Italianno.zip:
-    urls:
-    - https://fonts.google.com/download?family=Italianno
-    sha256: 2dd3e1111c57700cc46d7637dcee62f0dcba5ff9dcc22de8243a55462dd132ff
-    file_size: 102368
+  Italianno:
+    source: google
+    family: Italianno
+    files:
+    - https://fonts.gstatic.com/s/italianno/v17/dg4n_p3sv6gCJkwzT6Rnj5YpQwM-gg.ttf
 fonts:
 - name: Italianno
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: Italianno-Regular
     version: 1.100; ttfautohint (v1.8.3)
     copyright: Copyright 2009 The Italianno Project Authors (https://github.com/googlefonts/italianno)
-    font: Italianno-Regular.ttf
+    font: dg4n_p3sv6gCJkwzT6Rnj5YpQwM-gg.ttf
 extract: {}
 copyright: Copyright 2009 The Italianno Project Authors (https://github.com/googlefonts/italianno)
 license_url: https://scripts.sil.org/OFL
@@ -26,8 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
-
+  https://scripts.sil.org/OFL
 
   -----------------------------------------------------------
   SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
@@ -115,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 4e21ef1ca585b80ca7fdf0c94e38546b131a3d5681cad7631f63ff9275381978
-command: google import --formulas_path Formulas
+command: import google -n 9999

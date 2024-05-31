@@ -1,12 +1,14 @@
 ---
+name: Tiro Telugu
 description: Tiro Telugu
 homepage: https://github.com/TiroTypeworks/Indigo
 resources:
-  Tiro_Telugu.zip:
-    urls:
-    - https://fonts.google.com/download?family=Tiro%20Telugu
-    sha256: 21d7312502ab1871caaab3dd960747ec5500eb0f1e2c0eef823c0d06f669af67
-    file_size: 455833
+  Tiro Telugu:
+    source: google
+    family: Tiro Telugu
+    files:
+    - https://fonts.gstatic.com/s/tirotelugu/v7/aFTQ7PxlZWk2EPiSymjXdKSNQqn0X0BO.ttf
+    - https://fonts.gstatic.com/s/tirotelugu/v7/aFTS7PxlZWk2EPiSymjXdJSPSK3WWlBOoas.ttf
 fonts:
 - name: Tiro Telugu
   styles:
@@ -16,14 +18,14 @@ fonts:
     post_script_name: TiroTelugu-Italic
     version: '1.53'
     copyright: Copyright 2020 The Indigo Project Authors (https://github.com/TiroTypeworks/Indigo)
-    font: TiroTelugu-Italic.ttf
+    font: aFTS7PxlZWk2EPiSymjXdJSPSK3WWlBOoas.ttf
   - family_name: Tiro Telugu
     type: Regular
     full_name: Tiro Telugu Regular
     post_script_name: TiroTelugu-Regular
     version: '1.53'
     copyright: Copyright 2020 The Indigo Project Authors (https://github.com/TiroTypeworks/Indigo)
-    font: TiroTelugu-Regular.ttf
+    font: aFTQ7PxlZWk2EPiSymjXdKSNQqn0X0BO.ttf
 extract: {}
 copyright: Copyright 2020 The Indigo Project Authors (https://github.com/TiroTypeworks/Indigo)
 license_url: https://scripts.sil.org/OFL
@@ -121,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 75670cb29d23bfd8783dd07aeb792fb10418ac729ad7813ab048b86b8cc6ecef
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

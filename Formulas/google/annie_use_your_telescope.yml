@@ -1,12 +1,12 @@
 ---
+name: Annie Use Your Telescope
 description: Annie Use Your Telescope
-homepage:
 resources:
-  AnnieUseYourTelescope.zip:
-    urls:
-    - https://fonts.google.com/download?family=Annie%20Use%20Your%20Telescope
-    sha256: 1a5ba1e39ed3713fd4c148fc5ef423c17331b86b12d4986bd697387b4cf2688c
-    file_size: 26789
+  Annie Use Your Telescope:
+    source: google
+    family: Annie Use Your Telescope
+    files:
+    - https://fonts.gstatic.com/s/annieuseyourtelescope/v18/daaLSS4tI2qYYl3Jq9s_Hu74xwktnlKxH6osGVGjlDfB3UUVZA.ttf
 fonts:
 - name: Annie Use Your Telescope
   styles:
@@ -16,9 +16,8 @@ fonts:
     post_script_name: AnnieUseYourTelescope-Regular
     version: 1.003 2001
     copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
-    font: AnnieUseYourTelescope-Regular.ttf
-extract:
-  format: zip
+    font: daaLSS4tI2qYYl3Jq9s_Hu74xwktnlKxH6osGVGjlDfB3UUVZA.ttf
+extract: {}
 copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -115,3 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

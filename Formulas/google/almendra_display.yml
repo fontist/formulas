@@ -1,12 +1,12 @@
 ---
+name: Almendra Display
 description: Almendra Display
-homepage:
 resources:
-  AlmendraDisplay.zip:
-    urls:
-    - https://fonts.google.com/download?family=Almendra%20Display
-    sha256: 46a7a469e921b147042887662ad5cb6bd79002deb66c41cbe8f901975a4311f9
-    file_size: 17708
+  Almendra Display:
+    source: google
+    family: Almendra Display
+    files:
+    - https://fonts.gstatic.com/s/almendradisplay/v31/0FlPVOGWl1Sb4O3tETtADHRRlZhzXS_eTyer338.ttf
 fonts:
 - name: Almendra Display
   styles:
@@ -17,9 +17,8 @@ fonts:
     version: '1.004'
     copyright: Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with
       Reserved Font Name 'Almendra'
-    font: AlmendraDisplay-Regular.ttf
-extract:
-  format: zip
+    font: 0FlPVOGWl1Sb4O3tETtADHRRlZhzXS_eTyer338.ttf
+extract: {}
 copyright: Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved
   Font Name 'Almendra'
 license_url: http://scripts.sil.org/OFL
@@ -117,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

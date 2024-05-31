@@ -1,11 +1,12 @@
 ---
+name: Micro 5
 description: Micro 5
 resources:
-  Micro_5.zip:
-    urls:
-    - https://fonts.google.com/download?family=Micro%205
-    sha256: ed7c6531799bf4579242d4b20bd4baaccf44b74fe314db5f54af71f1900a4905
-    file_size: 16861
+  Micro 5:
+    source: google
+    family: Micro 5
+    files:
+    - https://fonts.gstatic.com/s/micro5/v1/H4cnBX2MkcfEngTr0gYQ7LO5mqc.ttf
 fonts:
 - name: Micro 5
   styles:
@@ -15,7 +16,7 @@ fonts:
     post_script_name: Micro5-Regular
     version: 1.000; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type-micro)
-    font: Micro5-Regular.ttf
+    font: H4cnBX2MkcfEngTr0gYQ7LO5mqc.ttf
 extract: {}
 copyright: Copyright 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type-micro)
 license_url: https://openfontlicense.org
@@ -113,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: acc907b7c01e26cfaf1187c79221eaa433a189ec980af8edc5655622feebc898
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

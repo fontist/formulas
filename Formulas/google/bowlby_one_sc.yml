@@ -1,13 +1,12 @@
 ---
 name: Bowlby One SC
 description: Bowlby One SC
-homepage:
 resources:
-  BowlbyOneSC.zip:
-    urls:
-    - https://fonts.google.com/download?family=Bowlby%20One%20SC
-    sha256: 62f9875a19c44e395dd9731e6943aedbce2d3d28b4dfda19ac54e1a15133b26f
-    file_size: 40549
+  Bowlby One SC:
+    source: google
+    family: Bowlby One SC
+    files:
+    - https://fonts.gstatic.com/s/bowlbyonesc/v25/DtVlJxerQqQm37tzN3wMug9Pzgj8owhNjuE.ttf
 fonts:
 - name: Bowlby One SC
   styles:
@@ -18,9 +17,8 @@ fonts:
     version: '1.2'
     copyright: Copyright (c) 2011, vernon adams (vern@newtypography.co.uk), with Reserved
       Font Names "Bowlby"
-    font: BowlbyOneSC-Regular.ttf
-extract:
-  format: zip
+    font: DtVlJxerQqQm37tzN3wMug9Pzgj8owhNjuE.ttf
+extract: {}
 copyright: Copyright (c) 2011, vernon adams (vern@newtypography.co.uk), with Reserved
   Font Names "Bowlby"
 license_url: http://scripts.sil.org/OFL
@@ -119,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

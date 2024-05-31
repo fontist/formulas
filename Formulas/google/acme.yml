@@ -3,11 +3,11 @@ name: Acme
 description: Acme
 homepage: huertatipografica.com.ar
 resources:
-  Acme.zip:
-    urls:
-    - https://fonts.google.com/download?family=Acme
-    sha256: 488f89d1ff0c46b39e0c8f2d399f7bf7ea869a471f9c9135aebdd7439c513f83
-    file_size: 14716
+  Acme:
+    source: google
+    family: Acme
+    files:
+    - https://fonts.gstatic.com/s/acme/v25/RrQfboBx-C5_bx3Lb23lzLk.ttf
 fonts:
 - name: Acme
   styles:
@@ -18,11 +18,10 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011 by Juan Pablo del Peral (huertatipografica.com.ar),
       , with Reserved Font Name "Acme"
-    font: Acme-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by Juan Pablo del Peral (info@huertatipografica.com.ar),
-  with Reserved Font Name "Acme"
+    font: RrQfboBx-C5_bx3Lb23lzLk.ttf
+extract: {}
+copyright: Copyright (c) 2011 by Juan Pablo del Peral (huertatipografica.com.ar),
+  , with Reserved Font Name "Acme"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Juan Pablo del Peral (juan@huertatipografica.com.ar),
@@ -120,3 +119,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

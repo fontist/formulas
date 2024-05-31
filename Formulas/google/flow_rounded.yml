@@ -3,11 +3,11 @@ name: Flow Rounded
 description: Flow Rounded
 homepage: http://danross.co/flow
 resources:
-  Flow_Rounded.zip:
-    urls:
-    - https://fonts.google.com/download?family=Flow%20Rounded
-    sha256: 6aefbcb6a0153e319cccf799850c3a3892eae7f7a3a27880c9d78f20e82da65f
-    file_size: 13211
+  Flow Rounded:
+    source: google
+    family: Flow Rounded
+    files:
+    - https://fonts.gstatic.com/s/flowrounded/v11/-zki91mtwsU9qlLiGwD4oQX3oZX-Xup87g.ttf
 fonts:
 - name: Flow Rounded
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: FlowRounded-Regular
     version: 1.101; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Flow Project Authors (https://github.com/HYPD/flow-typeface)
-    font: FlowRounded-Regular.ttf
+    font: "-zki91mtwsU9qlLiGwD4oQX3oZX-Xup87g.ttf"
 extract: {}
 copyright: Copyright 2020 The Flow Project Authors (https://github.com/HYPD/flow-typeface)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 6eb69ceaf5f2878c65a0b44843cfc736b4a3159b6deb952665c4cfa19aed0be5
-command: google import --formulas_path Formulas
+command: import google -n 9999

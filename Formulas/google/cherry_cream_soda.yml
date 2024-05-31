@@ -1,12 +1,13 @@
 ---
+name: Cherry Cream Soda
 description: Cherry Cream Soda
 homepage: http://www.fontdiner.com
 resources:
-  CherryCreamSoda.zip:
-    urls:
-    - https://fonts.google.com/download?family=Cherry%20Cream%20Soda
-    sha256: 4c91a29fe0255a2a0d6103b37f39c8f765dbba32ed9a0f6f2b044ac36e4706ac
-    file_size: 35209
+  Cherry Cream Soda:
+    source: google
+    family: Cherry Cream Soda
+    files:
+    - https://fonts.gstatic.com/s/cherrycreamsoda/v21/UMBIrOxBrW6w2FFyi9paG0fdVdRciTd6Cd47DJ7G.ttf
 fonts:
 - name: Cherry Cream Soda
   styles:
@@ -16,13 +17,12 @@ fonts:
     post_script_name: CherryCreamSoda-Regular
     version: '1.001'
     copyright: Copyright (c) 2010 by Font Diner, Inc. All rights reserved.
-    font: CherryCreamSoda-Regular.ttf
-extract:
-  format: zip
+    font: UMBIrOxBrW6w2FFyi9paG0fdVdRciTd6Cd47DJ7G.ttf
+extract: {}
 copyright: Copyright (c) 2010 by Font Diner, Inc. All rights reserved.
 license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |2-
-                                   Apache License
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -223,3 +223,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999

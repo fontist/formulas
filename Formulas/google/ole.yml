@@ -1,12 +1,13 @@
 ---
+name: Ole
 description: Ole
 homepage: www.typesetit.com
 resources:
-  Ole.zip:
-    urls:
-    - https://fonts.google.com/download?family=Ole
-    sha256: fa16904cb3d2940bfe05f52e05b8fd86dfbf386c973584b8bfa5a79ece98e504
-    file_size: 84473
+  Ole:
+    source: google
+    family: Ole
+    files:
+    - https://fonts.gstatic.com/s/ole/v3/dFazZf6Z-rd89fw69qJ_ew.ttf
 fonts:
 - name: Ole
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: Ole-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2008 The Ole Project Authors (https://github.com/googlefonts/ole)
-    font: Ole-Regular.ttf
+    font: dFazZf6Z-rd89fw69qJ_ew.ttf
 extract: {}
 copyright: Copyright 2008 The Ole Project Authors (https://github.com/googlefonts/ole)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 209c161c313cb8f8d57627aa2cb5667b4f7735e26b022e0db514d22ac14acf17
-command: google import --formulas_path Formulas
+command: import google -n 9999

@@ -2,11 +2,11 @@
 name: Libre Barcode 39 Extended
 description: Libre Barcode 39 Extended
 resources:
-  Libre_Barcode_39_Extended.zip:
-    urls:
-    - https://fonts.google.com/download?family=Libre%20Barcode%2039%20Extended
-    sha256: 0b9a34d6243c48c4880e469b5dfcc670b29e7d9cac0092dd405d2dcb8487b24e
-    file_size: 7177
+  Libre Barcode 39 Extended:
+    source: google
+    family: Libre Barcode 39 Extended
+    files:
+    - https://fonts.gstatic.com/s/librebarcode39extended/v27/8At7Gt6_O5yNS0-K4Nf5U922qSzhJ3dUdfJpwNUgfNRCOZ1GOBw.ttf
 fonts:
 - name: Libre Barcode 39 Extended
   styles:
@@ -16,7 +16,7 @@ fonts:
     post_script_name: LibreBarcode39Extended-Regular
     version: 1.005; ttfautohint (v1.8.3)
     copyright: Copyright 2017-2020 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)
-    font: LibreBarcode39Extended-Regular.ttf
+    font: 8At7Gt6_O5yNS0-K4Nf5U922qSzhJ3dUdfJpwNUgfNRCOZ1GOBw.ttf
 extract: {}
 copyright: Copyright 2017-2020 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +25,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 81bad1b701187a08a9da189419c96306eef85d28eee210aafc61a9f63abfdd1c
-command: google import --formulas_path Formulas
+command: import google -n 9999

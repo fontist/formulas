@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Nandinagari
 description: Noto Sans Nandinagari
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Nandinagari.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Nandinagari
-    sha256: 40000f035d52d6e46f7c0bb879ddf292fea7a1298c2f1bd8fdfccc17ee45c08b
-    file_size: 125679
+  Noto Sans Nandinagari:
+    source: google
+    family: Noto Sans Nandinagari
+    files:
+    - https://fonts.gstatic.com/s/notosansnandinagari/v4/or38Q7733eiDljA1IufXSNFT-1KI5y10H4jVa5RXzC1KOw.ttf
 fonts:
 - name: Noto Sans Nandinagari
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 1.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Ek Type
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nandinagari)
-    font: NotoSansNandinagari-Regular.ttf
+    font: or38Q7733eiDljA1IufXSNFT-1KI5y10H4jVa5RXzC1KOw.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nandinagari)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b3a7569e16405166211a23642efa71bfdbf7e5b3cca48f6440c477c55059d933
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

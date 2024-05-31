@@ -1,13 +1,12 @@
 ---
 name: Farsan
 description: Farsan
-homepage:
 resources:
-  Farsan.zip:
-    urls:
-    - https://fonts.google.com/download?family=Farsan
-    sha256: c642c1eec2b5da5d9dd42f6d85d0e323893e4ed2fde502f6d1c8718f4c89e243
-    file_size: 100048
+  Farsan:
+    source: google
+    family: Farsan
+    files:
+    - https://fonts.gstatic.com/s/farsan/v22/VEMwRoJ0vY_zsyz62q-pxDX9rQ.ttf
 fonts:
 - name: Farsan
   styles:
@@ -17,9 +16,8 @@ fonts:
     post_script_name: Farsan-Regular
     version: 1.001g;PS 1.001;hotconv 1.0.86;makeotf.lib2.5.63406 DEVELOPMENT
     copyright: Copyright (c) 2014 Pooja Saxena (www.poojasaxena.in)
-    font: Farsan-Regular.ttf
-extract:
-  format: zip
+    font: VEMwRoJ0vY_zsyz62q-pxDX9rQ.ttf
+extract: {}
 copyright: Copyright (c) 2014 Pooja Saxena (www.poojasaxena.in)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -3,11 +3,11 @@ name: Train One
 description: Train One
 homepage: http://fontworks.co.jp/
 resources:
-  Train_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Train%20One
-    sha256: a1f6737559cdfb75eead833fd2ea2e000905d673069eae13a972cdf2ccf1709e
-    file_size: 1382118
+  Train One:
+    source: google
+    family: Train One
+    files:
+    - https://fonts.gstatic.com/s/trainone/v13/gyB-hwkiNtc6KnxUVjWHOqbZRY7JVQ.ttf
 fonts:
 - name: Train One
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: TrainOne-Regular
     version: '1.100'
     copyright: Copyright 2020 The Train Project Authors (https://github.com/fontworks-fonts/Train/)
-    font: TrainOne-Regular.ttf
+    font: gyB-hwkiNtc6KnxUVjWHOqbZRY7JVQ.ttf
 extract: {}
 copyright: Copyright 2020 The Train Project Authors (https://github.com/fontworks-fonts/Train/)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 40cdea55f17771d99f755bee70d9d0c0f29fc625af4387fd3bbcf925f8426db5
-command: google import --formulas_path Formulas
+command: import google -n 9999

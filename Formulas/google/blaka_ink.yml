@@ -1,12 +1,13 @@
 ---
+name: Blaka Ink
 description: Blaka Ink
 homepage: http://kieftype.com/
 resources:
-  Blaka_Ink.zip:
-    urls:
-    - https://fonts.google.com/download?family=Blaka%20Ink
-    sha256: eef8362a719beb233ecfa221fe2dfe0ab8e1b17522dfcc584aaaf9385a06b7ae
-    file_size: 101638
+  Blaka Ink:
+    source: google
+    family: Blaka Ink
+    files:
+    - https://fonts.gstatic.com/s/blakaink/v8/AlZy_zVVtpj22Znag2chdXf4XB0Tow.ttf
 fonts:
 - name: Blaka Ink
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: BlakaInk-Regular
     version: 1.003; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2019 The Blaka Project Authors (https://github.com/Gue3bara/Blaka)
-    font: BlakaInk-Regular.ttf
+    font: AlZy_zVVtpj22Znag2chdXf4XB0Tow.ttf
 extract: {}
 copyright: Copyright 2019 The Blaka Project Authors (https://github.com/Gue3bara/Blaka)
 license_url: http://scripts.sil.org/OFL
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: c01611245568781f0058233a3b4f6bcd92f1041e8925791da08c45d67d22c2dd
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

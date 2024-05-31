@@ -3,22 +3,15 @@ name: Kadwa
 description: Kadwa
 homepage: www.huertatipografica.com
 resources:
-  Kadwa.zip:
-    urls:
-    - https://fonts.google.com/download?family=Kadwa
-    sha256: e97cb9e54e7b6c0a1568c387bcc453d2a0cdfa2fb31dc90671eea2fc139d63e3
-    file_size: 174672
+  Kadwa:
+    source: google
+    family: Kadwa
+    files:
+    - https://fonts.gstatic.com/s/kadwa/v10/rnCm-x5V0g7iphTHRcc2s2XH.ttf
+    - https://fonts.gstatic.com/s/kadwa/v10/rnCr-x5V0g7ipix7auM-mHnOSOuk.ttf
 fonts:
 - name: Kadwa
   styles:
-  - family_name: Kadwa
-    type: Regular
-    full_name: Kadwa
-    post_script_name: Kadwa-Regular
-    version: 1.001;PS 001.000;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT; ttfautohint
-      (v1.00) -l 8 -r 50 -G 200 -x 14 -D latn -f none -w G
-    copyright: Copyright (c) 2014-2015, Sol Matas (www.huertatipografica.com - sol@huertatipografica.com)
-    font: Kadwa-Regular.ttf
   - family_name: Kadwa
     type: Bold
     full_name: Kadwa Bold
@@ -26,9 +19,16 @@ fonts:
     version: 1.001;PS 001.000;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT; ttfautohint
       (v1.00) -l 8 -r 50 -G 200 -x 14 -D latn -f none -w G
     copyright: Copyright (c) 2014-2015, Sol Matas (www.huertatipografica.com - sol@huertatipografica.com)
-    font: Kadwa-Bold.ttf
-extract:
-  format: zip
+    font: rnCr-x5V0g7ipix7auM-mHnOSOuk.ttf
+  - family_name: Kadwa
+    type: Regular
+    full_name: Kadwa
+    post_script_name: Kadwa-Regular
+    version: 1.001;PS 001.000;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT; ttfautohint
+      (v1.00) -l 8 -r 50 -G 200 -x 14 -D latn -f none -w G
+    copyright: Copyright (c) 2014-2015, Sol Matas (www.huertatipografica.com - sol@huertatipografica.com)
+    font: rnCm-x5V0g7iphTHRcc2s2XH.ttf
+extract: {}
 copyright: Copyright (c) 2014-2015, Sol Matas (www.huertatipografica.com - sol@huertatipografica.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -125,3 +125,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

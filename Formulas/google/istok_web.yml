@@ -1,31 +1,19 @@
 ---
+name: Istok Web
 description: Istok Web
 homepage: http://code.google.com/p/istok
 resources:
-  IstokWeb.zip:
-    urls:
-    - https://fonts.google.com/download?family=Istok%20Web
-    sha256: b94b54c02e2619b07299cbf500cc0a37b5318215ed68dd3958e17e8faf627c8a
-    file_size: 392536
+  Istok Web:
+    source: google
+    family: Istok Web
+    files:
+    - https://fonts.gstatic.com/s/istokweb/v24/3qTvojGmgSyUukBzKslZAWF-9kIIaQ.ttf
+    - https://fonts.gstatic.com/s/istokweb/v24/3qTpojGmgSyUukBzKslpA2t61EcYaQ7F.ttf
+    - https://fonts.gstatic.com/s/istokweb/v24/3qTqojGmgSyUukBzKslhvU5a_mkUYBfcMw.ttf
+    - https://fonts.gstatic.com/s/istokweb/v24/3qT0ojGmgSyUukBzKslpA1PG-2MQQhLMMygN.ttf
 fonts:
 - name: Istok Web
   styles:
-  - family_name: Istok Web
-    type: Regular
-    full_name: Istok Web Regular
-    post_script_name: IstokWeb-Regular
-    version: 1.0.2g
-    copyright: Copyright (c) 2008-2014, Andrey V. Panov (panov@canopus.iacp.dvo.ru),
-      with Reserved Font Name Istok
-    font: IstokWeb-Regular.ttf
-  - family_name: Istok Web
-    type: Italic
-    full_name: Istok Web Italic
-    post_script_name: IstokWeb-Italic
-    version: 1.0.2g
-    copyright: Copyright (c) 2008-2014, Andrey V. Panov (panov@canopus.iacp.dvo.ru),
-      with Reserved Font Name Istok
-    font: IstokWeb-Italic.ttf
   - family_name: Istok Web
     type: Bold
     full_name: Istok Web Bold
@@ -33,7 +21,7 @@ fonts:
     version: 1.0.2g
     copyright: Copyright (c) 2008-2014, Andrey V. Panov (panov@canopus.iacp.dvo.ru),
       with Reserved Font Name Istok
-    font: IstokWeb-Bold.ttf
+    font: 3qTqojGmgSyUukBzKslhvU5a_mkUYBfcMw.ttf
   - family_name: Istok Web
     type: BoldItalic
     full_name: Istok Web Bold Italic
@@ -41,9 +29,24 @@ fonts:
     version: 1.0.2g
     copyright: Copyright (c) 2008-2014, Andrey V. Panov (panov@canopus.iacp.dvo.ru),
       with Reserved Font Name Istok
-    font: IstokWeb-BoldItalic.ttf
-extract:
-  format: zip
+    font: 3qT0ojGmgSyUukBzKslpA1PG-2MQQhLMMygN.ttf
+  - family_name: Istok Web
+    type: Italic
+    full_name: Istok Web Italic
+    post_script_name: IstokWeb-Italic
+    version: 1.0.2g
+    copyright: Copyright (c) 2008-2014, Andrey V. Panov (panov@canopus.iacp.dvo.ru),
+      with Reserved Font Name Istok
+    font: 3qTpojGmgSyUukBzKslpA2t61EcYaQ7F.ttf
+  - family_name: Istok Web
+    type: Regular
+    full_name: Istok Web Regular
+    post_script_name: IstokWeb-Regular
+    version: 1.0.2g
+    copyright: Copyright (c) 2008-2014, Andrey V. Panov (panov@canopus.iacp.dvo.ru),
+      with Reserved Font Name Istok
+    font: 3qTvojGmgSyUukBzKslZAWF-9kIIaQ.ttf
+extract: {}
 copyright: Copyright (c) 2008-2014, Andrey V. Panov (panov@canopus.iacp.dvo.ru), with
   Reserved Font Name Istok
 license_url: http://scripts.sil.org/OFL
@@ -142,3 +145,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

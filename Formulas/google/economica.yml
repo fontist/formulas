@@ -3,30 +3,17 @@ name: Economica
 description: Economica
 homepage: www.tipotype.com
 resources:
-  Economica.zip:
-    urls:
-    - https://fonts.google.com/download?family=Economica
-    sha256: '04288b2e295129f0984b0931a5cf21d3caf5939bc543ab4f69a300cbc7d63ae1'
-    file_size: 62972
+  Economica:
+    source: google
+    family: Economica
+    files:
+    - https://fonts.gstatic.com/s/economica/v15/Qw3fZQZaHCLgIWa29ZBrMcgAAl1lfQ.ttf
+    - https://fonts.gstatic.com/s/economica/v15/Qw3ZZQZaHCLgIWa29ZBbM8IEIFh1fWUl.ttf
+    - https://fonts.gstatic.com/s/economica/v15/Qw3aZQZaHCLgIWa29ZBTjeckCnZ5dHw8iw.ttf
+    - https://fonts.gstatic.com/s/economica/v15/Qw3EZQZaHCLgIWa29ZBbM_q4D3x9Vnksi4M7.ttf
 fonts:
 - name: Economica
   styles:
-  - family_name: Economica
-    type: Regular
-    full_name: Economica
-    post_script_name: Economica-Regular
-    version: '1.101'
-    copyright: Copyright (c) 2012, Vicente Lamonaca (produccion.taller@gmail.com www.tipografia-montevideo.info
-      www.tipotype.com)
-    font: Economica-Regular.ttf
-  - family_name: Economica
-    type: Italic
-    full_name: Economica Italic
-    post_script_name: Economica-Italic
-    version: '1.100'
-    copyright: Copyright (c) 2012, Vicente Lamonaca (produccion.taller@gmail.com www.tipografia-montevideo.info
-      www.tipotype.com)
-    font: Economica-Italic.ttf
   - family_name: Economica
     type: Bold
     full_name: Economica Bold
@@ -34,7 +21,7 @@ fonts:
     version: '1.100'
     copyright: Copyright (c) 2012, Vicente Lamonaca (produccion.taller@gmail.com www.tipografia-montevideo.info
       www.tipotype.com)
-    font: Economica-Bold.ttf
+    font: Qw3aZQZaHCLgIWa29ZBTjeckCnZ5dHw8iw.ttf
   - family_name: Economica
     type: Bold Italic
     full_name: Economica Bold Italic
@@ -42,9 +29,24 @@ fonts:
     version: '1.100'
     copyright: Copyright (c) 2012, Vicente Lamonaca (produccion.taller@gmail.com www.tipografia-montevideo.info
       www.tipotype.com)
-    font: Economica-BoldItalic.ttf
-extract:
-  format: zip
+    font: Qw3EZQZaHCLgIWa29ZBbM_q4D3x9Vnksi4M7.ttf
+  - family_name: Economica
+    type: Italic
+    full_name: Economica Italic
+    post_script_name: Economica-Italic
+    version: '1.100'
+    copyright: Copyright (c) 2012, Vicente Lamonaca (produccion.taller@gmail.com www.tipografia-montevideo.info
+      www.tipotype.com)
+    font: Qw3ZZQZaHCLgIWa29ZBbM8IEIFh1fWUl.ttf
+  - family_name: Economica
+    type: Regular
+    full_name: Economica
+    post_script_name: Economica-Regular
+    version: '1.101'
+    copyright: Copyright (c) 2012, Vicente Lamonaca (produccion.taller@gmail.com www.tipografia-montevideo.info
+      www.tipotype.com)
+    font: Qw3fZQZaHCLgIWa29ZBrMcgAAl1lfQ.ttf
+extract: {}
 copyright: Copyright (c) 2012, Vicente Lamonaca (produccion.taller@gmail.com www.tipografia-montevideo.info
   www.tipotype.com)
 license_url: http://scripts.sil.org/OFL
@@ -143,3 +145,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

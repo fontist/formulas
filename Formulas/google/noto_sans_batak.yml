@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Batak
 description: Noto Sans Batak
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Batak.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Batak
-    sha256: d44812525f9e09b9288194dd991126799726457b4ba2a58d2dd2814aff7bd4bf
-    file_size: 40158
+  Noto Sans Batak:
+    source: google
+    family: Noto Sans Batak
+    files:
+    - https://fonts.gstatic.com/s/notosansbatak/v20/gok2H6TwAEdtF9N8-mdTCQvT-Zdgo4_PHuk74A.ttf
 fonts:
 - name: Noto Sans Batak
   styles:
@@ -14,10 +15,10 @@ fonts:
     type: Regular
     full_name: Noto Sans Batak Regular
     post_script_name: NotoSansBatak-Regular
-    version: 2.002; ttfautohint (v1.8.4.7-5d5b)
+    version: 2.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/batak)
-    font: NotoSansBatak-Regular.ttf
+    font: gok2H6TwAEdtF9N8-mdTCQvT-Zdgo4_PHuk74A.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/batak)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  https://openfontlicense.org
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: bca17c7c44916d3442f1da10e4d033262562df7865e3d2a1359f65c3f10ab841
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

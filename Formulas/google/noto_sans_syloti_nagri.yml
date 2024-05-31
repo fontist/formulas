@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Syloti Nagri
 description: Noto Sans Syloti Nagri
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Syloti_Nagri.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Syloti%20Nagri
-    sha256: 47b7e2c36cef345057aaa1f1e095d883276c561d0c03a3005e860f47897dc431
-    file_size: 39775
+  Noto Sans Syloti Nagri:
+    source: google
+    family: Noto Sans Syloti Nagri
+    files:
+    - https://fonts.gstatic.com/s/notosanssylotinagri/v20/uU9eCAQZ75uhfF9UoWDRiY3q7Sf_VFV3m4dGFVfxN87gsj0.ttf
 fonts:
 - name: Noto Sans Syloti Nagri
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/syloti-nagri)
-    font: NotoSansSylotiNagri-Regular.ttf
+    font: uU9eCAQZ75uhfF9UoWDRiY3q7Sf_VFV3m4dGFVfxN87gsj0.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/syloti-nagri)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 706a7d9fe7a2b8ecce2f9a1f33c6dc8d674437937413731fcb22777a202963e2
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

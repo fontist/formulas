@@ -1,12 +1,13 @@
 ---
+name: Black Han Sans
 description: Black Han Sans
 homepage: http://zesstype.com/
 resources:
-  BlackHanSans.zip:
-    urls:
-    - https://fonts.google.com/download?family=Black%20Han%20Sans
-    sha256: 54b4cb77a4e079a5454e361492f298d4701ccbe8cd080cc25a0b91c19c44bc08
-    file_size: 309692
+  Black Han Sans:
+    source: google
+    family: Black Han Sans
+    files:
+    - https://fonts.gstatic.com/s/blackhansans/v17/ea8Aad44WunzF9a-dL6toA8r8nqVIXSkH-Hc.ttf
 fonts:
 - name: Black Han Sans
   styles:
@@ -16,10 +17,9 @@ fonts:
     post_script_name: BlackHanSans-Regular
     version: '1.00'
     copyright: "(c) ZESSTYPE 2015"
-    font: BlackHanSans-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2015 The Black Han Sans Authors
+    font: ea8Aad44WunzF9a-dL6toA8r8nqVIXSkH-Hc.ttf
+extract: {}
+copyright: "(c) ZESSTYPE 2015"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright 2015 The Black Han Sans Authors
@@ -115,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

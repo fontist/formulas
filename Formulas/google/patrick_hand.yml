@@ -1,12 +1,13 @@
 ---
+name: Patrick Hand
 description: Patrick Hand
 homepage: http://www.patrickwagesreiter.at
 resources:
-  PatrickHand.zip:
-    urls:
-    - https://fonts.google.com/download?family=Patrick%20Hand
-    sha256: c29ef217da8d26b44290f2320820f432311083cf922f8c6219abbdcec2a41af1
-    file_size: 89183
+  Patrick Hand:
+    source: google
+    family: Patrick Hand
+    files:
+    - https://fonts.gstatic.com/s/patrickhand/v23/LDI1apSQOAYtSuYWp8ZhfYeMWcjKm7sp8g.ttf
 fonts:
 - name: Patrick Hand
   styles:
@@ -17,10 +18,9 @@ fonts:
     version: 1.003;PS 001.003;hotconv 1.0.70;makeotf.lib2.5.58329; ttfautohint (v0.94.20-1c74)
       -l 8 -r 50 -G 200 -x 14 -w "gGD" -c -f
     copyright: Copyright (c) 2012 Patrick Wagesreiter (mail@patrickwagesreiter.at)
-    font: PatrickHand-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010-2012 Patrick Wagesreiter (mail@patrickwagesreiter.at)
+    font: LDI1apSQOAYtSuYWp8ZhfYeMWcjKm7sp8g.ttf
+extract: {}
+copyright: Copyright (c) 2012 Patrick Wagesreiter (mail@patrickwagesreiter.at)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010-2012 Patrick Wagesreiter (mail@patrickwagesreiter.at)
@@ -116,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

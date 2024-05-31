@@ -1,31 +1,32 @@
 ---
+name: Pragati Narrow
 description: Pragati Narrow
 homepage: http://www.omnibus-type.com
 resources:
-  PragatiNarrow.zip:
-    urls:
-    - https://fonts.google.com/download?family=Pragati%20Narrow
-    sha256: 62e5c675957758a302b42e862b6b15b987c3ad754f66aa0256b553e6d7818409
-    file_size: 297627
+  Pragati Narrow:
+    source: google
+    family: Pragati Narrow
+    files:
+    - https://fonts.gstatic.com/s/pragatinarrow/v13/vm8vdRf0T0bS1ffgsPB7WZ-mD17_ytN3M48a.ttf
+    - https://fonts.gstatic.com/s/pragatinarrow/v13/vm8sdRf0T0bS1ffgsPB7WZ-mD2ZD5fd_GJMTlo_4.ttf
 fonts:
 - name: Pragati Narrow
   styles:
-  - family_name: Pragati Narrow
-    type: Regular
-    full_name: Pragati Narrow
-    post_script_name: PragatiNarrow-Regular
-    version: 1.010; ttfautohint (v1.3)
-    copyright: Copyright (c) 2012-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com)
-    font: PragatiNarrow-Regular.ttf
   - family_name: Pragati Narrow
     type: Bold
     full_name: Pragati Narrow Bold
     post_script_name: PragatiNarrow-Bold
     version: 1.010; ttfautohint (v1.3)
     copyright: Copyright (c) 2012-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com)
-    font: PragatiNarrow-Bold.ttf
-extract:
-  format: zip
+    font: vm8sdRf0T0bS1ffgsPB7WZ-mD2ZD5fd_GJMTlo_4.ttf
+  - family_name: Pragati Narrow
+    type: Regular
+    full_name: Pragati Narrow
+    post_script_name: PragatiNarrow-Regular
+    version: 1.010; ttfautohint (v1.3)
+    copyright: Copyright (c) 2012-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com)
+    font: vm8vdRf0T0bS1ffgsPB7WZ-mD17_ytN3M48a.ttf
+extract: {}
 copyright: Copyright (c) 2012-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -123,3 +124,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -3,11 +3,11 @@ name: Fredericka the Great
 description: Fredericka the Great
 homepage: http://www.fontbros.com/tartworkshop.php
 resources:
-  FrederickatheGreat.zip:
-    urls:
-    - https://fonts.google.com/download?family=Fredericka%20the%20Great
-    sha256: 68e73f57d2497315c7c6696489f3fac2137d3ef58ae56b95bdb9f7ab6b602f84
-    file_size: 282001
+  Fredericka the Great:
+    source: google
+    family: Fredericka the Great
+    files:
+    - https://fonts.gstatic.com/s/frederickathegreat/v21/9Bt33CxNwt7aOctW2xjbCstzwVKsIBVV-9Skz7Ylch2L.ttf
 fonts:
 - name: Fredericka the Great
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011 by Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com)
       with Reseved Font Name "Fredericka the Great"
-    font: FrederickatheGreat-Regular.ttf
-extract:
-  format: zip
+    font: 9Bt33CxNwt7aOctW2xjbCstzwVKsIBVV-9Skz7Ylch2L.ttf
+extract: {}
 copyright: Copyright (c) 2011 by Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com)
   with Reseved Font Name "Fredericka the Great"
 license_url: http://scripts.sil.org/OFL
@@ -119,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

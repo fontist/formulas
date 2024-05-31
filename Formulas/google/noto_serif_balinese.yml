@@ -1,12 +1,13 @@
 ---
+name: Noto Serif Balinese
 description: Noto Serif Balinese
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Serif_Balinese.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Serif%20Balinese
-    sha256: b931f96f3f44c432f7efa4cdd81e96da2b45792ebfb9aca01b4e644e1a11b7d0
-    file_size: 65410
+  Noto Serif Balinese:
+    source: google
+    family: Noto Serif Balinese
+    files:
+    - https://fonts.gstatic.com/s/notoserifbalinese/v18/QdVKSS0-JginysQSRvuCmUMB_wVeQAxXRbgJdhapcUU.ttf
 fonts:
 - name: Noto Serif Balinese
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.005; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/balinese)
-    font: NotoSerifBalinese-Regular.ttf
+    font: QdVKSS0-JginysQSRvuCmUMB_wVeQAxXRbgJdhapcUU.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/balinese)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e2af239ad9d7ddcf14f5a3792348e98df0d670e1abebf6ef0c8030d71f65b643
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

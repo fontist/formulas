@@ -1,12 +1,13 @@
 ---
+name: Rubik Doodle Triangles
 description: Rubik Doodle Triangles
 homepage: http://www.google.com/fonts
 resources:
-  Rubik_Doodle_Triangles.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rubik%20Doodle%20Triangles
-    sha256: 7732091762660f364f882a924b2fffc9408a7c35eb125c6e277a3b56753446e6
-    file_size: 945734
+  Rubik Doodle Triangles:
+    source: google
+    family: Rubik Doodle Triangles
+    files:
+    - https://fonts.gstatic.com/s/rubikdoodletriangles/v1/esDA301BLOmMKxKspb3g-domRuLPeaSn2bTzdLi_slZxgWE.ttf
 fonts:
 - name: Rubik Doodle Triangles
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: RubikDoodleTriangles-Regular
     version: '2.201'
     copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
-    font: RubikDoodleTriangles-Regular.ttf
+    font: esDA301BLOmMKxKspb3g-domRuLPeaSn2bTzdLi_slZxgWE.ttf
 extract: {}
 copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b9bec90b408dab66efd07f9df5d7e6f37179349e82a167d777b69feed58184a0
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

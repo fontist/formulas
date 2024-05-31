@@ -1,12 +1,13 @@
 ---
+name: Mynerve
 description: Mynerve
 homepage: https://bigital.com/
 resources:
-  Mynerve.zip:
-    urls:
-    - https://fonts.google.com/download?family=Mynerve
-    sha256: 071aaa45125233cd5858c78ed6dfe72890dab4aef1ef5c8e348cafe61f476d22
-    file_size: 143568
+  Mynerve:
+    source: google
+    family: Mynerve
+    files:
+    - https://fonts.gstatic.com/s/mynerve/v6/P5sCzZKPdNjb4jt7xCRuiZ-uydg.ttf
 fonts:
 - name: Mynerve
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: Mynerve-Regular
     version: 1.000; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2022 The Mynerve Project Authors (https://github.com/carolinashort/MyNerve)
-    font: Mynerve-Regular.ttf
+    font: P5sCzZKPdNjb4jt7xCRuiZ-uydg.ttf
 extract: {}
 copyright: Copyright 2022 The Mynerve Project Authors (https://github.com/carolinashort/MyNerve)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 58821a555e367d97210bb666853011ed2322738e8c92ff429f0226ee3755bddc
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Duru Sans
 description: Duru Sans
 homepage: http://www.sorkintype.com
 resources:
-  DuruSans.zip:
-    urls:
-    - https://fonts.google.com/download?family=Duru%20Sans
-    sha256: 5d56a7dc259d8847e8a733991134a3822a27268b27ccc761bf8e61e8c0cbe192
-    file_size: 40727
+  Duru Sans:
+    source: google
+    family: Duru Sans
+    files:
+    - https://fonts.gstatic.com/s/durusans/v20/xn7iYH8xwmSyTvEV_HOxT_fYdN-WZw.ttf
 fonts:
 - name: Duru Sans
   styles:
@@ -23,11 +24,12 @@ fonts:
       Copyright (c) 2010 by Sorkin Type Co with Reserved Font Name Duru.
 
       This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
-    font: DuruSans-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010 by Sorkin Type Co (eben@eyebytes.com) with Reserved
-  Font Name Duru.
+    font: xn7iYH8xwmSyTvEV_HOxT_fYdN-WZw.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2010 by Sorkin Type Co with Reserved Font Name Duru.
+
+  This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
@@ -124,3 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

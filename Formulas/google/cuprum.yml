@@ -3,10 +3,18 @@ name: Cuprum
 description: Cuprum
 homepage: http://jovanny.ru
 resources:
-  Cuprum.zip:
-    urls:
-    - https://fonts.google.com/download?family=Cuprum
-    file_size: 305575
+  Cuprum:
+    source: google
+    family: Cuprum
+    files:
+    - https://fonts.gstatic.com/s/cuprum/v25/dg45_pLmvrkcOkBnKsOzXyGWTBcmg-X6ZjzSJjQjgnU.ttf
+    - https://fonts.gstatic.com/s/cuprum/v25/dg45_pLmvrkcOkBnKsOzXyGWTBcmg9f6ZjzSJjQjgnU.ttf
+    - https://fonts.gstatic.com/s/cuprum/v25/dg45_pLmvrkcOkBnKsOzXyGWTBcmgzv9ZjzSJjQjgnU.ttf
+    - https://fonts.gstatic.com/s/cuprum/v25/dg45_pLmvrkcOkBnKsOzXyGWTBcmgwL9ZjzSJjQjgnU.ttf
+    - https://fonts.gstatic.com/s/cuprum/v25/dg47_pLmvrkcOkBNI_FMh0j91rkhli25jn_YIhYmknUPEA.ttf
+    - https://fonts.gstatic.com/s/cuprum/v25/dg47_pLmvrkcOkBNI_FMh0j91rkhli25vH_YIhYmknUPEA.ttf
+    - https://fonts.gstatic.com/s/cuprum/v25/dg47_pLmvrkcOkBNI_FMh0j91rkhli25UHjYIhYmknUPEA.ttf
+    - https://fonts.gstatic.com/s/cuprum/v25/dg47_pLmvrkcOkBNI_FMh0j91rkhli25aXjYIhYmknUPEA.ttf
 fonts:
 - name: Cuprum
   styles:
@@ -17,7 +25,7 @@ fonts:
     version: '3.000'
     copyright: Copyright 2020 The Cuprum Project Authors (https://github.com/alexeiva/cuprum),
       with Reserved Font Name "Cuprum".
-    font: Cuprum-Bold.ttf
+    font: dg45_pLmvrkcOkBnKsOzXyGWTBcmgwL9ZjzSJjQjgnU.ttf
   - family_name: Cuprum
     type: Bold Italic
     full_name: Cuprum Bold Italic
@@ -25,7 +33,7 @@ fonts:
     version: '3.000'
     copyright: Copyright 2020 The Cuprum Project Authors (https://github.com/alexeiva/cuprum),
       with Reserved Font Name "Cuprum".
-    font: Cuprum-BoldItalic.ttf
+    font: dg47_pLmvrkcOkBNI_FMh0j91rkhli25aXjYIhYmknUPEA.ttf
   - family_name: Cuprum
     type: Italic
     full_name: Cuprum Italic
@@ -33,15 +41,7 @@ fonts:
     version: '3.000'
     copyright: Copyright 2020 The Cuprum Project Authors (https://github.com/alexeiva/cuprum),
       with Reserved Font Name "Cuprum".
-    font: Cuprum-Italic-VariableFont_wght.ttf
-  - family_name: Cuprum
-    type: Italic
-    full_name: Cuprum Italic
-    post_script_name: Cuprum-Italic
-    version: '3.000'
-    copyright: Copyright 2020 The Cuprum Project Authors (https://github.com/alexeiva/cuprum),
-      with Reserved Font Name "Cuprum".
-    font: Cuprum-Italic.ttf
+    font: dg47_pLmvrkcOkBNI_FMh0j91rkhli25jn_YIhYmknUPEA.ttf
   - family_name: Cuprum
     type: Regular
     full_name: Cuprum Regular
@@ -49,15 +49,7 @@ fonts:
     version: '3.000'
     copyright: Copyright 2020 The Cuprum Project Authors (https://github.com/alexeiva/cuprum),
       with Reserved Font Name "Cuprum".
-    font: Cuprum-Regular.ttf
-  - family_name: Cuprum
-    type: Regular
-    full_name: Cuprum Regular
-    post_script_name: Cuprum-Regular
-    version: '3.000'
-    copyright: Copyright 2020 The Cuprum Project Authors (https://github.com/alexeiva/cuprum),
-      with Reserved Font Name "Cuprum".
-    font: Cuprum-VariableFont_wght.ttf
+    font: dg45_pLmvrkcOkBnKsOzXyGWTBcmg-X6ZjzSJjQjgnU.ttf
 - name: Cuprum Medium
   styles:
   - family_name: Cuprum Medium
@@ -69,7 +61,7 @@ fonts:
     version: '3.000'
     copyright: Copyright 2020 The Cuprum Project Authors (https://github.com/alexeiva/cuprum),
       with Reserved Font Name "Cuprum".
-    font: Cuprum-MediumItalic.ttf
+    font: dg47_pLmvrkcOkBNI_FMh0j91rkhli25vH_YIhYmknUPEA.ttf
   - family_name: Cuprum Medium
     type: Regular
     preferred_family_name: Cuprum
@@ -79,7 +71,7 @@ fonts:
     version: '3.000'
     copyright: Copyright 2020 The Cuprum Project Authors (https://github.com/alexeiva/cuprum),
       with Reserved Font Name "Cuprum".
-    font: Cuprum-Medium.ttf
+    font: dg45_pLmvrkcOkBnKsOzXyGWTBcmg9f6ZjzSJjQjgnU.ttf
 - name: Cuprum SemiBold
   styles:
   - family_name: Cuprum SemiBold
@@ -91,7 +83,7 @@ fonts:
     version: '3.000'
     copyright: Copyright 2020 The Cuprum Project Authors (https://github.com/alexeiva/cuprum),
       with Reserved Font Name "Cuprum".
-    font: Cuprum-SemiBoldItalic.ttf
+    font: dg47_pLmvrkcOkBNI_FMh0j91rkhli25UHjYIhYmknUPEA.ttf
   - family_name: Cuprum SemiBold
     type: Regular
     preferred_family_name: Cuprum
@@ -101,7 +93,7 @@ fonts:
     version: '3.000'
     copyright: Copyright 2020 The Cuprum Project Authors (https://github.com/alexeiva/cuprum),
       with Reserved Font Name "Cuprum".
-    font: Cuprum-SemiBold.ttf
+    font: dg45_pLmvrkcOkBnKsOzXyGWTBcmgzv9ZjzSJjQjgnU.ttf
 extract: {}
 copyright: Copyright 2020 The Cuprum Project Authors (https://github.com/alexeiva/cuprum),
   with Reserved Font Name "Cuprum".
@@ -201,5 +193,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 1d39f305b2bb13886d25b4b5df2f12075abb157aceb84b1fde1e2b5d69fab3f7
-command: google import --formulas_path Formulas
+command: import google -n 9999

@@ -1,11 +1,12 @@
 ---
+name: Julee
 description: Julee
 resources:
-  Julee.zip:
-    urls:
-    - https://fonts.google.com/download?family=Julee
-    sha256: 646346b461312fd5ef0c391360bb38683ecd4eaaa91fd7ebead5373f2ea8eab5
-    file_size: 38250
+  Julee:
+    source: google
+    family: Julee
+    files:
+    - https://fonts.gstatic.com/s/julee/v25/TuGfUVB3RpZPQ6ZLodgzydtk.ttf
 fonts:
 - name: Julee
   styles:
@@ -16,7 +17,7 @@ fonts:
     version: 1.002; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
     copyright: Copyright 2011 The Julee Project Authors (https://github.com/etunni/julee)
       with Reserved Font Name is "Julee"
-    font: Julee-Regular.ttf
+    font: TuGfUVB3RpZPQ6ZLodgzydtk.ttf
 extract: {}
 copyright: Copyright 2011 The Julee Project Authors (https://github.com/etunni/julee)
   with Reserved Font Name is "Julee"
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: a8f0d7d8b9e29c1d685b2c15c3c453d5732128fc364f13f5bf82f87beaf8e324
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

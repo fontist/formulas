@@ -3,11 +3,11 @@ name: Englebert
 description: Englebert
 homepage: http://www.astigmatic.com/
 resources:
-  Englebert.zip:
-    urls:
-    - https://fonts.google.com/download?family=Englebert
-    sha256: 12dd810f64d9a442363465b137136426fb3f576bcad8b60f9bc354000a38b428
-    file_size: 32314
+  Englebert:
+    source: google
+    family: Englebert
+    files:
+    - https://fonts.gstatic.com/s/englebert/v21/xn7iYH8w2XGrC8AR4HSxT_fYdN-WZw.ttf
 fonts:
 - name: Englebert
   styles:
@@ -19,11 +19,11 @@ fonts:
     copyright: |-
       Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
       Font Name "Englebert"
-    font: Englebert-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com),
-  with Reserved Font Name 'Englebert'
+    font: xn7iYH8w2XGrC8AR4HSxT_fYdN-WZw.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+  Font Name "Englebert"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012, Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name 'Englebert'
@@ -119,3 +119,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

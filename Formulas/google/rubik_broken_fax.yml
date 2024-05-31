@@ -1,12 +1,13 @@
 ---
+name: Rubik Broken Fax
 description: Rubik Broken Fax
 homepage: http://www.google.com/fonts
 resources:
-  Rubik_Broken_Fax.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rubik%20Broken%20Fax
-    sha256: 56bc7b6770edebba1e77563e1898fc254a2497f04eafab40078d5b26df0b6500
-    file_size: 228685
+  Rubik Broken Fax:
+    source: google
+    family: Rubik Broken Fax
+    files:
+    - https://fonts.gstatic.com/s/rubikbrokenfax/v1/NGSvv4rXG042O-GzH9sg1cUgl8w8YW-WdmGi300.ttf
 fonts:
 - name: Rubik Broken Fax
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: RubikBrokenFax-Regular
     version: '2.201'
     copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
-    font: RubikBrokenFax-Regular.ttf
+    font: NGSvv4rXG042O-GzH9sg1cUgl8w8YW-WdmGi300.ttf
 extract: {}
 copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e6e58dcf40071f3f395cdc51c51f132f74562f0dae1614c673bdf5e68465181e
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

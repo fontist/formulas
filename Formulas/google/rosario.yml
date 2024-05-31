@@ -3,10 +3,20 @@ name: Rosario
 description: Rosario
 homepage: http://www.omnibus-type.com
 resources:
-  Rosario.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rosario
-    file_size: 523826
+  Rosario:
+    source: google
+    family: Rosario
+    files:
+    - https://fonts.gstatic.com/s/rosario/v31/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM69GCWczd-YnOzUD.ttf
+    - https://fonts.gstatic.com/s/rosario/v31/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM68YCWczd-YnOzUD.ttf
+    - https://fonts.gstatic.com/s/rosario/v31/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM68qCWczd-YnOzUD.ttf
+    - https://fonts.gstatic.com/s/rosario/v31/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM6_GDmczd-YnOzUD.ttf
+    - https://fonts.gstatic.com/s/rosario/v31/xfuu0WDhWW_fOEoY8l_VPNZfB7jPM6__Dmczd-YnOzUD.ttf
+    - https://fonts.gstatic.com/s/rosario/v31/xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQStFwfeIFPiUDn08.ttf
+    - https://fonts.gstatic.com/s/rosario/v31/xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQSo9wfeIFPiUDn08.ttf
+    - https://fonts.gstatic.com/s/rosario/v31/xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQSr1wfeIFPiUDn08.ttf
+    - https://fonts.gstatic.com/s/rosario/v31/xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQSlF3feIFPiUDn08.ttf
+    - https://fonts.gstatic.com/s/rosario/v31/xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQSmh3feIFPiUDn08.ttf
 fonts:
 - name: Rosario
   styles:
@@ -14,30 +24,30 @@ fonts:
     type: Bold
     full_name: Rosario Bold
     post_script_name: Rosario-Bold
-    version: 1.101; ttfautohint (v1.8.1.43-b0c9)
+    version: '1.201'
     copyright: Copyright 2019 The Rosario Project Authors (https://github.com/Omnibus-Type/Rosario)
-    font: Rosario-Bold.ttf
+    font: xfuu0WDhWW_fOEoY8l_VPNZfB7jPM6__Dmczd-YnOzUD.ttf
   - family_name: Rosario
     type: Bold Italic
     full_name: Rosario Bold Italic
     post_script_name: Rosario-BoldItalic
-    version: 1.101; ttfautohint (v1.8.1.43-b0c9)
+    version: '1.201'
     copyright: Copyright 2019 The Rosario Project Authors (https://github.com/Omnibus-Type/Rosario)
-    font: Rosario-BoldItalic.ttf
+    font: xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQSmh3feIFPiUDn08.ttf
   - family_name: Rosario
     type: Italic
     full_name: Rosario Italic
     post_script_name: Rosario-Italic
-    version: 1.101; ttfautohint (v1.8.1.43-b0c9)
+    version: '1.201'
     copyright: Copyright 2019 The Rosario Project Authors (https://github.com/Omnibus-Type/Rosario)
-    font: Rosario-Italic.ttf
+    font: xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQSo9wfeIFPiUDn08.ttf
   - family_name: Rosario
     type: Regular
     full_name: Rosario Regular
     post_script_name: Rosario-Regular
-    version: 1.101; ttfautohint (v1.8.1.43-b0c9)
+    version: '1.201'
     copyright: Copyright 2019 The Rosario Project Authors (https://github.com/Omnibus-Type/Rosario)
-    font: Rosario-Regular.ttf
+    font: xfuu0WDhWW_fOEoY8l_VPNZfB7jPM68YCWczd-YnOzUD.ttf
 - name: Rosario Light
   styles:
   - family_name: Rosario Light
@@ -46,36 +56,18 @@ fonts:
     preferred_type: Light Italic
     full_name: Rosario Light Italic
     post_script_name: Rosario-LightItalic
-    version: 1.101; ttfautohint (v1.8.1.43-b0c9)
+    version: '1.201'
     copyright: Copyright 2019 The Rosario Project Authors (https://github.com/Omnibus-Type/Rosario)
-    font: Rosario-LightItalic.ttf
-  - family_name: Rosario Light
-    type: Italic
-    preferred_family_name: Rosario
-    preferred_type: Light Italic
-    full_name: Rosario Light Italic
-    post_script_name: Rosario-LightItalic
-    version: 1.101; ttfautohint (v1.8.1.43-b0c9)
-    copyright: Copyright 2019 The Rosario Project Authors (https://github.com/Omnibus-Type/Rosario)
-    font: Rosario-Italic-VariableFont_wght.ttf
+    font: xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQStFwfeIFPiUDn08.ttf
   - family_name: Rosario Light
     type: Regular
     preferred_family_name: Rosario
     preferred_type: Light
     full_name: Rosario Light
     post_script_name: Rosario-Light
-    version: 1.101; ttfautohint (v1.8.1.43-b0c9)
+    version: '1.201'
     copyright: Copyright 2019 The Rosario Project Authors (https://github.com/Omnibus-Type/Rosario)
-    font: Rosario-Light.ttf
-  - family_name: Rosario Light
-    type: Regular
-    preferred_family_name: Rosario
-    preferred_type: Light
-    full_name: Rosario Light
-    post_script_name: Rosario-Light
-    version: 1.101; ttfautohint (v1.8.1.43-b0c9)
-    copyright: Copyright 2019 The Rosario Project Authors (https://github.com/Omnibus-Type/Rosario)
-    font: Rosario-VariableFont_wght.ttf
+    font: xfuu0WDhWW_fOEoY8l_VPNZfB7jPM69GCWczd-YnOzUD.ttf
 - name: Rosario Medium
   styles:
   - family_name: Rosario Medium
@@ -84,18 +76,18 @@ fonts:
     preferred_type: Medium Italic
     full_name: Rosario Medium Italic
     post_script_name: Rosario-MediumItalic
-    version: 1.101; ttfautohint (v1.8.1.43-b0c9)
+    version: '1.201'
     copyright: Copyright 2019 The Rosario Project Authors (https://github.com/Omnibus-Type/Rosario)
-    font: Rosario-MediumItalic.ttf
+    font: xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQSr1wfeIFPiUDn08.ttf
   - family_name: Rosario Medium
     type: Regular
     preferred_family_name: Rosario
     preferred_type: Medium
     full_name: Rosario Medium
     post_script_name: Rosario-Medium
-    version: 1.101; ttfautohint (v1.8.1.43-b0c9)
+    version: '1.201'
     copyright: Copyright 2019 The Rosario Project Authors (https://github.com/Omnibus-Type/Rosario)
-    font: Rosario-Medium.ttf
+    font: xfuu0WDhWW_fOEoY8l_VPNZfB7jPM68qCWczd-YnOzUD.ttf
 - name: Rosario SemiBold
   styles:
   - family_name: Rosario SemiBold
@@ -104,23 +96,23 @@ fonts:
     preferred_type: SemiBold Italic
     full_name: Rosario SemiBold Italic
     post_script_name: Rosario-SemiBoldItalic
-    version: 1.101; ttfautohint (v1.8.1.43-b0c9)
+    version: '1.201'
     copyright: Copyright 2019 The Rosario Project Authors (https://github.com/Omnibus-Type/Rosario)
-    font: Rosario-SemiBoldItalic.ttf
+    font: xfug0WDhWW_fOEoY2Fbnww42bCJhNLrQSlF3feIFPiUDn08.ttf
   - family_name: Rosario SemiBold
     type: Regular
     preferred_family_name: Rosario
     preferred_type: SemiBold
     full_name: Rosario SemiBold
     post_script_name: Rosario-SemiBold
-    version: 1.101; ttfautohint (v1.8.1.43-b0c9)
+    version: '1.201'
     copyright: Copyright 2019 The Rosario Project Authors (https://github.com/Omnibus-Type/Rosario)
-    font: Rosario-SemiBold.ttf
+    font: xfuu0WDhWW_fOEoY8l_VPNZfB7jPM6_GDmczd-YnOzUD.ttf
 extract: {}
 copyright: Copyright 2019 The Rosario Project Authors (https://github.com/Omnibus-Type/Rosario)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com) with Reserved Font Name 'Rosario'. Copyright (c) 2013 by Adobe Systems Incorporated. All Rights Reserved.
+  Copyright 2019 The Rosario Project Authors (https://github.com/Omnibus-Type/Rosario)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -213,5 +205,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: f1d026a9b7fbfc0e5f7156379e013558968c2aca2970370013da1166bdc54e14
-command: google import --formulas_path Formulas
+command: import google -n 9999

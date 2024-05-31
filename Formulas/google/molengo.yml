@@ -1,26 +1,26 @@
 ---
 name: Molengo
 description: Molengo
-homepage:
 resources:
-  Molengo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Molengo
-    sha256: d6cdf64ffe75dc68212ab3947fd6ad1920251613f42c507825c52472d025f749
-    file_size: 34346
+  Molengo:
+    source: google
+    family: Molengo
+    files:
+    - https://fonts.gstatic.com/s/molengo/v16/I_uuMpWeuBzZNBtQbbRQkiCvs5Y.ttf
 fonts:
 - name: Molengo
   styles:
   - family_name: Molengo
     type: Regular
+    preferred_family_name: Molengo
+    preferred_type: Regular
     full_name: Molengo
     post_script_name: Molengo-Regular
     version: 0.11; ttfautohint (v0.8) -G 32 -r 16 -x
     copyright: Copyright (c) 2007, Denis Moyogo Jacquerye <moyogo@gmail.com>, with
       Reserved Font Name Molengo
-    font: Molengo-Regular.ttf
-extract:
-  format: zip
+    font: I_uuMpWeuBzZNBtQbbRQkiCvs5Y.ttf
+extract: {}
 copyright: Copyright (c) 2007, Denis Moyogo Jacquerye <moyogo@gmail.com>, with Reserved
   Font Name Molengo
 license_url: http://scripts.sil.org/ofl
@@ -119,3 +119,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Rubik Lines
 description: Rubik Lines
 homepage: http://www.google.com/fonts
 resources:
-  Rubik_Lines.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rubik%20Lines
-    sha256: e43dc9de56b53edfb3a2744d14dfd6e1d94d277ce88fb2aa8b90aa0ae1e6ee3e
-    file_size: 159559
+  Rubik Lines:
+    source: google
+    family: Rubik Lines
+    files:
+    - https://fonts.gstatic.com/s/rubiklines/v1/_gP81R3vsjYzVW2Y6xFF-GSxYPp7oSNy.ttf
 fonts:
 - name: Rubik Lines
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: RubikLines-Regular
     version: '2.201'
     copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
-    font: RubikLines-Regular.ttf
+    font: _gP81R3vsjYzVW2Y6xFF-GSxYPp7oSNy.ttf
 extract: {}
 copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: df368e7818de4f3608455248af910c876636d09147061eeed2541ef5aea2a78b
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

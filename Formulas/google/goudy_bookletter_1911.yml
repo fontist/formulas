@@ -1,12 +1,13 @@
 ---
+name: Goudy Bookletter 1911
 description: Goudy Bookletter 1911
 homepage: http://sortsmill.googlecode.com
 resources:
-  GoudyBookletter1911.zip:
-    urls:
-    - https://fonts.google.com/download?family=Goudy%20Bookletter%201911
-    sha256: 2d57a72a739819d888384c2a0a7f0d6f65996889392b4f2f25a7a6972cca1197
-    file_size: 41410
+  Goudy Bookletter 1911:
+    source: google
+    family: Goudy Bookletter 1911
+    files:
+    - https://fonts.gstatic.com/s/goudybookletter1911/v19/sykt-z54laciWfKv-kX8krex0jDiD2HbY6I5tRbXZ4IXAA.ttf
 fonts:
 - name: Goudy Bookletter 1911
   styles:
@@ -16,10 +17,9 @@ fonts:
     post_script_name: GoudyBookletter1911
     version: 2010.07.03
     copyright: Copyright (c) 2010, Barry Schwartz (crudfactory.com)
-    font: GoudyBookletter1911.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010, Barry Schwartz (crudfactory.com chemoelectric@chemoelectric.org)
+    font: sykt-z54laciWfKv-kX8krex0jDiD2HbY6I5tRbXZ4IXAA.ttf
+extract: {}
+copyright: Copyright (c) 2010, Barry Schwartz (crudfactory.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Barry Schwartz (crudfactory.com)
@@ -114,3 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

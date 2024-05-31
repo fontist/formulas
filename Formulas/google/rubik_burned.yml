@@ -1,12 +1,13 @@
 ---
+name: Rubik Burned
 description: Rubik Burned
 homepage: http://www.google.com/fonts
 resources:
-  Rubik_Burned.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rubik%20Burned
-    sha256: abc8e2d6bb74d9b1bd17f32b0128ee271e85ec46ffae5026e0dde84b4c9903da
-    file_size: 283601
+  Rubik Burned:
+    source: google
+    family: Rubik Burned
+    files:
+    - https://fonts.gstatic.com/s/rubikburned/v1/Jqzk5TmOVOqQHihKqPpscqniHQuaCY5ZSg.ttf
 fonts:
 - name: Rubik Burned
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: RubikBurned-Regular
     version: '2.200'
     copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
-    font: RubikBurned-Regular.ttf
+    font: Jqzk5TmOVOqQHihKqPpscqniHQuaCY5ZSg.ttf
 extract: {}
 copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: cf618d435f0de67ef6179ffca9a9443a4640bc80f5973122968848b588aab94d
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

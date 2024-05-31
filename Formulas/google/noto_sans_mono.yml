@@ -1,11 +1,21 @@
 ---
+name: Noto Sans Mono
 description: Noto Sans Mono
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Mono.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Mono
-    file_size: 8917125
+  Noto Sans Mono:
+    source: google
+    family: Noto Sans Mono
+    files:
+    - https://fonts.gstatic.com/s/notosansmono/v30/BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_FNI49rXVEQQL8Y.ttf
+    - https://fonts.gstatic.com/s/notosansmono/v30/BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_NNJ49rXVEQQL8Y.ttf
+    - https://fonts.gstatic.com/s/notosansmono/v30/BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_A1J49rXVEQQL8Y.ttf
+    - https://fonts.gstatic.com/s/notosansmono/v30/BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_FNJ49rXVEQQL8Y.ttf
+    - https://fonts.gstatic.com/s/notosansmono/v30/BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_GFJ49rXVEQQL8Y.ttf
+    - https://fonts.gstatic.com/s/notosansmono/v30/BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_I1O49rXVEQQL8Y.ttf
+    - https://fonts.gstatic.com/s/notosansmono/v30/BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_LRO49rXVEQQL8Y.ttf
+    - https://fonts.gstatic.com/s/notosansmono/v30/BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_NNO49rXVEQQL8Y.ttf
+    - https://fonts.gstatic.com/s/notosansmono/v30/BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_PpO49rXVEQQL8Y.ttf
 fonts:
 - name: Noto Sans Mono
   styles:
@@ -16,7 +26,7 @@ fonts:
     version: '2.014'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono-Bold.ttf
+    font: BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_LRO49rXVEQQL8Y.ttf
   - family_name: Noto Sans Mono
     type: Regular
     full_name: Noto Sans Mono Regular
@@ -24,15 +34,7 @@ fonts:
     version: '2.014'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono-VariableFont_wdth,wght.ttf
-  - family_name: Noto Sans Mono
-    type: Regular
-    full_name: Noto Sans Mono Regular
-    post_script_name: NotoSansMono-Regular
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono-Regular.ttf
+    font: BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_FNJ49rXVEQQL8Y.ttf
 - name: Noto Sans Mono Black
   styles:
   - family_name: Noto Sans Mono Black
@@ -44,113 +46,7 @@ fonts:
     version: '2.014'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono-Black.ttf
-- name: Noto Sans Mono Condensed
-  styles:
-  - family_name: Noto Sans Mono Condensed
-    type: Bold
-    preferred_family_name: Noto Sans Mono Condensed
-    preferred_type: Bold
-    full_name: Noto Sans Mono Condensed Bold
-    post_script_name: NotoSansMonoCondensed-Bold
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_Condensed-Bold.ttf
-  - family_name: Noto Sans Mono Condensed
-    type: Regular
-    preferred_family_name: Noto Sans Mono Condensed
-    preferred_type: Regular
-    full_name: Noto Sans Mono Condensed Regular
-    post_script_name: NotoSansMonoCondensed-Regular
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_Condensed-Regular.ttf
-- name: Noto Sans Mono Condensed Black
-  styles:
-  - family_name: Noto Sans Mono Condensed Black
-    type: Regular
-    preferred_family_name: Noto Sans Mono Condensed
-    preferred_type: Black
-    full_name: Noto Sans Mono Condensed Black
-    post_script_name: NotoSansMonoCondensed-Black
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_Condensed-Black.ttf
-- name: Noto Sans Mono Condensed ExtraBold
-  styles:
-  - family_name: Noto Sans Mono Condensed ExtraBold
-    type: Regular
-    preferred_family_name: Noto Sans Mono Condensed
-    preferred_type: ExtraBold
-    full_name: Noto Sans Mono Condensed ExtraBold
-    post_script_name: NotoSansMonoCondensed-ExtraBold
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_Condensed-ExtraBold.ttf
-- name: Noto Sans Mono Condensed ExtraLight
-  styles:
-  - family_name: Noto Sans Mono Condensed ExtraLight
-    type: Regular
-    preferred_family_name: Noto Sans Mono Condensed
-    preferred_type: ExtraLight
-    full_name: Noto Sans Mono Condensed ExtraLight
-    post_script_name: NotoSansMonoCondensed-ExtraLight
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_Condensed-ExtraLight.ttf
-- name: Noto Sans Mono Condensed Light
-  styles:
-  - family_name: Noto Sans Mono Condensed Light
-    type: Regular
-    preferred_family_name: Noto Sans Mono Condensed
-    preferred_type: Light
-    full_name: Noto Sans Mono Condensed Light
-    post_script_name: NotoSansMonoCondensed-Light
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_Condensed-Light.ttf
-- name: Noto Sans Mono Condensed Medium
-  styles:
-  - family_name: Noto Sans Mono Condensed Medium
-    type: Regular
-    preferred_family_name: Noto Sans Mono Condensed
-    preferred_type: Medium
-    full_name: Noto Sans Mono Condensed Medium
-    post_script_name: NotoSansMonoCondensed-Medium
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_Condensed-Medium.ttf
-- name: Noto Sans Mono Condensed SemiBold
-  styles:
-  - family_name: Noto Sans Mono Condensed SemiBold
-    type: Regular
-    preferred_family_name: Noto Sans Mono Condensed
-    preferred_type: SemiBold
-    full_name: Noto Sans Mono Condensed SemiBold
-    post_script_name: NotoSansMonoCondensed-SemiBold
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_Condensed-SemiBold.ttf
-- name: Noto Sans Mono Condensed Thin
-  styles:
-  - family_name: Noto Sans Mono Condensed Thin
-    type: Regular
-    preferred_family_name: Noto Sans Mono Condensed
-    preferred_type: Thin
-    full_name: Noto Sans Mono Condensed Thin
-    post_script_name: NotoSansMonoCondensed-Thin
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_Condensed-Thin.ttf
+    font: BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_PpO49rXVEQQL8Y.ttf
 - name: Noto Sans Mono ExtraBold
   styles:
   - family_name: Noto Sans Mono ExtraBold
@@ -162,113 +58,7 @@ fonts:
     version: '2.014'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono-ExtraBold.ttf
-- name: Noto Sans Mono ExtraCondensed
-  styles:
-  - family_name: Noto Sans Mono ExtraCondensed
-    type: Bold
-    preferred_family_name: Noto Sans Mono ExtraCondensed
-    preferred_type: Bold
-    full_name: Noto Sans Mono ExtraCondensed Bold
-    post_script_name: NotoSansMonoExtraCondensed-Bold
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_ExtraCondensed-Bold.ttf
-  - family_name: Noto Sans Mono ExtraCondensed
-    type: Regular
-    preferred_family_name: Noto Sans Mono ExtraCondensed
-    preferred_type: Regular
-    full_name: Noto Sans Mono ExtraCondensed Regular
-    post_script_name: NotoSansMonoExtraCondensed-Regular
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_ExtraCondensed-Regular.ttf
-- name: Noto Sans Mono ExtraCondensed Black
-  styles:
-  - family_name: Noto Sans Mono ExtraCondensed Black
-    type: Regular
-    preferred_family_name: Noto Sans Mono ExtraCondensed
-    preferred_type: Black
-    full_name: Noto Sans Mono ExtraCondensed Black
-    post_script_name: NotoSansMonoExtraCondensed-Black
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_ExtraCondensed-Black.ttf
-- name: Noto Sans Mono ExtraCondensed ExtraBold
-  styles:
-  - family_name: Noto Sans Mono ExtraCondensed ExtraBold
-    type: Regular
-    preferred_family_name: Noto Sans Mono ExtraCondensed
-    preferred_type: ExtraBold
-    full_name: Noto Sans Mono ExtraCondensed ExtraBold
-    post_script_name: NotoSansMonoExtraCondensed-ExtraBold
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_ExtraCondensed-ExtraBold.ttf
-- name: Noto Sans Mono ExtraCondensed ExtraLight
-  styles:
-  - family_name: Noto Sans Mono ExtraCondensed ExtraLight
-    type: Regular
-    preferred_family_name: Noto Sans Mono ExtraCondensed
-    preferred_type: ExtraLight
-    full_name: Noto Sans Mono ExtraCondensed ExtraLight
-    post_script_name: NotoSansMonoExtraCondensed-ExtraLight
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_ExtraCondensed-ExtraLight.ttf
-- name: Noto Sans Mono ExtraCondensed Light
-  styles:
-  - family_name: Noto Sans Mono ExtraCondensed Light
-    type: Regular
-    preferred_family_name: Noto Sans Mono ExtraCondensed
-    preferred_type: Light
-    full_name: Noto Sans Mono ExtraCondensed Light
-    post_script_name: NotoSansMonoExtraCondensed-Light
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_ExtraCondensed-Light.ttf
-- name: Noto Sans Mono ExtraCondensed Medium
-  styles:
-  - family_name: Noto Sans Mono ExtraCondensed Medium
-    type: Regular
-    preferred_family_name: Noto Sans Mono ExtraCondensed
-    preferred_type: Medium
-    full_name: Noto Sans Mono ExtraCondensed Medium
-    post_script_name: NotoSansMonoExtraCondensed-Medium
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_ExtraCondensed-Medium.ttf
-- name: Noto Sans Mono ExtraCondensed SemiBold
-  styles:
-  - family_name: Noto Sans Mono ExtraCondensed SemiBold
-    type: Regular
-    preferred_family_name: Noto Sans Mono ExtraCondensed
-    preferred_type: SemiBold
-    full_name: Noto Sans Mono ExtraCondensed SemiBold
-    post_script_name: NotoSansMonoExtraCondensed-SemiBold
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_ExtraCondensed-SemiBold.ttf
-- name: Noto Sans Mono ExtraCondensed Thin
-  styles:
-  - family_name: Noto Sans Mono ExtraCondensed Thin
-    type: Regular
-    preferred_family_name: Noto Sans Mono ExtraCondensed
-    preferred_type: Thin
-    full_name: Noto Sans Mono ExtraCondensed Thin
-    post_script_name: NotoSansMonoExtraCondensed-Thin
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_ExtraCondensed-Thin.ttf
+    font: BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_NNO49rXVEQQL8Y.ttf
 - name: Noto Sans Mono ExtraLight
   styles:
   - family_name: Noto Sans Mono ExtraLight
@@ -280,7 +70,7 @@ fonts:
     version: '2.014'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono-ExtraLight.ttf
+    font: BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_NNJ49rXVEQQL8Y.ttf
 - name: Noto Sans Mono Light
   styles:
   - family_name: Noto Sans Mono Light
@@ -292,7 +82,7 @@ fonts:
     version: '2.014'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono-Light.ttf
+    font: BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_A1J49rXVEQQL8Y.ttf
 - name: Noto Sans Mono Medium
   styles:
   - family_name: Noto Sans Mono Medium
@@ -304,7 +94,7 @@ fonts:
     version: '2.014'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono-Medium.ttf
+    font: BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_GFJ49rXVEQQL8Y.ttf
 - name: Noto Sans Mono SemiBold
   styles:
   - family_name: Noto Sans Mono SemiBold
@@ -316,113 +106,7 @@ fonts:
     version: '2.014'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono-SemiBold.ttf
-- name: Noto Sans Mono SemiCondensed
-  styles:
-  - family_name: Noto Sans Mono SemiCondensed
-    type: Bold
-    preferred_family_name: Noto Sans Mono SemiCondensed
-    preferred_type: Bold
-    full_name: Noto Sans Mono SemiCondensed Bold
-    post_script_name: NotoSansMonoSemiCondensed-Bold
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_SemiCondensed-Bold.ttf
-  - family_name: Noto Sans Mono SemiCondensed
-    type: Regular
-    preferred_family_name: Noto Sans Mono SemiCondensed
-    preferred_type: Regular
-    full_name: Noto Sans Mono SemiCondensed Regular
-    post_script_name: NotoSansMonoSemiCondensed-Regular
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_SemiCondensed-Regular.ttf
-- name: Noto Sans Mono SemiCondensed Black
-  styles:
-  - family_name: Noto Sans Mono SemiCondensed Black
-    type: Regular
-    preferred_family_name: Noto Sans Mono SemiCondensed
-    preferred_type: Black
-    full_name: Noto Sans Mono SemiCondensed Black
-    post_script_name: NotoSansMonoSemiCondensed-Black
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_SemiCondensed-Black.ttf
-- name: Noto Sans Mono SemiCondensed ExtraBold
-  styles:
-  - family_name: Noto Sans Mono SemiCondensed ExtraBold
-    type: Regular
-    preferred_family_name: Noto Sans Mono SemiCondensed
-    preferred_type: ExtraBold
-    full_name: Noto Sans Mono SemiCondensed ExtraBold
-    post_script_name: NotoSansMonoSemiCondensed-ExtraBold
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_SemiCondensed-ExtraBold.ttf
-- name: Noto Sans Mono SemiCondensed ExtraLight
-  styles:
-  - family_name: Noto Sans Mono SemiCondensed ExtraLight
-    type: Regular
-    preferred_family_name: Noto Sans Mono SemiCondensed
-    preferred_type: ExtraLight
-    full_name: Noto Sans Mono SemiCondensed ExtraLight
-    post_script_name: NotoSansMonoSemiCondensed-ExtraLight
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_SemiCondensed-ExtraLight.ttf
-- name: Noto Sans Mono SemiCondensed Light
-  styles:
-  - family_name: Noto Sans Mono SemiCondensed Light
-    type: Regular
-    preferred_family_name: Noto Sans Mono SemiCondensed
-    preferred_type: Light
-    full_name: Noto Sans Mono SemiCondensed Light
-    post_script_name: NotoSansMonoSemiCondensed-Light
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_SemiCondensed-Light.ttf
-- name: Noto Sans Mono SemiCondensed Medium
-  styles:
-  - family_name: Noto Sans Mono SemiCondensed Medium
-    type: Regular
-    preferred_family_name: Noto Sans Mono SemiCondensed
-    preferred_type: Medium
-    full_name: Noto Sans Mono SemiCondensed Medium
-    post_script_name: NotoSansMonoSemiCondensed-Medium
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_SemiCondensed-Medium.ttf
-- name: Noto Sans Mono SemiCondensed SemiBold
-  styles:
-  - family_name: Noto Sans Mono SemiCondensed SemiBold
-    type: Regular
-    preferred_family_name: Noto Sans Mono SemiCondensed
-    preferred_type: SemiBold
-    full_name: Noto Sans Mono SemiCondensed SemiBold
-    post_script_name: NotoSansMonoSemiCondensed-SemiBold
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_SemiCondensed-SemiBold.ttf
-- name: Noto Sans Mono SemiCondensed Thin
-  styles:
-  - family_name: Noto Sans Mono SemiCondensed Thin
-    type: Regular
-    preferred_family_name: Noto Sans Mono SemiCondensed
-    preferred_type: Thin
-    full_name: Noto Sans Mono SemiCondensed Thin
-    post_script_name: NotoSansMonoSemiCondensed-Thin
-    version: '2.014'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono_SemiCondensed-Thin.ttf
+    font: BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_I1O49rXVEQQL8Y.ttf
 - name: Noto Sans Mono Thin
   styles:
   - family_name: Noto Sans Mono Thin
@@ -434,7 +118,7 @@ fonts:
     version: '2.014'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
-    font: NotoSansMono-Thin.ttf
+    font: BngrUXNETWXI6LwhGYvaxZikqZqK6fBq6kPvUce2oAZcdthSBUsYck4-_FNI49rXVEQQL8Y.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
 license_url: https://scripts.sil.org/OFL
@@ -443,7 +127,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -532,5 +216,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 79019a98b1c94a8c2fe92d98df5e9ceac6fe2dcbb7e6aac5187f64ed72f298db
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

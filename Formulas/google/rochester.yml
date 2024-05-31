@@ -3,11 +3,11 @@ name: Rochester
 description: Rochester
 homepage: http://www.fontbros.com/sideshow.php
 resources:
-  Rochester.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rochester
-    sha256: 8e1205cc2feba0972711b725727dda2b4c6fc0bb8c0e746ad6e60c51251e94d6
-    file_size: 27553
+  Rochester:
+    source: google
+    family: Rochester
+    files:
+    - https://fonts.gstatic.com/s/rochester/v22/6ae-4KCqVa4Zy6Fif-Uy31vWNTMwoQ.ttf
 fonts:
 - name: Rochester
   styles:
@@ -18,14 +18,13 @@ fonts:
     version: '1.006'
     copyright: Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.
       Available under the Apache 2.0 licence.
-    font: Rochester-Regular.ttf
-extract:
-  format: zip
+    font: 6ae-4KCqVa4Zy6Fif-Uy31vWNTMwoQ.ttf
+extract: {}
 copyright: Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.
-  Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html
+  Available under the Apache 2.0 licence.
 license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |2-
-                                   Apache License
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -226,3 +225,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999

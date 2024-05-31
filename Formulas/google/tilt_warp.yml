@@ -1,12 +1,13 @@
 ---
+name: Tilt Warp
 description: Tilt Warp
 homepage: http://www.andyclymer.com/
 resources:
-  Tilt_Warp.zip:
-    urls:
-    - https://fonts.google.com/download?family=Tilt%20Warp
-    sha256: 3a721e6d41a38f3dcf13f0db43e4a76fe64827a47a1704eaaee6de3a6363333f
-    file_size: 171661
+  Tilt Warp:
+    source: google
+    family: Tilt Warp
+    files:
+    - https://fonts.gstatic.com/s/tiltwarp/v12/AlZc_zVDs5XpmO7yn3w7flUoytXJp3z29uEwmEMLEJljLXvT8UJSZTBxAVfMGOPb.ttf
 fonts:
 - name: Tilt Warp
   styles:
@@ -16,14 +17,7 @@ fonts:
     post_script_name: TiltWarp-Regular
     version: '1.000'
     copyright: Copyright 2019 The Tilt Project Authors (https://github.com/googlefonts/Tilt-Fonts)
-    font: TiltWarp-Regular-VariableFont_XROT,YROT.ttf
-  - family_name: Tilt Warp
-    type: Regular
-    full_name: Tilt Warp Regular
-    post_script_name: TiltWarp-Regular
-    version: '1.000'
-    copyright: Copyright 2019 The Tilt Project Authors (https://github.com/googlefonts/Tilt-Fonts)
-    font: TiltWarp-Regular.ttf
+    font: AlZc_zVDs5XpmO7yn3w7flUoytXJp3z29uEwmEMLEJljLXvT8UJSZTBxAVfMGOPb.ttf
 extract: {}
 copyright: Copyright 2019 The Tilt Project Authors (https://github.com/googlefonts/Tilt-Fonts)
 license_url: http://scripts.sil.org/OFL
@@ -121,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 1c271a60014d8fd33469e88d232f24f4230127b6e6aacbe1b5200fc24c59f025
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

@@ -1,12 +1,26 @@
 ---
+name: IBM Plex Mono
 description: IBM Plex Mono
 homepage: http://www.boldmonday.com
 resources:
-  IBM_Plex_Mono.zip:
-    urls:
-    - https://fonts.google.com/download?family=IBM%20Plex%20Mono
-    sha256: cde2e28a53ccb0db97bac35ceea891294e156257a79bc87e7d58fcb428c91f85
-    file_size: 838532
+  IBM Plex Mono:
+    source: google
+    family: IBM Plex Mono
+    files:
+    - https://fonts.gstatic.com/s/ibmplexmono/v19/-F6pfjptAgt5VM-kVkqdyU8n3kwq0n1hj-sNFQ.ttf
+    - https://fonts.gstatic.com/s/ibmplexmono/v19/-F6rfjptAgt5VM-kVkqdyU8n1ioStndlre4dFcFh.ttf
+    - https://fonts.gstatic.com/s/ibmplexmono/v19/-F6qfjptAgt5VM-kVkqdyU8n3uAL8ldPg-IUDNg.ttf
+    - https://fonts.gstatic.com/s/ibmplexmono/v19/-F6sfjptAgt5VM-kVkqdyU8n1ioSGlZFh8ARHNh4zg.ttf
+    - https://fonts.gstatic.com/s/ibmplexmono/v19/-F6qfjptAgt5VM-kVkqdyU8n3oQI8ldPg-IUDNg.ttf
+    - https://fonts.gstatic.com/s/ibmplexmono/v19/-F6sfjptAgt5VM-kVkqdyU8n1ioSflVFh8ARHNh4zg.ttf
+    - https://fonts.gstatic.com/s/ibmplexmono/v19/-F63fjptAgt5VM-kVkqdyU8n5igg1l9kn-s.ttf
+    - https://fonts.gstatic.com/s/ibmplexmono/v19/-F6pfjptAgt5VM-kVkqdyU8n1ioq0n1hj-sNFQ.ttf
+    - https://fonts.gstatic.com/s/ibmplexmono/v19/-F6qfjptAgt5VM-kVkqdyU8n3twJ8ldPg-IUDNg.ttf
+    - https://fonts.gstatic.com/s/ibmplexmono/v19/-F6sfjptAgt5VM-kVkqdyU8n1ioSJlRFh8ARHNh4zg.ttf
+    - https://fonts.gstatic.com/s/ibmplexmono/v19/-F6qfjptAgt5VM-kVkqdyU8n3vAO8ldPg-IUDNg.ttf
+    - https://fonts.gstatic.com/s/ibmplexmono/v19/-F6sfjptAgt5VM-kVkqdyU8n1ioSClNFh8ARHNh4zg.ttf
+    - https://fonts.gstatic.com/s/ibmplexmono/v19/-F6qfjptAgt5VM-kVkqdyU8n3pQP8ldPg-IUDNg.ttf
+    - https://fonts.gstatic.com/s/ibmplexmono/v19/-F6sfjptAgt5VM-kVkqdyU8n1ioSblJFh8ARHNh4zg.ttf
 fonts:
 - name: IBM Plex Mono
   styles:
@@ -16,28 +30,28 @@ fonts:
     post_script_name: IBMPlexMono-Bold
     version: '2.3'
     copyright: Copyright 2017 IBM Corp. All rights reserved.
-    font: IBMPlexMono-Bold.ttf
+    font: "-F6qfjptAgt5VM-kVkqdyU8n3pQP8ldPg-IUDNg.ttf"
   - family_name: IBM Plex Mono
     type: Bold Italic
     full_name: IBM Plex Mono Bold Italic
     post_script_name: IBMPlexMono-BoldItalic
     version: '2.3'
     copyright: Copyright 2017 IBM Corp. All rights reserved.
-    font: IBMPlexMono-BoldItalic.ttf
+    font: "-F6sfjptAgt5VM-kVkqdyU8n1ioSblJFh8ARHNh4zg.ttf"
   - family_name: IBM Plex Mono
     type: Italic
     full_name: IBM Plex Mono Italic
     post_script_name: IBMPlexMono-Italic
     version: '2.3'
     copyright: Copyright 2017 IBM Corp. All rights reserved.
-    font: IBMPlexMono-Italic.ttf
+    font: "-F6pfjptAgt5VM-kVkqdyU8n1ioq0n1hj-sNFQ.ttf"
   - family_name: IBM Plex Mono
     type: Regular
     full_name: IBM Plex Mono Regular
     post_script_name: IBMPlexMono-Regular
     version: '2.3'
     copyright: Copyright 2017 IBM Corp. All rights reserved.
-    font: IBMPlexMono-Regular.ttf
+    font: "-F63fjptAgt5VM-kVkqdyU8n5igg1l9kn-s.ttf"
 - name: IBM Plex Mono ExtraLight
   styles:
   - family_name: IBM Plex Mono ExtraLight
@@ -48,7 +62,7 @@ fonts:
     post_script_name: IBMPlexMono-ExtraLightItalic
     version: '2.3'
     copyright: Copyright 2017 IBM Corp. All rights reserved.
-    font: IBMPlexMono-ExtraLightItalic.ttf
+    font: "-F6sfjptAgt5VM-kVkqdyU8n1ioSGlZFh8ARHNh4zg.ttf"
   - family_name: IBM Plex Mono ExtraLight
     type: Regular
     preferred_family_name: IBM Plex Mono
@@ -57,7 +71,7 @@ fonts:
     post_script_name: IBMPlexMono-ExtraLight
     version: '2.3'
     copyright: Copyright 2017 IBM Corp. All rights reserved.
-    font: IBMPlexMono-ExtraLight.ttf
+    font: "-F6qfjptAgt5VM-kVkqdyU8n3uAL8ldPg-IUDNg.ttf"
 - name: IBM Plex Mono Light
   styles:
   - family_name: IBM Plex Mono Light
@@ -68,7 +82,7 @@ fonts:
     post_script_name: IBMPlexMono-LightItalic
     version: '2.3'
     copyright: Copyright 2017 IBM Corp. All rights reserved.
-    font: IBMPlexMono-LightItalic.ttf
+    font: "-F6sfjptAgt5VM-kVkqdyU8n1ioSflVFh8ARHNh4zg.ttf"
   - family_name: IBM Plex Mono Light
     type: Regular
     preferred_family_name: IBM Plex Mono
@@ -77,7 +91,7 @@ fonts:
     post_script_name: IBMPlexMono-Light
     version: '2.3'
     copyright: Copyright 2017 IBM Corp. All rights reserved.
-    font: IBMPlexMono-Light.ttf
+    font: "-F6qfjptAgt5VM-kVkqdyU8n3oQI8ldPg-IUDNg.ttf"
 - name: IBM Plex Mono Medium
   styles:
   - family_name: IBM Plex Mono Medium
@@ -88,7 +102,7 @@ fonts:
     post_script_name: IBMPlexMono-MediumItalic
     version: '2.3'
     copyright: Copyright 2017 IBM Corp. All rights reserved.
-    font: IBMPlexMono-MediumItalic.ttf
+    font: "-F6sfjptAgt5VM-kVkqdyU8n1ioSJlRFh8ARHNh4zg.ttf"
   - family_name: IBM Plex Mono Medium
     type: Regular
     preferred_family_name: IBM Plex Mono
@@ -97,7 +111,7 @@ fonts:
     post_script_name: IBMPlexMono-Medium
     version: '2.3'
     copyright: Copyright 2017 IBM Corp. All rights reserved.
-    font: IBMPlexMono-Medium.ttf
+    font: "-F6qfjptAgt5VM-kVkqdyU8n3twJ8ldPg-IUDNg.ttf"
 - name: IBM Plex Mono SemiBold
   styles:
   - family_name: IBM Plex Mono SemiBold
@@ -108,7 +122,7 @@ fonts:
     post_script_name: IBMPlexMono-SemiBoldItalic
     version: '2.3'
     copyright: Copyright 2017 IBM Corp. All rights reserved.
-    font: IBMPlexMono-SemiBoldItalic.ttf
+    font: "-F6sfjptAgt5VM-kVkqdyU8n1ioSClNFh8ARHNh4zg.ttf"
   - family_name: IBM Plex Mono SemiBold
     type: Regular
     preferred_family_name: IBM Plex Mono
@@ -117,7 +131,7 @@ fonts:
     post_script_name: IBMPlexMono-SemiBold
     version: '2.3'
     copyright: Copyright 2017 IBM Corp. All rights reserved.
-    font: IBMPlexMono-SemiBold.ttf
+    font: "-F6qfjptAgt5VM-kVkqdyU8n3vAO8ldPg-IUDNg.ttf"
 - name: IBM Plex Mono Thin
   styles:
   - family_name: IBM Plex Mono Thin
@@ -128,7 +142,7 @@ fonts:
     post_script_name: IBMPlexMono-ThinItalic
     version: '2.3'
     copyright: Copyright 2017 IBM Corp. All rights reserved.
-    font: IBMPlexMono-ThinItalic.ttf
+    font: "-F6rfjptAgt5VM-kVkqdyU8n1ioStndlre4dFcFh.ttf"
   - family_name: IBM Plex Mono Thin
     type: Regular
     preferred_family_name: IBM Plex Mono
@@ -137,7 +151,7 @@ fonts:
     post_script_name: IBMPlexMono-Thin
     version: '2.3'
     copyright: Copyright 2017 IBM Corp. All rights reserved.
-    font: IBMPlexMono-Thin.ttf
+    font: "-F6pfjptAgt5VM-kVkqdyU8n3kwq0n1hj-sNFQ.ttf"
 extract: {}
 copyright: Copyright 2017 IBM Corp. All rights reserved.
 license_url: http://scripts.sil.org/OFL
@@ -145,8 +159,8 @@ open_license: |-
   Copyright © 2017 IBM Corp. with Reserved Font Name "Plex"
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
-  This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+
+  This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -235,5 +249,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 053b0c7527335f293c4420a531d871c07c8abc5ec87ed535ffb351f223364f10
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

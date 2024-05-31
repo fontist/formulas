@@ -1,14 +1,15 @@
 ---
+name: Supermercado One
 description: Supermercado One
 homepage: www.sorkintype.com
 resources:
-  SupermercadoOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Supermercado%20One
-    sha256: de377300a141c009b1670356daa26fe469da6d5c4495ab5448cbd85ff7910b19
-    file_size: 51560
+  Supermercado One:
+    source: google
+    family: Supermercado One
+    files:
+    - https://fonts.gstatic.com/s/supermercadoone/v26/OpNXnpQWg8jc_xps_Gi14kVVEXOn60b3MClBRTs.ttf
 fonts:
-- name: Supermercado One
+- name: Supermercado
   styles:
   - family_name: Supermercado
     type: Regular
@@ -23,11 +24,11 @@ fonts:
     copyright: |-
       Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com)
       with Reserved Font Name "Supermercado".
-    font: SupermercadoOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)
-  with Reserved Font Name "Supermercado One".
+    font: OpNXnpQWg8jc_xps_Gi14kVVEXOn60b3MClBRTs.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com)
+  with Reserved Font Name "Supermercado".
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011-2012 by Sorkin Type Co (www.sorkintype.com),
@@ -124,3 +125,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

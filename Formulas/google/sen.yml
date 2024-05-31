@@ -1,10 +1,16 @@
 ---
+name: Sen
 description: Sen
 resources:
-  Sen.zip:
-    urls:
-    - https://fonts.google.com/download?family=Sen
-    file_size: 124132
+  Sen:
+    source: google
+    family: Sen
+    files:
+    - https://fonts.gstatic.com/s/sen/v9/6xK0dSxYI9_dkN18-vZKK2EISCq5H47KlD9q78A.ttf
+    - https://fonts.gstatic.com/s/sen/v9/6xK0dSxYI9_dkN18-vZKK2EISBi5H47KlD9q78A.ttf
+    - https://fonts.gstatic.com/s/sen/v9/6xK0dSxYI9_dkN18-vZKK2EISPS-H47KlD9q78A.ttf
+    - https://fonts.gstatic.com/s/sen/v9/6xK0dSxYI9_dkN18-vZKK2EISM2-H47KlD9q78A.ttf
+    - https://fonts.gstatic.com/s/sen/v9/6xK0dSxYI9_dkN18-vZKK2EISKq-H47KlD9q78A.ttf
 fonts:
 - name: Sen
   styles:
@@ -14,21 +20,14 @@ fonts:
     post_script_name: Sen-Bold
     version: 2.000;gftools[0.9.31]
     copyright: Copyright 2023 The Sen Project Authors (https://github.com/philatype/Sen/)
-    font: Sen-Bold.ttf
+    font: 6xK0dSxYI9_dkN18-vZKK2EISM2-H47KlD9q78A.ttf
   - family_name: Sen
     type: Regular
     full_name: Sen Regular
     post_script_name: Sen-Regular
     version: 2.000;gftools[0.9.31]
     copyright: Copyright 2023 The Sen Project Authors (https://github.com/philatype/Sen/)
-    font: Sen-VariableFont_wght.ttf
-  - family_name: Sen
-    type: Regular
-    full_name: Sen Regular
-    post_script_name: Sen-Regular
-    version: 2.000;gftools[0.9.31]
-    copyright: Copyright 2023 The Sen Project Authors (https://github.com/philatype/Sen/)
-    font: Sen-Regular.ttf
+    font: 6xK0dSxYI9_dkN18-vZKK2EISCq5H47KlD9q78A.ttf
 - name: Sen ExtraBold
   styles:
   - family_name: Sen ExtraBold
@@ -39,7 +38,7 @@ fonts:
     post_script_name: Sen-ExtraBold
     version: 2.000;gftools[0.9.31]
     copyright: Copyright 2023 The Sen Project Authors (https://github.com/philatype/Sen/)
-    font: Sen-ExtraBold.ttf
+    font: 6xK0dSxYI9_dkN18-vZKK2EISKq-H47KlD9q78A.ttf
 - name: Sen Medium
   styles:
   - family_name: Sen Medium
@@ -50,7 +49,7 @@ fonts:
     post_script_name: Sen-Medium
     version: 2.000;gftools[0.9.31]
     copyright: Copyright 2023 The Sen Project Authors (https://github.com/philatype/Sen/)
-    font: Sen-Medium.ttf
+    font: 6xK0dSxYI9_dkN18-vZKK2EISBi5H47KlD9q78A.ttf
 - name: Sen SemiBold
   styles:
   - family_name: Sen SemiBold
@@ -61,7 +60,7 @@ fonts:
     post_script_name: Sen-SemiBold
     version: 2.000;gftools[0.9.31]
     copyright: Copyright 2023 The Sen Project Authors (https://github.com/philatype/Sen/)
-    font: Sen-SemiBold.ttf
+    font: 6xK0dSxYI9_dkN18-vZKK2EISPS-H47KlD9q78A.ttf
 extract: {}
 copyright: Copyright 2023 The Sen Project Authors (https://github.com/philatype/Sen/)
 license_url: https://scripts.sil.org/OFL
@@ -70,7 +69,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -159,5 +158,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 3f31a8132e4252011d862c1003e54cf7c209ae477bcbf493ee28da5614bfa2c1
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

@@ -1,12 +1,12 @@
 ---
+name: Happy Monkey
 description: Happy Monkey
-homepage:
 resources:
-  HappyMonkey.zip:
-    urls:
-    - https://fonts.google.com/download?family=Happy%20Monkey
-    sha256: 4d13565209b3257005ab1404e3602e6dec31a34a0b1796a4ad190c6b4858a68b
-    file_size: 37194
+  Happy Monkey:
+    source: google
+    family: Happy Monkey
+    files:
+    - https://fonts.gstatic.com/s/happymonkey/v14/K2F2fZZcl-9SXwl5F_C4R_OABwD2bWqVjw.ttf
 fonts:
 - name: Happy Monkey
   styles:
@@ -17,9 +17,8 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011 by Brenda Gallo (gbrenda1987@gmail.com), with Reserved
       Font Name "Happy Monkey".
-    font: HappyMonkey-Regular.ttf
-extract:
-  format: zip
+    font: K2F2fZZcl-9SXwl5F_C4R_OABwD2bWqVjw.ttf
+extract: {}
 copyright: Copyright (c) 2011 by Brenda Gallo (gbrenda1987@gmail.com), with Reserved
   Font Name "Happy Monkey".
 license_url: http://scripts.sil.org/OFL
@@ -117,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

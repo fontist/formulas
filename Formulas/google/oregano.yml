@@ -3,23 +3,15 @@ name: Oregano
 description: Oregano
 homepage: http://www.astigmatic.com/
 resources:
-  Oregano.zip:
-    urls:
-    - https://fonts.google.com/download?family=Oregano
-    sha256: 05e40cba9de8c9d825c4ac882bc34e283ef4531086b8047578e9cd4f879bc111
-    file_size: 90553
+  Oregano:
+    source: google
+    family: Oregano
+    files:
+    - https://fonts.gstatic.com/s/oregano/v15/If2IXTPxciS3H4S2kZffPznO3yM.ttf
+    - https://fonts.gstatic.com/s/oregano/v15/If2KXTPxciS3H4S2oZXVOxvLzyP_qw.ttf
 fonts:
 - name: Oregano
   styles:
-  - family_name: Oregano
-    type: Regular
-    full_name: Oregano
-    post_script_name: Oregano-Regular
-    version: '1.000'
-    copyright: |-
-      Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
-      Font Name "Oregano"
-    font: Oregano-Regular.ttf
   - family_name: Oregano
     type: Italic
     full_name: Oregano Italic
@@ -28,11 +20,20 @@ fonts:
     copyright: |-
       Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
       Font Name "Oregano Italic"
-    font: Oregano-Italic.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com),
-  with Reserved Font Name "Oregano"
+    font: If2KXTPxciS3H4S2oZXVOxvLzyP_qw.ttf
+  - family_name: Oregano
+    type: Regular
+    full_name: Oregano
+    post_script_name: Oregano-Regular
+    version: '1.000'
+    copyright: |-
+      Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+      Font Name "Oregano"
+    font: If2IXTPxciS3H4S2kZffPznO3yM.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+  Font Name "Oregano"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012, Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Names "Oregano"
@@ -128,3 +129,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

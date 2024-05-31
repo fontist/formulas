@@ -3,11 +3,11 @@ name: Pangolin
 description: Pangolin
 homepage: http://fonts.google.com
 resources:
-  Pangolin.zip:
-    urls:
-    - https://fonts.google.com/download?family=Pangolin
-    sha256: ad4cda6b559393c5229b5e8cc3723be0e7ab564db7a33ac841328a7287624fae
-    file_size: 233312
+  Pangolin:
+    source: google
+    family: Pangolin
+    files:
+    - https://fonts.gstatic.com/s/pangolin/v11/cY9GfjGcW0FPpi-tWPfK5d3aiLBG.ttf
 fonts:
 - name: Pangolin
   styles:
@@ -15,11 +15,10 @@ fonts:
     type: Regular
     full_name: Pangolin Regular
     post_script_name: Pangolin-Regular
-    version: '1.101'
+    version: '1.100'
     copyright: Copyright 2016 The Pangolin Project Authors (https://github.com/googlefonts/pangolin)
-    font: Pangolin-Regular.ttf
-extract:
-  format: zip
+    font: cY9GfjGcW0FPpi-tWPfK5d3aiLBG.ttf
+extract: {}
 copyright: Copyright 2016 The Pangolin Project Authors (https://github.com/googlefonts/pangolin)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

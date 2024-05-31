@@ -1,12 +1,13 @@
 ---
+name: Noto Serif Grantha
 description: Noto Serif Grantha
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Serif_Grantha.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Serif%20Grantha
-    sha256: 773f61416ace2f470039fb8954af3c51a4610c0824c51c0e7620a51b4582b8ad
-    file_size: 175005
+  Noto Serif Grantha:
+    source: google
+    family: Noto Serif Grantha
+    files:
+    - https://fonts.gstatic.com/s/notoserifgrantha/v19/qkBIXuEH5NzDDvc3fLDYxPk9-Wq3WLiqFENLR7fHGw.ttf
 fonts:
 - name: Noto Serif Grantha
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.004; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/grantha)
-    font: NotoSerifGrantha-Regular.ttf
+    font: qkBIXuEH5NzDDvc3fLDYxPk9-Wq3WLiqFENLR7fHGw.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/grantha)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b9512a5893b42fb818f28c5c7c50e7402c057a42a1c460d95f4b07f0636910b5
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

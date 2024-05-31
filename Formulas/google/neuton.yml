@@ -3,46 +3,19 @@ name: Neuton
 description: Neuton
 homepage: http://www.21326.info/
 resources:
-  Neuton.zip:
-    urls:
-    - https://fonts.google.com/download?family=Neuton
-    sha256: 6b601b4af6f1c3b17fe30692c62cc828da607302097859b2e56aa2210405b700
-    file_size: 200530
+  Neuton:
+    source: google
+    family: Neuton
+    files:
+    - https://fonts.gstatic.com/s/neuton/v22/UMBQrPtMoH62xUZKAKkfegD5Drog6Q.ttf
+    - https://fonts.gstatic.com/s/neuton/v22/UMBQrPtMoH62xUZKZKofegD5Drog6Q.ttf
+    - https://fonts.gstatic.com/s/neuton/v22/UMBTrPtMoH62xUZyyII7civlBw.ttf
+    - https://fonts.gstatic.com/s/neuton/v22/UMBRrPtMoH62xUZCyog_UC71B6M5.ttf
+    - https://fonts.gstatic.com/s/neuton/v22/UMBQrPtMoH62xUZKdK0fegD5Drog6Q.ttf
+    - https://fonts.gstatic.com/s/neuton/v22/UMBQrPtMoH62xUZKaK4fegD5Drog6Q.ttf
 fonts:
 - name: Neuton
   styles:
-  - family_name: Neuton
-    type: ExtraLight
-    full_name: Neuton ExtraLight
-    post_script_name: Neuton-ExtraLight
-    version: '1.560'
-    copyright: Copyright 2010 The Neuton Project Authors (http://www.21326.info/),
-      with Reserved Font Name "Neuton".
-    font: Neuton-ExtraLight.ttf
-  - family_name: Neuton
-    type: Light
-    full_name: Neuton Light
-    post_script_name: Neuton-Light
-    version: '1.560'
-    copyright: Copyright 2010 The Neuton Project Authors (http://www.21326.info/),
-      with Reserved Font Name "Neuton".
-    font: Neuton-Light.ttf
-  - family_name: Neuton
-    type: Regular
-    full_name: Neuton Regular
-    post_script_name: Neuton-Regular
-    version: '1.560'
-    copyright: Copyright 2010 The Neuton Project Authors (http://www.21326.info/),
-      with Reserved Font Name "Neuton".
-    font: Neuton-Regular.ttf
-  - family_name: Neuton
-    type: Italic
-    full_name: Neuton Italic
-    post_script_name: Neuton-Italic
-    version: '1.560'
-    copyright: Copyright 2010 The Neuton Project Authors (http://www.21326.info/),
-      with Reserved Font Name "Neuton".
-    font: Neuton-Italic.ttf
   - family_name: Neuton
     type: Bold
     full_name: Neuton Bold
@@ -50,17 +23,60 @@ fonts:
     version: '1.560'
     copyright: Copyright 2010 The Neuton Project Authors (http://www.21326.info/),
       with Reserved Font Name "Neuton".
-    font: Neuton-Bold.ttf
+    font: UMBQrPtMoH62xUZKdK0fegD5Drog6Q.ttf
   - family_name: Neuton
-    type: ExtraBold
+    type: Italic
+    full_name: Neuton Italic
+    post_script_name: Neuton-Italic
+    version: '1.560'
+    copyright: Copyright 2010 The Neuton Project Authors (http://www.21326.info/),
+      with Reserved Font Name "Neuton".
+    font: UMBRrPtMoH62xUZCyog_UC71B6M5.ttf
+  - family_name: Neuton
+    type: Regular
+    full_name: Neuton Regular
+    post_script_name: Neuton-Regular
+    version: '1.560'
+    copyright: Copyright 2010 The Neuton Project Authors (http://www.21326.info/),
+      with Reserved Font Name "Neuton".
+    font: UMBTrPtMoH62xUZyyII7civlBw.ttf
+- name: Neuton ExtraBold
+  styles:
+  - family_name: Neuton ExtraBold
+    type: Regular
+    preferred_family_name: Neuton
+    preferred_type: ExtraBold
     full_name: Neuton ExtraBold
     post_script_name: Neuton-ExtraBold
     version: '1.560'
     copyright: Copyright 2010 The Neuton Project Authors (http://www.21326.info/),
       with Reserved Font Name "Neuton".
-    font: Neuton-ExtraBold.ttf
-extract:
-  format: zip
+    font: UMBQrPtMoH62xUZKaK4fegD5Drog6Q.ttf
+- name: Neuton ExtraLight
+  styles:
+  - family_name: Neuton ExtraLight
+    type: Regular
+    preferred_family_name: Neuton
+    preferred_type: ExtraLight
+    full_name: Neuton ExtraLight
+    post_script_name: Neuton-ExtraLight
+    version: '1.560'
+    copyright: Copyright 2010 The Neuton Project Authors (http://www.21326.info/),
+      with Reserved Font Name "Neuton".
+    font: UMBQrPtMoH62xUZKAKkfegD5Drog6Q.ttf
+- name: Neuton Light
+  styles:
+  - family_name: Neuton Light
+    type: Regular
+    preferred_family_name: Neuton
+    preferred_type: Light
+    full_name: Neuton Light
+    post_script_name: Neuton-Light
+    version: '1.560'
+    copyright: Copyright 2010 The Neuton Project Authors (http://www.21326.info/),
+      with Reserved Font Name "Neuton".
+    font: UMBQrPtMoH62xUZKZKofegD5Drog6Q.ttf
+extract: {}
 copyright: Copyright 2010 The Neuton Project Authors (http://www.21326.info/), with
   Reserved Font Name "Neuton".
 license_url: http://scripts.sil.org/OFL
@@ -158,3 +174,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

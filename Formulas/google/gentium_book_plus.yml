@@ -1,12 +1,16 @@
 ---
+name: Gentium Book Plus
 description: Gentium Book Plus
 homepage: http://www.sil.org/
 resources:
-  Gentium_Book_Plus.zip:
-    urls:
-    - https://fonts.google.com/download?family=Gentium%20Book%20Plus
-    sha256: 305161eac70b04c34607609ce7835d5e10316a3c759babbb18b49a412d09e718
-    file_size: 1706141
+  Gentium Book Plus:
+    source: google
+    family: Gentium Book Plus
+    files:
+    - https://fonts.gstatic.com/s/gentiumbookplus/v1/vEFL2-RHBgUK5fbjKxRpbBtJPyRpofKfdbLOrdPV.ttf
+    - https://fonts.gstatic.com/s/gentiumbookplus/v1/vEFN2-RHBgUK5fbjKxRpbBtJPyRpocKdf7bsqMPVZb4.ttf
+    - https://fonts.gstatic.com/s/gentiumbookplus/v1/vEFO2-RHBgUK5fbjKxRpbBtJPyRpocojWpbGhs_cfKe1.ttf
+    - https://fonts.gstatic.com/s/gentiumbookplus/v1/vEFA2-RHBgUK5fbjKxRpbBtJPyRpocKdRwrDjMv-ebe1Els.ttf
 fonts:
 - name: Gentium Book Plus
   styles:
@@ -17,7 +21,7 @@ fonts:
     version: '6.101'
     description: Font family for languages that use Latin, Cyrillic, and Greek scripts
     copyright: Copyright (c) 2003-2022 SIL International
-    font: GentiumBookPlus-Bold.ttf
+    font: vEFO2-RHBgUK5fbjKxRpbBtJPyRpocojWpbGhs_cfKe1.ttf
   - family_name: Gentium Book Plus
     type: Bold Italic
     full_name: Gentium Book Plus Bold Italic
@@ -25,7 +29,7 @@ fonts:
     version: '6.101'
     description: Font family for languages that use Latin, Cyrillic, and Greek scripts
     copyright: Copyright (c) 2003-2022 SIL International
-    font: GentiumBookPlus-BoldItalic.ttf
+    font: vEFA2-RHBgUK5fbjKxRpbBtJPyRpocKdRwrDjMv-ebe1Els.ttf
   - family_name: Gentium Book Plus
     type: Italic
     full_name: Gentium Book Plus Italic
@@ -33,7 +37,7 @@ fonts:
     version: '6.101'
     description: Font family for languages that use Latin, Cyrillic, and Greek scripts
     copyright: Copyright (c) 2003-2022 SIL International
-    font: GentiumBookPlus-Italic.ttf
+    font: vEFN2-RHBgUK5fbjKxRpbBtJPyRpocKdf7bsqMPVZb4.ttf
   - family_name: Gentium Book Plus
     type: Regular
     full_name: Gentium Book Plus
@@ -41,7 +45,7 @@ fonts:
     version: '6.101'
     description: Font family for languages that use Latin, Cyrillic, and Greek scripts
     copyright: Copyright (c) 2003-2022 SIL International
-    font: GentiumBookPlus-Regular.ttf
+    font: vEFL2-RHBgUK5fbjKxRpbBtJPyRpofKfdbLOrdPV.ttf
 extract: {}
 copyright: Copyright (c) 2003-2022 SIL International
 license_url: http://scripts.sil.org/OFL
@@ -140,5 +144,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 218350faf26ab24ef6ef2baf10edae720cee6ba7f9c725cd4d2d4798c1719b0b
-command: import google --formulas_path Formulas
+command: import google -n 9999

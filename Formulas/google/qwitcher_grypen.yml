@@ -1,12 +1,14 @@
 ---
+name: Qwitcher Grypen
 description: Qwitcher Grypen
 homepage: www.typesetit.com
 resources:
-  Qwitcher_Grypen.zip:
-    urls:
-    - https://fonts.google.com/download?family=Qwitcher%20Grypen
-    sha256: 9f4dc468a4c07cd9db1c4287b516b7627c736cb2e919e6e9ce7e746994011858
-    file_size: 171662
+  Qwitcher Grypen:
+    source: google
+    family: Qwitcher Grypen
+    files:
+    - https://fonts.gstatic.com/s/qwitchergrypen/v6/pxicypclp9tDilN9RrC5BSI1dZmrSGNAom-wpw.ttf
+    - https://fonts.gstatic.com/s/qwitchergrypen/v6/pxiZypclp9tDilN9RrC5BSI1dZmT9ExkqkSsrvNXiA.ttf
 fonts:
 - name: Qwitcher Grypen
   styles:
@@ -16,14 +18,14 @@ fonts:
     post_script_name: QwitcherGrypen-Bold
     version: 1.100; ttfautohint (v1.8.3)
     copyright: Copyright 2007-2021 The Qwitcher Grypen Project Authors (https://github.com/googlefonts/qwitcher-grypen)
-    font: QwitcherGrypen-Bold.ttf
+    font: pxiZypclp9tDilN9RrC5BSI1dZmT9ExkqkSsrvNXiA.ttf
   - family_name: Qwitcher Grypen
     type: Regular
     full_name: Qwitcher Grypen Regular
     post_script_name: QwitcherGrypen-Regular
     version: 1.100; ttfautohint (v1.8.3)
     copyright: Copyright 2007-2021 The Qwitcher Grypen Project Authors (https://github.com/googlefonts/qwitcher-grypen)
-    font: QwitcherGrypen-Regular.ttf
+    font: pxicypclp9tDilN9RrC5BSI1dZmrSGNAom-wpw.ttf
 extract: {}
 copyright: Copyright 2007-2021 The Qwitcher Grypen Project Authors (https://github.com/googlefonts/qwitcher-grypen)
 license_url: https://scripts.sil.org/OFL
@@ -32,7 +34,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -121,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 282ded59ef21c16c92699b1bf9215c7097f4491574292b0eb77cdd60c166945b
-command: google import --formulas_path Formulas
+command: import google -n 9999

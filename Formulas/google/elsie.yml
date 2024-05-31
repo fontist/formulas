@@ -2,11 +2,12 @@
 name: Elsie
 description: Elsie
 resources:
-  Elsie.zip:
-    urls:
-    - https://fonts.google.com/download?family=Elsie
-    sha256: 8e566fa53015e568a81d9526307a0737f7a86ceb591d139ce7ce6a2a69792dfa
-    file_size: 42124
+  Elsie:
+    source: google
+    family: Elsie
+    files:
+    - https://fonts.gstatic.com/s/elsie/v24/BCanqZABrez54yYu9slAeLgX.ttf
+    - https://fonts.gstatic.com/s/elsie/v24/BCaqqZABrez54x6q2-1IU6QeXSBk.ttf
 fonts:
 - name: Elsie
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: '1.003'
     copyright: Copyright (c) 2010-2012, Alejandro Inler (alejandroinler@gmail.com),
       with Reserved Font Name 'Elsie'
-    font: Elsie-Regular.ttf
+    font: BCanqZABrez54yYu9slAeLgX.ttf
 - name: Elsie Black
   styles:
   - family_name: Elsie Black
@@ -29,7 +30,7 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2010-2012, Alejandro Inler (alejandroinler@gmail.com),
       with Reserved Font Name 'Elsie'
-    font: Elsie-Black.ttf
+    font: BCaqqZABrez54x6q2-1IU6QeXSBk.ttf
 extract: {}
 copyright: Copyright (c) 2010-2012, Alejandro Inler (alejandroinler@gmail.com), with
   Reserved Font Name 'Elsie'
@@ -128,5 +129,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e245e962447dd550e064fe44d864481542ec41d80798ba1fc4ecd6cbe6442e55
-command: google import --formulas_path Formulas
+command: import google -n 9999

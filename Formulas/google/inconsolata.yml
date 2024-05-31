@@ -3,22 +3,102 @@ name: Inconsolata
 description: Inconsolata
 homepage: http://www.levien.com | http://www.cyreal.org | http://fonts.google.com
 resources:
-  Inconsolata.zip:
-    urls:
-    - https://fonts.google.com/download?family=Inconsolata
-    file_size: 3854577
+  Inconsolata:
+    source: google
+    family: Inconsolata
+    files:
+    - https://fonts.gstatic.com/s/inconsolata/v32/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7LppwU8aRr8lleY2co.ttf
+    - https://fonts.gstatic.com/s/inconsolata/v32/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp9s8aRr8lleY2co.ttf
+    - https://fonts.gstatic.com/s/inconsolata/v32/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp4U8aRr8lleY2co.ttf
+    - https://fonts.gstatic.com/s/inconsolata/v32/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp7c8aRr8lleY2co.ttf
+    - https://fonts.gstatic.com/s/inconsolata/v32/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp1s7aRr8lleY2co.ttf
+    - https://fonts.gstatic.com/s/inconsolata/v32/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp2I7aRr8lleY2co.ttf
+    - https://fonts.gstatic.com/s/inconsolata/v32/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7LppwU7aRr8lleY2co.ttf
+    - https://fonts.gstatic.com/s/inconsolata/v32/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lppyw7aRr8lleY2co.ttf
 fonts:
 - name: Inconsolata
   styles:
+  - family_name: Inconsolata
+    type: Bold
+    full_name: Inconsolata Bold
+    post_script_name: Inconsolata-Bold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp2I7aRr8lleY2co.ttf
   - family_name: Inconsolata
     type: Regular
     full_name: Inconsolata Regular
     post_script_name: Inconsolata-Regular
     version: '3.001'
     copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
-    font: Inconsolata[wdth,wght].ttf
-extract:
-  format: zip
+    font: QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp4U8aRr8lleY2co.ttf
+- name: Inconsolata Black
+  styles:
+  - family_name: Inconsolata Black
+    type: Regular
+    preferred_family_name: Inconsolata
+    preferred_type: Black
+    full_name: Inconsolata Black
+    post_script_name: Inconsolata-Black
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lppyw7aRr8lleY2co.ttf
+- name: Inconsolata ExtraBold
+  styles:
+  - family_name: Inconsolata ExtraBold
+    type: Regular
+    preferred_family_name: Inconsolata
+    preferred_type: ExtraBold
+    full_name: Inconsolata ExtraBold
+    post_script_name: Inconsolata-ExtraBold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7LppwU7aRr8lleY2co.ttf
+- name: Inconsolata ExtraLight
+  styles:
+  - family_name: Inconsolata ExtraLight
+    type: Regular
+    preferred_family_name: Inconsolata
+    preferred_type: ExtraLight
+    full_name: Inconsolata ExtraLight
+    post_script_name: Inconsolata-ExtraLight
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7LppwU8aRr8lleY2co.ttf
+- name: Inconsolata Light
+  styles:
+  - family_name: Inconsolata Light
+    type: Regular
+    preferred_family_name: Inconsolata
+    preferred_type: Light
+    full_name: Inconsolata Light
+    post_script_name: Inconsolata-Light
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp9s8aRr8lleY2co.ttf
+- name: Inconsolata Medium
+  styles:
+  - family_name: Inconsolata Medium
+    type: Regular
+    preferred_family_name: Inconsolata
+    preferred_type: Medium
+    full_name: Inconsolata Medium
+    post_script_name: Inconsolata-Medium
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp7c8aRr8lleY2co.ttf
+- name: Inconsolata SemiBold
+  styles:
+  - family_name: Inconsolata SemiBold
+    type: Regular
+    preferred_family_name: Inconsolata
+    preferred_type: SemiBold
+    full_name: Inconsolata SemiBold
+    post_script_name: Inconsolata-SemiBold
+    version: '3.001'
+    copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
+    font: QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp1s7aRr8lleY2co.ttf
+extract: {}
 copyright: Copyright 2006 The Inconsolata Project Authors (https://github.com/cyrealtype/Inconsolata)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -115,3 +195,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

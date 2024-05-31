@@ -1,12 +1,13 @@
 ---
+name: Castoro Titling
 description: Castoro Titling
 homepage: https://www.tiro.com/
 resources:
-  Castoro_Titling.zip:
-    urls:
-    - https://fonts.google.com/download?family=Castoro%20Titling
-    sha256: 517c6f77f777ea5300abc7c4e84dea17735e20f5ae532fbfaeb6dc1b61aca9db
-    file_size: 32372
+  Castoro Titling:
+    source: google
+    family: Castoro Titling
+    files:
+    - https://fonts.gstatic.com/s/castorotitling/v8/buEupouwccj03leTfjUAhEZWlrNqYgckeo9RMw.ttf
 fonts:
 - name: Castoro Titling
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: CastoroTitling-Regular
     version: '2.04'
     copyright: Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)
-    font: CastoroTitling-Regular.ttf
+    font: buEupouwccj03leTfjUAhEZWlrNqYgckeo9RMw.ttf
 extract: {}
 copyright: Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)
 license_url: https://scripts.sil.org/OFL
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9f8509d89200d2a97c332c72431327c5b8073085df8bdb91114546ee330ab833
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

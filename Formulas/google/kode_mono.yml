@@ -1,11 +1,16 @@
 ---
+name: Kode Mono
 description: Kode Mono
 homepage: https://kadena.io
 resources:
-  Kode_Mono.zip:
-    urls:
-    - https://fonts.google.com/download?family=Kode%20Mono
-    file_size: 128138
+  Kode Mono:
+    source: google
+    family: Kode Mono
+    files:
+    - https://fonts.gstatic.com/s/kodemono/v2/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq5my9DqTaOW2A3k.ttf
+    - https://fonts.gstatic.com/s/kodemono/v2/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq6uy9DqTaOW2A3k.ttf
+    - https://fonts.gstatic.com/s/kodemono/v2/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq0e19DqTaOW2A3k.ttf
+    - https://fonts.gstatic.com/s/kodemono/v2/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq3619DqTaOW2A3k.ttf
 fonts:
 - name: Kode Mono
   styles:
@@ -16,7 +21,7 @@ fonts:
     version: 1.206;gftools[0.9.28]
     description: Crafted with ❤️
     copyright: Copyright 2023 The Kode Mono Project Authors (https://github.com/isaozler/kode-mono)
-    font: KodeMono-Bold.ttf
+    font: A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq3619DqTaOW2A3k.ttf
   - family_name: Kode Mono
     type: Regular
     full_name: Kode Mono Regular
@@ -24,15 +29,7 @@ fonts:
     version: 1.206;gftools[0.9.28]
     description: Crafted with ❤️
     copyright: Copyright 2023 The Kode Mono Project Authors (https://github.com/isaozler/kode-mono)
-    font: KodeMono-VariableFont_wght.ttf
-  - family_name: Kode Mono
-    type: Regular
-    full_name: Kode Mono Regular
-    post_script_name: KodeMono-Regular
-    version: 1.206;gftools[0.9.28]
-    description: Crafted with ❤️
-    copyright: Copyright 2023 The Kode Mono Project Authors (https://github.com/isaozler/kode-mono)
-    font: KodeMono-Regular.ttf
+    font: A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq5my9DqTaOW2A3k.ttf
 - name: Kode Mono Medium
   styles:
   - family_name: Kode Mono Medium
@@ -44,7 +41,7 @@ fonts:
     version: 1.206;gftools[0.9.28]
     description: Crafted with ❤️
     copyright: Copyright 2023 The Kode Mono Project Authors (https://github.com/isaozler/kode-mono)
-    font: KodeMono-Medium.ttf
+    font: A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq6uy9DqTaOW2A3k.ttf
 - name: Kode Mono SemiBold
   styles:
   - family_name: Kode Mono SemiBold
@@ -56,7 +53,7 @@ fonts:
     version: 1.206;gftools[0.9.28]
     description: Crafted with ❤️
     copyright: Copyright 2023 The Kode Mono Project Authors (https://github.com/isaozler/kode-mono)
-    font: KodeMono-SemiBold.ttf
+    font: A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq0e19DqTaOW2A3k.ttf
 extract: {}
 copyright: Copyright 2023 The Kode Mono Project Authors (https://github.com/isaozler/kode-mono)
 license_url: https://openfontlicense.org
@@ -65,7 +62,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  https://openfontlicense.org
+  https://openfontlicense.org/
 
 
   -----------------------------------------------------------
@@ -154,5 +151,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: cd88e72a22297a8cff8f3b28be5b8815ba36667038219701326ee1ddb5bf6d51
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

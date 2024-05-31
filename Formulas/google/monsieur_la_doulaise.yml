@@ -1,12 +1,13 @@
 ---
+name: Monsieur La Doulaise
 description: Monsieur La Doulaise
 homepage: http://www.sudtipos.com
 resources:
-  MonsieurLaDoulaise.zip:
-    urls:
-    - https://fonts.google.com/download?family=Monsieur%20La%20Doulaise
-    sha256: a5112e069c694779e6b3d4fb0e5ade3a94eb377c0a224a120198b75dd56f2162
-    file_size: 27711
+  Monsieur La Doulaise:
+    source: google
+    family: Monsieur La Doulaise
+    files:
+    - https://fonts.gstatic.com/s/monsieurladoulaise/v18/_Xmz-GY4rjmCbQfc-aPRaa4pqV340p7EZl5ewkEU4HTy.ttf
 fonts:
 - name: Monsieur La Doulaise
   styles:
@@ -18,11 +19,11 @@ fonts:
     copyright: |-
       Copyright (c) 2006 Alejandro Paul (sudtipos@sudtipos.com),
       with Reserved Font Name "MonsieurLaDoulaise"
-    font: MonsieurLaDoulaise-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2006 Alejandro Paul (sudtipos@sudtipos.com), with Reserved
-  Font Name "MonsieurLaDoulaise"
+    font: _Xmz-GY4rjmCbQfc-aPRaa4pqV340p7EZl5ewkEU4HTy.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2006 Alejandro Paul (sudtipos@sudtipos.com),
+  with Reserved Font Name "MonsieurLaDoulaise"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 Alejandro Paul (sudtipos@sudtipos.com),
@@ -119,3 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

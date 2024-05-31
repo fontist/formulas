@@ -3,11 +3,11 @@ name: Akronim
 description: Akronim
 homepage: http://www.fonty.pl/
 resources:
-  Akronim.zip:
-    urls:
-    - https://fonts.google.com/download?family=Akronim
-    sha256: 9402932847138fff57087d821ac5141a85318b1b0b86b4ff46b172fe35582be6
-    file_size: 71031
+  Akronim:
+    source: google
+    family: Akronim
+    files:
+    - https://fonts.gstatic.com/s/akronim/v23/fdN-9sqWtWZZlHRp-gBxkFYN-a8.ttf
 fonts:
 - name: Akronim
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2012 Grzegorz Klimczewski, Fonty.PL (www.fonty.pl), with
       Reserved Font Name 'Akronim'
-    font: Akronim-Regular.ttf
-extract:
-  format: zip
+    font: fdN-9sqWtWZZlHRp-gBxkFYN-a8.ttf
+extract: {}
 copyright: Copyright (c) 2012 Grzegorz Klimczewski, Fonty.PL (www.fonty.pl), with
   Reserved Font Name 'Akronim'
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

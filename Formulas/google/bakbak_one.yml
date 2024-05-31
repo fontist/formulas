@@ -1,12 +1,13 @@
 ---
+name: Bakbak One
 description: Bakbak One
 homepage: http://www.agoodfeeling.co
 resources:
-  Bakbak_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Bakbak%20One
-    sha256: 0c1e40a096f8b1b01e0de47ce469af0c27b940bbf20ef1cdadf7fed54e725406
-    file_size: 116699
+  Bakbak One:
+    source: google
+    family: Bakbak One
+    files:
+    - https://fonts.gstatic.com/s/bakbakone/v8/zOL54pXAl6RI-p_ardnuycRuv-hHkOs.ttf
 fonts:
 - name: Bakbak One
   styles:
@@ -14,11 +15,11 @@ fonts:
     type: Regular
     full_name: Bakbak One Regular
     post_script_name: BakbakOne-Regular
-    version: 1.002; ttfautohint (v1.8.3)
-    copyright: Copyright 2021 The BakBak One Project Authors (https://github.com/googlefonts/bakbak)
-    font: BakbakOne-Regular.ttf
+    version: 1.003; ttfautohint (v1.8.3)
+    copyright: Copyright 2021 The Bakbak One Project Authors (https://github.com/googlefonts/bakbak)
+    font: zOL54pXAl6RI-p_ardnuycRuv-hHkOs.ttf
 extract: {}
-copyright: Copyright 2021 The BakBak One Project Authors (https://github.com/googlefonts/bakbak)
+copyright: Copyright 2021 The Bakbak One Project Authors (https://github.com/googlefonts/bakbak)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
   Copyright 2021 The Bakbak One Project Authors (https://github.com/googlefonts/bakbak)
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 1d9be1df314862c235be545080d4db4f47acca6b500df58ac1ccc788ade9f5db
-command: google import --formulas_path Formulas
+command: import google -n 9999

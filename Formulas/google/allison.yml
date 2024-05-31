@@ -3,11 +3,11 @@ name: Allison
 description: Allison
 homepage: www.typesetit.com
 resources:
-  Allison.zip:
-    urls:
-    - https://fonts.google.com/download?family=Allison
-    sha256: 523b6fe02e3892c8212273bd456d3fc55948bcdeaace9fc5dc943646186ee201
-    file_size: 71864
+  Allison:
+    source: google
+    family: Allison
+    files:
+    - https://fonts.gstatic.com/s/allison/v11/X7nl4b88AP2nkbvZOCaQ4MTgAgk.ttf
 fonts:
 - name: Allison
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: Allison-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Allison Project Authors (https://github.com/googlefonts/allison)
-    font: Allison-Regular.ttf
+    font: X7nl4b88AP2nkbvZOCaQ4MTgAgk.ttf
 extract: {}
 copyright: Copyright 2020 The Allison Project Authors (https://github.com/googlefonts/allison)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 8a9ae7929d21608e6f8edd00bbbdee17ba77922c2ac4fbf676135ecadc0386de
-command: google import --formulas_path Formulas
+command: import google -n 9999

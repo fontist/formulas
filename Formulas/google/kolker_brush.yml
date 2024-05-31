@@ -1,12 +1,13 @@
 ---
+name: Kolker Brush
 description: Kolker Brush
 homepage: www.typesetit.com
 resources:
-  Kolker_Brush.zip:
-    urls:
-    - https://fonts.google.com/download?family=Kolker%20Brush
-    sha256: e1dd6b5d3206d0bf0a01d6eae5ba1db3a4e3a3edc744b9fb3b7680ddf98870ce
-    file_size: 129037
+  Kolker Brush:
+    source: google
+    family: Kolker Brush
+    files:
+    - https://fonts.gstatic.com/s/kolkerbrush/v6/iJWDBXWRZjfKWdvmzwvvog3-7KJ6x8qNUQ.ttf
 fonts:
 - name: Kolker Brush
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: KolkerBrush-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2004 The Kolker Brush Project Authors (https://github.com/googlefonts/kolker-brush)
-    font: KolkerBrush-Regular.ttf
+    font: iJWDBXWRZjfKWdvmzwvvog3-7KJ6x8qNUQ.ttf
 extract: {}
 copyright: Copyright 2004 The Kolker Brush Project Authors (https://github.com/googlefonts/kolker-brush)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e7688ae6fb5d1023511165fa29c2fde9ca048bdb27a0c0f80923324d593a1ac6
-command: google import --formulas_path Formulas
+command: import google -n 9999

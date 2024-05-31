@@ -3,16 +3,17 @@ name: IM Fell Great Primer SC
 description: IM Fell Great Primer SC
 homepage: www.iginomarini.com
 resources:
-  IMFellGreatPrimerSC.zip:
-    urls:
-    - https://fonts.google.com/download?family=IM%20Fell%20Great%20Primer%20SC
-    sha256: a0f21abe13a267c2e604d3a71f45208935c98ab1f8dab5b6cbd1bc74bc67a5c7
-    file_size: 115707
+  IM Fell Great Primer SC:
+    source: google
+    family: IM Fell Great Primer SC
+    files:
+    - https://fonts.gstatic.com/s/imfellgreatprimersc/v21/ga6daxBOxyt6sCqz3fjZCTFCTUDMHagsQKdDTLf9BXz0s8FG.ttf
 fonts:
-- name: IM Fell Great Primer SC
+- name: IM FELL Great Primer SC
   styles:
   - family_name: IM FELL Great Primer SC
     type: Regular
+    preferred_family_name: IM FELL Great Primer SC
     full_name: IM FELL Great Primer SC
     post_script_name: IM_FELL_Great_Primer_SC
     version: '3.00'
@@ -23,11 +24,10 @@ fonts:
       Marini.
     copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name
       IM FELL Great Primer SC"
-    font: IMFeGPsc28P.ttf
-extract:
-  format: zip
-copyright: "© 2007 Igino Marini (www.iginomarini.com mail@iginomarini.com) With Reserved
-  Font Name IM FELL Great Primer SC"
+    font: ga6daxBOxyt6sCqz3fjZCTFCTUDMHagsQKdDTLf9BXz0s8FG.ttf
+extract: {}
+copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name IM FELL
+  Great Primer SC"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Igino Marini (mail@iginomarini.com)
@@ -123,3 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

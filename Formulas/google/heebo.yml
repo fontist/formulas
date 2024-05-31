@@ -1,11 +1,21 @@
 ---
+name: Heebo
 description: Heebo
-homepage: meirsadan.com
+homepage: ezertypehouse.com
 resources:
-  Heebo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Heebo
-    file_size: 245898
+  Heebo:
+    source: google
+    family: Heebo
+    files:
+    - https://fonts.gstatic.com/s/heebo/v26/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EiS2cckOnz02SXQ.ttf
+    - https://fonts.gstatic.com/s/heebo/v26/NGSpv5_NC0k9P_v6ZUCbLRAHxK1ECSycckOnz02SXQ.ttf
+    - https://fonts.gstatic.com/s/heebo/v26/NGSpv5_NC0k9P_v6ZUCbLRAHxK1E1yycckOnz02SXQ.ttf
+    - https://fonts.gstatic.com/s/heebo/v26/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EiSycckOnz02SXQ.ttf
+    - https://fonts.gstatic.com/s/heebo/v26/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EuyycckOnz02SXQ.ttf
+    - https://fonts.gstatic.com/s/heebo/v26/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EVyucckOnz02SXQ.ttf
+    - https://fonts.gstatic.com/s/heebo/v26/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EbiucckOnz02SXQ.ttf
+    - https://fonts.gstatic.com/s/heebo/v26/NGSpv5_NC0k9P_v6ZUCbLRAHxK1ECSucckOnz02SXQ.ttf
+    - https://fonts.gstatic.com/s/heebo/v26/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EICucckOnz02SXQ.ttf
 fonts:
 - name: Heebo
   styles:
@@ -13,23 +23,16 @@ fonts:
     type: Bold
     full_name: Heebo Bold
     post_script_name: Heebo-Bold
-    version: '3.001'
+    version: '3.100'
     copyright: Copyright 2014 The Heebo Project Authors (https://github.com/OdedEzer/heebo)
-    font: Heebo-Bold.ttf
+    font: NGSpv5_NC0k9P_v6ZUCbLRAHxK1EbiucckOnz02SXQ.ttf
   - family_name: Heebo
     type: Regular
     full_name: Heebo Regular
     post_script_name: Heebo-Regular
-    version: '3.001'
+    version: '3.100'
     copyright: Copyright 2014 The Heebo Project Authors (https://github.com/OdedEzer/heebo)
-    font: Heebo-VariableFont_wght.ttf
-  - family_name: Heebo
-    type: Regular
-    full_name: Heebo Regular
-    post_script_name: Heebo-Regular
-    version: '3.001'
-    copyright: Copyright 2014 The Heebo Project Authors (https://github.com/OdedEzer/heebo)
-    font: Heebo-Regular.ttf
+    font: NGSpv5_NC0k9P_v6ZUCbLRAHxK1EiSycckOnz02SXQ.ttf
 - name: Heebo Black
   styles:
   - family_name: Heebo Black
@@ -38,9 +41,9 @@ fonts:
     preferred_type: Black
     full_name: Heebo Black
     post_script_name: Heebo-Black
-    version: '3.001'
+    version: '3.100'
     copyright: Copyright 2014 The Heebo Project Authors (https://github.com/OdedEzer/heebo)
-    font: Heebo-Black.ttf
+    font: NGSpv5_NC0k9P_v6ZUCbLRAHxK1EICucckOnz02SXQ.ttf
 - name: Heebo ExtraBold
   styles:
   - family_name: Heebo ExtraBold
@@ -49,9 +52,9 @@ fonts:
     preferred_type: ExtraBold
     full_name: Heebo ExtraBold
     post_script_name: Heebo-ExtraBold
-    version: '3.001'
+    version: '3.100'
     copyright: Copyright 2014 The Heebo Project Authors (https://github.com/OdedEzer/heebo)
-    font: Heebo-ExtraBold.ttf
+    font: NGSpv5_NC0k9P_v6ZUCbLRAHxK1ECSucckOnz02SXQ.ttf
 - name: Heebo ExtraLight
   styles:
   - family_name: Heebo ExtraLight
@@ -60,9 +63,9 @@ fonts:
     preferred_type: ExtraLight
     full_name: Heebo ExtraLight
     post_script_name: Heebo-ExtraLight
-    version: '3.001'
+    version: '3.100'
     copyright: Copyright 2014 The Heebo Project Authors (https://github.com/OdedEzer/heebo)
-    font: Heebo-ExtraLight.ttf
+    font: NGSpv5_NC0k9P_v6ZUCbLRAHxK1ECSycckOnz02SXQ.ttf
 - name: Heebo Light
   styles:
   - family_name: Heebo Light
@@ -71,9 +74,9 @@ fonts:
     preferred_type: Light
     full_name: Heebo Light
     post_script_name: Heebo-Light
-    version: '3.001'
+    version: '3.100'
     copyright: Copyright 2014 The Heebo Project Authors (https://github.com/OdedEzer/heebo)
-    font: Heebo-Light.ttf
+    font: NGSpv5_NC0k9P_v6ZUCbLRAHxK1E1yycckOnz02SXQ.ttf
 - name: Heebo Medium
   styles:
   - family_name: Heebo Medium
@@ -82,9 +85,9 @@ fonts:
     preferred_type: Medium
     full_name: Heebo Medium
     post_script_name: Heebo-Medium
-    version: '3.001'
+    version: '3.100'
     copyright: Copyright 2014 The Heebo Project Authors (https://github.com/OdedEzer/heebo)
-    font: Heebo-Medium.ttf
+    font: NGSpv5_NC0k9P_v6ZUCbLRAHxK1EuyycckOnz02SXQ.ttf
 - name: Heebo SemiBold
   styles:
   - family_name: Heebo SemiBold
@@ -93,9 +96,9 @@ fonts:
     preferred_type: SemiBold
     full_name: Heebo SemiBold
     post_script_name: Heebo-SemiBold
-    version: '3.001'
+    version: '3.100'
     copyright: Copyright 2014 The Heebo Project Authors (https://github.com/OdedEzer/heebo)
-    font: Heebo-SemiBold.ttf
+    font: NGSpv5_NC0k9P_v6ZUCbLRAHxK1EVyucckOnz02SXQ.ttf
 - name: Heebo Thin
   styles:
   - family_name: Heebo Thin
@@ -104,18 +107,18 @@ fonts:
     preferred_type: Thin
     full_name: Heebo Thin
     post_script_name: Heebo-Thin
-    version: '3.001'
+    version: '3.100'
     copyright: Copyright 2014 The Heebo Project Authors (https://github.com/OdedEzer/heebo)
-    font: Heebo-Thin.ttf
+    font: NGSpv5_NC0k9P_v6ZUCbLRAHxK1EiS2cckOnz02SXQ.ttf
 extract: {}
 copyright: Copyright 2014 The Heebo Project Authors (https://github.com/OdedEzer/heebo)
-license_url: http://scripts.sil.org/OFL
+license_url: https://scripts.sil.org/OFL
 open_license: |-
   Copyright 2014 The Heebo Project Authors (https://github.com/OdedEzer/heebo)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -204,5 +207,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: a412cf819b7f6e1f8c9bc487dbef8981219b7a7bcf23b26d032fabea2c19f24a
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

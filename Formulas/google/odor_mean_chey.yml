@@ -1,11 +1,12 @@
 ---
+name: Odor Mean Chey
 description: Odor Mean Chey
 resources:
-  Odor_Mean_Chey.zip:
-    urls:
-    - https://fonts.google.com/download?family=Odor%20Mean%20Chey
-    sha256: 0eb5508a2cf920674d4a98e977f578bd094b369ddc83de19f982de25abefbee1
-    file_size: 51341
+  Odor Mean Chey:
+    source: google
+    family: Odor Mean Chey
+    files:
+    - https://fonts.gstatic.com/s/odormeanchey/v27/raxkHiKDttkTe1aOGcJMR1A_4mrY2zqUKafv.ttf
 fonts:
 - name: Odor Mean Chey
   styles:
@@ -13,9 +14,9 @@ fonts:
     type: Regular
     full_name: Odor Mean Chey Regular
     post_script_name: OdorMeanChey-Regular
-    version: 8.001; ttfautohint (v1.8.3)
+    version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Odor Mean Chey Project Authors (https://github.com/danhhong/OdorMeanChey)
-    font: OdorMeanChey-Regular.ttf
+    font: raxkHiKDttkTe1aOGcJMR1A_4mrY2zqUKafv.ttf
 extract: {}
 copyright: Copyright 2019 The Odor Mean Chey Project Authors (https://github.com/danhhong/OdorMeanChey)
 license_url: https://scripts.sil.org/OFL
@@ -113,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 724e61d161fc77b60e6e461b0648ba218a1a9206c09d9364da214a51435f918c
-command: google import --formulas_path Formulas
+command: import google -n 9999

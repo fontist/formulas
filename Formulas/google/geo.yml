@@ -1,24 +1,16 @@
 ---
 name: Geo
 description: Geo
-homepage:
 resources:
-  Geo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Geo
-    sha256: 3df390f8c0e1a7775646f9d40a3d42d772916d950ce5295e18459bdde9e41a14
-    file_size: 34740
+  Geo:
+    source: google
+    family: Geo
+    files:
+    - https://fonts.gstatic.com/s/geo/v21/CSRz4zRZlufVL3BmQjlCbQ.ttf
+    - https://fonts.gstatic.com/s/geo/v21/CSRx4zRZluflLXpiYDxSbf8r.ttf
 fonts:
 - name: Geo
   styles:
-  - family_name: Geo
-    type: Regular
-    full_name: Geo
-    post_script_name: Geo-Regular
-    version: '001.2'
-    copyright: Copyright (c) 2000-2010, Ben Weiner (ben@readingtype.org.uk), with
-      Reserved Font Name Geo.
-    font: Geo-Regular.ttf
   - family_name: Geo
     type: Oblique
     full_name: Geo Oblique
@@ -26,9 +18,16 @@ fonts:
     version: '001.2'
     copyright: Copyright (c) 2000-2010, Ben Weiner (ben@readingtype.org.uk), with
       Reserved Font Name Geo.
-    font: Geo-Oblique.ttf
-extract:
-  format: zip
+    font: CSRx4zRZluflLXpiYDxSbf8r.ttf
+  - family_name: Geo
+    type: Regular
+    full_name: Geo
+    post_script_name: Geo-Regular
+    version: '001.2'
+    copyright: Copyright (c) 2000-2010, Ben Weiner (ben@readingtype.org.uk), with
+      Reserved Font Name Geo.
+    font: CSRz4zRZlufVL3BmQjlCbQ.ttf
+extract: {}
 copyright: Copyright (c) 2000-2010, Ben Weiner (ben@readingtype.org.uk), with Reserved
   Font Name Geo.
 license_url: http://scripts.sil.org/OFL
@@ -127,3 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

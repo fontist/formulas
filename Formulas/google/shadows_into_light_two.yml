@@ -1,12 +1,12 @@
 ---
+name: Shadows Into Light Two
 description: Shadows Into Light Two
-homepage:
 resources:
-  ShadowsIntoLightTwo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Shadows%20Into%20Light%20Two
-    sha256: c30faaea95470d604e78a5bb3525b78912ad400ffb5221bc72583d59c25da9a7
-    file_size: 25974
+  Shadows Into Light Two:
+    source: google
+    family: Shadows Into Light Two
+    files:
+    - https://fonts.gstatic.com/s/shadowsintolighttwo/v17/4iC86LVlZsRSjQhpWGedwyOoW-0A6_kpsyNmlAvNGLNnIF0.ttf
 fonts:
 - name: Shadows Into Light Two
   styles:
@@ -17,10 +17,9 @@ fonts:
     version: 1.003 2012
     description: Copyright (c) 2012, Kimberly Geswein.
     copyright: Copyright (c) 2012, Kimberly Geswein.
-    font: ShadowsIntoLightTwo-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Kimberly Geswein (kimberlygeswein@gmail.com).
+    font: 4iC86LVlZsRSjQhpWGedwyOoW-0A6_kpsyNmlAvNGLNnIF0.ttf
+extract: {}
+copyright: Copyright (c) 2012, Kimberly Geswein.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012, Kimberly Geswein (kimberlygeswein.com)
@@ -116,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Babylonica
 description: Babylonica
 homepage: www.typesetit.com
 resources:
-  Babylonica.zip:
-    urls:
-    - https://fonts.google.com/download?family=Babylonica
-    sha256: 3f548328581e0c1cca75173532b00e3b1f98e9d37e828c99ff9431056eef43a8
-    file_size: 209561
+  Babylonica:
+    source: google
+    family: Babylonica
+    files:
+    - https://fonts.gstatic.com/s/babylonica/v5/5aUw9_i2qxWVCAE2aHjTqDJ0-VVMoEw.ttf
 fonts:
 - name: Babylonica
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: Babylonica-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2010 The Babylonica Project Authors (https://github.com/googlefonts/babylonica)
-    font: Babylonica-Regular.ttf
+    font: 5aUw9_i2qxWVCAE2aHjTqDJ0-VVMoEw.ttf
 extract: {}
 copyright: Copyright 2010 The Babylonica Project Authors (https://github.com/googlefonts/babylonica)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 65e80476411e6485e0ede2f22018f4f1ffe409426defe9c47ef358edfd07781f
-command: import google --formulas_path Formulas
+command: import google -n 9999

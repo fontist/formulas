@@ -1,13 +1,12 @@
 ---
 name: Rakkas
 description: Rakkas
-homepage:
 resources:
-  Rakkas.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rakkas
-    sha256: 38c4508b75052daf6e27ce0e43797bac89515777999814de1eb5bc0c30701f44
-    file_size: 70969
+  Rakkas:
+    source: google
+    family: Rakkas
+    files:
+    - https://fonts.gstatic.com/s/rakkas/v19/Qw3cZQlNHiblL3j_lttPOeMcCw.ttf
 fonts:
 - name: Rakkas
   styles:
@@ -17,9 +16,8 @@ fonts:
     post_script_name: Rakkas-Regular
     version: '2.000'
     copyright: Copyright 2017 The Rakkas Project Authors (https://github.com/zeynepakay/Rakkas)
-    font: Rakkas-Regular.ttf
-extract:
-  format: zip
+    font: Qw3cZQlNHiblL3j_lttPOeMcCw.ttf
+extract: {}
 copyright: Copyright 2017 The Rakkas Project Authors (https://github.com/zeynepakay/Rakkas)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

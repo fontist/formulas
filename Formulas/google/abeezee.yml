@@ -1,11 +1,14 @@
 ---
+name: ABeeZee
 description: ABeeZee
+homepage: https://carrois.com/
 resources:
-  ABeeZee.zip:
-    urls:
-    - https://fonts.google.com/download?family=ABeeZee
-    sha256: c857de68ce2e4caad334e2f24a2daa71d5ccb904c25c03ee409b150bc0f5234b
-    file_size: 51772
+  ABeeZee:
+    source: google
+    family: ABeeZee
+    files:
+    - https://fonts.gstatic.com/s/abeezee/v22/esDR31xSG-6AGleN6tKukbcHCpE.ttf
+    - https://fonts.gstatic.com/s/abeezee/v22/esDT31xSG-6AGleN2tCklZUCGpG-GQ.ttf
 fonts:
 - name: ABeeZee
   styles:
@@ -13,25 +16,28 @@ fonts:
     type: Italic
     full_name: ABeeZee Italic
     post_script_name: ABeeZee-Italic
-    version: '1.002'
-    copyright: Copyright (c) 2011 by Anja Meiners, with Reserved Font Name 'ABeeZee'
-    font: ABeeZee-Italic.ttf
+    version: 1.003; ttfautohint (v1.8.3)
+    copyright: Copyright 2011 The ABeeZee Project Authors (https://github.com/googlefonts/abeezee)
+      with Reserved Font Name ABeeZee
+    font: esDT31xSG-6AGleN2tCklZUCGpG-GQ.ttf
   - family_name: ABeeZee
     type: Regular
     full_name: ABeeZee Regular
     post_script_name: ABeeZee-Regular
-    version: '1.002'
-    copyright: Copyright (c) 2011 by Anja Meiners, with Reserved Font Name 'ABeeZee'
-    font: ABeeZee-Regular.ttf
+    version: 1.003; ttfautohint (v1.8.3)
+    copyright: Copyright 2011 The ABeeZee Project Authors (https://github.com/googlefonts/abeezee)
+      with Reserved Font Name ABeeZee
+    font: esDR31xSG-6AGleN6tKukbcHCpE.ttf
 extract: {}
-copyright: Copyright (c) 2011 by Anja Meiners, with Reserved Font Name 'ABeeZee'
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2011 The ABeeZee Project Authors (https://github.com/googlefonts/abeezee)
+  with Reserved Font Name ABeeZee
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011 by Anja Meiners, with Reserved Font Name 'ABeeZee'
+  Copyright 2011 The ABeeZee Project Authors (https://github.com/googlefonts/abeezee), with Reserved Font Name 'ABeeZee'
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -120,5 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 74cf1429158276fd918aa2d08bba809ac92cda5f06fa12435080db39d705483b
-command: google import --formulas_path Formulas
+command: import google -n 9999

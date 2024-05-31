@@ -1,12 +1,12 @@
 ---
+name: Covered By Your Grace
 description: Covered By Your Grace
-homepage:
 resources:
-  CoveredByYourGrace.zip:
-    urls:
-    - https://fonts.google.com/download?family=Covered%20By%20Your%20Grace
-    sha256: dab96538099ce525a402f9e3c6896372d4198392d7b160f48b9548d509322a61
-    file_size: 28228
+  Covered By Your Grace:
+    source: google
+    family: Covered By Your Grace
+    files:
+    - https://fonts.gstatic.com/s/coveredbyyourgrace/v15/QGYwz-AZahWOJJI9kykWW9mD6opopoqXSOS0FgItq6bFIg.ttf
 fonts:
 - name: Covered By Your Grace
   styles:
@@ -15,10 +15,9 @@ fonts:
     full_name: Covered By Your Grace
     post_script_name: CoveredByYourGrace
     copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
-    font: CoveredByYourGrace.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)
+    font: QGYwz-AZahWOJJI9kykWW9mD6opopoqXSOS0FgItq6bFIg.ttf
+extract: {}
+copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
@@ -114,3 +113,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

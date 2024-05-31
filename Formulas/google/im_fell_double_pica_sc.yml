@@ -3,16 +3,17 @@ name: IM Fell Double Pica SC
 description: IM Fell Double Pica SC
 homepage: www.iginomarini.com
 resources:
-  IMFellDoublePicaSC.zip:
-    urls:
-    - https://fonts.google.com/download?family=IM%20Fell%20Double%20Pica%20SC
-    sha256: 495affa0355c8325201453fb0018ce67d10f3caabb536d8adec260b8e39a2a68
-    file_size: 111265
+  IM Fell Double Pica SC:
+    source: google
+    family: IM Fell Double Pica SC
+    files:
+    - https://fonts.gstatic.com/s/imfelldoublepicasc/v21/neIazDmuiMkFo6zj_sHpQ8teNbWlwBB_hXjJ4Y0Eeru2dGg.ttf
 fonts:
-- name: IM Fell Double Pica SC
+- name: IM FELL Double Pica SC
   styles:
   - family_name: IM FELL Double Pica SC
     type: Regular
+    preferred_family_name: IM FELL Double Pica SC
     full_name: IM FELL Double Pica SC
     post_script_name: IM_FELL_Double_Pica_SC
     version: '3.00'
@@ -23,11 +24,10 @@ fonts:
       Marini.
     copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name
       IM FELL Double Pica SC"
-    font: IMFeDPsc28P.ttf
-extract:
-  format: zip
-copyright: "© 2007 Igino Marini (www.iginomarini.com mail@iginomarini.com) With Reserved
-  Font Name IM FELL Double Pica SC"
+    font: neIazDmuiMkFo6zj_sHpQ8teNbWlwBB_hXjJ4Y0Eeru2dGg.ttf
+extract: {}
+copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name IM FELL
+  Double Pica SC"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Igino Marini (mail@iginomarini.com)
@@ -123,3 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

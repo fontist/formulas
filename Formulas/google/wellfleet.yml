@@ -3,11 +3,11 @@ name: Wellfleet
 description: Wellfleet
 homepage: www.sorkintype.com
 resources:
-  Wellfleet.zip:
-    urls:
-    - https://fonts.google.com/download?family=Wellfleet
-    sha256: 0c9f8c3926932cc4bf545f829413cb1ab4df739a1f83a15fe1b7d2798342feab
-    file_size: 35155
+  Wellfleet:
+    source: google
+    family: Wellfleet
+    files:
+    - https://fonts.gstatic.com/s/wellfleet/v22/nuF7D_LfQJb3VYgX6eyT42aLDhO2HA.ttf
 fonts:
 - name: Wellfleet
   styles:
@@ -22,11 +22,10 @@ fonts:
       in a wide range of sizes.
     copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com), with Reserved
       Font Name Wellfleet
-    font: Wellfleet-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com),
-  with Reserved Font Name Wellfleet
+    font: nuF7D_LfQJb3VYgX6eyT42aLDhO2HA.ttf
+extract: {}
+copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com), with Reserved
+  Font Name Wellfleet
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
@@ -123,3 +122,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

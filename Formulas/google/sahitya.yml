@@ -3,23 +3,15 @@ name: Sahitya
 description: Sahitya
 homepage: http://www.huertatipografica.com
 resources:
-  Sahitya.zip:
-    urls:
-    - https://fonts.google.com/download?family=Sahitya
-    sha256: 29c4f7a6933ec812b3002f072ae0b9159ad371991375a2646361652c95d7c6d0
-    file_size: 231133
+  Sahitya:
+    source: google
+    family: Sahitya
+    files:
+    - https://fonts.gstatic.com/s/sahitya/v17/6qLAKZkOuhnuqlJAaScFPywEDnI.ttf
+    - https://fonts.gstatic.com/s/sahitya/v17/6qLFKZkOuhnuqlJAUZsqGyQvEnvSexI.ttf
 fonts:
 - name: Sahitya
   styles:
-  - family_name: Sahitya
-    type: Regular
-    full_name: Sahitya
-    post_script_name: Sahitya-Regular
-    version: 1.001;PS 001.000;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT; ttfautohint
-      (v1.2) -l 8 -r 50 -G 200 -x 16 -D latn -f none -w G -W -X ""
-    copyright: Copyright (c) 2015 by Juan Pablo del Peral (http://www.huertatipografica.com).
-      All rights reserved.
-    font: Sahitya-Regular.ttf
   - family_name: Sahitya
     type: Bold
     full_name: Sahitya Bold
@@ -28,9 +20,17 @@ fonts:
       (v1.2) -l 8 -r 50 -G 200 -x 16 -D latn -f none -w G -W -X ""
     copyright: Copyright (c) 2015 by Juan Pablo del Peral (http://www.huertatipografica.com).
       All rights reserved.
-    font: Sahitya-Bold.ttf
-extract:
-  format: zip
+    font: 6qLFKZkOuhnuqlJAUZsqGyQvEnvSexI.ttf
+  - family_name: Sahitya
+    type: Regular
+    full_name: Sahitya
+    post_script_name: Sahitya-Regular
+    version: 1.001;PS 001.000;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT; ttfautohint
+      (v1.2) -l 8 -r 50 -G 200 -x 16 -D latn -f none -w G -W -X ""
+    copyright: Copyright (c) 2015 by Juan Pablo del Peral (http://www.huertatipografica.com).
+      All rights reserved.
+    font: 6qLAKZkOuhnuqlJAaScFPywEDnI.ttf
+extract: {}
 copyright: Copyright (c) 2015 by Juan Pablo del Peral (http://www.huertatipografica.com).
   All rights reserved.
 license_url: http://scripts.sil.org/OFL
@@ -128,3 +128,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

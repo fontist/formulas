@@ -1,12 +1,13 @@
 ---
+name: Jim Nightshade
 description: Jim Nightshade
 homepage: http://www.astigmatic.com/
 resources:
-  JimNightshade.zip:
-    urls:
-    - https://fonts.google.com/download?family=Jim%20Nightshade
-    sha256: ebcda16d74cfe3b46c3c9bd85b1bc858588dbcad11e4b21e8dac8a1f3cfb0c02
-    file_size: 84801
+  Jim Nightshade:
+    source: google
+    family: Jim Nightshade
+    files:
+    - https://fonts.gstatic.com/s/jimnightshade/v20/PlIkFlu9Pb08Q8HLM1PxmB0g-OS4V3qKaMxD.ttf
 fonts:
 - name: Jim Nightshade
   styles:
@@ -18,11 +19,11 @@ fonts:
     copyright: |-
       Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
       Font Name "Jim Nightshade"
-    font: JimNightshade-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com),
-  with Reserved Font Name "Jim Nightshade"
+    font: PlIkFlu9Pb08Q8HLM1PxmB0g-OS4V3qKaMxD.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+  Font Name "Jim Nightshade"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI)
@@ -119,3 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

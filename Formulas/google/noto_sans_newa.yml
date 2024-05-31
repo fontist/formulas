@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Newa
 description: Noto Sans Newa
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Newa.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Newa
-    sha256: b2b8170d06ef5488a5b1b1e5ba225d23d6b3730598a66a623ed8075ec5e22771
-    file_size: 124095
+  Noto Sans Newa:
+    source: google
+    family: Noto Sans Newa
+    files:
+    - https://fonts.gstatic.com/s/notosansnewa/v16/7r3fqXp6utEsO9pI4f8ok8sWg8n_qN4R5lNU.ttf
 fonts:
 - name: Noto Sans Newa
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.007; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/newa)
-    font: NotoSansNewa-Regular.ttf
+    font: 7r3fqXp6utEsO9pI4f8ok8sWg8n_qN4R5lNU.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/newa)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: da6ada194bdf903ba8e49b99fc50db65da579caba062a98781409a92fe86929b
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

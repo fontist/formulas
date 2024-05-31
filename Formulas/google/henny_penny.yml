@@ -1,12 +1,13 @@
 ---
+name: Henny Penny
 description: Henny Penny
 homepage: http://www.brownfox.org
 resources:
-  HennyPenny.zip:
-    urls:
-    - https://fonts.google.com/download?family=Henny%20Penny
-    sha256: dcc29a7a5106c75dbdd3a2bef778a92254fec53230a762b41fe4ad910c1b644d
-    file_size: 56148
+  Henny Penny:
+    source: google
+    family: Henny Penny
+    files:
+    - https://fonts.gstatic.com/s/hennypenny/v17/wXKvE3UZookzsxz_kjGSfMQqt3M7tMDT.ttf
 fonts:
 - name: Henny Penny
   styles:
@@ -17,9 +18,8 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2012, Brownfox (gayaneh.b@gmail.com), with Reserved Font
       Name "Henny Penny"
-    font: HennyPenny-Regular.ttf
-extract:
-  format: zip
+    font: wXKvE3UZookzsxz_kjGSfMQqt3M7tMDT.ttf
+extract: {}
 copyright: Copyright (c) 2012, Brownfox (gayaneh.b@gmail.com), with Reserved Font
   Name "Henny Penny"
 license_url: http://scripts.sil.org/OFL
@@ -129,3 +129,4 @@ open_license: |-
   File info
   Size: 4531 bytes, 94 lines
   View raw file
+command: import google -n 9999

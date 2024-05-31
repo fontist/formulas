@@ -3,11 +3,11 @@ name: Overlock SC
 description: Overlock SC
 homepage: www.tipo.net.ar
 resources:
-  OverlockSC.zip:
-    urls:
-    - https://fonts.google.com/download?family=Overlock%20SC
-    sha256: 20cd550d42b43fc8f5c2410124ff5590574ecdd5e7ef551e74d141531f87c3c1
-    file_size: 19991
+  Overlock SC:
+    source: google
+    family: Overlock SC
+    files:
+    - https://fonts.gstatic.com/s/overlocksc/v23/1cX3aUHKGZrstGAY8nwVzHGAq8Sk1PoH.ttf
 fonts:
 - name: Overlock SC
   styles:
@@ -18,11 +18,10 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar),
       with Reserved Font Name "Overlock".
-    font: OverlockSC-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar dario@tipo.net.ar),
-  with Reserved Font Name "Overlock".
+    font: 1cX3aUHKGZrstGAY8nwVzHGAq8Sk1PoH.ttf
+extract: {}
+copyright: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar), with
+  Reserved Font Name "Overlock".
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar),
@@ -119,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

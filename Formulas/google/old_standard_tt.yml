@@ -3,37 +3,38 @@ name: Old Standard TT
 description: Old Standard TT
 homepage: http://www.thessalonica.org.ru
 resources:
-  OldStandardTT.zip:
-    urls:
-    - https://fonts.google.com/download?family=Old%20Standard%20TT
-    sha256: '0694c9e96553c689d01558d92cfe4308abece1b5162a99f9499e065ad18439b5'
-    file_size: 292453
+  Old Standard TT:
+    source: google
+    family: Old Standard TT
+    files:
+    - https://fonts.gstatic.com/s/oldstandardtt/v20/MwQubh3o1vLImiwAVvYawgcf2eVurVC5RHdCZg.ttf
+    - https://fonts.gstatic.com/s/oldstandardtt/v20/MwQsbh3o1vLImiwAVvYawgcf2eVer1q9ZnJSZtQG.ttf
+    - https://fonts.gstatic.com/s/oldstandardtt/v20/MwQrbh3o1vLImiwAVvYawgcf2eVWEX-dTFxeb80flQ.ttf
 fonts:
 - name: Old Standard TT
   styles:
-  - family_name: Old Standard TT
-    type: Regular
-    full_name: Old Standard TT Regular
-    post_script_name: OldStandardTT-Regular
-    version: '3.000'
-    copyright: Copyright 2011 The Old Standard Project Authors (amkryukov@gmail.com)
-    font: OldStandard-Regular.ttf
-  - family_name: Old Standard TT
-    type: Italic
-    full_name: Old Standard TT Italic
-    post_script_name: OldStandardTT-Italic
-    version: '3.000'
-    copyright: Copyright 2011 The Old Standard Project Authors (amkryukov@gmail.com)
-    font: OldStandard-Italic.ttf
   - family_name: Old Standard TT
     type: Bold
     full_name: Old Standard TT Bold
     post_script_name: OldStandardTT-Bold
     version: '3.000'
     copyright: Copyright 2011 The Old Standard Project Authors (amkryukov@gmail.com)
-    font: OldStandard-Bold.ttf
-extract:
-  format: zip
+    font: MwQrbh3o1vLImiwAVvYawgcf2eVWEX-dTFxeb80flQ.ttf
+  - family_name: Old Standard TT
+    type: Italic
+    full_name: Old Standard TT Italic
+    post_script_name: OldStandardTT-Italic
+    version: '3.000'
+    copyright: Copyright 2011 The Old Standard Project Authors (amkryukov@gmail.com)
+    font: MwQsbh3o1vLImiwAVvYawgcf2eVer1q9ZnJSZtQG.ttf
+  - family_name: Old Standard TT
+    type: Regular
+    full_name: Old Standard TT Regular
+    post_script_name: OldStandardTT-Regular
+    version: '3.000'
+    copyright: Copyright 2011 The Old Standard Project Authors (amkryukov@gmail.com)
+    font: MwQubh3o1vLImiwAVvYawgcf2eVurVC5RHdCZg.ttf
+extract: {}
 copyright: Copyright 2011 The Old Standard Project Authors (amkryukov@gmail.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -130,3 +131,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

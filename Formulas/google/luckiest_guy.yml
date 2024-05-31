@@ -1,12 +1,13 @@
 ---
+name: Luckiest Guy
 description: Luckiest Guy
 homepage: http://www.astigmatic.com/
 resources:
-  LuckiestGuy.zip:
-    urls:
-    - https://fonts.google.com/download?family=Luckiest%20Guy
-    sha256: 613f3a1473ad2a998fad455a7ceb475159f663f46753ee0d111fc10792d1c4c8
-    file_size: 36241
+  Luckiest Guy:
+    source: google
+    family: Luckiest Guy
+    files:
+    - https://fonts.gstatic.com/s/luckiestguy/v22/_gP_1RrxsjcxVyin9l9n_j2RStR3qDpraA.ttf
 fonts:
 - name: Luckiest Guy
   styles:
@@ -18,14 +19,14 @@ fonts:
     copyright: |-
       Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.
       http://www.apache.org/licenses/LICENSE-2.0.html
-    font: LuckiestGuy-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All
-  rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html
+    font: _gP_1RrxsjcxVyin9l9n_j2RStR3qDpraA.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.
+  http://www.apache.org/licenses/LICENSE-2.0.html
 license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |2-
-                                   Apache License
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -226,3 +227,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999

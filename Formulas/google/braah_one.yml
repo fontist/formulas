@@ -1,12 +1,13 @@
 ---
+name: Braah One
 description: Braah One
 homepage: https://github.com/artandtype/Braah
 resources:
-  Braah_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Braah%20One
-    sha256: 35146e3e7eac2f852f3593f39ee609fbc67aeae9b4ce734cdc9b81f22f4eac11
-    file_size: 64992
+  Braah One:
+    source: google
+    family: Braah One
+    files:
+    - https://fonts.gstatic.com/s/braahone/v6/KFOlCnWUpt6LsxxxiylvAx05IsDqlA.ttf
 fonts:
 - name: Braah One
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 1.001; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.29]
     copyright: Copyright 2022 The Braah Project Authors (https://github.com/artandtype/Braah
       )
-    font: BraahOne-Regular.ttf
+    font: KFOlCnWUpt6LsxxxiylvAx05IsDqlA.ttf
 extract: {}
 copyright: Copyright 2022 The Braah Project Authors (https://github.com/artandtype/Braah
   )
@@ -27,7 +28,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -116,5 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 8e56b7f8a755b573c5ef355a17317a3388bf5265cf5fa9461af0b406af1d0929
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

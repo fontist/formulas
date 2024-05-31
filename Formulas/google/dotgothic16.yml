@@ -3,11 +3,11 @@ name: DotGothic16
 description: DotGothic16
 homepage: http://fontworks.co.jp/
 resources:
-  DotGothic16.zip:
-    urls:
-    - https://fonts.google.com/download?family=DotGothic16
-    sha256: c10c645c9f22c74b09828bae218cc77a9c274d17275d1a9725e49d29c6920764
-    file_size: 807188
+  DotGothic16:
+    source: google
+    family: DotGothic16
+    files:
+    - https://fonts.gstatic.com/s/dotgothic16/v17/v6-QGYjBJFKgyw5nSoDAGE7L435YPFrT.ttf
 fonts:
 - name: DotGothic16
   styles:
@@ -15,9 +15,9 @@ fonts:
     type: Regular
     full_name: DotGothic16 Regular
     post_script_name: DotGothic16-Regular
-    version: 1.000; ttfautohint (v1.8.3)
+    version: '1.100'
     copyright: Copyright 2020 The DotGothic16 Project Authors (https://github.com/fontworks-fonts/DotGothic16/)
-    font: DotGothic16-Regular.ttf
+    font: v6-QGYjBJFKgyw5nSoDAGE7L435YPFrT.ttf
 extract: {}
 copyright: Copyright 2020 The DotGothic16 Project Authors (https://github.com/fontworks-fonts/DotGothic16/)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 3a356c0d3c5b573a614b9bfd98265c17021facc9141ecf223f76c70e6b8f57d5
-command: google import --formulas_path Formulas
+command: import google -n 9999

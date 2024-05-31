@@ -1,13 +1,12 @@
 ---
 name: Zeyada
 description: Zeyada
-homepage:
 resources:
-  Zeyada.zip:
-    urls:
-    - https://fonts.google.com/download?family=Zeyada
-    sha256: 891e94d738c44e1c477345f0f9b240b7afc9a2ff3bc1b9999efcada37e0f9fd5
-    file_size: 32890
+  Zeyada:
+    source: google
+    family: Zeyada
+    files:
+    - https://fonts.gstatic.com/s/zeyada/v19/11hAGpPTxVPUbgZDNGatWKaZ3g.ttf
 fonts:
 - name: Zeyada
   styles:
@@ -17,10 +16,9 @@ fonts:
     post_script_name: Zeyada
     version: 1.002 2010
     copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
-    font: Zeyada.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)
+    font: 11hAGpPTxVPUbgZDNGatWKaZ3g.ttf
+extract: {}
+copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
@@ -116,3 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

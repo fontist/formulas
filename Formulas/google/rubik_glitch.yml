@@ -1,12 +1,13 @@
 ---
+name: Rubik Glitch
 description: Rubik Glitch
 homepage: http://www.google.com/fonts
 resources:
-  Rubik_Glitch.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rubik%20Glitch
-    sha256: 3bfd5abc7d9e4fdce221802ab62f0730ce4f4bff914a845bef73001308edc6c8
-    file_size: 199862
+  Rubik Glitch:
+    source: google
+    family: Rubik Glitch
+    files:
+    - https://fonts.gstatic.com/s/rubikglitch/v2/qkBSXv8b_srFRYQVYrDKh9ZvmC7HONiSFQ.ttf
 fonts:
 - name: Rubik Glitch
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: RubikGlitch-Regular
     version: '2.200'
     copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
-    font: RubikGlitch-Regular.ttf
+    font: qkBSXv8b_srFRYQVYrDKh9ZvmC7HONiSFQ.ttf
 extract: {}
 copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 3c371791ccb991bde0ef19b39198b4b929fddf7ecb7a7067e71f135032d02dd6
-command: import google --formulas_path Formulas
+command: import google -n 9999

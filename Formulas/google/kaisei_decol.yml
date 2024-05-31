@@ -3,11 +3,13 @@ name: Kaisei Decol
 description: Kaisei Decol
 homepage: https://font-kai.jp
 resources:
-  Kaisei_Decol.zip:
-    urls:
-    - https://fonts.google.com/download?family=Kaisei%20Decol
-    sha256: fbcf057835248edaa6a099b549a4883124def9bb2cfb30901b0c5fa5e5de0b67
-    file_size: 7925783
+  Kaisei Decol:
+    source: google
+    family: Kaisei Decol
+    files:
+    - https://fonts.gstatic.com/s/kaiseidecol/v8/bMrwmSqP45sidWf3QmfFW6iyW1EP22OjoA.ttf
+    - https://fonts.gstatic.com/s/kaiseidecol/v8/bMrvmSqP45sidWf3QmfFW6iKr3gr00i_qb57kA.ttf
+    - https://fonts.gstatic.com/s/kaiseidecol/v8/bMrvmSqP45sidWf3QmfFW6iK534r00i_qb57kA.ttf
 fonts:
 - name: Kaisei Decol
   styles:
@@ -15,16 +17,16 @@ fonts:
     type: Bold
     full_name: Kaisei Decol Bold
     post_script_name: KaiseiDecol-Bold
-    version: 5.002; ttfautohint (v1.8.3)
+    version: '5.003'
     copyright: Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)
-    font: KaiseiDecol-Bold.ttf
+    font: bMrvmSqP45sidWf3QmfFW6iK534r00i_qb57kA.ttf
   - family_name: Kaisei Decol
     type: Regular
     full_name: Kaisei Decol Regular
     post_script_name: KaiseiDecol-Regular
-    version: 5.002; ttfautohint (v1.8.3)
+    version: '5.003'
     copyright: Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)
-    font: KaiseiDecol-Regular.ttf
+    font: bMrwmSqP45sidWf3QmfFW6iyW1EP22OjoA.ttf
 - name: Kaisei Decol Medium
   styles:
   - family_name: Kaisei Decol Medium
@@ -33,9 +35,9 @@ fonts:
     preferred_type: Medium
     full_name: Kaisei Decol Medium
     post_script_name: KaiseiDecol-Medium
-    version: 5.002; ttfautohint (v1.8.3)
+    version: '5.003'
     copyright: Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)
-    font: KaiseiDecol-Medium.ttf
+    font: bMrvmSqP45sidWf3QmfFW6iKr3gr00i_qb57kA.ttf
 extract: {}
 copyright: Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)
 license_url: https://scripts.sil.org/OFL
@@ -44,7 +46,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -133,5 +135,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b231968e94a2f6e8b6a95e7e2f948f8b7b0f49c625b5a696beefb29fde895cae
-command: google import --formulas_path Formulas
+command: import google -n 9999

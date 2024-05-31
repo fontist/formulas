@@ -1,33 +1,32 @@
 ---
+name: Stardos Stencil
 description: Stardos Stencil
-homepage:
 resources:
-  StardosStencil.zip:
-    urls:
-    - https://fonts.google.com/download?family=Stardos%20Stencil
-    sha256: cd91264992ed819c3b8f3d52bbb2db9b6177f17d4637d26822ce13d231940ad5
-    file_size: 46973
+  Stardos Stencil:
+    source: google
+    family: Stardos Stencil
+    files:
+    - https://fonts.gstatic.com/s/stardosstencil/v15/X7n94bcuGPC8hrvEOHXOgaKCc2TR71R3tiSx0g.ttf
+    - https://fonts.gstatic.com/s/stardosstencil/v15/X7n44bcuGPC8hrvEOHXOgaKCc2TpU3tTvg-t29HSHw.ttf
 fonts:
 - name: Stardos Stencil
   styles:
-  - family_name: Stardos Stencil
-    type: Regular
-    full_name: Stardos Stencil Regular
-    post_script_name: StardosStencil-Regular
-    version: 1.001; ttfautohint (v1.8.2)
-    copyright: Copyright (c) 2011 by vernon adams. All rights reserved.
-    font: StardosStencil-Regular.ttf
   - family_name: Stardos Stencil
     type: Bold
     full_name: Stardos Stencil Bold
     post_script_name: StardosStencil-Bold
     version: '1.001'
     copyright: Copyright (c) 2011 by vernon adams. All rights reserved.
-    font: StardosStencil-Bold.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved
-  Font Names 'Stardos'. All rights reserved.
+    font: X7n44bcuGPC8hrvEOHXOgaKCc2TpU3tTvg-t29HSHw.ttf
+  - family_name: Stardos Stencil
+    type: Regular
+    full_name: Stardos Stencil Regular
+    post_script_name: StardosStencil-Regular
+    version: 1.001; ttfautohint (v1.8.2)
+    copyright: Copyright (c) 2011 by vernon adams. All rights reserved.
+    font: X7n94bcuGPC8hrvEOHXOgaKCc2TR71R3tiSx0g.ttf
+extract: {}
+copyright: Copyright (c) 2011 by vernon adams. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk),
@@ -124,3 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

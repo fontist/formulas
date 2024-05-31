@@ -1,11 +1,21 @@
 ---
+name: Onest
 description: Onest
 homepage: https://onest.md
 resources:
-  Onest.zip:
-    urls:
-    - https://fonts.google.com/download?family=Onest
-    file_size: 389852
+  Onest:
+    source: google
+    family: Onest
+    files:
+    - https://fonts.gstatic.com/s/onest/v6/gNMZW3F-SZuj7zOT0IfSjTS16cPh9R6ZshFMQWXgSQ.ttf
+    - https://fonts.gstatic.com/s/onest/v6/gNMZW3F-SZuj7zOT0IfSjTS16cPhdR-ZshFMQWXgSQ.ttf
+    - https://fonts.gstatic.com/s/onest/v6/gNMZW3F-SZuj7zOT0IfSjTS16cPhqx-ZshFMQWXgSQ.ttf
+    - https://fonts.gstatic.com/s/onest/v6/gNMZW3F-SZuj7zOT0IfSjTS16cPh9R-ZshFMQWXgSQ.ttf
+    - https://fonts.gstatic.com/s/onest/v6/gNMZW3F-SZuj7zOT0IfSjTS16cPhxx-ZshFMQWXgSQ.ttf
+    - https://fonts.gstatic.com/s/onest/v6/gNMZW3F-SZuj7zOT0IfSjTS16cPhKxiZshFMQWXgSQ.ttf
+    - https://fonts.gstatic.com/s/onest/v6/gNMZW3F-SZuj7zOT0IfSjTS16cPhEhiZshFMQWXgSQ.ttf
+    - https://fonts.gstatic.com/s/onest/v6/gNMZW3F-SZuj7zOT0IfSjTS16cPhdRiZshFMQWXgSQ.ttf
+    - https://fonts.gstatic.com/s/onest/v6/gNMZW3F-SZuj7zOT0IfSjTS16cPhXBiZshFMQWXgSQ.ttf
 fonts:
 - name: Onest
   styles:
@@ -15,21 +25,14 @@ fonts:
     post_script_name: Onest-Bold
     version: 1.000;gftools[0.9.33]
     copyright: Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest)
-    font: Onest-Bold.ttf
+    font: gNMZW3F-SZuj7zOT0IfSjTS16cPhEhiZshFMQWXgSQ.ttf
   - family_name: Onest
     type: Regular
     full_name: Onest Regular
     post_script_name: Onest-Regular
     version: 1.000;gftools[0.9.33]
     copyright: Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest)
-    font: Onest-VariableFont_wght.ttf
-  - family_name: Onest
-    type: Regular
-    full_name: Onest Regular
-    post_script_name: Onest-Regular
-    version: 1.000;gftools[0.9.33]
-    copyright: Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest)
-    font: Onest-Regular.ttf
+    font: gNMZW3F-SZuj7zOT0IfSjTS16cPh9R-ZshFMQWXgSQ.ttf
 - name: Onest Black
   styles:
   - family_name: Onest Black
@@ -40,7 +43,7 @@ fonts:
     post_script_name: Onest-Black
     version: 1.000;gftools[0.9.33]
     copyright: Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest)
-    font: Onest-Black.ttf
+    font: gNMZW3F-SZuj7zOT0IfSjTS16cPhXBiZshFMQWXgSQ.ttf
 - name: Onest ExtraBold
   styles:
   - family_name: Onest ExtraBold
@@ -51,7 +54,7 @@ fonts:
     post_script_name: Onest-ExtraBold
     version: 1.000;gftools[0.9.33]
     copyright: Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest)
-    font: Onest-ExtraBold.ttf
+    font: gNMZW3F-SZuj7zOT0IfSjTS16cPhdRiZshFMQWXgSQ.ttf
 - name: Onest ExtraLight
   styles:
   - family_name: Onest ExtraLight
@@ -62,7 +65,7 @@ fonts:
     post_script_name: Onest-ExtraLight
     version: 1.000;gftools[0.9.33]
     copyright: Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest)
-    font: Onest-ExtraLight.ttf
+    font: gNMZW3F-SZuj7zOT0IfSjTS16cPhdR-ZshFMQWXgSQ.ttf
 - name: Onest Light
   styles:
   - family_name: Onest Light
@@ -73,7 +76,7 @@ fonts:
     post_script_name: Onest-Light
     version: 1.000;gftools[0.9.33]
     copyright: Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest)
-    font: Onest-Light.ttf
+    font: gNMZW3F-SZuj7zOT0IfSjTS16cPhqx-ZshFMQWXgSQ.ttf
 - name: Onest Medium
   styles:
   - family_name: Onest Medium
@@ -84,7 +87,7 @@ fonts:
     post_script_name: Onest-Medium
     version: 1.000;gftools[0.9.33]
     copyright: Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest)
-    font: Onest-Medium.ttf
+    font: gNMZW3F-SZuj7zOT0IfSjTS16cPhxx-ZshFMQWXgSQ.ttf
 - name: Onest SemiBold
   styles:
   - family_name: Onest SemiBold
@@ -95,7 +98,7 @@ fonts:
     post_script_name: Onest-SemiBold
     version: 1.000;gftools[0.9.33]
     copyright: Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest)
-    font: Onest-SemiBold.ttf
+    font: gNMZW3F-SZuj7zOT0IfSjTS16cPhKxiZshFMQWXgSQ.ttf
 - name: Onest Thin
   styles:
   - family_name: Onest Thin
@@ -106,7 +109,7 @@ fonts:
     post_script_name: Onest-Thin
     version: 1.000;gftools[0.9.33]
     copyright: Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest)
-    font: Onest-Thin.ttf
+    font: gNMZW3F-SZuj7zOT0IfSjTS16cPh9R6ZshFMQWXgSQ.ttf
 extract: {}
 copyright: Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest)
 license_url: https://scripts.sil.org/OFL
@@ -115,7 +118,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -204,5 +207,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 43098f06d79f9f0f962db85500fd566fb1e9fa0fca11726f307c36158a662aef
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

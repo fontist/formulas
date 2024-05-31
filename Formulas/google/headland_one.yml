@@ -1,17 +1,20 @@
 ---
+name: Headland One
 description: Headland One
 homepage: www.sorkintype.com
 resources:
-  HeadlandOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Headland%20One
-    sha256: 5ccd2745df8910115876044f22f43683c8b415d68ec36bc9bdfb49871db9e3fb
-    file_size: 59725
+  Headland One:
+    source: google
+    family: Headland One
+    files:
+    - https://fonts.gstatic.com/s/headlandone/v16/yYLu0hHR2vKnp89Tk1TCq3Tx0PlTeZ3mJA.ttf
 fonts:
-- name: Headland One
+- name: HeadlandOne
   styles:
   - family_name: HeadlandOne
     type: Regular
+    preferred_family_name: HeadlandOne
+    preferred_type: Regular
     full_name: HeadlandOne-Regular
     post_script_name: HeadlandOne-Regular
     version: '1.002'
@@ -28,11 +31,15 @@ fonts:
       This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at:
       http://scripts.sil.org/OFL
-    font: HeadlandOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com),
-  with Reserved Font Name "Headland"
+    font: yYLu0hHR2vKnp89Tk1TCq3Tx0PlTeZ3mJA.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
+  with Reserved Font Name "Headland".
+
+  This Font Software is licensed under the SIL Open Font License,
+  Version 1.1. This license is available with a FAQ at:
+  http://scripts.sil.org/OFL
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
@@ -129,3 +136,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

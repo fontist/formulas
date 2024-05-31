@@ -3,11 +3,11 @@ name: Flow Circular
 description: Flow Circular
 homepage: http://danross.co/flow
 resources:
-  Flow_Circular.zip:
-    urls:
-    - https://fonts.google.com/download?family=Flow%20Circular
-    sha256: 628ec6c8d924b5f84556f7d7655f535154ed06f82107aee19761513d6a8c4101
-    file_size: 13263
+  Flow Circular:
+    source: google
+    family: Flow Circular
+    files:
+    - https://fonts.gstatic.com/s/flowcircular/v11/lJwB-pc4j2F-H8YKuyvfxdZ45ifpWdr2rIg.ttf
 fonts:
 - name: Flow Circular
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: FlowCircular-Regular
     version: 1.101; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Flow Project Authors (https://github.com/HYPD/flow-typeface)
-    font: FlowCircular-Regular.ttf
+    font: lJwB-pc4j2F-H8YKuyvfxdZ45ifpWdr2rIg.ttf
 extract: {}
 copyright: Copyright 2020 The Flow Project Authors (https://github.com/HYPD/flow-typeface)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b9898fe993922808c36b7dbc89fb90e0e1358ad2b9c3aad6b09ae68e68148447
-command: google import --formulas_path Formulas
+command: import google -n 9999

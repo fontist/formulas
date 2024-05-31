@@ -1,12 +1,13 @@
 ---
+name: Hi Melody
 description: Hi Melody
 homepage: http://www.yoonfont.co.kr
 resources:
-  HiMelody.zip:
-    urls:
-    - https://fonts.google.com/download?family=Hi%20Melody
-    sha256: c20ea1538f8436c929ba17786e55fbc32e4df840485dc56895027a1f478a37d1
-    file_size: 2772135
+  Hi Melody:
+    source: google
+    family: Hi Melody
+    files:
+    - https://fonts.gstatic.com/s/himelody/v15/46ktlbP8Vnz0pJcqCTbEf29E31BBGA.ttf
 fonts:
 - name: Hi Melody
   styles:
@@ -16,9 +17,8 @@ fonts:
     post_script_name: HiMelody-Regular
     version: '3.00'
     copyright: Copyright (c) YoonDesign Inc. All Rights Reserved.
-    font: HiMelody-Regular.ttf
-extract:
-  format: zip
+    font: 46ktlbP8Vnz0pJcqCTbEf29E31BBGA.ttf
+extract: {}
 copyright: Copyright (c) YoonDesign Inc. All Rights Reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -115,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

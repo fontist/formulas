@@ -3,11 +3,11 @@ name: Loved by the King
 description: Loved by the King
 homepage: http://kimberlygeswein.com
 resources:
-  LovedbytheKing.zip:
-    urls:
-    - https://fonts.google.com/download?family=Loved%20by%20the%20King
-    sha256: b420952223a40c97205d2b50bd8cbef05291a76bf4c5f136d68dc1e9e111cd9f
-    file_size: 19719
+  Loved by the King:
+    source: google
+    family: Loved by the King
+    files:
+    - https://fonts.gstatic.com/s/lovedbytheking/v21/Gw6gwdP76VDVJNXerebZxUMeRXUF2PiNlXFu2R64.ttf
 fonts:
 - name: Loved by the King
   styles:
@@ -18,11 +18,9 @@ fonts:
     version: 1.002 2006
     description: Copyright (c) 2006 by Kimberly Geswein. All rights reserved.
     copyright: Copyright (c) 2006 by Kimberly Geswein. All rights reserved.
-    font: LovedbytheKing.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2006 by Kimberly Geswein (kimberlygeswein@gmail.com). All
-  rights reserved.
+    font: Gw6gwdP76VDVJNXerebZxUMeRXUF2PiNlXFu2R64.ttf
+extract: {}
+copyright: Copyright (c) 2006 by Kimberly Geswein. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
@@ -118,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

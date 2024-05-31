@@ -1,12 +1,13 @@
 ---
+name: Splash
 description: Splash
 homepage: www.typesetit.com
 resources:
-  Splash.zip:
-    urls:
-    - https://fonts.google.com/download?family=Splash
-    sha256: 2339950972717bd9cdfa39c6389eb7fecefde54742a6c88d4eab8a1dce28d5e9
-    file_size: 591487
+  Splash:
+    source: google
+    family: Splash
+    files:
+    - https://fonts.gstatic.com/s/splash/v6/KtksAL2RZoDkbU6hpPPGNdS6wg.ttf
 fonts:
 - name: Splash
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: Splash-Regular
     version: 1.010; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2017-2021 The Splash Project Authors (https://github.com/googlefonts/splash)
-    font: Splash-Regular.ttf
+    font: KtksAL2RZoDkbU6hpPPGNdS6wg.ttf
 extract: {}
 copyright: Copyright 2017-2021 The Splash Project Authors (https://github.com/googlefonts/splash)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 7200823a1fc265c4c1e2e6b55c60ed19054731ca6698dd904220eda6d2bbd823
-command: import google --formulas_path Formulas
+command: import google -n 9999

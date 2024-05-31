@@ -1,11 +1,20 @@
 ---
+name: Unbounded
 description: Unbounded
 homepage: www.nan.xyz
 resources:
-  Unbounded.zip:
-    urls:
-    - https://fonts.google.com/download?family=Unbounded
-    file_size: 1795301
+  Unbounded:
+    source: google
+    family: Unbounded
+    files:
+    - https://fonts.gstatic.com/s/unbounded/v7/Yq6F-LOTXCb04q32xlpat-6uR42XTqtG65jx043HgP6LR0Y.ttf
+    - https://fonts.gstatic.com/s/unbounded/v7/Yq6F-LOTXCb04q32xlpat-6uR42XTqtG60bx043HgP6LR0Y.ttf
+    - https://fonts.gstatic.com/s/unbounded/v7/Yq6F-LOTXCb04q32xlpat-6uR42XTqtG6xjx043HgP6LR0Y.ttf
+    - https://fonts.gstatic.com/s/unbounded/v7/Yq6F-LOTXCb04q32xlpat-6uR42XTqtG6yrx043HgP6LR0Y.ttf
+    - https://fonts.gstatic.com/s/unbounded/v7/Yq6F-LOTXCb04q32xlpat-6uR42XTqtG68b2043HgP6LR0Y.ttf
+    - https://fonts.gstatic.com/s/unbounded/v7/Yq6F-LOTXCb04q32xlpat-6uR42XTqtG6__2043HgP6LR0Y.ttf
+    - https://fonts.gstatic.com/s/unbounded/v7/Yq6F-LOTXCb04q32xlpat-6uR42XTqtG65j2043HgP6LR0Y.ttf
+    - https://fonts.gstatic.com/s/unbounded/v7/Yq6F-LOTXCb04q32xlpat-6uR42XTqtG67H2043HgP6LR0Y.ttf
 fonts:
 - name: Unbounded
   styles:
@@ -15,21 +24,14 @@ fonts:
     post_script_name: Unbounded-Bold
     version: 1.701;gftools[0.9.28.dev5+ged2979d]
     copyright: Copyright 2022 The Unbounded Project Authors (https://github.com/googlefonts/unbounded)
-    font: Unbounded-Bold.ttf
+    font: Yq6F-LOTXCb04q32xlpat-6uR42XTqtG6__2043HgP6LR0Y.ttf
   - family_name: Unbounded
     type: Regular
     full_name: Unbounded Regular
     post_script_name: Unbounded-Regular
     version: 1.701;gftools[0.9.28.dev5+ged2979d]
     copyright: Copyright 2022 The Unbounded Project Authors (https://github.com/googlefonts/unbounded)
-    font: Unbounded-VariableFont_wght.ttf
-  - family_name: Unbounded
-    type: Regular
-    full_name: Unbounded Regular
-    post_script_name: Unbounded-Regular
-    version: 1.701;gftools[0.9.28.dev5+ged2979d]
-    copyright: Copyright 2022 The Unbounded Project Authors (https://github.com/googlefonts/unbounded)
-    font: Unbounded-Regular.ttf
+    font: Yq6F-LOTXCb04q32xlpat-6uR42XTqtG6xjx043HgP6LR0Y.ttf
 - name: Unbounded Black
   styles:
   - family_name: Unbounded Black
@@ -40,7 +42,7 @@ fonts:
     post_script_name: Unbounded-Black
     version: 1.701;gftools[0.9.28.dev5+ged2979d]
     copyright: Copyright 2022 The Unbounded Project Authors (https://github.com/googlefonts/unbounded)
-    font: Unbounded-Black.ttf
+    font: Yq6F-LOTXCb04q32xlpat-6uR42XTqtG67H2043HgP6LR0Y.ttf
 - name: Unbounded ExtraBold
   styles:
   - family_name: Unbounded ExtraBold
@@ -51,7 +53,7 @@ fonts:
     post_script_name: Unbounded-ExtraBold
     version: 1.701;gftools[0.9.28.dev5+ged2979d]
     copyright: Copyright 2022 The Unbounded Project Authors (https://github.com/googlefonts/unbounded)
-    font: Unbounded-ExtraBold.ttf
+    font: Yq6F-LOTXCb04q32xlpat-6uR42XTqtG65j2043HgP6LR0Y.ttf
 - name: Unbounded ExtraLight
   styles:
   - family_name: Unbounded ExtraLight
@@ -62,7 +64,7 @@ fonts:
     post_script_name: Unbounded-ExtraLight
     version: 1.701;gftools[0.9.28.dev5+ged2979d]
     copyright: Copyright 2022 The Unbounded Project Authors (https://github.com/googlefonts/unbounded)
-    font: Unbounded-ExtraLight.ttf
+    font: Yq6F-LOTXCb04q32xlpat-6uR42XTqtG65jx043HgP6LR0Y.ttf
 - name: Unbounded Light
   styles:
   - family_name: Unbounded Light
@@ -73,7 +75,7 @@ fonts:
     post_script_name: Unbounded-Light
     version: 1.701;gftools[0.9.28.dev5+ged2979d]
     copyright: Copyright 2022 The Unbounded Project Authors (https://github.com/googlefonts/unbounded)
-    font: Unbounded-Light.ttf
+    font: Yq6F-LOTXCb04q32xlpat-6uR42XTqtG60bx043HgP6LR0Y.ttf
 - name: Unbounded Medium
   styles:
   - family_name: Unbounded Medium
@@ -84,7 +86,7 @@ fonts:
     post_script_name: Unbounded-Medium
     version: 1.701;gftools[0.9.28.dev5+ged2979d]
     copyright: Copyright 2022 The Unbounded Project Authors (https://github.com/googlefonts/unbounded)
-    font: Unbounded-Medium.ttf
+    font: Yq6F-LOTXCb04q32xlpat-6uR42XTqtG6yrx043HgP6LR0Y.ttf
 - name: Unbounded SemiBold
   styles:
   - family_name: Unbounded SemiBold
@@ -95,7 +97,7 @@ fonts:
     post_script_name: Unbounded-SemiBold
     version: 1.701;gftools[0.9.28.dev5+ged2979d]
     copyright: Copyright 2022 The Unbounded Project Authors (https://github.com/googlefonts/unbounded)
-    font: Unbounded-SemiBold.ttf
+    font: Yq6F-LOTXCb04q32xlpat-6uR42XTqtG68b2043HgP6LR0Y.ttf
 extract: {}
 copyright: Copyright 2022 The Unbounded Project Authors (https://github.com/googlefonts/unbounded)
 license_url: https://scripts.sil.org/OFL
@@ -104,7 +106,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -193,5 +195,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 781dfcd4201c5e3bf1c723781d9cf16d7a140cdbb9745d9af181e2b7566b7a22
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

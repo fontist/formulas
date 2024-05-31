@@ -1,12 +1,13 @@
 ---
+name: Bubblegum Sans
 description: Bubblegum Sans
 homepage: http://www.sudtipos.com
 resources:
-  BubblegumSans.zip:
-    urls:
-    - https://fonts.google.com/download?family=Bubblegum%20Sans
-    sha256: a535fca95f1588bf02799558bf076a3654fdb5c78e0c0a0c9bf2c5accedd04a6
-    file_size: 22315
+  Bubblegum Sans:
+    source: google
+    family: Bubblegum Sans
+    files:
+    - https://fonts.gstatic.com/s/bubblegumsans/v20/AYCSpXb_Z9EORv1M5QTjEzMEtdaHzoPPb7R4.ttf
 fonts:
 - name: Bubblegum Sans
   styles:
@@ -19,12 +20,12 @@ fonts:
       Copyright (c) 2011 Angel Koziupa (sudtipos@sudtipos.com),
       Copyright (c) 2011 Alejandro Paul (sudtipos@sudtipos.com),
       with Reserved Font Name "Bubblegum Sans"
-    font: BubblegumSans-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 Angel Koziupa (sudtipos@sudtipos.com), Copyright (c)
-  2011 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name "Bubblegum
-  Sans"
+    font: AYCSpXb_Z9EORv1M5QTjEzMEtdaHzoPPb7R4.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011 Angel Koziupa (sudtipos@sudtipos.com),
+  Copyright (c) 2011 Alejandro Paul (sudtipos@sudtipos.com),
+  with Reserved Font Name "Bubblegum Sans"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 Angel Koziupa (sudtipos@sudtipos.com),
@@ -122,3 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

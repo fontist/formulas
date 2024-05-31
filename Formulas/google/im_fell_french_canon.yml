@@ -3,27 +3,15 @@ name: IM Fell French Canon
 description: IM Fell French Canon
 homepage: www.iginomarini.com
 resources:
-  IMFellFrenchCanon.zip:
-    urls:
-    - https://fonts.google.com/download?family=IM%20Fell%20French%20Canon
-    sha256: ae609a50b638b27c62fff1d32ad648cb75194c254a07bbc378f262fd4e319508
-    file_size: 179262
+  IM Fell French Canon:
+    source: google
+    family: IM Fell French Canon
+    files:
+    - https://fonts.gstatic.com/s/imfellfrenchcanon/v21/-F6ufiNtDWYfYc-tDiyiw08rrghJszkK6coVPt1ozoPz.ttf
+    - https://fonts.gstatic.com/s/imfellfrenchcanon/v21/-F6gfiNtDWYfYc-tDiyiw08rrghJszkK6foXNNlKy5PzzrU.ttf
 fonts:
-- name: IM Fell French Canon
+- name: IM FELL French Canon
   styles:
-  - family_name: IM FELL French Canon
-    type: Regular
-    full_name: IM FELL French Canon Roman
-    post_script_name: IM_FELL_French_Canon_Roman
-    version: '3.00'
-    description: Fell Types - French Canon size - Roman. Typeface from the  types
-      bequeathed in 1686 to the University of Oxford by John Fell. Originally cut
-      by Peter De Walpergen. Acquisition in 1686. To be printed at 39 points to match
-      the original size. Autospaced and autokerned using iKern© developed by Igino
-      Marini.
-    copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name
-      IM FELL French Canon Roman"
-    font: IMFeFCrm28P.ttf
   - family_name: IM FELL French Canon
     type: Italic
     full_name: IM FELL French Canon Italic
@@ -36,11 +24,24 @@ fonts:
       Marini.
     copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name
       IM FELL French Canon Italic"
-    font: IMFeFCit28P.ttf
-extract:
-  format: zip
-copyright: "© 2007 Igino Marini (www.iginomarini.com mail@iginomarini.com) With Reserved
-  Font Name IM FELL French Canon Roman"
+    font: "-F6gfiNtDWYfYc-tDiyiw08rrghJszkK6foXNNlKy5PzzrU.ttf"
+  - family_name: IM FELL French Canon
+    type: Regular
+    preferred_family_name: IM FELL French Canon
+    full_name: IM FELL French Canon Roman
+    post_script_name: IM_FELL_French_Canon_Roman
+    version: '3.00'
+    description: Fell Types - French Canon size - Roman. Typeface from the  types
+      bequeathed in 1686 to the University of Oxford by John Fell. Originally cut
+      by Peter De Walpergen. Acquisition in 1686. To be printed at 39 points to match
+      the original size. Autospaced and autokerned using iKern© developed by Igino
+      Marini.
+    copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name
+      IM FELL French Canon Roman"
+    font: "-F6ufiNtDWYfYc-tDiyiw08rrghJszkK6coVPt1ozoPz.ttf"
+extract: {}
+copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name IM FELL
+  French Canon Roman"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Igino Marini (mail@iginomarini.com)
@@ -136,3 +137,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,10 +1,15 @@
 ---
+name: Alkatra
 description: Alkatra
 resources:
-  Alkatra.zip:
-    urls:
-    - https://fonts.google.com/download?family=Alkatra
-    file_size: 1195424
+  Alkatra:
+    source: google
+    family: Alkatra
+    files:
+    - https://fonts.gstatic.com/s/alkatra/v3/r05EGLZA5qhCYsyJbuChFuK48Medzngmu7cPrNDVemxE.ttf
+    - https://fonts.gstatic.com/s/alkatra/v3/r05EGLZA5qhCYsyJbuChFuK48MedzngUu7cPrNDVemxE.ttf
+    - https://fonts.gstatic.com/s/alkatra/v3/r05EGLZA5qhCYsyJbuChFuK48Medznj4vLcPrNDVemxE.ttf
+    - https://fonts.gstatic.com/s/alkatra/v3/r05EGLZA5qhCYsyJbuChFuK48MedznjBvLcPrNDVemxE.ttf
 fonts:
 - name: Alkatra
   styles:
@@ -14,21 +19,14 @@ fonts:
     post_script_name: Alkatra-Bold
     version: 1.100;gftools[0.9.22]
     copyright: Copyright 2022 The Alkatra Project Authors (https://github.com/suman51284/Alkatra)
-    font: Alkatra-Bold.ttf
+    font: r05EGLZA5qhCYsyJbuChFuK48MedznjBvLcPrNDVemxE.ttf
   - family_name: Alkatra
     type: Regular
     full_name: Alkatra Regular
     post_script_name: Alkatra-Regular
     version: 1.100;gftools[0.9.22]
     copyright: Copyright 2022 The Alkatra Project Authors (https://github.com/suman51284/Alkatra)
-    font: Alkatra-VariableFont_wght.ttf
-  - family_name: Alkatra
-    type: Regular
-    full_name: Alkatra Regular
-    post_script_name: Alkatra-Regular
-    version: 1.100;gftools[0.9.22]
-    copyright: Copyright 2022 The Alkatra Project Authors (https://github.com/suman51284/Alkatra)
-    font: Alkatra-Regular.ttf
+    font: r05EGLZA5qhCYsyJbuChFuK48Medzngmu7cPrNDVemxE.ttf
 - name: Alkatra Medium
   styles:
   - family_name: Alkatra Medium
@@ -39,7 +37,7 @@ fonts:
     post_script_name: Alkatra-Medium
     version: 1.100;gftools[0.9.22]
     copyright: Copyright 2022 The Alkatra Project Authors (https://github.com/suman51284/Alkatra)
-    font: Alkatra-Medium.ttf
+    font: r05EGLZA5qhCYsyJbuChFuK48MedzngUu7cPrNDVemxE.ttf
 - name: Alkatra SemiBold
   styles:
   - family_name: Alkatra SemiBold
@@ -50,7 +48,7 @@ fonts:
     post_script_name: Alkatra-SemiBold
     version: 1.100;gftools[0.9.22]
     copyright: Copyright 2022 The Alkatra Project Authors (https://github.com/suman51284/Alkatra)
-    font: Alkatra-SemiBold.ttf
+    font: r05EGLZA5qhCYsyJbuChFuK48Medznj4vLcPrNDVemxE.ttf
 extract: {}
 copyright: Copyright 2022 The Alkatra Project Authors (https://github.com/suman51284/Alkatra)
 license_url: https://scripts.sil.org/OFL
@@ -59,7 +57,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -148,5 +146,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: dd212c49d3f715612c912e05a9f030f5110fce50b3a1606dc503bceb072afaec
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

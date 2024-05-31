@@ -1,12 +1,12 @@
 ---
+name: Antic Slab
 description: Antic Slab
-homepage:
 resources:
-  AnticSlab.zip:
-    urls:
-    - https://fonts.google.com/download?family=Antic%20Slab
-    sha256: 4f17295a32858671aec3384f8965f75a61f6adb59fd11c9216199b423f757d34
-    file_size: 19645
+  Antic Slab:
+    source: google
+    family: Antic Slab
+    files:
+    - https://fonts.gstatic.com/s/anticslab/v16/bWt97fPFfRzkCa9Jlp6IWcJWXW5p5Qo.ttf
 fonts:
 - name: Antic Slab
   styles:
@@ -17,9 +17,8 @@ fonts:
     version: '001.002'
     copyright: Copyright (c) 2011 by Santiago Orozco(hi@typemade.mx) with reserved
       name Antic Slab
-    font: AnticSlab-Regular.ttf
-extract:
-  format: zip
+    font: bWt97fPFfRzkCa9Jlp6IWcJWXW5p5Qo.ttf
+extract: {}
 copyright: Copyright (c) 2011 by Santiago Orozco(hi@typemade.mx) with reserved name
   Antic Slab
 license_url: http://scripts.sil.org/OFL
@@ -117,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

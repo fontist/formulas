@@ -3,11 +3,11 @@ name: Convergence
 description: Convergence
 homepage: http://www.johnvargasbeltran.com/
 resources:
-  Convergence.zip:
-    urls:
-    - https://fonts.google.com/download?family=Convergence
-    sha256: 9a7d6d60c815c3f85baa791feac739052b5d89dbe245ec3b270cb0420a437b39
-    file_size: 16904
+  Convergence:
+    source: google
+    family: Convergence
+    files:
+    - https://fonts.gstatic.com/s/convergence/v15/rax5HiePvdgXPmmMHcIPYRhasU7Q8Cad.ttf
 fonts:
 - name: Convergence
   styles:
@@ -19,12 +19,11 @@ fonts:
     copyright: "Copyright (c) 2010 by Jos\x8E Nicol\x87s Silva Schwarzenberg.<info@nsilva.com>
       and John Vargas Beltran <http://www.johnvargasbeltran.com/>, with Reserved Font
       Names \"Convergence\"."
-    font: Convergence-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010 by Jos Nicols Silva Schwarzenberg.<info@nsilva.com>
+    font: rax5HiePvdgXPmmMHcIPYRhasU7Q8Cad.ttf
+extract: {}
+copyright: "Copyright (c) 2010 by Jos\x8E Nicol\x87s Silva Schwarzenberg.<info@nsilva.com>
   and John Vargas Beltran <http://www.johnvargasbeltran.com/>, with Reserved Font
-  Names "Convergence".
+  Names \"Convergence\"."
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, 2011 José Nicolás Silva Schwarzenberg <info@nsilva.com>,
@@ -122,3 +121,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

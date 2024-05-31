@@ -3,11 +3,11 @@ name: Chewy
 description: Chewy
 homepage: http://www.fontbros.com/sideshow.php
 resources:
-  Chewy.zip:
-    urls:
-    - https://fonts.google.com/download?family=Chewy
-    sha256: 7626a8ef33d169cef9be327282682f1891d7e2516a929483655ededa68c887b3
-    file_size: 28606
+  Chewy:
+    source: google
+    family: Chewy
+    files:
+    - https://fonts.gstatic.com/s/chewy/v18/uK_94ruUb-k-wk5xIDMfO-ed.ttf
 fonts:
 - name: Chewy
   styles:
@@ -17,13 +17,12 @@ fonts:
     post_script_name: Chewy-Regular
     version: '1.001'
     copyright: Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.
-    font: Chewy-Regular.ttf
-extract:
-  format: zip
+    font: uK_94ruUb-k-wk5xIDMfO-ed.ttf
+extract: {}
 copyright: Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.
 license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |2-
-                                   Apache License
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -224,3 +223,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999

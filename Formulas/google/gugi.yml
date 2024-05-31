@@ -3,11 +3,11 @@ name: Gugi
 description: Gugi
 homepage: www.taesystem.com
 resources:
-  Gugi.zip:
-    urls:
-    - https://fonts.google.com/download?family=Gugi
-    sha256: fd8a615a9400416e6d52c7569dc6dc63da9002c790b00eebf975cd6717121bc4
-    file_size: 323596
+  Gugi:
+    source: google
+    family: Gugi
+    files:
+    - https://fonts.gstatic.com/s/gugi/v15/A2BVn5dXywshVA6A9DEfgqM.ttf
 fonts:
 - name: Gugi
   styles:
@@ -17,9 +17,8 @@ fonts:
     post_script_name: Gugi-Regular
     version: '3.00'
     copyright: Copyright (c) 2017 by TAE System & Typefaces Co.. All rights reserved.
-    font: Gugi-Regular.ttf
-extract:
-  format: zip
+    font: A2BVn5dXywshVA6A9DEfgqM.ttf
+extract: {}
 copyright: Copyright (c) 2017 by TAE System & Typefaces Co.. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,59 +1,70 @@
 ---
+name: Inria Sans
 description: Inria Sans
 homepage: http://www.black-foundry.com
 resources:
-  InriaSans.zip:
-    urls:
-    - https://fonts.google.com/download?family=Inria%20Sans
-    sha256: 7abadbf1f572e49fdc765851546cd2b5a33abd491bd4d6c53ff256702b52b6b3
-    file_size: 241442
+  Inria Sans:
+    source: google
+    family: Inria Sans
+    files:
+    - https://fonts.gstatic.com/s/inriasans/v14/ptRPTiqXYfZMCOiVj9kQ3ELaDQtFqeY3fX4.ttf
+    - https://fonts.gstatic.com/s/inriasans/v14/ptRRTiqXYfZMCOiVj9kQ1OzAgQlPrcQybX4pQA.ttf
+    - https://fonts.gstatic.com/s/inriasans/v14/ptRMTiqXYfZMCOiVj9kQ5O7yKQNute8.ttf
+    - https://fonts.gstatic.com/s/inriasans/v14/ptROTiqXYfZMCOiVj9kQ1Oz4LSFrpe8uZA.ttf
+    - https://fonts.gstatic.com/s/inriasans/v14/ptRPTiqXYfZMCOiVj9kQ3FLdDQtFqeY3fX4.ttf
+    - https://fonts.gstatic.com/s/inriasans/v14/ptRRTiqXYfZMCOiVj9kQ1OzAkQ5PrcQybX4pQA.ttf
 fonts:
 - name: Inria Sans
   styles:
-  - family_name: Inria Sans
-    type: Light
-    full_name: Inria Sans Light
-    post_script_name: InriaSans-Light
-    version: 1.2; ttfautohint (v1.8.3)
-    copyright: Copyright 2017 The Inria Sans Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
-    font: InriaSans-Light.ttf
-  - family_name: Inria Sans
-    type: Light Italic
-    full_name: Inria Sans Light Italic
-    post_script_name: InriaSans-LightItalic
-    version: 1.2; ttfautohint (v1.8.3)
-    copyright: Copyright 2017 The Inria Sans Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
-    font: InriaSans-LightItalic.ttf
-  - family_name: Inria Sans
-    type: Regular
-    full_name: Inria Sans Regular
-    post_script_name: InriaSans-Regular
-    version: 1.2; ttfautohint (v1.8.3)
-    copyright: Copyright 2017 The Inria Sans Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
-    font: InriaSans-Regular.ttf
-  - family_name: Inria Sans
-    type: Italic
-    full_name: Inria Sans Italic
-    post_script_name: InriaSans-Italic
-    version: 1.2; ttfautohint (v1.8.3)
-    copyright: Copyright 2017 The Inria Sans Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
-    font: InriaSans-Italic.ttf
   - family_name: Inria Sans
     type: Bold
     full_name: Inria Sans Bold
     post_script_name: InriaSans-Bold
     version: 1.2; ttfautohint (v1.8.3)
     copyright: Copyright 2017 The Inria Sans Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
-    font: InriaSans-Bold.ttf
+    font: ptRPTiqXYfZMCOiVj9kQ3FLdDQtFqeY3fX4.ttf
   - family_name: Inria Sans
     type: Bold Italic
     full_name: Inria Sans Bold Italic
     post_script_name: InriaSans-BoldItalic
     version: 1.2; ttfautohint (v1.8.3)
     copyright: Copyright 2017 The Inria Sans Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
-    font: InriaSans-BoldItalic.ttf
-extract:
-  format: zip
+    font: ptRRTiqXYfZMCOiVj9kQ1OzAkQ5PrcQybX4pQA.ttf
+  - family_name: Inria Sans
+    type: Italic
+    full_name: Inria Sans Italic
+    post_script_name: InriaSans-Italic
+    version: 1.2; ttfautohint (v1.8.3)
+    copyright: Copyright 2017 The Inria Sans Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
+    font: ptROTiqXYfZMCOiVj9kQ1Oz4LSFrpe8uZA.ttf
+  - family_name: Inria Sans
+    type: Regular
+    full_name: Inria Sans Regular
+    post_script_name: InriaSans-Regular
+    version: 1.2; ttfautohint (v1.8.3)
+    copyright: Copyright 2017 The Inria Sans Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
+    font: ptRMTiqXYfZMCOiVj9kQ5O7yKQNute8.ttf
+- name: Inria Sans Light
+  styles:
+  - family_name: Inria Sans Light
+    type: Italic
+    preferred_family_name: Inria Sans
+    preferred_type: Light Italic
+    full_name: Inria Sans Light Italic
+    post_script_name: InriaSans-LightItalic
+    version: 1.2; ttfautohint (v1.8.3)
+    copyright: Copyright 2017 The Inria Sans Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
+    font: ptRRTiqXYfZMCOiVj9kQ1OzAgQlPrcQybX4pQA.ttf
+  - family_name: Inria Sans Light
+    type: Regular
+    preferred_family_name: Inria Sans
+    preferred_type: Light
+    full_name: Inria Sans Light
+    post_script_name: InriaSans-Light
+    version: 1.2; ttfautohint (v1.8.3)
+    copyright: Copyright 2017 The Inria Sans Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
+    font: ptRPTiqXYfZMCOiVj9kQ3ELaDQtFqeY3fX4.ttf
+extract: {}
 copyright: Copyright 2017 The Inria Sans Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -150,3 +161,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

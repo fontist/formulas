@@ -3,11 +3,11 @@ name: PT Mono
 description: PT Mono
 homepage: http://www.paratype.com
 resources:
-  PTMono.zip:
-    urls:
-    - https://fonts.google.com/download?family=PT%20Mono
-    sha256: 4272bb0810b991dead346466a30528ca64b550d01dc45c62c5fc9cbc0f6cc021
-    file_size: 94635
+  PT Mono:
+    source: google
+    family: PT Mono
+    files:
+    - https://fonts.gstatic.com/s/ptmono/v13/9oRONYoBnWILk-9ArCg5MtPyAcg.ttf
 fonts:
 - name: PT Mono
   styles:
@@ -25,11 +25,9 @@ fonts:
       where visitors have to fill different request forms. Designer Alexandra Korolkova
       with a participation of Bella Chaeva. Released by ParaType in 2011.
     copyright: Copyright © 2010 ParaType Inc., ParaType Ltd. All rights reserved.
-    font: PTM55FT.ttf
-extract:
-  format: zip
-copyright: Copyright © 2010 ParaType Inc., ParaType Ltd (yakupov@paratype.com). All
-  rights reserved.
+    font: 9oRONYoBnWILk-9ArCg5MtPyAcg.ttf
+extract: {}
+copyright: Copyright © 2010 ParaType Inc., ParaType Ltd. All rights reserved.
 license_url: http://scripts.sil.org/OFL_web
 open_license: "\uFEFFCopyright (c) 2011, ParaType Ltd. (http://www.paratype.com/public),\nwith
   Reserved Font Names \"PT Sans\", \"PT Serif\", \"PT Mono\" and \"ParaType\".\n\nThis
@@ -84,3 +82,4 @@ open_license: "\uFEFFCopyright (c) 2011, ParaType Ltd. (http://www.paratype.com/
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
+command: import google -n 9999

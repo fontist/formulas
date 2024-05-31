@@ -1,13 +1,12 @@
 ---
 name: Lacquer
 description: Lacquer
-homepage:
 resources:
-  Lacquer.zip:
-    urls:
-    - https://fonts.google.com/download?family=Lacquer
-    sha256: b4dd0488ac5318b5fcdb69400535a7a9a003fb24d9c1c738c053154b632d6836
-    file_size: 139048
+  Lacquer:
+    source: google
+    family: Lacquer
+    files:
+    - https://fonts.gstatic.com/s/lacquer/v15/EYqzma1QwqpG4_BBB7-AXhttQ5I.ttf
 fonts:
 - name: Lacquer
   styles:
@@ -17,9 +16,8 @@ fonts:
     post_script_name: Lacquer-Regular
     version: '1.100'
     copyright: Copyright 2019 The Lacquer Project Authors (https://github.com/Lacquer-Font/Lacquer)
-    font: Lacquer-Regular.ttf
-extract:
-  format: zip
+    font: EYqzma1QwqpG4_BBB7-AXhttQ5I.ttf
+extract: {}
 copyright: Copyright 2019 The Lacquer Project Authors (https://github.com/Lacquer-Font/Lacquer)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

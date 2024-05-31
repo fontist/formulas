@@ -3,30 +3,17 @@ name: Marvel
 description: Marvel
 homepage: fromzero.org
 resources:
-  Marvel.zip:
-    urls:
-    - https://fonts.google.com/download?family=Marvel
-    sha256: 1157fbd54ad734d74ef535896dbe986d9705a002e0d19f2fc213818f4ac8138f
-    file_size: 87516
+  Marvel:
+    source: google
+    family: Marvel
+    files:
+    - https://fonts.gstatic.com/s/marvel/v16/nwpVtKeoNgBV0qaIkV7ED366zg.ttf
+    - https://fonts.gstatic.com/s/marvel/v16/nwpXtKeoNgBV0qa4k1TALXuqzhA7.ttf
+    - https://fonts.gstatic.com/s/marvel/v16/nwpWtKeoNgBV0qawLXHgB1WmxwkiYQ.ttf
+    - https://fonts.gstatic.com/s/marvel/v16/nwpQtKeoNgBV0qa4k2x8Al-i5QwyYdrc.ttf
 fonts:
 - name: Marvel
   styles:
-  - family_name: Marvel
-    type: Regular
-    full_name: Marvel
-    post_script_name: Marvel-Regular
-    version: '1.001'
-    copyright: Copyright (c) 2011, Carolina Trebol <ca@fromzero.org>, with Reserved
-      Font Name "Marvel".
-    font: Marvel-Regular.ttf
-  - family_name: Marvel
-    type: Italic
-    full_name: Marvel Italic
-    post_script_name: Marvel-Italic
-    version: '1.001'
-    copyright: Copyright (c) 2011, Carolina Trebol <ca@fromzero.org>, with Reserved
-      Font Name "Marvel".
-    font: Marvel-Italic.ttf
   - family_name: Marvel
     type: Bold
     full_name: Marvel Bold
@@ -34,7 +21,7 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011, Carolina Trebol <ca@fromzero.org>, with Reserved
       Font Name "Marvel".
-    font: Marvel-Bold.ttf
+    font: nwpWtKeoNgBV0qawLXHgB1WmxwkiYQ.ttf
   - family_name: Marvel
     type: Bold Italic
     full_name: Marvel Bold Italic
@@ -42,9 +29,24 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011, Carolina Trebol <ca@fromzero.org>, with Reserved
       Font Name "Marvel".
-    font: Marvel-BoldItalic.ttf
-extract:
-  format: zip
+    font: nwpQtKeoNgBV0qa4k2x8Al-i5QwyYdrc.ttf
+  - family_name: Marvel
+    type: Italic
+    full_name: Marvel Italic
+    post_script_name: Marvel-Italic
+    version: '1.001'
+    copyright: Copyright (c) 2011, Carolina Trebol <ca@fromzero.org>, with Reserved
+      Font Name "Marvel".
+    font: nwpXtKeoNgBV0qa4k1TALXuqzhA7.ttf
+  - family_name: Marvel
+    type: Regular
+    full_name: Marvel
+    post_script_name: Marvel-Regular
+    version: '1.001'
+    copyright: Copyright (c) 2011, Carolina Trebol <ca@fromzero.org>, with Reserved
+      Font Name "Marvel".
+    font: nwpVtKeoNgBV0qaIkV7ED366zg.ttf
+extract: {}
 copyright: Copyright (c) 2011, Carolina Trebol <ca@fromzero.org>, with Reserved Font
   Name "Marvel".
 license_url: http://scripts.sil.org/OFL
@@ -143,3 +145,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

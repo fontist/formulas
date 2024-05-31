@@ -1,12 +1,13 @@
 ---
+name: Mystery Quest
 description: Mystery Quest
 homepage: http://www.fontbros.com/sideshow.php
 resources:
-  MysteryQuest.zip:
-    urls:
-    - https://fonts.google.com/download?family=Mystery%20Quest
-    sha256: 5bbe7a40cd001ceb2dab78daeae5760514f149c2ad6ee7b216a88b41d46246a6
-    file_size: 28889
+  Mystery Quest:
+    source: google
+    family: Mystery Quest
+    files:
+    - https://fonts.gstatic.com/s/mysteryquest/v20/-nF6OG414u0E6k0wynSGlujRHwElD_9Qz9E.ttf
 fonts:
 - name: Mystery Quest
   styles:
@@ -17,11 +18,10 @@ fonts:
     version: '1.000'
     copyright: Copyright (c) 2012 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com)
       with Reseved Font Name "Mystery Quest"
-    font: MysteryQuest-Regular.ttf
-extract:
-  format: zip
+    font: "-nF6OG414u0E6k0wynSGlujRHwElD_9Qz9E.ttf"
+extract: {}
 copyright: Copyright (c) 2012 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com)
-  with Reserved Font Name "Mystery Quest"
+  with Reseved Font Name "Mystery Quest"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012, Font Diner (www.fontdiner.com),
@@ -118,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

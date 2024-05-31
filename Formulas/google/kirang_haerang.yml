@@ -1,11 +1,12 @@
 ---
+name: Kirang Haerang
 description: Kirang Haerang
 resources:
-  Kirang_Haerang.zip:
-    urls:
-    - https://fonts.google.com/download?family=Kirang%20Haerang
-    sha256: 1b68cbb4262226b5cabfde0a185c1d5dbe65695c6e0d942c79b17a5d1527e098
-    file_size: 2308677
+  Kirang Haerang:
+    source: google
+    family: Kirang Haerang
+    files:
+    - https://fonts.gstatic.com/s/kiranghaerang/v21/E21-_dn_gvvIjhYON1lpIU4-bcqvWPaJq4no.ttf
 fonts:
 - name: Kirang Haerang
   styles:
@@ -13,9 +14,9 @@ fonts:
     type: Regular
     full_name: Kirang Haerang Regular
     post_script_name: KirangHaerang-Regular
-    version: '1.00'
+    version: '1.001'
     copyright: Copyright 2018 The Kirang Haerang Project Authors
-    font: KirangHaerang-Regular.ttf
+    font: E21-_dn_gvvIjhYON1lpIU4-bcqvWPaJq4no.ttf
 extract: {}
 copyright: Copyright 2018 The Kirang Haerang Project Authors
 license_url: http://scripts.sil.org/OFL
@@ -24,7 +25,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  https://openfontlicense.org
+  http://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -113,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 0e437d77fb84a396a071f2e65c8f11989d2389089495996bd1cabcc179d8c8bd
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

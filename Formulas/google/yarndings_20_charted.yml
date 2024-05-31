@@ -1,11 +1,12 @@
 ---
+name: Yarndings 20 Charted
 description: Yarndings 20 Charted
 resources:
-  Yarndings_20_Charted.zip:
-    urls:
-    - https://fonts.google.com/download?family=Yarndings%2020%20Charted
-    sha256: 93dcd9a03aa7e3c1ef58cafd8d880f0e6ca24c8e0fdfbe876ae0a907200eb425
-    file_size: 46266
+  Yarndings 20 Charted:
+    source: google
+    family: Yarndings 20 Charted
+    files:
+    - https://fonts.gstatic.com/s/yarndings20charted/v2/QldRNSdbpg0G8vh0W2qxe0l-hcUPtY2VaLQm4UTqz5V9.ttf
 fonts:
 - name: Yarndings 20 Charted
   styles:
@@ -15,7 +16,7 @@ fonts:
     post_script_name: Yarndings20Charted-Regular
     version: 1.000; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type-yarndings)
-    font: Yarndings20Charted-Regular.ttf
+    font: QldRNSdbpg0G8vh0W2qxe0l-hcUPtY2VaLQm4UTqz5V9.ttf
 extract: {}
 copyright: Copyright 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type-yarndings)
 license_url: https://openfontlicense.org
@@ -113,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: dab5d61283f2c700ffa64c1ea876373f14fe6c1d18fa0fdab92f5dc96e1b34e3
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

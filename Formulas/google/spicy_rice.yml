@@ -1,12 +1,13 @@
 ---
+name: Spicy Rice
 description: Spicy Rice
 homepage: http://www.astigmatic.com/
 resources:
-  SpicyRice.zip:
-    urls:
-    - https://fonts.google.com/download?family=Spicy%20Rice
-    sha256: 23ee5dd8f283e2d23f04c990e744f037421fd2f97fcea31ffe7a4a413ac3afb9
-    file_size: 39970
+  Spicy Rice:
+    source: google
+    family: Spicy Rice
+    files:
+    - https://fonts.gstatic.com/s/spicyrice/v25/uK_24rSEd-Uqwk4jY1RyGv-2WkowRcc.ttf
 fonts:
 - name: Spicy Rice
   styles:
@@ -18,11 +19,11 @@ fonts:
     copyright: |-
       Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
       Font Name "Spicy Rice"
-    font: SpicyRice-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com),
-  with Reserved Font Name "Spicy Rice"
+    font: uK_24rSEd-Uqwk4jY1RyGv-2WkowRcc.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+  Font Name "Spicy Rice"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI)
@@ -119,3 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

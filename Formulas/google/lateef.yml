@@ -1,12 +1,19 @@
 ---
+name: Lateef
 description: Lateef
 homepage: https://www.sil.org/
 resources:
-  Lateef.zip:
-    urls:
-    - https://fonts.google.com/download?family=Lateef
-    sha256: b156d60edbb1d1269873b05ec5dfaabb23b9f5df1c6686202f3807dd046e41d7
-    file_size: 714013
+  Lateef:
+    source: google
+    family: Lateef
+    files:
+    - https://fonts.gstatic.com/s/lateef/v30/hESz6XVnNCxEvkb0bjygbqTb9nQ-RA.ttf
+    - https://fonts.gstatic.com/s/lateef/v30/hESz6XVnNCxEvkb0Cj-gbqTb9nQ-RA.ttf
+    - https://fonts.gstatic.com/s/lateef/v30/hESw6XVnNCxEvkbMpheEZo_H_w.ttf
+    - https://fonts.gstatic.com/s/lateef/v30/hESz6XVnNCxEvkb0Uj6gbqTb9nQ-RA.ttf
+    - https://fonts.gstatic.com/s/lateef/v30/hESz6XVnNCxEvkb0fjmgbqTb9nQ-RA.ttf
+    - https://fonts.gstatic.com/s/lateef/v30/hESz6XVnNCxEvkb0GjigbqTb9nQ-RA.ttf
+    - https://fonts.gstatic.com/s/lateef/v30/hESz6XVnNCxEvkb0BjugbqTb9nQ-RA.ttf
 fonts:
 - name: Lateef
   styles:
@@ -17,7 +24,7 @@ fonts:
     version: '4.200'
     description: Arabic script font for Sindhi and other languages of southern Asia
     copyright: Copyright (c) 1994-2023 SIL International.
-    font: Lateef-Bold.ttf
+    font: hESz6XVnNCxEvkb0GjigbqTb9nQ-RA.ttf
   - family_name: Lateef
     type: Regular
     full_name: Lateef
@@ -25,7 +32,7 @@ fonts:
     version: '4.200'
     description: Arabic script font for Sindhi and other languages of southern Asia
     copyright: Copyright (c) 1994-2023 SIL International.
-    font: Lateef-Regular.ttf
+    font: hESw6XVnNCxEvkbMpheEZo_H_w.ttf
 - name: Lateef ExtraBold
   styles:
   - family_name: Lateef ExtraBold
@@ -37,7 +44,7 @@ fonts:
     version: '4.200'
     description: Arabic script font for Sindhi and other languages of southern Asia
     copyright: Copyright (c) 1994-2023 SIL International.
-    font: Lateef-ExtraBold.ttf
+    font: hESz6XVnNCxEvkb0BjugbqTb9nQ-RA.ttf
 - name: Lateef ExtraLight
   styles:
   - family_name: Lateef ExtraLight
@@ -49,7 +56,7 @@ fonts:
     version: '4.200'
     description: Arabic script font for Sindhi and other languages of southern Asia
     copyright: Copyright (c) 1994-2023 SIL International.
-    font: Lateef-ExtraLight.ttf
+    font: hESz6XVnNCxEvkb0bjygbqTb9nQ-RA.ttf
 - name: Lateef Light
   styles:
   - family_name: Lateef Light
@@ -61,7 +68,7 @@ fonts:
     version: '4.200'
     description: Arabic script font for Sindhi and other languages of southern Asia
     copyright: Copyright (c) 1994-2023 SIL International.
-    font: Lateef-Light.ttf
+    font: hESz6XVnNCxEvkb0Cj-gbqTb9nQ-RA.ttf
 - name: Lateef Medium
   styles:
   - family_name: Lateef Medium
@@ -73,7 +80,7 @@ fonts:
     version: '4.200'
     description: Arabic script font for Sindhi and other languages of southern Asia
     copyright: Copyright (c) 1994-2023 SIL International.
-    font: Lateef-Medium.ttf
+    font: hESz6XVnNCxEvkb0Uj6gbqTb9nQ-RA.ttf
 - name: Lateef SemiBold
   styles:
   - family_name: Lateef SemiBold
@@ -85,7 +92,7 @@ fonts:
     version: '4.200'
     description: Arabic script font for Sindhi and other languages of southern Asia
     copyright: Copyright (c) 1994-2023 SIL International.
-    font: Lateef-SemiBold.ttf
+    font: hESz6XVnNCxEvkb0fjmgbqTb9nQ-RA.ttf
 extract: {}
 copyright: Copyright (c) 1994-2023 SIL International.
 license_url: https://scripts.sil.org/OFL
@@ -96,13 +103,13 @@ open_license: |-
   (https://github.com/Fonthausen/CrimsonPro)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
-  This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  This license is copied below, and is also available with an FAQ at:
+  https://scripts.sil.org/OFL
 
 
-  -----------------------------------------------------------
+  ----------------------------------------------------
   SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
-  -----------------------------------------------------------
+  ----------------------------------------------------
 
   PREAMBLE
   The goals of the Open Font License (OFL) are to stimulate worldwide
@@ -186,5 +193,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 1ff0d0229cbc6adcec78ac61986b48bb7c23c022a0b04902921a2f4aabb54d4f
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

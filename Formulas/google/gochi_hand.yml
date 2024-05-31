@@ -1,12 +1,12 @@
 ---
+name: Gochi Hand
 description: Gochi Hand
-homepage:
 resources:
-  GochiHand.zip:
-    urls:
-    - https://fonts.google.com/download?family=Gochi%20Hand
-    sha256: 5abef4ef15b830c94490be048eb13e2b15902dca1bb368a7317f7f38c9720b0c
-    file_size: 26163
+  Gochi Hand:
+    source: google
+    family: Gochi Hand
+    files:
+    - https://fonts.gstatic.com/s/gochihand/v23/hES06XlsOjtJsgCkx1PkTo71-n0nXWA.ttf
 fonts:
 - name: Gochi Hand
   styles:
@@ -17,11 +17,10 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011, Huerta Tipografica (www.huertatipografica.com.ar),  with
       Reserved Font Names "Gochi" and "Gochi Hand"
-    font: GochiHand-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Huerta Tipografica (www.huertatipografica.com.ar info@huertatipografica.com.ar),
-  with Reserved Font Names "Gochi" and "Gochi Hand"
+    font: hES06XlsOjtJsgCkx1PkTo71-n0nXWA.ttf
+extract: {}
+copyright: Copyright (c) 2011, Huerta Tipografica (www.huertatipografica.com.ar),  with
+  Reserved Font Names "Gochi" and "Gochi Hand"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Juan Pablo del Peral (juan@huertatipografica.com.ar),
@@ -118,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

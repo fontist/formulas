@@ -1,11 +1,12 @@
 ---
+name: Chokokutai
 description: Chokokutai
 resources:
-  Chokokutai.zip:
-    urls:
-    - https://fonts.google.com/download?family=Chokokutai
-    sha256: 6d37b8cfce598d6b8e33abd547c7a49609d4358102812e12946d6da60ba9960f
-    file_size: 75712
+  Chokokutai:
+    source: google
+    family: Chokokutai
+    files:
+    - https://fonts.gstatic.com/s/chokokutai/v9/kmK4Zqw4HwvCeHGM8Fws9y7ypu1Kr7I.ttf
 fonts:
 - name: Chokokutai
   styles:
@@ -16,7 +17,7 @@ fonts:
     version: 1.000; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Chokokutai Project Authors (https://github.com/go108go/Chokokutai),
       all rights reserved.
-    font: Chokokutai-Regular.ttf
+    font: kmK4Zqw4HwvCeHGM8Fws9y7ypu1Kr7I.ttf
 extract: {}
 copyright: Copyright 2020 The Chokokutai Project Authors (https://github.com/go108go/Chokokutai),
   all rights reserved.
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 700aaf33f5584abda17b73151776c2f379bf538d572320e024a76eada3b354b7
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

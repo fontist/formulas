@@ -1,11 +1,20 @@
 ---
+name: Lora
 description: Lora
 homepage: https://cyreal.org
 resources:
-  Lora.zip:
-    urls:
-    - https://fonts.google.com/download?family=Lora
-    file_size: 783703
+  Lora:
+    source: google
+    family: Lora
+    files:
+    - https://fonts.gstatic.com/s/lora/v35/0QI6MX1D_JOuGQbT0gvTJPa787weuyJGmKxemMeZ.ttf
+    - https://fonts.gstatic.com/s/lora/v35/0QI6MX1D_JOuGQbT0gvTJPa787wsuyJGmKxemMeZ.ttf
+    - https://fonts.gstatic.com/s/lora/v35/0QI6MX1D_JOuGQbT0gvTJPa787zAvCJGmKxemMeZ.ttf
+    - https://fonts.gstatic.com/s/lora/v35/0QI6MX1D_JOuGQbT0gvTJPa787z5vCJGmKxemMeZ.ttf
+    - https://fonts.gstatic.com/s/lora/v35/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-MoFkqh8ndeZzZ0.ttf
+    - https://fonts.gstatic.com/s/lora/v35/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-PgFkqh8ndeZzZ0.ttf
+    - https://fonts.gstatic.com/s/lora/v35/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-BQCkqh8ndeZzZ0.ttf
+    - https://fonts.gstatic.com/s/lora/v35/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-C0Ckqh8ndeZzZ0.ttf
 fonts:
 - name: Lora
   styles:
@@ -13,50 +22,34 @@ fonts:
     type: Bold
     full_name: Lora Bold
     post_script_name: Lora-Bold
-    version: '3.004'
+    version: '3.008'
     copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
       with Reserved Font Name "Lora".
-    font: Lora-Bold.ttf
+    font: 0QI6MX1D_JOuGQbT0gvTJPa787z5vCJGmKxemMeZ.ttf
   - family_name: Lora
     type: Bold Italic
     full_name: Lora Bold Italic
     post_script_name: Lora-BoldItalic
-    version: '3.004'
+    version: '3.008'
     copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
       with Reserved Font Name "Lora".
-    font: Lora-BoldItalic.ttf
+    font: 0QI8MX1D_JOuMw_hLdO6T2wV9KnW-C0Ckqh8ndeZzZ0.ttf
   - family_name: Lora
     type: Italic
     full_name: Lora Italic
     post_script_name: Lora-Italic
-    version: '3.004'
+    version: '3.008'
     copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
       with Reserved Font Name "Lora".
-    font: Lora-Italic-VariableFont_wght.ttf
-  - family_name: Lora
-    type: Italic
-    full_name: Lora Italic
-    post_script_name: Lora-Italic
-    version: '3.004'
-    copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
-      with Reserved Font Name "Lora".
-    font: Lora-Italic.ttf
+    font: 0QI8MX1D_JOuMw_hLdO6T2wV9KnW-MoFkqh8ndeZzZ0.ttf
   - family_name: Lora
     type: Regular
     full_name: Lora Regular
     post_script_name: Lora-Regular
-    version: '3.004'
+    version: '3.008'
     copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
       with Reserved Font Name "Lora".
-    font: Lora-VariableFont_wght.ttf
-  - family_name: Lora
-    type: Regular
-    full_name: Lora Regular
-    post_script_name: Lora-Regular
-    version: '3.004'
-    copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
-      with Reserved Font Name "Lora".
-    font: Lora-Regular.ttf
+    font: 0QI6MX1D_JOuGQbT0gvTJPa787weuyJGmKxemMeZ.ttf
 - name: Lora Medium
   styles:
   - family_name: Lora Medium
@@ -65,20 +58,20 @@ fonts:
     preferred_type: Medium Italic
     full_name: Lora Medium Italic
     post_script_name: Lora-MediumItalic
-    version: '3.004'
+    version: '3.008'
     copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
       with Reserved Font Name "Lora".
-    font: Lora-MediumItalic.ttf
+    font: 0QI8MX1D_JOuMw_hLdO6T2wV9KnW-PgFkqh8ndeZzZ0.ttf
   - family_name: Lora Medium
     type: Regular
     preferred_family_name: Lora
     preferred_type: Medium
     full_name: Lora Medium
     post_script_name: Lora-Medium
-    version: '3.004'
+    version: '3.008'
     copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
       with Reserved Font Name "Lora".
-    font: Lora-Medium.ttf
+    font: 0QI6MX1D_JOuGQbT0gvTJPa787wsuyJGmKxemMeZ.ttf
 - name: Lora SemiBold
   styles:
   - family_name: Lora SemiBold
@@ -87,20 +80,20 @@ fonts:
     preferred_type: SemiBold Italic
     full_name: Lora SemiBold Italic
     post_script_name: Lora-SemiBoldItalic
-    version: '3.004'
+    version: '3.008'
     copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
       with Reserved Font Name "Lora".
-    font: Lora-SemiBoldItalic.ttf
+    font: 0QI8MX1D_JOuMw_hLdO6T2wV9KnW-BQCkqh8ndeZzZ0.ttf
   - family_name: Lora SemiBold
     type: Regular
     preferred_family_name: Lora
     preferred_type: SemiBold
     full_name: Lora SemiBold
     post_script_name: Lora-SemiBold
-    version: '3.004'
+    version: '3.008'
     copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
       with Reserved Font Name "Lora".
-    font: Lora-SemiBold.ttf
+    font: 0QI6MX1D_JOuGQbT0gvTJPa787zAvCJGmKxemMeZ.ttf
 extract: {}
 copyright: Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic),
   with Reserved Font Name "Lora".
@@ -110,7 +103,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -199,5 +192,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 68290ddf1aaa79264ce87cb57ad0a02b218839198ebd6c30e9f9d8086a7bde05
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

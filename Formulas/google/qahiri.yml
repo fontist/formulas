@@ -3,11 +3,11 @@ name: Qahiri
 description: Qahiri
 homepage: https://aliftype.com
 resources:
-  Qahiri.zip:
-    urls:
-    - https://fonts.google.com/download?family=Qahiri
-    sha256: 56dc1596303abc1479768f114740fbb581404c9f266de204ac56d1bf9fac81e8
-    file_size: 17326
+  Qahiri:
+    source: google
+    family: Qahiri
+    files:
+    - https://fonts.gstatic.com/s/qahiri/v9/tsssAp1RZy0C_hGuU3Chrnmupw.ttf
 fonts:
 - name: Qahiri
   styles:
@@ -20,7 +20,7 @@ fonts:
       old manuscript Kufic calligraphy style of the late master of Arabic calligraphy
       Mohammad Abdul Qadir.
     copyright: Copyright 2021 The Qahiri Project Authors (github.com/alif-type/qahiri).
-    font: Qahiri-Regular.ttf
+    font: tsssAp1RZy0C_hGuU3Chrnmupw.ttf
 extract: {}
 copyright: Copyright 2021 The Qahiri Project Authors (github.com/alif-type/qahiri).
 license_url: https://scripts.sil.org/OFL
@@ -118,5 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 4fd0b555986291fe76a29290700fda91473f01ed19a322aaa6588eb4499f8470
-command: google import --formulas_path Formulas
+command: import google -n 9999

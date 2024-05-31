@@ -3,11 +3,11 @@ name: Miniver
 description: Miniver
 homepage: http://www.fontbros.com/openwindow.php
 resources:
-  Miniver.zip:
-    urls:
-    - https://fonts.google.com/download?family=Miniver
-    sha256: 70f8049a66a1f4a8027a4807621c7d4aaf1360b4c4b8f77dba2a4ef7ca287687
-    file_size: 30730
+  Miniver:
+    source: google
+    family: Miniver
+    files:
+    - https://fonts.gstatic.com/s/miniver/v25/eLGcP-PxIg-5H0vC770Cy8r8fWA.ttf
 fonts:
 - name: Miniver
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: '1.000'
     copyright: Copyright (c) 2011 by Open Window (dathanboardman@gmail.com) with Reseved
       Font Name "Miniver"
-    font: Miniver-Regular.ttf
-extract:
-  format: zip
+    font: eLGcP-PxIg-5H0vC770Cy8r8fWA.ttf
+extract: {}
 copyright: Copyright (c) 2011 by Open Window (dathanboardman@gmail.com) with Reseved
   Font Name "Miniver"
 license_url: http://scripts.sil.org/OFL
@@ -119,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

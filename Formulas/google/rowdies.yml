@@ -3,37 +3,42 @@ name: Rowdies
 description: Rowdies
 homepage: http://magictype.in
 resources:
-  Rowdies.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rowdies
-    sha256: 4eb739b54480e38b92ba1f3eef90801847b55ff1b121b8ae5d0c6e0c852fc055
-    file_size: 122043
+  Rowdies:
+    source: google
+    family: Rowdies
+    files:
+    - https://fonts.gstatic.com/s/rowdies/v17/ptRMTieMYPNBAK219hth5O7yKQNute8.ttf
+    - https://fonts.gstatic.com/s/rowdies/v17/ptRJTieMYPNBAK21zrdJwObZNQo.ttf
+    - https://fonts.gstatic.com/s/rowdies/v17/ptRMTieMYPNBAK219gtm5O7yKQNute8.ttf
 fonts:
 - name: Rowdies
   styles:
-  - family_name: Rowdies
-    type: Light
-    full_name: Rowdies Light
-    post_script_name: Rowdies-Light
-    version: 1.000; ttfautohint (v1.8.3)
-    copyright: Copyright 2018 The Rowdies Project Authors (https://github.com/magictype/rowdies)
-    font: Rowdies-Light.ttf
-  - family_name: Rowdies
-    type: Regular
-    full_name: Rowdies Regular
-    post_script_name: Rowdies-Regular
-    version: 1.000; ttfautohint (v1.8.3)
-    copyright: Copyright 2018 The Rowdies Project Authors (https://github.com/magictype/rowdies)
-    font: Rowdies-Regular.ttf
   - family_name: Rowdies
     type: Bold
     full_name: Rowdies Bold
     post_script_name: Rowdies-Bold
     version: 1.000; ttfautohint (v1.8.3)
     copyright: Copyright 2018 The Rowdies Project Authors (https://github.com/magictype/rowdies)
-    font: Rowdies-Bold.ttf
-extract:
-  format: zip
+    font: ptRMTieMYPNBAK219gtm5O7yKQNute8.ttf
+  - family_name: Rowdies
+    type: Regular
+    full_name: Rowdies Regular
+    post_script_name: Rowdies-Regular
+    version: 1.000; ttfautohint (v1.8.3)
+    copyright: Copyright 2018 The Rowdies Project Authors (https://github.com/magictype/rowdies)
+    font: ptRJTieMYPNBAK21zrdJwObZNQo.ttf
+- name: Rowdies Light
+  styles:
+  - family_name: Rowdies Light
+    type: Regular
+    preferred_family_name: Rowdies
+    preferred_type: Light
+    full_name: Rowdies Light
+    post_script_name: Rowdies-Light
+    version: 1.000; ttfautohint (v1.8.3)
+    copyright: Copyright 2018 The Rowdies Project Authors (https://github.com/magictype/rowdies)
+    font: ptRMTieMYPNBAK219hth5O7yKQNute8.ttf
+extract: {}
 copyright: Copyright 2018 The Rowdies Project Authors (https://github.com/magictype/rowdies)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
@@ -130,3 +135,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Chela One
 description: Chela One
 homepage: www.latinotype.com
 resources:
-  ChelaOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Chela%20One
-    sha256: 7b00a6b804ef9f4623f5b00624e997a91689326eebd761d8c30660e68436520d
-    file_size: 21302
+  Chela One:
+    source: google
+    family: Chela One
+    files:
+    - https://fonts.gstatic.com/s/chelaone/v21/6ae-4KC7Uqgdz_JZdPIy31vWNTMwoQ.ttf
 fonts:
 - name: Chela One
   styles:
@@ -17,11 +18,10 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2012 by LatinoType (www.latinotype.com), with Reserved
       Font Name 'Chela'
-    font: ChelaOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, LatinoType (luciano@latinotype.com), with Reserved
-  Font Names 'Chela'
+    font: 6ae-4KC7Uqgdz_JZdPIy31vWNTMwoQ.ttf
+extract: {}
+copyright: Copyright (c) 2012 by LatinoType (www.latinotype.com), with Reserved Font
+  Name 'Chela'
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012, LatinoType (luciano@latinotype.com), with Reserved Font Names 'Chela'
@@ -117,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

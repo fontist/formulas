@@ -1,23 +1,17 @@
 ---
+name: Chau Philomene One
 description: Chau Philomene One
 homepage: www.tipotype.com
 resources:
-  ChauPhilomeneOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Chau%20Philomene%20One
-    sha256: ca76ef16c85a55081266bd11de173f46ac89701b2be118d656e00fdfba79a27e
-    file_size: 43185
+  Chau Philomene One:
+    source: google
+    family: Chau Philomene One
+    files:
+    - https://fonts.gstatic.com/s/chauphilomeneone/v15/55xxezRsPtfie1vPY49qzdgSlJiHRQFsnIx7QMISdQ.ttf
+    - https://fonts.gstatic.com/s/chauphilomeneone/v15/55xzezRsPtfie1vPY49qzdgSlJiHRQFcnoZ_YscCdXQB.ttf
 fonts:
 - name: Chau Philomene One
   styles:
-  - family_name: Chau Philomene One
-    type: Regular
-    full_name: Chau Philomene One Regular
-    post_script_name: ChauPhilomeneOne-Regular
-    version: '1.002'
-    copyright: Copyright (c) 2010-2012, TipoType (produccion.taller@gmail.com), with
-      Reserved Font Name "Chau Philomene"
-    font: ChauPhilomeneOne-Regular.ttf
   - family_name: Chau Philomene One
     type: Italic
     full_name: Chau Philomene One Italic
@@ -25,9 +19,16 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2010-2012, TipoType (produccion.taller@gmail.com www.tipotype.com),
       with Reserved Font Name "Chau Philomene"
-    font: ChauPhilomeneOne-Italic.ttf
-extract:
-  format: zip
+    font: 55xzezRsPtfie1vPY49qzdgSlJiHRQFcnoZ_YscCdXQB.ttf
+  - family_name: Chau Philomene One
+    type: Regular
+    full_name: Chau Philomene One Regular
+    post_script_name: ChauPhilomeneOne-Regular
+    version: '1.002'
+    copyright: Copyright (c) 2010-2012, TipoType (produccion.taller@gmail.com), with
+      Reserved Font Name "Chau Philomene"
+    font: 55xxezRsPtfie1vPY49qzdgSlJiHRQFsnIx7QMISdQ.ttf
+extract: {}
 copyright: Copyright (c) 2010-2012, TipoType (produccion.taller@gmail.com), with Reserved
   Font Name "Chau Philomene"
 license_url: http://scripts.sil.org/OFL
@@ -125,3 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

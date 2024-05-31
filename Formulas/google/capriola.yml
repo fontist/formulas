@@ -3,11 +3,11 @@ name: Capriola
 description: Capriola
 homepage: www.sorkintype.com
 resources:
-  Capriola.zip:
-    urls:
-    - https://fonts.google.com/download?family=Capriola
-    sha256: dd053898e7c637c2d470647c102441326370e15de4651363049bfaf087d867ab
-    file_size: 47816
+  Capriola:
+    source: google
+    family: Capriola
+    files:
+    - https://fonts.gstatic.com/s/capriola/v14/wXKoE3YSppcvo1PDln_8L-AinG8y.ttf
 fonts:
 - name: Capriola
   styles:
@@ -28,11 +28,10 @@ fonts:
       combined with utility makes it ideal for a wide range of uses.
     copyright: Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com) with Reserved
       Font Name "Capriola".
-    font: Capriola-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)
-  with Reserved Font Name "Capriola".
+    font: wXKoE3YSppcvo1PDln_8L-AinG8y.ttf
+extract: {}
+copyright: Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com) with Reserved Font
+  Name "Capriola".
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012 by Sorkin Type Co (www.sorkintype.com), with Reserved Font Name "Capriola".
@@ -128,3 +127,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

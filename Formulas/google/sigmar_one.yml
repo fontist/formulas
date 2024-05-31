@@ -1,12 +1,13 @@
 ---
+name: Sigmar One
 description: Sigmar One
 homepage: http://www.sansoxygen.com
 resources:
-  SigmarOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Sigmar%20One
-    sha256: c692505ee16a91832134f48837898a7cafe1c01f25c0bd367d81dc9c4aa9315f
-    file_size: 87457
+  Sigmar One:
+    source: google
+    family: Sigmar One
+    files:
+    - https://fonts.gstatic.com/s/sigmarone/v18/co3DmWZ8kjZuErj9Ta3dk6Pjp3Di8U0.ttf
 fonts:
 - name: Sigmar One
   styles:
@@ -16,9 +17,8 @@ fonts:
     post_script_name: SigmarOne-Regular
     version: '2.000'
     copyright: Copyright 2011 The Sigmar One Project Authors (contact@sansoxygen.com)
-    font: SigmarOne-Regular.ttf
-extract:
-  format: zip
+    font: co3DmWZ8kjZuErj9Ta3dk6Pjp3Di8U0.ttf
+extract: {}
 copyright: Copyright 2011 The Sigmar One Project Authors (contact@sansoxygen.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -115,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

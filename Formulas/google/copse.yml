@@ -1,13 +1,12 @@
 ---
 name: Copse
 description: Copse
-homepage:
 resources:
-  Copse.zip:
-    urls:
-    - https://fonts.google.com/download?family=Copse
-    sha256: 26b2d0498c4b2a7a1a5c409e687de49ae41b875fd3a31f9ce93fab99a4e6893d
-    file_size: 36332
+  Copse:
+    source: google
+    family: Copse
+    files:
+    - https://fonts.gstatic.com/s/copse/v15/11hPGpDKz1rGb0djHkihUb-A.ttf
 fonts:
 - name: Copse
   styles:
@@ -22,11 +21,11 @@ fonts:
     copyright: |-
       "Copyright (c) 2010, Daniel Rhatigan
       (sparky@ultrasparky.org) with Reserved Font Name Copse"
-    font: Copse-Regular.ttf
-extract:
-  format: zip
-copyright: '"Copyright (c) 2010, Daniel Rhatigan (sparky@ultrasparky.org) with Reserved
-  Font Name Copse"'
+    font: 11hPGpDKz1rGb0djHkihUb-A.ttf
+extract: {}
+copyright: |-
+  "Copyright (c) 2010, Daniel Rhatigan
+  (sparky@ultrasparky.org) with Reserved Font Name Copse"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Daniel Rhatigan (sparky@ultrasparky.org)
@@ -123,3 +122,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

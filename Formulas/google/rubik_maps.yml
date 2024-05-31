@@ -1,12 +1,13 @@
 ---
+name: Rubik Maps
 description: Rubik Maps
 homepage: http://www.google.com/fonts
 resources:
-  Rubik_Maps.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rubik%20Maps
-    sha256: 111b96f198794f260396710c2b1e3b589b7880c601c08e8f13a8ad7269196ea2
-    file_size: 957093
+  Rubik Maps:
+    source: google
+    family: Rubik Maps
+    files:
+    - https://fonts.gstatic.com/s/rubikmaps/v1/Gw6_wcjl80TZK9XxtbbejSYUChRqp9k.ttf
 fonts:
 - name: Rubik Maps
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: RubikMaps-Regular
     version: '2.201'
     copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
-    font: RubikMaps-Regular.ttf
+    font: Gw6_wcjl80TZK9XxtbbejSYUChRqp9k.ttf
 extract: {}
 copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: c3c2c709e7b31c3cda919e287b6e92a0dcff25c90618bcd28b90d1d520074494
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

@@ -3,11 +3,11 @@ name: Shalimar
 description: Shalimar
 homepage: www.typesetit.com
 resources:
-  Shalimar.zip:
-    urls:
-    - https://fonts.google.com/download?family=Shalimar
-    sha256: 7db482d3f36e94a76a4bf6d7ce77e17beea72796b532dbc1e2636b52435b61da
-    file_size: 99586
+  Shalimar:
+    source: google
+    family: Shalimar
+    files:
+    - https://fonts.gstatic.com/s/shalimar/v7/uU9MCBoE6I6iNWFUvTPx8PCOg0uX.ttf
 fonts:
 - name: Shalimar
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: Shalimar-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2004-2021 The Shalimar Project Authors (https://github.com/googlefonts/shalimar)
-    font: Shalimar-Regular.ttf
+    font: uU9MCBoE6I6iNWFUvTPx8PCOg0uX.ttf
 extract: {}
 copyright: Copyright 2004-2021 The Shalimar Project Authors (https://github.com/googlefonts/shalimar)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 7e96916fcbbff784cf076a3bec09b9ac044a051f8658c4cc7730ee542071088b
-command: google import --formulas_path Formulas
+command: import google -n 9999

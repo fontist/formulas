@@ -1,14 +1,15 @@
 ---
+name: Fjord One
 description: Fjord One
 homepage: www.sorkintype.com
 resources:
-  FjordOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Fjord%20One
-    sha256: bc5bf24586aecd3d1311e384d50ecd5f137be5f8f92b9282f2ee063cf11d0993
-    file_size: 26609
+  Fjord One:
+    source: google
+    family: Fjord One
+    files:
+    - https://fonts.gstatic.com/s/fjordone/v21/zOL-4pbEnKBY_9S1jNKr6e5As-FeiQ.ttf
 fonts:
-- name: Fjord One
+- name: Fjord
   styles:
   - family_name: Fjord
     type: One
@@ -28,13 +29,13 @@ fonts:
       with Reserved Font Names "Fjord" and "Fjord One"
 
       This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
-    font: FjordOne-Regular.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)
-  with Reserved Font Names "Fjord" and "Fjord One" This Font Software is licensed
-  under the SIL Open Font License, Version 1.1. This license is copied below, and
-  is also available with a FAQ at: http://scripts.sil.org/OFL'
+    font: zOL-4pbEnKBY_9S1jNKr6e5As-FeiQ.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
+  with Reserved Font Names "Fjord" and "Fjord One"
+
+  This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
@@ -131,3 +132,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

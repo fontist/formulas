@@ -1,31 +1,18 @@
 ---
+name: Noticia Text
 description: Noticia Text
-homepage:
 resources:
-  NoticiaText.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noticia%20Text
-    sha256: ae5fe9aa9b2c89b95cde54f4c3af2dc1f8648d38a1ff961ce5d7fab59183a44c
-    file_size: 211888
+  Noticia Text:
+    source: google
+    family: Noticia Text
+    files:
+    - https://fonts.gstatic.com/s/noticiatext/v15/VuJ2dNDF2Yv9qppOePKYRP1GYTFZt0rNpQ.ttf
+    - https://fonts.gstatic.com/s/noticiatext/v15/VuJodNDF2Yv9qppOePKYRP12YztdlU_dpSjt.ttf
+    - https://fonts.gstatic.com/s/noticiatext/v15/VuJpdNDF2Yv9qppOePKYRP1-3R59v2HRrDH0eA.ttf
+    - https://fonts.gstatic.com/s/noticiatext/v15/VuJrdNDF2Yv9qppOePKYRP12YwPhumvVjjTkeMnz.ttf
 fonts:
 - name: Noticia Text
   styles:
-  - family_name: Noticia Text
-    type: Regular
-    full_name: Noticia Text
-    post_script_name: NoticiaText-Regular
-    version: '1.003'
-    copyright: Copyright (c) 2011 JM Sole (info@jmsole.cl), with Reserved Font Name
-      "Noticia Text".
-    font: NoticiaText-Regular.ttf
-  - family_name: Noticia Text
-    type: Italic
-    full_name: Noticia Text Italic
-    post_script_name: NoticiaText-Italic
-    version: '1.003'
-    copyright: Copyright (c) 2011 JM Sole (info@jmsole.cl), with Reserved Font Name
-      "Noticia Text".
-    font: NoticiaText-Italic.ttf
   - family_name: Noticia Text
     type: Bold
     full_name: Noticia Text Bold
@@ -33,7 +20,7 @@ fonts:
     version: '1.003'
     copyright: Copyright (c) 2011 JM Sole (info@jmsole.cl), with Reserved Font Name
       "Noticia Text".
-    font: NoticiaText-Bold.ttf
+    font: VuJpdNDF2Yv9qppOePKYRP1-3R59v2HRrDH0eA.ttf
   - family_name: Noticia Text
     type: Bold Italic
     full_name: Noticia Text Bold Italic
@@ -41,9 +28,24 @@ fonts:
     version: '1.003'
     copyright: Copyright (c) 2011 JM Sole (info@jmsole.cl), with Reserved Font Name
       "Noticia Text".
-    font: NoticiaText-BoldItalic.ttf
-extract:
-  format: zip
+    font: VuJrdNDF2Yv9qppOePKYRP12YwPhumvVjjTkeMnz.ttf
+  - family_name: Noticia Text
+    type: Italic
+    full_name: Noticia Text Italic
+    post_script_name: NoticiaText-Italic
+    version: '1.003'
+    copyright: Copyright (c) 2011 JM Sole (info@jmsole.cl), with Reserved Font Name
+      "Noticia Text".
+    font: VuJodNDF2Yv9qppOePKYRP12YztdlU_dpSjt.ttf
+  - family_name: Noticia Text
+    type: Regular
+    full_name: Noticia Text
+    post_script_name: NoticiaText-Regular
+    version: '1.003'
+    copyright: Copyright (c) 2011 JM Sole (info@jmsole.cl), with Reserved Font Name
+      "Noticia Text".
+    font: VuJ2dNDF2Yv9qppOePKYRP1GYTFZt0rNpQ.ttf
+extract: {}
 copyright: Copyright (c) 2011 JM Sole (info@jmsole.cl), with Reserved Font Name "Noticia
   Text".
 license_url: http://scripts.sil.org/OFL
@@ -143,3 +145,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

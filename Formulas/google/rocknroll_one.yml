@@ -3,11 +3,11 @@ name: RocknRoll One
 description: RocknRoll One
 homepage: http://fontworks.co.jp/
 resources:
-  RocknRoll_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=RocknRoll%20One
-    sha256: cc473ca02f0287f6f3488d63df703f367f85a6794b51c017d230dbe48c406572
-    file_size: 1631068
+  RocknRoll One:
+    source: google
+    family: RocknRoll One
+    files:
+    - https://fonts.gstatic.com/s/rocknrollone/v13/kmK7ZqspGAfCeUiW6FFlmEC9guVhs7tfUxc.ttf
 fonts:
 - name: RocknRoll One
   styles:
@@ -15,9 +15,9 @@ fonts:
     type: Regular
     full_name: RocknRoll One Regular
     post_script_name: RocknRollOne-Regular
-    version: 1.000; ttfautohint (v1.8.3)
+    version: '1.100'
     copyright: Copyright 2020 The RocknRoll Project Authors (https://github.com/fontworks-fonts/RocknRoll)
-    font: RocknRollOne-Regular.ttf
+    font: kmK7ZqspGAfCeUiW6FFlmEC9guVhs7tfUxc.ttf
 extract: {}
 copyright: Copyright 2020 The RocknRoll Project Authors (https://github.com/fontworks-fonts/RocknRoll)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 7a409c15c36b5207cffb3279ccac66d8a7800af3d9747eb34aa034f272a5c66c
-command: google import --formulas_path Formulas
+command: import google -n 9999

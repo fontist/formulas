@@ -3,44 +3,46 @@ name: Arsenal
 description: Arsenal
 homepage: http://stairsfor.com/
 resources:
-  Arsenal.zip:
-    urls:
-    - https://fonts.google.com/download?family=Arsenal
-    sha256: a8c5cbd12d8b0036db3386ffd30a409da75cf99b39e20ee026452ea7917bb2cc
-    file_size: 322921
+  Arsenal:
+    source: google
+    family: Arsenal
+    files:
+    - https://fonts.gstatic.com/s/arsenal/v12/wXKrE3kQtZQ4pF3D11_WAewrhXY.ttf
+    - https://fonts.gstatic.com/s/arsenal/v12/wXKpE3kQtZQ4pF3D513cBc4ulXYrtA.ttf
+    - https://fonts.gstatic.com/s/arsenal/v12/wXKuE3kQtZQ4pF3D7-P5JeQAmX8yrdk.ttf
+    - https://fonts.gstatic.com/s/arsenal/v12/wXKsE3kQtZQ4pF3D513kueEKnV03vdnKjw.ttf
 fonts:
 - name: Arsenal
   styles:
-  - family_name: Arsenal
-    type: Regular
-    full_name: Arsenal Regular
-    post_script_name: Arsenal-Regular
-    version: '2.000'
-    copyright: Copyright 2012 The Arsenal Project Authors (andrij.design@gmail.com)
-    font: Arsenal-Regular.ttf
-  - family_name: Arsenal
-    type: Italic
-    full_name: Arsenal Italic
-    post_script_name: Arsenal-Italic
-    version: '1.001'
-    copyright: Copyright 2012 The Arsenal Project Authors (andrij.design@gmail.com)
-    font: Arsenal-Italic.ttf
   - family_name: Arsenal
     type: Bold
     full_name: Arsenal Bold
     post_script_name: Arsenal-Bold
     version: '2.000'
     copyright: Copyright 2012 The Arsenal Project Authors (andrij.design@gmail.com)
-    font: Arsenal-Bold.ttf
+    font: wXKuE3kQtZQ4pF3D7-P5JeQAmX8yrdk.ttf
   - family_name: Arsenal
     type: Bold Italic
     full_name: Arsenal Bold Italic
     post_script_name: Arsenal-BoldItalic
     version: '1.001'
     copyright: Copyright 2012 The Arsenal Project Authors (andrij.design@gmail.com)
-    font: Arsenal-BoldItalic.ttf
-extract:
-  format: zip
+    font: wXKsE3kQtZQ4pF3D513kueEKnV03vdnKjw.ttf
+  - family_name: Arsenal
+    type: Italic
+    full_name: Arsenal Italic
+    post_script_name: Arsenal-Italic
+    version: '1.001'
+    copyright: Copyright 2012 The Arsenal Project Authors (andrij.design@gmail.com)
+    font: wXKpE3kQtZQ4pF3D513cBc4ulXYrtA.ttf
+  - family_name: Arsenal
+    type: Regular
+    full_name: Arsenal Regular
+    post_script_name: Arsenal-Regular
+    version: '2.000'
+    copyright: Copyright 2012 The Arsenal Project Authors (andrij.design@gmail.com)
+    font: wXKrE3kQtZQ4pF3D11_WAewrhXY.ttf
+extract: {}
 copyright: Copyright 2012 The Arsenal Project Authors (andrij.design@gmail.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -137,3 +139,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

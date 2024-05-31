@@ -1,59 +1,70 @@
 ---
+name: Inria Serif
 description: Inria Serif
 homepage: http://www.black-foundry.com
 resources:
-  InriaSerif.zip:
-    urls:
-    - https://fonts.google.com/download?family=Inria%20Serif
-    sha256: 62ef310ddb8f17c44ccd0bff209ba6cef7fcca6d7716c4c7ee230807b65e6b62
-    file_size: 273498
+  Inria Serif:
+    source: google
+    family: Inria Serif
+    files:
+    - https://fonts.gstatic.com/s/inriaserif/v16/fC14PYxPY3rXxEndZJAzN3wAVQjFhFyta3xN.ttf
+    - https://fonts.gstatic.com/s/inriaserif/v16/fC16PYxPY3rXxEndZJAzN3SuT4THjliPbmxN0_E.ttf
+    - https://fonts.gstatic.com/s/inriaserif/v16/fC1lPYxPY3rXxEndZJAzN0SsfSzNr0Ck.ttf
+    - https://fonts.gstatic.com/s/inriaserif/v16/fC1nPYxPY3rXxEndZJAzN3SudyjvqlCkcmU.ttf
+    - https://fonts.gstatic.com/s/inriaserif/v16/fC14PYxPY3rXxEndZJAzN3wQUgjFhFyta3xN.ttf
+    - https://fonts.gstatic.com/s/inriaserif/v16/fC16PYxPY3rXxEndZJAzN3SuT5TAjliPbmxN0_E.ttf
 fonts:
 - name: Inria Serif
   styles:
-  - family_name: Inria Serif
-    type: Light
-    full_name: Inria Serif Light
-    post_script_name: InriaSerif-Light
-    version: 1.000; ttfautohint (v1.8.3)
-    copyright: Copyright 2017 The Inria Serif Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
-    font: InriaSerif-Light.ttf
-  - family_name: Inria Serif
-    type: Light Italic
-    full_name: Inria Serif Light Italic
-    post_script_name: InriaSerif-LightItalic
-    version: 1.000; ttfautohint (v1.8.3)
-    copyright: Copyright 2017 The Inria Serif Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
-    font: InriaSerif-LightItalic.ttf
-  - family_name: Inria Serif
-    type: Regular
-    full_name: Inria Serif Regular
-    post_script_name: InriaSerif-Regular
-    version: 1.000; ttfautohint (v1.8.3)
-    copyright: Copyright 2017 The Inria Serif Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
-    font: InriaSerif-Regular.ttf
-  - family_name: Inria Serif
-    type: Italic
-    full_name: Inria Serif Italic
-    post_script_name: InriaSerif-Italic
-    version: 1.000; ttfautohint (v1.8.3)
-    copyright: Copyright 2017 The Inria Serif Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
-    font: InriaSerif-Italic.ttf
   - family_name: Inria Serif
     type: Bold
     full_name: Inria Serif Bold
     post_script_name: InriaSerif-Bold
     version: 1.000; ttfautohint (v1.8.3)
     copyright: Copyright 2017 The Inria Serif Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
-    font: InriaSerif-Bold.ttf
+    font: fC14PYxPY3rXxEndZJAzN3wQUgjFhFyta3xN.ttf
   - family_name: Inria Serif
     type: Bold Italic
     full_name: Inria Serif Bold Italic
     post_script_name: InriaSerif-BoldItalic
     version: 1.000; ttfautohint (v1.8.3)
     copyright: Copyright 2017 The Inria Serif Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
-    font: InriaSerif-BoldItalic.ttf
-extract:
-  format: zip
+    font: fC16PYxPY3rXxEndZJAzN3SuT5TAjliPbmxN0_E.ttf
+  - family_name: Inria Serif
+    type: Italic
+    full_name: Inria Serif Italic
+    post_script_name: InriaSerif-Italic
+    version: 1.000; ttfautohint (v1.8.3)
+    copyright: Copyright 2017 The Inria Serif Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
+    font: fC1nPYxPY3rXxEndZJAzN3SudyjvqlCkcmU.ttf
+  - family_name: Inria Serif
+    type: Regular
+    full_name: Inria Serif Regular
+    post_script_name: InriaSerif-Regular
+    version: 1.000; ttfautohint (v1.8.3)
+    copyright: Copyright 2017 The Inria Serif Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
+    font: fC1lPYxPY3rXxEndZJAzN0SsfSzNr0Ck.ttf
+- name: Inria Serif Light
+  styles:
+  - family_name: Inria Serif Light
+    type: Italic
+    preferred_family_name: Inria Serif
+    preferred_type: Light Italic
+    full_name: Inria Serif Light Italic
+    post_script_name: InriaSerif-LightItalic
+    version: 1.000; ttfautohint (v1.8.3)
+    copyright: Copyright 2017 The Inria Serif Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
+    font: fC16PYxPY3rXxEndZJAzN3SuT4THjliPbmxN0_E.ttf
+  - family_name: Inria Serif Light
+    type: Regular
+    preferred_family_name: Inria Serif
+    preferred_type: Light
+    full_name: Inria Serif Light
+    post_script_name: InriaSerif-Light
+    version: 1.000; ttfautohint (v1.8.3)
+    copyright: Copyright 2017 The Inria Serif Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
+    font: fC14PYxPY3rXxEndZJAzN3wAVQjFhFyta3xN.ttf
+extract: {}
 copyright: Copyright 2017 The Inria Serif Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -150,3 +161,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

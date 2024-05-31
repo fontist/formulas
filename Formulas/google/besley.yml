@@ -3,10 +3,22 @@ name: Besley
 description: Besley
 homepage: https://indestructibletype.com/Home.html
 resources:
-  Besley.zip:
-    urls:
-    - https://fonts.google.com/download?family=Besley
-    file_size: 513214
+  Besley:
+    source: google
+    family: Besley
+    files:
+    - https://fonts.gstatic.com/s/besley/v19/PlIhFlO1MaNwaNGWUC92IOH_mtG4fbbBSdRoFPOl8-E.ttf
+    - https://fonts.gstatic.com/s/besley/v19/PlIhFlO1MaNwaNGWUC92IOH_mtG4fYTBSdRoFPOl8-E.ttf
+    - https://fonts.gstatic.com/s/besley/v19/PlIhFlO1MaNwaNGWUC92IOH_mtG4fWjGSdRoFPOl8-E.ttf
+    - https://fonts.gstatic.com/s/besley/v19/PlIhFlO1MaNwaNGWUC92IOH_mtG4fVHGSdRoFPOl8-E.ttf
+    - https://fonts.gstatic.com/s/besley/v19/PlIhFlO1MaNwaNGWUC92IOH_mtG4fTbGSdRoFPOl8-E.ttf
+    - https://fonts.gstatic.com/s/besley/v19/PlIhFlO1MaNwaNGWUC92IOH_mtG4fR_GSdRoFPOl8-E.ttf
+    - https://fonts.gstatic.com/s/besley/v19/PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6CoZdiENGg4-E04A.ttf
+    - https://fonts.gstatic.com/s/besley/v19/PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6Ck5diENGg4-E04A.ttf
+    - https://fonts.gstatic.com/s/besley/v19/PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6Cf5BiENGg4-E04A.ttf
+    - https://fonts.gstatic.com/s/besley/v19/PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6CRpBiENGg4-E04A.ttf
+    - https://fonts.gstatic.com/s/besley/v19/PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6CIZBiENGg4-E04A.ttf
+    - https://fonts.gstatic.com/s/besley/v19/PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6CCJBiENGg4-E04A.ttf
 fonts:
 - name: Besley
   styles:
@@ -16,42 +28,28 @@ fonts:
     post_script_name: Besley-Bold
     version: '2.001'
     copyright: Copyright 2020 The Besley Project Authors (https://github.com/indestructible-type/Besley)
-    font: Besley-Bold.ttf
+    font: PlIhFlO1MaNwaNGWUC92IOH_mtG4fVHGSdRoFPOl8-E.ttf
   - family_name: Besley
     type: Bold Italic
     full_name: Besley Bold Italic
     post_script_name: Besley-BoldItalic
     version: '2.001'
     copyright: Copyright 2020 The Besley Project Authors (https://github.com/indestructible-type/Besley)
-    font: Besley-BoldItalic.ttf
+    font: PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6CRpBiENGg4-E04A.ttf
   - family_name: Besley
     type: Italic
     full_name: Besley Italic
     post_script_name: Besley-Italic
     version: '2.001'
     copyright: Copyright 2020 The Besley Project Authors (https://github.com/indestructible-type/Besley)
-    font: Besley-Italic.ttf
-  - family_name: Besley
-    type: Italic
-    full_name: Besley Italic
-    post_script_name: Besley-Italic
-    version: '2.001'
-    copyright: Copyright 2020 The Besley Project Authors (https://github.com/indestructible-type/Besley)
-    font: Besley-Italic-VariableFont_wght.ttf
+    font: PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6CoZdiENGg4-E04A.ttf
   - family_name: Besley
     type: Regular
     full_name: Besley Regular
     post_script_name: Besley-Regular
     version: '2.001'
     copyright: Copyright 2020 The Besley Project Authors (https://github.com/indestructible-type/Besley)
-    font: Besley-VariableFont_wght.ttf
-  - family_name: Besley
-    type: Regular
-    full_name: Besley Regular
-    post_script_name: Besley-Regular
-    version: '2.001'
-    copyright: Copyright 2020 The Besley Project Authors (https://github.com/indestructible-type/Besley)
-    font: Besley-Regular.ttf
+    font: PlIhFlO1MaNwaNGWUC92IOH_mtG4fbbBSdRoFPOl8-E.ttf
 - name: Besley Black
   styles:
   - family_name: Besley Black
@@ -62,7 +60,7 @@ fonts:
     post_script_name: Besley-BlackItalic
     version: '2.001'
     copyright: Copyright 2020 The Besley Project Authors (https://github.com/indestructible-type/Besley)
-    font: Besley-BlackItalic.ttf
+    font: PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6CCJBiENGg4-E04A.ttf
   - family_name: Besley Black
     type: Regular
     preferred_family_name: Besley
@@ -71,7 +69,7 @@ fonts:
     post_script_name: Besley-Black
     version: '2.001'
     copyright: Copyright 2020 The Besley Project Authors (https://github.com/indestructible-type/Besley)
-    font: Besley-Black.ttf
+    font: PlIhFlO1MaNwaNGWUC92IOH_mtG4fR_GSdRoFPOl8-E.ttf
 - name: Besley ExtraBold
   styles:
   - family_name: Besley ExtraBold
@@ -82,7 +80,7 @@ fonts:
     post_script_name: Besley-ExtraBoldItalic
     version: '2.001'
     copyright: Copyright 2020 The Besley Project Authors (https://github.com/indestructible-type/Besley)
-    font: Besley-ExtraBoldItalic.ttf
+    font: PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6CIZBiENGg4-E04A.ttf
   - family_name: Besley ExtraBold
     type: Regular
     preferred_family_name: Besley
@@ -91,7 +89,7 @@ fonts:
     post_script_name: Besley-ExtraBold
     version: '2.001'
     copyright: Copyright 2020 The Besley Project Authors (https://github.com/indestructible-type/Besley)
-    font: Besley-ExtraBold.ttf
+    font: PlIhFlO1MaNwaNGWUC92IOH_mtG4fTbGSdRoFPOl8-E.ttf
 - name: Besley Medium
   styles:
   - family_name: Besley Medium
@@ -102,7 +100,7 @@ fonts:
     post_script_name: Besley-MediumItalic
     version: '2.001'
     copyright: Copyright 2020 The Besley Project Authors (https://github.com/indestructible-type/Besley)
-    font: Besley-MediumItalic.ttf
+    font: PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6Ck5diENGg4-E04A.ttf
   - family_name: Besley Medium
     type: Regular
     preferred_family_name: Besley
@@ -111,7 +109,7 @@ fonts:
     post_script_name: Besley-Medium
     version: '2.001'
     copyright: Copyright 2020 The Besley Project Authors (https://github.com/indestructible-type/Besley)
-    font: Besley-Medium.ttf
+    font: PlIhFlO1MaNwaNGWUC92IOH_mtG4fYTBSdRoFPOl8-E.ttf
 - name: Besley SemiBold
   styles:
   - family_name: Besley SemiBold
@@ -122,7 +120,7 @@ fonts:
     post_script_name: Besley-SemiBoldItalic
     version: '2.001'
     copyright: Copyright 2020 The Besley Project Authors (https://github.com/indestructible-type/Besley)
-    font: Besley-SemiBoldItalic.ttf
+    font: PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6Cf5BiENGg4-E04A.ttf
   - family_name: Besley SemiBold
     type: Regular
     preferred_family_name: Besley
@@ -131,7 +129,7 @@ fonts:
     post_script_name: Besley-SemiBold
     version: '2.001'
     copyright: Copyright 2020 The Besley Project Authors (https://github.com/indestructible-type/Besley)
-    font: Besley-SemiBold.ttf
+    font: PlIhFlO1MaNwaNGWUC92IOH_mtG4fWjGSdRoFPOl8-E.ttf
 extract: {}
 copyright: Copyright 2020 The Besley Project Authors (https://github.com/indestructible-type/Besley)
 license_url: https://scripts.sil.org/OFL
@@ -229,5 +227,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 47e6e182370cd35521cbcc5f3415ee26267eaec775562526c0ac698067ee30f6
-command: google import --formulas_path Formulas
+command: import google -n 9999

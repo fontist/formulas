@@ -3,11 +3,17 @@ name: IBM Plex Sans Arabic
 description: IBM Plex Sans Arabic
 homepage: http://www.boldmonday.com
 resources:
-  IBM_Plex_Sans_Arabic.zip:
-    urls:
-    - https://fonts.google.com/download?family=IBM%20Plex%20Sans%20Arabic
-    sha256: abab7bf3cffb59d9c3bc0739fe1c7433010adafca8779a446ab49efc7d4772f6
-    file_size: 712023
+  IBM Plex Sans Arabic:
+    source: google
+    family: IBM Plex Sans Arabic
+    files:
+    - https://fonts.gstatic.com/s/ibmplexsansarabic/v12/Qw3MZRtWPQCuHme67tEYUIx3Kh0PHR9N6YNe3PC5eMlAMg0.ttf
+    - https://fonts.gstatic.com/s/ibmplexsansarabic/v12/Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YPy_dCTVsVJKxTs.ttf
+    - https://fonts.gstatic.com/s/ibmplexsansarabic/v12/Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YOW_tCTVsVJKxTs.ttf
+    - https://fonts.gstatic.com/s/ibmplexsansarabic/v12/Qw3CZRtWPQCuHme67tEYUIx3Kh0PHR9N6bs61vSbfdlA.ttf
+    - https://fonts.gstatic.com/s/ibmplexsansarabic/v12/Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YPO_9CTVsVJKxTs.ttf
+    - https://fonts.gstatic.com/s/ibmplexsansarabic/v12/Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YPi-NCTVsVJKxTs.ttf
+    - https://fonts.gstatic.com/s/ibmplexsansarabic/v12/Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YOG-dCTVsVJKxTs.ttf
 fonts:
 - name: IBM Plex Sans Arabic
   styles:
@@ -17,14 +23,14 @@ fonts:
     post_script_name: IBMPlexSansArabic-Bold
     version: '1.1'
     copyright: Copyright 2019 IBM Corp. All rights reserved.
-    font: IBMPlexSansArabic-Bold.ttf
+    font: Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YOG-dCTVsVJKxTs.ttf
   - family_name: IBM Plex Sans Arabic
     type: Regular
     full_name: IBM Plex Sans Arabic Regular
     post_script_name: IBMPlexSansArabic-Regular
     version: '1.1'
     copyright: Copyright 2019 IBM Corp. All rights reserved.
-    font: IBMPlexSansArabic-Regular.ttf
+    font: Qw3CZRtWPQCuHme67tEYUIx3Kh0PHR9N6bs61vSbfdlA.ttf
 - name: IBM Plex Sans Arabic ExtraLight
   styles:
   - family_name: IBM Plex Sans Arabic ExtraLight
@@ -35,7 +41,7 @@ fonts:
     post_script_name: IBMPlexSansArabic-ExtraLight
     version: '1.1'
     copyright: Copyright 2019 IBM Corp. All rights reserved.
-    font: IBMPlexSansArabic-ExtraLight.ttf
+    font: Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YPy_dCTVsVJKxTs.ttf
 - name: IBM Plex Sans Arabic Light
   styles:
   - family_name: IBM Plex Sans Arabic Light
@@ -46,7 +52,7 @@ fonts:
     post_script_name: IBMPlexSansArabic-Light
     version: '1.1'
     copyright: Copyright 2019 IBM Corp. All rights reserved.
-    font: IBMPlexSansArabic-Light.ttf
+    font: Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YOW_tCTVsVJKxTs.ttf
 - name: IBM Plex Sans Arabic Medium
   styles:
   - family_name: IBM Plex Sans Arabic Medium
@@ -57,7 +63,7 @@ fonts:
     post_script_name: IBMPlexSansArabic-Medium
     version: '1.1'
     copyright: Copyright 2019 IBM Corp. All rights reserved.
-    font: IBMPlexSansArabic-Medium.ttf
+    font: Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YPO_9CTVsVJKxTs.ttf
 - name: IBM Plex Sans Arabic SemiBold
   styles:
   - family_name: IBM Plex Sans Arabic SemiBold
@@ -68,7 +74,7 @@ fonts:
     post_script_name: IBMPlexSansArabic-SemiBold
     version: '1.1'
     copyright: Copyright 2019 IBM Corp. All rights reserved.
-    font: IBMPlexSansArabic-SemiBold.ttf
+    font: Qw3NZRtWPQCuHme67tEYUIx3Kh0PHR9N6YPi-NCTVsVJKxTs.ttf
 - name: IBM Plex Sans Arabic Thin
   styles:
   - family_name: IBM Plex Sans Arabic Thin
@@ -79,7 +85,7 @@ fonts:
     post_script_name: IBMPlexSansArabic-Thin
     version: '1.1'
     copyright: Copyright 2019 IBM Corp. All rights reserved.
-    font: IBMPlexSansArabic-Thin.ttf
+    font: Qw3MZRtWPQCuHme67tEYUIx3Kh0PHR9N6YNe3PC5eMlAMg0.ttf
 extract: {}
 copyright: Copyright 2019 IBM Corp. All rights reserved.
 license_url: http://scripts.sil.org/OFL
@@ -87,8 +93,8 @@ open_license: |-
   Copyright © 2017 IBM Corp. with Reserved Font Name "Plex"
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
-  This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+
+  This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -177,5 +183,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9295f032285837017763280cdcaf9fc8725fc10511654a80dc42f5841af7ce09
-command: google import --formulas_path Formulas
+command: import google -n 9999

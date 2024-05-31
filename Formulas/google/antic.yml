@@ -1,13 +1,12 @@
 ---
 name: Antic
 description: Antic
-homepage:
 resources:
-  Antic.zip:
-    urls:
-    - https://fonts.google.com/download?family=Antic
-    sha256: 628fa9140fe2aaeeef5ed489fae0fba521d0b486803334d37d02428fe62e63a7
-    file_size: 22384
+  Antic:
+    source: google
+    family: Antic
+    files:
+    - https://fonts.gstatic.com/s/antic/v19/TuGfUVB8XY5DRaZLodgzydtk.ttf
 fonts:
 - name: Antic
   styles:
@@ -18,9 +17,8 @@ fonts:
     version: '1.0012'
     copyright: Copyright (c) 2010, 2011, Santiago Orozco <hi@typemade.mx>, with Reserved
       Font Name "Antic"
-    font: Antic-Regular.ttf
-extract:
-  format: zip
+    font: TuGfUVB8XY5DRaZLodgzydtk.ttf
+extract: {}
 copyright: Copyright (c) 2010, 2011, Santiago Orozco <hi@typemade.mx>, with Reserved
   Font Name "Antic"
 license_url: http://scripts.sil.org/OFL
@@ -119,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Miss Fajardose
 description: Miss Fajardose
 homepage: http://www.sudtipos.com
 resources:
-  MissFajardose.zip:
-    urls:
-    - https://fonts.google.com/download?family=Miss%20Fajardose
-    sha256: 6ceabf269f8df703a844f9e04ed44e3e90c8b396ed8e5c3c883a192c9b11b24f
-    file_size: 31636
+  Miss Fajardose:
+    source: google
+    family: Miss Fajardose
+    files:
+    - https://fonts.gstatic.com/s/missfajardose/v22/E21-_dn5gvrawDdPFVl-N0Ajb8qvWPaJq4no.ttf
 fonts:
 - name: Miss Fajardose
   styles:
@@ -18,11 +19,11 @@ fonts:
     copyright: |-
       Copyright (c) 2004 Alejandro Paul (sudtipos@sudtipos.com),
       with Reserved Font Name "MissFajardose"
-    font: MissFajardose-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2004 Alejandro Paul (sudtipos@sudtipos.com), with Reserved
-  Font Name "MissFajardose"
+    font: E21-_dn5gvrawDdPFVl-N0Ajb8qvWPaJq4no.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2004 Alejandro Paul (sudtipos@sudtipos.com),
+  with Reserved Font Name "MissFajardose"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 Alejandro Paul (sudtipos@sudtipos.com),
@@ -119,3 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

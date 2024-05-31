@@ -1,12 +1,12 @@
 ---
+name: Russo One
 description: Russo One
-homepage:
 resources:
-  RussoOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Russo%20One
-    sha256: e01b59d0ef7a0803a7c3ae27aaa2e0719d37f888697ea762e60ec77a754c2bad
-    file_size: 20691
+  Russo One:
+    source: google
+    family: Russo One
+    files:
+    - https://fonts.gstatic.com/s/russoone/v16/Z9XUDmZRWg6M1LvRYsH-yMOInrib9Q.ttf
 fonts:
 - name: Russo One
   styles:
@@ -18,11 +18,10 @@ fonts:
     description: Copyright (c) 2012 by Jovanny Lemonad. All rights reserved.
     copyright: Copyright (c) 2011-2012, Jovanny Lemonad (jovanny.ru), with Reserved
       Font Name "Russo"
-    font: RussoOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011-2012, Jovanny Lemonad (lemonad@jovanny.ru), with Reserved
-  Font Name "Russo"
+    font: Z9XUDmZRWg6M1LvRYsH-yMOInrib9Q.ttf
+extract: {}
+copyright: Copyright (c) 2011-2012, Jovanny Lemonad (jovanny.ru), with Reserved Font
+  Name "Russo"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011-2012, Jovanny Lemonad (jovanny.ru), with Reserved Font Name "Russo"
@@ -118,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

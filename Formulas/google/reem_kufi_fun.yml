@@ -1,10 +1,15 @@
 ---
+name: Reem Kufi Fun
 description: Reem Kufi Fun
 resources:
-  Reem_Kufi_Fun.zip:
-    urls:
-    - https://fonts.google.com/download?family=Reem%20Kufi%20Fun
-    file_size: 244395
+  Reem Kufi Fun:
+    source: google
+    family: Reem Kufi Fun
+    files:
+    - https://fonts.gstatic.com/s/reemkufifun/v7/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChoYj3nCgrvqZzZXq.ttf
+    - https://fonts.gstatic.com/s/reemkufifun/v7/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChoYR3nCgrvqZzZXq.ttf
+    - https://fonts.gstatic.com/s/reemkufifun/v7/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChob92XCgrvqZzZXq.ttf
+    - https://fonts.gstatic.com/s/reemkufifun/v7/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChobE2XCgrvqZzZXq.ttf
 fonts:
 - name: Reem Kufi Fun
   styles:
@@ -19,19 +24,7 @@ fonts:
       calligraphy Mohammad Abdul Qadir who revived this art in the 20th century and
       formalised its rules.
     copyright: Copyright 2015-2022 The Reem Kufi Fun Project Authors (https://github.com/aliftype/reem-kufi).
-    font: ReemKufiFun-Bold.ttf
-  - family_name: Reem Kufi Fun
-    type: Regular
-    full_name: Reem Kufi Fun
-    post_script_name: ReemKufiFun
-    version: '1.005'
-    description: Reem Kufi is a Kufic typeface based on early Kufic (Mushafi) models,
-      but retrofitted to the Fatimid Kufic grid and with borrowing from its forms.
-      Reem Kufi is largely based on the Kufic designs of the late master of Arabic
-      calligraphy Mohammad Abdul Qadir who revived this art in the 20th century and
-      formalised its rules.
-    copyright: Copyright 2015-2022 The Reem Kufi Fun Project Authors (https://github.com/aliftype/reem-kufi).
-    font: ReemKufiFun-VariableFont_wght.ttf
+    font: uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChobE2XCgrvqZzZXq.ttf
   - family_name: Reem Kufi Fun
     type: Regular
     full_name: Reem Kufi Fun Regular
@@ -43,7 +36,7 @@ fonts:
       calligraphy Mohammad Abdul Qadir who revived this art in the 20th century and
       formalised its rules.
     copyright: Copyright 2015-2022 The Reem Kufi Fun Project Authors (https://github.com/aliftype/reem-kufi).
-    font: ReemKufiFun-Regular.ttf
+    font: uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChoYj3nCgrvqZzZXq.ttf
 - name: Reem Kufi Fun Medium
   styles:
   - family_name: Reem Kufi Fun Medium
@@ -59,7 +52,7 @@ fonts:
       calligraphy Mohammad Abdul Qadir who revived this art in the 20th century and
       formalised its rules.
     copyright: Copyright 2015-2022 The Reem Kufi Fun Project Authors (https://github.com/aliftype/reem-kufi).
-    font: ReemKufiFun-Medium.ttf
+    font: uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChoYR3nCgrvqZzZXq.ttf
 - name: Reem Kufi Fun SemiBold
   styles:
   - family_name: Reem Kufi Fun SemiBold
@@ -75,7 +68,7 @@ fonts:
       calligraphy Mohammad Abdul Qadir who revived this art in the 20th century and
       formalised its rules.
     copyright: Copyright 2015-2022 The Reem Kufi Fun Project Authors (https://github.com/aliftype/reem-kufi).
-    font: ReemKufiFun-SemiBold.ttf
+    font: uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChob92XCgrvqZzZXq.ttf
 extract: {}
 copyright: Copyright 2015-2022 The Reem Kufi Fun Project Authors (https://github.com/aliftype/reem-kufi).
 license_url: https://scripts.sil.org/OFL
@@ -173,5 +166,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 01124d44decd34885a0bdb4239b96f0d0d209b52fc39caaed3a380f39542ed10
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

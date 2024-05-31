@@ -1,12 +1,13 @@
 ---
+name: Kite One
 description: Kite One
 homepage: http://www.tipo.net.ar
 resources:
-  Kite_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Kite%20One
-    sha256: fad80aef2509f9ab298792d4b71b8c399b864b6b1971fe8c5a25b5e1915bbcb1
-    file_size: 37998
+  Kite One:
+    source: google
+    family: Kite One
+    files:
+    - https://fonts.gstatic.com/s/kiteone/v22/70lQu7shLnA_E02vyq1b6HnGO4uA.ttf
 fonts:
 - name: Kite One
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 1.002; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
     copyright: Copyright 2011 The Kite One Project Authors (https://github.com/etunni/Kite-One)
       with Reserved Font Name is "Kite"
-    font: KiteOne-Regular.ttf
+    font: 70lQu7shLnA_E02vyq1b6HnGO4uA.ttf
 extract: {}
 copyright: Copyright 2011 The Kite One Project Authors (https://github.com/etunni/Kite-One)
   with Reserved Font Name is "Kite"
@@ -27,7 +28,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -116,5 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 8df17001abaf40a092cf058ddd3725e920b142130105ef8465f7ad4d103793c2
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

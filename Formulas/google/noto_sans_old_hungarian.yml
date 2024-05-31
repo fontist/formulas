@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Old Hungarian
 description: Noto Sans Old Hungarian
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Old_Hungarian.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Old%20Hungarian
-    sha256: 9914c051452bca119016bfa3880907f1fee5ae68f980436daab1a13b9a073f3c
-    file_size: 56196
+  Noto Sans Old Hungarian:
+    source: google
+    family: Noto Sans Old Hungarian
+    files:
+    - https://fonts.gstatic.com/s/notosansoldhungarian/v18/E213_cD6hP3GwCJPEUssHEM0KqLaHJXg2PiIgRfjbg5nCYXt.ttf
 fonts:
 - name: Noto Sans Old Hungarian
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.005; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-hungarian)
-    font: NotoSansOldHungarian-Regular.ttf
+    font: E213_cD6hP3GwCJPEUssHEM0KqLaHJXg2PiIgRfjbg5nCYXt.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-hungarian)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d319ee22d54b9678b48b4ae5e4a7df13d3d3d9db30c392b0e69a4b96f4af8f81
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

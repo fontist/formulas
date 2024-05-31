@@ -1,12 +1,13 @@
 ---
+name: Orbit
 description: Orbit
 homepage: https://jamo.works
 resources:
-  Orbit.zip:
-    urls:
-    - https://fonts.google.com/download?family=Orbit
-    sha256: fb66cc819a25cc4a230d0874318a22ef7f198b71b8e17400dd8fe8ceacf555a7
-    file_size: 328553
+  Orbit:
+    source: google
+    family: Orbit
+    files:
+    - https://fonts.gstatic.com/s/orbit/v1/_LOCmz7I-uHd2mjEeqciRwRm.ttf
 fonts:
 - name: Orbit
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: Orbit-Regular
     version: 1.000; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.29]
     copyright: Copyright 2022 The Orbit Project Authors (https://github.com/JAMO-TYPEFACE/Orbit)
-    font: Orbit-Regular.ttf
+    font: _LOCmz7I-uHd2mjEeqciRwRm.ttf
 extract: {}
 copyright: Copyright 2022 The Orbit Project Authors (https://github.com/JAMO-TYPEFACE/Orbit)
 license_url: https://scripts.sil.org/OFL
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 715c20116877658372823409995629b93effd1c8eb05b903c3b762452a1af1a2
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

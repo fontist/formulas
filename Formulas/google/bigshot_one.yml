@@ -1,12 +1,13 @@
 ---
+name: Bigshot One
 description: Bigshot One
 homepage: http://www.gesine-todt.de
 resources:
-  BigshotOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Bigshot%20One
-    sha256: b6e36a5b10be717bebd049800df2b424a1532ecf01c00347cf7da2016918ba34
-    file_size: 21513
+  Bigshot One:
+    source: google
+    family: Bigshot One
+    files:
+    - https://fonts.gstatic.com/s/bigshotone/v29/u-470qukhRkkO6BD_7cM_gxuUQJBXv_-.ttf
 fonts:
 - name: Bigshot One
   styles:
@@ -16,9 +17,8 @@ fonts:
     post_script_name: BigshotOne-Regular
     version: '1.001'
     copyright: Copyright (c) 2011 by Gesine Todt. All rights reserved.
-    font: BigshotOne-Regular.ttf
-extract:
-  format: zip
+    font: u-470qukhRkkO6BD_7cM_gxuUQJBXv_-.ttf
+extract: {}
 copyright: Copyright (c) 2011 by Gesine Todt. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

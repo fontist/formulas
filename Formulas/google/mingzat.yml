@@ -1,12 +1,13 @@
 ---
+name: Mingzat
 description: Mingzat
 homepage: http://scripts.sil.org
 resources:
-  Mingzat.zip:
-    urls:
-    - https://fonts.google.com/download?family=Mingzat
-    sha256: d6b8ebafce0ea1fa09eb130494af2e807c3f016828c47306be1ff108dc975c49
-    file_size: 81240
+  Mingzat:
+    source: google
+    family: Mingzat
+    files:
+    - https://fonts.gstatic.com/s/mingzat/v8/0QIgMX5C-o-oWWyvBttkm_mv670.ttf
 fonts:
 - name: Mingzat
   styles:
@@ -20,7 +21,7 @@ fonts:
       2006 Athinkra, LLC. OpenType and Graphite code copyright (c) 2010-2022, SIL
       International (http://www.sil.org/). Latin glyph design copyright (c) 1994-2019,
       SIL International (http://www.sil.org/).
-    font: Mingzat-Regular.ttf
+    font: 0QIgMX5C-o-oWWyvBttkm_mv670.ttf
 extract: {}
 copyright: Lepcha glyph design copyright (c) 2001, GlavyFonts and copyright (c) 2006
   Athinkra, LLC. OpenType and Graphite code copyright (c) 2010-2022, SIL International
@@ -129,5 +130,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 4d25edc25929d6f383941bd2a44cc5f8c92b0d725dc5e1e6533915556b6ebb23
-command: import google --formulas_path Formulas
+command: import google -n 9999

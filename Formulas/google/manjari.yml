@@ -3,11 +3,13 @@ name: Manjari
 description: Manjari
 homepage: https://smc.org.in
 resources:
-  Manjari.zip:
-    urls:
-    - https://fonts.google.com/download?family=Manjari
-    sha256: fd6ecf84f86e36b5e149d5987cd8cf7ba975b1835f4a5c6d0aa981517fe11d58
-    file_size: 292833
+  Manjari:
+    source: google
+    family: Manjari
+    files:
+    - https://fonts.gstatic.com/s/manjari/v12/k3kSo8UPMOBO2w1UdbroK2vFIaOV8A.ttf
+    - https://fonts.gstatic.com/s/manjari/v12/k3kQo8UPMOBO2w1UTd7iL0nAMaM.ttf
+    - https://fonts.gstatic.com/s/manjari/v12/k3kVo8UPMOBO2w1UdWLNC0HrLaqM6Q4.ttf
 fonts:
 - name: Manjari
   styles:
@@ -18,7 +20,7 @@ fonts:
     version: '2.000'
     description: Malayalam unicode font with rounded terminals suitable for body text
     copyright: Copyright 2018 The Manjari Project Authors (https://gitlab.com/smc/fonts/manjari)
-    font: Manjari-Bold.ttf
+    font: k3kVo8UPMOBO2w1UdWLNC0HrLaqM6Q4.ttf
   - family_name: Manjari
     type: Regular
     full_name: Manjari Regular
@@ -26,7 +28,7 @@ fonts:
     version: '2.000'
     description: Malayalam unicode font with rounded terminals suitable for body text
     copyright: Copyright 2018 The Manjari Project Authors (https://gitlab.com/smc/fonts/manjari)
-    font: Manjari-Regular.ttf
+    font: k3kQo8UPMOBO2w1UTd7iL0nAMaM.ttf
 - name: Manjari Thin
   styles:
   - family_name: Manjari Thin
@@ -38,7 +40,7 @@ fonts:
     version: '2.000'
     description: Malayalam unicode font with rounded terminals suitable for body text
     copyright: Copyright 2018 The Manjari Project Authors (https://gitlab.com/smc/fonts/manjari)
-    font: Manjari-Thin.ttf
+    font: k3kSo8UPMOBO2w1UdbroK2vFIaOV8A.ttf
 extract: {}
 copyright: Copyright 2018 The Manjari Project Authors (https://gitlab.com/smc/fonts/manjari)
 license_url: https://scripts.sil.org/OFL
@@ -136,5 +138,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ed6270c1858bf8e61afbe3207724e49a74a57eb68879f67b9c643ab4a0014ee6
-command: google import --formulas_path Formulas
+command: import google -n 9999

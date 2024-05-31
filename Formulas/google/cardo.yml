@@ -3,14 +3,34 @@ name: Cardo
 description: Cardo
 homepage: http://scholarsfonts.net
 resources:
-  Cardo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Cardo
-    sha256: 203c68fe47587654a8b25cf30f74762fbaae937fd8db23a6d4e75ac765e59aa7
-    file_size: 562075
+  Cardo:
+    source: google
+    family: Cardo
+    files:
+    - https://fonts.gstatic.com/s/cardo/v19/wlp_gwjKBV1pqiv_1oAZ2H5O.ttf
+    - https://fonts.gstatic.com/s/cardo/v19/wlpxgwjKBV1pqhv93IQ73W5OcCk.ttf
+    - https://fonts.gstatic.com/s/cardo/v19/wlpygwjKBV1pqhND-aQR82JHaTBX.ttf
 fonts:
 - name: Cardo
   styles:
+  - family_name: Cardo
+    type: Bold
+    full_name: Cardo Bold
+    post_script_name: Cardo-Bold
+    version: '1.0011'
+    description: A font for scholarly use in classical and medieval languages. Contains
+      characters for many languages as well as those required for quality typography.
+    copyright: Copyright (c) 2002-2011, David J. Perry (hospes02@scholarsfonts.net)
+    font: wlpygwjKBV1pqhND-aQR82JHaTBX.ttf
+  - family_name: Cardo
+    type: Italic
+    full_name: Cardo Italic
+    post_script_name: Cardo-Italic
+    version: '0.991'
+    description: A font for scholarly use in classical and medieval languages. Contains
+      characters for many languages as well as those required for quality typography.
+    copyright: Copyright (c) 2002-2011, David J. Perry (hospes02@scholarsfonts.net)
+    font: wlpxgwjKBV1pqhv93IQ73W5OcCk.ttf
   - family_name: Cardo
     type: Regular
     full_name: Cardo
@@ -20,27 +40,8 @@ fonts:
       characters for many languages as well as those required for quality typography.
       This version is compatible with MUFI Specification 3.0.
     copyright: Copyright (c) 2002-2011, David J. Perry (hospes02@scholarsfonts.net)
-    font: Cardo-Regular.ttf
-  - family_name: Cardo
-    type: Italic
-    full_name: Cardo Italic
-    post_script_name: Cardo-Italic
-    version: '0.991'
-    description: A font for scholarly use in classical and medieval languages. Contains
-      characters for many languages as well as those required for quality typography.
-    copyright: Copyright (c) 2002-2011, David J. Perry (hospes02@scholarsfonts.net)
-    font: Cardo-Italic.ttf
-  - family_name: Cardo
-    type: Bold
-    full_name: Cardo Bold
-    post_script_name: Cardo-Bold
-    version: '1.0011'
-    description: A font for scholarly use in classical and medieval languages. Contains
-      characters for many languages as well as those required for quality typography.
-    copyright: Copyright (c) 2002-2011, David J. Perry (hospes02@scholarsfonts.net)
-    font: Cardo-Bold.ttf
-extract:
-  format: zip
+    font: wlp_gwjKBV1pqiv_1oAZ2H5O.ttf
+extract: {}
 copyright: Copyright (c) 2002-2011, David J. Perry (hospes02@scholarsfonts.net)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -137,3 +138,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

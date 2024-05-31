@@ -1,12 +1,13 @@
 ---
+name: Croissant One
 description: Croissant One
 homepage: http://www.tipo.net.ar
 resources:
-  CroissantOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Croissant%20One
-    sha256: 576dfefe9e1aaeaccc4d88d7ed0c2ad09a261d45b4878572d129a30ed8ef4bb5
-    file_size: 22959
+  Croissant One:
+    source: google
+    family: Croissant One
+    files:
+    - https://fonts.gstatic.com/s/croissantone/v26/3y9n6bU9bTPg4m8NDy3Kq24UM3pqn5cdJ-4.ttf
 fonts:
 - name: Croissant One
   styles:
@@ -22,11 +23,10 @@ fonts:
       terminals that embody the spirit of this multi-purpose typeface.
     copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
       Font Name 'Croissant'
-    font: CroissantOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
-  with Reserved Font Name 'Croissant'
+    font: 3y9n6bU9bTPg4m8NDy3Kq24UM3pqn5cdJ-4.ttf
+extract: {}
+copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
+  Font Name 'Croissant'
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name 'Croissant'
@@ -122,3 +122,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

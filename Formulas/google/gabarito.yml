@@ -1,11 +1,18 @@
 ---
+name: Gabarito
 description: Gabarito
 homepage: http://www.naipe.xyz/
 resources:
-  Gabarito.zip:
-    urls:
-    - https://fonts.google.com/download?family=Gabarito
-    file_size: 366922
+  Gabarito:
+    source: google
+    family: Gabarito
+    files:
+    - https://fonts.gstatic.com/s/gabarito/v4/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj248K0FgItq6bFIg.ttf
+    - https://fonts.gstatic.com/s/gabarito/v4/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj20cK0FgItq6bFIg.ttf
+    - https://fonts.gstatic.com/s/gabarito/v4/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2PcW0FgItq6bFIg.ttf
+    - https://fonts.gstatic.com/s/gabarito/v4/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2BMW0FgItq6bFIg.ttf
+    - https://fonts.gstatic.com/s/gabarito/v4/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2Y8W0FgItq6bFIg.ttf
+    - https://fonts.gstatic.com/s/gabarito/v4/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2SsW0FgItq6bFIg.ttf
 fonts:
 - name: Gabarito
   styles:
@@ -15,21 +22,14 @@ fonts:
     post_script_name: Gabarito-Bold
     version: '1.000'
     copyright: Copyright 2023 The Gabarito Project Authors (https://github.com/naipefoundry/gabarito)
-    font: Gabarito-Bold.ttf
+    font: QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2BMW0FgItq6bFIg.ttf
   - family_name: Gabarito
     type: Regular
     full_name: Gabarito Regular
     post_script_name: Gabarito-Regular
     version: '1.000'
     copyright: Copyright 2023 The Gabarito Project Authors (https://github.com/naipefoundry/gabarito)
-    font: Gabarito-VariableFont_wght.ttf
-  - family_name: Gabarito
-    type: Regular
-    full_name: Gabarito Regular
-    post_script_name: Gabarito-Regular
-    version: '1.000'
-    copyright: Copyright 2023 The Gabarito Project Authors (https://github.com/naipefoundry/gabarito)
-    font: Gabarito-Regular.ttf
+    font: QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj248K0FgItq6bFIg.ttf
 - name: Gabarito Black
   styles:
   - family_name: Gabarito Black
@@ -40,7 +40,7 @@ fonts:
     post_script_name: Gabarito-Black
     version: '1.000'
     copyright: Copyright 2023 The Gabarito Project Authors (https://github.com/naipefoundry/gabarito)
-    font: Gabarito-Black.ttf
+    font: QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2SsW0FgItq6bFIg.ttf
 - name: Gabarito ExtraBold
   styles:
   - family_name: Gabarito ExtraBold
@@ -51,7 +51,7 @@ fonts:
     post_script_name: Gabarito-ExtraBold
     version: '1.000'
     copyright: Copyright 2023 The Gabarito Project Authors (https://github.com/naipefoundry/gabarito)
-    font: Gabarito-ExtraBold.ttf
+    font: QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2Y8W0FgItq6bFIg.ttf
 - name: Gabarito Medium
   styles:
   - family_name: Gabarito Medium
@@ -62,7 +62,7 @@ fonts:
     post_script_name: Gabarito-Medium
     version: '1.000'
     copyright: Copyright 2023 The Gabarito Project Authors (https://github.com/naipefoundry/gabarito)
-    font: Gabarito-Medium.ttf
+    font: QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj20cK0FgItq6bFIg.ttf
 - name: Gabarito SemiBold
   styles:
   - family_name: Gabarito SemiBold
@@ -73,7 +73,7 @@ fonts:
     post_script_name: Gabarito-SemiBold
     version: '1.000'
     copyright: Copyright 2023 The Gabarito Project Authors (https://github.com/naipefoundry/gabarito)
-    font: Gabarito-SemiBold.ttf
+    font: QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2PcW0FgItq6bFIg.ttf
 extract: {}
 copyright: Copyright 2023 The Gabarito Project Authors (https://github.com/naipefoundry/gabarito)
 license_url: https://scripts.sil.org/OFL
@@ -82,7 +82,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -171,5 +171,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b4de117b67fa1edbc54d01b21809e6c43efb027c36c3442d92e8b96165148565
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

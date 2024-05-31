@@ -1,12 +1,12 @@
 ---
+name: Lilita One
 description: Lilita One
-homepage:
 resources:
-  LilitaOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Lilita%20One
-    sha256: 562918af912a57b0a1543b802a4003f217e7a937bdb7c64960b33e6fc1606a38
-    file_size: 16812
+  Lilita One:
+    source: google
+    family: Lilita One
+    files:
+    - https://fonts.gstatic.com/s/lilitaone/v15/i7dPIFZ9Zz-WBtRtedDbUEZ2RFq7AwU.ttf
 fonts:
 - name: Lilita One
   styles:
@@ -17,9 +17,8 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011 Juan Montoreano (juan@remolacha.biz), with Reserved
       Font Names "Lilita One"
-    font: LilitaOne-Regular.ttf
-extract:
-  format: zip
+    font: i7dPIFZ9Zz-WBtRtedDbUEZ2RFq7AwU.ttf
+extract: {}
 copyright: Copyright (c) 2011 Juan Montoreano (juan@remolacha.biz), with Reserved
   Font Names "Lilita One"
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

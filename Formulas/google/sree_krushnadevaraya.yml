@@ -1,12 +1,12 @@
 ---
+name: Sree Krushnadevaraya
 description: Sree Krushnadevaraya
-homepage:
 resources:
-  SreeKrushnadevaraya.zip:
-    urls:
-    - https://fonts.google.com/download?family=Sree%20Krushnadevaraya
-    sha256: 87abab1a53f5ef8be650e1b647020b4ce542c533f2bc0c9b1329a07f248925ab
-    file_size: 216092
+  Sree Krushnadevaraya:
+    source: google
+    family: Sree Krushnadevaraya
+    files:
+    - https://fonts.gstatic.com/s/sreekrushnadevaraya/v21/R70FjzQeifmPepmyQQjQ9kvwMkWYPfTA_EWb2FhQuXir.ttf
 fonts:
 - name: Sree Krushnadevaraya
   styles:
@@ -18,9 +18,8 @@ fonts:
     copyright: Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org).
       Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com) with Reserved Font
       Name 'Cantata'
-    font: SreeKrushnadevaraya-Regular.ttf
-extract:
-  format: zip
+    font: R70FjzQeifmPepmyQQjQ9kvwMkWYPfTA_EWb2FhQuXir.ttf
+extract: {}
 copyright: Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org).
   Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com) with Reserved Font
   Name 'Cantata'
@@ -119,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

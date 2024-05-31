@@ -3,11 +3,11 @@ name: Aladin
 description: Aladin
 homepage: http://www.sudtipos.com
 resources:
-  Aladin.zip:
-    urls:
-    - https://fonts.google.com/download?family=Aladin
-    sha256: b36c5ea7f012e0c955d9ac13725e051a259ec8914ba6f8e88f3cbbdd52cc02ee
-    file_size: 22106
+  Aladin:
+    source: google
+    family: Aladin
+    files:
+    - https://fonts.gstatic.com/s/aladin/v24/ZgNSjPJFPrvJV5f16Sf4pGT2Ng.ttf
 fonts:
 - name: Aladin
   styles:
@@ -20,11 +20,12 @@ fonts:
       Copyright (c) 2009 Angel Koziupa (sudtipos@sudtipos.com),
       Copyright (c) 2009 Alejandro Paul (sudtipos@sudtipos.com),
       with Reserved Font Name "Aladin"
-    font: Aladin-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2009 Angel Koziupa (sudtipos@sudtipos.com), Copyright (c)
-  2009 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name "Aladin"
+    font: ZgNSjPJFPrvJV5f16Sf4pGT2Ng.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2009 Angel Koziupa (sudtipos@sudtipos.com),
+  Copyright (c) 2009 Alejandro Paul (sudtipos@sudtipos.com),
+  with Reserved Font Name "Aladin"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 Angel Koziupa (sudtipos@sudtipos.com),
@@ -122,3 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

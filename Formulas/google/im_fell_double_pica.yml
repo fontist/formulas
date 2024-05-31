@@ -3,26 +3,15 @@ name: IM Fell Double Pica
 description: IM Fell Double Pica
 homepage: www.iginomarini.com
 resources:
-  IMFellDoublePica.zip:
-    urls:
-    - https://fonts.google.com/download?family=IM%20Fell%20Double%20Pica
-    sha256: d7daebba1dfce881848b722af00b61d7c2b0a23b5cc846cb117af55cc5e8958c
-    file_size: 261725
+  IM Fell Double Pica:
+    source: google
+    family: IM Fell Double Pica
+    files:
+    - https://fonts.gstatic.com/s/imfelldoublepica/v14/3XF2EqMq_94s9PeKF7Fg4gOKINyMtZ8rT0S1UL5Ayp0.ttf
+    - https://fonts.gstatic.com/s/imfelldoublepica/v14/3XF0EqMq_94s9PeKF7Fg4gOKINyMtZ8rf0a_VJxF2p2G8g.ttf
 fonts:
-- name: IM Fell Double Pica
+- name: IM FELL Double Pica
   styles:
-  - family_name: IM FELL Double Pica
-    type: Regular
-    full_name: IM FELL Double Pica Roman
-    post_script_name: IM_FELL_Double_Pica_Roman
-    version: '3.00'
-    description: Fell Types -Double Pica size - Roman. Typeface from the  types bequeathed
-      in 1686 to the University of Oxford by John Fell. Originally cut by Peter De
-      Walpergen. Acquisition in 1684. To be printed at 21 points to match the original
-      size. Autospaced and autokerned using iKern© developed by Igino Marini.
-    copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name
-      IM FELL Double Pica Roman"
-    font: IMFELLDoublePica-Regular.ttf
   - family_name: IM FELL Double Pica
     type: Italic
     full_name: IM FELL Double Pica Italic
@@ -34,11 +23,23 @@ fonts:
       size. Autokerned using iKern© developed by Igino Marini.
     copyright: "© 2007 Igino Marini (www.iginomarini.com) with reserved name IM FELL
       Double Pica Italic"
-    font: IMFELLDoublePica-Italic.ttf
-extract:
-  format: zip
-copyright: "© 2007 Igino Marini (www.iginomarini.com mail@iginomarini.com) With Reserved
-  Font Name IM FELL Double Pica Roman"
+    font: 3XF0EqMq_94s9PeKF7Fg4gOKINyMtZ8rf0a_VJxF2p2G8g.ttf
+  - family_name: IM FELL Double Pica
+    type: Regular
+    preferred_family_name: IM FELL Double Pica
+    full_name: IM FELL Double Pica Roman
+    post_script_name: IM_FELL_Double_Pica_Roman
+    version: '3.00'
+    description: Fell Types -Double Pica size - Roman. Typeface from the  types bequeathed
+      in 1686 to the University of Oxford by John Fell. Originally cut by Peter De
+      Walpergen. Acquisition in 1684. To be printed at 21 points to match the original
+      size. Autospaced and autokerned using iKern© developed by Igino Marini.
+    copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name
+      IM FELL Double Pica Roman"
+    font: 3XF2EqMq_94s9PeKF7Fg4gOKINyMtZ8rT0S1UL5Ayp0.ttf
+extract: {}
+copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name IM FELL
+  Double Pica Roman"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Igino Marini (mail@iginomarini.com)
@@ -134,3 +135,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

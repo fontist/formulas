@@ -3,44 +3,46 @@ name: Philosopher
 description: Philosopher
 homepage: http://www.jovanny.ru/
 resources:
-  Philosopher.zip:
-    urls:
-    - https://fonts.google.com/download?family=Philosopher
-    sha256: 7af13388687ad9e446d57482754e4ff607ee1fce485c0ef31f0a97c3019de89c
-    file_size: 200442
+  Philosopher:
+    source: google
+    family: Philosopher
+    files:
+    - https://fonts.gstatic.com/s/philosopher/v19/vEFV2_5QCwIS4_Dhez5jcVBpRUwU08qe.ttf
+    - https://fonts.gstatic.com/s/philosopher/v19/vEFX2_5QCwIS4_Dhez5jcWBrT0g21tqeR7c.ttf
+    - https://fonts.gstatic.com/s/philosopher/v19/vEFI2_5QCwIS4_Dhez5jcWjVamgc-NaXXq7H.ttf
+    - https://fonts.gstatic.com/s/philosopher/v19/vEFK2_5QCwIS4_Dhez5jcWBrd_QZ8tK1W77HtMo.ttf
 fonts:
 - name: Philosopher
   styles:
-  - family_name: Philosopher
-    type: Regular
-    full_name: Philosopher Regular
-    post_script_name: Philosopher-Regular
-    version: '2.000'
-    copyright: Copyright 2011 The Philosopher Project Authors (lemonad@jovanny.ru)
-    font: Philosopher-Regular.ttf
-  - family_name: Philosopher
-    type: Italic
-    full_name: Philosopher Italic
-    post_script_name: Philosopher-Italic
-    version: '2.000'
-    copyright: Copyright 2011 The Philosopher Project Authors (lemonad@jovanny.ru)
-    font: Philosopher-Italic.ttf
   - family_name: Philosopher
     type: Bold
     full_name: Philosopher Bold
     post_script_name: Philosopher-Bold
     version: '2.000'
     copyright: Copyright 2011 The Philosopher Project Authors (lemonad@jovanny.ru)
-    font: Philosopher-Bold.ttf
+    font: vEFI2_5QCwIS4_Dhez5jcWjVamgc-NaXXq7H.ttf
   - family_name: Philosopher
     type: Bold Italic
     full_name: Philosopher Bold Italic
     post_script_name: Philosopher-BoldItalic
     version: '2.000'
     copyright: Copyright 2011 The Philosopher Project Authors (lemonad@jovanny.ru)
-    font: Philosopher-BoldItalic.ttf
-extract:
-  format: zip
+    font: vEFK2_5QCwIS4_Dhez5jcWBrd_QZ8tK1W77HtMo.ttf
+  - family_name: Philosopher
+    type: Italic
+    full_name: Philosopher Italic
+    post_script_name: Philosopher-Italic
+    version: '2.000'
+    copyright: Copyright 2011 The Philosopher Project Authors (lemonad@jovanny.ru)
+    font: vEFX2_5QCwIS4_Dhez5jcWBrT0g21tqeR7c.ttf
+  - family_name: Philosopher
+    type: Regular
+    full_name: Philosopher Regular
+    post_script_name: Philosopher-Regular
+    version: '2.000'
+    copyright: Copyright 2011 The Philosopher Project Authors (lemonad@jovanny.ru)
+    font: vEFV2_5QCwIS4_Dhez5jcVBpRUwU08qe.ttf
+extract: {}
 copyright: Copyright 2011 The Philosopher Project Authors (lemonad@jovanny.ru)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -137,3 +139,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

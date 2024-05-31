@@ -1,11 +1,21 @@
 ---
+name: Alexandria
 description: Alexandria
 homepage: http://kieftype.com/
 resources:
-  Alexandria.zip:
-    urls:
-    - https://fonts.google.com/download?family=Alexandria
-    file_size: 879371
+  Alexandria:
+    source: google
+    family: Alexandria
+    files:
+    - https://fonts.gstatic.com/s/alexandria/v3/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9r7T6bHHJ8BRq0b.ttf
+    - https://fonts.gstatic.com/s/alexandria/v3/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9p7TqbHHJ8BRq0b.ttf
+    - https://fonts.gstatic.com/s/alexandria/v3/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9qlTqbHHJ8BRq0b.ttf
+    - https://fonts.gstatic.com/s/alexandria/v3/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9r7TqbHHJ8BRq0b.ttf
+    - https://fonts.gstatic.com/s/alexandria/v3/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9rJTqbHHJ8BRq0b.ttf
+    - https://fonts.gstatic.com/s/alexandria/v3/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9olSabHHJ8BRq0b.ttf
+    - https://fonts.gstatic.com/s/alexandria/v3/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9ocSabHHJ8BRq0b.ttf
+    - https://fonts.gstatic.com/s/alexandria/v3/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9p7SabHHJ8BRq0b.ttf
+    - https://fonts.gstatic.com/s/alexandria/v3/UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9pSSabHHJ8BRq0b.ttf
 fonts:
 - name: Alexandria
   styles:
@@ -15,21 +25,14 @@ fonts:
     post_script_name: Alexandria-Bold
     version: '5.100'
     copyright: Copyright 2022 The Alexandria Project Authors (https://github.com/Gue3bara/Alexandria)
-    font: Alexandria-Bold.ttf
+    font: UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9ocSabHHJ8BRq0b.ttf
   - family_name: Alexandria
     type: Regular
     full_name: Alexandria Regular
     post_script_name: Alexandria-Regular
     version: '5.100'
     copyright: Copyright 2022 The Alexandria Project Authors (https://github.com/Gue3bara/Alexandria)
-    font: Alexandria-VariableFont_wght.ttf
-  - family_name: Alexandria
-    type: Regular
-    full_name: Alexandria Regular
-    post_script_name: Alexandria-Regular
-    version: '5.100'
-    copyright: Copyright 2022 The Alexandria Project Authors (https://github.com/Gue3bara/Alexandria)
-    font: Alexandria-Regular.ttf
+    font: UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9r7TqbHHJ8BRq0b.ttf
 - name: Alexandria Black
   styles:
   - family_name: Alexandria Black
@@ -40,7 +43,7 @@ fonts:
     post_script_name: Alexandria-Black
     version: '5.100'
     copyright: Copyright 2022 The Alexandria Project Authors (https://github.com/Gue3bara/Alexandria)
-    font: Alexandria-Black.ttf
+    font: UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9pSSabHHJ8BRq0b.ttf
 - name: Alexandria ExtraBold
   styles:
   - family_name: Alexandria ExtraBold
@@ -51,7 +54,7 @@ fonts:
     post_script_name: Alexandria-ExtraBold
     version: '5.100'
     copyright: Copyright 2022 The Alexandria Project Authors (https://github.com/Gue3bara/Alexandria)
-    font: Alexandria-ExtraBold.ttf
+    font: UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9p7SabHHJ8BRq0b.ttf
 - name: Alexandria ExtraLight
   styles:
   - family_name: Alexandria ExtraLight
@@ -62,7 +65,7 @@ fonts:
     post_script_name: Alexandria-ExtraLight
     version: '5.100'
     copyright: Copyright 2022 The Alexandria Project Authors (https://github.com/Gue3bara/Alexandria)
-    font: Alexandria-ExtraLight.ttf
+    font: UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9p7TqbHHJ8BRq0b.ttf
 - name: Alexandria Light
   styles:
   - family_name: Alexandria Light
@@ -73,7 +76,7 @@ fonts:
     post_script_name: Alexandria-Light
     version: '5.100'
     copyright: Copyright 2022 The Alexandria Project Authors (https://github.com/Gue3bara/Alexandria)
-    font: Alexandria-Light.ttf
+    font: UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9qlTqbHHJ8BRq0b.ttf
 - name: Alexandria Medium
   styles:
   - family_name: Alexandria Medium
@@ -84,7 +87,7 @@ fonts:
     post_script_name: Alexandria-Medium
     version: '5.100'
     copyright: Copyright 2022 The Alexandria Project Authors (https://github.com/Gue3bara/Alexandria)
-    font: Alexandria-Medium.ttf
+    font: UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9rJTqbHHJ8BRq0b.ttf
 - name: Alexandria SemiBold
   styles:
   - family_name: Alexandria SemiBold
@@ -95,7 +98,7 @@ fonts:
     post_script_name: Alexandria-SemiBold
     version: '5.100'
     copyright: Copyright 2022 The Alexandria Project Authors (https://github.com/Gue3bara/Alexandria)
-    font: Alexandria-SemiBold.ttf
+    font: UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9olSabHHJ8BRq0b.ttf
 - name: Alexandria Thin
   styles:
   - family_name: Alexandria Thin
@@ -106,7 +109,7 @@ fonts:
     post_script_name: Alexandria-Thin
     version: '5.100'
     copyright: Copyright 2022 The Alexandria Project Authors (https://github.com/Gue3bara/Alexandria)
-    font: Alexandria-Thin.ttf
+    font: UMBCrPdDqW66y0Y2usFeQCH18mulUxBvI9r7T6bHHJ8BRq0b.ttf
 extract: {}
 copyright: Copyright 2022 The Alexandria Project Authors (https://github.com/Gue3bara/Alexandria)
 license_url: http://scripts.sil.org/OFL
@@ -204,5 +207,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 886e14a47d046958a4ac0ba19ec1c50a2db08dcf50a1a23c9f5727c3253438f5
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

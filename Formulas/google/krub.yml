@@ -3,100 +3,134 @@ name: Krub
 description: Krub
 homepage: http://www.cadsondemak.com
 resources:
-  Krub.zip:
-    urls:
-    - https://fonts.google.com/download?family=Krub
-    sha256: 6f9c0c5a0f237b0c501fed5e290bcc17b5461476b98d31aed45e3da3240d3c48
-    file_size: 540247
+  Krub:
+    source: google
+    family: Krub
+    files:
+    - https://fonts.gstatic.com/s/krub/v9/sZlEdRyC6CRYZo47KLF4R6gWaf8.ttf
+    - https://fonts.gstatic.com/s/krub/v9/sZlGdRyC6CRYbkQiwLByQ4oTef_6gQ.ttf
+    - https://fonts.gstatic.com/s/krub/v9/sZlEdRyC6CRYZuo4KLF4R6gWaf8.ttf
+    - https://fonts.gstatic.com/s/krub/v9/sZlGdRyC6CRYbkQipLNyQ4oTef_6gQ.ttf
+    - https://fonts.gstatic.com/s/krub/v9/sZlLdRyC6CRYXkYQDLlTW6E.ttf
+    - https://fonts.gstatic.com/s/krub/v9/sZlFdRyC6CRYbkQaCJtWS6EPcA.ttf
+    - https://fonts.gstatic.com/s/krub/v9/sZlEdRyC6CRYZrI5KLF4R6gWaf8.ttf
+    - https://fonts.gstatic.com/s/krub/v9/sZlGdRyC6CRYbkQi_LJyQ4oTef_6gQ.ttf
+    - https://fonts.gstatic.com/s/krub/v9/sZlEdRyC6CRYZp4-KLF4R6gWaf8.ttf
+    - https://fonts.gstatic.com/s/krub/v9/sZlGdRyC6CRYbkQi0LVyQ4oTef_6gQ.ttf
+    - https://fonts.gstatic.com/s/krub/v9/sZlEdRyC6CRYZvo_KLF4R6gWaf8.ttf
+    - https://fonts.gstatic.com/s/krub/v9/sZlGdRyC6CRYbkQitLRyQ4oTef_6gQ.ttf
 fonts:
 - name: Krub
   styles:
-  - family_name: Krub
-    type: ExtraLight
-    full_name: Krub ExtraLight
-    post_script_name: Krub-ExtraLight
-    version: 1.000; ttfautohint (v1.6)
-    copyright: Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)
-    font: Krub-ExtraLight.ttf
-  - family_name: Krub
-    type: ExtraLight Italic
-    full_name: Krub ExtraLight Italic
-    post_script_name: Krub-ExtraLightItalic
-    version: 1.000; ttfautohint (v1.6)
-    copyright: Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)
-    font: Krub-ExtraLightItalic.ttf
-  - family_name: Krub
-    type: Light
-    full_name: Krub Light
-    post_script_name: Krub-Light
-    version: 1.000; ttfautohint (v1.6)
-    copyright: Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)
-    font: Krub-Light.ttf
-  - family_name: Krub
-    type: Light Italic
-    full_name: Krub Light Italic
-    post_script_name: Krub-LightItalic
-    version: 1.000; ttfautohint (v1.6)
-    copyright: Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)
-    font: Krub-LightItalic.ttf
-  - family_name: Krub
-    type: Regular
-    full_name: Krub Regular
-    post_script_name: Krub-Regular
-    version: 1.000; ttfautohint (v1.6)
-    copyright: Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)
-    font: Krub-Regular.ttf
-  - family_name: Krub
-    type: Italic
-    full_name: Krub Italic
-    post_script_name: Krub-Italic
-    version: 1.000; ttfautohint (v1.6)
-    copyright: Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)
-    font: Krub-Italic.ttf
-  - family_name: Krub
-    type: Medium
-    full_name: Krub Medium
-    post_script_name: Krub-Medium
-    version: 1.000; ttfautohint (v1.6)
-    copyright: Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)
-    font: Krub-Medium.ttf
-  - family_name: Krub
-    type: Medium Italic
-    full_name: Krub Medium Italic
-    post_script_name: Krub-MediumItalic
-    version: 1.000; ttfautohint (v1.6)
-    copyright: Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)
-    font: Krub-MediumItalic.ttf
-  - family_name: Krub
-    type: SemiBold
-    full_name: Krub SemiBold
-    post_script_name: Krub-SemiBold
-    version: 1.000; ttfautohint (v1.6)
-    copyright: Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)
-    font: Krub-SemiBold.ttf
-  - family_name: Krub
-    type: SemiBold Italic
-    full_name: Krub SemiBold Italic
-    post_script_name: Krub-SemiBoldItalic
-    version: 1.000; ttfautohint (v1.6)
-    copyright: Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)
-    font: Krub-SemiBoldItalic.ttf
   - family_name: Krub
     type: Bold
     full_name: Krub Bold
     post_script_name: Krub-Bold
     version: 1.000; ttfautohint (v1.6)
     copyright: Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)
-    font: Krub-Bold.ttf
+    font: sZlEdRyC6CRYZvo_KLF4R6gWaf8.ttf
   - family_name: Krub
     type: Bold Italic
     full_name: Krub Bold Italic
     post_script_name: Krub-BoldItalic
     version: 1.000; ttfautohint (v1.6)
     copyright: Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)
-    font: Krub-BoldItalic.ttf
-extract:
-  format: zip
+    font: sZlGdRyC6CRYbkQitLRyQ4oTef_6gQ.ttf
+  - family_name: Krub
+    type: Italic
+    full_name: Krub Italic
+    post_script_name: Krub-Italic
+    version: 1.000; ttfautohint (v1.6)
+    copyright: Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)
+    font: sZlFdRyC6CRYbkQaCJtWS6EPcA.ttf
+  - family_name: Krub
+    type: Regular
+    full_name: Krub Regular
+    post_script_name: Krub-Regular
+    version: 1.000; ttfautohint (v1.6)
+    copyright: Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)
+    font: sZlLdRyC6CRYXkYQDLlTW6E.ttf
+- name: Krub ExtraLight
+  styles:
+  - family_name: Krub ExtraLight
+    type: Italic
+    preferred_family_name: Krub
+    preferred_type: ExtraLight Italic
+    full_name: Krub ExtraLight Italic
+    post_script_name: Krub-ExtraLightItalic
+    version: 1.000; ttfautohint (v1.6)
+    copyright: Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)
+    font: sZlGdRyC6CRYbkQiwLByQ4oTef_6gQ.ttf
+  - family_name: Krub ExtraLight
+    type: Regular
+    preferred_family_name: Krub
+    preferred_type: ExtraLight
+    full_name: Krub ExtraLight
+    post_script_name: Krub-ExtraLight
+    version: 1.000; ttfautohint (v1.6)
+    copyright: Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)
+    font: sZlEdRyC6CRYZo47KLF4R6gWaf8.ttf
+- name: Krub Light
+  styles:
+  - family_name: Krub Light
+    type: Italic
+    preferred_family_name: Krub
+    preferred_type: Light Italic
+    full_name: Krub Light Italic
+    post_script_name: Krub-LightItalic
+    version: 1.000; ttfautohint (v1.6)
+    copyright: Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)
+    font: sZlGdRyC6CRYbkQipLNyQ4oTef_6gQ.ttf
+  - family_name: Krub Light
+    type: Regular
+    preferred_family_name: Krub
+    preferred_type: Light
+    full_name: Krub Light
+    post_script_name: Krub-Light
+    version: 1.000; ttfautohint (v1.6)
+    copyright: Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)
+    font: sZlEdRyC6CRYZuo4KLF4R6gWaf8.ttf
+- name: Krub Medium
+  styles:
+  - family_name: Krub Medium
+    type: Italic
+    preferred_family_name: Krub
+    preferred_type: Medium Italic
+    full_name: Krub Medium Italic
+    post_script_name: Krub-MediumItalic
+    version: 1.000; ttfautohint (v1.6)
+    copyright: Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)
+    font: sZlGdRyC6CRYbkQi_LJyQ4oTef_6gQ.ttf
+  - family_name: Krub Medium
+    type: Regular
+    preferred_family_name: Krub
+    preferred_type: Medium
+    full_name: Krub Medium
+    post_script_name: Krub-Medium
+    version: 1.000; ttfautohint (v1.6)
+    copyright: Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)
+    font: sZlEdRyC6CRYZrI5KLF4R6gWaf8.ttf
+- name: Krub SemiBold
+  styles:
+  - family_name: Krub SemiBold
+    type: Italic
+    preferred_family_name: Krub
+    preferred_type: SemiBold Italic
+    full_name: Krub SemiBold Italic
+    post_script_name: Krub-SemiBoldItalic
+    version: 1.000; ttfautohint (v1.6)
+    copyright: Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)
+    font: sZlGdRyC6CRYbkQi0LVyQ4oTef_6gQ.ttf
+  - family_name: Krub SemiBold
+    type: Regular
+    preferred_family_name: Krub
+    preferred_type: SemiBold
+    full_name: Krub SemiBold
+    post_script_name: Krub-SemiBold
+    version: 1.000; ttfautohint (v1.6)
+    copyright: Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)
+    font: sZlEdRyC6CRYZp4-KLF4R6gWaf8.ttf
+extract: {}
 copyright: Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -193,3 +227,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

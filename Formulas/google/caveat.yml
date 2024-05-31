@@ -3,10 +3,14 @@ name: Caveat
 description: Caveat
 homepage: http://www.impallari.com
 resources:
-  Caveat.zip:
-    urls:
-    - https://fonts.google.com/download?family=Caveat
-    file_size: 776584
+  Caveat:
+    source: google
+    family: Caveat
+    files:
+    - https://fonts.gstatic.com/s/caveat/v18/WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9SIKjYBxPigs.ttf
+    - https://fonts.gstatic.com/s/caveat/v18/WnznHAc5bAfYB2QRah7pcpNvOx-pjcB9SIKjYBxPigs.ttf
+    - https://fonts.gstatic.com/s/caveat/v18/WnznHAc5bAfYB2QRah7pcpNvOx-pjSx6SIKjYBxPigs.ttf
+    - https://fonts.gstatic.com/s/caveat/v18/WnznHAc5bAfYB2QRah7pcpNvOx-pjRV6SIKjYBxPigs.ttf
 fonts:
 - name: Caveat
   styles:
@@ -16,21 +20,14 @@ fonts:
     post_script_name: Caveat-Bold
     version: '2.000'
     copyright: Copyright 2014 The Caveat Project Authors (https://github.com/googlefonts/caveat)
-    font: Caveat-Bold.ttf
+    font: WnznHAc5bAfYB2QRah7pcpNvOx-pjRV6SIKjYBxPigs.ttf
   - family_name: Caveat
     type: Regular
     full_name: Caveat Regular
     post_script_name: Caveat-Regular
     version: '2.000'
     copyright: Copyright 2014 The Caveat Project Authors (https://github.com/googlefonts/caveat)
-    font: Caveat-Regular.ttf
-  - family_name: Caveat
-    type: Regular
-    full_name: Caveat Regular
-    post_script_name: Caveat-Regular
-    version: '2.000'
-    copyright: Copyright 2014 The Caveat Project Authors (https://github.com/googlefonts/caveat)
-    font: Caveat-VariableFont_wght.ttf
+    font: WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9SIKjYBxPigs.ttf
 - name: Caveat Medium
   styles:
   - family_name: Caveat Medium
@@ -41,7 +38,7 @@ fonts:
     post_script_name: Caveat-Medium
     version: '2.000'
     copyright: Copyright 2014 The Caveat Project Authors (https://github.com/googlefonts/caveat)
-    font: Caveat-Medium.ttf
+    font: WnznHAc5bAfYB2QRah7pcpNvOx-pjcB9SIKjYBxPigs.ttf
 - name: Caveat SemiBold
   styles:
   - family_name: Caveat SemiBold
@@ -52,7 +49,7 @@ fonts:
     post_script_name: Caveat-SemiBold
     version: '2.000'
     copyright: Copyright 2014 The Caveat Project Authors (https://github.com/googlefonts/caveat)
-    font: Caveat-SemiBold.ttf
+    font: WnznHAc5bAfYB2QRah7pcpNvOx-pjSx6SIKjYBxPigs.ttf
 extract: {}
 copyright: Copyright 2014 The Caveat Project Authors (https://github.com/googlefonts/caveat)
 license_url: http://scripts.sil.org/OFL
@@ -150,5 +147,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 48ee2045cb403314f586ca684fb591f7f542fbcac1d3048bf5ea1dd4a63dc113
-command: google import --formulas_path Formulas
+command: import google -n 9999

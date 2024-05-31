@@ -1,12 +1,13 @@
 ---
+name: Meow Script
 description: Meow Script
 homepage: www.typesetit.com
 resources:
-  Meow_Script.zip:
-    urls:
-    - https://fonts.google.com/download?family=Meow%20Script
-    sha256: e249c928c221ca8b6bd77787861adaba26e5e16050788bc9299e864170144497
-    file_size: 235116
+  Meow Script:
+    source: google
+    family: Meow Script
+    files:
+    - https://fonts.gstatic.com/s/meowscript/v5/0FlQVPqanlaJrtr8AnJ0ESch0_0CfDf1.ttf
 fonts:
 - name: Meow Script
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: MeowScript-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2017 The Meow Script Project Authors (https://github.com/googlefonts/meow-script)
-    font: MeowScript-Regular.ttf
+    font: 0FlQVPqanlaJrtr8AnJ0ESch0_0CfDf1.ttf
 extract: {}
 copyright: Copyright 2017 The Meow Script Project Authors (https://github.com/googlefonts/meow-script)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 78056872b5b8314f7c6793f36ab0c7921193f14e43d6892496dceb40b6cb2c9b
-command: google import --formulas_path Formulas
+command: import google -n 9999

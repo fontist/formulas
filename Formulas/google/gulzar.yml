@@ -1,11 +1,12 @@
 ---
+name: Gulzar
 description: Gulzar
 resources:
-  Gulzar.zip:
-    urls:
-    - https://fonts.google.com/download?family=Gulzar
-    sha256: 518fa8508278988b2057a49041ef9f5bf21f2728ab397e9cae3a2e2e6c312957
-    file_size: 368943
+  Gulzar:
+    source: google
+    family: Gulzar
+    files:
+    - https://fonts.gstatic.com/s/gulzar/v12/Wnz6HAc9eB3HB2ILYTwZqg_MPQ.ttf
 fonts:
 - name: Gulzar
   styles:
@@ -15,7 +16,7 @@ fonts:
     post_script_name: Gulzar-Regular
     version: 1.000;[7b34f74]; ttfautohint (v1.8.4)
     copyright: Copyright 2021 The Gulzar Project Authors (http://github.com/googlefonts/gulzar/)
-    font: Gulzar-Regular.ttf
+    font: Wnz6HAc9eB3HB2ILYTwZqg_MPQ.ttf
 extract: {}
 copyright: Copyright 2021 The Gulzar Project Authors (http://github.com/googlefonts/gulzar/)
 license_url: https://scripts.sil.org/OFL
@@ -24,7 +25,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -113,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 2d0509a3d37fbae0547e1bb1aaa6317e963bb7773e008f77384541abffe343f2
-command: import google --formulas_path Formulas
+command: import google -n 9999

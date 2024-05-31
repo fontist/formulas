@@ -3,28 +3,19 @@ name: Fondamento
 description: Fondamento
 homepage: http://www.astigmatic.com/
 resources:
-  Fondamento.zip:
-    urls:
-    - https://fonts.google.com/download?family=Fondamento
-    sha256: 494443516d670efd31b1763d37f0485032312cebad467b6eeb303f01341ef4b7
-    file_size: 84636
+  Fondamento:
+    source: google
+    family: Fondamento
+    files:
+    - https://fonts.gstatic.com/s/fondamento/v20/4UaHrEJGsxNmFTPDnkaJx63j5pN1MwI.ttf
+    - https://fonts.gstatic.com/s/fondamento/v20/4UaFrEJGsxNmFTPDnkaJ96_p4rFwIwJePw.ttf
 fonts:
 - name: Fondamento
   styles:
   - family_name: Fondamento
-    type: Regular
-    full_name: Fondamento Regular
-    post_script_name: Fondamento-Regular
-    version: '1.000'
-    description: |-
-      Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
-      Font Name "Fondamento"
-    copyright: |-
-      Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
-      Font Name "Fondamento"
-    font: Fondamento-Regular.ttf
-  - family_name: Fondamento
     type: Italic
+    preferred_family_name: Fondamento
+    preferred_type: Italic
     full_name: Fondamento-Italic
     post_script_name: Fondamento-Italic
     version: '1.000'
@@ -34,11 +25,25 @@ fonts:
     copyright: |-
       Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
       Font Name "Fondamento Italic"
-    font: Fondamento-Italic.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com),
-  with Reserved Font Name "Fondamento"
+    font: 4UaFrEJGsxNmFTPDnkaJ96_p4rFwIwJePw.ttf
+  - family_name: Fondamento
+    type: Regular
+    preferred_family_name: Fondamento
+    preferred_type: Regular
+    full_name: Fondamento Regular
+    post_script_name: Fondamento-Regular
+    version: '1.000'
+    description: |-
+      Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+      Font Name "Fondamento"
+    copyright: |-
+      Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+      Font Name "Fondamento"
+    font: 4UaHrEJGsxNmFTPDnkaJx63j5pN1MwI.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+  Font Name "Fondamento"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI)
@@ -136,3 +141,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

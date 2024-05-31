@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Inscriptional Pahlavi
 description: Noto Sans Inscriptional Pahlavi
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Inscriptional_Pahlavi.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Inscriptional%20Pahlavi
-    sha256: 363d8f4d8f11e6d55ac6886c80624414420e285521ae430e663b3ab873795357
-    file_size: 31393
+  Noto Sans Inscriptional Pahlavi:
+    source: google
+    family: Noto Sans Inscriptional Pahlavi
+    files:
+    - https://fonts.gstatic.com/s/notosansinscriptionalpahlavi/v16/ll8UK3GaVDuxR-TEqFPIbsR79Xxz9WEKbwsjpz7VklYlC7FCVtqVOAYK0QA.ttf
 fonts:
 - name: Noto Sans Inscriptional Pahlavi
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/inscriptional-pahlavi)
-    font: NotoSansInscriptionalPahlavi-Regular.ttf
+    font: ll8UK3GaVDuxR-TEqFPIbsR79Xxz9WEKbwsjpz7VklYlC7FCVtqVOAYK0QA.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/inscriptional-pahlavi)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d62f98c85563b6ad4a477a93414b9fbbe0693346a25ecc9068ed1cbbe8931263
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

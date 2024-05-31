@@ -1,12 +1,13 @@
 ---
+name: Crafty Girls
 description: Crafty Girls
 homepage: http://www.fontbros.com/tartworkshop.php
 resources:
-  CraftyGirls.zip:
-    urls:
-    - https://fonts.google.com/download?family=Crafty%20Girls
-    sha256: 77c02e61ea275ebee73291d94a418e810f60b7ec5214792edc667e57712305ac
-    file_size: 51367
+  Crafty Girls:
+    source: google
+    family: Crafty Girls
+    files:
+    - https://fonts.gstatic.com/s/craftygirls/v16/va9B4kXI39VaDdlPJo8N_NvuQR37fF3Wlg.ttf
 fonts:
 - name: Crafty Girls
   styles:
@@ -17,13 +18,12 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2010 by Font Diner, Inc DBA Tart Workshop. All rights
       reserved.
-    font: CraftyGirls-Regular.ttf
-extract:
-  format: zip
+    font: va9B4kXI39VaDdlPJo8N_NvuQR37fF3Wlg.ttf
+extract: {}
 copyright: Copyright (c) 2010 by Font Diner, Inc DBA Tart Workshop. All rights reserved.
 license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |2-
-                                   Apache License
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -224,3 +224,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999

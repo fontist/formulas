@@ -3,11 +3,11 @@ name: Barrio
 description: Barrio
 homepage: http://www.omnibus-type.com/
 resources:
-  Barrio.zip:
-    urls:
-    - https://fonts.google.com/download?family=Barrio
-    sha256: f48bfead9967e1caa9825e500b0bbee952dad25cb13b831c56eb6a379e9e6154
-    file_size: 83815
+  Barrio:
+    source: google
+    family: Barrio
+    files:
+    - https://fonts.gstatic.com/s/barrio/v19/wEO8EBXBk8hBIDiEdQYhWdsX1Q.ttf
 fonts:
 - name: Barrio
   styles:
@@ -17,9 +17,8 @@ fonts:
     post_script_name: Barrio-Regular
     version: '1.005'
     copyright: Copyright 2016 The Barrio Project Authors (omnibus.type@gmail.com)
-    font: Barrio-Regular.ttf
-extract:
-  format: zip
+    font: wEO8EBXBk8hBIDiEdQYhWdsX1Q.ttf
+extract: {}
 copyright: Copyright 2016 The Barrio Project Authors (omnibus.type@gmail.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

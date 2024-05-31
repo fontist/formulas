@@ -3,16 +3,17 @@ name: IM Fell English SC
 description: IM Fell English SC
 homepage: www.iginomarini.com
 resources:
-  IMFellEnglishSC.zip:
-    urls:
-    - https://fonts.google.com/download?family=IM%20Fell%20English%20SC
-    sha256: c508f59a1a2ff0353f45096d42d911d78f11bd19acc73b0712eb9fe1d29fc7e2
-    file_size: 110592
+  IM Fell English SC:
+    source: google
+    family: IM Fell English SC
+    files:
+    - https://fonts.gstatic.com/s/imfellenglishsc/v16/a8IENpD3CDX-4zrWfr1VY879qFF05pZLO4gOg0shzA.ttf
 fonts:
-- name: IM Fell English SC
+- name: IM FELL English SC
   styles:
   - family_name: IM FELL English SC
     type: Regular
+    preferred_family_name: IM FELL English SC
     full_name: IM FELL English SC
     post_script_name: IM_FELL_English_SC
     version: '3.00'
@@ -22,11 +23,10 @@ fonts:
       size. Autospaced and autokerned using iKern© developed by Igino Marini.
     copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name
       IM FELL English SC"
-    font: IMFeENsc28P.ttf
-extract:
-  format: zip
-copyright: "© 2007 Igino Marini (www.iginomarini.com mail@iginomarini.com) With Reserved
-  Font Name IM FELL English SC"
+    font: a8IENpD3CDX-4zrWfr1VY879qFF05pZLO4gOg0shzA.ttf
+extract: {}
+copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name IM FELL
+  English SC"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Igino Marini (mail@iginomarini.com)
@@ -122,3 +122,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

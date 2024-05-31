@@ -1,12 +1,13 @@
 ---
+name: Fjalla One
 description: Fjalla One
 homepage: http://sorkintype.com/
 resources:
-  Fjalla_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Fjalla%20One
-    sha256: 30aa431792a7be795bac27c29b2dfd99e07390780fc809d296f79cb685d40e20
-    file_size: 109739
+  Fjalla One:
+    source: google
+    family: Fjalla One
+    files:
+    - https://fonts.gstatic.com/s/fjallaone/v15/Yq6R-LCAWCX3-6Ky7FAFnOZwkxgtUb8.ttf
 fonts:
 - name: Fjalla One
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: FjallaOne-Regular
     version: 1.002; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.25]
     copyright: Copyright 2012 The Fjalla Project Authors (https://github.com/SorkinType/FjallaOne)
-    font: FjallaOne-Regular.ttf
+    font: Yq6R-LCAWCX3-6Ky7FAFnOZwkxgtUb8.ttf
 extract: {}
 copyright: Copyright 2012 The Fjalla Project Authors (https://github.com/SorkinType/FjallaOne)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 4e48ec59448a737f96abca909491d35229d03780339a12836a2cc70d710d347d
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

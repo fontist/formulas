@@ -3,30 +3,19 @@ name: Playfair Display SC
 description: Playfair Display SC
 homepage: http://www.forthehearts.net
 resources:
-  PlayfairDisplaySC.zip:
-    urls:
-    - https://fonts.google.com/download?family=Playfair%20Display%20SC
-    sha256: d7ef7e1065720093d53de4d9d0e979e33d5c0c6f005898f0a4da639844c4be7f
-    file_size: 555428
+  Playfair Display SC:
+    source: google
+    family: Playfair Display SC
+    files:
+    - https://fonts.gstatic.com/s/playfairdisplaysc/v17/ke85OhoaMkR6-hSn7kbHVoFf7ZfgMPr_pb4GEcM2M4s.ttf
+    - https://fonts.gstatic.com/s/playfairdisplaysc/v17/ke87OhoaMkR6-hSn7kbHVoFf7ZfgMPr_lbwMFeEzI4sNKg.ttf
+    - https://fonts.gstatic.com/s/playfairdisplaysc/v17/ke80OhoaMkR6-hSn7kbHVoFf7ZfgMPr_nQIpNcsdL4IUMyE.ttf
+    - https://fonts.gstatic.com/s/playfairdisplaysc/v17/ke82OhoaMkR6-hSn7kbHVoFf7ZfgMPr_lbw0qc4XK6ARIyH5IA.ttf
+    - https://fonts.gstatic.com/s/playfairdisplaysc/v17/ke80OhoaMkR6-hSn7kbHVoFf7ZfgMPr_nTorNcsdL4IUMyE.ttf
+    - https://fonts.gstatic.com/s/playfairdisplaysc/v17/ke82OhoaMkR6-hSn7kbHVoFf7ZfgMPr_lbw0kcwXK6ARIyH5IA.ttf
 fonts:
 - name: Playfair Display SC
   styles:
-  - family_name: Playfair Display SC
-    type: Regular
-    full_name: Playfair Display SC Regular
-    post_script_name: PlayfairDisplaySC-Regular
-    version: 1.200; ttfautohint (v1.6)
-    copyright: Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display),
-      with Reserved Font Name "Playfair Display".
-    font: PlayfairDisplaySC-Regular.ttf
-  - family_name: Playfair Display SC
-    type: Italic
-    full_name: Playfair Display SC Italic
-    post_script_name: PlayfairDisplaySC-Italic
-    version: 1.200; ttfautohint (v1.6)
-    copyright: Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display),
-      with Reserved Font Name "Playfair Display".
-    font: PlayfairDisplaySC-Italic.ttf
   - family_name: Playfair Display SC
     type: Bold
     full_name: Playfair Display SC Bold
@@ -34,7 +23,7 @@ fonts:
     version: 1.200; ttfautohint (v1.6)
     copyright: Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display),
       with Reserved Font Name "Playfair Display".
-    font: PlayfairDisplaySC-Bold.ttf
+    font: ke80OhoaMkR6-hSn7kbHVoFf7ZfgMPr_nQIpNcsdL4IUMyE.ttf
   - family_name: Playfair Display SC
     type: Bold Italic
     full_name: Playfair Display SC Bold Italic
@@ -42,25 +31,46 @@ fonts:
     version: 1.200; ttfautohint (v1.6)
     copyright: Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display),
       with Reserved Font Name "Playfair Display".
-    font: PlayfairDisplaySC-BoldItalic.ttf
+    font: ke82OhoaMkR6-hSn7kbHVoFf7ZfgMPr_lbw0qc4XK6ARIyH5IA.ttf
   - family_name: Playfair Display SC
-    type: Black
-    full_name: Playfair Display SC Black
-    post_script_name: PlayfairDisplaySC-Black
+    type: Italic
+    full_name: Playfair Display SC Italic
+    post_script_name: PlayfairDisplaySC-Italic
     version: 1.200; ttfautohint (v1.6)
     copyright: Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display),
       with Reserved Font Name "Playfair Display".
-    font: PlayfairDisplaySC-Black.ttf
+    font: ke87OhoaMkR6-hSn7kbHVoFf7ZfgMPr_lbwMFeEzI4sNKg.ttf
   - family_name: Playfair Display SC
-    type: Black Italic
+    type: Regular
+    full_name: Playfair Display SC Regular
+    post_script_name: PlayfairDisplaySC-Regular
+    version: 1.200; ttfautohint (v1.6)
+    copyright: Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display),
+      with Reserved Font Name "Playfair Display".
+    font: ke85OhoaMkR6-hSn7kbHVoFf7ZfgMPr_pb4GEcM2M4s.ttf
+- name: Playfair Display SC Black
+  styles:
+  - family_name: Playfair Display SC Black
+    type: Italic
+    preferred_family_name: Playfair Display SC
+    preferred_type: Black Italic
     full_name: Playfair Display SC Black Italic
     post_script_name: PlayfairDisplaySC-BlackItalic
     version: 1.200; ttfautohint (v1.6)
     copyright: Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display),
       with Reserved Font Name "Playfair Display".
-    font: PlayfairDisplaySC-BlackItalic.ttf
-extract:
-  format: zip
+    font: ke82OhoaMkR6-hSn7kbHVoFf7ZfgMPr_lbw0kcwXK6ARIyH5IA.ttf
+  - family_name: Playfair Display SC Black
+    type: Regular
+    preferred_family_name: Playfair Display SC
+    preferred_type: Black
+    full_name: Playfair Display SC Black
+    post_script_name: PlayfairDisplaySC-Black
+    version: 1.200; ttfautohint (v1.6)
+    copyright: Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display),
+      with Reserved Font Name "Playfair Display".
+    font: ke80OhoaMkR6-hSn7kbHVoFf7ZfgMPr_nTorNcsdL4IUMyE.ttf
+extract: {}
 copyright: Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display),
   with Reserved Font Name "Playfair Display".
 license_url: http://scripts.sil.org/OFL
@@ -158,3 +168,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

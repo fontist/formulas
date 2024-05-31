@@ -3,11 +3,17 @@ name: IBM Plex Sans KR
 description: IBM Plex Sans KR
 homepage: http://www.sandoll.co.kr
 resources:
-  IBM_Plex_Sans_KR.zip:
-    urls:
-    - https://fonts.google.com/download?family=IBM%20Plex%20Sans%20KR
-    sha256: 0012b733a0619a16141241e56fe18d52d89a025c2ff76393fec8e4d8bff47b38
-    file_size: 6828071
+  IBM Plex Sans KR:
+    source: google
+    family: IBM Plex Sans KR
+    files:
+    - https://fonts.gstatic.com/s/ibmplexsanskr/v10/vEFM2-VJISZe3O_rc3ZVYh4aTwNOyra_X5zCpMrMfA.ttf
+    - https://fonts.gstatic.com/s/ibmplexsanskr/v10/vEFN2-VJISZe3O_rc3ZVYh4aTwNOyhqef7bsqMPVZb4.ttf
+    - https://fonts.gstatic.com/s/ibmplexsanskr/v10/vEFN2-VJISZe3O_rc3ZVYh4aTwNOyn6df7bsqMPVZb4.ttf
+    - https://fonts.gstatic.com/s/ibmplexsanskr/v10/vEFK2-VJISZe3O_rc3ZVYh4aTwNO8tK1W77HtMo.ttf
+    - https://fonts.gstatic.com/s/ibmplexsanskr/v10/vEFN2-VJISZe3O_rc3ZVYh4aTwNOyiacf7bsqMPVZb4.ttf
+    - https://fonts.gstatic.com/s/ibmplexsanskr/v10/vEFN2-VJISZe3O_rc3ZVYh4aTwNOygqbf7bsqMPVZb4.ttf
+    - https://fonts.gstatic.com/s/ibmplexsanskr/v10/vEFN2-VJISZe3O_rc3ZVYh4aTwNOym6af7bsqMPVZb4.ttf
 fonts:
 - name: IBM Plex Sans KR
   styles:
@@ -17,14 +23,14 @@ fonts:
     post_script_name: IBMPlexSansKR-Bold
     version: '1.001'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: IBMPlexSansKR-Bold.ttf
+    font: vEFN2-VJISZe3O_rc3ZVYh4aTwNOym6af7bsqMPVZb4.ttf
   - family_name: IBM Plex Sans KR
     type: Regular
     full_name: IBM Plex Sans KR Regular
     post_script_name: IBMPlexSansKR-Regular
     version: '1.001'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: IBMPlexSansKR-Regular.ttf
+    font: vEFK2-VJISZe3O_rc3ZVYh4aTwNO8tK1W77HtMo.ttf
 - name: IBM Plex Sans KR ExtraLight
   styles:
   - family_name: IBM Plex Sans KR ExtraLight
@@ -35,7 +41,7 @@ fonts:
     post_script_name: IBMPlexSansKR-ExtraLight
     version: '1.001'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: IBMPlexSansKR-ExtraLight.ttf
+    font: vEFN2-VJISZe3O_rc3ZVYh4aTwNOyhqef7bsqMPVZb4.ttf
 - name: IBM Plex Sans KR Light
   styles:
   - family_name: IBM Plex Sans KR Light
@@ -46,7 +52,7 @@ fonts:
     post_script_name: IBMPlexSansKR-Light
     version: '1.001'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: IBMPlexSansKR-Light.ttf
+    font: vEFN2-VJISZe3O_rc3ZVYh4aTwNOyn6df7bsqMPVZb4.ttf
 - name: IBM Plex Sans KR Medium
   styles:
   - family_name: IBM Plex Sans KR Medium
@@ -57,7 +63,7 @@ fonts:
     post_script_name: IBMPlexSansKR-Medium
     version: '1.001'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: IBMPlexSansKR-Medium.ttf
+    font: vEFN2-VJISZe3O_rc3ZVYh4aTwNOyiacf7bsqMPVZb4.ttf
 - name: IBM Plex Sans KR SemiBold
   styles:
   - family_name: IBM Plex Sans KR SemiBold
@@ -68,7 +74,7 @@ fonts:
     post_script_name: IBMPlexSansKR-SemiBold
     version: '1.001'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: IBMPlexSansKR-SemiBold.ttf
+    font: vEFN2-VJISZe3O_rc3ZVYh4aTwNOygqbf7bsqMPVZb4.ttf
 - name: IBM Plex Sans KR Thin
   styles:
   - family_name: IBM Plex Sans KR Thin
@@ -79,7 +85,7 @@ fonts:
     post_script_name: IBMPlexSansKR-Thin
     version: '1.001'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: IBMPlexSansKR-Thin.ttf
+    font: vEFM2-VJISZe3O_rc3ZVYh4aTwNOyra_X5zCpMrMfA.ttf
 extract: {}
 copyright: Copyright 2018 IBM Corp. All rights reserved.
 license_url: http://scripts.sil.org/OFL
@@ -87,8 +93,8 @@ open_license: |-
   Copyright © 2017 IBM Corp. with Reserved Font Name "Plex"
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
-  This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+
+  This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -177,5 +183,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: a18f58462cb8d41878af2407f1b7f82118c9b8bcd525a297ab47ee3bbdd87199
-command: google import --formulas_path Formulas
+command: import google -n 9999

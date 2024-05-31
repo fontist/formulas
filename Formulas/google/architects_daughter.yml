@@ -1,12 +1,12 @@
 ---
+name: Architects Daughter
 description: Architects Daughter
-homepage:
 resources:
-  ArchitectsDaughter.zip:
-    urls:
-    - https://fonts.google.com/download?family=Architects%20Daughter
-    sha256: 862cf2b23655a4b0761715c1d6a5694ac3303d9ec0d00d036b70eadbe4534d46
-    file_size: 23573
+  Architects Daughter:
+    source: google
+    family: Architects Daughter
+    files:
+    - https://fonts.gstatic.com/s/architectsdaughter/v18/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvfY5q4szgE-Q.ttf
 fonts:
 - name: Architects Daughter
   styles:
@@ -16,9 +16,8 @@ fonts:
     post_script_name: ArchitectsDaughter-Regular
     version: 1.003 2010
     copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
-    font: ArchitectsDaughter-Regular.ttf
-extract:
-  format: zip
+    font: KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvfY5q4szgE-Q.ttf
+extract: {}
 copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -115,3 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

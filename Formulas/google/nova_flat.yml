@@ -1,12 +1,12 @@
 ---
+name: Nova Flat
 description: Nova Flat
-homepage:
 resources:
-  NovaFlat.zip:
-    urls:
-    - https://fonts.google.com/download?family=Nova%20Flat
-    sha256: eeb5fd142a42d1f2b8fb89682dbd68c6b6c5dd16f9d38abecee315ee80655df3
-    file_size: 41104
+  Nova Flat:
+    source: google
+    family: Nova Flat
+    files:
+    - https://fonts.gstatic.com/s/novaflat/v24/QdVUSTc-JgqpytEbVebEuStkm20oJA.ttf
 fonts:
 - name: Nova Flat
   styles:
@@ -16,12 +16,9 @@ fonts:
     post_script_name: NovaFlat
     version: '2.000'
     copyright: Copyright (c) 2011, wmk69 (wmk69@o2.pl)
-    font: NovaFlat.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2011, wmk69 (wmk69@o2.pl) with Reserved Font Names ''NovaFlat''
-  and ''Nova Flat''. This Font Software is licensed under the SIL Open Font License,
-  Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    font: QdVUSTc-JgqpytEbVebEuStkm20oJA.ttf
+extract: {}
+copyright: Copyright (c) 2011, wmk69 (wmk69@o2.pl)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, wmk69 (wmk69@o2.pl),
@@ -129,3 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

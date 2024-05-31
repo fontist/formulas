@@ -1,11 +1,16 @@
 ---
+name: Noto Serif Vithkuqi
 description: Noto Serif Vithkuqi
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Serif_Vithkuqi.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Serif%20Vithkuqi
-    file_size: 190421
+  Noto Serif Vithkuqi:
+    source: google
+    family: Noto Serif Vithkuqi
+    files:
+    - https://fonts.gstatic.com/s/notoserifvithkuqi/v1/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRWMdW2Cqy9A4teH.ttf
+    - https://fonts.gstatic.com/s/notoserifvithkuqi/v1/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRW-dW2Cqy9A4teH.ttf
+    - https://fonts.gstatic.com/s/notoserifvithkuqi/v1/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRVScm2Cqy9A4teH.ttf
+    - https://fonts.gstatic.com/s/notoserifvithkuqi/v1/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRVrcm2Cqy9A4teH.ttf
 fonts:
 - name: Noto Serif Vithkuqi
   styles:
@@ -16,7 +21,7 @@ fonts:
     version: '1.005'
     description: Designed by Lewis McGuffie
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/vithkuqi)
-    font: NotoSerifVithkuqi-Bold.ttf
+    font: YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRVrcm2Cqy9A4teH.ttf
   - family_name: Noto Serif Vithkuqi
     type: Regular
     full_name: Noto Serif Vithkuqi Regular
@@ -24,15 +29,7 @@ fonts:
     version: '1.005'
     description: Designed by Lewis McGuffie
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/vithkuqi)
-    font: NotoSerifVithkuqi-VariableFont_wght.ttf
-  - family_name: Noto Serif Vithkuqi
-    type: Regular
-    full_name: Noto Serif Vithkuqi Regular
-    post_script_name: NotoSerifVithkuqi-Regular
-    version: '1.005'
-    description: Designed by Lewis McGuffie
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/vithkuqi)
-    font: NotoSerifVithkuqi-Regular.ttf
+    font: YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRWMdW2Cqy9A4teH.ttf
 - name: Noto Serif Vithkuqi Medium
   styles:
   - family_name: Noto Serif Vithkuqi Medium
@@ -44,7 +41,7 @@ fonts:
     version: '1.005'
     description: Designed by Lewis McGuffie
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/vithkuqi)
-    font: NotoSerifVithkuqi-Medium.ttf
+    font: YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRW-dW2Cqy9A4teH.ttf
 - name: Noto Serif Vithkuqi SemiBold
   styles:
   - family_name: Noto Serif Vithkuqi SemiBold
@@ -56,7 +53,7 @@ fonts:
     version: '1.005'
     description: Designed by Lewis McGuffie
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/vithkuqi)
-    font: NotoSerifVithkuqi-SemiBold.ttf
+    font: YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRVScm2Cqy9A4teH.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/vithkuqi)
 license_url: https://scripts.sil.org/OFL
@@ -65,7 +62,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -154,5 +151,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: eb277b8d3a45d61570970e6effd799a97920da8b6d35ff1458e7d72ec0fe0c90
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

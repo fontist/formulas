@@ -1,12 +1,13 @@
 ---
+name: Oooh Baby
 description: Oooh Baby
 homepage: www.typesetit.com
 resources:
-  Oooh_Baby.zip:
-    urls:
-    - https://fonts.google.com/download?family=Oooh%20Baby
-    sha256: 99afc949efb1a9f9027e71ad84ad7bbcc83db9bd64599787cc28e579116e42bc
-    file_size: 67834
+  Oooh Baby:
+    source: google
+    family: Oooh Baby
+    files:
+    - https://fonts.gstatic.com/s/ooohbaby/v4/2sDcZGJWgJTT2Jf76xQDb2-4C7wFZQ.ttf
 fonts:
 - name: Oooh Baby
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: OoohBaby-Regular
     version: 1.011; ttfautohint (v1.8.3)
     copyright: Copyright 2004-2021 The Oooh Baby Project Authors (https://github.com/googlefonts/oooh-baby)
-    font: OoohBaby-Regular.ttf
+    font: 2sDcZGJWgJTT2Jf76xQDb2-4C7wFZQ.ttf
 extract: {}
 copyright: Copyright 2004-2021 The Oooh Baby Project Authors (https://github.com/googlefonts/oooh-baby)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9dbf87363d7a5085d979f37e27cef791eb4ae3b566751676d5cfd87a9ad4acf8
-command: google import --formulas_path Formulas
+command: import google -n 9999

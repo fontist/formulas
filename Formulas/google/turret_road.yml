@@ -1,59 +1,80 @@
 ---
+name: Turret Road
 description: Turret Road
 homepage: http://noponies.com
 resources:
-  TurretRoad.zip:
-    urls:
-    - https://fonts.google.com/download?family=Turret%20Road
-    sha256: 1ab80602bbb936c167d5c1c4024708da3120bc427a82a8e9f3bbb3810674cde6
-    file_size: 163450
+  Turret Road:
+    source: google
+    family: Turret Road
+    files:
+    - https://fonts.gstatic.com/s/turretroad/v9/pxidypMgpcBFjE84Zv-fE0ONEdeLYk1Mq3ap.ttf
+    - https://fonts.gstatic.com/s/turretroad/v9/pxidypMgpcBFjE84Zv-fE0PpEteLYk1Mq3ap.ttf
+    - https://fonts.gstatic.com/s/turretroad/v9/pxiAypMgpcBFjE84Zv-fE3tFOvODSVFF.ttf
+    - https://fonts.gstatic.com/s/turretroad/v9/pxidypMgpcBFjE84Zv-fE0OxE9eLYk1Mq3ap.ttf
+    - https://fonts.gstatic.com/s/turretroad/v9/pxidypMgpcBFjE84Zv-fE0P5FdeLYk1Mq3ap.ttf
+    - https://fonts.gstatic.com/s/turretroad/v9/pxidypMgpcBFjE84Zv-fE0PlFteLYk1Mq3ap.ttf
 fonts:
 - name: Turret Road
   styles:
-  - family_name: Turret Road
-    type: ExtraLight
-    full_name: Turret Road ExtraLight
-    post_script_name: TurretRoad-ExtraLight
-    version: 1.001; ttfautohint (v1.8)
-    copyright: Copyright 2018 The Turret Road Project Authors (https://github.com/noponies/turret-road)
-    font: TurretRoad-ExtraLight.ttf
-  - family_name: Turret Road
-    type: Light
-    full_name: Turret Road Light
-    post_script_name: TurretRoad-Light
-    version: 1.001; ttfautohint (v1.8)
-    copyright: Copyright 2018 The Turret Road Project Authors (https://github.com/noponies/turret-road)
-    font: TurretRoad-Light.ttf
-  - family_name: Turret Road
-    type: Regular
-    full_name: Turret Road Regular
-    post_script_name: TurretRoad-Regular
-    version: 1.001; ttfautohint (v1.8)
-    copyright: Copyright 2018 The Turret Road Project Authors (https://github.com/noponies/turret-road)
-    font: TurretRoad-Regular.ttf
-  - family_name: Turret Road
-    type: Medium
-    full_name: Turret Road Medium
-    post_script_name: TurretRoad-Medium
-    version: 1.001; ttfautohint (v1.8)
-    copyright: Copyright 2018 The Turret Road Project Authors (https://github.com/noponies/turret-road)
-    font: TurretRoad-Medium.ttf
   - family_name: Turret Road
     type: Bold
     full_name: Turret Road Bold
     post_script_name: TurretRoad-Bold
     version: 1.001; ttfautohint (v1.8)
     copyright: Copyright 2018 The Turret Road Project Authors (https://github.com/noponies/turret-road)
-    font: TurretRoad-Bold.ttf
+    font: pxidypMgpcBFjE84Zv-fE0P5FdeLYk1Mq3ap.ttf
   - family_name: Turret Road
-    type: ExtraBold
+    type: Regular
+    full_name: Turret Road Regular
+    post_script_name: TurretRoad-Regular
+    version: 1.001; ttfautohint (v1.8)
+    copyright: Copyright 2018 The Turret Road Project Authors (https://github.com/noponies/turret-road)
+    font: pxiAypMgpcBFjE84Zv-fE3tFOvODSVFF.ttf
+- name: Turret Road ExtraBold
+  styles:
+  - family_name: Turret Road ExtraBold
+    type: Regular
+    preferred_family_name: Turret Road
+    preferred_type: ExtraBold
     full_name: Turret Road ExtraBold
     post_script_name: TurretRoad-ExtraBold
     version: 1.001; ttfautohint (v1.8)
     copyright: Copyright 2018 The Turret Road Project Authors (https://github.com/noponies/turret-road)
-    font: TurretRoad-ExtraBold.ttf
-extract:
-  format: zip
+    font: pxidypMgpcBFjE84Zv-fE0PlFteLYk1Mq3ap.ttf
+- name: Turret Road ExtraLight
+  styles:
+  - family_name: Turret Road ExtraLight
+    type: Regular
+    preferred_family_name: Turret Road
+    preferred_type: ExtraLight
+    full_name: Turret Road ExtraLight
+    post_script_name: TurretRoad-ExtraLight
+    version: 1.001; ttfautohint (v1.8)
+    copyright: Copyright 2018 The Turret Road Project Authors (https://github.com/noponies/turret-road)
+    font: pxidypMgpcBFjE84Zv-fE0ONEdeLYk1Mq3ap.ttf
+- name: Turret Road Light
+  styles:
+  - family_name: Turret Road Light
+    type: Regular
+    preferred_family_name: Turret Road
+    preferred_type: Light
+    full_name: Turret Road Light
+    post_script_name: TurretRoad-Light
+    version: 1.001; ttfautohint (v1.8)
+    copyright: Copyright 2018 The Turret Road Project Authors (https://github.com/noponies/turret-road)
+    font: pxidypMgpcBFjE84Zv-fE0PpEteLYk1Mq3ap.ttf
+- name: Turret Road Medium
+  styles:
+  - family_name: Turret Road Medium
+    type: Regular
+    preferred_family_name: Turret Road
+    preferred_type: Medium
+    full_name: Turret Road Medium
+    post_script_name: TurretRoad-Medium
+    version: 1.001; ttfautohint (v1.8)
+    copyright: Copyright 2018 The Turret Road Project Authors (https://github.com/noponies/turret-road)
+    font: pxidypMgpcBFjE84Zv-fE0OxE9eLYk1Mq3ap.ttf
+extract: {}
 copyright: Copyright 2018 The Turret Road Project Authors (https://github.com/noponies/turret-road)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -150,3 +171,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -3,22 +3,15 @@ name: DM Serif Text
 description: DM Serif Text
 homepage: http://www.colophon-foundry.org
 resources:
-  DMSerifText.zip:
-    urls:
-    - https://fonts.google.com/download?family=DM%20Serif%20Text
-    sha256: 99dada70b8d6e8181da3a899288ac7a50a6010007b25812e98cb2840fe93a0a0
-    file_size: 78918
+  DM Serif Text:
+    source: google
+    family: DM Serif Text
+    files:
+    - https://fonts.gstatic.com/s/dmseriftext/v12/rnCu-xZa_krGokauCeNq1wWyafOPXHIJErY.ttf
+    - https://fonts.gstatic.com/s/dmseriftext/v12/rnCw-xZa_krGokauCeNq1wWyWfGFWFAMArZKqQ.ttf
 fonts:
 - name: DM Serif Text
   styles:
-  - family_name: DM Serif Text
-    type: Regular
-    full_name: DM Serif Text Regular
-    post_script_name: DMSerifText-Regular
-    version: 5.200; ttfautohint (v1.8.3)
-    copyright: Copyright 2014 - 2017 Adobe Systems Incorporated (http://www.adobe.com/),
-      with Reserved Font Name 'Source'. Copyright 2019 Google LLC.
-    font: DMSerifText-Regular.ttf
   - family_name: DM Serif Text
     type: Italic
     full_name: DM Serif Text Italic
@@ -26,9 +19,16 @@ fonts:
     version: 5.200; ttfautohint (v1.8.3)
     copyright: Copyright 2014 - 2017 Adobe Systems Incorporated (http://www.adobe.com/),
       with Reserved Font Name 'Source'. Copyright 2019 Google LLC.
-    font: DMSerifText-Italic.ttf
-extract:
-  format: zip
+    font: rnCw-xZa_krGokauCeNq1wWyWfGFWFAMArZKqQ.ttf
+  - family_name: DM Serif Text
+    type: Regular
+    full_name: DM Serif Text Regular
+    post_script_name: DMSerifText-Regular
+    version: 5.200; ttfautohint (v1.8.3)
+    copyright: Copyright 2014 - 2017 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name 'Source'. Copyright 2019 Google LLC.
+    font: rnCu-xZa_krGokauCeNq1wWyafOPXHIJErY.ttf
+extract: {}
 copyright: Copyright 2014 - 2017 Adobe Systems Incorporated (http://www.adobe.com/),
   with Reserved Font Name 'Source'. Copyright 2019 Google LLC.
 license_url: http://scripts.sil.org/OFL
@@ -126,3 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

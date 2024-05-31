@@ -1,12 +1,13 @@
 ---
+name: Diphylleia
 description: Diphylleia
 homepage: https://jamo.works
 resources:
-  Diphylleia.zip:
-    urls:
-    - https://fonts.google.com/download?family=Diphylleia
-    sha256: 14c02a3de9734fb010a1d6d1d798de2e2202646c00bd0fe4cc19d0f6feec42b7
-    file_size: 659061
+  Diphylleia:
+    source: google
+    family: Diphylleia
+    files:
+    - https://fonts.gstatic.com/s/diphylleia/v1/DtVmJxCtRKMixK4_HXsIulwm6gDXvwE.ttf
 fonts:
 - name: Diphylleia
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: Diphylleia-Regular
     version: 1.000; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.28]
     copyright: Copyright 2022 The Diphylleia Project Authors (https://github.com/JAMO-TYPEFACE/Diphylleia)
-    font: Diphylleia-Regular.ttf
+    font: DtVmJxCtRKMixK4_HXsIulwm6gDXvwE.ttf
 extract: {}
 copyright: Copyright 2022 The Diphylleia Project Authors (https://github.com/JAMO-TYPEFACE/Diphylleia)
 license_url: https://scripts.sil.org/OFL
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: f8c6577f83e8e1b3af771513bb47e6bf9038a767bd2c73630311bd93430afd5d
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

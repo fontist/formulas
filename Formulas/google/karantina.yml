@@ -2,11 +2,13 @@
 name: Karantina
 description: Karantina
 resources:
-  Karantina.zip:
-    urls:
-    - https://fonts.google.com/download?family=Karantina
-    sha256: 5735a937c64b3d47045d12b5725062a4b62ea58192dd8aa39004bb494259efce
-    file_size: 75991
+  Karantina:
+    source: google
+    family: Karantina
+    files:
+    - https://fonts.gstatic.com/s/karantina/v11/buExpo24ccnh31GVMABxXCgf-P5Oaiw4cw.ttf
+    - https://fonts.gstatic.com/s/karantina/v11/buE0po24ccnh31GVMABJ8AA78NVSYw.ttf
+    - https://fonts.gstatic.com/s/karantina/v11/buExpo24ccnh31GVMABxTC8f-P5Oaiw4cw.ttf
 fonts:
 - name: Karantina
   styles:
@@ -16,14 +18,14 @@ fonts:
     post_script_name: Karantina-Bold
     version: 1.000; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Karantina Project Authors (https://github.com/ronykoch/Karantina)
-    font: Karantina-Bold.ttf
+    font: buExpo24ccnh31GVMABxTC8f-P5Oaiw4cw.ttf
   - family_name: Karantina
     type: Regular
     full_name: Karantina Regular
     post_script_name: Karantina-Regular
     version: 1.000; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Karantina Project Authors (https://github.com/ronykoch/Karantina)
-    font: Karantina-Regular.ttf
+    font: buE0po24ccnh31GVMABJ8AA78NVSYw.ttf
 - name: Karantina Light
   styles:
   - family_name: Karantina Light
@@ -34,7 +36,7 @@ fonts:
     post_script_name: Karantina-Light
     version: 1.000; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Karantina Project Authors (https://github.com/ronykoch/Karantina)
-    font: Karantina-Light.ttf
+    font: buExpo24ccnh31GVMABxXCgf-P5Oaiw4cw.ttf
 extract: {}
 copyright: Copyright 2020 The Karantina Project Authors (https://github.com/ronykoch/Karantina)
 license_url: https://scripts.sil.org/OFL
@@ -132,5 +134,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 57dcb9c8f3051a3ba956a24935612ee8d87c854d936e6d9a3666b33252ce8181
-command: google import --formulas_path Formulas
+command: import google -n 9999

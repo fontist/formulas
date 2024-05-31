@@ -3,11 +3,11 @@ name: Zen Dots
 description: Zen Dots
 homepage: https://www.zenfont.jp/
 resources:
-  Zen_Dots.zip:
-    urls:
-    - https://fonts.google.com/download?family=Zen%20Dots
-    sha256: 6018b26f0be5edc8e112276a3c845bc04e26159cdaee00816c0b666db371f3d0
-    file_size: 21581
+  Zen Dots:
+    source: google
+    family: Zen Dots
+    files:
+    - https://fonts.gstatic.com/s/zendots/v12/XRXX3ICfm00IGoesQeaETM_FcCIG.ttf
 fonts:
 - name: Zen Dots
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: ZenDots-Regular
     version: 1.000; ttfautohint (v1.8.3)
     copyright: Copyright 2021 The Dots Project Authors (https://github.com/googlefonts/zen-dots)
-    font: ZenDots-Regular.ttf
+    font: XRXX3ICfm00IGoesQeaETM_FcCIG.ttf
 extract: {}
 copyright: Copyright 2021 The Dots Project Authors (https://github.com/googlefonts/zen-dots)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ad747c58678b8189709c5d7b27119dcb4db0e9bc83e27f482299fe419a830fc7
-command: google import --formulas_path Formulas
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Permanent Marker
 description: Permanent Marker
 homepage: http://www.fontdiner.com
 resources:
-  PermanentMarker.zip:
-    urls:
-    - https://fonts.google.com/download?family=Permanent%20Marker
-    sha256: 22ac9cb8e38f9c78e9a6bae39753c68bef3b65174a3980ccd4173d2a76690164
-    file_size: 45115
+  Permanent Marker:
+    source: google
+    family: Permanent Marker
+    files:
+    - https://fonts.gstatic.com/s/permanentmarker/v16/Fh4uPib9Iyv2ucM6pGQMWimMp004HaqIfrT5nlk.ttf
 fonts:
 - name: Permanent Marker
   styles:
@@ -16,13 +17,12 @@ fonts:
     post_script_name: PermanentMarker-Regular
     version: '1.001'
     copyright: Copyright (c) 2010 by Font Diner, Inc. All rights reserved.
-    font: PermanentMarker-Regular.ttf
-extract:
-  format: zip
+    font: Fh4uPib9Iyv2ucM6pGQMWimMp004HaqIfrT5nlk.ttf
+extract: {}
 copyright: Copyright (c) 2010 by Font Diner, Inc. All rights reserved.
 license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |2-
-                                   Apache License
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -223,3 +223,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999

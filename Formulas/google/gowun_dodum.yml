@@ -3,11 +3,11 @@ name: Gowun Dodum
 description: Gowun Dodum
 homepage: http://www.ryufont.com/
 resources:
-  Gowun_Dodum.zip:
-    urls:
-    - https://fonts.google.com/download?family=Gowun%20Dodum
-    sha256: bee5f5827d6f4b88b1acd41a9ec16d81ef06ab42f8469bdf774d9b10e256799f
-    file_size: 1443716
+  Gowun Dodum:
+    source: google
+    family: Gowun Dodum
+    files:
+    - https://fonts.gstatic.com/s/gowundodum/v7/3Jn5SD_00GqwlBnWc1TUJF0FfORL0fNy.ttf
 fonts:
 - name: Gowun Dodum
   styles:
@@ -17,12 +17,13 @@ fonts:
     post_script_name: GowunDodum-Regular
     version: '2.000'
     copyright: Copyright 2021 The Gowun Dodum Project Authors (https://github.com/yangheeryu/Gowun-Dodum)
-    font: GowunDodum-Regular.ttf
+    font: 3Jn5SD_00GqwlBnWc1TUJF0FfORL0fNy.ttf
 extract: {}
 copyright: Copyright 2021 The Gowun Dodum Project Authors (https://github.com/yangheeryu/Gowun-Dodum)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
   Copyright 2021 The Gowun Dodum Project Authors (https://github.com/yangheeryu/Gowun-Dodum)
+
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: dc2d8f33cca4a609128ac887233f212123f532e3d70fa1dd463fe8bea0a9e2c9
-command: google import --formulas_path Formulas
+command: import google -n 9999

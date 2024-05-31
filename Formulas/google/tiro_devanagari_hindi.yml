@@ -1,12 +1,14 @@
 ---
+name: Tiro Devanagari Hindi
 description: Tiro Devanagari Hindi
 homepage: https://github.com/TiroTypeworks/Indigo
 resources:
-  Tiro_Devanagari_Hindi.zip:
-    urls:
-    - https://fonts.google.com/download?family=Tiro%20Devanagari%20Hindi
-    sha256: e3d4479601191f909c78b594aa66da58defcbfa3a0de81e06c05bf8507fec252
-    file_size: 389827
+  Tiro Devanagari Hindi:
+    source: google
+    family: Tiro Devanagari Hindi
+    files:
+    - https://fonts.gstatic.com/s/tirodevanagarihindi/v5/55xyezN7P8T4e0_CfIJrwdodg9HoYw0i-M9fSOkOfG0Y3A.ttf
+    - https://fonts.gstatic.com/s/tirodevanagarihindi/v5/55x8ezN7P8T4e0_CfIJrwdodg9HoYw0i-M9vSuMKXmgI3F_o.ttf
 fonts:
 - name: Tiro Devanagari Hindi
   styles:
@@ -16,14 +18,14 @@ fonts:
     post_script_name: TiroDevaHindi-Italic
     version: '1.52'
     copyright: Copyright 2020 The Indigo Project Authors (https://github.com/TiroTypeworks/Indigo)
-    font: TiroDevanagariHindi-Italic.ttf
+    font: 55x8ezN7P8T4e0_CfIJrwdodg9HoYw0i-M9vSuMKXmgI3F_o.ttf
   - family_name: Tiro Devanagari Hindi
     type: Regular
     full_name: Tiro Devanagari Hindi Regular
     post_script_name: TiroDevaHindi-Regular
     version: '1.52'
     copyright: Copyright 2020 The Indigo Project Authors (https://github.com/TiroTypeworks/Indigo)
-    font: TiroDevanagariHindi-Regular.ttf
+    font: 55xyezN7P8T4e0_CfIJrwdodg9HoYw0i-M9fSOkOfG0Y3A.ttf
 extract: {}
 copyright: Copyright 2020 The Indigo Project Authors (https://github.com/TiroTypeworks/Indigo)
 license_url: https://scripts.sil.org/OFL
@@ -121,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b8fdf2c97bd54cd9ccfa75cf3911e1e7dbbffb8f263291f0938252256b3db71e
-command: import google --formulas_path Formulas
+command: import google -n 9999

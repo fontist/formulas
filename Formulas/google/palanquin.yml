@@ -1,67 +1,91 @@
 ---
 name: Palanquin
 description: Palanquin
-homepage:
 resources:
-  Palanquin.zip:
-    urls:
-    - https://fonts.google.com/download?family=Palanquin
-    sha256: 204355635d14a5eb4c257ba29e982960eea02970007df250834b107a2bd7035a
-    file_size: 1488106
+  Palanquin:
+    source: google
+    family: Palanquin
+    files:
+    - https://fonts.gstatic.com/s/palanquin/v13/9XUhlJ90n1fBFg7ceXwUEltI7rWmZzTH.ttf
+    - https://fonts.gstatic.com/s/palanquin/v13/9XUilJ90n1fBFg7ceXwUvnpoxJuqbi3ezg.ttf
+    - https://fonts.gstatic.com/s/palanquin/v13/9XUilJ90n1fBFg7ceXwU2nloxJuqbi3ezg.ttf
+    - https://fonts.gstatic.com/s/palanquin/v13/9XUnlJ90n1fBFg7ceXwsdlFMzLC2Zw.ttf
+    - https://fonts.gstatic.com/s/palanquin/v13/9XUilJ90n1fBFg7ceXwUgnhoxJuqbi3ezg.ttf
+    - https://fonts.gstatic.com/s/palanquin/v13/9XUilJ90n1fBFg7ceXwUrn9oxJuqbi3ezg.ttf
+    - https://fonts.gstatic.com/s/palanquin/v13/9XUilJ90n1fBFg7ceXwUyn5oxJuqbi3ezg.ttf
 fonts:
 - name: Palanquin
   styles:
-  - family_name: Palanquin
-    type: Thin
-    full_name: Palanquin Thin
-    post_script_name: Palanquin-Thin
-    version: '1.001'
-    copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
-    font: Palanquin-Thin.ttf
-  - family_name: Palanquin
-    type: ExtraLight
-    full_name: Palanquin ExtraLight
-    post_script_name: Palanquin-ExtraLight
-    version: '1.001'
-    copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
-    font: Palanquin-ExtraLight.ttf
-  - family_name: Palanquin
-    type: Light
-    full_name: Palanquin Light
-    post_script_name: Palanquin-Light
-    version: 1.0.4
-    copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
-    font: Palanquin-Light.ttf
-  - family_name: Palanquin
-    type: Regular
-    full_name: Palanquin Regular
-    post_script_name: Palanquin-Regular
-    version: 1.0.4
-    copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
-    font: Palanquin-Regular.ttf
-  - family_name: Palanquin
-    type: Medium
-    full_name: Palanquin Medium
-    post_script_name: Palanquin-Medium
-    version: 1.0.4
-    copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
-    font: Palanquin-Medium.ttf
-  - family_name: Palanquin
-    type: SemiBold
-    full_name: Palanquin SemiBold
-    post_script_name: Palanquin-SemiBold
-    version: 1.0.4
-    copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
-    font: Palanquin-SemiBold.ttf
   - family_name: Palanquin
     type: Bold
     full_name: Palanquin Bold
     post_script_name: Palanquin-Bold
     version: 1.0.4
     copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
-    font: Palanquin-Bold.ttf
-extract:
-  format: zip
+    font: 9XUilJ90n1fBFg7ceXwUyn5oxJuqbi3ezg.ttf
+  - family_name: Palanquin
+    type: Regular
+    full_name: Palanquin Regular
+    post_script_name: Palanquin-Regular
+    version: 1.0.4
+    copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
+    font: 9XUnlJ90n1fBFg7ceXwsdlFMzLC2Zw.ttf
+- name: Palanquin ExtraLight
+  styles:
+  - family_name: Palanquin ExtraLight
+    type: Regular
+    preferred_family_name: Palanquin
+    preferred_type: ExtraLight
+    full_name: Palanquin ExtraLight
+    post_script_name: Palanquin-ExtraLight
+    version: '1.001'
+    copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
+    font: 9XUilJ90n1fBFg7ceXwUvnpoxJuqbi3ezg.ttf
+- name: Palanquin Light
+  styles:
+  - family_name: Palanquin Light
+    type: Regular
+    preferred_family_name: Palanquin
+    preferred_type: Light
+    full_name: Palanquin Light
+    post_script_name: Palanquin-Light
+    version: 1.0.4
+    copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
+    font: 9XUilJ90n1fBFg7ceXwU2nloxJuqbi3ezg.ttf
+- name: Palanquin Medium
+  styles:
+  - family_name: Palanquin Medium
+    type: Regular
+    preferred_family_name: Palanquin
+    preferred_type: Medium
+    full_name: Palanquin Medium
+    post_script_name: Palanquin-Medium
+    version: 1.0.4
+    copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
+    font: 9XUilJ90n1fBFg7ceXwUgnhoxJuqbi3ezg.ttf
+- name: Palanquin SemiBold
+  styles:
+  - family_name: Palanquin SemiBold
+    type: Regular
+    preferred_family_name: Palanquin
+    preferred_type: SemiBold
+    full_name: Palanquin SemiBold
+    post_script_name: Palanquin-SemiBold
+    version: 1.0.4
+    copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
+    font: 9XUilJ90n1fBFg7ceXwUrn9oxJuqbi3ezg.ttf
+- name: Palanquin Thin
+  styles:
+  - family_name: Palanquin Thin
+    type: Regular
+    preferred_family_name: Palanquin
+    preferred_type: Thin
+    full_name: Palanquin Thin
+    post_script_name: Palanquin-Thin
+    version: '1.001'
+    copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
+    font: 9XUhlJ90n1fBFg7ceXwUEltI7rWmZzTH.ttf
+extract: {}
 copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -158,3 +182,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

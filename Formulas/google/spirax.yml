@@ -1,13 +1,12 @@
 ---
 name: Spirax
 description: Spirax
-homepage:
 resources:
-  Spirax.zip:
-    urls:
-    - https://fonts.google.com/download?family=Spirax
-    sha256: e746f72bd2f804205a3030180887ea63b00a9c10b556f85d09a8f34366f3f8d2
-    file_size: 23767
+  Spirax:
+    source: google
+    family: Spirax
+    files:
+    - https://fonts.gstatic.com/s/spirax/v21/buE3poKgYNLy0F3cXktt-Csn-Q.ttf
 fonts:
 - name: Spirax
   styles:
@@ -18,9 +17,8 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011 by Brenda Gallo (gbrenda1987@gmail.com), with Reserved
       Font Name Spirax.
-    font: Spirax-Regular.ttf
-extract:
-  format: zip
+    font: buE3poKgYNLy0F3cXktt-Csn-Q.ttf
+extract: {}
 copyright: Copyright (c) 2011 by Brenda Gallo (gbrenda1987@gmail.com), with Reserved
   Font Name Spirax.
 license_url: http://scripts.sil.org/OFL
@@ -119,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

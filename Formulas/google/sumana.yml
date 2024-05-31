@@ -3,24 +3,15 @@ name: Sumana
 description: Sumana
 homepage: www.cyreal.org
 resources:
-  Sumana.zip:
-    urls:
-    - https://fonts.google.com/download?family=Sumana
-    sha256: e0b27f2b99ab3347d5b3406d8c8fc1c06f4753a0b8a6c7357b27fce5b7080111
-    file_size: 181226
+  Sumana:
+    source: google
+    family: Sumana
+    files:
+    - https://fonts.gstatic.com/s/sumana/v10/4UaDrE5TqRBjGj-G8Bji76zR4w.ttf
+    - https://fonts.gstatic.com/s/sumana/v10/4UaArE5TqRBjGj--TDfG54fN6ppsKg.ttf
 fonts:
 - name: Sumana
   styles:
-  - family_name: Sumana
-    type: Regular
-    full_name: Sumana
-    post_script_name: Sumana-Regular
-    version: 1.015;PS 001.015;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT; ttfautohint
-      (v0.94) -l 8 -r 50 -G 200 -x 14 -w "G"
-    description: Sumana is designed by Alexei Vanyashin for Cyreal. Latin design is
-      based on Lora by Cyreal.
-    copyright: Copyright © 2015 by Cyreal. All rights reserved.
-    font: Sumana-Regular.ttf
   - family_name: Sumana
     type: Bold
     full_name: Sumana Bold
@@ -30,9 +21,18 @@ fonts:
     description: Sumana is designed by Alexei Vanyashin for Cyreal. Latin design is
       based on Lora by Cyreal.
     copyright: Copyright © 2015 by Cyreal. All rights reserved.
-    font: Sumana-Bold.ttf
-extract:
-  format: zip
+    font: 4UaArE5TqRBjGj--TDfG54fN6ppsKg.ttf
+  - family_name: Sumana
+    type: Regular
+    full_name: Sumana
+    post_script_name: Sumana-Regular
+    version: 1.015;PS 001.015;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT; ttfautohint
+      (v0.94) -l 8 -r 50 -G 200 -x 14 -w "G"
+    description: Sumana is designed by Alexei Vanyashin for Cyreal. Latin design is
+      based on Lora by Cyreal.
+    copyright: Copyright © 2015 by Cyreal. All rights reserved.
+    font: 4UaDrE5TqRBjGj-G8Bji76zR4w.ttf
+extract: {}
 copyright: Copyright © 2015 by Cyreal. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -129,3 +129,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

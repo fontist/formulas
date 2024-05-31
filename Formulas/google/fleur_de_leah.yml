@@ -3,11 +3,11 @@ name: Fleur De Leah
 description: Fleur De Leah
 homepage: www.typesetit.com
 resources:
-  Fleur_De_Leah.zip:
-    urls:
-    - https://fonts.google.com/download?family=Fleur%20De%20Leah
-    sha256: 4d77b553f983e6fa09119fd69815a04dd17062808977a970bddc886c69a61f1b
-    file_size: 99726
+  Fleur De Leah:
+    source: google
+    family: Fleur De Leah
+    files:
+    - https://fonts.gstatic.com/s/fleurdeleah/v9/AYCNpXX7ftYZWLhv9UmPJTMC5vat4I_Gdq0.ttf
 fonts:
 - name: Fleur De Leah
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: FleurDeLeah-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2008-2021 The Fleur De Leah Project Authors (https://github.com/googlefonts/fleurdeleah)
-    font: FleurDeLeah-Regular.ttf
+    font: AYCNpXX7ftYZWLhv9UmPJTMC5vat4I_Gdq0.ttf
 extract: {}
 copyright: Copyright 2008-2021 The Fleur De Leah Project Authors (https://github.com/googlefonts/fleurdeleah)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 8c1d3ced07f36ebbec700272da05758ccb8458c052153e8d343b8784b6427fdc
-command: google import --formulas_path Formulas
+command: import google -n 9999

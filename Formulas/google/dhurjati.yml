@@ -1,13 +1,12 @@
 ---
 name: Dhurjati
 description: Dhurjati
-homepage:
 resources:
-  Dhurjati.zip:
-    urls:
-    - https://fonts.google.com/download?family=Dhurjati
-    sha256: 745a9ec1ad6ea2122a53c88c2246ce7066161842c886b16e870a357b4b77c140
-    file_size: 326338
+  Dhurjati:
+    source: google
+    family: Dhurjati
+    files:
+    - https://fonts.gstatic.com/s/dhurjati/v24/_6_8ED3gSeatXfFiFX3ySKQtuTA2.ttf
 fonts:
 - name: Dhurjati
   styles:
@@ -18,11 +17,9 @@ fonts:
     version: 1.0.5; ttfautohint (v1.2.25-373a) -l 7 -r 28 -G 50 -x 13 -D telu -f latn
       -w G -X ""
     copyright: Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org)
-    font: Dhurjati-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org).
-  Copyright (c) 2014 Google, Inc.
+    font: _6_8ED3gSeatXfFiFX3ySKQtuTA2.ttf
+extract: {}
+copyright: Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org)
@@ -118,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

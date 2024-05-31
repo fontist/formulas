@@ -3,11 +3,11 @@ name: Comforter Brush
 description: Comforter Brush
 homepage: www.typesetit.com
 resources:
-  Comforter_Brush.zip:
-    urls:
-    - https://fonts.google.com/download?family=Comforter%20Brush
-    sha256: 9fa359f5f9e3b009a77ade50bd8ac94e8d146e1dd18fb0cc9a07a5f962503b61
-    file_size: 416205
+  Comforter Brush:
+    source: google
+    family: Comforter Brush
+    files:
+    - https://fonts.gstatic.com/s/comforterbrush/v7/Y4GTYa1xVSggrfzZI5WMjxRaOz0jwLL9Th8YYA.ttf
 fonts:
 - name: Comforter Brush
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: ComforterBrush-Regular
     version: '1.013'
     copyright: Copyright 2015 The Comforter Brush Project Authors (https://github.com/googlefonts/comforter-brush)
-    font: ComforterBrush-Regular.ttf
+    font: Y4GTYa1xVSggrfzZI5WMjxRaOz0jwLL9Th8YYA.ttf
 extract: {}
 copyright: Copyright 2015 The Comforter Brush Project Authors (https://github.com/googlefonts/comforter-brush)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 28c457fb96adb10cd7f4f5a128f7d407445b0fe27253877b7942847edc4c8f8e
-command: google import --formulas_path Formulas
+command: import google -n 9999

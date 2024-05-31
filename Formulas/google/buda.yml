@@ -1,26 +1,26 @@
 ---
 name: Buda
 description: Buda
-homepage:
 resources:
-  Buda.zip:
-    urls:
-    - https://fonts.google.com/download?family=Buda
-    sha256: a1b09677a0ab4810b5cb5aa1caadd37949f3f155cfa3f4e18982867d8af793f2
-    file_size: 33729
+  Buda:
+    source: google
+    family: Buda
+    files:
+    - https://fonts.gstatic.com/s/buda/v29/GFDqWAN8mnyIJSSrG7UBr7pZKA0.ttf
 fonts:
-- name: Buda
+- name: Buda Light
   styles:
-  - family_name: Buda
-    type: Light
+  - family_name: Buda Light
+    type: Regular
+    preferred_family_name: Buda
+    preferred_type: Light
     full_name: Buda Light
     post_script_name: Buda-Light
     version: '1.003'
     copyright: Copyright (c) 2010, Adele Antignac (a.antignac@hotmail.fr). All rights
       reserved. Licenced under SIL OFL vl.1
-    font: Buda-Light.ttf
-extract:
-  format: zip
+    font: GFDqWAN8mnyIJSSrG7UBr7pZKA0.ttf
+extract: {}
 copyright: Copyright (c) 2010, Adele Antignac (a.antignac@hotmail.fr). All rights
   reserved. Licenced under SIL OFL vl.1
 license_url: http://scripts.sil.org/OFL
@@ -119,3 +119,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

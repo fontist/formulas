@@ -1,12 +1,13 @@
 ---
+name: Sonsie One
 description: Sonsie One
 homepage: www.sorkintype.com
 resources:
-  SonsieOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Sonsie%20One
-    sha256: abf231a8e5d4dc38375468e03ac71c75eab6d855fe2899faee3e7a916a92aabd
-    file_size: 35778
+  Sonsie One:
+    source: google
+    family: Sonsie One
+    files:
+    - https://fonts.gstatic.com/s/sonsieone/v21/PbymFmP_EAnPqbKaoc18YVu80lbp8JM.ttf
 fonts:
 - name: Sonsie One
   styles:
@@ -22,10 +23,10 @@ fonts:
     copyright: |-
       Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
       with Reserved Font Name "Sonsie One".
-    font: SonsieOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)
+    font: PbymFmP_EAnPqbKaoc18YVu80lbp8JM.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
   with Reserved Font Name "Sonsie One".
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -123,3 +124,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

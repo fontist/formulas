@@ -1,11 +1,17 @@
 ---
+name: Marhey
 description: Marhey
 homepage: https://namelatype.com
 resources:
-  Marhey.zip:
-    urls:
-    - https://fonts.google.com/download?family=Marhey
-    file_size: 396523
+  Marhey:
+    source: google
+    family: Marhey
+    files:
+    - https://fonts.gstatic.com/s/marhey/v6/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBZVwO2cXiGevOMw.ttf
+    - https://fonts.gstatic.com/s/marhey/v6/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBctwO2cXiGevOMw.ttf
+    - https://fonts.gstatic.com/s/marhey/v6/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBflwO2cXiGevOMw.ttf
+    - https://fonts.gstatic.com/s/marhey/v6/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBRV3O2cXiGevOMw.ttf
+    - https://fonts.gstatic.com/s/marhey/v6/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBSx3O2cXiGevOMw.ttf
 fonts:
 - name: Marhey
   styles:
@@ -15,14 +21,14 @@ fonts:
     post_script_name: Marhey-Bold
     version: '1.000'
     copyright: Copyright 2022 The Marhey Project Authors (https://github.com/namelatype/Marhey)
-    font: Marhey-Bold.ttf
+    font: x3d8ck7Laq-T7wl7mqfVrEe9sDvtBSx3O2cXiGevOMw.ttf
   - family_name: Marhey
     type: Regular
     full_name: Marhey Regular
     post_script_name: Marhey-Regular
     version: '1.000'
     copyright: Copyright 2022 The Marhey Project Authors (https://github.com/namelatype/Marhey)
-    font: Marhey-Regular.ttf
+    font: x3d8ck7Laq-T7wl7mqfVrEe9sDvtBctwO2cXiGevOMw.ttf
 - name: Marhey Light
   styles:
   - family_name: Marhey Light
@@ -33,16 +39,7 @@ fonts:
     post_script_name: Marhey-Light
     version: '1.000'
     copyright: Copyright 2022 The Marhey Project Authors (https://github.com/namelatype/Marhey)
-    font: Marhey-VariableFont_wght.ttf
-  - family_name: Marhey Light
-    type: Regular
-    preferred_family_name: Marhey
-    preferred_type: Light
-    full_name: Marhey Light
-    post_script_name: Marhey-Light
-    version: '1.000'
-    copyright: Copyright 2022 The Marhey Project Authors (https://github.com/namelatype/Marhey)
-    font: Marhey-Light.ttf
+    font: x3d8ck7Laq-T7wl7mqfVrEe9sDvtBZVwO2cXiGevOMw.ttf
 - name: Marhey Medium
   styles:
   - family_name: Marhey Medium
@@ -53,7 +50,7 @@ fonts:
     post_script_name: Marhey-Medium
     version: '1.000'
     copyright: Copyright 2022 The Marhey Project Authors (https://github.com/namelatype/Marhey)
-    font: Marhey-Medium.ttf
+    font: x3d8ck7Laq-T7wl7mqfVrEe9sDvtBflwO2cXiGevOMw.ttf
 - name: Marhey SemiBold
   styles:
   - family_name: Marhey SemiBold
@@ -64,7 +61,7 @@ fonts:
     post_script_name: Marhey-SemiBold
     version: '1.000'
     copyright: Copyright 2022 The Marhey Project Authors (https://github.com/namelatype/Marhey)
-    font: Marhey-SemiBold.ttf
+    font: x3d8ck7Laq-T7wl7mqfVrEe9sDvtBRV3O2cXiGevOMw.ttf
 extract: {}
 copyright: Copyright 2022 The Marhey Project Authors (https://github.com/namelatype/Marhey)
 license_url: http://scripts.sil.org/OFL
@@ -162,5 +159,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 63cd4527a406604bb53ef0b5c42d19e43aa6ba7e9adc0ce43371c191bcef7dea
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

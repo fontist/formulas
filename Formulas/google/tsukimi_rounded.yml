@@ -1,12 +1,17 @@
 ---
+name: Tsukimi Rounded
 description: Tsukimi Rounded
 homepage: http://mt-funa.com
 resources:
-  Tsukimi_Rounded.zip:
-    urls:
-    - https://fonts.google.com/download?family=Tsukimi%20Rounded
-    sha256: 78511a732d154e49ccdbe9b5c53b07d8d94e55dbe4223a6f6a0d417ea8226be9
-    file_size: 318025
+  Tsukimi Rounded:
+    source: google
+    family: Tsukimi Rounded
+    files:
+    - https://fonts.gstatic.com/s/tsukimirounded/v10/sJoZ3LJNksWZO0LvnZwkF3HtoB7VkVsqN7MT3T9X8g.ttf
+    - https://fonts.gstatic.com/s/tsukimirounded/v10/sJoc3LJNksWZO0LvnZwkF3HtoB7tPXMOP5gP1A.ttf
+    - https://fonts.gstatic.com/s/tsukimirounded/v10/sJoZ3LJNksWZO0LvnZwkF3HtoB7VyVoqN7MT3T9X8g.ttf
+    - https://fonts.gstatic.com/s/tsukimirounded/v10/sJoZ3LJNksWZO0LvnZwkF3HtoB7V5V0qN7MT3T9X8g.ttf
+    - https://fonts.gstatic.com/s/tsukimirounded/v10/sJoZ3LJNksWZO0LvnZwkF3HtoB7VgVwqN7MT3T9X8g.ttf
 fonts:
 - name: Tsukimi Rounded
   styles:
@@ -17,7 +22,7 @@ fonts:
     version: 1.032; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Tsukimi Rounded Project Authors (https://github.com/mt-funa/Tsukimi-Rounded),
       all rights reserved.
-    font: TsukimiRounded-Bold.ttf
+    font: sJoZ3LJNksWZO0LvnZwkF3HtoB7VgVwqN7MT3T9X8g.ttf
   - family_name: Tsukimi Rounded
     type: Regular
     full_name: Tsukimi Rounded Regular
@@ -25,7 +30,7 @@ fonts:
     version: 1.032; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Tsukimi Rounded Project Authors (https://github.com/mt-funa/Tsukimi-Rounded),
       all rights reserved.
-    font: TsukimiRounded-Regular.ttf
+    font: sJoc3LJNksWZO0LvnZwkF3HtoB7tPXMOP5gP1A.ttf
 - name: Tsukimi Rounded Light
   styles:
   - family_name: Tsukimi Rounded Light
@@ -37,7 +42,7 @@ fonts:
     version: 1.032; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Tsukimi Rounded Project Authors (https://github.com/mt-funa/Tsukimi-Rounded),
       all rights reserved.
-    font: TsukimiRounded-Light.ttf
+    font: sJoZ3LJNksWZO0LvnZwkF3HtoB7VkVsqN7MT3T9X8g.ttf
 - name: Tsukimi Rounded Medium
   styles:
   - family_name: Tsukimi Rounded Medium
@@ -49,7 +54,7 @@ fonts:
     version: 1.032; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Tsukimi Rounded Project Authors (https://github.com/mt-funa/Tsukimi-Rounded),
       all rights reserved.
-    font: TsukimiRounded-Medium.ttf
+    font: sJoZ3LJNksWZO0LvnZwkF3HtoB7VyVoqN7MT3T9X8g.ttf
 - name: Tsukimi Rounded SemiBold
   styles:
   - family_name: Tsukimi Rounded SemiBold
@@ -61,7 +66,7 @@ fonts:
     version: 1.032; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Tsukimi Rounded Project Authors (https://github.com/mt-funa/Tsukimi-Rounded),
       all rights reserved.
-    font: TsukimiRounded-SemiBold.ttf
+    font: sJoZ3LJNksWZO0LvnZwkF3HtoB7V5V0qN7MT3T9X8g.ttf
 extract: {}
 copyright: Copyright 2020 The Tsukimi Rounded Project Authors (https://github.com/mt-funa/Tsukimi-Rounded),
   all rights reserved.
@@ -160,5 +165,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 1b0271362801f671a48ebb42bc1fb7e9b4306a9f873cc1e15353096184791ba4
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

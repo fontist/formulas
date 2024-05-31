@@ -3,11 +3,11 @@ name: Cherish
 description: Cherish
 homepage: www.typesetit.com
 resources:
-  Cherish.zip:
-    urls:
-    - https://fonts.google.com/download?family=Cherish
-    sha256: b894de546fe85815d4f66dd536c015299aaadf7a858a8bc85385a83e2236fc95
-    file_size: 98123
+  Cherish:
+    source: google
+    family: Cherish
+    files:
+    - https://fonts.gstatic.com/s/cherish/v8/ll88K2mXUyqsDsTN5iDCI6IJjg8.ttf
 fonts:
 - name: Cherish
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: Cherish-Regular
     version: '1.005'
     copyright: Copyright 2004-2021 The Cherish Project Authors (https://github.com/googlefonts/cherish)
-    font: Cherish-Regular.ttf
+    font: ll88K2mXUyqsDsTN5iDCI6IJjg8.ttf
 extract: {}
 copyright: Copyright 2004-2021 The Cherish Project Authors (https://github.com/googlefonts/cherish)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: eae11ee0077ef56e75ae5a874f92d60e74a3228f6c9bbae485845926f9f6145b
-command: google import --formulas_path Formulas
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Raleway Dots
 description: Raleway Dots
 homepage: http://theleagueofmoveabletype.com
 resources:
-  RalewayDots.zip:
-    urls:
-    - https://fonts.google.com/download?family=Raleway%20Dots
-    sha256: 82b2d042c18612da02f618d39ea2f1c271352390f847f0088ec14e167060c5cc
-    file_size: 112032
+  Raleway Dots:
+    source: google
+    family: Raleway Dots
+    files:
+    - https://fonts.gstatic.com/s/ralewaydots/v18/6NUR8FifJg6AfQvzpshgwJ8kyf9Fdty2ew.ttf
 fonts:
 - name: Raleway Dots
   styles:
@@ -22,9 +23,8 @@ fonts:
     copyright: Copyright (c) 2010 - 2012, Matt McInerney (matt@pixelspread.com), Pablo
       Impallari(impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) and
       Brenda Gallo(gbrenda1987@gmail.com), with Reserved Font Name "Raleway"
-    font: RalewayDots-Regular.ttf
-extract:
-  format: zip
+    font: 6NUR8FifJg6AfQvzpshgwJ8kyf9Fdty2ew.ttf
+extract: {}
 copyright: Copyright (c) 2010 - 2012, Matt McInerney (matt@pixelspread.com), Pablo
   Impallari(impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) and Brenda
   Gallo(gbrenda1987@gmail.com), with Reserved Font Name "Raleway"
@@ -123,3 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

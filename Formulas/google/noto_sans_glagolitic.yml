@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Glagolitic
 description: Noto Sans Glagolitic
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Glagolitic.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Glagolitic
-    sha256: 1d47819ae69ace094f20b55ce90c71637b1e663c0fc2ae1310123e2ee3e6d09f
-    file_size: 46761
+  Noto Sans Glagolitic:
+    source: google
+    family: Noto Sans Glagolitic
+    files:
+    - https://fonts.gstatic.com/s/notosansglagolitic/v18/1q2ZY4-BBFBst88SU_tOj4J-4yuNF_HI4ERK4Amu7nM1.ttf
 fonts:
 - name: Noto Sans Glagolitic
   styles:
@@ -14,10 +15,10 @@ fonts:
     type: Regular
     full_name: Noto Sans Glagolitic Regular
     post_script_name: NotoSansGlagolitic-Regular
-    version: 2.002; ttfautohint (v1.8.4.7-5d5b)
+    version: 2.004; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/glagolitic)
-    font: NotoSansGlagolitic-Regular.ttf
+    font: 1q2ZY4-BBFBst88SU_tOj4J-4yuNF_HI4ERK4Amu7nM1.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/glagolitic)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 4afb3c2f2129c7131c515710b20316dee5367cc64f7c2b7cbb2b7660bce12be8
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

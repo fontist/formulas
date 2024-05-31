@@ -3,11 +3,11 @@ name: Kavivanar
 description: Kavivanar
 homepage: http://niram.org
 resources:
-  Kavivanar.zip:
-    urls:
-    - https://fonts.google.com/download?family=Kavivanar
-    sha256: 8cd40aa78eea8849bd4e7276f174fbdfd2923678f352688392670fb8f19670e7
-    file_size: 37300
+  Kavivanar:
+    source: google
+    family: Kavivanar
+    files:
+    - https://fonts.gstatic.com/s/kavivanar/v20/o-0IIpQgyXYSwhxP7_Jb4j5Ba_2c7A.ttf
 fonts:
 - name: Kavivanar
   styles:
@@ -17,9 +17,8 @@ fonts:
     post_script_name: Kavivanar-Regular
     version: '1.88'
     copyright: Copyright (c) 2015, Tharique Azeez (http://thariqueazeez.com|zeezat@gmail.com)
-    font: Kavivanar-Regular.ttf
-extract:
-  format: zip
+    font: o-0IIpQgyXYSwhxP7_Jb4j5Ba_2c7A.ttf
+extract: {}
 copyright: Copyright (c) 2015, Tharique Azeez (http://thariqueazeez.com|zeezat@gmail.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

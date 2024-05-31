@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Sogdian
 description: Noto Sans Sogdian
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Sogdian.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Sogdian
-    sha256: cf94e2a9966c6403a44521700d31c91f79a12031bc068b9286da8f366d384fb1
-    file_size: 65139
+  Noto Sans Sogdian:
+    source: google
+    family: Noto Sans Sogdian
+    files:
+    - https://fonts.gstatic.com/s/notosanssogdian/v16/taiQGn5iC4--qtsfi4Jp6eHPnfxQBo--Pm6KHidM.ttf
 fonts:
 - name: Noto Sans Sogdian
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sogdian)
-    font: NotoSansSogdian-Regular.ttf
+    font: taiQGn5iC4--qtsfi4Jp6eHPnfxQBo--Pm6KHidM.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sogdian)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 84f7817cad93e5b1051199ff07793766f65c8e1a32f6d980c090733af218847e
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

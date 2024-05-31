@@ -1,11 +1,12 @@
 ---
+name: Rock 3D
 description: Rock 3D
 resources:
-  Rock_3D.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rock%203D
-    sha256: 47cd87eec94514a86002562664e229ffa485894e45a4e60e53ea03991f65ee2f
-    file_size: 224986
+  Rock 3D:
+    source: google
+    family: Rock 3D
+    files:
+    - https://fonts.gstatic.com/s/rock3d/v10/yYLp0hrL0PCo651513SnwRnQyNI.ttf
 fonts:
 - name: Rock 3D
   styles:
@@ -16,7 +17,7 @@ fonts:
     version: '1.000'
     copyright: Copyright 2020 The Rock 3D Project Authors (https://github.com/shibuyafont/3d-rock-font),
       all rights reserved.
-    font: Rock3D-Regular.ttf
+    font: yYLp0hrL0PCo651513SnwRnQyNI.ttf
 extract: {}
 copyright: Copyright 2020 The Rock 3D Project Authors (https://github.com/shibuyafont/3d-rock-font),
   all rights reserved.
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 38282725a3d58b0c455976aab79fcd5540fd3a63ae34a69da8e0318f933def1b
-command: google import --formulas_path Formulas
+command: import google -n 9999

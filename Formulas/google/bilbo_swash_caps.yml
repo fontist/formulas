@@ -1,12 +1,12 @@
 ---
+name: Bilbo Swash Caps
 description: Bilbo Swash Caps
-homepage:
 resources:
-  BilboSwashCaps.zip:
-    urls:
-    - https://fonts.google.com/download?family=Bilbo%20Swash%20Caps
-    sha256: 89ff6c8030b5a74d608ae4c9184326d99cb0f2718c62d4fbb498c39b58f10d32
-    file_size: 31810
+  Bilbo Swash Caps:
+    source: google
+    family: Bilbo Swash Caps
+    files:
+    - https://fonts.gstatic.com/s/bilboswashcaps/v22/zrf-0GXbz-H3Wb4XBsGrTgq2PVmdqAPopiRfKp8.ttf
 fonts:
 - name: Bilbo Swash Caps
   styles:
@@ -18,11 +18,11 @@ fonts:
     copyright: |-
       Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net),
       with Reserved Font Names "Bilbo" and "Bilbo Swash Caps"
-    font: BilboSwashCaps-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font
-  Names "Bilbo" and "Bilbo Swash Caps"
+    font: zrf-0GXbz-H3Wb4XBsGrTgq2PVmdqAPopiRfKp8.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net),
+  with Reserved Font Names "Bilbo" and "Bilbo Swash Caps"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net),
@@ -119,3 +119,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

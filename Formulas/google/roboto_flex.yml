@@ -1,11 +1,12 @@
 ---
+name: Roboto Flex
 description: Roboto Flex
-homepage: Google.com
 resources:
-  Roboto_Flex.zip:
-    urls:
-    - https://fonts.google.com/download?family=Roboto%20Flex
-    file_size: 988700
+  Roboto Flex:
+    source: google
+    family: Roboto Flex
+    files:
+    - https://fonts.gstatic.com/s/robotoflex/v26/NaNnepOXO_NexZs0b5QrzlOHb8wCikXpYqmZsWI-__OGbt8jZktqc2V3Zs0KvDLdBP8SBZtOs2IifRuUZQMsPJtUsR4DEK6cULNeUx9XgTnH37Ha_FIAp4Fm0PP1hw45DntW2x0wZGzhPmr1YNMYKYn9_1IQXGwJAiUJVUMdN5YUW4O8HtSoXjC1z3QSabshNFVe3e0O5j3ZjrZCu23Qd4G0EBysQNK-QKavMl1cKq3tHXtXi8mzLjaAQbGunCNCKMY.ttf
 fonts:
 - name: Roboto Flex
   styles:
@@ -13,16 +14,9 @@ fonts:
     type: Regular
     full_name: Roboto Flex Regular
     post_script_name: RobotoFlex-Regular
-    version: '3.100'
+    version: 3.200;gftools[0.9.32]
     copyright: Copyright 2017 The Roboto Flex Project Authors (https://github.com/TypeNetwork/Roboto-Flex)
-    font: RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf
-  - family_name: Roboto Flex
-    type: Regular
-    full_name: Roboto Flex Regular
-    post_script_name: RobotoFlex-Regular
-    version: '3.100'
-    copyright: Copyright 2017 The Roboto Flex Project Authors (https://github.com/TypeNetwork/Roboto-Flex)
-    font: RobotoFlex-Regular.ttf
+    font: NaNnepOXO_NexZs0b5QrzlOHb8wCikXpYqmZsWI-__OGbt8jZktqc2V3Zs0KvDLdBP8SBZtOs2IifRuUZQMsPJtUsR4DEK6cULNeUx9XgTnH37Ha_FIAp4Fm0PP1hw45DntW2x0wZGzhPmr1YNMYKYn9_1IQXGwJAiUJVUMdN5YUW4O8HtSoXjC1z3QSabshNFVe3e0O5j3ZjrZCu23Qd4G0EBysQNK-QKavMl1cKq3tHXtXi8mzLjaAQbG.ttf
 extract: {}
 copyright: Copyright 2017 The Roboto Flex Project Authors (https://github.com/TypeNetwork/Roboto-Flex)
 license_url: https://scripts.sil.org/OFL
@@ -120,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e4df4ee7460a5d341800947e8286e1cbc15c980bb7c31cff20785fc992afceff
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

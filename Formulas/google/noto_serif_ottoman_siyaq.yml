@@ -1,12 +1,13 @@
 ---
+name: Noto Serif Ottoman Siyaq
 description: Noto Serif Ottoman Siyaq
 homepage: https://www.google.com/get/noto/
 resources:
-  Noto_Serif_Ottoman_Siyaq.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Serif%20Ottoman%20Siyaq
-    sha256: 7cdc8665d2a12ddda651b8ac7d86c86271e3cfca7cd60b0cd98d7084e911bf7d
-    file_size: 41140
+  Noto Serif Ottoman Siyaq:
+    source: google
+    family: Noto Serif Ottoman Siyaq
+    files:
+    - https://fonts.gstatic.com/s/notoserifottomansiyaq/v2/fC1yPZ9IYnzRhTrrc4s8cSvYI0eozzaFOQ01qoHLJrgA00kAdA.ttf
 fonts:
 - name: Noto Serif Ottoman Siyaq
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 1.006; ttfautohint (v1.8.4.7-5d5b)
     description: Sérgio Martins
     copyright: Copyright 2022 Google LLC. All Rights Reserved.
-    font: NotoSerifOttomanSiyaq-Regular.ttf
+    font: fC1yPZ9IYnzRhTrrc4s8cSvYI0eozzaFOQ01qoHLJrgA00kAdA.ttf
 extract: {}
 copyright: Copyright 2022 Google LLC. All Rights Reserved.
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 54b5d0c36d0ad15073c89a3d59da94921efec2ed5c9ac46942cc4ce8a20cb0d7
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

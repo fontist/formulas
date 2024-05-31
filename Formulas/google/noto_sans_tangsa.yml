@@ -1,11 +1,16 @@
 ---
+name: Noto Sans Tangsa
 description: Noto Sans Tangsa
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Tangsa.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Tangsa
-    file_size: 187025
+  Noto Sans Tangsa:
+    source: google
+    family: Noto Sans Tangsa
+    files:
+    - https://fonts.gstatic.com/s/notosanstangsa/v6/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp1YkyoRYdplyJDA.ttf
+    - https://fonts.gstatic.com/s/notosanstangsa/v6/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp1qkyoRYdplyJDA.ttf
+    - https://fonts.gstatic.com/s/notosanstangsa/v6/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp2GlCoRYdplyJDA.ttf
+    - https://fonts.gstatic.com/s/notosanstangsa/v6/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp2_lCoRYdplyJDA.ttf
 fonts:
 - name: Noto Sans Tangsa
   styles:
@@ -16,7 +21,7 @@ fonts:
     version: '1.506'
     description: Designed by David Williams.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tangsa)
-    font: NotoSansTangsa-Bold.ttf
+    font: z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp2_lCoRYdplyJDA.ttf
   - family_name: Noto Sans Tangsa
     type: Regular
     full_name: Noto Sans Tangsa Regular
@@ -24,15 +29,7 @@ fonts:
     version: '1.506'
     description: Designed by David Williams.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tangsa)
-    font: NotoSansTangsa-VariableFont_wght.ttf
-  - family_name: Noto Sans Tangsa
-    type: Regular
-    full_name: Noto Sans Tangsa Regular
-    post_script_name: NotoSansTangsa-Regular
-    version: '1.506'
-    description: Designed by David Williams.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tangsa)
-    font: NotoSansTangsa-Regular.ttf
+    font: z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp1YkyoRYdplyJDA.ttf
 - name: Noto Sans Tangsa Medium
   styles:
   - family_name: Noto Sans Tangsa Medium
@@ -44,7 +41,7 @@ fonts:
     version: '1.506'
     description: Designed by David Williams.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tangsa)
-    font: NotoSansTangsa-Medium.ttf
+    font: z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp1qkyoRYdplyJDA.ttf
 - name: Noto Sans Tangsa SemiBold
   styles:
   - family_name: Noto Sans Tangsa SemiBold
@@ -56,7 +53,7 @@ fonts:
     version: '1.506'
     description: Designed by David Williams.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tangsa)
-    font: NotoSansTangsa-SemiBold.ttf
+    font: z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp2GlCoRYdplyJDA.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tangsa)
 license_url: https://scripts.sil.org/OFL
@@ -65,7 +62,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -154,5 +151,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d935fafd80fa5ff4b5524bc31c2db4a8ecef16078b3ca2cbef7a90178d17374a
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

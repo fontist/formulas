@@ -1,12 +1,13 @@
 ---
+name: Yuji Hentaigana Akebono
 description: Yuji Hentaigana Akebono
 homepage: http://www.moji-sekkei.jp/
 resources:
-  Yuji_Hentaigana_Akebono.zip:
-    urls:
-    - https://fonts.google.com/download?family=Yuji%20Hentaigana%20Akebono
-    sha256: b158aa92569e7798f6188dbc6686c80ecd5fde99f5d5855a96924b1bb34dd706
-    file_size: 54865
+  Yuji Hentaigana Akebono:
+    source: google
+    family: Yuji Hentaigana Akebono
+    files:
+    - https://fonts.gstatic.com/s/yujihentaiganaakebono/v12/EJRGQhkhRNwM-RtitGUwh930GU_f5KAlkuL0wQy9NKXRzrrF.ttf
 fonts:
 - name: Yuji Hentaigana Akebono
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: YujiHentaiganaAkebono-Regular
     version: '3.002'
     copyright: Copyright 2021 The Yuji Project Authors (https://github.com/Kinutafontfactory/Yuji)
-    font: YujiHentaiganaAkebono-Regular.ttf
+    font: EJRGQhkhRNwM-RtitGUwh930GU_f5KAlkuL0wQy9NKXRzrrF.ttf
 extract: {}
 copyright: Copyright 2021 The Yuji Project Authors (https://github.com/Kinutafontfactory/Yuji)
 license_url: https://scripts.sil.org/OFL
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 37c143bb981e25959c6700e43c1ef23158de93fee25e18dc4db73df120a6e0c8
-command: google import --formulas_path Formulas
+command: import google -n 9999

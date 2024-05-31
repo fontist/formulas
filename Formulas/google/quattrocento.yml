@@ -3,29 +3,15 @@ name: Quattrocento
 description: Quattrocento
 homepage: www.impallari.com
 resources:
-  Quattrocento.zip:
-    urls:
-    - https://fonts.google.com/download?family=Quattrocento
-    sha256: 85e839f1ba17a6843320c02ddef7581f445b9a5ab68ce63b68f1b8559a713001
-    file_size: 107446
+  Quattrocento:
+    source: google
+    family: Quattrocento
+    files:
+    - https://fonts.gstatic.com/s/quattrocento/v23/OZpEg_xvsDZQL_LKIF7q4jPHxGL7f4jFuA.ttf
+    - https://fonts.gstatic.com/s/quattrocento/v23/OZpbg_xvsDZQL_LKIF7q4jP_eE3fd6PZsXcM9w.ttf
 fonts:
 - name: Quattrocento
   styles:
-  - family_name: Quattrocento
-    type: Regular
-    full_name: Quattrocento
-    post_script_name: Quattrocento
-    version: '2.000'
-    description: |-
-      Quattrocento Roman is a Classic, Elegant, Sober and Strong typeface.
-      Their wide and open letterforms, and great x-height, make it very legible for body text at small sizes.
-      And their tiny details that only shows up at bigger sizes make it also great for display use.
-    copyright: |-
-      Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),
-      Copyright (c) 2011, Igino Marini. (www.ikern.com|mail@iginomarini.com),
-      Copyright (c) 2011, Brenda Gallo. (gbrenda1987@gmail.com),
-      with Reserved Font Name Quattrocento.
-    font: Quattrocento-Regular.ttf
   - family_name: Quattrocento
     type: Bold
     full_name: Quattrocento Bold
@@ -40,12 +26,28 @@ fonts:
       Copyright (c) 2011, Igino Marini. (www.ikern.com|mail@iginomarini.com),
       Copyright (c) 2011, Brenda Gallo. (gbrenda1987@gmail.com),
       with Reserved Font Name Quattrocento.
-    font: Quattrocento-Bold.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),
-  Copyright (c) 2011, Igino Marini. (www.ikern.com|mail@iginomarini.com), Copyright
-  (c) 2011, Brenda Gallo. (gbrenda1987@gmail.com), with Reserved Font Name Quattrocento.
+    font: OZpbg_xvsDZQL_LKIF7q4jP_eE3fd6PZsXcM9w.ttf
+  - family_name: Quattrocento
+    type: Regular
+    full_name: Quattrocento
+    post_script_name: Quattrocento
+    version: '2.000'
+    description: |-
+      Quattrocento Roman is a Classic, Elegant, Sober and Strong typeface.
+      Their wide and open letterforms, and great x-height, make it very legible for body text at small sizes.
+      And their tiny details that only shows up at bigger sizes make it also great for display use.
+    copyright: |-
+      Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),
+      Copyright (c) 2011, Igino Marini. (www.ikern.com|mail@iginomarini.com),
+      Copyright (c) 2011, Brenda Gallo. (gbrenda1987@gmail.com),
+      with Reserved Font Name Quattrocento.
+    font: OZpEg_xvsDZQL_LKIF7q4jPHxGL7f4jFuA.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),
+  Copyright (c) 2011, Igino Marini. (www.ikern.com|mail@iginomarini.com),
+  Copyright (c) 2011, Brenda Gallo. (gbrenda1987@gmail.com),
+  with Reserved Font Name Quattrocento.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2012, Igino Marini. (www.ikern.com|mail@iginomarini.com), Copyright (c) 2012, Brenda Gallo. (gbrenda1987@gmail.com), with Reserved Font Name Quattrocento.
@@ -141,3 +143,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,12 +1,12 @@
 ---
+name: Yatra One
 description: Yatra One
-homepage:
 resources:
-  YatraOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Yatra%20One
-    sha256: 050de7f009d498a5be0df37f6b39996347c6ebf4a681228662726d2f3794da5f
-    file_size: 127095
+  Yatra One:
+    source: google
+    family: Yatra One
+    files:
+    - https://fonts.gstatic.com/s/yatraone/v14/C8ch4copsHzj8p7NaF0xw1OBbRDvXw.ttf
 fonts:
 - name: Yatra One
   styles:
@@ -16,11 +16,9 @@ fonts:
     post_script_name: YatraOne-Regular
     version: 1.002g;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.4.1)
     copyright: Copyright 2014 The Yatra Project Authors.
-    font: YatraOne-Regular.ttf
-extract:
-  format: zip
+    font: C8ch4copsHzj8p7NaF0xw1OBbRDvXw.ttf
+extract: {}
 copyright: Copyright 2014 The Yatra Project Authors.
-license_url:
 open_license: |-
   Copyright 2014 The Yatra Project Authors.
 
@@ -115,3 +113,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

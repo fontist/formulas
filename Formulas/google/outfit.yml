@@ -1,11 +1,21 @@
 ---
+name: Outfit
 description: Outfit
 homepage: www.fragtypefoundry.xyz
 resources:
-  Outfit.zip:
-    urls:
-    - https://fonts.google.com/download?family=Outfit
-    file_size: 321873
+  Outfit:
+    source: google
+    family: Outfit
+    files:
+    - https://fonts.gstatic.com/s/outfit/v11/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC0C4G-EiAou6Y.ttf
+    - https://fonts.gstatic.com/s/outfit/v11/QGYyz_MVcBeNP4NjuGObqx1XmO1I4bC1C4G-EiAou6Y.ttf
+    - https://fonts.gstatic.com/s/outfit/v11/QGYyz_MVcBeNP4NjuGObqx1XmO1I4W61C4G-EiAou6Y.ttf
+    - https://fonts.gstatic.com/s/outfit/v11/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC1C4G-EiAou6Y.ttf
+    - https://fonts.gstatic.com/s/outfit/v11/QGYyz_MVcBeNP4NjuGObqx1XmO1I4QK1C4G-EiAou6Y.ttf
+    - https://fonts.gstatic.com/s/outfit/v11/QGYyz_MVcBeNP4NjuGObqx1XmO1I4e6yC4G-EiAou6Y.ttf
+    - https://fonts.gstatic.com/s/outfit/v11/QGYyz_MVcBeNP4NjuGObqx1XmO1I4deyC4G-EiAou6Y.ttf
+    - https://fonts.gstatic.com/s/outfit/v11/QGYyz_MVcBeNP4NjuGObqx1XmO1I4bCyC4G-EiAou6Y.ttf
+    - https://fonts.gstatic.com/s/outfit/v11/QGYyz_MVcBeNP4NjuGObqx1XmO1I4ZmyC4G-EiAou6Y.ttf
 fonts:
 - name: Outfit
   styles:
@@ -15,14 +25,14 @@ fonts:
     post_script_name: Outfit-Bold
     version: 1.100;gftools[0.9.27]
     copyright: Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
-    font: Outfit-Bold.ttf
+    font: QGYyz_MVcBeNP4NjuGObqx1XmO1I4deyC4G-EiAou6Y.ttf
   - family_name: Outfit
     type: Regular
     full_name: Outfit Regular
     post_script_name: Outfit-Regular
     version: 1.100;gftools[0.9.27]
     copyright: Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
-    font: Outfit-Regular.ttf
+    font: QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC1C4G-EiAou6Y.ttf
 - name: Outfit Black
   styles:
   - family_name: Outfit Black
@@ -33,7 +43,7 @@ fonts:
     post_script_name: Outfit-Black
     version: 1.100;gftools[0.9.27]
     copyright: Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
-    font: Outfit-Black.ttf
+    font: QGYyz_MVcBeNP4NjuGObqx1XmO1I4ZmyC4G-EiAou6Y.ttf
 - name: Outfit ExtraBold
   styles:
   - family_name: Outfit ExtraBold
@@ -44,7 +54,7 @@ fonts:
     post_script_name: Outfit-ExtraBold
     version: 1.100;gftools[0.9.27]
     copyright: Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
-    font: Outfit-ExtraBold.ttf
+    font: QGYyz_MVcBeNP4NjuGObqx1XmO1I4bCyC4G-EiAou6Y.ttf
 - name: Outfit ExtraLight
   styles:
   - family_name: Outfit ExtraLight
@@ -55,7 +65,7 @@ fonts:
     post_script_name: Outfit-ExtraLight
     version: 1.100;gftools[0.9.27]
     copyright: Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
-    font: Outfit-ExtraLight.ttf
+    font: QGYyz_MVcBeNP4NjuGObqx1XmO1I4bC1C4G-EiAou6Y.ttf
 - name: Outfit Light
   styles:
   - family_name: Outfit Light
@@ -66,7 +76,7 @@ fonts:
     post_script_name: Outfit-Light
     version: 1.100;gftools[0.9.27]
     copyright: Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
-    font: Outfit-Light.ttf
+    font: QGYyz_MVcBeNP4NjuGObqx1XmO1I4W61C4G-EiAou6Y.ttf
 - name: Outfit Medium
   styles:
   - family_name: Outfit Medium
@@ -77,7 +87,7 @@ fonts:
     post_script_name: Outfit-Medium
     version: 1.100;gftools[0.9.27]
     copyright: Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
-    font: Outfit-Medium.ttf
+    font: QGYyz_MVcBeNP4NjuGObqx1XmO1I4QK1C4G-EiAou6Y.ttf
 - name: Outfit SemiBold
   styles:
   - family_name: Outfit SemiBold
@@ -88,7 +98,7 @@ fonts:
     post_script_name: Outfit-SemiBold
     version: 1.100;gftools[0.9.27]
     copyright: Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
-    font: Outfit-SemiBold.ttf
+    font: QGYyz_MVcBeNP4NjuGObqx1XmO1I4e6yC4G-EiAou6Y.ttf
 - name: Outfit Thin
   styles:
   - family_name: Outfit Thin
@@ -99,16 +109,7 @@ fonts:
     post_script_name: Outfit-Thin
     version: 1.100;gftools[0.9.27]
     copyright: Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
-    font: Outfit-VariableFont_wght.ttf
-  - family_name: Outfit Thin
-    type: Regular
-    preferred_family_name: Outfit
-    preferred_type: Thin
-    full_name: Outfit Thin
-    post_script_name: Outfit-Thin
-    version: 1.100;gftools[0.9.27]
-    copyright: Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
-    font: Outfit-Thin.ttf
+    font: QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC0C4G-EiAou6Y.ttf
 extract: {}
 copyright: Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
 license_url: https://scripts.sil.org/OFL
@@ -117,7 +118,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -206,5 +207,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 8e3b5524520e1bda489f70864b42d6348ee3c04160275f25033e0f001f39db2c
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

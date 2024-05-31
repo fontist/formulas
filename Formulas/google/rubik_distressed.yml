@@ -1,12 +1,13 @@
 ---
+name: Rubik Distressed
 description: Rubik Distressed
 homepage: http://www.google.com/fonts
 resources:
-  Rubik_Distressed.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rubik%20Distressed
-    sha256: b190e7745801febf4b06a47c68cfe45f2d548410081310d68689410043ca3110
-    file_size: 583450
+  Rubik Distressed:
+    source: google
+    family: Rubik Distressed
+    files:
+    - https://fonts.gstatic.com/s/rubikdistressed/v1/GFDxWBdsmnqAVqjtUsZf2dcrQ2ldcWAhatVBaGM.ttf
 fonts:
 - name: Rubik Distressed
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: RubikDistressed-Regular
     version: '2.200'
     copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
-    font: RubikDistressed-Regular.ttf
+    font: GFDxWBdsmnqAVqjtUsZf2dcrQ2ldcWAhatVBaGM.ttf
 extract: {}
 copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 7980858d5f8f890fbfbddc343e384ada275b78f40f6b7715b9323cf54eb4e37c
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

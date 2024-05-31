@@ -1,12 +1,13 @@
 ---
+name: Seaweed Script
 description: Seaweed Script
 homepage: http://www.fontbros.com/sideshow.php
 resources:
-  SeaweedScript.zip:
-    urls:
-    - https://fonts.google.com/download?family=Seaweed%20Script
-    sha256: 88d0f067cdae85117563ff2c4f658a7ced9798d32d71daa68fcc8b26d061070a
-    file_size: 59361
+  Seaweed Script:
+    source: google
+    family: Seaweed Script
+    files:
+    - https://fonts.gstatic.com/s/seaweedscript/v15/bx6cNx6Tne2pxOATYE8C_Rsoe0WJ-KcGVbLW.ttf
 fonts:
 - name: Seaweed Script
   styles:
@@ -17,9 +18,8 @@ fonts:
     version: '1.000'
     copyright: Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com)
       with Reseved Font Name "Seaweed Script"
-    font: SeaweedScript-Regular.ttf
-extract:
-  format: zip
+    font: bx6cNx6Tne2pxOATYE8C_Rsoe0WJ-KcGVbLW.ttf
+extract: {}
 copyright: Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com)
   with Reseved Font Name "Seaweed Script"
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -3,32 +3,16 @@ name: Oxygen
 description: Oxygen
 homepage: newtypography.co.uk
 resources:
-  Oxygen.zip:
-    urls:
-    - https://fonts.google.com/download?family=Oxygen
-    sha256: affe195ad091f2c7b5b98ebbffdc8fbdbf0336750ed409206891a1df5e6b2c45
-    file_size: 81768
+  Oxygen:
+    source: google
+    family: Oxygen
+    files:
+    - https://fonts.gstatic.com/s/oxygen/v15/2sDcZG1Wl4LcnbuCJW8Db2-4C7wFZQ.ttf
+    - https://fonts.gstatic.com/s/oxygen/v15/2sDfZG1Wl4Lcnbu6iUcnZ0SkAg.ttf
+    - https://fonts.gstatic.com/s/oxygen/v15/2sDcZG1Wl4LcnbuCNWgDb2-4C7wFZQ.ttf
 fonts:
 - name: Oxygen
   styles:
-  - family_name: Oxygen
-    type: Light
-    full_name: Oxygen Light
-    post_script_name: Oxygen-Light
-    version: Release 0.2.3 webfont; ttfautohint (v0.93.3-1d66) -l 8 -r 50 -G 200 -x
-      0 -w "gGD" -c
-    copyright: Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk), with Reserved
-      Font Names 'Oxygen'
-    font: Oxygen-Light.ttf
-  - family_name: Oxygen
-    type: Regular
-    full_name: Oxygen Regular
-    post_script_name: Oxygen-Regular
-    version: Release 0.2.3 webfont; ttfautohint (v0.93.3-1d66) -l 8 -r 50 -G 200 -x
-      0 -w "gGD" -c
-    copyright: Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk), with Reserved
-      Font Names 'Oxygen'
-    font: Oxygen-Regular.ttf
   - family_name: Oxygen
     type: Bold
     full_name: Oxygen Bold
@@ -37,9 +21,30 @@ fonts:
       -c
     copyright: Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk), with Reserved
       Font Names 'Oxygen'
-    font: Oxygen-Bold.ttf
-extract:
-  format: zip
+    font: 2sDcZG1Wl4LcnbuCNWgDb2-4C7wFZQ.ttf
+  - family_name: Oxygen
+    type: Regular
+    full_name: Oxygen Regular
+    post_script_name: Oxygen-Regular
+    version: Release 0.2.3 webfont; ttfautohint (v0.93.3-1d66) -l 8 -r 50 -G 200 -x
+      0 -w "gGD" -c
+    copyright: Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk), with Reserved
+      Font Names 'Oxygen'
+    font: 2sDfZG1Wl4Lcnbu6iUcnZ0SkAg.ttf
+- name: Oxygen Light
+  styles:
+  - family_name: Oxygen Light
+    type: Regular
+    preferred_family_name: Oxygen
+    preferred_type: Light
+    full_name: Oxygen Light
+    post_script_name: Oxygen-Light
+    version: Release 0.2.3 webfont; ttfautohint (v0.93.3-1d66) -l 8 -r 50 -G 200 -x
+      0 -w "gGD" -c
+    copyright: Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk), with Reserved
+      Font Names 'Oxygen'
+    font: 2sDcZG1Wl4LcnbuCJW8Db2-4C7wFZQ.ttf
+extract: {}
 copyright: Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk), with Reserved
   Font Names 'Oxygen'
 license_url: http://scripts.sil.org/OFL
@@ -137,3 +142,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

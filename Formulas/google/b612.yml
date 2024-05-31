@@ -1,46 +1,47 @@
 ---
 name: B612
 description: B612
-homepage:
 resources:
-  B612.zip:
-    urls:
-    - https://fonts.google.com/download?family=B612
-    sha256: 021f2fc581b54cf453518c2bea03bef0244f0f453ca8e028807f5618c4dd7917
-    file_size: 216023
+  B612:
+    source: google
+    family: B612
+    files:
+    - https://fonts.gstatic.com/s/b612/v12/3JnySDDxiSz32jm4GDigUXw.ttf
+    - https://fonts.gstatic.com/s/b612/v12/3Jn8SDDxiSz36juyHBqlQXwdVw.ttf
+    - https://fonts.gstatic.com/s/b612/v12/3Jn9SDDxiSz34oWXPDCLTXUETuE.ttf
+    - https://fonts.gstatic.com/s/b612/v12/3Jn_SDDxiSz36juKoDWBSVcBXuFb0Q.ttf
 fonts:
 - name: B612
   styles:
-  - family_name: B612
-    type: Regular
-    full_name: B612 Regular
-    post_script_name: B612-Regular
-    version: '1.008'
-    copyright: Copyright 2012 The B612 Project Authors (https://github.com/polarsys/b612)
-    font: B612-Regular.ttf
-  - family_name: B612
-    type: Italic
-    full_name: B612 Italic
-    post_script_name: B612-Italic
-    version: '1.008'
-    copyright: Copyright 2012 The B612 Project Authors (https://github.com/polarsys/b612)
-    font: B612-Italic.ttf
   - family_name: B612
     type: Bold
     full_name: B612 Bold
     post_script_name: B612-Bold
     version: '1.008'
     copyright: Copyright 2012 The B612 Project Authors (https://github.com/polarsys/b612)
-    font: B612-Bold.ttf
+    font: 3Jn9SDDxiSz34oWXPDCLTXUETuE.ttf
   - family_name: B612
     type: Bold Italic
     full_name: B612 Bold Italic
     post_script_name: B612-BoldItalic
     version: '1.008'
     copyright: Copyright 2012 The B612 Project Authors (https://github.com/polarsys/b612)
-    font: B612-BoldItalic.ttf
-extract:
-  format: zip
+    font: 3Jn_SDDxiSz36juKoDWBSVcBXuFb0Q.ttf
+  - family_name: B612
+    type: Italic
+    full_name: B612 Italic
+    post_script_name: B612-Italic
+    version: '1.008'
+    copyright: Copyright 2012 The B612 Project Authors (https://github.com/polarsys/b612)
+    font: 3Jn8SDDxiSz36juyHBqlQXwdVw.ttf
+  - family_name: B612
+    type: Regular
+    full_name: B612 Regular
+    post_script_name: B612-Regular
+    version: '1.008'
+    copyright: Copyright 2012 The B612 Project Authors (https://github.com/polarsys/b612)
+    font: 3JnySDDxiSz32jm4GDigUXw.ttf
+extract: {}
 copyright: Copyright 2012 The B612 Project Authors (https://github.com/polarsys/b612)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -137,3 +138,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

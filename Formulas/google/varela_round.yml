@@ -1,12 +1,13 @@
 ---
+name: Varela Round
 description: Varela Round
 homepage: http://www.avrahamcornfeld.com
 resources:
-  Varela_Round.zip:
-    urls:
-    - https://fonts.google.com/download?family=Varela%20Round
-    sha256: e1923092d92ead1cd80e072ca56629a6a4ce53450e8dc5fabba71fd16e305639
-    file_size: 60274
+  Varela Round:
+    source: google
+    family: Varela Round
+    files:
+    - https://fonts.gstatic.com/s/varelaround/v20/w8gdH283Tvk__Lua32TysjIvoMGOD9gxZw.ttf
 fonts:
 - name: Varela Round
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 3.010; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2023 The Varela Round Project Authors (https://github.com/alefalefalef/Varela-Round-Hebrew/),
       with Reserved Font Names 'Varela' and 'Varela Round'.
-    font: VarelaRound-Regular.ttf
+    font: w8gdH283Tvk__Lua32TysjIvoMGOD9gxZw.ttf
 extract: {}
 copyright: Copyright 2023 The Varela Round Project Authors (https://github.com/alefalefalef/Varela-Round-Hebrew/),
   with Reserved Font Names 'Varela' and 'Varela Round'.
@@ -27,7 +28,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -116,5 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 8e7d125b5118517cb5f45091798addbbc903e318caffa52d67f4381948a5110d
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

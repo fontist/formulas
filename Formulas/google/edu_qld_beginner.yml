@@ -1,11 +1,16 @@
 ---
+name: Edu QLD Beginner
 description: Edu QLD Beginner
 homepage: https://github.com/MezMerrit/AU-School-Handwriting-Fonts
 resources:
-  Edu_QLD_Beginner.zip:
-    urls:
-    - https://fonts.google.com/download?family=Edu%20QLD%20Beginner
-    file_size: 108707
+  Edu QLD Beginner:
+    source: google
+    family: Edu QLD Beginner
+    files:
+    - https://fonts.gstatic.com/s/eduqldbeginner/v3/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE4E3oebi6vyVWCN.ttf
+    - https://fonts.gstatic.com/s/eduqldbeginner/v3/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE423oebi6vyVWCN.ttf
+    - https://fonts.gstatic.com/s/eduqldbeginner/v3/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE7a2Yebi6vyVWCN.ttf
+    - https://fonts.gstatic.com/s/eduqldbeginner/v3/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE7j2Yebi6vyVWCN.ttf
 fonts:
 - name: Edu QLD Beginner
   styles:
@@ -16,7 +21,7 @@ fonts:
     version: '1.003'
     description: Australian QLD School Handwriting (QBeginners)
     copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
-    font: EduQLDBeginner-Bold.ttf
+    font: AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE7j2Yebi6vyVWCN.ttf
   - family_name: Edu QLD Beginner
     type: Regular
     full_name: Edu QLD Beginner Regular
@@ -24,15 +29,7 @@ fonts:
     version: '1.003'
     description: Australian QLD School Handwriting (QBeginners)
     copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
-    font: EduQLDBeginner-VariableFont_wght.ttf
-  - family_name: Edu QLD Beginner
-    type: Regular
-    full_name: Edu QLD Beginner Regular
-    post_script_name: EduQLDBeginner-Regular
-    version: '1.003'
-    description: Australian QLD School Handwriting (QBeginners)
-    copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
-    font: EduQLDBeginner-Regular.ttf
+    font: AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE4E3oebi6vyVWCN.ttf
 - name: Edu QLD Beginner Medium
   styles:
   - family_name: Edu QLD Beginner Medium
@@ -44,7 +41,7 @@ fonts:
     version: '1.003'
     description: Australian QLD School Handwriting (QBeginners)
     copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
-    font: EduQLDBeginner-Medium.ttf
+    font: AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE423oebi6vyVWCN.ttf
 - name: Edu QLD Beginner SemiBold
   styles:
   - family_name: Edu QLD Beginner SemiBold
@@ -56,7 +53,7 @@ fonts:
     version: '1.003'
     description: Australian QLD School Handwriting (QBeginners)
     copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
-    font: EduQLDBeginner-SemiBold.ttf
+    font: AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE7a2Yebi6vyVWCN.ttf
 extract: {}
 copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
 license_url: https://scripts.sil.org/OFL
@@ -65,7 +62,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -154,5 +151,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 0621df3d499dcc1807d54acc2163a61a25c4de5b42679285d0164373b9f5db36
-command: import google --formulas_path Formulas
+command: import google -n 9999

@@ -3,11 +3,11 @@ name: Metamorphous
 description: Metamorphous
 homepage: www.sorkintype.com
 resources:
-  Metamorphous.zip:
-    urls:
-    - https://fonts.google.com/download?family=Metamorphous
-    sha256: 7d50935f55b10aa61b9b9d846ef326a366991a61844d9110797d56ff5f5d405a
-    file_size: 54103
+  Metamorphous:
+    source: google
+    family: Metamorphous
+    files:
+    - https://fonts.gstatic.com/s/metamorphous/v20/Wnz8HA03aAXcC39ZEX5y1330PCCthTsmaQ.ttf
 fonts:
 - name: Metamorphous
   styles:
@@ -26,10 +26,10 @@ fonts:
     copyright: |-
       Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
       with Reserved Font Name "Metamorphous".
-    font: Metamorphous-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)
+    font: Wnz8HA03aAXcC39ZEX5y1330PCCthTsmaQ.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
   with Reserved Font Name "Metamorphous".
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -127,3 +127,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

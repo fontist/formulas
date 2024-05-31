@@ -1,12 +1,13 @@
 ---
+name: Berkshire Swash
 description: Berkshire Swash
 homepage: http://www.astigmatic.com/
 resources:
-  BerkshireSwash.zip:
-    urls:
-    - https://fonts.google.com/download?family=Berkshire%20Swash
-    sha256: 571f3408396f59b332766f41a2cad2bdd8ae9d87fccee6b53d292da3779a3715
-    file_size: 28293
+  Berkshire Swash:
+    source: google
+    family: Berkshire Swash
+    files:
+    - https://fonts.gstatic.com/s/berkshireswash/v20/ptRRTi-cavZOGqCvnNJDl5m5XmNPrcQybX4pQA.ttf
 fonts:
 - name: Berkshire Swash
   styles:
@@ -18,11 +19,11 @@ fonts:
     copyright: |-
       Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
       Font Name "Berkshire Swash"
-    font: BerkshireSwash-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com),
-  with Reserved Font Name "Berkshire Swash"
+    font: ptRRTi-cavZOGqCvnNJDl5m5XmNPrcQybX4pQA.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+  Font Name "Berkshire Swash"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Names "Berkshire Swash"
@@ -118,3 +119,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

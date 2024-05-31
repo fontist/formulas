@@ -1,12 +1,13 @@
 ---
+name: ADLaM Display
 description: ADLaM Display
 homepage: http://www.microsoft.com
 resources:
-  ADLaM_Display.zip:
-    urls:
-    - https://fonts.google.com/download?family=ADLaM%20Display
-    sha256: de99d6ae921673e6333993c9749159172583542f7a7eff66ce05c9769deb74f0
-    file_size: 54540
+  ADLaM Display:
+    source: google
+    family: ADLaM Display
+    files:
+    - https://fonts.gstatic.com/s/adlamdisplay/v1/KFOhCnGXkPOLlhx6jD8_b1ZECsHYkYBPY3o.ttf
 fonts:
 - name: ADLaM Display
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: ADLaMDisplay-Regular
     version: 2.000; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.28]
     copyright: Copyright (c) 2022 by Microsoft. All rights reserved.
-    font: ADLaMDisplay-Regular.ttf
+    font: KFOhCnGXkPOLlhx6jD8_b1ZECsHYkYBPY3o.ttf
 extract: {}
 copyright: Copyright (c) 2022 by Microsoft. All rights reserved.
 license_url: https://scripts.sil.org/OFL
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: '038954efb783ef9500531ecc15ddd1c8b84566548b9ddb7601d85504137758d0'
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

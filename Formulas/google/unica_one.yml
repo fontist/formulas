@@ -1,12 +1,13 @@
 ---
+name: Unica One
 description: Unica One
 homepage: http://www.tipo.net.ar
 resources:
-  Unica_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Unica%20One
-    sha256: f949ebacb7ac8de21d0446196127ac1d2f219e9e21af38915c507651325d9e68
-    file_size: 34704
+  Unica One:
+    source: google
+    family: Unica One
+    files:
+    - https://fonts.gstatic.com/s/unicaone/v18/DPEuYwWHyAYGVTSmalshdtffuEY7FA.ttf
 fonts:
 - name: Unica One
   styles:
@@ -19,7 +20,7 @@ fonts:
       for composing headlines and short texts. Readbility and simplicity are some
       of the virtues of this unique typeface.
     copyright: Copyright 2012 The Unica One Project Authors (https://github.com/etunni/unica)
-    font: UnicaOne-Regular.ttf
+    font: DPEuYwWHyAYGVTSmalshdtffuEY7FA.ttf
 extract: {}
 copyright: Copyright 2012 The Unica One Project Authors (https://github.com/etunni/unica)
 license_url: https://scripts.sil.org/OFL
@@ -28,7 +29,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -117,5 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 228163720e085378969787f3c0c5392ad9094a74742562a1935c0bb8c8358b9e
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

@@ -3,11 +3,13 @@ name: Dongle
 description: Dongle
 homepage: http://www.ryufont.com/
 resources:
-  Dongle.zip:
-    urls:
-    - https://fonts.google.com/download?family=Dongle
-    sha256: d5df3626e060aa56baee7f889c5596ed2fb33397ba407bd237db9199428527bc
-    file_size: 1800901
+  Dongle:
+    source: google
+    family: Dongle
+    files:
+    - https://fonts.gstatic.com/s/dongle/v12/sJoG3Ltdjt6VPkqeEcxrYjWNzXvVPA.ttf
+    - https://fonts.gstatic.com/s/dongle/v12/sJoF3Ltdjt6VPkqmveRPah6RxA.ttf
+    - https://fonts.gstatic.com/s/dongle/v12/sJoG3Ltdjt6VPkqeActrYjWNzXvVPA.ttf
 fonts:
 - name: Dongle
   styles:
@@ -17,14 +19,14 @@ fonts:
     post_script_name: Dongle-Bold
     version: '2.000'
     copyright: Copyright 2021 The Dongle Project Authors (https://github.com/yangheeryu/Dongle)
-    font: Dongle-Bold.ttf
+    font: sJoG3Ltdjt6VPkqeActrYjWNzXvVPA.ttf
   - family_name: Dongle
     type: Regular
     full_name: Dongle Regular
     post_script_name: Dongle-Regular
     version: '2.000'
     copyright: Copyright 2021 The Dongle Project Authors (https://github.com/yangheeryu/Dongle)
-    font: Dongle-Regular.ttf
+    font: sJoF3Ltdjt6VPkqmveRPah6RxA.ttf
 - name: Dongle Light
   styles:
   - family_name: Dongle Light
@@ -35,12 +37,13 @@ fonts:
     post_script_name: Dongle-Light
     version: '2.000'
     copyright: Copyright 2021 The Dongle Project Authors (https://github.com/yangheeryu/Dongle)
-    font: Dongle-Light.ttf
+    font: sJoG3Ltdjt6VPkqeEcxrYjWNzXvVPA.ttf
 extract: {}
 copyright: Copyright 2021 The Dongle Project Authors (https://github.com/yangheeryu/Dongle)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
   Copyright 2021 The Dongle Project Authors (https://github.com/yangheeryu/Dongle)
+
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -133,5 +136,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 74f445d77ae9d4a7a22d872ff6b55f8adc18ced7d5029a4244caea524bfd61f2
-command: google import --formulas_path Formulas
+command: import google -n 9999

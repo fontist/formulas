@@ -3,30 +3,19 @@ name: Overlock
 description: Overlock
 homepage: www.tipo.net.ar
 resources:
-  Overlock.zip:
-    urls:
-    - https://fonts.google.com/download?family=Overlock
-    sha256: 4cc337f5b4309dead359687466b6a31cbab26154038b8b6185fdb2169978cbe7
-    file_size: 125539
+  Overlock:
+    source: google
+    family: Overlock
+    files:
+    - https://fonts.gstatic.com/s/overlock/v17/Z9XVDmdMWRiN1_T9Z4Te4u2El6GC.ttf
+    - https://fonts.gstatic.com/s/overlock/v17/Z9XTDmdMWRiN1_T9Z7Tc6OmmkrGC7Cs.ttf
+    - https://fonts.gstatic.com/s/overlock/v17/Z9XSDmdMWRiN1_T9Z7xizcmMvL2L9TLT.ttf
+    - https://fonts.gstatic.com/s/overlock/v17/Z9XQDmdMWRiN1_T9Z7Tc0FWJtrmp8CLTlNs.ttf
+    - https://fonts.gstatic.com/s/overlock/v17/Z9XSDmdMWRiN1_T9Z7xaz8mMvL2L9TLT.ttf
+    - https://fonts.gstatic.com/s/overlock/v17/Z9XQDmdMWRiN1_T9Z7Tc0G2Ltrmp8CLTlNs.ttf
 fonts:
 - name: Overlock
   styles:
-  - family_name: Overlock
-    type: Regular
-    full_name: Overlock Regular
-    post_script_name: Overlock-Regular
-    version: '1.002'
-    copyright: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar),
-      with Reserved Font Name "Overlock".
-    font: Overlock-Regular.ttf
-  - family_name: Overlock
-    type: Italic
-    full_name: Overlock Italic
-    post_script_name: Overlock-Italic
-    version: '1.002'
-    copyright: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar),
-      with Reserved Font Name "Overlock".
-    font: Overlock-Italic.ttf
   - family_name: Overlock
     type: Bold
     full_name: Overlock Bold
@@ -34,7 +23,7 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar),
       with Reserved Font Name "Overlock".
-    font: Overlock-Bold.ttf
+    font: Z9XSDmdMWRiN1_T9Z7xizcmMvL2L9TLT.ttf
   - family_name: Overlock
     type: Bold Italic
     full_name: Overlock Bold Italic
@@ -42,25 +31,46 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar),
       with Reserved Font Name "Overlock".
-    font: Overlock-BoldItalic.ttf
+    font: Z9XQDmdMWRiN1_T9Z7Tc0FWJtrmp8CLTlNs.ttf
   - family_name: Overlock
-    type: Black
-    full_name: Overlock Black
-    post_script_name: Overlock-Black
+    type: Italic
+    full_name: Overlock Italic
+    post_script_name: Overlock-Italic
     version: '1.002'
     copyright: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar),
       with Reserved Font Name "Overlock".
-    font: Overlock-Black.ttf
+    font: Z9XTDmdMWRiN1_T9Z7Tc6OmmkrGC7Cs.ttf
   - family_name: Overlock
-    type: Black Italic
+    type: Regular
+    full_name: Overlock Regular
+    post_script_name: Overlock-Regular
+    version: '1.002'
+    copyright: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar),
+      with Reserved Font Name "Overlock".
+    font: Z9XVDmdMWRiN1_T9Z4Te4u2El6GC.ttf
+- name: Overlock Black
+  styles:
+  - family_name: Overlock Black
+    type: Italic
+    preferred_family_name: Overlock
+    preferred_type: Black Italic
     full_name: Overlock Black Italic
     post_script_name: Overlock-BlackItalic
     version: '1.002'
     copyright: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar),
       with Reserved Font Name "Overlock".
-    font: Overlock-BlackItalic.ttf
-extract:
-  format: zip
+    font: Z9XQDmdMWRiN1_T9Z7Tc0G2Ltrmp8CLTlNs.ttf
+  - family_name: Overlock Black
+    type: Regular
+    preferred_family_name: Overlock
+    preferred_type: Black
+    full_name: Overlock Black
+    post_script_name: Overlock-Black
+    version: '1.002'
+    copyright: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar),
+      with Reserved Font Name "Overlock".
+    font: Z9XSDmdMWRiN1_T9Z7xaz8mMvL2L9TLT.ttf
+extract: {}
 copyright: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar), with
   Reserved Font Name "Overlock".
 license_url: http://scripts.sil.org/OFL
@@ -159,3 +169,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

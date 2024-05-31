@@ -1,12 +1,12 @@
 ---
+name: Delius Swash Caps
 description: Delius Swash Caps
-homepage:
 resources:
-  DeliusSwashCaps.zip:
-    urls:
-    - https://fonts.google.com/download?family=Delius%20Swash%20Caps
-    sha256: 4cead236801882563f21694676a864c17916a79cc88645deed3e32f8cb2f6b1e
-    file_size: 31916
+  Delius Swash Caps:
+    source: google
+    family: Delius Swash Caps
+    files:
+    - https://fonts.gstatic.com/s/deliusswashcaps/v23/oY1E8fPLr7v4JWCExZpWebxVKORpXXedKmeBvEYs.ttf
 fonts:
 - name: Delius Swash Caps
   styles:
@@ -17,9 +17,8 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2010, 2011, Natalia Raices <nraices@gmail.com>, with
       Reserved Font Name "Delius" "Delius Unicase" "Delius Swash Caps".
-    font: DeliusSwashCaps-Regular.ttf
-extract:
-  format: zip
+    font: oY1E8fPLr7v4JWCExZpWebxVKORpXXedKmeBvEYs.ttf
+extract: {}
 copyright: Copyright (c) 2010, 2011, Natalia Raices <nraices@gmail.com>, with Reserved
   Font Name "Delius" "Delius Unicase" "Delius Swash Caps".
 license_url: http://scripts.sil.org/OFL
@@ -120,3 +119,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

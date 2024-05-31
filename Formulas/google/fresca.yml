@@ -3,11 +3,11 @@ name: Fresca
 description: Fresca
 homepage: www.fontstage.com
 resources:
-  Fresca.zip:
-    urls:
-    - https://fonts.google.com/download?family=Fresca
-    sha256: 8f3af365ba625e8d254b136d2d89f7447500dc12ab7cbaad231cd4e4085b0898
-    file_size: 17952
+  Fresca:
+    source: google
+    family: Fresca
+    files:
+    - https://fonts.gstatic.com/s/fresca/v22/6ae94K--SKgCzbM2Gr0W13DKPA.ttf
 fonts:
 - name: Fresca
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font
       Name "Fresca"
-    font: Fresca-Regular.ttf
-extract:
-  format: zip
+    font: 6ae94K--SKgCzbM2Gr0W13DKPA.ttf
+extract: {}
 copyright: Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font Name
   "Fresca"
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

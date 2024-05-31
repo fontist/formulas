@@ -3,11 +3,11 @@ name: Abel
 description: Abel
 homepage: http://www.madtype.com
 resources:
-  Abel.zip:
-    urls:
-    - https://fonts.google.com/download?family=Abel
-    sha256: adf78af6e6d53062554abcbf1a3ae463ef161a5368e1106350db0876e4b20d0c
-    file_size: 17115
+  Abel:
+    source: google
+    family: Abel
+    files:
+    - https://fonts.gstatic.com/s/abel/v18/MwQ5bhbm2POE6VhLPJp6qGI.ttf
 fonts:
 - name: Abel
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: '1.003'
     copyright: Copyright (c) 2011, Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com),
       with Reserved Font Name Abel.
-    font: Abel-Regular.ttf
-extract:
-  format: zip
+    font: MwQ5bhbm2POE6VhLPJp6qGI.ttf
+extract: {}
 copyright: Copyright (c) 2011, Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com),
   with Reserved Font Name Abel.
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

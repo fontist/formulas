@@ -1,12 +1,12 @@
 ---
+name: Keania One
 description: Keania One
-homepage:
 resources:
-  KeaniaOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Keania%20One
-    sha256: 4ee10581ece5c528462d624dca95d5b22389b098c0907e06540e773001b0a963
-    file_size: 18834
+  Keania One:
+    source: google
+    family: Keania One
+    files:
+    - https://fonts.gstatic.com/s/keaniaone/v24/zOL54pXJk65E8pXardnuycRuv-hHkOs.ttf
 fonts:
 - name: Keania One
   styles:
@@ -17,9 +17,8 @@ fonts:
     version: '1.003'
     copyright: Copyright (c) 2012, Julia Petretta (julia.petretta@googlemail.com),
       with Reserved Font Name 'Keania'
-    font: KeaniaOne-Regular.ttf
-extract:
-  format: zip
+    font: zOL54pXJk65E8pXardnuycRuv-hHkOs.ttf
+extract: {}
 copyright: Copyright (c) 2012, Julia Petretta (julia.petretta@googlemail.com), with
   Reserved Font Name 'Keania'
 license_url: http://scripts.sil.org/OFL
@@ -117,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

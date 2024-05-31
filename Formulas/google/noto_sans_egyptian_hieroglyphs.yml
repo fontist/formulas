@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Egyptian Hieroglyphs
 description: Noto Sans Egyptian Hieroglyphs
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Egyptian_Hieroglyphs.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Egyptian%20Hieroglyphs
-    sha256: c3310791aad910221728278e42c4ee431ec0a79d4626228829149cb7be05b555
-    file_size: 514936
+  Noto Sans Egyptian Hieroglyphs:
+    source: google
+    family: Noto Sans Egyptian Hieroglyphs
+    files:
+    - https://fonts.gstatic.com/s/notosansegyptianhieroglyphs/v29/vEF42-tODB8RrNDvZSUmRhcQHzx1s7y_F9-j3qSzEcbEYindSVK8xRg7iw.ttf
 fonts:
 - name: Noto Sans Egyptian Hieroglyphs
   styles:
@@ -14,19 +15,19 @@ fonts:
     type: Regular
     full_name: Noto Sans Egyptian Hieroglyphs Regular
     post_script_name: NotoSansEgyptianHieroglyphs-Regular
-    version: 2.001; ttfautohint (v1.8.4.7-5d5b)
+    version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/egyptian-hieroglyphs)
-    font: NotoSansEgyptianHieroglyphs-Regular.ttf
+    font: vEF42-tODB8RrNDvZSUmRhcQHzx1s7y_F9-j3qSzEcbEYindSVK8xRg7iw.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/egyptian-hieroglyphs)
-license_url: https://scripts.sil.org/OFL
+license_url: https://openfontlicense.org
 open_license: |-
   Copyright 2022 The Noto Project Authors (https://github.com/notofonts/egyptian-hieroglyphs)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 04b7ac4dcf10b84cef4361b8da80e2892db88285e87c165c2074d99641633a78
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

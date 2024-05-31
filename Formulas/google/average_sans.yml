@@ -1,12 +1,13 @@
 ---
+name: Average Sans
 description: Average Sans
 homepage: http://www.tipo.net.ar
 resources:
-  AverageSans.zip:
-    urls:
-    - https://fonts.google.com/download?family=Average%20Sans
-    sha256: d5065366eb86082584d350acf5ca06bff79ee312aad75aaabfad3453c48b232d
-    file_size: 21579
+  Average Sans:
+    source: google
+    family: Average Sans
+    files:
+    - https://fonts.gstatic.com/s/averagesans/v16/1Ptpg8fLXP2dlAXR-HlJJNJPBdqazVoK4A.ttf
 fonts:
 - name: Average Sans
   styles:
@@ -17,9 +18,8 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
       Font Name 'Average'
-    font: AverageSans-Regular.ttf
-extract:
-  format: zip
+    font: 1Ptpg8fLXP2dlAXR-HlJJNJPBdqazVoK4A.ttf
+extract: {}
 copyright: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
   Font Name 'Average'
 license_url: http://scripts.sil.org/OFL
@@ -117,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

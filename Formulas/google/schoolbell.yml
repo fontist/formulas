@@ -3,11 +3,11 @@ name: Schoolbell
 description: Schoolbell
 homepage: http://www.fontdiner.com
 resources:
-  Schoolbell.zip:
-    urls:
-    - https://fonts.google.com/download?family=Schoolbell
-    sha256: 91a31e180bb5aa4ebb548ca93e6cf8544e949efb25b95088d1c05fb8527458e3
-    file_size: 32188
+  Schoolbell:
+    source: google
+    family: Schoolbell
+    files:
+    - https://fonts.gstatic.com/s/schoolbell/v18/92zQtBZWOrcgoe-fgnJIVxIQ6mRqfiQ.ttf
 fonts:
 - name: Schoolbell
   styles:
@@ -17,13 +17,12 @@ fonts:
     post_script_name: Schoolbell-Regular
     version: '1.001'
     copyright: Copyright (c) 2010 by Font Diner, Inc. All rights reserved.
-    font: Schoolbell-Regular.ttf
-extract:
-  format: zip
+    font: 92zQtBZWOrcgoe-fgnJIVxIQ6mRqfiQ.ttf
+extract: {}
 copyright: Copyright (c) 2010 by Font Diner, Inc. All rights reserved.
 license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |2-
-                                   Apache License
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -224,3 +223,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999

@@ -3,51 +3,66 @@ name: Chathura
 description: Chathura
 homepage: www.adityafonts.com
 resources:
-  Chathura.zip:
-    urls:
-    - https://fonts.google.com/download?family=Chathura
-    sha256: 29e382038e3f9000ba9565fc88771a43646d0f0d05369668a2db28be7cefc17e
-    file_size: 508944
+  Chathura:
+    source: google
+    family: Chathura
+    files:
+    - https://fonts.gstatic.com/s/chathura/v20/_gP91R7-rzUuVjim42dEq0SbTvZyuDo.ttf
+    - https://fonts.gstatic.com/s/chathura/v20/_gP81R7-rzUuVjim42eMiWSxYPp7oSNy.ttf
+    - https://fonts.gstatic.com/s/chathura/v20/_gP71R7-rzUuVjim418goUC5S-Zy.ttf
+    - https://fonts.gstatic.com/s/chathura/v20/_gP81R7-rzUuVjim42ecjmSxYPp7oSNy.ttf
+    - https://fonts.gstatic.com/s/chathura/v20/_gP81R7-rzUuVjim42eAjWSxYPp7oSNy.ttf
 fonts:
 - name: Chathura
   styles:
-  - family_name: Chathura
-    type: Thin
-    full_name: Chathura Thin
-    post_script_name: Chathura-Thin
-    version: 1.002 2016
-    copyright: Copyright 2009 The Chathura Project Authors.
-    font: Chathura-Thin.ttf
-  - family_name: Chathura
-    type: Light
-    full_name: Chathura Light
-    post_script_name: Chathura-Light
-    version: 1.002 2016
-    copyright: Copyright 2009 The Chathura Project Authors.
-    font: Chathura-Light.ttf
-  - family_name: Chathura
-    type: Regular
-    full_name: Chathura Regular
-    post_script_name: Chathura-Regular
-    version: 1.002 2016
-    copyright: Copyright 2009 The Chathura Project Authors.
-    font: Chathura-Regular.ttf
   - family_name: Chathura
     type: Bold
     full_name: Chathura Bold
     post_script_name: Chathura-Bold
     version: 1.002 2016
     copyright: Copyright 2009 The Chathura Project Authors.
-    font: Chathura-Bold.ttf
+    font: _gP81R7-rzUuVjim42ecjmSxYPp7oSNy.ttf
   - family_name: Chathura
-    type: ExtraBold
+    type: Regular
+    full_name: Chathura Regular
+    post_script_name: Chathura-Regular
+    version: 1.002 2016
+    copyright: Copyright 2009 The Chathura Project Authors.
+    font: _gP71R7-rzUuVjim418goUC5S-Zy.ttf
+- name: Chathura ExtraBold
+  styles:
+  - family_name: Chathura ExtraBold
+    type: Regular
+    preferred_family_name: Chathura
+    preferred_type: ExtraBold
     full_name: Chathura ExtraBold
     post_script_name: Chathura-ExtraBold
     version: 1.002 2016
     copyright: Copyright 2009 The Chathura Project Authors.
-    font: Chathura-ExtraBold.ttf
-extract:
-  format: zip
+    font: _gP81R7-rzUuVjim42eAjWSxYPp7oSNy.ttf
+- name: Chathura Light
+  styles:
+  - family_name: Chathura Light
+    type: Regular
+    preferred_family_name: Chathura
+    preferred_type: Light
+    full_name: Chathura Light
+    post_script_name: Chathura-Light
+    version: 1.002 2016
+    copyright: Copyright 2009 The Chathura Project Authors.
+    font: _gP81R7-rzUuVjim42eMiWSxYPp7oSNy.ttf
+- name: Chathura Thin
+  styles:
+  - family_name: Chathura Thin
+    type: Regular
+    preferred_family_name: Chathura
+    preferred_type: Thin
+    full_name: Chathura Thin
+    post_script_name: Chathura-Thin
+    version: 1.002 2016
+    copyright: Copyright 2009 The Chathura Project Authors.
+    font: _gP91R7-rzUuVjim42dEq0SbTvZyuDo.ttf
+extract: {}
 copyright: Copyright 2009 The Chathura Project Authors.
 license_url: http://scripts.sil.org/OFL
-open_license: ''
+command: import google -n 9999

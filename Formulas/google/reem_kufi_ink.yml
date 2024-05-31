@@ -1,11 +1,12 @@
 ---
+name: Reem Kufi Ink
 description: Reem Kufi Ink
 resources:
-  Reem_Kufi_Ink.zip:
-    urls:
-    - https://fonts.google.com/download?family=Reem%20Kufi%20Ink
-    sha256: 8288b901cec026d07ef8adc495398c8df601b629c2126c9ba6fffa10a8e20a93
-    file_size: 77034
+  Reem Kufi Ink:
+    source: google
+    family: Reem Kufi Ink
+    files:
+    - https://fonts.gstatic.com/s/reemkufiink/v9/oPWJ_kJmmu8hCvB9iFumxZSnRj5dQnSX1ko.ttf
 fonts:
 - name: Reem Kufi Ink
   styles:
@@ -20,7 +21,7 @@ fonts:
       calligraphy Mohammad Abdul Qadir who revived this art in the 20th century and
       formalised its rules.
     copyright: Copyright 2015-2022 The Reem Kufi Project Authors (https://github.com/aliftype/reem-kufi).
-    font: ReemKufiInk-Regular.ttf
+    font: oPWJ_kJmmu8hCvB9iFumxZSnRj5dQnSX1ko.ttf
 extract: {}
 copyright: Copyright 2015-2022 The Reem Kufi Project Authors (https://github.com/aliftype/reem-kufi).
 license_url: https://scripts.sil.org/OFL
@@ -118,5 +119,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 27d8120e61bbf0877e62dde30410f5668e2bfba9551444cfb4612cd5cdf5903b
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

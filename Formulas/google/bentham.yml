@@ -1,13 +1,12 @@
 ---
 name: Bentham
 description: Bentham
-homepage:
 resources:
-  Bentham.zip:
-    urls:
-    - https://fonts.google.com/download?family=Bentham
-    sha256: f7cae5e1b02f1e50543a81854ae44e818a67e77f7a000497e8ac0957826dfb74
-    file_size: 30777
+  Bentham:
+    source: google
+    family: Bentham
+    files:
+    - https://fonts.gstatic.com/s/bentham/v18/VdGeAZQPEpYfmHglKWw7CJaK_y4.ttf
 fonts:
 - name: Bentham
   styles:
@@ -18,9 +17,8 @@ fonts:
     version: '002.002'
     copyright: Copyright (c) 1999-2010, Ben Weiner (ben@readingtype.org.uk), with
       Reserved Font Name Bentham.
-    font: Bentham-Regular.ttf
-extract:
-  format: zip
+    font: VdGeAZQPEpYfmHglKWw7CJaK_y4.ttf
+extract: {}
 copyright: Copyright (c) 1999-2010, Ben Weiner (ben@readingtype.org.uk), with Reserved
   Font Name Bentham.
 license_url: http://scripts.sil.org/OFL
@@ -119,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

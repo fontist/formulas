@@ -1,45 +1,55 @@
 ---
+name: Palanquin Dark
 description: Palanquin Dark
-homepage:
 resources:
-  PalanquinDark.zip:
-    urls:
-    - https://fonts.google.com/download?family=Palanquin%20Dark
-    sha256: 6e2a0310ca324240aedb104cbe3c38995a36728a0a08809bbad852bffcd06cc6
-    file_size: 871482
+  Palanquin Dark:
+    source: google
+    family: Palanquin Dark
+    files:
+    - https://fonts.gstatic.com/s/palanquindark/v14/xn75YHgl1nqmANMB-26xC7yuF_6OTEo9VtfE.ttf
+    - https://fonts.gstatic.com/s/palanquindark/v14/xn76YHgl1nqmANMB-26xC7yuF8Z6ZW41fcvN2KT4.ttf
+    - https://fonts.gstatic.com/s/palanquindark/v14/xn76YHgl1nqmANMB-26xC7yuF8ZWYm41fcvN2KT4.ttf
+    - https://fonts.gstatic.com/s/palanquindark/v14/xn76YHgl1nqmANMB-26xC7yuF8YyY241fcvN2KT4.ttf
 fonts:
 - name: Palanquin Dark
   styles:
-  - family_name: Palanquin Dark
-    type: Regular
-    full_name: Palanquin Dark Regular
-    post_script_name: PalanquinDark-Regular
-    version: '1.001'
-    copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
-    font: PalanquinDark-Regular.ttf
-  - family_name: Palanquin Dark
-    type: Medium
-    full_name: Palanquin Dark Medium
-    post_script_name: PalanquinDark-Medium
-    version: '1.001'
-    copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
-    font: PalanquinDark-Medium.ttf
-  - family_name: Palanquin Dark
-    type: SemiBold
-    full_name: Palanquin Dark SemiBold
-    post_script_name: PalanquinDark-SemiBold
-    version: '1.001'
-    copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
-    font: PalanquinDark-SemiBold.ttf
   - family_name: Palanquin Dark
     type: Bold
     full_name: Palanquin Dark Bold
     post_script_name: PalanquinDark-Bold
     version: '1.001'
     copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
-    font: PalanquinDark-Bold.ttf
-extract:
-  format: zip
+    font: xn76YHgl1nqmANMB-26xC7yuF8YyY241fcvN2KT4.ttf
+  - family_name: Palanquin Dark
+    type: Regular
+    full_name: Palanquin Dark Regular
+    post_script_name: PalanquinDark-Regular
+    version: '1.001'
+    copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
+    font: xn75YHgl1nqmANMB-26xC7yuF_6OTEo9VtfE.ttf
+- name: Palanquin Dark Medium
+  styles:
+  - family_name: Palanquin Dark Medium
+    type: Regular
+    preferred_family_name: Palanquin Dark
+    preferred_type: Medium
+    full_name: Palanquin Dark Medium
+    post_script_name: PalanquinDark-Medium
+    version: '1.001'
+    copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
+    font: xn76YHgl1nqmANMB-26xC7yuF8Z6ZW41fcvN2KT4.ttf
+- name: Palanquin Dark SemiBold
+  styles:
+  - family_name: Palanquin Dark SemiBold
+    type: Regular
+    preferred_family_name: Palanquin Dark
+    preferred_type: SemiBold
+    full_name: Palanquin Dark SemiBold
+    post_script_name: PalanquinDark-SemiBold
+    version: '1.001'
+    copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
+    font: xn76YHgl1nqmANMB-26xC7yuF8ZWYm41fcvN2KT4.ttf
+extract: {}
 copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -136,3 +146,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

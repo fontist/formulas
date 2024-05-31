@@ -1,12 +1,13 @@
 ---
+name: Kaushan Script
 description: Kaushan Script
 homepage: www.impallari.com
 resources:
-  KaushanScript.zip:
-    urls:
-    - https://fonts.google.com/download?family=Kaushan%20Script
-    sha256: 738795250daad44254dc5f2916ff615f090c1840b78c58f11c8335270371f2c4
-    file_size: 66897
+  Kaushan Script:
+    source: google
+    family: Kaushan Script
+    files:
+    - https://fonts.gstatic.com/s/kaushanscript/v18/vm8vdRfvXFLG3OLnsO15WYS5DF7_ytN3M48a.ttf
 fonts:
 - name: Kaushan Script
   styles:
@@ -30,12 +31,12 @@ fonts:
       Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),
       Copyright (c) 2011, Igino Marini. (www.ikern.com|mail@iginomarini.com),
       with Reserved Font Name Kaushan Script.
-    font: KaushanScript-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),
-  Copyright (c) 2011, Igino Marini. (www.ikern.com|mail@iginomarini.com), with Reserved
-  Font Name Kaushan Script.
+    font: vm8vdRfvXFLG3OLnsO15WYS5DF7_ytN3M48a.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),
+  Copyright (c) 2011, Igino Marini. (www.ikern.com|mail@iginomarini.com),
+  with Reserved Font Name Kaushan Script.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),
@@ -133,3 +134,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

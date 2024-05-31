@@ -1,12 +1,13 @@
 ---
+name: Uncial Antiqua
 description: Uncial Antiqua
 homepage: http://www.astigmatic.com/
 resources:
-  UncialAntiqua.zip:
-    urls:
-    - https://fonts.google.com/download?family=Uncial%20Antiqua
-    sha256: 62b292c8507c6cff550c06c01039a04d174f995b90aa5316cd6ca57f54658817
-    file_size: 35044
+  Uncial Antiqua:
+    source: google
+    family: Uncial Antiqua
+    files:
+    - https://fonts.gstatic.com/s/uncialantiqua/v20/N0bM2S5WOex4OUbESzoESK-i-PfRS5VBBSSF.ttf
 fonts:
 - name: Uncial Antiqua
   styles:
@@ -18,11 +19,11 @@ fonts:
     copyright: |-
       Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
       Font Name "Uncial Antiqua"
-    font: UncialAntiqua-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com),
-  with Reserved Font Name "Uncial Antiqua"
+    font: N0bM2S5WOex4OUbESzoESK-i-PfRS5VBBSSF.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+  Font Name "Uncial Antiqua"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI)
@@ -119,3 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

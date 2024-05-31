@@ -3,11 +3,12 @@ name: Monda
 description: Monda
 homepage: http://www.sansoxygen.com
 resources:
-  Monda.zip:
-    urls:
-    - https://fonts.google.com/download?family=Monda
-    sha256: 9e8423089a855460cc898467ca79e8f14e6d9f8e3e6cf30ff9c809dcf3395d10
-    file_size: 158809
+  Monda:
+    source: google
+    family: Monda
+    files:
+    - https://fonts.gstatic.com/s/monda/v16/TK3tWkYFABsmjvpmNBsLvPdG.ttf
+    - https://fonts.gstatic.com/s/monda/v16/TK3gWkYFABsmjsLaGz8Dl-tPKo2t.ttf
 fonts:
 - name: Monda
   styles:
@@ -17,14 +18,14 @@ fonts:
     post_script_name: Monda-Bold
     version: 2.100; ttfautohint (v1.8.3)
     copyright: Copyright 2021 The Monda Project Authors (https://github.com/googlefonts/mondaFont)
-    font: Monda-Bold.ttf
+    font: TK3gWkYFABsmjsLaGz8Dl-tPKo2t.ttf
   - family_name: Monda
     type: Regular
     full_name: Monda Regular
     post_script_name: Monda-Regular
     version: 2.100; ttfautohint (v1.8.3)
     copyright: Copyright 2021 The Monda Project Authors (https://github.com/googlefonts/mondaFont)
-    font: Monda-Regular.ttf
+    font: TK3tWkYFABsmjvpmNBsLvPdG.ttf
 extract: {}
 copyright: Copyright 2021 The Monda Project Authors (https://github.com/googlefonts/mondaFont)
 license_url: https://scripts.sil.org/OFL
@@ -33,7 +34,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -122,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 595eb8b5fa448c4105b4ea137ee93b150b70a04ac42773eb121b1c1341a709ee
-command: google import --formulas_path Formulas
+command: import google -n 9999

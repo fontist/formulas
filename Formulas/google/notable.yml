@@ -3,11 +3,11 @@ name: Notable
 description: Notable
 homepage: http://fonts.google.com
 resources:
-  Notable.zip:
-    urls:
-    - https://fonts.google.com/download?family=Notable
-    sha256: 591d3e40ebb849586a526d03949215d00aa60ef0555866bf7bf27138f6b3d65d
-    file_size: 22221
+  Notable:
+    source: google
+    family: Notable
+    files:
+    - https://fonts.gstatic.com/s/notable/v18/gNMEW3N_SIqx-WX9-HMoFIez5MI.ttf
 fonts:
 - name: Notable
   styles:
@@ -17,9 +17,8 @@ fonts:
     post_script_name: Notable-Regular
     version: '1.100'
     copyright: Copyright 2018 The Notable Project Authors (https://github.com/googlefonts/notable)
-    font: Notable-Regular.ttf
-extract:
-  format: zip
+    font: gNMEW3N_SIqx-WX9-HMoFIez5MI.ttf
+extract: {}
 copyright: Copyright 2018 The Notable Project Authors (https://github.com/googlefonts/notable)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

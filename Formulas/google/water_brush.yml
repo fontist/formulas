@@ -1,12 +1,13 @@
 ---
+name: Water Brush
 description: Water Brush
 homepage: www.typesetit.com
 resources:
-  Water_Brush.zip:
-    urls:
-    - https://fonts.google.com/download?family=Water%20Brush
-    sha256: 136edc15c8bdfc57986f3f2c5336e39bf25b9040c445d643697b99d92affca22
-    file_size: 159238
+  Water Brush:
+    source: google
+    family: Water Brush
+    files:
+    - https://fonts.gstatic.com/s/waterbrush/v4/AYCPpXPqc8cJWLhp4hywKHJq7PKP5Z_G.ttf
 fonts:
 - name: Water Brush
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: WaterBrush-Regular
     version: 1.010; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2004-2021 The Water Brush Project Authors (https://github.com/googlefonts/water-brush)
-    font: WaterBrush-Regular.ttf
+    font: AYCPpXPqc8cJWLhp4hywKHJq7PKP5Z_G.ttf
 extract: {}
 copyright: Copyright 2004-2021 The Water Brush Project Authors (https://github.com/googlefonts/water-brush)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 603f68d2dad6b6b949f3f54b49bc69bc0642b5fb5ba95fe02525f5498ae8bcc8
-command: import google --formulas_path Formulas
+command: import google -n 9999

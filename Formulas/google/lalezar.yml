@@ -1,27 +1,26 @@
 ---
 name: Lalezar
 description: Lalezar
-homepage: http://www.borna.design
+homepage: www.borna.design
 resources:
-  Lalezar.zip:
-    urls:
-    - https://fonts.google.com/download?family=Lalezar
-    sha256: dca902ff5acb9229f7a2f9b39ae732b6ff62408951a7e05978a429c3a8d29d58
-    file_size: 115163
+  Lalezar:
+    source: google
+    family: Lalezar
+    files:
+    - https://fonts.gstatic.com/s/lalezar/v14/zrfl0HLVx-HwTP82UaDyIiL0RCg.ttf
 fonts:
 - name: Lalezar
   styles:
   - family_name: Lalezar
     type: Regular
-    full_name: Lalezar Regular
+    full_name: Lalezar-Regular
     post_script_name: Lalezar-Regular
-    version: '1.004'
-    copyright: Copyright 2015 The Lalezar Project Authors (https://github.com/BornaIz/Lalezar)
-    font: Lalezar-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2015 The Lalezar Project Authors (https://github.com/BornaIz/Lalezar)
-license_url: http://scripts.sil.org/OFL
+    version: '1.000'
+    copyright: Copyright © 2015 by Borna Izadpanah (www.borna.design). All rights
+      reserved.
+    font: zrfl0HLVx-HwTP82UaDyIiL0RCg.ttf
+extract: {}
+copyright: Copyright © 2015 by Borna Izadpanah (www.borna.design). All rights reserved.
 open_license: |-
   Copyright 2015 The Lalezar Project Authors (https://github.com/BornaIz/Lalezar)
 
@@ -116,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

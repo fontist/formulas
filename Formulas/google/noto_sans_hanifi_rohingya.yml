@@ -1,11 +1,16 @@
 ---
+name: Noto Sans Hanifi Rohingya
 description: Noto Sans Hanifi Rohingya
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Hanifi_Rohingya.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Hanifi%20Rohingya
-    file_size: 165129
+  Noto Sans Hanifi Rohingya:
+    source: google
+    family: Noto Sans Hanifi Rohingya
+    files:
+    - https://fonts.gstatic.com/s/notosanshanifirohingya/v28/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIYY4j6vvcudK8rN.ttf
+    - https://fonts.gstatic.com/s/notosanshanifirohingya/v28/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIYq4j6vvcudK8rN.ttf
+    - https://fonts.gstatic.com/s/notosanshanifirohingya/v28/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIbG5T6vvcudK8rN.ttf
+    - https://fonts.gstatic.com/s/notosanshanifirohingya/v28/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIb_5T6vvcudK8rN.ttf
 fonts:
 - name: Noto Sans Hanifi Rohingya
   styles:
@@ -16,7 +21,7 @@ fonts:
     version: '2.102'
     description: Designed by Monotype Design Team and DaltonMaag.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hanifi-rohingya)
-    font: NotoSansHanifiRohingya-Bold.ttf
+    font: 5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIb_5T6vvcudK8rN.ttf
   - family_name: Noto Sans Hanifi Rohingya
     type: Regular
     full_name: Noto Sans Hanifi Rohingya Regular
@@ -24,15 +29,7 @@ fonts:
     version: '2.102'
     description: Designed by Monotype Design Team and DaltonMaag.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hanifi-rohingya)
-    font: NotoSansHanifiRohingya-VariableFont_wght.ttf
-  - family_name: Noto Sans Hanifi Rohingya
-    type: Regular
-    full_name: Noto Sans Hanifi Rohingya Regular
-    post_script_name: NotoSansHanifiRohingya-Regular
-    version: '2.102'
-    description: Designed by Monotype Design Team and DaltonMaag.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hanifi-rohingya)
-    font: NotoSansHanifiRohingya-Regular.ttf
+    font: 5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIYY4j6vvcudK8rN.ttf
 - name: Noto Sans Hanifi Rohingya Medium
   styles:
   - family_name: Noto Sans Hanifi Rohingya Medium
@@ -44,7 +41,7 @@ fonts:
     version: '2.102'
     description: Designed by Monotype Design Team and DaltonMaag.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hanifi-rohingya)
-    font: NotoSansHanifiRohingya-Medium.ttf
+    font: 5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIYq4j6vvcudK8rN.ttf
 - name: Noto Sans Hanifi Rohingya SemiBold
   styles:
   - family_name: Noto Sans Hanifi Rohingya SemiBold
@@ -56,7 +53,7 @@ fonts:
     version: '2.102'
     description: Designed by Monotype Design Team and DaltonMaag.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hanifi-rohingya)
-    font: NotoSansHanifiRohingya-SemiBold.ttf
+    font: 5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIbG5T6vvcudK8rN.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hanifi-rohingya)
 license_url: https://scripts.sil.org/OFL
@@ -65,7 +62,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -154,5 +151,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 37ddee8f15fcedd4f95e052eb4b2b27b24e7ace16f908e6138e3e4f2c4e98b73
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

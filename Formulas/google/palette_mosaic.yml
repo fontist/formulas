@@ -2,11 +2,11 @@
 name: Palette Mosaic
 description: Palette Mosaic
 resources:
-  Palette_Mosaic.zip:
-    urls:
-    - https://fonts.google.com/download?family=Palette%20Mosaic
-    sha256: 9668326d187d3036068da2a40c69f22892b462cf7a762181558c341133c7d744
-    file_size: 75447
+  Palette Mosaic:
+    source: google
+    family: Palette Mosaic
+    files:
+    - https://fonts.gstatic.com/s/palettemosaic/v10/AMOIz4aBvWuBFe3TohdW6YZ9MFiy4dxL4jSr.ttf
 fonts:
 - name: Palette Mosaic
   styles:
@@ -17,7 +17,7 @@ fonts:
     version: '1.001'
     copyright: Copyright 2020 The Palette Mosaic Project Authors (https://github.com/shibuyafont/Palette-mosaic-font-mono),
       all rights reserved.
-    font: PaletteMosaic-Regular.ttf
+    font: AMOIz4aBvWuBFe3TohdW6YZ9MFiy4dxL4jSr.ttf
 extract: {}
 copyright: Copyright 2020 The Palette Mosaic Project Authors (https://github.com/shibuyafont/Palette-mosaic-font-mono),
   all rights reserved.
@@ -116,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e3ea294593482ff3629f01d2152b05d9d4a7049ea4f019ae9f6cf55a738d3721
-command: google import --formulas_path Formulas
+command: import google -n 9999

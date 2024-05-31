@@ -3,10 +3,19 @@ name: Lexend
 description: Lexend
 homepage: https://www.lexend.com
 resources:
-  Lexend.zip:
-    urls:
-    - https://fonts.google.com/download?family=Lexend
-    file_size: 445135
+  Lexend:
+    source: google
+    family: Lexend
+    files:
+    - https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WCzsX_LBte6KuGEo.ttf
+    - https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WC7sW_LBte6KuGEo.ttf
+    - https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WC2UW_LBte6KuGEo.ttf
+    - https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WCzsW_LBte6KuGEo.ttf
+    - https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WCwkW_LBte6KuGEo.ttf
+    - https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WC-UR_LBte6KuGEo.ttf
+    - https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WC9wR_LBte6KuGEo.ttf
+    - https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WC7sR_LBte6KuGEo.ttf
+    - https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WC5IR_LBte6KuGEo.ttf
 fonts:
 - name: Lexend
   styles:
@@ -16,21 +25,14 @@ fonts:
     post_script_name: Lexend-Bold
     version: '1.007'
     copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
-    font: Lexend-Bold.ttf
+    font: wlptgwvFAVdoq2_F94zlCfv0bz1WC9wR_LBte6KuGEo.ttf
   - family_name: Lexend
     type: Regular
     full_name: Lexend Regular
     post_script_name: Lexend-Regular
     version: '1.007'
     copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
-    font: Lexend-VariableFont_wght.ttf
-  - family_name: Lexend
-    type: Regular
-    full_name: Lexend Regular
-    post_script_name: Lexend-Regular
-    version: '1.007'
-    copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
-    font: Lexend-Regular.ttf
+    font: wlptgwvFAVdoq2_F94zlCfv0bz1WCzsW_LBte6KuGEo.ttf
 - name: Lexend Black
   styles:
   - family_name: Lexend Black
@@ -41,7 +43,7 @@ fonts:
     post_script_name: Lexend-Black
     version: '1.007'
     copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
-    font: Lexend-Black.ttf
+    font: wlptgwvFAVdoq2_F94zlCfv0bz1WC5IR_LBte6KuGEo.ttf
 - name: Lexend ExtraBold
   styles:
   - family_name: Lexend ExtraBold
@@ -52,7 +54,7 @@ fonts:
     post_script_name: Lexend-ExtraBold
     version: '1.007'
     copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
-    font: Lexend-ExtraBold.ttf
+    font: wlptgwvFAVdoq2_F94zlCfv0bz1WC7sR_LBte6KuGEo.ttf
 - name: Lexend ExtraLight
   styles:
   - family_name: Lexend ExtraLight
@@ -63,7 +65,7 @@ fonts:
     post_script_name: Lexend-ExtraLight
     version: '1.007'
     copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
-    font: Lexend-ExtraLight.ttf
+    font: wlptgwvFAVdoq2_F94zlCfv0bz1WC7sW_LBte6KuGEo.ttf
 - name: Lexend Light
   styles:
   - family_name: Lexend Light
@@ -74,7 +76,7 @@ fonts:
     post_script_name: Lexend-Light
     version: '1.007'
     copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
-    font: Lexend-Light.ttf
+    font: wlptgwvFAVdoq2_F94zlCfv0bz1WC2UW_LBte6KuGEo.ttf
 - name: Lexend Medium
   styles:
   - family_name: Lexend Medium
@@ -85,7 +87,7 @@ fonts:
     post_script_name: Lexend-Medium
     version: '1.007'
     copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
-    font: Lexend-Medium.ttf
+    font: wlptgwvFAVdoq2_F94zlCfv0bz1WCwkW_LBte6KuGEo.ttf
 - name: Lexend SemiBold
   styles:
   - family_name: Lexend SemiBold
@@ -96,7 +98,7 @@ fonts:
     post_script_name: Lexend-SemiBold
     version: '1.007'
     copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
-    font: Lexend-SemiBold.ttf
+    font: wlptgwvFAVdoq2_F94zlCfv0bz1WC-UR_LBte6KuGEo.ttf
 - name: Lexend Thin
   styles:
   - family_name: Lexend Thin
@@ -107,7 +109,7 @@ fonts:
     post_script_name: Lexend-Thin
     version: '1.007'
     copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
-    font: Lexend-Thin.ttf
+    font: wlptgwvFAVdoq2_F94zlCfv0bz1WCzsX_LBte6KuGEo.ttf
 extract: {}
 copyright: Copyright 2019 The Lexend Project Authors (https://github.com/googlefonts/lexend)
 license_url: https://scripts.sil.org/OFL
@@ -116,7 +118,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -205,5 +207,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: a6c68026393bd45accb42358ba53e2037a15d1f683f78fa8e110305a1084ec0d
-command: google import --formulas_path Formulas
+command: import google -n 9999

@@ -3,30 +3,16 @@ name: Trochut
 description: Trochut
 homepage: www.typerepublic.com
 resources:
-  Trochut.zip:
-    urls:
-    - https://fonts.google.com/download?family=Trochut
-    sha256: be2a31500221e839010d03163746267a60da6c30f74f342e335b733c656982c5
-    file_size: 39588
+  Trochut:
+    source: google
+    family: Trochut
+    files:
+    - https://fonts.gstatic.com/s/trochut/v22/CHyjV-fDDlP9bDIw5nSIfVIPLns.ttf
+    - https://fonts.gstatic.com/s/trochut/v22/CHyhV-fDDlP9bDIw1naCeXAKPns8jw.ttf
+    - https://fonts.gstatic.com/s/trochut/v22/CHymV-fDDlP9bDIw3sinWVokMnIllmA.ttf
 fonts:
 - name: Trochut
   styles:
-  - family_name: Trochut
-    type: Regular
-    full_name: Trochut
-    post_script_name: Trochut
-    version: '1.001'
-    copyright: Copyright (c) 2011, Andreu Balius (www.andreubalius.com|mail@andreubalius.com),
-      with Reserved Font Name Trochut
-    font: Trochut-Regular.ttf
-  - family_name: Trochut
-    type: Italic
-    full_name: Trochut Italic
-    post_script_name: Trochut-Italic
-    version: '1.001'
-    copyright: Copyright (c) 2011, Andreu Balius (www.andreubalius.com|mail@andreubalius.com),
-      with Reserved Font Name Trochut
-    font: Trochut-Italic.ttf
   - family_name: Trochut
     type: Bold
     full_name: Trochut Bold
@@ -34,9 +20,24 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011, Andreu Balius (www.andreubalius.com|mail@andreubalius.com),
       with Reserved Font Name Trochut
-    font: Trochut-Bold.ttf
-extract:
-  format: zip
+    font: CHymV-fDDlP9bDIw3sinWVokMnIllmA.ttf
+  - family_name: Trochut
+    type: Italic
+    full_name: Trochut Italic
+    post_script_name: Trochut-Italic
+    version: '1.001'
+    copyright: Copyright (c) 2011, Andreu Balius (www.andreubalius.com|mail@andreubalius.com),
+      with Reserved Font Name Trochut
+    font: CHyhV-fDDlP9bDIw1naCeXAKPns8jw.ttf
+  - family_name: Trochut
+    type: Regular
+    full_name: Trochut
+    post_script_name: Trochut
+    version: '1.001'
+    copyright: Copyright (c) 2011, Andreu Balius (www.andreubalius.com|mail@andreubalius.com),
+      with Reserved Font Name Trochut
+    font: CHyjV-fDDlP9bDIw5nSIfVIPLns.ttf
+extract: {}
 copyright: Copyright (c) 2011, Andreu Balius (www.andreubalius.com|mail@andreubalius.com),
   with Reserved Font Name Trochut
 license_url: http://scripts.sil.org/OFL
@@ -134,3 +135,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

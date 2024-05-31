@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Mandaic
 description: Noto Sans Mandaic
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Mandaic.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Mandaic
-    sha256: 4b2f0e6db5a2eab13e81e555fe886034d6af485241ae1deb82af1148ce287343
-    file_size: 36773
+  Noto Sans Mandaic:
+    source: google
+    family: Noto Sans Mandaic
+    files:
+    - https://fonts.gstatic.com/s/notosansmandaic/v16/cIfnMbdWt1w_HgCcilqhKQBo_OsMI5_A_gMk0izH.ttf
 fonts:
 - name: Noto Sans Mandaic
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mandaic)
-    font: NotoSansMandaic-Regular.ttf
+    font: cIfnMbdWt1w_HgCcilqhKQBo_OsMI5_A_gMk0izH.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mandaic)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: c6cf66e22e21c66ab67ad5f0fe5cf07a4c22b3bcb45e7745d6bd038cebe36023
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

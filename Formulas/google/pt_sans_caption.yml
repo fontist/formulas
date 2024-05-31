@@ -3,30 +3,15 @@ name: PT Sans Caption
 description: PT Sans Caption
 homepage: http://www.paratype.com
 resources:
-  PTSansCaption.zip:
-    urls:
-    - https://fonts.google.com/download?family=PT%20Sans%20Caption
-    sha256: 6bafa75b429061409015d7a1f9db1da9a959567bdec70835a844b578d8e1cf5e
-    file_size: 242799
+  PT Sans Caption:
+    source: google
+    family: PT Sans Caption
+    files:
+    - https://fonts.gstatic.com/s/ptsanscaption/v19/0FlMVP6Hrxmt7-fsUFhlFXNIlpcqfQXwQy6yxg.ttf
+    - https://fonts.gstatic.com/s/ptsanscaption/v19/0FlJVP6Hrxmt7-fsUFhlFXNIlpcSwSrUSwWuz38Tgg.ttf
 fonts:
 - name: PT Sans Caption
   styles:
-  - family_name: PT Sans Caption
-    type: Regular
-    full_name: PT Sans Caption
-    post_script_name: PTSans-Caption
-    version: 2.004W OFL
-    description: 'PT Sans is a type family of universal use. It consists of 8 styles:
-      regular and bold weights with corresponding italics form a standard computer
-      font family; two narrow styles (regular and bold) are intended for documents
-      that require tight set; two caption styles (regular and bold) are for texts
-      of small point sizes. The design combines traditional conservative appearance
-      with modern trends of humanistic sans serif and characterized by enhanced legibility.
-      These features beside conventional use in business applications and printed
-      stuff made the fonts quite useable for direction and guide signs, schemes, screens
-      of information kiosks and other objects of urban visual communications.'
-    copyright: Copyright © 2009 ParaType Ltd. All rights reserved.
-    font: PT_Sans-Caption-Web-Regular.ttf
   - family_name: PT Sans Caption
     type: Bold
     full_name: PT Sans Caption Bold
@@ -42,10 +27,25 @@ fonts:
       stuff made the fonts quite useable for direction and guide signs, schemes, screens
       of information kiosks and other objects of urban visual communications.'
     copyright: Copyright © 2009 ParaType Ltd. All rights reserved.
-    font: PT_Sans-Caption-Web-Bold.ttf
-extract:
-  format: zip
-copyright: Copyright © 2009 ParaType Ltd (yakupov@paratype.com). All rights reserved.
+    font: 0FlJVP6Hrxmt7-fsUFhlFXNIlpcSwSrUSwWuz38Tgg.ttf
+  - family_name: PT Sans Caption
+    type: Regular
+    full_name: PT Sans Caption
+    post_script_name: PTSans-Caption
+    version: 2.004W OFL
+    description: 'PT Sans is a type family of universal use. It consists of 8 styles:
+      regular and bold weights with corresponding italics form a standard computer
+      font family; two narrow styles (regular and bold) are intended for documents
+      that require tight set; two caption styles (regular and bold) are for texts
+      of small point sizes. The design combines traditional conservative appearance
+      with modern trends of humanistic sans serif and characterized by enhanced legibility.
+      These features beside conventional use in business applications and printed
+      stuff made the fonts quite useable for direction and guide signs, schemes, screens
+      of information kiosks and other objects of urban visual communications.'
+    copyright: Copyright © 2009 ParaType Ltd. All rights reserved.
+    font: 0FlMVP6Hrxmt7-fsUFhlFXNIlpcqfQXwQy6yxg.ttf
+extract: {}
+copyright: Copyright © 2009 ParaType Ltd. All rights reserved.
 license_url: http://scripts.sil.org/OFL_web
 open_license: "\uFEFFCopyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),\nwith
   Reserved Font Names \"PT Sans\" and \"ParaType\".\n\nThis Font Software is licensed
@@ -100,3 +100,4 @@ open_license: "\uFEFFCopyright (c) 2010, ParaType Ltd. (http://www.paratype.com/
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
+command: import google -n 9999

@@ -1,11 +1,17 @@
 ---
+name: Akshar
 description: Akshar
 homepage: https://tallchai.com
 resources:
-  Akshar.zip:
-    urls:
-    - https://fonts.google.com/download?family=Akshar
-    file_size: 395678
+  Akshar:
+    source: google
+    family: Akshar
+    files:
+    - https://fonts.gstatic.com/s/akshar/v9/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSSgFy9CY94XsnPc.ttf
+    - https://fonts.gstatic.com/s/akshar/v9/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSXYFy9CY94XsnPc.ttf
+    - https://fonts.gstatic.com/s/akshar/v9/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSUQFy9CY94XsnPc.ttf
+    - https://fonts.gstatic.com/s/akshar/v9/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSagCy9CY94XsnPc.ttf
+    - https://fonts.gstatic.com/s/akshar/v9/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSZECy9CY94XsnPc.ttf
 fonts:
 - name: Akshar
   styles:
@@ -13,16 +19,16 @@ fonts:
     type: Bold
     full_name: Akshar Bold
     post_script_name: Akshar-Bold
-    version: '1.000'
-    copyright: Copyright 2020 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)
-    font: Akshar-Bold.ttf
+    version: '1.100'
+    copyright: Copyright 2022 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)
+    font: Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSZECy9CY94XsnPc.ttf
   - family_name: Akshar
     type: Regular
     full_name: Akshar Regular
     post_script_name: Akshar-Regular
-    version: '1.000'
-    copyright: Copyright 2020 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)
-    font: Akshar-Regular.ttf
+    version: '1.100'
+    copyright: Copyright 2022 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)
+    font: Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSXYFy9CY94XsnPc.ttf
 - name: Akshar Light
   styles:
   - family_name: Akshar Light
@@ -31,18 +37,9 @@ fonts:
     preferred_type: Light
     full_name: Akshar Light
     post_script_name: Akshar-Light
-    version: '1.000'
-    copyright: Copyright 2020 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)
-    font: Akshar-VariableFont_wght.ttf
-  - family_name: Akshar Light
-    type: Regular
-    preferred_family_name: Akshar
-    preferred_type: Light
-    full_name: Akshar Light
-    post_script_name: Akshar-Light
-    version: '1.000'
-    copyright: Copyright 2020 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)
-    font: Akshar-Light.ttf
+    version: '1.100'
+    copyright: Copyright 2022 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)
+    font: Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSSgFy9CY94XsnPc.ttf
 - name: Akshar Medium
   styles:
   - family_name: Akshar Medium
@@ -51,9 +48,9 @@ fonts:
     preferred_type: Medium
     full_name: Akshar Medium
     post_script_name: Akshar-Medium
-    version: '1.000'
-    copyright: Copyright 2020 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)
-    font: Akshar-Medium.ttf
+    version: '1.100'
+    copyright: Copyright 2022 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)
+    font: Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSUQFy9CY94XsnPc.ttf
 - name: Akshar SemiBold
   styles:
   - family_name: Akshar SemiBold
@@ -62,11 +59,11 @@ fonts:
     preferred_type: SemiBold
     full_name: Akshar SemiBold
     post_script_name: Akshar-SemiBold
-    version: '1.000'
-    copyright: Copyright 2020 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)
-    font: Akshar-SemiBold.ttf
+    version: '1.100'
+    copyright: Copyright 2022 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)
+    font: Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSagCy9CY94XsnPc.ttf
 extract: {}
-copyright: Copyright 2020 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)
+copyright: Copyright 2022 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright 2020 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)
@@ -162,5 +159,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 0e5d47035797a6182816754153b1db1b96a7f78da9c7c9a350311f24336e0fcc
-command: import google --formulas_path Formulas
+command: import google -n 9999

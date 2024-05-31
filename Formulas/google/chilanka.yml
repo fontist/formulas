@@ -1,12 +1,13 @@
 ---
+name: Chilanka
 description: Chilanka
 homepage: https://smc.org.in
 resources:
-  Chilanka.zip:
-    urls:
-    - https://fonts.google.com/download?family=Chilanka
-    sha256: 2b4478dfb39d5e75dbcde854f9d51759fb7e43d7b8b77aa280d8312ecbd8cbb1
-    file_size: 169345
+  Chilanka:
+    source: google
+    family: Chilanka
+    files:
+    - https://fonts.gstatic.com/s/chilanka/v20/WWXRlj2DZQiMJYaYRrJQI9EAZhTO.ttf
 fonts:
 - name: Chilanka
   styles:
@@ -26,7 +27,7 @@ fonts:
       set was selected from them for the font. Even though the style is handwriting,
       the glyphs follow the horizontal baseline and can be used for body text too.
     copyright: Copyright 2020 The Chilanka Project Authors (https://gitlab.com/smc/fonts/chilanka)
-    font: Chilanka-Regular.ttf
+    font: WWXRlj2DZQiMJYaYRrJQI9EAZhTO.ttf
 extract: {}
 copyright: Copyright 2020 The Chilanka Project Authors (https://gitlab.com/smc/fonts/chilanka)
 license_url: http://scripts.sil.org/OFL
@@ -35,7 +36,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -124,5 +125,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 202ed4e69056cf1225dab479011cc7dbc719d877c240728335bd8dba28cd6a5f
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

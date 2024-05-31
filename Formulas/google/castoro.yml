@@ -1,12 +1,14 @@
 ---
+name: Castoro
 description: Castoro
 homepage: https://www.tiro.com/
 resources:
-  Castoro.zip:
-    urls:
-    - https://fonts.google.com/download?family=Castoro
-    sha256: b60484c2bb8ff91232217c7a5683fd1bff725b04ae114c869b37f608e345d8fa
-    file_size: 124783
+  Castoro:
+    source: google
+    family: Castoro
+    files:
+    - https://fonts.gstatic.com/s/castoro/v19/1q2GY5yMCld3-O4cHYhEzOYenEU.ttf
+    - https://fonts.gstatic.com/s/castoro/v19/1q2EY5yMCld3-O4cLYpOyMQbjEX5fw.ttf
 fonts:
 - name: Castoro
   styles:
@@ -16,14 +18,14 @@ fonts:
     post_script_name: Castoro-Italic
     version: '2.04'
     copyright: Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)
-    font: Castoro-Italic.ttf
+    font: 1q2EY5yMCld3-O4cLYpOyMQbjEX5fw.ttf
   - family_name: Castoro
     type: Regular
     full_name: Castoro Regular
     post_script_name: Castoro-Regular
     version: '2.04'
     copyright: Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)
-    font: Castoro-Regular.ttf
+    font: 1q2GY5yMCld3-O4cHYhEzOYenEU.ttf
 extract: {}
 copyright: Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)
 license_url: https://scripts.sil.org/OFL
@@ -121,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9bdcb8498d3332176cf60f283e84fe3c9e7b165dc8eabea825b9d1eb0af10d60
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

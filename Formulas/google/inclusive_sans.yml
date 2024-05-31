@@ -1,12 +1,14 @@
 ---
+name: Inclusive Sans
 description: Inclusive Sans
 homepage: https://www.oliviaking.com/
 resources:
-  Inclusive_Sans.zip:
-    urls:
-    - https://fonts.google.com/download?family=Inclusive%20Sans
-    sha256: bf5c484b401d4f0f380757f08851b0b5610f60f050d092cfa9f1c4a42487985a
-    file_size: 60890
+  Inclusive Sans:
+    source: google
+    family: Inclusive Sans
+    files:
+    - https://fonts.gstatic.com/s/inclusivesans/v1/0nkxC9biPuwflXcJ46P4PGWE0971owa2LB4i.ttf
+    - https://fonts.gstatic.com/s/inclusivesans/v1/0nkzC9biPuwflXcJ46P4PGWE0-73qQKUKQ4iT6o.ttf
 fonts:
 - name: Inclusive Sans
   styles:
@@ -16,14 +18,14 @@ fonts:
     post_script_name: InclusiveSans-Italic
     version: 1.001; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]
     copyright: Copyright 2023 The Inclusive Sans Project Authors (https://github.com/LivKing/Inclusive-Sans)
-    font: InclusiveSans-Italic.ttf
+    font: 0nkzC9biPuwflXcJ46P4PGWE0-73qQKUKQ4iT6o.ttf
   - family_name: Inclusive Sans
     type: Regular
     full_name: Inclusive Sans Regular
     post_script_name: InclusiveSans-Regular
     version: 1.001; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]
     copyright: Copyright 2023 The Inclusive Sans Project Authors (https://github.com/LivKing/Inclusive-Sans)
-    font: InclusiveSans-Regular.ttf
+    font: 0nkxC9biPuwflXcJ46P4PGWE0971owa2LB4i.ttf
 extract: {}
 copyright: Copyright 2023 The Inclusive Sans Project Authors (https://github.com/LivKing/Inclusive-Sans)
 license_url: https://scripts.sil.org/OFL
@@ -32,7 +34,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -121,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: a6b8e758685df4e077f055d18c6a1ba51c26e58f6cad988508c3add471113c42
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

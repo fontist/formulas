@@ -3,10 +3,20 @@ name: EB Garamond
 description: EB Garamond
 homepage: http://georgduffner.at/
 resources:
-  EB_Garamond.zip:
-    urls:
-    - https://fonts.google.com/download?family=EB%20Garamond
-    file_size: 3643756
+  EB Garamond:
+    source: google
+    family: EB Garamond
+    files:
+    - https://fonts.gstatic.com/s/ebgaramond/v27/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-6_RUA4V-e6yHgQ.ttf
+    - https://fonts.gstatic.com/s/ebgaramond/v27/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-2fRUA4V-e6yHgQ.ttf
+    - https://fonts.gstatic.com/s/ebgaramond/v27/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-NfNUA4V-e6yHgQ.ttf
+    - https://fonts.gstatic.com/s/ebgaramond/v27/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-DPNUA4V-e6yHgQ.ttf
+    - https://fonts.gstatic.com/s/ebgaramond/v27/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-a_NUA4V-e6yHgQ.ttf
+    - https://fonts.gstatic.com/s/ebgaramond/v27/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7e8QI96WamXgXFI.ttf
+    - https://fonts.gstatic.com/s/ebgaramond/v27/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7eOQI96WamXgXFI.ttf
+    - https://fonts.gstatic.com/s/ebgaramond/v27/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7diR496WamXgXFI.ttf
+    - https://fonts.gstatic.com/s/ebgaramond/v27/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7dbR496WamXgXFI.ttf
+    - https://fonts.gstatic.com/s/ebgaramond/v27/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7c8R496WamXgXFI.ttf
 fonts:
 - name: EB Garamond
   styles:
@@ -14,44 +24,30 @@ fonts:
     type: Bold
     full_name: EB Garamond Bold
     post_script_name: EBGaramond-Bold
-    version: 1.000; ttfautohint (v1.8.2)
+    version: '1.001'
     copyright: Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)
-    font: EBGaramond-Bold.ttf
+    font: SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-DPNUA4V-e6yHgQ.ttf
   - family_name: EB Garamond
     type: Bold Italic
     full_name: EB Garamond Bold Italic
     post_script_name: EBGaramond-BoldItalic
-    version: 1.000; ttfautohint (v1.8.2)
+    version: '1.001'
     copyright: Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)
-    font: EBGaramond-BoldItalic.ttf
+    font: SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7dbR496WamXgXFI.ttf
   - family_name: EB Garamond
     type: Italic
     full_name: EB Garamond Italic
     post_script_name: EBGaramond-Italic
-    version: 1.000; ttfautohint (v1.8.2)
+    version: '1.001'
     copyright: Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)
-    font: EBGaramond-Italic.ttf
-  - family_name: EB Garamond
-    type: Italic
-    full_name: EB Garamond Italic
-    post_script_name: EBGaramond-Italic
-    version: 1.000; ttfautohint (v1.8.2)
-    copyright: Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)
-    font: EBGaramond-Italic-VariableFont_wght.ttf
+    font: SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7e8QI96WamXgXFI.ttf
   - family_name: EB Garamond
     type: Regular
     full_name: EB Garamond Regular
     post_script_name: EBGaramond-Regular
-    version: 1.000; ttfautohint (v1.8.2)
+    version: '1.001'
     copyright: Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)
-    font: EBGaramond-Regular.ttf
-  - family_name: EB Garamond
-    type: Regular
-    full_name: EB Garamond Regular
-    post_script_name: EBGaramond-Regular
-    version: 1.000; ttfautohint (v1.8.2)
-    copyright: Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)
-    font: EBGaramond-VariableFont_wght.ttf
+    font: SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-6_RUA4V-e6yHgQ.ttf
 - name: EB Garamond ExtraBold
   styles:
   - family_name: EB Garamond ExtraBold
@@ -60,18 +56,18 @@ fonts:
     preferred_type: ExtraBold Italic
     full_name: EB Garamond ExtraBold Italic
     post_script_name: EBGaramond-ExtraBoldItalic
-    version: 1.000; ttfautohint (v1.8.2)
+    version: '1.001'
     copyright: Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)
-    font: EBGaramond-ExtraBoldItalic.ttf
+    font: SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7c8R496WamXgXFI.ttf
   - family_name: EB Garamond ExtraBold
     type: Regular
     preferred_family_name: EB Garamond
     preferred_type: ExtraBold
     full_name: EB Garamond ExtraBold
     post_script_name: EBGaramond-ExtraBold
-    version: 1.000; ttfautohint (v1.8.2)
+    version: '1.001'
     copyright: Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)
-    font: EBGaramond-ExtraBold.ttf
+    font: SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-a_NUA4V-e6yHgQ.ttf
 - name: EB Garamond Medium
   styles:
   - family_name: EB Garamond Medium
@@ -80,18 +76,18 @@ fonts:
     preferred_type: Medium Italic
     full_name: EB Garamond Medium Italic
     post_script_name: EBGaramond-MediumItalic
-    version: 1.000; ttfautohint (v1.8.2)
+    version: '1.001'
     copyright: Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)
-    font: EBGaramond-MediumItalic.ttf
+    font: SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7eOQI96WamXgXFI.ttf
   - family_name: EB Garamond Medium
     type: Regular
     preferred_family_name: EB Garamond
     preferred_type: Medium
     full_name: EB Garamond Medium
     post_script_name: EBGaramond-Medium
-    version: 1.000; ttfautohint (v1.8.2)
+    version: '1.001'
     copyright: Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)
-    font: EBGaramond-Medium.ttf
+    font: SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-2fRUA4V-e6yHgQ.ttf
 - name: EB Garamond SemiBold
   styles:
   - family_name: EB Garamond SemiBold
@@ -100,18 +96,18 @@ fonts:
     preferred_type: SemiBold Italic
     full_name: EB Garamond SemiBold Italic
     post_script_name: EBGaramond-SemiBoldItalic
-    version: 1.000; ttfautohint (v1.8.2)
+    version: '1.001'
     copyright: Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)
-    font: EBGaramond-SemiBoldItalic.ttf
+    font: SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7diR496WamXgXFI.ttf
   - family_name: EB Garamond SemiBold
     type: Regular
     preferred_family_name: EB Garamond
     preferred_type: SemiBold
     full_name: EB Garamond SemiBold
     post_script_name: EBGaramond-SemiBold
-    version: 1.000; ttfautohint (v1.8.2)
+    version: '1.001'
     copyright: Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)
-    font: EBGaramond-SemiBold.ttf
+    font: SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-NfNUA4V-e6yHgQ.ttf
 extract: {}
 copyright: Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)
 license_url: http://scripts.sil.org/OFL
@@ -209,5 +205,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 21413116f96a58f1b1287e939d1652bff88351e33fe5d6410eacfa499e71b6a4
-command: google import --formulas_path Formulas
+command: import google -n 9999

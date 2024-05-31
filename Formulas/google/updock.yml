@@ -1,12 +1,13 @@
 ---
+name: Updock
 description: Updock
 homepage: www.typesetit.com
 resources:
-  Updock.zip:
-    urls:
-    - https://fonts.google.com/download?family=Updock
-    sha256: 4d7804d55520d7d24b1c34e6e1c4b978a4eb6607fe5f3f28234ba7dbdf84196a
-    file_size: 61443
+  Updock:
+    source: google
+    family: Updock
+    files:
+    - https://fonts.gstatic.com/s/updock/v5/nuF4D_3dVZ70UI9SjLK3602XBw.ttf
 fonts:
 - name: Updock
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: Updock-Regular
     version: 1.010; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 1991-2021 The Up Dock Project Authors (https://github.com/googlefonts/updock)
-    font: Updock-Regular.ttf
+    font: nuF4D_3dVZ70UI9SjLK3602XBw.ttf
 extract: {}
 copyright: Copyright 1991-2021 The Up Dock Project Authors (https://github.com/googlefonts/updock)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 6cc3d540ae899aca67314367364aa4847f137e954e4f485a538b905d6a43348b
-command: import google --formulas_path Formulas
+command: import google -n 9999

@@ -1,12 +1,14 @@
 ---
+name: BIZ UDPMincho
 description: BIZ UDPMincho
 homepage: http://www.morisawa.co.jp/
 resources:
-  BIZ_UDPMincho.zip:
-    urls:
-    - https://fonts.google.com/download?family=BIZ%20UDPMincho
-    sha256: 98b99995d985f9c5d7662cba250d51d92d63787d43f31dd6f3bdc4862c9a9e8c
-    file_size: 8498568
+  BIZ UDPMincho:
+    source: google
+    family: BIZ UDPMincho
+    files:
+    - https://fonts.gstatic.com/s/bizudpmincho/v9/ypvfbXOBrmYppy7oWWTg1_58nhhYtUb0gZk.ttf
+    - https://fonts.gstatic.com/s/bizudpmincho/v9/ypvCbXOBrmYppy7oWWTg1_58pqR3kU7fnZAy57k.ttf
 fonts:
 - name: BIZ UDPMincho
   styles:
@@ -16,14 +18,14 @@ fonts:
     post_script_name: BIZUDPMincho-Bold
     version: '1.06'
     copyright: Copyright 2022 The BIZ UDMincho Project Authors (https://github.com/googlefonts/morisawa-biz-ud-mincho)
-    font: BIZUDPMincho-Bold.ttf
+    font: ypvCbXOBrmYppy7oWWTg1_58pqR3kU7fnZAy57k.ttf
   - family_name: BIZ UDPMincho
     type: Regular
     full_name: BIZ UDPMincho
     post_script_name: BIZUDPMincho-Regular
     version: '1.06'
     copyright: Copyright 2022 The BIZ UDMincho Project Authors (https://github.com/googlefonts/morisawa-biz-ud-mincho)
-    font: BIZUDPMincho-Regular.ttf
+    font: ypvfbXOBrmYppy7oWWTg1_58nhhYtUb0gZk.ttf
 extract: {}
 copyright: Copyright 2022 The BIZ UDMincho Project Authors (https://github.com/googlefonts/morisawa-biz-ud-mincho)
 license_url: https://scripts.sil.org/OFL
@@ -32,7 +34,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -121,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ae849a97fb8d5844ed6ed336523d63f52e1738e241c938e3510038e67203a352
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

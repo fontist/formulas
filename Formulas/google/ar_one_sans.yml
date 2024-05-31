@@ -1,11 +1,16 @@
 ---
+name: AR One Sans
 description: AR One Sans
 homepage: http://www.google.com/fonts
 resources:
-  AR_One_Sans.zip:
-    urls:
-    - https://fonts.google.com/download?family=AR%20One%20Sans
-    file_size: 292299
+  AR One Sans:
+    source: google
+    family: AR One Sans
+    files:
+    - https://fonts.gstatic.com/s/aronesans/v4/TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWn_9DW03no5mBF4.ttf
+    - https://fonts.gstatic.com/s/aronesans/v4/TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWk39DW03no5mBF4.ttf
+    - https://fonts.gstatic.com/s/aronesans/v4/TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWqH6DW03no5mBF4.ttf
+    - https://fonts.gstatic.com/s/aronesans/v4/TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWpj6DW03no5mBF4.ttf
 fonts:
 - name: AR One Sans
   styles:
@@ -15,21 +20,14 @@ fonts:
     post_script_name: AROneSans-Bold
     version: 1.001;gftools[0.9.33]
     copyright: Copyright 2018 The AR One Project Authors (https://github.com/niteeshy/ar-one-sans)
-    font: AROneSans-Bold.ttf
+    font: TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWpj6DW03no5mBF4.ttf
   - family_name: AR One Sans
     type: Regular
     full_name: AR One Sans Regular
     post_script_name: AROneSans-Regular
     version: 1.001;gftools[0.9.33]
     copyright: Copyright 2018 The AR One Project Authors (https://github.com/niteeshy/ar-one-sans)
-    font: AROneSans-VariableFont_ARRR,wght.ttf
-  - family_name: AR One Sans
-    type: Regular
-    full_name: AR One Sans Regular
-    post_script_name: AROneSans-Regular
-    version: 1.001;gftools[0.9.33]
-    copyright: Copyright 2018 The AR One Project Authors (https://github.com/niteeshy/ar-one-sans)
-    font: AROneSans-Regular.ttf
+    font: TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWn_9DW03no5mBF4.ttf
 - name: AR One Sans Medium
   styles:
   - family_name: AR One Sans Medium
@@ -40,7 +38,7 @@ fonts:
     post_script_name: AROneSans-Medium
     version: 1.001;gftools[0.9.33]
     copyright: Copyright 2018 The AR One Project Authors (https://github.com/niteeshy/ar-one-sans)
-    font: AROneSans-Medium.ttf
+    font: TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWk39DW03no5mBF4.ttf
 - name: AR One Sans SemiBold
   styles:
   - family_name: AR One Sans SemiBold
@@ -51,7 +49,7 @@ fonts:
     post_script_name: AROneSans-SemiBold
     version: 1.001;gftools[0.9.33]
     copyright: Copyright 2018 The AR One Project Authors (https://github.com/niteeshy/ar-one-sans)
-    font: AROneSans-SemiBold.ttf
+    font: TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWqH6DW03no5mBF4.ttf
 extract: {}
 copyright: Copyright 2018 The AR One Project Authors (https://github.com/niteeshy/ar-one-sans)
 license_url: https://scripts.sil.org/OFL
@@ -60,7 +58,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -149,5 +147,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 4a596cdc31e3e5d1ce4208f69a6c73d9f57ad5719391705bda43697b10259436
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

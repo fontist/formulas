@@ -1,80 +1,116 @@
 ---
+name: Gothic A1
 description: Gothic A1
 homepage: http://www.hanyang.co.kr
 resources:
-  GothicA1.zip:
-    urls:
-    - https://fonts.google.com/download?family=Gothic%20A1
-    sha256: 861b53266ab89fc481d653d370fdc54d799d2cf35d7e1a0b8698c231387668a9
-    file_size: 6218234
+  Gothic A1:
+    source: google
+    family: Gothic A1
+    files:
+    - https://fonts.gstatic.com/s/gothica1/v13/CSR74z5ZnPydRjlCCwlCCMcqYtd2vfwk.ttf
+    - https://fonts.gstatic.com/s/gothica1/v13/CSR44z5ZnPydRjlCCwlCpOYKSPl6tOU9Eg.ttf
+    - https://fonts.gstatic.com/s/gothica1/v13/CSR44z5ZnPydRjlCCwlCwOUKSPl6tOU9Eg.ttf
+    - https://fonts.gstatic.com/s/gothica1/v13/CSR94z5ZnPydRjlCCwl6bM0uQNJmvQ.ttf
+    - https://fonts.gstatic.com/s/gothica1/v13/CSR44z5ZnPydRjlCCwlCmOQKSPl6tOU9Eg.ttf
+    - https://fonts.gstatic.com/s/gothica1/v13/CSR44z5ZnPydRjlCCwlCtOMKSPl6tOU9Eg.ttf
+    - https://fonts.gstatic.com/s/gothica1/v13/CSR44z5ZnPydRjlCCwlC0OIKSPl6tOU9Eg.ttf
+    - https://fonts.gstatic.com/s/gothica1/v13/CSR44z5ZnPydRjlCCwlCzOEKSPl6tOU9Eg.ttf
+    - https://fonts.gstatic.com/s/gothica1/v13/CSR44z5ZnPydRjlCCwlC6OAKSPl6tOU9Eg.ttf
 fonts:
 - name: Gothic A1
   styles:
-  - family_name: Gothic A1
-    type: Thin
-    full_name: Gothic A1 Thin
-    post_script_name: GothicA1-Thin
-    version: '2.50'
-    copyright: "(C) Copyright HanYang I&C Co.,Ltd. All rights reserved."
-    font: GothicA1-Thin.ttf
-  - family_name: Gothic A1
-    type: ExtraLight
-    full_name: Gothic A1 ExtraLight
-    post_script_name: GothicA1-ExtraLight
-    version: '2.50'
-    copyright: "(C) Copyright HanYang I&C Co.,Ltd. All rights reserved."
-    font: GothicA1-ExtraLight.ttf
-  - family_name: Gothic A1
-    type: Light
-    full_name: Gothic A1 Light
-    post_script_name: GothicA1-Light
-    version: '2.50'
-    copyright: "(C) Copyright HanYang I&C Co.,Ltd. All rights reserved."
-    font: GothicA1-Light.ttf
-  - family_name: Gothic A1
-    type: Regular
-    full_name: Gothic A1 Regular
-    post_script_name: GothicA1-Regular
-    version: '2.50'
-    copyright: "(C) Copyright HanYang I&C Co.,Ltd. All rights reserved."
-    font: GothicA1-Regular.ttf
-  - family_name: Gothic A1
-    type: Medium
-    full_name: Gothic A1 Medium
-    post_script_name: GothicA1-Medium
-    version: '2.50'
-    copyright: "(C) Copyright HanYang I&C Co.,Ltd. All rights reserved."
-    font: GothicA1-Medium.ttf
-  - family_name: Gothic A1
-    type: SemiBold
-    full_name: Gothic A1 SemiBold
-    post_script_name: GothicA1-SemiBold
-    version: '2.50'
-    copyright: "(C) Copyright HanYang I&C Co.,Ltd. All rights reserved."
-    font: GothicA1-SemiBold.ttf
   - family_name: Gothic A1
     type: Bold
     full_name: Gothic A1 Bold
     post_script_name: GothicA1-Bold
     version: '2.50'
     copyright: "(C) Copyright HanYang I&C Co.,Ltd. All rights reserved."
-    font: GothicA1-Bold.ttf
+    font: CSR44z5ZnPydRjlCCwlC0OIKSPl6tOU9Eg.ttf
   - family_name: Gothic A1
-    type: ExtraBold
-    full_name: Gothic A1 ExtraBold
-    post_script_name: GothicA1-ExtraBold
+    type: Regular
+    full_name: Gothic A1 Regular
+    post_script_name: GothicA1-Regular
     version: '2.50'
     copyright: "(C) Copyright HanYang I&C Co.,Ltd. All rights reserved."
-    font: GothicA1-ExtraBold.ttf
-  - family_name: Gothic A1
-    type: Black
+    font: CSR94z5ZnPydRjlCCwl6bM0uQNJmvQ.ttf
+- name: Gothic A1 Black
+  styles:
+  - family_name: Gothic A1 Black
+    type: Regular
+    preferred_family_name: Gothic A1
+    preferred_type: Black
     full_name: Gothic A1 Black
     post_script_name: GothicA1-Black
     version: '2.50'
     copyright: "(C) Copyright HanYang I&C Co.,Ltd. All rights reserved."
-    font: GothicA1-Black.ttf
-extract:
-  format: zip
+    font: CSR44z5ZnPydRjlCCwlC6OAKSPl6tOU9Eg.ttf
+- name: Gothic A1 ExtraBold
+  styles:
+  - family_name: Gothic A1 ExtraBold
+    type: Regular
+    preferred_family_name: Gothic A1
+    preferred_type: ExtraBold
+    full_name: Gothic A1 ExtraBold
+    post_script_name: GothicA1-ExtraBold
+    version: '2.50'
+    copyright: "(C) Copyright HanYang I&C Co.,Ltd. All rights reserved."
+    font: CSR44z5ZnPydRjlCCwlCzOEKSPl6tOU9Eg.ttf
+- name: Gothic A1 ExtraLight
+  styles:
+  - family_name: Gothic A1 ExtraLight
+    type: Regular
+    preferred_family_name: Gothic A1
+    preferred_type: ExtraLight
+    full_name: Gothic A1 ExtraLight
+    post_script_name: GothicA1-ExtraLight
+    version: '2.50'
+    copyright: "(C) Copyright HanYang I&C Co.,Ltd. All rights reserved."
+    font: CSR44z5ZnPydRjlCCwlCpOYKSPl6tOU9Eg.ttf
+- name: Gothic A1 Light
+  styles:
+  - family_name: Gothic A1 Light
+    type: Regular
+    preferred_family_name: Gothic A1
+    preferred_type: Light
+    full_name: Gothic A1 Light
+    post_script_name: GothicA1-Light
+    version: '2.50'
+    copyright: "(C) Copyright HanYang I&C Co.,Ltd. All rights reserved."
+    font: CSR44z5ZnPydRjlCCwlCwOUKSPl6tOU9Eg.ttf
+- name: Gothic A1 Medium
+  styles:
+  - family_name: Gothic A1 Medium
+    type: Regular
+    preferred_family_name: Gothic A1
+    preferred_type: Medium
+    full_name: Gothic A1 Medium
+    post_script_name: GothicA1-Medium
+    version: '2.50'
+    copyright: "(C) Copyright HanYang I&C Co.,Ltd. All rights reserved."
+    font: CSR44z5ZnPydRjlCCwlCmOQKSPl6tOU9Eg.ttf
+- name: Gothic A1 SemiBold
+  styles:
+  - family_name: Gothic A1 SemiBold
+    type: Regular
+    preferred_family_name: Gothic A1
+    preferred_type: SemiBold
+    full_name: Gothic A1 SemiBold
+    post_script_name: GothicA1-SemiBold
+    version: '2.50'
+    copyright: "(C) Copyright HanYang I&C Co.,Ltd. All rights reserved."
+    font: CSR44z5ZnPydRjlCCwlCtOMKSPl6tOU9Eg.ttf
+- name: Gothic A1 Thin
+  styles:
+  - family_name: Gothic A1 Thin
+    type: Regular
+    preferred_family_name: Gothic A1
+    preferred_type: Thin
+    full_name: Gothic A1 Thin
+    post_script_name: GothicA1-Thin
+    version: '2.50'
+    copyright: "(C) Copyright HanYang I&C Co.,Ltd. All rights reserved."
+    font: CSR74z5ZnPydRjlCCwlCCMcqYtd2vfwk.ttf
+extract: {}
 copyright: "(C) Copyright HanYang I&C Co.,Ltd. All rights reserved."
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -171,3 +207,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

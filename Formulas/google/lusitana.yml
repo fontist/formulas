@@ -1,24 +1,16 @@
 ---
 name: Lusitana
 description: Lusitana
-homepage:
 resources:
-  Lusitana.zip:
-    urls:
-    - https://fonts.google.com/download?family=Lusitana
-    sha256: 8489744f2cb7b98ed406ca65196b9d9a7787590153e4b0f54c7d75adfa295537
-    file_size: 33508
+  Lusitana:
+    source: google
+    family: Lusitana
+    files:
+    - https://fonts.gstatic.com/s/lusitana/v13/CSR84z9ShvucWzsMKxhaRuMiSct_.ttf
+    - https://fonts.gstatic.com/s/lusitana/v13/CSR74z9ShvucWzsMKyDmaccqYtd2vfwk.ttf
 fonts:
 - name: Lusitana
   styles:
-  - family_name: Lusitana
-    type: Regular
-    full_name: Lusitana
-    post_script_name: Lusitana
-    version: '1.001'
-    copyright: Copyright (c) 2011 by Ana Paula Megda (www.anamegda.com|anapbm@gmail.com),
-      with Reserved Font Name Lusitana.
-    font: Lusitana-Regular.ttf
   - family_name: Lusitana
     type: Bold
     full_name: Lusitana Bold
@@ -26,9 +18,16 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011 by Ana Paula Megda (www.anamegda.com|anapbm@gmail.com),
       with Reserved Font Name Lusitana.
-    font: Lusitana-Bold.ttf
-extract:
-  format: zip
+    font: CSR74z9ShvucWzsMKyDmaccqYtd2vfwk.ttf
+  - family_name: Lusitana
+    type: Regular
+    full_name: Lusitana
+    post_script_name: Lusitana
+    version: '1.001'
+    copyright: Copyright (c) 2011 by Ana Paula Megda (www.anamegda.com|anapbm@gmail.com),
+      with Reserved Font Name Lusitana.
+    font: CSR84z9ShvucWzsMKxhaRuMiSct_.ttf
+extract: {}
 copyright: Copyright (c) 2011 by Ana Paula Megda (www.anamegda.com|anapbm@gmail.com),
   with Reserved Font Name Lusitana.
 license_url: http://scripts.sil.org/OFL
@@ -127,3 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

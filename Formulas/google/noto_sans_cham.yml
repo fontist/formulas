@@ -1,11 +1,21 @@
 ---
+name: Noto Sans Cham
 description: Noto Sans Cham
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Cham.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Cham
-    file_size: 386525
+  Noto Sans Cham:
+    source: google
+    family: Noto Sans Cham
+    files:
+    - https://fonts.gstatic.com/s/notosanscham/v30/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcER0cv7GykboaLg.ttf
+    - https://fonts.gstatic.com/s/notosanscham/v30/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfckRwcv7GykboaLg.ttf
+    - https://fonts.gstatic.com/s/notosanscham/v30/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcTxwcv7GykboaLg.ttf
+    - https://fonts.gstatic.com/s/notosanscham/v30/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcERwcv7GykboaLg.ttf
+    - https://fonts.gstatic.com/s/notosanscham/v30/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcIxwcv7GykboaLg.ttf
+    - https://fonts.gstatic.com/s/notosanscham/v30/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfczxscv7GykboaLg.ttf
+    - https://fonts.gstatic.com/s/notosanscham/v30/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfc9hscv7GykboaLg.ttf
+    - https://fonts.gstatic.com/s/notosanscham/v30/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfckRscv7GykboaLg.ttf
+    - https://fonts.gstatic.com/s/notosanscham/v30/pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcuBscv7GykboaLg.ttf
 fonts:
 - name: Noto Sans Cham
   styles:
@@ -16,7 +26,7 @@ fonts:
     version: '2.004'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/cham)
-    font: NotoSansCham-Bold.ttf
+    font: pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfc9hscv7GykboaLg.ttf
   - family_name: Noto Sans Cham
     type: Regular
     full_name: Noto Sans Cham Regular
@@ -24,15 +34,7 @@ fonts:
     version: '2.004'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/cham)
-    font: NotoSansCham-VariableFont_wght.ttf
-  - family_name: Noto Sans Cham
-    type: Regular
-    full_name: Noto Sans Cham Regular
-    post_script_name: NotoSansCham-Regular
-    version: '2.004'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/cham)
-    font: NotoSansCham-Regular.ttf
+    font: pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcERwcv7GykboaLg.ttf
 - name: Noto Sans Cham Black
   styles:
   - family_name: Noto Sans Cham Black
@@ -44,7 +46,7 @@ fonts:
     version: '2.004'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/cham)
-    font: NotoSansCham-Black.ttf
+    font: pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcuBscv7GykboaLg.ttf
 - name: Noto Sans Cham ExtraBold
   styles:
   - family_name: Noto Sans Cham ExtraBold
@@ -56,7 +58,7 @@ fonts:
     version: '2.004'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/cham)
-    font: NotoSansCham-ExtraBold.ttf
+    font: pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfckRscv7GykboaLg.ttf
 - name: Noto Sans Cham ExtraLight
   styles:
   - family_name: Noto Sans Cham ExtraLight
@@ -68,7 +70,7 @@ fonts:
     version: '2.004'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/cham)
-    font: NotoSansCham-ExtraLight.ttf
+    font: pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfckRwcv7GykboaLg.ttf
 - name: Noto Sans Cham Light
   styles:
   - family_name: Noto Sans Cham Light
@@ -80,7 +82,7 @@ fonts:
     version: '2.004'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/cham)
-    font: NotoSansCham-Light.ttf
+    font: pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcTxwcv7GykboaLg.ttf
 - name: Noto Sans Cham Medium
   styles:
   - family_name: Noto Sans Cham Medium
@@ -92,7 +94,7 @@ fonts:
     version: '2.004'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/cham)
-    font: NotoSansCham-Medium.ttf
+    font: pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcIxwcv7GykboaLg.ttf
 - name: Noto Sans Cham SemiBold
   styles:
   - family_name: Noto Sans Cham SemiBold
@@ -104,7 +106,7 @@ fonts:
     version: '2.004'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/cham)
-    font: NotoSansCham-SemiBold.ttf
+    font: pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfczxscv7GykboaLg.ttf
 - name: Noto Sans Cham Thin
   styles:
   - family_name: Noto Sans Cham Thin
@@ -116,7 +118,7 @@ fonts:
     version: '2.004'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/cham)
-    font: NotoSansCham-Thin.ttf
+    font: pe06MIySN5pO62Z5YkFyQb_bbuRhe6D4yip43qfcER0cv7GykboaLg.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/cham)
 license_url: https://scripts.sil.org/OFL
@@ -125,7 +127,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -214,5 +216,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9a5feb8c6f3fbcabcc88f1c6fa480f13810f4c475d505e5dd75b997d58147de1
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

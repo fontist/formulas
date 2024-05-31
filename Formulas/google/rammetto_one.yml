@@ -1,12 +1,12 @@
 ---
+name: Rammetto One
 description: Rammetto One
-homepage:
 resources:
-  RammettoOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rammetto%20One
-    sha256: 7a211846b7c3a9a72cdfea336cfee5416e675ceb9f620abc8dbc9d8e9cdd2dd3
-    file_size: 20592
+  Rammetto One:
+    source: google
+    family: Rammetto One
+    files:
+    - https://fonts.gstatic.com/s/rammettoone/v18/LhWiMV3HOfMbMetJG3lQDpp9Mvuciu-_SQ.ttf
 fonts:
 - name: Rammetto One
   styles:
@@ -18,9 +18,8 @@ fonts:
     description: Copyright (c) 2011 by Vernon Adams. All rights reserved.
     copyright: Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk), with
       Reserved Font Names "Rammetto"
-    font: RammettoOne-Regular.ttf
-extract:
-  format: zip
+    font: LhWiMV3HOfMbMetJG3lQDpp9Mvuciu-_SQ.ttf
+extract: {}
 copyright: Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk), with Reserved
   Font Names "Rammetto"
 license_url: http://scripts.sil.org/OFL
@@ -119,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

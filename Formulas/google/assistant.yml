@@ -2,10 +2,17 @@
 name: Assistant
 description: Assistant
 resources:
-  Assistant.zip:
-    urls:
-    - https://fonts.google.com/download?family=Assistant
-    file_size: 228323
+  Assistant:
+    source: google
+    family: Assistant
+    files:
+    - https://fonts.gstatic.com/s/assistant/v19/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtmZnEGGf3qGuvM4.ttf
+    - https://fonts.gstatic.com/s/assistant/v19/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtrhnEGGf3qGuvM4.ttf
+    - https://fonts.gstatic.com/s/assistant/v19/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnEGGf3qGuvM4.ttf
+    - https://fonts.gstatic.com/s/assistant/v19/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQttRnEGGf3qGuvM4.ttf
+    - https://fonts.gstatic.com/s/assistant/v19/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtjhgEGGf3qGuvM4.ttf
+    - https://fonts.gstatic.com/s/assistant/v19/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtgFgEGGf3qGuvM4.ttf
+    - https://fonts.gstatic.com/s/assistant/v19/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtmZgEGGf3qGuvM4.ttf
 fonts:
 - name: Assistant
   styles:
@@ -18,7 +25,7 @@ fonts:
       Copyright 2010 The Source Sans Pro Authors (https://github.com/adobe-fonts/source-sans-pro),
       with Reserved Font Name 'Source'. Source is a trademark of Adobe Systems Incorporated
       in the United States and/or other countries.
-    font: Assistant-Bold.ttf
+    font: 2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtgFgEGGf3qGuvM4.ttf
   - family_name: Assistant
     type: Regular
     full_name: Assistant Regular
@@ -28,7 +35,7 @@ fonts:
       Copyright 2010 The Source Sans Pro Authors (https://github.com/adobe-fonts/source-sans-pro),
       with Reserved Font Name 'Source'. Source is a trademark of Adobe Systems Incorporated
       in the United States and/or other countries.
-    font: Assistant-Regular.ttf
+    font: 2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnEGGf3qGuvM4.ttf
 - name: Assistant ExtraBold
   styles:
   - family_name: Assistant ExtraBold
@@ -42,7 +49,7 @@ fonts:
       Copyright 2010 The Source Sans Pro Authors (https://github.com/adobe-fonts/source-sans-pro),
       with Reserved Font Name 'Source'. Source is a trademark of Adobe Systems Incorporated
       in the United States and/or other countries.
-    font: Assistant-ExtraBold.ttf
+    font: 2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtmZgEGGf3qGuvM4.ttf
 - name: Assistant ExtraLight
   styles:
   - family_name: Assistant ExtraLight
@@ -56,19 +63,7 @@ fonts:
       Copyright 2010 The Source Sans Pro Authors (https://github.com/adobe-fonts/source-sans-pro),
       with Reserved Font Name 'Source'. Source is a trademark of Adobe Systems Incorporated
       in the United States and/or other countries.
-    font: Assistant-VariableFont_wght.ttf
-  - family_name: Assistant ExtraLight
-    type: Regular
-    preferred_family_name: Assistant
-    preferred_type: ExtraLight
-    full_name: Assistant ExtraLight
-    post_script_name: Assistant-ExtraLight
-    version: '3.000'
-    copyright: Copyright 2020 The Assistant Project Authors (https://github.com/hafontia/Assistant).
-      Copyright 2010 The Source Sans Pro Authors (https://github.com/adobe-fonts/source-sans-pro),
-      with Reserved Font Name 'Source'. Source is a trademark of Adobe Systems Incorporated
-      in the United States and/or other countries.
-    font: Assistant-ExtraLight.ttf
+    font: 2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtmZnEGGf3qGuvM4.ttf
 - name: Assistant Light
   styles:
   - family_name: Assistant Light
@@ -82,7 +77,7 @@ fonts:
       Copyright 2010 The Source Sans Pro Authors (https://github.com/adobe-fonts/source-sans-pro),
       with Reserved Font Name 'Source'. Source is a trademark of Adobe Systems Incorporated
       in the United States and/or other countries.
-    font: Assistant-Light.ttf
+    font: 2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtrhnEGGf3qGuvM4.ttf
 - name: Assistant Medium
   styles:
   - family_name: Assistant Medium
@@ -96,7 +91,7 @@ fonts:
       Copyright 2010 The Source Sans Pro Authors (https://github.com/adobe-fonts/source-sans-pro),
       with Reserved Font Name 'Source'. Source is a trademark of Adobe Systems Incorporated
       in the United States and/or other countries.
-    font: Assistant-Medium.ttf
+    font: 2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQttRnEGGf3qGuvM4.ttf
 - name: Assistant SemiBold
   styles:
   - family_name: Assistant SemiBold
@@ -110,7 +105,7 @@ fonts:
       Copyright 2010 The Source Sans Pro Authors (https://github.com/adobe-fonts/source-sans-pro),
       with Reserved Font Name 'Source'. Source is a trademark of Adobe Systems Incorporated
       in the United States and/or other countries.
-    font: Assistant-SemiBold.ttf
+    font: 2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtjhgEGGf3qGuvM4.ttf
 extract: {}
 copyright: Copyright 2020 The Assistant Project Authors (https://github.com/hafontia/Assistant).
   Copyright 2010 The Source Sans Pro Authors (https://github.com/adobe-fonts/source-sans-pro),
@@ -213,5 +208,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9bb77208096e20e1a2fc11336c2c46b394233fd2322daee565a7f85c8aab8b83
-command: google import --formulas_path Formulas
+command: import google -n 9999

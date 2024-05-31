@@ -1,24 +1,24 @@
 ---
+name: Kumar One
 description: Kumar One
 homepage: http://www.indiantypefoundry.com/googlefonts
 resources:
-  KumarOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Kumar%20One
-    sha256: 851ca21f89acdca25aac49578d618202678eee9f8db7cd0d36bc1d83aa91dd76
-    file_size: 41553
+  Kumar One:
+    source: google
+    family: Kumar One
+    files:
+    - https://fonts.gstatic.com/s/kumarone/v21/bMr1mS-P958wYi6YaGeGNO6WU3oT0g.ttf
 fonts:
 - name: Kumar One
   styles:
   - family_name: Kumar One
     type: Regular
-    full_name: Kumar One Regular
+    full_name: Kumar One
     post_script_name: KumarOne-Regular
-    version: 1.001;PS 1.001;hotconv 1.0.88;makeotf.lib2.5.647800
+    version: 1.000;PS 1.000;hotconv 1.0.88;makeotf.lib2.5.647800
     copyright: Copyright (c) 2016 Indian Type Foundry (info@indiantypefoundry.com)
-    font: KumarOne-Regular.ttf
-extract:
-  format: zip
+    font: bMr1mS-P958wYi6YaGeGNO6WU3oT0g.ttf
+extract: {}
 copyright: Copyright (c) 2016 Indian Type Foundry (info@indiantypefoundry.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -115,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

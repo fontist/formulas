@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Lycian
 description: Noto Sans Lycian
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Lycian.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Lycian
-    sha256: 5215f6c856b68c02fa28e634e9f0dbc55ae810eaafcdb59ce0c7bfed7acd54b8
-    file_size: 4938
+  Noto Sans Lycian:
+    source: google
+    family: Noto Sans Lycian
+    files:
+    - https://fonts.gstatic.com/s/notosanslycian/v15/QldVNSNMqAsHtsJ7UmqxBQA9r8wA5_naCJwn00E.ttf
 fonts:
 - name: Noto Sans Lycian
   styles:
@@ -17,16 +18,16 @@ fonts:
     version: '2.000'
     description: Designed by Monotype design team.
     copyright: Copyright 2017 Google Inc. All Rights Reserved.
-    font: NotoSansLycian-Regular.ttf
+    font: QldVNSNMqAsHtsJ7UmqxBQA9r8wA5_naCJwn00E.ttf
 extract: {}
 copyright: Copyright 2017 Google Inc. All Rights Reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/lycian)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 4f6773ef8ccaa4c986eea5d8c947be7498bd34f74aa1b3be96c52e142bf41273
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

@@ -3,46 +3,21 @@ name: Merriweather
 description: Merriweather
 homepage: http://sorkintype.com
 resources:
-  Merriweather.zip:
-    urls:
-    - https://fonts.google.com/download?family=Merriweather
-    sha256: 912504aa10a7650002141d2ef2ea4c251ca256a3be0ba7e958d62f26632e4c4a
-    file_size: 621464
+  Merriweather:
+    source: google
+    family: Merriweather
+    files:
+    - https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l521wRpX837pvjxPA.ttf
+    - https://fonts.gstatic.com/s/merriweather/v30/u-4l0qyriQwlOrhSvowK_l5-eR7lXcf_hP3hPGWH.ttf
+    - https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5OeyxNV-bnrw.ttf
+    - https://fonts.gstatic.com/s/merriweather/v30/u-4m0qyriQwlOrhSvowK_l5-eSZJdeP3r-Ho.ttf
+    - https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l52xwNpX837pvjxPA.ttf
+    - https://fonts.gstatic.com/s/merriweather/v30/u-4l0qyriQwlOrhSvowK_l5-eR71Wsf_hP3hPGWH.ttf
+    - https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l52_wFpX837pvjxPA.ttf
+    - https://fonts.gstatic.com/s/merriweather/v30/u-4l0qyriQwlOrhSvowK_l5-eR7NWMf_hP3hPGWH.ttf
 fonts:
 - name: Merriweather
   styles:
-  - family_name: Merriweather
-    type: Light
-    full_name: Merriweather Light
-    post_script_name: Merriweather-Light
-    version: '2.002'
-    copyright: Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather),
-      with Reserved Font Name "Merriweather".
-    font: Merriweather-Light.ttf
-  - family_name: Merriweather
-    type: Light Italic
-    full_name: Merriweather Light Italic
-    post_script_name: Merriweather-LightItalic
-    version: '2.002'
-    copyright: Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather),
-      with Reserved Font Name "Merriweather".
-    font: Merriweather-LightItalic.ttf
-  - family_name: Merriweather
-    type: Regular
-    full_name: Merriweather Regular
-    post_script_name: Merriweather-Regular
-    version: '2.002'
-    copyright: Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather),
-      with Reserved Font Name "Merriweather".
-    font: Merriweather-Regular.ttf
-  - family_name: Merriweather
-    type: Italic
-    full_name: Merriweather Italic
-    post_script_name: Merriweather-Italic
-    version: '2.002'
-    copyright: Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather),
-      with Reserved Font Name "Merriweather".
-    font: Merriweather-Italic.ttf
   - family_name: Merriweather
     type: Bold
     full_name: Merriweather Bold
@@ -50,7 +25,7 @@ fonts:
     version: '2.002'
     copyright: Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather),
       with Reserved Font Name "Merriweather".
-    font: Merriweather-Bold.ttf
+    font: u-4n0qyriQwlOrhSvowK_l52xwNpX837pvjxPA.ttf
   - family_name: Merriweather
     type: Bold Italic
     full_name: Merriweather Bold Italic
@@ -58,25 +33,68 @@ fonts:
     version: '2.002'
     copyright: Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather),
       with Reserved Font Name "Merriweather".
-    font: Merriweather-BoldItalic.ttf
+    font: u-4l0qyriQwlOrhSvowK_l5-eR71Wsf_hP3hPGWH.ttf
   - family_name: Merriweather
-    type: Black
-    full_name: Merriweather Black
-    post_script_name: Merriweather-Black
+    type: Italic
+    full_name: Merriweather Italic
+    post_script_name: Merriweather-Italic
     version: '2.002'
     copyright: Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather),
       with Reserved Font Name "Merriweather".
-    font: Merriweather-Black.ttf
+    font: u-4m0qyriQwlOrhSvowK_l5-eSZJdeP3r-Ho.ttf
   - family_name: Merriweather
-    type: Black Italic
+    type: Regular
+    full_name: Merriweather Regular
+    post_script_name: Merriweather-Regular
+    version: '2.002'
+    copyright: Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather),
+      with Reserved Font Name "Merriweather".
+    font: u-440qyriQwlOrhSvowK_l5OeyxNV-bnrw.ttf
+- name: Merriweather Black
+  styles:
+  - family_name: Merriweather Black
+    type: Italic
+    preferred_family_name: Merriweather
+    preferred_type: Black Italic
     full_name: Merriweather Black Italic
     post_script_name: Merriweather-BlackItalic
     version: '2.002'
     copyright: Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather),
       with Reserved Font Name "Merriweather".
-    font: Merriweather-BlackItalic.ttf
-extract:
-  format: zip
+    font: u-4l0qyriQwlOrhSvowK_l5-eR7NWMf_hP3hPGWH.ttf
+  - family_name: Merriweather Black
+    type: Regular
+    preferred_family_name: Merriweather
+    preferred_type: Black
+    full_name: Merriweather Black
+    post_script_name: Merriweather-Black
+    version: '2.002'
+    copyright: Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather),
+      with Reserved Font Name "Merriweather".
+    font: u-4n0qyriQwlOrhSvowK_l52_wFpX837pvjxPA.ttf
+- name: Merriweather Light
+  styles:
+  - family_name: Merriweather Light
+    type: Italic
+    preferred_family_name: Merriweather
+    preferred_type: Light Italic
+    full_name: Merriweather Light Italic
+    post_script_name: Merriweather-LightItalic
+    version: '2.002'
+    copyright: Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather),
+      with Reserved Font Name "Merriweather".
+    font: u-4l0qyriQwlOrhSvowK_l5-eR7lXcf_hP3hPGWH.ttf
+  - family_name: Merriweather Light
+    type: Regular
+    preferred_family_name: Merriweather
+    preferred_type: Light
+    full_name: Merriweather Light
+    post_script_name: Merriweather-Light
+    version: '2.002'
+    copyright: Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather),
+      with Reserved Font Name "Merriweather".
+    font: u-4n0qyriQwlOrhSvowK_l521wRpX837pvjxPA.ttf
+extract: {}
 copyright: Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather),
   with Reserved Font Name "Merriweather".
 license_url: http://scripts.sil.org/OFL
@@ -174,3 +192,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

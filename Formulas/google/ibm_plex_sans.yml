@@ -3,11 +3,24 @@ name: IBM Plex Sans
 description: IBM Plex Sans
 homepage: http://www.boldmonday.com
 resources:
-  IBM_Plex_Sans.zip:
-    urls:
-    - https://fonts.google.com/download?family=IBM%20Plex%20Sans
-    sha256: 133b0e4ab8f28c7d63ac90cb7ebc30b8f72f5bb657a958e4ae79b665e3a0d424
-    file_size: 1161101
+  IBM Plex Sans:
+    source: google
+    family: IBM Plex Sans
+    files:
+    - https://fonts.gstatic.com/s/ibmplexsans/v19/zYX-KVElMYYaJe8bpLHnCwDKjbLeEKxIedbzDw.ttf
+    - https://fonts.gstatic.com/s/ibmplexsans/v19/zYX8KVElMYYaJe8bpLHnCwDKhdTmdKZMW9PjD3N8.ttf
+    - https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjR7_MIZmdd_qFmo.ttf
+    - https://fonts.gstatic.com/s/ibmplexsans/v19/zYX7KVElMYYaJe8bpLHnCwDKhdTm2Idscf3vBmpl8A.ttf
+    - https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjXr8MIZmdd_qFmo.ttf
+    - https://fonts.gstatic.com/s/ibmplexsans/v19/zYX7KVElMYYaJe8bpLHnCwDKhdTmvIRscf3vBmpl8A.ttf
+    - https://fonts.gstatic.com/s/ibmplexsans/v19/zYXgKVElMYYaJe8bpLHnCwDKtdbUFI5NadY.ttf
+    - https://fonts.gstatic.com/s/ibmplexsans/v19/zYX-KVElMYYaJe8bpLHnCwDKhdTeEKxIedbzDw.ttf
+    - https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjSL9MIZmdd_qFmo.ttf
+    - https://fonts.gstatic.com/s/ibmplexsans/v19/zYX7KVElMYYaJe8bpLHnCwDKhdTm5IVscf3vBmpl8A.ttf
+    - https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjQ76MIZmdd_qFmo.ttf
+    - https://fonts.gstatic.com/s/ibmplexsans/v19/zYX7KVElMYYaJe8bpLHnCwDKhdTmyIJscf3vBmpl8A.ttf
+    - https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjWr7MIZmdd_qFmo.ttf
+    - https://fonts.gstatic.com/s/ibmplexsans/v19/zYX7KVElMYYaJe8bpLHnCwDKhdTmrINscf3vBmpl8A.ttf
 fonts:
 - name: IBM Plex Sans
   styles:
@@ -17,28 +30,28 @@ fonts:
     post_script_name: IBMPlexSans-Bold
     version: '3.2'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: IBMPlexSans-Bold.ttf
+    font: zYX9KVElMYYaJe8bpLHnCwDKjWr7MIZmdd_qFmo.ttf
   - family_name: IBM Plex Sans
     type: Bold Italic
     full_name: IBM Plex Sans Bold Italic
     post_script_name: IBMPlexSans-BoldItalic
     version: '3.2'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: IBMPlexSans-BoldItalic.ttf
+    font: zYX7KVElMYYaJe8bpLHnCwDKhdTmrINscf3vBmpl8A.ttf
   - family_name: IBM Plex Sans
     type: Italic
     full_name: IBM Plex Sans Italic
     post_script_name: IBMPlexSans-Italic
     version: '3.2'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: IBMPlexSans-Italic.ttf
+    font: zYX-KVElMYYaJe8bpLHnCwDKhdTeEKxIedbzDw.ttf
   - family_name: IBM Plex Sans
     type: Regular
     full_name: IBM Plex Sans Regular
     post_script_name: IBMPlexSans-Regular
     version: '3.2'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: IBMPlexSans-Regular.ttf
+    font: zYXgKVElMYYaJe8bpLHnCwDKtdbUFI5NadY.ttf
 - name: IBM Plex Sans ExtraLight
   styles:
   - family_name: IBM Plex Sans ExtraLight
@@ -49,7 +62,7 @@ fonts:
     post_script_name: IBMPlexSans-ExtraLightItalic
     version: '3.2'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: IBMPlexSans-ExtraLightItalic.ttf
+    font: zYX7KVElMYYaJe8bpLHnCwDKhdTm2Idscf3vBmpl8A.ttf
   - family_name: IBM Plex Sans ExtraLight
     type: Regular
     preferred_family_name: IBM Plex Sans
@@ -58,7 +71,7 @@ fonts:
     post_script_name: IBMPlexSans-ExtraLight
     version: '3.2'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: IBMPlexSans-ExtraLight.ttf
+    font: zYX9KVElMYYaJe8bpLHnCwDKjR7_MIZmdd_qFmo.ttf
 - name: IBM Plex Sans Light
   styles:
   - family_name: IBM Plex Sans Light
@@ -69,7 +82,7 @@ fonts:
     post_script_name: IBMPlexSans-LightItalic
     version: '3.2'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: IBMPlexSans-LightItalic.ttf
+    font: zYX7KVElMYYaJe8bpLHnCwDKhdTmvIRscf3vBmpl8A.ttf
   - family_name: IBM Plex Sans Light
     type: Regular
     preferred_family_name: IBM Plex Sans
@@ -78,7 +91,7 @@ fonts:
     post_script_name: IBMPlexSans-Light
     version: '3.2'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: IBMPlexSans-Light.ttf
+    font: zYX9KVElMYYaJe8bpLHnCwDKjXr8MIZmdd_qFmo.ttf
 - name: IBM Plex Sans Medium
   styles:
   - family_name: IBM Plex Sans Medium
@@ -89,7 +102,7 @@ fonts:
     post_script_name: IBMPlexSans-MediumItalic
     version: '3.2'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: IBMPlexSans-MediumItalic.ttf
+    font: zYX7KVElMYYaJe8bpLHnCwDKhdTm5IVscf3vBmpl8A.ttf
   - family_name: IBM Plex Sans Medium
     type: Regular
     preferred_family_name: IBM Plex Sans
@@ -98,7 +111,7 @@ fonts:
     post_script_name: IBMPlexSans-Medium
     version: '3.2'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: IBMPlexSans-Medium.ttf
+    font: zYX9KVElMYYaJe8bpLHnCwDKjSL9MIZmdd_qFmo.ttf
 - name: IBM Plex Sans SemiBold
   styles:
   - family_name: IBM Plex Sans SemiBold
@@ -109,7 +122,7 @@ fonts:
     post_script_name: IBMPlexSans-SemiBoldItalic
     version: '3.2'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: IBMPlexSans-SemiBoldItalic.ttf
+    font: zYX7KVElMYYaJe8bpLHnCwDKhdTmyIJscf3vBmpl8A.ttf
   - family_name: IBM Plex Sans SemiBold
     type: Regular
     preferred_family_name: IBM Plex Sans
@@ -118,7 +131,7 @@ fonts:
     post_script_name: IBMPlexSans-SemiBold
     version: '3.2'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: IBMPlexSans-SemiBold.ttf
+    font: zYX9KVElMYYaJe8bpLHnCwDKjQ76MIZmdd_qFmo.ttf
 - name: IBM Plex Sans Thin
   styles:
   - family_name: IBM Plex Sans Thin
@@ -129,7 +142,7 @@ fonts:
     post_script_name: IBMPlexSans-ThinItalic
     version: '3.2'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: IBMPlexSans-ThinItalic.ttf
+    font: zYX8KVElMYYaJe8bpLHnCwDKhdTmdKZMW9PjD3N8.ttf
   - family_name: IBM Plex Sans Thin
     type: Regular
     preferred_family_name: IBM Plex Sans
@@ -138,7 +151,7 @@ fonts:
     post_script_name: IBMPlexSans-Thin
     version: '3.2'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: IBMPlexSans-Thin.ttf
+    font: zYX-KVElMYYaJe8bpLHnCwDKjbLeEKxIedbzDw.ttf
 extract: {}
 copyright: Copyright 2018 IBM Corp. All rights reserved.
 license_url: http://scripts.sil.org/OFL
@@ -146,8 +159,8 @@ open_license: |-
   Copyright © 2017 IBM Corp. with Reserved Font Name "Plex"
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
-  This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+
+  This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -236,5 +249,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: c8d0361912906fdf39c9230b56eeb6d237f01731152a7513e826e345867493c2
-command: google import --formulas_path Formulas
+command: import google -n 9999

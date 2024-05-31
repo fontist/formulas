@@ -2,11 +2,11 @@
 name: Akaya Kanadaka
 description: Akaya Kanadaka
 resources:
-  Akaya_Kanadaka.zip:
-    urls:
-    - https://fonts.google.com/download?family=Akaya%20Kanadaka
-    sha256: 4d122db6eed4ccfb486db93bc8fcc2ab91d1e2f332b73a3299a4bf66385b1782
-    file_size: 139391
+  Akaya Kanadaka:
+    source: google
+    family: Akaya Kanadaka
+    files:
+    - https://fonts.gstatic.com/s/akayakanadaka/v16/N0bM2S5CPO5oOQqvazoRRb-8-PfRS5VBBSSF.ttf
 fonts:
 - name: Akaya Kanadaka
   styles:
@@ -16,7 +16,7 @@ fonts:
     post_script_name: AkayaKanadaka-Regular
     version: 1.002; ttfautohint (v1.8.3)
     copyright: Copyright 2015 The Akaya Kanadaka Project Authors (https://github.com/vaishnavimurthy/Akaya-Kanadaka)
-    font: AkayaKanadaka-Regular.ttf
+    font: N0bM2S5CPO5oOQqvazoRRb-8-PfRS5VBBSSF.ttf
 extract: {}
 copyright: Copyright 2015 The Akaya Kanadaka Project Authors (https://github.com/vaishnavimurthy/Akaya-Kanadaka)
 license_url: http://scripts.sil.org/OFL
@@ -114,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b123b40f14948ad5f248b04d83f23b3f6779b72bd9e833dd83ced0f6dd5065de
-command: google import --formulas_path Formulas
+command: import google -n 9999

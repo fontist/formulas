@@ -1,10 +1,18 @@
 ---
+name: Anuphan
 description: Anuphan
 resources:
-  Anuphan.zip:
-    urls:
-    - https://fonts.google.com/download?family=Anuphan
-    file_size: 489756
+  Anuphan:
+    source: google
+    family: Anuphan
+    files:
+    - https://fonts.gstatic.com/s/anuphan/v3/2sDBZGxYgY7LkLT0s2Yrm5UhuLoIZCkY9A4kGmW927Gu.ttf
+    - https://fonts.gstatic.com/s/anuphan/v3/2sDBZGxYgY7LkLT0s2Yrm5UhuLoIZCmY9Q4kGmW927Gu.ttf
+    - https://fonts.gstatic.com/s/anuphan/v3/2sDBZGxYgY7LkLT0s2Yrm5UhuLoIZClG9Q4kGmW927Gu.ttf
+    - https://fonts.gstatic.com/s/anuphan/v3/2sDBZGxYgY7LkLT0s2Yrm5UhuLoIZCkY9Q4kGmW927Gu.ttf
+    - https://fonts.gstatic.com/s/anuphan/v3/2sDBZGxYgY7LkLT0s2Yrm5UhuLoIZCkq9Q4kGmW927Gu.ttf
+    - https://fonts.gstatic.com/s/anuphan/v3/2sDBZGxYgY7LkLT0s2Yrm5UhuLoIZCnG8g4kGmW927Gu.ttf
+    - https://fonts.gstatic.com/s/anuphan/v3/2sDBZGxYgY7LkLT0s2Yrm5UhuLoIZCn_8g4kGmW927Gu.ttf
 fonts:
 - name: Anuphan
   styles:
@@ -14,21 +22,14 @@ fonts:
     post_script_name: Anuphan-Bold
     version: 3.001;gftools[0.9.23]
     copyright: Copyright 2019 The Anuphan Project Authors (https://github.com/cadsondemak/Anuphan)
-    font: Anuphan-Bold.ttf
+    font: 2sDBZGxYgY7LkLT0s2Yrm5UhuLoIZCn_8g4kGmW927Gu.ttf
   - family_name: Anuphan
     type: Regular
     full_name: Anuphan Regular
     post_script_name: Anuphan-Regular
     version: 3.001;gftools[0.9.23]
     copyright: Copyright 2019 The Anuphan Project Authors (https://github.com/cadsondemak/Anuphan)
-    font: Anuphan-VariableFont_wght.ttf
-  - family_name: Anuphan
-    type: Regular
-    full_name: Anuphan Regular
-    post_script_name: Anuphan-Regular
-    version: 3.001;gftools[0.9.23]
-    copyright: Copyright 2019 The Anuphan Project Authors (https://github.com/cadsondemak/Anuphan)
-    font: Anuphan-Regular.ttf
+    font: 2sDBZGxYgY7LkLT0s2Yrm5UhuLoIZCkY9Q4kGmW927Gu.ttf
 - name: Anuphan ExtraLight
   styles:
   - family_name: Anuphan ExtraLight
@@ -39,7 +40,7 @@ fonts:
     post_script_name: Anuphan-ExtraLight
     version: 3.001;gftools[0.9.23]
     copyright: Copyright 2019 The Anuphan Project Authors (https://github.com/cadsondemak/Anuphan)
-    font: Anuphan-ExtraLight.ttf
+    font: 2sDBZGxYgY7LkLT0s2Yrm5UhuLoIZCmY9Q4kGmW927Gu.ttf
 - name: Anuphan Light
   styles:
   - family_name: Anuphan Light
@@ -50,7 +51,7 @@ fonts:
     post_script_name: Anuphan-Light
     version: 3.001;gftools[0.9.23]
     copyright: Copyright 2019 The Anuphan Project Authors (https://github.com/cadsondemak/Anuphan)
-    font: Anuphan-Light.ttf
+    font: 2sDBZGxYgY7LkLT0s2Yrm5UhuLoIZClG9Q4kGmW927Gu.ttf
 - name: Anuphan Medium
   styles:
   - family_name: Anuphan Medium
@@ -61,7 +62,7 @@ fonts:
     post_script_name: Anuphan-Medium
     version: 3.001;gftools[0.9.23]
     copyright: Copyright 2019 The Anuphan Project Authors (https://github.com/cadsondemak/Anuphan)
-    font: Anuphan-Medium.ttf
+    font: 2sDBZGxYgY7LkLT0s2Yrm5UhuLoIZCkq9Q4kGmW927Gu.ttf
 - name: Anuphan SemiBold
   styles:
   - family_name: Anuphan SemiBold
@@ -72,7 +73,7 @@ fonts:
     post_script_name: Anuphan-SemiBold
     version: 3.001;gftools[0.9.23]
     copyright: Copyright 2019 The Anuphan Project Authors (https://github.com/cadsondemak/Anuphan)
-    font: Anuphan-SemiBold.ttf
+    font: 2sDBZGxYgY7LkLT0s2Yrm5UhuLoIZCnG8g4kGmW927Gu.ttf
 - name: Anuphan Thin
   styles:
   - family_name: Anuphan Thin
@@ -83,7 +84,7 @@ fonts:
     post_script_name: Anuphan-Thin
     version: 3.001;gftools[0.9.23]
     copyright: Copyright 2019 The Anuphan Project Authors (https://github.com/cadsondemak/Anuphan)
-    font: Anuphan-Thin.ttf
+    font: 2sDBZGxYgY7LkLT0s2Yrm5UhuLoIZCkY9A4kGmW927Gu.ttf
 extract: {}
 copyright: Copyright 2019 The Anuphan Project Authors (https://github.com/cadsondemak/Anuphan)
 license_url: http://scripts.sil.org/OFL
@@ -92,7 +93,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -181,5 +182,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ea134fdfd52696350d5660369b0524cc6ec04c570686dcf2b925b3622566d363
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

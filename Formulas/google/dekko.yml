@@ -3,11 +3,11 @@ name: Dekko
 description: Dekko
 homepage: www.sorkintype.com
 resources:
-  Dekko.zip:
-    urls:
-    - https://fonts.google.com/download?family=Dekko
-    sha256: 5751cfbdfc9eb12c2b24d8404378973f2c7c41b0a6f71f4ecf4f389ea2990f47
-    file_size: 106257
+  Dekko:
+    source: google
+    family: Dekko
+    files:
+    - https://fonts.gstatic.com/s/dekko/v21/46khlb_wWjfSrttFR0vsfl1B.ttf
 fonts:
 - name: Dekko
   styles:
@@ -15,13 +15,11 @@ fonts:
     type: Regular
     full_name: Dekko
     post_script_name: Dekko
-    version: 1.001; ttfautohint (v1.1) -l 8 -r 50 -G 0 -x 0 -D deva -f latn -w gG
-      -W
-    copyright: Copyright (c) 2000, Modular Infotech, Pune, INDIA. Latin Portions added
-      2014 by Eben Sorkin Sorkin Type Co, Boston MA, USA
-    font: Dekko-Regular.ttf
-extract:
-  format: zip
+    version: '2.001'
+    copyright: Copyright (c) 2000, Modular Infotech, Pune, INDIA. Copyright (c) 2014,
+      Sorkin Type Co, Boston, MA, USA (www.sorkintype.com)
+    font: 46khlb_wWjfSrttFR0vsfl1B.ttf
+extract: {}
 copyright: Copyright (c) 2000, Modular Infotech, Pune, INDIA. Copyright (c) 2014,
   Sorkin Type Co, Boston, MA, USA (www.sorkintype.com)
 license_url: http://scripts.sil.org/OFL
@@ -119,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

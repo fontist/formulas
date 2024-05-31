@@ -3,11 +3,11 @@ name: Miltonian
 description: Miltonian
 homepage: www.impallari.com
 resources:
-  Miltonian.zip:
-    urls:
-    - https://fonts.google.com/download?family=Miltonian
-    sha256: 34d68193ea633c138eca48094be4fec1055d7eebe258c1dccf92009bb558296a
-    file_size: 79424
+  Miltonian:
+    source: google
+    family: Miltonian
+    files:
+    - https://fonts.gstatic.com/s/miltonian/v30/zOL-4pbPn6Ne9JqTg9mr6e5As-FeiQ.ttf
 fonts:
 - name: Miltonian
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: '1.008'
     copyright: Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com).
       Igino Marini (www.ikern.com)
-    font: Miltonian-Regular.ttf
-extract:
-  format: zip
+    font: zOL-4pbPn6Ne9JqTg9mr6e5As-FeiQ.ttf
+extract: {}
 copyright: Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com).
   Igino Marini (www.ikern.com)
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

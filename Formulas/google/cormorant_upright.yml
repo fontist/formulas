@@ -1,52 +1,68 @@
 ---
+name: Cormorant Upright
 description: Cormorant Upright
 homepage: https://github.com/CatharsisFonts
 resources:
-  CormorantUpright.zip:
-    urls:
-    - https://fonts.google.com/download?family=Cormorant%20Upright
-    sha256: b14be8fe91a2fe9946a1e641252a9fc34be395ed91aca692df25c6b1ca7c1877
-    file_size: 481784
+  Cormorant Upright:
+    source: google
+    family: Cormorant Upright
+    files:
+    - https://fonts.gstatic.com/s/cormorantupright/v18/VuJudM3I2Y35poFONtLdafkUCHw1y1N5phDsU9X6RPzQ.ttf
+    - https://fonts.gstatic.com/s/cormorantupright/v18/VuJrdM3I2Y35poFONtLdafkUCHw1y2vVjjTkeMnz.ttf
+    - https://fonts.gstatic.com/s/cormorantupright/v18/VuJudM3I2Y35poFONtLdafkUCHw1y1MhpxDsU9X6RPzQ.ttf
+    - https://fonts.gstatic.com/s/cormorantupright/v18/VuJudM3I2Y35poFONtLdafkUCHw1y1MNoBDsU9X6RPzQ.ttf
+    - https://fonts.gstatic.com/s/cormorantupright/v18/VuJudM3I2Y35poFONtLdafkUCHw1y1NpoRDsU9X6RPzQ.ttf
 fonts:
 - name: Cormorant Upright
   styles:
-  - family_name: Cormorant Upright
-    type: Light
-    full_name: Cormorant Upright Light
-    post_script_name: CormorantUpright-Light
-    version: '3.302'
-    copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
-    font: CormorantUpright-Light.ttf
-  - family_name: Cormorant Upright
-    type: Regular
-    full_name: Cormorant Upright Regular
-    post_script_name: CormorantUpright-Regular
-    version: '3.302'
-    copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
-    font: CormorantUpright-Regular.ttf
-  - family_name: Cormorant Upright
-    type: Medium
-    full_name: Cormorant Upright Medium
-    post_script_name: CormorantUpright-Medium
-    version: '3.302'
-    copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
-    font: CormorantUpright-Medium.ttf
-  - family_name: Cormorant Upright
-    type: SemiBold
-    full_name: Cormorant Upright SemiBold
-    post_script_name: CormorantUpright-SemiBold
-    version: '3.302'
-    copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
-    font: CormorantUpright-SemiBold.ttf
   - family_name: Cormorant Upright
     type: Bold
     full_name: Cormorant Upright Bold
     post_script_name: CormorantUpright-Bold
     version: '3.302'
     copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
-    font: CormorantUpright-Bold.ttf
-extract:
-  format: zip
+    font: VuJudM3I2Y35poFONtLdafkUCHw1y1NpoRDsU9X6RPzQ.ttf
+  - family_name: Cormorant Upright
+    type: Regular
+    full_name: Cormorant Upright Regular
+    post_script_name: CormorantUpright-Regular
+    version: '3.302'
+    copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
+    font: VuJrdM3I2Y35poFONtLdafkUCHw1y2vVjjTkeMnz.ttf
+- name: Cormorant Upright Light
+  styles:
+  - family_name: Cormorant Upright Light
+    type: Regular
+    preferred_family_name: Cormorant Upright
+    preferred_type: Light
+    full_name: Cormorant Upright Light
+    post_script_name: CormorantUpright-Light
+    version: '3.302'
+    copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
+    font: VuJudM3I2Y35poFONtLdafkUCHw1y1N5phDsU9X6RPzQ.ttf
+- name: Cormorant Upright Medium
+  styles:
+  - family_name: Cormorant Upright Medium
+    type: Regular
+    preferred_family_name: Cormorant Upright
+    preferred_type: Medium
+    full_name: Cormorant Upright Medium
+    post_script_name: CormorantUpright-Medium
+    version: '3.302'
+    copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
+    font: VuJudM3I2Y35poFONtLdafkUCHw1y1MhpxDsU9X6RPzQ.ttf
+- name: Cormorant Upright SemiBold
+  styles:
+  - family_name: Cormorant Upright SemiBold
+    type: Regular
+    preferred_family_name: Cormorant Upright
+    preferred_type: SemiBold
+    full_name: Cormorant Upright SemiBold
+    post_script_name: CormorantUpright-SemiBold
+    version: '3.302'
+    copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
+    font: VuJudM3I2Y35poFONtLdafkUCHw1y1MNoBDsU9X6RPzQ.ttf
+extract: {}
 copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -142,3 +158,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

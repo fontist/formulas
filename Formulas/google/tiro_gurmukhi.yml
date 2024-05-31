@@ -1,12 +1,14 @@
 ---
+name: Tiro Gurmukhi
 description: Tiro Gurmukhi
 homepage: https://github.com/TiroTypeworks/Indigo
 resources:
-  Tiro_Gurmukhi.zip:
-    urls:
-    - https://fonts.google.com/download?family=Tiro%20Gurmukhi
-    sha256: 2ec63b88daebf076ba6b6fa018fc8bed7a85548c935254427a3cdb0fa5d12530
-    file_size: 156923
+  Tiro Gurmukhi:
+    source: google
+    family: Tiro Gurmukhi
+    files:
+    - https://fonts.gstatic.com/s/tirogurmukhi/v6/x3dmckXSYq-Uqjc048JUF7Jvly7HAQsyA2Y.ttf
+    - https://fonts.gstatic.com/s/tirogurmukhi/v6/x3d4ckXSYq-Uqjc048JUF7JvpyzNBSk3E2YljQ.ttf
 fonts:
 - name: Tiro Gurmukhi
   styles:
@@ -16,14 +18,14 @@ fonts:
     post_script_name: TiroGurmukhi-Italic
     version: '1.52'
     copyright: Copyright 2020 The Indigo Project Authors (https://github.com/TiroTypeworks/Indigo)
-    font: TiroGurmukhi-Italic.ttf
+    font: x3d4ckXSYq-Uqjc048JUF7JvpyzNBSk3E2YljQ.ttf
   - family_name: Tiro Gurmukhi
     type: Regular
     full_name: Tiro Gurmukhi Regular
     post_script_name: TiroGurmukhi-Regular
     version: '1.52'
     copyright: Copyright 2020 The Indigo Project Authors (https://github.com/TiroTypeworks/Indigo)
-    font: TiroGurmukhi-Regular.ttf
+    font: x3dmckXSYq-Uqjc048JUF7Jvly7HAQsyA2Y.ttf
 extract: {}
 copyright: Copyright 2020 The Indigo Project Authors (https://github.com/TiroTypeworks/Indigo)
 license_url: https://scripts.sil.org/OFL
@@ -121,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 82dec7ea50f8b09d434c6fff235ae905e93ddd41a901a75339e2d15b12ddfdec
-command: import google --formulas_path Formulas
+command: import google -n 9999

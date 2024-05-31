@@ -1,12 +1,13 @@
 ---
+name: Sedgwick Ave
 description: Sedgwick Ave
 homepage: http://fonts.google.com
 resources:
-  SedgwickAve.zip:
-    urls:
-    - https://fonts.google.com/download?family=Sedgwick%20Ave
-    sha256: d467c474dbae56226751ac9b334adcf7d30e7178bd21d55f3c4bcc8f76d7e74d
-    file_size: 73186
+  Sedgwick Ave:
+    source: google
+    family: Sedgwick Ave
+    files:
+    - https://fonts.gstatic.com/s/sedgwickave/v12/uK_04rKEYuguzAcSYRdWTJq8Xmg1Vcf5JA.ttf
 fonts:
 - name: Sedgwick Ave
   styles:
@@ -16,9 +17,8 @@ fonts:
     post_script_name: SedgwickAve-Regular
     version: '1.000'
     copyright: Copyright 2017 The Sedgwick Ave Project Authors (https://github.com/googlefonts/sedgwickave)
-    font: SedgwickAve-Regular.ttf
-extract:
-  format: zip
+    font: uK_04rKEYuguzAcSYRdWTJq8Xmg1Vcf5JA.ttf
+extract: {}
 copyright: Copyright 2017 The Sedgwick Ave Project Authors (https://github.com/googlefonts/sedgwickave)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -115,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

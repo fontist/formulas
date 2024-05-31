@@ -3,11 +3,11 @@ name: ZCOOL XiaoWei
 description: ZCOOL XiaoWei
 homepage: http://zcool.com.cn
 resources:
-  ZCOOLXiaoWei.zip:
-    urls:
-    - https://fonts.google.com/download?family=ZCOOL%20XiaoWei
-    sha256: 64527060ccae23c9bf4e9fdc0333adca6d533ee1a407447247f5ca4b5ed127ea
-    file_size: 3423917
+  ZCOOL XiaoWei:
+    source: google
+    family: ZCOOL XiaoWei
+    files:
+    - https://fonts.gstatic.com/s/zcoolxiaowei/v14/i7dMIFFrTRywPpUVX9_RJyM1YFKQHwyVd3U.ttf
 fonts:
 - name: ZCOOL XiaoWei
   styles:
@@ -17,13 +17,12 @@ fonts:
     post_script_name: ZCOOLXiaoWei-Regular
     version: '1.000'
     copyright: Copyright 2018 The ZCOOL XiaoWei Project Authors (https://www.github.com/googlefonts/xiaowei)
-    font: ZCOOLXiaoWei-Regular.ttf
-extract:
-  format: zip
+    font: i7dMIFFrTRywPpUVX9_RJyM1YFKQHwyVd3U.ttf
+extract: {}
 copyright: Copyright 2018 The ZCOOL XiaoWei Project Authors (https://www.github.com/googlefonts/xiaowei)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2018 The ZCOOL XiaoWei Project Authors (https://www.github.com/googlefonts/xiaowei)
+  Copyright 2018 The ZCOOL XiaoWei Project Authors (https://github.com/googlefonts/zcool-xiaowei/)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -116,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

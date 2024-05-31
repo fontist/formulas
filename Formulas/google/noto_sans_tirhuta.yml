@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Tirhuta
 description: Noto Sans Tirhuta
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Tirhuta.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Tirhuta
-    sha256: d7f631f3a07eab37080157571c959445c29b32dcce5c23b1a3afeec6493a5b6a
-    file_size: 76090
+  Noto Sans Tirhuta:
+    source: google
+    family: Noto Sans Tirhuta
+    files:
+    - https://fonts.gstatic.com/s/notosanstirhuta/v16/t5t6IQYRNJ6TWjahPR6X-M-apUyby7uGUBsTrn5P.ttf
 fonts:
 - name: Noto Sans Tirhuta
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tirhuta)
-    font: NotoSansTirhuta-Regular.ttf
+    font: t5t6IQYRNJ6TWjahPR6X-M-apUyby7uGUBsTrn5P.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tirhuta)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 7184e6748fe1edad98bfe8682c4ce505652bcaa34643774abb188a3a9484e424
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

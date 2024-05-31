@@ -3,11 +3,12 @@ name: Codystar
 description: Codystar
 homepage: http://www.fontbros.com/foundries/neapolitan
 resources:
-  Codystar.zip:
-    urls:
-    - https://fonts.google.com/download?family=Codystar
-    sha256: 8db3f09060771949803b8228de86d38cda11b56fc0a467b3b5799466ec739355
-    file_size: 107767
+  Codystar:
+    source: google
+    family: Codystar
+    files:
+    - https://fonts.gstatic.com/s/codystar/v17/FwZf7-Q1xVk-40qxOuYsyuyrj0e29bfC.ttf
+    - https://fonts.gstatic.com/s/codystar/v17/FwZY7-Q1xVk-40qxOt6A4sijpFu_.ttf
 fonts:
 - name: Codystar
   styles:
@@ -18,7 +19,7 @@ fonts:
     version: '1.000'
     copyright: Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com)
       with Reseved Font Name "Codystar Light"
-    font: Codystar-Light.ttf
+    font: FwZf7-Q1xVk-40qxOuYsyuyrj0e29bfC.ttf
   - family_name: Codystar
     type: Regular
     full_name: Codystar
@@ -26,9 +27,8 @@ fonts:
     version: '1.000'
     copyright: Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com)
       with Reseved Font Name "Codystar"
-    font: Codystar-Regular.ttf
-extract:
-  format: zip
+    font: FwZY7-Q1xVk-40qxOt6A4sijpFu_.ttf
+extract: {}
 copyright: Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com)
   with Reseved Font Name "Codystar Light"
 license_url: http://scripts.sil.org/OFL
@@ -127,3 +127,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

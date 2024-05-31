@@ -3,11 +3,11 @@ name: Ledger
 description: Ledger
 homepage: denis.masharov@gmail.com
 resources:
-  Ledger.zip:
-    urls:
-    - https://fonts.google.com/download?family=Ledger
-    sha256: 76bdc6eec8254d79d62b98ce8151fb70052fc8cf8a5301855374978b337b4d7d
-    file_size: 29975
+  Ledger:
+    source: google
+    family: Ledger
+    files:
+    - https://fonts.gstatic.com/s/ledger/v16/j8_q6-HK1L3if_sxm8DwHTBhHw.ttf
 fonts:
 - name: Ledger
   styles:
@@ -17,9 +17,8 @@ fonts:
     post_script_name: Ledger-Regular
     version: '1.003'
     copyright: Copyright (c) 2011, Denis Masharov <denis.masharov@gmail.com>.
-    font: Ledger-Regular.ttf
-extract:
-  format: zip
+    font: j8_q6-HK1L3if_sxm8DwHTBhHw.ttf
+extract: {}
 copyright: Copyright (c) 2011, Denis Masharov <denis.masharov@gmail.com>.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -117,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

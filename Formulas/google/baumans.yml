@@ -3,11 +3,11 @@ name: Baumans
 description: Baumans
 homepage: http://cyreal.org
 resources:
-  Baumans.zip:
-    urls:
-    - https://fonts.google.com/download?family=Baumans
-    sha256: 6f360747b5b45d2b2f88d01267c185b4dd193357b23ae988a73b9e6fdcf5ad41
-    file_size: 28487
+  Baumans:
+    source: google
+    family: Baumans
+    files:
+    - https://fonts.gstatic.com/s/baumans/v17/-W_-XJj9QyTd3QfpR_oyaksqY5Q.ttf
 fonts:
 - name: Baumans
   styles:
@@ -23,12 +23,15 @@ fonts:
       This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at:
       http://scripts.sil.org/OFL
-    font: Baumans-Regular.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name "Baumans".  This
-  Font Software is licensed under the SIL Open Font License, Version 1.1. This license
-  is available with a FAQ at: http://scripts.sil.org/OFL'
+    font: "-W_-XJj9QyTd3QfpR_oyaksqY5Q.ttf"
+extract: {}
+copyright: |-
+  Copyright (c) 2011, Cyreal (www.cyreal.org)
+  with Reserved Font Name "Baumans".
+
+  This Font Software is licensed under the SIL Open Font License,
+  Version 1.1. This license is available with a FAQ at:
+  http://scripts.sil.org/OFL
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Cyreal (www.cyreal.org),
@@ -125,3 +128,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -3,22 +3,15 @@ name: Skranji
 description: Skranji
 homepage: http://www.fontbros.com/foundries/neapolitan
 resources:
-  Skranji.zip:
-    urls:
-    - https://fonts.google.com/download?family=Skranji
-    sha256: eb8ebd1b3b970a3acd8312afdb2b58bcba694bf3d0d23d65e6f4c36cb300a13c
-    file_size: 194999
+  Skranji:
+    source: google
+    family: Skranji
+    files:
+    - https://fonts.gstatic.com/s/skranji/v13/OZpDg_dtriVFNerMYzuuklTm3Ek.ttf
+    - https://fonts.gstatic.com/s/skranji/v13/OZpGg_dtriVFNerMW4eBtlzNwED-b4g.ttf
 fonts:
 - name: Skranji
   styles:
-  - family_name: Skranji
-    type: Regular
-    full_name: Skranji
-    post_script_name: Skranji
-    version: '1.001'
-    copyright: Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com)
-      with Reseved Font Name "Skranji"
-    font: Skranji-Regular.ttf
   - family_name: Skranji
     type: Bold
     full_name: Skranji Bold
@@ -26,9 +19,16 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com)
       with Reseved Font Name "Skranji Bold"
-    font: Skranji-Bold.ttf
-extract:
-  format: zip
+    font: OZpGg_dtriVFNerMW4eBtlzNwED-b4g.ttf
+  - family_name: Skranji
+    type: Regular
+    full_name: Skranji
+    post_script_name: Skranji
+    version: '1.001'
+    copyright: Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com)
+      with Reseved Font Name "Skranji"
+    font: OZpDg_dtriVFNerMYzuuklTm3Ek.ttf
+extract: {}
 copyright: Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com)
   with Reseved Font Name "Skranji"
 license_url: http://scripts.sil.org/OFL
@@ -126,3 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

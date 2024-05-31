@@ -3,11 +3,11 @@ name: Lovers Quarrel
 description: Lovers Quarrel
 homepage: http://www.typesetit.com
 resources:
-  Lovers_Quarrel.zip:
-    urls:
-    - https://fonts.google.com/download?family=Lovers%20Quarrel
-    sha256: 0cc17cea5f4a597c8f2a577ffd63e1022dd7737e358c4a25e95893e64638b3a3
-    file_size: 63466
+  Lovers Quarrel:
+    source: google
+    family: Lovers Quarrel
+    files:
+    - https://fonts.gstatic.com/s/loversquarrel/v23/Yq6N-LSKXTL-5bCy8ksBzpQ_-zAsY7pO6siz.ttf
 fonts:
 - name: Lovers Quarrel
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: LoversQuarrel-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2004 The Lovers Quarrel Project Authors (https://github.com/googlefonts/lovers-quarrel)
-    font: LoversQuarrel-Regular.ttf
+    font: Yq6N-LSKXTL-5bCy8ksBzpQ_-zAsY7pO6siz.ttf
 extract: {}
 copyright: Copyright 2004 The Lovers Quarrel Project Authors (https://github.com/googlefonts/lovers-quarrel)
 license_url: https://scripts.sil.org/OFL
@@ -26,8 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
-
+  https://scripts.sil.org/OFL
 
   -----------------------------------------------------------
   SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
@@ -115,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d8a1f17751a11a12c0ffddbb59f233ab4e2e3e30461803294e3e42fcb5db1bc2
-command: google import --formulas_path Formulas
+command: import google -n 9999

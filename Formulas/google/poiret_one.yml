@@ -1,25 +1,25 @@
 ---
+name: Poiret One
 description: Poiret One
-homepage: http://www.behance.net/Denis_Masharov
+homepage: denis.masharov@gmail.com
 resources:
-  PoiretOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Poiret%20One
-    sha256: faefcc38ccca536f759f532bc7967e437a62cccc0ddf6e96dfe102423ac3763d
-    file_size: 24095
+  Poiret One:
+    source: google
+    family: Poiret One
+    files:
+    - https://fonts.gstatic.com/s/poiretone/v16/UqyVK80NJXN4zfRgbdfbk5lWVscxdKE.ttf
 fonts:
 - name: Poiret One
   styles:
   - family_name: Poiret One
     type: Regular
-    full_name: Poiret One Regular
+    full_name: Poiret One
     post_script_name: PoiretOne-Regular
-    version: '1.101'
-    copyright: Copyright 2011 The Poiret One Project Authors (https://github.com/alexeiva/poiretone)
-    font: PoiretOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2011 The Poiret One Project Authors (https://github.com/alexeiva/poiretone)
+    version: '1.001'
+    copyright: Copyright (c) 2011, Denis Masharov (denis.masharov@gmail.com)
+    font: UqyVK80NJXN4zfRgbdfbk5lWVscxdKE.ttf
+extract: {}
+copyright: Copyright (c) 2011, Denis Masharov (denis.masharov@gmail.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright 2011 The Poiret One Project Authors (https://github.com/alexeiva/poiretone)
@@ -115,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

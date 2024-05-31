@@ -1,13 +1,12 @@
 ---
 name: Damion
 description: Damion
-homepage:
 resources:
-  Damion.zip:
-    urls:
-    - https://fonts.google.com/download?family=Damion
-    sha256: 7fb681f15894706b976cf92a30a4ca57fdd4fa17cd78b0e9add683ea0ad56495
-    file_size: 28951
+  Damion:
+    source: google
+    family: Damion
+    files:
+    - https://fonts.gstatic.com/s/damion/v14/hv-XlzJ3KEUe_YZUbWY3MTFgVg.ttf
 fonts:
 - name: Damion
   styles:
@@ -18,19 +17,16 @@ fonts:
     version: '1.000'
     description: Copyright (c) 2011 by vernon adams. All rights reserved.
     copyright: Copyright (c) 2011 by vernon adams. All rights reserved.
-    font: Damion-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved
-  Font Name 'Damion'. All rights reserved.
+    font: hv-XlzJ3KEUe_YZUbWY3MTFgVg.ttf
+extract: {}
+copyright: Copyright (c) 2011 by vernon adams. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk),
-  with Reserved Font Name Damion.
+  Copyright 2014 The Damion Project Authors (https://github.com/googlefonts/damionFont)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -119,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

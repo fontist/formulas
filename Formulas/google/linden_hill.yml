@@ -1,31 +1,31 @@
 ---
+name: Linden Hill
 description: Linden Hill
-homepage:
 resources:
-  LindenHill.zip:
-    urls:
-    - https://fonts.google.com/download?family=Linden%20Hill
-    sha256: a4764cd67550fab97248391cd40ccb677c312d1de86159d8f6d87112c44aa9f4
-    file_size: 105637
+  Linden Hill:
+    source: google
+    family: Linden Hill
+    files:
+    - https://fonts.gstatic.com/s/lindenhill/v24/-F61fjxoKSg9Yc3hZgO8ygFI7CwC009k.ttf
+    - https://fonts.gstatic.com/s/lindenhill/v24/-F63fjxoKSg9Yc3hZgO8yjFK5igg1l9kn-s.ttf
 fonts:
 - name: Linden Hill
   styles:
-  - family_name: Linden Hill
-    type: Regular
-    full_name: Linden Hill Regular
-    post_script_name: LindenHill-Regular
-    version: '1.202'
-    copyright: Copyright (c) 2010, Barry Schwartz (chemoelectric@chemoelectric.org)
-    font: LindenHill-Regular.ttf
   - family_name: Linden Hill
     type: Italic
     full_name: Linden Hill Italic
     post_script_name: LindenHill-Italic
     version: '1.201'
     copyright: Copyright (c) 2010, Barry Schwartz (chemoelectric@chemoelectric.org)
-    font: LindenHill-Italic.ttf
-extract:
-  format: zip
+    font: "-F63fjxoKSg9Yc3hZgO8yjFK5igg1l9kn-s.ttf"
+  - family_name: Linden Hill
+    type: Regular
+    full_name: Linden Hill Regular
+    post_script_name: LindenHill-Regular
+    version: '1.202'
+    copyright: Copyright (c) 2010, Barry Schwartz (chemoelectric@chemoelectric.org)
+    font: "-F61fjxoKSg9Yc3hZgO8ygFI7CwC009k.ttf"
+extract: {}
 copyright: Copyright (c) 2010, Barry Schwartz (chemoelectric@chemoelectric.org)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -122,3 +122,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

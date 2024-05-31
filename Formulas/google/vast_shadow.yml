@@ -1,12 +1,13 @@
 ---
+name: Vast Shadow
 description: Vast Shadow
 homepage: sorkintype.com
 resources:
-  VastShadow.zip:
-    urls:
-    - https://fonts.google.com/download?family=Vast%20Shadow
-    sha256: 567f68f02f9f4b0ae293875b737091eea10d3583131ed9000b0b5184af528680
-    file_size: 32607
+  Vast Shadow:
+    source: google
+    family: Vast Shadow
+    files:
+    - https://fonts.gstatic.com/s/vastshadow/v19/pe0qMImKOZ1V62ZwbVY9dfe6Kdpickwp.ttf
 fonts:
 - name: Vast Shadow
   styles:
@@ -23,13 +24,12 @@ fonts:
       Copyright (c) 2010 by Sorkin Type Co with Reserved Font Name Vast and Vast Shadow.
 
       This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
-    font: VastShadow-Regular.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2010 by Sorkin Type Co (eben@eyebytes.com) with Reserved
-  Font Name Vast and Vast Shadow. This Font Software is licensed under the SIL Open
-  Font License, Version 1.1. This license is copied below, and is also available with
-  a FAQ at: http://scripts.sil.org/OFL'
+    font: pe0qMImKOZ1V62ZwbVY9dfe6Kdpickwp.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2010 by Sorkin Type Co with Reserved Font Name Vast and Vast Shadow.
+
+  This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 license_url: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
 open_license: |-
   Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
@@ -126,3 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

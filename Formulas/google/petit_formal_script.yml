@@ -1,12 +1,13 @@
 ---
+name: Petit Formal Script
 description: Petit Formal Script
 homepage: www.impallari.com
 resources:
-  PetitFormalScript.zip:
-    urls:
-    - https://fonts.google.com/download?family=Petit%20Formal%20Script
-    sha256: 2aa7ec4bb51b8edb90fffdd95f127a30e4b6cd5bbc45a80817d2cb6201c783ce
-    file_size: 68445
+  Petit Formal Script:
+    source: google
+    family: Petit Formal Script
+    files:
+    - https://fonts.gstatic.com/s/petitformalscript/v17/B50TF6xQr2TXJBnGOFME6u5OR83oRP5qoHnqP4gZSiE.ttf
 fonts:
 - name: Petit Formal Script
   styles:
@@ -23,13 +24,14 @@ fonts:
       Copyright (c) 2011, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com),
 
       with Reserved Font Name Petit Formal Script.
-    font: PetitFormalScript-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),
-  Copyright (c) 2011, Brenda Gallo. (gbrenda1987@gmail.com), Copyright (c) 2011, Rodrigo
-  Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com),   with Reserved Font Name
-  Petit Formal Script.
+    font: B50TF6xQr2TXJBnGOFME6u5OR83oRP5qoHnqP4gZSiE.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),
+  Copyright (c) 2011, Brenda Gallo. (gbrenda1987@gmail.com),
+  Copyright (c) 2011, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com),
+
+  with Reserved Font Name Petit Formal Script.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2011, Brenda Gallo. (gbrenda1987@gmail.com), Copyright (c) 2011, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved Font Name Petit Formal Script.
@@ -125,3 +127,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

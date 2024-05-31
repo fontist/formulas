@@ -3,11 +3,11 @@ name: Pacifico
 description: Pacifico
 homepage: http://www.sansoxygen.com
 resources:
-  Pacifico.zip:
-    urls:
-    - https://fonts.google.com/download?family=Pacifico
-    sha256: 576ca38f06e477cbe218af416657ec33b67bc98c5ddb626ebc8a1b2ab453e4b7
-    file_size: 142672
+  Pacifico:
+    source: google
+    family: Pacifico
+    files:
+    - https://fonts.gstatic.com/s/pacifico/v22/FwZY7-Qmy14u9lezJ96A4sijpFu_.ttf
 fonts:
 - name: Pacifico
   styles:
@@ -17,9 +17,8 @@ fonts:
     post_script_name: Pacifico-Regular
     version: '3.001'
     copyright: Copyright 2018 The Pacifico Project Authors (https://github.com/googlefonts/Pacifico)
-    font: Pacifico-Regular.ttf
-extract:
-  format: zip
+    font: FwZY7-Qmy14u9lezJ96A4sijpFu_.ttf
+extract: {}
 copyright: Copyright 2018 The Pacifico Project Authors (https://github.com/googlefonts/Pacifico)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

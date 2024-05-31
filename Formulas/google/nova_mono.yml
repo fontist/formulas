@@ -1,14 +1,14 @@
 ---
+name: Nova Mono
 description: Nova Mono
-homepage:
 resources:
-  NovaMono.zip:
-    urls:
-    - https://fonts.google.com/download?family=Nova%20Mono
-    sha256: c7b5cda56346e969774e8afdd9c5c1949831169488457fc36668a2701b5e8e56
-    file_size: 149489
+  Nova Mono:
+    source: google
+    family: Nova Mono
+    files:
+    - https://fonts.gstatic.com/s/novamono/v20/Cn-0JtiGWQ5Ajb--MRKfYGxYrdM9Sg.ttf
 fonts:
-- name: Nova Mono
+- name: NovaMono
   styles:
   - family_name: NovaMono
     type: Regular
@@ -16,10 +16,9 @@ fonts:
     post_script_name: NovaMono
     version: '1.2'
     copyright: wmk69
-    font: NovaMono.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Wojciech 'wmk69' Kalinowski (wmk69@o2.pl)
+    font: Cn-0JtiGWQ5Ajb--MRKfYGxYrdM9Sg.ttf
+extract: {}
+copyright: wmk69
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, wmk69 (wmk69@o2.pl),
@@ -127,3 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

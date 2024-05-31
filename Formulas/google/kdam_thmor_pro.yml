@@ -1,12 +1,13 @@
 ---
+name: Kdam Thmor Pro
 description: Kdam Thmor Pro
 homepage: https://anagata.design
 resources:
-  Kdam_Thmor_Pro.zip:
-    urls:
-    - https://fonts.google.com/download?family=Kdam%20Thmor%20Pro
-    sha256: 76f47c35c63214a06342d485d5f44a06432f2e0be0969c63bb77f6b7784dde1e
-    file_size: 46117
+  Kdam Thmor Pro:
+    source: google
+    family: Kdam Thmor Pro
+    files:
+    - https://fonts.gstatic.com/s/kdamthmorpro/v4/EJRPQgAzVdcI-Qdvt34jzurnGA7_j89I8ZWb.ttf
 fonts:
 - name: Kdam Thmor Pro
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: KdamThmorPro-Regular
     version: 1.003; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2022 The Kdam Thmor Pro Project Authors (https://www.github.com/sovichet/kdam-thmor-pro)
-    font: KdamThmorPro-Regular.ttf
+    font: EJRPQgAzVdcI-Qdvt34jzurnGA7_j89I8ZWb.ttf
 extract: {}
 copyright: Copyright 2022 The Kdam Thmor Pro Project Authors (https://www.github.com/sovichet/kdam-thmor-pro)
 license_url: https://scripts.sil.org/OFL
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 8eff3863cc79abafc355292b0305461d23ca557cf62e01cf716476790251dcf7
-command: import google --formulas_path Formulas
+command: import google -n 9999

@@ -1,12 +1,16 @@
 ---
+name: Ruwudu
 description: Ruwudu
 homepage: www.sil.org
 resources:
-  Ruwudu.zip:
-    urls:
-    - https://fonts.google.com/download?family=Ruwudu
-    sha256: 4fcc1f74f33d0b4102c24f822813763d9b6cdc1f6911f7c3506142ee27da51c1
-    file_size: 258070
+  Ruwudu:
+    source: google
+    family: Ruwudu
+    files:
+    - https://fonts.gstatic.com/s/ruwudu/v4/syky-y1tj6UzRKfNlQCT9tPdpw.ttf
+    - https://fonts.gstatic.com/s/ruwudu/v4/sykx-y1tj6UzRKf1YSm3_vjBrlSILg.ttf
+    - https://fonts.gstatic.com/s/ruwudu/v4/sykx-y1tj6UzRKf1TS63_vjBrlSILg.ttf
+    - https://fonts.gstatic.com/s/ruwudu/v4/sykx-y1tj6UzRKf1KS-3_vjBrlSILg.ttf
 fonts:
 - name: Ruwudu
   styles:
@@ -17,7 +21,7 @@ fonts:
     version: '3.000'
     description: Ruwudu is the Manga word for "writing"
     copyright: Copyright (c) SIL International, 2015-2023
-    font: Ruwudu-Bold.ttf
+    font: sykx-y1tj6UzRKf1KS-3_vjBrlSILg.ttf
   - family_name: Ruwudu
     type: Regular
     full_name: Ruwudu
@@ -25,7 +29,7 @@ fonts:
     version: '3.000'
     description: Ruwudu is the Manga word for "writing"
     copyright: Copyright (c) SIL International, 2015-2023
-    font: Ruwudu-Regular.ttf
+    font: syky-y1tj6UzRKfNlQCT9tPdpw.ttf
 - name: Ruwudu Medium
   styles:
   - family_name: Ruwudu Medium
@@ -37,7 +41,7 @@ fonts:
     version: '3.000'
     description: Ruwudu is the Manga word for "writing"
     copyright: Copyright (c) SIL International, 2015-2023
-    font: Ruwudu-Medium.ttf
+    font: sykx-y1tj6UzRKf1YSm3_vjBrlSILg.ttf
 - name: Ruwudu SemiBold
   styles:
   - family_name: Ruwudu SemiBold
@@ -49,7 +53,7 @@ fonts:
     version: '3.000'
     description: Ruwudu is the Manga word for "writing"
     copyright: Copyright (c) SIL International, 2015-2023
-    font: Ruwudu-SemiBold.ttf
+    font: sykx-y1tj6UzRKf1TS63_vjBrlSILg.ttf
 extract: {}
 copyright: Copyright (c) SIL International, 2015-2023
 license_url: http://scripts.sil.org/OFL
@@ -58,13 +62,13 @@ open_license: |-
   with Reserved Font Names "Ruwudu" and "SIL".
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
-  This license is copied below, and is also available with a FAQ at:
+
+  This license is copied below, and is also available with an FAQ at:
   http://scripts.sil.org/OFL
 
-
-  -----------------------------------------------------------
+  ----------------------------------------------------
   SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
-  -----------------------------------------------------------
+  ----------------------------------------------------
 
   PREAMBLE
   The goals of the Open Font License (OFL) are to stimulate worldwide
@@ -148,5 +152,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9f0a13d1be996ac70fd4c068dc1d79d01aac9dde069706babec1760a7708610b
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

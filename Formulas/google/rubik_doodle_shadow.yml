@@ -1,12 +1,13 @@
 ---
+name: Rubik Doodle Shadow
 description: Rubik Doodle Shadow
 homepage: http://www.google.com/fonts
 resources:
-  Rubik_Doodle_Shadow.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rubik%20Doodle%20Shadow
-    sha256: cc8863aa45bebcbe0fa448e5e7ad5d495a3104762f57040de54e5abe01b70c4a
-    file_size: 615560
+  Rubik Doodle Shadow:
+    source: google
+    family: Rubik Doodle Shadow
+    files:
+    - https://fonts.gstatic.com/s/rubikdoodleshadow/v1/rP2bp3im_k8G_wTVdvvMdHqmXTR3lEaLyKuZ3KOY7Gw.ttf
 fonts:
 - name: Rubik Doodle Shadow
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: RubikDoodleShadow-Regular
     version: '2.201'
     copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
-    font: RubikDoodleShadow-Regular.ttf
+    font: rP2bp3im_k8G_wTVdvvMdHqmXTR3lEaLyKuZ3KOY7Gw.ttf
 extract: {}
 copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 5d1a415fdb773ebdf2455f36513b53691d402c4ca586ee188735ec9d11185314
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

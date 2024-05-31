@@ -3,30 +3,30 @@ name: Charmonman
 description: Charmonman
 homepage: http://www.cadsondemak.com
 resources:
-  Charmonman.zip:
-    urls:
-    - https://fonts.google.com/download?family=Charmonman
-    sha256: 633ebeabd79cf3cd792179dbab2664d9777cc2553cd1651cf10f0ad3d8b137f7
-    file_size: 121475
+  Charmonman:
+    source: google
+    family: Charmonman
+    files:
+    - https://fonts.gstatic.com/s/charmonman/v18/MjQDmiR3vP_nuxDv47jiWJGovLdh6OE.ttf
+    - https://fonts.gstatic.com/s/charmonman/v18/MjQAmiR3vP_nuxDv47jiYC2HmL9K9OhmGnY.ttf
 fonts:
 - name: Charmonman
   styles:
-  - family_name: Charmonman
-    type: Regular
-    full_name: Charmonman Regular
-    post_script_name: Charmonman-Regular
-    version: 1.000; ttfautohint (v1.6)
-    copyright: Copyright 2018 The Charmonman Project Authors (https://github.com/cadsondemak/Charmonman)
-    font: Charmonman-Regular.ttf
   - family_name: Charmonman
     type: Bold
     full_name: Charmonman Bold
     post_script_name: Charmonman-Bold
     version: 1.000; ttfautohint (v1.6)
     copyright: Copyright 2018 The Charmonman Project Authors (https://github.com/cadsondemak/Charmonman)
-    font: Charmonman-Bold.ttf
-extract:
-  format: zip
+    font: MjQAmiR3vP_nuxDv47jiYC2HmL9K9OhmGnY.ttf
+  - family_name: Charmonman
+    type: Regular
+    full_name: Charmonman Regular
+    post_script_name: Charmonman-Regular
+    version: 1.000; ttfautohint (v1.6)
+    copyright: Copyright 2018 The Charmonman Project Authors (https://github.com/cadsondemak/Charmonman)
+    font: MjQDmiR3vP_nuxDv47jiWJGovLdh6OE.ttf
+extract: {}
 copyright: Copyright 2018 The Charmonman Project Authors (https://github.com/cadsondemak/Charmonman)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -123,3 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

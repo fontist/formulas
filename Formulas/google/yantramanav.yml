@@ -1,48 +1,20 @@
 ---
 name: Yantramanav
 description: Yantramanav
-homepage:
 resources:
-  Yantramanav.zip:
-    urls:
-    - https://fonts.google.com/download?family=Yantramanav
-    sha256: fafdda5b4fe91e5e497451c0d96edf11a5b667473a422b8226f288de18973ecd
-    file_size: 444872
+  Yantramanav:
+    source: google
+    family: Yantramanav
+    files:
+    - https://fonts.gstatic.com/s/yantramanav/v13/flU-Rqu5zY00QEpyWJYWN5-QXeNzDB41rZg.ttf
+    - https://fonts.gstatic.com/s/yantramanav/v13/flUhRqu5zY00QEpyWJYWN59Yf8NZIhI8tIHh.ttf
+    - https://fonts.gstatic.com/s/yantramanav/v13/flU8Rqu5zY00QEpyWJYWN6f0V-dRCQ41.ttf
+    - https://fonts.gstatic.com/s/yantramanav/v13/flUhRqu5zY00QEpyWJYWN58AfsNZIhI8tIHh.ttf
+    - https://fonts.gstatic.com/s/yantramanav/v13/flUhRqu5zY00QEpyWJYWN59IeMNZIhI8tIHh.ttf
+    - https://fonts.gstatic.com/s/yantramanav/v13/flUhRqu5zY00QEpyWJYWN59wesNZIhI8tIHh.ttf
 fonts:
 - name: Yantramanav
   styles:
-  - family_name: Yantramanav
-    type: Thin
-    full_name: Yantramanav Thin
-    post_script_name: Yantramanav-Thin
-    version: 1.001;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.3)
-    copyright: Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright
-      2010, Google Inc. All Rights Reserved.
-    font: Yantramanav-Thin.ttf
-  - family_name: Yantramanav
-    type: Light
-    full_name: Yantramanav Light
-    post_script_name: Yantramanav-Light
-    version: 1.001;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.3)
-    copyright: Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright
-      2010, Google Inc. All Rights Reserved.
-    font: Yantramanav-Light.ttf
-  - family_name: Yantramanav
-    type: Regular
-    full_name: Yantramanav Regular
-    post_script_name: Yantramanav-Regular
-    version: 1.001;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.3)
-    copyright: Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright
-      2010, Google Inc. All Rights Reserved.
-    font: Yantramanav-Regular.ttf
-  - family_name: Yantramanav
-    type: Medium
-    full_name: Yantramanav Medium
-    post_script_name: Yantramanav-Medium
-    version: 1.001;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.3)
-    copyright: Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright
-      2010, Google Inc. All Rights Reserved.
-    font: Yantramanav-Medium.ttf
   - family_name: Yantramanav
     type: Bold
     full_name: Yantramanav Bold
@@ -50,17 +22,64 @@ fonts:
     version: 1.001;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.3)
     copyright: Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright
       2010, Google Inc. All Rights Reserved.
-    font: Yantramanav-Bold.ttf
+    font: flUhRqu5zY00QEpyWJYWN59IeMNZIhI8tIHh.ttf
   - family_name: Yantramanav
-    type: Black
+    type: Regular
+    full_name: Yantramanav Regular
+    post_script_name: Yantramanav-Regular
+    version: 1.001;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.3)
+    copyright: Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright
+      2010, Google Inc. All Rights Reserved.
+    font: flU8Rqu5zY00QEpyWJYWN6f0V-dRCQ41.ttf
+- name: Yantramanav Black
+  styles:
+  - family_name: Yantramanav Black
+    type: Regular
+    preferred_family_name: Yantramanav
+    preferred_type: Black
     full_name: Yantramanav Black
     post_script_name: Yantramanav-Black
     version: 1.001;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.3)
     copyright: Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright
       2010, Google Inc. All Rights Reserved.
-    font: Yantramanav-Black.ttf
-extract:
-  format: zip
+    font: flUhRqu5zY00QEpyWJYWN59wesNZIhI8tIHh.ttf
+- name: Yantramanav Light
+  styles:
+  - family_name: Yantramanav Light
+    type: Regular
+    preferred_family_name: Yantramanav
+    preferred_type: Light
+    full_name: Yantramanav Light
+    post_script_name: Yantramanav-Light
+    version: 1.001;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.3)
+    copyright: Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright
+      2010, Google Inc. All Rights Reserved.
+    font: flUhRqu5zY00QEpyWJYWN59Yf8NZIhI8tIHh.ttf
+- name: Yantramanav Medium
+  styles:
+  - family_name: Yantramanav Medium
+    type: Regular
+    preferred_family_name: Yantramanav
+    preferred_type: Medium
+    full_name: Yantramanav Medium
+    post_script_name: Yantramanav-Medium
+    version: 1.001;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.3)
+    copyright: Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright
+      2010, Google Inc. All Rights Reserved.
+    font: flUhRqu5zY00QEpyWJYWN58AfsNZIhI8tIHh.ttf
+- name: Yantramanav Thin
+  styles:
+  - family_name: Yantramanav Thin
+    type: Regular
+    preferred_family_name: Yantramanav
+    preferred_type: Thin
+    full_name: Yantramanav Thin
+    post_script_name: Yantramanav-Thin
+    version: 1.001;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.3)
+    copyright: Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright
+      2010, Google Inc. All Rights Reserved.
+    font: flU-Rqu5zY00QEpyWJYWN5-QXeNzDB41rZg.ttf
+extract: {}
 copyright: Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright 2010,
   Google Inc. All Rights Reserved.
 license_url: http://scripts.sil.org/OFL
@@ -158,3 +177,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

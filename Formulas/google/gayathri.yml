@@ -3,34 +3,16 @@ name: Gayathri
 description: Gayathri
 homepage: https://smc.org.in
 resources:
-  Gayathri.zip:
-    urls:
-    - https://fonts.google.com/download?family=Gayathri
-    sha256: b262f5e63a422eeee8ada7f4bb02fe52071b4d69e360ecbf82069a672d3d73bc
-    file_size: 246226
+  Gayathri:
+    source: google
+    family: Gayathri
+    files:
+    - https://fonts.gstatic.com/s/gayathri/v17/MCoWzAb429DbBilWLLhc-pvSA_gA2W8.ttf
+    - https://fonts.gstatic.com/s/gayathri/v17/MCoQzAb429DbBilWLIA48J_wBugA.ttf
+    - https://fonts.gstatic.com/s/gayathri/v17/MCoXzAb429DbBilWLLiE37v4LfQJwHbn.ttf
 fonts:
 - name: Gayathri
   styles:
-  - family_name: Gayathri
-    type: Thin
-    full_name: Gayathri Thin
-    post_script_name: Gayathri-Thin
-    version: '1.000'
-    description: A gentle and modern Malayalam display typeface. Available in three
-      weights, Gayathri is best suited for headlines, posters, titles and captions.
-      Unicode compliant and libre licensed.
-    copyright: Copyright 2019 The Gayathri Project Authors (https://gitlab.com/smc/fonts/gayathri)
-    font: Gayathri-Thin.ttf
-  - family_name: Gayathri
-    type: Regular
-    full_name: Gayathri Regular
-    post_script_name: Gayathri-Regular
-    version: '1.000'
-    description: A gentle and modern Malayalam display typeface. Available in three
-      weights, Gayathri is best suited for headlines, posters, titles and captions.
-      Unicode compliant and libre licensed.
-    copyright: Copyright 2019 The Gayathri Project Authors (https://gitlab.com/smc/fonts/gayathri)
-    font: Gayathri-Regular.ttf
   - family_name: Gayathri
     type: Bold
     full_name: Gayathri Bold
@@ -40,9 +22,32 @@ fonts:
       weights, Gayathri is best suited for headlines, posters, titles and captions.
       Unicode compliant and libre licensed.
     copyright: Copyright 2019 The Gayathri Project Authors (https://gitlab.com/smc/fonts/gayathri)
-    font: Gayathri-Bold.ttf
-extract:
-  format: zip
+    font: MCoXzAb429DbBilWLLiE37v4LfQJwHbn.ttf
+  - family_name: Gayathri
+    type: Regular
+    full_name: Gayathri Regular
+    post_script_name: Gayathri-Regular
+    version: '1.000'
+    description: A gentle and modern Malayalam display typeface. Available in three
+      weights, Gayathri is best suited for headlines, posters, titles and captions.
+      Unicode compliant and libre licensed.
+    copyright: Copyright 2019 The Gayathri Project Authors (https://gitlab.com/smc/fonts/gayathri)
+    font: MCoQzAb429DbBilWLIA48J_wBugA.ttf
+- name: Gayathri Thin
+  styles:
+  - family_name: Gayathri Thin
+    type: Regular
+    preferred_family_name: Gayathri
+    preferred_type: Thin
+    full_name: Gayathri Thin
+    post_script_name: Gayathri-Thin
+    version: '1.000'
+    description: A gentle and modern Malayalam display typeface. Available in three
+      weights, Gayathri is best suited for headlines, posters, titles and captions.
+      Unicode compliant and libre licensed.
+    copyright: Copyright 2019 The Gayathri Project Authors (https://gitlab.com/smc/fonts/gayathri)
+    font: MCoWzAb429DbBilWLLhc-pvSA_gA2W8.ttf
+extract: {}
 copyright: Copyright 2019 The Gayathri Project Authors (https://gitlab.com/smc/fonts/gayathri)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -138,3 +143,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

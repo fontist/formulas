@@ -1,12 +1,13 @@
 ---
+name: Whisper
 description: Whisper
 homepage: www.typesetit.com
 resources:
-  Whisper.zip:
-    urls:
-    - https://fonts.google.com/download?family=Whisper
-    sha256: 82fa7fd68b8be73cff45cd433d14f174ae23957f49effe76f5877f14ed9f26fd
-    file_size: 65252
+  Whisper:
+    source: google
+    family: Whisper
+    files:
+    - https://fonts.gstatic.com/s/whisper/v5/q5uHsoqtKftx74K9milCBxxdmYU.ttf
 fonts:
 - name: Whisper
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: Whisper-Regular
     version: 1.010; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 1993-2022 The Whisper Project Authors (https://github.com/googlefonts/whisper)
-    font: Whisper-Regular.ttf
+    font: q5uHsoqtKftx74K9milCBxxdmYU.ttf
 extract: {}
 copyright: Copyright 1993-2022 The Whisper Project Authors (https://github.com/googlefonts/whisper)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: cc07125aca03a66284074e979be4cf691f523a762bbee3cb2d820df83ada37b8
-command: import google --formulas_path Formulas
+command: import google -n 9999

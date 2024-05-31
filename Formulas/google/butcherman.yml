@@ -1,13 +1,12 @@
 ---
 name: Butcherman
 description: Butcherman
-homepage:
 resources:
-  Butcherman.zip:
-    urls:
-    - https://fonts.google.com/download?family=Butcherman
-    sha256: e88d89d1d6b935186c1a274dd187e2d6df3046468149acacbade260f83d0fdea
-    file_size: 44941
+  Butcherman:
+    source: google
+    family: Butcherman
+    files:
+    - https://fonts.gstatic.com/s/butcherman/v24/2EbiL-thF0loflXUBOdb1zWzq_5uT84.ttf
 fonts:
 - name: Butcherman
   styles:
@@ -17,9 +16,8 @@ fonts:
     post_script_name: Butcherman-Regular
     version: '001.004'
     copyright: Copyright (c) 2011, Typomondo, with Reserved Font Name  "Butcherman".
-    font: Butcherman-Regular.ttf
-extract:
-  format: zip
+    font: 2EbiL-thF0loflXUBOdb1zWzq_5uT84.ttf
+extract: {}
 copyright: Copyright (c) 2011, Typomondo, with Reserved Font Name  "Butcherman".
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -117,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Homemade Apple
 description: Homemade Apple
 homepage: http://www.fontdiner.com
 resources:
-  HomemadeApple.zip:
-    urls:
-    - https://fonts.google.com/download?family=Homemade%20Apple
-    sha256: 9b3890562978f3d714a41720d5649fddd65526d24e580bce9360972f55a9455a
-    file_size: 67503
+  Homemade Apple:
+    source: google
+    family: Homemade Apple
+    files:
+    - https://fonts.gstatic.com/s/homemadeapple/v22/Qw3EZQFXECDrI2q789EKQZJob3x9Vnksi4M7.ttf
 fonts:
 - name: Homemade Apple
   styles:
@@ -16,13 +17,12 @@ fonts:
     post_script_name: HomemadeApple-Regular
     version: '1.001'
     copyright: Copyright (c) 2010 by Font Diner, Inc. All rights reserved.
-    font: HomemadeApple-Regular.ttf
-extract:
-  format: zip
+    font: Qw3EZQFXECDrI2q789EKQZJob3x9Vnksi4M7.ttf
+extract: {}
 copyright: Copyright (c) 2010 by Font Diner, Inc. All rights reserved.
 license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |2-
-                                   Apache License
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -223,3 +223,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999
