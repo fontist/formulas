@@ -2,7 +2,7 @@ name: metanorma
 
 on:
   push:
-    branches: [ master, v2, v3 ]
+    branches: [ master, v2, v3, v4 ]
   pull_request:
 
 jobs:
@@ -33,8 +33,8 @@ jobs:
           path: "formulas"
 
       - run: |
-          mkdir -p $HOME/.fontist/versions/v3
-          mv formulas $HOME/.fontist/versions/v3/formulas
+          mkdir -p $HOME/.fontist/versions/v4
+          mv formulas $HOME/.fontist/versions/v4/formulas
         shell: bash
 
       - uses: ruby/setup-ruby@v1
