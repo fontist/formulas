@@ -3,22 +3,15 @@ name: Sintony
 description: Sintony
 homepage: http://www.tipo.net.ar
 resources:
-  Sintony.zip:
-    urls:
-    - https://fonts.google.com/download?family=Sintony
-    sha256: c46920465a8e322e2f522be1182e321bc120d56d51550ad526e7ce729947f262
-    file_size: 30109
+  Sintony:
+    source: google
+    family: Sintony
+    files:
+    - https://fonts.gstatic.com/s/sintony/v15/XoHm2YDqR7-98cVUITQnu98ojjs.ttf
+    - https://fonts.gstatic.com/s/sintony/v15/XoHj2YDqR7-98cVUGYgIn9cDkjLp6C8.ttf
 fonts:
 - name: Sintony
   styles:
-  - family_name: Sintony
-    type: Regular
-    full_name: Sintony
-    post_script_name: Sintony
-    version: '001.001'
-    copyright: Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
-      Font Name 'Sintony'
-    font: Sintony-Regular.ttf
   - family_name: Sintony
     type: Bold
     full_name: Sintony Bold
@@ -26,11 +19,18 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
       Font Name 'Sintony'
-    font: Sintony-Bold.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
-  with Reserved Font Name 'Sintony'
+    font: XoHj2YDqR7-98cVUGYgIn9cDkjLp6C8.ttf
+  - family_name: Sintony
+    type: Regular
+    full_name: Sintony
+    post_script_name: Sintony
+    version: '001.001'
+    copyright: Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
+      Font Name 'Sintony'
+    font: XoHm2YDqR7-98cVUITQnu98ojjs.ttf
+extract: {}
+copyright: Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
+  Font Name 'Sintony'
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Sintony'
@@ -126,3 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Imperial Script
 description: Imperial Script
 homepage: www.typesetit.com
 resources:
-  Imperial_Script.zip:
-    urls:
-    - https://fonts.google.com/download?family=Imperial%20Script
-    sha256: 536079e0572047cc2aa0d09cd56d8c8e9def0cef0ca45e0a997b1853fae0c9d9
-    file_size: 73198
+  Imperial Script:
+    source: google
+    family: Imperial Script
+    files:
+    - https://fonts.gstatic.com/s/imperialscript/v6/5DCPAKrpzy_H98IV2ISnZBbGrVNvPenlvttWNg.ttf
 fonts:
 - name: Imperial Script
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: ImperialScript-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2008 The Imperial Script Project Authors (https://github.com/googlefonts/imperial-script)
-    font: ImperialScript-Regular.ttf
+    font: 5DCPAKrpzy_H98IV2ISnZBbGrVNvPenlvttWNg.ttf
 extract: {}
 copyright: Copyright 2008 The Imperial Script Project Authors (https://github.com/googlefonts/imperial-script)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 61b59aed6446886ce9f1f1738ce3f1fa8eb3917e31940e7bbe4a9c9cd711a331
-command: google import --formulas_path Formulas
+command: import google -n 9999

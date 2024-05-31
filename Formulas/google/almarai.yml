@@ -1,46 +1,61 @@
 ---
 name: Almarai
 description: Almarai
-homepage:
 resources:
-  Almarai.zip:
-    urls:
-    - https://fonts.google.com/download?family=Almarai
-    sha256: 10bf0b0467fca6720fb274f858517cf0f901eb84195310bd10da0c30500dcc31
-    file_size: 265903
+  Almarai:
+    source: google
+    family: Almarai
+    files:
+    - https://fonts.gstatic.com/s/almarai/v12/tssoApxBaigK_hnnS_anhnicoq72sXg.ttf
+    - https://fonts.gstatic.com/s/almarai/v12/tsstApxBaigK_hnnc1qPonC3vqc.ttf
+    - https://fonts.gstatic.com/s/almarai/v12/tssoApxBaigK_hnnS-aghnicoq72sXg.ttf
+    - https://fonts.gstatic.com/s/almarai/v12/tssoApxBaigK_hnnS_qjhnicoq72sXg.ttf
 fonts:
 - name: Almarai
   styles:
   - family_name: Almarai
-    type: Light
-    full_name: Almarai Light
-    post_script_name: Almarai-Light
-    version: '1.10'
-    copyright: Copyright (c) 2019 by Almarai. All rights reserved.
-    font: Almarai-Light.ttf
-  - family_name: Almarai
     type: Regular
+    preferred_family_name: Almarai
+    preferred_type: Regular
     full_name: Almarai
     post_script_name: Almarai-Regular
     version: '1.10'
     copyright: Copyright (c) 2019 by Almarai. All rights reserved.
-    font: Almarai-Regular.ttf
-  - family_name: Almarai
-    type: Bold
+    font: tsstApxBaigK_hnnc1qPonC3vqc.ttf
+- name: Almarai Bold
+  styles:
+  - family_name: Almarai Bold
+    type: Regular
+    preferred_family_name: Almarai
+    preferred_type: Bold
     full_name: Almarai Bold
     post_script_name: Almarai-Bold
     version: '1.10'
     copyright: Copyright (c) 2019 by Almarai. All rights reserved.
-    font: Almarai-Bold.ttf
-  - family_name: Almarai
-    type: ExtraBold
+    font: tssoApxBaigK_hnnS-aghnicoq72sXg.ttf
+- name: Almarai ExtraBold
+  styles:
+  - family_name: Almarai ExtraBold
+    type: Regular
+    preferred_family_name: Almarai
+    preferred_type: ExtraBold
     full_name: Almarai Extrabold
     post_script_name: Almarai-ExtraBold
     version: '1.10'
     copyright: Copyright (c) 2019 by Almarai. All rights reserved.
-    font: Almarai-ExtraBold.ttf
-extract:
-  format: zip
+    font: tssoApxBaigK_hnnS_qjhnicoq72sXg.ttf
+- name: Almarai Light
+  styles:
+  - family_name: Almarai Light
+    type: Regular
+    preferred_family_name: Almarai
+    preferred_type: Light
+    full_name: Almarai Light
+    post_script_name: Almarai-Light
+    version: '1.10'
+    copyright: Copyright (c) 2019 by Almarai. All rights reserved.
+    font: tssoApxBaigK_hnnS_anhnicoq72sXg.ttf
+extract: {}
 copyright: Copyright (c) 2019 by Almarai. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -137,3 +152,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

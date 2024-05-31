@@ -1,12 +1,13 @@
 ---
+name: Noto Sans SignWriting
 description: Noto Sans SignWriting
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_SignWriting.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20SignWriting
-    sha256: 4654cd90695164afb0a1f08093af0876bcecfcfee8904d5e97688d7e83344e12
-    file_size: 2536913
+  Noto Sans SignWriting:
+    source: google
+    family: Noto Sans SignWriting
+    files:
+    - https://fonts.gstatic.com/s/notosanssignwriting/v4/Noas6VX_wIWFbTTCrYmvy9A2UnkL-2SZAWiUEVCARYQemg.ttf
 fonts:
 - name: Noto Sans SignWriting
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.005; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sign-writing)
-    font: NotoSansSignWriting-Regular.ttf
+    font: Noas6VX_wIWFbTTCrYmvy9A2UnkL-2SZAWiUEVCARYQemg.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sign-writing)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 20c47413a67b081bd81149d24d53a945b5c80dff1e52ae56ef423fe6c1f5692e
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

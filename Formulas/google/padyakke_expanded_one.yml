@@ -1,12 +1,13 @@
 ---
+name: Padyakke Expanded One
 description: Padyakke Expanded One
 homepage: http://www.dunwichtype.com
 resources:
-  Padyakke_Expanded_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Padyakke%20Expanded%20One
-    sha256: 666e6dbe6288ae338ba6e060001e65ce760e7e63ab0aa82b15cd1fe803a15b4a
-    file_size: 160185
+  Padyakke Expanded One:
+    source: google
+    family: Padyakke Expanded One
+    files:
+    - https://fonts.gstatic.com/s/padyakkeexpandedone/v6/K2FvfY9El_tbR0JfHb6WWvrBaU6XAUvC4IAYOKRkpDjeoQ.ttf
 fonts:
 - name: Padyakke Expanded One
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: PadyakkeExpandedOne-Regular
     version: 1.500; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2015 The Padyakke Project Authors (https://github.com/DunwichType/Padyakke_Libre)
-    font: PadyakkeExpandedOne-Regular.ttf
+    font: K2FvfY9El_tbR0JfHb6WWvrBaU6XAUvC4IAYOKRkpDjeoQ.ttf
 extract: {}
 copyright: Copyright 2015 The Padyakke Project Authors (https://github.com/DunwichType/Padyakke_Libre)
 license_url: http://scripts.sil.org/OFL
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d528faef5f507a1694162ef0b2cf07451347db754c1f84e1120a89b30c43a640
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

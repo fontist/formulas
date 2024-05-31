@@ -3,11 +3,11 @@ name: Felipa
 description: Felipa
 homepage: www.fontstage.com
 resources:
-  Felipa.zip:
-    urls:
-    - https://fonts.google.com/download?family=Felipa
-    sha256: 57d07c26c091340eeab9715d3fae33296f2abd72986aace1054073d86011550e
-    file_size: 22609
+  Felipa:
+    source: google
+    family: Felipa
+    files:
+    - https://fonts.gstatic.com/s/felipa/v25/FwZa7-owz1Eu4F_wSNSEwM2zpA.ttf
 fonts:
 - name: Felipa
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font
       Name "Felipa"
-    font: Felipa-Regular.ttf
-extract:
-  format: zip
+    font: FwZa7-owz1Eu4F_wSNSEwM2zpA.ttf
+extract: {}
 copyright: Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font Name
   "Felipa"
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

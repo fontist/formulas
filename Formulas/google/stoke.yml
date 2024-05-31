@@ -3,11 +3,12 @@ name: Stoke
 description: Stoke
 homepage: sorkintype.com
 resources:
-  Stoke.zip:
-    urls:
-    - https://fonts.google.com/download?family=Stoke
-    sha256: 4a4ab29536669e9668432eec58cfe9263f9bcaddc0e8d7a762d1fe9261939990
-    file_size: 84649
+  Stoke:
+    source: google
+    family: Stoke
+    files:
+    - https://fonts.gstatic.com/s/stoke/v24/z7NXdRb7aTMfKNvFVgxC_pjcTeWU.ttf
+    - https://fonts.gstatic.com/s/stoke/v24/z7NadRb7aTMfKONpfihK1YTV.ttf
 fonts:
 - name: Stoke
   styles:
@@ -21,7 +22,7 @@ fonts:
       of seriousness of form and whimsical proportions and details. Stoke's low x
       height make it most suitable for use at medium to large sizes.
     copyright: Copyright (c) 2010 by Sorkin Type Co with Reserved Font Name Stoke.
-    font: Stoke-Light.ttf
+    font: z7NXdRb7aTMfKNvFVgxC_pjcTeWU.ttf
   - family_name: Stoke
     type: Regular
     full_name: Stoke Regular
@@ -35,11 +36,9 @@ fonts:
       Copyright (c) 2011-2012 by Sorkin Type Co with Reserved Font Name Stoke.
 
       This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
-    font: Stoke-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com),
-  with Reserved Font Name 'Stoke'
+    font: z7NadRb7aTMfKONpfihK1YTV.ttf
+extract: {}
+copyright: Copyright (c) 2010 by Sorkin Type Co with Reserved Font Name Stoke.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com), with Reserved Font Name "Stoke".
@@ -135,3 +134,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

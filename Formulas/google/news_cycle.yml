@@ -1,23 +1,16 @@
 ---
+name: News Cycle
 description: News Cycle
-homepage:
 resources:
-  NewsCycle.zip:
-    urls:
-    - https://fonts.google.com/download?family=News%20Cycle
-    sha256: 00ca1cdc542969706ba1e8ba3d551de5c66be09f87b34ff8e6e7bf7ffd9655ce
-    file_size: 113632
+  News Cycle:
+    source: google
+    family: News Cycle
+    files:
+    - https://fonts.gstatic.com/s/newscycle/v23/CSR64z1Qlv-GDxkbKVQ_TOcATNt_pOU.ttf
+    - https://fonts.gstatic.com/s/newscycle/v23/CSR54z1Qlv-GDxkbKVQ_dFsvaNNUuOwkC2s.ttf
 fonts:
 - name: News Cycle
   styles:
-  - family_name: News Cycle
-    type: Regular
-    full_name: News Cycle
-    post_script_name: NewsCycle
-    version: 0.5.1
-    copyright: Copyright (c) 2010-2011, Nathan Willis (nwillis@glyphography.com),
-      with Reserved Font Name "News Cycle."
-    font: NewsCycle-Regular.ttf
   - family_name: News Cycle
     type: Bold
     full_name: News Cycle Bold
@@ -25,9 +18,16 @@ fonts:
     version: 0.5.1
     copyright: Copyright (c) 2010-2011, Nathan Willis (nwillis@glyphography.com),
       with Reserved Font Name "News Cycle."
-    font: NewsCycle-Bold.ttf
-extract:
-  format: zip
+    font: CSR54z1Qlv-GDxkbKVQ_dFsvaNNUuOwkC2s.ttf
+  - family_name: News Cycle
+    type: Regular
+    full_name: News Cycle
+    post_script_name: NewsCycle
+    version: 0.5.1
+    copyright: Copyright (c) 2010-2011, Nathan Willis (nwillis@glyphography.com),
+      with Reserved Font Name "News Cycle."
+    font: CSR64z1Qlv-GDxkbKVQ_TOcATNt_pOU.ttf
+extract: {}
 copyright: Copyright (c) 2010-2011, Nathan Willis (nwillis@glyphography.com), with
   Reserved Font Name "News Cycle."
 license_url: http://scripts.sil.org/OFL
@@ -125,3 +125,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

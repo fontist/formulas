@@ -3,10 +3,18 @@ name: Brygada 1918
 description: Brygada 1918
 homepage: www.niepodlegla.gov.pl
 resources:
-  Brygada_1918.zip:
-    urls:
-    - https://fonts.google.com/download?family=Brygada%201918
-    file_size: 874264
+  Brygada 1918:
+    source: google
+    family: Brygada 1918
+    files:
+    - https://fonts.gstatic.com/s/brygada1918/v22/pe08MI6eKpdGqlF5LANrM--ACNaeo8mTUIR_y2-f-V8Wu5O3gbo.ttf
+    - https://fonts.gstatic.com/s/brygada1918/v22/pe08MI6eKpdGqlF5LANrM--ACNaeo8mTUIR_y12f-V8Wu5O3gbo.ttf
+    - https://fonts.gstatic.com/s/brygada1918/v22/pe08MI6eKpdGqlF5LANrM--ACNaeo8mTUIR_y7GY-V8Wu5O3gbo.ttf
+    - https://fonts.gstatic.com/s/brygada1918/v22/pe08MI6eKpdGqlF5LANrM--ACNaeo8mTUIR_y4iY-V8Wu5O3gbo.ttf
+    - https://fonts.gstatic.com/s/brygada1918/v22/pe06MI6eKpdGqlF5LANrM--qAeRhe6D4yip43qfcERwcv7GykboaLg.ttf
+    - https://fonts.gstatic.com/s/brygada1918/v22/pe06MI6eKpdGqlF5LANrM--qAeRhe6D4yip43qfcIxwcv7GykboaLg.ttf
+    - https://fonts.gstatic.com/s/brygada1918/v22/pe06MI6eKpdGqlF5LANrM--qAeRhe6D4yip43qfczxscv7GykboaLg.ttf
+    - https://fonts.gstatic.com/s/brygada1918/v22/pe06MI6eKpdGqlF5LANrM--qAeRhe6D4yip43qfc9hscv7GykboaLg.ttf
 fonts:
 - name: Brygada 1918
   styles:
@@ -16,42 +24,28 @@ fonts:
     post_script_name: Brygada1918-Bold
     version: '3.006'
     copyright: Copyright 2020 The Brygada 1918 Project Authors (https://github.com/kosmynkab/Brygada-1918)
-    font: Brygada1918-Bold.ttf
+    font: pe08MI6eKpdGqlF5LANrM--ACNaeo8mTUIR_y4iY-V8Wu5O3gbo.ttf
   - family_name: Brygada 1918
     type: Bold Italic
     full_name: Brygada 1918 Bold Italic
     post_script_name: Brygada1918-BoldItalic
     version: '3.006'
     copyright: Copyright 2020 The Brygada 1918 Project Authors (https://github.com/kosmynkab/Brygada-1918)
-    font: Brygada1918-BoldItalic.ttf
+    font: pe06MI6eKpdGqlF5LANrM--qAeRhe6D4yip43qfc9hscv7GykboaLg.ttf
   - family_name: Brygada 1918
     type: Italic
     full_name: Brygada 1918 Italic
     post_script_name: Brygada1918-Italic
     version: '3.006'
     copyright: Copyright 2020 The Brygada 1918 Project Authors (https://github.com/kosmynkab/Brygada-1918)
-    font: Brygada1918-Italic-VariableFont_wght.ttf
-  - family_name: Brygada 1918
-    type: Italic
-    full_name: Brygada 1918 Italic
-    post_script_name: Brygada1918-Italic
-    version: '3.006'
-    copyright: Copyright 2020 The Brygada 1918 Project Authors (https://github.com/kosmynkab/Brygada-1918)
-    font: Brygada1918-Italic.ttf
+    font: pe06MI6eKpdGqlF5LANrM--qAeRhe6D4yip43qfcERwcv7GykboaLg.ttf
   - family_name: Brygada 1918
     type: Regular
     full_name: Brygada 1918 Regular
     post_script_name: Brygada1918-Regular
     version: '3.006'
     copyright: Copyright 2020 The Brygada 1918 Project Authors (https://github.com/kosmynkab/Brygada-1918)
-    font: Brygada1918-VariableFont_wght.ttf
-  - family_name: Brygada 1918
-    type: Regular
-    full_name: Brygada 1918 Regular
-    post_script_name: Brygada1918-Regular
-    version: '3.006'
-    copyright: Copyright 2020 The Brygada 1918 Project Authors (https://github.com/kosmynkab/Brygada-1918)
-    font: Brygada1918-Regular.ttf
+    font: pe08MI6eKpdGqlF5LANrM--ACNaeo8mTUIR_y2-f-V8Wu5O3gbo.ttf
 - name: Brygada 1918 Medium
   styles:
   - family_name: Brygada 1918 Medium
@@ -62,7 +56,7 @@ fonts:
     post_script_name: Brygada1918-MediumItalic
     version: '3.006'
     copyright: Copyright 2020 The Brygada 1918 Project Authors (https://github.com/kosmynkab/Brygada-1918)
-    font: Brygada1918-MediumItalic.ttf
+    font: pe06MI6eKpdGqlF5LANrM--qAeRhe6D4yip43qfcIxwcv7GykboaLg.ttf
   - family_name: Brygada 1918 Medium
     type: Regular
     preferred_family_name: Brygada 1918
@@ -71,7 +65,7 @@ fonts:
     post_script_name: Brygada1918-Medium
     version: '3.006'
     copyright: Copyright 2020 The Brygada 1918 Project Authors (https://github.com/kosmynkab/Brygada-1918)
-    font: Brygada1918-Medium.ttf
+    font: pe08MI6eKpdGqlF5LANrM--ACNaeo8mTUIR_y12f-V8Wu5O3gbo.ttf
 - name: Brygada 1918 SemiBold
   styles:
   - family_name: Brygada 1918 SemiBold
@@ -82,7 +76,7 @@ fonts:
     post_script_name: Brygada1918-SemiBoldItalic
     version: '3.006'
     copyright: Copyright 2020 The Brygada 1918 Project Authors (https://github.com/kosmynkab/Brygada-1918)
-    font: Brygada1918-SemiBoldItalic.ttf
+    font: pe06MI6eKpdGqlF5LANrM--qAeRhe6D4yip43qfczxscv7GykboaLg.ttf
   - family_name: Brygada 1918 SemiBold
     type: Regular
     preferred_family_name: Brygada 1918
@@ -91,7 +85,7 @@ fonts:
     post_script_name: Brygada1918-SemiBold
     version: '3.006'
     copyright: Copyright 2020 The Brygada 1918 Project Authors (https://github.com/kosmynkab/Brygada-1918)
-    font: Brygada1918-SemiBold.ttf
+    font: pe08MI6eKpdGqlF5LANrM--ACNaeo8mTUIR_y7GY-V8Wu5O3gbo.ttf
 extract: {}
 copyright: Copyright 2020 The Brygada 1918 Project Authors (https://github.com/kosmynkab/Brygada-1918)
 license_url: https://scripts.sil.org/OFL
@@ -100,7 +94,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -189,5 +183,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 3bce8f5d7c618a38e12341f40318596632a04412415d3cdd7ab03197bd8ad1ce
-command: google import --formulas_path Formulas
+command: import google -n 9999

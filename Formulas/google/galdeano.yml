@@ -3,11 +3,11 @@ name: Galdeano
 description: Galdeano
 homepage: http://www.tipo.net.ar
 resources:
-  Galdeano.zip:
-    urls:
-    - https://fonts.google.com/download?family=Galdeano
-    sha256: 3952c3f3a5768d27de03b4ab22eeac38b66e46b18b8a25279319728320a07678
-    file_size: 15887
+  Galdeano:
+    source: google
+    family: Galdeano
+    files:
+    - https://fonts.gstatic.com/s/galdeano/v22/uU9MCBoQ4YOqOW1boDPx8PCOg0uX.ttf
 fonts:
 - name: Galdeano
   styles:
@@ -18,11 +18,10 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar),
       with Reserved Font Name "Galdeano".
-    font: Galdeano-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar dario@tipo.net.ar),
-  with Reserved Font Name "Galdeano".
+    font: uU9MCBoQ4YOqOW1boDPx8PCOg0uX.ttf
+extract: {}
+copyright: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar), with
+  Reserved Font Name "Galdeano".
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar),
@@ -119,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Abyssinica SIL
 description: Abyssinica SIL
 homepage: http://scripts.sil.org
 resources:
-  Abyssinica_SIL.zip:
-    urls:
-    - https://fonts.google.com/download?family=Abyssinica%20SIL
-    sha256: 67615b12f3c5a86971f0f6997f22849e5571b1b956de157a9e971070d712bf33
-    file_size: 141932
+  Abyssinica SIL:
+    source: google
+    family: Abyssinica SIL
+    files:
+    - https://fonts.gstatic.com/s/abyssinicasil/v5/oY1H8ezOqK7iI3rK_45WKoc8J6UZBFOVAXuI.ttf
 fonts:
 - name: Abyssinica SIL
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: '2.200'
     description: Ethiopic script font designed in a calligraphic style
     copyright: Copyright (c) 2000-2022 by SIL International
-    font: AbyssinicaSIL-Regular.ttf
+    font: oY1H8ezOqK7iI3rK_45WKoc8J6UZBFOVAXuI.ttf
 extract: {}
 copyright: Copyright (c) 2000-2022 by SIL International
 license_url: http://scripts.sil.org/OFL
@@ -30,6 +31,7 @@ open_license: |-
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
   http://scripts.sil.org/OFL
+
 
 
   -----------------------------------------------------------
@@ -118,5 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 19392cbc8f2652cf1608a858ee6645247dee36d3b951762e649a5bd636a816fd
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

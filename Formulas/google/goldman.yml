@@ -3,11 +3,12 @@ name: Goldman
 description: Goldman
 homepage: magictype.in
 resources:
-  Goldman.zip:
-    urls:
-    - https://fonts.google.com/download?family=Goldman
-    sha256: 1a015192ac4e72128af2a60e7e72045789dda7fa87a049a17bfb957b8cbf50e2
-    file_size: 82574
+  Goldman:
+    source: google
+    family: Goldman
+    files:
+    - https://fonts.gstatic.com/s/goldman/v19/pe0uMIWbN4JFplR2LDJ4Bt-7G98.ttf
+    - https://fonts.gstatic.com/s/goldman/v19/pe0rMIWbN4JFplR2FI5XIteQB9Zra1U.ttf
 fonts:
 - name: Goldman
   styles:
@@ -17,14 +18,14 @@ fonts:
     post_script_name: Goldman-Bold
     version: 1.000; ttfautohint (v1.8.3)
     copyright: Copyright 2018 The Goldman Project Authors (https://github.com/magictype/goldman)
-    font: Goldman-Bold.ttf
+    font: pe0rMIWbN4JFplR2FI5XIteQB9Zra1U.ttf
   - family_name: Goldman
     type: Regular
     full_name: Goldman Regular
     post_script_name: Goldman-Regular
     version: 1.000; ttfautohint (v1.8.3)
     copyright: Copyright 2018 The Goldman Project Authors (https://github.com/magictype/goldman)
-    font: Goldman-Regular.ttf
+    font: pe0uMIWbN4JFplR2LDJ4Bt-7G98.ttf
 extract: {}
 copyright: Copyright 2018 The Goldman Project Authors (https://github.com/magictype/goldman)
 license_url: https://scripts.sil.org/OFL
@@ -68,7 +69,7 @@ open_license: |-
   distributed by the Copyright Holder(s).
 
   "Modified Version" refers to any derivative made by adding to, deleting,
-  or substituting -- in part or in whole -- any of the components of the
+  or substituting — in part or in whole — any of the components of the
   Original Version, by changing formats or by porting the Font Software to a
   new environment.
 
@@ -122,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b7101314ef39ad2f126d5ec9738881ef74d39c4dbc0f42ac12adad74d5c07a52
-command: google import --formulas_path Formulas
+command: import google -n 9999

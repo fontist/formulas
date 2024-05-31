@@ -1,12 +1,13 @@
 ---
+name: Elsie Swash Caps
 description: Elsie Swash Caps
-homepage:
 resources:
-  ElsieSwashCaps.zip:
-    urls:
-    - https://fonts.google.com/download?family=Elsie%20Swash%20Caps
-    sha256: 64d1c190afc2d8bd0217466544e7e0ee693d8ff07088346b5a933249cf70a98b
-    file_size: 39594
+  Elsie Swash Caps:
+    source: google
+    family: Elsie Swash Caps
+    files:
+    - https://fonts.gstatic.com/s/elsieswashcaps/v23/845DNN8xGZyVX5MVo_upKf7KnjK0ferVKGWsUo8.ttf
+    - https://fonts.gstatic.com/s/elsieswashcaps/v23/845ENN8xGZyVX5MVo_upKf7KnjK0RW74DG2HToawrdU.ttf
 fonts:
 - name: Elsie Swash Caps
   styles:
@@ -17,17 +18,20 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2010-2012, Alejandro Inler (alejandroinler@gmail.com),
       with Reserved Font Name 'Elsie'
-    font: ElsieSwashCaps-Regular.ttf
-  - family_name: Elsie Swash Caps
-    type: Black
+    font: 845DNN8xGZyVX5MVo_upKf7KnjK0ferVKGWsUo8.ttf
+- name: Elsie Swash Caps Black
+  styles:
+  - family_name: Elsie Swash Caps Black
+    type: Regular
+    preferred_family_name: Elsie Swash Caps
+    preferred_type: Black
     full_name: Elsie Swash Caps Black
     post_script_name: ElsieSwashCaps-Black
     version: '1.002'
     copyright: Copyright (c) 2010-2012, Alejandro Inler (alejandroinler@gmail.com),
       with Reserved Font Name 'Elsie'
-    font: ElsieSwashCaps-Black.ttf
-extract:
-  format: zip
+    font: 845ENN8xGZyVX5MVo_upKf7KnjK0RW74DG2HToawrdU.ttf
+extract: {}
 copyright: Copyright (c) 2010-2012, Alejandro Inler (alejandroinler@gmail.com), with
   Reserved Font Name 'Elsie'
 license_url: http://scripts.sil.org/OFL
@@ -125,3 +129,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

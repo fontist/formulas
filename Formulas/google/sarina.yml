@@ -3,11 +3,11 @@ name: Sarina
 description: Sarina
 homepage: www.sorkintype.com
 resources:
-  Sarina.zip:
-    urls:
-    - https://fonts.google.com/download?family=Sarina
-    sha256: b17f58df37654a6f7c3a986ef1e811f565c7974a8f1ba9789afb65f31d4f3dd6
-    file_size: 43583
+  Sarina:
+    source: google
+    family: Sarina
+    files:
+    - https://fonts.gstatic.com/s/sarina/v23/-F6wfjF3ITQwasLhLkDUriBQxw.ttf
 fonts:
 - name: Sarina
   styles:
@@ -22,10 +22,10 @@ fonts:
     copyright: |-
       Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
       with Reserved Font Name "Sarina".
-    font: Sarina-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)
+    font: "-F6wfjF3ITQwasLhLkDUriBQxw.ttf"
+extract: {}
+copyright: |-
+  Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
   with Reserved Font Name "Sarina".
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -123,3 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Metal Mania
 description: Metal Mania
 homepage: http://www.fontbros.com/openwindow.php
 resources:
-  MetalMania.zip:
-    urls:
-    - https://fonts.google.com/download?family=Metal%20Mania
-    sha256: 42fa3ab6bd4902ad59ae0ccc666b84bfff0604d45dde5eda49e01281730f3f55
-    file_size: 121384
+  Metal Mania:
+    source: google
+    family: Metal Mania
+    files:
+    - https://fonts.gstatic.com/s/metalmania/v22/RWmMoKWb4e8kqMfBUdPFJeXCg6UKDXlq.ttf
 fonts:
 - name: Metal Mania
   styles:
@@ -17,9 +18,8 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2012 by Open Window (dathanboardman@gmail.com) with Reseved
       Font Name "Metal Mania"
-    font: MetalMania-Regular.ttf
-extract:
-  format: zip
+    font: RWmMoKWb4e8kqMfBUdPFJeXCg6UKDXlq.ttf
+extract: {}
 copyright: Copyright (c) 2012 by Open Window (dathanboardman@gmail.com) with Reseved
   Font Name "Metal Mania"
 license_url: http://scripts.sil.org/OFL
@@ -117,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

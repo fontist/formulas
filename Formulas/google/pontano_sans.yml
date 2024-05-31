@@ -1,11 +1,17 @@
 ---
+name: Pontano Sans
 description: Pontano Sans
 homepage: http://www.sansoxygen.com
 resources:
-  Pontano_Sans.zip:
-    urls:
-    - https://fonts.google.com/download?family=Pontano%20Sans
-    file_size: 171556
+  Pontano Sans:
+    source: google
+    family: Pontano Sans
+    files:
+    - https://fonts.gstatic.com/s/pontanosans/v17/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOSzMncaMp9gzWsE.ttf
+    - https://fonts.gstatic.com/s/pontanosans/v17/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOXLMncaMp9gzWsE.ttf
+    - https://fonts.gstatic.com/s/pontanosans/v17/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOUDMncaMp9gzWsE.ttf
+    - https://fonts.gstatic.com/s/pontanosans/v17/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOazLncaMp9gzWsE.ttf
+    - https://fonts.gstatic.com/s/pontanosans/v17/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOZXLncaMp9gzWsE.ttf
 fonts:
 - name: Pontano Sans
   styles:
@@ -15,21 +21,14 @@ fonts:
     post_script_name: PontanoSans-Bold
     version: '2.001'
     copyright: Copyright 2012 The Pontano Sans Project Authors (https://github.com/googlefonts/PontanoSansFont)
-    font: PontanoSans-Bold.ttf
+    font: qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOZXLncaMp9gzWsE.ttf
   - family_name: Pontano Sans
     type: Regular
     full_name: Pontano Sans Regular
     post_script_name: PontanoSans-Regular
     version: '2.001'
     copyright: Copyright 2012 The Pontano Sans Project Authors (https://github.com/googlefonts/PontanoSansFont)
-    font: PontanoSans-VariableFont_wght.ttf
-  - family_name: Pontano Sans
-    type: Regular
-    full_name: Pontano Sans Regular
-    post_script_name: PontanoSans-Regular
-    version: '2.001'
-    copyright: Copyright 2012 The Pontano Sans Project Authors (https://github.com/googlefonts/PontanoSansFont)
-    font: PontanoSans-Regular.ttf
+    font: qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOXLMncaMp9gzWsE.ttf
 - name: Pontano Sans Light
   styles:
   - family_name: Pontano Sans Light
@@ -40,7 +39,7 @@ fonts:
     post_script_name: PontanoSans-Light
     version: '2.001'
     copyright: Copyright 2012 The Pontano Sans Project Authors (https://github.com/googlefonts/PontanoSansFont)
-    font: PontanoSans-Light.ttf
+    font: qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOSzMncaMp9gzWsE.ttf
 - name: Pontano Sans Medium
   styles:
   - family_name: Pontano Sans Medium
@@ -51,7 +50,7 @@ fonts:
     post_script_name: PontanoSans-Medium
     version: '2.001'
     copyright: Copyright 2012 The Pontano Sans Project Authors (https://github.com/googlefonts/PontanoSansFont)
-    font: PontanoSans-Medium.ttf
+    font: qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOUDMncaMp9gzWsE.ttf
 - name: Pontano Sans SemiBold
   styles:
   - family_name: Pontano Sans SemiBold
@@ -62,7 +61,7 @@ fonts:
     post_script_name: PontanoSans-SemiBold
     version: '2.001'
     copyright: Copyright 2012 The Pontano Sans Project Authors (https://github.com/googlefonts/PontanoSansFont)
-    font: PontanoSans-SemiBold.ttf
+    font: qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOazLncaMp9gzWsE.ttf
 extract: {}
 copyright: Copyright 2012 The Pontano Sans Project Authors (https://github.com/googlefonts/PontanoSansFont)
 license_url: https://scripts.sil.org/OFL
@@ -71,7 +70,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -160,5 +159,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: db0011cbf71b55d308c48de8a1b2935b4d92fec488d60e178c4d5e4ce67501de
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

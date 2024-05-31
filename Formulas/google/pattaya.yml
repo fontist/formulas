@@ -3,11 +3,11 @@ name: Pattaya
 description: Pattaya
 homepage: www.impallari.com
 resources:
-  Pattaya.zip:
-    urls:
-    - https://fonts.google.com/download?family=Pattaya
-    sha256: ac737f672493b8a3fbd94639b6deda54170cdaaed730b4f7de715bcf65058c48
-    file_size: 128785
+  Pattaya:
+    source: google
+    family: Pattaya
+    files:
+    - https://fonts.gstatic.com/s/pattaya/v16/ea8ZadcqV_zkHY-XNdCn92ZEmVs.ttf
 fonts:
 - name: Pattaya
   styles:
@@ -20,9 +20,8 @@ fonts:
       (c) 2010, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright
       (c) 2010, 2011, Alexei Vanyashin (www.cyreal.org|a@cyreal.org), with Reserved
       Font Name Lobster.
-    font: Pattaya-Regular.ttf
-extract:
-  format: zip
+    font: ea8ZadcqV_zkHY-XNdCn92ZEmVs.ttf
+extract: {}
 copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com), Copyright (c)
   2010, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2010,
   2011, Alexei Vanyashin (www.cyreal.org|a@cyreal.org), with Reserved Font Name Lobster.
@@ -121,3 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

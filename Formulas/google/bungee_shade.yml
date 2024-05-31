@@ -1,24 +1,24 @@
 ---
+name: Bungee Shade
 description: Bungee Shade
 homepage: http://www.djr.com
 resources:
-  BungeeShade.zip:
-    urls:
-    - https://fonts.google.com/download?family=Bungee%20Shade
-    sha256: 5dc011987761839ddc9dfcba5eba9278073fa73c1fd3975f894417a9e2c8d9c3
-    file_size: 163203
+  Bungee Shade:
+    source: google
+    family: Bungee Shade
+    files:
+    - https://fonts.gstatic.com/s/bungeeshade/v13/DtVkJxarWL0t2KdzK3oI_jks7iLSrwFUlw.ttf
 fonts:
 - name: Bungee Shade
   styles:
   - family_name: Bungee Shade
     type: Regular
-    full_name: Bungee Shade Regular
+    full_name: Bungee Shade
     post_script_name: BungeeShade-Regular
-    version: 1.001;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900
+    version: 1.000;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900
     copyright: Copyright 2008 The Bungee Project Authors (david@djr.com)
-    font: BungeeShade-Regular.ttf
-extract:
-  format: zip
+    font: DtVkJxarWL0t2KdzK3oI_jks7iLSrwFUlw.ttf
+extract: {}
 copyright: Copyright 2008 The Bungee Project Authors (david@djr.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -115,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

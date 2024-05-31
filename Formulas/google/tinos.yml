@@ -3,48 +3,50 @@ name: Tinos
 description: Tinos
 homepage: http://www.monotypeimaging.com
 resources:
-  Tinos.zip:
-    urls:
-    - https://fonts.google.com/download?family=Tinos
-    sha256: 9164a0307fdb0e81b9f2658facaa20ee02ecde8880f0abf5a4d5426b85c5a91a
-    file_size: 968540
+  Tinos:
+    source: google
+    family: Tinos
+    files:
+    - https://fonts.gstatic.com/s/tinos/v24/buE4poGnedXvwgX8dGVh8TI-.ttf
+    - https://fonts.gstatic.com/s/tinos/v24/buE2poGnedXvwjX-fmFD9CI-4NU.ttf
+    - https://fonts.gstatic.com/s/tinos/v24/buE1poGnedXvwj1AW0Fp2i43-cxL.ttf
+    - https://fonts.gstatic.com/s/tinos/v24/buEzpoGnedXvwjX-Rt1s0CoV_NxLeiw.ttf
 fonts:
 - name: Tinos
   styles:
-  - family_name: Tinos
-    type: Regular
-    full_name: Tinos Regular
-    post_script_name: Tinos-Regular
-    version: '1.23'
-    copyright: Digitized data copyright (c) 2010-2012 Google Corporation.
-    font: Tinos-Regular.ttf
-  - family_name: Tinos
-    type: Italic
-    full_name: Tinos Italic
-    post_script_name: Tinos-Italic
-    version: '1.23'
-    copyright: Digitized data copyright (c) 2010-2012 Google Corporation.
-    font: Tinos-Italic.ttf
   - family_name: Tinos
     type: Bold
     full_name: Tinos Bold
     post_script_name: Tinos-Bold
     version: '1.23'
     copyright: Digitized data copyright (c) 2010-2012 Google Corporation.
-    font: Tinos-Bold.ttf
+    font: buE1poGnedXvwj1AW0Fp2i43-cxL.ttf
   - family_name: Tinos
     type: Bold Italic
     full_name: Tinos Bold Italic
     post_script_name: Tinos-BoldItalic
     version: '1.23'
     copyright: Digitized data copyright (c) 2010-2012 Google Corporation.
-    font: Tinos-BoldItalic.ttf
-extract:
-  format: zip
+    font: buEzpoGnedXvwjX-Rt1s0CoV_NxLeiw.ttf
+  - family_name: Tinos
+    type: Italic
+    full_name: Tinos Italic
+    post_script_name: Tinos-Italic
+    version: '1.23'
+    copyright: Digitized data copyright (c) 2010-2012 Google Corporation.
+    font: buE2poGnedXvwjX-fmFD9CI-4NU.ttf
+  - family_name: Tinos
+    type: Regular
+    full_name: Tinos Regular
+    post_script_name: Tinos-Regular
+    version: '1.23'
+    copyright: Digitized data copyright (c) 2010-2012 Google Corporation.
+    font: buE4poGnedXvwgX8dGVh8TI-.ttf
+extract: {}
 copyright: Digitized data copyright (c) 2010-2012 Google Corporation.
 license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |2-
-                                   Apache License
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -245,3 +247,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999

@@ -3,11 +3,11 @@ name: Viga
 description: Viga
 homepage: www.fontstage.com
 resources:
-  Viga.zip:
-    urls:
-    - https://fonts.google.com/download?family=Viga
-    sha256: b8876fced9d13a9456a6b11dd977784dec8f923fb725523ab8f4cb9066f1c0d9
-    file_size: 16810
+  Viga:
+    source: google
+    family: Viga
+    files:
+    - https://fonts.gstatic.com/s/viga/v14/xMQbuFFdSaiX_QIjD4e2OX8.ttf
 fonts:
 - name: Viga
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font
       Name "Viga"
-    font: Viga-Regular.ttf
-extract:
-  format: zip
+    font: xMQbuFFdSaiX_QIjD4e2OX8.ttf
+extract: {}
 copyright: Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font Name
   "Viga"
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

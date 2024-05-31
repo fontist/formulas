@@ -1,24 +1,24 @@
 ---
+name: Bungee Outline
 description: Bungee Outline
 homepage: http://www.djr.com
 resources:
-  BungeeOutline.zip:
-    urls:
-    - https://fonts.google.com/download?family=Bungee%20Outline
-    sha256: 40b5e914b57e09bcf9721b705fdac6bdb4262fc14005b89ec803af22c53a0c6d
-    file_size: 115261
+  Bungee Outline:
+    source: google
+    family: Bungee Outline
+    files:
+    - https://fonts.gstatic.com/s/bungeeoutline/v20/_6_mEDvmVP24UvU2MyiGDslL3Qg3YhJqPXxo.ttf
 fonts:
 - name: Bungee Outline
   styles:
   - family_name: Bungee Outline
     type: Regular
-    full_name: Bungee Outline Regular
+    full_name: Bungee Outline
     post_script_name: BungeeOutline-Regular
-    version: 1.001;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900
+    version: 1.000;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900
     copyright: Copyright 2008 The Bungee Project Authors (david@djr.com)
-    font: BungeeOutline-Regular.ttf
-extract:
-  format: zip
+    font: _6_mEDvmVP24UvU2MyiGDslL3Qg3YhJqPXxo.ttf
+extract: {}
 copyright: Copyright 2008 The Bungee Project Authors (david@djr.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -115,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

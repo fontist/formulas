@@ -3,11 +3,11 @@ name: Petemoss
 description: Petemoss
 homepage: www.typesetit.com
 resources:
-  Petemoss.zip:
-    urls:
-    - https://fonts.google.com/download?family=Petemoss
-    sha256: 48c742372f7abd662c1712e2e5f1a049f3606f02d36c2f19a8c2b024acda7bd5
-    file_size: 69310
+  Petemoss:
+    source: google
+    family: Petemoss
+    files:
+    - https://fonts.gstatic.com/s/petemoss/v7/A2BZn5tA2xgtGWHZgxkesKb9UouQ.ttf
 fonts:
 - name: Petemoss
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: Petemoss-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2008-2021 The Petemoss Project Authors (https://github.com/googlefonts/petemoss)
-    font: Petemoss-Regular.ttf
+    font: A2BZn5tA2xgtGWHZgxkesKb9UouQ.ttf
 extract: {}
 copyright: Copyright 2008-2021 The Petemoss Project Authors (https://github.com/googlefonts/petemoss)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d5a34a0cc8716ff4772a0854e426896d1073c874d778150d809d5ae8eb8abc50
-command: google import --formulas_path Formulas
+command: import google -n 9999

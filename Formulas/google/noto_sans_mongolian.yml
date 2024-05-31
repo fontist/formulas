@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Mongolian
 description: Noto Sans Mongolian
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Mongolian.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Mongolian
-    sha256: a6b42141216c9730489751e7313f6472f536a46c24082c85a709bc07dc3faeeb
-    file_size: 116236
+  Noto Sans Mongolian:
+    source: google
+    family: Noto Sans Mongolian
+    files:
+    - https://fonts.gstatic.com/s/notosansmongolian/v21/VdGCAYADGIwE0EopZx8xQfHlgEAMsrToxLsg6-av1x0.ttf
 fonts:
 - name: Noto Sans Mongolian
   styles:
@@ -14,19 +15,19 @@ fonts:
     type: Regular
     full_name: Noto Sans Mongolian Regular
     post_script_name: NotoSansMongolian-Regular
-    version: 2.003; ttfautohint (v1.8.4.7-5d5b)
+    version: 3.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mongolian)
-    font: NotoSansMongolian-Regular.ttf
+    copyright: Copyright 2023 The Noto Project Authors (https://github.com/notofonts/mongolian)
+    font: VdGCAYADGIwE0EopZx8xQfHlgEAMsrToxLsg6-av1x0.ttf
 extract: {}
-copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mongolian)
+copyright: Copyright 2023 The Noto Project Authors (https://github.com/notofonts/mongolian)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
   Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mongolian)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 324bf762653703a511203db4f39a59cac328b92e6ba4a5198c465ec881f6a84f
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

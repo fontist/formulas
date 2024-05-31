@@ -1,12 +1,13 @@
 ---
+name: Artifika
 description: Artifika
 homepage: http://cyreal.org
 resources:
-  Artifika.zip:
-    urls:
-    - https://fonts.google.com/download?family=Artifika
-    sha256: 786839f6ce29f2130f0165a19f7b429a3fd69b4d30e305c8dc98fd49fa6fd0e9
-    file_size: 34648
+  Artifika:
+    source: google
+    family: Artifika
+    files:
+    - https://fonts.gstatic.com/s/artifika/v21/VEMyRoxzronptCuxu6Wt5jDtreOL.ttf
 fonts:
 - name: Artifika
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: Artifika-Regular
     version: 1.102; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2010 The Artifika Project Authors (https://github.com/cyrealtype/Artifika)
-    font: Artifika-Regular.ttf
+    font: VEMyRoxzronptCuxu6Wt5jDtreOL.ttf
 extract: {}
 copyright: Copyright 2010 The Artifika Project Authors (https://github.com/cyrealtype/Artifika)
 license_url: http://scripts.sil.org/OFL
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: aa1399d5a454a5ccd51c4ded0508763f0d6d3284dec02320e4efac163c1d1bed
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

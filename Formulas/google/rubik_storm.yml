@@ -1,12 +1,13 @@
 ---
+name: Rubik Storm
 description: Rubik Storm
 homepage: http://www.google.com/fonts
 resources:
-  Rubik_Storm.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rubik%20Storm
-    sha256: 5e6f05f201c09e0a99217e3ebbc055e94c5ce6d2f0af75c52c1f32d1fcbec6fd
-    file_size: 306826
+  Rubik Storm:
+    source: google
+    family: Rubik Storm
+    files:
+    - https://fonts.gstatic.com/s/rubikstorm/v1/eLGYP-_uPgO5Ag7ju9JaouL9T2Xh9NQk.ttf
 fonts:
 - name: Rubik Storm
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: RubikStorm-Regular
     version: '2.201'
     copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
-    font: RubikStorm-Regular.ttf
+    font: eLGYP-_uPgO5Ag7ju9JaouL9T2Xh9NQk.ttf
 extract: {}
 copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ec8e4465b50af1d7ef92b8ca5b990e46e682c7b0889ce60b56e12016a840c6df
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

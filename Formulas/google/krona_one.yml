@@ -1,12 +1,13 @@
 ---
+name: Krona One
 description: Krona One
 homepage: www.sorkintype.com
 resources:
-  KronaOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Krona%20One
-    sha256: 40f175907fbf93851c414ea0b0c6479c1aaef166f5c1102f6d51931e789ec527
-    file_size: 22143
+  Krona One:
+    source: google
+    family: Krona One
+    files:
+    - https://fonts.gstatic.com/s/kronaone/v14/jAnEgHdjHcjgfIb1ZcUCMY-h3cWkWg.ttf
 fonts:
 - name: Krona One
   styles:
@@ -21,11 +22,10 @@ fonts:
       century Swedish posters.
     copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved
       Font Name "Krona".
-    font: KronaOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)
-  with Reserved Font Name "Krona".
+    font: jAnEgHdjHcjgfIb1ZcUCMY-h3cWkWg.ttf
+extract: {}
+copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved Font
+  Name "Krona".
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
@@ -122,3 +122,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

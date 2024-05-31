@@ -1,12 +1,13 @@
 ---
+name: Strait
 description: Strait
 homepage: http://www.tipo.net.ar
 resources:
-  Strait.zip:
-    urls:
-    - https://fonts.google.com/download?family=Strait
-    sha256: 3bb0acc5a76d1abd2e7ae603dfb4bd2fa8f5cc73f2056556c1ebcea4debaad55
-    file_size: 31756
+  Strait:
+    source: google
+    family: Strait
+    files:
+    - https://fonts.gstatic.com/s/strait/v17/DtViJxy6WaEr1LZzeDhtkl0U7w.ttf
 fonts:
 - name: Strait
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 1.002; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
     copyright: Copyright 2012 The Strait Project Authors (https://github.com/etunni/strait),
       with Reserved Font Name 'Strait'
-    font: Strait-Regular.ttf
+    font: DtViJxy6WaEr1LZzeDhtkl0U7w.ttf
 extract: {}
 copyright: Copyright 2012 The Strait Project Authors (https://github.com/etunni/strait),
   with Reserved Font Name 'Strait'
@@ -27,7 +28,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -116,5 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b185798aec93ca17c0f53e31677afe6281aabead9a2d8d62c99b6ce1aa7fc362
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

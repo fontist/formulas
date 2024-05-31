@@ -3,26 +3,27 @@ name: GFS Didot
 description: GFS Didot
 homepage: www.greekfontsociety.org
 resources:
-  GFSDidot.zip:
-    urls:
-    - https://fonts.google.com/download?family=GFS%20Didot
-    sha256: 3902a33894daafd01d5fc559fb8b13d590bcf7f71300c0e3390a4875532727b6
-    file_size: 75080
+  GFS Didot:
+    source: google
+    family: GFS Didot
+    files:
+    - https://fonts.gstatic.com/s/gfsdidot/v16/Jqzh5TybZ9vZMWFssvwiF-fGFSCGAA.ttf
 fonts:
 - name: GFS Didot
   styles:
   - family_name: GFS Didot
     type: Regular
+    preferred_family_name: GFS Didot
+    preferred_type: Regular
     full_name: GFS Didot Regular
     post_script_name: GFSDidot-Regular
     version: '1.0'
     copyright: Copyright (c) Takis Katsoulidis and George D. Matthiopoulos, 2001.
       All rights reserved.
-    font: GFSDidot-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) Takis Katsoulidis and George D. Matthiopoulos (gfs@greekfontsociety.gr),
-  2001. All rights reserved.
+    font: Jqzh5TybZ9vZMWFssvwiF-fGFSCGAA.ttf
+extract: {}
+copyright: Copyright (c) Takis Katsoulidis and George D. Matthiopoulos, 2001. All
+  rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) <17/12/07>, <GREEK FONT SOCIETY> (<http://www.greekfontsociety.org|gfs@greekfontsociety.org>),
@@ -119,3 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

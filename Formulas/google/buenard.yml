@@ -1,24 +1,17 @@
 ---
 name: Buenard
 description: Buenard
-homepage:
+homepage: www.fontfuror.com
 resources:
-  Buenard.zip:
-    urls:
-    - https://fonts.google.com/download?family=Buenard
-    sha256: 4b17e784f85540993a8b3c553c031bc9b4347af86c3a73c352874855dd08b0ba
-    file_size: 47368
+  Buenard:
+    source: google
+    family: Buenard
+    files:
+    - https://fonts.gstatic.com/s/buenard/v17/OD5DuM6Cyma8FnnsPzf9qGi9HL4.ttf
+    - https://fonts.gstatic.com/s/buenard/v17/OD5GuM6Cyma8FnnsB4vSjGCWALepwss.ttf
 fonts:
 - name: Buenard
   styles:
-  - family_name: Buenard
-    type: Regular
-    full_name: Buenard Regular
-    post_script_name: Buenard-Regular
-    version: 1.002 2011
-    copyright: Copyright (c) 2011, FontFuror (info@fontfuror.com), with Reserved Font
-      Names "Buenard" and "Buenard Pro".
-    font: Buenard-Regular.ttf
   - family_name: Buenard
     type: Bold
     full_name: Buenard Bold
@@ -26,9 +19,16 @@ fonts:
     version: 1.002 2011
     copyright: Copyright (c) 2011, FontFuror (info@fontfuror.com), with Reserved Font
       Names "Buenard" and "Buenard Pro".
-    font: Buenard-Bold.ttf
-extract:
-  format: zip
+    font: OD5GuM6Cyma8FnnsB4vSjGCWALepwss.ttf
+  - family_name: Buenard
+    type: Regular
+    full_name: Buenard Regular
+    post_script_name: Buenard-Regular
+    version: 1.002 2011
+    copyright: Copyright (c) 2011, FontFuror (info@fontfuror.com), with Reserved Font
+      Names "Buenard" and "Buenard Pro".
+    font: OD5DuM6Cyma8FnnsPzf9qGi9HL4.ttf
+extract: {}
 copyright: Copyright (c) 2011, FontFuror (info@fontfuror.com), with Reserved Font
   Names "Buenard" and "Buenard Pro".
 license_url: http://scripts.sil.org/OFL
@@ -127,3 +127,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

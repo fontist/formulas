@@ -3,11 +3,11 @@ name: Fuggles
 description: Fuggles
 homepage: www.typesetit.com
 resources:
-  Fuggles.zip:
-    urls:
-    - https://fonts.google.com/download?family=Fuggles
-    sha256: 2e561579a1a817022208c6bdc81c3c6b1769de726ca92fab40718af813b67223
-    file_size: 290939
+  Fuggles:
+    source: google
+    family: Fuggles
+    files:
+    - https://fonts.gstatic.com/s/fuggles/v12/k3kQo8UEJOlD1hpOTd7iL0nAMaM.ttf
 fonts:
 - name: Fuggles
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: Fuggles-Regular
     version: 1.100; ttfautohint (v1.8.3)
     copyright: Copyright 2021 The Fuggles Pro Project Authors (https://github.com/googlefonts/fuggles)
-    font: Fuggles-Regular.ttf
+    font: k3kQo8UEJOlD1hpOTd7iL0nAMaM.ttf
 extract: {}
 copyright: Copyright 2021 The Fuggles Pro Project Authors (https://github.com/googlefonts/fuggles)
 license_url: https://scripts.sil.org/OFL
@@ -26,8 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
-
+  https://scripts.sil.org/OFL
 
   -----------------------------------------------------------
   SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
@@ -115,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 5df4036e58371401ab0f4395bab98af2f05d852b287c77a038eb5206a02a1017
-command: google import --formulas_path Formulas
+command: import google -n 9999

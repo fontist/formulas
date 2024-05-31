@@ -3,11 +3,11 @@ name: Underdog
 description: Underdog
 homepage: http://www.jovanny.ru
 resources:
-  Underdog.zip:
-    urls:
-    - https://fonts.google.com/download?family=Underdog
-    sha256: 14d7563db6f5cac0e5dc76d5ae2b5363274c6c44bcb2cc5be799c174f366c0e1
-    file_size: 42131
+  Underdog:
+    source: google
+    family: Underdog
+    files:
+    - https://fonts.gstatic.com/s/underdog/v23/CHygV-jCElj7diMroVSiU14GN2Il.ttf
 fonts:
 - name: Underdog
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: 1.001; ttfautohint (v0.9)
     copyright: Copyright (c) 2012, Sergey Steblina (sergey@steblina.com), Jovanny
       Lemonad (lemonad@jovanny.ru), with Reserved Font Name 'Underdog'
-    font: Underdog-Regular.ttf
-extract:
-  format: zip
+    font: CHygV-jCElj7diMroVSiU14GN2Il.ttf
+extract: {}
 copyright: Copyright (c) 2012, Sergey Steblina (sergey@steblina.com), Jovanny Lemonad
   (lemonad@jovanny.ru), with Reserved Font Name 'Underdog'
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

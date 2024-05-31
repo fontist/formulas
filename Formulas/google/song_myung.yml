@@ -1,12 +1,12 @@
 ---
+name: Song Myung
 description: Song Myung
-homepage:
 resources:
-  SongMyung.zip:
-    urls:
-    - https://fonts.google.com/download?family=Song%20Myung
-    sha256: 64dd59d87d07a3f7a3f73c632740808be6b81aeabcf9e5e490dccac6f6a7f7e5
-    file_size: 643072
+  Song Myung:
+    source: google
+    family: Song Myung
+    files:
+    - https://fonts.gstatic.com/s/songmyung/v20/1cX2aUDWAJH5-EIC7DIhr1GqhcitzeM.ttf
 fonts:
 - name: Song Myung
   styles:
@@ -16,9 +16,8 @@ fonts:
     post_script_name: SongMyung-Regular
     version: '1.00'
     copyright: Copyright 2018 The Song Myung Project Authors
-    font: SongMyung-Regular.ttf
-extract:
-  format: zip
+    font: 1cX2aUDWAJH5-EIC7DIhr1GqhcitzeM.ttf
+extract: {}
 copyright: Copyright 2018 The Song Myung Project Authors
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -115,3 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

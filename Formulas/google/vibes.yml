@@ -1,13 +1,12 @@
 ---
 name: Vibes
 description: Vibes
-homepage:
 resources:
-  Vibes.zip:
-    urls:
-    - https://fonts.google.com/download?family=Vibes
-    sha256: 3ac17e44178bf63eb89a35d7d5d8da93cf435e2a114fb070e26ac94102bd3f0a
-    file_size: 43514
+  Vibes:
+    source: google
+    family: Vibes
+    files:
+    - https://fonts.gstatic.com/s/vibes/v14/QdVYSTsmIB6tmbd3HpbsuBlh.ttf
 fonts:
 - name: Vibes
   styles:
@@ -17,9 +16,8 @@ fonts:
     post_script_name: Vibes-Regular
     version: '1.100'
     copyright: Copyright 2019 The Vibes Project Authors (https://github.com/bluemix/vibes-typeface)
-    font: Vibes-Regular.ttf
-extract:
-  format: zip
+    font: QdVYSTsmIB6tmbd3HpbsuBlh.ttf
+extract: {}
 copyright: Copyright 2019 The Vibes Project Authors (https://github.com/bluemix/vibes-typeface)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -110,3 +108,4 @@ open_license: |-
   LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES,
   WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR
   INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

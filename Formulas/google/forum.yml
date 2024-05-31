@@ -3,11 +3,11 @@ name: Forum
 description: Forum
 homepage: denis.masharov@gmail.com
 resources:
-  Forum.zip:
-    urls:
-    - https://fonts.google.com/download?family=Forum
-    sha256: 22dfebb99f940b3408b0e4f12a4b68f5071d4c791dc4388ffa3559345117e1b7
-    file_size: 104525
+  Forum:
+    source: google
+    family: Forum
+    files:
+    - https://fonts.gstatic.com/s/forum/v18/6aey4Ky-Vb8Ew_IWMJMa3mnT.ttf
 fonts:
 - name: Forum
   styles:
@@ -22,9 +22,8 @@ fonts:
     copyright: 'Copyright (c) 2011, Denis Masharov <denis.masharov@gmail.com>. This
       Font Software is licensed under the SIL Open Font License, Version 1.1. This
       license is available with a FAQ at: http://scripts.sil.org/OFL'
-    font: Forum-Regular.ttf
-extract:
-  format: zip
+    font: 6aey4Ky-Vb8Ew_IWMJMa3mnT.ttf
+extract: {}
 copyright: 'Copyright (c) 2011, Denis Masharov <denis.masharov@gmail.com>. This Font
   Software is licensed under the SIL Open Font License, Version 1.1. This license
   is available with a FAQ at: http://scripts.sil.org/OFL'
@@ -124,3 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

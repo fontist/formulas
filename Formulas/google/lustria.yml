@@ -3,11 +3,11 @@ name: Lustria
 description: Lustria
 homepage: http://www.madtype.com
 resources:
-  Lustria.zip:
-    urls:
-    - https://fonts.google.com/download?family=Lustria
-    sha256: 6be3145d847986c2fbcb076fcb16ab69853457020047a2472d9d5f49ae46b775
-    file_size: 19545
+  Lustria:
+    source: google
+    family: Lustria
+    files:
+    - https://fonts.gstatic.com/s/lustria/v13/9oRONYodvDEyjuhOrCg5MtPyAcg.ttf
 fonts:
 - name: Lustria
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: '001.001'
     copyright: Copyright (c) 2011, Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com),
       with Reserved Font Name Lustria
-    font: Lustria-Regular.ttf
-extract:
-  format: zip
+    font: 9oRONYodvDEyjuhOrCg5MtPyAcg.ttf
+extract: {}
 copyright: Copyright (c) 2011, Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com),
   with Reserved Font Name Lustria
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Gasoek One
 description: Gasoek One
 homepage: https://jamo.works
 resources:
-  Gasoek_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Gasoek%20One
-    sha256: 87fb62f134d3a3d38717bf0d18d915f2806150cc8a3f99de9adad59f518aef99
-    file_size: 451514
+  Gasoek One:
+    source: google
+    family: Gasoek One
+    files:
+    - https://fonts.gstatic.com/s/gasoekone/v3/EJRTQgQ_UMUKvDgnlX80zrq_cyb-vco.ttf
 fonts:
 - name: Gasoek One
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: GasoekOne-Regular
     version: 1.000; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.29]
     copyright: Copyright 2022 The Gasoek Project Authors (https://github.com/JAMO-TYPEFACE/Gasoek)
-    font: GasoekOne-Regular.ttf
+    font: EJRTQgQ_UMUKvDgnlX80zrq_cyb-vco.ttf
 extract: {}
 copyright: Copyright 2022 The Gasoek Project Authors (https://github.com/JAMO-TYPEFACE/Gasoek)
 license_url: https://scripts.sil.org/OFL
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 040aa3dd85ef2bb2221c5b98dfd8630c890ab1a54c5bb4a28e050e987b73d2f8
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

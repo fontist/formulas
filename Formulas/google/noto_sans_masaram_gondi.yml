@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Masaram Gondi
 description: Noto Sans Masaram Gondi
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Masaram_Gondi.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Masaram%20Gondi
-    sha256: 6af70f4b3f71769915c14cb498ff0a67004b5fb39b06461f9e8f7909bd66669e
-    file_size: 44388
+  Noto Sans Masaram Gondi:
+    source: google
+    family: Noto Sans Masaram Gondi
+    files:
+    - https://fonts.gstatic.com/s/notosansmasaramgondi/v17/6xK_dThFKcWIu4bpRBjRYRV7KZCbUq6n_1kPnuGe7RI9WSWX.ttf
 fonts:
 - name: Noto Sans Masaram Gondi
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 1.004; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Ek Type & Mukund Gokhale
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/masaram-gondi)
-    font: NotoSansMasaramGondi-Regular.ttf
+    font: 6xK_dThFKcWIu4bpRBjRYRV7KZCbUq6n_1kPnuGe7RI9WSWX.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/masaram-gondi)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 4803415f1889573bac330e54c089dc8bd731977afd43a0d82e572647d794644a
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

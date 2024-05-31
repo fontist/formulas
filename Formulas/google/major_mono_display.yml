@@ -1,12 +1,13 @@
 ---
+name: Major Mono Display
 description: Major Mono Display
 homepage: www.emreparlak.com
 resources:
-  MajorMonoDisplay.zip:
-    urls:
-    - https://fonts.google.com/download?family=Major%20Mono%20Display
-    sha256: edc41608af028e326145ea27ce2c6344e9a7dfdf29117dabf5ffb65c93d847c0
-    file_size: 53876
+  Major Mono Display:
+    source: google
+    family: Major Mono Display
+    files:
+    - https://fonts.gstatic.com/s/majormonodisplay/v16/RWmVoLyb5fEqtsfBX9PDZIGr2tFubRhLCn2QIndPww.ttf
 fonts:
 - name: Major Mono Display
   styles:
@@ -17,9 +18,8 @@ fonts:
     version: 2.000; ttfautohint (v1.8) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a
       qsq -X ""
     copyright: Copyright 2018 The Major Mono Project Authors (https://github.com/googlefonts/majormono)
-    font: MajorMonoDisplay-Regular.ttf
-extract:
-  format: zip
+    font: RWmVoLyb5fEqtsfBX9PDZIGr2tFubRhLCn2QIndPww.ttf
+extract: {}
 copyright: Copyright 2018 The Major Mono Project Authors (https://github.com/googlefonts/majormono)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

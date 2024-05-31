@@ -1,11 +1,16 @@
 ---
+name: Noto Sans Javanese
 description: Noto Sans Javanese
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Javanese.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Javanese
-    file_size: 385637
+  Noto Sans Javanese:
+    source: google
+    family: Noto Sans Javanese
+    files:
+    - https://fonts.gstatic.com/s/notosansjavanese/v23/2V01KJkDAIA6Hp4zoSScDjV0Y-eoHAHT-Z3MngEefiidxJnkFFliZYWj4O8.ttf
+    - https://fonts.gstatic.com/s/notosansjavanese/v23/2V01KJkDAIA6Hp4zoSScDjV0Y-eoHAHT-Z3MngEefiidxKvkFFliZYWj4O8.ttf
+    - https://fonts.gstatic.com/s/notosansjavanese/v23/2V01KJkDAIA6Hp4zoSScDjV0Y-eoHAHT-Z3MngEefiidxEfjFFliZYWj4O8.ttf
+    - https://fonts.gstatic.com/s/notosansjavanese/v23/2V01KJkDAIA6Hp4zoSScDjV0Y-eoHAHT-Z3MngEefiidxH7jFFliZYWj4O8.ttf
 fonts:
 - name: Noto Sans Javanese
   styles:
@@ -16,7 +21,7 @@ fonts:
     version: '2.005'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/javanese)
-    font: NotoSansJavanese-Bold.ttf
+    font: 2V01KJkDAIA6Hp4zoSScDjV0Y-eoHAHT-Z3MngEefiidxH7jFFliZYWj4O8.ttf
   - family_name: Noto Sans Javanese
     type: Regular
     full_name: Noto Sans Javanese Regular
@@ -24,15 +29,7 @@ fonts:
     version: '2.005'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/javanese)
-    font: NotoSansJavanese-VariableFont_wght.ttf
-  - family_name: Noto Sans Javanese
-    type: Regular
-    full_name: Noto Sans Javanese Regular
-    post_script_name: NotoSansJavanese-Regular
-    version: '2.005'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/javanese)
-    font: NotoSansJavanese-Regular.ttf
+    font: 2V01KJkDAIA6Hp4zoSScDjV0Y-eoHAHT-Z3MngEefiidxJnkFFliZYWj4O8.ttf
 - name: Noto Sans Javanese Medium
   styles:
   - family_name: Noto Sans Javanese Medium
@@ -44,7 +41,7 @@ fonts:
     version: '2.005'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/javanese)
-    font: NotoSansJavanese-Medium.ttf
+    font: 2V01KJkDAIA6Hp4zoSScDjV0Y-eoHAHT-Z3MngEefiidxKvkFFliZYWj4O8.ttf
 - name: Noto Sans Javanese SemiBold
   styles:
   - family_name: Noto Sans Javanese SemiBold
@@ -56,7 +53,7 @@ fonts:
     version: '2.005'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/javanese)
-    font: NotoSansJavanese-SemiBold.ttf
+    font: 2V01KJkDAIA6Hp4zoSScDjV0Y-eoHAHT-Z3MngEefiidxEfjFFliZYWj4O8.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/javanese)
 license_url: https://scripts.sil.org/OFL
@@ -65,7 +62,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -154,5 +151,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e72fb09c1efdf2ab3e5bf3872c9addd4053445326890fff3e10271cff3290b11
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

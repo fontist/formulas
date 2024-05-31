@@ -3,11 +3,11 @@ name: Timmana
 description: Timmana
 homepage: adityafonts.com
 resources:
-  Timmana.zip:
-    urls:
-    - https://fonts.google.com/download?family=Timmana
-    sha256: b30821091151c0e19207dba9dbae8078833d825a4cdfdda01ddd0945b910b5e2
-    file_size: 301840
+  Timmana:
+    source: google
+    family: Timmana
+    files:
+    - https://fonts.gstatic.com/s/timmana/v12/6xKvdShfL9yK-rvpCmvbKHwJUOM.ttf
 fonts:
 - name: Timmana
   styles:
@@ -19,9 +19,8 @@ fonts:
     copyright: Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org).
       Copyright (c) 2011, Sergiy Tkachenko (www.4thfebruary.com.ua info@4thfebruary.com.ua),
       with Reserved Font Names 'Sansus', 'Webissimo'.
-    font: Timmana-Regular.ttf
-extract:
-  format: zip
+    font: 6xKvdShfL9yK-rvpCmvbKHwJUOM.ttf
+extract: {}
 copyright: Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org).
   Copyright (c) 2011, Sergiy Tkachenko (www.4thfebruary.com.ua info@4thfebruary.com.ua),
   with Reserved Font Names 'Sansus', 'Webissimo'.
@@ -120,3 +119,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

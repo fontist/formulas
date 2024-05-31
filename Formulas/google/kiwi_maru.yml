@@ -3,11 +3,13 @@ name: Kiwi Maru
 description: Kiwi Maru
 homepage: https://kiwi-kawagoto.com
 resources:
-  Kiwi_Maru.zip:
-    urls:
-    - https://fonts.google.com/download?family=Kiwi%20Maru
-    sha256: 63ae3305f880cad81e88e5beea2ff2337f15c701f38c5e849735d09687c3450f
-    file_size: 7780777
+  Kiwi Maru:
+    source: google
+    family: Kiwi Maru
+    files:
+    - https://fonts.gstatic.com/s/kiwimaru/v14/R70djykGkuuDep-hRg6gNCi0Vxn9R5ShnA.ttf
+    - https://fonts.gstatic.com/s/kiwimaru/v14/R70YjykGkuuDep-hRg6YmACQXzLhTg.ttf
+    - https://fonts.gstatic.com/s/kiwimaru/v14/R70djykGkuuDep-hRg6gbCm0Vxn9R5ShnA.ttf
 fonts:
 - name: Kiwi Maru
   styles:
@@ -17,7 +19,7 @@ fonts:
     post_script_name: KiwiMaru-Regular
     version: '1.100'
     copyright: Copyright 2020 The Kiwi Maru Project Authors (https://github.com/Kiwi-KawagotoKajiru/Kiwi-Maru)
-    font: KiwiMaru-Regular.ttf
+    font: R70YjykGkuuDep-hRg6YmACQXzLhTg.ttf
 - name: Kiwi Maru Light
   styles:
   - family_name: Kiwi Maru Light
@@ -28,7 +30,7 @@ fonts:
     post_script_name: KiwiMaru-Light
     version: '1.100'
     copyright: Copyright 2020 The Kiwi Maru Project Authors (https://github.com/Kiwi-KawagotoKajiru/Kiwi-Maru)
-    font: KiwiMaru-Light.ttf
+    font: R70djykGkuuDep-hRg6gNCi0Vxn9R5ShnA.ttf
 - name: Kiwi Maru Medium
   styles:
   - family_name: Kiwi Maru Medium
@@ -39,7 +41,7 @@ fonts:
     post_script_name: KiwiMaru-Medium
     version: '1.100'
     copyright: Copyright 2020 The Kiwi Maru Project Authors (https://github.com/Kiwi-KawagotoKajiru/Kiwi-Maru)
-    font: KiwiMaru-Medium.ttf
+    font: R70djykGkuuDep-hRg6gbCm0Vxn9R5ShnA.ttf
 extract: {}
 copyright: Copyright 2020 The Kiwi Maru Project Authors (https://github.com/Kiwi-KawagotoKajiru/Kiwi-Maru)
 license_url: https://scripts.sil.org/OFL
@@ -137,5 +139,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 5720430618b3afe68b899167cc572dc0d7f8602e2125ca22916a971044558ba2
-command: google import --formulas_path Formulas
+command: import google -n 9999

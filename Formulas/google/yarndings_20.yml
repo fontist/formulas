@@ -1,11 +1,12 @@
 ---
+name: Yarndings 20
 description: Yarndings 20
 resources:
-  Yarndings_20.zip:
-    urls:
-    - https://fonts.google.com/download?family=Yarndings%2020
-    sha256: b0be55cce32da07d4233c86de6a9531f8d483393cc2c7f4265abe6065436b189
-    file_size: 43153
+  Yarndings 20:
+    source: google
+    family: Yarndings 20
+    files:
+    - https://fonts.gstatic.com/s/yarndings20/v2/TuGWUVlkUohEQu8l7K8b-vNFB380PMTK1w.ttf
 fonts:
 - name: Yarndings 20
   styles:
@@ -15,7 +16,7 @@ fonts:
     post_script_name: Yarndings20-Regular
     version: 1.000; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type-yarndings)
-    font: Yarndings20-Regular.ttf
+    font: TuGWUVlkUohEQu8l7K8b-vNFB380PMTK1w.ttf
 extract: {}
 copyright: Copyright 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type-yarndings)
 license_url: https://openfontlicense.org
@@ -113,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ca5ae47a38c773a31c215e95c5f3d2856a196e63aa174d0032bd8a13cbc0f538
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

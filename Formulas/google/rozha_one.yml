@@ -1,12 +1,13 @@
 ---
+name: Rozha One
 description: Rozha One
 homepage: http://www.indiantypefoundry.com
 resources:
-  RozhaOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rozha%20One
-    sha256: 38076fc412765ff592e2c623f4387fd0b3c26088b1c265b4f8d2281c47d43798
-    file_size: 139037
+  Rozha One:
+    source: google
+    family: Rozha One
+    files:
+    - https://fonts.gstatic.com/s/rozhaone/v15/AlZy_zVFtYP12Zncg2khdXf4XB0Tow.ttf
 fonts:
 - name: Rozha One
   styles:
@@ -17,9 +18,8 @@ fonts:
     version: 1.301;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
       -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G
     copyright: Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)
-    font: RozhaOne-Regular.ttf
-extract:
-  format: zip
+    font: AlZy_zVFtYP12Zncg2khdXf4XB0Tow.ttf
+extract: {}
 copyright: Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

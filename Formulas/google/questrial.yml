@@ -3,11 +3,11 @@ name: Questrial
 description: Questrial
 homepage: https://www.laurameseguer.com/
 resources:
-  Questrial.zip:
-    urls:
-    - https://fonts.google.com/download?family=Questrial
-    sha256: a620436b13ca8109f46dd766ec25ea0c1b1ac189ebee00465b46c7c75c508895
-    file_size: 95129
+  Questrial:
+    source: google
+    family: Questrial
+    files:
+    - https://fonts.gstatic.com/s/questrial/v18/QdVUSTchPBm7nuUeVf7EuStkm20oJA.ttf
 fonts:
 - name: Questrial
   styles:
@@ -17,9 +17,8 @@ fonts:
     post_script_name: Questrial-Regular
     version: 2.000; ttfautohint (v1.8.3)
     copyright: Copyright 2011 The Questrial Project Authors (https://github.com/googlefonts/questrial)
-    font: Questrial-Regular.ttf
-extract:
-  format: zip
+    font: QdVUSTchPBm7nuUeVf7EuStkm20oJA.ttf
+extract: {}
 copyright: Copyright 2011 The Questrial Project Authors (https://github.com/googlefonts/questrial)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

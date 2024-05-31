@@ -1,12 +1,17 @@
 ---
+name: Namdhinggo
 description: Namdhinggo
 homepage: http://scripts.sil.org/
 resources:
-  Namdhinggo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Namdhinggo
-    sha256: 30dc5cc32279eba6b8eeaa325fad8dc79086de5920ed8fb493a6cf7fedb4ed9e
-    file_size: 214060
+  Namdhinggo:
+    source: google
+    family: Namdhinggo
+    files:
+    - https://fonts.gstatic.com/s/namdhinggo/v2/uk-mEGe3rbgg8Xzoy5-TDnWj4yxx7o8.ttf
+    - https://fonts.gstatic.com/s/namdhinggo/v2/uk-lEGe3rbgg8Xzoy5-TNoGKxyRa8oZK9I0.ttf
+    - https://fonts.gstatic.com/s/namdhinggo/v2/uk-lEGe3rbgg8Xzoy5-TNq2NxyRa8oZK9I0.ttf
+    - https://fonts.gstatic.com/s/namdhinggo/v2/uk-lEGe3rbgg8Xzoy5-TNsmMxyRa8oZK9I0.ttf
+    - https://fonts.gstatic.com/s/namdhinggo/v2/uk-lEGe3rbgg8Xzoy5-TNtWPxyRa8oZK9I0.ttf
 fonts:
 - name: Namdhinggo
   styles:
@@ -17,7 +22,7 @@ fonts:
     version: '3.001'
     description: Limbu script font for the Limbu language of Nepal
     copyright: Copyright (c) 2002-2022, SIL International (http://www.sil.org/),
-    font: Namdhinggo-Bold.ttf
+    font: uk-lEGe3rbgg8Xzoy5-TNsmMxyRa8oZK9I0.ttf
   - family_name: Namdhinggo
     type: Regular
     full_name: Namdhinggo
@@ -25,7 +30,7 @@ fonts:
     version: '3.001'
     description: Limbu script font for the Limbu language of Nepal
     copyright: Copyright (c) 2002-2022, SIL International (http://www.sil.org/),
-    font: Namdhinggo-Regular.ttf
+    font: uk-mEGe3rbgg8Xzoy5-TDnWj4yxx7o8.ttf
 - name: Namdhinggo ExtraBold
   styles:
   - family_name: Namdhinggo ExtraBold
@@ -37,7 +42,7 @@ fonts:
     version: '3.001'
     description: Limbu script font for the Limbu language of Nepal
     copyright: Copyright (c) 2002-2022, SIL International (http://www.sil.org/),
-    font: Namdhinggo-ExtraBold.ttf
+    font: uk-lEGe3rbgg8Xzoy5-TNtWPxyRa8oZK9I0.ttf
 - name: Namdhinggo Medium
   styles:
   - family_name: Namdhinggo Medium
@@ -49,7 +54,7 @@ fonts:
     version: '3.001'
     description: Limbu script font for the Limbu language of Nepal
     copyright: Copyright (c) 2002-2022, SIL International (http://www.sil.org/),
-    font: Namdhinggo-Medium.ttf
+    font: uk-lEGe3rbgg8Xzoy5-TNoGKxyRa8oZK9I0.ttf
 - name: Namdhinggo SemiBold
   styles:
   - family_name: Namdhinggo SemiBold
@@ -61,7 +66,7 @@ fonts:
     version: '3.001'
     description: Limbu script font for the Limbu language of Nepal
     copyright: Copyright (c) 2002-2022, SIL International (http://www.sil.org/),
-    font: Namdhinggo-SemiBold.ttf
+    font: uk-lEGe3rbgg8Xzoy5-TNq2NxyRa8oZK9I0.ttf
 extract: {}
 copyright: Copyright (c) 2002-2022, SIL International (http://www.sil.org/),
 license_url: http://scripts.sil.org/OFL
@@ -71,7 +76,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  https://openfontlicense.org
+  http://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -160,5 +165,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 8a6d904000ebf97df022afa6fd38b8db61767a280eef250d688724756410be0d
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Symbols 2
 description: Noto Sans Symbols 2
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Symbols_2.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Symbols%202
-    sha256: c068e60e8fc756a149f3c09500120b92af79d921ea1cb8fff3c8cab71f612452
-    file_size: 537069
+  Noto Sans Symbols 2:
+    source: google
+    family: Noto Sans Symbols 2
+    files:
+    - https://fonts.gstatic.com/s/notosanssymbols2/v23/I_uyMoGduATTei9eI8daxVHDyfisHr71ypPqfX71-AI.ttf
 fonts:
 - name: Noto Sans Symbols 2
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.008; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/symbols)
-    font: NotoSansSymbols2-Regular.ttf
+    font: I_uyMoGduATTei9eI8daxVHDyfisHr71ypPqfX71-AI.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/symbols)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 7761658c90e76dbc81c1c273a6a1447d21731108c21868dad0a95eb5f318097f
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

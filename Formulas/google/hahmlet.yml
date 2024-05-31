@@ -3,10 +3,19 @@ name: Hahmlet
 description: Hahmlet
 homepage: http://hypertype.xyz
 resources:
-  Hahmlet.zip:
-    urls:
-    - https://fonts.google.com/download?family=Hahmlet
-    file_size: 5605973
+  Hahmlet:
+    source: google
+    family: Hahmlet
+    files:
+    - https://fonts.gstatic.com/s/hahmlet/v13/BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RhKOdjobsO-aVxn.ttf
+    - https://fonts.gstatic.com/s/hahmlet/v13/BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RjKONjobsO-aVxn.ttf
+    - https://fonts.gstatic.com/s/hahmlet/v13/BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RgUONjobsO-aVxn.ttf
+    - https://fonts.gstatic.com/s/hahmlet/v13/BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RhKONjobsO-aVxn.ttf
+    - https://fonts.gstatic.com/s/hahmlet/v13/BngXUXpCQ3nKpIo0TfPyfCdXfaeU4Rh4ONjobsO-aVxn.ttf
+    - https://fonts.gstatic.com/s/hahmlet/v13/BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RiUP9jobsO-aVxn.ttf
+    - https://fonts.gstatic.com/s/hahmlet/v13/BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RitP9jobsO-aVxn.ttf
+    - https://fonts.gstatic.com/s/hahmlet/v13/BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RjKP9jobsO-aVxn.ttf
+    - https://fonts.gstatic.com/s/hahmlet/v13/BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RjjP9jobsO-aVxn.ttf
 fonts:
 - name: Hahmlet
   styles:
@@ -14,23 +23,16 @@ fonts:
     type: Bold
     full_name: Hahmlet Bold
     post_script_name: Hahmlet-Bold
-    version: 1.001; ttfautohint (v1.8.3)
+    version: '1.002'
     copyright: Copyright 2020 The Hahmlet Project Authors (https://github.com/hyper-type/hahmlet)
-    font: Hahmlet-Bold.ttf
-  - family_name: Hahmlet
-    type: Regular
-    full_name: Hahmlet
-    post_script_name: Hahmlet-Regular
-    version: 1.001; ttfautohint (v1.8.3)
-    copyright: Copyright 2020 The Hahmlet Project Authors (https://github.com/hyper-type/hahmlet)
-    font: Hahmlet-VariableFont_wght.ttf
+    font: BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RitP9jobsO-aVxn.ttf
   - family_name: Hahmlet
     type: Regular
     full_name: Hahmlet Regular
     post_script_name: Hahmlet-Regular
-    version: 1.001; ttfautohint (v1.8.3)
+    version: '1.002'
     copyright: Copyright 2020 The Hahmlet Project Authors (https://github.com/hyper-type/hahmlet)
-    font: Hahmlet-Regular.ttf
+    font: BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RhKONjobsO-aVxn.ttf
 - name: Hahmlet Black
   styles:
   - family_name: Hahmlet Black
@@ -39,9 +41,9 @@ fonts:
     preferred_type: Black
     full_name: Hahmlet Black
     post_script_name: Hahmlet-Black
-    version: 1.001; ttfautohint (v1.8.3)
+    version: '1.002'
     copyright: Copyright 2020 The Hahmlet Project Authors (https://github.com/hyper-type/hahmlet)
-    font: Hahmlet-Black.ttf
+    font: BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RjjP9jobsO-aVxn.ttf
 - name: Hahmlet ExtraBold
   styles:
   - family_name: Hahmlet ExtraBold
@@ -50,9 +52,9 @@ fonts:
     preferred_type: ExtraBold
     full_name: Hahmlet ExtraBold
     post_script_name: Hahmlet-ExtraBold
-    version: 1.001; ttfautohint (v1.8.3)
+    version: '1.002'
     copyright: Copyright 2020 The Hahmlet Project Authors (https://github.com/hyper-type/hahmlet)
-    font: Hahmlet-ExtraBold.ttf
+    font: BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RjKP9jobsO-aVxn.ttf
 - name: Hahmlet ExtraLight
   styles:
   - family_name: Hahmlet ExtraLight
@@ -61,9 +63,9 @@ fonts:
     preferred_type: ExtraLight
     full_name: Hahmlet ExtraLight
     post_script_name: Hahmlet-ExtraLight
-    version: 1.001; ttfautohint (v1.8.3)
+    version: '1.002'
     copyright: Copyright 2020 The Hahmlet Project Authors (https://github.com/hyper-type/hahmlet)
-    font: Hahmlet-ExtraLight.ttf
+    font: BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RjKONjobsO-aVxn.ttf
 - name: Hahmlet Light
   styles:
   - family_name: Hahmlet Light
@@ -72,9 +74,9 @@ fonts:
     preferred_type: Light
     full_name: Hahmlet Light
     post_script_name: Hahmlet-Light
-    version: 1.001; ttfautohint (v1.8.3)
+    version: '1.002'
     copyright: Copyright 2020 The Hahmlet Project Authors (https://github.com/hyper-type/hahmlet)
-    font: Hahmlet-Light.ttf
+    font: BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RgUONjobsO-aVxn.ttf
 - name: Hahmlet Medium
   styles:
   - family_name: Hahmlet Medium
@@ -83,9 +85,9 @@ fonts:
     preferred_type: Medium
     full_name: Hahmlet Medium
     post_script_name: Hahmlet-Medium
-    version: 1.001; ttfautohint (v1.8.3)
+    version: '1.002'
     copyright: Copyright 2020 The Hahmlet Project Authors (https://github.com/hyper-type/hahmlet)
-    font: Hahmlet-Medium.ttf
+    font: BngXUXpCQ3nKpIo0TfPyfCdXfaeU4Rh4ONjobsO-aVxn.ttf
 - name: Hahmlet SemiBold
   styles:
   - family_name: Hahmlet SemiBold
@@ -94,9 +96,9 @@ fonts:
     preferred_type: SemiBold
     full_name: Hahmlet SemiBold
     post_script_name: Hahmlet-SemiBold
-    version: 1.001; ttfautohint (v1.8.3)
+    version: '1.002'
     copyright: Copyright 2020 The Hahmlet Project Authors (https://github.com/hyper-type/hahmlet)
-    font: Hahmlet-SemiBold.ttf
+    font: BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RiUP9jobsO-aVxn.ttf
 - name: Hahmlet Thin
   styles:
   - family_name: Hahmlet Thin
@@ -105,9 +107,9 @@ fonts:
     preferred_type: Thin
     full_name: Hahmlet Thin
     post_script_name: Hahmlet-Thin
-    version: 1.001; ttfautohint (v1.8.3)
+    version: '1.002'
     copyright: Copyright 2020 The Hahmlet Project Authors (https://github.com/hyper-type/hahmlet)
-    font: Hahmlet-Thin.ttf
+    font: BngXUXpCQ3nKpIo0TfPyfCdXfaeU4RhKOdjobsO-aVxn.ttf
 extract: {}
 copyright: Copyright 2020 The Hahmlet Project Authors (https://github.com/hyper-type/hahmlet)
 license_url: https://scripts.sil.org/OFL
@@ -205,5 +207,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ae1ba81ece371067ee4609842e9dfde3a4aa0112e8fdc48ff71584c8aefce93f
-command: google import --formulas_path Formulas
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Bebas Neue
 description: Bebas Neue
 homepage: http://dharmatype.com
 resources:
-  BebasNeue.zip:
-    urls:
-    - https://fonts.google.com/download?family=Bebas%20Neue
-    sha256: b4410d4c880d69fa0d3d61e28951e2d186ab50e65887896c91df750cd074dc3a
-    file_size: 29535
+  Bebas Neue:
+    source: google
+    family: Bebas Neue
+    files:
+    - https://fonts.gstatic.com/s/bebasneue/v14/JTUSjIg69CK48gW7PXooxW5rygbi49c.ttf
 fonts:
 - name: Bebas Neue
   styles:
@@ -17,9 +18,8 @@ fonts:
     version: '2.000'
     description: Designed by Ryoichi Tsunekawa from Dharma Type in 2010.
     copyright: Copyright 2019 The Bebas Neue Project Authors (https://github.com/dharmatype/Bebas-Neue)
-    font: BebasNeue-Regular.ttf
-extract:
-  format: zip
+    font: JTUSjIg69CK48gW7PXooxW5rygbi49c.ttf
+extract: {}
 copyright: Copyright 2019 The Bebas Neue Project Authors (https://github.com/dharmatype/Bebas-Neue)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

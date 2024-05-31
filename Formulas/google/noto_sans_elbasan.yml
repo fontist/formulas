@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Elbasan
 description: Noto Sans Elbasan
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Elbasan.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Elbasan
-    sha256: 35ec76298eb314f9a51874d85fc00b1ff96baab975eeeed1b5e7689db1761577
-    file_size: 35232
+  Noto Sans Elbasan:
+    source: google
+    family: Noto Sans Elbasan
+    files:
+    - https://fonts.gstatic.com/s/notosanselbasan/v16/-F6rfiZqLzI2JPCgQBnw400qp1trvHdlre4dFcFh.ttf
 fonts:
 - name: Noto Sans Elbasan
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.004; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/elbasan)
-    font: NotoSansElbasan-Regular.ttf
+    font: "-F6rfiZqLzI2JPCgQBnw400qp1trvHdlre4dFcFh.ttf"
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/elbasan)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e9292af24bd90f3e873f1ba36e5d42a2908c6569e8504f4b818bf3af1bf8e65c
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

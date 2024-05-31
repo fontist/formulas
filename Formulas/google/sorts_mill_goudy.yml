@@ -1,31 +1,31 @@
 ---
+name: Sorts Mill Goudy
 description: Sorts Mill Goudy
-homepage:
 resources:
-  SortsMillGoudy.zip:
-    urls:
-    - https://fonts.google.com/download?family=Sorts%20Mill%20Goudy
-    sha256: eee81bc364a824d6d80c7b54a03579b4c9ccb7de7ea7649888d26eb954aa042f
-    file_size: 94656
+  Sorts Mill Goudy:
+    source: google
+    family: Sorts Mill Goudy
+    files:
+    - https://fonts.gstatic.com/s/sortsmillgoudy/v15/Qw3GZR9MED_6PSuS_50nEaVrfzgEXH0OjpM75PE.ttf
+    - https://fonts.gstatic.com/s/sortsmillgoudy/v15/Qw3AZR9MED_6PSuS_50nEaVrfzgEbH8EirE-9PGLfQ.ttf
 fonts:
 - name: Sorts Mill Goudy
   styles:
-  - family_name: Sorts Mill Goudy
-    type: Regular
-    full_name: Sorts Mill Goudy Regular
-    post_script_name: SortsMillGoudy-Regular
-    version: '003.101'
-    copyright: Copyright (c) 2010, Barry Schwartz (chemoelectric@chemoelectric.org)
-    font: SortsMillGoudy-Regular.ttf
   - family_name: Sorts Mill Goudy
     type: Italic
     full_name: Sorts Mill Goudy Italic
     post_script_name: SortsMillGoudy-Italic
     version: '003.101'
     copyright: Copyright (c) 2010, Barry Schwartz (chemoelectric@chemoelectric.org)
-    font: SortsMillGoudy-Italic.ttf
-extract:
-  format: zip
+    font: Qw3AZR9MED_6PSuS_50nEaVrfzgEbH8EirE-9PGLfQ.ttf
+  - family_name: Sorts Mill Goudy
+    type: Regular
+    full_name: Sorts Mill Goudy Regular
+    post_script_name: SortsMillGoudy-Regular
+    version: '003.101'
+    copyright: Copyright (c) 2010, Barry Schwartz (chemoelectric@chemoelectric.org)
+    font: Qw3GZR9MED_6PSuS_50nEaVrfzgEXH0OjpM75PE.ttf
+extract: {}
 copyright: Copyright (c) 2010, Barry Schwartz (chemoelectric@chemoelectric.org)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -122,3 +122,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

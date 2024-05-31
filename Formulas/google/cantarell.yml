@@ -1,12 +1,16 @@
 ---
+name: Cantarell
 description: Cantarell
 homepage: http://abattis.org
 resources:
-  Cantarell.zip:
-    urls:
-    - https://fonts.google.com/download?family=Cantarell
-    sha256: 43d2a1b1ce7d40443d85b76629b285b28e18c1260568ebcad244fcd38fa06e0e
-    file_size: 104428
+  Cantarell:
+    source: google
+    family: Cantarell
+    files:
+    - https://fonts.gstatic.com/s/cantarell/v17/B50NF7ZDq37KMUvlO01Ji6hqHK-CLA.ttf
+    - https://fonts.gstatic.com/s/cantarell/v17/B50LF7ZDq37KMUvlO015iaJuPqqSLJYf.ttf
+    - https://fonts.gstatic.com/s/cantarell/v17/B50IF7ZDq37KMUvlO01xN4dOFISeJY8GgQ.ttf
+    - https://fonts.gstatic.com/s/cantarell/v17/B50WF7ZDq37KMUvlO015iZrSEY6aB4oWgWHB.ttf
 fonts:
 - name: Cantarell
   styles:
@@ -16,28 +20,28 @@ fonts:
     post_script_name: Cantarell-Bold
     version: '1.004'
     copyright: Copyright 2009 The Cantarell Project Authors (https://github.com/davelab6/cantarell)
-    font: Cantarell-Bold.ttf
+    font: B50IF7ZDq37KMUvlO01xN4dOFISeJY8GgQ.ttf
   - family_name: Cantarell
     type: Bold Italic
     full_name: Cantarell Bold Italic
     post_script_name: Cantarell-BoldItalic
     version: '1.004'
     copyright: Copyright 2009 The Cantarell Project Authors (https://github.com/davelab6/cantarell)
-    font: Cantarell-BoldItalic.ttf
+    font: B50WF7ZDq37KMUvlO015iZrSEY6aB4oWgWHB.ttf
   - family_name: Cantarell
     type: Italic
     full_name: Cantarell Italic
     post_script_name: Cantarell-Italic
     version: '1.004'
     copyright: Copyright 2009 The Cantarell Project Authors (https://github.com/davelab6/cantarell)
-    font: Cantarell-Italic.ttf
+    font: B50LF7ZDq37KMUvlO015iaJuPqqSLJYf.ttf
   - family_name: Cantarell
     type: Regular
     full_name: Cantarell Regular
     post_script_name: Cantarell-Regular
     version: '1.004'
     copyright: Copyright 2009 The Cantarell Project Authors (https://github.com/davelab6/cantarell)
-    font: Cantarell-Regular.ttf
+    font: B50NF7ZDq37KMUvlO01Ji6hqHK-CLA.ttf
 extract: {}
 copyright: Copyright 2009 The Cantarell Project Authors (https://github.com/davelab6/cantarell)
 license_url: https://scripts.sil.org/OFL
@@ -46,7 +50,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -135,5 +139,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 77d6ea2f54bb94b73cae4eda8c51b47da637efd785f60aa5b4b491fb01dc89cb
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

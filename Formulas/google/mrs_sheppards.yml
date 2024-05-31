@@ -1,12 +1,13 @@
 ---
+name: Mrs Sheppards
 description: Mrs Sheppards
 homepage: http://www.sudtipos.com
 resources:
-  MrsSheppards.zip:
-    urls:
-    - https://fonts.google.com/download?family=Mrs%20Sheppards
-    sha256: 9086510a9fd27472df20356a3e9a739e66ca56f799036a4f69de1066d5b90029
-    file_size: 24520
+  Mrs Sheppards:
+    source: google
+    family: Mrs Sheppards
+    files:
+    - https://fonts.gstatic.com/s/mrssheppards/v23/PN_2Rfm9snC0XUGoEZhb91ig3vjxynMix4Y.ttf
 fonts:
 - name: Mrs Sheppards
   styles:
@@ -18,11 +19,11 @@ fonts:
     copyright: |-
       Copyright (c) 2004 Alejandro Paul (sudtipos@sudtipos.com),
       with Reserved Font Name "Mrs Sheppards"
-    font: MrsSheppards-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2004 Alejandro Paul (sudtipos@sudtipos.com), with Reserved
-  Font Name "Mrs Sheppards"
+    font: PN_2Rfm9snC0XUGoEZhb91ig3vjxynMix4Y.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2004 Alejandro Paul (sudtipos@sudtipos.com),
+  with Reserved Font Name "Mrs Sheppards"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 Alejandro Paul (sudtipos@sudtipos.com),
@@ -119,3 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

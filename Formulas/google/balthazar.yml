@@ -3,11 +3,11 @@ name: Balthazar
 description: Balthazar
 homepage: http://www.tipo.net.ar
 resources:
-  Balthazar.zip:
-    urls:
-    - https://fonts.google.com/download?family=Balthazar
-    sha256: 31d8e5846066176d8a060f849f528d99c19c42de13d6431a9a9b6fdc339dda22
-    file_size: 17240
+  Balthazar:
+    source: google
+    family: Balthazar
+    files:
+    - https://fonts.gstatic.com/s/balthazar/v17/d6lKkaajS8Gm4CVQjFEvyRTo39l8hw.ttf
 fonts:
 - name: Balthazar
   styles:
@@ -18,11 +18,10 @@ fonts:
     version: '1.000'
     copyright: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar),
       with Reserved Font Name "Balthazar".
-    font: Balthazar-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar dario@tipo.net.ar),
-  with Reserved Font Name "Balthazar".
+    font: d6lKkaajS8Gm4CVQjFEvyRTo39l8hw.ttf
+extract: {}
+copyright: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar), with
+  Reserved Font Name "Balthazar".
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar),
@@ -119,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

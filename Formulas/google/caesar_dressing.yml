@@ -1,12 +1,13 @@
 ---
+name: Caesar Dressing
 description: Caesar Dressing
 homepage: http://www.fontbros.com/openwindow.php
 resources:
-  CaesarDressing.zip:
-    urls:
-    - https://fonts.google.com/download?family=Caesar%20Dressing
-    sha256: 2d67aa69c93bd0d46fde7a7ce1ba1a875e3ef7174d885ac52be1c976b0fbf51d
-    file_size: 41751
+  Caesar Dressing:
+    source: google
+    family: Caesar Dressing
+    files:
+    - https://fonts.gstatic.com/s/caesardressing/v21/yYLx0hLa3vawqtwdswbotmK4vrR3cbb6LZttyg.ttf
 fonts:
 - name: Caesar Dressing
   styles:
@@ -17,9 +18,8 @@ fonts:
     version: '1.000'
     copyright: Copyright (c) 2011 by Open Window (dathanboardman@gmail.com) with Reseved
       Font Name "Caesar Dressing"
-    font: CaesarDressing-Regular.ttf
-extract:
-  format: zip
+    font: yYLx0hLa3vawqtwdswbotmK4vrR3cbb6LZttyg.ttf
+extract: {}
 copyright: Copyright (c) 2011 by Open Window (dathanboardman@gmail.com) with Reseved
   Font Name "Caesar Dressing"
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

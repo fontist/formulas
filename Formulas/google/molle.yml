@@ -3,11 +3,11 @@ name: Molle
 description: Molle
 homepage: www.sorkintype.com
 resources:
-  Molle.zip:
-    urls:
-    - https://fonts.google.com/download?family=Molle
-    sha256: '08d927b57176d28827261dc7d8a364cfe8719cb25a3230f3dc3ca96fb3bc309e'
-    file_size: 35175
+  Molle:
+    source: google
+    family: Molle
+    files:
+    - https://fonts.gstatic.com/s/molle/v23/E21n_dL5hOXFhWEsXzgmVydREus.ttf
 fonts:
 - name: Molle
   styles:
@@ -15,16 +15,17 @@ fonts:
     type: Regular
     full_name: Molle
     post_script_name: Molle-Regular
-    version: '1.002'
+    version: 1.001; ttfautohint (v0.92) -l 12 -r 12 -G 200 -x 10 -w "g"
     description: Molle is a distinctive looking bottom heavy display script inspired
       by lettering seen on an Italian poster. Molle is best used from medium to large
       sizes.
-    copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved
-      Font Name "Molle"
-    font: Molle-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)
+    copyright: |-
+      Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
+      with Reserved Font Name "Spinnaker".
+    font: E21n_dL5hOXFhWEsXzgmVydREus.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
   with Reserved Font Name "Spinnaker".
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -121,3 +122,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

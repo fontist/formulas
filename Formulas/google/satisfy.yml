@@ -3,11 +3,11 @@ name: Satisfy
 description: Satisfy
 homepage: http://www.fontdiner.com
 resources:
-  Satisfy.zip:
-    urls:
-    - https://fonts.google.com/download?family=Satisfy
-    sha256: 66587d29adb5dfa88ab83666a9f595e770445e34dedd12c8fc84643b39452ab4
-    file_size: 32385
+  Satisfy:
+    source: google
+    family: Satisfy
+    files:
+    - https://fonts.gstatic.com/s/satisfy/v21/rP2Hp2yn6lkG50LoOZSCHBeHFl0.ttf
 fonts:
 - name: Satisfy
   styles:
@@ -17,13 +17,12 @@ fonts:
     post_script_name: Satisfy-Regular
     version: '1.001'
     copyright: Copyright (c) 2011 by Font Diner, Inc. All rights reserved.
-    font: Satisfy-Regular.ttf
-extract:
-  format: zip
+    font: rP2Hp2yn6lkG50LoOZSCHBeHFl0.ttf
+extract: {}
 copyright: Copyright (c) 2011 by Font Diner, Inc. All rights reserved.
 license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |2-
-                                   Apache License
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -224,3 +223,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999

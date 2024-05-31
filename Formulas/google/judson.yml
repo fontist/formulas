@@ -1,45 +1,51 @@
 ---
 name: Judson
 description: Judson
-homepage:
 resources:
-  Judson.zip:
-    urls:
-    - https://fonts.google.com/download?family=Judson
-    sha256: aae01c9a95e0fb494d27dfdbc7abcbb1fc56b8a13d5cffaf614bc316e96d1287
-    file_size: 282845
+  Judson:
+    source: google
+    family: Judson
+    files:
+    - https://fonts.gstatic.com/s/judson/v19/FeVRS0Fbvbc14VxRD7N01bV7kg.ttf
+    - https://fonts.gstatic.com/s/judson/v19/FeVTS0Fbvbc14VxhDblw97BrknZf.ttf
+    - https://fonts.gstatic.com/s/judson/v19/FeVSS0Fbvbc14Vxps5xQ3Z5nm29Gww.ttf
 fonts:
 - name: Judson
   styles:
   - family_name: Judson
-    type: Regular
-    full_name: Judson Regular
-    post_script_name: Judson-Regular
-    version: '20110429'
-    copyright: Copyright (c) 2010, 2011 by Daniel Johnson. Released under the terms
-      of the SIL Open Font License v1.1.
-    font: Judson-Regular.ttf
-  - family_name: Judson
-    type: Italic
-    full_name: Judson Italic
-    post_script_name: Judson-Italic
-    version: '20110429'
-    copyright: Copyright (c) 2010, 2011 by Daniel Johnson.  Released under the terms
-      of the SIL Open Font License v1.1.
-    font: Judson-Italic.ttf
-  - family_name: Judson
     type: Bold
+    preferred_family_name: Judson
+    preferred_type: Bold
     full_name: Judson Bold
     post_script_name: Judson-Bold
     version: '20110429'
     copyright: Copyright (c) 2010, 2011 by Daniel Johnson. Released under the terms
       of the SIL Open Font License v1.1.
-    font: Judson-Bold.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010, 2011 by Daniel Johnson (il.basso.buffo@gmail.com).
-  Released under the terms of the SIL Open Font License v1.1.
-license_url:
+    font: FeVSS0Fbvbc14Vxps5xQ3Z5nm29Gww.ttf
+  - family_name: Judson
+    type: Italic
+    preferred_family_name: Judson
+    preferred_type: Italic
+    full_name: Judson Italic
+    post_script_name: Judson-Italic
+    version: '20110429'
+    copyright: Copyright (c) 2010, 2011 by Daniel Johnson.  Released under the terms
+      of the SIL Open Font License v1.1.
+    font: FeVTS0Fbvbc14VxhDblw97BrknZf.ttf
+  - family_name: Judson
+    type: Regular
+    preferred_family_name: Judson
+    preferred_type: Regular
+    full_name: Judson Regular
+    post_script_name: Judson-Regular
+    version: '20110429'
+    copyright: Copyright (c) 2010, 2011 by Daniel Johnson. Released under the terms
+      of the SIL Open Font License v1.1.
+    font: FeVRS0Fbvbc14VxRD7N01bV7kg.ttf
+extract: {}
+copyright: Copyright (c) 2010, 2011 by Daniel Johnson. Released under the terms of
+  the SIL Open Font License v1.1.
+license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2009, 2010, 2011 Daniel Johnson (<il.basso.buffo@gmail.com>).
 
@@ -134,3 +140,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

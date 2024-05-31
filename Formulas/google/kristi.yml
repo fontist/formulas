@@ -1,13 +1,12 @@
 ---
 name: Kristi
 description: Kristi
-homepage:
 resources:
-  Kristi.zip:
-    urls:
-    - https://fonts.google.com/download?family=Kristi
-    sha256: bd30d4463d81befd1c09249aee1325d057f066b063af159db59c3c349e8e9f15
-    file_size: 33572
+  Kristi:
+    source: google
+    family: Kristi
+    files:
+    - https://fonts.gstatic.com/s/kristi/v21/uK_y4ricdeU6zwdRCh0TMv6EXw.ttf
 fonts:
 - name: Kristi
   styles:
@@ -18,12 +17,10 @@ fonts:
     version: '1.004'
     copyright: Copyright (c) 2010, Birgit Pulk (birgitpulk@gmail.com). All rights
       reserved. Licenced under SIL OFL v1.1
-    font: Kristi-Regular.ttf
-extract:
-  format: zip
+    font: uK_y4ricdeU6zwdRCh0TMv6EXw.ttf
+extract: {}
 copyright: Copyright (c) 2010, Birgit Pulk (birgitpulk@gmail.com). All rights reserved.
   Licenced under SIL OFL v1.1
-license_url:
 open_license: |-
   Copyright (c) 2010, Birgit Pulk (birgitpulk@gmail.com)
 
@@ -118,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

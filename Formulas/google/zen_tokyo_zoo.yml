@@ -3,11 +3,11 @@ name: Zen Tokyo Zoo
 description: Zen Tokyo Zoo
 homepage: https://www.zenfont.jp/
 resources:
-  Zen_Tokyo_Zoo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Zen%20Tokyo%20Zoo
-    sha256: eb87cfe1fda9c174c063cc4b69567a9dcc83abc9e90e43ab2fe394269b236b8e
-    file_size: 46639
+  Zen Tokyo Zoo:
+    source: google
+    family: Zen Tokyo Zoo
+    files:
+    - https://fonts.gstatic.com/s/zentokyozoo/v7/NGSyv5ffC0J_BK6aFNtr6sRv8a1uRWe9amg.ttf
 fonts:
 - name: Zen Tokyo Zoo
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: ZenTokyoZoo-Regular
     version: 1.002; ttfautohint (v1.8.3)
     copyright: Copyright 2021 The Zen Tokyo Zoo Project Authors (https://github.com/googlefonts/zen-tokyo-zoo)
-    font: ZenTokyoZoo-Regular.ttf
+    font: NGSyv5ffC0J_BK6aFNtr6sRv8a1uRWe9amg.ttf
 extract: {}
 copyright: Copyright 2021 The Zen Tokyo Zoo Project Authors (https://github.com/googlefonts/zen-tokyo-zoo)
 license_url: https://scripts.sil.org/OFL
@@ -26,8 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
-
+  https://scripts.sil.org/OFL
 
   -----------------------------------------------------------
   SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
@@ -115,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: cd91a04e600b8c08c267a0d4819b64898fef24c80b3df686b0a9f93c6d793a64
-command: google import --formulas_path Formulas
+command: import google -n 9999

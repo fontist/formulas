@@ -1,24 +1,17 @@
 ---
 name: Allan
 description: Allan
-homepage:
+homepage: korkork.com
 resources:
-  Allan.zip:
-    urls:
-    - https://fonts.google.com/download?family=Allan
-    sha256: 0d27cc0b0ee8835814f57de171c22f06a6ecc5f63524aa1968923fccafa0d416
-    file_size: 64715
+  Allan:
+    source: google
+    family: Allan
+    files:
+    - https://fonts.gstatic.com/s/allan/v24/ea8XadU7WuTxEtb2P9SF8nZE.ttf
+    - https://fonts.gstatic.com/s/allan/v24/ea8aadU7WuTxEu5KEPCN2WpNgEKU.ttf
 fonts:
 - name: Allan
   styles:
-  - family_name: Allan
-    type: Regular
-    full_name: Allan Regular
-    post_script_name: Allan-Regular
-    version: '1.002'
-    copyright: Copyright (c) 2010-2012, Anton Koovit (anton@korkork.com), with Reserved
-      Font Name 'Allan'
-    font: Allan-Regular.ttf
   - family_name: Allan
     type: Bold
     full_name: Allan Bold
@@ -26,12 +19,18 @@ fonts:
     version: '1.005'
     copyright: Copyright (c) 2010-2012, Anton Koovit (anton@korkork.com), with Reserved
       Font Name 'Allan'
-    font: Allan-Bold.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010-2012, Anton Koovit (anton@fatype.com), with Reserved
+    font: ea8aadU7WuTxEu5KEPCN2WpNgEKU.ttf
+  - family_name: Allan
+    type: Regular
+    full_name: Allan Regular
+    post_script_name: Allan-Regular
+    version: '1.002'
+    copyright: Copyright (c) 2010-2012, Anton Koovit (anton@korkork.com), with Reserved
+      Font Name 'Allan'
+    font: ea8XadU7WuTxEtb2P9SF8nZE.ttf
+extract: {}
+copyright: Copyright (c) 2010-2012, Anton Koovit (anton@korkork.com), with Reserved
   Font Name 'Allan'
-license_url:
 open_license: |-
   Copyright (c) 2010-2012, Anton Koovit (anton@korkork.com), with Reserved Font Name 'Allan'
 
@@ -126,3 +125,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

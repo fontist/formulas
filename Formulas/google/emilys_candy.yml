@@ -1,12 +1,13 @@
 ---
+name: Emilys Candy
 description: Emilys Candy
 homepage: http://www.fontbros.com/foundries/neapolitan
 resources:
-  EmilysCandy.zip:
-    urls:
-    - https://fonts.google.com/download?family=Emilys%20Candy
-    sha256: dd8af5397d73a1a2f020e0f6d2225f824bdaed5ff789f14035e5e07d456bd60e
-    file_size: 115949
+  Emilys Candy:
+    source: google
+    family: Emilys Candy
+    files:
+    - https://fonts.gstatic.com/s/emilyscandy/v19/2EbgL-1mD1Rnb0OGKudbk0y5r9xrX84JjA.ttf
 fonts:
 - name: Emilys Candy
   styles:
@@ -17,9 +18,8 @@ fonts:
     version: '1.000'
     copyright: Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com)
       with Reseved Font Name "Emilys Candy"
-    font: EmilysCandy-Regular.ttf
-extract:
-  format: zip
+    font: 2EbgL-1mD1Rnb0OGKudbk0y5r9xrX84JjA.ttf
+extract: {}
 copyright: Copyright (c) 2012 by Font Diner, Inc DBA Neapolitan (diner@fontdiner.com)
   with Reseved Font Name "Emilys Candy"
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,12 +1,17 @@
 ---
+name: Khand
 description: Khand
 homepage: http://www.indiantypefoundry.com
 resources:
-  Khand.zip:
-    urls:
-    - https://fonts.google.com/download?family=Khand
-    sha256: 61a9e37f3a410acb43e22a2c2974abf3062dce5d99ab46bc10cbe324ff9acdc7
-    file_size: 714486
+  Khand:
+    source: google
+    family: Khand
+    files:
+    - https://fonts.gstatic.com/s/khand/v17/TwMN-IINQlQQ0bL5cFE3ZwaH__-C.ttf
+    - https://fonts.gstatic.com/s/khand/v17/TwMA-IINQlQQ0YpVWHU_TBqO.ttf
+    - https://fonts.gstatic.com/s/khand/v17/TwMN-IINQlQQ0bKhcVE3ZwaH__-C.ttf
+    - https://fonts.gstatic.com/s/khand/v17/TwMN-IINQlQQ0bKNdlE3ZwaH__-C.ttf
+    - https://fonts.gstatic.com/s/khand/v17/TwMN-IINQlQQ0bLpd1E3ZwaH__-C.ttf
 fonts:
 - name: Khand
   styles:
@@ -16,14 +21,14 @@ fonts:
     post_script_name: Khand-Bold
     version: 1.102;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.8.3)
     copyright: Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)
-    font: Khand-Bold.ttf
+    font: TwMN-IINQlQQ0bLpd1E3ZwaH__-C.ttf
   - family_name: Khand
     type: Regular
     full_name: Khand Regular
     post_script_name: Khand-Regular
     version: 1.102;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.8.3)
     copyright: Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)
-    font: Khand-Regular.ttf
+    font: TwMA-IINQlQQ0YpVWHU_TBqO.ttf
 - name: Khand Light
   styles:
   - family_name: Khand Light
@@ -34,7 +39,7 @@ fonts:
     post_script_name: Khand-Light
     version: 1.102;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.8.3)
     copyright: Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)
-    font: Khand-Light.ttf
+    font: TwMN-IINQlQQ0bL5cFE3ZwaH__-C.ttf
 - name: Khand Medium
   styles:
   - family_name: Khand Medium
@@ -45,7 +50,7 @@ fonts:
     post_script_name: Khand-Medium
     version: 1.102;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.8.3)
     copyright: Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)
-    font: Khand-Medium.ttf
+    font: TwMN-IINQlQQ0bKhcVE3ZwaH__-C.ttf
 - name: Khand SemiBold
   styles:
   - family_name: Khand SemiBold
@@ -56,7 +61,7 @@ fonts:
     post_script_name: Khand-SemiBold
     version: 1.102;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.8.3)
     copyright: Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)
-    font: Khand-SemiBold.ttf
+    font: TwMN-IINQlQQ0bKNdlE3ZwaH__-C.ttf
 extract: {}
 copyright: Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)
 license_url: http://scripts.sil.org/OFL
@@ -154,5 +159,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9a2ca59d794c89360019a096844dd58363ae18330551984ce69ec252b4dd4d76
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

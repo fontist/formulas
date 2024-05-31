@@ -1,13 +1,12 @@
 ---
 name: Vibur
 description: Vibur
-homepage:
 resources:
-  Vibur.zip:
-    urls:
-    - https://fonts.google.com/download?family=Vibur
-    sha256: 335a7be72bb5b64ae682dbf51d7c959580efdc6d652cbb4353bafef404a3c23c
-    file_size: 56931
+  Vibur:
+    source: google
+    family: Vibur
+    files:
+    - https://fonts.gstatic.com/s/vibur/v23/DPEiYwmEzw0QRjTpLjoJd-Xa.ttf
 fonts:
 - name: Vibur
   styles:
@@ -18,9 +17,8 @@ fonts:
     version: '1.004'
     copyright: Copyright (c) 2010, Johan Kallas (johan.kallas@gmail.com). All rights
       reserved. Licenced under SIL OFL v1.1
-    font: Vibur-Regular.ttf
-extract:
-  format: zip
+    font: DPEiYwmEzw0QRjTpLjoJd-Xa.ttf
+extract: {}
 copyright: Copyright (c) 2010, Johan Kallas (johan.kallas@gmail.com). All rights reserved.
   Licenced under SIL OFL v1.1
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

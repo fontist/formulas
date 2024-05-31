@@ -1,12 +1,13 @@
 ---
+name: Maiden Orange
 description: Maiden Orange
 homepage: http://www.astigmatic.com/
 resources:
-  MaidenOrange.zip:
-    urls:
-    - https://fonts.google.com/download?family=Maiden%20Orange
-    sha256: 68ecb8dbbf7d6faa7b533d87ef2b68e66c68cc2fa91f9714c27f51fb8d215337
-    file_size: 29996
+  Maiden Orange:
+    source: google
+    family: Maiden Orange
+    files:
+    - https://fonts.gstatic.com/s/maidenorange/v29/kJE1BuIX7AUmhi2V4m08kb1XjOZdCZS8FY8.ttf
 fonts:
 - name: Maiden Orange
   styles:
@@ -18,14 +19,14 @@ fonts:
     copyright: |-
       Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.
       http://www.apache.org/licenses/LICENSE-2.0.html
-    font: MaidenOrange-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All
-  rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html
+    font: kJE1BuIX7AUmhi2V4m08kb1XjOZdCZS8FY8.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.
+  http://www.apache.org/licenses/LICENSE-2.0.html
 license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |2-
-                                   Apache License
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -226,3 +227,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999

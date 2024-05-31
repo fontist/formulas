@@ -3,11 +3,11 @@ name: Pompiere
 description: Pompiere
 homepage: www.sorkintype.com
 resources:
-  Pompiere.zip:
-    urls:
-    - https://fonts.google.com/download?family=Pompiere
-    sha256: 46cec44f17068bb4c6bc21c4848bcdfabac3916b719532c2788ac29db0080d5f
-    file_size: 26137
+  Pompiere:
+    source: google
+    family: Pompiere
+    files:
+    - https://fonts.gstatic.com/s/pompiere/v19/VEMyRoxis5Dwuyeov6Wt5jDtreOL.ttf
 fonts:
 - name: Pompiere
   styles:
@@ -23,11 +23,9 @@ fonts:
       of its small x height and modest weight it will work best at medium to large
       sizes.
     copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
-    font: Pompiere-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)
-  with Reserved Font Name "Pompiere".
+    font: VEMyRoxis5Dwuyeov6Wt5jDtreOL.ttf
+extract: {}
+copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
@@ -124,3 +122,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

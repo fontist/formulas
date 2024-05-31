@@ -3,11 +3,11 @@ name: Oranienbaum
 description: Oranienbaum
 homepage: http://jovanny.ru/
 resources:
-  Oranienbaum.zip:
-    urls:
-    - https://fonts.google.com/download?family=Oranienbaum
-    sha256: acf2c4db5586cb75292c1fdc7cee82a7fe76d15f18ad06afb13830c1f39da0bf
-    file_size: 48367
+  Oranienbaum:
+    source: google
+    family: Oranienbaum
+    files:
+    - https://fonts.gstatic.com/s/oranienbaum/v15/OZpHg_txtzZKMuXLIVrx-3zn7kz3dpHc.ttf
 fonts:
 - name: Oranienbaum
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: 1.001; ttfautohint (v0.91) -l 8 -r 50 -G 200 -x 0 -w "gGD"
     copyright: Copyright (c) 2012, Oleg Pospelov (oleg@pospelov.com), Jovanny Lemonad
       (lemonad@jovanny.ru), with Reserved Font Name 'Oranienbaum'
-    font: Oranienbaum-Regular.ttf
-extract:
-  format: zip
+    font: OZpHg_txtzZKMuXLIVrx-3zn7kz3dpHc.ttf
+extract: {}
 copyright: Copyright (c) 2012, Oleg Pospelov (oleg@pospelov.com), Jovanny Lemonad
   (lemonad@jovanny.ru), with Reserved Font Name 'Oranienbaum'
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

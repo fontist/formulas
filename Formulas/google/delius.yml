@@ -1,13 +1,12 @@
 ---
 name: Delius
 description: Delius
-homepage:
 resources:
-  Delius.zip:
-    urls:
-    - https://fonts.google.com/download?family=Delius
-    sha256: a37c866242293811e854b7b091fba7309054646130bec8da5a2239df1b1dca3c
-    file_size: 29881
+  Delius:
+    source: google
+    family: Delius
+    files:
+    - https://fonts.gstatic.com/s/delius/v19/PN_xRfK0pW_9e1rtYcI-jT3L_w.ttf
 fonts:
 - name: Delius
   styles:
@@ -18,10 +17,9 @@ fonts:
     version: '1.001'
     description: Delius is a high quality comic book lettering typeface.
     copyright: Copyright (c) 2010 by Natalia Raices. All rights reserved.
-    font: Delius-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010 by Natalia Raices (nraices@gmail.com). All rights reserved.
+    font: PN_xRfK0pW_9e1rtYcI-jT3L_w.ttf
+extract: {}
+copyright: Copyright (c) 2010 by Natalia Raices. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, 2011, Natalia Raices,
@@ -120,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

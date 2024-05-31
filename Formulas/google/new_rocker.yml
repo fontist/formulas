@@ -1,12 +1,13 @@
 ---
+name: New Rocker
 description: New Rocker
 homepage: www.impallari.com
 resources:
-  NewRocker.zip:
-    urls:
-    - https://fonts.google.com/download?family=New%20Rocker
-    sha256: 446ff95fe2b0673e20f1508f9303e8f218e780b0df39a8b53d400549355f413b
-    file_size: 64859
+  New Rocker:
+    source: google
+    family: New Rocker
+    files:
+    - https://fonts.gstatic.com/s/newrocker/v16/MwQzbhjp3-HImzcCU_cJkGMViblPtXs.ttf
 fonts:
 - name: New Rocker
   styles:
@@ -22,9 +23,8 @@ fonts:
       Copyright (c) 2012, Brenda Gallo (gbrenda1987@gmail.com), Copyright (c) 2012,
       Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved
       Font Name 'New Rocker'
-    font: NewRocker-Regular.ttf
-extract:
-  format: zip
+    font: MwQzbhjp3-HImzcCU_cJkGMViblPtXs.ttf
+extract: {}
 copyright: Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com),
   Copyright (c) 2012, Brenda Gallo (gbrenda1987@gmail.com), Copyright (c) 2012, Rodrigo
   Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved Font Name
@@ -127,3 +127,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

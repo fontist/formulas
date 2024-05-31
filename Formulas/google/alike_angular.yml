@@ -1,12 +1,13 @@
 ---
+name: Alike Angular
 description: Alike Angular
 homepage: http://cyreal.org
 resources:
-  Alike_Angular.zip:
-    urls:
-    - https://fonts.google.com/download?family=Alike%20Angular
-    sha256: cfffbcec0d17130a50c739e7c25b1d9029740673643745c7955e245e6f75745f
-    file_size: 35668
+  Alike Angular:
+    source: google
+    family: Alike Angular
+    files:
+    - https://fonts.gstatic.com/s/alikeangular/v25/3qTrojWunjGQtEBlIcwMbSoI3kM6bB7FKjE.ttf
 fonts:
 - name: Alike Angular
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 1.300; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2009 The Alike Angular Project Authors (https://github.com/cyrealtype/Alike-Angular)
       with Reserved Font Name "Alike" and "Alike Angular".
-    font: AlikeAngular-Regular.ttf
+    font: 3qTrojWunjGQtEBlIcwMbSoI3kM6bB7FKjE.ttf
 extract: {}
 copyright: Copyright 2009 The Alike Angular Project Authors (https://github.com/cyrealtype/Alike-Angular)
   with Reserved Font Name "Alike" and "Alike Angular".
@@ -27,7 +28,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -116,5 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: f987df6e9e217cdc1da58d2953240c9f35246609bfadf3d0dfa234fae2d67b79
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

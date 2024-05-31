@@ -3,11 +3,11 @@ name: Righteous
 description: Righteous
 homepage: http://www.astigmatic.com/
 resources:
-  Righteous.zip:
-    urls:
-    - https://fonts.google.com/download?family=Righteous
-    sha256: fa9d0c2611e485cd7c2258c62f75595ffdf57d5280b26b0d2e824eff634ebcf3
-    file_size: 25053
+  Righteous:
+    source: google
+    family: Righteous
+    files:
+    - https://fonts.gstatic.com/s/righteous/v17/1cXxaUPXBpj2rGoU7C9mj3uEicG01A.ttf
 fonts:
 - name: Righteous
   styles:
@@ -19,11 +19,11 @@ fonts:
     copyright: |-
       Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
       Font Name "Righteous"
-    font: Righteous-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com),
-  with Reserved Font Name "Righteous"
+    font: 1cXxaUPXBpj2rGoU7C9mj3uEicG01A.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+  Font Name "Righteous"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI)
@@ -120,3 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

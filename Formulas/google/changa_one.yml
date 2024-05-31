@@ -1,23 +1,17 @@
 ---
+name: Changa One
 description: Changa One
 homepage: http://www.tipo.net.ar
 resources:
-  ChangaOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Changa%20One
-    sha256: 29075a2872a3eab78ed5800c49dd6ef696971c623859ef8642c611b21e5ecdf2
-    file_size: 28897
+  Changa One:
+    source: google
+    family: Changa One
+    files:
+    - https://fonts.gstatic.com/s/changaone/v20/xfu00W3wXn3QLUJXhzq46AbouLfbK64.ttf
+    - https://fonts.gstatic.com/s/changaone/v20/xfu20W3wXn3QLUJXhzq42ATivJXeO67ISw.ttf
 fonts:
 - name: Changa One
   styles:
-  - family_name: Changa One
-    type: Regular
-    full_name: Changa One
-    post_script_name: ChangaOne
-    version: '1.003'
-    copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
-      Font Name "Changa"
-    font: ChangaOne-Regular.ttf
   - family_name: Changa One
     type: Italic
     full_name: Changa One Italic
@@ -25,11 +19,18 @@ fonts:
     version: '1.003'
     copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
       Font Name "Changa"
-    font: ChangaOne-Italic.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar),
-  with Reserved Font Name "Changa"
+    font: xfu20W3wXn3QLUJXhzq42ATivJXeO67ISw.ttf
+  - family_name: Changa One
+    type: Regular
+    full_name: Changa One
+    post_script_name: ChangaOne
+    version: '1.003'
+    copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
+      Font Name "Changa"
+    font: xfu00W3wXn3QLUJXhzq46AbouLfbK64.ttf
+extract: {}
+copyright: Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved
+  Font Name "Changa"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar),
@@ -126,3 +127,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

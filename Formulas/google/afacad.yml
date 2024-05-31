@@ -1,11 +1,20 @@
 ---
+name: Afacad
 description: Afacad
 homepage: https://www.dicotype.com
 resources:
-  Afacad.zip:
-    urls:
-    - https://fonts.google.com/download?family=Afacad
-    file_size: 427212
+  Afacad:
+    source: google
+    family: Afacad
+    files:
+    - https://fonts.gstatic.com/s/afacad/v1/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfhXtWmA08mCgdfM.ttf
+    - https://fonts.gstatic.com/s/afacad/v1/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfiftWmA08mCgdfM.ttf
+    - https://fonts.gstatic.com/s/afacad/v1/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfsvqWmA08mCgdfM.ttf
+    - https://fonts.gstatic.com/s/afacad/v1/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfvLqWmA08mCgdfM.ttf
+    - https://fonts.gstatic.com/s/afacad/v1/6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92usiM-9kKlZfNfuw.ttf
+    - https://fonts.gstatic.com/s/afacad/v1/6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92ugCM-9kKlZfNfuw.ttf
+    - https://fonts.gstatic.com/s/afacad/v1/6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92ubCQ-9kKlZfNfuw.ttf
+    - https://fonts.gstatic.com/s/afacad/v1/6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92uVSQ-9kKlZfNfuw.ttf
 fonts:
 - name: Afacad
   styles:
@@ -15,42 +24,28 @@ fonts:
     post_script_name: Afacad-Bold
     version: '1.000'
     copyright: Copyright 2023 The Afacad Project Authors (https://github.com/Dicotype/Afacad)
-    font: Afacad-Bold.ttf
+    font: 6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfvLqWmA08mCgdfM.ttf
   - family_name: Afacad
     type: Bold Italic
     full_name: Afacad Bold Italic
     post_script_name: Afacad-BoldItalic
     version: '1.000'
     copyright: Copyright 2023 The Afacad Project Authors (https://github.com/Dicotype/Afacad)
-    font: Afacad-BoldItalic.ttf
+    font: 6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92uVSQ-9kKlZfNfuw.ttf
   - family_name: Afacad
     type: Italic
     full_name: Afacad Italic
     post_script_name: Afacad-Italic
     version: '1.000'
     copyright: Copyright 2023 The Afacad Project Authors (https://github.com/Dicotype/Afacad)
-    font: Afacad-Italic-VariableFont_wght.ttf
-  - family_name: Afacad
-    type: Italic
-    full_name: Afacad Italic
-    post_script_name: Afacad-Italic
-    version: '1.000'
-    copyright: Copyright 2023 The Afacad Project Authors (https://github.com/Dicotype/Afacad)
-    font: Afacad-Italic.ttf
+    font: 6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92usiM-9kKlZfNfuw.ttf
   - family_name: Afacad
     type: Regular
     full_name: Afacad Regular
     post_script_name: Afacad-Regular
     version: '1.000'
     copyright: Copyright 2023 The Afacad Project Authors (https://github.com/Dicotype/Afacad)
-    font: Afacad-VariableFont_wght.ttf
-  - family_name: Afacad
-    type: Regular
-    full_name: Afacad Regular
-    post_script_name: Afacad-Regular
-    version: '1.000'
-    copyright: Copyright 2023 The Afacad Project Authors (https://github.com/Dicotype/Afacad)
-    font: Afacad-Regular.ttf
+    font: 6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfhXtWmA08mCgdfM.ttf
 - name: Afacad Medium
   styles:
   - family_name: Afacad Medium
@@ -61,7 +56,7 @@ fonts:
     post_script_name: Afacad-MediumItalic
     version: '1.000'
     copyright: Copyright 2023 The Afacad Project Authors (https://github.com/Dicotype/Afacad)
-    font: Afacad-MediumItalic.ttf
+    font: 6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92ugCM-9kKlZfNfuw.ttf
   - family_name: Afacad Medium
     type: Regular
     preferred_family_name: Afacad
@@ -70,7 +65,7 @@ fonts:
     post_script_name: Afacad-Medium
     version: '1.000'
     copyright: Copyright 2023 The Afacad Project Authors (https://github.com/Dicotype/Afacad)
-    font: Afacad-Medium.ttf
+    font: 6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfiftWmA08mCgdfM.ttf
 - name: Afacad SemiBold
   styles:
   - family_name: Afacad SemiBold
@@ -81,7 +76,7 @@ fonts:
     post_script_name: Afacad-SemiBoldItalic
     version: '1.000'
     copyright: Copyright 2023 The Afacad Project Authors (https://github.com/Dicotype/Afacad)
-    font: Afacad-SemiBoldItalic.ttf
+    font: 6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92ubCQ-9kKlZfNfuw.ttf
   - family_name: Afacad SemiBold
     type: Regular
     preferred_family_name: Afacad
@@ -90,7 +85,7 @@ fonts:
     post_script_name: Afacad-SemiBold
     version: '1.000'
     copyright: Copyright 2023 The Afacad Project Authors (https://github.com/Dicotype/Afacad)
-    font: Afacad-SemiBold.ttf
+    font: 6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfsvqWmA08mCgdfM.ttf
 extract: {}
 copyright: Copyright 2023 The Afacad Project Authors (https://github.com/Dicotype/Afacad)
 license_url: https://scripts.sil.org/OFL
@@ -99,7 +94,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -188,5 +183,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b34aca55321d3499e903769dac6d86a5d9ca00c45c9c187fc446450cdaf94d0d
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

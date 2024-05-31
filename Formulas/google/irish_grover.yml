@@ -1,12 +1,13 @@
 ---
+name: Irish Grover
 description: Irish Grover
 homepage: http://www.fontbros.com/sideshow.php
 resources:
-  IrishGrover.zip:
-    urls:
-    - https://fonts.google.com/download?family=Irish%20Grover
-    sha256: a2daabf3bd160e78329793ae8def70bd377233540ef7d97539eb0c4d336b46cb
-    file_size: 33888
+  Irish Grover:
+    source: google
+    family: Irish Grover
+    files:
+    - https://fonts.gstatic.com/s/irishgrover/v23/buExpoi6YtLz2QW7LA4flVgf-P5Oaiw4cw.ttf
 fonts:
 - name: Irish Grover
   styles:
@@ -16,13 +17,12 @@ fonts:
     post_script_name: IrishGrover-Regular
     version: '1.001'
     copyright: Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.
-    font: IrishGrover-Regular.ttf
-extract:
-  format: zip
+    font: buExpoi6YtLz2QW7LA4flVgf-P5Oaiw4cw.ttf
+extract: {}
 copyright: Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.
 license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |2-
-                                   Apache License
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -223,3 +223,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999

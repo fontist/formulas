@@ -3,72 +3,90 @@ name: Sansita
 description: Sansita
 homepage: http://www.omnibus-type.com
 resources:
-  Sansita.zip:
-    urls:
-    - https://fonts.google.com/download?family=Sansita
-    sha256: 8e25dda0d8a3c582c8eea3a872a299fd9cdd232663686493afd0dac80b7cddef
-    file_size: 388735
+  Sansita:
+    source: google
+    family: Sansita
+    files:
+    - https://fonts.gstatic.com/s/sansita/v11/QldONTRRphEb_-V7HBm7TXFf3qw.ttf
+    - https://fonts.gstatic.com/s/sansita/v11/QldMNTRRphEb_-V7LBuxSVNazqx2xg.ttf
+    - https://fonts.gstatic.com/s/sansita/v11/QldLNTRRphEb_-V7JKWUaXl0wqVv3_g.ttf
+    - https://fonts.gstatic.com/s/sansita/v11/QldJNTRRphEb_-V7LBuJ9Xx-xodqz_joDQ.ttf
+    - https://fonts.gstatic.com/s/sansita/v11/QldLNTRRphEb_-V7JLmXaXl0wqVv3_g.ttf
+    - https://fonts.gstatic.com/s/sansita/v11/QldJNTRRphEb_-V7LBuJ6X9-xodqz_joDQ.ttf
+    - https://fonts.gstatic.com/s/sansita/v11/QldLNTRRphEb_-V7JJ2WaXl0wqVv3_g.ttf
+    - https://fonts.gstatic.com/s/sansita/v11/QldJNTRRphEb_-V7LBuJzX5-xodqz_joDQ.ttf
 fonts:
 - name: Sansita
   styles:
-  - family_name: Sansita
-    type: Regular
-    full_name: Sansita Regular
-    post_script_name: Sansita-Regular
-    version: 1.006; ttfautohint (v1.5)
-    copyright: Copyright 2016 The Sansita Project Authors (omnibus.type@gmail.com)
-    font: Sansita-Regular.ttf
-  - family_name: Sansita
-    type: Italic
-    full_name: Sansita Italic
-    post_script_name: Sansita-Italic
-    version: 1.006; ttfautohint (v1.5)
-    copyright: Copyright 2016 The Sansita Project Authors (omnibus.type@gmail.com)
-    font: Sansita-Italic.ttf
   - family_name: Sansita
     type: Bold
     full_name: Sansita Bold
     post_script_name: Sansita-Bold
     version: 1.006; ttfautohint (v1.5)
     copyright: Copyright 2016 The Sansita Project Authors (omnibus.type@gmail.com)
-    font: Sansita-Bold.ttf
+    font: QldLNTRRphEb_-V7JKWUaXl0wqVv3_g.ttf
   - family_name: Sansita
     type: Bold Italic
     full_name: Sansita Bold Italic
     post_script_name: Sansita-BoldItalic
     version: 1.006; ttfautohint (v1.5)
     copyright: Copyright 2016 The Sansita Project Authors (omnibus.type@gmail.com)
-    font: Sansita-BoldItalic.ttf
+    font: QldJNTRRphEb_-V7LBuJ9Xx-xodqz_joDQ.ttf
   - family_name: Sansita
-    type: ExtraBold
-    full_name: Sansita ExtraBold
-    post_script_name: Sansita-ExtraBold
+    type: Italic
+    full_name: Sansita Italic
+    post_script_name: Sansita-Italic
     version: 1.006; ttfautohint (v1.5)
     copyright: Copyright 2016 The Sansita Project Authors (omnibus.type@gmail.com)
-    font: Sansita-ExtraBold.ttf
+    font: QldMNTRRphEb_-V7LBuxSVNazqx2xg.ttf
   - family_name: Sansita
-    type: ExtraBold Italic
-    full_name: Sansita ExtraBold Italic
-    post_script_name: Sansita-ExtraBoldItalic
+    type: Regular
+    full_name: Sansita Regular
+    post_script_name: Sansita-Regular
     version: 1.006; ttfautohint (v1.5)
     copyright: Copyright 2016 The Sansita Project Authors (omnibus.type@gmail.com)
-    font: Sansita-ExtraBoldItalic.ttf
-  - family_name: Sansita
-    type: Black
-    full_name: Sansita Black
-    post_script_name: Sansita-Black
-    version: 1.006; ttfautohint (v1.5)
-    copyright: Copyright 2016 The Sansita Project Authors (omnibus.type@gmail.com)
-    font: Sansita-Black.ttf
-  - family_name: Sansita
-    type: Black Italic
+    font: QldONTRRphEb_-V7HBm7TXFf3qw.ttf
+- name: Sansita Black
+  styles:
+  - family_name: Sansita Black
+    type: Italic
+    preferred_family_name: Sansita
+    preferred_type: Black Italic
     full_name: Sansita Black Italic
     post_script_name: Sansita-BlackItalic
     version: 1.006; ttfautohint (v1.5)
     copyright: Copyright 2016 The Sansita Project Authors (omnibus.type@gmail.com)
-    font: Sansita-BlackItalic.ttf
-extract:
-  format: zip
+    font: QldJNTRRphEb_-V7LBuJzX5-xodqz_joDQ.ttf
+  - family_name: Sansita Black
+    type: Regular
+    preferred_family_name: Sansita
+    preferred_type: Black
+    full_name: Sansita Black
+    post_script_name: Sansita-Black
+    version: 1.006; ttfautohint (v1.5)
+    copyright: Copyright 2016 The Sansita Project Authors (omnibus.type@gmail.com)
+    font: QldLNTRRphEb_-V7JJ2WaXl0wqVv3_g.ttf
+- name: Sansita ExtraBold
+  styles:
+  - family_name: Sansita ExtraBold
+    type: Italic
+    preferred_family_name: Sansita
+    preferred_type: ExtraBold Italic
+    full_name: Sansita ExtraBold Italic
+    post_script_name: Sansita-ExtraBoldItalic
+    version: 1.006; ttfautohint (v1.5)
+    copyright: Copyright 2016 The Sansita Project Authors (omnibus.type@gmail.com)
+    font: QldJNTRRphEb_-V7LBuJ6X9-xodqz_joDQ.ttf
+  - family_name: Sansita ExtraBold
+    type: Regular
+    preferred_family_name: Sansita
+    preferred_type: ExtraBold
+    full_name: Sansita ExtraBold
+    post_script_name: Sansita-ExtraBold
+    version: 1.006; ttfautohint (v1.5)
+    copyright: Copyright 2016 The Sansita Project Authors (omnibus.type@gmail.com)
+    font: QldLNTRRphEb_-V7JLmXaXl0wqVv3_g.ttf
+extract: {}
 copyright: Copyright 2016 The Sansita Project Authors (omnibus.type@gmail.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -165,3 +183,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

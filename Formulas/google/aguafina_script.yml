@@ -1,12 +1,13 @@
 ---
+name: Aguafina Script
 description: Aguafina Script
 homepage: http://www.sudtipos.com
 resources:
-  AguafinaScript.zip:
-    urls:
-    - https://fonts.google.com/download?family=Aguafina%20Script
-    sha256: b595842b5467561352214447823117afcd706f4f088f120190a5911f7eb2705d
-    file_size: 23846
+  Aguafina Script:
+    source: google
+    family: Aguafina Script
+    files:
+    - https://fonts.gstatic.com/s/aguafinascript/v22/If2QXTv_ZzSxGIO30LemWEOmt1bHqs4pgicOrg.ttf
 fonts:
 - name: Aguafina Script
   styles:
@@ -19,11 +20,12 @@ fonts:
       Copyright (c) 2007 Angel Koziupa (sudtipos@sudtipos.com),
       Copyright (c) 2007 Alejandro Paul (sudtipos@sudtipos.com),
       with Reserved Font Name "Aguafina Script"
-    font: AguafinaScript-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2007 Angel Koziupa (sudtipos@sudtipos.com), Copyright (c)
-  2007 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name "Aguafina Script"
+    font: If2QXTv_ZzSxGIO30LemWEOmt1bHqs4pgicOrg.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2007 Angel Koziupa (sudtipos@sudtipos.com),
+  Copyright (c) 2007 Alejandro Paul (sudtipos@sudtipos.com),
+  with Reserved Font Name "Aguafina Script"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 Angel Koziupa (sudtipos@sudtipos.com),
@@ -121,3 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

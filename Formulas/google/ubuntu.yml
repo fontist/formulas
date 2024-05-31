@@ -3,62 +3,21 @@ name: Ubuntu
 description: Ubuntu
 homepage: http://www.daltonmaag.com/
 resources:
-  Ubuntu.zip:
-    urls:
-    - https://fonts.google.com/download?family=Ubuntu
-    sha256: b1fc69669051247c50202d5d40760c2c6e2a6eb5a29b44f549c6971661a6f69a
-    file_size: 1210533
+  Ubuntu:
+    source: google
+    family: Ubuntu
+    files:
+    - https://fonts.gstatic.com/s/ubuntu/v20/4iCv6KVjbNBYlgoC1CzTt2aMH4V_gg.ttf
+    - https://fonts.gstatic.com/s/ubuntu/v20/4iCp6KVjbNBYlgoKejZftWyIPYBvgpUI.ttf
+    - https://fonts.gstatic.com/s/ubuntu/v20/4iCs6KVjbNBYlgo6eAT3v02QFg.ttf
+    - https://fonts.gstatic.com/s/ubuntu/v20/4iCu6KVjbNBYlgoKeg7znUiAFpxm.ttf
+    - https://fonts.gstatic.com/s/ubuntu/v20/4iCv6KVjbNBYlgoCjC3Tt2aMH4V_gg.ttf
+    - https://fonts.gstatic.com/s/ubuntu/v20/4iCp6KVjbNBYlgoKejYHtGyIPYBvgpUI.ttf
+    - https://fonts.gstatic.com/s/ubuntu/v20/4iCv6KVjbNBYlgoCxCvTt2aMH4V_gg.ttf
+    - https://fonts.gstatic.com/s/ubuntu/v20/4iCp6KVjbNBYlgoKejZPsmyIPYBvgpUI.ttf
 fonts:
 - name: Ubuntu
   styles:
-  - family_name: Ubuntu
-    type: Light
-    full_name: Ubuntu Light
-    post_script_name: Ubuntu-Light
-    version: '0.83'
-    copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
-      1.0
-    font: Ubuntu-Light.ttf
-  - family_name: Ubuntu
-    type: Light Italic
-    full_name: Ubuntu Light Italic
-    post_script_name: Ubuntu-LightItalic
-    version: '0.83'
-    copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
-      1.0
-    font: Ubuntu-LightItalic.ttf
-  - family_name: Ubuntu
-    type: Regular
-    full_name: Ubuntu Regular
-    post_script_name: Ubuntu-Regular
-    version: '0.83'
-    copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
-      1.0
-    font: Ubuntu-Regular.ttf
-  - family_name: Ubuntu
-    type: Italic
-    full_name: Ubuntu Italic
-    post_script_name: Ubuntu-Italic
-    version: '0.83'
-    copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
-      1.0
-    font: Ubuntu-Italic.ttf
-  - family_name: Ubuntu
-    type: Medium
-    full_name: Ubuntu Medium
-    post_script_name: Ubuntu-Medium
-    version: '0.83'
-    copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
-      1.0
-    font: Ubuntu-Medium.ttf
-  - family_name: Ubuntu
-    type: Medium Italic
-    full_name: Ubuntu Medium Italic
-    post_script_name: Ubuntu-MediumItalic
-    version: '0.83'
-    copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
-      1.0
-    font: Ubuntu-MediumItalic.ttf
   - family_name: Ubuntu
     type: Bold
     full_name: Ubuntu Bold
@@ -66,7 +25,7 @@ fonts:
     version: '0.83'
     copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
       1.0
-    font: Ubuntu-Bold.ttf
+    font: 4iCv6KVjbNBYlgoCxCvTt2aMH4V_gg.ttf
   - family_name: Ubuntu
     type: Bold Italic
     full_name: Ubuntu Bold Italic
@@ -74,11 +33,69 @@ fonts:
     version: '0.83'
     copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
       1.0
-    font: Ubuntu-BoldItalic.ttf
-extract:
-  format: zip
-copyright: Copyright 2011 Canonical Ltd. Licensed under the Ubuntu Font Licence 1.0
-license_url:
+    font: 4iCp6KVjbNBYlgoKejZPsmyIPYBvgpUI.ttf
+  - family_name: Ubuntu
+    type: Italic
+    full_name: Ubuntu Italic
+    post_script_name: Ubuntu-Italic
+    version: '0.83'
+    copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
+      1.0
+    font: 4iCu6KVjbNBYlgoKeg7znUiAFpxm.ttf
+  - family_name: Ubuntu
+    type: Regular
+    full_name: Ubuntu Regular
+    post_script_name: Ubuntu-Regular
+    version: '0.83'
+    copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
+      1.0
+    font: 4iCs6KVjbNBYlgo6eAT3v02QFg.ttf
+- name: Ubuntu Light
+  styles:
+  - family_name: Ubuntu Light
+    type: Italic
+    preferred_family_name: Ubuntu
+    preferred_type: Light Italic
+    full_name: Ubuntu Light Italic
+    post_script_name: Ubuntu-LightItalic
+    version: '0.83'
+    copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
+      1.0
+    font: 4iCp6KVjbNBYlgoKejZftWyIPYBvgpUI.ttf
+  - family_name: Ubuntu Light
+    type: Regular
+    preferred_family_name: Ubuntu
+    preferred_type: Light
+    full_name: Ubuntu Light
+    post_script_name: Ubuntu-Light
+    version: '0.83'
+    copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
+      1.0
+    font: 4iCv6KVjbNBYlgoC1CzTt2aMH4V_gg.ttf
+- name: Ubuntu Medium
+  styles:
+  - family_name: Ubuntu Medium
+    type: Italic
+    preferred_family_name: Ubuntu
+    preferred_type: Medium Italic
+    full_name: Ubuntu Medium Italic
+    post_script_name: Ubuntu-MediumItalic
+    version: '0.83'
+    copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
+      1.0
+    font: 4iCp6KVjbNBYlgoKejYHtGyIPYBvgpUI.ttf
+  - family_name: Ubuntu Medium
+    type: Regular
+    preferred_family_name: Ubuntu
+    preferred_type: Medium
+    full_name: Ubuntu Medium
+    post_script_name: Ubuntu-Medium
+    version: '0.83'
+    copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
+      1.0
+    font: 4iCv6KVjbNBYlgoCjC3Tt2aMH4V_gg.ttf
+extract: {}
+copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0
 open_license: |-
   -------------------------------
   UBUNTU FONT LICENCE Version 1.0
@@ -176,3 +193,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER
   DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

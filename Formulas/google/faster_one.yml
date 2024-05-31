@@ -1,12 +1,13 @@
 ---
+name: Faster One
 description: Faster One
 homepage: http://www.tipo.net.ar
 resources:
-  Faster_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Faster%20One
-    sha256: b605eb61d4629af7b0cfa0ff1231553900951a42e172f86ab6238c5af531b14f
-    file_size: 44696
+  Faster One:
+    source: google
+    family: Faster One
+    files:
+    - https://fonts.gstatic.com/s/fasterone/v19/H4ciBXCHmdfClFb-vWhfyLuShq63czE.ttf
 fonts:
 - name: Faster One
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 1.003; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
     copyright: Copyright 2012 The Faster Project Authors (https://github.com/etunni/faster),
       with Reserved Font Name 'Faster'
-    font: FasterOne-Regular.ttf
+    font: H4ciBXCHmdfClFb-vWhfyLuShq63czE.ttf
 extract: {}
 copyright: Copyright 2012 The Faster Project Authors (https://github.com/etunni/faster),
   with Reserved Font Name 'Faster'
@@ -27,7 +28,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -116,5 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e0dbaefcca4da040e517063652e350d8b9476c83a69053af55840bbaf424b01e
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

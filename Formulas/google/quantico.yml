@@ -3,30 +3,17 @@ name: Quantico
 description: Quantico
 homepage: http://www.madtype.com
 resources:
-  Quantico.zip:
-    urls:
-    - https://fonts.google.com/download?family=Quantico
-    sha256: d2fc82b22e885c0c7c58fac2bffdca2608288e3750742191c19d7abc5aa4592c
-    file_size: 46213
+  Quantico:
+    source: google
+    family: Quantico
+    files:
+    - https://fonts.gstatic.com/s/quantico/v17/rax-HiSdp9cPL3KIF4xsLjxSmlLZ.ttf
+    - https://fonts.gstatic.com/s/quantico/v17/rax4HiSdp9cPL3KIF7xuJDhwn0LZ6T8.ttf
+    - https://fonts.gstatic.com/s/quantico/v17/rax5HiSdp9cPL3KIF7TQARhasU7Q8Cad.ttf
+    - https://fonts.gstatic.com/s/quantico/v17/rax7HiSdp9cPL3KIF7xuHIRfu0ry9TadML4.ttf
 fonts:
 - name: Quantico
   styles:
-  - family_name: Quantico
-    type: Regular
-    full_name: Quantico
-    post_script_name: Quantico-Regular
-    version: '2.002'
-    copyright: Copyright (c) 2011 Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com),
-      with Reserved Font Name "Quantico"
-    font: Quantico-Regular.ttf
-  - family_name: Quantico
-    type: Italic
-    full_name: Quantico-Italic
-    post_script_name: Quantico-Italic
-    version: '2.002'
-    copyright: Copyright (c) 2011 Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com),
-      with Reserved Font Name "Quantico"
-    font: Quantico-Italic.ttf
   - family_name: Quantico
     type: Bold
     full_name: Quantico-Bold
@@ -34,7 +21,7 @@ fonts:
     version: '2.002'
     copyright: Copyright (c) 2011 Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com),
       with Reserved Font Name "Quantico"
-    font: Quantico-Bold.ttf
+    font: rax5HiSdp9cPL3KIF7TQARhasU7Q8Cad.ttf
   - family_name: Quantico
     type: Bold Italic
     full_name: Quantico-BoldItalic
@@ -42,9 +29,24 @@ fonts:
     version: '2.002'
     copyright: Copyright (c) 2011 Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com),
       with Reserved Font Name "Quantico"
-    font: Quantico-BoldItalic.ttf
-extract:
-  format: zip
+    font: rax7HiSdp9cPL3KIF7xuHIRfu0ry9TadML4.ttf
+  - family_name: Quantico
+    type: Italic
+    full_name: Quantico-Italic
+    post_script_name: Quantico-Italic
+    version: '2.002'
+    copyright: Copyright (c) 2011 Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com),
+      with Reserved Font Name "Quantico"
+    font: rax4HiSdp9cPL3KIF7xuJDhwn0LZ6T8.ttf
+  - family_name: Quantico
+    type: Regular
+    full_name: Quantico
+    post_script_name: Quantico-Regular
+    version: '2.002'
+    copyright: Copyright (c) 2011 Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com),
+      with Reserved Font Name "Quantico"
+    font: rax-HiSdp9cPL3KIF4xsLjxSmlLZ.ttf
+extract: {}
 copyright: Copyright (c) 2011 Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com),
   with Reserved Font Name "Quantico"
 license_url: http://scripts.sil.org/OFL
@@ -142,3 +144,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

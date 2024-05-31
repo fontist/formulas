@@ -3,10 +3,16 @@ name: Yaldevi
 description: Yaldevi
 homepage: http://mooniak.com
 resources:
-  Yaldevi.zip:
-    urls:
-    - https://fonts.google.com/download?family=Yaldevi
-    file_size: 733260
+  Yaldevi:
+    source: google
+    family: Yaldevi
+    files:
+    - https://fonts.gstatic.com/s/yaldevi/v12/cY9afj6VW0NMrDWtDNzCOwlPMq9SLpfxJzvobxLCBJkS.ttf
+    - https://fonts.gstatic.com/s/yaldevi/v12/cY9afj6VW0NMrDWtDNzCOwlPMq9SLpcvJzvobxLCBJkS.ttf
+    - https://fonts.gstatic.com/s/yaldevi/v12/cY9afj6VW0NMrDWtDNzCOwlPMq9SLpdxJzvobxLCBJkS.ttf
+    - https://fonts.gstatic.com/s/yaldevi/v12/cY9afj6VW0NMrDWtDNzCOwlPMq9SLpdDJzvobxLCBJkS.ttf
+    - https://fonts.gstatic.com/s/yaldevi/v12/cY9afj6VW0NMrDWtDNzCOwlPMq9SLpevIDvobxLCBJkS.ttf
+    - https://fonts.gstatic.com/s/yaldevi/v12/cY9afj6VW0NMrDWtDNzCOwlPMq9SLpeWIDvobxLCBJkS.ttf
 fonts:
 - name: Yaldevi
   styles:
@@ -16,14 +22,14 @@ fonts:
     post_script_name: Yaldevi-Bold
     version: '1.100'
     copyright: Copyright 2021 The Yaldevi Project Authors (https://github.com/mooniak/yaldevi-font)
-    font: Yaldevi-Bold.ttf
+    font: cY9afj6VW0NMrDWtDNzCOwlPMq9SLpeWIDvobxLCBJkS.ttf
   - family_name: Yaldevi
     type: Regular
     full_name: Yaldevi Regular
     post_script_name: Yaldevi-Regular
     version: '1.100'
     copyright: Copyright 2021 The Yaldevi Project Authors (https://github.com/mooniak/yaldevi-font)
-    font: Yaldevi-Regular.ttf
+    font: cY9afj6VW0NMrDWtDNzCOwlPMq9SLpdxJzvobxLCBJkS.ttf
 - name: Yaldevi ExtraLight
   styles:
   - family_name: Yaldevi ExtraLight
@@ -34,16 +40,7 @@ fonts:
     post_script_name: Yaldevi-ExtraLight
     version: '1.100'
     copyright: Copyright 2021 The Yaldevi Project Authors (https://github.com/mooniak/yaldevi-font)
-    font: Yaldevi-ExtraLight.ttf
-  - family_name: Yaldevi ExtraLight
-    type: Regular
-    preferred_family_name: Yaldevi
-    preferred_type: ExtraLight
-    full_name: Yaldevi ExtraLight
-    post_script_name: Yaldevi-ExtraLight
-    version: '1.100'
-    copyright: Copyright 2021 The Yaldevi Project Authors (https://github.com/mooniak/yaldevi-font)
-    font: Yaldevi-VariableFont_wght.ttf
+    font: cY9afj6VW0NMrDWtDNzCOwlPMq9SLpfxJzvobxLCBJkS.ttf
 - name: Yaldevi Light
   styles:
   - family_name: Yaldevi Light
@@ -54,7 +51,7 @@ fonts:
     post_script_name: Yaldevi-Light
     version: '1.100'
     copyright: Copyright 2021 The Yaldevi Project Authors (https://github.com/mooniak/yaldevi-font)
-    font: Yaldevi-Light.ttf
+    font: cY9afj6VW0NMrDWtDNzCOwlPMq9SLpcvJzvobxLCBJkS.ttf
 - name: Yaldevi Medium
   styles:
   - family_name: Yaldevi Medium
@@ -65,7 +62,7 @@ fonts:
     post_script_name: Yaldevi-Medium
     version: '1.100'
     copyright: Copyright 2021 The Yaldevi Project Authors (https://github.com/mooniak/yaldevi-font)
-    font: Yaldevi-Medium.ttf
+    font: cY9afj6VW0NMrDWtDNzCOwlPMq9SLpdDJzvobxLCBJkS.ttf
 - name: Yaldevi SemiBold
   styles:
   - family_name: Yaldevi SemiBold
@@ -76,7 +73,7 @@ fonts:
     post_script_name: Yaldevi-SemiBold
     version: '1.100'
     copyright: Copyright 2021 The Yaldevi Project Authors (https://github.com/mooniak/yaldevi-font)
-    font: Yaldevi-SemiBold.ttf
+    font: cY9afj6VW0NMrDWtDNzCOwlPMq9SLpevIDvobxLCBJkS.ttf
 extract: {}
 copyright: Copyright 2021 The Yaldevi Project Authors (https://github.com/mooniak/yaldevi-font)
 license_url: http://scripts.sil.org/OFL
@@ -174,5 +171,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 427037feb5eba7e1b27e5e7a65b141560d98b2329cef3be2088b1280aae644f2
-command: google import --formulas_path Formulas
+command: import google -n 9999

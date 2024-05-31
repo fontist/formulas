@@ -1,11 +1,16 @@
 ---
+name: Noto Sans Bassa Vah
 description: Noto Sans Bassa Vah
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Bassa_Vah.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Bassa%20Vah
-    file_size: 130340
+  Noto Sans Bassa Vah:
+    source: google
+    family: Noto Sans Bassa Vah
+    files:
+    - https://fonts.gstatic.com/s/notosansbassavah/v17/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4MaAc6p34gH-GD7.ttf
+    - https://fonts.gstatic.com/s/notosansbassavah/v17/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4MoAc6p34gH-GD7.ttf
+    - https://fonts.gstatic.com/s/notosansbassavah/v17/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4PEBs6p34gH-GD7.ttf
+    - https://fonts.gstatic.com/s/notosansbassavah/v17/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4P9Bs6p34gH-GD7.ttf
 fonts:
 - name: Noto Sans Bassa Vah
   styles:
@@ -16,7 +21,7 @@ fonts:
     version: '2.002'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bassa-vah)
-    font: NotoSansBassaVah-Bold.ttf
+    font: PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4P9Bs6p34gH-GD7.ttf
   - family_name: Noto Sans Bassa Vah
     type: Regular
     full_name: Noto Sans Bassa Vah Regular
@@ -24,15 +29,7 @@ fonts:
     version: '2.002'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bassa-vah)
-    font: NotoSansBassaVah-VariableFont_wght.ttf
-  - family_name: Noto Sans Bassa Vah
-    type: Regular
-    full_name: Noto Sans Bassa Vah Regular
-    post_script_name: NotoSansBassaVah-Regular
-    version: '2.002'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bassa-vah)
-    font: NotoSansBassaVah-Regular.ttf
+    font: PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4MaAc6p34gH-GD7.ttf
 - name: Noto Sans Bassa Vah Medium
   styles:
   - family_name: Noto Sans Bassa Vah Medium
@@ -44,7 +41,7 @@ fonts:
     version: '2.002'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bassa-vah)
-    font: NotoSansBassaVah-Medium.ttf
+    font: PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4MoAc6p34gH-GD7.ttf
 - name: Noto Sans Bassa Vah SemiBold
   styles:
   - family_name: Noto Sans Bassa Vah SemiBold
@@ -56,7 +53,7 @@ fonts:
     version: '2.002'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bassa-vah)
-    font: NotoSansBassaVah-SemiBold.ttf
+    font: PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4PEBs6p34gH-GD7.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bassa-vah)
 license_url: https://scripts.sil.org/OFL
@@ -65,7 +62,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -154,5 +151,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 7b99d047813c07d411bc069473612f9248d268d94857773f54e2b50474c8c5e0
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

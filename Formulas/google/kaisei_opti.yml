@@ -3,11 +3,13 @@ name: Kaisei Opti
 description: Kaisei Opti
 homepage: https://font-kai.jp
 resources:
-  Kaisei_Opti.zip:
-    urls:
-    - https://fonts.google.com/download?family=Kaisei%20Opti
-    sha256: c290a63b7266055e8c6acc8ea04d5b094a533cb43480cd0efe43d1cba59d8db2
-    file_size: 7925636
+  Kaisei Opti:
+    source: google
+    family: Kaisei Opti
+    files:
+    - https://fonts.gstatic.com/s/kaiseiopti/v8/QldKNThJphYb8_g6c2nlIFle7KlmxuHx.ttf
+    - https://fonts.gstatic.com/s/kaiseiopti/v8/QldXNThJphYb8_g6c2nlIGGqxY1u7f34DYwn.ttf
+    - https://fonts.gstatic.com/s/kaiseiopti/v8/QldXNThJphYb8_g6c2nlIGHiw41u7f34DYwn.ttf
 fonts:
 - name: Kaisei Opti
   styles:
@@ -15,16 +17,16 @@ fonts:
     type: Bold
     full_name: Kaisei Opti Bold
     post_script_name: KaiseiOpti-Bold
-    version: 5.002; ttfautohint (v1.8.3)
+    version: '5.003'
     copyright: Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)
-    font: KaiseiOpti-Bold.ttf
+    font: QldXNThJphYb8_g6c2nlIGHiw41u7f34DYwn.ttf
   - family_name: Kaisei Opti
     type: Regular
     full_name: Kaisei Opti Regular
     post_script_name: KaiseiOpti-Regular
-    version: 5.002; ttfautohint (v1.8.3)
+    version: '5.003'
     copyright: Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)
-    font: KaiseiOpti-Regular.ttf
+    font: QldKNThJphYb8_g6c2nlIFle7KlmxuHx.ttf
 - name: Kaisei Opti Medium
   styles:
   - family_name: Kaisei Opti Medium
@@ -33,9 +35,9 @@ fonts:
     preferred_type: Medium
     full_name: Kaisei Opti Medium
     post_script_name: KaiseiOpti-Medium
-    version: 5.002; ttfautohint (v1.8.3)
+    version: '5.003'
     copyright: Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)
-    font: KaiseiOpti-Medium.ttf
+    font: QldXNThJphYb8_g6c2nlIGGqxY1u7f34DYwn.ttf
 extract: {}
 copyright: Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)
 license_url: https://scripts.sil.org/OFL
@@ -44,7 +46,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -133,5 +135,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 956ab7ff645cee23b90f8cb675891cefd5e189bb0dcb5b2fbf39c1cf91ee39d2
-command: google import --formulas_path Formulas
+command: import google -n 9999

@@ -3,10 +3,20 @@ name: Rasa
 description: Rasa
 homepage: https://rosettatype.com
 resources:
-  Rasa.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rasa
-    file_size: 1394614
+  Rasa:
+    source: google
+    family: Rasa
+    files:
+    - https://fonts.gstatic.com/s/rasa/v22/xn76YHIn1mWmVKl8ZtAM9NrJfN4YJW41fcvN2KT4.ttf
+    - https://fonts.gstatic.com/s/rasa/v22/xn76YHIn1mWmVKl8ZtAM9NrJfN5GJW41fcvN2KT4.ttf
+    - https://fonts.gstatic.com/s/rasa/v22/xn76YHIn1mWmVKl8ZtAM9NrJfN50JW41fcvN2KT4.ttf
+    - https://fonts.gstatic.com/s/rasa/v22/xn76YHIn1mWmVKl8ZtAM9NrJfN6YIm41fcvN2KT4.ttf
+    - https://fonts.gstatic.com/s/rasa/v22/xn76YHIn1mWmVKl8ZtAM9NrJfN6hIm41fcvN2KT4.ttf
+    - https://fonts.gstatic.com/s/rasa/v22/xn78YHIn1mWmfqBOmQhln0Bne8uOZth2d8_v3bT4Ycc.ttf
+    - https://fonts.gstatic.com/s/rasa/v22/xn78YHIn1mWmfqBOmQhln0Bne8uOZoZ2d8_v3bT4Ycc.ttf
+    - https://fonts.gstatic.com/s/rasa/v22/xn78YHIn1mWmfqBOmQhln0Bne8uOZrR2d8_v3bT4Ycc.ttf
+    - https://fonts.gstatic.com/s/rasa/v22/xn78YHIn1mWmfqBOmQhln0Bne8uOZlhxd8_v3bT4Ycc.ttf
+    - https://fonts.gstatic.com/s/rasa/v22/xn78YHIn1mWmfqBOmQhln0Bne8uOZmFxd8_v3bT4Ycc.ttf
 fonts:
 - name: Rasa
   styles:
@@ -14,44 +24,30 @@ fonts:
     type: Bold
     full_name: Rasa Bold
     post_script_name: Rasa-Bold
-    version: '2.001'
+    version: '2.004'
     copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
-    font: Rasa-Bold.ttf
+    font: xn76YHIn1mWmVKl8ZtAM9NrJfN6hIm41fcvN2KT4.ttf
   - family_name: Rasa
     type: Bold Italic
     full_name: Rasa Bold Italic
     post_script_name: Rasa-BoldItalic
-    version: '2.001'
+    version: '2.004'
     copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
-    font: Rasa-BoldItalic.ttf
+    font: xn78YHIn1mWmfqBOmQhln0Bne8uOZmFxd8_v3bT4Ycc.ttf
   - family_name: Rasa
     type: Italic
     full_name: Rasa Italic
     post_script_name: Rasa-Italic
-    version: '2.001'
+    version: '2.004'
     copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
-    font: Rasa-Italic.ttf
-  - family_name: Rasa
-    type: Italic
-    full_name: Rasa Italic
-    post_script_name: Rasa-Italic
-    version: '2.001'
-    copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
-    font: Rasa-Italic-VariableFont_wght.ttf
+    font: xn78YHIn1mWmfqBOmQhln0Bne8uOZoZ2d8_v3bT4Ycc.ttf
   - family_name: Rasa
     type: Regular
     full_name: Rasa Regular
     post_script_name: Rasa-Regular
-    version: '2.001'
+    version: '2.004'
     copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
-    font: Rasa-VariableFont_wght.ttf
-  - family_name: Rasa
-    type: Regular
-    full_name: Rasa Regular
-    post_script_name: Rasa-Regular
-    version: '2.001'
-    copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
-    font: Rasa-Regular.ttf
+    font: xn76YHIn1mWmVKl8ZtAM9NrJfN5GJW41fcvN2KT4.ttf
 - name: Rasa Light
   styles:
   - family_name: Rasa Light
@@ -60,18 +56,18 @@ fonts:
     preferred_type: Light Italic
     full_name: Rasa Light Italic
     post_script_name: Rasa-LightItalic
-    version: '2.001'
+    version: '2.004'
     copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
-    font: Rasa-LightItalic.ttf
+    font: xn78YHIn1mWmfqBOmQhln0Bne8uOZth2d8_v3bT4Ycc.ttf
   - family_name: Rasa Light
     type: Regular
     preferred_family_name: Rasa
     preferred_type: Light
     full_name: Rasa Light
     post_script_name: Rasa-Light
-    version: '2.001'
+    version: '2.004'
     copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
-    font: Rasa-Light.ttf
+    font: xn76YHIn1mWmVKl8ZtAM9NrJfN4YJW41fcvN2KT4.ttf
 - name: Rasa Medium
   styles:
   - family_name: Rasa Medium
@@ -80,18 +76,18 @@ fonts:
     preferred_type: Medium Italic
     full_name: Rasa Medium Italic
     post_script_name: Rasa-MediumItalic
-    version: '2.001'
+    version: '2.004'
     copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
-    font: Rasa-MediumItalic.ttf
+    font: xn78YHIn1mWmfqBOmQhln0Bne8uOZrR2d8_v3bT4Ycc.ttf
   - family_name: Rasa Medium
     type: Regular
     preferred_family_name: Rasa
     preferred_type: Medium
     full_name: Rasa Medium
     post_script_name: Rasa-Medium
-    version: '2.001'
+    version: '2.004'
     copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
-    font: Rasa-Medium.ttf
+    font: xn76YHIn1mWmVKl8ZtAM9NrJfN50JW41fcvN2KT4.ttf
 - name: Rasa SemiBold
   styles:
   - family_name: Rasa SemiBold
@@ -100,18 +96,18 @@ fonts:
     preferred_type: SemiBold Italic
     full_name: Rasa SemiBold Italic
     post_script_name: Rasa-SemiBoldItalic
-    version: '2.001'
+    version: '2.004'
     copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
-    font: Rasa-SemiBoldItalic.ttf
+    font: xn78YHIn1mWmfqBOmQhln0Bne8uOZlhxd8_v3bT4Ycc.ttf
   - family_name: Rasa SemiBold
     type: Regular
     preferred_family_name: Rasa
     preferred_type: SemiBold
     full_name: Rasa SemiBold
     post_script_name: Rasa-SemiBold
-    version: '2.001'
+    version: '2.004'
     copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
-    font: Rasa-SemiBold.ttf
+    font: xn76YHIn1mWmVKl8ZtAM9NrJfN6YIm41fcvN2KT4.ttf
 extract: {}
 copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
 license_url: https://scripts.sil.org/OFL
@@ -120,7 +116,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -209,5 +205,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 1ddb352ec8cd0c3ce8c26cea7bf5a6aa93ea162b3f30e10c0e120c110267ac8c
-command: google import --formulas_path Formulas
+command: import google -n 9999

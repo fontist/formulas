@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Cypriot
 description: Noto Sans Cypriot
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Cypriot.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Cypriot
-    sha256: 65b12516506b9cb44133af5d8d1be54d8e31de3f452c0dd0e309b1520be36762
-    file_size: 40342
+  Noto Sans Cypriot:
+    source: google
+    family: Noto Sans Cypriot
+    files:
+    - https://fonts.gstatic.com/s/notosanscypriot/v19/8AtzGta9PYqQDjyp79a6f8Cj-3a3cxIsK5MPpahF.ttf
 fonts:
 - name: Noto Sans Cypriot
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/cypriot)
-    font: NotoSansCypriot-Regular.ttf
+    font: 8AtzGta9PYqQDjyp79a6f8Cj-3a3cxIsK5MPpahF.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/cypriot)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ecc5eac61343867a5ff0346d699145ef28a69954fa319ac53f5b433541d82335
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

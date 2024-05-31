@@ -1,11 +1,17 @@
 ---
+name: Baloo Bhaijaan 2
 description: Baloo Bhaijaan 2
 homepage: www.ektype.in
 resources:
-  Baloo_Bhaijaan_2.zip:
-    urls:
-    - https://fonts.google.com/download?family=Baloo%20Bhaijaan%202
-    file_size: 563164
+  Baloo Bhaijaan 2:
+    source: google
+    family: Baloo Bhaijaan 2
+    files:
+    - https://fonts.gstatic.com/s/baloobhaijaan2/v19/zYXwKUwuEqdVGqM8tPDdAA_Y-_bMKo1EhQd2tWxo8TyRSqP4L4ppfcyC.ttf
+    - https://fonts.gstatic.com/s/baloobhaijaan2/v19/zYXwKUwuEqdVGqM8tPDdAA_Y-_bMKo1EhQd2tWxo8TyjSqP4L4ppfcyC.ttf
+    - https://fonts.gstatic.com/s/baloobhaijaan2/v19/zYXwKUwuEqdVGqM8tPDdAA_Y-_bMKo1EhQd2tWxo8TxPTaP4L4ppfcyC.ttf
+    - https://fonts.gstatic.com/s/baloobhaijaan2/v19/zYXwKUwuEqdVGqM8tPDdAA_Y-_bMKo1EhQd2tWxo8Tx2TaP4L4ppfcyC.ttf
+    - https://fonts.gstatic.com/s/baloobhaijaan2/v19/zYXwKUwuEqdVGqM8tPDdAA_Y-_bMKo1EhQd2tWxo8TwRTaP4L4ppfcyC.ttf
 fonts:
 - name: Baloo Bhaijaan 2
   styles:
@@ -15,21 +21,14 @@ fonts:
     post_script_name: BalooBhaijaan2-Bold
     version: '1.701'
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
-    font: BalooBhaijaan2-Bold.ttf
+    font: zYXwKUwuEqdVGqM8tPDdAA_Y-_bMKo1EhQd2tWxo8Tx2TaP4L4ppfcyC.ttf
   - family_name: Baloo Bhaijaan 2
     type: Regular
     full_name: Baloo Bhaijaan 2 Regular
     post_script_name: BalooBhaijaan2-Regular
     version: '1.701'
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
-    font: BalooBhaijaan2-VariableFont_wght.ttf
-  - family_name: Baloo Bhaijaan 2
-    type: Regular
-    full_name: Baloo Bhaijaan 2 Regular
-    post_script_name: BalooBhaijaan2-Regular
-    version: '1.701'
-    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
-    font: BalooBhaijaan2-Regular.ttf
+    font: zYXwKUwuEqdVGqM8tPDdAA_Y-_bMKo1EhQd2tWxo8TyRSqP4L4ppfcyC.ttf
 - name: Baloo Bhaijaan 2 ExtraBold
   styles:
   - family_name: Baloo Bhaijaan 2 ExtraBold
@@ -40,7 +39,7 @@ fonts:
     post_script_name: BalooBhaijaan2-ExtraBold
     version: '1.701'
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
-    font: BalooBhaijaan2-ExtraBold.ttf
+    font: zYXwKUwuEqdVGqM8tPDdAA_Y-_bMKo1EhQd2tWxo8TwRTaP4L4ppfcyC.ttf
 - name: Baloo Bhaijaan 2 Medium
   styles:
   - family_name: Baloo Bhaijaan 2 Medium
@@ -51,7 +50,7 @@ fonts:
     post_script_name: BalooBhaijaan2-Medium
     version: '1.701'
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
-    font: BalooBhaijaan2-Medium.ttf
+    font: zYXwKUwuEqdVGqM8tPDdAA_Y-_bMKo1EhQd2tWxo8TyjSqP4L4ppfcyC.ttf
 - name: Baloo Bhaijaan 2 SemiBold
   styles:
   - family_name: Baloo Bhaijaan 2 SemiBold
@@ -62,7 +61,7 @@ fonts:
     post_script_name: BalooBhaijaan2-SemiBold
     version: '1.701'
     copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
-    font: BalooBhaijaan2-SemiBold.ttf
+    font: zYXwKUwuEqdVGqM8tPDdAA_Y-_bMKo1EhQd2tWxo8TxPTaP4L4ppfcyC.ttf
 extract: {}
 copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
 license_url: http://scripts.sil.org/OFL
@@ -118,5 +117,4 @@ open_license: "\uFEFFCopyright 2019 The Baloo 2 Project Authors (https://github.
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
-digest: 11c5af70d977bba6316a87f1bbf2eb7b3f4be56926ad51efb8e31dcf5ec405fd
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

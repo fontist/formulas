@@ -1,12 +1,13 @@
 ---
+name: Tenali Ramakrishna
 description: Tenali Ramakrishna
 homepage: adityafonts.com
 resources:
-  TenaliRamakrishna.zip:
-    urls:
-    - https://fonts.google.com/download?family=Tenali%20Ramakrishna
-    sha256: 2e2b5704901b2a31c9a3993a5a4df153fa3d01d5a41f6e181ae93a65c6ccf2cc
-    file_size: 255463
+  Tenali Ramakrishna:
+    source: google
+    family: Tenali Ramakrishna
+    files:
+    - https://fonts.gstatic.com/s/tenaliramakrishna/v12/raxgHj6Yt9gAN3LLKs0BZVMo8jmwn1-8KJXqUFFvtA.ttf
 fonts:
 - name: Tenali Ramakrishna
   styles:
@@ -19,9 +20,8 @@ fonts:
     copyright: Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org).
       Copyright (c) 2011, Wojciech Kalinowski (wmk69@o2.pl), with Reserved Font Names
       'Classica'
-    font: TenaliRamakrishna-Regular.ttf
-extract:
-  format: zip
+    font: raxgHj6Yt9gAN3LLKs0BZVMo8jmwn1-8KJXqUFFvtA.ttf
+extract: {}
 copyright: Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org).
   Copyright (c) 2011, Wojciech Kalinowski (wmk69@o2.pl), with Reserved Font Names
   'Classica'
@@ -120,3 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

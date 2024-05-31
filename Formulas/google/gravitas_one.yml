@@ -1,12 +1,13 @@
 ---
+name: Gravitas One
 description: Gravitas One
 homepage: www.sorkintype.com
 resources:
-  GravitasOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Gravitas%20One
-    sha256: 2e53791b951f1335a7c94dea45d21c3857a4f83d7a70d7c734a61a380805ff60
-    file_size: 20503
+  Gravitas One:
+    source: google
+    family: Gravitas One
+    files:
+    - https://fonts.gstatic.com/s/gravitasone/v19/5h1diZ4hJ3cblKy3LWakKQmaDWRNr3DzbQ.ttf
 fonts:
 - name: Gravitas One
   styles:
@@ -22,12 +23,9 @@ fonts:
       of the design means that it will be most useful when set from medium to large
       sizes.
     copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
-    font: GravitasOne.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)
-  with Reserved Font Name "Gravitas". This Font Software is licensed under the SIL
-  Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    font: 5h1diZ4hJ3cblKy3LWakKQmaDWRNr3DzbQ.ttf
+extract: {}
+copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
@@ -124,3 +122,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

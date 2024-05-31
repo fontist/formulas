@@ -3,11 +3,11 @@ name: Gideon Roman
 description: Gideon Roman
 homepage: www.typesetit.com
 resources:
-  Gideon_Roman.zip:
-    urls:
-    - https://fonts.google.com/download?family=Gideon%20Roman
-    sha256: e62852cc4e12d6aed94af543ab5328dab159c99caca820ee2dc422d722617d47
-    file_size: 57102
+  Gideon Roman:
+    source: google
+    family: Gideon Roman
+    files:
+    - https://fonts.gstatic.com/s/gideonroman/v11/e3tmeuGrVOys8sxzZgWlmXoge0PWovdU4w.ttf
 fonts:
 - name: Gideon Roman
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: GideonRoman-Regular
     version: '2.010'
     copyright: Copyright 2009-2021 The Gideon Roman Project Authors (https://github.com/googlefonts/gideon)
-    font: GideonRoman-Regular.ttf
+    font: e3tmeuGrVOys8sxzZgWlmXoge0PWovdU4w.ttf
 extract: {}
 copyright: Copyright 2009-2021 The Gideon Roman Project Authors (https://github.com/googlefonts/gideon)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b714bcf2e9aeea5d98eed5f07449ddfa91478967f0474b188bd5d6815d3897f8
-command: google import --formulas_path Formulas
+command: import google -n 9999

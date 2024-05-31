@@ -1,12 +1,13 @@
 ---
+name: Metrophobic
 description: Metrophobic
 homepage: http://www.sansoxygen.com
 resources:
-  Metrophobic.zip:
-    urls:
-    - https://fonts.google.com/download?family=Metrophobic
-    sha256: 9a9edb5a98e29c6335745365d18c28e690c4ca5462263d417d5945ac3452ed26
-    file_size: 41048
+  Metrophobic:
+    source: google
+    family: Metrophobic
+    files:
+    - https://fonts.gstatic.com/s/metrophobic/v23/sJoA3LZUhMSAPV_u0qwiAT-J737FPEEL.ttf
 fonts:
 - name: Metrophobic
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 3.200; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
     copyright: Copyright 2011 The Metrophobic Project Authors (https://github.com/googlefonts/MetrophobicFont),
       with Reserved Font Name 'Metrophobic'.
-    font: Metrophobic-Regular.ttf
+    font: sJoA3LZUhMSAPV_u0qwiAT-J737FPEEL.ttf
 extract: {}
 copyright: Copyright 2011 The Metrophobic Project Authors (https://github.com/googlefonts/MetrophobicFont),
   with Reserved Font Name 'Metrophobic'.
@@ -27,7 +28,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -116,5 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: fb0bb8ff37924c13ddd87f83db1252341011a63da9ad522fb3490a52b07f31a1
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

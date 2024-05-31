@@ -1,12 +1,13 @@
 ---
+name: Waterfall
 description: Waterfall
 homepage: www.typesetit.com
 resources:
-  Waterfall.zip:
-    urls:
-    - https://fonts.google.com/download?family=Waterfall
-    sha256: 782ad5e7511ce4b0f054a0e31bfc37e3d46735fbd7f2a7882ca0db3c9e02cfbf
-    file_size: 199961
+  Waterfall:
+    source: google
+    family: Waterfall
+    files:
+    - https://fonts.gstatic.com/s/waterfall/v6/MCoRzAfo293fACdFKcwY2rH8D_EZwA.ttf
 fonts:
 - name: Waterfall
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: Waterfall-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2011 The Waterfall Project Authors (https://github.com/googlefonts/waterfall)
-    font: Waterfall-Regular.ttf
+    font: MCoRzAfo293fACdFKcwY2rH8D_EZwA.ttf
 extract: {}
 copyright: Copyright 2011 The Waterfall Project Authors (https://github.com/googlefonts/waterfall)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 8f05bbabd3a115b814ac0f48a0f9260213cfa4105cd9a56bc0eec77e3421037c
-command: google import --formulas_path Formulas
+command: import google -n 9999

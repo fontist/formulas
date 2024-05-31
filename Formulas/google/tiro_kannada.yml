@@ -1,12 +1,14 @@
 ---
+name: Tiro Kannada
 description: Tiro Kannada
 homepage: https://github.com/TiroTypeworks/Indigo
 resources:
-  Tiro_Kannada.zip:
-    urls:
-    - https://fonts.google.com/download?family=Tiro%20Kannada
-    sha256: d28c176d8b61caebbeb105e12f808e39ae8f8efed20fac7cdadfaf856ef8caae
-    file_size: 358022
+  Tiro Kannada:
+    source: google
+    family: Tiro Kannada
+    files:
+    - https://fonts.gstatic.com/s/tirokannada/v6/CSR44ztKmvqaDxEDJFY7CIYKSPl6tOU9Eg.ttf
+    - https://fonts.gstatic.com/s/tirokannada/v6/CSRm4ztKmvqaDxEDJFY7CIY6SvN-luAtEnKp.ttf
 fonts:
 - name: Tiro Kannada
   styles:
@@ -16,14 +18,14 @@ fonts:
     post_script_name: TiroKannada-Italic
     version: '1.52'
     copyright: Copyright 2020 The Indigo Project Authors (https://github.com/TiroTypeworks/Indigo)
-    font: TiroKannada-Italic.ttf
+    font: CSRm4ztKmvqaDxEDJFY7CIY6SvN-luAtEnKp.ttf
   - family_name: Tiro Kannada
     type: Regular
     full_name: Tiro Kannada Regular
     post_script_name: TiroKannada-Regular
     version: '1.52'
     copyright: Copyright 2020 The Indigo Project Authors (https://github.com/TiroTypeworks/Indigo)
-    font: TiroKannada-Regular.ttf
+    font: CSR44ztKmvqaDxEDJFY7CIYKSPl6tOU9Eg.ttf
 extract: {}
 copyright: Copyright 2020 The Indigo Project Authors (https://github.com/TiroTypeworks/Indigo)
 license_url: https://scripts.sil.org/OFL
@@ -121,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: a41918ef53a30cf1214911695ebcbbca984ee2aa8e55f95aef7db69e2a3cd5fb
-command: import google --formulas_path Formulas
+command: import google -n 9999

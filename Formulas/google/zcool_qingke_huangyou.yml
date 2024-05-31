@@ -3,11 +3,11 @@ name: ZCOOL QingKe HuangYou
 description: ZCOOL QingKe HuangYou
 homepage: http://zcool.com.cn
 resources:
-  ZCOOLQingKeHuangYou.zip:
-    urls:
-    - https://fonts.google.com/download?family=ZCOOL%20QingKe%20HuangYou
-    sha256: 5ea3c9a40950000c24051b082d633cf1a4c951e2b6615ace563d8b1d207ca777
-    file_size: 3525800
+  ZCOOL QingKe HuangYou:
+    source: google
+    family: ZCOOL QingKe HuangYou
+    files:
+    - https://fonts.gstatic.com/s/zcoolqingkehuangyou/v15/2Eb5L_R5IXJEWhD3AOhSvFC554MOOahI4mRIi_28c8bHWA.ttf
 fonts:
 - name: ZCOOL QingKe HuangYou
   styles:
@@ -17,9 +17,8 @@ fonts:
     post_script_name: ZCOOLQingKeHuangYou-Regular
     version: '1.000'
     copyright: Copyright 2018 The ZCOOL QingKe HuangYou Project Authors (https://www.github.com/googlefonts/zcool-qingke-huangyou)
-    font: ZCOOLQingKeHuangYou-Regular.ttf
-extract:
-  format: zip
+    font: 2Eb5L_R5IXJEWhD3AOhSvFC554MOOahI4mRIi_28c8bHWA.ttf
+extract: {}
 copyright: Copyright 2018 The ZCOOL QingKe HuangYou Project Authors (https://www.github.com/googlefonts/zcool-qingke-huangyou)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

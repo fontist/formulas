@@ -1,12 +1,12 @@
 ---
+name: Climate Crisis
 description: Climate Crisis
-homepage: http://www.danielcoull.com
 resources:
-  Climate_Crisis.zip:
-    urls:
-    - https://fonts.google.com/download?family=Climate%20Crisis
-    sha256: 3008e6775c375071edd68dd4d88403fb8698d115f01a831c209b6bcaa7611e36
-    file_size: 118463
+  Climate Crisis:
+    source: google
+    family: Climate Crisis
+    files:
+    - https://fonts.gstatic.com/s/climatecrisis/v8/wEOpEB3AntNeKCPBVW9XOKlmp3AUgWFN1DvIvcM0gFp6jaUrGb7PsQ.ttf
 fonts:
 - name: Climate Crisis
   styles:
@@ -16,23 +16,17 @@ fonts:
     post_script_name: ClimateCrisis-Regular
     version: '1.003'
     copyright: Copyright 2020 The Climate Crisis Project Authors (https://github.com/dancoull/ClimateCrisis)
-    font: ClimateCrisis-Regular-VariableFont_YEAR.ttf
-  - family_name: Climate Crisis
-    type: Regular
-    full_name: Climate Crisis Regular
-    post_script_name: ClimateCrisis-Regular
-    version: '1.003'
-    copyright: Copyright 2020 The Climate Crisis Project Authors (https://github.com/dancoull/ClimateCrisis)
-    font: ClimateCrisis-Regular.ttf
+    font: wEOpEB3AntNeKCPBVW9XOKlmp3AUgWFN1DvIvcM0gFp6jaUrGb7PsQ.ttf
 extract: {}
 copyright: Copyright 2020 The Climate Crisis Project Authors (https://github.com/dancoull/ClimateCrisis)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
   Copyright 2020 The Climate Crisis Project Authors (https://github.com/dancoull/ClimateCrisis)
 
+
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -121,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 5ea0bfe8aa6738826184202ff32a6e7d1c076e95c39d0cb73608bec6c4845816
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

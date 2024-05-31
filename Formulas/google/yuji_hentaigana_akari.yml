@@ -1,12 +1,13 @@
 ---
+name: Yuji Hentaigana Akari
 description: Yuji Hentaigana Akari
 homepage: http://www.moji-sekkei.jp/
 resources:
-  Yuji_Hentaigana_Akari.zip:
-    urls:
-    - https://fonts.google.com/download?family=Yuji%20Hentaigana%20Akari
-    sha256: d0777a4606325a29f13cec3bfd7e80778d100666f55195d9b1a9dd04657f8264
-    file_size: 52227
+  Yuji Hentaigana Akari:
+    source: google
+    family: Yuji Hentaigana Akari
+    files:
+    - https://fonts.gstatic.com/s/yujihentaiganaakari/v11/cY9bfiyVT0VB6QuhWKOrpr6z58lnb_zYFnLIRTzODYALaA.ttf
 fonts:
 - name: Yuji Hentaigana Akari
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: YujiHentaiganaAkari-Regular
     version: '3.002'
     copyright: Copyright 2021 The Yuji Project Authors (https://github.com/Kinutafontfactory/Yuji)
-    font: YujiHentaiganaAkari-Regular.ttf
+    font: cY9bfiyVT0VB6QuhWKOrpr6z58lnb_zYFnLIRTzODYALaA.ttf
 extract: {}
 copyright: Copyright 2021 The Yuji Project Authors (https://github.com/Kinutafontfactory/Yuji)
 license_url: https://scripts.sil.org/OFL
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 4c6c81a0228404f9fdc2127bb8639402ea789174b003313498f395abd4138c65
-command: google import --formulas_path Formulas
+command: import google -n 9999

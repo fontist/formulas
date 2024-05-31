@@ -1,12 +1,17 @@
 ---
+name: Zen Kaku Gothic New
 description: Zen Kaku Gothic New
 homepage: https://positype.com
 resources:
-  Zen_Kaku_Gothic_New.zip:
-    urls:
-    - https://fonts.google.com/download?family=Zen%20Kaku%20Gothic%20New
-    sha256: 2b5451b6ecf5d5e7d951c126d59bbddeddf4a8c0897d2f10206f58feca496493
-    file_size: 7013090
+  Zen Kaku Gothic New:
+    source: google
+    family: Zen Kaku Gothic New
+    files:
+    - https://fonts.gstatic.com/s/zenkakugothicnew/v15/gNMVW2drQpDw0GjzrVNFf_valaDBcznOqpdKaWTSTGlMyd8.ttf
+    - https://fonts.gstatic.com/s/zenkakugothicnew/v15/gNMYW2drQpDw0GjzrVNFf_valaDBcznOkjtiTWz5UGA.ttf
+    - https://fonts.gstatic.com/s/zenkakugothicnew/v15/gNMVW2drQpDw0GjzrVNFf_valaDBcznOqs9LaWTSTGlMyd8.ttf
+    - https://fonts.gstatic.com/s/zenkakugothicnew/v15/gNMVW2drQpDw0GjzrVNFf_valaDBcznOqodNaWTSTGlMyd8.ttf
+    - https://fonts.gstatic.com/s/zenkakugothicnew/v15/gNMVW2drQpDw0GjzrVNFf_valaDBcznOqr9PaWTSTGlMyd8.ttf
 fonts:
 - name: Zen Kaku Gothic New
   styles:
@@ -14,16 +19,16 @@ fonts:
     type: Bold
     full_name: Zen Kaku Gothic New Bold
     post_script_name: ZenKakuGothicNew-Bold
-    version: '1.001'
-    copyright: Copyright 2021 The Zen Project Authors (https://github.com/positype/Zen-Project)
-    font: ZenKakuGothicNew-Bold.ttf
+    version: '1.002'
+    copyright: Copyright 2022 The Zen Project Authors (https://github.com/googlefonts/zen-kakugothic)
+    font: gNMVW2drQpDw0GjzrVNFf_valaDBcznOqodNaWTSTGlMyd8.ttf
   - family_name: Zen Kaku Gothic New
     type: Regular
     full_name: Zen Kaku Gothic New Regular
     post_script_name: ZenKakuGothicNew-Regular
-    version: '1.001'
-    copyright: Copyright 2021 The Zen Project Authors (https://github.com/positype/Zen-Project)
-    font: ZenKakuGothicNew-Regular.ttf
+    version: '1.002'
+    copyright: Copyright 2022 The Zen Project Authors (https://github.com/googlefonts/zen-kakugothic)
+    font: gNMYW2drQpDw0GjzrVNFf_valaDBcznOkjtiTWz5UGA.ttf
 - name: Zen Kaku Gothic New Black
   styles:
   - family_name: Zen Kaku Gothic New Black
@@ -32,9 +37,9 @@ fonts:
     preferred_type: Black
     full_name: Zen Kaku Gothic New Black
     post_script_name: ZenKakuGothicNew-Black
-    version: '1.001'
-    copyright: Copyright 2021 The Zen Project Authors (https://github.com/positype/Zen-Project)
-    font: ZenKakuGothicNew-Black.ttf
+    version: '1.002'
+    copyright: Copyright 2022 The Zen Project Authors (https://github.com/googlefonts/zen-kakugothic)
+    font: gNMVW2drQpDw0GjzrVNFf_valaDBcznOqr9PaWTSTGlMyd8.ttf
 - name: Zen Kaku Gothic New Light
   styles:
   - family_name: Zen Kaku Gothic New Light
@@ -43,9 +48,9 @@ fonts:
     preferred_type: Light
     full_name: Zen Kaku Gothic New Light
     post_script_name: ZenKakuGothicNew-Light
-    version: '1.001'
-    copyright: Copyright 2021 The Zen Project Authors (https://github.com/positype/Zen-Project)
-    font: ZenKakuGothicNew-Light.ttf
+    version: '1.002'
+    copyright: Copyright 2022 The Zen Project Authors (https://github.com/googlefonts/zen-kakugothic)
+    font: gNMVW2drQpDw0GjzrVNFf_valaDBcznOqpdKaWTSTGlMyd8.ttf
 - name: Zen Kaku Gothic New Medium
   styles:
   - family_name: Zen Kaku Gothic New Medium
@@ -54,14 +59,14 @@ fonts:
     preferred_type: Medium
     full_name: Zen Kaku Gothic New Medium
     post_script_name: ZenKakuGothicNew-Medium
-    version: '1.001'
-    copyright: Copyright 2021 The Zen Project Authors (https://github.com/positype/Zen-Project)
-    font: ZenKakuGothicNew-Medium.ttf
+    version: '1.002'
+    copyright: Copyright 2022 The Zen Project Authors (https://github.com/googlefonts/zen-kakugothic)
+    font: gNMVW2drQpDw0GjzrVNFf_valaDBcznOqs9LaWTSTGlMyd8.ttf
 extract: {}
-copyright: Copyright 2021 The Zen Project Authors (https://github.com/positype/Zen-Project)
+copyright: Copyright 2022 The Zen Project Authors (https://github.com/googlefonts/zen-kakugothic)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2021 The Zen Kaku Gothic Project Authors (https://github.com/googlefonts/zen-kakugothic)
+  Copyright 2022 The Zen Kaku Gothic Project Authors (https://github.com/googlefonts/zen-kakugothic)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -154,5 +159,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: c78c4c410c72860df2d9e3d8fe7cb0de3d0cbad7dac6a30bace662a29fdbaa0f
-command: google import --formulas_path Formulas
+command: import google -n 9999

@@ -3,51 +3,66 @@ name: Solway
 description: Solway
 homepage: http://www.thenorthernblock.co.uk
 resources:
-  Solway.zip:
-    urls:
-    - https://fonts.google.com/download?family=Solway
-    sha256: d6daba35496381d1382b4d4dacce97922b00efa580bf9477588cd47dd187ab10
-    file_size: 138498
+  Solway:
+    source: google
+    family: Solway
+    files:
+    - https://fonts.gstatic.com/s/solway/v18/AMOTz46Cs2uTAOCuLlgZms0QW3mqyg.ttf
+    - https://fonts.gstatic.com/s/solway/v18/AMOQz46Cs2uTAOCWgnA9kuYMUg.ttf
+    - https://fonts.gstatic.com/s/solway/v18/AMOTz46Cs2uTAOCudlkZms0QW3mqyg.ttf
+    - https://fonts.gstatic.com/s/solway/v18/AMOTz46Cs2uTAOCuPl8Zms0QW3mqyg.ttf
+    - https://fonts.gstatic.com/s/solway/v18/AMOTz46Cs2uTAOCuIlwZms0QW3mqyg.ttf
 fonts:
 - name: Solway
   styles:
-  - family_name: Solway
-    type: Light
-    full_name: Solway Light
-    post_script_name: Solway-Light
-    version: '1.000'
-    copyright: Copyright 2018 The Solway Project Authors (https://github.com/mashavp/Solway)
-    font: Solway-Light.ttf
-  - family_name: Solway
-    type: Regular
-    full_name: Solway Regular
-    post_script_name: Solway-Regular
-    version: '1.000'
-    copyright: Copyright 2018 The Solway Project Authors (https://github.com/mashavp/Solway)
-    font: Solway-Regular.ttf
-  - family_name: Solway
-    type: Medium
-    full_name: Solway Medium
-    post_script_name: Solway-Medium
-    version: '1.000'
-    copyright: Copyright 2018 The Solway Project Authors (https://github.com/mashavp/Solway)
-    font: Solway-Medium.ttf
   - family_name: Solway
     type: Bold
     full_name: Solway Bold
     post_script_name: Solway-Bold
     version: '1.000'
     copyright: Copyright 2018 The Solway Project Authors (https://github.com/mashavp/Solway)
-    font: Solway-Bold.ttf
+    font: AMOTz46Cs2uTAOCuPl8Zms0QW3mqyg.ttf
   - family_name: Solway
-    type: ExtraBold
+    type: Regular
+    full_name: Solway Regular
+    post_script_name: Solway-Regular
+    version: '1.000'
+    copyright: Copyright 2018 The Solway Project Authors (https://github.com/mashavp/Solway)
+    font: AMOQz46Cs2uTAOCWgnA9kuYMUg.ttf
+- name: Solway ExtraBold
+  styles:
+  - family_name: Solway ExtraBold
+    type: Regular
+    preferred_family_name: Solway
+    preferred_type: ExtraBold
     full_name: Solway ExtraBold
     post_script_name: Solway-ExtraBold
     version: '1.000'
     copyright: Copyright 2018 The Solway Project Authors (https://github.com/mashavp/Solway)
-    font: Solway-ExtraBold.ttf
-extract:
-  format: zip
+    font: AMOTz46Cs2uTAOCuIlwZms0QW3mqyg.ttf
+- name: Solway Light
+  styles:
+  - family_name: Solway Light
+    type: Regular
+    preferred_family_name: Solway
+    preferred_type: Light
+    full_name: Solway Light
+    post_script_name: Solway-Light
+    version: '1.000'
+    copyright: Copyright 2018 The Solway Project Authors (https://github.com/mashavp/Solway)
+    font: AMOTz46Cs2uTAOCuLlgZms0QW3mqyg.ttf
+- name: Solway Medium
+  styles:
+  - family_name: Solway Medium
+    type: Regular
+    preferred_family_name: Solway
+    preferred_type: Medium
+    full_name: Solway Medium
+    post_script_name: Solway-Medium
+    version: '1.000'
+    copyright: Copyright 2018 The Solway Project Authors (https://github.com/mashavp/Solway)
+    font: AMOTz46Cs2uTAOCudlkZms0QW3mqyg.ttf
+extract: {}
 copyright: Copyright 2018 The Solway Project Authors (https://github.com/mashavp/Solway)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -144,3 +159,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

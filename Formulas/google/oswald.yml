@@ -1,11 +1,18 @@
 ---
+name: Oswald
 description: Oswald
 homepage: http://www.sansoxygen.com
 resources:
-  Oswald.zip:
-    urls:
-    - https://fonts.google.com/download?family=Oswald
-    file_size: 361374
+  Oswald:
+    source: google
+    family: Oswald
+    files:
+    - https://fonts.gstatic.com/s/oswald/v53/TK3_WkUHHAIjg75cFRf3bXL8LICs13FvgUFoZAaRliE.ttf
+    - https://fonts.gstatic.com/s/oswald/v53/TK3_WkUHHAIjg75cFRf3bXL8LICs169vgUFoZAaRliE.ttf
+    - https://fonts.gstatic.com/s/oswald/v53/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvgUFoZAaRliE.ttf
+    - https://fonts.gstatic.com/s/oswald/v53/TK3_WkUHHAIjg75cFRf3bXL8LICs18NvgUFoZAaRliE.ttf
+    - https://fonts.gstatic.com/s/oswald/v53/TK3_WkUHHAIjg75cFRf3bXL8LICs1y9ogUFoZAaRliE.ttf
+    - https://fonts.gstatic.com/s/oswald/v53/TK3_WkUHHAIjg75cFRf3bXL8LICs1xZogUFoZAaRliE.ttf
 fonts:
 - name: Oswald
   styles:
@@ -15,21 +22,14 @@ fonts:
     post_script_name: Oswald-Bold
     version: 4.103;gftools[0.9.33.dev8+g029e19f]
     copyright: Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
-    font: Oswald-Bold.ttf
+    font: TK3_WkUHHAIjg75cFRf3bXL8LICs1xZogUFoZAaRliE.ttf
   - family_name: Oswald
     type: Regular
     full_name: Oswald Regular
     post_script_name: Oswald-Regular
     version: 4.103;gftools[0.9.33.dev8+g029e19f]
     copyright: Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
-    font: Oswald-VariableFont_wght.ttf
-  - family_name: Oswald
-    type: Regular
-    full_name: Oswald Regular
-    post_script_name: Oswald-Regular
-    version: 4.103;gftools[0.9.33.dev8+g029e19f]
-    copyright: Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
-    font: Oswald-Regular.ttf
+    font: TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvgUFoZAaRliE.ttf
 - name: Oswald ExtraLight
   styles:
   - family_name: Oswald ExtraLight
@@ -40,7 +40,7 @@ fonts:
     post_script_name: Oswald-ExtraLight
     version: 4.103;gftools[0.9.33.dev8+g029e19f]
     copyright: Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
-    font: Oswald-ExtraLight.ttf
+    font: TK3_WkUHHAIjg75cFRf3bXL8LICs13FvgUFoZAaRliE.ttf
 - name: Oswald Light
   styles:
   - family_name: Oswald Light
@@ -51,7 +51,7 @@ fonts:
     post_script_name: Oswald-Light
     version: 4.103;gftools[0.9.33.dev8+g029e19f]
     copyright: Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
-    font: Oswald-Light.ttf
+    font: TK3_WkUHHAIjg75cFRf3bXL8LICs169vgUFoZAaRliE.ttf
 - name: Oswald Medium
   styles:
   - family_name: Oswald Medium
@@ -62,7 +62,7 @@ fonts:
     post_script_name: Oswald-Medium
     version: 4.103;gftools[0.9.33.dev8+g029e19f]
     copyright: Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
-    font: Oswald-Medium.ttf
+    font: TK3_WkUHHAIjg75cFRf3bXL8LICs18NvgUFoZAaRliE.ttf
 - name: Oswald SemiBold
   styles:
   - family_name: Oswald SemiBold
@@ -73,7 +73,7 @@ fonts:
     post_script_name: Oswald-SemiBold
     version: 4.103;gftools[0.9.33.dev8+g029e19f]
     copyright: Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
-    font: Oswald-SemiBold.ttf
+    font: TK3_WkUHHAIjg75cFRf3bXL8LICs1y9ogUFoZAaRliE.ttf
 extract: {}
 copyright: Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
 license_url: https://scripts.sil.org/OFL
@@ -82,7 +82,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -171,5 +171,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e737877d1c812d685310afa5970364e52ba67fa2dd39e2cb28749b254b3e7d72
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

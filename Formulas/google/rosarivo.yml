@@ -1,24 +1,16 @@
 ---
 name: Rosarivo
 description: Rosarivo
-homepage:
 resources:
-  Rosarivo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rosarivo
-    sha256: 9f90993277345a133089e7bca06d24f22d46426d39bd01da3471316e803bf0e8
-    file_size: 42998
+  Rosarivo:
+    source: google
+    family: Rosarivo
+    files:
+    - https://fonts.gstatic.com/s/rosarivo/v22/PlI-Fl2lO6N9f8HaNAeC2nhMnNy5.ttf
+    - https://fonts.gstatic.com/s/rosarivo/v22/PlI4Fl2lO6N9f8HaNDeA0Hxumcy5ZX8.ttf
 fonts:
 - name: Rosarivo
   styles:
-  - family_name: Rosarivo
-    type: Regular
-    full_name: Rosarivo
-    post_script_name: Rosarivo-Regular
-    version: '1.003'
-    copyright: Copyright (c) 2011, UGR Design (www.ugrdesign.com.ar),  with Reserved
-      Font Names "Rosarivo", "Rosarivo Pro", "Rosarivo UGR"
-    font: Rosarivo-Regular.ttf
   - family_name: Rosarivo
     type: Italic
     full_name: Rosarivo Italic
@@ -26,11 +18,18 @@ fonts:
     version: '1.003'
     copyright: Copyright (c) 2011, UGR Design (www.ugrdesign.com.ar),  with Reserved
       Font Names "Rosarivo", "Rosarivo Pro", "Rosarivo UGR"
-    font: Rosarivo-Italic.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, UGR Design (www.ugrdesign.com.ar info@ugrdesign.com.ar),
-  with Reserved Font Names "Rosarivo", "Rosarivo Pro", "Rosarivo UGR"
+    font: PlI4Fl2lO6N9f8HaNDeA0Hxumcy5ZX8.ttf
+  - family_name: Rosarivo
+    type: Regular
+    full_name: Rosarivo
+    post_script_name: Rosarivo-Regular
+    version: '1.003'
+    copyright: Copyright (c) 2011, UGR Design (www.ugrdesign.com.ar),  with Reserved
+      Font Names "Rosarivo", "Rosarivo Pro", "Rosarivo UGR"
+    font: PlI-Fl2lO6N9f8HaNAeC2nhMnNy5.ttf
+extract: {}
+copyright: Copyright (c) 2011, UGR Design (www.ugrdesign.com.ar),  with Reserved Font
+  Names "Rosarivo", "Rosarivo Pro", "Rosarivo UGR"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, UGR Design (www.ugrdesign.com.ar),
@@ -127,3 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

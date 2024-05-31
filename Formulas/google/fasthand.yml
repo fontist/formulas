@@ -1,11 +1,12 @@
 ---
+name: Fasthand
 description: Fasthand
 resources:
-  Fasthand.zip:
-    urls:
-    - https://fonts.google.com/download?family=Fasthand
-    sha256: 9ac33c67a4e54051e0821c7171b4a640e68381072153b096ff8ba0d3f4528326
-    file_size: 108174
+  Fasthand:
+    source: google
+    family: Fasthand
+    files:
+    - https://fonts.gstatic.com/s/fasthand/v30/0yb9GDohyKTYn_ZEESkuYkw2rQg1.ttf
 fonts:
 - name: Fasthand
   styles:
@@ -13,9 +14,9 @@ fonts:
     type: Regular
     full_name: Fasthand Regular
     post_script_name: Fasthand-Regular
-    version: 8.001; ttfautohint (v1.8.3)
+    version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Fasthand Project Authors (https://github.com/danhhong/Fasthand)
-    font: Fasthand-Regular.ttf
+    font: 0yb9GDohyKTYn_ZEESkuYkw2rQg1.ttf
 extract: {}
 copyright: Copyright 2020 The Fasthand Project Authors (https://github.com/danhhong/Fasthand)
 license_url: https://scripts.sil.org/OFL
@@ -113,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: a8b80252d12976ac57cc020f0104d290995a3a592ad14c5aa35a6f6216ecb94f
-command: google import --formulas_path Formulas
+command: import google -n 9999

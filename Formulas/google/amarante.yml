@@ -3,11 +3,11 @@ name: Amarante
 description: Amarante
 homepage: www.sorkintype.com
 resources:
-  Amarante.zip:
-    urls:
-    - https://fonts.google.com/download?family=Amarante
-    sha256: 54d2834632f44e01fb66ca167637599929ed7940ed703eec911f5e7fc8f6974b
-    file_size: 55899
+  Amarante:
+    source: google
+    family: Amarante
+    files:
+    - https://fonts.gstatic.com/s/amarante/v28/xMQXuF1KTa6EvGx9bq-3C3rAmD-b.ttf
 fonts:
 - name: Amarante
   styles:
@@ -21,11 +21,10 @@ fonts:
       well in text and headlines too. Amarante supports a very broad range of languages.
     copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved
       Font Name "Amarante".
-    font: Amarante-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)
-  with Reserved Font Name "Amarante".
+    font: xMQXuF1KTa6EvGx9bq-3C3rAmD-b.ttf
+extract: {}
+copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved Font
+  Name "Amarante".
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012 by Sorkin Type Co (www.sorkintype.com), with Reserved Font Name "Amarante".
@@ -121,3 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

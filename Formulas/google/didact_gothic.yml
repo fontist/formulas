@@ -1,12 +1,13 @@
 ---
+name: Didact Gothic
 description: Didact Gothic
 homepage: http://danieljohnson.name
 resources:
-  DidactGothic.zip:
-    urls:
-    - https://fonts.google.com/download?family=Didact%20Gothic
-    sha256: 126abde47b8d8c661bf0cef1b9571e9579b3449ffc6e345854e48bf40247b56e
-    file_size: 83035
+  Didact Gothic:
+    source: google
+    family: Didact Gothic
+    files:
+    - https://fonts.gstatic.com/s/didactgothic/v20/ahcfv8qz1zt6hCC5G4F_P4ASpUySp0LlcyQ.ttf
 fonts:
 - name: Didact Gothic
   styles:
@@ -16,9 +17,8 @@ fonts:
     post_script_name: DidactGothic-Regular
     version: '2.101'
     copyright: Copyright 2016 The Didact Gothic Project Authors (il.basso.buffo@gmail.com)
-    font: DidactGothic-Regular.ttf
-extract:
-  format: zip
+    font: ahcfv8qz1zt6hCC5G4F_P4ASpUySp0LlcyQ.ttf
+extract: {}
 copyright: Copyright 2016 The Didact Gothic Project Authors (il.basso.buffo@gmail.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -115,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

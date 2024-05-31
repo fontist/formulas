@@ -3,11 +3,11 @@ name: Prociono
 description: Prociono
 homepage: http://crudfactory.com
 resources:
-  Prociono.zip:
-    urls:
-    - https://fonts.google.com/download?family=Prociono
-    sha256: 2e041bbaa124b1aacf2970f51a024f614f65b8fdf612887ae9de743024c96ff0
-    file_size: 20329
+  Prociono:
+    source: google
+    family: Prociono
+    files:
+    - https://fonts.gstatic.com/s/prociono/v26/r05YGLlR-KxAf9GGO8upyDYtStiJ.ttf
 fonts:
 - name: Prociono
   styles:
@@ -17,9 +17,8 @@ fonts:
     post_script_name: Prociono-Regular
     version: '2.301'
     copyright: Copyright (c) 2011, Barry Schwartz (chemoelectric@chemoelectric.org)
-    font: Prociono-Regular.ttf
-extract:
-  format: zip
+    font: r05YGLlR-KxAf9GGO8upyDYtStiJ.ttf
+extract: {}
 copyright: Copyright (c) 2011, Barry Schwartz (chemoelectric@chemoelectric.org)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

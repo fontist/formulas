@@ -1,11 +1,12 @@
 ---
+name: Sawarabi Mincho
 description: Sawarabi Mincho
 resources:
-  Sawarabi_Mincho.zip:
-    urls:
-    - https://fonts.google.com/download?family=Sawarabi%20Mincho
-    sha256: 797c89f51c69ba716a66ae751127dcc6ad27bd0f1157b023daad4ba81fbd6df9
-    file_size: 582077
+  Sawarabi Mincho:
+    source: google
+    family: Sawarabi Mincho
+    files:
+    - https://fonts.gstatic.com/s/sawarabimincho/v17/8QIRdiDaitzr7brc8ahpxt6GcIJTLahP46UDUw.ttf
 fonts:
 - name: Sawarabi Mincho
   styles:
@@ -15,12 +16,12 @@ fonts:
     post_script_name: SawarabiMincho-Regular
     version: '1.00'
     copyright: Copyright 2016 The Sawarabi Mincho Project Authors.
-    font: SawarabiMincho-Regular.ttf
+    font: 8QIRdiDaitzr7brc8ahpxt6GcIJTLahP46UDUw.ttf
 extract: {}
 copyright: Copyright 2016 The Sawarabi Mincho Project Authors.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2016 The Sawarabi Mincho Project Authors.
+  Copyright 2024 The Sawarabi Mincho Project Authors (https://github.com/googlefonts/sawarabi-mincho/)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -113,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ac4e4dec4f6fc4838229f28b88bff11b3431221964c03a88113d49d6956c5b8c
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

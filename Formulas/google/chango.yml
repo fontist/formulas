@@ -3,11 +3,11 @@ name: Chango
 description: Chango
 homepage: www.fontstage.com
 resources:
-  Chango.zip:
-    urls:
-    - https://fonts.google.com/download?family=Chango
-    sha256: ba860ab827227b5e450e498a56d0c1c53396b98306f2ffbdf8d911c0e83e16ad
-    file_size: 22036
+  Chango:
+    source: google
+    family: Chango
+    files:
+    - https://fonts.gstatic.com/s/chango/v27/2V0cKI0OB5U7WaJyz324TFUaAw.ttf
 fonts:
 - name: Chango
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font
       Name "Chango"
-    font: Chango-Regular.ttf
-extract:
-  format: zip
+    font: 2V0cKI0OB5U7WaJyz324TFUaAw.ttf
+extract: {}
 copyright: Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font Name
   "Chango"
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

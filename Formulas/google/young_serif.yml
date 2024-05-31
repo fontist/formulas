@@ -1,12 +1,13 @@
 ---
+name: Young Serif
 description: Young Serif
 homepage: https://noirblancrouge.com
 resources:
-  Young_Serif.zip:
-    urls:
-    - https://fonts.google.com/download?family=Young%20Serif
-    sha256: 4b090848c27c7f4afb3c8d97b1c4ad0b16bcc79617ddfcce1292acfd135a0220
-    file_size: 51879
+  Young Serif:
+    source: google
+    family: Young Serif
+    files:
+    - https://fonts.gstatic.com/s/youngserif/v2/3qTpojO2nS2VtkB3KtkQZ2t61EcYaQ7F.ttf
 fonts:
 - name: Young Serif
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: YoungSerif-Regular
     version: 3.003; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33]
     copyright: Copyright 2023 The Young Serif Project Authors (https://github.com/noirblancrouge/YoungSerif)
-    font: YoungSerif-Regular.ttf
+    font: 3qTpojO2nS2VtkB3KtkQZ2t61EcYaQ7F.ttf
 extract: {}
 copyright: Copyright 2023 The Young Serif Project Authors (https://github.com/noirblancrouge/YoungSerif)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: fc1f4ac343b33f799f67068f5a1c26c9dec99c09084528a10dcbb5f276632636
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

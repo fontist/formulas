@@ -3,22 +3,15 @@ name: Arya
 description: Arya
 homepage: http://www.tipo.net.ar
 resources:
-  Arya.zip:
-    urls:
-    - https://fonts.google.com/download?family=Arya
-    sha256: fb12f086cf5153f84499808f40c03f5579afabf4d82d907ccc14d7b9e5833ad3
-    file_size: 164451
+  Arya:
+    source: google
+    family: Arya
+    files:
+    - https://fonts.gstatic.com/s/arya/v19/ga6CawNG-HJd9Ub1-beqdFE.ttf
+    - https://fonts.gstatic.com/s/arya/v19/ga6NawNG-HJdzfra3b-BaFg3dRE.ttf
 fonts:
 - name: Arya
   styles:
-  - family_name: Arya
-    type: Regular
-    full_name: Arya Regular
-    post_script_name: Arya-Regular
-    version: '1.002'
-    copyright: Copyright (c) 2014, Eduardo Rodriguez Tunni. Copyright (c) 2000, Modular
-      Infotech, Pune, INDIA. All rights reserved.
-    font: Arya-Regular.ttf
   - family_name: Arya
     type: Bold
     full_name: Arya Bold
@@ -26,9 +19,16 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2014, Eduardo Rodriguez Tunni. Copyright (c) 2000, Modular
       Infotech, Pune, INDIA. All rights reserved.
-    font: Arya-Bold.ttf
-extract:
-  format: zip
+    font: ga6NawNG-HJdzfra3b-BaFg3dRE.ttf
+  - family_name: Arya
+    type: Regular
+    full_name: Arya Regular
+    post_script_name: Arya-Regular
+    version: '1.002'
+    copyright: Copyright (c) 2014, Eduardo Rodriguez Tunni. Copyright (c) 2000, Modular
+      Infotech, Pune, INDIA. All rights reserved.
+    font: ga6CawNG-HJd9Ub1-beqdFE.ttf
+extract: {}
 copyright: Copyright (c) 2014, Eduardo Rodriguez Tunni. Copyright (c) 2000, Modular
   Infotech, Pune, INDIA. All rights reserved.
 license_url: http://scripts.sil.org/OFL
@@ -126,3 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

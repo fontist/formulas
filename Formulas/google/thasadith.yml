@@ -3,44 +3,46 @@ name: Thasadith
 description: Thasadith
 homepage: http://www.cadsondemak.com
 resources:
-  Thasadith.zip:
-    urls:
-    - https://fonts.google.com/download?family=Thasadith
-    sha256: f9681096651186a14d17fb14531e7f3f195e071ee0f1b7de8386b8d21736e82e
-    file_size: 182140
+  Thasadith:
+    source: google
+    family: Thasadith
+    files:
+    - https://fonts.gstatic.com/s/thasadith/v11/mtG44_1TIqPYrd_f5R1YsEkU0CWuFw.ttf
+    - https://fonts.gstatic.com/s/thasadith/v11/mtG-4_1TIqPYrd_f5R1oskMQ8iC-F1ZE.ttf
+    - https://fonts.gstatic.com/s/thasadith/v11/mtG94_1TIqPYrd_f5R1gDGYw2A6yHk9d8w.ttf
+    - https://fonts.gstatic.com/s/thasadith/v11/mtGj4_1TIqPYrd_f5R1osnus3QS2PEpN8zxA.ttf
 fonts:
 - name: Thasadith
   styles:
-  - family_name: Thasadith
-    type: Regular
-    full_name: Thasadith Regular
-    post_script_name: Thasadith-Regular
-    version: 1.000; ttfautohint (v1.6)
-    copyright: Copyright 2018 The Thasadith Project Authors (https://github.com/cadsondemak/Thasadith)
-    font: Thasadith-Regular.ttf
-  - family_name: Thasadith
-    type: Italic
-    full_name: Thasadith Italic
-    post_script_name: Thasadith-Italic
-    version: 1.000; ttfautohint (v1.6)
-    copyright: Copyright 2018 The Thasadith Project Authors (https://github.com/cadsondemak/Thasadith)
-    font: Thasadith-Italic.ttf
   - family_name: Thasadith
     type: Bold
     full_name: Thasadith Bold
     post_script_name: Thasadith-Bold
     version: 1.000; ttfautohint (v1.6)
     copyright: Copyright 2018 The Thasadith Project Authors (https://github.com/cadsondemak/Thasadith)
-    font: Thasadith-Bold.ttf
+    font: mtG94_1TIqPYrd_f5R1gDGYw2A6yHk9d8w.ttf
   - family_name: Thasadith
     type: Bold Italic
     full_name: Thasadith Bold Italic
     post_script_name: Thasadith-BoldItalic
     version: 1.000; ttfautohint (v1.6)
     copyright: Copyright 2018 The Thasadith Project Authors (https://github.com/cadsondemak/Thasadith)
-    font: Thasadith-BoldItalic.ttf
-extract:
-  format: zip
+    font: mtGj4_1TIqPYrd_f5R1osnus3QS2PEpN8zxA.ttf
+  - family_name: Thasadith
+    type: Italic
+    full_name: Thasadith Italic
+    post_script_name: Thasadith-Italic
+    version: 1.000; ttfautohint (v1.6)
+    copyright: Copyright 2018 The Thasadith Project Authors (https://github.com/cadsondemak/Thasadith)
+    font: mtG-4_1TIqPYrd_f5R1oskMQ8iC-F1ZE.ttf
+  - family_name: Thasadith
+    type: Regular
+    full_name: Thasadith Regular
+    post_script_name: Thasadith-Regular
+    version: 1.000; ttfautohint (v1.6)
+    copyright: Copyright 2018 The Thasadith Project Authors (https://github.com/cadsondemak/Thasadith)
+    font: mtG44_1TIqPYrd_f5R1YsEkU0CWuFw.ttf
+extract: {}
 copyright: Copyright 2018 The Thasadith Project Authors (https://github.com/cadsondemak/Thasadith)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -137,3 +139,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

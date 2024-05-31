@@ -3,44 +3,54 @@ name: Enriqueta
 description: Enriqueta
 homepage: http://www.72puntos.com
 resources:
-  Enriqueta.zip:
-    urls:
-    - https://fonts.google.com/download?family=Enriqueta
-    sha256: 48a7da3fa61ef067abefee300e921b2b5d438021bfc866ec529a670587073e12
-    file_size: 148815
+  Enriqueta:
+    source: google
+    family: Enriqueta
+    files:
+    - https://fonts.gstatic.com/s/enriqueta/v17/goksH6L7AUFrRvV44HVTS0CjkP1Yog.ttf
+    - https://fonts.gstatic.com/s/enriqueta/v17/gokpH6L7AUFrRvV44HVrv2mHmNZEq6TTFw.ttf
+    - https://fonts.gstatic.com/s/enriqueta/v17/gokpH6L7AUFrRvV44HVrk26HmNZEq6TTFw.ttf
+    - https://fonts.gstatic.com/s/enriqueta/v17/gokpH6L7AUFrRvV44HVr92-HmNZEq6TTFw.ttf
 fonts:
 - name: Enriqueta
   styles:
-  - family_name: Enriqueta
-    type: Regular
-    full_name: Enriqueta Regular
-    post_script_name: Enriqueta-Regular
-    version: '2.000'
-    copyright: Copyright 2018 The Enriqueta Project Authors (https://github.com/vv-monsalve/Enriqueta_2019)
-    font: Enriqueta-Regular.ttf
-  - family_name: Enriqueta
-    type: Medium
-    full_name: Enriqueta Medium
-    post_script_name: Enriqueta-Medium
-    version: '2.000'
-    copyright: Copyright 2018 The Enriqueta Project Authors (https://github.com/vv-monsalve/Enriqueta_2019)
-    font: Enriqueta-Medium.ttf
-  - family_name: Enriqueta
-    type: SemiBold
-    full_name: Enriqueta SemiBold
-    post_script_name: Enriqueta-SemiBold
-    version: '2.000'
-    copyright: Copyright 2018 The Enriqueta Project Authors (https://github.com/vv-monsalve/Enriqueta_2019)
-    font: Enriqueta-SemiBold.ttf
   - family_name: Enriqueta
     type: Bold
     full_name: Enriqueta Bold
     post_script_name: Enriqueta-Bold
     version: '2.000'
     copyright: Copyright 2018 The Enriqueta Project Authors (https://github.com/vv-monsalve/Enriqueta_2019)
-    font: Enriqueta-Bold.ttf
-extract:
-  format: zip
+    font: gokpH6L7AUFrRvV44HVr92-HmNZEq6TTFw.ttf
+  - family_name: Enriqueta
+    type: Regular
+    full_name: Enriqueta Regular
+    post_script_name: Enriqueta-Regular
+    version: '2.000'
+    copyright: Copyright 2018 The Enriqueta Project Authors (https://github.com/vv-monsalve/Enriqueta_2019)
+    font: goksH6L7AUFrRvV44HVTS0CjkP1Yog.ttf
+- name: Enriqueta Medium
+  styles:
+  - family_name: Enriqueta Medium
+    type: Regular
+    preferred_family_name: Enriqueta
+    preferred_type: Medium
+    full_name: Enriqueta Medium
+    post_script_name: Enriqueta-Medium
+    version: '2.000'
+    copyright: Copyright 2018 The Enriqueta Project Authors (https://github.com/vv-monsalve/Enriqueta_2019)
+    font: gokpH6L7AUFrRvV44HVrv2mHmNZEq6TTFw.ttf
+- name: Enriqueta SemiBold
+  styles:
+  - family_name: Enriqueta SemiBold
+    type: Regular
+    preferred_family_name: Enriqueta
+    preferred_type: SemiBold
+    full_name: Enriqueta SemiBold
+    post_script_name: Enriqueta-SemiBold
+    version: '2.000'
+    copyright: Copyright 2018 The Enriqueta Project Authors (https://github.com/vv-monsalve/Enriqueta_2019)
+    font: gokpH6L7AUFrRvV44HVrk26HmNZEq6TTFw.ttf
+extract: {}
 copyright: Copyright 2018 The Enriqueta Project Authors (https://github.com/vv-monsalve/Enriqueta_2019)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -138,3 +148,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

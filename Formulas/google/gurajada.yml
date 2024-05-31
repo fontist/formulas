@@ -1,13 +1,12 @@
 ---
 name: Gurajada
 description: Gurajada
-homepage:
 resources:
-  Gurajada.zip:
-    urls:
-    - https://fonts.google.com/download?family=Gurajada
-    sha256: 1347a4e80c0c7eb8208e3a89e2bf986f35878afd7dc70043af56e93f18bc7d2d
-    file_size: 162607
+  Gurajada:
+    source: google
+    family: Gurajada
+    files:
+    - https://fonts.gstatic.com/s/gurajada/v19/FwZY7-Qx308m-l-0Kd6A4sijpFu_.ttf
 fonts:
 - name: Gurajada
   styles:
@@ -17,10 +16,9 @@ fonts:
     post_script_name: Gurajada
     version: 1.0.3; ttfautohint (v1.2.42-39fb)
     copyright: Copyright (c) 2012 SiliconAndhra (fonts.siliconandhra.org)
-    font: Gurajada-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org)
+    font: FwZY7-Qx308m-l-0Kd6A4sijpFu_.ttf
+extract: {}
+copyright: Copyright (c) 2012 SiliconAndhra (fonts.siliconandhra.org)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org). Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com.ar), with Reserved Font Names 'Alegreya Sans'
@@ -116,3 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Amiri Quran
 description: Amiri Quran
 homepage: http://www.amirifont.org
 resources:
-  Amiri_Quran.zip:
-    urls:
-    - https://fonts.google.com/download?family=Amiri%20Quran
-    sha256: 1d8de4a5d8fc4b9cf6cbe50f8939b97a7cbe590042baf7480c0b7440a1397337
-    file_size: 145140
+  Amiri Quran:
+    source: google
+    family: Amiri Quran
+    files:
+    - https://fonts.gstatic.com/s/amiriquran/v14/_Xmo-Hk0rD6DbUL4_vH8Zq5t7Cycsu-2.ttf
 fonts:
 - name: Amiri Quran
   styles:
@@ -20,7 +21,7 @@ fonts:
       pioneered in early 20th century by Bulaq Press in Cairo, also known as Amiria
       Press, after which the font is named.
     copyright: Copyright 2010-2022 The Amiri Project Authors (https://github.com/aliftype/amiri).
-    font: AmiriQuran-Regular.ttf
+    font: _Xmo-Hk0rD6DbUL4_vH8Zq5t7Cycsu-2.ttf
 extract: {}
 copyright: Copyright 2010-2022 The Amiri Project Authors (https://github.com/aliftype/amiri).
 license_url: https://scripts.sil.org/OFL
@@ -118,5 +119,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: '08b616070e0259c5cbb90db5ed1751c573eccb5a27e57d79f39605098e35db6a'
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

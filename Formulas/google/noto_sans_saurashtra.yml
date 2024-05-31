@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Saurashtra
 description: Noto Sans Saurashtra
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Saurashtra.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Saurashtra
-    sha256: 5ce60500b95354a8be4a6948b0c4566825fdce2513205ca33174e68f79dbe551
-    file_size: 44666
+  Noto Sans Saurashtra:
+    source: google
+    family: Noto Sans Saurashtra
+    files:
+    - https://fonts.gstatic.com/s/notosanssaurashtra/v23/ea8GacQ0Wfz_XKWXe6OtoA8w8zvmYwTef9ndjhPTSIx9.ttf
 fonts:
 - name: Noto Sans Saurashtra
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/saurashtra)
-    font: NotoSansSaurashtra-Regular.ttf
+    font: ea8GacQ0Wfz_XKWXe6OtoA8w8zvmYwTef9ndjhPTSIx9.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/saurashtra)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 5a54e85a7e2c23e160fc1f16c92fc2df23a884e93fbe481b87bd613ad95a32c1
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

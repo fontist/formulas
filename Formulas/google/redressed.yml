@@ -3,11 +3,11 @@ name: Redressed
 description: Redressed
 homepage: http://www.astigmatic.com/
 resources:
-  Redressed.zip:
-    urls:
-    - https://fonts.google.com/download?family=Redressed
-    sha256: 315a4135c9784be9caafa5e3d19fe7d1651209437e8393274b23fbe7d1eb028b
-    file_size: 40403
+  Redressed:
+    source: google
+    family: Redressed
+    files:
+    - https://fonts.gstatic.com/s/redressed/v29/x3dickHUbrmJ7wMy9MsBfPACvy_1BA.ttf
 fonts:
 - name: Redressed
   styles:
@@ -19,14 +19,14 @@ fonts:
     copyright: |-
       Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.
       http://www.apache.org/licenses/LICENSE-2.0.html
-    font: Redressed-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All
-  rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html
+    font: x3dickHUbrmJ7wMy9MsBfPACvy_1BA.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.
+  http://www.apache.org/licenses/LICENSE-2.0.html
 license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |2-
-                                   Apache License
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -227,3 +227,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999

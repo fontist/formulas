@@ -3,11 +3,17 @@ name: IBM Plex Sans Thai
 description: IBM Plex Sans Thai
 homepage: http://www.boldmonday.com
 resources:
-  IBM_Plex_Sans_Thai.zip:
-    urls:
-    - https://fonts.google.com/download?family=IBM%20Plex%20Sans%20Thai
-    sha256: 7b3a7a73157d7d084f8c340d533734a632913ba094a269df5f3c9b9bb97671ab
-    file_size: 376884
+  IBM Plex Sans Thai:
+    source: google
+    family: IBM Plex Sans Thai
+    files:
+    - https://fonts.gstatic.com/s/ibmplexsansthai/v10/m8JNje1VVIzcq1HzJq2AEdo2Tj_qvLqEatYlR8ZKUqcX.ttf
+    - https://fonts.gstatic.com/s/ibmplexsansthai/v10/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqExvcFbehGW74OXw.ttf
+    - https://fonts.gstatic.com/s/ibmplexsansthai/v10/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqEovQFbehGW74OXw.ttf
+    - https://fonts.gstatic.com/s/ibmplexsansthai/v10/m8JPje1VVIzcq1HzJq2AEdo2Tj_qvLq8DtwhZcNaUg.ttf
+    - https://fonts.gstatic.com/s/ibmplexsansthai/v10/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqE-vUFbehGW74OXw.ttf
+    - https://fonts.gstatic.com/s/ibmplexsansthai/v10/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqE1vIFbehGW74OXw.ttf
+    - https://fonts.gstatic.com/s/ibmplexsansthai/v10/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqEsvMFbehGW74OXw.ttf
 fonts:
 - name: IBM Plex Sans Thai
   styles:
@@ -17,14 +23,14 @@ fonts:
     post_script_name: IBMPlexSansThai-Bold
     version: '1.1'
     copyright: Copyright 2019 IBM Corp. All rights reserved.
-    font: IBMPlexSansThai-Bold.ttf
+    font: m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqEsvMFbehGW74OXw.ttf
   - family_name: IBM Plex Sans Thai
     type: Regular
     full_name: IBM Plex Sans Thai Regular
     post_script_name: IBMPlexSansThai-Regular
     version: '1.1'
     copyright: Copyright 2019 IBM Corp. All rights reserved.
-    font: IBMPlexSansThai-Regular.ttf
+    font: m8JPje1VVIzcq1HzJq2AEdo2Tj_qvLq8DtwhZcNaUg.ttf
 - name: IBM Plex Sans Thai ExtraLight
   styles:
   - family_name: IBM Plex Sans Thai ExtraLight
@@ -35,7 +41,7 @@ fonts:
     post_script_name: IBMPlexSansThai-ExtraLight
     version: '1.1'
     copyright: Copyright 2019 IBM Corp. All rights reserved.
-    font: IBMPlexSansThai-ExtraLight.ttf
+    font: m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqExvcFbehGW74OXw.ttf
 - name: IBM Plex Sans Thai Light
   styles:
   - family_name: IBM Plex Sans Thai Light
@@ -46,7 +52,7 @@ fonts:
     post_script_name: IBMPlexSansThai-Light
     version: '1.1'
     copyright: Copyright 2019 IBM Corp. All rights reserved.
-    font: IBMPlexSansThai-Light.ttf
+    font: m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqEovQFbehGW74OXw.ttf
 - name: IBM Plex Sans Thai Medium
   styles:
   - family_name: IBM Plex Sans Thai Medium
@@ -57,7 +63,7 @@ fonts:
     post_script_name: IBMPlexSansThai-Medium
     version: '1.1'
     copyright: Copyright 2019 IBM Corp. All rights reserved.
-    font: IBMPlexSansThai-Medium.ttf
+    font: m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqE-vUFbehGW74OXw.ttf
 - name: IBM Plex Sans Thai SemiBold
   styles:
   - family_name: IBM Plex Sans Thai SemiBold
@@ -68,7 +74,7 @@ fonts:
     post_script_name: IBMPlexSansThai-SemiBold
     version: '1.1'
     copyright: Copyright 2019 IBM Corp. All rights reserved.
-    font: IBMPlexSansThai-SemiBold.ttf
+    font: m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqE1vIFbehGW74OXw.ttf
 - name: IBM Plex Sans Thai Thin
   styles:
   - family_name: IBM Plex Sans Thai Thin
@@ -79,7 +85,7 @@ fonts:
     post_script_name: IBMPlexSansThai-Thin
     version: '1.1'
     copyright: Copyright 2019 IBM Corp. All rights reserved.
-    font: IBMPlexSansThai-Thin.ttf
+    font: m8JNje1VVIzcq1HzJq2AEdo2Tj_qvLqEatYlR8ZKUqcX.ttf
 extract: {}
 copyright: Copyright 2019 IBM Corp. All rights reserved.
 license_url: http://scripts.sil.org/OFL
@@ -87,8 +93,8 @@ open_license: |-
   Copyright © 2017 IBM Corp. with Reserved Font Name "Plex"
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
-  This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+
+  This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -177,5 +183,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9a0c488f36a62960b075056b504d0210a2b0a8ddcafafe2795e486768ce3413f
-command: google import --formulas_path Formulas
+command: import google -n 9999

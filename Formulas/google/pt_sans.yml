@@ -3,46 +3,17 @@ name: PT Sans
 description: PT Sans
 homepage: http://www.paratype.com
 resources:
-  PTSans.zip:
-    urls:
-    - https://fonts.google.com/download?family=PT%20Sans
-    sha256: aba40f7fd042ae465bbff1074b6b403c32734befa57978cbd9efb173c328e3fd
-    file_size: 574022
+  PT Sans:
+    source: google
+    family: PT Sans
+    files:
+    - https://fonts.gstatic.com/s/ptsans/v17/jizaRExUiTo99u79P0WOxOGMMDQ.ttf
+    - https://fonts.gstatic.com/s/ptsans/v17/jizYRExUiTo99u79D0eEwMOJIDQA-g.ttf
+    - https://fonts.gstatic.com/s/ptsans/v17/jizfRExUiTo99u79B_mh4OmnLD0Z4zM.ttf
+    - https://fonts.gstatic.com/s/ptsans/v17/jizdRExUiTo99u79D0e8fOytKB8c8zMrig.ttf
 fonts:
 - name: PT Sans
   styles:
-  - family_name: PT Sans
-    type: Regular
-    full_name: PT Sans
-    post_script_name: PTSans-Regular
-    version: 2.003W OFL
-    description: 'PT Sans is a type family of universal use. It consists of 8 styles:
-      regular and bold weights with corresponding italics form a standard computer
-      font family; two narrow styles (regular and bold) are intended for documents
-      that require tight set; two caption styles (regular and bold) are for texts
-      of small point sizes. The design combines traditional conservative appearance
-      with modern trends of humanistic sans serif and characterized by enhanced legibility.
-      These features beside conventional use in business applications and printed
-      stuff made the fonts quite useable for direction and guide signs, schemes, screens
-      of information kiosks and other objects of urban visual communications.'
-    copyright: Copyright © 2009 ParaType Ltd. All rights reserved.
-    font: PT_Sans-Web-Regular.ttf
-  - family_name: PT Sans
-    type: Italic
-    full_name: PT Sans Italic
-    post_script_name: PTSans-Italic
-    version: 2.003W OFL
-    description: 'PT Sans is a type family of universal use. It consists of 8 styles:
-      regular and bold weights with corresponding italics form a standard computer
-      font family; two narrow styles (regular and bold) are intended for documents
-      that require tight set; two caption styles (regular and bold) are for texts
-      of small point sizes. The design combines traditional conservative appearance
-      with modern trends of humanistic sans serif and characterized by enhanced legibility.
-      These features beside conventional use in business applications and printed
-      stuff made the fonts quite useable for direction and guide signs, schemes, screens
-      of information kiosks and other objects of urban visual communications.'
-    copyright: Copyright © 2009 ParaType Ltd. All rights reserved.
-    font: PT_Sans-Web-Italic.ttf
   - family_name: PT Sans
     type: Bold
     full_name: PT Sans Bold
@@ -58,7 +29,7 @@ fonts:
       stuff made the fonts quite useable for direction and guide signs, schemes, screens
       of information kiosks and other objects of urban visual communications.'
     copyright: Copyright © 2009 ParaType Ltd. All rights reserved.
-    font: PT_Sans-Web-Bold.ttf
+    font: jizfRExUiTo99u79B_mh4OmnLD0Z4zM.ttf
   - family_name: PT Sans
     type: Bold Italic
     full_name: PT Sans Bold Italic
@@ -74,10 +45,41 @@ fonts:
       stuff made the fonts quite useable for direction and guide signs, schemes, screens
       of information kiosks and other objects of urban visual communications.'
     copyright: Copyright © 2009 ParaType Ltd. All rights reserved.
-    font: PT_Sans-Web-BoldItalic.ttf
-extract:
-  format: zip
-copyright: Copyright © 2009 ParaType Ltd (yakupov@paratype.com). All rights reserved.
+    font: jizdRExUiTo99u79D0e8fOytKB8c8zMrig.ttf
+  - family_name: PT Sans
+    type: Italic
+    full_name: PT Sans Italic
+    post_script_name: PTSans-Italic
+    version: 2.003W OFL
+    description: 'PT Sans is a type family of universal use. It consists of 8 styles:
+      regular and bold weights with corresponding italics form a standard computer
+      font family; two narrow styles (regular and bold) are intended for documents
+      that require tight set; two caption styles (regular and bold) are for texts
+      of small point sizes. The design combines traditional conservative appearance
+      with modern trends of humanistic sans serif and characterized by enhanced legibility.
+      These features beside conventional use in business applications and printed
+      stuff made the fonts quite useable for direction and guide signs, schemes, screens
+      of information kiosks and other objects of urban visual communications.'
+    copyright: Copyright © 2009 ParaType Ltd. All rights reserved.
+    font: jizYRExUiTo99u79D0eEwMOJIDQA-g.ttf
+  - family_name: PT Sans
+    type: Regular
+    full_name: PT Sans
+    post_script_name: PTSans-Regular
+    version: 2.003W OFL
+    description: 'PT Sans is a type family of universal use. It consists of 8 styles:
+      regular and bold weights with corresponding italics form a standard computer
+      font family; two narrow styles (regular and bold) are intended for documents
+      that require tight set; two caption styles (regular and bold) are for texts
+      of small point sizes. The design combines traditional conservative appearance
+      with modern trends of humanistic sans serif and characterized by enhanced legibility.
+      These features beside conventional use in business applications and printed
+      stuff made the fonts quite useable for direction and guide signs, schemes, screens
+      of information kiosks and other objects of urban visual communications.'
+    copyright: Copyright © 2009 ParaType Ltd. All rights reserved.
+    font: jizaRExUiTo99u79P0WOxOGMMDQ.ttf
+extract: {}
+copyright: Copyright © 2009 ParaType Ltd. All rights reserved.
 license_url: http://scripts.sil.org/OFL_web
 open_license: "\uFEFFCopyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),\nwith
   Reserved Font Names \"PT Sans\" and \"ParaType\".\n\nThis Font Software is licensed
@@ -132,3 +134,4 @@ open_license: "\uFEFFCopyright (c) 2010, ParaType Ltd. (http://www.paratype.com/
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
+command: import google -n 9999

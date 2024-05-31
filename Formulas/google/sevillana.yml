@@ -3,11 +3,11 @@ name: Sevillana
 description: Sevillana
 homepage: http://www.brownfox.org
 resources:
-  Sevillana.zip:
-    urls:
-    - https://fonts.google.com/download?family=Sevillana
-    sha256: da6712ffb5ce2b605fa645a8787c061ca0859cdceb6cb88e30a8866cb6090189
-    file_size: 78182
+  Sevillana:
+    source: google
+    family: Sevillana
+    files:
+    - https://fonts.gstatic.com/s/sevillana/v23/KFOlCnWFscmDt1Bfiy1vAx05IsDqlA.ttf
 fonts:
 - name: Sevillana
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011, Brownfox (gayaneh.b@gmail.com), with Reserved Font
       Names "Sevillana"
-    font: Sevillana-Regular.ttf
-extract:
-  format: zip
+    font: KFOlCnWFscmDt1Bfiy1vAx05IsDqlA.ttf
+extract: {}
 copyright: Copyright (c) 2011, Brownfox (gayaneh.b@gmail.com), with Reserved Font
   Names "Sevillana"
 license_url: http://scripts.sil.org/OFL
@@ -130,3 +129,4 @@ open_license: |-
   File info
   Size: 4531 bytes, 94 lines
   View raw file
+command: import google -n 9999

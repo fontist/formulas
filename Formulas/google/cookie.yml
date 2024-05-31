@@ -3,11 +3,11 @@ name: Cookie
 description: Cookie
 homepage: http://www.aniakruk.com
 resources:
-  Cookie.zip:
-    urls:
-    - https://fonts.google.com/download?family=Cookie
-    sha256: d3730e910fbd599b55c40181ccbae5020bdd912915143601cadfcc0df7b8f610
-    file_size: 22836
+  Cookie:
+    source: google
+    family: Cookie
+    files:
+    - https://fonts.gstatic.com/s/cookie/v21/syky-y18lb0tSbfNlQCT9tPdpw.ttf
 fonts:
 - name: Cookie
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: '1.004'
     copyright: Copyright (c) 2011 by Ania Kruk (hello@aniakruk.com), with Reserved
       Font Name Cookie.
-    font: Cookie-Regular.ttf
-extract:
-  format: zip
+    font: syky-y18lb0tSbfNlQCT9tPdpw.ttf
+extract: {}
 copyright: Copyright (c) 2011 by Ania Kruk (hello@aniakruk.com), with Reserved Font
   Name Cookie.
 license_url: http://scripts.sil.org/OFL
@@ -119,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Share Tech
 description: Share Tech
 homepage: http://www.carrois.com
 resources:
-  ShareTech.zip:
-    urls:
-    - https://fonts.google.com/download?family=Share%20Tech
-    sha256: a35fec9150502fad152175f39d60a201e85b348c34e361380f48dca27a216b8a
-    file_size: 24593
+  Share Tech:
+    source: google
+    family: Share Tech
+    files:
+    - https://fonts.gstatic.com/s/sharetech/v21/7cHtv4Uyi5K0OeZ7bohUwHoDmTcibrA.ttf
 fonts:
 - name: Share Tech
   styles:
@@ -17,11 +18,10 @@ fonts:
     version: '1.100'
     copyright: Copyright 2012 The Share Tech Project Authors (post@carrois.com), with
       Reserved Font Name 'Share’.
-    font: ShareTech-Regular.ttf
-extract:
-  format: zip
+    font: 7cHtv4Uyi5K0OeZ7bohUwHoDmTcibrA.ttf
+extract: {}
 copyright: Copyright 2012 The Share Tech Project Authors (post@carrois.com), with
-  Reserved Font Name 'Share.
+  Reserved Font Name 'Share’.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright 2012 The Share Tech Project Authors (post@carrois.com), with Reserved Font Name 'Share’.
@@ -117,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

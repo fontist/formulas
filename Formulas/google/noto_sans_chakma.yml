@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Chakma
 description: Noto Sans Chakma
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Chakma.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Chakma
-    sha256: 1096d4391ea6ddc7cc1068612b4e93ab92038b325211a3af39dc55080eb1b754
-    file_size: 66215
+  Noto Sans Chakma:
+    source: google
+    family: Noto Sans Chakma
+    files:
+    - https://fonts.gstatic.com/s/notosanschakma/v17/Y4GQYbJ8VTEp4t3MKJSMjg5OIzhi4JjTQhYBeYo.ttf
 fonts:
 - name: Noto Sans Chakma
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/chakma)
-    font: NotoSansChakma-Regular.ttf
+    font: Y4GQYbJ8VTEp4t3MKJSMjg5OIzhi4JjTQhYBeYo.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/chakma)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e5c6b10262e1d4b66fe640960c009f400435d87ecd545edecace0d4659a0fb2f
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

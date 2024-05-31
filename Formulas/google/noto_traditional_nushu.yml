@@ -1,11 +1,17 @@
 ---
+name: Noto Traditional Nushu
 description: Noto Traditional Nushu
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Traditional_Nushu.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Traditional%20Nushu
-    file_size: 655359
+  Noto Traditional Nushu:
+    source: google
+    family: Noto Traditional Nushu
+    files:
+    - https://fonts.gstatic.com/s/nototraditionalnushu/v17/SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXvy1tnPa7QoqirI.ttf
+    - https://fonts.gstatic.com/s/nototraditionalnushu/v17/SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXus1tnPa7QoqirI.ttf
+    - https://fonts.gstatic.com/s/nototraditionalnushu/v17/SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXue1tnPa7QoqirI.ttf
+    - https://fonts.gstatic.com/s/nototraditionalnushu/v17/SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXty0dnPa7QoqirI.ttf
+    - https://fonts.gstatic.com/s/nototraditionalnushu/v17/SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXtL0dnPa7QoqirI.ttf
 fonts:
 - name: Noto Traditional Nushu
   styles:
@@ -15,21 +21,14 @@ fonts:
     post_script_name: NotoTraditionalNushu-Bold
     version: '2.003'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nushu)
-    font: NotoTraditionalNushu-Bold.ttf
+    font: SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXtL0dnPa7QoqirI.ttf
   - family_name: Noto Traditional Nushu
     type: Regular
     full_name: Noto Traditional Nushu Regular
     post_script_name: NotoTraditionalNushu-Regular
     version: '2.003'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nushu)
-    font: NotoTraditionalNushu-VariableFont_wght.ttf
-  - family_name: Noto Traditional Nushu
-    type: Regular
-    full_name: Noto Traditional Nushu Regular
-    post_script_name: NotoTraditionalNushu-Regular
-    version: '2.003'
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nushu)
-    font: NotoTraditionalNushu-Regular.ttf
+    font: SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXus1tnPa7QoqirI.ttf
 - name: Noto Traditional Nushu Light
   styles:
   - family_name: Noto Traditional Nushu Light
@@ -40,7 +39,7 @@ fonts:
     post_script_name: NotoTraditionalNushu-Light
     version: '2.003'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nushu)
-    font: NotoTraditionalNushu-Light.ttf
+    font: SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXvy1tnPa7QoqirI.ttf
 - name: Noto Traditional Nushu Medium
   styles:
   - family_name: Noto Traditional Nushu Medium
@@ -51,7 +50,7 @@ fonts:
     post_script_name: NotoTraditionalNushu-Medium
     version: '2.003'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nushu)
-    font: NotoTraditionalNushu-Medium.ttf
+    font: SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXue1tnPa7QoqirI.ttf
 - name: Noto Traditional Nushu SemiBold
   styles:
   - family_name: Noto Traditional Nushu SemiBold
@@ -62,7 +61,7 @@ fonts:
     post_script_name: NotoTraditionalNushu-SemiBold
     version: '2.003'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nushu)
-    font: NotoTraditionalNushu-SemiBold.ttf
+    font: SZcV3EDkJ7q9FaoMPlmF4Su8hlIjoGh5aj67PUZX6ADm6oa8IXty0dnPa7QoqirI.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nushu)
 license_url: https://scripts.sil.org/OFL
@@ -71,7 +70,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -160,5 +159,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 622b5f1f567d0f38d9eb298317c10d5d58350f3a82e57d77217157b93ee59729
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

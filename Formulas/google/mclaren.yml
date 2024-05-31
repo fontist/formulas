@@ -3,11 +3,11 @@ name: McLaren
 description: McLaren
 homepage: http://www.astigmatic.com/
 resources:
-  McLaren.zip:
-    urls:
-    - https://fonts.google.com/download?family=McLaren
-    sha256: 72bfc81765632f475889971d7c82b63dedfd86d3d57200e07118a9812092fdb0
-    file_size: 32970
+  McLaren:
+    source: google
+    family: McLaren
+    files:
+    - https://fonts.gstatic.com/s/mclaren/v17/2EbnL-ZuAXFqZFXISYYf8z2Yt_c.ttf
 fonts:
 - name: McLaren
   styles:
@@ -19,11 +19,11 @@ fonts:
     copyright: |-
       Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
       Font Name "McLaren"
-    font: McLaren-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com),
-  with Reserved Font Name "McLaren"
+    font: 2EbnL-ZuAXFqZFXISYYf8z2Yt_c.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+  Font Name "McLaren"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012, Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Names "McLaren"
@@ -119,3 +119,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

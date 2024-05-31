@@ -1,12 +1,13 @@
 ---
+name: Marko One
 description: Marko One
 homepage: http://cyreal.org
 resources:
-  MarkoOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Marko%20One
-    sha256: c8d44d30e798c3281e374853d71714d3babb3bacfe11ce6c9218730a6d06d746
-    file_size: 21975
+  Marko One:
+    source: google
+    family: Marko One
+    files:
+    - https://fonts.gstatic.com/s/markoone/v23/9Btq3DFG0cnVM5lw1haaKpUfrHPzUw.ttf
 fonts:
 - name: Marko One
   styles:
@@ -18,11 +19,11 @@ fonts:
     copyright: |-
       Copyright (c) 2011, Cyreal (www.cyreal.org)
       with Reserved Font Name "Marko" and "Marko One".
-    font: MarkoOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved
-  Font Name "Marko" and "Marko One".
+    font: 9Btq3DFG0cnVM5lw1haaKpUfrHPzUw.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011, Cyreal (www.cyreal.org)
+  with Reserved Font Name "Marko" and "Marko One".
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Cyreal (www.cyreal.org),
@@ -119,3 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -3,11 +3,11 @@ name: Condiment
 description: Condiment
 homepage: www.sudtipos.com
 resources:
-  Condiment.zip:
-    urls:
-    - https://fonts.google.com/download?family=Condiment
-    sha256: 2b392f7711531c187f9b7fa88beec966d916bead1a035679bc2caf6090e3cb9e
-    file_size: 25153
+  Condiment:
+    source: google
+    family: Condiment
+    files:
+    - https://fonts.gstatic.com/s/condiment/v24/pONk1hggFNmwvXALyH6Sq4n4o1vyCQ.ttf
 fonts:
 - name: Condiment
   styles:
@@ -20,11 +20,12 @@ fonts:
       Copyright (c) 2010 Angel Koziupa (sudtipos@sudtipos.com),
       Copyright (c) 2010 Alejandro Paul (sudtipos@sudtipos.com),
       with Reserved Font Name "Condiment"
-    font: Condiment-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010 Angel Koziupa (sudtipos@sudtipos.com), Copyright (c)
-  2010 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name "Condiment"
+    font: pONk1hggFNmwvXALyH6Sq4n4o1vyCQ.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2010 Angel Koziupa (sudtipos@sudtipos.com),
+  Copyright (c) 2010 Alejandro Paul (sudtipos@sudtipos.com),
+  with Reserved Font Name "Condiment"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 Angel Koziupa (sudtipos@sudtipos.com),
@@ -122,3 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

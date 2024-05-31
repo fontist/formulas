@@ -1,13 +1,12 @@
 ---
 name: Ruluko
 description: Ruluko
-homepage:
 resources:
-  Ruluko.zip:
-    urls:
-    - https://fonts.google.com/download?family=Ruluko
-    sha256: 6269bd9f443b7cebd28ac958cbac53ae9240842e35f90ecbbb168bc4d791247f
-    file_size: 16041
+  Ruluko:
+    source: google
+    family: Ruluko
+    files:
+    - https://fonts.gstatic.com/s/ruluko/v21/xMQVuFNZVaODtm0pC6WzKX_QmA.ttf
 fonts:
 - name: Ruluko
   styles:
@@ -18,9 +17,8 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011, Ana Sanfelippo, Angelica Diaz y Meme Hernandez
       (anasanfe@gmail.com - angiecina@gmail.com), with Reserved Font Name "Ruluko"
-    font: Ruluko-Regular.ttf
-extract:
-  format: zip
+    font: xMQVuFNZVaODtm0pC6WzKX_QmA.ttf
+extract: {}
 copyright: Copyright (c) 2011, Ana Sanfelippo, Angelica Diaz y Meme Hernandez (anasanfe@gmail.com
   - angiecina@gmail.com), with Reserved Font Name "Ruluko"
 license_url: http://scripts.sil.org/OFL
@@ -121,3 +119,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

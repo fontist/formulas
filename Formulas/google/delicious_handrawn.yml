@@ -1,12 +1,13 @@
 ---
+name: Delicious Handrawn
 description: Delicious Handrawn
 homepage: https://alphartype.com/
 resources:
-  Delicious_Handrawn.zip:
-    urls:
-    - https://fonts.google.com/download?family=Delicious%20Handrawn
-    sha256: 7fe8685c416c01656aa9bc67d4981bfb56404b4355b06300735ffdddb7101ca7
-    file_size: 41838
+  Delicious Handrawn:
+    source: google
+    family: Delicious Handrawn
+    files:
+    - https://fonts.gstatic.com/s/delicioushandrawn/v8/wlpsgx_NAUNkpmKQifcxkQchDFo3fJ113JpDd6u3AQ.ttf
 fonts:
 - name: Delicious Handrawn
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: DeliciousHandrawn-Regular
     version: 1.002; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.27]
     copyright: Copyright 2022 The Delicious Handrawn Project Authors (https://github.com/alphArtype/Delicious-Handrawn)
-    font: DeliciousHandrawn-Regular.ttf
+    font: wlpsgx_NAUNkpmKQifcxkQchDFo3fJ113JpDd6u3AQ.ttf
 extract: {}
 copyright: Copyright 2022 The Delicious Handrawn Project Authors (https://github.com/alphArtype/Delicious-Handrawn)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: de251de9585cf0726ba532f046619bbc7eb2a572104a2eac36074663617141d0
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Prosto One
 description: Prosto One
 homepage: http://jovanny.ru
 resources:
-  ProstoOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Prosto%20One
-    sha256: 1493b7294ccd77e89f73e3488dc70b6441fb0c5e3c3b5465a9e55cc007041358
-    file_size: 38564
+  Prosto One:
+    source: google
+    family: Prosto One
+    files:
+    - https://fonts.gstatic.com/s/prostoone/v19/OpNJno4VhNfK-RgpwWWxpipfWhXD00c.ttf
 fonts:
 - name: Prosto One
   styles:
@@ -18,9 +19,8 @@ fonts:
     copyright: Copyright (c) 2012, Jovanny Lemonad (http://www.jovanny.ru), Copyright
       (c) 2012, Pavel Emelyanov (zakachka2006@mail.ru), with Reserved Font Name "Prosto"
       and "Prosto One".
-    font: ProstoOne-Regular.ttf
-extract:
-  format: zip
+    font: OpNJno4VhNfK-RgpwWWxpipfWhXD00c.ttf
+extract: {}
 copyright: Copyright (c) 2012, Jovanny Lemonad (http://www.jovanny.ru), Copyright
   (c) 2012, Pavel Emelyanov (zakachka2006@mail.ru), with Reserved Font Name "Prosto"
   and "Prosto One".
@@ -121,3 +121,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

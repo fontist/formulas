@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Tai Le
 description: Noto Sans Tai Le
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Tai_Le.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Tai%20Le
-    sha256: 2879d0d29261398f30b47d61295ad7f5fec6f9219f71ba568b801777aebe434b
-    file_size: 34482
+  Noto Sans Tai Le:
+    source: google
+    family: Noto Sans Tai Le
+    files:
+    - https://fonts.gstatic.com/s/notosanstaile/v17/vEFK2-VODB8RrNDvZSUmVxEATwR58tK1W77HtMo.ttf
 fonts:
 - name: Noto Sans Tai Le
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tai-le)
-    font: NotoSansTaiLe-Regular.ttf
+    font: vEFK2-VODB8RrNDvZSUmVxEATwR58tK1W77HtMo.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tai-le)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 0d00e0d2dd47e4bc4345504bc7431d681e0d17123b4d2bc5b172dd855b97c744
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

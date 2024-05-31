@@ -1,32 +1,18 @@
 ---
 name: Rambla
 description: Rambla
-homepage:
 resources:
-  Rambla.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rambla
-    sha256: 6f2af0aceb18ea6d4caa2a777b7c94df99f0efb5a072ab30199129ab28e6017b
-    file_size: 70394
+  Rambla:
+    source: google
+    family: Rambla
+    files:
+    - https://fonts.gstatic.com/s/rambla/v13/snfrs0ip98hx6mr0I7IONthkwQ.ttf
+    - https://fonts.gstatic.com/s/rambla/v13/snfps0ip98hx6mrEIbgKFN10wYKa.ttf
+    - https://fonts.gstatic.com/s/rambla/v13/snfos0ip98hx6mrMn50qPvN4yJuDYQ.ttf
+    - https://fonts.gstatic.com/s/rambla/v13/snfus0ip98hx6mrEIYC2O_l86p6TYS-Y.ttf
 fonts:
 - name: Rambla
   styles:
-  - family_name: Rambla
-    type: Regular
-    full_name: Rambla
-    post_script_name: Rambla-Regular
-    version: '1.001'
-    copyright: Copyright (c) 2011-2012, Martin Sommaruga (martin@estudiotrama.com),
-      with Reserved Font Name 'Rambla'
-    font: Rambla-Regular.ttf
-  - family_name: Rambla
-    type: Italic
-    full_name: Rambla Italic
-    post_script_name: Rambla-Italic
-    version: '1.001'
-    copyright: Copyright (c) 2011-2012, Martin Sommaruga (martin@estudiotrama.com),
-      with Reserved Font Name 'Rambla'
-    font: Rambla-Italic.ttf
   - family_name: Rambla
     type: Bold
     full_name: Rambla Bold
@@ -34,7 +20,7 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011-2012, Martin Sommaruga (martin@estudiotrama.com),
       with Reserved Font Name 'Rambla'
-    font: Rambla-Bold.ttf
+    font: snfos0ip98hx6mrMn50qPvN4yJuDYQ.ttf
   - family_name: Rambla
     type: Bold Italic
     full_name: Rambla Bold Italic
@@ -42,9 +28,24 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011-2012, Martin Sommaruga (martin@estudiotrama.com),
       with Reserved Font Name 'Rambla'
-    font: Rambla-BoldItalic.ttf
-extract:
-  format: zip
+    font: snfus0ip98hx6mrEIYC2O_l86p6TYS-Y.ttf
+  - family_name: Rambla
+    type: Italic
+    full_name: Rambla Italic
+    post_script_name: Rambla-Italic
+    version: '1.001'
+    copyright: Copyright (c) 2011-2012, Martin Sommaruga (martin@estudiotrama.com),
+      with Reserved Font Name 'Rambla'
+    font: snfps0ip98hx6mrEIbgKFN10wYKa.ttf
+  - family_name: Rambla
+    type: Regular
+    full_name: Rambla
+    post_script_name: Rambla-Regular
+    version: '1.001'
+    copyright: Copyright (c) 2011-2012, Martin Sommaruga (martin@estudiotrama.com),
+      with Reserved Font Name 'Rambla'
+    font: snfrs0ip98hx6mr0I7IONthkwQ.ttf
+extract: {}
 copyright: Copyright (c) 2011-2012, Martin Sommaruga (martin@estudiotrama.com), with
   Reserved Font Name 'Rambla'
 license_url: http://scripts.sil.org/OFL
@@ -142,3 +143,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

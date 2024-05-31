@@ -1,12 +1,13 @@
 ---
+name: Reenie Beanie
 description: Reenie Beanie
 homepage: http://code.google.com/webfonts
 resources:
-  ReenieBeanie.zip:
-    urls:
-    - https://fonts.google.com/download?family=Reenie%20Beanie
-    sha256: b83d95b64df5a7b02aeef16ab2108b93682bcde7ec14559b090f26d57075f436
-    file_size: 63539
+  Reenie Beanie:
+    source: google
+    family: Reenie Beanie
+    files:
+    - https://fonts.gstatic.com/s/reeniebeanie/v20/z7NSdR76eDkaJKZJFkkjuvWxbP2_qoOgf_w.ttf
 fonts:
 - name: Reenie Beanie
   styles:
@@ -17,10 +18,9 @@ fonts:
     version: '1.000'
     description: Copyright (c) 2010 Typeco. All rights reserved.
     copyright: Copyright (c) 2010 Typeco. All rights reserved.
-    font: ReenieBeanie.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010 Typeco (james@typeco.com). All rights reserved.
+    font: z7NSdR76eDkaJKZJFkkjuvWxbP2_qoOgf_w.ttf
+extract: {}
+copyright: Copyright (c) 2010 Typeco. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, James Grieshaber (james@typeco.com)
@@ -116,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

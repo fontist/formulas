@@ -3,11 +3,11 @@ name: Parisienne
 description: Parisienne
 homepage: http://www.astigmatic.com/
 resources:
-  Parisienne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Parisienne
-    sha256: 0610436145c3d635710fc26ed45b5c301e4c306cff07d3c3aba871f3521012a1
-    file_size: 34923
+  Parisienne:
+    source: google
+    family: Parisienne
+    files:
+    - https://fonts.gstatic.com/s/parisienne/v13/E21i_d3kivvAkxhLEVZpcy96DuKuavM.ttf
 fonts:
 - name: Parisienne
   styles:
@@ -19,11 +19,11 @@ fonts:
     copyright: |-
       Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
       Font Name "Parisienne"
-    font: Parisienne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com),
-  with Reserved Font Name "Parisienne"
+    font: E21i_d3kivvAkxhLEVZpcy96DuKuavM.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+  Font Name "Parisienne"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI)
@@ -120,3 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

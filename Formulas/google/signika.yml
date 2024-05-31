@@ -1,11 +1,17 @@
 ---
+name: Signika
 description: Signika
 homepage: www.ancymonic.com
 resources:
-  Signika.zip:
-    urls:
-    - https://fonts.google.com/download?family=Signika
-    file_size: 1040127
+  Signika:
+    source: google
+    family: Signika
+    files:
+    - https://fonts.gstatic.com/s/signika/v25/vEF72_JTCgwQ5ejvMV0Ox_Kg1UwJ0tKfX4zNpD8E4ASzH1r93zuYzTMngt4xjw.ttf
+    - https://fonts.gstatic.com/s/signika/v25/vEF72_JTCgwQ5ejvMV0Ox_Kg1UwJ0tKfX4zNpD8E4ASzH1r9gTuYzTMngt4xjw.ttf
+    - https://fonts.gstatic.com/s/signika/v25/vEF72_JTCgwQ5ejvMV0Ox_Kg1UwJ0tKfX4zNpD8E4ASzH1r9szuYzTMngt4xjw.ttf
+    - https://fonts.gstatic.com/s/signika/v25/vEF72_JTCgwQ5ejvMV0Ox_Kg1UwJ0tKfX4zNpD8E4ASzH1r9XzyYzTMngt4xjw.ttf
+    - https://fonts.gstatic.com/s/signika/v25/vEF72_JTCgwQ5ejvMV0Ox_Kg1UwJ0tKfX4zNpD8E4ASzH1r9ZjyYzTMngt4xjw.ttf
 fonts:
 - name: Signika
   styles:
@@ -15,14 +21,14 @@ fonts:
     post_script_name: Signika-Bold
     version: 2.003;gftools[0.9.32]
     copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
-    font: Signika-Bold.ttf
+    font: vEF72_JTCgwQ5ejvMV0Ox_Kg1UwJ0tKfX4zNpD8E4ASzH1r9ZjyYzTMngt4xjw.ttf
   - family_name: Signika
     type: Regular
     full_name: Signika Regular
     post_script_name: Signika-Regular
     version: 2.003;gftools[0.9.32]
     copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
-    font: Signika-Regular.ttf
+    font: vEF72_JTCgwQ5ejvMV0Ox_Kg1UwJ0tKfX4zNpD8E4ASzH1r9gTuYzTMngt4xjw.ttf
 - name: Signika Light
   styles:
   - family_name: Signika Light
@@ -33,16 +39,7 @@ fonts:
     post_script_name: Signika-Light
     version: 2.003;gftools[0.9.32]
     copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
-    font: Signika-VariableFont_GRAD,wght.ttf
-  - family_name: Signika Light
-    type: Regular
-    preferred_family_name: Signika
-    preferred_type: Light
-    full_name: Signika Light
-    post_script_name: Signika-Light
-    version: 2.003;gftools[0.9.32]
-    copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
-    font: Signika-Light.ttf
+    font: vEF72_JTCgwQ5ejvMV0Ox_Kg1UwJ0tKfX4zNpD8E4ASzH1r93zuYzTMngt4xjw.ttf
 - name: Signika Medium
   styles:
   - family_name: Signika Medium
@@ -53,7 +50,7 @@ fonts:
     post_script_name: Signika-Medium
     version: 2.003;gftools[0.9.32]
     copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
-    font: Signika-Medium.ttf
+    font: vEF72_JTCgwQ5ejvMV0Ox_Kg1UwJ0tKfX4zNpD8E4ASzH1r9szuYzTMngt4xjw.ttf
 - name: Signika SemiBold
   styles:
   - family_name: Signika SemiBold
@@ -64,7 +61,7 @@ fonts:
     post_script_name: Signika-SemiBold
     version: 2.003;gftools[0.9.32]
     copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
-    font: Signika-SemiBold.ttf
+    font: vEF72_JTCgwQ5ejvMV0Ox_Kg1UwJ0tKfX4zNpD8E4ASzH1r9XzyYzTMngt4xjw.ttf
 extract: {}
 copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
 license_url: https://scripts.sil.org/OFL
@@ -162,5 +159,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: cadb006c9e7102ed3e8a268e429cec2a53b888c31394ca83f871656176820845
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

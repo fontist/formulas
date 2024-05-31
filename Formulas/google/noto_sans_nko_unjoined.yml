@@ -1,11 +1,16 @@
 ---
+name: Noto Sans NKo Unjoined
 description: Noto Sans NKo Unjoined
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_NKo_Unjoined.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20NKo%20Unjoined
-    file_size: 140047
+  Noto Sans NKo Unjoined:
+    source: google
+    family: Noto Sans NKo Unjoined
+    files:
+    - https://fonts.gstatic.com/s/notosansnkounjoined/v2/MCo_zBjx1d3VUhJFK9MYlNCXJ6VvqwGPz3szPOBB5nuzMdWs0rvF2gEPxf5wbh3T.ttf
+    - https://fonts.gstatic.com/s/notosansnkounjoined/v2/MCo_zBjx1d3VUhJFK9MYlNCXJ6VvqwGPz3szPOBB5nuzMdWs0rv32gEPxf5wbh3T.ttf
+    - https://fonts.gstatic.com/s/notosansnkounjoined/v2/MCo_zBjx1d3VUhJFK9MYlNCXJ6VvqwGPz3szPOBB5nuzMdWs0rsb3QEPxf5wbh3T.ttf
+    - https://fonts.gstatic.com/s/notosansnkounjoined/v2/MCo_zBjx1d3VUhJFK9MYlNCXJ6VvqwGPz3szPOBB5nuzMdWs0rsi3QEPxf5wbh3T.ttf
 fonts:
 - name: Noto Sans NKo Unjoined
   styles:
@@ -16,7 +21,7 @@ fonts:
     version: '2.004'
     description: Designed by Monotype design team.
     copyright: Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nko)
-    font: NotoSansNKoUnjoined-Bold.ttf
+    font: MCo_zBjx1d3VUhJFK9MYlNCXJ6VvqwGPz3szPOBB5nuzMdWs0rsi3QEPxf5wbh3T.ttf
   - family_name: Noto Sans NKo Unjoined
     type: Regular
     full_name: Noto Sans NKo Unjoined Regular
@@ -24,15 +29,7 @@ fonts:
     version: '2.004'
     description: Designed by Monotype design team.
     copyright: Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nko)
-    font: NotoSansNKoUnjoined-VariableFont_wght.ttf
-  - family_name: Noto Sans NKo Unjoined
-    type: Regular
-    full_name: Noto Sans NKo Unjoined Regular
-    post_script_name: NotoSansNKoUnjoined-Regular
-    version: '2.004'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nko)
-    font: NotoSansNKoUnjoined-Regular.ttf
+    font: MCo_zBjx1d3VUhJFK9MYlNCXJ6VvqwGPz3szPOBB5nuzMdWs0rvF2gEPxf5wbh3T.ttf
 - name: Noto Sans NKo Unjoined Medium
   styles:
   - family_name: Noto Sans NKo Unjoined Medium
@@ -44,7 +41,7 @@ fonts:
     version: '2.004'
     description: Designed by Monotype design team.
     copyright: Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nko)
-    font: NotoSansNKoUnjoined-Medium.ttf
+    font: MCo_zBjx1d3VUhJFK9MYlNCXJ6VvqwGPz3szPOBB5nuzMdWs0rv32gEPxf5wbh3T.ttf
 - name: Noto Sans NKo Unjoined SemiBold
   styles:
   - family_name: Noto Sans NKo Unjoined SemiBold
@@ -56,7 +53,7 @@ fonts:
     version: '2.004'
     description: Designed by Monotype design team.
     copyright: Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nko)
-    font: NotoSansNKoUnjoined-SemiBold.ttf
+    font: MCo_zBjx1d3VUhJFK9MYlNCXJ6VvqwGPz3szPOBB5nuzMdWs0rsb3QEPxf5wbh3T.ttf
 extract: {}
 copyright: Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nko)
 license_url: https://scripts.sil.org/OFL
@@ -65,7 +62,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -154,5 +151,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 0b4106e8a8443db6b8cf077df67910c4bde9c0897d2ae5af36cee9d785c903e4
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

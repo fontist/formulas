@@ -3,11 +3,11 @@ name: Style Script
 description: Style Script
 homepage: http://www.typesetit.com
 resources:
-  Style_Script.zip:
-    urls:
-    - https://fonts.google.com/download?family=Style%20Script
-    sha256: 1e432f75623b0e20e9db132f0d51729573ec5ccc2448cd44311ffa25d84393bb
-    file_size: 167589
+  Style Script:
+    source: google
+    family: Style Script
+    files:
+    - https://fonts.gstatic.com/s/stylescript/v11/vm8xdRX3SV7Z0aPa88xzW5npeFT76NZnMw.ttf
 fonts:
 - name: Style Script
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: StyleScript-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2013 The Style Script Project Authors (https://github.com/googlefonts/style-script)
-    font: StyleScript-Regular.ttf
+    font: vm8xdRX3SV7Z0aPa88xzW5npeFT76NZnMw.ttf
 extract: {}
 copyright: Copyright 2013 The Style Script Project Authors (https://github.com/googlefonts/style-script)
 license_url: https://scripts.sil.org/OFL
@@ -26,8 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
-
+  https://scripts.sil.org/OFL
 
   -----------------------------------------------------------
   SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
@@ -115,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 4b0a5a878fda999988919e272e3f9e7a420e2ef27fff6630d0fa0ed6946f866f
-command: google import --formulas_path Formulas
+command: import google -n 9999

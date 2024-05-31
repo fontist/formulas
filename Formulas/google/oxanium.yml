@@ -2,10 +2,17 @@
 name: Oxanium
 description: Oxanium
 resources:
-  Oxanium.zip:
-    urls:
-    - https://fonts.google.com/download?family=Oxanium
-    file_size: 143495
+  Oxanium:
+    source: google
+    family: Oxanium
+    files:
+    - https://fonts.gstatic.com/s/oxanium/v19/RrQPboN_4yJ0JmiMUW7sIGjd1IA9G83JfniMBXQ7d67x.ttf
+    - https://fonts.gstatic.com/s/oxanium/v19/RrQPboN_4yJ0JmiMUW7sIGjd1IA9G80XfniMBXQ7d67x.ttf
+    - https://fonts.gstatic.com/s/oxanium/v19/RrQPboN_4yJ0JmiMUW7sIGjd1IA9G81JfniMBXQ7d67x.ttf
+    - https://fonts.gstatic.com/s/oxanium/v19/RrQPboN_4yJ0JmiMUW7sIGjd1IA9G817fniMBXQ7d67x.ttf
+    - https://fonts.gstatic.com/s/oxanium/v19/RrQPboN_4yJ0JmiMUW7sIGjd1IA9G82XeXiMBXQ7d67x.ttf
+    - https://fonts.gstatic.com/s/oxanium/v19/RrQPboN_4yJ0JmiMUW7sIGjd1IA9G82ueXiMBXQ7d67x.ttf
+    - https://fonts.gstatic.com/s/oxanium/v19/RrQPboN_4yJ0JmiMUW7sIGjd1IA9G83JeXiMBXQ7d67x.ttf
 fonts:
 - name: Oxanium
   styles:
@@ -15,14 +22,14 @@ fonts:
     post_script_name: Oxanium-Bold
     version: '2.000'
     copyright: Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)
-    font: Oxanium-Bold.ttf
+    font: RrQPboN_4yJ0JmiMUW7sIGjd1IA9G82ueXiMBXQ7d67x.ttf
   - family_name: Oxanium
     type: Regular
     full_name: Oxanium Regular
     post_script_name: Oxanium-Regular
     version: '2.000'
     copyright: Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)
-    font: Oxanium-Regular.ttf
+    font: RrQPboN_4yJ0JmiMUW7sIGjd1IA9G81JfniMBXQ7d67x.ttf
 - name: Oxanium ExtraBold
   styles:
   - family_name: Oxanium ExtraBold
@@ -33,7 +40,7 @@ fonts:
     post_script_name: Oxanium-ExtraBold
     version: '2.000'
     copyright: Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)
-    font: Oxanium-ExtraBold.ttf
+    font: RrQPboN_4yJ0JmiMUW7sIGjd1IA9G83JeXiMBXQ7d67x.ttf
 - name: Oxanium ExtraLight
   styles:
   - family_name: Oxanium ExtraLight
@@ -44,16 +51,7 @@ fonts:
     post_script_name: Oxanium-ExtraLight
     version: '2.000'
     copyright: Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)
-    font: Oxanium-ExtraLight.ttf
-  - family_name: Oxanium ExtraLight
-    type: Regular
-    preferred_family_name: Oxanium
-    preferred_type: ExtraLight
-    full_name: Oxanium ExtraLight
-    post_script_name: Oxanium-ExtraLight
-    version: '2.000'
-    copyright: Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)
-    font: Oxanium-VariableFont_wght.ttf
+    font: RrQPboN_4yJ0JmiMUW7sIGjd1IA9G83JfniMBXQ7d67x.ttf
 - name: Oxanium Light
   styles:
   - family_name: Oxanium Light
@@ -64,7 +62,7 @@ fonts:
     post_script_name: Oxanium-Light
     version: '2.000'
     copyright: Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)
-    font: Oxanium-Light.ttf
+    font: RrQPboN_4yJ0JmiMUW7sIGjd1IA9G80XfniMBXQ7d67x.ttf
 - name: Oxanium Medium
   styles:
   - family_name: Oxanium Medium
@@ -75,7 +73,7 @@ fonts:
     post_script_name: Oxanium-Medium
     version: '2.000'
     copyright: Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)
-    font: Oxanium-Medium.ttf
+    font: RrQPboN_4yJ0JmiMUW7sIGjd1IA9G817fniMBXQ7d67x.ttf
 - name: Oxanium SemiBold
   styles:
   - family_name: Oxanium SemiBold
@@ -86,7 +84,7 @@ fonts:
     post_script_name: Oxanium-SemiBold
     version: '2.000'
     copyright: Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)
-    font: Oxanium-SemiBold.ttf
+    font: RrQPboN_4yJ0JmiMUW7sIGjd1IA9G82XeXiMBXQ7d67x.ttf
 extract: {}
 copyright: Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)
 license_url: https://scripts.sil.org/OFL
@@ -95,7 +93,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -184,5 +182,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d61a23c9a300eb93cefca8c211c131bcb95cdc8bd8c8cfd175de105ab01417d0
-command: google import --formulas_path Formulas
+command: import google -n 9999

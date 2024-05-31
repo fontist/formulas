@@ -3,11 +3,11 @@ name: Kavoon
 description: Kavoon
 homepage: www.sorkintype.com
 resources:
-  Kavoon.zip:
-    urls:
-    - https://fonts.google.com/download?family=Kavoon
-    sha256: 99c4464c56a9ffef36ea3a25af1c5dd0c0abe2c26cacadf04b759ea762228334
-    file_size: 38787
+  Kavoon:
+    source: google
+    family: Kavoon
+    files:
+    - https://fonts.gstatic.com/s/kavoon/v23/pxiFyp4_scRYhlU4NLr6f1pdEQ.ttf
 fonts:
 - name: Kavoon
   styles:
@@ -21,9 +21,8 @@ fonts:
       in. Kavoon may be used from medium to large sizes.
     copyright: Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com) with Reserved
       Font Name 'Kavoon'
-    font: Kavoon-Regular.ttf
-extract:
-  format: zip
+    font: pxiFyp4_scRYhlU4NLr6f1pdEQ.ttf
+extract: {}
 copyright: Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com) with Reserved
   Font Name 'Kavoon'
 license_url: http://scripts.sil.org/OFL
@@ -121,3 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

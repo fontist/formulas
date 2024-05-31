@@ -1,45 +1,48 @@
 ---
+name: Courier Prime
 description: Courier Prime
 homepage: http://quoteunquoteapps.com
 resources:
-  CourierPrime.zip:
-    urls:
-    - https://fonts.google.com/download?family=Courier%20Prime
-    sha256: 07fc3a40f4a34cc07a87985711862077c9640970a17edd3ff28ef4a82faca6bd
-    file_size: 147903
+  Courier Prime:
+    source: google
+    family: Courier Prime
+    files:
+    - https://fonts.gstatic.com/s/courierprime/v9/u-450q2lgwslOqpF_6gQ8kELWwZjW-_-tvg.ttf
+    - https://fonts.gstatic.com/s/courierprime/v9/u-4n0q2lgwslOqpF_6gQ8kELawRpX837pvjxPA.ttf
+    - https://fonts.gstatic.com/s/courierprime/v9/u-4k0q2lgwslOqpF_6gQ8kELY7pMf-fVqvHoJXw.ttf
+    - https://fonts.gstatic.com/s/courierprime/v9/u-4i0q2lgwslOqpF_6gQ8kELawRR4-LfrtPtNXyeAg.ttf
 fonts:
 - name: Courier Prime
   styles:
-  - family_name: Courier Prime
-    type: Regular
-    full_name: Courier Prime Regular
-    post_script_name: CourierPrime-Regular
-    version: '3.018'
-    copyright: Copyright 2015 The Courier Prime Project Authors (https://github.com/quoteunquoteapps/CourierPrime).
-    font: CourierPrime-Regular.ttf
-  - family_name: Courier Prime
-    type: Italic
-    full_name: Courier Prime Italic
-    post_script_name: CourierPrime-Italic
-    version: '3.018'
-    copyright: Copyright 2015 The Courier Prime Project Authors (https://github.com/quoteunquoteapps/CourierPrime).
-    font: CourierPrime-Italic.ttf
   - family_name: Courier Prime
     type: Bold
     full_name: Courier Prime Bold
     post_script_name: CourierPrime-Bold
     version: '3.018'
     copyright: Copyright 2015 The Courier Prime Project Authors (https://github.com/quoteunquoteapps/CourierPrime).
-    font: CourierPrime-Bold.ttf
+    font: u-4k0q2lgwslOqpF_6gQ8kELY7pMf-fVqvHoJXw.ttf
   - family_name: Courier Prime
     type: Bold Italic
     full_name: Courier Prime Bold Italic
     post_script_name: CourierPrime-BoldItalic
     version: '3.018'
     copyright: Copyright 2015 The Courier Prime Project Authors (https://github.com/quoteunquoteapps/CourierPrime).
-    font: CourierPrime-BoldItalic.ttf
-extract:
-  format: zip
+    font: u-4i0q2lgwslOqpF_6gQ8kELawRR4-LfrtPtNXyeAg.ttf
+  - family_name: Courier Prime
+    type: Italic
+    full_name: Courier Prime Italic
+    post_script_name: CourierPrime-Italic
+    version: '3.018'
+    copyright: Copyright 2015 The Courier Prime Project Authors (https://github.com/quoteunquoteapps/CourierPrime).
+    font: u-4n0q2lgwslOqpF_6gQ8kELawRpX837pvjxPA.ttf
+  - family_name: Courier Prime
+    type: Regular
+    full_name: Courier Prime Regular
+    post_script_name: CourierPrime-Regular
+    version: '3.018'
+    copyright: Copyright 2015 The Courier Prime Project Authors (https://github.com/quoteunquoteapps/CourierPrime).
+    font: u-450q2lgwslOqpF_6gQ8kELWwZjW-_-tvg.ttf
+extract: {}
 copyright: Copyright 2015 The Courier Prime Project Authors (https://github.com/quoteunquoteapps/CourierPrime).
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -136,3 +139,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

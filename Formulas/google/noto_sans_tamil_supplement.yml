@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Tamil Supplement
 description: Noto Sans Tamil Supplement
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Tamil_Supplement.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Tamil%20Supplement
-    sha256: d997bcdad7af1a13413fe0aabcd8b55c8d2eaece2e7e2576e54a902202ad0907
-    file_size: 39971
+  Noto Sans Tamil Supplement:
+    source: google
+    family: Noto Sans Tamil Supplement
+    files:
+    - https://fonts.gstatic.com/s/notosanstamilsupplement/v21/DdTz78kEtnooLS5rXF1DaruiCd_bFp_Ph4sGcn7ax_vsAeMkeq1x.ttf
 fonts:
 - name: Noto Sans Tamil Supplement
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Ek Type
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tamil)
-    font: NotoSansTamilSupplement-Regular.ttf
+    font: DdTz78kEtnooLS5rXF1DaruiCd_bFp_Ph4sGcn7ax_vsAeMkeq1x.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tamil)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ed178550372beaaf1d32f15141e42dcd5f2db2784a596d334ba0f43b1132cff2
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

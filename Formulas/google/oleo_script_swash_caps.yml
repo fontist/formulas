@@ -1,23 +1,17 @@
 ---
+name: Oleo Script Swash Caps
 description: Oleo Script Swash Caps
 homepage: www.soytutype.com.ar
 resources:
-  OleoScriptSwashCaps.zip:
-    urls:
-    - https://fonts.google.com/download?family=Oleo%20Script%20Swash%20Caps
-    sha256: 57bb09eea75db8d1e2ace1859486e245dc3a42fb28974ff061f68cc3b5c8e90a
-    file_size: 43654
+  Oleo Script Swash Caps:
+    source: google
+    family: Oleo Script Swash Caps
+    files:
+    - https://fonts.gstatic.com/s/oleoscriptswashcaps/v13/Noaj6Vb-w5SFbTTAsZP_7JkCS08K-jCzDn_HMXquSY0Hg90.ttf
+    - https://fonts.gstatic.com/s/oleoscriptswashcaps/v13/Noag6Vb-w5SFbTTAsZP_7JkCS08K-jCzDn_HCcaBbYUsn9T5dt0.ttf
 fonts:
 - name: Oleo Script Swash Caps
   styles:
-  - family_name: Oleo Script Swash Caps
-    type: Regular
-    full_name: Oleo Script Swash Caps
-    post_script_name: OleoScriptSwashCaps-Regular
-    version: '1.002'
-    copyright: Copyright (c) 2012, Soytutype (contact@soytutype.com.ar|soytutype@gmail.com),
-      with reserved fontname 'Oleo'
-    font: OleoScriptSwashCaps-Regular.ttf
   - family_name: Oleo Script Swash Caps
     type: Bold
     full_name: Oleo Script Swash Caps Bold
@@ -25,9 +19,16 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2012, Soytutype (contact@soytutype.com.ar|soytutype@gmail.com),
       with reserved fontname 'Oleo'
-    font: OleoScriptSwashCaps-Bold.ttf
-extract:
-  format: zip
+    font: Noag6Vb-w5SFbTTAsZP_7JkCS08K-jCzDn_HCcaBbYUsn9T5dt0.ttf
+  - family_name: Oleo Script Swash Caps
+    type: Regular
+    full_name: Oleo Script Swash Caps
+    post_script_name: OleoScriptSwashCaps-Regular
+    version: '1.002'
+    copyright: Copyright (c) 2012, Soytutype (contact@soytutype.com.ar|soytutype@gmail.com),
+      with reserved fontname 'Oleo'
+    font: Noaj6Vb-w5SFbTTAsZP_7JkCS08K-jCzDn_HMXquSY0Hg90.ttf
+extract: {}
 copyright: Copyright (c) 2012, Soytutype (contact@soytutype.com.ar|soytutype@gmail.com),
   with reserved fontname 'Oleo'
 license_url: http://scripts.sil.org/OFL
@@ -125,3 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

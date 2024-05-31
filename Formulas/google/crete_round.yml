@@ -1,23 +1,17 @@
 ---
+name: Crete Round
 description: Crete Round
 homepage: www.type-together.com/Crete
 resources:
-  CreteRound.zip:
-    urls:
-    - https://fonts.google.com/download?family=Crete%20Round
-    sha256: 695a78fafccec514518d25bf1977b1fca495d46002718cbac1dc2e9a9a5bcdcb
-    file_size: 51788
+  Crete Round:
+    source: google
+    family: Crete Round
+    files:
+    - https://fonts.gstatic.com/s/creteround/v15/55xoey1sJNPjPiv1ZZZrxJ1827zAKnxN.ttf
+    - https://fonts.gstatic.com/s/creteround/v15/55xqey1sJNPjPiv1ZZZrxK1-0bjiL2xNhKc.ttf
 fonts:
 - name: Crete Round
   styles:
-  - family_name: Crete Round
-    type: Regular
-    full_name: Crete Round
-    post_script_name: CreteRound-Regular
-    version: '1.001'
-    copyright: Copyright (c) 2011, TypeTogether (www.type-together.com), with Reserved
-      Font Names "Crete" and "Crete Round"
-    font: CreteRound-Regular.ttf
   - family_name: Crete Round
     type: Italic
     full_name: Crete Round Italic
@@ -25,11 +19,18 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011, TypeTogether (www.type-together.com), with Reserved
       Font Names "Crete" and "Crete Round"
-    font: CreteRound-Italic.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, TypeTogether (www.type-together.com info@type-together.com),
-  with Reserved Font Names "Crete" and "Crete Round"
+    font: 55xqey1sJNPjPiv1ZZZrxK1-0bjiL2xNhKc.ttf
+  - family_name: Crete Round
+    type: Regular
+    full_name: Crete Round
+    post_script_name: CreteRound-Regular
+    version: '1.001'
+    copyright: Copyright (c) 2011, TypeTogether (www.type-together.com), with Reserved
+      Font Names "Crete" and "Crete Round"
+    font: 55xoey1sJNPjPiv1ZZZrxJ1827zAKnxN.ttf
+extract: {}
+copyright: Copyright (c) 2011, TypeTogether (www.type-together.com), with Reserved
+  Font Names "Crete" and "Crete Round"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, TypeTogether (www.type-together.com),
@@ -126,3 +127,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,11 +1,12 @@
 ---
+name: Bokor
 description: Bokor
 resources:
-  Bokor.zip:
-    urls:
-    - https://fonts.google.com/download?family=Bokor
-    sha256: c85161dfdc55c31a0406d947f270ab6ea5a3702d38f32810c4fa2acdee986fb7
-    file_size: 56274
+  Bokor:
+    source: google
+    family: Bokor
+    files:
+    - https://fonts.gstatic.com/s/bokor/v30/m8JcjfpeeaqTiR2WdInbcaxE.ttf
 fonts:
 - name: Bokor
   styles:
@@ -13,9 +14,9 @@ fonts:
     type: Regular
     full_name: Bokor Regular
     post_script_name: Bokor-Regular
-    version: 8.001; ttfautohint (v1.8.3)
+    version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Bokor Project Authors (https://github.com/danhhong/Bokor)
-    font: Bokor-Regular.ttf
+    font: m8JcjfpeeaqTiR2WdInbcaxE.ttf
 extract: {}
 copyright: Copyright 2020 The Bokor Project Authors (https://github.com/danhhong/Bokor)
 license_url: https://scripts.sil.org/OFL
@@ -113,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 76916f873125c560d3aed3eb4da639fbbf35cdd6ddc4e57991fa770492e8d853
-command: google import --formulas_path Formulas
+command: import google -n 9999

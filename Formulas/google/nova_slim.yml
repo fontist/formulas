@@ -1,12 +1,12 @@
 ---
+name: Nova Slim
 description: Nova Slim
-homepage:
 resources:
-  NovaSlim.zip:
-    urls:
-    - https://fonts.google.com/download?family=Nova%20Slim
-    sha256: 269cb7b28fe38792796aee54f08b54172728d7f1f50d9101b0f9e0ab43375a51
-    file_size: 41323
+  Nova Slim:
+    source: google
+    family: Nova Slim
+    files:
+    - https://fonts.gstatic.com/s/novaslim/v24/Z9XUDmZNQAuem8jyZcn-yMOInrib9Q.ttf
 fonts:
 - name: Nova Slim
   styles:
@@ -16,12 +16,9 @@ fonts:
     post_script_name: NovaSlim
     version: '2.000'
     copyright: Copyright (c) 2011, wmk69 (wmk69@o2.pl)
-    font: NovaSlim.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2011, wmk69 (wmk69@o2.pl) with Reserved Font Names ''NovaSlim''
-  and ''Nova Slim''. This Font Software is licensed under the SIL Open Font License,
-  Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    font: Z9XUDmZNQAuem8jyZcn-yMOInrib9Q.ttf
+extract: {}
+copyright: Copyright (c) 2011, wmk69 (wmk69@o2.pl)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, wmk69 (wmk69@o2.pl),
@@ -129,3 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

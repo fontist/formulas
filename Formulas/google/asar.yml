@@ -3,11 +3,11 @@ name: Asar
 description: Asar
 homepage: sorkintype.com
 resources:
-  Asar.zip:
-    urls:
-    - https://fonts.google.com/download?family=Asar
-    sha256: 9ea465122ef0246de4ec90f75b81b5356d9a717c1a0e1fc6534ea85706539682
-    file_size: 282116
+  Asar:
+    source: google
+    family: Asar
+    files:
+    - https://fonts.gstatic.com/s/asar/v22/sZlLdRyI6TBIXkYQDLlTW6E.ttf
 fonts:
 - name: Asar
   styles:
@@ -19,9 +19,8 @@ fonts:
       -m "" -w gG -t -X ""
     copyright: Copyright (c) 2014-2015, Sorkin Type Co (sorkintype.com | sorkintype@gmail.com).
       Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
-    font: Asar-Regular.ttf
-extract:
-  format: zip
+    font: sZlLdRyI6TBIXkYQDLlTW6E.ttf
+extract: {}
 copyright: Copyright (c) 2014-2015, Sorkin Type Co (sorkintype.com | sorkintype@gmail.com).
   Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
 license_url: http://scripts.sil.org/OFL
@@ -119,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -3,11 +3,11 @@ name: Salsa
 description: Salsa
 homepage: www.johnvargasbeltran.com
 resources:
-  Salsa.zip:
-    urls:
-    - https://fonts.google.com/download?family=Salsa
-    sha256: 120ae0a124e41c4d930494c003a406a6a3dabb549a38b96a7e900cfce187b669
-    file_size: 24764
+  Salsa:
+    source: google
+    family: Salsa
+    files:
+    - https://fonts.gstatic.com/s/salsa/v21/gNMKW3FiRpKj-imY8ncKEZez.ttf
 fonts:
 - name: Salsa
   styles:
@@ -18,11 +18,10 @@ fonts:
     version: '1.002'
     copyright: "Copyright (c) 2011 by John Vargas Beltr\x87n (john.vargasbeltran@gmail.com),
       with Reserved Font Name Salsa."
-    font: Salsa-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by John Vargas Beltrn (john.vargasbeltran@gmail.com),
-  with Reserved Font Name Salsa.
+    font: gNMKW3FiRpKj-imY8ncKEZez.ttf
+extract: {}
+copyright: "Copyright (c) 2011 by John Vargas Beltr\x87n (john.vargasbeltran@gmail.com),
+  with Reserved Font Name Salsa."
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by John Vargas Beltrán (john.vargasbeltran@gmail.com),
@@ -119,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

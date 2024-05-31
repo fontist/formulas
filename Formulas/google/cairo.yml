@@ -1,11 +1,20 @@
 ---
+name: Cairo
 description: Cairo
 homepage: https://gaber.design
 resources:
-  Cairo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Cairo
-    file_size: 561674
+  Cairo:
+    source: google
+    family: Cairo
+    files:
+    - https://fonts.gstatic.com/s/cairo/v28/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hGA-W1ToLQ-HmkA.ttf
+    - https://fonts.gstatic.com/s/cairo/v28/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hL4-W1ToLQ-HmkA.ttf
+    - https://fonts.gstatic.com/s/cairo/v28/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hOA-W1ToLQ-HmkA.ttf
+    - https://fonts.gstatic.com/s/cairo/v28/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hNI-W1ToLQ-HmkA.ttf
+    - https://fonts.gstatic.com/s/cairo/v28/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hD45W1ToLQ-HmkA.ttf
+    - https://fonts.gstatic.com/s/cairo/v28/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hAc5W1ToLQ-HmkA.ttf
+    - https://fonts.gstatic.com/s/cairo/v28/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hGA5W1ToLQ-HmkA.ttf
+    - https://fonts.gstatic.com/s/cairo/v28/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hEk5W1ToLQ-HmkA.ttf
 fonts:
 - name: Cairo
   styles:
@@ -15,21 +24,14 @@ fonts:
     post_script_name: Cairo-Bold
     version: 3.130;gftools[0.9.24]
     copyright: Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
-    font: Cairo-Bold.ttf
+    font: SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hAc5W1ToLQ-HmkA.ttf
   - family_name: Cairo
     type: Regular
     full_name: Cairo Regular
     post_script_name: Cairo-Regular
     version: 3.130;gftools[0.9.24]
     copyright: Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
-    font: Cairo-VariableFont_slnt,wght.ttf
-  - family_name: Cairo
-    type: Regular
-    full_name: Cairo Regular
-    post_script_name: Cairo-Regular
-    version: 3.130;gftools[0.9.24]
-    copyright: Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
-    font: Cairo-Regular.ttf
+    font: SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hOA-W1ToLQ-HmkA.ttf
 - name: Cairo Black
   styles:
   - family_name: Cairo Black
@@ -40,7 +42,7 @@ fonts:
     post_script_name: Cairo-Black
     version: 3.130;gftools[0.9.24]
     copyright: Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
-    font: Cairo-Black.ttf
+    font: SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hEk5W1ToLQ-HmkA.ttf
 - name: Cairo ExtraBold
   styles:
   - family_name: Cairo ExtraBold
@@ -51,7 +53,7 @@ fonts:
     post_script_name: Cairo-ExtraBold
     version: 3.130;gftools[0.9.24]
     copyright: Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
-    font: Cairo-ExtraBold.ttf
+    font: SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hGA5W1ToLQ-HmkA.ttf
 - name: Cairo ExtraLight
   styles:
   - family_name: Cairo ExtraLight
@@ -62,7 +64,7 @@ fonts:
     post_script_name: Cairo-ExtraLight
     version: 3.130;gftools[0.9.24]
     copyright: Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
-    font: Cairo-ExtraLight.ttf
+    font: SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hGA-W1ToLQ-HmkA.ttf
 - name: Cairo Light
   styles:
   - family_name: Cairo Light
@@ -73,7 +75,7 @@ fonts:
     post_script_name: Cairo-Light
     version: 3.130;gftools[0.9.24]
     copyright: Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
-    font: Cairo-Light.ttf
+    font: SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hL4-W1ToLQ-HmkA.ttf
 - name: Cairo Medium
   styles:
   - family_name: Cairo Medium
@@ -84,7 +86,7 @@ fonts:
     post_script_name: Cairo-Medium
     version: 3.130;gftools[0.9.24]
     copyright: Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
-    font: Cairo-Medium.ttf
+    font: SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hNI-W1ToLQ-HmkA.ttf
 - name: Cairo SemiBold
   styles:
   - family_name: Cairo SemiBold
@@ -95,7 +97,7 @@ fonts:
     post_script_name: Cairo-SemiBold
     version: 3.130;gftools[0.9.24]
     copyright: Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
-    font: Cairo-SemiBold.ttf
+    font: SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hD45W1ToLQ-HmkA.ttf
 extract: {}
 copyright: Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
 license_url: http://scripts.sil.org/OFL
@@ -193,5 +195,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 397267f30e5ce327a9af49078a69c496883bcd6d072fc46b6d6a406de0ec51d8
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

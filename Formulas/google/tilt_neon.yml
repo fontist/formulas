@@ -1,12 +1,13 @@
 ---
+name: Tilt Neon
 description: Tilt Neon
 homepage: http://www.andyclymer.com/
 resources:
-  Tilt_Neon.zip:
-    urls:
-    - https://fonts.google.com/download?family=Tilt%20Neon
-    sha256: e1cbd97a450015e6c0e823ca59a6eabc574f23b4f4cd12d663affed171a4bde7
-    file_size: 396083
+  Tilt Neon:
+    source: google
+    family: Tilt Neon
+    files:
+    - https://fonts.gstatic.com/s/tiltneon/v10/E21L_d7gguXdwD9LEFY2WCeElCNtd-eBqpHp1TzrkJSmwpj5ndxquXK9WualJ9DS.ttf
 fonts:
 - name: Tilt Neon
   styles:
@@ -16,14 +17,7 @@ fonts:
     post_script_name: TiltNeon-Regular
     version: '1.000'
     copyright: Copyright 2019 The Tilt Project Authors (https://github.com/googlefonts/Tilt-Fonts)
-    font: TiltNeon-Regular-VariableFont_XROT,YROT.ttf
-  - family_name: Tilt Neon
-    type: Regular
-    full_name: Tilt Neon Regular
-    post_script_name: TiltNeon-Regular
-    version: '1.000'
-    copyright: Copyright 2019 The Tilt Project Authors (https://github.com/googlefonts/Tilt-Fonts)
-    font: TiltNeon-Regular.ttf
+    font: E21L_d7gguXdwD9LEFY2WCeElCNtd-eBqpHp1TzrkJSmwpj5ndxquXK9WualJ9DS.ttf
 extract: {}
 copyright: Copyright 2019 The Tilt Project Authors (https://github.com/googlefonts/Tilt-Fonts)
 license_url: http://scripts.sil.org/OFL
@@ -121,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 79bec942c4e96e763a55c912c66f1b57a338ae9f62718143790a36d7eaa6df53
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

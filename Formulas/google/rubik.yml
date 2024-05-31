@@ -1,11 +1,26 @@
 ---
+name: Rubik
 description: Rubik
 homepage: http://www.google.com/fonts
 resources:
-  Rubik.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rubik
-    file_size: 1482495
+  Rubik:
+    source: google
+    family: Rubik
+    files:
+    - https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-WYi1UE80V4bVkA.ttf
+    - https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4i1UE80V4bVkA.ttf
+    - https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-NYi1UE80V4bVkA.ttf
+    - https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-2Y-1UE80V4bVkA.ttf
+    - https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-1UE80V4bVkA.ttf
+    - https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-h4-1UE80V4bVkA.ttf
+    - https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-ro-1UE80V4bVkA.ttf
+    - https://fonts.gstatic.com/s/rubik/v28/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8sDE0UwdYPFkJ1O.ttf
+    - https://fonts.gstatic.com/s/rubik/v28/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tdE0UwdYPFkJ1O.ttf
+    - https://fonts.gstatic.com/s/rubik/v28/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tvE0UwdYPFkJ1O.ttf
+    - https://fonts.gstatic.com/s/rubik/v28/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8uDFEUwdYPFkJ1O.ttf
+    - https://fonts.gstatic.com/s/rubik/v28/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8u6FEUwdYPFkJ1O.ttf
+    - https://fonts.gstatic.com/s/rubik/v28/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8vdFEUwdYPFkJ1O.ttf
+    - https://fonts.gstatic.com/s/rubik/v28/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8v0FEUwdYPFkJ1O.ttf
 fonts:
 - name: Rubik
   styles:
@@ -15,28 +30,28 @@ fonts:
     post_script_name: Rubik-Bold
     version: 2.300;gftools[0.9.30]
     copyright: Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)
-    font: Rubik-Bold.ttf
+    font: iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-1UE80V4bVkA.ttf
   - family_name: Rubik
     type: Bold Italic
     full_name: Rubik Bold Italic
     post_script_name: Rubik-BoldItalic
     version: 2.300;gftools[0.9.30]
     copyright: Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)
-    font: Rubik-BoldItalic.ttf
+    font: iJWbBXyIfDnIV7nEt3KSJbVDV49rz8u6FEUwdYPFkJ1O.ttf
   - family_name: Rubik
     type: Italic
     full_name: Rubik Italic
     post_script_name: Rubik-Italic
     version: 2.300;gftools[0.9.30]
     copyright: Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)
-    font: Rubik-Italic.ttf
+    font: iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tdE0UwdYPFkJ1O.ttf
   - family_name: Rubik
     type: Regular
     full_name: Rubik Regular
     post_script_name: Rubik-Regular
     version: 2.300;gftools[0.9.30]
     copyright: Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)
-    font: Rubik-Regular.ttf
+    font: iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4i1UE80V4bVkA.ttf
 - name: Rubik Black
   styles:
   - family_name: Rubik Black
@@ -47,7 +62,7 @@ fonts:
     post_script_name: Rubik-BlackItalic
     version: 2.300;gftools[0.9.30]
     copyright: Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)
-    font: Rubik-BlackItalic.ttf
+    font: iJWbBXyIfDnIV7nEt3KSJbVDV49rz8v0FEUwdYPFkJ1O.ttf
   - family_name: Rubik Black
     type: Regular
     preferred_family_name: Rubik
@@ -56,7 +71,7 @@ fonts:
     post_script_name: Rubik-Black
     version: 2.300;gftools[0.9.30]
     copyright: Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)
-    font: Rubik-Black.ttf
+    font: iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-ro-1UE80V4bVkA.ttf
 - name: Rubik ExtraBold
   styles:
   - family_name: Rubik ExtraBold
@@ -67,7 +82,7 @@ fonts:
     post_script_name: Rubik-ExtraBoldItalic
     version: 2.300;gftools[0.9.30]
     copyright: Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)
-    font: Rubik-ExtraBoldItalic.ttf
+    font: iJWbBXyIfDnIV7nEt3KSJbVDV49rz8vdFEUwdYPFkJ1O.ttf
   - family_name: Rubik ExtraBold
     type: Regular
     preferred_family_name: Rubik
@@ -76,7 +91,7 @@ fonts:
     post_script_name: Rubik-ExtraBold
     version: 2.300;gftools[0.9.30]
     copyright: Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)
-    font: Rubik-ExtraBold.ttf
+    font: iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-h4-1UE80V4bVkA.ttf
 - name: Rubik Light
   styles:
   - family_name: Rubik Light
@@ -87,16 +102,7 @@ fonts:
     post_script_name: Rubik-LightItalic
     version: 2.300;gftools[0.9.30]
     copyright: Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)
-    font: Rubik-Italic-VariableFont_wght.ttf
-  - family_name: Rubik Light
-    type: Italic
-    preferred_family_name: Rubik
-    preferred_type: Light Italic
-    full_name: Rubik Light Italic
-    post_script_name: Rubik-LightItalic
-    version: 2.300;gftools[0.9.30]
-    copyright: Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)
-    font: Rubik-LightItalic.ttf
+    font: iJWbBXyIfDnIV7nEt3KSJbVDV49rz8sDE0UwdYPFkJ1O.ttf
   - family_name: Rubik Light
     type: Regular
     preferred_family_name: Rubik
@@ -105,16 +111,7 @@ fonts:
     post_script_name: Rubik-Light
     version: 2.300;gftools[0.9.30]
     copyright: Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)
-    font: Rubik-VariableFont_wght.ttf
-  - family_name: Rubik Light
-    type: Regular
-    preferred_family_name: Rubik
-    preferred_type: Light
-    full_name: Rubik Light
-    post_script_name: Rubik-Light
-    version: 2.300;gftools[0.9.30]
-    copyright: Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)
-    font: Rubik-Light.ttf
+    font: iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-WYi1UE80V4bVkA.ttf
 - name: Rubik Medium
   styles:
   - family_name: Rubik Medium
@@ -125,7 +122,7 @@ fonts:
     post_script_name: Rubik-MediumItalic
     version: 2.300;gftools[0.9.30]
     copyright: Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)
-    font: Rubik-MediumItalic.ttf
+    font: iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tvE0UwdYPFkJ1O.ttf
   - family_name: Rubik Medium
     type: Regular
     preferred_family_name: Rubik
@@ -134,7 +131,7 @@ fonts:
     post_script_name: Rubik-Medium
     version: 2.300;gftools[0.9.30]
     copyright: Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)
-    font: Rubik-Medium.ttf
+    font: iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-NYi1UE80V4bVkA.ttf
 - name: Rubik SemiBold
   styles:
   - family_name: Rubik SemiBold
@@ -145,7 +142,7 @@ fonts:
     post_script_name: Rubik-SemiBoldItalic
     version: 2.300;gftools[0.9.30]
     copyright: Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)
-    font: Rubik-SemiBoldItalic.ttf
+    font: iJWbBXyIfDnIV7nEt3KSJbVDV49rz8uDFEUwdYPFkJ1O.ttf
   - family_name: Rubik SemiBold
     type: Regular
     preferred_family_name: Rubik
@@ -154,7 +151,7 @@ fonts:
     post_script_name: Rubik-SemiBold
     version: 2.300;gftools[0.9.30]
     copyright: Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)
-    font: Rubik-SemiBold.ttf
+    font: iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-2Y-1UE80V4bVkA.ttf
 extract: {}
 copyright: Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)
 license_url: https://scripts.sil.org/OFL
@@ -163,7 +160,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -252,5 +249,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 647d55b96a1e5b0d7dc60f78e46900495d7ad1fa96b6017c835331357503fa87
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

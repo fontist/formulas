@@ -1,34 +1,32 @@
 ---
 name: Astloch
 description: Astloch
-homepage:
 resources:
-  Astloch.zip:
-    urls:
-    - https://fonts.google.com/download?family=Astloch
-    sha256: 5d9a62a2eca0197406300dfdf9ec6c3ad67a9421196923a3de4bbf41aa45d48e
-    file_size: 64134
+  Astloch:
+    source: google
+    family: Astloch
+    files:
+    - https://fonts.gstatic.com/s/astloch/v26/TuGRUVJ8QI5GSeUjq9wRzMtkH1Q.ttf
+    - https://fonts.gstatic.com/s/astloch/v26/TuGUUVJ8QI5GSeUjk2A-6MNPA10xLMQ.ttf
 fonts:
 - name: Astloch
   styles:
-  - family_name: Astloch
-    type: Regular
-    full_name: Astloch Regular
-    post_script_name: Astloch-Regular
-    version: '1.002'
-    copyright: Copyright 2011 The Astloch Project Authors
-    font: Astloch-Regular.ttf
   - family_name: Astloch
     type: Bold
     full_name: Astloch Bold
     post_script_name: Astloch-Bold
     version: '1.002'
     copyright: Copyright 2011 The Astloch Project Authors
-    font: Astloch-Bold.ttf
-extract:
-  format: zip
+    font: TuGUUVJ8QI5GSeUjk2A-6MNPA10xLMQ.ttf
+  - family_name: Astloch
+    type: Regular
+    full_name: Astloch Regular
+    post_script_name: Astloch-Regular
+    version: '1.002'
+    copyright: Copyright 2011 The Astloch Project Authors
+    font: TuGRUVJ8QI5GSeUjq9wRzMtkH1Q.ttf
+extract: {}
 copyright: Copyright 2011 The Astloch Project Authors
-license_url:
 open_license: |-
   Copyright (c) 2010, 2011 Daniel Rhatigan (sparky@ultrasparky.org) with Reserved Font Name Astloch.
 
@@ -123,3 +121,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

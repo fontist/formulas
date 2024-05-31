@@ -2,11 +2,11 @@
 name: New Tegomin
 description: New Tegomin
 resources:
-  New_Tegomin.zip:
-    urls:
-    - https://fonts.google.com/download?family=New%20Tegomin
-    sha256: d316677f66739be52b732b8fb162d3469f3e5753c0d9448f195d6e5079ac9945
-    file_size: 4665969
+  New Tegomin:
+    source: google
+    family: New Tegomin
+    files:
+    - https://fonts.gstatic.com/s/newtegomin/v10/SLXMc1fV7Gd9USdBAfPlqfN0Q3ptkDMN.ttf
 fonts:
 - name: New Tegomin
   styles:
@@ -16,7 +16,7 @@ fonts:
     post_script_name: NewTegomin-Regular
     version: '1.000'
     copyright: Copyright 2020 The New Tegomin Project Authors (https://github.com/nagamaki008/NewTegomin)
-    font: NewTegomin-Regular.ttf
+    font: SLXMc1fV7Gd9USdBAfPlqfN0Q3ptkDMN.ttf
 extract: {}
 copyright: Copyright 2020 The New Tegomin Project Authors (https://github.com/nagamaki008/NewTegomin)
 license_url: https://scripts.sil.org/OFL
@@ -114,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 5da63a06821b07530c6db32a5198d4ba033dd701267cd2dd5215eaa6d749b9b9
-command: google import --formulas_path Formulas
+command: import google -n 9999

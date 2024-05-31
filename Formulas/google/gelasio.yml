@@ -1,11 +1,20 @@
 ---
+name: Gelasio
 description: Gelasio
 homepage: sorkintype.com
 resources:
-  Gelasio.zip:
-    urls:
-    - https://fonts.google.com/download?family=Gelasio
-    file_size: 533246
+  Gelasio:
+    source: google
+    family: Gelasio
+    files:
+    - https://fonts.gstatic.com/s/gelasio/v12/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL8Ilycs-TDO8Aba.ttf
+    - https://fonts.gstatic.com/s/gelasio/v12/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL86lycs-TDO8Aba.ttf
+    - https://fonts.gstatic.com/s/gelasio/v12/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL_WkCcs-TDO8Aba.ttf
+    - https://fonts.gstatic.com/s/gelasio/v12/cIfiMaFfvUQxTTqS3iKJkLGbI41wQL_vkCcs-TDO8Aba.ttf
+    - https://fonts.gstatic.com/s/gelasio/v12/cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1M9v8zTs9RbanYs.ttf
+    - https://fonts.gstatic.com/s/gelasio/v12/cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1P1v8zTs9RbanYs.ttf
+    - https://fonts.gstatic.com/s/gelasio/v12/cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1BFo8zTs9RbanYs.ttf
+    - https://fonts.gstatic.com/s/gelasio/v12/cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1Cho8zTs9RbanYs.ttf
 fonts:
 - name: Gelasio
   styles:
@@ -13,38 +22,38 @@ fonts:
     type: Bold
     full_name: Gelasio Bold
     post_script_name: Gelasio-Bold
-    version: 1.007; ttfautohint (v1.8.4.7-5d5b)
+    version: '1.008'
     description: Gelasio's metrics match Georgia's. Gelasio is a text face based on
       the Romain du Roi style.
     copyright: Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)
-    font: Gelasio-Bold.ttf
+    font: cIfiMaFfvUQxTTqS3iKJkLGbI41wQL_vkCcs-TDO8Aba.ttf
   - family_name: Gelasio
     type: Bold Italic
     full_name: Gelasio Bold Italic
     post_script_name: Gelasio-BoldItalic
-    version: 1.007; ttfautohint (v1.8.4.7-5d5b)
+    version: '1.008'
     description: Gelasio's metrics match Georgia's. Gelasio is a text face based on
       the Romain du Roi style.
     copyright: Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)
-    font: Gelasio-BoldItalic.ttf
+    font: cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1Cho8zTs9RbanYs.ttf
   - family_name: Gelasio
     type: Italic
     full_name: Gelasio Italic
     post_script_name: Gelasio-Italic
-    version: 1.007; ttfautohint (v1.8.4.7-5d5b)
+    version: '1.008'
     description: Gelasio's metrics match Georgia's. Gelasio is a text face based on
       the Romain du Roi style.
     copyright: Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)
-    font: Gelasio-Italic.ttf
+    font: cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1M9v8zTs9RbanYs.ttf
   - family_name: Gelasio
     type: Regular
     full_name: Gelasio Regular
     post_script_name: Gelasio-Regular
-    version: 1.007; ttfautohint (v1.8.4.7-5d5b)
+    version: '1.008'
     description: Gelasio's metrics match Georgia's. Gelasio is a text face based on
       the Romain du Roi style.
     copyright: Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)
-    font: Gelasio-Regular.ttf
+    font: cIfiMaFfvUQxTTqS3iKJkLGbI41wQL8Ilycs-TDO8Aba.ttf
 - name: Gelasio Medium
   styles:
   - family_name: Gelasio Medium
@@ -53,22 +62,22 @@ fonts:
     preferred_type: Medium Italic
     full_name: Gelasio Medium Italic
     post_script_name: Gelasio-MediumItalic
-    version: 1.007; ttfautohint (v1.8.4.7-5d5b)
+    version: '1.008'
     description: Gelasio's metrics match Georgia's. Gelasio is a text face based on
       the Romain du Roi style.
     copyright: Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)
-    font: Gelasio-MediumItalic.ttf
+    font: cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1P1v8zTs9RbanYs.ttf
   - family_name: Gelasio Medium
     type: Regular
     preferred_family_name: Gelasio
     preferred_type: Medium
     full_name: Gelasio Medium
     post_script_name: Gelasio-Medium
-    version: 1.007; ttfautohint (v1.8.4.7-5d5b)
+    version: '1.008'
     description: Gelasio's metrics match Georgia's. Gelasio is a text face based on
       the Romain du Roi style.
     copyright: Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)
-    font: Gelasio-Medium.ttf
+    font: cIfiMaFfvUQxTTqS3iKJkLGbI41wQL86lycs-TDO8Aba.ttf
 - name: Gelasio SemiBold
   styles:
   - family_name: Gelasio SemiBold
@@ -77,25 +86,25 @@ fonts:
     preferred_type: SemiBold Italic
     full_name: Gelasio SemiBold Italic
     post_script_name: Gelasio-SemiBoldItalic
-    version: 1.007; ttfautohint (v1.8.4.7-5d5b)
+    version: '1.008'
     description: Gelasio's metrics match Georgia's. Gelasio is a text face based on
       the Romain du Roi style.
     copyright: Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)
-    font: Gelasio-SemiBoldItalic.ttf
+    font: cIfsMaFfvUQxTTqS9Cu7b2nySBfeR6rA1BFo8zTs9RbanYs.ttf
   - family_name: Gelasio SemiBold
     type: Regular
     preferred_family_name: Gelasio
     preferred_type: SemiBold
     full_name: Gelasio SemiBold
     post_script_name: Gelasio-SemiBold
-    version: 1.007; ttfautohint (v1.8.4.7-5d5b)
+    version: '1.008'
     description: Gelasio's metrics match Georgia's. Gelasio is a text face based on
       the Romain du Roi style.
     copyright: Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)
-    font: Gelasio-SemiBold.ttf
+    font: cIfiMaFfvUQxTTqS3iKJkLGbI41wQL_WkCcs-TDO8Aba.ttf
 extract: {}
 copyright: Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)
-license_url: https://scripts.sil.org/OFL
+license_url: https://openfontlicense.org
 open_license: |-
   Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)
 
@@ -190,5 +199,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 1b274a904affa22205a780910f2165c8426155c177381a2bcda533aeb15bca6f
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

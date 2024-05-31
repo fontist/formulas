@@ -1,12 +1,13 @@
 ---
+name: Fugaz One
 description: Fugaz One
 homepage: www.latinotype.com
 resources:
-  FugazOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Fugaz%20One
-    sha256: 74775b01572da37bd237a99ef234fab8202aae2677911acb2172ea95e175454e
-    file_size: 17800
+  Fugaz One:
+    source: google
+    family: Fugaz One
+    files:
+    - https://fonts.gstatic.com/s/fugazone/v19/rax_HiWKp9EAITukFslMBBJek0vA8A.ttf
 fonts:
 - name: Fugaz One
   styles:
@@ -17,11 +18,10 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com),  with
       Reserved Font Names "Fugaz" and "Fugaz One"
-    font: FugazOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com), with Reserved
-  Font Names "Fugaz" and "Fugaz One"
+    font: rax_HiWKp9EAITukFslMBBJek0vA8A.ttf
+extract: {}
+copyright: Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com),  with
+  Reserved Font Names "Fugaz" and "Fugaz One"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by LatinoType Limitada (luciano@latinotype.com),
@@ -118,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

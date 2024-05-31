@@ -1,13 +1,12 @@
 ---
 name: Waiting for the Sunrise
 description: Waiting for the Sunrise
-homepage:
 resources:
-  WaitingfortheSunrise.zip:
-    urls:
-    - https://fonts.google.com/download?family=Waiting%20for%20the%20Sunrise
-    sha256: 07afac869579594077d491623e5f7ed7f9e0ae5e195311b6ac403dcecc6eef98
-    file_size: 31150
+  Waiting for the Sunrise:
+    source: google
+    family: Waiting for the Sunrise
+    files:
+    - https://fonts.gstatic.com/s/waitingforthesunrise/v20/WBL1rFvOYl9CEv2i1mO6KUW8RKWJ2zoXoz5JsYZQ9h_ZYk5J.ttf
 fonts:
 - name: Waiting for the Sunrise
   styles:
@@ -17,10 +16,9 @@ fonts:
     post_script_name: WaitingfortheSunrise
     version: 1.001 2001
     copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
-    font: WaitingfortheSunrise.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)
+    font: WBL1rFvOYl9CEv2i1mO6KUW8RKWJ2zoXoz5JsYZQ9h_ZYk5J.ttf
+extract: {}
+copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
@@ -116,3 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

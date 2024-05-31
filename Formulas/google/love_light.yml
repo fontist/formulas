@@ -1,12 +1,13 @@
 ---
+name: Love Light
 description: Love Light
 homepage: www.typesetit.com
 resources:
-  Love_Light.zip:
-    urls:
-    - https://fonts.google.com/download?family=Love%20Light
-    sha256: 57d7fb8d1b82bec603bdc2e99078b868ceabdaffc26b5f01d36ad2986a102171
-    file_size: 83018
+  Love Light:
+    source: google
+    family: Love Light
+    files:
+    - https://fonts.gstatic.com/s/lovelight/v6/t5tlIR0TNJyZWimpNAXDjKbCyTHuspo.ttf
 fonts:
 - name: Love Light
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: LoveLight-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2003 The Love Light Project Authors (https://github.com/googlefonts/love-light)
-    font: LoveLight-Regular.ttf
+    font: t5tlIR0TNJyZWimpNAXDjKbCyTHuspo.ttf
 extract: {}
 copyright: Copyright 2003 The Love Light Project Authors (https://github.com/googlefonts/love-light)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 1484262a723a069ce6c4b99cfb79a9044ec48ad096c0cb77300928a61a918375
-command: google import --formulas_path Formulas
+command: import google -n 9999

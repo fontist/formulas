@@ -1,11 +1,16 @@
 ---
+name: Noto Sans Medefaidrin
 description: Noto Sans Medefaidrin
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Medefaidrin.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Medefaidrin
-    file_size: 187795
+  Noto Sans Medefaidrin:
+    source: google
+    family: Noto Sans Medefaidrin
+    files:
+    - https://fonts.gstatic.com/s/notosansmedefaidrin/v23/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmErWlT318e5A3rw.ttf
+    - https://fonts.gstatic.com/s/notosansmedefaidrin/v23/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmHjWlT318e5A3rw.ttf
+    - https://fonts.gstatic.com/s/notosansmedefaidrin/v23/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmJTRlT318e5A3rw.ttf
+    - https://fonts.gstatic.com/s/notosansmedefaidrin/v23/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmK3RlT318e5A3rw.ttf
 fonts:
 - name: Noto Sans Medefaidrin
   styles:
@@ -15,21 +20,14 @@ fonts:
     post_script_name: NotoSansMedefaidrin-Bold
     version: '1.002'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/medefaidrin)
-    font: NotoSansMedefaidrin-Bold.ttf
+    font: WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmK3RlT318e5A3rw.ttf
   - family_name: Noto Sans Medefaidrin
     type: Regular
     full_name: Noto Sans Medefaidrin Regular
     post_script_name: NotoSansMedefaidrin-Regular
     version: '1.002'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/medefaidrin)
-    font: NotoSansMedefaidrin-VariableFont_wght.ttf
-  - family_name: Noto Sans Medefaidrin
-    type: Regular
-    full_name: Noto Sans Medefaidrin Regular
-    post_script_name: NotoSansMedefaidrin-Regular
-    version: '1.002'
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/medefaidrin)
-    font: NotoSansMedefaidrin-Regular.ttf
+    font: WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmErWlT318e5A3rw.ttf
 - name: Noto Sans Medefaidrin Medium
   styles:
   - family_name: Noto Sans Medefaidrin Medium
@@ -40,7 +38,7 @@ fonts:
     post_script_name: NotoSansMedefaidrin-Medium
     version: '1.002'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/medefaidrin)
-    font: NotoSansMedefaidrin-Medium.ttf
+    font: WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmHjWlT318e5A3rw.ttf
 - name: Noto Sans Medefaidrin SemiBold
   styles:
   - family_name: Noto Sans Medefaidrin SemiBold
@@ -51,7 +49,7 @@ fonts:
     post_script_name: NotoSansMedefaidrin-SemiBold
     version: '1.002'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/medefaidrin)
-    font: NotoSansMedefaidrin-SemiBold.ttf
+    font: WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmJTRlT318e5A3rw.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/medefaidrin)
 license_url: https://scripts.sil.org/OFL
@@ -60,7 +58,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -149,5 +147,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 75884094b04523cc3c541a8616cee36208db8f3238bdad167c6fc8f9f44febd6
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

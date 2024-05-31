@@ -1,12 +1,13 @@
 ---
+name: Tac One
 description: Tac One
 homepage: http://www.afrotype.com
 resources:
-  Tac_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Tac%20One
-    sha256: 7372f8c768c88fdeaa8f90c4f3fcf07ffe848df2935a1d0200c6a8244aa28043
-    file_size: 69536
+  Tac One:
+    source: google
+    family: Tac One
+    files:
+    - https://fonts.gstatic.com/s/tacone/v4/ahcZv8Cj3zw7qDr8fO4hU-FwnU0.ttf
 fonts:
 - name: Tac One
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: TacOne-Regular
     version: 1.003; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2024 The Tac One Project Authors (https://github.com/Afrotype/tac)
-    font: TacOne-Regular.ttf
+    font: ahcZv8Cj3zw7qDr8fO4hU-FwnU0.ttf
 extract: {}
 copyright: Copyright 2024 The Tac One Project Authors (https://github.com/Afrotype/tac)
 license_url: https://openfontlicense.org
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: aa98feac95e2a1caa2e7954c4b43ad67d8b6a0d22b3f26eb65ba0adb39e52a9e
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

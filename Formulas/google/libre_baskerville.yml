@@ -1,39 +1,18 @@
 ---
+name: Libre Baskerville
 description: Libre Baskerville
 homepage: www.impallari.com
 resources:
-  LibreBaskerville.zip:
-    urls:
-    - https://fonts.google.com/download?family=Libre%20Baskerville
-    sha256: 4e015df9eb813829184840220efe515d0248222e4bee14d44e4840fc94180790
-    file_size: 190583
+  Libre Baskerville:
+    source: google
+    family: Libre Baskerville
+    files:
+    - https://fonts.gstatic.com/s/librebaskerville/v14/kmKnZrc3Hgbbcjq75U4uslyuy4kn0pNeYRI4CN2V.ttf
+    - https://fonts.gstatic.com/s/librebaskerville/v14/kmKhZrc3Hgbbcjq75U4uslyuy4kn0qNcaxYaDc2V2ro.ttf
+    - https://fonts.gstatic.com/s/librebaskerville/v14/kmKiZrc3Hgbbcjq75U4uslyuy4kn0qviTjYwI8Gcw6Oi.ttf
 fonts:
 - name: Libre Baskerville
   styles:
-  - family_name: Libre Baskerville
-    type: Regular
-    full_name: Libre Baskerville
-    post_script_name: LibreBaskerville-Regular
-    version: 1.000; ttfautohint (v0.93) -l 8 -r 50 -G 200 -x 14 -w "G"
-    description: Libre Baskerville is webfont optimized for web body text (typically
-      16px). It's based on 1941 ATF Specimens, but it has a taller x height, wider
-      counters and minor contrast that allow it to work on small sizes in any screen.
-    copyright: Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com),
-      Copyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com),
-      with Reserved Font Name Libre Baskerville.
-    font: LibreBaskerville-Regular.ttf
-  - family_name: Libre Baskerville
-    type: Italic
-    full_name: Libre Baskerville Italic
-    post_script_name: LibreBaskerville-Italic
-    version: 1.000; ttfautohint (v0.93) -l 8 -r 50 -G 200 -x 14 -w "G"
-    description: Libre Baskerville is webfont optimized for web body text (typically
-      16px). It's based on 1941 ATF Specimens, but it has a taller x height, wider
-      counters and minor contrast that allow it to work on small sizes in any screen.
-    copyright: Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com),
-      Copyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com),
-      with Reserved Font Name Libre Baskerville.
-    font: LibreBaskerville-Italic.ttf
   - family_name: Libre Baskerville
     type: Bold
     full_name: Libre Baskerville Bold
@@ -45,9 +24,32 @@ fonts:
     copyright: Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com),
       Copyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com),
       with Reserved Font Name Libre Baskerville.
-    font: LibreBaskerville-Bold.ttf
-extract:
-  format: zip
+    font: kmKiZrc3Hgbbcjq75U4uslyuy4kn0qviTjYwI8Gcw6Oi.ttf
+  - family_name: Libre Baskerville
+    type: Italic
+    full_name: Libre Baskerville Italic
+    post_script_name: LibreBaskerville-Italic
+    version: 1.000; ttfautohint (v0.93) -l 8 -r 50 -G 200 -x 14 -w "G"
+    description: Libre Baskerville is webfont optimized for web body text (typically
+      16px). It's based on 1941 ATF Specimens, but it has a taller x height, wider
+      counters and minor contrast that allow it to work on small sizes in any screen.
+    copyright: Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com),
+      Copyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com),
+      with Reserved Font Name Libre Baskerville.
+    font: kmKhZrc3Hgbbcjq75U4uslyuy4kn0qNcaxYaDc2V2ro.ttf
+  - family_name: Libre Baskerville
+    type: Regular
+    full_name: Libre Baskerville
+    post_script_name: LibreBaskerville-Regular
+    version: 1.000; ttfautohint (v0.93) -l 8 -r 50 -G 200 -x 14 -w "G"
+    description: Libre Baskerville is webfont optimized for web body text (typically
+      16px). It's based on 1941 ATF Specimens, but it has a taller x height, wider
+      counters and minor contrast that allow it to work on small sizes in any screen.
+    copyright: Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com),
+      Copyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com),
+      with Reserved Font Name Libre Baskerville.
+    font: kmKnZrc3Hgbbcjq75U4uslyuy4kn0pNeYRI4CN2V.ttf
+extract: {}
 copyright: Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com),
   Copyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com),
   with Reserved Font Name Libre Baskerville.
@@ -147,3 +149,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

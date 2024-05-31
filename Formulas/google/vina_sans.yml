@@ -1,11 +1,12 @@
 ---
+name: Vina Sans
 description: Vina Sans
 resources:
-  Vina_Sans.zip:
-    urls:
-    - https://fonts.google.com/download?family=Vina%20Sans
-    sha256: 1f11f46a572f7879234995595848139c549a91fa4eee196e3f200e8c5086e32a
-    file_size: 41157
+  Vina Sans:
+    source: google
+    family: Vina Sans
+    files:
+    - https://fonts.gstatic.com/s/vinasans/v6/m8JQjfZKf6-d2273MP7zcJ5BZmqa3A.ttf
 fonts:
 - name: Vina Sans
   styles:
@@ -15,7 +16,7 @@ fonts:
     post_script_name: VinaSans-Regular
     version: 1.002; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.28]
     copyright: Copyright 2023 The Vina Sans Project Authors (https://github.com/nguyentype/vinasans)
-    font: VinaSans-Regular.ttf
+    font: m8JQjfZKf6-d2273MP7zcJ5BZmqa3A.ttf
 extract: {}
 copyright: Copyright 2023 The Vina Sans Project Authors (https://github.com/nguyentype/vinasans)
 license_url: https://scripts.sil.org/OFL
@@ -113,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 1f173fcfb16301e17ac01e2a02bdbb1a59fcf5e871727f6e74b4fcd930b54edb
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

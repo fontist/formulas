@@ -1,12 +1,13 @@
 ---
+name: Diplomata
 description: Diplomata
 homepage: http://www.tipo.net.ar
 resources:
-  Diplomata.zip:
-    urls:
-    - https://fonts.google.com/download?family=Diplomata
-    sha256: d2b00eaf666853aa3dcf0868bea4e63e042dc84b62c989b22dc5009e6a901542
-    file_size: 47798
+  Diplomata:
+    source: google
+    family: Diplomata
+    files:
+    - https://fonts.gstatic.com/s/diplomata/v31/Cn-0JtiMXwhNwp-wKxyfYGxYrdM9Sg.ttf
 fonts:
 - name: Diplomata
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 1.002; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
     copyright: Copyright 2011 The Diplomata Project Authors (https://github.com/etunni/diplomata),
       with Reserved Font Name "Diplomata"
-    font: Diplomata-Regular.ttf
+    font: Cn-0JtiMXwhNwp-wKxyfYGxYrdM9Sg.ttf
 extract: {}
 copyright: Copyright 2011 The Diplomata Project Authors (https://github.com/etunni/diplomata),
   with Reserved Font Name "Diplomata"
@@ -27,7 +28,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -116,5 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 241e80f8c6b759e5777fac7d3146f8977cc017c510c79579cd571c4cfccba6af
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

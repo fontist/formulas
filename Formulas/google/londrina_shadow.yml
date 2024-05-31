@@ -1,12 +1,13 @@
 ---
+name: Londrina Shadow
 description: Londrina Shadow
 homepage: http://www.tipospereira.com
 resources:
-  LondrinaShadow.zip:
-    urls:
-    - https://fonts.google.com/download?family=Londrina%20Shadow
-    sha256: 5875f54dd307cf5c625f35fb438368f846b9564cc27bdf3ceadc1a7ae1ffa76a
-    file_size: 81093
+  Londrina Shadow:
+    source: google
+    family: Londrina Shadow
+    files:
+    - https://fonts.gstatic.com/s/londrinashadow/v26/oPWX_kB4kOQoWNJmjxLV5JuoCUlXRlaSxkrMCQ.ttf
 fonts:
 - name: Londrina Shadow
   styles:
@@ -17,9 +18,8 @@ fonts:
     version: '1.002'
     copyright: Copyright 2011 The Londrina Shadow Authors (https://github.com/marcelommp/Londrina-Typeface),
       with Reserved Font Name "Londrina Shadow"
-    font: LondrinaShadow-Regular.ttf
-extract:
-  format: zip
+    font: oPWX_kB4kOQoWNJmjxLV5JuoCUlXRlaSxkrMCQ.ttf
+extract: {}
 copyright: Copyright 2011 The Londrina Shadow Authors (https://github.com/marcelommp/Londrina-Typeface),
   with Reserved Font Name "Londrina Shadow"
 license_url: http://scripts.sil.org/OFL
@@ -117,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

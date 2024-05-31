@@ -1,12 +1,13 @@
 ---
+name: Offside
 description: Offside
 homepage: http://www.tipo.net.ar
 resources:
-  Offside.zip:
-    urls:
-    - https://fonts.google.com/download?family=Offside
-    sha256: 27d277cf04f9c76246c49057e92296469b535c44d18cc253852bb6f033fb4cb9
-    file_size: 34268
+  Offside:
+    source: google
+    family: Offside
+    files:
+    - https://fonts.gstatic.com/s/offside/v24/HI_KiYMWKa9QrAykQ5HiRp-dhpQ.ttf
 fonts:
 - name: Offside
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 1.002; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
     copyright: Copyright 2012 The Offside Project Authors (https://github.com/etunni/offside)
       with Reserved Font Name 'Offside'
-    font: Offside-Regular.ttf
+    font: HI_KiYMWKa9QrAykQ5HiRp-dhpQ.ttf
 extract: {}
 copyright: Copyright 2012 The Offside Project Authors (https://github.com/etunni/offside)
   with Reserved Font Name 'Offside'
@@ -27,7 +28,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -116,5 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: fb02545fcf5d129b253b4ccf00d1937468b48421c620a9b02e44c14e0ee91d01
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

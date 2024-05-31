@@ -3,11 +3,11 @@ name: Great Vibes
 description: Great Vibes
 homepage: www.typesetit.com
 resources:
-  Great_Vibes.zip:
-    urls:
-    - https://fonts.google.com/download?family=Great%20Vibes
-    sha256: cd9e584927ba3509f43322d2f227a02414f3223a3cd4c59bd69817cd01cae115
-    file_size: 91130
+  Great Vibes:
+    source: google
+    family: Great Vibes
+    files:
+    - https://fonts.gstatic.com/s/greatvibes/v19/RWmMoKWR9v4ksMfaWd_JN-XCg6UKDXlq.ttf
 fonts:
 - name: Great Vibes
   styles:
@@ -15,18 +15,18 @@ fonts:
     type: Regular
     full_name: Great Vibes Regular
     post_script_name: GreatVibes-Regular
-    version: 1.010; ttfautohint (v1.8.3)
+    version: 1.103; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2010 The Great Vibes Pro Project Authors (https://github.com/googlefonts/great-vibes)
-    font: GreatVibes-Regular.ttf
+    font: RWmMoKWR9v4ksMfaWd_JN-XCg6UKDXlq.ttf
 extract: {}
 copyright: Copyright 2010 The Great Vibes Pro Project Authors (https://github.com/googlefonts/great-vibes)
-license_url: https://scripts.sil.org/OFL
+license_url: https://openfontlicense.org
 open_license: |-
   Copyright 2015 The Great Vibes Pro Project Authors (https://github.com/googlefonts/great-vibes)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 52ca64384bbae2fba486780c8715673973aab99818f247c27f9a6d2176d5baa2
-command: google import --formulas_path Formulas
+command: import google -n 9999

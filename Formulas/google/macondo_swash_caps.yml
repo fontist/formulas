@@ -1,12 +1,12 @@
 ---
+name: Macondo Swash Caps
 description: Macondo Swash Caps
-homepage:
 resources:
-  MacondoSwashCaps.zip:
-    urls:
-    - https://fonts.google.com/download?family=Macondo%20Swash%20Caps
-    sha256: d1a4c5eada8f8ddefd0b0a2683656801fe23b7172c881e224fc263c67038d7f3
-    file_size: 19203
+  Macondo Swash Caps:
+    source: google
+    family: Macondo Swash Caps
+    files:
+    - https://fonts.gstatic.com/s/macondoswashcaps/v24/6NUL8EaAJgGKZA7lpt941Z9s6ZYgDq6Oekoa_mm5bA.ttf
 fonts:
 - name: Macondo Swash Caps
   styles:
@@ -17,9 +17,8 @@ fonts:
     version: '2.001'
     copyright: Copyright (c) 1997 - 2011, John Vargas Beltran. (www.johnvargasbeltran.com|john.vargasbeltran@gmail.com),
       with Reserved Font Name "Macondo"
-    font: MacondoSwashCaps-Regular.ttf
-extract:
-  format: zip
+    font: 6NUL8EaAJgGKZA7lpt941Z9s6ZYgDq6Oekoa_mm5bA.ttf
+extract: {}
 copyright: Copyright (c) 1997 - 2011, John Vargas Beltran. (www.johnvargasbeltran.com|john.vargasbeltran@gmail.com),
   with Reserved Font Name "Macondo"
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

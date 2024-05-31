@@ -1,12 +1,13 @@
 ---
+name: Nixie One
 description: Nixie One
 homepage: http://jovanny.ru/
 resources:
-  NixieOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Nixie%20One
-    sha256: 7eb0142bb97a3d4f53e7c0b8661946172f669d4f0c297ea489f1269c492a4aaa
-    file_size: 26284
+  Nixie One:
+    source: google
+    family: Nixie One
+    files:
+    - https://fonts.gstatic.com/s/nixieone/v16/lW-8wjkKLXjg5y2o2uUoUOFzpS-yLw.ttf
 fonts:
 - name: Nixie One
   styles:
@@ -17,9 +18,8 @@ fonts:
     version: '1.004'
     copyright: Copyright (c) 2011, Jovanny Lemonad (lemonad@jovanny.ru), with Reserved
       Font Name "Nixie"
-    font: NixieOne-Regular.ttf
-extract:
-  format: zip
+    font: lW-8wjkKLXjg5y2o2uUoUOFzpS-yLw.ttf
+extract: {}
 copyright: Copyright (c) 2011, Jovanny Lemonad (lemonad@jovanny.ru), with Reserved
   Font Name "Nixie"
 license_url: http://scripts.sil.org/OFL
@@ -117,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

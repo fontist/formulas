@@ -1,32 +1,18 @@
 ---
 name: Share
 description: Share
-homepage:
 resources:
-  Share.zip:
-    urls:
-    - https://fonts.google.com/download?family=Share
-    sha256: bffc7a68d909d9fbecbb5b906b49ba518e8b602013d837a4922f8a7089d2b373
-    file_size: 137281
+  Share:
+    source: google
+    family: Share
+    files:
+    - https://fonts.gstatic.com/s/share/v18/i7dEIFliZjKNF5VNHLq2cV5d.ttf
+    - https://fonts.gstatic.com/s/share/v18/i7dKIFliZjKNF6VPFr6UdE5dWFM.ttf
+    - https://fonts.gstatic.com/s/share/v18/i7dJIFliZjKNF63xM56-WkJUQUq7.ttf
+    - https://fonts.gstatic.com/s/share/v18/i7dPIFliZjKNF6VPLgK7UEZ2RFq7AwU.ttf
 fonts:
 - name: Share
   styles:
-  - family_name: Share
-    type: Regular
-    full_name: Share Regular
-    post_script_name: Share-Regular
-    version: '1.002'
-    copyright: Copyright (c) 2005-2011, Carrois Type Design (carrois.com), with Reserved
-      Font Name "Share"
-    font: Share-Regular.ttf
-  - family_name: Share
-    type: Italic
-    full_name: Share Italic
-    post_script_name: Share-Italic
-    version: '1.002'
-    copyright: Copyright (c) 2005-2011, Carrois Type Design (carrois.com), with Reserved
-      Font Name "Share"
-    font: Share-Italic.ttf
   - family_name: Share
     type: Bold
     full_name: Share Bold
@@ -34,7 +20,7 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2005-2011, Carrois Type Design (carrois.com), with Reserved
       Font Name "Share"
-    font: Share-Bold.ttf
+    font: i7dJIFliZjKNF63xM56-WkJUQUq7.ttf
   - family_name: Share
     type: Bold Italic
     full_name: Share Bold Italic
@@ -42,9 +28,24 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2005-2011, Carrois Type Design (carrois.com), with Reserved
       Font Name "Share"
-    font: Share-BoldItalic.ttf
-extract:
-  format: zip
+    font: i7dPIFliZjKNF6VPLgK7UEZ2RFq7AwU.ttf
+  - family_name: Share
+    type: Italic
+    full_name: Share Italic
+    post_script_name: Share-Italic
+    version: '1.002'
+    copyright: Copyright (c) 2005-2011, Carrois Type Design (carrois.com), with Reserved
+      Font Name "Share"
+    font: i7dKIFliZjKNF6VPFr6UdE5dWFM.ttf
+  - family_name: Share
+    type: Regular
+    full_name: Share Regular
+    post_script_name: Share-Regular
+    version: '1.002'
+    copyright: Copyright (c) 2005-2011, Carrois Type Design (carrois.com), with Reserved
+      Font Name "Share"
+    font: i7dEIFliZjKNF5VNHLq2cV5d.ttf
+extract: {}
 copyright: Copyright (c) 2005-2011, Carrois Type Design (carrois.com), with Reserved
   Font Name "Share"
 license_url: http://scripts.sil.org/OFL
@@ -142,3 +143,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

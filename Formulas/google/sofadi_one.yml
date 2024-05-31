@@ -1,12 +1,12 @@
 ---
+name: Sofadi One
 description: Sofadi One
-homepage:
 resources:
-  SofadiOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Sofadi%20One
-    sha256: 4e0fd209b6feb0612be55122888e33701c5f622287dfa9f8380d79d933532635
-    file_size: 28812
+  Sofadi One:
+    source: google
+    family: Sofadi One
+    files:
+    - https://fonts.gstatic.com/s/sofadione/v21/JIA2UVBxdnVBuElZaMFGcDOIETkmYDU.ttf
 fonts:
 - name: Sofadi One
   styles:
@@ -17,9 +17,8 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011 by Botjo Nikoltchev, with Reserved Font Name 'Sofadi
       One'
-    font: SofadiOne-Regular.ttf
-extract:
-  format: zip
+    font: JIA2UVBxdnVBuElZaMFGcDOIETkmYDU.ttf
+extract: {}
 copyright: Copyright (c) 2011 by Botjo Nikoltchev, with Reserved Font Name 'Sofadi
   One'
 license_url: http://scripts.sil.org/OFL
@@ -117,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

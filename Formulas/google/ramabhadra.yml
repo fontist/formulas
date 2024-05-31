@@ -1,13 +1,12 @@
 ---
 name: Ramabhadra
 description: Ramabhadra
-homepage:
 resources:
-  Ramabhadra.zip:
-    urls:
-    - https://fonts.google.com/download?family=Ramabhadra
-    sha256: fd2b0a66164363d7f23441907f112995869978c99f33a9899443a6836c8355cb
-    file_size: 246703
+  Ramabhadra:
+    source: google
+    family: Ramabhadra
+    files:
+    - https://fonts.gstatic.com/s/ramabhadra/v15/EYq2maBOwqRW9P1SQ83LehNGX5uWw3o.ttf
 fonts:
 - name: Ramabhadra
   styles:
@@ -19,9 +18,8 @@ fonts:
       -w G -X ""
     copyright: Copyright (c) 2012 Andhra Pradesh Society for Knowledge Networks (fonts.siliconandhra.org).
       Digitized data copyright (c) 2010-2012 Google Corporation.
-    font: Ramabhadra-Regular.ttf
-extract:
-  format: zip
+    font: EYq2maBOwqRW9P1SQ83LehNGX5uWw3o.ttf
+extract: {}
 copyright: Copyright (c) 2012 Andhra Pradesh Society for Knowledge Networks (fonts.siliconandhra.org).
   Digitized data copyright (c) 2010-2012 Google Corporation.
 license_url: http://scripts.sil.org/OFL
@@ -119,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

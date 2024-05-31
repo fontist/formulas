@@ -1,12 +1,14 @@
 ---
+name: Instrument Serif
 description: Instrument Serif
 homepage: www.fragtypefoundry.xyz
 resources:
-  Instrument_Serif.zip:
-    urls:
-    - https://fonts.google.com/download?family=Instrument%20Serif
-    sha256: c208e4dae092c68acd0e9ab854f7075f548116010233078d3bfabac4266aa755
-    file_size: 73206
+  Instrument Serif:
+    source: google
+    family: Instrument Serif
+    files:
+    - https://fonts.gstatic.com/s/instrumentserif/v4/jizBRFtNs2ka5fXjeivQ4LroWlx-2zIZj1bIkNo.ttf
+    - https://fonts.gstatic.com/s/instrumentserif/v4/jizHRFtNs2ka5fXjeivQ4LroWlx-6zATi3TNgNq55w.ttf
 fonts:
 - name: Instrument Serif
   styles:
@@ -16,14 +18,14 @@ fonts:
     post_script_name: InstrumentSerif-Italic
     version: 1.000; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.27]
     copyright: Copyright 2022 The Instrument Serif Project Authors (https://github.com/Instrument/instrument-serif)
-    font: InstrumentSerif-Italic.ttf
+    font: jizHRFtNs2ka5fXjeivQ4LroWlx-6zATi3TNgNq55w.ttf
   - family_name: Instrument Serif
     type: Regular
     full_name: Instrument Serif Regular
     post_script_name: InstrumentSerif-Regular
     version: 1.000; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.27]
     copyright: Copyright 2022 The Instrument Serif Project Authors (https://github.com/Instrument/instrument-serif)
-    font: InstrumentSerif-Regular.ttf
+    font: jizBRFtNs2ka5fXjeivQ4LroWlx-2zIZj1bIkNo.ttf
 extract: {}
 copyright: Copyright 2022 The Instrument Serif Project Authors (https://github.com/Instrument/instrument-serif)
 license_url: https://scripts.sil.org/OFL
@@ -32,7 +34,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -121,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e9d9786d26e921dc8906bc7ccf245591ee7983b3aad1440dad9520242df12aa5
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

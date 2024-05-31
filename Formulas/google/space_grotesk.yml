@@ -3,10 +3,15 @@ name: Space Grotesk
 description: Space Grotesk
 homepage: https://fonts.floriankarsten.com
 resources:
-  Space_Grotesk.zip:
-    urls:
-    - https://fonts.google.com/download?family=Space%20Grotesk
-    file_size: 280171
+  Space Grotesk:
+    source: google
+    family: Space Grotesk
+    files:
+    - https://fonts.gstatic.com/s/spacegrotesk/v16/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj62UUsjNsFjTDJK.ttf
+    - https://fonts.gstatic.com/s/spacegrotesk/v16/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7oUUsjNsFjTDJK.ttf
+    - https://fonts.gstatic.com/s/spacegrotesk/v16/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7aUUsjNsFjTDJK.ttf
+    - https://fonts.gstatic.com/s/spacegrotesk/v16/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj42VksjNsFjTDJK.ttf
+    - https://fonts.gstatic.com/s/spacegrotesk/v16/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj4PVksjNsFjTDJK.ttf
 fonts:
 - name: Space Grotesk
   styles:
@@ -16,14 +21,14 @@ fonts:
     post_script_name: SpaceGrotesk-Bold
     version: '2.000'
     copyright: Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)
-    font: SpaceGrotesk-Bold.ttf
+    font: V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj4PVksjNsFjTDJK.ttf
   - family_name: Space Grotesk
     type: Regular
     full_name: Space Grotesk Regular
     post_script_name: SpaceGrotesk-Regular
     version: '2.000'
     copyright: Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)
-    font: SpaceGrotesk-Regular.ttf
+    font: V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7oUUsjNsFjTDJK.ttf
 - name: Space Grotesk Light
   styles:
   - family_name: Space Grotesk Light
@@ -34,16 +39,7 @@ fonts:
     post_script_name: SpaceGrotesk-Light
     version: '2.000'
     copyright: Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)
-    font: SpaceGrotesk-VariableFont_wght.ttf
-  - family_name: Space Grotesk Light
-    type: Regular
-    preferred_family_name: Space Grotesk
-    preferred_type: Light
-    full_name: Space Grotesk Light
-    post_script_name: SpaceGrotesk-Light
-    version: '2.000'
-    copyright: Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)
-    font: SpaceGrotesk-Light.ttf
+    font: V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj62UUsjNsFjTDJK.ttf
 - name: Space Grotesk Medium
   styles:
   - family_name: Space Grotesk Medium
@@ -54,7 +50,7 @@ fonts:
     post_script_name: SpaceGrotesk-Medium
     version: '2.000'
     copyright: Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)
-    font: SpaceGrotesk-Medium.ttf
+    font: V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7aUUsjNsFjTDJK.ttf
 - name: Space Grotesk SemiBold
   styles:
   - family_name: Space Grotesk SemiBold
@@ -65,7 +61,7 @@ fonts:
     post_script_name: SpaceGrotesk-SemiBold
     version: '2.000'
     copyright: Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)
-    font: SpaceGrotesk-SemiBold.ttf
+    font: V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj42VksjNsFjTDJK.ttf
 extract: {}
 copyright: Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)
 license_url: https://scripts.sil.org/OFL
@@ -163,5 +159,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 35f99fc6080b7ba4b6cedd65c53c20fe6b316a8af4698f9cf392d7c958ee1612
-command: google import --formulas_path Formulas
+command: import google -n 9999

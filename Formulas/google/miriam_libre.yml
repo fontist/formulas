@@ -1,31 +1,32 @@
 ---
+name: Miriam Libre
 description: Miriam Libre
 homepage: http://hagilda.com
 resources:
-  MiriamLibre.zip:
-    urls:
-    - https://fonts.google.com/download?family=Miriam%20Libre
-    sha256: 22ad785426f7353fd501feecde77bc8b40c27aeb2fb5dc89ddb32cf2aa23e5d9
-    file_size: 67101
+  Miriam Libre:
+    source: google
+    family: Miriam Libre
+    files:
+    - https://fonts.gstatic.com/s/miriamlibre/v14/DdTh798HsHwubBAqfkcBTL_vYJn_Teun9g.ttf
+    - https://fonts.gstatic.com/s/miriamlibre/v14/DdT-798HsHwubBAqfkcBTL_X3LbbRcC7_-Z7Hg.ttf
 fonts:
 - name: Miriam Libre
   styles:
-  - family_name: Miriam Libre
-    type: Regular
-    full_name: Miriam Libre Regular
-    post_script_name: MiriamLibre-Regular
-    version: '1.001'
-    copyright: Copyright 2016 Michal Sahar. All rights reserved.
-    font: MiriamLibre-Regular.ttf
   - family_name: Miriam Libre
     type: Bold
     full_name: Miriam Libre Bold
     post_script_name: MiriamLibre-Bold
     version: '1.001'
     copyright: Copyright 2016 Michal Sahar. All rights reserved.
-    font: MiriamLibre-Bold.ttf
-extract:
-  format: zip
+    font: DdT-798HsHwubBAqfkcBTL_X3LbbRcC7_-Z7Hg.ttf
+  - family_name: Miriam Libre
+    type: Regular
+    full_name: Miriam Libre Regular
+    post_script_name: MiriamLibre-Regular
+    version: '1.001'
+    copyright: Copyright 2016 Michal Sahar. All rights reserved.
+    font: DdTh798HsHwubBAqfkcBTL_vYJn_Teun9g.ttf
+extract: {}
 copyright: Copyright 2016 Michal Sahar. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -122,3 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

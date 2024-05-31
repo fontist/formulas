@@ -1,11 +1,16 @@
 ---
+name: Noto Sans Sora Sompeng
 description: Noto Sans Sora Sompeng
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Sora_Sompeng.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Sora%20Sompeng
-    file_size: 134603
+  Noto Sans Sora Sompeng:
+    source: google
+    family: Noto Sans Sora Sompeng
+    files:
+    - https://fonts.gstatic.com/s/notosanssorasompeng/v24/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHR818DpZXJQd4Mu.ttf
+    - https://fonts.gstatic.com/s/notosanssorasompeng/v24/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHRO18DpZXJQd4Mu.ttf
+    - https://fonts.gstatic.com/s/notosanssorasompeng/v24/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHSi0MDpZXJQd4Mu.ttf
+    - https://fonts.gstatic.com/s/notosanssorasompeng/v24/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHSb0MDpZXJQd4Mu.ttf
 fonts:
 - name: Noto Sans Sora Sompeng
   styles:
@@ -16,7 +21,7 @@ fonts:
     version: '2.101'
     description: Designed by Monotype design team. David Williams.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sora-sompeng)
-    font: NotoSansSoraSompeng-Bold.ttf
+    font: PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHSb0MDpZXJQd4Mu.ttf
   - family_name: Noto Sans Sora Sompeng
     type: Regular
     full_name: Noto Sans Sora Sompeng Regular
@@ -24,15 +29,7 @@ fonts:
     version: '2.101'
     description: Designed by Monotype design team. David Williams.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sora-sompeng)
-    font: NotoSansSoraSompeng-VariableFont_wght.ttf
-  - family_name: Noto Sans Sora Sompeng
-    type: Regular
-    full_name: Noto Sans Sora Sompeng Regular
-    post_script_name: NotoSansSoraSompeng-Regular
-    version: '2.101'
-    description: Designed by Monotype design team. David Williams.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sora-sompeng)
-    font: NotoSansSoraSompeng-Regular.ttf
+    font: PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHR818DpZXJQd4Mu.ttf
 - name: Noto Sans Sora Sompeng Medium
   styles:
   - family_name: Noto Sans Sora Sompeng Medium
@@ -44,7 +41,7 @@ fonts:
     version: '2.101'
     description: Designed by Monotype design team. David Williams.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sora-sompeng)
-    font: NotoSansSoraSompeng-Medium.ttf
+    font: PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHRO18DpZXJQd4Mu.ttf
 - name: Noto Sans Sora Sompeng SemiBold
   styles:
   - family_name: Noto Sans Sora Sompeng SemiBold
@@ -56,7 +53,7 @@ fonts:
     version: '2.101'
     description: Designed by Monotype design team. David Williams.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sora-sompeng)
-    font: NotoSansSoraSompeng-SemiBold.ttf
+    font: PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHSi0MDpZXJQd4Mu.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sora-sompeng)
 license_url: https://scripts.sil.org/OFL
@@ -65,7 +62,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -154,5 +151,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 2b7457aa0e6937a6dedc1d3d56e5c910b01d326af43926c08ef49778d0941678
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

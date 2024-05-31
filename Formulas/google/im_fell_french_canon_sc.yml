@@ -3,16 +3,17 @@ name: IM Fell French Canon SC
 description: IM Fell French Canon SC
 homepage: www.iginomarini.com
 resources:
-  IMFellFrenchCanonSC.zip:
-    urls:
-    - https://fonts.google.com/download?family=IM%20Fell%20French%20Canon%20SC
-    sha256: b9d8d025490a6fe4d06a58e7e1c561b0e61c9890c6977d7893c841c5369b1f15
-    file_size: 78277
+  IM Fell French Canon SC:
+    source: google
+    family: IM Fell French Canon SC
+    files:
+    - https://fonts.gstatic.com/s/imfellfrenchcanonsc/v22/FBVmdCru5-ifcor2bgq9V89khWcmQghEURY7H3c0UBCVIVqH.ttf
 fonts:
-- name: IM Fell French Canon SC
+- name: IM FELL French Canon SC
   styles:
   - family_name: IM FELL French Canon SC
     type: Regular
+    preferred_family_name: IM FELL French Canon SC
     full_name: IM FELL French Canon SC
     post_script_name: IM_FELL_French_Canon_SC
     version: '3.00'
@@ -23,11 +24,10 @@ fonts:
       Marini.
     copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name
       IM FELL French Canon SC"
-    font: IMFeFCsc28P.ttf
-extract:
-  format: zip
-copyright: "© 2007 Igino Marini (www.iginomarini.com mail@iginomarini.com) With Reserved
-  Font Name IM FELL French Canon SC"
+    font: FBVmdCru5-ifcor2bgq9V89khWcmQghEURY7H3c0UBCVIVqH.ttf
+extract: {}
+copyright: "© 2007 Igino Marini (www.iginomarini.com) With Reserved Font Name IM FELL
+  French Canon SC"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Igino Marini (mail@iginomarini.com)
@@ -123,3 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

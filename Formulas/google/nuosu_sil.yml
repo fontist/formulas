@@ -1,12 +1,13 @@
 ---
+name: Nuosu SIL
 description: Nuosu SIL
 homepage: https://www.sil.org/
 resources:
-  Nuosu_SIL.zip:
-    urls:
-    - https://fonts.google.com/download?family=Nuosu%20SIL
-    sha256: ec77a0aadbae96dcb5865f7df05d9d8d4768a45c8c14552508f21950e6fff0c9
-    file_size: 135016
+  Nuosu SIL:
+    source: google
+    family: Nuosu SIL
+    files:
+    - https://fonts.gstatic.com/s/nuosusil/v10/8vIK7wM3wmRn_kc4uAjeFGxbO_zo-w.ttf
 fonts:
 - name: Nuosu SIL
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: '2.300'
     description: Yi script font
     copyright: Copyright (c) 1999-2022 SIL International
-    font: NuosuSIL-Regular.ttf
+    font: 8vIK7wM3wmRn_kc4uAjeFGxbO_zo-w.ttf
 extract: {}
 copyright: Copyright (c) 1999-2022 SIL International
 license_url: https://scripts.sil.org/OFL
@@ -116,5 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: f09ecb18631c406a83202ebf7005999628f6b0dbbfca20ab9a71203884227fac
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

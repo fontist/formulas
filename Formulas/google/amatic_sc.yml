@@ -3,30 +3,30 @@ name: Amatic SC
 description: Amatic SC
 homepage: http://www.sansoxygen.com
 resources:
-  AmaticSC.zip:
-    urls:
-    - https://fonts.google.com/download?family=Amatic%20SC
-    sha256: 41537030438d50e42bc9308ad0bf2cd2d5258c02c864e8a56789aa785e314724
-    file_size: 162947
+  Amatic SC:
+    source: google
+    family: Amatic SC
+    files:
+    - https://fonts.gstatic.com/s/amaticsc/v26/TUZyzwprpvBS1izr_vO0De6ecZQf1A.ttf
+    - https://fonts.gstatic.com/s/amaticsc/v26/TUZ3zwprpvBS1izr_vOMscG6eb8D3WTy-A.ttf
 fonts:
 - name: Amatic SC
   styles:
-  - family_name: Amatic SC
-    type: Regular
-    full_name: Amatic SC Regular
-    post_script_name: AmaticSC-Regular
-    version: '2.505'
-    copyright: Copyright 2015 The Amatic SC Project Authors (https://github.com/googlefonts/AmaticSC)
-    font: AmaticSC-Regular.ttf
   - family_name: Amatic SC
     type: Bold
     full_name: Amatic SC Bold
     post_script_name: AmaticSC-Bold
     version: '2.505'
     copyright: Copyright 2015 The Amatic SC Project Authors (https://github.com/googlefonts/AmaticSC)
-    font: AmaticSC-Bold.ttf
-extract:
-  format: zip
+    font: TUZ3zwprpvBS1izr_vOMscG6eb8D3WTy-A.ttf
+  - family_name: Amatic SC
+    type: Regular
+    full_name: Amatic SC Regular
+    post_script_name: AmaticSC-Regular
+    version: '2.505'
+    copyright: Copyright 2015 The Amatic SC Project Authors (https://github.com/googlefonts/AmaticSC)
+    font: TUZyzwprpvBS1izr_vO0De6ecZQf1A.ttf
+extract: {}
 copyright: Copyright 2015 The Amatic SC Project Authors (https://github.com/googlefonts/AmaticSC)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -123,3 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

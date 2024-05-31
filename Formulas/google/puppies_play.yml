@@ -3,11 +3,11 @@ name: Puppies Play
 description: Puppies Play
 homepage: www.typesetit.com
 resources:
-  Puppies_Play.zip:
-    urls:
-    - https://fonts.google.com/download?family=Puppies%20Play
-    sha256: 3f85364695c2f09d2becf9be75bf8beabccfc670b0a8c1fe131ffb46f3521117
-    file_size: 76149
+  Puppies Play:
+    source: google
+    family: Puppies Play
+    files:
+    - https://fonts.gstatic.com/s/puppiesplay/v9/wlp2gwHZEV99rG6M3NR9uB9vaAJSA_JN3Q.ttf
 fonts:
 - name: Puppies Play
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: PuppiesPlay-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2009-2021 The Puppies Play Project Authors (https://github.com/googlefonts/puppies-play)
-    font: PuppiesPlay-Regular.ttf
+    font: wlp2gwHZEV99rG6M3NR9uB9vaAJSA_JN3Q.ttf
 extract: {}
 copyright: Copyright 2009-2021 The Puppies Play Project Authors (https://github.com/googlefonts/puppies-play)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b4ea4e8d7f5c62285e19a286b2401c6857395e29646831ea2184acdb52cbf89a
-command: google import --formulas_path Formulas
+command: import google -n 9999

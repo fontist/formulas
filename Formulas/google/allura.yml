@@ -1,12 +1,13 @@
 ---
+name: Allura
 description: Allura
 homepage: www.typesetit.com
 resources:
-  Allura.zip:
-    urls:
-    - https://fonts.google.com/download?family=Allura
-    sha256: c909e4dbcac5a1a24093e1fc1d861bfcbe01e9d867162cc5b747fe3b494eeee4
-    file_size: 110483
+  Allura:
+    source: google
+    family: Allura
+    files:
+    - https://fonts.gstatic.com/s/allura/v21/9oRPNYsQpS4zjuAPjAIXPtrrGA.ttf
 fonts:
 - name: Allura
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: Allura-Regular
     version: '1.110'
     copyright: Copyright 2010 The Allura Project Authors (https://github.com/googlefonts/allura)
-    font: Allura-Regular.ttf
+    font: 9oRPNYsQpS4zjuAPjAIXPtrrGA.ttf
 extract: {}
 copyright: Copyright 2010 The Allura Project Authors (https://github.com/googlefonts/allura)
 license_url: https://scripts.sil.org/OFL
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: c0ade6d61359bbcbfa9d4dcdfc4a0b2f1327e117e1a32559cbe75c52ae5d2ff4
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

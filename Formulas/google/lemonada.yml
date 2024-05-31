@@ -3,10 +3,15 @@ name: Lemonada
 description: Lemonada
 homepage: http://kieftype.com/
 resources:
-  Lemonada.zip:
-    urls:
-    - https://fonts.google.com/download?family=Lemonada
-    file_size: 334930
+  Lemonada:
+    source: google
+    family: Lemonada
+    files:
+    - https://fonts.gstatic.com/s/lemonada/v28/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGJOt2mfWc3Z2pTg.ttf
+    - https://fonts.gstatic.com/s/lemonada/v28/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGeut2mfWc3Z2pTg.ttf
+    - https://fonts.gstatic.com/s/lemonada/v28/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGSOt2mfWc3Z2pTg.ttf
+    - https://fonts.gstatic.com/s/lemonada/v28/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGpOx2mfWc3Z2pTg.ttf
+    - https://fonts.gstatic.com/s/lemonada/v28/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGnex2mfWc3Z2pTg.ttf
 fonts:
 - name: Lemonada
   styles:
@@ -14,23 +19,16 @@ fonts:
     type: Bold
     full_name: Lemonada Bold
     post_script_name: Lemonada-Bold
-    version: 4.004; ttfautohint (v1.8.2)
+    version: '4.005'
     copyright: Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)
-    font: Lemonada-Bold.ttf
+    font: 0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGnex2mfWc3Z2pTg.ttf
   - family_name: Lemonada
     type: Regular
     full_name: Lemonada Regular
     post_script_name: Lemonada-Regular
-    version: 4.004; ttfautohint (v1.8.2)
+    version: '4.005'
     copyright: Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)
-    font: Lemonada-VariableFont_wght.ttf
-  - family_name: Lemonada
-    type: Regular
-    full_name: Lemonada Regular
-    post_script_name: Lemonada-Regular
-    version: 4.004; ttfautohint (v1.8.2)
-    copyright: Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)
-    font: Lemonada-Regular.ttf
+    font: 0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGeut2mfWc3Z2pTg.ttf
 - name: Lemonada Light
   styles:
   - family_name: Lemonada Light
@@ -39,9 +37,9 @@ fonts:
     preferred_type: Light
     full_name: Lemonada Light
     post_script_name: Lemonada-Light
-    version: 4.004; ttfautohint (v1.8.2)
+    version: '4.005'
     copyright: Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)
-    font: Lemonada-Light.ttf
+    font: 0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGJOt2mfWc3Z2pTg.ttf
 - name: Lemonada Medium
   styles:
   - family_name: Lemonada Medium
@@ -50,9 +48,9 @@ fonts:
     preferred_type: Medium
     full_name: Lemonada Medium
     post_script_name: Lemonada-Medium
-    version: 4.004; ttfautohint (v1.8.2)
+    version: '4.005'
     copyright: Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)
-    font: Lemonada-Medium.ttf
+    font: 0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGSOt2mfWc3Z2pTg.ttf
 - name: Lemonada SemiBold
   styles:
   - family_name: Lemonada SemiBold
@@ -61,14 +59,14 @@ fonts:
     preferred_type: SemiBold
     full_name: Lemonada SemiBold
     post_script_name: Lemonada-SemiBold
-    version: 4.004; ttfautohint (v1.8.2)
+    version: '4.005'
     copyright: Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)
-    font: Lemonada-SemiBold.ttf
+    font: 0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGpOx2mfWc3Z2pTg.ttf
 extract: {}
 copyright: Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2015 The Lemonada Project Authors (gaber@gaberism.net)
+  Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -161,5 +159,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9a951d06f43a4a0b5683b76f328ceb91fa8635f4ba6fce156a224fc2b37e2a61
-command: google import --formulas_path Formulas
+command: import google -n 9999

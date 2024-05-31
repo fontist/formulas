@@ -3,11 +3,11 @@ name: MonteCarlo
 description: MonteCarlo
 homepage: http://www.typesetit.com
 resources:
-  MonteCarlo.zip:
-    urls:
-    - https://fonts.google.com/download?family=MonteCarlo
-    sha256: 9ed66f5b453cdb7008651ea1491b34cd594c0d734f2183ce8764b1bc3cd76a51
-    file_size: 206563
+  MonteCarlo:
+    source: google
+    family: MonteCarlo
+    files:
+    - https://fonts.gstatic.com/s/montecarlo/v11/buEzpo6-f9X01GadLA0G0CoV_NxLeiw.ttf
 fonts:
 - name: MonteCarlo
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: MonteCarlo-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2011 The MonteCarlo Project Authors (https://github.com/googlefonts/monte-carlo)
-    font: MonteCarlo-Regular.ttf
+    font: buEzpo6-f9X01GadLA0G0CoV_NxLeiw.ttf
 extract: {}
 copyright: Copyright 2011 The MonteCarlo Project Authors (https://github.com/googlefonts/monte-carlo)
 license_url: https://scripts.sil.org/OFL
@@ -26,8 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
-
+  https://scripts.sil.org/OFL
 
   -----------------------------------------------------------
   SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
@@ -115,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 12d48d11736534b5f8d25aa9715136654cc262ce49e424f86b06922dc5b4c482
-command: google import --formulas_path Formulas
+command: import google -n 9999

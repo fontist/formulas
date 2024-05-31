@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Zanabazar Square
 description: Noto Sans Zanabazar Square
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Zanabazar_Square.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Zanabazar%20Square
-    sha256: 8c5ec0711311056054b12fdc583a2b55306b999e923992027c80800878e50a7e
-    file_size: 37525
+  Noto Sans Zanabazar Square:
+    source: google
+    family: Noto Sans Zanabazar Square
+    files:
+    - https://fonts.gstatic.com/s/notosanszanabazarsquare/v19/Cn-jJsuGWQxOjaGwMQ6fOicyxLBEMRfDtkzl4uagQtJxOCEgN0Gc.ttf
 fonts:
 - name: Noto Sans Zanabazar Square
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.006; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/zanabazar-square)
-    font: NotoSansZanabazarSquare-Regular.ttf
+    font: Cn-jJsuGWQxOjaGwMQ6fOicyxLBEMRfDtkzl4uagQtJxOCEgN0Gc.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/zanabazar-square)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 2ef761e9c887910da5ad57b8fa1801f996fe8970a3fa1c4aecdda271b27de759
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

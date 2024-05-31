@@ -1,12 +1,13 @@
 ---
+name: Coming Soon
 description: Coming Soon
 homepage: http://www.fontbros.com/openwindow.php
 resources:
-  ComingSoon.zip:
-    urls:
-    - https://fonts.google.com/download?family=Coming%20Soon
-    sha256: 1749a16a91b2128301a4b7ef8eabfea6c41a2049e7b3fb00b8d453c00b40c4d9
-    file_size: 31427
+  Coming Soon:
+    source: google
+    family: Coming Soon
+    files:
+    - https://fonts.gstatic.com/s/comingsoon/v19/qWcuB6mzpYL7AJ2VfdQR1u-SUjjzsykh.ttf
 fonts:
 - name: Coming Soon
   styles:
@@ -16,13 +17,12 @@ fonts:
     post_script_name: ComingSoon-Regular
     version: '1.002'
     copyright: Copyright (c) 2010 by Open Window. All rights reserved.
-    font: ComingSoon-Regular.ttf
-extract:
-  format: zip
+    font: qWcuB6mzpYL7AJ2VfdQR1u-SUjjzsykh.ttf
+extract: {}
 copyright: Copyright (c) 2010 by Open Window. All rights reserved.
 license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |2-
-                                   Apache License
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -223,3 +223,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999

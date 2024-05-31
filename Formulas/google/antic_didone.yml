@@ -1,12 +1,12 @@
 ---
+name: Antic Didone
 description: Antic Didone
-homepage:
 resources:
-  AnticDidone.zip:
-    urls:
-    - https://fonts.google.com/download?family=Antic%20Didone
-    sha256: 9c139c7a6423999ac3159ed80d13cd7cb9411699fd3e9f5e76b521b474b0b737
-    file_size: 20470
+  Antic Didone:
+    source: google
+    family: Antic Didone
+    files:
+    - https://fonts.gstatic.com/s/anticdidone/v16/RWmPoKKX6u8sp8fIWdnDKqDiqYsGBGBzCw.ttf
 fonts:
 - name: Antic Didone
   styles:
@@ -17,9 +17,8 @@ fonts:
     version: '2.001'
     copyright: Copyright (c) 2011, Santiago Orozco (hi@typemade.mx), with Reserved
       Font Name Antic Didone.
-    font: AnticDidone-Regular.ttf
-extract:
-  format: zip
+    font: RWmPoKKX6u8sp8fIWdnDKqDiqYsGBGBzCw.ttf
+extract: {}
 copyright: Copyright (c) 2011, Santiago Orozco (hi@typemade.mx), with Reserved Font
   Name Antic Didone.
 license_url: http://scripts.sil.org/OFL
@@ -117,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

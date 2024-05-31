@@ -3,11 +3,11 @@ name: Grey Qo
 description: Grey Qo
 homepage: www.typesetit.com
 resources:
-  Grey_Qo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Grey%20Qo
-    sha256: ae5691f780c0e2a987ed54a38f2b8eaf0bbbdab7b1af7084849860c99985230b
-    file_size: 51999
+  Grey Qo:
+    source: google
+    family: Grey Qo
+    files:
+    - https://fonts.gstatic.com/s/greyqo/v9/BXRrvF_Nmv_TyXxNDOtQ9Wf0QcE.ttf
 fonts:
 - name: Grey Qo
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: GreyQo-Regular
     version: '2.010'
     copyright: Copyright 2008-2021 The Grey Qo Project Authors (https://github.com/googlefonts/grey-qo)
-    font: GreyQo-Regular.ttf
+    font: BXRrvF_Nmv_TyXxNDOtQ9Wf0QcE.ttf
 extract: {}
 copyright: Copyright 2008-2021 The Grey Qo Project Authors (https://github.com/googlefonts/grey-qo)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ed33b459a7c63a7a187b18448cd009846283f0bf2fe4029755dbb3d2cc5d6512
-command: google import --formulas_path Formulas
+command: import google -n 9999

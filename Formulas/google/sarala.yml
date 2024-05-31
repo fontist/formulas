@@ -3,23 +3,15 @@ name: Sarala
 description: Sarala
 homepage: http://www.huertatipografica.com
 resources:
-  Sarala.zip:
-    urls:
-    - https://fonts.google.com/download?family=Sarala
-    sha256: 6dd6f7a9d29bc1bac0964b569bad745073743fd698376bb9b9d3186c43d42f05
-    file_size: 174822
+  Sarala:
+    source: google
+    family: Sarala
+    files:
+    - https://fonts.gstatic.com/s/sarala/v12/uK_y4riEZv4o1w9RCh0TMv6EXw.ttf
+    - https://fonts.gstatic.com/s/sarala/v12/uK_x4riEZv4o1w9ptjI3OtWYVkMpXA.ttf
 fonts:
 - name: Sarala
   styles:
-  - family_name: Sarala
-    type: Regular
-    full_name: Sarala
-    post_script_name: Sarala-Regular
-    version: 1.004;PS 001.003;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT; ttfautohint
-      (v1.00) -l 8 -r 50 -G 200 -x 14 -D latn -f none -w G
-    description: Humanist sans serif font for print and web with Devanagari support.
-    copyright: Copyright 2015 by Andres Torresi. All rights reserved.
-    font: Sarala-Regular.ttf
   - family_name: Sarala
     type: Bold
     full_name: Sarala Bold
@@ -28,9 +20,17 @@ fonts:
       (v1.00) -l 8 -r 50 -G 200 -x 14 -D latn -f none -w G
     description: Humanist sans serif font for print and web with Devanagari support.
     copyright: Copyright 2015 by Andres Torresi. All rights reserved.
-    font: Sarala-Bold.ttf
-extract:
-  format: zip
+    font: uK_x4riEZv4o1w9ptjI3OtWYVkMpXA.ttf
+  - family_name: Sarala
+    type: Regular
+    full_name: Sarala
+    post_script_name: Sarala-Regular
+    version: 1.004;PS 001.003;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT; ttfautohint
+      (v1.00) -l 8 -r 50 -G 200 -x 14 -D latn -f none -w G
+    description: Humanist sans serif font for print and web with Devanagari support.
+    copyright: Copyright 2015 by Andres Torresi. All rights reserved.
+    font: uK_y4riEZv4o1w9RCh0TMv6EXw.ttf
+extract: {}
 copyright: Copyright 2015 by Andres Torresi. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -127,3 +127,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

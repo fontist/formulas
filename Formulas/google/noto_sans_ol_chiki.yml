@@ -1,11 +1,16 @@
 ---
+name: Noto Sans Ol Chiki
 description: Noto Sans Ol Chiki
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Ol_Chiki.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Ol%20Chiki
-    file_size: 149553
+  Noto Sans Ol Chiki:
+    source: google
+    family: Noto Sans Ol Chiki
+    files:
+    - https://fonts.gstatic.com/s/notosansolchiki/v29/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALWk267I6gVrz5gQ.ttf
+    - https://fonts.gstatic.com/s/notosansolchiki/v29/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALVs267I6gVrz5gQ.ttf
+    - https://fonts.gstatic.com/s/notosansolchiki/v29/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALbcx67I6gVrz5gQ.ttf
+    - https://fonts.gstatic.com/s/notosansolchiki/v29/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALY4x67I6gVrz5gQ.ttf
 fonts:
 - name: Noto Sans Ol Chiki
   styles:
@@ -16,7 +21,7 @@ fonts:
     version: '2.003'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/ol-chiki)
-    font: NotoSansOlChiki-Bold.ttf
+    font: N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALY4x67I6gVrz5gQ.ttf
   - family_name: Noto Sans Ol Chiki
     type: Regular
     full_name: Noto Sans Ol Chiki Regular
@@ -24,15 +29,7 @@ fonts:
     version: '2.003'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/ol-chiki)
-    font: NotoSansOlChiki-VariableFont_wght.ttf
-  - family_name: Noto Sans Ol Chiki
-    type: Regular
-    full_name: Noto Sans Ol Chiki Regular
-    post_script_name: NotoSansOlChiki-Regular
-    version: '2.003'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/ol-chiki)
-    font: NotoSansOlChiki-Regular.ttf
+    font: N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALWk267I6gVrz5gQ.ttf
 - name: Noto Sans Ol Chiki Medium
   styles:
   - family_name: Noto Sans Ol Chiki Medium
@@ -44,7 +41,7 @@ fonts:
     version: '2.003'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/ol-chiki)
-    font: NotoSansOlChiki-Medium.ttf
+    font: N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALVs267I6gVrz5gQ.ttf
 - name: Noto Sans Ol Chiki SemiBold
   styles:
   - family_name: Noto Sans Ol Chiki SemiBold
@@ -56,7 +53,7 @@ fonts:
     version: '2.003'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/ol-chiki)
-    font: NotoSansOlChiki-SemiBold.ttf
+    font: N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALbcx67I6gVrz5gQ.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/ol-chiki)
 license_url: https://scripts.sil.org/OFL
@@ -65,7 +62,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -154,5 +151,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 00a1202f05b76fbf5c5e2f8d566baa647e96ed921d7dd1e7fc601b12af9a7a67
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

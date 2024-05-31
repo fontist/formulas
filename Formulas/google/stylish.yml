@@ -3,11 +3,11 @@ name: Stylish
 description: Stylish
 homepage: http://www.asiafont.com
 resources:
-  Stylish.zip:
-    urls:
-    - https://fonts.google.com/download?family=Stylish
-    sha256: d161fc9e213d7ce0481fb7f3b14de77b98752f8d0e0d9d7e731713c9fc6aedf6
-    file_size: 2763875
+  Stylish:
+    source: google
+    family: Stylish
+    files:
+    - https://fonts.gstatic.com/s/stylish/v22/m8JSjfhPYriQkk7-fo35dLxEdmo.ttf
 fonts:
 - name: Stylish
   styles:
@@ -17,9 +17,8 @@ fonts:
     post_script_name: Stylish-Regular
     version: '1.64'
     copyright: Copyright (c) 1992-2018 AsiaSoft Inc. Seoul Korea All Rights Reserved.
-    font: Stylish-Regular.ttf
-extract:
-  format: zip
+    font: m8JSjfhPYriQkk7-fo35dLxEdmo.ttf
+extract: {}
 copyright: Copyright (c) 1992-2018 AsiaSoft Inc. Seoul Korea All Rights Reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

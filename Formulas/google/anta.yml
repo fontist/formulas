@@ -1,12 +1,13 @@
 ---
+name: Anta
 description: Anta
 homepage: https://typedesigner.de
 resources:
-  Anta.zip:
-    urls:
-    - https://fonts.google.com/download?family=Anta
-    sha256: 533f668b8feb46ecacb5437bcd2527253148415fbfd5bd8c2b83a8f2c53cb413
-    file_size: 33437
+  Anta:
+    source: google
+    family: Anta
+    files:
+    - https://fonts.gstatic.com/s/anta/v1/gyBzhwQ3KsIyZFwxPFimIo0.ttf
 fonts:
 - name: Anta
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: Anta-Regular
     version: 1.000; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2019 The Anta Project Authors (https://github.com/Typedesigners/Anta-Regular)
-    font: Anta-Regular.ttf
+    font: gyBzhwQ3KsIyZFwxPFimIo0.ttf
 extract: {}
 copyright: Copyright 2019 The Anta Project Authors (https://github.com/Typedesigners/Anta-Regular)
 license_url: https://openfontlicense.org
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 0e3308d112e081f741b0ffa245b598e0f8466a145f85160c2099f3698b949d3a
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

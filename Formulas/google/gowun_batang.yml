@@ -3,11 +3,12 @@ name: Gowun Batang
 description: Gowun Batang
 homepage: http://www.ryufont.com/
 resources:
-  Gowun_Batang.zip:
-    urls:
-    - https://fonts.google.com/download?family=Gowun%20Batang
-    sha256: 63b53ed24bb538b55893e08a1cd21d2c93c8d439758d8da9a02d5454f06fb789
-    file_size: 3429240
+  Gowun Batang:
+    source: google
+    family: Gowun Batang
+    files:
+    - https://fonts.gstatic.com/s/gowunbatang/v7/ijwSs5nhRMIjYsdSgcMa3wRhXLH-yuAtLw.ttf
+    - https://fonts.gstatic.com/s/gowunbatang/v7/ijwNs5nhRMIjYsdSgcMa3wRZ4J7awssxJii23w.ttf
 fonts:
 - name: Gowun Batang
   styles:
@@ -17,19 +18,20 @@ fonts:
     post_script_name: GowunBatang-Bold
     version: '2.000'
     copyright: Copyright 2021 The Gowun Batang Project Authors (https://github.com/yangheeryu/Gowun-Batang)
-    font: GowunBatang-Bold.ttf
+    font: ijwNs5nhRMIjYsdSgcMa3wRZ4J7awssxJii23w.ttf
   - family_name: Gowun Batang
     type: Regular
     full_name: Gowun Batang Regular
     post_script_name: GowunBatang-Regular
     version: '2.000'
     copyright: Copyright 2021 The Gowun Batang Project Authors (https://github.com/yangheeryu/Gowun-Batang)
-    font: GowunBatang-Regular.ttf
+    font: ijwSs5nhRMIjYsdSgcMa3wRhXLH-yuAtLw.ttf
 extract: {}
 copyright: Copyright 2021 The Gowun Batang Project Authors (https://github.com/yangheeryu/Gowun-Batang)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
   Copyright 2021 The Gowun Batang Project Authors (https://github.com/yangheeryu/Gowun-Batang)
+
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -122,5 +124,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: dcbbf9ef92e070bc7b8cfc3d8b5328a348d8eb689bda75f79741ef03e5ef70c9
-command: google import --formulas_path Formulas
+command: import google -n 9999

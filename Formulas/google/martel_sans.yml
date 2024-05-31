@@ -1,47 +1,22 @@
 ---
+name: Martel Sans
 description: Martel Sans
 homepage: http://www.typeoff.de
 resources:
-  MartelSans.zip:
-    urls:
-    - https://fonts.google.com/download?family=Martel%20Sans
-    sha256: 7d3e91bc464596a04ec7e90858a9e8fa70466a1d284aee0ed9b603d11c0cd61e
-    file_size: 526919
+  Martel Sans:
+    source: google
+    family: Martel Sans
+    files:
+    - https://fonts.gstatic.com/s/martelsans/v13/h0GxssGi7VdzDgKjM-4d8hAX5suHFUknqMxQ.ttf
+    - https://fonts.gstatic.com/s/martelsans/v13/h0GxssGi7VdzDgKjM-4d8hBz5cuHFUknqMxQ.ttf
+    - https://fonts.gstatic.com/s/martelsans/v13/h0GsssGi7VdzDgKjM-4d8ijfze-PPlUu.ttf
+    - https://fonts.gstatic.com/s/martelsans/v13/h0GxssGi7VdzDgKjM-4d8hAH48uHFUknqMxQ.ttf
+    - https://fonts.gstatic.com/s/martelsans/v13/h0GxssGi7VdzDgKjM-4d8hBj4suHFUknqMxQ.ttf
+    - https://fonts.gstatic.com/s/martelsans/v13/h0GxssGi7VdzDgKjM-4d8hB_4cuHFUknqMxQ.ttf
+    - https://fonts.gstatic.com/s/martelsans/v13/h0GxssGi7VdzDgKjM-4d8hBb4MuHFUknqMxQ.ttf
 fonts:
 - name: Martel Sans
   styles:
-  - family_name: Martel Sans
-    type: ExtraLight
-    full_name: Martel Sans ExtraLight
-    post_script_name: MartelSans-ExtraLight
-    version: 1.002; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
-      -W -c
-    copyright: Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Réguer.
-    font: MartelSans-ExtraLight.ttf
-  - family_name: Martel Sans
-    type: Light
-    full_name: Martel Sans Light
-    post_script_name: MartelSans-Light
-    version: 1.002; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
-      -W -c
-    copyright: Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Réguer.
-    font: MartelSans-Light.ttf
-  - family_name: Martel Sans
-    type: Regular
-    full_name: Martel Sans Regular
-    post_script_name: MartelSans-Regular
-    version: 1.002; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
-      -W -c
-    copyright: Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Réguer.
-    font: MartelSans-Regular.ttf
-  - family_name: Martel Sans
-    type: SemiBold
-    full_name: Martel Sans SemiBold
-    post_script_name: MartelSans-SemiBold
-    version: 1.002; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
-      -W -c
-    copyright: Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Réguer.
-    font: MartelSans-SemiBold.ttf
   - family_name: Martel Sans
     type: Bold
     full_name: Martel Sans Bold
@@ -49,26 +24,77 @@ fonts:
     version: 1.002; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
       -W -c
     copyright: Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Réguer.
-    font: MartelSans-Bold.ttf
+    font: h0GxssGi7VdzDgKjM-4d8hBj4suHFUknqMxQ.ttf
   - family_name: Martel Sans
-    type: ExtraBold
-    full_name: Martel Sans ExtraBold
-    post_script_name: MartelSans-ExtraBold
+    type: Regular
+    full_name: Martel Sans Regular
+    post_script_name: MartelSans-Regular
     version: 1.002; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
       -W -c
     copyright: Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Réguer.
-    font: MartelSans-ExtraBold.ttf
-  - family_name: Martel Sans
-    type: Black
+    font: h0GsssGi7VdzDgKjM-4d8ijfze-PPlUu.ttf
+- name: Martel Sans Black
+  styles:
+  - family_name: Martel Sans Black
+    type: Regular
+    preferred_family_name: Martel Sans
+    preferred_type: Black
     full_name: Martel Sans Black
     post_script_name: MartelSans-Black
     version: 1.002; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
       -W -c
     copyright: Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Réguer.
-    font: MartelSans-Black.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Rguer.
+    font: h0GxssGi7VdzDgKjM-4d8hBb4MuHFUknqMxQ.ttf
+- name: Martel Sans ExtraBold
+  styles:
+  - family_name: Martel Sans ExtraBold
+    type: Regular
+    preferred_family_name: Martel Sans
+    preferred_type: ExtraBold
+    full_name: Martel Sans ExtraBold
+    post_script_name: MartelSans-ExtraBold
+    version: 1.002; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
+      -W -c
+    copyright: Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Réguer.
+    font: h0GxssGi7VdzDgKjM-4d8hB_4cuHFUknqMxQ.ttf
+- name: Martel Sans ExtraLight
+  styles:
+  - family_name: Martel Sans ExtraLight
+    type: Regular
+    preferred_family_name: Martel Sans
+    preferred_type: ExtraLight
+    full_name: Martel Sans ExtraLight
+    post_script_name: MartelSans-ExtraLight
+    version: 1.002; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
+      -W -c
+    copyright: Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Réguer.
+    font: h0GxssGi7VdzDgKjM-4d8hAX5suHFUknqMxQ.ttf
+- name: Martel Sans Light
+  styles:
+  - family_name: Martel Sans Light
+    type: Regular
+    preferred_family_name: Martel Sans
+    preferred_type: Light
+    full_name: Martel Sans Light
+    post_script_name: MartelSans-Light
+    version: 1.002; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
+      -W -c
+    copyright: Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Réguer.
+    font: h0GxssGi7VdzDgKjM-4d8hBz5cuHFUknqMxQ.ttf
+- name: Martel Sans SemiBold
+  styles:
+  - family_name: Martel Sans SemiBold
+    type: Regular
+    preferred_family_name: Martel Sans
+    preferred_type: SemiBold
+    full_name: Martel Sans SemiBold
+    post_script_name: MartelSans-SemiBold
+    version: 1.002; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
+      -W -c
+    copyright: Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Réguer.
+    font: h0GxssGi7VdzDgKjM-4d8hAH48uHFUknqMxQ.ttf
+extract: {}
+copyright: Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Réguer.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2014 Dan Reynolds. Copyright (c) 2014 Mathieu Réguer.
@@ -164,3 +190,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

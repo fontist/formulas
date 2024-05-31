@@ -3,46 +3,18 @@ name: Karma
 description: Karma
 homepage: http://www.indiantypefoundry.com
 resources:
-  Karma.zip:
-    urls:
-    - https://fonts.google.com/download?family=Karma
-    sha256: 0fa0e6c531a3a607596ff553a95e5abd6f50aafed0d66bf462396dc0005d5be3
-    file_size: 734840
+  Karma:
+    source: google
+    family: Karma
+    files:
+    - https://fonts.gstatic.com/s/karma/v16/va9F4kzAzMZRGLjDY8Z_uqzGQC_-.ttf
+    - https://fonts.gstatic.com/s/karma/v16/va9I4kzAzMZRGIBvS-J3kbDP.ttf
+    - https://fonts.gstatic.com/s/karma/v16/va9F4kzAzMZRGLibYsZ_uqzGQC_-.ttf
+    - https://fonts.gstatic.com/s/karma/v16/va9F4kzAzMZRGLi3ZcZ_uqzGQC_-.ttf
+    - https://fonts.gstatic.com/s/karma/v16/va9F4kzAzMZRGLjTZMZ_uqzGQC_-.ttf
 fonts:
 - name: Karma
   styles:
-  - family_name: Karma
-    type: Light
-    full_name: Karma Light
-    post_script_name: Karma-Light
-    version: 1.202;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
-      -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G
-    copyright: Copyright 2014 Indian Type Foundry. All rights reserved.
-    font: Karma-Light.ttf
-  - family_name: Karma
-    type: Regular
-    full_name: Karma Regular
-    post_script_name: Karma-Regular
-    version: 1.202;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
-      -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G
-    copyright: Copyright 2014 Indian Type Foundry. All rights reserved.
-    font: Karma-Regular.ttf
-  - family_name: Karma
-    type: Medium
-    full_name: Karma Medium
-    post_script_name: Karma-Medium
-    version: 1.202;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
-      -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G
-    copyright: Copyright 2014 Indian Type Foundry. All rights reserved.
-    font: Karma-Medium.ttf
-  - family_name: Karma
-    type: SemiBold
-    full_name: Karma SemiBold
-    post_script_name: Karma-SemiBold
-    version: 1.202;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
-      -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G
-    copyright: Copyright 2014 Indian Type Foundry. All rights reserved.
-    font: Karma-SemiBold.ttf
   - family_name: Karma
     type: Bold
     full_name: Karma Bold
@@ -50,9 +22,52 @@ fonts:
     version: 1.202;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
       -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G
     copyright: Copyright 2014 Indian Type Foundry. All rights reserved.
-    font: Karma-Bold.ttf
-extract:
-  format: zip
+    font: va9F4kzAzMZRGLjTZMZ_uqzGQC_-.ttf
+  - family_name: Karma
+    type: Regular
+    full_name: Karma Regular
+    post_script_name: Karma-Regular
+    version: 1.202;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
+      -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G
+    copyright: Copyright 2014 Indian Type Foundry. All rights reserved.
+    font: va9I4kzAzMZRGIBvS-J3kbDP.ttf
+- name: Karma Light
+  styles:
+  - family_name: Karma Light
+    type: Regular
+    preferred_family_name: Karma
+    preferred_type: Light
+    full_name: Karma Light
+    post_script_name: Karma-Light
+    version: 1.202;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
+      -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G
+    copyright: Copyright 2014 Indian Type Foundry. All rights reserved.
+    font: va9F4kzAzMZRGLjDY8Z_uqzGQC_-.ttf
+- name: Karma Medium
+  styles:
+  - family_name: Karma Medium
+    type: Regular
+    preferred_family_name: Karma
+    preferred_type: Medium
+    full_name: Karma Medium
+    post_script_name: Karma-Medium
+    version: 1.202;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
+      -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G
+    copyright: Copyright 2014 Indian Type Foundry. All rights reserved.
+    font: va9F4kzAzMZRGLibYsZ_uqzGQC_-.ttf
+- name: Karma SemiBold
+  styles:
+  - family_name: Karma SemiBold
+    type: Regular
+    preferred_family_name: Karma
+    preferred_type: SemiBold
+    full_name: Karma SemiBold
+    post_script_name: Karma-SemiBold
+    version: 1.202;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
+      -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G
+    copyright: Copyright 2014 Indian Type Foundry. All rights reserved.
+    font: va9F4kzAzMZRGLi3ZcZ_uqzGQC_-.ttf
+extract: {}
 copyright: Copyright 2014 Indian Type Foundry. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -149,3 +164,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

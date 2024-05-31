@@ -1,32 +1,18 @@
 ---
 name: Almendra
 description: Almendra
-homepage:
 resources:
-  Almendra.zip:
-    urls:
-    - https://fonts.google.com/download?family=Almendra
-    sha256: 706b102aaa9ec2d1b8d30262349a55ec5efcbe6d20f21cabbcdff76759f4fdd2
-    file_size: 75473
+  Almendra:
+    source: google
+    family: Almendra
+    files:
+    - https://fonts.gstatic.com/s/almendra/v26/H4ckBXKAlMnTn0CskyY6wr-wg763.ttf
+    - https://fonts.gstatic.com/s/almendra/v26/H4ciBXKAlMnTn0CskxY4yLuShq63czE.ttf
+    - https://fonts.gstatic.com/s/almendra/v26/H4cjBXKAlMnTn0Cskx6G7Zu4qKK-aihq.ttf
+    - https://fonts.gstatic.com/s/almendra/v26/H4chBXKAlMnTn0CskxY48Ae9oqacbzhqDtg.ttf
 fonts:
 - name: Almendra
   styles:
-  - family_name: Almendra
-    type: Regular
-    full_name: Almendra Regular
-    post_script_name: Almendra-Regular
-    version: '1.004'
-    copyright: Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with
-      Reserved Font Name 'Almendra'
-    font: Almendra-Regular.ttf
-  - family_name: Almendra
-    type: Italic
-    full_name: Almendra Italic
-    post_script_name: Almendra-Italic
-    version: '1.004'
-    copyright: Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with
-      Reserved Font Name 'Almendra'
-    font: Almendra-Italic.ttf
   - family_name: Almendra
     type: Bold
     full_name: Almendra Bold
@@ -34,7 +20,7 @@ fonts:
     version: '1.004'
     copyright: Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with
       Reserved Font Name 'Almendra'
-    font: Almendra-Bold.ttf
+    font: H4cjBXKAlMnTn0Cskx6G7Zu4qKK-aihq.ttf
   - family_name: Almendra
     type: Bold Italic
     full_name: Almendra Bold Italic
@@ -42,9 +28,24 @@ fonts:
     version: '1.004'
     copyright: Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with
       Reserved Font Name 'Almendra'
-    font: Almendra-BoldItalic.ttf
-extract:
-  format: zip
+    font: H4chBXKAlMnTn0CskxY48Ae9oqacbzhqDtg.ttf
+  - family_name: Almendra
+    type: Italic
+    full_name: Almendra Italic
+    post_script_name: Almendra-Italic
+    version: '1.004'
+    copyright: Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with
+      Reserved Font Name 'Almendra'
+    font: H4ciBXKAlMnTn0CskxY4yLuShq63czE.ttf
+  - family_name: Almendra
+    type: Regular
+    full_name: Almendra Regular
+    post_script_name: Almendra-Regular
+    version: '1.004'
+    copyright: Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with
+      Reserved Font Name 'Almendra'
+    font: H4ckBXKAlMnTn0CskyY6wr-wg763.ttf
+extract: {}
 copyright: Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved
   Font Name 'Almendra'
 license_url: http://scripts.sil.org/OFL
@@ -142,3 +143,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

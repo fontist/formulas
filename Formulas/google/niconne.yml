@@ -3,11 +3,11 @@ name: Niconne
 description: Niconne
 homepage: http://www.newtypography.co.uk
 resources:
-  Niconne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Niconne
-    sha256: 5a7519ad8a5b85ba12be4f7ea2fc8a755325b77e4f8ec5d9dfdb4bc5f6e30d66
-    file_size: 24966
+  Niconne:
+    source: google
+    family: Niconne
+    files:
+    - https://fonts.gstatic.com/s/niconne/v15/w8gaH2QvRug1_rTfrQut2F4OuOo.ttf
 fonts:
 - name: Niconne
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk), with
       Reserved Font Name Niconne.
-    font: Niconne-Regular.ttf
-extract:
-  format: zip
+    font: w8gaH2QvRug1_rTfrQut2F4OuOo.ttf
+extract: {}
 copyright: Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk), with Reserved
   Font Name Niconne.
 license_url: http://scripts.sil.org/OFL
@@ -119,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

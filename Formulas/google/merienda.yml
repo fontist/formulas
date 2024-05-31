@@ -1,11 +1,19 @@
 ---
+name: Merienda
 description: Merienda
 homepage: https://www.tipo.net.ar
 resources:
-  Merienda.zip:
-    urls:
-    - https://fonts.google.com/download?family=Merienda
-    file_size: 397070
+  Merienda:
+    source: google
+    family: Merienda
+    files:
+    - https://fonts.gstatic.com/s/merienda/v19/gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5JHhoSU78QGBV0A.ttf
+    - https://fonts.gstatic.com/s/merienda/v19/gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5enhoSU78QGBV0A.ttf
+    - https://fonts.gstatic.com/s/merienda/v19/gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5SHhoSU78QGBV0A.ttf
+    - https://fonts.gstatic.com/s/merienda/v19/gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5pH9oSU78QGBV0A.ttf
+    - https://fonts.gstatic.com/s/merienda/v19/gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5nX9oSU78QGBV0A.ttf
+    - https://fonts.gstatic.com/s/merienda/v19/gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5-n9oSU78QGBV0A.ttf
+    - https://fonts.gstatic.com/s/merienda/v19/gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5039oSU78QGBV0A.ttf
 fonts:
 - name: Merienda
   styles:
@@ -15,21 +23,14 @@ fonts:
     post_script_name: Merienda-Bold
     version: '2.001'
     copyright: Copyright 2017 The Merienda Project Authors (https://github.com/etunni/merienda)
-    font: Merienda-Bold.ttf
+    font: gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5nX9oSU78QGBV0A.ttf
   - family_name: Merienda
     type: Regular
     full_name: Merienda Regular
     post_script_name: Merienda-Regular
     version: '2.001'
     copyright: Copyright 2017 The Merienda Project Authors (https://github.com/etunni/merienda)
-    font: Merienda-VariableFont_wght.ttf
-  - family_name: Merienda
-    type: Regular
-    full_name: Merienda Regular
-    post_script_name: Merienda-Regular
-    version: '2.001'
-    copyright: Copyright 2017 The Merienda Project Authors (https://github.com/etunni/merienda)
-    font: Merienda-Regular.ttf
+    font: gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5enhoSU78QGBV0A.ttf
 - name: Merienda Black
   styles:
   - family_name: Merienda Black
@@ -40,7 +41,7 @@ fonts:
     post_script_name: Merienda-Black
     version: '2.001'
     copyright: Copyright 2017 The Merienda Project Authors (https://github.com/etunni/merienda)
-    font: Merienda-Black.ttf
+    font: gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5039oSU78QGBV0A.ttf
 - name: Merienda ExtraBold
   styles:
   - family_name: Merienda ExtraBold
@@ -51,7 +52,7 @@ fonts:
     post_script_name: Merienda-ExtraBold
     version: '2.001'
     copyright: Copyright 2017 The Merienda Project Authors (https://github.com/etunni/merienda)
-    font: Merienda-ExtraBold.ttf
+    font: gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5-n9oSU78QGBV0A.ttf
 - name: Merienda Light
   styles:
   - family_name: Merienda Light
@@ -62,7 +63,7 @@ fonts:
     post_script_name: Merienda-Light
     version: '2.001'
     copyright: Copyright 2017 The Merienda Project Authors (https://github.com/etunni/merienda)
-    font: Merienda-Light.ttf
+    font: gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5JHhoSU78QGBV0A.ttf
 - name: Merienda Medium
   styles:
   - family_name: Merienda Medium
@@ -73,7 +74,7 @@ fonts:
     post_script_name: Merienda-Medium
     version: '2.001'
     copyright: Copyright 2017 The Merienda Project Authors (https://github.com/etunni/merienda)
-    font: Merienda-Medium.ttf
+    font: gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5SHhoSU78QGBV0A.ttf
 - name: Merienda SemiBold
   styles:
   - family_name: Merienda SemiBold
@@ -84,7 +85,7 @@ fonts:
     post_script_name: Merienda-SemiBold
     version: '2.001'
     copyright: Copyright 2017 The Merienda Project Authors (https://github.com/etunni/merienda)
-    font: Merienda-SemiBold.ttf
+    font: gNMaW3x8Qoy5_mf8uUkJGHtiYXjmKFy5pH9oSU78QGBV0A.ttf
 extract: {}
 copyright: Copyright 2017 The Merienda Project Authors (https://github.com/etunni/merienda)
 license_url: https://scripts.sil.org/OFL
@@ -94,7 +95,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -183,5 +184,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: f5f5a3bae828a8b53dfb327c0fd0f813441aea9601969f99cc7641273ef0f65e
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

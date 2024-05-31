@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Osage
 description: Noto Sans Osage
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Osage.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Osage
-    sha256: 872cd5dfc3fbe18aac25f5fded661ba02a77b82939d5f32aa4cb29cc1db539c4
-    file_size: 34936
+  Noto Sans Osage:
+    source: google
+    family: Noto Sans Osage
+    files:
+    - https://fonts.gstatic.com/s/notosansosage/v18/oPWX_kB6kP4jCuhpgEGmw4mtAVtXRlaSxkrMCQ.ttf
 fonts:
 - name: Noto Sans Osage
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/osage)
-    font: NotoSansOsage-Regular.ttf
+    font: oPWX_kB6kP4jCuhpgEGmw4mtAVtXRlaSxkrMCQ.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/osage)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9bc485ea0994ac0924cd406d7c11c55efef33193da64e84dee1b8fbeed25002a
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

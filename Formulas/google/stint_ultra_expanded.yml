@@ -1,12 +1,13 @@
 ---
+name: Stint Ultra Expanded
 description: Stint Ultra Expanded
 homepage: http://www.astigmatic.com/
 resources:
-  StintUltraExpanded.zip:
-    urls:
-    - https://fonts.google.com/download?family=Stint%20Ultra%20Expanded
-    sha256: d3238901ca81a02e7b729abd596937ec55bce79b264054a04eb651197f406c2c
-    file_size: 23545
+  Stint Ultra Expanded:
+    source: google
+    family: Stint Ultra Expanded
+    files:
+    - https://fonts.gstatic.com/s/stintultraexpanded/v22/CSRg4yNNh-GbW3o3JkwoDcdvMKMf0oBAd0qoATQkWwam.ttf
 fonts:
 - name: Stint Ultra Expanded
   styles:
@@ -18,11 +19,11 @@ fonts:
     copyright: |-
       Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
       Font Name "Stint Ultra Expanded"
-    font: StintUltraExpanded-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com),
-  with Reserved Font Name "Stint Ultra Expanded"
+    font: CSRg4yNNh-GbW3o3JkwoDcdvMKMf0oBAd0qoATQkWwam.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+  Font Name "Stint Ultra Expanded"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI)
@@ -120,3 +121,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

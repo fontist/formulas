@@ -1,12 +1,13 @@
 ---
+name: Julius Sans One
 description: Julius Sans One
 homepage: www.latinotype.com
 resources:
-  JuliusSansOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Julius%20Sans%20One
-    sha256: 69a07b695a574577661fc5579950c976e15b2e98b75787f799cfa597cb08d1ed
-    file_size: 24807
+  Julius Sans One:
+    source: google
+    family: Julius Sans One
+    files:
+    - https://fonts.gstatic.com/s/juliussansone/v18/1Pt2g8TAX_SGgBGUi0tGOYEga5W-xXEW6aGXHw.ttf
 fonts:
 - name: Julius Sans One
   styles:
@@ -17,11 +18,10 @@ fonts:
     version: 1.002; ttfautohint (v1.3)
     copyright: Copyright (c) 2012, LatinoType (www.latinotype.com), with Reserved
       Font Name 'Julius'
-    font: JuliusSansOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, LatinoType (luciano@latinotype.com), with Reserved
-  Font Names 'Julius'
+    font: 1Pt2g8TAX_SGgBGUi0tGOYEga5W-xXEW6aGXHw.ttf
+extract: {}
+copyright: Copyright (c) 2012, LatinoType (www.latinotype.com), with Reserved Font
+  Name 'Julius'
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012, LatinoType (luciano@latinotype.com), with Reserved Font Names 'Julius'
@@ -117,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

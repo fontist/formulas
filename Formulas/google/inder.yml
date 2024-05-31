@@ -3,11 +3,11 @@ name: Inder
 description: Inder
 homepage: www.sorkintype.com
 resources:
-  Inder.zip:
-    urls:
-    - https://fonts.google.com/download?family=Inder
-    sha256: d5267b2bdde18c8782be77b9ec3c623eb17530cd530435244f59ed57a432fa37
-    file_size: 21511
+  Inder:
+    source: google
+    family: Inder
+    files:
+    - https://fonts.gstatic.com/s/inder/v14/w8gUH2YoQe8_4vq6pw-P3U4O.ttf
 fonts:
 - name: Inder
   styles:
@@ -21,11 +21,9 @@ fonts:
       architecture. Inder has been carefully adjusted to the restrictions of the screen.
       Inder can be used in a wide range of sizes.
     copyright: Copyright (c) 2010 by Sorkin Type Co with Reserved Font Name Inder.
-    font: Inder-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010 by Sorkin Type Co (eben@eyebytes.com) with Reserved
-  Font Name Inder.
+    font: w8gUH2YoQe8_4vq6pw-P3U4O.ttf
+extract: {}
+copyright: Copyright (c) 2010 by Sorkin Type Co with Reserved Font Name Inder.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
@@ -122,3 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

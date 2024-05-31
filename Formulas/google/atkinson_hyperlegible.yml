@@ -3,11 +3,14 @@ name: Atkinson Hyperlegible
 description: Atkinson Hyperlegible
 homepage: https://www.BrailleInstitute.org/
 resources:
-  Atkinson_Hyperlegible.zip:
-    urls:
-    - https://fonts.google.com/download?family=Atkinson%20Hyperlegible
-    sha256: 510f3ee52d49bb90f88e8ae4a2476f51cbb4b50f549def1d93385d1b632ec623
-    file_size: 123399
+  Atkinson Hyperlegible:
+    source: google
+    family: Atkinson Hyperlegible
+    files:
+    - https://fonts.gstatic.com/s/atkinsonhyperlegible/v11/9Bt23C1KxNDXMspQ1lPyU89-1h6ONRlW45GE5ZgpewSSbQ.ttf
+    - https://fonts.gstatic.com/s/atkinsonhyperlegible/v11/9Bt43C1KxNDXMspQ1lPyU89-1h6ONRlW45G055ItWQGCbUWn.ttf
+    - https://fonts.gstatic.com/s/atkinsonhyperlegible/v11/9Bt73C1KxNDXMspQ1lPyU89-1h6ONRlW45G8WbcNcy-OZFy-FA.ttf
+    - https://fonts.gstatic.com/s/atkinsonhyperlegible/v11/9Bt93C1KxNDXMspQ1lPyU89-1h6ONRlW45G056qRdiWKRlmuFH24.ttf
 fonts:
 - name: Atkinson Hyperlegible
   styles:
@@ -17,28 +20,28 @@ fonts:
     post_script_name: AtkinsonHyperlegible-Bold
     version: 1.006; ttfautohint (v1.8.3)
     copyright: Copyright 2020 Braille Institute of America, Inc.
-    font: AtkinsonHyperlegible-Bold.ttf
+    font: 9Bt73C1KxNDXMspQ1lPyU89-1h6ONRlW45G8WbcNcy-OZFy-FA.ttf
   - family_name: Atkinson Hyperlegible
     type: Bold Italic
     full_name: Atkinson Hyperlegible Bold Italic
     post_script_name: AtkinsonHyperlegible-BoldItalic
     version: 1.006; ttfautohint (v1.8.3)
     copyright: Copyright 2020 Braille Institute of America, Inc.
-    font: AtkinsonHyperlegible-BoldItalic.ttf
+    font: 9Bt93C1KxNDXMspQ1lPyU89-1h6ONRlW45G056qRdiWKRlmuFH24.ttf
   - family_name: Atkinson Hyperlegible
     type: Italic
     full_name: Atkinson Hyperlegible Italic
     post_script_name: AtkinsonHyperlegible-Italic
     version: 1.006; ttfautohint (v1.8.3)
     copyright: Copyright 2020 Braille Institute of America, Inc.
-    font: AtkinsonHyperlegible-Italic.ttf
+    font: 9Bt43C1KxNDXMspQ1lPyU89-1h6ONRlW45G055ItWQGCbUWn.ttf
   - family_name: Atkinson Hyperlegible
     type: Regular
     full_name: Atkinson Hyperlegible Regular
     post_script_name: AtkinsonHyperlegible-Regular
     version: 1.006; ttfautohint (v1.8.3)
     copyright: Copyright 2020 Braille Institute of America, Inc.
-    font: AtkinsonHyperlegible-Regular.ttf
+    font: 9Bt23C1KxNDXMspQ1lPyU89-1h6ONRlW45GE5ZgpewSSbQ.ttf
 extract: {}
 copyright: Copyright 2020 Braille Institute of America, Inc.
 license_url: https://scripts.sil.org/OFL
@@ -48,7 +51,6 @@ open_license: |-
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
   http://scripts.sil.org/OFL
-
 
   -----------------------------------------------------------
   SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
@@ -136,5 +138,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: dcb02ebf3ae7b3e6b017fcfcfc1a7ef367624470f6bd6e4cfe2d09c33c0c6a26
-command: google import --formulas_path Formulas
+command: import google -n 9999

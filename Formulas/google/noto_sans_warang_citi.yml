@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Warang Citi
 description: Noto Sans Warang Citi
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Warang_Citi.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Warang%20Citi
-    sha256: 8451b9aabd0a943d334d2af787937361d1a8caa3aeb0c520bfecf2bde5372826
-    file_size: 47247
+  Noto Sans Warang Citi:
+    source: google
+    family: Noto Sans Warang Citi
+    files:
+    - https://fonts.gstatic.com/s/notosanswarangciti/v17/EYqtmb9SzL1YtsZSScyKDXIeOv3w-zgsNvKRpeVCCXzdgA.ttf
 fonts:
 - name: Noto Sans Warang Citi
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 3.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Mangu Purty
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/warang-citi)
-    font: NotoSansWarangCiti-Regular.ttf
+    font: EYqtmb9SzL1YtsZSScyKDXIeOv3w-zgsNvKRpeVCCXzdgA.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/warang-citi)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 4702544f767caa29a5bab8fecc87b11615d5707cc2e306187d0cdace5a261516
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

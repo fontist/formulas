@@ -3,11 +3,11 @@ name: Sriracha
 description: Sriracha
 homepage: www.katatrad.com
 resources:
-  Sriracha.zip:
-    urls:
-    - https://fonts.google.com/download?family=Sriracha
-    sha256: 495a24cd586a214051e14de4ea4faacbbde05ffa93cbe9d148be6a77cbdcae3a
-    file_size: 121372
+  Sriracha:
+    source: google
+    family: Sriracha
+    files:
+    - https://fonts.gstatic.com/s/sriracha/v14/0nkrC9D4IuYBgWcI9ObYRQDioeb0.ttf
 fonts:
 - name: Sriracha
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: 1.002g
     copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com), Copyright
       (c) 2014, Pablo Impallari (www.impallari.com|impallari@gmail.com)
-    font: Sriracha-Regular.ttf
-extract:
-  format: zip
+    font: 0nkrC9D4IuYBgWcI9ObYRQDioeb0.ttf
+extract: {}
 copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com), Copyright (c)
   2014, Pablo Impallari (www.impallari.com|impallari@gmail.com)
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

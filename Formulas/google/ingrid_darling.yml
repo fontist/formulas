@@ -1,12 +1,13 @@
 ---
+name: Ingrid Darling
 description: Ingrid Darling
 homepage: www.typesetit.com
 resources:
-  Ingrid_Darling.zip:
-    urls:
-    - https://fonts.google.com/download?family=Ingrid%20Darling
-    sha256: 23a9c45360f296e5e90a32391ecf2e8847068d57c6cfffd313a47f7fbb1bd6aa
-    file_size: 75606
+  Ingrid Darling:
+    source: google
+    family: Ingrid Darling
+    files:
+    - https://fonts.gstatic.com/s/ingriddarling/v5/LDIrapaJNxUtSuFdw-9yf4rCPsLOub458jGL.ttf
 fonts:
 - name: Ingrid Darling
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: IngridDarling-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2014-2021 The Ingrid Darling Project Authors (https://github.com/googlefonts/ingrid-darling)
-    font: IngridDarling-Regular.ttf
+    font: LDIrapaJNxUtSuFdw-9yf4rCPsLOub458jGL.ttf
 extract: {}
 copyright: Copyright 2014-2021 The Ingrid Darling Project Authors (https://github.com/googlefonts/ingrid-darling)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: dcefc3343901238571b9344b989daa55ee0e9d60d67dd92df9c919821152b813
-command: import google --formulas_path Formulas
+command: import google -n 9999

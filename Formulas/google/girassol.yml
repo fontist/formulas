@@ -1,13 +1,12 @@
 ---
 name: Girassol
 description: Girassol
-homepage:
 resources:
-  Girassol.zip:
-    urls:
-    - https://fonts.google.com/download?family=Girassol
-    sha256: a4a5538ef6f1633163eddd24c7f68c009b02347dc9391bfb108b638b82bf6884
-    file_size: 21811
+  Girassol:
+    source: google
+    family: Girassol
+    files:
+    - https://fonts.gstatic.com/s/girassol/v22/JTUUjIo_-DK48laaNC9Nz2pJzxbi.ttf
 fonts:
 - name: Girassol
   styles:
@@ -17,9 +16,8 @@ fonts:
     post_script_name: Girassol-Regular
     version: '1.004'
     copyright: Copyright 2019 The Girassol Project Authors (https://github.com/liamspradlin/Girassol-Display)
-    font: Girassol-Regular.ttf
-extract:
-  format: zip
+    font: JTUUjIo_-DK48laaNC9Nz2pJzxbi.ttf
+extract: {}
 copyright: Copyright 2019 The Girassol Project Authors (https://github.com/liamspradlin/Girassol-Display)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

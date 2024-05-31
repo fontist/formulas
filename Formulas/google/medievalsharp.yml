@@ -1,13 +1,12 @@
 ---
 name: MedievalSharp
 description: MedievalSharp
-homepage:
 resources:
-  MedievalSharp.zip:
-    urls:
-    - https://fonts.google.com/download?family=MedievalSharp
-    sha256: 49633ec1059d38850ab962d2f5f64527387c574978f126a5871bb22ec3549a9a
-    file_size: 76737
+  MedievalSharp:
+    source: google
+    family: MedievalSharp
+    files:
+    - https://fonts.gstatic.com/s/medievalsharp/v26/EvOJzAlL3oU5AQl2mP5KdgptAq96MwvXLDk.ttf
 fonts:
 - name: MedievalSharp
   styles:
@@ -17,10 +16,9 @@ fonts:
     post_script_name: MedievalSharp
     version: '1.0'
     copyright: wmk69
-    font: MedievalSharp.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Wojciech 'wmk69' Kalinowski (wmk69@o2.pl)
+    font: EvOJzAlL3oU5AQl2mP5KdgptAq96MwvXLDk.ttf
+extract: {}
+copyright: wmk69
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, wmk69 (wmk69@o2.pl),
@@ -128,3 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

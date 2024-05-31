@@ -1,11 +1,16 @@
 ---
+name: Noto Serif Khojki
 description: Noto Serif Khojki
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Serif_Khojki.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Serif%20Khojki
-    file_size: 347022
+  Noto Serif Khojki:
+    source: google
+    family: Noto Serif Khojki
+    files:
+    - https://fonts.gstatic.com/s/notoserifkhojki/v11/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMY0ghvyZ0Qtc5HAQ.ttf
+    - https://fonts.gstatic.com/s/notoserifkhojki/v11/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMY4AhvyZ0Qtc5HAQ.ttf
+    - https://fonts.gstatic.com/s/notoserifkhojki/v11/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMYDA9vyZ0Qtc5HAQ.ttf
+    - https://fonts.gstatic.com/s/notoserifkhojki/v11/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMYNQ9vyZ0Qtc5HAQ.ttf
 fonts:
 - name: Noto Serif Khojki
   styles:
@@ -13,26 +18,18 @@ fonts:
     type: Bold
     full_name: Noto Serif Khojki Bold
     post_script_name: NotoSerifKhojki-Bold
-    version: '2.004'
+    version: '2.005'
     description: Designed by Juan Bruce
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/khojki)
-    font: NotoSerifKhojki-Bold.ttf
+    font: I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMYNQ9vyZ0Qtc5HAQ.ttf
   - family_name: Noto Serif Khojki
     type: Regular
     full_name: Noto Serif Khojki Regular
     post_script_name: NotoSerifKhojki-Regular
-    version: '2.004'
+    version: '2.005'
     description: Designed by Juan Bruce
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/khojki)
-    font: NotoSerifKhojki-VariableFont_wght.ttf
-  - family_name: Noto Serif Khojki
-    type: Regular
-    full_name: Noto Serif Khojki Regular
-    post_script_name: NotoSerifKhojki-Regular
-    version: '2.004'
-    description: Designed by Juan Bruce
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/khojki)
-    font: NotoSerifKhojki-Regular.ttf
+    font: I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMY0ghvyZ0Qtc5HAQ.ttf
 - name: Noto Serif Khojki Medium
   styles:
   - family_name: Noto Serif Khojki Medium
@@ -41,10 +38,10 @@ fonts:
     preferred_type: Medium
     full_name: Noto Serif Khojki Medium
     post_script_name: NotoSerifKhojki-Medium
-    version: '2.004'
+    version: '2.005'
     description: Designed by Juan Bruce
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/khojki)
-    font: NotoSerifKhojki-Medium.ttf
+    font: I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMY4AhvyZ0Qtc5HAQ.ttf
 - name: Noto Serif Khojki SemiBold
   styles:
   - family_name: Noto Serif Khojki SemiBold
@@ -53,10 +50,10 @@ fonts:
     preferred_type: SemiBold
     full_name: Noto Serif Khojki SemiBold
     post_script_name: NotoSerifKhojki-SemiBold
-    version: '2.004'
+    version: '2.005'
     description: Designed by Juan Bruce
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/khojki)
-    font: NotoSerifKhojki-SemiBold.ttf
+    font: I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMYDA9vyZ0Qtc5HAQ.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/khojki)
 license_url: https://scripts.sil.org/OFL
@@ -65,7 +62,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -154,5 +151,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 6c342db23866b752d942f255b04ec03520224f6eb1a7db7f744c359195e840f5
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

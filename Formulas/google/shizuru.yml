@@ -1,11 +1,12 @@
 ---
+name: Shizuru
 description: Shizuru
 resources:
-  Shizuru.zip:
-    urls:
-    - https://fonts.google.com/download?family=Shizuru
-    sha256: ecdad5dc75db32ed724a3e2ca91cdbc1ccf0fe8469ecad27901c260ba70e1c55
-    file_size: 137228
+  Shizuru:
+    source: google
+    family: Shizuru
+    files:
+    - https://fonts.gstatic.com/s/shizuru/v10/O4ZSFGfvnxFiCA3i30IJlgUTj2A.ttf
 fonts:
 - name: Shizuru
   styles:
@@ -16,7 +17,7 @@ fonts:
     version: '1.000'
     copyright: Copyright 2020 The Shizuru Project Authors (https://github.com/shibuyafont/shizuru-font),
       all rights reserved.
-    font: Shizuru-Regular.ttf
+    font: O4ZSFGfvnxFiCA3i30IJlgUTj2A.ttf
 extract: {}
 copyright: Copyright 2020 The Shizuru Project Authors (https://github.com/shibuyafont/shizuru-font),
   all rights reserved.
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 4805594e571e9bad2e1657dd3c2891a1e899e824ca61a9a543209c0d3f1ec632
-command: google import --formulas_path Formulas
+command: import google -n 9999

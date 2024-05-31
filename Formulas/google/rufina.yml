@@ -1,24 +1,16 @@
 ---
 name: Rufina
 description: Rufina
-homepage:
 resources:
-  Rufina.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rufina
-    sha256: 5e2a7341b941b032fd70a9995ff41550082da4774d195cc0f69c6d96894ead8b
-    file_size: 39039
+  Rufina:
+    source: google
+    family: Rufina
+    files:
+    - https://fonts.gstatic.com/s/rufina/v15/Yq6V-LyURyLy-aKyoxRktOdClg.ttf
+    - https://fonts.gstatic.com/s/rufina/v15/Yq6W-LyURyLy-aKKHztAvMxenxE0SA.ttf
 fonts:
 - name: Rufina
   styles:
-  - family_name: Rufina
-    type: Regular
-    full_name: Rufina
-    post_script_name: Rufina-Regular
-    version: '1.001'
-    copyright: Copyright (c) 2011-2012, Martin Sommaruga (martin@estudiotrama.com),
-      with Reserved Font Name 'Rufina'
-    font: Rufina-Regular.ttf
   - family_name: Rufina
     type: Bold
     full_name: Rufina Bold
@@ -26,9 +18,16 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011-2012, Martin Sommaruga (martin@estudiotrama.com),
       with Reserved Font Name 'Rufina'
-    font: Rufina-Bold.ttf
-extract:
-  format: zip
+    font: Yq6W-LyURyLy-aKKHztAvMxenxE0SA.ttf
+  - family_name: Rufina
+    type: Regular
+    full_name: Rufina
+    post_script_name: Rufina-Regular
+    version: '1.001'
+    copyright: Copyright (c) 2011-2012, Martin Sommaruga (martin@estudiotrama.com),
+      with Reserved Font Name 'Rufina'
+    font: Yq6V-LyURyLy-aKyoxRktOdClg.ttf
+extract: {}
 copyright: Copyright (c) 2011-2012, Martin Sommaruga (martin@estudiotrama.com), with
   Reserved Font Name 'Rufina'
 license_url: http://scripts.sil.org/OFL
@@ -126,3 +125,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

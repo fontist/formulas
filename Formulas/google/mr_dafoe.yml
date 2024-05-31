@@ -1,12 +1,13 @@
 ---
+name: Mr Dafoe
 description: Mr Dafoe
 homepage: http://www.sudtipos.com
 resources:
-  MrDafoe.zip:
-    urls:
-    - https://fonts.google.com/download?family=Mr%20Dafoe
-    sha256: 54db87a7ad99a8633202cc9566c92600b0dab4ed7fc042ed6a1936d0294bb90b
-    file_size: 26084
+  Mr Dafoe:
+    source: google
+    family: Mr Dafoe
+    files:
+    - https://fonts.gstatic.com/s/mrdafoe/v14/lJwE-pIzkS5NXuMMrGiqg7MCxz_C.ttf
 fonts:
 - name: Mr Dafoe
   styles:
@@ -18,11 +19,11 @@ fonts:
     copyright: |-
       Copyright (c) 2004 Alejandro Paul (sudtipos@sudtipos.com),
       with Reserved Font Name "Mr Dafoe"
-    font: MrDafoe-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2004 Alejandro Paul (sudtipos@sudtipos.com), with Reserved
-  Font Name "Mr Dafoe"
+    font: lJwE-pIzkS5NXuMMrGiqg7MCxz_C.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2004 Alejandro Paul (sudtipos@sudtipos.com),
+  with Reserved Font Name "Mr Dafoe"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 Alejandro Paul (sudtipos@sudtipos.com),
@@ -119,3 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

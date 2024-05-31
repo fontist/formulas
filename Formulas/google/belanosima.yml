@@ -1,12 +1,15 @@
 ---
+name: Belanosima
 description: Belanosima
 homepage: https://fonts.google.com/
 resources:
-  Belanosima.zip:
-    urls:
-    - https://fonts.google.com/download?family=Belanosima
-    sha256: a8666bf526a3937fdb14450978b35e15f2b09d39d0fef0094e7bdb09c217b5c5
-    file_size: 82067
+  Belanosima:
+    source: google
+    family: Belanosima
+    files:
+    - https://fonts.gstatic.com/s/belanosima/v3/3y9k6bI8ejDo_3MfCDSLxABbF3JBg54.ttf
+    - https://fonts.gstatic.com/s/belanosima/v3/3y9n6bI8ejDo_3MfCDSL_Nh1M3pqn5cdJ-4.ttf
+    - https://fonts.gstatic.com/s/belanosima/v3/3y9n6bI8ejDo_3MfCDSL_Lx0M3pqn5cdJ-4.ttf
 fonts:
 - name: Belanosima
   styles:
@@ -17,7 +20,7 @@ fonts:
     version: '2.000'
     copyright: Copyright 2023 The Belanosima Project Authors (https://github.com/docrepair-fonts/belanosima-fonts),
       with Reserved Font Name "Josefin Sans".
-    font: Belanosima-Bold.ttf
+    font: 3y9n6bI8ejDo_3MfCDSL_Lx0M3pqn5cdJ-4.ttf
   - family_name: Belanosima
     type: Regular
     full_name: Belanosima Regular
@@ -25,7 +28,7 @@ fonts:
     version: '2.000'
     copyright: Copyright 2023 The Belanosima Project Authors (https://github.com/docrepair-fonts/belanosima-fonts),
       with Reserved Font Name "Josefin Sans".
-    font: Belanosima-Regular.ttf
+    font: 3y9k6bI8ejDo_3MfCDSLxABbF3JBg54.ttf
 - name: Belanosima SemiBold
   styles:
   - family_name: Belanosima SemiBold
@@ -37,7 +40,7 @@ fonts:
     version: '2.000'
     copyright: Copyright 2023 The Belanosima Project Authors (https://github.com/docrepair-fonts/belanosima-fonts),
       with Reserved Font Name "Josefin Sans".
-    font: Belanosima-SemiBold.ttf
+    font: 3y9n6bI8ejDo_3MfCDSL_Nh1M3pqn5cdJ-4.ttf
 extract: {}
 copyright: Copyright 2023 The Belanosima Project Authors (https://github.com/docrepair-fonts/belanosima-fonts),
   with Reserved Font Name "Josefin Sans".
@@ -47,7 +50,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -136,5 +139,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 3e8e98499f12b57ba43b313f09b2c6eed72beb99442bd3b1c00a3a84cb52a367
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

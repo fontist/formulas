@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Tagalog
 description: Noto Sans Tagalog
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Tagalog.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Tagalog
-    sha256: 91e89db4c0e846910863f9536d72fa36a724d35e22d52119d1e1e0c15f50741f
-    file_size: 32219
+  Noto Sans Tagalog:
+    source: google
+    family: Noto Sans Tagalog
+    files:
+    - https://fonts.gstatic.com/s/notosanstagalog/v22/J7aFnoNzCnFcV9ZI-sUYuvote1R0wwEAA8jHexnL.ttf
 fonts:
 - name: Noto Sans Tagalog
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tagalog)
-    font: NotoSansTagalog-Regular.ttf
+    font: J7aFnoNzCnFcV9ZI-sUYuvote1R0wwEAA8jHexnL.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tagalog)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 84a69d8a171ca5150b213d436cf7d13379bd88193006aa26de12a584812485bd
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

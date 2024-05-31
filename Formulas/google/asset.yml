@@ -1,12 +1,13 @@
 ---
+name: Asset
 description: Asset
 homepage: www.sorkintype.com
 resources:
-  Asset.zip:
-    urls:
-    - https://fonts.google.com/download?family=Asset
-    sha256: 86b40e829d28d33095ee181b0eb04ed845239703cdba3d3d58dc8ac7066530e3
-    file_size: 26065
+  Asset:
+    source: google
+    family: Asset
+    files:
+    - https://fonts.gstatic.com/s/asset/v29/SLXGc1na-mM4cWImRJqExst1.ttf
 fonts:
 - name: Asset
   styles:
@@ -14,31 +15,18 @@ fonts:
     type: Regular
     full_name: Asset Regular
     post_script_name: Asset-Regular
-    version: '1.002'
-    copyright: |-
-      Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
-      with Reserved Font Name "Asset".
-
-      This Font Software is licensed under the SIL Open Font License,
-      Version 1.1. This license is available with a FAQ at:
-      http://scripts.sil.org/OFL
-    font: Asset-Regular.ttf
+    version: 1.003; ttfautohint (v1.8.4.7-5d5b)
+    copyright: Copyright 2023 The Asset Project Authors (https://github.com/SorkinType/Asset)
+    font: SLXGc1na-mM4cWImRJqExst1.ttf
 extract: {}
-copyright: |-
-  Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
-  with Reserved Font Name "Asset".
-
-  This Font Software is licensed under the SIL Open Font License,
-  Version 1.1. This license is available with a FAQ at:
-  http://scripts.sil.org/OFL
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2023 The Asset Project Authors (https://github.com/SorkinType/Asset)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
-  with Reserved Font Name "Asset".
+  Copyright 2023 The Asset Project Authors (https://github.com/SorkinType/Asset)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -127,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 16e372012eaefad0c394a1bf0f400980918a8a4b761e4fb19d6b936ac81d07ad
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

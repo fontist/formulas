@@ -1,12 +1,13 @@
 ---
+name: Rubik Iso
 description: Rubik Iso
 homepage: http://www.google.com/fonts
 resources:
-  Rubik_Iso.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rubik%20Iso
-    sha256: 3dcb033ae702612628e6bab1ac5d5c37925631cf2a21ea8fd040e73f2dcc50d7
-    file_size: 57972
+  Rubik Iso:
+    source: google
+    family: Rubik Iso
+    files:
+    - https://fonts.gstatic.com/s/rubikiso/v2/x3dickHUfr-S4VAI4sABfPACvy_1BA.ttf
 fonts:
 - name: Rubik Iso
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: RubikIso-Regular
     version: '2.200'
     copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
-    font: RubikIso-Regular.ttf
+    font: x3dickHUfr-S4VAI4sABfPACvy_1BA.ttf
 extract: {}
 copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 40798534f1cd46068942e81403e2604f6bfe0a0f8e34f24ebfc1925ea61f4ff6
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

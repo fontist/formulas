@@ -3,26 +3,24 @@ name: Khmer
 description: Khmer
 homepage: http://khmertype.blogspot.com/
 resources:
-  Khmer.zip:
-    urls:
-    - https://fonts.google.com/download?family=Khmer
-    sha256: 7ec6837ceccaf9c186ff9a4daa45366578f82e0007d89030abf0a00155883625
-    file_size: 26062
+  Khmer:
+    source: google
+    family: Khmer
+    files:
+    - https://fonts.gstatic.com/s/khmer/v29/MjQImit_vPPwpF-BpN2EeYmD.ttf
 fonts:
 - name: Khmer
   styles:
   - family_name: Khmer
     type: Regular
+    preferred_family_name: Khmer
     full_name: Khmer
     post_script_name: Khmer
     version: 2.00 February 8, 2013
     copyright: Copyright (c) 2013, Danh Hong (khmertype.org)
-    font: Khmer.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2010, Danh Hong (khmertype.blogspot.com danhhong@gmail.com),
-  with Reserved Font Name Khmer OS. This Font Software is licensed under the SIL Open
-  Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    font: MjQImit_vPPwpF-BpN2EeYmD.ttf
+extract: {}
+copyright: Copyright (c) 2013, Danh Hong (khmertype.org)
 license_url: http://www.apache.org/licenses/LICENSE-2.0
 open_license: |-
   Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
@@ -119,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

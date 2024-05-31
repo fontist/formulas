@@ -1,13 +1,12 @@
 ---
 name: Modak
 description: Modak
-homepage:
 resources:
-  Modak.zip:
-    urls:
-    - https://fonts.google.com/download?family=Modak
-    sha256: 4e3ed237dc022a5c1c28b34e1c4c57c0f91e3c8902fec68b7046bed943466f8e
-    file_size: 273498
+  Modak:
+    source: google
+    family: Modak
+    files:
+    - https://fonts.gstatic.com/s/modak/v18/EJRYQgs1XtIEsnMH8BVZ76KU.ttf
 fonts:
 - name: Modak
   styles:
@@ -37,10 +36,9 @@ fonts:
       Type]( http://ektype.in/), a collective of type designers based in Mumbai focused
       on designing contemporary Indian typefaces.
     copyright: Copyright (c) 2014, Ek Type. All rights reserved.
-    font: Modak-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2015 Ek Type (www.ektype.in)
+    font: EJRYQgs1XtIEsnMH8BVZ76KU.ttf
+extract: {}
+copyright: Copyright (c) 2014, Ek Type. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2015 Ek Type (www.ektype.in)
@@ -136,3 +134,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

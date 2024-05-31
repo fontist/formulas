@@ -1,13 +1,12 @@
 ---
 name: Revalia
 description: Revalia
-homepage:
 resources:
-  Revalia.zip:
-    urls:
-    - https://fonts.google.com/download?family=Revalia
-    sha256: ff0c61c674571700feaf1cd8ac92ac269dbea51f21b320a4040d77396df7d213
-    file_size: 32025
+  Revalia:
+    source: google
+    family: Revalia
+    files:
+    - https://fonts.gstatic.com/s/revalia/v22/WwkexPimBE2-4ZPEeVruNIgJSNM.ttf
 fonts:
 - name: Revalia
   styles:
@@ -18,9 +17,8 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011, Johan Kallas (johankallas@gmail.com), Copyright
       (c) 2011, Mihkel Virkus (mihkelvirkus@gmail.com), with Reserved Font Name Revalia.
-    font: Revalia-Regular.ttf
-extract:
-  format: zip
+    font: WwkexPimBE2-4ZPEeVruNIgJSNM.ttf
+extract: {}
 copyright: Copyright (c) 2011, Johan Kallas (johankallas@gmail.com), Copyright (c)
   2011, Mihkel Virkus (mihkelvirkus@gmail.com), with Reserved Font Name Revalia.
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

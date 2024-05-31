@@ -1,12 +1,13 @@
 ---
+name: Rubik Pixels
 description: Rubik Pixels
 homepage: http://www.google.com/fonts
 resources:
-  Rubik_Pixels.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rubik%20Pixels
-    sha256: e6bbe595546c726dc7a55f459e4538fd12117573a2343710258fadf41552e742
-    file_size: 1431276
+  Rubik Pixels:
+    source: google
+    family: Rubik Pixels
+    files:
+    - https://fonts.gstatic.com/s/rubikpixels/v2/SlGXmQOaupkIeSx4CEpB7AdSaBYRagrQrA.ttf
 fonts:
 - name: Rubik Pixels
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: RubikPixels-Regular
     version: '2.200'
     copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
-    font: RubikPixels-Regular.ttf
+    font: SlGXmQOaupkIeSx4CEpB7AdSaBYRagrQrA.ttf
 extract: {}
 copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 54a5c2bddd213b531d0855d61432b693d8d08405fbfcc2f607232bd47d7b3a2d
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

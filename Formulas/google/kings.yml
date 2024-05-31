@@ -3,11 +3,11 @@ name: Kings
 description: Kings
 homepage: www.typesetit.com
 resources:
-  Kings.zip:
-    urls:
-    - https://fonts.google.com/download?family=Kings
-    sha256: 0afb7c882bddbf1abc4e3284004234a7b7f2faf7ed7e4e5deb95bdff09299042
-    file_size: 113317
+  Kings:
+    source: google
+    family: Kings
+    files:
+    - https://fonts.gstatic.com/s/kings/v7/8AtnGsK4O5CYXU_Iq6GSPaHS.ttf
 fonts:
 - name: Kings
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: Kings-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2013-2021 The Kings Project Authors (https://github.com/googlefonts/kings)
-    font: Kings-Regular.ttf
+    font: 8AtnGsK4O5CYXU_Iq6GSPaHS.ttf
 extract: {}
 copyright: Copyright 2013-2021 The Kings Project Authors (https://github.com/googlefonts/kings)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: edb9233507077e81aaa118e9055d7357b57dadf066e5048c557b0190ceef17d8
-command: google import --formulas_path Formulas
+command: import google -n 9999

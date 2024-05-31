@@ -1,12 +1,13 @@
 ---
+name: Princess Sofia
 description: Princess Sofia
 homepage: http://www.fontbros.com/tartworkshop.php
 resources:
-  PrincessSofia.zip:
-    urls:
-    - https://fonts.google.com/download?family=Princess%20Sofia
-    sha256: 492bc8c5c2bd3c4097505825e6e6519c81970a2d6b93b028dda7d9e54dc8cef6
-    file_size: 131680
+  Princess Sofia:
+    source: google
+    family: Princess Sofia
+    files:
+    - https://fonts.gstatic.com/s/princesssofia/v25/qWczB6yguIb8DZ_GXZst16n7GRz7mDUoupoI.ttf
 fonts:
 - name: Princess Sofia
   styles:
@@ -17,9 +18,8 @@ fonts:
     version: '1.000'
     copyright: Copyright (c) 2012 by Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com)
       with Reseved Font Name "Princess Sofia"
-    font: PrincessSofia-Regular.ttf
-extract:
-  format: zip
+    font: qWczB6yguIb8DZ_GXZst16n7GRz7mDUoupoI.ttf
+extract: {}
 copyright: Copyright (c) 2012 by Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com)
   with Reseved Font Name "Princess Sofia"
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

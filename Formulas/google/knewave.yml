@@ -3,11 +3,11 @@ name: Knewave
 description: Knewave
 homepage: www.sursly.com
 resources:
-  Knewave.zip:
-    urls:
-    - https://fonts.google.com/download?family=Knewave
-    sha256: 9be82f15f36f921079f5f60d243b8e528c2ca897cc92b51ccaa97b6b4bd8780d
-    file_size: 23179
+  Knewave:
+    source: google
+    family: Knewave
+    files:
+    - https://fonts.gstatic.com/s/knewave/v14/sykz-yx0lLcxQaSItSq9-trEvlQ.ttf
 fonts:
 - name: Knewave
   styles:
@@ -17,16 +17,14 @@ fonts:
     post_script_name: Knewave-Regular
     version: '1.001'
     copyright: Copyright (c) 2011 by Tyler Finck. All rights reserved.
-    font: Knewave-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by Tyler Finck (tylerfinck@gmail.com). All rights reserved.
+    font: sykz-yx0lLcxQaSItSq9-trEvlQ.ttf
+extract: {}
+copyright: Copyright (c) 2011 by Tyler Finck. All rights reserved.
 license_url: http://scripts.sil.org/OFL
-open_license: "\tCopyright (c) 2010, Tyler Finck <hello@sursly.com>, with Reserved
-  Font Name: \"Knewave\".\n\n\tThis Font Software is licensed under the SIL Open Font
-  License, Version 1.1.\n\tThis license is copied below, and is also available with
-  a FAQ at:\n\thttp://scripts.sil.org/OFL\n\n\tVersion 1.1 - 26 February 2007\n\n\nSIL
-  Open Font License\n====================================================\n\n\nPreamble\n----------\n\nThe
+open_license: "Copyright (c) 2010, Tyler Finck <hello@sursly.com>, with Reserved Font
+  Name: \"Knewave\".\n\n\tThis Font Software is licensed under the SIL Open Font License,
+  Version 1.1.\n\tThis license is copied below, and is also available with a FAQ at:\n\thttp://scripts.sil.org/OFL\n\n\tVersion
+  1.1 - 26 February 2007\n\n\nSIL Open Font License\n====================================================\n\n\nPreamble\n----------\n\nThe
   goals of the Open Font License (OFL) are to stimulate worldwide\ndevelopment of
   collaborative font projects, to support the font creation\nefforts of academic and
   linguistic communities, and to provide a free and\nopen framework in which fonts
@@ -76,3 +74,4 @@ open_license: "\tCopyright (c) 2010, Tyler Finck <hello@sursly.com>, with Reserv
   OR CONSEQUENTIAL\n\tDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\n\tFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\n\tOTHER
   DEALINGS IN THE FONT SOFTWARE."
+command: import google -n 9999

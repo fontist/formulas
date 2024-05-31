@@ -1,12 +1,13 @@
 ---
+name: Fascinate Inline
 description: Fascinate Inline
 homepage: http://www.astigmatic.com/
 resources:
-  FascinateInline.zip:
-    urls:
-    - https://fonts.google.com/download?family=Fascinate%20Inline
-    sha256: 6bc6ee269fdb4dbf0f05afd6055b5fe70836cdf5197a0c8e5bdf30e3d42c8d60
-    file_size: 30223
+  Fascinate Inline:
+    source: google
+    family: Fascinate Inline
+    files:
+    - https://fonts.gstatic.com/s/fascinateinline/v22/jVyR7mzzB3zc-jp6QCAu60poNqIy1g3CfRXxWZQ.ttf
 fonts:
 - name: Fascinate Inline
   styles:
@@ -18,11 +19,11 @@ fonts:
     copyright: |-
       Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
       Font Name "Fascinate Inline"
-    font: FascinateInline-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com),
-  with Reserved Font Name "Fascinate Inline"
+    font: jVyR7mzzB3zc-jp6QCAu60poNqIy1g3CfRXxWZQ.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+  Font Name "Fascinate Inline"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI)
@@ -120,3 +121,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

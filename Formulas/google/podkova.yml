@@ -3,10 +3,15 @@ name: Podkova
 description: Podkova
 homepage: http://cyreal.org
 resources:
-  Podkova.zip:
-    urls:
-    - https://fonts.google.com/download?family=Podkova
-    file_size: 324606
+  Podkova:
+    source: google
+    family: Podkova
+    files:
+    - https://fonts.gstatic.com/s/podkova/v31/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWtFzcU4EoporSHH.ttf
+    - https://fonts.gstatic.com/s/podkova/v31/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWt3zcU4EoporSHH.ttf
+    - https://fonts.gstatic.com/s/podkova/v31/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWubysU4EoporSHH.ttf
+    - https://fonts.gstatic.com/s/podkova/v31/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWuiysU4EoporSHH.ttf
+    - https://fonts.gstatic.com/s/podkova/v31/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWvFysU4EoporSHH.ttf
 fonts:
 - name: Podkova
   styles:
@@ -14,23 +19,16 @@ fonts:
     type: Bold
     full_name: Podkova Bold
     post_script_name: Podkova-Bold
-    version: 2.102; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.103'
     copyright: Copyright 2011 The Podkova Project Authors (https://github.com/cyrealtype/Podkova)
-    font: Podkova-Bold.ttf
+    font: K2FufZ1EmftJSV9VQpXb1lo9vC3nZWuiysU4EoporSHH.ttf
   - family_name: Podkova
     type: Regular
     full_name: Podkova Regular
     post_script_name: Podkova-Regular
-    version: 2.102; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.103'
     copyright: Copyright 2011 The Podkova Project Authors (https://github.com/cyrealtype/Podkova)
-    font: Podkova-VariableFont_wght.ttf
-  - family_name: Podkova
-    type: Regular
-    full_name: Podkova Regular
-    post_script_name: Podkova-Regular
-    version: 2.102; ttfautohint (v1.8.1.43-b0c9)
-    copyright: Copyright 2011 The Podkova Project Authors (https://github.com/cyrealtype/Podkova)
-    font: Podkova-Regular.ttf
+    font: K2FufZ1EmftJSV9VQpXb1lo9vC3nZWtFzcU4EoporSHH.ttf
 - name: Podkova ExtraBold
   styles:
   - family_name: Podkova ExtraBold
@@ -39,9 +37,9 @@ fonts:
     preferred_type: ExtraBold
     full_name: Podkova ExtraBold
     post_script_name: Podkova-ExtraBold
-    version: 2.102; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.103'
     copyright: Copyright 2011 The Podkova Project Authors (https://github.com/cyrealtype/Podkova)
-    font: Podkova-ExtraBold.ttf
+    font: K2FufZ1EmftJSV9VQpXb1lo9vC3nZWvFysU4EoporSHH.ttf
 - name: Podkova Medium
   styles:
   - family_name: Podkova Medium
@@ -50,9 +48,9 @@ fonts:
     preferred_type: Medium
     full_name: Podkova Medium
     post_script_name: Podkova-Medium
-    version: 2.102; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.103'
     copyright: Copyright 2011 The Podkova Project Authors (https://github.com/cyrealtype/Podkova)
-    font: Podkova-Medium.ttf
+    font: K2FufZ1EmftJSV9VQpXb1lo9vC3nZWt3zcU4EoporSHH.ttf
 - name: Podkova SemiBold
   styles:
   - family_name: Podkova SemiBold
@@ -61,9 +59,9 @@ fonts:
     preferred_type: SemiBold
     full_name: Podkova SemiBold
     post_script_name: Podkova-SemiBold
-    version: 2.102; ttfautohint (v1.8.1.43-b0c9)
+    version: '2.103'
     copyright: Copyright 2011 The Podkova Project Authors (https://github.com/cyrealtype/Podkova)
-    font: Podkova-SemiBold.ttf
+    font: K2FufZ1EmftJSV9VQpXb1lo9vC3nZWubysU4EoporSHH.ttf
 extract: {}
 copyright: Copyright 2011 The Podkova Project Authors (https://github.com/cyrealtype/Podkova)
 license_url: http://scripts.sil.org/OFL
@@ -161,5 +159,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 6e1001d6741ee8d265595e9eca9a8b268fa7538e512110f9aa8031876c8dc193
-command: google import --formulas_path Formulas
+command: import google -n 9999

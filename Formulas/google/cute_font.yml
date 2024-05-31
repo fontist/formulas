@@ -1,12 +1,13 @@
 ---
+name: Cute Font
 description: Cute Font
 homepage: www.typodesign.co.kr
 resources:
-  CuteFont.zip:
-    urls:
-    - https://fonts.google.com/download?family=Cute%20Font
-    sha256: 12f9e5e91d61228d8398a9ae3ddf06ed9a407fea00c222eabd6e0cba670d463c
-    file_size: 263398
+  Cute Font:
+    source: google
+    family: Cute Font
+    files:
+    - https://fonts.gstatic.com/s/cutefont/v22/Noaw6Uny2oWPbSHMrY6vmJNVNC9hkw.ttf
 fonts:
 - name: Cute Font
   styles:
@@ -17,10 +18,9 @@ fonts:
     version: '1.00'
     copyright: COPYRIGHT ⓒ 2004-2017 by TypoDesign Lab. Inc. All rights reserved.
       Font designed by TypoDesign Lab. Inc.
-    font: CuteFont-Regular.ttf
-extract:
-  format: zip
-copyright: COPYRIGHT  2004-2017 by TypoDesign Lab. Inc. All rights reserved. Font
+    font: Noaw6Uny2oWPbSHMrY6vmJNVNC9hkw.ttf
+extract: {}
+copyright: COPYRIGHT ⓒ 2004-2017 by TypoDesign Lab. Inc. All rights reserved. Font
   designed by TypoDesign Lab. Inc.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -117,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

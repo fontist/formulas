@@ -1,12 +1,12 @@
 ---
+name: La Belle Aurore
 description: La Belle Aurore
-homepage:
 resources:
-  LaBelleAurore.zip:
-    urls:
-    - https://fonts.google.com/download?family=La%20Belle%20Aurore
-    sha256: 9257e05aca236df5f58cca39ea2f838a397de2d6f0d9ecdeb0fa54c5f0e4af18
-    file_size: 30807
+  La Belle Aurore:
+    source: google
+    family: La Belle Aurore
+    files:
+    - https://fonts.gstatic.com/s/labelleaurore/v20/RrQIbot8-mNYKnGNDkWlocovHeIIG-eFNVmULg.ttf
 fonts:
 - name: La Belle Aurore
   styles:
@@ -17,10 +17,9 @@ fonts:
     version: 1.001 2001
     description: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
     copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
-    font: LaBelleAurore.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)
+    font: RrQIbot8-mNYKnGNDkWlocovHeIIG-eFNVmULg.ttf
+extract: {}
+copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
@@ -116,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

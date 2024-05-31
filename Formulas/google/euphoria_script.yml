@@ -1,12 +1,13 @@
 ---
+name: Euphoria Script
 description: Euphoria Script
 homepage: www.typesenses.com
 resources:
-  EuphoriaScript.zip:
-    urls:
-    - https://fonts.google.com/download?family=Euphoria%20Script
-    sha256: bacbea90b0224157b9fba608486aed6af7015f9d149b54d1afb30ea824b9c4c8
-    file_size: 22264
+  Euphoria Script:
+    source: google
+    family: Euphoria Script
+    files:
+    - https://fonts.gstatic.com/s/euphoriascript/v20/mFTpWb0X2bLb_cx6To2B8GpKoD5ak_ZT1D8x7Q.ttf
 fonts:
 - name: Euphoria Script
   styles:
@@ -17,9 +18,8 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2012 Sabrina Mariela Lopez (typesenses@live.com.ar),
       with Reserved Font Name "Euphoria Script"
-    font: EuphoriaScript-Regular.ttf
-extract:
-  format: zip
+    font: mFTpWb0X2bLb_cx6To2B8GpKoD5ak_ZT1D8x7Q.ttf
+extract: {}
 copyright: Copyright (c) 2012 Sabrina Mariela Lopez (typesenses@live.com.ar), with
   Reserved Font Name "Euphoria Script"
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

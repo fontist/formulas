@@ -3,11 +3,11 @@ name: Bahiana
 description: Bahiana
 homepage: http://www.omnibus-type.com/
 resources:
-  Bahiana.zip:
-    urls:
-    - https://fonts.google.com/download?family=Bahiana
-    sha256: ebc6940ded4434297db0f573a225bd61af095ba42ba52d4f2444f45f9ae518b1
-    file_size: 39878
+  Bahiana:
+    source: google
+    family: Bahiana
+    files:
+    - https://fonts.gstatic.com/s/bahiana/v23/uU9PCBUV4YenPWJU7xPb3vyHmlI.ttf
 fonts:
 - name: Bahiana
   styles:
@@ -17,9 +17,8 @@ fonts:
     post_script_name: Bahiana-Regular
     version: '1.005'
     copyright: Copyright 2016 The Bahiana Project Authors (omnibus.type@gmail.com)
-    font: Bahiana-Regular.ttf
-extract:
-  format: zip
+    font: uU9PCBUV4YenPWJU7xPb3vyHmlI.ttf
+extract: {}
 copyright: Copyright 2016 The Bahiana Project Authors (omnibus.type@gmail.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

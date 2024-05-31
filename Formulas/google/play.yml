@@ -3,22 +3,15 @@ name: Play
 description: Play
 homepage: http://www.playtype.com
 resources:
-  Play.zip:
-    urls:
-    - https://fonts.google.com/download?family=Play
-    sha256: 77cb1d3d1a8fbdae183f3502b999628cee2478f528159e8481373ece495b00cc
-    file_size: 163705
+  Play:
+    source: google
+    family: Play
+    files:
+    - https://fonts.gstatic.com/s/play/v19/6aez4K2oVqwIjtI8Hp8Tx3A.ttf
+    - https://fonts.gstatic.com/s/play/v19/6ae84K2oVqwItm4TOpc423nTJTM.ttf
 fonts:
 - name: Play
   styles:
-  - family_name: Play
-    type: Regular
-    full_name: Play Regular
-    post_script_name: Play-Regular
-    version: 2.101; ttfautohint (v1.6)
-    copyright: Copyright (c) 2011, Jonas Hecksher, Playtypes, e-types AS (lasse@e-types.com),
-      with Reserved Font Name 'Play', 'Playtype', 'Playtype Sans'.
-    font: Play-Regular.ttf
   - family_name: Play
     type: Bold
     full_name: Play Bold
@@ -26,9 +19,16 @@ fonts:
     version: 2.101; ttfautohint (v1.6)
     copyright: Copyright (c) 2011, Jonas Hecksher, Playtypes, e-types AS (lasse@e-types.com),
       with Reserved Font Name 'Play', 'Playtype', 'Playtype Sans'.
-    font: Play-Bold.ttf
-extract:
-  format: zip
+    font: 6ae84K2oVqwItm4TOpc423nTJTM.ttf
+  - family_name: Play
+    type: Regular
+    full_name: Play Regular
+    post_script_name: Play-Regular
+    version: 2.101; ttfautohint (v1.6)
+    copyright: Copyright (c) 2011, Jonas Hecksher, Playtypes, e-types AS (lasse@e-types.com),
+      with Reserved Font Name 'Play', 'Playtype', 'Playtype Sans'.
+    font: 6aez4K2oVqwIjtI8Hp8Tx3A.ttf
+extract: {}
 copyright: Copyright (c) 2011, Jonas Hecksher, Playtypes, e-types AS (lasse@e-types.com),
   with Reserved Font Name 'Play', 'Playtype', 'Playtype Sans'.
 license_url: http://scripts.sil.org/OFL
@@ -126,3 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

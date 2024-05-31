@@ -1,12 +1,13 @@
 ---
+name: Fauna One
 description: Fauna One
 homepage: http://www.tipo.net.ar
 resources:
-  Fauna_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Fauna%20One
-    sha256: 00102ffce344e0436d212edb06b31e9a8e5fe6038490ea43b6ed5a4a4bae7b2c
-    file_size: 32598
+  Fauna One:
+    source: google
+    family: Fauna One
+    files:
+    - https://fonts.gstatic.com/s/faunaone/v15/wlpzgwTPBVpjpCuwkuEx2UxLYClOCg.ttf
 fonts:
 - name: Fauna One
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.001; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
     copyright: Copyright 2013 The Fauna One Project Authors (https://github.com/etunni/fauna-one)
       with Reserved Font Name 'Fauna'
-    font: FaunaOne-Regular.ttf
+    font: wlpzgwTPBVpjpCuwkuEx2UxLYClOCg.ttf
 extract: {}
 copyright: Copyright 2013 The Fauna One Project Authors (https://github.com/etunni/fauna-one)
   with Reserved Font Name 'Fauna'
@@ -27,7 +28,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -116,5 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 80296203836ad26323cfd993a6c426ba9416db1291e2475c6e0a3559998db438
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

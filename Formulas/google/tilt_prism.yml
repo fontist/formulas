@@ -1,12 +1,13 @@
 ---
+name: Tilt Prism
 description: Tilt Prism
 homepage: http://www.andyclymer.com/
 resources:
-  Tilt_Prism.zip:
-    urls:
-    - https://fonts.google.com/download?family=Tilt%20Prism
-    sha256: c10c0a0f64307f74bbd41bdc33047ac0704f52ef92d4d778daab6dd009e31108
-    file_size: 652938
+  Tilt Prism:
+    source: google
+    family: Tilt Prism
+    files:
+    - https://fonts.gstatic.com/s/tiltprism/v11/5h11iZgyPHoZ3YikNzWGfWey2dCAZXT-bH9V4VGn-FJ7tLI25oc_rIbwoTSrn86NKw.ttf
 fonts:
 - name: Tilt Prism
   styles:
@@ -16,14 +17,7 @@ fonts:
     post_script_name: TiltPrism-Regular
     version: '1.000'
     copyright: Copyright 2019 The Tilt Project Authors (https://github.com/googlefonts/Tilt-Fonts)
-    font: TiltPrism-Regular-VariableFont_XROT,YROT.ttf
-  - family_name: Tilt Prism
-    type: Regular
-    full_name: Tilt Prism Regular
-    post_script_name: TiltPrism-Regular
-    version: '1.000'
-    copyright: Copyright 2019 The Tilt Project Authors (https://github.com/googlefonts/Tilt-Fonts)
-    font: TiltPrism-Regular.ttf
+    font: 5h11iZgyPHoZ3YikNzWGfWey2dCAZXT-bH9V4VGn-FJ7tLI25oc_rIbwoTSrn86NKw.ttf
 extract: {}
 copyright: Copyright 2019 The Tilt Project Authors (https://github.com/googlefonts/Tilt-Fonts)
 license_url: http://scripts.sil.org/OFL
@@ -121,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 61fa8bd90f841312f4236cf79a4b68dc4a9a4d9bac9f134b22f5b4cb7f386dc4
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

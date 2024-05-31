@@ -3,65 +3,94 @@ name: Tajawal
 description: Tajawal
 homepage: http://www.boutrosfonts.com
 resources:
-  Tajawal.zip:
-    urls:
-    - https://fonts.google.com/download?family=Tajawal
-    sha256: 2400d7fbfbd8dc72b4fb732f59237bd71d482716524815704cc522ba92160706
-    file_size: 196039
+  Tajawal:
+    source: google
+    family: Tajawal
+    files:
+    - https://fonts.gstatic.com/s/tajawal/v9/Iurf6YBj_oCad4k1l_6gLrZjiLlJ-G0.ttf
+    - https://fonts.gstatic.com/s/tajawal/v9/Iurf6YBj_oCad4k1l5qjLrZjiLlJ-G0.ttf
+    - https://fonts.gstatic.com/s/tajawal/v9/Iura6YBj_oCad4k1rzaLCr5IlLA.ttf
+    - https://fonts.gstatic.com/s/tajawal/v9/Iurf6YBj_oCad4k1l8KiLrZjiLlJ-G0.ttf
+    - https://fonts.gstatic.com/s/tajawal/v9/Iurf6YBj_oCad4k1l4qkLrZjiLlJ-G0.ttf
+    - https://fonts.gstatic.com/s/tajawal/v9/Iurf6YBj_oCad4k1l5anLrZjiLlJ-G0.ttf
+    - https://fonts.gstatic.com/s/tajawal/v9/Iurf6YBj_oCad4k1l7KmLrZjiLlJ-G0.ttf
 fonts:
 - name: Tajawal
   styles:
   - family_name: Tajawal
-    type: ExtraLight
-    full_name: Tajawal ExtraLight
-    post_script_name: Tajawal-ExtraLight
-    version: '1.700'
-    copyright: "(c) 2017 by Boutros International. All rights reserved."
-    font: Tajawal-ExtraLight.ttf
-  - family_name: Tajawal
-    type: Light
-    full_name: Tajawal Light
-    post_script_name: Tajawal-Light
-    version: '1.700'
-    copyright: "(c) 2017 by Boutros International. All rights reserved."
-    font: Tajawal-Light.ttf
-  - family_name: Tajawal
-    type: Regular
-    full_name: Tajawal
-    post_script_name: Tajawal-Regular
-    version: '1.700'
-    copyright: "(c) 2017 by Boutros International. All rights reserved."
-    font: Tajawal-Regular.ttf
-  - family_name: Tajawal
-    type: Medium
-    full_name: Tajawal-Medium
-    post_script_name: Tajawal-Medium
-    version: '1.700'
-    copyright: "(c) 2017 by Boutros International. All rights reserved."
-    font: Tajawal-Medium.ttf
-  - family_name: Tajawal
     type: Bold
+    preferred_family_name: Tajawal
+    preferred_type: Bold
     full_name: Tajawal-Bold
     post_script_name: Tajawal-Bold
     version: '1.700'
     copyright: "(c) 2017 by Boutros International. All rights reserved."
-    font: Tajawal-Bold.ttf
+    font: Iurf6YBj_oCad4k1l4qkLrZjiLlJ-G0.ttf
   - family_name: Tajawal
-    type: ExtraBold
-    full_name: Tajawal ExtraBold
-    post_script_name: Tajawal-ExtraBold
+    type: Regular
+    preferred_family_name: Tajawal
+    preferred_type: Regular
+    full_name: Tajawal
+    post_script_name: Tajawal-Regular
     version: '1.700'
     copyright: "(c) 2017 by Boutros International. All rights reserved."
-    font: Tajawal-ExtraBold.ttf
-  - family_name: Tajawal
-    type: Black
+    font: Iura6YBj_oCad4k1rzaLCr5IlLA.ttf
+- name: Tajawal Black
+  styles:
+  - family_name: Tajawal Black
+    type: Regular
+    preferred_family_name: Tajawal
+    preferred_type: Black
     full_name: Tajawal Black
     post_script_name: Tajawal-Black
     version: '1.700'
     copyright: "(c) 2017 by Boutros International. All rights reserved."
-    font: Tajawal-Black.ttf
-extract:
-  format: zip
+    font: Iurf6YBj_oCad4k1l7KmLrZjiLlJ-G0.ttf
+- name: Tajawal ExtraBold
+  styles:
+  - family_name: Tajawal ExtraBold
+    type: Regular
+    preferred_family_name: Tajawal
+    preferred_type: ExtraBold
+    full_name: Tajawal ExtraBold
+    post_script_name: Tajawal-ExtraBold
+    version: '1.700'
+    copyright: "(c) 2017 by Boutros International. All rights reserved."
+    font: Iurf6YBj_oCad4k1l5anLrZjiLlJ-G0.ttf
+- name: Tajawal ExtraLight
+  styles:
+  - family_name: Tajawal ExtraLight
+    type: Regular
+    preferred_family_name: Tajawal
+    preferred_type: ExtraLight
+    full_name: Tajawal ExtraLight
+    post_script_name: Tajawal-ExtraLight
+    version: '1.700'
+    copyright: "(c) 2017 by Boutros International. All rights reserved."
+    font: Iurf6YBj_oCad4k1l_6gLrZjiLlJ-G0.ttf
+- name: Tajawal Light
+  styles:
+  - family_name: Tajawal Light
+    type: Regular
+    preferred_family_name: Tajawal
+    preferred_type: Light
+    full_name: Tajawal Light
+    post_script_name: Tajawal-Light
+    version: '1.700'
+    copyright: "(c) 2017 by Boutros International. All rights reserved."
+    font: Iurf6YBj_oCad4k1l5qjLrZjiLlJ-G0.ttf
+- name: Tajawal Medium
+  styles:
+  - family_name: Tajawal Medium
+    type: Regular
+    preferred_family_name: Tajawal
+    preferred_type: Medium
+    full_name: Tajawal-Medium
+    post_script_name: Tajawal-Medium
+    version: '1.700'
+    copyright: "(c) 2017 by Boutros International. All rights reserved."
+    font: Iurf6YBj_oCad4k1l8KiLrZjiLlJ-G0.ttf
+extract: {}
 copyright: "(c) 2017 by Boutros International. All rights reserved."
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -158,3 +187,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

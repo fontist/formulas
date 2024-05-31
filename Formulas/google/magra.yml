@@ -3,22 +3,15 @@ name: Magra
 description: Magra
 homepage: http://www.fontfuror.com
 resources:
-  Magra.zip:
-    urls:
-    - https://fonts.google.com/download?family=Magra
-    sha256: 6a73273eef99c4aec1277f9984238615df084f76f855ab00fc91afd04185326d
-    file_size: 45221
+  Magra:
+    source: google
+    family: Magra
+    files:
+    - https://fonts.gstatic.com/s/magra/v14/uK_94ruaZus72k5xIDMfO-ed.ttf
+    - https://fonts.gstatic.com/s/magra/v14/uK_w4ruaZus72nbNDxcXEPuUX1ow.ttf
 fonts:
 - name: Magra
   styles:
-  - family_name: Magra
-    type: Regular
-    full_name: Magra
-    post_script_name: Magra
-    version: '1.001'
-    copyright: Copyright (c) 2011, FontFuror (info@fontfuror), with Reserved Names
-      "Magra" "Magra Pro"
-    font: Magra-Regular.ttf
   - family_name: Magra
     type: Bold
     full_name: Magra Bold
@@ -26,11 +19,18 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011, FontFuror (info@fontfuror), with Reserved Names
       "Magra" "Magra Pro"
-    font: Magra-Bold.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, FontFuror (info@fontfuror.com), with Reserved Names
-  "Magra" "Magra Pro"
+    font: uK_w4ruaZus72nbNDxcXEPuUX1ow.ttf
+  - family_name: Magra
+    type: Regular
+    full_name: Magra
+    post_script_name: Magra
+    version: '1.001'
+    copyright: Copyright (c) 2011, FontFuror (info@fontfuror), with Reserved Names
+      "Magra" "Magra Pro"
+    font: uK_94ruaZus72k5xIDMfO-ed.ttf
+extract: {}
+copyright: Copyright (c) 2011, FontFuror (info@fontfuror), with Reserved Names "Magra"
+  "Magra Pro"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, FontFuror (info@fontfuror.com),
@@ -127,3 +127,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

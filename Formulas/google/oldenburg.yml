@@ -3,11 +3,11 @@ name: Oldenburg
 description: Oldenburg
 homepage: sorkintype.com
 resources:
-  Oldenburg.zip:
-    urls:
-    - https://fonts.google.com/download?family=Oldenburg
-    sha256: 005f95ea60e2e4a2e546771bc7fa826451467709c480d0d346ad1fb077bf7fd3
-    file_size: 28091
+  Oldenburg:
+    source: google
+    family: Oldenburg
+    files:
+    - https://fonts.gstatic.com/s/oldenburg/v22/fC1jPY5JYWzbywv7c4V6UU6oXyndrw.ttf
 fonts:
 - name: Oldenburg
   styles:
@@ -22,11 +22,9 @@ fonts:
       ulity in Oldernburg it still presenst plenty of the whimsical feeling that made
       it's source so attractive. Oldenburg can be used a in a wide range of sizes.
     copyright: Copyright (c) 2010 by Sorkin Type Co with Reserved Font Name Oldenburgh.
-    font: Oldenburg-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010 by Sorkin Type Co (eben@eyebytes.com) with Reserved
-  Font Name Oldenburgh.
+    font: fC1jPY5JYWzbywv7c4V6UU6oXyndrw.ttf
+extract: {}
+copyright: Copyright (c) 2010 by Sorkin Type Co with Reserved Font Name Oldenburgh.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
@@ -123,3 +121,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

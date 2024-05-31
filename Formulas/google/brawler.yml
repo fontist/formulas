@@ -1,28 +1,36 @@
 ---
+name: Brawler
 description: Brawler
 homepage: http://cyreal.org
 resources:
-  Brawler.zip:
-    urls:
-    - https://fonts.google.com/download?family=Brawler
-    sha256: a953a96340955feed220c8d5a191913f53ec90e16cad623a11e7e2fff59cac07
-    file_size: 50241
+  Brawler:
+    source: google
+    family: Brawler
+    files:
+    - https://fonts.gstatic.com/s/brawler/v19/xn7gYHE3xXewAscGsgC7S9XdZN8.ttf
+    - https://fonts.gstatic.com/s/brawler/v19/xn7lYHE3xXewAscGiryUb932eNaPfk8.ttf
 fonts:
 - name: Brawler
   styles:
   - family_name: Brawler
+    type: Bold
+    full_name: Brawler Bold
+    post_script_name: Brawler-Bold
+    version: 1.101; ttfautohint (v1.8.3)
+    copyright: Copyright 2011 The Brawler Project Authors (https://github.com/cyrealtype/Brawler)
+    font: xn7lYHE3xXewAscGiryUb932eNaPfk8.ttf
+  - family_name: Brawler
     type: Regular
     full_name: Brawler Regular
     post_script_name: Brawler-Regular
-    version: '1.001'
-    copyright: Copyright (c) 2011 by Oleg Frolov | Cyreal. All rights reserved.
-    font: Brawler-Regular.ttf
+    version: 1.101; ttfautohint (v1.8.3)
+    copyright: Copyright 2011 The Brawler Project Authors (https://github.com/cyrealtype/Brawler)
+    font: xn7gYHE3xXewAscGsgC7S9XdZN8.ttf
 extract: {}
-copyright: Copyright (c) 2011 by Oleg Frolov | Cyreal. All rights reserved.
+copyright: Copyright 2011 The Brawler Project Authors (https://github.com/cyrealtype/Brawler)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2011, Cyreal (www.cyreal.org),
-  with Reserved Font Name "Brawler".
+  Copyright 2011 The Brawler Project Authors (https://github.com/cyrealtype/Brawler)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -115,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 374609c409643a9e55d454339624fea8c9c31580d52833a897566283394467f9
-command: google import --formulas_path Formulas
+command: import google -n 9999

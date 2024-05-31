@@ -3,38 +3,19 @@ name: Sarpanch
 description: Sarpanch
 homepage: http://www.indiantypefoundry.com
 resources:
-  Sarpanch.zip:
-    urls:
-    - https://fonts.google.com/download?family=Sarpanch
-    sha256: 92104996e8b24650cb97cc957d531492c5c1ce8c4bd84b0a03e80c400555c63a
-    file_size: 694122
+  Sarpanch:
+    source: google
+    family: Sarpanch
+    files:
+    - https://fonts.gstatic.com/s/sarpanch/v13/hESy6Xt4NCpRuk6Pzh2ARIrX_20n.ttf
+    - https://fonts.gstatic.com/s/sarpanch/v13/hES16Xt4NCpRuk6PziV0ba7f1HEuRHkM.ttf
+    - https://fonts.gstatic.com/s/sarpanch/v13/hES16Xt4NCpRuk6PziVYaq7f1HEuRHkM.ttf
+    - https://fonts.gstatic.com/s/sarpanch/v13/hES16Xt4NCpRuk6PziU8a67f1HEuRHkM.ttf
+    - https://fonts.gstatic.com/s/sarpanch/v13/hES16Xt4NCpRuk6PziUgaK7f1HEuRHkM.ttf
+    - https://fonts.gstatic.com/s/sarpanch/v13/hES16Xt4NCpRuk6PziUEaa7f1HEuRHkM.ttf
 fonts:
 - name: Sarpanch
   styles:
-  - family_name: Sarpanch
-    type: Regular
-    full_name: Sarpanch Regular
-    post_script_name: Sarpanch-Regular
-    version: 2.004;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
-      -l 8 -r 50 -G 200 -x 14 -D latn -f deva -w gGD -W -c
-    copyright: Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)
-    font: Sarpanch-Regular.ttf
-  - family_name: Sarpanch
-    type: Medium
-    full_name: Sarpanch Medium
-    post_script_name: Sarpanch-Medium
-    version: 2.004;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
-      -l 8 -r 50 -G 200 -x 14 -D latn -f deva -w gGD -W -c
-    copyright: Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)
-    font: Sarpanch-Medium.ttf
-  - family_name: Sarpanch
-    type: SemiBold
-    full_name: Sarpanch SemiBold
-    post_script_name: Sarpanch-SemiBold
-    version: 2.004;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
-      -l 8 -r 50 -G 200 -x 14 -D latn -f deva -w gGD -W -c
-    copyright: Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)
-    font: Sarpanch-SemiBold.ttf
   - family_name: Sarpanch
     type: Bold
     full_name: Sarpanch Bold
@@ -42,25 +23,64 @@ fonts:
     version: 2.004;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
       -l 8 -r 50 -G 200 -x 14 -D latn -f deva -w gGD -W -c
     copyright: Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)
-    font: Sarpanch-Bold.ttf
+    font: hES16Xt4NCpRuk6PziU8a67f1HEuRHkM.ttf
   - family_name: Sarpanch
-    type: ExtraBold
-    full_name: Sarpanch ExtraBold
-    post_script_name: Sarpanch-ExtraBold
+    type: Regular
+    full_name: Sarpanch Regular
+    post_script_name: Sarpanch-Regular
     version: 2.004;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
       -l 8 -r 50 -G 200 -x 14 -D latn -f deva -w gGD -W -c
     copyright: Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)
-    font: Sarpanch-ExtraBold.ttf
-  - family_name: Sarpanch
-    type: Black
+    font: hESy6Xt4NCpRuk6Pzh2ARIrX_20n.ttf
+- name: Sarpanch Black
+  styles:
+  - family_name: Sarpanch Black
+    type: Regular
+    preferred_family_name: Sarpanch
+    preferred_type: Black
     full_name: Sarpanch Black
     post_script_name: Sarpanch-Black
     version: 2.004;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
       -l 8 -r 50 -G 200 -x 14 -D latn -f deva -w gGD -W -c
     copyright: Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)
-    font: Sarpanch-Black.ttf
-extract:
-  format: zip
+    font: hES16Xt4NCpRuk6PziUEaa7f1HEuRHkM.ttf
+- name: Sarpanch ExtraBold
+  styles:
+  - family_name: Sarpanch ExtraBold
+    type: Regular
+    preferred_family_name: Sarpanch
+    preferred_type: ExtraBold
+    full_name: Sarpanch ExtraBold
+    post_script_name: Sarpanch-ExtraBold
+    version: 2.004;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
+      -l 8 -r 50 -G 200 -x 14 -D latn -f deva -w gGD -W -c
+    copyright: Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)
+    font: hES16Xt4NCpRuk6PziUgaK7f1HEuRHkM.ttf
+- name: Sarpanch Medium
+  styles:
+  - family_name: Sarpanch Medium
+    type: Regular
+    preferred_family_name: Sarpanch
+    preferred_type: Medium
+    full_name: Sarpanch Medium
+    post_script_name: Sarpanch-Medium
+    version: 2.004;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
+      -l 8 -r 50 -G 200 -x 14 -D latn -f deva -w gGD -W -c
+    copyright: Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)
+    font: hES16Xt4NCpRuk6PziV0ba7f1HEuRHkM.ttf
+- name: Sarpanch SemiBold
+  styles:
+  - family_name: Sarpanch SemiBold
+    type: Regular
+    preferred_family_name: Sarpanch
+    preferred_type: SemiBold
+    full_name: Sarpanch SemiBold
+    post_script_name: Sarpanch-SemiBold
+    version: 2.004;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
+      -l 8 -r 50 -G 200 -x 14 -D latn -f deva -w gGD -W -c
+    copyright: Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)
+    font: hES16Xt4NCpRuk6PziVYaq7f1HEuRHkM.ttf
+extract: {}
 copyright: Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -157,3 +177,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

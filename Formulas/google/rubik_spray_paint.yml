@@ -1,12 +1,13 @@
 ---
+name: Rubik Spray Paint
 description: Rubik Spray Paint
 homepage: http://www.google.com/fonts
 resources:
-  Rubik_Spray_Paint.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rubik%20Spray%20Paint
-    sha256: 6e507da85385ab660cb45d546876503ce1c6740c2fe12de1b5962fcd3c2b76c0
-    file_size: 318622
+  Rubik Spray Paint:
+    source: google
+    family: Rubik Spray Paint
+    files:
+    - https://fonts.gstatic.com/s/rubikspraypaint/v1/WnzhHBAoeBPUDTB4EWR82y6EXWPH-Ro-QoaBZQxP.ttf
 fonts:
 - name: Rubik Spray Paint
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: RubikSprayPaint-Regular
     version: '2.200'
     copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
-    font: RubikSprayPaint-Regular.ttf
+    font: WnzhHBAoeBPUDTB4EWR82y6EXWPH-Ro-QoaBZQxP.ttf
 extract: {}
 copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: f64304136924fe73a74e4fc73aa90f678bbb86ce6c7f65a1951d30f99139cc53
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

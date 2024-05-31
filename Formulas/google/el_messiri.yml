@@ -3,10 +3,14 @@ name: El Messiri
 description: El Messiri
 homepage: http://kieftype.com/
 resources:
-  El_Messiri.zip:
-    urls:
-    - https://fonts.google.com/download?family=El%20Messiri
-    file_size: 253789
+  El Messiri:
+    source: google
+    family: El Messiri
+    files:
+    - https://fonts.gstatic.com/s/elmessiri/v22/K2FhfZBRmr9vQ1pHEey6GIGo8_pv3myYjuXwe65ghj3OoapG.ttf
+    - https://fonts.gstatic.com/s/elmessiri/v22/K2FhfZBRmr9vQ1pHEey6GIGo8_pv3myYjuXCe65ghj3OoapG.ttf
+    - https://fonts.gstatic.com/s/elmessiri/v22/K2FhfZBRmr9vQ1pHEey6GIGo8_pv3myYjuUufK5ghj3OoapG.ttf
+    - https://fonts.gstatic.com/s/elmessiri/v22/K2FhfZBRmr9vQ1pHEey6GIGo8_pv3myYjuUXfK5ghj3OoapG.ttf
 fonts:
 - name: El Messiri
   styles:
@@ -14,43 +18,43 @@ fonts:
     type: Bold
     full_name: El Messiri Bold
     post_script_name: ElMessiri-Bold
-    version: '2.006'
-    copyright: Copyright 2015 The El Messiri Project Authors.
-    font: ElMessiri-Bold.ttf
+    version: '2.020'
+    copyright: Copyright 2015 The El Messiri Project Authors (https://github.com/Gue3bara/El-Messiri)
+    font: K2FhfZBRmr9vQ1pHEey6GIGo8_pv3myYjuUXfK5ghj3OoapG.ttf
   - family_name: El Messiri
     type: Regular
-    full_name: ElMessiri-Regular
+    full_name: El Messiri Regular
     post_script_name: ElMessiri-Regular
-    version: '2.006'
-    copyright: Copyright 2015 The El Messiri Project Authors.
-    font: ElMessiri-Regular.ttf
+    version: '2.020'
+    copyright: Copyright 2015 The El Messiri Project Authors (https://github.com/Gue3bara/El-Messiri)
+    font: K2FhfZBRmr9vQ1pHEey6GIGo8_pv3myYjuXwe65ghj3OoapG.ttf
 - name: El Messiri Medium
   styles:
   - family_name: El Messiri Medium
     type: Regular
     preferred_family_name: El Messiri
     preferred_type: Medium
-    full_name: ElMessiri-Medium
+    full_name: El Messiri Medium
     post_script_name: ElMessiri-Medium
-    version: '2.006'
-    copyright: Copyright 2015 The El Messiri Project Authors.
-    font: ElMessiri-Medium.ttf
+    version: '2.020'
+    copyright: Copyright 2015 The El Messiri Project Authors (https://github.com/Gue3bara/El-Messiri)
+    font: K2FhfZBRmr9vQ1pHEey6GIGo8_pv3myYjuXCe65ghj3OoapG.ttf
 - name: El Messiri SemiBold
   styles:
   - family_name: El Messiri SemiBold
     type: Regular
     preferred_family_name: El Messiri
     preferred_type: SemiBold
-    full_name: ElMessiri-SemiBold
+    full_name: El Messiri SemiBold
     post_script_name: ElMessiri-SemiBold
-    version: '2.006'
-    copyright: Copyright 2015 The El Messiri Project Authors.
-    font: ElMessiri-SemiBold.ttf
+    version: '2.020'
+    copyright: Copyright 2015 The El Messiri Project Authors (https://github.com/Gue3bara/El-Messiri)
+    font: K2FhfZBRmr9vQ1pHEey6GIGo8_pv3myYjuUufK5ghj3OoapG.ttf
 extract: {}
-copyright: Copyright 2015 The El Messiri Project Authors.
+copyright: Copyright 2015 The El Messiri Project Authors (https://github.com/Gue3bara/El-Messiri)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2015 The El Messiri Project Authors.
+  Copyright 2015 The El Messiri Project Authors (https://github.com/Gue3bara/El-Messiri)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -143,5 +147,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d6f5b749a480f819297ffe64d1dd7a1b2d2c0059671111cefbe85d0c3882d064
-command: google import --formulas_path Formulas
+command: import google -n 9999

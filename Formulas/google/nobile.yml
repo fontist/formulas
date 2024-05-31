@@ -1,69 +1,84 @@
 ---
 name: Nobile
 description: Nobile
-homepage:
 resources:
-  Nobile.zip:
-    urls:
-    - https://fonts.google.com/download?family=Nobile
-    sha256: 562718adf896c014a30fa0c720a795ef9ea9f68d16c17799a5b8353a97af31dc
-    file_size: 283950
+  Nobile:
+    source: google
+    family: Nobile
+    files:
+    - https://fonts.gstatic.com/s/nobile/v17/m8JTjflSeaOVl1i2XqfXeLVdbw.ttf
+    - https://fonts.gstatic.com/s/nobile/v17/m8JRjflSeaOVl1iGXK3TWrBNb3OD.ttf
+    - https://fonts.gstatic.com/s/nobile/v17/m8JQjflSeaOVl1iOqo7zcJ5BZmqa3A.ttf
+    - https://fonts.gstatic.com/s/nobile/v17/m8JWjflSeaOVl1iGXJUnc5RFRG-K3Mud.ttf
+    - https://fonts.gstatic.com/s/nobile/v17/m8JQjflSeaOVl1iO4ojzcJ5BZmqa3A.ttf
+    - https://fonts.gstatic.com/s/nobile/v17/m8JWjflSeaOVl1iGXJVvdZRFRG-K3Mud.ttf
 fonts:
 - name: Nobile
   styles:
   - family_name: Nobile
-    type: Regular
-    full_name: Nobile
-    post_script_name: Nobile-Regular
-    version: '001.001'
-    description: Copyright (c) 2007-2010 by vernon adams. All rights reserved.
-    copyright: Copyright (c) 2010 by vernon adams. All rights reserved.
-    font: Nobile-Regular.ttf
-  - family_name: Nobile
-    type: Italic
-    full_name: Nobile Italic
-    post_script_name: Nobile-Italic
-    version: 1.000;PS 001.000;hotconv 1.0.38
-    description: Copyright (c) 2007-2010 by vernon adams. All rights reserved.
-    copyright: Copyright (c) 2010 by vernon adams. All rights reserved.
-    font: Nobile-Italic.ttf
-  - family_name: Nobile
-    type: Medium
-    full_name: Nobile Medium
-    post_script_name: Nobile-Medium
-    version: '001.000'
-    description: Copyright (c) 2007-2010 by vernon adams. All rights reserved.
-    copyright: Copyright (c) 2010 by vernon adams. All rights reserved.
-    font: Nobile-Medium.ttf
-  - family_name: Nobile
-    type: Medium Italic
-    full_name: Nobile Medium Italic
-    post_script_name: Nobile-MediumItalic
-    version: 1.000;PS 001.000;hotconv 1.0.38
-    description: Copyright (c) 2007-2010 by vernon adams. All rights reserved.
-    copyright: Copyright (c) 2010 by vernon adams. All rights reserved.
-    font: Nobile-MediumItalic.ttf
-  - family_name: Nobile
     type: Bold
+    preferred_family_name: Nobile
+    preferred_type: Bold
     full_name: Nobile Bold
     post_script_name: Nobile-Bold
     version: '001.000'
     description: Copyright (c) 2007-2010 by vernon adams. All rights reserved.
     copyright: Copyright (c) 2010 by vernon adams. All rights reserved.
-    font: Nobile-Bold.ttf
+    font: m8JQjflSeaOVl1iO4ojzcJ5BZmqa3A.ttf
   - family_name: Nobile
     type: Bold Italic
+    preferred_family_name: Nobile
+    preferred_type: Bold Italic
     full_name: Nobile Bold Italic
     post_script_name: Nobile-BoldItalic
     version: 1.000;PS 001.000;hotconv 1.0.38
     description: Copyright (c) 2007-2010 by vernon adams. All rights reserved.
     copyright: Copyright (c) 2010 by vernon adams. All rights reserved.
-    font: Nobile-BoldItalic.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010 by vernon adams (vern@newtypography.co.uk) with Reserved
-  Font Name 'Nobile'. All rights reserved.
-license_url:
+    font: m8JWjflSeaOVl1iGXJVvdZRFRG-K3Mud.ttf
+  - family_name: Nobile
+    type: Italic
+    preferred_family_name: Nobile
+    preferred_type: Italic
+    full_name: Nobile Italic
+    post_script_name: Nobile-Italic
+    version: 1.000;PS 001.000;hotconv 1.0.38
+    description: Copyright (c) 2007-2010 by vernon adams. All rights reserved.
+    copyright: Copyright (c) 2010 by vernon adams. All rights reserved.
+    font: m8JRjflSeaOVl1iGXK3TWrBNb3OD.ttf
+  - family_name: Nobile
+    type: Regular
+    preferred_family_name: Nobile
+    preferred_type: Regular
+    full_name: Nobile
+    post_script_name: Nobile-Regular
+    version: '001.001'
+    description: Copyright (c) 2007-2010 by vernon adams. All rights reserved.
+    copyright: Copyright (c) 2010 by vernon adams. All rights reserved.
+    font: m8JTjflSeaOVl1i2XqfXeLVdbw.ttf
+- name: Nobile Medium
+  styles:
+  - family_name: Nobile Medium
+    type: Italic
+    preferred_family_name: Nobile
+    preferred_type: Medium Italic
+    full_name: Nobile Medium Italic
+    post_script_name: Nobile-MediumItalic
+    version: 1.000;PS 001.000;hotconv 1.0.38
+    description: Copyright (c) 2007-2010 by vernon adams. All rights reserved.
+    copyright: Copyright (c) 2010 by vernon adams. All rights reserved.
+    font: m8JWjflSeaOVl1iGXJUnc5RFRG-K3Mud.ttf
+  - family_name: Nobile Medium
+    type: Regular
+    preferred_family_name: Nobile
+    preferred_type: Medium
+    full_name: Nobile Medium
+    post_script_name: Nobile-Medium
+    version: '001.000'
+    description: Copyright (c) 2007-2010 by vernon adams. All rights reserved.
+    copyright: Copyright (c) 2010 by vernon adams. All rights reserved.
+    font: m8JQjflSeaOVl1iOqo7zcJ5BZmqa3A.ttf
+extract: {}
+copyright: Copyright (c) 2010 by vernon adams. All rights reserved.
 open_license: |-
   Copyright (c) 2010-2012, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Name Nobile.
 
@@ -158,3 +173,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

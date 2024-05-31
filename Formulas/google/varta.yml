@@ -3,22 +3,66 @@ name: Varta
 description: Varta
 homepage: www.sorkintype.com
 resources:
-  Varta.zip:
-    urls:
-    - https://fonts.google.com/download?family=Varta
-    file_size: 255956
+  Varta:
+    source: google
+    family: Varta
+    files:
+    - https://fonts.gstatic.com/s/varta/v21/Qw3AZQpJHj_6LzHUngWbrFkDH1x96j4EirE-9PGLfQ.ttf
+    - https://fonts.gstatic.com/s/varta/v21/Qw3AZQpJHj_6LzHUngWbrFkDH1x9tD4EirE-9PGLfQ.ttf
+    - https://fonts.gstatic.com/s/varta/v21/Qw3AZQpJHj_6LzHUngWbrFkDH1x9hj4EirE-9PGLfQ.ttf
+    - https://fonts.gstatic.com/s/varta/v21/Qw3AZQpJHj_6LzHUngWbrFkDH1x9ajkEirE-9PGLfQ.ttf
+    - https://fonts.gstatic.com/s/varta/v21/Qw3AZQpJHj_6LzHUngWbrFkDH1x9UzkEirE-9PGLfQ.ttf
 fonts:
 - name: Varta
   styles:
   - family_name: Varta
-    type: Light
+    type: Bold
+    full_name: Varta Bold
+    post_script_name: Varta-Bold
+    version: '1.004'
+    copyright: Copyright 2019 The Varta Project Authors (https://github.com/SorkinType/Varta)
+    font: Qw3AZQpJHj_6LzHUngWbrFkDH1x9UzkEirE-9PGLfQ.ttf
+  - family_name: Varta
+    type: Regular
+    full_name: Varta Regular
+    post_script_name: Varta-Regular
+    version: '1.004'
+    copyright: Copyright 2019 The Varta Project Authors (https://github.com/SorkinType/Varta)
+    font: Qw3AZQpJHj_6LzHUngWbrFkDH1x9tD4EirE-9PGLfQ.ttf
+- name: Varta Light
+  styles:
+  - family_name: Varta Light
+    type: Regular
+    preferred_family_name: Varta
+    preferred_type: Light
     full_name: Varta Light
     post_script_name: Varta-Light
     version: '1.004'
     copyright: Copyright 2019 The Varta Project Authors (https://github.com/SorkinType/Varta)
-    font: Varta-VariableFont_wght.ttf
-extract:
-  format: zip
+    font: Qw3AZQpJHj_6LzHUngWbrFkDH1x96j4EirE-9PGLfQ.ttf
+- name: Varta Medium
+  styles:
+  - family_name: Varta Medium
+    type: Regular
+    preferred_family_name: Varta
+    preferred_type: Medium
+    full_name: Varta Medium
+    post_script_name: Varta-Medium
+    version: '1.004'
+    copyright: Copyright 2019 The Varta Project Authors (https://github.com/SorkinType/Varta)
+    font: Qw3AZQpJHj_6LzHUngWbrFkDH1x9hj4EirE-9PGLfQ.ttf
+- name: Varta SemiBold
+  styles:
+  - family_name: Varta SemiBold
+    type: Regular
+    preferred_family_name: Varta
+    preferred_type: SemiBold
+    full_name: Varta SemiBold
+    post_script_name: Varta-SemiBold
+    version: '1.004'
+    copyright: Copyright 2019 The Varta Project Authors (https://github.com/SorkinType/Varta)
+    font: Qw3AZQpJHj_6LzHUngWbrFkDH1x9ajkEirE-9PGLfQ.ttf
+extract: {}
 copyright: Copyright 2019 The Varta Project Authors (https://github.com/SorkinType/Varta)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
@@ -117,3 +161,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

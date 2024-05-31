@@ -1,12 +1,13 @@
 ---
+name: Monofett
 description: Monofett
 homepage: http://www.sansoxygen.com
 resources:
-  Monofett.zip:
-    urls:
-    - https://fonts.google.com/download?family=Monofett
-    sha256: 7ed2f0b670d152a6d597a27020d07c847bda8a3052836bea19b4e5a1e7308936
-    file_size: 30390
+  Monofett:
+    source: google
+    family: Monofett
+    files:
+    - https://fonts.gstatic.com/s/monofett/v23/mFTyWbofw6zc9NtnW43SuRwr0VJ7.ttf
 fonts:
 - name: Monofett
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 1.100; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.28]
     copyright: Copyright 2010 The Monofett Project Authors (https://github.com/googlefonts/monofett),
       with Reserved Font Name Monofett.
-    font: Monofett-Regular.ttf
+    font: mFTyWbofw6zc9NtnW43SuRwr0VJ7.ttf
 extract: {}
 copyright: Copyright 2010 The Monofett Project Authors (https://github.com/googlefonts/monofett),
   with Reserved Font Name Monofett.
@@ -27,7 +28,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -116,5 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 41bf1d1a2c94b948d73c1c54b70a89bb10e205d62c48ec310da7d889957915cf
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

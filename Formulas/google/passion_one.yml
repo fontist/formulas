@@ -1,23 +1,18 @@
 ---
+name: Passion One
 description: Passion One
 homepage: www.fontstage.com
 resources:
-  PassionOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Passion%20One
-    sha256: e4939f218c8e66013a9066f8fa48e5934279611f554f93fdc04ac6009cf4e585
-    file_size: 41242
+  Passion One:
+    source: google
+    family: Passion One
+    files:
+    - https://fonts.gstatic.com/s/passionone/v18/PbynFmL8HhTPqbjUzux3JHuW_Frg6YoV.ttf
+    - https://fonts.gstatic.com/s/passionone/v18/Pby6FmL8HhTPqbjUzux3JEMq037owpYcuH8y.ttf
+    - https://fonts.gstatic.com/s/passionone/v18/Pby6FmL8HhTPqbjUzux3JEMS0X7owpYcuH8y.ttf
 fonts:
 - name: Passion One
   styles:
-  - family_name: Passion One
-    type: Regular
-    full_name: Passion One Regular
-    post_script_name: PassionOne-Regular
-    version: '1.002'
-    copyright: Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font
-      Name "Passion"
-    font: PassionOne-Regular.ttf
   - family_name: Passion One
     type: Bold
     full_name: Passion One Bold
@@ -25,17 +20,28 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font
       Name "Passion"
-    font: PassionOne-Bold.ttf
+    font: Pby6FmL8HhTPqbjUzux3JEMq037owpYcuH8y.ttf
   - family_name: Passion One
-    type: Black
+    type: Regular
+    full_name: Passion One Regular
+    post_script_name: PassionOne-Regular
+    version: '1.002'
+    copyright: Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font
+      Name "Passion"
+    font: PbynFmL8HhTPqbjUzux3JHuW_Frg6YoV.ttf
+- name: Passion One Black
+  styles:
+  - family_name: Passion One Black
+    type: Regular
+    preferred_family_name: Passion One
+    preferred_type: Black
     full_name: Passion One Black
     post_script_name: PassionOne-Black
     version: '1.002'
     copyright: Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font
       Name "Passion"
-    font: PassionOne-Black.ttf
-extract:
-  format: zip
+    font: Pby6FmL8HhTPqbjUzux3JEMS0X7owpYcuH8y.ttf
+extract: {}
 copyright: Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font Name
   "Passion"
 license_url: http://scripts.sil.org/OFL
@@ -133,3 +139,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

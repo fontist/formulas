@@ -1,11 +1,12 @@
 ---
+name: Sixtyfour
 description: Sixtyfour
 resources:
-  Sixtyfour.zip:
-    urls:
-    - https://fonts.google.com/download?family=Sixtyfour
-    sha256: 8a50a8c44d63412b0f8d4fa97a7f72ef076828d0ed61883df3ee6cf6ec3da884
-    file_size: 27691
+  Sixtyfour:
+    source: google
+    family: Sixtyfour
+    files:
+    - https://fonts.gstatic.com/s/sixtyfour/v1/OD5vuMCT1numDm3nakXtp2h4jg463t9haG_3mBkVsV20uFT3BAE5f73YnyS5ZuOV.ttf
 fonts:
 - name: Sixtyfour
   styles:
@@ -15,14 +16,7 @@ fonts:
     post_script_name: Sixtyfour-Regular
     version: '2.001'
     copyright: Copyright 2021 The Sixtyfour Project Authors (https://github.com/jenskutilek/homecomputer-fonts)
-    font: Sixtyfour-Regular-VariableFont_BLED,SCAN.ttf
-  - family_name: Sixtyfour
-    type: Regular
-    full_name: Sixtyfour Regular
-    post_script_name: Sixtyfour-Regular
-    version: '2.001'
-    copyright: Copyright 2021 The Sixtyfour Project Authors (https://github.com/jenskutilek/homecomputer-fonts)
-    font: Sixtyfour-Regular.ttf
+    font: OD5vuMCT1numDm3nakXtp2h4jg463t9haG_3mBkVsV20uFT3BAE5f73YnyS5ZuOV.ttf
 extract: {}
 copyright: Copyright 2021 The Sixtyfour Project Authors (https://github.com/jenskutilek/homecomputer-fonts)
 license_url: https://scripts.sil.org/OFL
@@ -31,7 +25,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  https://openfontlicense.org
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -120,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 7e421d91eb03d7c57435147f312477bfc5c344ee40dc0d223a3c8af778075491
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

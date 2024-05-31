@@ -3,44 +3,46 @@ name: Caladea
 description: Caladea
 homepage: http://www.huertatipografica.com.ar
 resources:
-  Caladea.zip:
-    urls:
-    - https://fonts.google.com/download?family=Caladea
-    sha256: 3803f28b9a8c116d0f15d16b3ae744c56b446854cc0aca649760872426969cac
-    file_size: 165552
+  Caladea:
+    source: google
+    family: Caladea
+    files:
+    - https://fonts.gstatic.com/s/caladea/v7/kJEzBugZ7AAjhybUjR93-9IztOc.ttf
+    - https://fonts.gstatic.com/s/caladea/v7/kJExBugZ7AAjhybUvR19__A2pOdvDA.ttf
+    - https://fonts.gstatic.com/s/caladea/v7/kJE2BugZ7AAjhybUtaNY39oYqO52FZ0.ttf
+    - https://fonts.gstatic.com/s/caladea/v7/kJE0BugZ7AAjhybUvR1FQ98SrMxzBZ2lDA.ttf
 fonts:
 - name: Caladea
   styles:
-  - family_name: Caladea
-    type: Regular
-    full_name: Caladea Regular
-    post_script_name: Caladea-Regular
-    version: '1.001'
-    copyright: Copyright 2012 The Caladea Project Authors (https://github.com/huertatipografica/Caladea)
-    font: Caladea-Regular.ttf
-  - family_name: Caladea
-    type: Italic
-    full_name: Caladea Italic
-    post_script_name: Caladea-Italic
-    version: '1.001'
-    copyright: Copyright 2012 The Caladea Project Authors (https://github.com/huertatipografica/Caladea)
-    font: Caladea-Italic.ttf
   - family_name: Caladea
     type: Bold
     full_name: Caladea Bold
     post_script_name: Caladea-Bold
     version: '1.001'
     copyright: Copyright 2012 The Caladea Project Authors (https://github.com/huertatipografica/Caladea)
-    font: Caladea-Bold.ttf
+    font: kJE2BugZ7AAjhybUtaNY39oYqO52FZ0.ttf
   - family_name: Caladea
     type: Bold Italic
     full_name: Caladea Bold Italic
     post_script_name: Caladea-BoldItalic
     version: '1.001'
     copyright: Copyright 2012 The Caladea Project Authors (https://github.com/huertatipografica/Caladea)
-    font: Caladea-BoldItalic.ttf
-extract:
-  format: zip
+    font: kJE0BugZ7AAjhybUvR1FQ98SrMxzBZ2lDA.ttf
+  - family_name: Caladea
+    type: Italic
+    full_name: Caladea Italic
+    post_script_name: Caladea-Italic
+    version: '1.001'
+    copyright: Copyright 2012 The Caladea Project Authors (https://github.com/huertatipografica/Caladea)
+    font: kJExBugZ7AAjhybUvR19__A2pOdvDA.ttf
+  - family_name: Caladea
+    type: Regular
+    full_name: Caladea Regular
+    post_script_name: Caladea-Regular
+    version: '1.001'
+    copyright: Copyright 2012 The Caladea Project Authors (https://github.com/huertatipografica/Caladea)
+    font: kJEzBugZ7AAjhybUjR93-9IztOc.ttf
+extract: {}
 copyright: Copyright 2012 The Caladea Project Authors (https://github.com/huertatipografica/Caladea)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -137,3 +139,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

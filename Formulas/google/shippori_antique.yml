@@ -3,11 +3,11 @@ name: Shippori Antique
 description: Shippori Antique
 homepage: http://fontdasu.com
 resources:
-  Shippori_Antique.zip:
-    urls:
-    - https://fonts.google.com/download?family=Shippori%20Antique
-    sha256: 3306c7cf8abdc2abc4e51d3efec070d78ec33a335e4cae10c480df2fa21156a2
-    file_size: 3881531
+  Shippori Antique:
+    source: google
+    family: Shippori Antique
+    files:
+    - https://fonts.gstatic.com/s/shipporiantique/v8/-F6qfid3KC8pdMyzR0qRyFUht11v8ldPg-IUDNg.ttf
 fonts:
 - name: Shippori Antique
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: ShipporiAntique-Regular
     version: '2.001'
     copyright: Copyright 2020 The Shippori Antique Project Authors (https://github.com/fontdasu/ShipporiAntique)
-    font: ShipporiAntique-Regular.ttf
+    font: "-F6qfid3KC8pdMyzR0qRyFUht11v8ldPg-IUDNg.ttf"
 extract: {}
 copyright: Copyright 2020 The Shippori Antique Project Authors (https://github.com/fontdasu/ShipporiAntique)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b37e910a6988933ada868cbb4dc884162ee3eef2d0b95530d77b191cf3eb392e
-command: google import --formulas_path Formulas
+command: import google -n 9999

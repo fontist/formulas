@@ -1,12 +1,12 @@
 ---
+name: Bubbler One
 description: Bubbler One
-homepage:
 resources:
-  BubblerOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Bubbler%20One
-    sha256: 661eb8244d2a4bcf2a000449d7aec1d1ed27b17fa267474b6db110e2f19ce074
-    file_size: 16494
+  Bubbler One:
+    source: google
+    family: Bubbler One
+    files:
+    - https://fonts.gstatic.com/s/bubblerone/v21/f0Xy0eqj68ppQV9KBLmAouHH26MPePkt.ttf
 fonts:
 - name: Bubbler One
   styles:
@@ -14,12 +14,11 @@ fonts:
     type: Regular
     full_name: Bubbler One Regular
     post_script_name: BubblerOne-Regular
-    version: '1.002'
+    version: '1.003'
     copyright: Copyright (c) 2011 by Brenda Gallo (gbrenda1987@gmail.com), with Reserved
       Font Name "Bubbler"
-    font: BubblerOne-Regular.ttf
-extract:
-  format: zip
+    font: f0Xy0eqj68ppQV9KBLmAouHH26MPePkt.ttf
+extract: {}
 copyright: Copyright (c) 2011 by Brenda Gallo (gbrenda1987@gmail.com), with Reserved
   Font Name "Bubbler"
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

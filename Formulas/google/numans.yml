@@ -3,11 +3,11 @@ name: Numans
 description: Numans
 homepage: http://www.jovanny.ru/
 resources:
-  Numans.zip:
-    urls:
-    - https://fonts.google.com/download?family=Numans
-    sha256: 290dfc2c604a4b8882d2800ff51e335962570cbdf55349bb6e93df0a072d319e
-    file_size: 20083
+  Numans:
+    source: google
+    family: Numans
+    files:
+    - https://fonts.gstatic.com/s/numans/v15/SlGRmQmGupYAfH8IYRggiHVqaQ.ttf
 fonts:
 - name: Numans
   styles:
@@ -18,11 +18,9 @@ fonts:
     version: '001.001'
     description: Copyright (c) 2011 by Jovanny Lemonad. All rights reserved.
     copyright: Copyright (c) 2011 by Jovanny Lemonad. All rights reserved.
-    font: Numans-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by Jovanny Lemonad (lemonad@jovanny.ru). All rights
-  reserved.
+    font: SlGRmQmGupYAfH8IYRggiHVqaQ.ttf
+extract: {}
+copyright: Copyright (c) 2011 by Jovanny Lemonad. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Jovanny Lemonad (http://www.jovanny.ru)
@@ -119,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

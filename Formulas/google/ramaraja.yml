@@ -3,11 +3,11 @@ name: Ramaraja
 description: Ramaraja
 homepage: adityafonts.com
 resources:
-  Ramaraja.zip:
-    urls:
-    - https://fonts.google.com/download?family=Ramaraja
-    sha256: 07dd41b48fea83c8f529660e7052e97778b100a26cb8c2eef8e84c4b4eb9a385
-    file_size: 253176
+  Ramaraja:
+    source: google
+    family: Ramaraja
+    files:
+    - https://fonts.gstatic.com/s/ramaraja/v15/SlGTmQearpYAYG1CABIkqnB6aSQU.ttf
 fonts:
 - name: Ramaraja
   styles:
@@ -20,9 +20,8 @@ fonts:
     copyright: Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org). Copyright
       (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name
       'Crimson'
-    font: Ramaraja-Regular.ttf
-extract:
-  format: zip
+    font: SlGTmQearpYAYG1CABIkqnB6aSQU.ttf
+extract: {}
 copyright: Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org). Copyright
   (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name 'Crimson'
 license_url: http://scripts.sil.org/OFL
@@ -120,3 +119,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

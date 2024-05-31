@@ -3,23 +3,15 @@ name: Corben
 description: Corben
 homepage: newtypography.co.uk
 resources:
-  Corben.zip:
-    urls:
-    - https://fonts.google.com/download?family=Corben
-    sha256: bda320b02113f7cb75b20468736072142a4631e251d12bfba580271a6686a1e7
-    file_size: 84617
+  Corben:
+    source: google
+    family: Corben
+    files:
+    - https://fonts.gstatic.com/s/corben/v21/LYjDdGzzklQtCMp9oAlEpVs3VQ.ttf
+    - https://fonts.gstatic.com/s/corben/v21/LYjAdGzzklQtCMpFHCZgrXArXN7HWQ.ttf
 fonts:
 - name: Corben
   styles:
-  - family_name: Corben
-    type: Regular
-    full_name: Corben
-    post_script_name: Corben-Regular
-    version: '1.101'
-    description: Copyright (c) 2009 by vernon adams. All rights reserved.
-    copyright: Copyright (c) 2010, 2011 by vernon adams (vern@newtypography.co.uk),
-      with Reserved Font Name Corben.
-    font: Corben-Regular.ttf
   - family_name: Corben
     type: Bold
     full_name: Corben Bold
@@ -28,11 +20,19 @@ fonts:
     description: Copyright (c) 2009 by vernon adams. All rights reserved.
     copyright: Copyright (c) 2010, 2011 by vernon adams (vern@newtypography.co.uk),
       with Reserved Font Name Corben.
-    font: Corben-Bold.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010, 2011 by vernon adams (vern@newtypography.co.uk) with
-  Reserved Font Name 'Corben'.
+    font: LYjAdGzzklQtCMpFHCZgrXArXN7HWQ.ttf
+  - family_name: Corben
+    type: Regular
+    full_name: Corben
+    post_script_name: Corben-Regular
+    version: '1.101'
+    description: Copyright (c) 2009 by vernon adams. All rights reserved.
+    copyright: Copyright (c) 2010, 2011 by vernon adams (vern@newtypography.co.uk),
+      with Reserved Font Name Corben.
+    font: LYjDdGzzklQtCMp9oAlEpVs3VQ.ttf
+extract: {}
+copyright: Copyright (c) 2010, 2011 by vernon adams (vern@newtypography.co.uk), with
+  Reserved Font Name Corben.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, 2011 by vernon adams (vern@newtypography.co.uk),
@@ -129,3 +129,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

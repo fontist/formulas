@@ -1,12 +1,13 @@
 ---
+name: Rubik Bubbles
 description: Rubik Bubbles
 homepage: http://www.google.com/fonts
 resources:
-  Rubik_Bubbles.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rubik%20Bubbles
-    sha256: e30a6436b0e706cbc8300c7b1d569a7d3e8113fe820cd109b6e07a95d2fc442d
-    file_size: 119958
+  Rubik Bubbles:
+    source: google
+    family: Rubik Bubbles
+    files:
+    - https://fonts.gstatic.com/s/rubikbubbles/v3/JIA1UVdwbHFJtwA7Us1BPFbRNTENfDxyRXI.ttf
 fonts:
 - name: Rubik Bubbles
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: RubikBubbles-Regular
     version: '2.200'
     copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
-    font: RubikBubbles-Regular.ttf
+    font: JIA1UVdwbHFJtwA7Us1BPFbRNTENfDxyRXI.ttf
 extract: {}
 copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b440940f78adfad781587e745ee20d42e7cb80c73f094fd6b478a545d397037f
-command: import google --formulas_path Formulas
+command: import google -n 9999

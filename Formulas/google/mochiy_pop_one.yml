@@ -3,11 +3,11 @@ name: Mochiy Pop One
 description: Mochiy Pop One
 homepage: http://fontdasu.com
 resources:
-  Mochiy_Pop_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Mochiy%20Pop%20One
-    sha256: d0cd97ed21dcd444be1636512109b658d9fdedf08f73a0090061077f2d776176
-    file_size: 2901662
+  Mochiy Pop One:
+    source: google
+    family: Mochiy Pop One
+    files:
+    - https://fonts.gstatic.com/s/mochiypopone/v9/QdVPSTA9Jh-gg-5XZP2UmU4O9kwwD3s6ZKAi.ttf
 fonts:
 - name: Mochiy Pop One
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: MochiyPopOne-Regular
     version: '2.000'
     copyright: Copyright 2020 The MochiyPop Project Authors (https://github.com/fontdasu/Mochiypop)
-    font: MochiyPopOne-Regular.ttf
+    font: QdVPSTA9Jh-gg-5XZP2UmU4O9kwwD3s6ZKAi.ttf
 extract: {}
 copyright: Copyright 2020 The MochiyPop Project Authors (https://github.com/fontdasu/Mochiypop)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 637781f068bbbcb9cc3fb92a2dd0b9e5a41e63f84129e10d04d8826700fe200a
-command: google import --formulas_path Formulas
+command: import google -n 9999

@@ -3,11 +3,11 @@ name: Smokum
 description: Smokum
 homepage: http://www.astigmatic.com/
 resources:
-  Smokum.zip:
-    urls:
-    - https://fonts.google.com/download?family=Smokum
-    sha256: ea79a359ee801042c0dcd52581927cb94889df820d0619d7b333e5e90aec9089
-    file_size: 37636
+  Smokum:
+    source: google
+    family: Smokum
+    files:
+    - https://fonts.gstatic.com/s/smokum/v28/TK3iWkUbAhopmrdGHjUHte5fKg.ttf
 fonts:
 - name: Smokum
   styles:
@@ -18,14 +18,13 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI).
       All rights reserved. Available under the Apache 2.0 licence.
-    font: Smokum-Regular.ttf
-extract:
-  format: zip
+    font: TK3iWkUbAhopmrdGHjUHte5fKg.ttf
+extract: {}
 copyright: Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All
-  rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html
+  rights reserved. Available under the Apache 2.0 licence.
 license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |2-
-                                   Apache License
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -226,3 +225,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999

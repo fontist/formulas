@@ -3,46 +3,20 @@ name: Biryani
 description: Biryani
 homepage: http://www.typeoff.de
 resources:
-  Biryani.zip:
-    urls:
-    - https://fonts.google.com/download?family=Biryani
-    sha256: 8aa58bb1a3cc7a719c3a7b6649538e1eb39e213d02fb944d1c47c77065a7b9e2
-    file_size: 534324
+  Biryani:
+    source: google
+    family: Biryani
+    files:
+    - https://fonts.gstatic.com/s/biryani/v13/hv-TlzNxIFoO84YddYQyGTBSU-J-RxQ.ttf
+    - https://fonts.gstatic.com/s/biryani/v13/hv-TlzNxIFoO84YddeAxGTBSU-J-RxQ.ttf
+    - https://fonts.gstatic.com/s/biryani/v13/hv-WlzNxIFoO84YdTUwZPTh5T-s.ttf
+    - https://fonts.gstatic.com/s/biryani/v13/hv-TlzNxIFoO84YddZQ3GTBSU-J-RxQ.ttf
+    - https://fonts.gstatic.com/s/biryani/v13/hv-TlzNxIFoO84YddfA2GTBSU-J-RxQ.ttf
+    - https://fonts.gstatic.com/s/biryani/v13/hv-TlzNxIFoO84Yddew1GTBSU-J-RxQ.ttf
+    - https://fonts.gstatic.com/s/biryani/v13/hv-TlzNxIFoO84Yddcg0GTBSU-J-RxQ.ttf
 fonts:
 - name: Biryani
   styles:
-  - family_name: Biryani
-    type: ExtraLight
-    full_name: Biryani ExtraLight
-    post_script_name: Biryani-ExtraLight
-    version: 1.004; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
-      -W -c
-    copyright: Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Reguer
-    font: Biryani-ExtraLight.ttf
-  - family_name: Biryani
-    type: Light
-    full_name: Biryani Light
-    post_script_name: Biryani-Light
-    version: 1.004; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
-      -W -c
-    copyright: Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Reguer
-    font: Biryani-Light.ttf
-  - family_name: Biryani
-    type: Regular
-    full_name: Biryani Regular
-    post_script_name: Biryani-Regular
-    version: 1.004; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
-      -W -c
-    copyright: Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Reguer
-    font: Biryani-Regular.ttf
-  - family_name: Biryani
-    type: SemiBold
-    full_name: Biryani SemiBold
-    post_script_name: Biryani-SemiBold
-    version: 1.004; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
-      -W -c
-    copyright: Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Reguer
-    font: Biryani-SemiBold.ttf
   - family_name: Biryani
     type: Bold
     full_name: Biryani Bold
@@ -50,26 +24,77 @@ fonts:
     version: 1.004; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
       -W -c
     copyright: Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Reguer
-    font: Biryani-Bold.ttf
+    font: hv-TlzNxIFoO84YddfA2GTBSU-J-RxQ.ttf
   - family_name: Biryani
-    type: ExtraBold
-    full_name: Biryani ExtraBold
-    post_script_name: Biryani-ExtraBold
+    type: Regular
+    full_name: Biryani Regular
+    post_script_name: Biryani-Regular
     version: 1.004; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
       -W -c
     copyright: Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Reguer
-    font: Biryani-ExtraBold.ttf
-  - family_name: Biryani
-    type: Black
+    font: hv-WlzNxIFoO84YdTUwZPTh5T-s.ttf
+- name: Biryani Black
+  styles:
+  - family_name: Biryani Black
+    type: Regular
+    preferred_family_name: Biryani
+    preferred_type: Black
     full_name: Biryani Black
     post_script_name: Biryani-Black
     version: 1.004; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
       -W -c
     copyright: Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Reguer
-    font: Biryani-Black.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Réguer.
+    font: hv-TlzNxIFoO84Yddcg0GTBSU-J-RxQ.ttf
+- name: Biryani ExtraBold
+  styles:
+  - family_name: Biryani ExtraBold
+    type: Regular
+    preferred_family_name: Biryani
+    preferred_type: ExtraBold
+    full_name: Biryani ExtraBold
+    post_script_name: Biryani-ExtraBold
+    version: 1.004; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
+      -W -c
+    copyright: Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Reguer
+    font: hv-TlzNxIFoO84Yddew1GTBSU-J-RxQ.ttf
+- name: Biryani ExtraLight
+  styles:
+  - family_name: Biryani ExtraLight
+    type: Regular
+    preferred_family_name: Biryani
+    preferred_type: ExtraLight
+    full_name: Biryani ExtraLight
+    post_script_name: Biryani-ExtraLight
+    version: 1.004; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
+      -W -c
+    copyright: Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Reguer
+    font: hv-TlzNxIFoO84YddYQyGTBSU-J-RxQ.ttf
+- name: Biryani Light
+  styles:
+  - family_name: Biryani Light
+    type: Regular
+    preferred_family_name: Biryani
+    preferred_type: Light
+    full_name: Biryani Light
+    post_script_name: Biryani-Light
+    version: 1.004; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
+      -W -c
+    copyright: Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Reguer
+    font: hv-TlzNxIFoO84YddeAxGTBSU-J-RxQ.ttf
+- name: Biryani SemiBold
+  styles:
+  - family_name: Biryani SemiBold
+    type: Regular
+    preferred_family_name: Biryani
+    preferred_type: SemiBold
+    full_name: Biryani SemiBold
+    post_script_name: Biryani-SemiBold
+    version: 1.004; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
+      -W -c
+    copyright: Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Reguer
+    font: hv-TlzNxIFoO84YddZQ3GTBSU-J-RxQ.ttf
+extract: {}
+copyright: Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Reguer
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2015 Dan Reynolds. Copyright (c) 2015 Mathieu Réguer.
@@ -165,3 +190,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

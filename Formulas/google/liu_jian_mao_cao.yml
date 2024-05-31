@@ -3,11 +3,11 @@ name: Liu Jian Mao Cao
 description: Liu Jian Mao Cao
 homepage: http://www.zhongqifont.com/
 resources:
-  Liu_Jian_Mao_Cao.zip:
-    urls:
-    - https://fonts.google.com/download?family=Liu%20Jian%20Mao%20Cao
-    sha256: fd104c1733cd2a1d09b5c5830f453bd6ec064c2185a3d6be73dfc3b3d30e6890
-    file_size: 2723343
+  Liu Jian Mao Cao:
+    source: google
+    family: Liu Jian Mao Cao
+    files:
+    - https://fonts.gstatic.com/s/liujianmaocao/v20/845DNN84HJrccNonurqXILGpvCOoferVKGWsUo8.ttf
 fonts:
 - name: Liu Jian Mao Cao
   styles:
@@ -15,9 +15,9 @@ fonts:
     type: Regular
     full_name: Liu Jian Mao Cao Regular
     post_script_name: LiuJianMaoCao-Regular
-    version: '1.001'
+    version: '1.003'
     copyright: Copyright 2018 The Liu Jian Mao Cao Project Authors (https://www.github.com/googlefonts/liujianmaocao)
-    font: LiuJianMaoCao-Regular.ttf
+    font: 845DNN84HJrccNonurqXILGpvCOoferVKGWsUo8.ttf
 extract: {}
 copyright: Copyright 2018 The Liu Jian Mao Cao Project Authors (https://www.github.com/googlefonts/liujianmaocao)
 license_url: http://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e1277d5a157f80cb331a673908384b3356635cddcb0edf853c4e671020500ffd
-command: google import --formulas_path Formulas
+command: import google -n 9999

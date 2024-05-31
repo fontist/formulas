@@ -1,11 +1,16 @@
 ---
+name: Noto Serif Yezidi
 description: Noto Serif Yezidi
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Serif_Yezidi.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Serif%20Yezidi
-    file_size: 160426
+  Noto Serif Yezidi:
+    source: google
+    family: Noto Serif Yezidi
+    files:
+    - https://fonts.gstatic.com/s/notoserifyezidi/v21/XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspD2yEkrlGJgmVCqg.ttf
+    - https://fonts.gstatic.com/s/notoserifyezidi/v21/XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspD6SEkrlGJgmVCqg.ttf
+    - https://fonts.gstatic.com/s/notoserifyezidi/v21/XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspDBSYkrlGJgmVCqg.ttf
+    - https://fonts.gstatic.com/s/notoserifyezidi/v21/XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspDPCYkrlGJgmVCqg.ttf
 fonts:
 - name: Noto Serif Yezidi
   styles:
@@ -15,21 +20,14 @@ fonts:
     post_script_name: NotoSerifYezidi-Bold
     version: '1.001'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/yezidi)
-    font: NotoSerifYezidi-Bold.ttf
+    font: XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspDPCYkrlGJgmVCqg.ttf
   - family_name: Noto Serif Yezidi
     type: Regular
     full_name: Noto Serif Yezidi Regular
     post_script_name: NotoSerifYezidi-Regular
     version: '1.001'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/yezidi)
-    font: NotoSerifYezidi-VariableFont_wght.ttf
-  - family_name: Noto Serif Yezidi
-    type: Regular
-    full_name: Noto Serif Yezidi Regular
-    post_script_name: NotoSerifYezidi-Regular
-    version: '1.001'
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/yezidi)
-    font: NotoSerifYezidi-Regular.ttf
+    font: XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspD2yEkrlGJgmVCqg.ttf
 - name: Noto Serif Yezidi Medium
   styles:
   - family_name: Noto Serif Yezidi Medium
@@ -40,7 +38,7 @@ fonts:
     post_script_name: NotoSerifYezidi-Medium
     version: '1.001'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/yezidi)
-    font: NotoSerifYezidi-Medium.ttf
+    font: XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspD6SEkrlGJgmVCqg.ttf
 - name: Noto Serif Yezidi SemiBold
   styles:
   - family_name: Noto Serif Yezidi SemiBold
@@ -51,7 +49,7 @@ fonts:
     post_script_name: NotoSerifYezidi-SemiBold
     version: '1.001'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/yezidi)
-    font: NotoSerifYezidi-SemiBold.ttf
+    font: XLYPIYr5bJNDGYxLBibeHZAn3B5KJENnQjbfhMSVZspDBSYkrlGJgmVCqg.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/yezidi)
 license_url: https://scripts.sil.org/OFL
@@ -60,7 +58,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -149,5 +147,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 754065e40af1a72ce4d4a5f2f6d74ef31b88f769b2e94b3c933dfa4f0f6422d7
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Ogham
 description: Noto Sans Ogham
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Ogham.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Ogham
-    sha256: 3e64b81963adb14171958a8ea58f40e9102f1e524b6625b770949d3c91cd4d0b
-    file_size: 28441
+  Noto Sans Ogham:
+    source: google
+    family: Noto Sans Ogham
+    files:
+    - https://fonts.gstatic.com/s/notosansogham/v17/kmKlZqk1GBDGN0mY6k5lmEmww4hrt5laQxcoCA.ttf
 fonts:
 - name: Noto Sans Ogham
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/ogham)
-    font: NotoSansOgham-Regular.ttf
+    font: kmKlZqk1GBDGN0mY6k5lmEmww4hrt5laQxcoCA.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/ogham)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 06ad3976dbaf338d51ccce4db4cb368993521af82b0e4d7bce37ff5ed712e4f6
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

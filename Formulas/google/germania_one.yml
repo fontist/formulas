@@ -1,12 +1,12 @@
 ---
+name: Germania One
 description: Germania One
-homepage:
 resources:
-  GermaniaOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Germania%20One
-    sha256: 5ee47ef6b5c234a68f72b79849718b46d2c66b96364d75be9e49df2e18817599
-    file_size: 17126
+  Germania One:
+    source: google
+    family: Germania One
+    files:
+    - https://fonts.gstatic.com/s/germaniaone/v20/Fh4yPjrqIyv2ucM2qzBjeS3ezAJONau6ew.ttf
 fonts:
 - name: Germania One
   styles:
@@ -17,9 +17,8 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011 by John Vargas Beltran (john.vargasbeltran@gmail.com),
       with Reserved Font Name "Germania One"
-    font: GermaniaOne-Regular.ttf
-extract:
-  format: zip
+    font: Fh4yPjrqIyv2ucM2qzBjeS3ezAJONau6ew.ttf
+extract: {}
 copyright: Copyright (c) 2011 by John Vargas Beltran (john.vargasbeltran@gmail.com),
   with Reserved Font Name "Germania One"
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

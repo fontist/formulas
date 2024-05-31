@@ -1,12 +1,13 @@
 ---
+name: Rubik Microbe
 description: Rubik Microbe
 homepage: http://www.google.com/fonts
 resources:
-  Rubik_Microbe.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rubik%20Microbe
-    sha256: a4e6ed0de46da14f80ac753480a268429da69db6ee6188473be58a8e0f511f24
-    file_size: 787070
+  Rubik Microbe:
+    source: google
+    family: Rubik Microbe
+    files:
+    - https://fonts.gstatic.com/s/rubikmicrobe/v2/UqyWK8oPP3hjw6ANS9rM3PsZcs8aaKgiauE.ttf
 fonts:
 - name: Rubik Microbe
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: RubikMicrobe-Regular
     version: '2.200'
     copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
-    font: RubikMicrobe-Regular.ttf
+    font: UqyWK8oPP3hjw6ANS9rM3PsZcs8aaKgiauE.ttf
 extract: {}
 copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9046cc84c54f8fc4451e54677b7955dd19280170cf576d4788c744c79828bdff
-command: import google --formulas_path Formulas
+command: import google -n 9999

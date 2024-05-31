@@ -1,39 +1,43 @@
 ---
 name: Gupter
 description: Gupter
-homepage:
 resources:
-  Gupter.zip:
-    urls:
-    - https://fonts.google.com/download?family=Gupter
-    sha256: 3cd30b98f557c5da81f7dcb08eefc501e5f11d71d82d123c63bc6d02719eead1
-    file_size: 86570
+  Gupter:
+    source: google
+    family: Gupter
+    files:
+    - https://fonts.gstatic.com/s/gupter/v14/2-cm9JNmxJqPO1QUYZa_Wu_lpA.ttf
+    - https://fonts.gstatic.com/s/gupter/v14/2-cl9JNmxJqPO1Qslb-bUsT5rZhaZg.ttf
+    - https://fonts.gstatic.com/s/gupter/v14/2-cl9JNmxJqPO1Qs3bmbUsT5rZhaZg.ttf
 fonts:
 - name: Gupter
   styles:
-  - family_name: Gupter
-    type: Regular
-    full_name: Gupter Regular
-    post_script_name: Gupter-Regular
-    version: '1.000'
-    copyright: Copyright 2019 The Gupter Project Authors (https://github.com/octaviopardo/GUPTER)
-    font: Gupter-Regular.ttf
-  - family_name: Gupter
-    type: Medium
-    full_name: Gupter Medium
-    post_script_name: Gupter-Medium
-    version: '1.000'
-    copyright: Copyright 2019 The Gupter Project Authors (https://github.com/octaviopardo/GUPTER)
-    font: Gupter-Medium.ttf
   - family_name: Gupter
     type: Bold
     full_name: Gupter Bold
     post_script_name: Gupter-Bold
     version: '1.000'
     copyright: Copyright 2019 The Gupter Project Authors (https://github.com/octaviopardo/GUPTER)
-    font: Gupter-Bold.ttf
-extract:
-  format: zip
+    font: 2-cl9JNmxJqPO1Qs3bmbUsT5rZhaZg.ttf
+  - family_name: Gupter
+    type: Regular
+    full_name: Gupter Regular
+    post_script_name: Gupter-Regular
+    version: '1.000'
+    copyright: Copyright 2019 The Gupter Project Authors (https://github.com/octaviopardo/GUPTER)
+    font: 2-cm9JNmxJqPO1QUYZa_Wu_lpA.ttf
+- name: Gupter Medium
+  styles:
+  - family_name: Gupter Medium
+    type: Regular
+    preferred_family_name: Gupter
+    preferred_type: Medium
+    full_name: Gupter Medium
+    post_script_name: Gupter-Medium
+    version: '1.000'
+    copyright: Copyright 2019 The Gupter Project Authors (https://github.com/octaviopardo/GUPTER)
+    font: 2-cl9JNmxJqPO1Qslb-bUsT5rZhaZg.ttf
+extract: {}
 copyright: Copyright 2019 The Gupter Project Authors (https://github.com/octaviopardo/GUPTER)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -130,3 +134,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

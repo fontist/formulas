@@ -1,12 +1,13 @@
 ---
+name: Unlock
 description: Unlock
 homepage: http://www.tipo.net.ar
 resources:
-  Unlock.zip:
-    urls:
-    - https://fonts.google.com/download?family=Unlock
-    sha256: abced24267b701e33b30fdab0b117cd17e6457e71e8b2b73581d4b5b2d23ecb6
-    file_size: 32234
+  Unlock:
+    source: google
+    family: Unlock
+    files:
+    - https://fonts.gstatic.com/s/unlock/v26/7Au-p_8ykD-cDl7GKAjSwkUVOQ.ttf
 fonts:
 - name: Unlock
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 1.003; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
     copyright: Copyright 2011 The Unlock Project Authors (https://github.com/etunni/unlock),
       with Reserved Font Name 'Unlock'
-    font: Unlock-Regular.ttf
+    font: 7Au-p_8ykD-cDl7GKAjSwkUVOQ.ttf
 extract: {}
 copyright: Copyright 2011 The Unlock Project Authors (https://github.com/etunni/unlock),
   with Reserved Font Name 'Unlock'
@@ -27,7 +28,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -116,5 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 5f633a004181feb32d57c69a5ca48af6ffd164ccde44ea74c577cfbf6520b6f6
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Jolly Lodger
 description: Jolly Lodger
 homepage: http://www.fontdiner.com
 resources:
-  JollyLodger.zip:
-    urls:
-    - https://fonts.google.com/download?family=Jolly%20Lodger
-    sha256: 521a26b2167e66d396009bc6ca97315d76d388b56a352d1612011c3119152ce2
-    file_size: 25576
+  Jolly Lodger:
+    source: google
+    family: Jolly Lodger
+    files:
+    - https://fonts.gstatic.com/s/jollylodger/v20/BXRsvFTAh_bGkA1uQ48dlB3VWerT3ZyuqA.ttf
 fonts:
 - name: Jolly Lodger
   styles:
@@ -17,9 +18,8 @@ fonts:
     version: '1.000'
     copyright: Copyright (c) 2012 by Font Diner, Inc (diner@fontdiner.com) with Reseved
       Font Name "Jolly Lodger"
-    font: JollyLodger-Regular.ttf
-extract:
-  format: zip
+    font: BXRsvFTAh_bGkA1uQ48dlB3VWerT3ZyuqA.ttf
+extract: {}
 copyright: Copyright (c) 2012 by Font Diner, Inc (diner@fontdiner.com) with Reseved
   Font Name "Jolly Lodger"
 license_url: http://scripts.sil.org/OFL
@@ -117,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

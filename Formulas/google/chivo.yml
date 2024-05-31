@@ -1,11 +1,30 @@
 ---
+name: Chivo
 description: Chivo
 homepage: https://www.omnibus-type.com
 resources:
-  Chivo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Chivo
-    file_size: 936224
+  Chivo:
+    source: google
+    family: Chivo
+    files:
+    - https://fonts.gstatic.com/s/chivo/v18/va9b4kzIxd1KFppkaRKvDRPJVDf_vB7ul2DSFXjQiQ.ttf
+    - https://fonts.gstatic.com/s/chivo/v18/va9b4kzIxd1KFppkaRKvDRPJVDf_PB_ul2DSFXjQiQ.ttf
+    - https://fonts.gstatic.com/s/chivo/v18/va9b4kzIxd1KFppkaRKvDRPJVDf_4h_ul2DSFXjQiQ.ttf
+    - https://fonts.gstatic.com/s/chivo/v18/va9b4kzIxd1KFppkaRKvDRPJVDf_vB_ul2DSFXjQiQ.ttf
+    - https://fonts.gstatic.com/s/chivo/v18/va9b4kzIxd1KFppkaRKvDRPJVDf_jh_ul2DSFXjQiQ.ttf
+    - https://fonts.gstatic.com/s/chivo/v18/va9b4kzIxd1KFppkaRKvDRPJVDf_Yhjul2DSFXjQiQ.ttf
+    - https://fonts.gstatic.com/s/chivo/v18/va9b4kzIxd1KFppkaRKvDRPJVDf_Wxjul2DSFXjQiQ.ttf
+    - https://fonts.gstatic.com/s/chivo/v18/va9b4kzIxd1KFppkaRKvDRPJVDf_PBjul2DSFXjQiQ.ttf
+    - https://fonts.gstatic.com/s/chivo/v18/va9b4kzIxd1KFppkaRKvDRPJVDf_FRjul2DSFXjQiQ.ttf
+    - https://fonts.gstatic.com/s/chivo/v18/va9Z4kzIxd1KFrBtW-13ZHhT-jDqdFwG1WrWN33AiasJ.ttf
+    - https://fonts.gstatic.com/s/chivo/v18/va9Z4kzIxd1KFrBtW-13ZHhT-jDqdFyG1GrWN33AiasJ.ttf
+    - https://fonts.gstatic.com/s/chivo/v18/va9Z4kzIxd1KFrBtW-13ZHhT-jDqdFxY1GrWN33AiasJ.ttf
+    - https://fonts.gstatic.com/s/chivo/v18/va9Z4kzIxd1KFrBtW-13ZHhT-jDqdFwG1GrWN33AiasJ.ttf
+    - https://fonts.gstatic.com/s/chivo/v18/va9Z4kzIxd1KFrBtW-13ZHhT-jDqdFw01GrWN33AiasJ.ttf
+    - https://fonts.gstatic.com/s/chivo/v18/va9Z4kzIxd1KFrBtW-13ZHhT-jDqdFzY02rWN33AiasJ.ttf
+    - https://fonts.gstatic.com/s/chivo/v18/va9Z4kzIxd1KFrBtW-13ZHhT-jDqdFzh02rWN33AiasJ.ttf
+    - https://fonts.gstatic.com/s/chivo/v18/va9Z4kzIxd1KFrBtW-13ZHhT-jDqdFyG02rWN33AiasJ.ttf
+    - https://fonts.gstatic.com/s/chivo/v18/va9Z4kzIxd1KFrBtW-13ZHhT-jDqdFyv02rWN33AiasJ.ttf
 fonts:
 - name: Chivo
   styles:
@@ -15,28 +34,28 @@ fonts:
     post_script_name: Chivo-Bold
     version: '2.002'
     copyright: Copyright 2019 The Chivo Project Authors (https://github.com/Omnibus-Type/Chivo)
-    font: Chivo-Bold.ttf
+    font: va9b4kzIxd1KFppkaRKvDRPJVDf_Wxjul2DSFXjQiQ.ttf
   - family_name: Chivo
     type: Bold Italic
     full_name: Chivo Bold Italic
     post_script_name: Chivo-BoldItalic
     version: '2.002'
     copyright: Copyright 2019 The Chivo Project Authors (https://github.com/Omnibus-Type/Chivo)
-    font: Chivo-BoldItalic.ttf
+    font: va9Z4kzIxd1KFrBtW-13ZHhT-jDqdFzh02rWN33AiasJ.ttf
   - family_name: Chivo
     type: Italic
     full_name: Chivo Italic
     post_script_name: Chivo-Italic
     version: '2.002'
     copyright: Copyright 2019 The Chivo Project Authors (https://github.com/Omnibus-Type/Chivo)
-    font: Chivo-Italic.ttf
+    font: va9Z4kzIxd1KFrBtW-13ZHhT-jDqdFwG1GrWN33AiasJ.ttf
   - family_name: Chivo
     type: Regular
     full_name: Chivo Regular
     post_script_name: Chivo-Regular
     version: '2.002'
     copyright: Copyright 2019 The Chivo Project Authors (https://github.com/Omnibus-Type/Chivo)
-    font: Chivo-Regular.ttf
+    font: va9b4kzIxd1KFppkaRKvDRPJVDf_vB_ul2DSFXjQiQ.ttf
 - name: Chivo Black
   styles:
   - family_name: Chivo Black
@@ -47,7 +66,7 @@ fonts:
     post_script_name: Chivo-BlackItalic
     version: '2.002'
     copyright: Copyright 2019 The Chivo Project Authors (https://github.com/Omnibus-Type/Chivo)
-    font: Chivo-BlackItalic.ttf
+    font: va9Z4kzIxd1KFrBtW-13ZHhT-jDqdFyv02rWN33AiasJ.ttf
   - family_name: Chivo Black
     type: Regular
     preferred_family_name: Chivo
@@ -56,7 +75,7 @@ fonts:
     post_script_name: Chivo-Black
     version: '2.002'
     copyright: Copyright 2019 The Chivo Project Authors (https://github.com/Omnibus-Type/Chivo)
-    font: Chivo-Black.ttf
+    font: va9b4kzIxd1KFppkaRKvDRPJVDf_FRjul2DSFXjQiQ.ttf
 - name: Chivo ExtraBold
   styles:
   - family_name: Chivo ExtraBold
@@ -67,7 +86,7 @@ fonts:
     post_script_name: Chivo-ExtraBoldItalic
     version: '2.002'
     copyright: Copyright 2019 The Chivo Project Authors (https://github.com/Omnibus-Type/Chivo)
-    font: Chivo-ExtraBoldItalic.ttf
+    font: va9Z4kzIxd1KFrBtW-13ZHhT-jDqdFyG02rWN33AiasJ.ttf
   - family_name: Chivo ExtraBold
     type: Regular
     preferred_family_name: Chivo
@@ -76,7 +95,7 @@ fonts:
     post_script_name: Chivo-ExtraBold
     version: '2.002'
     copyright: Copyright 2019 The Chivo Project Authors (https://github.com/Omnibus-Type/Chivo)
-    font: Chivo-ExtraBold.ttf
+    font: va9b4kzIxd1KFppkaRKvDRPJVDf_PBjul2DSFXjQiQ.ttf
 - name: Chivo ExtraLight
   styles:
   - family_name: Chivo ExtraLight
@@ -87,7 +106,7 @@ fonts:
     post_script_name: Chivo-ExtraLightItalic
     version: '2.002'
     copyright: Copyright 2019 The Chivo Project Authors (https://github.com/Omnibus-Type/Chivo)
-    font: Chivo-ExtraLightItalic.ttf
+    font: va9Z4kzIxd1KFrBtW-13ZHhT-jDqdFyG1GrWN33AiasJ.ttf
   - family_name: Chivo ExtraLight
     type: Regular
     preferred_family_name: Chivo
@@ -96,7 +115,7 @@ fonts:
     post_script_name: Chivo-ExtraLight
     version: '2.002'
     copyright: Copyright 2019 The Chivo Project Authors (https://github.com/Omnibus-Type/Chivo)
-    font: Chivo-ExtraLight.ttf
+    font: va9b4kzIxd1KFppkaRKvDRPJVDf_PB_ul2DSFXjQiQ.ttf
 - name: Chivo Light
   styles:
   - family_name: Chivo Light
@@ -107,7 +126,7 @@ fonts:
     post_script_name: Chivo-LightItalic
     version: '2.002'
     copyright: Copyright 2019 The Chivo Project Authors (https://github.com/Omnibus-Type/Chivo)
-    font: Chivo-LightItalic.ttf
+    font: va9Z4kzIxd1KFrBtW-13ZHhT-jDqdFxY1GrWN33AiasJ.ttf
   - family_name: Chivo Light
     type: Regular
     preferred_family_name: Chivo
@@ -116,7 +135,7 @@ fonts:
     post_script_name: Chivo-Light
     version: '2.002'
     copyright: Copyright 2019 The Chivo Project Authors (https://github.com/Omnibus-Type/Chivo)
-    font: Chivo-Light.ttf
+    font: va9b4kzIxd1KFppkaRKvDRPJVDf_4h_ul2DSFXjQiQ.ttf
 - name: Chivo Medium
   styles:
   - family_name: Chivo Medium
@@ -127,16 +146,7 @@ fonts:
     post_script_name: Chivo-MediumItalic
     version: '2.002'
     copyright: Copyright 2019 The Chivo Project Authors (https://github.com/Omnibus-Type/Chivo)
-    font: Chivo-Italic-VariableFont_wght.ttf
-  - family_name: Chivo Medium
-    type: Italic
-    preferred_family_name: Chivo
-    preferred_type: Medium Italic
-    full_name: Chivo Medium Italic
-    post_script_name: Chivo-MediumItalic
-    version: '2.002'
-    copyright: Copyright 2019 The Chivo Project Authors (https://github.com/Omnibus-Type/Chivo)
-    font: Chivo-MediumItalic.ttf
+    font: va9Z4kzIxd1KFrBtW-13ZHhT-jDqdFw01GrWN33AiasJ.ttf
   - family_name: Chivo Medium
     type: Regular
     preferred_family_name: Chivo
@@ -145,16 +155,7 @@ fonts:
     post_script_name: Chivo-Medium
     version: '2.002'
     copyright: Copyright 2019 The Chivo Project Authors (https://github.com/Omnibus-Type/Chivo)
-    font: Chivo-VariableFont_wght.ttf
-  - family_name: Chivo Medium
-    type: Regular
-    preferred_family_name: Chivo
-    preferred_type: Medium
-    full_name: Chivo Medium
-    post_script_name: Chivo-Medium
-    version: '2.002'
-    copyright: Copyright 2019 The Chivo Project Authors (https://github.com/Omnibus-Type/Chivo)
-    font: Chivo-Medium.ttf
+    font: va9b4kzIxd1KFppkaRKvDRPJVDf_jh_ul2DSFXjQiQ.ttf
 - name: Chivo SemiBold
   styles:
   - family_name: Chivo SemiBold
@@ -165,7 +166,7 @@ fonts:
     post_script_name: Chivo-SemiBoldItalic
     version: '2.002'
     copyright: Copyright 2019 The Chivo Project Authors (https://github.com/Omnibus-Type/Chivo)
-    font: Chivo-SemiBoldItalic.ttf
+    font: va9Z4kzIxd1KFrBtW-13ZHhT-jDqdFzY02rWN33AiasJ.ttf
   - family_name: Chivo SemiBold
     type: Regular
     preferred_family_name: Chivo
@@ -174,7 +175,7 @@ fonts:
     post_script_name: Chivo-SemiBold
     version: '2.002'
     copyright: Copyright 2019 The Chivo Project Authors (https://github.com/Omnibus-Type/Chivo)
-    font: Chivo-SemiBold.ttf
+    font: va9b4kzIxd1KFppkaRKvDRPJVDf_Yhjul2DSFXjQiQ.ttf
 - name: Chivo Thin
   styles:
   - family_name: Chivo Thin
@@ -185,7 +186,7 @@ fonts:
     post_script_name: Chivo-ThinItalic
     version: '2.002'
     copyright: Copyright 2019 The Chivo Project Authors (https://github.com/Omnibus-Type/Chivo)
-    font: Chivo-ThinItalic.ttf
+    font: va9Z4kzIxd1KFrBtW-13ZHhT-jDqdFwG1WrWN33AiasJ.ttf
   - family_name: Chivo Thin
     type: Regular
     preferred_family_name: Chivo
@@ -194,7 +195,7 @@ fonts:
     post_script_name: Chivo-Thin
     version: '2.002'
     copyright: Copyright 2019 The Chivo Project Authors (https://github.com/Omnibus-Type/Chivo)
-    font: Chivo-Thin.ttf
+    font: va9b4kzIxd1KFppkaRKvDRPJVDf_vB7ul2DSFXjQiQ.ttf
 extract: {}
 copyright: Copyright 2019 The Chivo Project Authors (https://github.com/Omnibus-Type/Chivo)
 license_url: https://scripts.sil.org/OFL
@@ -203,7 +204,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -292,5 +293,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: bfcca83c8264d28df573869b0243ecb8c46d7346956fbe9d9616cf73d81588c0
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

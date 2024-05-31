@@ -1,12 +1,14 @@
 ---
+name: Corinthia
 description: Corinthia
 homepage: www.typesetit.com
 resources:
-  Corinthia.zip:
-    urls:
-    - https://fonts.google.com/download?family=Corinthia
-    sha256: 80ba9efe50b1ff3b531bb4431f0df1650b9e11cc22d1527c394afbfa62c57c80
-    file_size: 184866
+  Corinthia:
+    source: google
+    family: Corinthia
+    files:
+    - https://fonts.gstatic.com/s/corinthia/v11/wEO_EBrAnchaJyPMHE0FUfAL3EsHiA.ttf
+    - https://fonts.gstatic.com/s/corinthia/v11/wEO6EBrAnchaJyPMHE097d8v1GAbgbLXQA.ttf
 fonts:
 - name: Corinthia
   styles:
@@ -16,14 +18,14 @@ fonts:
     post_script_name: Corinthia-Bold
     version: 1.013; ttfautohint (v1.8.3)
     copyright: Copyright 2010 The Corinthia Project Authors (https://github.com/googlefonts/corinthia)
-    font: Corinthia-Bold.ttf
+    font: wEO6EBrAnchaJyPMHE097d8v1GAbgbLXQA.ttf
   - family_name: Corinthia
     type: Regular
     full_name: Corinthia Regular
     post_script_name: Corinthia-Regular
     version: 1.013; ttfautohint (v1.8.3)
     copyright: Copyright 2010 The Corinthia Project Authors (https://github.com/googlefonts/corinthia)
-    font: Corinthia-Regular.ttf
+    font: wEO_EBrAnchaJyPMHE0FUfAL3EsHiA.ttf
 extract: {}
 copyright: Copyright 2010 The Corinthia Project Authors (https://github.com/googlefonts/corinthia)
 license_url: https://scripts.sil.org/OFL
@@ -121,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: c0c1b289e54d75f0929f6fa902038128809b20cb49f6e63c7e0e25d1e851ed9e
-command: google import --formulas_path Formulas
+command: import google -n 9999

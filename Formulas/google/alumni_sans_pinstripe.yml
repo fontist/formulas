@@ -1,12 +1,14 @@
 ---
+name: Alumni Sans Pinstripe
 description: Alumni Sans Pinstripe
 homepage: www.typesetit.com
 resources:
-  Alumni_Sans_Pinstripe.zip:
-    urls:
-    - https://fonts.google.com/download?family=Alumni%20Sans%20Pinstripe
-    sha256: 0573cf0c8844d45fbb9e482b0da9127f2aa8e058e7e5f96853ae3fd6e93d2f29
-    file_size: 110440
+  Alumni Sans Pinstripe:
+    source: google
+    family: Alumni Sans Pinstripe
+    files:
+    - https://fonts.gstatic.com/s/alumnisanspinstripe/v6/ZgNNjOFFPq_AUJD1umyS30W-Xub8zD1ObhezYrVIpcDA5w.ttf
+    - https://fonts.gstatic.com/s/alumnisanspinstripe/v6/ZgNDjOFFPq_AUJD1umyS30W-Xub8zD1ObheDYL9Mh8XQ5_cY.ttf
 fonts:
 - name: Alumni Sans Pinstripe
   styles:
@@ -16,14 +18,14 @@ fonts:
     post_script_name: AlumniSansPinstripe-Italic
     version: 1.010; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2014 The Alumni Sans Pinstripe Project Authors (https://github.com/googlefonts/alumni-sans-pinstripe)
-    font: AlumniSansPinstripe-Italic.ttf
+    font: ZgNDjOFFPq_AUJD1umyS30W-Xub8zD1ObheDYL9Mh8XQ5_cY.ttf
   - family_name: Alumni Sans Pinstripe
     type: Regular
     full_name: Alumni Sans Pinstripe Regular
     post_script_name: AlumniSansPinstripe-Regular
     version: 1.010; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2014 The Alumni Sans Pinstripe Project Authors (https://github.com/googlefonts/alumni-sans-pinstripe)
-    font: AlumniSansPinstripe-Regular.ttf
+    font: ZgNNjOFFPq_AUJD1umyS30W-Xub8zD1ObhezYrVIpcDA5w.ttf
 extract: {}
 copyright: Copyright 2014 The Alumni Sans Pinstripe Project Authors (https://github.com/googlefonts/alumni-sans-pinstripe)
 license_url: https://scripts.sil.org/OFL
@@ -32,7 +34,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -121,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b2b8f16c2957d92350c1c5e8a99fc85140b79d8352e708e476fdcdde39ca4e4b
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

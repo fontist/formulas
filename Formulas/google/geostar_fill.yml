@@ -1,12 +1,13 @@
 ---
+name: Geostar Fill
 description: Geostar Fill
 homepage: http://www.admixdesigns.com/
 resources:
-  GeostarFill.zip:
-    urls:
-    - https://fonts.google.com/download?family=Geostar%20Fill
-    sha256: 43d420764e24204a4aad3b738f78e3baf378cb00d1f116e5c2915120e8ca05ad
-    file_size: 21690
+  Geostar Fill:
+    source: google
+    family: Geostar Fill
+    files:
+    - https://fonts.gstatic.com/s/geostarfill/v26/AMOWz4SWuWiXFfjEohxQ9os0U1K2w9lb4g.ttf
 fonts:
 - name: Geostar Fill
   styles:
@@ -19,11 +20,10 @@ fonts:
       with Reserved Font Name Geostar.
     copyright: Copyright (c) 2011, Admix Designs (http://www.admixdesigns.com/) with
       Reserved Font Name Geostar.
-    font: GeostarFill-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Admix Designs (http://www.admixdesigns.com joe@admixdesigns.com)
-  with Reserved Font Name Geostar.
+    font: AMOWz4SWuWiXFfjEohxQ9os0U1K2w9lb4g.ttf
+extract: {}
+copyright: Copyright (c) 2011, Admix Designs (http://www.admixdesigns.com/) with Reserved
+  Font Name Geostar.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Joe Prince, Admix Designs (http://www.admixdesigns.com/),
@@ -120,3 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

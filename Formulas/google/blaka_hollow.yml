@@ -1,12 +1,13 @@
 ---
+name: Blaka Hollow
 description: Blaka Hollow
 homepage: http://kieftype.com/
 resources:
-  Blaka_Hollow.zip:
-    urls:
-    - https://fonts.google.com/download?family=Blaka%20Hollow
-    sha256: 356443741304952f7c2a46e8f787a77c5a5aecdd9bff04939c1ddef069f8c081
-    file_size: 40737
+  Blaka Hollow:
+    source: google
+    family: Blaka Hollow
+    files:
+    - https://fonts.gstatic.com/s/blakahollow/v7/MCoUzAL91sjRE2FsKsxUtezYB9oFyW_-oA.ttf
 fonts:
 - name: Blaka Hollow
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: BlakaHollow-Regular
     version: 1.003; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2019 The Blaka Project Authors (https://github.com/Gue3bara/Blaka)
-    font: BlakaHollow-Regular.ttf
+    font: MCoUzAL91sjRE2FsKsxUtezYB9oFyW_-oA.ttf
 extract: {}
 copyright: Copyright 2019 The Blaka Project Authors (https://github.com/Gue3bara/Blaka)
 license_url: http://scripts.sil.org/OFL
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d67d790cc82fd8b984a25994bcc6178e91302b2e0ee0628faaf2251e5e28151f
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

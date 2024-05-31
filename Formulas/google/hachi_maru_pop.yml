@@ -3,11 +3,11 @@ name: Hachi Maru Pop
 description: Hachi Maru Pop
 homepage: https://nonty.net/
 resources:
-  Hachi_Maru_Pop.zip:
-    urls:
-    - https://fonts.google.com/download?family=Hachi%20Maru%20Pop
-    sha256: 700411085ae79be4c5126950d7b3e56da4ec9bf536284845d67f6448dbf641e9
-    file_size: 2661473
+  Hachi Maru Pop:
+    source: google
+    family: Hachi Maru Pop
+    files:
+    - https://fonts.gstatic.com/s/hachimarupop/v19/HI_TiYoRLqpLrEiMAuO9Ysfz7rW1EM_btd8u.ttf
 fonts:
 - name: Hachi Maru Pop
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: HachiMaruPop-Regular
     version: '1.300'
     copyright: Copyright 2020 The Hachi Maru Pop Project Authors (https://github.com/noriokanisawa/HachiMaruPop)
-    font: HachiMaruPop-Regular.ttf
+    font: HI_TiYoRLqpLrEiMAuO9Ysfz7rW1EM_btd8u.ttf
 extract: {}
 copyright: Copyright 2020 The Hachi Maru Pop Project Authors (https://github.com/noriokanisawa/HachiMaruPop)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 6774d0a2947ace28e46c47e8818d850a7e1072151118d57cde01a8731e5206de
-command: google import --formulas_path Formulas
+command: import google -n 9999

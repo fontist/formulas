@@ -1,24 +1,16 @@
 ---
 name: Ranga
 description: Ranga
-homepage:
 resources:
-  Ranga.zip:
-    urls:
-    - https://fonts.google.com/download?family=Ranga
-    sha256: ed4d6fe1b77c056b8a74a282fd6adca6e2ee51c9d12adc8d49a2724b6a994663
-    file_size: 120581
+  Ranga:
+    source: google
+    family: Ranga
+    files:
+    - https://fonts.gstatic.com/s/ranga/v21/C8ct4cYisGb28p6CLDwZwmGE.ttf
+    - https://fonts.gstatic.com/s/ranga/v21/C8cg4cYisGb28qY-AxgR6X2NZAn2.ttf
 fonts:
 - name: Ranga
   styles:
-  - family_name: Ranga
-    type: Regular
-    full_name: Ranga Regular
-    post_script_name: Ranga-Regular
-    version: 1.0.2
-    copyright: Copyright (c) 2014 by TipTopTyp. All rights reserved under SIL openfont
-      License 1.1
-    font: Ranga-Regular.ttf
   - family_name: Ranga
     type: Bold
     full_name: Ranga Bold
@@ -26,11 +18,18 @@ fonts:
     version: 1.0.2
     copyright: Copyright (c) 2014 by TipTopTyp. All rights reserved under SIL openfont
       License 1.1
-    font: Ranga-Bold.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2014 by TipTopTyp.
-license_url:
+    font: C8cg4cYisGb28qY-AxgR6X2NZAn2.ttf
+  - family_name: Ranga
+    type: Regular
+    full_name: Ranga Regular
+    post_script_name: Ranga-Regular
+    version: 1.0.2
+    copyright: Copyright (c) 2014 by TipTopTyp. All rights reserved under SIL openfont
+      License 1.1
+    font: C8ct4cYisGb28p6CLDwZwmGE.ttf
+extract: {}
+copyright: Copyright (c) 2014 by TipTopTyp. All rights reserved under SIL openfont
+  License 1.1
 open_license: |-
   Copyright (c) 2014 by TipTopTyp
 
@@ -125,3 +124,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

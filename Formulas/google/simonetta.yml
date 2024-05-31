@@ -1,24 +1,18 @@
 ---
 name: Simonetta
 description: Simonetta
-homepage:
 resources:
-  Simonetta.zip:
-    urls:
-    - https://fonts.google.com/download?family=Simonetta
-    sha256: 7d5271cdc766aaef0e3c1bc4e7b6a55f9ddd43802cf343148bb52edc734cdb60
-    file_size: 234722
+  Simonetta:
+    source: google
+    family: Simonetta
+    files:
+    - https://fonts.gstatic.com/s/simonetta/v27/x3dickHVYrCU5BU15c4BfPACvy_1BA.ttf
+    - https://fonts.gstatic.com/s/simonetta/v27/x3dkckHVYrCU5BU15c4xfvoGnSrlBBsy.ttf
+    - https://fonts.gstatic.com/s/simonetta/v27/x3dnckHVYrCU5BU15c45-N0mtwTpDQIrGg.ttf
+    - https://fonts.gstatic.com/s/simonetta/v27/x3d5ckHVYrCU5BU15c4xfsKCsA7tLwc7Gn88.ttf
 fonts:
 - name: Simonetta
   styles:
-  - family_name: Simonetta
-    type: Regular
-    full_name: Simonetta Regular
-    post_script_name: Simonetta-Regular
-    version: '1.004'
-    copyright: Copyright (c) 2011-2012, Brownfox (www.brownfox.org gayaneh.b@gmail.com),
-      with Reserved Font Name "Simonetta"
-    font: Simonetta-Regular.ttf
   - family_name: Simonetta
     type: Italic
     full_name: Simonetta Italic
@@ -26,25 +20,38 @@ fonts:
     version: '1.004'
     copyright: Copyright (c) 2011-2012, Brownfox (www.brownfox.org gayaneh.b@gmail.com),
       with Reserved Font Name "Simonetta"
-    font: Simonetta-Italic.ttf
+    font: x3dkckHVYrCU5BU15c4xfvoGnSrlBBsy.ttf
   - family_name: Simonetta
-    type: Black
-    full_name: Simonetta Black
-    post_script_name: Simonetta-Black
+    type: Regular
+    full_name: Simonetta Regular
+    post_script_name: Simonetta-Regular
     version: '1.004'
     copyright: Copyright (c) 2011-2012, Brownfox (www.brownfox.org gayaneh.b@gmail.com),
       with Reserved Font Name "Simonetta"
-    font: Simonetta-Black.ttf
-  - family_name: Simonetta
-    type: Black Italic
+    font: x3dickHVYrCU5BU15c4BfPACvy_1BA.ttf
+- name: Simonetta Black
+  styles:
+  - family_name: Simonetta Black
+    type: Italic
+    preferred_family_name: Simonetta
+    preferred_type: Black Italic
     full_name: Simonetta Black Italic
     post_script_name: Simonetta-BlackItalic
     version: '1.004'
     copyright: Copyright (c) 2011-2012, Brownfox (www.brownfox.org gayaneh.b@gmail.com),
       with Reserved Font Name "Simonetta"
-    font: Simonetta-BlackItalic.ttf
-extract:
-  format: zip
+    font: x3d5ckHVYrCU5BU15c4xfsKCsA7tLwc7Gn88.ttf
+  - family_name: Simonetta Black
+    type: Regular
+    preferred_family_name: Simonetta
+    preferred_type: Black
+    full_name: Simonetta Black
+    post_script_name: Simonetta-Black
+    version: '1.004'
+    copyright: Copyright (c) 2011-2012, Brownfox (www.brownfox.org gayaneh.b@gmail.com),
+      with Reserved Font Name "Simonetta"
+    font: x3dnckHVYrCU5BU15c45-N0mtwTpDQIrGg.ttf
+extract: {}
 copyright: Copyright (c) 2011-2012, Brownfox (www.brownfox.org gayaneh.b@gmail.com),
   with Reserved Font Name "Simonetta"
 license_url: http://scripts.sil.org/OFL
@@ -154,3 +161,4 @@ open_license: |-
   File info
   Size: 4531 bytes, 94 lines
   View raw file
+command: import google -n 9999

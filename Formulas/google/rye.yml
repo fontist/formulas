@@ -3,11 +3,11 @@ name: Rye
 description: Rye
 homepage: sorkintype.com
 resources:
-  Rye.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rye
-    sha256: c69624543c2051bcd305fae4457f65d8db967b23d3cfdfb327b6737dea420412
-    file_size: 66377
+  Rye:
+    source: google
+    family: Rye
+    files:
+    - https://fonts.gstatic.com/s/rye/v15/r05XGLJT86YDFpTsXOqx4w.ttf
 fonts:
 - name: Rye
   styles:
@@ -24,11 +24,12 @@ fonts:
       Copyright (c) 2010 by Sorkin Type Co with Reserved Font Name Rye.
 
       This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
-    font: Rye-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Sorkin Type Co (eben@eyebytes.com) with Reserved Font
-  Name 'Rye'
+    font: r05XGLJT86YDFpTsXOqx4w.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2010 by Sorkin Type Co with Reserved Font Name Rye.
+
+  This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
@@ -125,3 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

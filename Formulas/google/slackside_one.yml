@@ -1,11 +1,12 @@
 ---
+name: Slackside One
 description: Slackside One
 resources:
-  Slackside_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Slackside%20One
-    sha256: 304225834c6e6a068910896bbd0cf1bd08651c6b0613bdf6b12a74e9cf8c0c36
-    file_size: 100950
+  Slackside One:
+    source: google
+    family: Slackside One
+    files:
+    - https://fonts.gstatic.com/s/slacksideone/v10/EJRQQgMrXdcGsiBuvnRxodTwVy7VocNB6Iw.ttf
 fonts:
 - name: Slackside One
   styles:
@@ -16,7 +17,7 @@ fonts:
     version: '1.000'
     copyright: Copyright 2020 The Slackside One Project Authors (https://github.com/ManiackersDesign/slackside),
       all rights reserved.
-    font: SlacksideOne-Regular.ttf
+    font: EJRQQgMrXdcGsiBuvnRxodTwVy7VocNB6Iw.ttf
 extract: {}
 copyright: Copyright 2020 The Slackside One Project Authors (https://github.com/ManiackersDesign/slackside),
   all rights reserved.
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: cea381f3a34ed78897dcf409a77b13ac00ecca8d388334ad39e1c8f404e90a6b
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

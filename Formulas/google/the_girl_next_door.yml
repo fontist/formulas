@@ -1,12 +1,13 @@
 ---
+name: The Girl Next Door
 description: The Girl Next Door
 homepage: http://www.kimberlygeswein.com/
 resources:
-  TheGirlNextDoor.zip:
-    urls:
-    - https://fonts.google.com/download?family=The%20Girl%20Next%20Door
-    sha256: 1d6b9ee0c017655022fa9c96135397bc2fb35ccc6307413753128a52607b4bfa
-    file_size: 33845
+  The Girl Next Door:
+    source: google
+    family: The Girl Next Door
+    files:
+    - https://fonts.gstatic.com/s/thegirlnextdoor/v22/pe0zMJCIMIsBjFxqYBIcZ6_OI5oFHCYIV7t7w6bE2A.ttf
 fonts:
 - name: The Girl Next Door
   styles:
@@ -19,10 +20,9 @@ fonts:
       under the SIL Open Font License, Version 1.1.  This license is available with
       a FAQ at:  http://scripts.sil.org/OFL'
     copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
-    font: TheGirlNextDoor.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)
+    font: pe0zMJCIMIsBjFxqYBIcZ6_OI5oFHCYIV7t7w6bE2A.ttf
+extract: {}
+copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
@@ -118,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

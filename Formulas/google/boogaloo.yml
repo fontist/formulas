@@ -1,13 +1,12 @@
 ---
 name: Boogaloo
 description: Boogaloo
-homepage:
 resources:
-  Boogaloo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Boogaloo
-    sha256: 244a357fbfaf6401e6c4e1de94ffc9ee7f6bd2ef2fc0b70b0dc301a8e60220f4
-    file_size: 19566
+  Boogaloo:
+    source: google
+    family: Boogaloo
+    files:
+    - https://fonts.gstatic.com/s/boogaloo/v23/kmK-Zq45GAvOdnaW6x1F_SrQo_1K.ttf
 fonts:
 - name: Boogaloo
   styles:
@@ -18,9 +17,8 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, John Vargas Beltran (www.johnvargasbeltran.com|john.vargasbeltran@gmail.com),
       with Reserved Font Name "Boogaloo".
-    font: Boogaloo-Regular.ttf
-extract:
-  format: zip
+    font: kmK-Zq45GAvOdnaW6x1F_SrQo_1K.ttf
+extract: {}
 copyright: Copyright (c) 2011, John Vargas Beltran (www.johnvargasbeltran.com|john.vargasbeltran@gmail.com),
   with Reserved Font Name "Boogaloo".
 license_url: http://scripts.sil.org/OFL
@@ -119,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

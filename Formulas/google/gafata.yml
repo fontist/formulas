@@ -1,13 +1,12 @@
 ---
 name: Gafata
 description: Gafata
-homepage:
 resources:
-  Gafata.zip:
-    urls:
-    - https://fonts.google.com/download?family=Gafata
-    sha256: 508a44e9a3efd30390a67a279a7ad7227c741c273feff061efd9e73d34a8f341
-    file_size: 19068
+  Gafata:
+    source: google
+    family: Gafata
+    files:
+    - https://fonts.gstatic.com/s/gafata/v20/XRXV3I6Cn0VJKon4MuyAbsrVcA.ttf
 fonts:
 - name: Gafata
   styles:
@@ -15,12 +14,11 @@ fonts:
     type: Regular
     full_name: Gafata
     post_script_name: Gafata-Regular
-    version: 4.002; ttfautohint (v0.94.20-1c74) -l 7 -r 28 -G 0 -x 13 -w "" -W -c
+    version: '4.002'
     copyright: Copyright (c) 2010-2012, Lautaro Hourcade (lautaro.uy@gmail.com), with
       Reserved Font Name 'Gafata'
-    font: Gafata-Regular.ttf
-extract:
-  format: zip
+    font: XRXV3I6Cn0VJKon4MuyAbsrVcA.ttf
+extract: {}
 copyright: Copyright (c) 2010-2012, Lautaro Hourcade (lautaro.uy@gmail.com), with
   Reserved Font Name 'Gafata'
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

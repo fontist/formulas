@@ -3,30 +3,17 @@ name: Caudex
 description: Caudex
 homepage: http://caudex.sf.net/
 resources:
-  Caudex.zip:
-    urls:
-    - https://fonts.google.com/download?family=Caudex
-    sha256: 6e92016c37051888f3e64c555b60a0f402e18857f8acc75e2ac33d8112a4a394
-    file_size: 780966
+  Caudex:
+    source: google
+    family: Caudex
+    files:
+    - https://fonts.gstatic.com/s/caudex/v17/esDQ311QOP6BJUrIyviAnb4eEw.ttf
+    - https://fonts.gstatic.com/s/caudex/v17/esDS311QOP6BJUr4yPKEv7sOE4in.ttf
+    - https://fonts.gstatic.com/s/caudex/v17/esDT311QOP6BJUrwdteklZUCGpG-GQ.ttf
+    - https://fonts.gstatic.com/s/caudex/v17/esDV311QOP6BJUr4yMo4kJ8GOJSuGdLB.ttf
 fonts:
 - name: Caudex
   styles:
-  - family_name: Caudex
-    type: Regular
-    full_name: Caudex
-    post_script_name: Caudex
-    version: '1.01'
-    description: MUFI 3.0 font
-    copyright: Copyright (c) 2011 Hjort Nidudsson
-    font: Caudex-Regular.ttf
-  - family_name: Caudex
-    type: Italic
-    full_name: Caudex Italic
-    post_script_name: Caudex-Italic
-    version: '1.01'
-    description: MUFI 3.0 font
-    copyright: Copyright (c) 2011 Hjort Nidudsson
-    font: Caudex-Italic.ttf
   - family_name: Caudex
     type: Bold
     full_name: Caudex Bold
@@ -34,7 +21,7 @@ fonts:
     version: '1.01'
     description: MUFI 3.0 font
     copyright: Copyright (c) 2011 Hjort Nidudsson
-    font: Caudex-Bold.ttf
+    font: esDT311QOP6BJUrwdteklZUCGpG-GQ.ttf
   - family_name: Caudex
     type: Bold Italic
     full_name: Caudex Bold Italic
@@ -42,10 +29,25 @@ fonts:
     version: '1.01'
     description: MUFI 3.0 font
     copyright: Copyright (c) 2011 Hjort Nidudsson
-    font: Caudex-BoldItalic.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 Hjort Nidudsson (nidud@users.sourceforge.net)
+    font: esDV311QOP6BJUr4yMo4kJ8GOJSuGdLB.ttf
+  - family_name: Caudex
+    type: Italic
+    full_name: Caudex Italic
+    post_script_name: Caudex-Italic
+    version: '1.01'
+    description: MUFI 3.0 font
+    copyright: Copyright (c) 2011 Hjort Nidudsson
+    font: esDS311QOP6BJUr4yPKEv7sOE4in.ttf
+  - family_name: Caudex
+    type: Regular
+    full_name: Caudex
+    post_script_name: Caudex
+    version: '1.01'
+    description: MUFI 3.0 font
+    copyright: Copyright (c) 2011 Hjort Nidudsson
+    font: esDQ311QOP6BJUrIyviAnb4eEw.ttf
+extract: {}
+copyright: Copyright (c) 2011 Hjort Nidudsson
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Hjort Nidudsson (http://caudex.sf.net),
@@ -142,3 +144,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

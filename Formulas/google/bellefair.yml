@@ -3,11 +3,11 @@ name: Bellefair
 description: Bellefair
 homepage: http://www.shinntype.com
 resources:
-  Bellefair.zip:
-    urls:
-    - https://fonts.google.com/download?family=Bellefair
-    sha256: 7ef6290662a7ccf6e712449b42492ea7548bacd3cb4b0b8318ca2dad37781ac6
-    file_size: 36580
+  Bellefair:
+    source: google
+    family: Bellefair
+    files:
+    - https://fonts.gstatic.com/s/bellefair/v14/kJExBuYY6AAuhiXUxG19__A2pOdvDA.ttf
 fonts:
 - name: Bellefair
   styles:
@@ -17,9 +17,8 @@ fonts:
     post_script_name: Bellefair-Regular
     version: '1.003'
     copyright: Copyright 2015 The Bellefair Project Authors (https://github.com/shinntype/bellefair)
-    font: Bellefair-Regular.ttf
-extract:
-  format: zip
+    font: kJExBuYY6AAuhiXUxG19__A2pOdvDA.ttf
+extract: {}
 copyright: Copyright 2015 The Bellefair Project Authors (https://github.com/shinntype/bellefair)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

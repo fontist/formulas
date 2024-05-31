@@ -3,30 +3,30 @@ name: Radley
 description: Radley
 homepage: http://www.sansoxygen.com
 resources:
-  Radley.zip:
-    urls:
-    - https://fonts.google.com/download?family=Radley
-    sha256: 5a94aafdf163bf6558aec01043ece93c225ca32cc30ee7e7ba387f6cb81d4b80
-    file_size: 88720
+  Radley:
+    source: google
+    family: Radley
+    files:
+    - https://fonts.gstatic.com/s/radley/v22/LYjDdGzinEIjCN19oAlEpVs3VQ.ttf
+    - https://fonts.gstatic.com/s/radley/v22/LYjBdGzinEIjCN1NogNAh14nVcfe.ttf
 fonts:
 - name: Radley
   styles:
-  - family_name: Radley
-    type: Regular
-    full_name: Radley Regular
-    post_script_name: Radley-Regular
-    version: 1.003; ttfautohint (v1.6)
-    copyright: Copyright 2011 The Radley Project Authors (https://github.com/googlefonts/RadleyFont)
-    font: Radley-Regular.ttf
   - family_name: Radley
     type: Italic
     full_name: Radley Italic
     post_script_name: Radley-Italic
     version: 1.003; ttfautohint (v1.6)
     copyright: Copyright 2011 The Radley Project Authors (https://github.com/googlefonts/RadleyFont)
-    font: Radley-Italic.ttf
-extract:
-  format: zip
+    font: LYjBdGzinEIjCN1NogNAh14nVcfe.ttf
+  - family_name: Radley
+    type: Regular
+    full_name: Radley Regular
+    post_script_name: Radley-Regular
+    version: 1.003; ttfautohint (v1.6)
+    copyright: Copyright 2011 The Radley Project Authors (https://github.com/googlefonts/RadleyFont)
+    font: LYjDdGzinEIjCN19oAlEpVs3VQ.ttf
+extract: {}
 copyright: Copyright 2011 The Radley Project Authors (https://github.com/googlefonts/RadleyFont)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -123,3 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

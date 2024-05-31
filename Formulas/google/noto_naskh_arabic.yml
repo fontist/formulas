@@ -1,11 +1,16 @@
 ---
+name: Noto Naskh Arabic
 description: Noto Naskh Arabic
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Naskh_Arabic.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Naskh%20Arabic
-    file_size: 503840
+  Noto Naskh Arabic:
+    source: google
+    family: Noto Naskh Arabic
+    files:
+    - https://fonts.gstatic.com/s/notonaskharabic/v34/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc5krK0z9_Mnuw.ttf
+    - https://fonts.gstatic.com/s/notonaskharabic/v34/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwj85krK0z9_Mnuw.ttf
+    - https://fonts.gstatic.com/s/notonaskharabic/v34/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwY8lkrK0z9_Mnuw.ttf
+    - https://fonts.gstatic.com/s/notonaskharabic/v34/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwWslkrK0z9_Mnuw.ttf
 fonts:
 - name: Noto Naskh Arabic
   styles:
@@ -13,26 +18,20 @@ fonts:
     type: Bold
     full_name: Noto Naskh Arabic Bold
     post_script_name: NotoNaskhArabic-Bold
-    version: '2.016'
-    description: Monotype Design Team, David Williams, Mohamad Dakak and Nizar Qandah
+    version: '2.018'
+    description: Monotype Design Team, David Williams, Mohamad Dakak, Nizar Qandah,
+      Khaled Hosny
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/arabic)
-    font: NotoNaskhArabic-Bold.ttf
+    font: RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwWslkrK0z9_Mnuw.ttf
   - family_name: Noto Naskh Arabic
     type: Regular
     full_name: Noto Naskh Arabic Regular
     post_script_name: NotoNaskhArabic-Regular
-    version: '2.016'
-    description: Monotype Design Team, David Williams, Mohamad Dakak and Nizar Qandah
+    version: '2.018'
+    description: Monotype Design Team, David Williams, Mohamad Dakak, Nizar Qandah,
+      Khaled Hosny
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/arabic)
-    font: NotoNaskhArabic-VariableFont_wght.ttf
-  - family_name: Noto Naskh Arabic
-    type: Regular
-    full_name: Noto Naskh Arabic Regular
-    post_script_name: NotoNaskhArabic-Regular
-    version: '2.016'
-    description: Monotype Design Team, David Williams, Mohamad Dakak and Nizar Qandah
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/arabic)
-    font: NotoNaskhArabic-Regular.ttf
+    font: RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc5krK0z9_Mnuw.ttf
 - name: Noto Naskh Arabic Medium
   styles:
   - family_name: Noto Naskh Arabic Medium
@@ -41,10 +40,11 @@ fonts:
     preferred_type: Medium
     full_name: Noto Naskh Arabic Medium
     post_script_name: NotoNaskhArabic-Medium
-    version: '2.016'
-    description: Monotype Design Team, David Williams, Mohamad Dakak and Nizar Qandah
+    version: '2.018'
+    description: Monotype Design Team, David Williams, Mohamad Dakak, Nizar Qandah,
+      Khaled Hosny
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/arabic)
-    font: NotoNaskhArabic-Medium.ttf
+    font: RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwj85krK0z9_Mnuw.ttf
 - name: Noto Naskh Arabic SemiBold
   styles:
   - family_name: Noto Naskh Arabic SemiBold
@@ -53,10 +53,11 @@ fonts:
     preferred_type: SemiBold
     full_name: Noto Naskh Arabic SemiBold
     post_script_name: NotoNaskhArabic-SemiBold
-    version: '2.016'
-    description: Monotype Design Team, David Williams, Mohamad Dakak and Nizar Qandah
+    version: '2.018'
+    description: Monotype Design Team, David Williams, Mohamad Dakak, Nizar Qandah,
+      Khaled Hosny
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/arabic)
-    font: NotoNaskhArabic-SemiBold.ttf
+    font: RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwY8lkrK0z9_Mnuw.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/arabic)
 license_url: https://scripts.sil.org/OFL
@@ -65,7 +66,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -154,5 +155,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: b87e8657a100a29f6d906cd23d5b8c4fd2a75de3276de5cccae8118a9ccc7ae6
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

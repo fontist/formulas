@@ -1,11 +1,16 @@
 ---
+name: Kameron
 description: Kameron
 homepage: http://www.sansoxygen.com
 resources:
-  Kameron.zip:
-    urls:
-    - https://fonts.google.com/download?family=Kameron
-    file_size: 167071
+  Kameron:
+    source: google
+    family: Kameron
+    files:
+    - https://fonts.gstatic.com/s/kameron/v16/vm8pdR7vXErQxuznqrUS3z1Uw3nq4Ne3cbcbvZPxCDLR.ttf
+    - https://fonts.gstatic.com/s/kameron/v16/vm8pdR7vXErQxuznqrUS3z1Uw3nq4NeFcbcbvZPxCDLR.ttf
+    - https://fonts.gstatic.com/s/kameron/v16/vm8pdR7vXErQxuznqrUS3z1Uw3nq4NdpdrcbvZPxCDLR.ttf
+    - https://fonts.gstatic.com/s/kameron/v16/vm8pdR7vXErQxuznqrUS3z1Uw3nq4NdQdrcbvZPxCDLR.ttf
 fonts:
 - name: Kameron
   styles:
@@ -15,21 +20,14 @@ fonts:
     post_script_name: Kameron-Bold
     version: '1.100'
     copyright: Copyright 2011 The Kameron Project Authors (https://github.com/googlefonts/kameronFont)
-    font: Kameron-Bold.ttf
+    font: vm8pdR7vXErQxuznqrUS3z1Uw3nq4NdQdrcbvZPxCDLR.ttf
   - family_name: Kameron
     type: Regular
     full_name: Kameron Regular
     post_script_name: Kameron-Regular
     version: '1.100'
     copyright: Copyright 2011 The Kameron Project Authors (https://github.com/googlefonts/kameronFont)
-    font: Kameron-VariableFont_wght.ttf
-  - family_name: Kameron
-    type: Regular
-    full_name: Kameron Regular
-    post_script_name: Kameron-Regular
-    version: '1.100'
-    copyright: Copyright 2011 The Kameron Project Authors (https://github.com/googlefonts/kameronFont)
-    font: Kameron-Regular.ttf
+    font: vm8pdR7vXErQxuznqrUS3z1Uw3nq4Ne3cbcbvZPxCDLR.ttf
 - name: Kameron Medium
   styles:
   - family_name: Kameron Medium
@@ -40,7 +38,7 @@ fonts:
     post_script_name: Kameron-Medium
     version: '1.100'
     copyright: Copyright 2011 The Kameron Project Authors (https://github.com/googlefonts/kameronFont)
-    font: Kameron-Medium.ttf
+    font: vm8pdR7vXErQxuznqrUS3z1Uw3nq4NeFcbcbvZPxCDLR.ttf
 - name: Kameron SemiBold
   styles:
   - family_name: Kameron SemiBold
@@ -51,7 +49,7 @@ fonts:
     post_script_name: Kameron-SemiBold
     version: '1.100'
     copyright: Copyright 2011 The Kameron Project Authors (https://github.com/googlefonts/kameronFont)
-    font: Kameron-SemiBold.ttf
+    font: vm8pdR7vXErQxuznqrUS3z1Uw3nq4NdpdrcbvZPxCDLR.ttf
 extract: {}
 copyright: Copyright 2011 The Kameron Project Authors (https://github.com/googlefonts/kameronFont)
 license_url: https://scripts.sil.org/OFL
@@ -60,7 +58,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -149,5 +147,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d93f8866b364439e0afc7cea3b187d674e61b75973c6ec1bee1bf1325c2f9cf9
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

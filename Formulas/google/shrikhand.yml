@@ -1,13 +1,12 @@
 ---
 name: Shrikhand
 description: Shrikhand
-homepage:
 resources:
-  Shrikhand.zip:
-    urls:
-    - https://fonts.google.com/download?family=Shrikhand
-    sha256: f5c9c654e4bb1ed10cd7b73f8273593705367e9b570d204419ed0bb01c3fdbc8
-    file_size: 83280
+  Shrikhand:
+    source: google
+    family: Shrikhand
+    files:
+    - https://fonts.gstatic.com/s/shrikhand/v15/a8IbNovtLWfR7T7bMJwbBIiQ0zhMtA.ttf
 fonts:
 - name: Shrikhand
   styles:
@@ -17,9 +16,8 @@ fonts:
     post_script_name: Shrikhand-Regular
     version: 1.001;PS 1.001;hotconv 1.0.88;makeotf.lib2.5.647800
     copyright: Copyright (c) 2015 Jonny Pinhorn (jonpinhorn.typedesign@gmail.com)
-    font: Shrikhand-Regular.ttf
-extract:
-  format: zip
+    font: a8IbNovtLWfR7T7bMJwbBIiQ0zhMtA.ttf
+extract: {}
 copyright: Copyright (c) 2015 Jonny Pinhorn (jonpinhorn.typedesign@gmail.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

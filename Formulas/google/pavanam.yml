@@ -3,11 +3,11 @@ name: Pavanam
 description: Pavanam
 homepage: http://niram.org
 resources:
-  Pavanam.zip:
-    urls:
-    - https://fonts.google.com/download?family=Pavanam
-    sha256: 9e4e4cfee9ecd5cf0e6c971d26d80e1687af337032c5a67a7554a735feb6372a
-    file_size: 38656
+  Pavanam:
+    source: google
+    family: Pavanam
+    files:
+    - https://fonts.gstatic.com/s/pavanam/v11/BXRrvF_aiezLh0xPDOtQ9Wf0QcE.ttf
 fonts:
 - name: Pavanam
   styles:
@@ -19,9 +19,8 @@ fonts:
       -w G -t -X ""
     copyright: Copyright (c) 2015, Tharique Azeez (http://thariqueazeez.com | zeezat@gmail.com).
       Copyright (c) 2012, vernon adams (vern@newtypography.co.uk)
-    font: Pavanam-Regular.ttf
-extract:
-  format: zip
+    font: BXRrvF_aiezLh0xPDOtQ9Wf0QcE.ttf
+extract: {}
 copyright: Copyright (c) 2015, Tharique Azeez (http://thariqueazeez.com | zeezat@gmail.com).
   Copyright (c) 2012, vernon adams (vern@newtypography.co.uk)
 license_url: http://scripts.sil.org/OFL
@@ -119,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

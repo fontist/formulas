@@ -3,11 +3,11 @@ name: Festive
 description: Festive
 homepage: www.typesetit.com
 resources:
-  Festive.zip:
-    urls:
-    - https://fonts.google.com/download?family=Festive
-    sha256: 83fb25f4979ab556ee85ec4bcf20f79fa107ac7dabd29b37932864ec4067cee5
-    file_size: 631674
+  Festive:
+    source: google
+    family: Festive
+    files:
+    - https://fonts.gstatic.com/s/festive/v9/cY9Ffj6KX1xcoDWhFtfgy9HTkak.ttf
 fonts:
 - name: Festive
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: Festive-Regular
     version: 1.101; ttfautohint (v1.8.3)
     copyright: Copyright 2015 The Festive Pro Project Authors (https://github.com/googlefonts/festive)
-    font: Festive-Regular.ttf
+    font: cY9Ffj6KX1xcoDWhFtfgy9HTkak.ttf
 extract: {}
 copyright: Copyright 2015 The Festive Pro Project Authors (https://github.com/googlefonts/festive)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 52c703e524de98ec53761da80676a63d2b65d42c22dffb059a805c0b19de0ade
-command: google import --formulas_path Formulas
+command: import google -n 9999

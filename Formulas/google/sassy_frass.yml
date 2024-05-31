@@ -3,11 +3,11 @@ name: Sassy Frass
 description: Sassy Frass
 homepage: www.typesetit.com
 resources:
-  Sassy_Frass.zip:
-    urls:
-    - https://fonts.google.com/download?family=Sassy%20Frass
-    sha256: 5404f7a96358ef153fbcec4f3e0c949c589916c303f1cd36b1bfa427a1ea24de
-    file_size: 76565
+  Sassy Frass:
+    source: google
+    family: Sassy Frass
+    files:
+    - https://fonts.gstatic.com/s/sassyfrass/v7/LhWhMVrGOe0FLb97BjhsE99dGNWQg_am.ttf
 fonts:
 - name: Sassy Frass
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: SassyFrass-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2008 The Sassy Frass Project Authors (https://github.com/googlefonts/sassy-frass)
-    font: SassyFrass-Regular.ttf
+    font: LhWhMVrGOe0FLb97BjhsE99dGNWQg_am.ttf
 extract: {}
 copyright: Copyright 2008 The Sassy Frass Project Authors (https://github.com/googlefonts/sassy-frass)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 77796dcb888a639a8ad94561ff97baed76ede05192333d6306234f1d9baade44
-command: google import --formulas_path Formulas
+command: import google -n 9999

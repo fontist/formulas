@@ -3,16 +3,18 @@ name: Cambo
 description: Cambo
 homepage: http://www.huertatipografica.com.ar
 resources:
-  Cambo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Cambo
-    sha256: 534b95aeac217db5aba205139f30d8d13c4a55a052b8f3d8fdf907b15cfb90da
-    file_size: 16510
+  Cambo:
+    source: google
+    family: Cambo
+    files:
+    - https://fonts.gstatic.com/s/cambo/v17/IFSqHeNEk8FJk416ok7xkPm8.ttf
 fonts:
 - name: Cambo
   styles:
   - family_name: Cambo
     type: Regular
+    preferred_family_name: Cambo
+    preferred_type: Regular
     full_name: Cambo
     post_script_name: Cambo-Regular
     version: '2.001'
@@ -20,12 +22,12 @@ fonts:
       Copyright (c) 2011, Carolina Giovagnoli (caro@huertatipografica.com.ar),
       Copyright (c) 2011, Andres Torresi (andres@huertatipografica.com.ar),
       with Reserved Font Name Cambo.
-    font: Cambo-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Carolina Giovagnoli (caro@huertatipografica.com.ar),
-  Copyright (c) 2011, Andres Torresi (andres@huertatipografica.com.ar), with Reserved
-  Font Name Cambo.
+    font: IFSqHeNEk8FJk416ok7xkPm8.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011, Carolina Giovagnoli (caro@huertatipografica.com.ar),
+  Copyright (c) 2011, Andres Torresi (andres@huertatipografica.com.ar),
+  with Reserved Font Name Cambo.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Carolina Giovagnoli (caro@huertatipografica.com.ar),
@@ -123,3 +125,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: My Soul
 description: My Soul
 homepage: www.typesetit.com
 resources:
-  My_Soul.zip:
-    urls:
-    - https://fonts.google.com/download?family=My%20Soul
-    sha256: a5935d0a3383c6df07be319a886fe9aebf8a24d243cdad3f68d4921ea759db8f
-    file_size: 72234
+  My Soul:
+    source: google
+    family: My Soul
+    files:
+    - https://fonts.gstatic.com/s/mysoul/v5/3XFqErcuy945_u6KF_Ulk2nnXf0.ttf
 fonts:
 - name: My Soul
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: MySoul-Regular
     version: 1.010; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2016 The My Soul Project Authors (https://github.com/googlefonts/my-soul)
-    font: MySoul-Regular.ttf
+    font: 3XFqErcuy945_u6KF_Ulk2nnXf0.ttf
 extract: {}
 copyright: Copyright 2016 The My Soul Project Authors (https://github.com/googlefonts/my-soul)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: a559e0d44073be6c48a83357b8cf26a29e37f14bc43be0d0fcd0775a41dbb73e
-command: import google --formulas_path Formulas
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Lydian
 description: Noto Sans Lydian
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Lydian.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Lydian
-    sha256: 463232ee56199f8c877a486a45528a35a1a9cd2560fdd4bda9272daa32ac1fb3
-    file_size: 31144
+  Noto Sans Lydian:
+    source: google
+    family: Noto Sans Lydian
+    files:
+    - https://fonts.gstatic.com/s/notosanslydian/v18/c4m71mVzGN7s8FmIukZJ1v4ZlcPReUPXMoIjEQI.ttf
 fonts:
 - name: Noto Sans Lydian
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/lydian)
-    font: NotoSansLydian-Regular.ttf
+    font: c4m71mVzGN7s8FmIukZJ1v4ZlcPReUPXMoIjEQI.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/lydian)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 100c1878a98a280087bca25096366cacee423cfaed07a247bc65c3aac39cdd27
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

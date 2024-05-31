@@ -1,12 +1,13 @@
 ---
+name: Leckerli One
 description: Leckerli One
 homepage: http://www.gesine-todt.de
 resources:
-  LeckerliOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Leckerli%20One
-    sha256: '029c30ace23145fff385fc9106fc2d091359d2c38df408237e9b98d49131eeb1'
-    file_size: 23423
+  Leckerli One:
+    source: google
+    family: Leckerli One
+    files:
+    - https://fonts.gstatic.com/s/leckerlione/v20/V8mCoQH8VCsNttEnxnGQ-1itLZxcBtItFw.ttf
 fonts:
 - name: Leckerli One
   styles:
@@ -17,11 +18,10 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011 Gesine Todt (www.gesine-todt.de), with Reserved
       Font Names "Leckerli"
-    font: LeckerliOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 Gesine Todt (www.gesine-todt.de hallo@gesine-todt.de),
-  with Reserved Font Names "Leckerli"
+    font: V8mCoQH8VCsNttEnxnGQ-1itLZxcBtItFw.ttf
+extract: {}
+copyright: Copyright (c) 2011 Gesine Todt (www.gesine-todt.de), with Reserved Font
+  Names "Leckerli"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 Gesine Todt  (www.gesine-todt.de), with Reserved
@@ -118,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

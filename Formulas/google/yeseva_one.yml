@@ -1,12 +1,13 @@
 ---
+name: Yeseva One
 description: Yeseva One
 homepage: http://jovanny.ru
 resources:
-  YesevaOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Yeseva%20One
-    sha256: b8ac691355e9df4b08d206b430f9e928ed7a1961ab56135f15eb8612716f8ff3
-    file_size: 49173
+  Yeseva One:
+    source: google
+    family: Yeseva One
+    files:
+    - https://fonts.gstatic.com/s/yesevaone/v22/OpNJno4ck8vc-xYpwWWxpipfWhXD00c.ttf
 fonts:
 - name: Yeseva One
   styles:
@@ -17,9 +18,8 @@ fonts:
     version: '2.000'
     copyright: Copyright 2012 The Yeseva One Project Authors (lemonad@jovanny.ru),
       with Reserved Font Name "Yeseva".
-    font: YesevaOne-Regular.ttf
-extract:
-  format: zip
+    font: OpNJno4ck8vc-xYpwWWxpipfWhXD00c.ttf
+extract: {}
 copyright: Copyright 2012 The Yeseva One Project Authors (lemonad@jovanny.ru), with
   Reserved Font Name "Yeseva".
 license_url: http://scripts.sil.org/OFL
@@ -117,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -3,11 +3,11 @@ name: Yusei Magic
 description: Yusei Magic
 homepage: https://github.com/tanukifont/YuseiMagic
 resources:
-  Yusei_Magic.zip:
-    urls:
-    - https://fonts.google.com/download?family=Yusei%20Magic
-    sha256: f138b4a743ce36737576c64cd29487177b0f24d424bbb8e1c46360f811f05b40
-    file_size: 1511026
+  Yusei Magic:
+    source: google
+    family: Yusei Magic
+    files:
+    - https://fonts.gstatic.com/s/yuseimagic/v12/yYLt0hbAyuCmoo5wlhPkpjHR-tdfcIT_.ttf
 fonts:
 - name: Yusei Magic
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: YuseiMagic-Regular
     version: '1.200'
     copyright: Copyright 2020 The Yusei Magic Project Authors (https://github.com/tanukifont/YuseiMagic)
-    font: YuseiMagic-Regular.ttf
+    font: yYLt0hbAyuCmoo5wlhPkpjHR-tdfcIT_.ttf
 extract: {}
 copyright: Copyright 2020 The Yusei Magic Project Authors (https://github.com/tanukifont/YuseiMagic)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: efb1ca131d1b110af6dec1e85fafc8919c5329344127a05d1881a74ca433cbf9
-command: google import --formulas_path Formulas
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Average
 description: Average
 homepage: https://www.tipo.net.ar
 resources:
-  Average.zip:
-    urls:
-    - https://fonts.google.com/download?family=Average
-    sha256: fd8a584a78672ec7d0b2630591097fc2d194c62564e804a9861908e68453d6ae
-    file_size: 40418
+  Average:
+    source: google
+    family: Average
+    files:
+    - https://fonts.gstatic.com/s/average/v18/fC1hPYBHe23MxA7rIeJwVWytTyk.ttf
 fonts:
 - name: Average
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: Average-Regular
     version: 1.003; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2012 The Average Project Authors (https://github.com/etunni/average)
-    font: Average-Regular.ttf
+    font: fC1hPYBHe23MxA7rIeJwVWytTyk.ttf
 extract: {}
 copyright: Copyright 2012 The Average Project Authors (https://github.com/etunni/average)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: bce6ac0565a4b348ed5097b7bc27e02eef9985796fb1b9e836e34177427941a1
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

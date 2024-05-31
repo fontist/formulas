@@ -1,12 +1,13 @@
 ---
+name: East Sea Dokdo
 description: East Sea Dokdo
 homepage: http://www.yoonfont.co.kr
 resources:
-  EastSeaDokdo.zip:
-    urls:
-    - https://fonts.google.com/download?family=East%20Sea%20Dokdo
-    sha256: dde9e7bd1d7172f2eb15e851310804e94720c38b65d86a17edbd8a98e9711a50
-    file_size: 832928
+  East Sea Dokdo:
+    source: google
+    family: East Sea Dokdo
+    files:
+    - https://fonts.gstatic.com/s/eastseadokdo/v22/xfuo0Wn2V2_KanASqXSZp22m05_aGavYS18y.ttf
 fonts:
 - name: East Sea Dokdo
   styles:
@@ -16,9 +17,8 @@ fonts:
     post_script_name: EastSeaDokdo-Regular
     version: '1.00'
     copyright: Copyright (c) YoonDesign Inc. All Rights Reserved.
-    font: EastSeaDokdo-Regular.ttf
-extract:
-  format: zip
+    font: xfuo0Wn2V2_KanASqXSZp22m05_aGavYS18y.ttf
+extract: {}
 copyright: Copyright (c) YoonDesign Inc. All Rights Reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -115,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

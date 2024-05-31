@@ -1,38 +1,44 @@
 ---
+name: Sulphur Point
 description: Sulphur Point
 homepage: http://noponies.com
 resources:
-  SulphurPoint.zip:
-    urls:
-    - https://fonts.google.com/download?family=Sulphur%20Point
-    sha256: 4d8617d8e468760809248d5c36990f143260ba67370006c22e384361c19f5f46
-    file_size: 87669
+  Sulphur Point:
+    source: google
+    family: Sulphur Point
+    files:
+    - https://fonts.gstatic.com/s/sulphurpoint/v15/RLpkK5vv8KaycDcazWFPBj2afVU6n6kFUHPIFaU.ttf
+    - https://fonts.gstatic.com/s/sulphurpoint/v15/RLp5K5vv8KaycDcazWFPBj2aRfkSu6EuTHo.ttf
+    - https://fonts.gstatic.com/s/sulphurpoint/v15/RLpkK5vv8KaycDcazWFPBj2afUU9n6kFUHPIFaU.ttf
 fonts:
 - name: Sulphur Point
   styles:
-  - family_name: Sulphur Point
-    type: Light
-    full_name: Sulphur Point Light
-    post_script_name: SulphurPoint-Light
-    version: 1.000; ttfautohint (v1.8)
-    copyright: Copyright 2019 The Sulphur Point Project Authors (https://github.com/noponies)
-    font: SulphurPoint-Light.ttf
-  - family_name: Sulphur Point
-    type: Regular
-    full_name: Sulphur Point Regular
-    post_script_name: SulphurPoint-Regular
-    version: 1.000; ttfautohint (v1.8)
-    copyright: Copyright 2019 The Sulphur Point Project Authors (https://github.com/noponies)
-    font: SulphurPoint-Regular.ttf
   - family_name: Sulphur Point
     type: Bold
     full_name: Sulphur Point Bold
     post_script_name: SulphurPoint-Bold
     version: 1.000; ttfautohint (v1.8)
     copyright: Copyright 2019 The Sulphur Point Project Authors (https://github.com/noponies)
-    font: SulphurPoint-Bold.ttf
-extract:
-  format: zip
+    font: RLpkK5vv8KaycDcazWFPBj2afUU9n6kFUHPIFaU.ttf
+  - family_name: Sulphur Point
+    type: Regular
+    full_name: Sulphur Point Regular
+    post_script_name: SulphurPoint-Regular
+    version: 1.000; ttfautohint (v1.8)
+    copyright: Copyright 2019 The Sulphur Point Project Authors (https://github.com/noponies)
+    font: RLp5K5vv8KaycDcazWFPBj2aRfkSu6EuTHo.ttf
+- name: Sulphur Point Light
+  styles:
+  - family_name: Sulphur Point Light
+    type: Regular
+    preferred_family_name: Sulphur Point
+    preferred_type: Light
+    full_name: Sulphur Point Light
+    post_script_name: SulphurPoint-Light
+    version: 1.000; ttfautohint (v1.8)
+    copyright: Copyright 2019 The Sulphur Point Project Authors (https://github.com/noponies)
+    font: RLpkK5vv8KaycDcazWFPBj2afVU6n6kFUHPIFaU.ttf
+extract: {}
 copyright: Copyright 2019 The Sulphur Point Project Authors (https://github.com/noponies)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -129,3 +135,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

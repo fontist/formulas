@@ -1,12 +1,13 @@
 ---
+name: Marck Script
 description: Marck Script
 homepage: denis.masharov@gmail.com
 resources:
-  MarckScript.zip:
-    urls:
-    - https://fonts.google.com/download?family=Marck%20Script
-    sha256: 6e44a2562ba5a8cc6582df4783a0aa6f5033e754af49e83a849964d841552495
-    file_size: 40303
+  Marck Script:
+    source: google
+    family: Marck Script
+    files:
+    - https://fonts.gstatic.com/s/marckscript/v20/nwpTtK2oNgBA3Or78gapdwuCzyI-aMPF7Q.ttf
 fonts:
 - name: Marck Script
   styles:
@@ -17,9 +18,8 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Denis Masharov <denis.masharov@gmail.com>, Marck
       Fogel, with Reserved Font Names "Marck Script".
-    font: MarckScript-Regular.ttf
-extract:
-  format: zip
+    font: nwpTtK2oNgBA3Or78gapdwuCzyI-aMPF7Q.ttf
+extract: {}
 copyright: Copyright (c) 2011, Denis Masharov <denis.masharov@gmail.com>, Marck Fogel,
   with Reserved Font Names "Marck Script".
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

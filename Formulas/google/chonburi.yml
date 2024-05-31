@@ -3,11 +3,11 @@ name: Chonburi
 description: Chonburi
 homepage: www.cadsondemak
 resources:
-  Chonburi.zip:
-    urls:
-    - https://fonts.google.com/download?family=Chonburi
-    sha256: 8fa818891a705a416e5c4a832a3f277ee39b6ad78ed2c77bd466433f355dbd3b
-    file_size: 72936
+  Chonburi:
+    source: google
+    family: Chonburi
+    files:
+    - https://fonts.gstatic.com/s/chonburi/v12/8AtqGs-wOpGRTBq66IWaFr3biAfZ.ttf
 fonts:
 - name: Chonburi
   styles:
@@ -17,9 +17,8 @@ fonts:
     post_script_name: Chonburi-Regular
     version: 1.000g
     copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: Chonburi-Regular.ttf
-extract:
-  format: zip
+    font: 8AtqGs-wOpGRTBq66IWaFr3biAfZ.ttf
+extract: {}
 copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -116,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,12 +1,17 @@
 ---
+name: Cormorant SC
 description: Cormorant SC
 homepage: https://github.com/CatharsisFonts
 resources:
-  Cormorant_SC.zip:
-    urls:
-    - https://fonts.google.com/download?family=Cormorant%20SC
-    sha256: 8fc87530b76401580872485f2b4593723836a168cee6a3be4314dfd7376efffc
-    file_size: 677607
+  Cormorant SC:
+    source: google
+    family: Cormorant SC
+    files:
+    - https://fonts.gstatic.com/s/cormorantsc/v18/0ybmGD4kxqXBmOVLG30OGwsmABIU_R3y8DOWGA.ttf
+    - https://fonts.gstatic.com/s/cormorantsc/v18/0yb5GD4kxqXBmOVLG30OGwserDow9Tbu-Q.ttf
+    - https://fonts.gstatic.com/s/cormorantsc/v18/0ybmGD4kxqXBmOVLG30OGwsmWBMU_R3y8DOWGA.ttf
+    - https://fonts.gstatic.com/s/cormorantsc/v18/0ybmGD4kxqXBmOVLG30OGwsmdBQU_R3y8DOWGA.ttf
+    - https://fonts.gstatic.com/s/cormorantsc/v18/0ybmGD4kxqXBmOVLG30OGwsmEBUU_R3y8DOWGA.ttf
 fonts:
 - name: Cormorant SC
   styles:
@@ -14,16 +19,16 @@ fonts:
     type: Bold
     full_name: Cormorant SC Bold
     post_script_name: CormorantSC-Bold
-    version: '3.303'
+    version: '4.000'
     copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
-    font: CormorantSC-Bold.ttf
+    font: 0ybmGD4kxqXBmOVLG30OGwsmEBUU_R3y8DOWGA.ttf
   - family_name: Cormorant SC
     type: Regular
     full_name: Cormorant SC Regular
     post_script_name: CormorantSC-Regular
-    version: '3.303'
+    version: '4.000'
     copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
-    font: CormorantSC-Regular.ttf
+    font: 0yb5GD4kxqXBmOVLG30OGwserDow9Tbu-Q.ttf
 - name: Cormorant SC Light
   styles:
   - family_name: Cormorant SC Light
@@ -32,9 +37,9 @@ fonts:
     preferred_type: Light
     full_name: Cormorant SC Light
     post_script_name: CormorantSC-Light
-    version: '3.303'
+    version: '4.000'
     copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
-    font: CormorantSC-Light.ttf
+    font: 0ybmGD4kxqXBmOVLG30OGwsmABIU_R3y8DOWGA.ttf
 - name: Cormorant SC Medium
   styles:
   - family_name: Cormorant SC Medium
@@ -43,9 +48,9 @@ fonts:
     preferred_type: Medium
     full_name: Cormorant SC Medium
     post_script_name: CormorantSC-Medium
-    version: '3.303'
+    version: '4.000'
     copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
-    font: CormorantSC-Medium.ttf
+    font: 0ybmGD4kxqXBmOVLG30OGwsmWBMU_R3y8DOWGA.ttf
 - name: Cormorant SC SemiBold
   styles:
   - family_name: Cormorant SC SemiBold
@@ -54,18 +59,18 @@ fonts:
     preferred_type: SemiBold
     full_name: Cormorant SC SemiBold
     post_script_name: CormorantSC-SemiBold
-    version: '3.303'
+    version: '4.000'
     copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
-    font: CormorantSC-SemiBold.ttf
+    font: 0ybmGD4kxqXBmOVLG30OGwsmdBQU_R3y8DOWGA.ttf
 extract: {}
 copyright: Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
-license_url: http://scripts.sil.org/OFL
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2015, Christian Thalmann and the Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
+  Copyright 2015 the Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -154,5 +159,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e7d6e17e85fffc4bdbcb097055185b2e508acfecc2861c1df728149402dfb4ce
-command: import google --formulas_path Formulas
+command: import google -n 9999

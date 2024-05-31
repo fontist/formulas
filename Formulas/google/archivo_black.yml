@@ -1,12 +1,13 @@
 ---
+name: Archivo Black
 description: Archivo Black
 homepage: http://omnibus-type.com/
 resources:
-  ArchivoBlack.zip:
-    urls:
-    - https://fonts.google.com/download?family=Archivo%20Black
-    sha256: dc2a3de7b69e778bbf5637ca10fec96699431283dcf42b87be177739169ddea6
-    file_size: 42248
+  Archivo Black:
+    source: google
+    family: Archivo Black
+    files:
+    - https://fonts.gstatic.com/s/archivoblack/v21/HTxqL289NzCGg4MzN6KJ7eW6OYuP_x7yx3A.ttf
 fonts:
 - name: Archivo Black
   styles:
@@ -16,9 +17,8 @@ fonts:
     post_script_name: ArchivoBlack-Regular
     version: '1.006'
     copyright: Copyright 2017 The Archivo Black Project Authors (https://github.com/Omnibus-Type/ArchivoBlack)
-    font: ArchivoBlack-Regular.ttf
-extract:
-  format: zip
+    font: HTxqL289NzCGg4MzN6KJ7eW6OYuP_x7yx3A.ttf
+extract: {}
 copyright: Copyright 2017 The Archivo Black Project Authors (https://github.com/Omnibus-Type/ArchivoBlack)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -115,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

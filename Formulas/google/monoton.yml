@@ -1,13 +1,12 @@
 ---
 name: Monoton
 description: Monoton
-homepage:
 resources:
-  Monoton.zip:
-    urls:
-    - https://fonts.google.com/download?family=Monoton
-    sha256: 3b8cc40998902dd9e31c371dfba1fe14ad8b530ce84d73f8483b951c179e57b4
-    file_size: 27819
+  Monoton:
+    source: google
+    family: Monoton
+    files:
+    - https://fonts.gstatic.com/s/monoton/v19/5h1aiZUrOngCibe4fkbBQ2S7FU8.ttf
 fonts:
 - name: Monoton
   styles:
@@ -18,12 +17,9 @@ fonts:
     version: '1.000'
     description: Copyright (c) 2011 by vernon adams. All rights reserved.
     copyright: Copyright (c) 2011 by vernon adams. All rights reserved.
-    font: Monoton-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved
-  Font Name 'Monoton'. All rights reserved.
-license_url:
+    font: 5h1aiZUrOngCibe4fkbBQ2S7FU8.ttf
+extract: {}
+copyright: Copyright (c) 2011 by vernon adams. All rights reserved.
 open_license: |-
   Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk),
   with Reserved Font Names "Monoton"
@@ -119,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

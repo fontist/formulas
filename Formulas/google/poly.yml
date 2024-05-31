@@ -3,22 +3,15 @@ name: Poly
 description: Poly
 homepage: http://nsilva.com/
 resources:
-  Poly.zip:
-    urls:
-    - https://fonts.google.com/download?family=Poly
-    sha256: 1e6a3cae7b7169ebcc19967c2f9221f40261d22f01805dfa5ef78aa394386a61
-    file_size: 62533
+  Poly:
+    source: google
+    family: Poly
+    files:
+    - https://fonts.gstatic.com/s/poly/v16/MQpb-W6wKNitRLCAq2Lpris.ttf
+    - https://fonts.gstatic.com/s/poly/v16/MQpV-W6wKNitdLKKr0DsviuGWA.ttf
 fonts:
 - name: Poly
   styles:
-  - family_name: Poly
-    type: Regular
-    full_name: Poly-Regular
-    post_script_name: Poly-Regular
-    version: '1.001'
-    copyright: "Copyright (c) 2010 by Jos\x8E Nicol\x87s Silva Schwarzenberg.<info@nsilva.com>,
-      with Reserved Font Names \"Poly\"."
-    font: Poly-Regular.ttf
   - family_name: Poly
     type: Italic
     full_name: Poly-Italic
@@ -26,11 +19,18 @@ fonts:
     version: '1.003'
     copyright: "Copyright (c) 2010 by Jos\x8E Nicol\x87s Silva Schwarzenberg.<info@nsilva.com>,
       with Reserved Font Names \"Poly\"."
-    font: Poly-Italic.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010 by Jos Nicols Silva Schwarzenberg.<info@nsilva.com>,
-  with Reserved Font Names "Poly".
+    font: MQpV-W6wKNitdLKKr0DsviuGWA.ttf
+  - family_name: Poly
+    type: Regular
+    full_name: Poly-Regular
+    post_script_name: Poly-Regular
+    version: '1.001'
+    copyright: "Copyright (c) 2010 by Jos\x8E Nicol\x87s Silva Schwarzenberg.<info@nsilva.com>,
+      with Reserved Font Names \"Poly\"."
+    font: MQpb-W6wKNitRLCAq2Lpris.ttf
+extract: {}
+copyright: "Copyright (c) 2010 by Jos\x8E Nicol\x87s Silva Schwarzenberg.<info@nsilva.com>,
+  with Reserved Font Names \"Poly\"."
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, 2011 José Nicolás Silva Schwarzenberg <info@nsilva.com>,
@@ -127,3 +127,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

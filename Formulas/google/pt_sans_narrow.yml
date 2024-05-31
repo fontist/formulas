@@ -3,30 +3,15 @@ name: PT Sans Narrow
 description: PT Sans Narrow
 homepage: http://www.paratype.com
 resources:
-  PTSansNarrow.zip:
-    urls:
-    - https://fonts.google.com/download?family=PT%20Sans%20Narrow
-    sha256: 28021c10212cebc0806fcb10835b63c39ca73026f453128106c26453d9acb686
-    file_size: 297605
+  PT Sans Narrow:
+    source: google
+    family: PT Sans Narrow
+    files:
+    - https://fonts.gstatic.com/s/ptsansnarrow/v18/BngRUXNadjH0qYEzV7ab-oWlsYCByxyKeuDp.ttf
+    - https://fonts.gstatic.com/s/ptsansnarrow/v18/BngSUXNadjH0qYEzV7ab-oWlsbg95DiCUfzgRd-3.ttf
 fonts:
 - name: PT Sans Narrow
   styles:
-  - family_name: PT Sans Narrow
-    type: Regular
-    full_name: PT Sans Narrow
-    post_script_name: PTSans-Narrow
-    version: 2.003W OFL
-    description: 'PT Sans is a type family of universal use. It consists of 8 styles:
-      regular and bold weights with corresponding italics form a standard computer
-      font family; two narrow styles (regular and bold) are intended for documents
-      that require tight set; two caption styles (regular and bold) are for texts
-      of small point sizes. The design combines traditional conservative appearance
-      with modern trends of humanistic sans serif and characterized by enhanced legibility.
-      These features beside conventional use in business applications and printed
-      stuff made the fonts quite useable for direction and guide signs, schemes, screens
-      of information kiosks and other objects of urban visual communications.'
-    copyright: Copyright © 2009 ParaType Ltd. All rights reserved.
-    font: PT_Sans-Narrow-Web-Regular.ttf
   - family_name: PT Sans Narrow
     type: Bold
     full_name: PT Sans Narrow Bold
@@ -42,10 +27,25 @@ fonts:
       stuff made the fonts quite useable for direction and guide signs, schemes, screens
       of information kiosks and other objects of urban visual communications.'
     copyright: Copyright © 2009 ParaType Ltd. All rights reserved.
-    font: PT_Sans-Narrow-Web-Bold.ttf
-extract:
-  format: zip
-copyright: Copyright © 2009 ParaType Ltd (yakupov@paratype.com). All rights reserved.
+    font: BngSUXNadjH0qYEzV7ab-oWlsbg95DiCUfzgRd-3.ttf
+  - family_name: PT Sans Narrow
+    type: Regular
+    full_name: PT Sans Narrow
+    post_script_name: PTSans-Narrow
+    version: 2.003W OFL
+    description: 'PT Sans is a type family of universal use. It consists of 8 styles:
+      regular and bold weights with corresponding italics form a standard computer
+      font family; two narrow styles (regular and bold) are intended for documents
+      that require tight set; two caption styles (regular and bold) are for texts
+      of small point sizes. The design combines traditional conservative appearance
+      with modern trends of humanistic sans serif and characterized by enhanced legibility.
+      These features beside conventional use in business applications and printed
+      stuff made the fonts quite useable for direction and guide signs, schemes, screens
+      of information kiosks and other objects of urban visual communications.'
+    copyright: Copyright © 2009 ParaType Ltd. All rights reserved.
+    font: BngRUXNadjH0qYEzV7ab-oWlsYCByxyKeuDp.ttf
+extract: {}
+copyright: Copyright © 2009 ParaType Ltd. All rights reserved.
 license_url: http://scripts.sil.org/OFL_web
 open_license: "\uFEFFCopyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),\nwith
   Reserved Font Names \"PT Sans\" and \"ParaType\".\n\nThis Font Software is licensed
@@ -100,3 +100,4 @@ open_license: "\uFEFFCopyright (c) 2010, ParaType Ltd. (http://www.paratype.com/
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
+command: import google -n 9999

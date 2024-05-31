@@ -2,11 +2,11 @@
 name: Libre Barcode EAN13 Text
 description: Libre Barcode EAN13 Text
 resources:
-  Libre_Barcode_EAN13_Text.zip:
-    urls:
-    - https://fonts.google.com/download?family=Libre%20Barcode%20EAN13%20Text
-    sha256: c39b0809aa95244b0817a91ae7bc06593d89695f1f2ea7e93153980d9ae846f9
-    file_size: 27333
+  Libre Barcode EAN13 Text:
+    source: google
+    family: Libre Barcode EAN13 Text
+    files:
+    - https://fonts.gstatic.com/s/librebarcodeean13text/v21/wlpigxXFDU1_oCu9nfZytgIqSG0XRcJm_OQiB96PAGEki52WfA.ttf
 fonts:
 - name: Libre Barcode EAN13 Text
   styles:
@@ -16,7 +16,7 @@ fonts:
     post_script_name: LibreBarcodeEAN13Text-Regular
     version: 1.008; ttfautohint (v1.8.3)
     copyright: Copyright 2017-2020 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)
-    font: LibreBarcodeEAN13Text-Regular.ttf
+    font: wlpigxXFDU1_oCu9nfZytgIqSG0XRcJm_OQiB96PAGEki52WfA.ttf
 extract: {}
 copyright: Copyright 2017-2020 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +25,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 2f0f57d1a61742cc7f55ae544747842aa9021fae2af106dd2ff60752f206425a
-command: google import --formulas_path Formulas
+command: import google -n 9999

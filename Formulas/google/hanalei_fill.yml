@@ -1,12 +1,13 @@
 ---
+name: Hanalei Fill
 description: Hanalei Fill
 homepage: http://www.astigmatic.com/
 resources:
-  HanaleiFill.zip:
-    urls:
-    - https://fonts.google.com/download?family=Hanalei%20Fill
-    sha256: 52ce33fc11d280a541c56e8c1fdacbd00c52e8523d147703f4885447972522cb
-    file_size: 40135
+  Hanalei Fill:
+    source: google
+    family: Hanalei Fill
+    files:
+    - https://fonts.gstatic.com/s/hanaleifill/v22/fC1mPYtObGbfyQznIaQzPQiMVwLBplm9aw.ttf
 fonts:
 - name: Hanalei Fill
   styles:
@@ -18,11 +19,11 @@ fonts:
     copyright: |-
       Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
       Font Name "Hanalei Fill"
-    font: HanaleiFill-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com),
-  with Reserved Font Name "Hanalei Fill"
+    font: fC1mPYtObGbfyQznIaQzPQiMVwLBplm9aw.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+  Font Name "Hanalei Fill"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012, Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name 'Hanalei'
@@ -118,3 +119,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

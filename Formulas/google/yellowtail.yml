@@ -1,13 +1,12 @@
 ---
 name: Yellowtail
 description: Yellowtail
-homepage:
 resources:
-  Yellowtail.zip:
-    urls:
-    - https://fonts.google.com/download?family=Yellowtail
-    sha256: f752b16148cd9f06860d71ef0d29a47254059f20113b902c1e958122f0179567
-    file_size: 35671
+  Yellowtail:
+    source: google
+    family: Yellowtail
+    files:
+    - https://fonts.gstatic.com/s/yellowtail/v22/OZpGg_pnoDtINPfRIlLotlzNwED-b4g.ttf
 fonts:
 - name: Yellowtail
   styles:
@@ -18,14 +17,12 @@ fonts:
     version: '001.002'
     copyright: Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI).
       All rights reserved. Available under the Apache 2.0 licence.
-    font: Yellowtail-Regular.ttf
-extract:
-  format: zip
+    font: OZpGg_pnoDtINPfRIlLotlzNwED-b4g.ttf
+extract: {}
 copyright: Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All
-  rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html
-license_url:
-open_license: |2-
-                                   Apache License
+  rights reserved. Available under the Apache 2.0 licence.
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -226,3 +223,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999

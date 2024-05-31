@@ -3,10 +3,14 @@ name: Dancing Script
 description: Dancing Script
 homepage: http://www.impallari.com
 resources:
-  Dancing_Script.zip:
-    urls:
-    - https://fonts.google.com/download?family=Dancing%20Script
-    file_size: 264100
+  Dancing Script:
+    source: google
+    family: Dancing Script
+    files:
+    - https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTeB9ptDqpw.ttf
+    - https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BAyoHTeB9ptDqpw.ttf
+    - https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B7y0HTeB9ptDqpw.ttf
+    - https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B1i0HTeB9ptDqpw.ttf
 fonts:
 - name: Dancing Script
   styles:
@@ -14,26 +18,18 @@ fonts:
     type: Bold
     full_name: Dancing Script Bold
     post_script_name: DancingScript-Bold
-    version: '2.000'
-    copyright: Copyright 2016 The Dancing Script Project Authors (impallari@gmail.com),
-      with Reserved Font Name 'Dancing Script'.
-    font: DancingScript-Bold.ttf
+    version: '2.001'
+    copyright: Copyright 2016 The Dancing Script Project Authors (https://github.com/googlefonts/DancingScript),
+      with Reserved Font Name "Dancing Script".
+    font: If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B1i0HTeB9ptDqpw.ttf
   - family_name: Dancing Script
     type: Regular
     full_name: Dancing Script Regular
     post_script_name: DancingScript-Regular
-    version: '2.000'
-    copyright: Copyright 2016 The Dancing Script Project Authors (impallari@gmail.com),
-      with Reserved Font Name 'Dancing Script'.
-    font: DancingScript-Regular.ttf
-  - family_name: Dancing Script
-    type: Regular
-    full_name: Dancing Script Regular
-    post_script_name: DancingScript-Regular
-    version: '2.000'
-    copyright: Copyright 2016 The Dancing Script Project Authors (impallari@gmail.com),
-      with Reserved Font Name 'Dancing Script'.
-    font: DancingScript-VariableFont_wght.ttf
+    version: '2.001'
+    copyright: Copyright 2016 The Dancing Script Project Authors (https://github.com/googlefonts/DancingScript),
+      with Reserved Font Name "Dancing Script".
+    font: If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTeB9ptDqpw.ttf
 - name: Dancing Script Medium
   styles:
   - family_name: Dancing Script Medium
@@ -42,10 +38,10 @@ fonts:
     preferred_type: Medium
     full_name: Dancing Script Medium
     post_script_name: DancingScript-Medium
-    version: '2.000'
-    copyright: Copyright 2016 The Dancing Script Project Authors (impallari@gmail.com),
-      with Reserved Font Name 'Dancing Script'.
-    font: DancingScript-Medium.ttf
+    version: '2.001'
+    copyright: Copyright 2016 The Dancing Script Project Authors (https://github.com/googlefonts/DancingScript),
+      with Reserved Font Name "Dancing Script".
+    font: If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BAyoHTeB9ptDqpw.ttf
 - name: Dancing Script SemiBold
   styles:
   - family_name: Dancing Script SemiBold
@@ -54,16 +50,16 @@ fonts:
     preferred_type: SemiBold
     full_name: Dancing Script SemiBold
     post_script_name: DancingScript-SemiBold
-    version: '2.000'
-    copyright: Copyright 2016 The Dancing Script Project Authors (impallari@gmail.com),
-      with Reserved Font Name 'Dancing Script'.
-    font: DancingScript-SemiBold.ttf
+    version: '2.001'
+    copyright: Copyright 2016 The Dancing Script Project Authors (https://github.com/googlefonts/DancingScript),
+      with Reserved Font Name "Dancing Script".
+    font: If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B7y0HTeB9ptDqpw.ttf
 extract: {}
-copyright: Copyright 2016 The Dancing Script Project Authors (impallari@gmail.com),
-  with Reserved Font Name 'Dancing Script'.
+copyright: Copyright 2016 The Dancing Script Project Authors (https://github.com/googlefonts/DancingScript),
+  with Reserved Font Name "Dancing Script".
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2016 The Dancing Script Project Authors (impallari@gmail.com), with Reserved Font Name 'Dancing Script’.
+  Copyright 2016 The Dancing Script Project Authors (https://github.com/googlefonts/DancingScript), with Reserved Font Name 'Dancing Script'.
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -156,5 +152,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 0e2dd14b01d2277c59a2f92ea5ea508a4746a41d61639a524aa810fc963583db
-command: google import --formulas_path Formulas
+command: import google -n 9999

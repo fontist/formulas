@@ -1,39 +1,43 @@
 ---
 name: Gaegu
 description: Gaegu
-homepage:
 resources:
-  Gaegu.zip:
-    urls:
-    - https://fonts.google.com/download?family=Gaegu
-    sha256: 1e32045fe7b0ebd30eb8035e8b5560482a44a044b050111918ae7232d206a50a
-    file_size: 2928934
+  Gaegu:
+    source: google
+    family: Gaegu
+    files:
+    - https://fonts.gstatic.com/s/gaegu/v17/TuGSUVB6Up9NU57nifw74sdtBk0x.ttf
+    - https://fonts.gstatic.com/s/gaegu/v17/TuGfUVB6Up9NU6ZLodgzydtk.ttf
+    - https://fonts.gstatic.com/s/gaegu/v17/TuGSUVB6Up9NU573jvw74sdtBk0x.ttf
 fonts:
 - name: Gaegu
   styles:
-  - family_name: Gaegu
-    type: Light
-    full_name: Gaegu Light
-    post_script_name: Gaegu-Light
-    version: '1.00'
-    copyright: Copyright 2018 The Gaegu Project Authors
-    font: Gaegu-Light.ttf
-  - family_name: Gaegu
-    type: Regular
-    full_name: Gaegu Regular
-    post_script_name: Gaegu-Regular
-    version: '1.00'
-    copyright: Copyright 2018 The Gaegu Project Authors
-    font: Gaegu-Regular.ttf
   - family_name: Gaegu
     type: Bold
     full_name: Gaegu Bold
     post_script_name: Gaegu-Bold
     version: '1.00'
     copyright: Copyright 2018 The Gaegu Project Authors
-    font: Gaegu-Bold.ttf
-extract:
-  format: zip
+    font: TuGSUVB6Up9NU573jvw74sdtBk0x.ttf
+  - family_name: Gaegu
+    type: Regular
+    full_name: Gaegu Regular
+    post_script_name: Gaegu-Regular
+    version: '1.00'
+    copyright: Copyright 2018 The Gaegu Project Authors
+    font: TuGfUVB6Up9NU6ZLodgzydtk.ttf
+- name: Gaegu Light
+  styles:
+  - family_name: Gaegu Light
+    type: Regular
+    preferred_family_name: Gaegu
+    preferred_type: Light
+    full_name: Gaegu Light
+    post_script_name: Gaegu-Light
+    version: '1.00'
+    copyright: Copyright 2018 The Gaegu Project Authors
+    font: TuGSUVB6Up9NU57nifw74sdtBk0x.ttf
+extract: {}
 copyright: Copyright 2018 The Gaegu Project Authors
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -130,3 +134,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

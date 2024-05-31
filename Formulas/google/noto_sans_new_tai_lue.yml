@@ -1,11 +1,16 @@
 ---
+name: Noto Sans New Tai Lue
 description: Noto Sans New Tai Lue
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_New_Tai_Lue.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20New%20Tai%20Lue
-    file_size: 156242
+  Noto Sans New Tai Lue:
+    source: google
+    family: Noto Sans New Tai Lue
+    files:
+    - https://fonts.gstatic.com/s/notosansnewtailue/v22/H4cKBW-Pl9DZ0Xe_nHUapt7PovLXAhAnY7wqaLy-OJgU3p_pdeXAYUbghFPKzeY.ttf
+    - https://fonts.gstatic.com/s/notosansnewtailue/v22/H4cKBW-Pl9DZ0Xe_nHUapt7PovLXAhAnY7wqaLy-OJgU3p_pddfAYUbghFPKzeY.ttf
+    - https://fonts.gstatic.com/s/notosansnewtailue/v22/H4cKBW-Pl9DZ0Xe_nHUapt7PovLXAhAnY7wqaLy-OJgU3p_pdTvHYUbghFPKzeY.ttf
+    - https://fonts.gstatic.com/s/notosansnewtailue/v22/H4cKBW-Pl9DZ0Xe_nHUapt7PovLXAhAnY7wqaLy-OJgU3p_pdQLHYUbghFPKzeY.ttf
 fonts:
 - name: Noto Sans New Tai Lue
   styles:
@@ -16,7 +21,7 @@ fonts:
     version: '2.004'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/new-tai-lue)
-    font: NotoSansNewTaiLue-Bold.ttf
+    font: H4cKBW-Pl9DZ0Xe_nHUapt7PovLXAhAnY7wqaLy-OJgU3p_pdQLHYUbghFPKzeY.ttf
   - family_name: Noto Sans New Tai Lue
     type: Regular
     full_name: Noto Sans New Tai Lue Regular
@@ -24,15 +29,7 @@ fonts:
     version: '2.004'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/new-tai-lue)
-    font: NotoSansNewTaiLue-VariableFont_wght.ttf
-  - family_name: Noto Sans New Tai Lue
-    type: Regular
-    full_name: Noto Sans New Tai Lue Regular
-    post_script_name: NotoSansNewTaiLue-Regular
-    version: '2.004'
-    description: Designed by Monotype design team.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/new-tai-lue)
-    font: NotoSansNewTaiLue-Regular.ttf
+    font: H4cKBW-Pl9DZ0Xe_nHUapt7PovLXAhAnY7wqaLy-OJgU3p_pdeXAYUbghFPKzeY.ttf
 - name: Noto Sans New Tai Lue Medium
   styles:
   - family_name: Noto Sans New Tai Lue Medium
@@ -44,7 +41,7 @@ fonts:
     version: '2.004'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/new-tai-lue)
-    font: NotoSansNewTaiLue-Medium.ttf
+    font: H4cKBW-Pl9DZ0Xe_nHUapt7PovLXAhAnY7wqaLy-OJgU3p_pddfAYUbghFPKzeY.ttf
 - name: Noto Sans New Tai Lue SemiBold
   styles:
   - family_name: Noto Sans New Tai Lue SemiBold
@@ -56,7 +53,7 @@ fonts:
     version: '2.004'
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/new-tai-lue)
-    font: NotoSansNewTaiLue-SemiBold.ttf
+    font: H4cKBW-Pl9DZ0Xe_nHUapt7PovLXAhAnY7wqaLy-OJgU3p_pdTvHYUbghFPKzeY.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/new-tai-lue)
 license_url: https://scripts.sil.org/OFL
@@ -65,7 +62,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -154,5 +151,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 3e674f741fa2278bbcbcf59d01179b456758c438f748fafa2b7c4d3b1f6861ef
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

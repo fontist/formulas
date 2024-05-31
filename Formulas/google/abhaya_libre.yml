@@ -1,51 +1,56 @@
 ---
+name: Abhaya Libre
 description: Abhaya Libre
-homepage:
 resources:
-  AbhayaLibre.zip:
-    urls:
-    - https://fonts.google.com/download?family=Abhaya%20Libre
-    sha256: 82c16ee1bf501ab73e6e86d4731d53bcebbf402d5c87a28238f310622e02e879
-    file_size: 829820
+  Abhaya Libre:
+    source: google
+    family: Abhaya Libre
+    files:
+    - https://fonts.gstatic.com/s/abhayalibre/v17/e3tmeuGtX-Co5MNzeAOqinEge0PWovdU4w.ttf
+    - https://fonts.gstatic.com/s/abhayalibre/v17/e3t5euGtX-Co5MNzeAOqinEYj2ryqtxI6oYtBA.ttf
+    - https://fonts.gstatic.com/s/abhayalibre/v17/e3t5euGtX-Co5MNzeAOqinEYo23yqtxI6oYtBA.ttf
+    - https://fonts.gstatic.com/s/abhayalibre/v17/e3t5euGtX-Co5MNzeAOqinEYx2zyqtxI6oYtBA.ttf
+    - https://fonts.gstatic.com/s/abhayalibre/v17/e3t5euGtX-Co5MNzeAOqinEY22_yqtxI6oYtBA.ttf
 fonts:
 - name: Abhaya Libre
   styles:
-  - family_name: Abhaya Libre
-    type: Regular
-    full_name: Abhaya Libre Regular
-    post_script_name: AbhayaLibre-Regular
-    version: 1.050 ; ttfautohint (v1.6)
-    font: AbhayaLibre-Regular.ttf
-  - family_name: Abhaya Libre Medium
-    type: Regular
-    full_name: Abhaya Libre Medium
-    post_script_name: AbhayaLibre-Medium
-    version: 1.050 ; ttfautohint (v1.6)
-    font: AbhayaLibre-Medium.ttf
-  - family_name: Abhaya Libre SemiBold
-    type: Regular
-    full_name: Abhaya Libre SemiBold
-    post_script_name: AbhayaLibre-SemiBold
-    version: 1.050 ; ttfautohint (v1.6)
-    font: AbhayaLibre-SemiBold.ttf
   - family_name: Abhaya Libre
     type: Bold
     full_name: Abhaya Libre Bold
     post_script_name: AbhayaLibre-Bold
     version: 1.050 ; ttfautohint (v1.6)
-    font: AbhayaLibre-Bold.ttf
+    font: e3t5euGtX-Co5MNzeAOqinEYx2zyqtxI6oYtBA.ttf
+  - family_name: Abhaya Libre
+    type: Regular
+    full_name: Abhaya Libre Regular
+    post_script_name: AbhayaLibre-Regular
+    version: 1.050 ; ttfautohint (v1.6)
+    font: e3tmeuGtX-Co5MNzeAOqinEge0PWovdU4w.ttf
+- name: Abhaya Libre ExtraBold
+  styles:
   - family_name: Abhaya Libre ExtraBold
     type: Regular
     full_name: Abhaya Libre ExtraBold
     post_script_name: AbhayaLibre-ExtraBold
     version: 1.050 ; ttfautohint (v1.6)
-    font: AbhayaLibre-ExtraBold.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com)
-  Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak
-  (hello@mooniak.com)
-license_url:
+    font: e3t5euGtX-Co5MNzeAOqinEY22_yqtxI6oYtBA.ttf
+- name: Abhaya Libre Medium
+  styles:
+  - family_name: Abhaya Libre Medium
+    type: Regular
+    full_name: Abhaya Libre Medium
+    post_script_name: AbhayaLibre-Medium
+    version: 1.050 ; ttfautohint (v1.6)
+    font: e3t5euGtX-Co5MNzeAOqinEYj2ryqtxI6oYtBA.ttf
+- name: Abhaya Libre SemiBold
+  styles:
+  - family_name: Abhaya Libre SemiBold
+    type: Regular
+    full_name: Abhaya Libre SemiBold
+    post_script_name: AbhayaLibre-SemiBold
+    version: 1.050 ; ttfautohint (v1.6)
+    font: e3t5euGtX-Co5MNzeAOqinEYo23yqtxI6oYtBA.ttf
+extract: {}
 open_license: |-
   Copyright (c) 2013-2016 Abhaya Libre Project Authors (https://github.com/mooniak/abhaya-libre-font).
 
@@ -141,3 +146,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

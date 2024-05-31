@@ -1,12 +1,16 @@
 ---
+name: Carlito
 description: Carlito
 homepage: http://www.lukaszdziedzic.eu
 resources:
-  Carlito.zip:
-    urls:
-    - https://fonts.google.com/download?family=Carlito
-    sha256: f8036b29d843144babc3688efd6af9410a7ba7ff90e4f9ef08dab6aab89f5506
-    file_size: 1077294
+  Carlito:
+    source: google
+    family: Carlito
+    files:
+    - https://fonts.gstatic.com/s/carlito/v3/3Jn9SDPw3m-pk039PDCLTXUETuE.ttf
+    - https://fonts.gstatic.com/s/carlito/v3/3Jn_SDPw3m-pk039DDKBSVcBXuFb0Q.ttf
+    - https://fonts.gstatic.com/s/carlito/v3/3Jn4SDPw3m-pk039BIykaX0vUuhCyOo.ttf
+    - https://fonts.gstatic.com/s/carlito/v3/3Jn6SDPw3m-pk039DDK59XglVspH2OprMQ.ttf
 fonts:
 - name: Carlito
   styles:
@@ -17,7 +21,7 @@ fonts:
     version: '1.104'
     description: Carlito is a sanserif typeface family based on Lato.
     copyright: Copyright 2013 The Carlito Project Authors (https://github.com/googlefonts/carlito)
-    font: Carlito-Bold.ttf
+    font: 3Jn4SDPw3m-pk039BIykaX0vUuhCyOo.ttf
   - family_name: Carlito
     type: Bold Italic
     full_name: Carlito Bold Italic
@@ -25,7 +29,7 @@ fonts:
     version: '1.104'
     description: Carlito is a sanserif typeface family based on Lato.
     copyright: Copyright 2013 The Carlito Project Authors (https://github.com/googlefonts/carlito)
-    font: Carlito-BoldItalic.ttf
+    font: 3Jn6SDPw3m-pk039DDK59XglVspH2OprMQ.ttf
   - family_name: Carlito
     type: Italic
     full_name: Carlito Italic
@@ -33,7 +37,7 @@ fonts:
     version: '1.104'
     description: Carlito is a sanserif typeface family based on Lato.
     copyright: Copyright 2013 The Carlito Project Authors (https://github.com/googlefonts/carlito)
-    font: Carlito-Italic.ttf
+    font: 3Jn_SDPw3m-pk039DDKBSVcBXuFb0Q.ttf
   - family_name: Carlito
     type: Regular
     full_name: Carlito Regular
@@ -41,16 +45,17 @@ fonts:
     version: '1.104'
     description: Carlito is a sanserif typeface family based on Lato.
     copyright: Copyright 2013 The Carlito Project Authors (https://github.com/googlefonts/carlito)
-    font: Carlito-Regular.ttf
+    font: 3Jn9SDPw3m-pk039PDCLTXUETuE.ttf
 extract: {}
 copyright: Copyright 2013 The Carlito Project Authors (https://github.com/googlefonts/carlito)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
   Copyright 2013 The Carlito Project Authors (https://github.com/googlefonts/carlito), with Reserved Font Name "Carlito"
 
+
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -139,5 +144,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: a7081e3ccd1678642a519c17225b1762b7b11f557002a1661bb07ddc475e9abc
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

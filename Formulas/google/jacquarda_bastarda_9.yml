@@ -1,11 +1,12 @@
 ---
+name: Jacquarda Bastarda 9
 description: Jacquarda Bastarda 9
 resources:
-  Jacquarda_Bastarda_9.zip:
-    urls:
-    - https://fonts.google.com/download?family=Jacquarda%20Bastarda%209
-    sha256: a26a970d75530639fa7ecfe7d5bee7a6dee0db5cd1f229d0de19bc1224a5b120
-    file_size: 25018
+  Jacquarda Bastarda 9:
+    source: google
+    family: Jacquarda Bastarda 9
+    files:
+    - https://fonts.gstatic.com/s/jacquardabastarda9/v4/f0Xp0fWr_8t6WFtKQJfOhaC0hcZ1HYAMAbwD1TB_JHHY.ttf
 fonts:
 - name: Jacquarda Bastarda 9
   styles:
@@ -15,7 +16,7 @@ fonts:
     post_script_name: JacquardaBastarda9-Regular
     version: 1.000; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type-jacquarda-bastarda)
-    font: JacquardaBastarda9-Regular.ttf
+    font: f0Xp0fWr_8t6WFtKQJfOhaC0hcZ1HYAMAbwD1TB_JHHY.ttf
 extract: {}
 copyright: Copyright 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type-jacquarda-bastarda)
 license_url: https://openfontlicense.org
@@ -113,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9fa033e4e950157f5c7d477bc986106adb95916a1efbb1ccfda027b8247a2645
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

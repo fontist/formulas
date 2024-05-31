@@ -1,12 +1,12 @@
 ---
+name: Lakki Reddy
 description: Lakki Reddy
-homepage:
 resources:
-  LakkiReddy.zip:
-    urls:
-    - https://fonts.google.com/download?family=Lakki%20Reddy
-    sha256: f5ebbbff2f324a31ca67e8028a02e9afc0b4170362c5fc9fbd2d8f221079bbe0
-    file_size: 207814
+  Lakki Reddy:
+    source: google
+    family: Lakki Reddy
+    files:
+    - https://fonts.gstatic.com/s/lakkireddy/v21/S6u5w49MUSzD9jlCPmvLZQfox9k97-xZ.ttf
 fonts:
 - name: Lakki Reddy
   styles:
@@ -17,9 +17,8 @@ fonts:
     version: 1.0.4; ttfautohint (v1.2.42-39fb)
     copyright: Copyright (c) 2011 Silicon Andhra (fonts.siliconandhra.org). Copyright
       (c) 2010 by Font Diner, Inc DBA Sideshow.
-    font: LakkiReddy-Regular.ttf
-extract:
-  format: zip
+    font: S6u5w49MUSzD9jlCPmvLZQfox9k97-xZ.ttf
+extract: {}
 copyright: Copyright (c) 2011 Silicon Andhra (fonts.siliconandhra.org). Copyright
   (c) 2010 by Font Diner, Inc DBA Sideshow.
 license_url: http://scripts.sil.org/OFL
@@ -117,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

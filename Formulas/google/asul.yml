@@ -1,24 +1,16 @@
 ---
 name: Asul
 description: Asul
-homepage:
 resources:
-  Asul.zip:
-    urls:
-    - https://fonts.google.com/download?family=Asul
-    sha256: 97b28265e56b54a0d3efc356f099b0f8006a0444aa51458e443bbcd52f9763a2
-    file_size: 37159
+  Asul:
+    source: google
+    family: Asul
+    files:
+    - https://fonts.gstatic.com/s/asul/v21/VuJ-dNjKxYr46fMFXK78JIg.ttf
+    - https://fonts.gstatic.com/s/asul/v21/VuJxdNjKxYr40U8qeKbXOIFneRo.ttf
 fonts:
 - name: Asul
   styles:
-  - family_name: Asul
-    type: Regular
-    full_name: Asul Regular
-    post_script_name: Asul-Regular
-    version: '1.002'
-    copyright: Copyright (c) 2011, Mariela Monsalve (marmonsalve@gmail.com), with
-      Reserved Font Name "Asul"
-    font: Asul-Regular.ttf
   - family_name: Asul
     type: Bold
     full_name: Asul Bold
@@ -26,9 +18,16 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Mariela Monsalve (marmonsalve@gmail.com), with
       Reserved Font Name "Asul"
-    font: Asul-Bold.ttf
-extract:
-  format: zip
+    font: VuJxdNjKxYr40U8qeKbXOIFneRo.ttf
+  - family_name: Asul
+    type: Regular
+    full_name: Asul Regular
+    post_script_name: Asul-Regular
+    version: '1.002'
+    copyright: Copyright (c) 2011, Mariela Monsalve (marmonsalve@gmail.com), with
+      Reserved Font Name "Asul"
+    font: VuJ-dNjKxYr46fMFXK78JIg.ttf
+extract: {}
 copyright: Copyright (c) 2011, Mariela Monsalve (marmonsalve@gmail.com), with Reserved
   Font Name "Asul"
 license_url: http://scripts.sil.org/OFL
@@ -127,3 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

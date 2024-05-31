@@ -1,47 +1,49 @@
 ---
 name: Amaranth
 description: Amaranth
-homepage:
+homepage: http://www.gesine-todt.de
 resources:
-  Amaranth.zip:
-    urls:
-    - https://fonts.google.com/download?family=Amaranth
-    sha256: a416196e087fc68dc19cfd9043bf30c6a20a248ae999d17dbcbd7de28358db45
-    file_size: 148177
+  Amaranth:
+    source: google
+    family: Amaranth
+    files:
+    - https://fonts.gstatic.com/s/amaranth/v18/KtkuALODe433f0j1zPnCF9GqwnzW.ttf
+    - https://fonts.gstatic.com/s/amaranth/v18/KtkoALODe433f0j1zMnAHdWIx2zWD4I.ttf
+    - https://fonts.gstatic.com/s/amaranth/v18/KtkpALODe433f0j1zMF-OPWi6WDfFpuc.ttf
+    - https://fonts.gstatic.com/s/amaranth/v18/KtkrALODe433f0j1zMnAJWmn42T9E4ucRY8.ttf
 fonts:
 - name: Amaranth
   styles:
-  - family_name: Amaranth
-    type: Regular
-    full_name: Amaranth Regular
-    post_script_name: Amaranth-Regular
-    version: '1.001'
-    copyright: Copyright (c) 2011 by Gesine Todt. All rights reserved.
-    font: Amaranth-Regular.ttf
-  - family_name: Amaranth
-    type: Italic
-    full_name: Amaranth Italic
-    post_script_name: Amaranth-Italic
-    version: '1.001'
-    copyright: Copyright (c) 2011 by Gesine Todt. All rights reserved.
-    font: Amaranth-Italic.ttf
   - family_name: Amaranth
     type: Bold
     full_name: Amaranth Bold
     post_script_name: Amaranth-Bold
     version: '1.001'
     copyright: Copyright (c) 2011 by Gesine Todt. All rights reserved.
-    font: Amaranth-Bold.ttf
+    font: KtkpALODe433f0j1zMF-OPWi6WDfFpuc.ttf
   - family_name: Amaranth
     type: Bold Italic
     full_name: Amaranth Bold Italic
     post_script_name: Amaranth-BoldItalic
     version: '1.001'
     copyright: Copyright (c) 2011 by Gesine Todt. All rights reserved.
-    font: Amaranth-BoldItalic.ttf
-extract:
-  format: zip
-copyright: Copyright 2016 The Amaranth Project Authors (https://github.com/googlefonts/amaranth)
+    font: KtkrALODe433f0j1zMnAJWmn42T9E4ucRY8.ttf
+  - family_name: Amaranth
+    type: Italic
+    full_name: Amaranth Italic
+    post_script_name: Amaranth-Italic
+    version: '1.001'
+    copyright: Copyright (c) 2011 by Gesine Todt. All rights reserved.
+    font: KtkoALODe433f0j1zMnAHdWIx2zWD4I.ttf
+  - family_name: Amaranth
+    type: Regular
+    full_name: Amaranth Regular
+    post_script_name: Amaranth-Regular
+    version: '1.001'
+    copyright: Copyright (c) 2011 by Gesine Todt. All rights reserved.
+    font: KtkuALODe433f0j1zPnCF9GqwnzW.ttf
+extract: {}
+copyright: Copyright (c) 2011 by Gesine Todt. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright 2016 The Amaranth Project Authors (https://github.com/googlefonts/amaranth)
@@ -137,3 +139,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -3,11 +3,11 @@ name: Trykker
 description: Trykker
 homepage: www.sorkintype.com
 resources:
-  Trykker.zip:
-    urls:
-    - https://fonts.google.com/download?family=Trykker
-    sha256: fb13ac6c55a7759172a8248b43cd480d0eee5f5fa084277594b521a613ac00a8
-    file_size: 24705
+  Trykker:
+    source: google
+    family: Trykker
+    files:
+    - https://fonts.gstatic.com/s/trykker/v21/KtktALyWZJXudUPzhNnoOd2j22U.ttf
 fonts:
 - name: Trykker
   styles:
@@ -21,11 +21,10 @@ fonts:
       be used from small sizes to larger display settings.
     copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved
       Font Name "Trykker".
-    font: Trykker-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)
-  with Reserved Font Name "Trykker".
+    font: KtktALyWZJXudUPzhNnoOd2j22U.ttf
+extract: {}
+copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved Font
+  Name "Trykker".
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
@@ -122,3 +121,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

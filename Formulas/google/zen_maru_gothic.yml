@@ -1,12 +1,17 @@
 ---
+name: Zen Maru Gothic
 description: Zen Maru Gothic
 homepage: https://positype.com
 resources:
-  Zen_Maru_Gothic.zip:
-    urls:
-    - https://fonts.google.com/download?family=Zen%20Maru%20Gothic
-    sha256: 7100c291c2bd70341c1ec26ba465224eb247ff2c31365f71effac8c40a404b4a
-    file_size: 10686567
+  Zen Maru Gothic:
+    source: google
+    family: Zen Maru Gothic
+    files:
+    - https://fonts.gstatic.com/s/zenmarugothic/v16/o-0XIpIxzW5b-RxT-6A8jWAtCp-cQWpCPJqa_ajlvw.ttf
+    - https://fonts.gstatic.com/s/zenmarugothic/v16/o-0SIpIxzW5b-RxT-6A8jWAtCp-k7UJmNLGG9A.ttf
+    - https://fonts.gstatic.com/s/zenmarugothic/v16/o-0XIpIxzW5b-RxT-6A8jWAtCp-cGWtCPJqa_ajlvw.ttf
+    - https://fonts.gstatic.com/s/zenmarugothic/v16/o-0XIpIxzW5b-RxT-6A8jWAtCp-cUW1CPJqa_ajlvw.ttf
+    - https://fonts.gstatic.com/s/zenmarugothic/v16/o-0XIpIxzW5b-RxT-6A8jWAtCp-caW9CPJqa_ajlvw.ttf
 fonts:
 - name: Zen Maru Gothic
   styles:
@@ -16,14 +21,14 @@ fonts:
     post_script_name: ZenMaruGothic-Bold
     version: '1.001'
     copyright: Copyright 2021 The Zen Maru Gothic Authors (https://github.com/googlefonts/zen-marugothic)
-    font: ZenMaruGothic-Bold.ttf
+    font: o-0XIpIxzW5b-RxT-6A8jWAtCp-cUW1CPJqa_ajlvw.ttf
   - family_name: Zen Maru Gothic
     type: Regular
     full_name: Zen Maru Gothic Regular
     post_script_name: ZenMaruGothic-Regular
     version: '1.002'
     copyright: Copyright 2021 The Zen Maru Gothic Authors (https://github.com/googlefonts/zen-marugothic)
-    font: ZenMaruGothic-Regular.ttf
+    font: o-0SIpIxzW5b-RxT-6A8jWAtCp-k7UJmNLGG9A.ttf
 - name: Zen Maru Gothic Black
   styles:
   - family_name: Zen Maru Gothic Black
@@ -34,7 +39,7 @@ fonts:
     post_script_name: ZenMaruGothic-Black
     version: '1.001'
     copyright: Copyright 2021 The Zen Maru Gothic Authors (https://github.com/googlefonts/zen-marugothic)
-    font: ZenMaruGothic-Black.ttf
+    font: o-0XIpIxzW5b-RxT-6A8jWAtCp-caW9CPJqa_ajlvw.ttf
 - name: Zen Maru Gothic Light
   styles:
   - family_name: Zen Maru Gothic Light
@@ -45,7 +50,7 @@ fonts:
     post_script_name: ZenMaruGothic-Light
     version: '1.001'
     copyright: Copyright 2021 The Zen Maru Gothic Authors (https://github.com/googlefonts/zen-marugothic)
-    font: ZenMaruGothic-Light.ttf
+    font: o-0XIpIxzW5b-RxT-6A8jWAtCp-cQWpCPJqa_ajlvw.ttf
 - name: Zen Maru Gothic Medium
   styles:
   - family_name: Zen Maru Gothic Medium
@@ -56,7 +61,7 @@ fonts:
     post_script_name: ZenMaruGothic-Medium
     version: '1.001'
     copyright: Copyright 2021 The Zen Maru Gothic Authors (https://github.com/googlefonts/zen-marugothic)
-    font: ZenMaruGothic-Medium.ttf
+    font: o-0XIpIxzW5b-RxT-6A8jWAtCp-cGWtCPJqa_ajlvw.ttf
 extract: {}
 copyright: Copyright 2021 The Zen Maru Gothic Authors (https://github.com/googlefonts/zen-marugothic)
 license_url: https://scripts.sil.org/OFL
@@ -154,5 +159,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d4b711d00a4c5a50fb3195559b848dbddff1cd4b040b18db3c349868f0db221c
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Rubik Glitch Pop
 description: Rubik Glitch Pop
 homepage: http://www.google.com/fonts
 resources:
-  Rubik_Glitch_Pop.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rubik%20Glitch%20Pop
-    sha256: 9fa7f0e65a15337aedd9a640763db42ae1df2b4405beb4045e02580d475dbfe0
-    file_size: 812586
+  Rubik Glitch Pop:
+    source: google
+    family: Rubik Glitch Pop
+    files:
+    - https://fonts.gstatic.com/s/rubikglitchpop/v1/tDbX2pGHhFcM0gB3hN2elZLa3G-MOwStSUrV_BE.ttf
 fonts:
 - name: Rubik Glitch Pop
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: RubikGlitchPop-Regular
     version: '2.201'
     copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
-    font: RubikGlitchPop-Regular.ttf
+    font: tDbX2pGHhFcM0gB3hN2elZLa3G-MOwStSUrV_BE.ttf
 extract: {}
 copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  https://openfontlicense.org
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 80145a6d49afefdb7050ae1fdd3ea5bc5ba8ed901b96bda53369655c156433a4
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

@@ -3,11 +3,11 @@ name: Federo
 description: Federo
 homepage: http://cyreal.org
 resources:
-  Federo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Federo
-    sha256: e0642cbc01dd72bdb12863252370d2f65ed0db9e483ed1d2d45e7c585abbccb1
-    file_size: 37901
+  Federo:
+    source: google
+    family: Federo
+    files:
+    - https://fonts.gstatic.com/s/federo/v19/iJWFBX-cbD_ETsbmjVOe2WTG7Q.ttf
 fonts:
 - name: Federo
   styles:
@@ -19,11 +19,9 @@ fonts:
     description: Copyright (c) 2011 by Olexa M. Volochay | Cyreal.org. All rights
       reserved. Based on Feder Grotesk by J.Erbar (1909)
     copyright: Copyright (c) 2011 by Olexa M. Volochay | Cyreal.org. All rights reserved.
-    font: Federo-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by Olexa M. Volochay | Cyreal.org (a@cyreal.org). All
-  rights reserved.
+    font: iJWFBX-cbD_ETsbmjVOe2WTG7Q.ttf
+extract: {}
+copyright: Copyright (c) 2011 by Olexa M. Volochay | Cyreal.org. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Cyreal (www.cyreal.org),
@@ -120,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

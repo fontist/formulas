@@ -1,59 +1,70 @@
 ---
+name: Bellota Text
 description: Bellota Text
 homepage: http://www.pixilate.com
 resources:
-  BellotaText.zip:
-    urls:
-    - https://fonts.google.com/download?family=Bellota%20Text
-    sha256: 708605831eaf3a4999f5deaefbe3177e5300efc7fe19594d0a41852c1b36db6d
-    file_size: 550915
+  Bellota Text:
+    source: google
+    family: Bellota Text
+    files:
+    - https://fonts.gstatic.com/s/bellotatext/v18/0FlMVP2VnlWS4f3-UE9hHXM5VfsqfQXwQy6yxg.ttf
+    - https://fonts.gstatic.com/s/bellotatext/v18/0FlOVP2VnlWS4f3-UE9hHXMx--Gmfw_0YSuixmYK.ttf
+    - https://fonts.gstatic.com/s/bellotatext/v18/0FlTVP2VnlWS4f3-UE9hHXMB-dMOdS7sSg.ttf
+    - https://fonts.gstatic.com/s/bellotatext/v18/0FlNVP2VnlWS4f3-UE9hHXMx-9kKVyv8Sjer.ttf
+    - https://fonts.gstatic.com/s/bellotatext/v18/0FlMVP2VnlWS4f3-UE9hHXM5RfwqfQXwQy6yxg.ttf
+    - https://fonts.gstatic.com/s/bellotatext/v18/0FlOVP2VnlWS4f3-UE9hHXMx--G2eA_0YSuixmYK.ttf
 fonts:
 - name: Bellota Text
   styles:
-  - family_name: Bellota Text
-    type: Light
-    full_name: Bellota Text Light
-    post_script_name: BellotaText-Light
-    version: '4.001'
-    copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
-    font: BellotaText-Light.ttf
-  - family_name: Bellota Text
-    type: Light Italic
-    full_name: Bellota Text Light Italic
-    post_script_name: BellotaText-LightItalic
-    version: '4.001'
-    copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
-    font: BellotaText-LightItalic.ttf
-  - family_name: Bellota Text
-    type: Regular
-    full_name: Bellota Text Regular
-    post_script_name: BellotaText-Regular
-    version: '4.001'
-    copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
-    font: BellotaText-Regular.ttf
-  - family_name: Bellota Text
-    type: Italic
-    full_name: Bellota Text Italic
-    post_script_name: BellotaText-Italic
-    version: '4.001'
-    copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
-    font: BellotaText-Italic.ttf
   - family_name: Bellota Text
     type: Bold
     full_name: Bellota Text Bold
     post_script_name: BellotaText-Bold
     version: '4.001'
     copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
-    font: BellotaText-Bold.ttf
+    font: 0FlMVP2VnlWS4f3-UE9hHXM5RfwqfQXwQy6yxg.ttf
   - family_name: Bellota Text
     type: Bold Italic
     full_name: Bellota Text Bold Italic
     post_script_name: BellotaText-BoldItalic
     version: '4.001'
     copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
-    font: BellotaText-BoldItalic.ttf
-extract:
-  format: zip
+    font: 0FlOVP2VnlWS4f3-UE9hHXMx--G2eA_0YSuixmYK.ttf
+  - family_name: Bellota Text
+    type: Italic
+    full_name: Bellota Text Italic
+    post_script_name: BellotaText-Italic
+    version: '4.001'
+    copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
+    font: 0FlNVP2VnlWS4f3-UE9hHXMx-9kKVyv8Sjer.ttf
+  - family_name: Bellota Text
+    type: Regular
+    full_name: Bellota Text Regular
+    post_script_name: BellotaText-Regular
+    version: '4.001'
+    copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
+    font: 0FlTVP2VnlWS4f3-UE9hHXMB-dMOdS7sSg.ttf
+- name: Bellota Text Light
+  styles:
+  - family_name: Bellota Text Light
+    type: Italic
+    preferred_family_name: Bellota Text
+    preferred_type: Light Italic
+    full_name: Bellota Text Light Italic
+    post_script_name: BellotaText-LightItalic
+    version: '4.001'
+    copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
+    font: 0FlOVP2VnlWS4f3-UE9hHXMx--Gmfw_0YSuixmYK.ttf
+  - family_name: Bellota Text Light
+    type: Regular
+    preferred_family_name: Bellota Text
+    preferred_type: Light
+    full_name: Bellota Text Light
+    post_script_name: BellotaText-Light
+    version: '4.001'
+    copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
+    font: 0FlMVP2VnlWS4f3-UE9hHXM5VfsqfQXwQy6yxg.ttf
+extract: {}
 copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -150,3 +161,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

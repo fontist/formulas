@@ -1,12 +1,12 @@
 ---
+name: Meie Script
 description: Meie Script
-homepage:
 resources:
-  MeieScript.zip:
-    urls:
-    - https://fonts.google.com/download?family=Meie%20Script
-    sha256: acbed70c5a100e00845e5c80f2f4e280671c4fd58f6b92dffe2f1a368662ed79
-    file_size: 61639
+  Meie Script:
+    source: google
+    family: Meie Script
+    files:
+    - https://fonts.gstatic.com/s/meiescript/v21/_LOImzDK7erRjhunIspaMjxn5IXg0WDz.ttf
 fonts:
 - name: Meie Script
   styles:
@@ -17,9 +17,8 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011, 2012 Johan Kallas (johankallas@gmail.com), Mihkel
       Virkus (mihkelvirkus@gmail.com), with Reserved Font Name 'Meie Script'
-    font: MeieScript-Regular.ttf
-extract:
-  format: zip
+    font: _LOImzDK7erRjhunIspaMjxn5IXg0WDz.ttf
+extract: {}
 copyright: Copyright (c) 2011, 2012 Johan Kallas (johankallas@gmail.com), Mihkel Virkus
   (mihkelvirkus@gmail.com), with Reserved Font Name 'Meie Script'
 license_url: http://scripts.sil.org/OFL
@@ -117,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

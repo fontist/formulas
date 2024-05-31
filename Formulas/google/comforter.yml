@@ -3,11 +3,11 @@ name: Comforter
 description: Comforter
 homepage: www.typesetit.com
 resources:
-  Comforter.zip:
-    urls:
-    - https://fonts.google.com/download?family=Comforter
-    sha256: 711693023eca4050443c79c85b31c5612dd0db494bc3dca1f394219a181509bf
-    file_size: 148560
+  Comforter:
+    source: google
+    family: Comforter
+    files:
+    - https://fonts.gstatic.com/s/comforter/v7/H4clBXOCl8nQnlaql3Qa6JG8iqeuag.ttf
 fonts:
 - name: Comforter
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: Comforter-Regular
     version: 1.013; ttfautohint (v1.8.3)
     copyright: Copyright 2015 The Comforter Project Authors (https://github.com/googlefonts/comforter)
-    font: Comforter-Regular.ttf
+    font: H4clBXOCl8nQnlaql3Qa6JG8iqeuag.ttf
 extract: {}
 copyright: Copyright 2015 The Comforter Project Authors (https://github.com/googlefonts/comforter)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: baff8d9e93b4216394cbe88ae9f40f2bbbf3af6fa4ba8bcb6d76c9fd3a7e21f7
-command: google import --formulas_path Formulas
+command: import google -n 9999

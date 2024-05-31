@@ -1,34 +1,32 @@
 ---
 name: Tangerine
 description: Tangerine
-homepage:
 resources:
-  Tangerine.zip:
-    urls:
-    - https://fonts.google.com/download?family=Tangerine
-    sha256: 257e5ef0b05df0e26aa0634c44dcb24b7ded2f39708ba22e933d898decc1291b
-    file_size: 67716
+  Tangerine:
+    source: google
+    family: Tangerine
+    files:
+    - https://fonts.gstatic.com/s/tangerine/v17/IurY6Y5j_oScZZow4VOBDpxNhLBQ4Q.ttf
+    - https://fonts.gstatic.com/s/tangerine/v17/Iurd6Y5j_oScZZow4VO5srNpjJtM6G0t9w.ttf
 fonts:
 - name: Tangerine
   styles:
-  - family_name: Tangerine
-    type: Regular
-    full_name: Tangerine Regular
-    post_script_name: Tangerine-Regular
-    version: '1.3'
-    copyright: Copyright (c) 2010 by Toshi Omagari. All rights reserved.
-    font: Tangerine-Regular.ttf
   - family_name: Tangerine
     type: Bold
     full_name: Tangerine Bold
     post_script_name: Tangerine-Bold
     version: '1.3'
     copyright: Copyright (c) 2010 by Toshi Omagari. All rights reserved.
-    font: Tangerine-Bold.ttf
-extract:
-  format: zip
+    font: Iurd6Y5j_oScZZow4VO5srNpjJtM6G0t9w.ttf
+  - family_name: Tangerine
+    type: Regular
+    full_name: Tangerine Regular
+    post_script_name: Tangerine-Regular
+    version: '1.3'
+    copyright: Copyright (c) 2010 by Toshi Omagari. All rights reserved.
+    font: IurY6Y5j_oScZZow4VOBDpxNhLBQ4Q.ttf
+extract: {}
 copyright: Copyright (c) 2010 by Toshi Omagari. All rights reserved.
-license_url:
 open_license: |-
   Copyright (c) 2010, Toshi Omagari (tosche@mac.com)
 
@@ -123,3 +121,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

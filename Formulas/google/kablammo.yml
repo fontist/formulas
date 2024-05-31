@@ -1,12 +1,13 @@
 ---
+name: Kablammo
 description: Kablammo
 homepage: https://www.vectrotype.com
 resources:
-  Kablammo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Kablammo
-    sha256: 8946b409a7ab7f35a3c71b00e315861dc01a0a374b6b29ef65ac33bf89a952aa
-    file_size: 1361091
+  Kablammo:
+    source: google
+    family: Kablammo
+    files:
+    - https://fonts.gstatic.com/s/kablammo/v1/bWtm7fHPcgrhC-J3lcXhcQTY5Ixs6Au9YgCjjx0Rf4YDKw.ttf
 fonts:
 - name: Kablammo
   styles:
@@ -16,14 +17,7 @@ fonts:
     post_script_name: Kablammo-Regular
     version: '1.002'
     copyright: Copyright 2023 The Kablammo Project Authors (https://github.com/Vectro-Type-Foundry/kablammo)
-    font: Kablammo-Regular-VariableFont_MORF.ttf
-  - family_name: Kablammo
-    type: Regular
-    full_name: Kablammo Regular
-    post_script_name: Kablammo-Regular
-    version: '1.002'
-    copyright: Copyright 2023 The Kablammo Project Authors (https://github.com/Vectro-Type-Foundry/kablammo)
-    font: Kablammo-Regular.ttf
+    font: bWtm7fHPcgrhC-J3lcXhcQTY5Ixs6Au9YgCjjx0Rf4YDKw.ttf
 extract: {}
 copyright: Copyright 2023 The Kablammo Project Authors (https://github.com/Vectro-Type-Foundry/kablammo)
 license_url: https://scripts.sil.org/OFL
@@ -121,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: c3a6d0278b1dee82384bde5d1fa2b5a65cd2550c12ffd570a92a4973f07de0ee
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

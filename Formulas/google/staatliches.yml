@@ -3,11 +3,11 @@ name: Staatliches
 description: Staatliches
 homepage: www.typebrut.com
 resources:
-  Staatliches.zip:
-    urls:
-    - https://fonts.google.com/download?family=Staatliches
-    sha256: 45b23875a81ec80ae5dd4806337555065abdb57d8d341eafa7f6b181cb319c6f
-    file_size: 31648
+  Staatliches:
+    source: google
+    family: Staatliches
+    files:
+    - https://fonts.gstatic.com/s/staatliches/v13/HI_OiY8KO6hCsQSoAPmtMbectJG9O9PS.ttf
 fonts:
 - name: Staatliches
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: 1.000; ttfautohint (v1.8.2) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a
       qsq -X ""
     copyright: Copyright 2018 The Staatliches Project Authors (https://github.com/googlefonts/staatliches)
-    font: Staatliches-Regular.ttf
-extract:
-  format: zip
+    font: HI_OiY8KO6hCsQSoAPmtMbectJG9O9PS.ttf
+extract: {}
 copyright: Copyright 2018 The Staatliches Project Authors (https://github.com/googlefonts/staatliches)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -117,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

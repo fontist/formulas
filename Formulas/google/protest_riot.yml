@@ -1,11 +1,12 @@
 ---
+name: Protest Riot
 description: Protest Riot
 resources:
-  Protest_Riot.zip:
-    urls:
-    - https://fonts.google.com/download?family=Protest%20Riot
-    sha256: 386ba73ea193a581e550ffef7ca4da9894c9fd649b3da928f3a5bbea49afbee8
-    file_size: 56270
+  Protest Riot:
+    source: google
+    family: Protest Riot
+    files:
+    - https://fonts.gstatic.com/s/protestriot/v2/d6lPkaOxWMKm7TdezXFmpkrM1_JgjmRpOA.ttf
 fonts:
 - name: Protest Riot
   styles:
@@ -15,7 +16,7 @@ fonts:
     post_script_name: ProtestRiot-Regular
     version: 2.005; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2020 The Protest Project Authors (https://github.com/octaviopardo/Protest)
-    font: ProtestRiot-Regular.ttf
+    font: d6lPkaOxWMKm7TdezXFmpkrM1_JgjmRpOA.ttf
 extract: {}
 copyright: Copyright 2020 The Protest Project Authors (https://github.com/octaviopardo/Protest)
 license_url: https://scripts.sil.org/OFL
@@ -24,7 +25,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  https://openfontlicense.org
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -113,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: '0129b89421e3bb5c103392f4f3e9c43bf7d577b93769461a73ea4b32219c28c1'
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

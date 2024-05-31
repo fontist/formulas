@@ -2,11 +2,11 @@
 name: Angkor
 description: Angkor
 resources:
-  Angkor.zip:
-    urls:
-    - https://fonts.google.com/download?family=Angkor
-    sha256: 78f7677f86adeacee0da7673d09f63a23e0d2a9120eb56a06159541b429ea897
-    file_size: 38775
+  Angkor:
+    source: google
+    family: Angkor
+    files:
+    - https://fonts.gstatic.com/s/angkor/v32/H4cmBXyAlsPdnlb-8iw-4Lqggw.ttf
 fonts:
 - name: Angkor
   styles:
@@ -14,14 +14,14 @@ fonts:
     type: Regular
     full_name: Angkor Regular
     post_script_name: Angkor-Regular
-    version: 3.10 December 28, 2010
-    copyright: Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
-    font: Angkor-Regular.ttf
+    version: 8.000; ttfautohint (v1.8.3)
+    copyright: Copyright 2020 The Angkor Project Authors (https://github.com/danhhong/Angkor)
+    font: H4cmBXyAlsPdnlb-8iw-4Lqggw.ttf
 extract: {}
-copyright: Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
+copyright: Copyright 2020 The Angkor Project Authors (https://github.com/danhhong/Angkor)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
-  with Reserved Font Name Angkor.
+  Copyright 2020 The Angkor Project Authors (https://github.com/danhhong/Angkor)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
@@ -114,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 49c59822a6711ad55153ec2cc96862348e735fc6d26efa4c0c6e5f35153f7de2
-command: google import --formulas_path Formulas
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Grantha
 description: Noto Sans Grantha
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Grantha.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Grantha
-    sha256: 80c44f8ac1cb58a3daf074260a72c4b81389c0603aeda8a2168b7e339a24f949
-    file_size: 171157
+  Noto Sans Grantha:
+    source: google
+    family: Noto Sans Grantha
+    files:
+    - https://fonts.gstatic.com/s/notosansgrantha/v17/3y976akwcCjmsU8NDyrKo3IQfQ4o-r8cFeulHc6N.ttf
 fonts:
 - name: Noto Sans Grantha
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/grantha)
-    font: NotoSansGrantha-Regular.ttf
+    font: 3y976akwcCjmsU8NDyrKo3IQfQ4o-r8cFeulHc6N.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/grantha)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d0c567a88a163d1e21aa7b819452b7eb819ba46f5c32b67671f14af63fb98bb8
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

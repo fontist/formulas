@@ -1,12 +1,14 @@
 ---
+name: Tiro Devanagari Sanskrit
 description: Tiro Devanagari Sanskrit
 homepage: https://github.com/TiroTypeworks/Indigo
 resources:
-  Tiro_Devanagari_Sanskrit.zip:
-    urls:
-    - https://fonts.google.com/download?family=Tiro%20Devanagari%20Sanskrit
-    sha256: 2ab846f978eb1ddd38d9f7d157c65d41970467bfac3f124eb045e2a6608ab6b3
-    file_size: 637534
+  Tiro Devanagari Sanskrit:
+    source: google
+    family: Tiro Devanagari Sanskrit
+    files:
+    - https://fonts.gstatic.com/s/tirodevanagarisanskrit/v5/MCoAzBbr09vVUgVBM8FWu_yZdZkhkg-I0nUlb59pEoEqgtOh0w.ttf
+    - https://fonts.gstatic.com/s/tirodevanagarisanskrit/v5/MCoGzBbr09vVUgVBM8FWu_yZdZkhkg-I0nUlb59ZEIsuoNax06MM.ttf
 fonts:
 - name: Tiro Devanagari Sanskrit
   styles:
@@ -16,14 +18,14 @@ fonts:
     post_script_name: TiroDevaSanskrit-Italic
     version: '1.52'
     copyright: Copyright 2020 The Indigo Project Authors (https://github.com/TiroTypeworks/Indigo)
-    font: TiroDevanagariSanskrit-Italic.ttf
+    font: MCoGzBbr09vVUgVBM8FWu_yZdZkhkg-I0nUlb59ZEIsuoNax06MM.ttf
   - family_name: Tiro Devanagari Sanskrit
     type: Regular
     full_name: Tiro Devanagari Sanskrit Regular
     post_script_name: TiroDevaSanskrit-Regular
     version: '1.52'
     copyright: Copyright 2020 The Indigo Project Authors (https://github.com/TiroTypeworks/Indigo)
-    font: TiroDevanagariSanskrit-Regular.ttf
+    font: MCoAzBbr09vVUgVBM8FWu_yZdZkhkg-I0nUlb59pEoEqgtOh0w.ttf
 extract: {}
 copyright: Copyright 2020 The Indigo Project Authors (https://github.com/TiroTypeworks/Indigo)
 license_url: https://scripts.sil.org/OFL
@@ -121,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e719914758a90f0c8ed4f28fcbe2073a2e3d44702bed22be1ca88cb6ff2a438b
-command: import google --formulas_path Formulas
+command: import google -n 9999

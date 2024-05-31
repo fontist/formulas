@@ -1,11 +1,12 @@
 ---
+name: Moulpali
 description: Moulpali
 resources:
-  Moulpali.zip:
-    urls:
-    - https://fonts.google.com/download?family=Moulpali
-    sha256: 6a9a6da7c49bc98eb32feb82458f9797c99e1700bbbef7fd83b296a1508f24ed
-    file_size: 48226
+  Moulpali:
+    source: google
+    family: Moulpali
+    files:
+    - https://fonts.gstatic.com/s/moulpali/v30/H4ckBXKMl9HagUWymyY6wr-wg763.ttf
 fonts:
 - name: Moulpali
   styles:
@@ -13,9 +14,9 @@ fonts:
     type: Regular
     full_name: Moulpali Regular
     post_script_name: Moulpali-Regular
-    version: 8.001; ttfautohint (v1.8.3)
+    version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Moulpali Project Authors (https://github.com/danhhong/Moulpali)
-    font: Moulpali-Regular.ttf
+    font: H4ckBXKMl9HagUWymyY6wr-wg763.ttf
 extract: {}
 copyright: Copyright 2020 The Moulpali Project Authors (https://github.com/danhhong/Moulpali)
 license_url: https://scripts.sil.org/OFL
@@ -113,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e783e76f03b5a6b38b432e5984c389ef3e66564afd24a6a510ae1cfc6511afab
-command: google import --formulas_path Formulas
+command: import google -n 9999

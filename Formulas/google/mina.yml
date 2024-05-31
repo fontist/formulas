@@ -1,32 +1,31 @@
 ---
 name: Mina
 description: Mina
-homepage:
 resources:
-  Mina.zip:
-    urls:
-    - https://fonts.google.com/download?family=Mina
-    sha256: 5cb5baa25a5d36a17b330de7429a770c4d49f255d35438e67417030254eb5e0b
-    file_size: 150438
+  Mina:
+    source: google
+    family: Mina
+    files:
+    - https://fonts.gstatic.com/s/mina/v11/-nFzOGc18vARrz9j7i3y65o.ttf
+    - https://fonts.gstatic.com/s/mina/v11/-nF8OGc18vARl4NMyiXZ95OkJwA.ttf
 fonts:
 - name: Mina
   styles:
-  - family_name: Mina
-    type: Regular
-    full_name: Mina
-    post_script_name: Mina-Regular
-    version: '1.000'
-    copyright: Copyright 2015 The Mina Project Authors, with Reserved Font Name 'Exo'
-    font: Mina-Regular.ttf
   - family_name: Mina
     type: Bold
     full_name: Mina Bold
     post_script_name: Mina-Bold
     version: '1.000'
     copyright: Copyright 2015 The Mina Project Authors, with Reserved Font Name 'Exo'
-    font: Mina-Bold.ttf
-extract:
-  format: zip
+    font: "-nF8OGc18vARl4NMyiXZ95OkJwA.ttf"
+  - family_name: Mina
+    type: Regular
+    full_name: Mina
+    post_script_name: Mina-Regular
+    version: '1.000'
+    copyright: Copyright 2015 The Mina Project Authors, with Reserved Font Name 'Exo'
+    font: "-nFzOGc18vARrz9j7i3y65o.ttf"
+extract: {}
 copyright: Copyright 2015 The Mina Project Authors, with Reserved Font Name 'Exo'
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -123,3 +122,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Grand Hotel
 description: Grand Hotel
 homepage: http://www.astigmatic.com/
 resources:
-  GrandHotel.zip:
-    urls:
-    - https://fonts.google.com/download?family=Grand%20Hotel
-    sha256: 2826c506586e4108f5ade557dfeebcc1d1cc43274f008a003cb90c6fe2cd13e9
-    file_size: 30688
+  Grand Hotel:
+    source: google
+    family: Grand Hotel
+    files:
+    - https://fonts.gstatic.com/s/grandhotel/v19/7Au7p_IgjDKdCRWuR1azpmQNEl0O0kEx.ttf
 fonts:
 - name: Grand Hotel
   styles:
@@ -18,11 +19,11 @@ fonts:
     copyright: |-
       Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
       Font Name "Grand Hotel"
-    font: GrandHotel-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com),
-  with Reserved Font Name "Grand Hotel"
+    font: 7Au7p_IgjDKdCRWuR1azpmQNEl0O0kEx.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+  Font Name "Grand Hotel"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012 by Brian J. Bonislawsky and Jim Lyles DBA Astigmatic
@@ -119,3 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

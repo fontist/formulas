@@ -3,10 +3,14 @@ name: Markazi Text
 description: Markazi Text
 homepage: http://www.borna.design, http://www.florianrunge.com
 resources:
-  Markazi_Text.zip:
-    urls:
-    - https://fonts.google.com/download?family=Markazi%20Text
-    file_size: 405867
+  Markazi Text:
+    source: google
+    family: Markazi Text
+    files:
+    - https://fonts.gstatic.com/s/markazitext/v23/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtfSQT4MlBekmJLo.ttf
+    - https://fonts.gstatic.com/s/markazitext/v23/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtcaQT4MlBekmJLo.ttf
+    - https://fonts.gstatic.com/s/markazitext/v23/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtSqXT4MlBekmJLo.ttf
+    - https://fonts.gstatic.com/s/markazitext/v23/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtROXT4MlBekmJLo.ttf
 fonts:
 - name: Markazi Text
   styles:
@@ -16,21 +20,14 @@ fonts:
     post_script_name: MarkaziText-Bold
     version: '1.001'
     copyright: Copyright 2017 The Markazi Text Project Authors (https://github.com/BornaIz/markazitext)
-    font: MarkaziText-Bold.ttf
+    font: sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtROXT4MlBekmJLo.ttf
   - family_name: Markazi Text
     type: Regular
     full_name: Markazi Text Regular
     post_script_name: MarkaziText-Regular
     version: '1.001'
     copyright: Copyright 2017 The Markazi Text Project Authors (https://github.com/BornaIz/markazitext)
-    font: MarkaziText-VariableFont_wght.ttf
-  - family_name: Markazi Text
-    type: Regular
-    full_name: Markazi Text Regular
-    post_script_name: MarkaziText-Regular
-    version: '1.001'
-    copyright: Copyright 2017 The Markazi Text Project Authors (https://github.com/BornaIz/markazitext)
-    font: MarkaziText-Regular.ttf
+    font: sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtfSQT4MlBekmJLo.ttf
 - name: Markazi Text Medium
   styles:
   - family_name: Markazi Text Medium
@@ -41,7 +38,7 @@ fonts:
     post_script_name: MarkaziText-Medium
     version: '1.001'
     copyright: Copyright 2017 The Markazi Text Project Authors (https://github.com/BornaIz/markazitext)
-    font: MarkaziText-Medium.ttf
+    font: sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtcaQT4MlBekmJLo.ttf
 - name: Markazi Text SemiBold
   styles:
   - family_name: Markazi Text SemiBold
@@ -52,7 +49,7 @@ fonts:
     post_script_name: MarkaziText-SemiBold
     version: '1.001'
     copyright: Copyright 2017 The Markazi Text Project Authors (https://github.com/BornaIz/markazitext)
-    font: MarkaziText-SemiBold.ttf
+    font: sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtSqXT4MlBekmJLo.ttf
 extract: {}
 copyright: Copyright 2017 The Markazi Text Project Authors (https://github.com/BornaIz/markazitext)
 license_url: http://scripts.sil.org/OFL
@@ -150,5 +147,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9f0580c2269df79a8c6068159c5588d53afb5540fc7465181f0ac08941131111
-command: google import --formulas_path Formulas
+command: import google -n 9999

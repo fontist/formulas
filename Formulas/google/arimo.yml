@@ -3,10 +3,18 @@ name: Arimo
 description: Arimo
 homepage: http://www.google.com/get/noto/
 resources:
-  Arimo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Arimo
-    file_size: 2216166
+  Arimo:
+    source: google
+    family: Arimo
+    files:
+    - https://fonts.gstatic.com/s/arimo/v29/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxsBxDAVQI4aA.ttf
+    - https://fonts.gstatic.com/s/arimo/v29/P5sfzZCDf9_T_3cV7NCUECyoxNk338xsBxDAVQI4aA.ttf
+    - https://fonts.gstatic.com/s/arimo/v29/P5sfzZCDf9_T_3cV7NCUECyoxNk3M8tsBxDAVQI4aA.ttf
+    - https://fonts.gstatic.com/s/arimo/v29/P5sfzZCDf9_T_3cV7NCUECyoxNk3CstsBxDAVQI4aA.ttf
+    - https://fonts.gstatic.com/s/arimo/v29/P5sdzZCDf9_T_10c3i9MeUcyat4iJY-ERBrEdwcoaKww.ttf
+    - https://fonts.gstatic.com/s/arimo/v29/P5sdzZCDf9_T_10c3i9MeUcyat4iJY-2RBrEdwcoaKww.ttf
+    - https://fonts.gstatic.com/s/arimo/v29/P5sdzZCDf9_T_10c3i9MeUcyat4iJY9aQxrEdwcoaKww.ttf
+    - https://fonts.gstatic.com/s/arimo/v29/P5sdzZCDf9_T_10c3i9MeUcyat4iJY9jQxrEdwcoaKww.ttf
 fonts:
 - name: Arimo
   styles:
@@ -21,7 +29,7 @@ fonts:
       set and solves the needs of developers looking for width-compatible fonts to
       address document portability across platforms.
     copyright: Copyright 2020 The Arimo Project Authors (https://github.com/googlefonts/arimo)
-    font: Arimo-Bold.ttf
+    font: P5sfzZCDf9_T_3cV7NCUECyoxNk3CstsBxDAVQI4aA.ttf
   - family_name: Arimo
     type: Bold Italic
     full_name: Arimo Bold Italic
@@ -33,7 +41,7 @@ fonts:
       set and solves the needs of developers looking for width-compatible fonts to
       address document portability across platforms.
     copyright: Copyright 2020 The Arimo Project Authors (https://github.com/googlefonts/arimo)
-    font: Arimo-BoldItalic.ttf
+    font: P5sdzZCDf9_T_10c3i9MeUcyat4iJY9jQxrEdwcoaKww.ttf
   - family_name: Arimo
     type: Italic
     full_name: Arimo Italic
@@ -45,19 +53,7 @@ fonts:
       set and solves the needs of developers looking for width-compatible fonts to
       address document portability across platforms.
     copyright: Copyright 2020 The Arimo Project Authors (https://github.com/googlefonts/arimo)
-    font: Arimo-Italic.ttf
-  - family_name: Arimo
-    type: Italic
-    full_name: Arimo Italic
-    post_script_name: Arimo-Italic
-    version: '1.33'
-    description: Arimo was designed by Steve Matteson as an innovative, refreshing
-      sans serif design that is metrically compatible with Arial(tm). Arimo offers
-      improved on-screen readability characteristics and the pan-European WGL character
-      set and solves the needs of developers looking for width-compatible fonts to
-      address document portability across platforms.
-    copyright: Copyright 2020 The Arimo Project Authors (https://github.com/googlefonts/arimo)
-    font: Arimo-Italic-VariableFont_wght.ttf
+    font: P5sdzZCDf9_T_10c3i9MeUcyat4iJY-ERBrEdwcoaKww.ttf
   - family_name: Arimo
     type: Regular
     full_name: Arimo Regular
@@ -69,19 +65,7 @@ fonts:
       set and solves the needs of developers looking for width-compatible fonts to
       address document portability across platforms.
     copyright: Copyright 2020 The Arimo Project Authors (https://github.com/googlefonts/arimo)
-    font: Arimo-VariableFont_wght.ttf
-  - family_name: Arimo
-    type: Regular
-    full_name: Arimo Regular
-    post_script_name: Arimo-Regular
-    version: '1.33'
-    description: Arimo was designed by Steve Matteson as an innovative, refreshing
-      sans serif design that is metrically compatible with Arial(tm). Arimo offers
-      improved on-screen readability characteristics and the pan-European WGL character
-      set and solves the needs of developers looking for width-compatible fonts to
-      address document portability across platforms.
-    copyright: Copyright 2020 The Arimo Project Authors (https://github.com/googlefonts/arimo)
-    font: Arimo-Regular.ttf
+    font: P5sfzZCDf9_T_3cV7NCUECyoxNk37cxsBxDAVQI4aA.ttf
 - name: Arimo Medium
   styles:
   - family_name: Arimo Medium
@@ -97,7 +81,7 @@ fonts:
       set and solves the needs of developers looking for width-compatible fonts to
       address document portability across platforms.
     copyright: Copyright 2020 The Arimo Project Authors (https://github.com/googlefonts/arimo)
-    font: Arimo-MediumItalic.ttf
+    font: P5sdzZCDf9_T_10c3i9MeUcyat4iJY-2RBrEdwcoaKww.ttf
   - family_name: Arimo Medium
     type: Regular
     preferred_family_name: Arimo
@@ -111,7 +95,7 @@ fonts:
       set and solves the needs of developers looking for width-compatible fonts to
       address document portability across platforms.
     copyright: Copyright 2020 The Arimo Project Authors (https://github.com/googlefonts/arimo)
-    font: Arimo-Medium.ttf
+    font: P5sfzZCDf9_T_3cV7NCUECyoxNk338xsBxDAVQI4aA.ttf
 - name: Arimo SemiBold
   styles:
   - family_name: Arimo SemiBold
@@ -127,7 +111,7 @@ fonts:
       set and solves the needs of developers looking for width-compatible fonts to
       address document portability across platforms.
     copyright: Copyright 2020 The Arimo Project Authors (https://github.com/googlefonts/arimo)
-    font: Arimo-SemiBoldItalic.ttf
+    font: P5sdzZCDf9_T_10c3i9MeUcyat4iJY9aQxrEdwcoaKww.ttf
   - family_name: Arimo SemiBold
     type: Regular
     preferred_family_name: Arimo
@@ -141,7 +125,7 @@ fonts:
       set and solves the needs of developers looking for width-compatible fonts to
       address document portability across platforms.
     copyright: Copyright 2020 The Arimo Project Authors (https://github.com/googlefonts/arimo)
-    font: Arimo-SemiBold.ttf
+    font: P5sfzZCDf9_T_3cV7NCUECyoxNk3M8tsBxDAVQI4aA.ttf
 extract: {}
 copyright: Copyright 2020 The Arimo Project Authors (https://github.com/googlefonts/arimo)
 license_url: http://scripts.sil.org/OFL
@@ -347,5 +331,4 @@ open_license: |-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
-digest: 82f1290ef352c5d5838e5bcd78362893d82d9c4ad97058610da2a380ae7dd622
-command: google import --formulas_path Formulas
+command: import google -n 9999

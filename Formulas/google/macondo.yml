@@ -1,13 +1,12 @@
 ---
 name: Macondo
 description: Macondo
-homepage:
 resources:
-  Macondo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Macondo
-    sha256: 01b36510728fd9f7a714f664951954750d48994b778bcc5ab1e8785b8956a746
-    file_size: 23359
+  Macondo:
+    source: google
+    family: Macondo
+    files:
+    - https://fonts.gstatic.com/s/macondo/v25/RrQQboN9-iB1IXmOS2XO0LBBd4Y.ttf
 fonts:
 - name: Macondo
   styles:
@@ -18,9 +17,8 @@ fonts:
     version: '2.001'
     copyright: Copyright (c) 1997 - 2011, John Vargas Beltran. (www.johnvargasbeltran.com|john.vargasbeltran@gmail.com),
       with Reserved Font Name "Macondo"
-    font: Macondo-Regular.ttf
-extract:
-  format: zip
+    font: RrQQboN9-iB1IXmOS2XO0LBBd4Y.ttf
+extract: {}
 copyright: Copyright (c) 1997 - 2011, John Vargas Beltran. (www.johnvargasbeltran.com|john.vargasbeltran@gmail.com),
   with Reserved Font Name "Macondo"
 license_url: http://scripts.sil.org/OFL
@@ -119,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

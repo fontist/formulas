@@ -1,12 +1,13 @@
 ---
+name: Miltonian Tattoo
 description: Miltonian Tattoo
 homepage: www.impallari.com
 resources:
-  MiltonianTattoo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Miltonian%20Tattoo
-    sha256: 329a90aa99989a25d4a4a65b2b1b6b1100b921e74dd76c23244187bfc7cde335
-    file_size: 67357
+  Miltonian Tattoo:
+    source: google
+    family: Miltonian Tattoo
+    files:
+    - https://fonts.gstatic.com/s/miltoniantattoo/v32/EvOUzBRL0o0kCxF-lcMCQxlpVsA_FwP8MDBku-s.ttf
 fonts:
 - name: Miltonian Tattoo
   styles:
@@ -17,9 +18,8 @@ fonts:
     version: '1.008'
     copyright: Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com).
       Igino Marini (www.ikern.com)
-    font: MiltonianTattoo-Regular.ttf
-extract:
-  format: zip
+    font: EvOUzBRL0o0kCxF-lcMCQxlpVsA_FwP8MDBku-s.ttf
+extract: {}
 copyright: Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com).
   Igino Marini (www.ikern.com)
 license_url: http://scripts.sil.org/OFL
@@ -117,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

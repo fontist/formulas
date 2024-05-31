@@ -1,11 +1,12 @@
 ---
+name: BhuTuka Expanded One
 description: BhuTuka Expanded One
 resources:
-  BhuTuka_Expanded_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=BhuTuka%20Expanded%20One
-    sha256: c43f6f322ab04ac22b833117aa2e218d1288070a43d53009858c457511983d78
-    file_size: 59828
+  BhuTuka Expanded One:
+    source: google
+    family: BhuTuka Expanded One
+    files:
+    - https://fonts.gstatic.com/s/bhutukaexpandedone/v7/SLXXc0jZ4WUJcClHTtv0t7IaDRsBsWRiJCyX8pg_RVH1.ttf
 fonts:
 - name: BhuTuka Expanded One
   styles:
@@ -15,7 +16,7 @@ fonts:
     post_script_name: BhuTukaExpandedOne-Regular
     version: 1.000; ttfautohint (v1.8.3)
     copyright: Copyright 2017 The BhuTuka Expanded One Project Authors (https://github.com/erinmclaughlin/BhuTuka-Extended-One)
-    font: BhuTukaExpandedOne-Regular.ttf
+    font: SLXXc0jZ4WUJcClHTtv0t7IaDRsBsWRiJCyX8pg_RVH1.ttf
 extract: {}
 copyright: Copyright 2017 The BhuTuka Expanded One Project Authors (https://github.com/erinmclaughlin/BhuTuka-Extended-One)
 license_url: http://scripts.sil.org/OFL
@@ -24,7 +25,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -113,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 74e9c2d4acd141071bb9ca41be20aaab563c3c54f472867793c50f8043ce2d49
-command: import google --formulas_path Formulas
+command: import google -n 9999

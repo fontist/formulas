@@ -1,13 +1,12 @@
 ---
 name: Kenia
 description: Kenia
-homepage:
 resources:
-  Kenia.zip:
-    urls:
-    - https://fonts.google.com/download?family=Kenia
-    sha256: 3403222133bb548d601c5b288ba88a37c0b0bf99a7efd7ae4cf0cfd04e990035
-    file_size: 30214
+  Kenia:
+    source: google
+    family: Kenia
+    files:
+    - https://fonts.gstatic.com/s/kenia/v28/jizURE5PuHQH9qCONUGswfGM.ttf
 fonts:
 - name: Kenia
   styles:
@@ -18,9 +17,8 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2010, Julia Petretta (julia.petretta@googlemail.com),
       with Reserved Font Name Kenia
-    font: Kenia-Regular.ttf
-extract:
-  format: zip
+    font: jizURE5PuHQH9qCONUGswfGM.ttf
+extract: {}
 copyright: Copyright (c) 2010, Julia Petretta (julia.petretta@googlemail.com), with
   Reserved Font Name Kenia
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

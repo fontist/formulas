@@ -3,11 +3,12 @@ name: Xanh Mono
 description: Xanh Mono
 homepage: https://yellow-type.com/
 resources:
-  Xanh_Mono.zip:
-    urls:
-    - https://fonts.google.com/download?family=Xanh%20Mono
-    sha256: e76ac505b9d3cc7ae264f397116192a4a559605e7af9464276886785f1f53865
-    file_size: 66444
+  Xanh Mono:
+    source: google
+    family: Xanh Mono
+    files:
+    - https://fonts.gstatic.com/s/xanhmono/v18/R70YjykVmvKCep-vWhSYmACQXzLhTg.ttf
+    - https://fonts.gstatic.com/s/xanhmono/v18/R70ejykVmvKCep-vWhSomgqUfTfxTo24.ttf
 fonts:
 - name: Xanh Mono
   styles:
@@ -17,14 +18,14 @@ fonts:
     post_script_name: XanhMono-Italic
     version: 3.101; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The XanhMono Project Authors (https://github.com/yellow-type-foundry/xanhmono)
-    font: XanhMono-Italic.ttf
+    font: R70ejykVmvKCep-vWhSomgqUfTfxTo24.ttf
   - family_name: Xanh Mono
     type: Regular
     full_name: Xanh Mono Regular
     post_script_name: XanhMono-Regular
     version: 3.101; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The XanhMono Project Authors (https://github.com/yellow-type-foundry/xanhmono)
-    font: XanhMono-Regular.ttf
+    font: R70YjykVmvKCep-vWhSYmACQXzLhTg.ttf
 extract: {}
 copyright: Copyright 2020 The XanhMono Project Authors (https://github.com/yellow-type-foundry/xanhmono)
 license_url: https://scripts.sil.org/OFL
@@ -33,7 +34,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -122,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 6f79f7f9cad1574dc1a3affd4f1244f37c8b46915731046e429401d826cec53a
-command: google import --formulas_path Formulas
+command: import google -n 9999

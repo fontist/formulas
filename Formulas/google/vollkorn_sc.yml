@@ -3,44 +3,54 @@ name: Vollkorn SC
 description: Vollkorn SC
 homepage: http://vollkorn-typeface.com/
 resources:
-  VollkornSC.zip:
-    urls:
-    - https://fonts.google.com/download?family=Vollkorn%20SC
-    sha256: 75a71346a7826b814f860ffeeffbe21dbdd4cc30405b9f6e3aa3dbef307b0a0a
-    file_size: 360442
+  Vollkorn SC:
+    source: google
+    family: Vollkorn SC
+    files:
+    - https://fonts.gstatic.com/s/vollkornsc/v11/j8_v6-zQ3rXpceZj9cqnVhF5NH-iSq_E.ttf
+    - https://fonts.gstatic.com/s/vollkornsc/v11/j8_y6-zQ3rXpceZj9cqnVimhGluqYbPN5Yjn.ttf
+    - https://fonts.gstatic.com/s/vollkornsc/v11/j8_y6-zQ3rXpceZj9cqnVinFG1uqYbPN5Yjn.ttf
+    - https://fonts.gstatic.com/s/vollkornsc/v11/j8_y6-zQ3rXpceZj9cqnVin9GVuqYbPN5Yjn.ttf
 fonts:
 - name: Vollkorn SC
   styles:
-  - family_name: Vollkorn SC
-    type: Regular
-    full_name: Vollkorn SC Regular
-    post_script_name: VollkornSC-Regular
-    version: '4.015'
-    copyright: Copyright 2017 The Vollkorn Project Authors (https://github.com/FAlthausen/Vollkorn-Typeface)
-    font: VollkornSC-Regular.ttf
-  - family_name: Vollkorn SC
-    type: SemiBold
-    full_name: Vollkorn SC SemiBold
-    post_script_name: VollkornSC-SemiBold
-    version: '4.015'
-    copyright: Copyright 2017 The Vollkorn Project Authors (https://github.com/FAlthausen/Vollkorn-Typeface)
-    font: VollkornSC-SemiBold.ttf
   - family_name: Vollkorn SC
     type: Bold
     full_name: Vollkorn SC Bold
     post_script_name: VollkornSC-Bold
     version: '4.015'
     copyright: Copyright 2017 The Vollkorn Project Authors (https://github.com/FAlthausen/Vollkorn-Typeface)
-    font: VollkornSC-Bold.ttf
+    font: j8_y6-zQ3rXpceZj9cqnVinFG1uqYbPN5Yjn.ttf
   - family_name: Vollkorn SC
-    type: Black
+    type: Regular
+    full_name: Vollkorn SC Regular
+    post_script_name: VollkornSC-Regular
+    version: '4.015'
+    copyright: Copyright 2017 The Vollkorn Project Authors (https://github.com/FAlthausen/Vollkorn-Typeface)
+    font: j8_v6-zQ3rXpceZj9cqnVhF5NH-iSq_E.ttf
+- name: Vollkorn SC Black
+  styles:
+  - family_name: Vollkorn SC Black
+    type: Regular
+    preferred_family_name: Vollkorn SC
+    preferred_type: Black
     full_name: Vollkorn SC Black
     post_script_name: VollkornSC-Black
     version: '4.015'
     copyright: Copyright 2017 The Vollkorn Project Authors (https://github.com/FAlthausen/Vollkorn-Typeface)
-    font: VollkornSC-Black.ttf
-extract:
-  format: zip
+    font: j8_y6-zQ3rXpceZj9cqnVin9GVuqYbPN5Yjn.ttf
+- name: Vollkorn SC SemiBold
+  styles:
+  - family_name: Vollkorn SC SemiBold
+    type: Regular
+    preferred_family_name: Vollkorn SC
+    preferred_type: SemiBold
+    full_name: Vollkorn SC SemiBold
+    post_script_name: VollkornSC-SemiBold
+    version: '4.015'
+    copyright: Copyright 2017 The Vollkorn Project Authors (https://github.com/FAlthausen/Vollkorn-Typeface)
+    font: j8_y6-zQ3rXpceZj9cqnVimhGluqYbPN5Yjn.ttf
+extract: {}
 copyright: Copyright 2017 The Vollkorn Project Authors (https://github.com/FAlthausen/Vollkorn-Typeface)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -137,3 +147,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

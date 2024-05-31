@@ -1,12 +1,17 @@
 ---
+name: BioRhyme Expanded
 description: BioRhyme Expanded
 homepage: http://www.aoifemooney.org
 resources:
-  BioRhyme_Expanded.zip:
-    urls:
-    - https://fonts.google.com/download?family=BioRhyme%20Expanded
-    sha256: ace9b2f693bf79fd9599261e6f4fe61a1adb43e6fff8f4cd116b7fe77ec09ab9
-    file_size: 242922
+  BioRhyme Expanded:
+    source: google
+    family: BioRhyme Expanded
+    files:
+    - https://fonts.gstatic.com/s/biorhymeexpanded/v21/i7dVIE1zZzytGswgU577CDY9LjbffxxcblSHSdTXrb_z.ttf
+    - https://fonts.gstatic.com/s/biorhymeexpanded/v21/i7dVIE1zZzytGswgU577CDY9Ljbffxw4bVSHSdTXrb_z.ttf
+    - https://fonts.gstatic.com/s/biorhymeexpanded/v21/i7dQIE1zZzytGswgU577CDY9LjbffySURXCPYsje.ttf
+    - https://fonts.gstatic.com/s/biorhymeexpanded/v21/i7dVIE1zZzytGswgU577CDY9LjbffxwoalSHSdTXrb_z.ttf
+    - https://fonts.gstatic.com/s/biorhymeexpanded/v21/i7dVIE1zZzytGswgU577CDY9Ljbffxw0aVSHSdTXrb_z.ttf
 fonts:
 - name: BioRhyme Expanded
   styles:
@@ -16,14 +21,14 @@ fonts:
     post_script_name: BioRhymeExpanded-Bold
     version: '1.000'
     copyright: Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)
-    font: BioRhymeExpanded-Bold.ttf
+    font: i7dVIE1zZzytGswgU577CDY9LjbffxwoalSHSdTXrb_z.ttf
   - family_name: BioRhyme Expanded
     type: Regular
     full_name: BioRhymeExpanded-Regular
     post_script_name: BioRhymeExpanded-Regular
     version: '1.000'
     copyright: Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)
-    font: BioRhymeExpanded-Regular.ttf
+    font: i7dQIE1zZzytGswgU577CDY9LjbffySURXCPYsje.ttf
 - name: BioRhyme Expanded ExtraBold
   styles:
   - family_name: BioRhyme Expanded ExtraBold
@@ -34,7 +39,7 @@ fonts:
     post_script_name: BioRhymeExpanded-ExtraBold
     version: '1.000'
     copyright: Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)
-    font: BioRhymeExpanded-ExtraBold.ttf
+    font: i7dVIE1zZzytGswgU577CDY9Ljbffxw0aVSHSdTXrb_z.ttf
 - name: BioRhyme Expanded ExtraLight
   styles:
   - family_name: BioRhyme Expanded ExtraLight
@@ -45,7 +50,7 @@ fonts:
     post_script_name: BioRhymeExpanded-ExtraLight
     version: '1.000'
     copyright: Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)
-    font: BioRhymeExpanded-ExtraLight.ttf
+    font: i7dVIE1zZzytGswgU577CDY9LjbffxxcblSHSdTXrb_z.ttf
 - name: BioRhyme Expanded Light
   styles:
   - family_name: BioRhyme Expanded Light
@@ -56,7 +61,7 @@ fonts:
     post_script_name: BioRhymeExpanded-Light
     version: '1.000'
     copyright: Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)
-    font: BioRhymeExpanded-Light.ttf
+    font: i7dVIE1zZzytGswgU577CDY9Ljbffxw4bVSHSdTXrb_z.ttf
 extract: {}
 copyright: Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)
 license_url: http://scripts.sil.org/OFL
@@ -154,5 +159,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 58d6c4c99f134c343142506ce2f175a0fe50c6d49f0292f773a5ac9274b95a0e
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

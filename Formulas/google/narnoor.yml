@@ -1,12 +1,17 @@
 ---
+name: Narnoor
 description: Narnoor
 homepage: https://software.sil.org/wstech/
 resources:
-  Narnoor.zip:
-    urls:
-    - https://fonts.google.com/download?family=Narnoor
-    sha256: 02a2208f7e4407dbda1f5785199de9917fbaa54f5086d3b3e1f5f959b2488969
-    file_size: 183887
+  Narnoor:
+    source: google
+    family: Narnoor
+    files:
+    - https://fonts.gstatic.com/s/narnoor/v7/cIf9MaFWuVo-UTyPxCmrYGkHgIs.ttf
+    - https://fonts.gstatic.com/s/narnoor/v7/cIf4MaFWuVo-UTyP_N2CRGEsnIJkWL4.ttf
+    - https://fonts.gstatic.com/s/narnoor/v7/cIf4MaFWuVo-UTyP_PGFRGEsnIJkWL4.ttf
+    - https://fonts.gstatic.com/s/narnoor/v7/cIf4MaFWuVo-UTyP_JWERGEsnIJkWL4.ttf
+    - https://fonts.gstatic.com/s/narnoor/v7/cIf4MaFWuVo-UTyP_ImHRGEsnIJkWL4.ttf
 fonts:
 - name: Narnoor
   styles:
@@ -18,7 +23,7 @@ fonts:
     description: Gunjala Gondi script font
     copyright: Original font copyright (c) 2014-2017 CDAST, University of Hyderabad,
       Hyderabad (cdast@uohyd.ernet.in).
-    font: Narnoor-Bold.ttf
+    font: cIf4MaFWuVo-UTyP_JWERGEsnIJkWL4.ttf
   - family_name: Narnoor
     type: Regular
     full_name: Narnoor
@@ -27,7 +32,7 @@ fonts:
     description: Gunjala Gondi script font
     copyright: Original font copyright (c) 2014-2017 CDAST, University of Hyderabad,
       Hyderabad (cdast@uohyd.ernet.in).
-    font: Narnoor-Regular.ttf
+    font: cIf9MaFWuVo-UTyPxCmrYGkHgIs.ttf
 - name: Narnoor ExtraBold
   styles:
   - family_name: Narnoor ExtraBold
@@ -40,7 +45,7 @@ fonts:
     description: Gunjala Gondi script font
     copyright: Original font copyright (c) 2014-2017 CDAST, University of Hyderabad,
       Hyderabad (cdast@uohyd.ernet.in).
-    font: Narnoor-ExtraBold.ttf
+    font: cIf4MaFWuVo-UTyP_ImHRGEsnIJkWL4.ttf
 - name: Narnoor Medium
   styles:
   - family_name: Narnoor Medium
@@ -53,7 +58,7 @@ fonts:
     description: Gunjala Gondi script font
     copyright: Original font copyright (c) 2014-2017 CDAST, University of Hyderabad,
       Hyderabad (cdast@uohyd.ernet.in).
-    font: Narnoor-Medium.ttf
+    font: cIf4MaFWuVo-UTyP_N2CRGEsnIJkWL4.ttf
 - name: Narnoor SemiBold
   styles:
   - family_name: Narnoor SemiBold
@@ -66,7 +71,7 @@ fonts:
     description: Gunjala Gondi script font
     copyright: Original font copyright (c) 2014-2017 CDAST, University of Hyderabad,
       Hyderabad (cdast@uohyd.ernet.in).
-    font: Narnoor-SemiBold.ttf
+    font: cIf4MaFWuVo-UTyP_PGFRGEsnIJkWL4.ttf
 extract: {}
 copyright: Original font copyright (c) 2014-2017 CDAST, University of Hyderabad, Hyderabad
   (cdast@uohyd.ernet.in).
@@ -79,7 +84,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -168,5 +173,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: c39ac1c072e8a74be31ecff220453585038d2b7af1c818e0f12f200d5898e17b
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

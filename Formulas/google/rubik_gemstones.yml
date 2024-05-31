@@ -1,12 +1,13 @@
 ---
+name: Rubik Gemstones
 description: Rubik Gemstones
 homepage: http://www.google.com/fonts
 resources:
-  Rubik_Gemstones.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rubik%20Gemstones
-    sha256: 1c2a58a45cc14a9dadc5f673f1955e8a0b2d048860c0e7750e3c63c3bbbfa44e
-    file_size: 149064
+  Rubik Gemstones:
+    source: google
+    family: Rubik Gemstones
+    files:
+    - https://fonts.gstatic.com/s/rubikgemstones/v1/zrf90HrL0-_8Xb4DFM2rUkWbOVrOiCnGqi1GMw.ttf
 fonts:
 - name: Rubik Gemstones
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: RubikGemstones-Regular
     version: '2.200'
     copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
-    font: RubikGemstones-Regular.ttf
+    font: zrf90HrL0-_8Xb4DFM2rUkWbOVrOiCnGqi1GMw.ttf
 extract: {}
 copyright: Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 78bd052427f92b26d708acfbd482fb92f20f21462a01f170b6c859a9866c2167
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

@@ -1,12 +1,16 @@
 ---
+name: Amiri
 description: Amiri
 homepage: http://www.amirifont.org
 resources:
-  Amiri.zip:
-    urls:
-    - https://fonts.google.com/download?family=Amiri
-    sha256: 7bef0c4a5be3c1b79f1699ea4f2ec8ae102629ae554efdd00171e684c74b706e
-    file_size: 806443
+  Amiri:
+    source: google
+    family: Amiri
+    files:
+    - https://fonts.gstatic.com/s/amiri/v27/J7aRnpd8CGxBHqUpvrIw74NL.ttf
+    - https://fonts.gstatic.com/s/amiri/v27/J7afnpd8CGxBHpUrtLYS6pNLAjk.ttf
+    - https://fonts.gstatic.com/s/amiri/v27/J7acnpd8CGxBHp2VkZY4xJ9CGyAa.ttf
+    - https://fonts.gstatic.com/s/amiri/v27/J7aanpd8CGxBHpUrjAo9zptgHjAavCA.ttf
 fonts:
 - name: Amiri
   styles:
@@ -20,7 +24,7 @@ fonts:
       pioneered in early 20th century by Bulaq Press in Cairo, also known as Amiria
       Press, after which the font is named.
     copyright: Copyright 2010-2022 The Amiri Project Authors (https://github.com/aliftype/amiri).
-    font: Amiri-Bold.ttf
+    font: J7acnpd8CGxBHp2VkZY4xJ9CGyAa.ttf
   - family_name: Amiri
     type: Bold Italic
     full_name: Amiri Bold Italic
@@ -31,7 +35,7 @@ fonts:
       pioneered in early 20th century by Bulaq Press in Cairo, also known as Amiria
       Press, after which the font is named.
     copyright: Copyright 2010-2022 The Amiri Project Authors (https://github.com/aliftype/amiri).
-    font: Amiri-BoldItalic.ttf
+    font: J7aanpd8CGxBHpUrjAo9zptgHjAavCA.ttf
   - family_name: Amiri
     type: Italic
     full_name: Amiri Italic
@@ -42,7 +46,7 @@ fonts:
       pioneered in early 20th century by Bulaq Press in Cairo, also known as Amiria
       Press, after which the font is named.
     copyright: Copyright 2010-2022 The Amiri Project Authors (https://github.com/aliftype/amiri).
-    font: Amiri-Italic.ttf
+    font: J7afnpd8CGxBHpUrtLYS6pNLAjk.ttf
   - family_name: Amiri
     type: Regular
     full_name: Amiri Regular
@@ -53,7 +57,7 @@ fonts:
       pioneered in early 20th century by Bulaq Press in Cairo, also known as Amiria
       Press, after which the font is named.
     copyright: Copyright 2010-2022 The Amiri Project Authors (https://github.com/aliftype/amiri).
-    font: Amiri-Regular.ttf
+    font: J7aRnpd8CGxBHqUpvrIw74NL.ttf
 extract: {}
 copyright: Copyright 2010-2022 The Amiri Project Authors (https://github.com/aliftype/amiri).
 license_url: https://scripts.sil.org/OFL
@@ -151,5 +155,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d8667bb36bed2aa7e9e028b6a21b529034404f6ed2b6b8a3e5cfa4cb46d9a3bb
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

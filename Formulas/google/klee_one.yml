@@ -3,11 +3,12 @@ name: Klee One
 description: Klee One
 homepage: http://fontworks.co.jp/
 resources:
-  Klee_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Klee%20One
-    sha256: fbed0a3b187a959d5b5577cb1ae973955a6a474e7848dc1dac48abfae3c566e5
-    file_size: 8870104
+  Klee One:
+    source: google
+    family: Klee One
+    files:
+    - https://fonts.gstatic.com/s/kleeone/v7/LDIxapCLNRc6A8oT4q4AOeekWPrP.ttf
+    - https://fonts.gstatic.com/s/kleeone/v7/LDI2apCLNRc6A8oT4pbYF8Osc-bGkqIw.ttf
 fonts:
 - name: Klee One
   styles:
@@ -17,7 +18,7 @@ fonts:
     post_script_name: KleeOne-Regular
     version: '1.100'
     copyright: Copyright 2020 The Klee Project Authors (https://github.com/fontworks-fonts/Klee)
-    font: KleeOne-Regular.ttf
+    font: LDIxapCLNRc6A8oT4q4AOeekWPrP.ttf
 - name: Klee One SemiBold
   styles:
   - family_name: Klee One SemiBold
@@ -28,7 +29,7 @@ fonts:
     post_script_name: KleeOne-SemiBold
     version: '1.100'
     copyright: Copyright 2020 The Klee Project Authors (https://github.com/fontworks-fonts/Klee)
-    font: KleeOne-SemiBold.ttf
+    font: LDI2apCLNRc6A8oT4pbYF8Osc-bGkqIw.ttf
 extract: {}
 copyright: Copyright 2020 The Klee Project Authors (https://github.com/fontworks-fonts/Klee)
 license_url: https://scripts.sil.org/OFL
@@ -37,7 +38,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -126,5 +127,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 46520ef87b66b5870ee5ad44cbfb9b0071e9f1ed3153844308cc57ea4c62344e
-command: google import --formulas_path Formulas
+command: import google -n 9999

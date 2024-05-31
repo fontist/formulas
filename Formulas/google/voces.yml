@@ -3,11 +3,11 @@ name: Voces
 description: Voces
 homepage: http://www.ugrdesign.com.ar
 resources:
-  Voces.zip:
-    urls:
-    - https://fonts.google.com/download?family=Voces
-    sha256: 3ea7561a60fb3a75b7f23ddbf1e2c73eb18cb111ffc4cb2074a19affd1815ef9
-    file_size: 57331
+  Voces:
+    source: google
+    family: Voces
+    files:
+    - https://fonts.gstatic.com/s/voces/v22/-F6_fjJyLyU8d4PBBG7YpzlJ.ttf
 fonts:
 - name: Voces
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: '1.100'
     copyright: Copyright 2012 The Voces Project Authors (https://github.com/googlefonts/VocesFont),
       with Reserved Font Names "Voces", "Voceso Pro", "Voces UGR"
-    font: Voces-Regular.ttf
-extract:
-  format: zip
+    font: "-F6_fjJyLyU8d4PBBG7YpzlJ.ttf"
+extract: {}
 copyright: Copyright 2012 The Voces Project Authors (https://github.com/googlefonts/VocesFont),
   with Reserved Font Names "Voces", "Voceso Pro", "Voces UGR"
 license_url: http://scripts.sil.org/OFL
@@ -125,3 +124,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

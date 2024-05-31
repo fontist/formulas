@@ -1,12 +1,14 @@
 ---
+name: Baskervville
 description: Baskervville
 homepage: https://anrt-nancy.fr
 resources:
-  Baskervville.zip:
-    urls:
-    - https://fonts.google.com/download?family=Baskervville
-    sha256: cbc09c4cbdc5431d25ea74b6349447da1c0493637b87fdf49f76737e3b0d407e
-    file_size: 96301
+  Baskervville:
+    source: google
+    family: Baskervville
+    files:
+    - https://fonts.gstatic.com/s/baskervville/v16/YA9Ur0yU4l_XOrogbkun3kQgt5OohvbJ9A.ttf
+    - https://fonts.gstatic.com/s/baskervville/v16/YA9Kr0yU4l_XOrogbkun3kQQtZmspPPZ9Mlt.ttf
 fonts:
 - name: Baskervville
   styles:
@@ -16,14 +18,14 @@ fonts:
     post_script_name: Baskervville-Italic
     version: 1.003; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.31]
     copyright: Copyright 2018 The Baskervville Project Authors (https://github.com/anrt-type/ANRT-Baskervville)
-    font: Baskervville-Italic.ttf
+    font: YA9Kr0yU4l_XOrogbkun3kQQtZmspPPZ9Mlt.ttf
   - family_name: Baskervville
     type: Regular
     full_name: Baskervville Regular
     post_script_name: Baskervville-Regular
     version: 1.003; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.31]
     copyright: Copyright 2018 The Baskervville Project Authors (https://github.com/anrt-type/ANRT-Baskervville)
-    font: Baskervville-Regular.ttf
+    font: YA9Ur0yU4l_XOrogbkun3kQgt5OohvbJ9A.ttf
 extract: {}
 copyright: Copyright 2018 The Baskervville Project Authors (https://github.com/anrt-type/ANRT-Baskervville)
 license_url: https://scripts.sil.org/OFL
@@ -121,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: c7624ac69cde50330489add9bf54a348b01d878deab1abe84f7cc4d1465fad31
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

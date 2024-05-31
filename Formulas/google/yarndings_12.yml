@@ -1,11 +1,12 @@
 ---
+name: Yarndings 12
 description: Yarndings 12
 resources:
-  Yarndings_12.zip:
-    urls:
-    - https://fonts.google.com/download?family=Yarndings%2012
-    sha256: 0dccd1ef4c811724c387d95857d69d016776114857038765e437da9904843890
-    file_size: 20691
+  Yarndings 12:
+    source: google
+    family: Yarndings 12
+    files:
+    - https://fonts.gstatic.com/s/yarndings12/v2/55xreyp2N8T5P2LJbZAlkY9c8ZLMI2VUnQ.ttf
 fonts:
 - name: Yarndings 12
   styles:
@@ -15,7 +16,7 @@ fonts:
     post_script_name: Yarndings12-Regular
     version: 1.000; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type-yarndings)
-    font: Yarndings12-Regular.ttf
+    font: 55xreyp2N8T5P2LJbZAlkY9c8ZLMI2VUnQ.ttf
 extract: {}
 copyright: Copyright 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type-yarndings)
 license_url: https://openfontlicense.org
@@ -113,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 1b64e3644f78b59b424edd89ff3a869efb0596733a3af6f64706c8cf6e72edc8
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

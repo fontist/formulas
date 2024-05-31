@@ -1,12 +1,14 @@
 ---
+name: Tiro Bangla
 description: Tiro Bangla
 homepage: https://github.com/TiroTypeworks/Indigo
 resources:
-  Tiro_Bangla.zip:
-    urls:
-    - https://fonts.google.com/download?family=Tiro%20Bangla
-    sha256: 6fef30f66a7984a59f3077ab63b3b17fb1d6f0fc26d7992f3d24bab862f9b058
-    file_size: 326070
+  Tiro Bangla:
+    source: google
+    family: Tiro Bangla
+    files:
+    - https://fonts.gstatic.com/s/tirobangla/v6/IFSgHe1Tm95E3O8b5i2V8MG9-UPeuz4i.ttf
+    - https://fonts.gstatic.com/s/tirobangla/v6/IFSiHe1Tm95E3O8b5i2V8PG_80f8vi4imBM.ttf
 fonts:
 - name: Tiro Bangla
   styles:
@@ -16,14 +18,14 @@ fonts:
     post_script_name: TiroBangla-Italic
     version: '1.52'
     copyright: Copyright 2020 The Indigo Project Authors (https://github.com/TiroTypeworks/Indigo)
-    font: TiroBangla-Italic.ttf
+    font: IFSiHe1Tm95E3O8b5i2V8PG_80f8vi4imBM.ttf
   - family_name: Tiro Bangla
     type: Regular
     full_name: Tiro Bangla Regular
     post_script_name: TiroBangla-Regular
     version: '1.52'
     copyright: Copyright 2020 The Indigo Project Authors (https://github.com/TiroTypeworks/Indigo)
-    font: TiroBangla-Regular.ttf
+    font: IFSgHe1Tm95E3O8b5i2V8MG9-UPeuz4i.ttf
 extract: {}
 copyright: Copyright 2020 The Indigo Project Authors (https://github.com/TiroTypeworks/Indigo)
 license_url: https://scripts.sil.org/OFL
@@ -121,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: ce42fb146c72494ca3dc5ee6e241aaa3983f8d020ac14225ef706e8194fdee65
-command: import google --formulas_path Formulas
+command: import google -n 9999

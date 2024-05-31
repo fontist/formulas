@@ -3,11 +3,11 @@ name: Lobster
 description: Lobster
 homepage: http://www.impallari.com
 resources:
-  Lobster.zip:
-    urls:
-    - https://fonts.google.com/download?family=Lobster
-    sha256: 1574d2d8ce0f20971cf1f50a2da2b14a304a1f16911480df6b8a0592c860a47d
-    file_size: 146810
+  Lobster:
+    source: google
+    family: Lobster
+    files:
+    - https://fonts.gstatic.com/s/lobster/v30/neILzCirqoswsqX9_oWsMqEzSJQ.ttf
 fonts:
 - name: Lobster
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: '2.100'
     copyright: Copyright 2010 The Lobster Project Authors (https://github.com/impallari/The-Lobster-Font),
       with Reserved Font Name "Lobster".
-    font: Lobster-Regular.ttf
-extract:
-  format: zip
+    font: neILzCirqoswsqX9_oWsMqEzSJQ.ttf
+extract: {}
 copyright: Copyright 2010 The Lobster Project Authors (https://github.com/impallari/The-Lobster-Font),
   with Reserved Font Name "Lobster".
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

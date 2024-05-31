@@ -1,12 +1,13 @@
 ---
+name: Noto Serif Old Uyghur
 description: Noto Serif Old Uyghur
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Serif_Old_Uyghur.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Serif%20Old%20Uyghur
-    sha256: 2bed4f400a46bbd8ba34ac82b5d277caad825fd6bd265da53e727346a8f78ab0
-    file_size: 44221
+  Noto Serif Old Uyghur:
+    source: google
+    family: Noto Serif Old Uyghur
+    files:
+    - https://fonts.gstatic.com/s/notoserifolduyghur/v3/v6-KGZbLJFKIhClqUYqXDiGnrVoFRCW6JdwnKumeF2yVgA.ttf
 fonts:
 - name: Noto Serif Old Uyghur
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 1.003; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Lewis McGuffie.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-uyghur)
-    font: NotoSerifOldUyghur-Regular.ttf
+    font: v6-KGZbLJFKIhClqUYqXDiGnrVoFRCW6JdwnKumeF2yVgA.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-uyghur)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 149d374fbe95d34f296317d50116dd8c709ce676e83ab995b7a231c2e0b19ab4
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

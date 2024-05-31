@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Pau Cin Hau
 description: Noto Sans Pau Cin Hau
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Pau_Cin_Hau.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Pau%20Cin%20Hau
-    sha256: 486bdff5529bc798bef0f09fc19a563d6cc7c976c66d97748375d27f234d0aa9
-    file_size: 33638
+  Noto Sans Pau Cin Hau:
+    source: google
+    family: Noto Sans Pau Cin Hau
+    files:
+    - https://fonts.gstatic.com/s/notosanspaucinhau/v20/x3d-cl3IZKmUqiMg_9wBLLtzl22EayN7ehIdjEWqKMxsKw.ttf
 fonts:
 - name: Noto Sans Pau Cin Hau
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/pau-cin-hau)
-    font: NotoSansPauCinHau-Regular.ttf
+    font: x3d-cl3IZKmUqiMg_9wBLLtzl22EayN7ehIdjEWqKMxsKw.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/pau-cin-hau)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: c9e4551499ee79bc0f2ab3df0347f925d4b8c91adc61afa3e1005fb0257530cb
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

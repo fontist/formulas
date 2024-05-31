@@ -3,11 +3,11 @@ name: Ultra
 description: Ultra
 homepage: http://www.astigmatic.com/
 resources:
-  Ultra.zip:
-    urls:
-    - https://fonts.google.com/download?family=Ultra
-    sha256: 3f6f54243bc6b2852c893dd0a0a051cbd5585a98926cc1dbd372fa91e02e4bd0
-    file_size: 31174
+  Ultra:
+    source: google
+    family: Ultra
+    files:
+    - https://fonts.gstatic.com/s/ultra/v23/zOLy4prXmrtY-tT6yLOD6NxF.ttf
 fonts:
 - name: Ultra
   styles:
@@ -19,14 +19,14 @@ fonts:
     copyright: |-
       Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.
       http://www.apache.org/licenses/LICENSE-2.0.html
-    font: Ultra-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All
-  rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html
+    font: zOLy4prXmrtY-tT6yLOD6NxF.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.
+  http://www.apache.org/licenses/LICENSE-2.0.html
 license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |2-
-                                   Apache License
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -227,3 +227,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999

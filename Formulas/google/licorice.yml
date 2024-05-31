@@ -1,12 +1,13 @@
 ---
+name: Licorice
 description: Licorice
 homepage: www.typesetit.com
 resources:
-  Licorice.zip:
-    urls:
-    - https://fonts.google.com/download?family=Licorice
-    sha256: 69f2aa3baeae7644465f14816391cb499c6877d3bd94c47d3c6401611a34637a
-    file_size: 74031
+  Licorice:
+    source: google
+    family: Licorice
+    files:
+    - https://fonts.gstatic.com/s/licorice/v6/t5tjIR8TMomTCAyjNk23hqLgzCHu.ttf
 fonts:
 - name: Licorice
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: Licorice-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2004 The Licorice Project Authors (https://github.com/googlefonts/licorice)
-    font: Licorice-Regular.ttf
+    font: t5tjIR8TMomTCAyjNk23hqLgzCHu.ttf
 extract: {}
 copyright: Copyright 2004 The Licorice Project Authors (https://github.com/googlefonts/licorice)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 749ae06f7a7436b25cc7de67cc5f6c0d9b6485a4811c1aede55979a67bd2524f
-command: google import --formulas_path Formulas
+command: import google -n 9999

@@ -3,30 +3,30 @@ name: Charm
 description: Charm
 homepage: http://www.cadsondemak.com
 resources:
-  Charm.zip:
-    urls:
-    - https://fonts.google.com/download?family=Charm
-    sha256: 9b07344c445755a53b25240ed9599d24d024d88cbe40621009d00f6ae1c25eb7
-    file_size: 142345
+  Charm:
+    source: google
+    family: Charm
+    files:
+    - https://fonts.gstatic.com/s/charm/v11/7cHmv4oii5K0MeYvIe804WIo.ttf
+    - https://fonts.gstatic.com/s/charm/v11/7cHrv4oii5K0Md6TDss8yn4hnCci.ttf
 fonts:
 - name: Charm
   styles:
-  - family_name: Charm
-    type: Regular
-    full_name: Charm Regular
-    post_script_name: Charm-Regular
-    version: '1.001'
-    copyright: Copyright 2018 The Charm Project Authors (https://github.com/cadsondemak/charm)
-    font: Charm-Regular.ttf
   - family_name: Charm
     type: Bold
     full_name: Charm Bold
     post_script_name: Charm-Bold
     version: '1.001'
     copyright: Copyright 2018 The Charm Project Authors (https://github.com/cadsondemak/charm)
-    font: Charm-Bold.ttf
-extract:
-  format: zip
+    font: 7cHrv4oii5K0Md6TDss8yn4hnCci.ttf
+  - family_name: Charm
+    type: Regular
+    full_name: Charm Regular
+    post_script_name: Charm-Regular
+    version: '1.001'
+    copyright: Copyright 2018 The Charm Project Authors (https://github.com/cadsondemak/charm)
+    font: 7cHmv4oii5K0MeYvIe804WIo.ttf
+extract: {}
 copyright: Copyright 2018 The Charm Project Authors (https://github.com/cadsondemak/charm)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -123,3 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

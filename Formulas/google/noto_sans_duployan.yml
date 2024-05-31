@@ -1,12 +1,14 @@
 ---
+name: Noto Sans Duployan
 description: Noto Sans Duployan
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Duployan.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Duployan
-    sha256: b744f72c96d23e58c8a02dcaf1c78ade83acd7a4170800c33160fd4827a831ba
-    file_size: 1307133
+  Noto Sans Duployan:
+    source: google
+    family: Noto Sans Duployan
+    files:
+    - https://fonts.gstatic.com/s/notosansduployan/v17/gokzH7nwAEdtF9N8-mdTDx_X9JM5wsvrFsIn6WYDvA.ttf
+    - https://fonts.gstatic.com/s/notosansduployan/v17/gokwH7nwAEdtF9N8-mdTDx_X9JM5wsvTqu0D4U0ftZS-Iw.ttf
 fonts:
 - name: Noto Sans Duployan
   styles:
@@ -18,7 +20,7 @@ fonts:
     description: Designed by David Corbett
     copyright: Copyright 2018-2019 David Corbett. Copyright 2019-2022 Google LLC.
       All Rights Reserved.
-    font: NotoSansDuployan-Bold.ttf
+    font: gokwH7nwAEdtF9N8-mdTDx_X9JM5wsvTqu0D4U0ftZS-Iw.ttf
   - family_name: Noto Sans Duployan
     type: Regular
     full_name: Noto Sans Duployan Regular
@@ -27,7 +29,7 @@ fonts:
     description: Designed by David Corbett
     copyright: Copyright 2018-2019 David Corbett. Copyright 2019-2022 Google LLC.
       All Rights Reserved.
-    font: NotoSansDuployan-Regular.ttf
+    font: gokzH7nwAEdtF9N8-mdTDx_X9JM5wsvrFsIn6WYDvA.ttf
 extract: {}
 copyright: Copyright 2018-2019 David Corbett. Copyright 2019-2022 Google LLC. All
   Rights Reserved.
@@ -37,7 +39,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -126,5 +128,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 2c79a48dfb7368640a2b66883eb6bb3e999597ae2dbd82025cea83f8f7dc746d
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

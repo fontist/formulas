@@ -1,10 +1,16 @@
 ---
+name: Teko
 description: Teko
 resources:
-  Teko.zip:
-    urls:
-    - https://fonts.google.com/download?family=Teko
-    file_size: 402566
+  Teko:
+    source: google
+    family: Teko
+    files:
+    - https://fonts.gstatic.com/s/teko/v20/LYjYdG7kmE0gV69VVPPdFl06VN9JG7Sy3TKEvkCF.ttf
+    - https://fonts.gstatic.com/s/teko/v20/LYjYdG7kmE0gV69VVPPdFl06VN8XG7Sy3TKEvkCF.ttf
+    - https://fonts.gstatic.com/s/teko/v20/LYjYdG7kmE0gV69VVPPdFl06VN8lG7Sy3TKEvkCF.ttf
+    - https://fonts.gstatic.com/s/teko/v20/LYjYdG7kmE0gV69VVPPdFl06VN_JHLSy3TKEvkCF.ttf
+    - https://fonts.gstatic.com/s/teko/v20/LYjYdG7kmE0gV69VVPPdFl06VN_wHLSy3TKEvkCF.ttf
 fonts:
 - name: Teko
   styles:
@@ -14,14 +20,14 @@ fonts:
     post_script_name: Teko-Bold
     version: 2.000;gftools[0.9.28.dev9+g7d2139d.d20230707]
     copyright: Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)
-    font: Teko-Bold.ttf
+    font: LYjYdG7kmE0gV69VVPPdFl06VN_wHLSy3TKEvkCF.ttf
   - family_name: Teko
     type: Regular
     full_name: Teko Regular
     post_script_name: Teko-Regular
     version: 2.000;gftools[0.9.28.dev9+g7d2139d.d20230707]
     copyright: Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)
-    font: Teko-Regular.ttf
+    font: LYjYdG7kmE0gV69VVPPdFl06VN8XG7Sy3TKEvkCF.ttf
 - name: Teko Light
   styles:
   - family_name: Teko Light
@@ -32,16 +38,7 @@ fonts:
     post_script_name: Teko-Light
     version: 2.000;gftools[0.9.28.dev9+g7d2139d.d20230707]
     copyright: Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)
-    font: Teko-VariableFont_wght.ttf
-  - family_name: Teko Light
-    type: Regular
-    preferred_family_name: Teko
-    preferred_type: Light
-    full_name: Teko Light
-    post_script_name: Teko-Light
-    version: 2.000;gftools[0.9.28.dev9+g7d2139d.d20230707]
-    copyright: Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)
-    font: Teko-Light.ttf
+    font: LYjYdG7kmE0gV69VVPPdFl06VN9JG7Sy3TKEvkCF.ttf
 - name: Teko Medium
   styles:
   - family_name: Teko Medium
@@ -52,7 +49,7 @@ fonts:
     post_script_name: Teko-Medium
     version: 2.000;gftools[0.9.28.dev9+g7d2139d.d20230707]
     copyright: Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)
-    font: Teko-Medium.ttf
+    font: LYjYdG7kmE0gV69VVPPdFl06VN8lG7Sy3TKEvkCF.ttf
 - name: Teko SemiBold
   styles:
   - family_name: Teko SemiBold
@@ -63,7 +60,7 @@ fonts:
     post_script_name: Teko-SemiBold
     version: 2.000;gftools[0.9.28.dev9+g7d2139d.d20230707]
     copyright: Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)
-    font: Teko-SemiBold.ttf
+    font: LYjYdG7kmE0gV69VVPPdFl06VN_JHLSy3TKEvkCF.ttf
 extract: {}
 copyright: Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)
 license_url: http://scripts.sil.org/OFL
@@ -161,5 +158,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 91d524184ad727c02774f959abe40503a542e9e98e733b31937d781fe49a6929
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

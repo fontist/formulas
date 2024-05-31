@@ -1,11 +1,16 @@
 ---
+name: Noto Nastaliq Urdu
 description: Noto Nastaliq Urdu
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Nastaliq_Urdu.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Nastaliq%20Urdu
-    file_size: 1373459
+  Noto Nastaliq Urdu:
+    source: google
+    family: Noto Nastaliq Urdu
+    files:
+    - https://fonts.gstatic.com/s/notonastaliqurdu/v20/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3Qt_-DK2f2-_8mEw.ttf
+    - https://fonts.gstatic.com/s/notonastaliqurdu/v20/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3Qu3-DK2f2-_8mEw.ttf
+    - https://fonts.gstatic.com/s/notonastaliqurdu/v20/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3QgH5DK2f2-_8mEw.ttf
+    - https://fonts.gstatic.com/s/notonastaliqurdu/v20/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3Qjj5DK2f2-_8mEw.ttf
 fonts:
 - name: Noto Nastaliq Urdu
   styles:
@@ -17,7 +22,7 @@ fonts:
     description: 'Designed by Monotype design team  (Patrick Giasson: type design,
       Kamal Mansour: OpenType code, Glenda Bellarosa). Updated by Simon Cozens.'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nastaliq)
-    font: NotoNastaliqUrdu-Bold.ttf
+    font: LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3Qjj5DK2f2-_8mEw.ttf
   - family_name: Noto Nastaliq Urdu
     type: Regular
     full_name: Noto Nastaliq Urdu Regular
@@ -26,16 +31,7 @@ fonts:
     description: 'Designed by Monotype design team  (Patrick Giasson: type design,
       Kamal Mansour: OpenType code, Glenda Bellarosa). Updated by Simon Cozens.'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nastaliq)
-    font: NotoNastaliqUrdu-VariableFont_wght.ttf
-  - family_name: Noto Nastaliq Urdu
-    type: Regular
-    full_name: Noto Nastaliq Urdu Regular
-    post_script_name: NotoNastaliqUrdu-Regular
-    version: '3.007'
-    description: 'Designed by Monotype design team  (Patrick Giasson: type design,
-      Kamal Mansour: OpenType code, Glenda Bellarosa). Updated by Simon Cozens.'
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nastaliq)
-    font: NotoNastaliqUrdu-Regular.ttf
+    font: LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3Qt_-DK2f2-_8mEw.ttf
 - name: Noto Nastaliq Urdu Medium
   styles:
   - family_name: Noto Nastaliq Urdu Medium
@@ -48,7 +44,7 @@ fonts:
     description: 'Designed by Monotype design team  (Patrick Giasson: type design,
       Kamal Mansour: OpenType code, Glenda Bellarosa). Updated by Simon Cozens.'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nastaliq)
-    font: NotoNastaliqUrdu-Medium.ttf
+    font: LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3Qu3-DK2f2-_8mEw.ttf
 - name: Noto Nastaliq Urdu SemiBold
   styles:
   - family_name: Noto Nastaliq Urdu SemiBold
@@ -61,7 +57,7 @@ fonts:
     description: 'Designed by Monotype design team  (Patrick Giasson: type design,
       Kamal Mansour: OpenType code, Glenda Bellarosa). Updated by Simon Cozens.'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nastaliq)
-    font: NotoNastaliqUrdu-SemiBold.ttf
+    font: LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3QgH5DK2f2-_8mEw.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nastaliq)
 license_url: https://scripts.sil.org/OFL
@@ -70,7 +66,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -159,5 +155,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: a00cc72fad74c30c3be8df2fbde1365c110f0eb938a8fb9c769d6603b341afa2
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

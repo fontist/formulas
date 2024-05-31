@@ -1,47 +1,48 @@
 ---
 name: Arvo
 description: Arvo
-homepage:
 resources:
-  Arvo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Arvo
-    sha256: 7526e4564d304d06c04f8f6fd2ab0f8bdc89cdb46fc7c645fd8016c7de0ffdb7
-    file_size: 90565
+  Arvo:
+    source: google
+    family: Arvo
+    files:
+    - https://fonts.gstatic.com/s/arvo/v22/tDbD2oWUg0MKmSAa7Lzr7vs.ttf
+    - https://fonts.gstatic.com/s/arvo/v22/tDbN2oWUg0MKqSIQ6J7u_vvijQ.ttf
+    - https://fonts.gstatic.com/s/arvo/v22/tDbM2oWUg0MKoZw1yLTA8vL7lAE.ttf
+    - https://fonts.gstatic.com/s/arvo/v22/tDbO2oWUg0MKqSIoVLHK9tD-hAHkGg.ttf
 fonts:
 - name: Arvo
   styles:
-  - family_name: Arvo
-    type: Regular
-    full_name: Arvo
-    post_script_name: Arvo
-    version: 1.006 2010 beta release; ttfautohint (v1.8.2)
-    copyright: Copyright (c) 2010 Anton Koovit.
-    font: Arvo-Regular.ttf
-  - family_name: Arvo
-    type: Italic
-    full_name: Arvo-Italic
-    post_script_name: Arvo-Italic
-    version: 1.006 2010 beta release; ttfautohint (v1.8.2)
-    copyright: Copyright 2010 Anton Koovit, Yassin Baggar.
-    font: Arvo-Italic.ttf
   - family_name: Arvo
     type: Bold
     full_name: Arvo Bold
     post_script_name: Arvo-Bold
     version: 1.006 2010 beta release; ttfautohint (v1.8.2)
     copyright: Copyright (c) 2010 by Anton Koovit.
-    font: Arvo-Bold.ttf
+    font: tDbM2oWUg0MKoZw1yLTA8vL7lAE.ttf
   - family_name: Arvo
     type: Bold Italic
     full_name: Arvo Bold Italic
     post_script_name: Arvo-BoldItalic
     version: 1.006 2010 beta release; ttfautohint (v1.8.2)
     copyright: Copyright 2010 Anton Koovit, Yassin Baggar.
-    font: Arvo-BoldItalic.ttf
-extract:
-  format: zip
-copyright: Copyright 2010 Anton Koovit.
+    font: tDbO2oWUg0MKqSIoVLHK9tD-hAHkGg.ttf
+  - family_name: Arvo
+    type: Italic
+    full_name: Arvo-Italic
+    post_script_name: Arvo-Italic
+    version: 1.006 2010 beta release; ttfautohint (v1.8.2)
+    copyright: Copyright 2010 Anton Koovit, Yassin Baggar.
+    font: tDbN2oWUg0MKqSIQ6J7u_vvijQ.ttf
+  - family_name: Arvo
+    type: Regular
+    full_name: Arvo
+    post_script_name: Arvo
+    version: 1.006 2010 beta release; ttfautohint (v1.8.2)
+    copyright: Copyright (c) 2010 Anton Koovit.
+    font: tDbD2oWUg0MKmSAa7Lzr7vs.ttf
+extract: {}
+copyright: Copyright (c) 2010 Anton Koovit.
 license_url: http://www.korkork.com/license/arvo/
 open_license: |-
   Copyright (c) 2010-2013, Anton Koovit (anton@korkork.com), with Reserved Font Name 'Arvo'
@@ -137,3 +138,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

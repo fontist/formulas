@@ -1,12 +1,13 @@
 ---
+name: Erica One
 description: Erica One
 homepage: www.latinotype.com
 resources:
-  EricaOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Erica%20One
-    sha256: 37c02647a653c984fbad65f508e7752b4295f4fec84ce5dc2916213f03856b88
-    file_size: 16224
+  Erica One:
+    source: google
+    family: Erica One
+    files:
+    - https://fonts.gstatic.com/s/ericaone/v27/WBLnrEXccV9VGrOKmGD1W0_MJMGxiQ.ttf
 fonts:
 - name: Erica One
   styles:
@@ -17,11 +18,10 @@ fonts:
     version: '1.003'
     copyright: Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com),  with
       Reserved Font Names "Erica" "Erica One"
-    font: EricaOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com), with Reserved
-  Font Names "Erica" "Erica One"
+    font: WBLnrEXccV9VGrOKmGD1W0_MJMGxiQ.ttf
+extract: {}
+copyright: Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com),  with
+  Reserved Font Names "Erica" "Erica One"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by LatinoType Limitada (luciano@latinotype.com),
@@ -118,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

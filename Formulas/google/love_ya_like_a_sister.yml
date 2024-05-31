@@ -1,12 +1,13 @@
 ---
+name: Love Ya Like A Sister
 description: Love Ya Like A Sister
 homepage: http://www.kimberlygeswein.com
 resources:
-  LoveYaLikeASister.zip:
-    urls:
-    - https://fonts.google.com/download?family=Love%20Ya%20Like%20A%20Sister
-    sha256: 2a7c8a3a8ac708d81b253217e27b345239c01b71842c4f4beb09bf0fb425f71e
-    file_size: 136682
+  Love Ya Like A Sister:
+    source: google
+    family: Love Ya Like A Sister
+    files:
+    - https://fonts.gstatic.com/s/loveyalikeasister/v22/R70EjzUBlOqPeouhFDfR80-0FhOqJubN-Be78nZcsGGycA.ttf
 fonts:
 - name: Love Ya Like A Sister
   styles:
@@ -17,11 +18,9 @@ fonts:
     version: 1.002 2007
     description: Copyright (c) 2011 by Kimberly Geswein. All rights reserved.
     copyright: Copyright (c) 2011 by Kimberly Geswein. All rights reserved.
-    font: LoveYaLikeASister.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by Kimberly Geswein (kimberlygeswein@gmail.com). All
-  rights reserved.
+    font: R70EjzUBlOqPeouhFDfR80-0FhOqJubN-Be78nZcsGGycA.ttf
+extract: {}
+copyright: Copyright (c) 2011 by Kimberly Geswein. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
@@ -117,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

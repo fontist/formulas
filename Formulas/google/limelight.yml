@@ -1,13 +1,12 @@
 ---
 name: Limelight
 description: Limelight
-homepage:
 resources:
-  Limelight.zip:
-    urls:
-    - https://fonts.google.com/download?family=Limelight
-    sha256: d78fd5d0f9a9da7860bacc58a70a910b251a8924399506fe7f5d8c5c2c14cec3
-    file_size: 52899
+  Limelight:
+    source: google
+    family: Limelight
+    files:
+    - https://fonts.gstatic.com/s/limelight/v19/XLYkIZL7aopJVbZJHDuYPeNGrnY2TA.ttf
 fonts:
 - name: Limelight
   styles:
@@ -24,12 +23,14 @@ fonts:
       This Font Software is licensed under the SIL Open Font License, Version 1.1.
       This license is copied below, and is also available with a FAQ at:
       http://scripts.sil.org/OFL
-    font: Limelight-Regular.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2010 by Sorkin Type Co (eben@eyebytes.com) with Reserved
-  Font Name Limelight. This Font Software is licensed under the SIL Open Font License,
-  Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    font: XLYkIZL7aopJVbZJHDuYPeNGrnY2TA.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2010 by Sorkin Type Co with Reserved Font Name Limelight.
+
+  This Font Software is licensed under the SIL Open Font License, Version 1.1.
+  This license is copied below, and is also available with a FAQ at:
+  http://scripts.sil.org/OFL
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
@@ -126,3 +127,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

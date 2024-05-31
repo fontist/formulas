@@ -3,11 +3,12 @@ name: WindSong
 description: WindSong
 homepage: http://www.typesetit.com
 resources:
-  WindSong.zip:
-    urls:
-    - https://fonts.google.com/download?family=WindSong
-    sha256: 9e757aa761332f4f09a7fdaf35ea51dca60ba18e1dedf3eb9fb92c91c6167613
-    file_size: 285750
+  WindSong:
+    source: google
+    family: WindSong
+    files:
+    - https://fonts.gstatic.com/s/windsong/v11/KR1WBsyu-P-GFEW57r95HdG6vjH3.ttf
+    - https://fonts.gstatic.com/s/windsong/v11/KR1RBsyu-P-GFEW57oeNNPWylS3-jVXm.ttf
 fonts:
 - name: WindSong
   styles:
@@ -17,7 +18,7 @@ fonts:
     post_script_name: WindSong-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2013 The WindSong Project Authors (https://github.com/googlefonts/windsong)
-    font: WindSong-Regular.ttf
+    font: KR1WBsyu-P-GFEW57r95HdG6vjH3.ttf
 - name: WindSong Medium
   styles:
   - family_name: WindSong Medium
@@ -28,7 +29,7 @@ fonts:
     post_script_name: WindSong-Medium
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2013 The WindSong Project Authors (https://github.com/googlefonts/windsong)
-    font: WindSong-Medium.ttf
+    font: KR1RBsyu-P-GFEW57oeNNPWylS3-jVXm.ttf
 extract: {}
 copyright: Copyright 2013 The WindSong Project Authors (https://github.com/googlefonts/windsong)
 license_url: https://scripts.sil.org/OFL
@@ -37,8 +38,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
-
+  https://scripts.sil.org/OFL
 
   -----------------------------------------------------------
   SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
@@ -126,5 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: c824f8fdc584c6159f0dd5e5a8258a615ff259c733e22cae16b339611cc0544a
-command: google import --formulas_path Formulas
+command: import google -n 9999

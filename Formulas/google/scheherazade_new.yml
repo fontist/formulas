@@ -1,12 +1,16 @@
 ---
+name: Scheherazade New
 description: Scheherazade New
 homepage: http://software.sil.org/wstech
 resources:
-  Scheherazade_New.zip:
-    urls:
-    - https://fonts.google.com/download?family=Scheherazade%20New
-    sha256: ed105686f314802211d174882f3c863bc45b056062bef388da2a2f8673ddb552
-    file_size: 703164
+  Scheherazade New:
+    source: google
+    family: Scheherazade New
+    files:
+    - https://fonts.gstatic.com/s/scheherazadenew/v15/4UaZrFhTvxVnHDvUkUiHg8jprP4DCwNsOl4p5Is.ttf
+    - https://fonts.gstatic.com/s/scheherazadenew/v15/4UaerFhTvxVnHDvUkUiHg8jprP4DM_dFHlYC-IKnoSE.ttf
+    - https://fonts.gstatic.com/s/scheherazadenew/v15/4UaerFhTvxVnHDvUkUiHg8jprP4DM9tCHlYC-IKnoSE.ttf
+    - https://fonts.gstatic.com/s/scheherazadenew/v15/4UaerFhTvxVnHDvUkUiHg8jprP4DM79DHlYC-IKnoSE.ttf
 fonts:
 - name: Scheherazade New
   styles:
@@ -18,7 +22,7 @@ fonts:
     description: Arabic script font designed in a traditional Naskh style
     copyright: Copyright (c) 1994-2023, SIL International (http://www.sil.org/), with
       Reserved Font Names "Scheherazade" and "SIL".
-    font: ScheherazadeNew-Bold.ttf
+    font: 4UaerFhTvxVnHDvUkUiHg8jprP4DM79DHlYC-IKnoSE.ttf
   - family_name: Scheherazade New
     type: Regular
     full_name: Scheherazade New
@@ -27,7 +31,7 @@ fonts:
     description: Arabic script font designed in a traditional Naskh style
     copyright: Copyright (c) 1994-2023, SIL International (http://www.sil.org/), with
       Reserved Font Names "Scheherazade" and "SIL".
-    font: ScheherazadeNew-Regular.ttf
+    font: 4UaZrFhTvxVnHDvUkUiHg8jprP4DCwNsOl4p5Is.ttf
 - name: Scheherazade New Medium
   styles:
   - family_name: Scheherazade New Medium
@@ -40,7 +44,7 @@ fonts:
     description: Arabic script font designed in a traditional Naskh style
     copyright: Copyright (c) 1994-2023, SIL International (http://www.sil.org/), with
       Reserved Font Names "Scheherazade" and "SIL".
-    font: ScheherazadeNew-Medium.ttf
+    font: 4UaerFhTvxVnHDvUkUiHg8jprP4DM_dFHlYC-IKnoSE.ttf
 - name: Scheherazade New SemiBold
   styles:
   - family_name: Scheherazade New SemiBold
@@ -53,7 +57,7 @@ fonts:
     description: Arabic script font designed in a traditional Naskh style
     copyright: Copyright (c) 1994-2023, SIL International (http://www.sil.org/), with
       Reserved Font Names "Scheherazade" and "SIL".
-    font: ScheherazadeNew-SemiBold.ttf
+    font: 4UaerFhTvxVnHDvUkUiHg8jprP4DM9tCHlYC-IKnoSE.ttf
 extract: {}
 copyright: Copyright (c) 1994-2023, SIL International (http://www.sil.org/), with
   Reserved Font Names "Scheherazade" and "SIL".
@@ -62,14 +66,14 @@ open_license: |-
   Copyright (c) 1994-2023, SIL International (http://www.sil.org/),
   with Reserved Font Names "Scheherazade" and "SIL".
 
-  This Font Software is licensed under the SIL Open Font License, Version 1.1.
+  This Font Software is licensed under the SIL Open Font License, Version 1.1,
   This license is copied below, and is also available with a FAQ at:
   http://scripts.sil.org/OFL
 
 
-  -----------------------------------------------------------
+  ----------------------------------------------------
   SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
-  -----------------------------------------------------------
+  ----------------------------------------------------
 
   PREAMBLE
   The goals of the Open Font License (OFL) are to stimulate worldwide
@@ -153,5 +157,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9cfd7c2f285d2116077e7b6245fce3fc3c3533ea45db464bcf6e9236197c1fac
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

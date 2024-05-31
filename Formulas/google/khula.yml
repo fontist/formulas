@@ -3,11 +3,15 @@ name: Khula
 description: Khula
 homepage: http://www.erinmclaughlin.com
 resources:
-  Khula.zip:
-    urls:
-    - https://fonts.google.com/download?family=Khula
-    sha256: 62bdf6c9d052f91dc93d92c0f41c8f052195897e1dcf5427caef75f1bfb42523
-    file_size: 345772
+  Khula:
+    source: google
+    family: Khula
+    files:
+    - https://fonts.gstatic.com/s/khula/v12/OpNPnoEOns3V7G-ljCvUrC59XwXD.ttf
+    - https://fonts.gstatic.com/s/khula/v12/OpNCnoEOns3V7FcJpA_chzJ0.ttf
+    - https://fonts.gstatic.com/s/khula/v12/OpNPnoEOns3V7G_RiivUrC59XwXD.ttf
+    - https://fonts.gstatic.com/s/khula/v12/OpNPnoEOns3V7G-1iyvUrC59XwXD.ttf
+    - https://fonts.gstatic.com/s/khula/v12/OpNPnoEOns3V7G-piCvUrC59XwXD.ttf
 fonts:
 - name: Khula
   styles:
@@ -19,7 +23,7 @@ fonts:
       -l 8 -r 50 -G 200 -x 14 -D deva -f latn -a qsq -W -X ""
     copyright: Copyright (c) 2014, Erin McLaughlin (hello@erinmclaughlin.com). Digitized
       data copyright 2010, Google Corporation.
-    font: Khula-Bold.ttf
+    font: OpNPnoEOns3V7G-1iyvUrC59XwXD.ttf
   - family_name: Khula
     type: Regular
     full_name: Khula Regular
@@ -28,7 +32,7 @@ fonts:
       -l 8 -r 50 -G 200 -x 14 -D deva -f latn -a qsq -W -X ""
     copyright: Copyright (c) 2014, Erin McLaughlin (hello@erinmclaughlin.com). Digitized
       data copyright 2010, Google Corporation.
-    font: Khula-Regular.ttf
+    font: OpNCnoEOns3V7FcJpA_chzJ0.ttf
 - name: Khula ExtraBold
   styles:
   - family_name: Khula ExtraBold
@@ -41,7 +45,7 @@ fonts:
       -l 8 -r 50 -G 200 -x 14 -D deva -f latn -a qsq -W -X ""
     copyright: Copyright (c) 2014, Erin McLaughlin (hello@erinmclaughlin.com). Digitized
       data copyright 2010, Google Corporation.
-    font: Khula-ExtraBold.ttf
+    font: OpNPnoEOns3V7G-piCvUrC59XwXD.ttf
 - name: Khula Light
   styles:
   - family_name: Khula Light
@@ -54,7 +58,7 @@ fonts:
       -l 8 -r 50 -G 200 -x 14 -D deva -f latn -a qsq -W -X ""
     copyright: Copyright (c) 2014, Erin McLaughlin (hello@erinmclaughlin.com). Digitized
       data copyright 2010, Google Corporation.
-    font: Khula-Light.ttf
+    font: OpNPnoEOns3V7G-ljCvUrC59XwXD.ttf
 - name: Khula SemiBold
   styles:
   - family_name: Khula SemiBold
@@ -67,7 +71,7 @@ fonts:
       -l 8 -r 50 -G 200 -x 14 -D deva -f latn -a qsq -W -X ""
     copyright: Copyright (c) 2014, Erin McLaughlin (hello@erinmclaughlin.com). Digitized
       data copyright 2010, Google Corporation.
-    font: Khula-SemiBold.ttf
+    font: OpNPnoEOns3V7G_RiivUrC59XwXD.ttf
 extract: {}
 copyright: Copyright (c) 2014, Erin McLaughlin (hello@erinmclaughlin.com). Digitized
   data copyright 2010, Google Corporation.
@@ -166,5 +170,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 2e7fabd5095c8beae287ef25c52c0514b94b7064178d899a536ab778268d60df
-command: google import --formulas_path Formulas
+command: import google -n 9999

@@ -1,11 +1,16 @@
 ---
+name: Noto Sans Adlam
 description: Noto Sans Adlam
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Adlam.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Adlam
-    file_size: 221624
+  Noto Sans Adlam:
+    source: google
+    family: Noto Sans Adlam
+    files:
+    - https://fonts.gstatic.com/s/notosansadlam/v22/neIczCCpqp0s5pPusPamd81eMfjPonvqdbYxxpgufnv0TGnBZLwhuvk.ttf
+    - https://fonts.gstatic.com/s/notosansadlam/v22/neIczCCpqp0s5pPusPamd81eMfjPonvqdbYxxpgufkn0TGnBZLwhuvk.ttf
+    - https://fonts.gstatic.com/s/notosansadlam/v22/neIczCCpqp0s5pPusPamd81eMfjPonvqdbYxxpgufqXzTGnBZLwhuvk.ttf
+    - https://fonts.gstatic.com/s/notosansadlam/v22/neIczCCpqp0s5pPusPamd81eMfjPonvqdbYxxpgufpzzTGnBZLwhuvk.ttf
 fonts:
 - name: Noto Sans Adlam
   styles:
@@ -16,7 +21,7 @@ fonts:
     version: '3.001'
     description: Designed by Mark Jamra, Neil Patel.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/adlam)
-    font: NotoSansAdlam-Bold.ttf
+    font: neIczCCpqp0s5pPusPamd81eMfjPonvqdbYxxpgufpzzTGnBZLwhuvk.ttf
   - family_name: Noto Sans Adlam
     type: Regular
     full_name: Noto Sans Adlam Regular
@@ -24,15 +29,7 @@ fonts:
     version: '3.001'
     description: Designed by Mark Jamra, Neil Patel.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/adlam)
-    font: NotoSansAdlam-VariableFont_wght.ttf
-  - family_name: Noto Sans Adlam
-    type: Regular
-    full_name: Noto Sans Adlam Regular
-    post_script_name: NotoSansAdlam-Regular
-    version: '3.001'
-    description: Designed by Mark Jamra, Neil Patel.
-    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/adlam)
-    font: NotoSansAdlam-Regular.ttf
+    font: neIczCCpqp0s5pPusPamd81eMfjPonvqdbYxxpgufnv0TGnBZLwhuvk.ttf
 - name: Noto Sans Adlam Medium
   styles:
   - family_name: Noto Sans Adlam Medium
@@ -44,7 +41,7 @@ fonts:
     version: '3.001'
     description: Designed by Mark Jamra, Neil Patel.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/adlam)
-    font: NotoSansAdlam-Medium.ttf
+    font: neIczCCpqp0s5pPusPamd81eMfjPonvqdbYxxpgufkn0TGnBZLwhuvk.ttf
 - name: Noto Sans Adlam SemiBold
   styles:
   - family_name: Noto Sans Adlam SemiBold
@@ -56,7 +53,7 @@ fonts:
     version: '3.001'
     description: Designed by Mark Jamra, Neil Patel.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/adlam)
-    font: NotoSansAdlam-SemiBold.ttf
+    font: neIczCCpqp0s5pPusPamd81eMfjPonvqdbYxxpgufqXzTGnBZLwhuvk.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/adlam)
 license_url: https://scripts.sil.org/OFL
@@ -65,7 +62,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -154,5 +151,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9a28875eb73642ddab1c50ff8367c5ecd35ce84a2c6588e5b8c9ff598ae55662
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

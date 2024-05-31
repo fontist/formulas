@@ -3,11 +3,11 @@ name: Ranchers
 description: Ranchers
 homepage: www.impallari.com
 resources:
-  Ranchers.zip:
-    urls:
-    - https://fonts.google.com/download?family=Ranchers
-    sha256: 68aa5aeeb8b6b735790df203653e949c5b9a1a10ff4d3dd69bd8236e227d1f28
-    file_size: 60037
+  Ranchers:
+    source: google
+    family: Ranchers
+    files:
+    - https://fonts.gstatic.com/s/ranchers/v17/zrfm0H3Lx-P2Xvs2AoDYDC79XTHv.ttf
 fonts:
 - name: Ranchers
   styles:
@@ -21,9 +21,8 @@ fonts:
       It's great for big posters and fun headlines. Use it bigger than 40px for maximum effect.
     copyright: Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com),
       Brenda Gallo. (gbrenda1987@gmail.com), with Reserved Font Name Ranchers.
-    font: Ranchers-Regular.ttf
-extract:
-  format: zip
+    font: zrfm0H3Lx-P2Xvs2AoDYDC79XTHv.ttf
+extract: {}
 copyright: Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com),
   Brenda Gallo. (gbrenda1987@gmail.com), with Reserved Font Name Ranchers.
 license_url: http://scripts.sil.org/OFL
@@ -121,3 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

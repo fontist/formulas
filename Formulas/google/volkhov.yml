@@ -3,48 +3,17 @@ name: Volkhov
 description: Volkhov
 homepage: http://cyreal.org
 resources:
-  Volkhov.zip:
-    urls:
-    - https://fonts.google.com/download?family=Volkhov
-    sha256: acc525d23d7aeb2c71da8e62198ea43f79984ad546bf42e8f515d9493f56bb67
-    file_size: 141781
+  Volkhov:
+    source: google
+    family: Volkhov
+    files:
+    - https://fonts.gstatic.com/s/volkhov/v17/SlGQmQieoJcKemNeQTIOhHxzcD0.ttf
+    - https://fonts.gstatic.com/s/volkhov/v17/SlGSmQieoJcKemNecTAEgF52YD0NYw.ttf
+    - https://fonts.gstatic.com/s/volkhov/v17/SlGVmQieoJcKemNeeY4hoHRYbDQUego.ttf
+    - https://fonts.gstatic.com/s/volkhov/v17/SlGXmQieoJcKemNecTA8PHFSaBYRagrQrA.ttf
 fonts:
 - name: Volkhov
   styles:
-  - family_name: Volkhov
-    type: Regular
-    full_name: Volkhov Regular
-    post_script_name: Volkhov-Regular
-    version: '1.010'
-    description: |-
-      Volkhov is designed by Ivan Petrov for Cyreal.
-
-      This Font Software is licensed under the SIL Open Font License, Version 1.1.
-    copyright: |-
-      Copyright (c) 2011, Cyreal (www.cyreal.org)
-      with Reserved Font Name "Volkhov" and "Volkhov Regular".
-
-      This Font Software is licensed under the SIL Open Font License,
-      Version 1.1. This license is available with a FAQ at:
-      http://scripts.sil.org/OFL
-    font: Volkhov-Regular.ttf
-  - family_name: Volkhov
-    type: Italic
-    full_name: Volkhov Italic
-    post_script_name: Volkhov-Italic
-    version: '1.010'
-    description: |-
-      Volkhov is designed by Ivan Petrov for Cyreal.
-
-      This Font Software is licensed under the SIL Open Font License, Version 1.1.
-    copyright: |-
-      Copyright (c) 2011, Cyreal (www.cyreal.org)
-      with Reserved Font Name "Volkhov" and "Volkhov Italic".
-
-      This Font Software is licensed under the SIL Open Font License,
-      Version 1.1. This license is available with a FAQ at:
-      http://scripts.sil.org/OFL
-    font: Volkhov-Italic.ttf
   - family_name: Volkhov
     type: Bold
     full_name: Volkhov Bold
@@ -61,7 +30,7 @@ fonts:
       This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at:
       http://scripts.sil.org/OFL
-    font: Volkhov-Bold.ttf
+    font: SlGVmQieoJcKemNeeY4hoHRYbDQUego.ttf
   - family_name: Volkhov
     type: Bold Italic
     full_name: Volkhov Bold Italic
@@ -78,13 +47,49 @@ fonts:
       This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at:
       http://scripts.sil.org/OFL
-    font: Volkhov-BoldItalic.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved
-  Font Name "Volkhov" and "Volkhov Regular". This Font Software is licensed under
-  the SIL Open Font License, Version 1.1. This license is available with a FAQ at:
-  http://scripts.sil.org/OFL'
+    font: SlGXmQieoJcKemNecTA8PHFSaBYRagrQrA.ttf
+  - family_name: Volkhov
+    type: Italic
+    full_name: Volkhov Italic
+    post_script_name: Volkhov-Italic
+    version: '1.010'
+    description: |-
+      Volkhov is designed by Ivan Petrov for Cyreal.
+
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+    copyright: |-
+      Copyright (c) 2011, Cyreal (www.cyreal.org)
+      with Reserved Font Name "Volkhov" and "Volkhov Italic".
+
+      This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at:
+      http://scripts.sil.org/OFL
+    font: SlGSmQieoJcKemNecTAEgF52YD0NYw.ttf
+  - family_name: Volkhov
+    type: Regular
+    full_name: Volkhov Regular
+    post_script_name: Volkhov-Regular
+    version: '1.010'
+    description: |-
+      Volkhov is designed by Ivan Petrov for Cyreal.
+
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+    copyright: |-
+      Copyright (c) 2011, Cyreal (www.cyreal.org)
+      with Reserved Font Name "Volkhov" and "Volkhov Regular".
+
+      This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at:
+      http://scripts.sil.org/OFL
+    font: SlGQmQieoJcKemNeQTIOhHxzcD0.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011, Cyreal (www.cyreal.org)
+  with Reserved Font Name "Volkhov" and "Volkhov Regular".
+
+  This Font Software is licensed under the SIL Open Font License,
+  Version 1.1. This license is available with a FAQ at:
+  http://scripts.sil.org/OFL
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Cyreal (www.cyreal.org),
@@ -181,3 +186,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

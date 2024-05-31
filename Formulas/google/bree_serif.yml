@@ -1,12 +1,13 @@
 ---
+name: Bree Serif
 description: Bree Serif
 homepage: www.type-together.com
 resources:
-  BreeSerif.zip:
-    urls:
-    - https://fonts.google.com/download?family=Bree%20Serif
-    sha256: e799776e957a2c2dda6a4b74f0989b56f3d80bd420b8daefea4755a5a4167ec1
-    file_size: 23395
+  Bree Serif:
+    source: google
+    family: Bree Serif
+    files:
+    - https://fonts.gstatic.com/s/breeserif/v17/4UaHrEJCrhhnVA3DgluAx63j5pN1MwI.ttf
 fonts:
 - name: Bree Serif
   styles:
@@ -17,9 +18,8 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, TypeTogether (www.type-together.com), with Reserved
       Font Names "Bree" and "Bree Serif"
-    font: BreeSerif-Regular.ttf
-extract:
-  format: zip
+    font: 4UaHrEJCrhhnVA3DgluAx63j5pN1MwI.ttf
+extract: {}
 copyright: Copyright (c) 2011, TypeTogether (www.type-together.com), with Reserved
   Font Names "Bree" and "Bree Serif"
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

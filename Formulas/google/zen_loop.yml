@@ -3,11 +3,12 @@ name: Zen Loop
 description: Zen Loop
 homepage: https://www.zenfont.jp/
 resources:
-  Zen_Loop.zip:
-    urls:
-    - https://fonts.google.com/download?family=Zen%20Loop
-    sha256: 401e8682879056f96a5b2eeaaa21fb63ab57252ff0e2b36aa9e39495b1d0fe52
-    file_size: 48376
+  Zen Loop:
+    source: google
+    family: Zen Loop
+    files:
+    - https://fonts.gstatic.com/s/zenloop/v9/h0GrssK16UsnJwHsEK9zqwzX5vOG.ttf
+    - https://fonts.gstatic.com/s/zenloop/v9/h0GtssK16UsnJwHsEJ9xoQj14-OGJ0w.ttf
 fonts:
 - name: Zen Loop
   styles:
@@ -17,14 +18,14 @@ fonts:
     post_script_name: ZenLoop-Italic
     version: 1.000; ttfautohint (v1.8.3)
     copyright: Copyright 2021 The Zen-Loop Project Authors (https://github.com/googlefonts/zen-loop)
-    font: ZenLoop-Italic.ttf
+    font: h0GtssK16UsnJwHsEJ9xoQj14-OGJ0w.ttf
   - family_name: Zen Loop
     type: Regular
     full_name: Zen Loop Regular
     post_script_name: ZenLoop-Regular
     version: 1.000; ttfautohint (v1.8.3)
     copyright: Copyright 2021 The Zen-Loop Project Authors (https://github.com/googlefonts/zen-loop)
-    font: ZenLoop-Regular.ttf
+    font: h0GrssK16UsnJwHsEK9zqwzX5vOG.ttf
 extract: {}
 copyright: Copyright 2021 The Zen-Loop Project Authors (https://github.com/googlefonts/zen-loop)
 license_url: https://scripts.sil.org/OFL
@@ -33,7 +34,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -122,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 33b342e706642b005f757e497016a2f6489ecd26375ff868cac53ecc924facea
-command: google import --formulas_path Formulas
+command: import google -n 9999

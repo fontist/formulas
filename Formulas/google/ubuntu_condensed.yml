@@ -1,27 +1,28 @@
 ---
+name: Ubuntu Condensed
 description: Ubuntu Condensed
 homepage: http://www.daltonmaag.com/
 resources:
-  UbuntuCondensed.zip:
-    urls:
-    - https://fonts.google.com/download?family=Ubuntu%20Condensed
-    sha256: 7fcbd8b943b71d6f1d8a44b219e1fc251f42b7b320d9b7bb4eb9881b1bbe787a
-    file_size: 137169
+  Ubuntu Condensed:
+    source: google
+    family: Ubuntu Condensed
+    files:
+    - https://fonts.gstatic.com/s/ubuntucondensed/v16/u-4k0rCzjgs5J7oXnJcM_0kACGMtf-fVqvHoJXw.ttf
 fonts:
 - name: Ubuntu Condensed
   styles:
   - family_name: Ubuntu Condensed
     type: Regular
+    preferred_family_name: Ubuntu Condensed
+    preferred_type: Regular
     full_name: Ubuntu Condensed
     post_script_name: UbuntuCondensed-Regular
     version: '0.83'
     copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
       1.0
-    font: UbuntuCondensed-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2011 Canonical Ltd. Licensed under the Ubuntu Font Licence 1.0
-license_url:
+    font: u-4k0rCzjgs5J7oXnJcM_0kACGMtf-fVqvHoJXw.ttf
+extract: {}
+copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0
 open_license: |-
   -------------------------------
   UBUNTU FONT LICENCE Version 1.0
@@ -119,3 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER
   DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

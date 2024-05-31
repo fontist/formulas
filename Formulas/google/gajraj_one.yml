@@ -1,12 +1,13 @@
 ---
+name: Gajraj One
 description: Gajraj One
 homepage: https://intothedesign.com
 resources:
-  Gajraj_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Gajraj%20One
-    sha256: a2d1c4092139ef6476bff5fab5da6b42f43fe6ce465136d237a7ee033ed1042b
-    file_size: 61367
+  Gajraj One:
+    source: google
+    family: Gajraj One
+    files:
+    - https://fonts.gstatic.com/s/gajrajone/v5/1cX2aUDCDpXsuWVb1jIjr1GqhcitzeM.ttf
 fonts:
 - name: Gajraj One
   styles:
@@ -18,7 +19,7 @@ fonts:
     description: Gajraj One is a Latin and Devanagari display font for signage, posters
       and large sized print material.
     copyright: Copyright 2022 The GajrajOne Project Authors (https://github.com/xconsau/gajrajone)
-    font: GajrajOne-Regular.ttf
+    font: 1cX2aUDCDpXsuWVb1jIjr1GqhcitzeM.ttf
 extract: {}
 copyright: Copyright 2022 The GajrajOne Project Authors (https://github.com/xconsau/gajrajone)
 license_url: https://scripts.sil.org/OFL
@@ -27,7 +28,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -116,5 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 4ddd5c8a610bc945480e2e4bdcf9b6e4dc214cbc058f577cee0943aac39db8d1
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

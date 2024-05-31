@@ -3,11 +3,11 @@ name: Homenaje
 description: Homenaje
 homepage: agustinamingote@gmail.com
 resources:
-  Homenaje.zip:
-    urls:
-    - https://fonts.google.com/download?family=Homenaje
-    sha256: d25bda273a45209ea19ac15f30c0089a54a674386620d61340306b537c2a2cff
-    file_size: 20684
+  Homenaje:
+    source: google
+    family: Homenaje
+    files:
+    - https://fonts.gstatic.com/s/homenaje/v16/FwZY7-Q-xVAi_l-6Ld6A4sijpFu_.ttf
 fonts:
 - name: Homenaje
   styles:
@@ -18,11 +18,10 @@ fonts:
     version: '1.100'
     copyright: Copyright 2016 The Homenaje Project Authors (https://github.com/googlefonts/Homenaje),
       with Reserved Font Name 'Homenaje’.
-    font: Homenaje-Regular.ttf
-extract:
-  format: zip
+    font: FwZY7-Q-xVAi_l-6Ld6A4sijpFu_.ttf
+extract: {}
 copyright: Copyright 2016 The Homenaje Project Authors (https://github.com/googlefonts/Homenaje),
-  with Reserved Font Name 'Homenaje.
+  with Reserved Font Name 'Homenaje’.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright 2016 The Homenaje Project Authors (https://github.com/googlefonts/Homenaje), with Reserved Font Name 'Homenaje’.
@@ -118,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

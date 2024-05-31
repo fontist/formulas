@@ -1,18 +1,19 @@
 ---
+name: Hammersmith One
 description: Hammersmith One
 homepage: sorkintype.com
 resources:
-  HammersmithOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Hammersmith%20One
-    sha256: c7c46bc59271177736964b9c56964251d988ac4417274fa42464d4cd0dbcfa85
-    file_size: 45895
+  Hammersmith One:
+    source: google
+    family: Hammersmith One
+    files:
+    - https://fonts.gstatic.com/s/hammersmithone/v17/qWcyB624q4L_C4jGQ9IK0O_dFlnbshsks4MRXw.ttf
 fonts:
 - name: Hammersmith One
   styles:
-  - family_name: HammersmithOne
+  - family_name: Hammersmith One
     type: Regular
-    full_name: HammersmithOne Regular
+    full_name: Hammersmith One Regular
     post_script_name: HammersmithOne-Regular
     version: '1.003'
     description: Hammersmith is a low contrast semi geometric typeface inspired by
@@ -25,13 +26,15 @@ fonts:
       This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at:
       http://scripts.sil.org/OFL
-    font: HammersmithOne-Regular.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2011, Sorkin Type Co. (www.sorkintype.com eben@eyebytes.com)
-  with Reserved Font Name "Hammersmith One". This Font Software is licensed under
-  the SIL Open Font License, Version 1.1. This license is available with a FAQ at:
-  http://scripts.sil.org/OFL'
+    font: qWcyB624q4L_C4jGQ9IK0O_dFlnbshsks4MRXw.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011, Sorkin Type Co. (www.sorkintype.com)
+  with Reserved Font Name "Hammersmith".
+
+  This Font Software is licensed under the SIL Open Font License,
+  Version 1.1. This license is available with a FAQ at:
+  http://scripts.sil.org/OFL
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
@@ -128,3 +131,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

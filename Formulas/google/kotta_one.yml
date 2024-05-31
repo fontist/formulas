@@ -1,12 +1,13 @@
 ---
+name: Kotta One
 description: Kotta One
 homepage: www.aniakruk.com
 resources:
-  KottaOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Kotta%20One
-    sha256: 919c21e91cf4fe2d37e2f638c561093cd411c7dec9dab36d255d4d4695fecbcb
-    file_size: 18324
+  Kotta One:
+    source: google
+    family: Kotta One
+    files:
+    - https://fonts.gstatic.com/s/kottaone/v20/S6u_w41LXzPc_jlfNWqPHA3s5dwt7w.ttf
 fonts:
 - name: Kotta One
   styles:
@@ -17,9 +18,8 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2012 by Ania Kruk (hello@aniakruk.com), with Reserved
       Font Name "Kotta"
-    font: KottaOne-Regular.ttf
-extract:
-  format: zip
+    font: S6u_w41LXzPc_jlfNWqPHA3s5dwt7w.ttf
+extract: {}
 copyright: Copyright (c) 2012 by Ania Kruk (hello@aniakruk.com), with Reserved Font
   Name "Kotta"
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

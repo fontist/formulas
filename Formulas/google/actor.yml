@@ -3,11 +3,11 @@ name: Actor
 description: Actor
 homepage: www.buerofueraufmerksamkeit.de
 resources:
-  Actor.zip:
-    urls:
-    - https://fonts.google.com/download?family=Actor
-    sha256: ae620c2694b742aae5f85b37694be082c6793b1fb3842bde8e5576e554d993f9
-    file_size: 33949
+  Actor:
+    source: google
+    family: Actor
+    files:
+    - https://fonts.gstatic.com/s/actor/v17/wEOzEBbCkc5cO3ekXygtUMIO.ttf
 fonts:
 - name: Actor
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011, Thomas Junold <hallo@buerofueraufmerksamkeit.de>,
       with Reserved Font Name "Actor".
-    font: Actor-Regular.ttf
-extract:
-  format: zip
+    font: wEOzEBbCkc5cO3ekXygtUMIO.ttf
+extract: {}
 copyright: Copyright (c) 2011, Thomas Junold <hallo@buerofueraufmerksamkeit.de>, with
   Reserved Font Name "Actor".
 license_url: http://scripts.sil.org/SIL
@@ -119,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

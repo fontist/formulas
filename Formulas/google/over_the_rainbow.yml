@@ -1,13 +1,12 @@
 ---
 name: Over the Rainbow
 description: Over the Rainbow
-homepage:
 resources:
-  OvertheRainbow.zip:
-    urls:
-    - https://fonts.google.com/download?family=Over%20the%20Rainbow
-    sha256: a736e9fdf9553b56f0b46cc6cc3ae874ad00f092ebecf918cb6ce1218e4636a5
-    file_size: 29515
+  Over the Rainbow:
+    source: google
+    family: Over the Rainbow
+    files:
+    - https://fonts.gstatic.com/s/overtherainbow/v20/11haGoXG1k_HKhMLUWz7Mc7vvW5upvOm9NA2XG0.ttf
 fonts:
 - name: Over the Rainbow
   styles:
@@ -17,10 +16,9 @@ fonts:
     post_script_name: OvertheRainbow
     version: 1.002 2010
     copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
-    font: OvertheRainbow.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)
+    font: 11haGoXG1k_HKhMLUWz7Mc7vvW5upvOm9NA2XG0.ttf
+extract: {}
+copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
@@ -116,3 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

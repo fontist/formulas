@@ -1,12 +1,13 @@
 ---
+name: Vujahday Script
 description: Vujahday Script
 homepage: www.typesetit.com
 resources:
-  Vujahday_Script.zip:
-    urls:
-    - https://fonts.google.com/download?family=Vujahday%20Script
-    sha256: 7a1110906c37335861d868c74b5ab3a204952a07092670ad474e6721ba154c8f
-    file_size: 141549
+  Vujahday Script:
+    source: google
+    family: Vujahday Script
+    files:
+    - https://fonts.gstatic.com/s/vujahdayscript/v8/RWmQoKGA8fEkrIPtSZ3_J7er2dUiDEtvAlaMKw.ttf
 fonts:
 - name: Vujahday Script
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: VujahdayScript-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2003 The Vujahday Script Project Authors (https://github.com/googlefonts/vujahday)
-    font: VujahdayScript-Regular.ttf
+    font: RWmQoKGA8fEkrIPtSZ3_J7er2dUiDEtvAlaMKw.ttf
 extract: {}
 copyright: Copyright 2003 The Vujahday Script Project Authors (https://github.com/googlefonts/vujahday)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 7af5f0ec757220c21d3d4135227063b82b5bcb287b5988b9dbb1a52e764dd809
-command: google import --formulas_path Formulas
+command: import google -n 9999

@@ -1,12 +1,12 @@
 ---
+name: Shadows Into Light
 description: Shadows Into Light
-homepage:
 resources:
-  ShadowsIntoLight.zip:
-    urls:
-    - https://fonts.google.com/download?family=Shadows%20Into%20Light
-    sha256: ded98c7e3442f6a38812f1d3ceb5cfb1dd2c63b1e9bb997a8bf10f2f02db7092
-    file_size: 28132
+  Shadows Into Light:
+    source: google
+    family: Shadows Into Light
+    files:
+    - https://fonts.gstatic.com/s/shadowsintolight/v19/UqyNK9UOIntux_czAvDQx_ZcHqZXBNQDcsr4xzSMYA.ttf
 fonts:
 - name: Shadows Into Light
   styles:
@@ -17,10 +17,9 @@ fonts:
     version: '001.000'
     description: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
     copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
-    font: ShadowsIntoLight.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)
+    font: UqyNK9UOIntux_czAvDQx_ZcHqZXBNQDcsr4xzSMYA.ttf
+extract: {}
+copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
@@ -116,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

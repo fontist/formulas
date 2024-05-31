@@ -1,12 +1,13 @@
 ---
+name: Black And White Picture
 description: Black And White Picture
 homepage: http://www.asiafont.com
 resources:
-  BlackAndWhitePicture.zip:
-    urls:
-    - https://fonts.google.com/download?family=Black%20And%20White%20Picture
-    sha256: 70b5e1d3b745a5b3017a10587eb1c75991642134a192215a753e2d228248527a
-    file_size: 1529112
+  Black And White Picture:
+    source: google
+    family: Black And White Picture
+    files:
+    - https://fonts.gstatic.com/s/blackandwhitepicture/v24/TwMe-JAERlQd3ooUHBUXGmrmioKjjnRSFO-NqI5HbcMi-yWY.ttf
 fonts:
 - name: Black And White Picture
   styles:
@@ -16,9 +17,8 @@ fonts:
     post_script_name: BlackAndWhitePicture-Regular
     version: '1.64'
     copyright: Copyright (c) 1992-2018 AsiaSoft Inc. Seoul Korea All Rights Reserved.
-    font: BlackAndWhitePicture-Regular.ttf
-extract:
-  format: zip
+    font: TwMe-JAERlQd3ooUHBUXGmrmioKjjnRSFO-NqI5HbcMi-yWY.ttf
+extract: {}
 copyright: Copyright (c) 1992-2018 AsiaSoft Inc. Seoul Korea All Rights Reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -115,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

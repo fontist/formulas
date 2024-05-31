@@ -3,11 +3,11 @@ name: Rancho
 description: Rancho
 homepage: http://www.fontdiner.com
 resources:
-  Rancho.zip:
-    urls:
-    - https://fonts.google.com/download?family=Rancho
-    sha256: e1b583fb711e62b7572aafced4318573794c3ab15eb3967d30ca3894b63ec20f
-    file_size: 30144
+  Rancho:
+    source: google
+    family: Rancho
+    files:
+    - https://fonts.gstatic.com/s/rancho/v21/46kulbzmXjLaqZRlbWXgd0RY1g.ttf
 fonts:
 - name: Rancho
   styles:
@@ -17,13 +17,12 @@ fonts:
     post_script_name: Rancho-Regular
     version: '1.001'
     copyright: Copyright (c) 2011 by Font Diner, Inc. All rights reserved.
-    font: Rancho-Regular.ttf
-extract:
-  format: zip
+    font: 46kulbzmXjLaqZRlbWXgd0RY1g.ttf
+extract: {}
 copyright: Copyright (c) 2011 by Font Diner, Inc. All rights reserved.
 license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |2-
-                                   Apache License
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -224,3 +223,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999

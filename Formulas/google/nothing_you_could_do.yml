@@ -1,12 +1,13 @@
 ---
+name: Nothing You Could Do
 description: Nothing You Could Do
 homepage: http://kimberlygeswein.com
 resources:
-  NothingYouCouldDo.zip:
-    urls:
-    - https://fonts.google.com/download?family=Nothing%20You%20Could%20Do
-    sha256: edc392e651bf112a9e4f11a93602d2a71e204bf585e5ff998b037e1c2a081457
-    file_size: 23458
+  Nothing You Could Do:
+    source: google
+    family: Nothing You Could Do
+    files:
+    - https://fonts.gstatic.com/s/nothingyoucoulddo/v19/oY1B8fbBpaP5OX3DtrRYf_Q2BPB1SnfZb0OJl1ol2Ymo.ttf
 fonts:
 - name: Nothing You Could Do
   styles:
@@ -21,12 +22,11 @@ fonts:
     copyright: 'Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com). This Font
       Software is licensed under the SIL Open Font License, Version 1.1.  This license
       available with a FAQ at:  http://scripts.sil.org/OFL'
-    font: NothingYouCouldDo.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com).
-  This Font Software is licensed under the SIL Open Font License, Version 1.1. This
-  license available with a FAQ at: http://scripts.sil.org/OFL'
+    font: oY1B8fbBpaP5OX3DtrRYf_Q2BPB1SnfZb0OJl1ol2Ymo.ttf
+extract: {}
+copyright: 'Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com). This Font
+  Software is licensed under the SIL Open Font License, Version 1.1.  This license
+  available with a FAQ at:  http://scripts.sil.org/OFL'
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
@@ -122,3 +122,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Grandiflora One
 description: Grandiflora One
 homepage: https://jamo.works
 resources:
-  Grandiflora_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Grandiflora%20One
-    sha256: 87f153feb5830588649ea97e18f3c7721ab857d4e79029a3bf362f022392c158
-    file_size: 624212
+  Grandiflora One:
+    source: google
+    family: Grandiflora One
+    files:
+    - https://fonts.gstatic.com/s/grandifloraone/v3/0ybmGD0g27bCk_5MGWZcKWhxwnUU_R3y8DOWGA.ttf
 fonts:
 - name: Grandiflora One
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: GrandifloraOne-Regular
     version: 1.000; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.28]
     copyright: Copyright 2022 The Grandiflora Project Authors (https://github.com/JAMO-TYPEFACE/Grandiflora)
-    font: GrandifloraOne-Regular.ttf
+    font: 0ybmGD0g27bCk_5MGWZcKWhxwnUU_R3y8DOWGA.ttf
 extract: {}
 copyright: Copyright 2022 The Grandiflora Project Authors (https://github.com/JAMO-TYPEFACE/Grandiflora)
 license_url: https://scripts.sil.org/OFL
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 2d28bb1c1e529eccedc09de3127a278bfae531c563fad1fa80d829f9f80d9b4d
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

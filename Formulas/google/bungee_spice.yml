@@ -1,23 +1,24 @@
 ---
+name: Bungee Spice
 description: Bungee Spice
 resources:
-  Bungee_Spice.zip:
-    urls:
-    - https://fonts.google.com/download?family=Bungee%20Spice
-    sha256: 60c4d0465fef2676609c4675e4884324f9d7718d54de12e3b673a06e867cb978
-    file_size: 38619
+  Bungee Spice:
+    source: google
+    family: Bungee Spice
+    files:
+    - https://fonts.gstatic.com/s/bungeespice/v11/nwpTtK2nIhxE0q-IwgSpZBqCzyI-aMPF7Q.ttf
 fonts:
-- name: Bungee Spice
+- name: Bungee Spice Regular
   styles:
-  - family_name: Bungee Spice
+  - family_name: Bungee Spice Regular
     type: Regular
-    preferred_family_name: Bungee Color
+    preferred_family_name: Bungee Spice
     full_name: Bungee Spice Regular
     post_script_name: BungeeSpice-Regular
     version: 0.0.1
     description: Bungee derivative created to exhibit COLRv1 gradients
     copyright: Copyright 2021 Roderick Sheeter
-    font: BungeeSpice-Regular.ttf
+    font: nwpTtK2nIhxE0q-IwgSpZBqCzyI-aMPF7Q.ttf
 extract: {}
 copyright: Copyright 2021 Roderick Sheeter
 license_url: http://scripts.sil.org/OFL
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: f610f8565d6902ea6d512463e2f9d5e92cd616840720d8b71258c6d413231946
-command: google import --formulas_path Formulas
+command: import google -n 9999

@@ -1,11 +1,16 @@
 ---
+name: Edu TAS Beginner
 description: Edu TAS Beginner
 homepage: https://github.com/MezMerrit/AU-School-Handwriting-Fonts
 resources:
-  Edu_TAS_Beginner.zip:
-    urls:
-    - https://fonts.google.com/download?family=Edu%20TAS%20Beginner
-    file_size: 75058
+  Edu TAS Beginner:
+    source: google
+    family: Edu TAS Beginner
+    files:
+    - https://fonts.gstatic.com/s/edutasbeginner/v3/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_HwemkrBWRhvk02.ttf
+    - https://fonts.gstatic.com/s/edutasbeginner/v3/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_HCemkrBWRhvk02.ttf
+    - https://fonts.gstatic.com/s/edutasbeginner/v3/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_EufWkrBWRhvk02.ttf
+    - https://fonts.gstatic.com/s/edutasbeginner/v3/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_EXfWkrBWRhvk02.ttf
 fonts:
 - name: Edu TAS Beginner
   styles:
@@ -16,7 +21,7 @@ fonts:
     version: '1.003'
     description: Australian TAS School Handwriting (Beginner)
     copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
-    font: EduTASBeginner-Bold.ttf
+    font: ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_EXfWkrBWRhvk02.ttf
   - family_name: Edu TAS Beginner
     type: Regular
     full_name: Edu TAS Beginner Regular
@@ -24,15 +29,7 @@ fonts:
     version: '1.003'
     description: Australian TAS School Handwriting (Beginner)
     copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
-    font: EduTASBeginner-VariableFont_wght.ttf
-  - family_name: Edu TAS Beginner
-    type: Regular
-    full_name: Edu TAS Beginner Regular
-    post_script_name: EduTASBeginner-Regular
-    version: '1.003'
-    description: Australian TAS School Handwriting (Beginner)
-    copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
-    font: EduTASBeginner-Regular.ttf
+    font: ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_HwemkrBWRhvk02.ttf
 - name: Edu TAS Beginner Medium
   styles:
   - family_name: Edu TAS Beginner Medium
@@ -44,7 +41,7 @@ fonts:
     version: '1.003'
     description: Australian TAS School Handwriting (Beginner)
     copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
-    font: EduTASBeginner-Medium.ttf
+    font: ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_HCemkrBWRhvk02.ttf
 - name: Edu TAS Beginner SemiBold
   styles:
   - family_name: Edu TAS Beginner SemiBold
@@ -56,7 +53,7 @@ fonts:
     version: '1.003'
     description: Australian TAS School Handwriting (Beginner)
     copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
-    font: EduTASBeginner-SemiBold.ttf
+    font: ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_EufWkrBWRhvk02.ttf
 extract: {}
 copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
 license_url: https://scripts.sil.org/OFL
@@ -65,7 +62,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -154,5 +151,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: a91c49c4768c3a2ac7dc4b520d865ce58f3cfae11571fe95dd8acf537a843fc1
-command: import google --formulas_path Formulas
+command: import google -n 9999

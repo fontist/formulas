@@ -1,13 +1,12 @@
 ---
 name: Almendra SC
 description: Almendra SC
-homepage:
 resources:
-  AlmendraSC.zip:
-    urls:
-    - https://fonts.google.com/download?family=Almendra%20SC
-    sha256: 41b049b39c4b14a9d690b47940903fed8f36504ba0f6f0023889f79165760a82
-    file_size: 18396
+  Almendra SC:
+    source: google
+    family: Almendra SC
+    files:
+    - https://fonts.gstatic.com/s/almendrasc/v29/Iure6Yx284eebowr7hbyTZZJprVA4XQ0.ttf
 fonts:
 - name: Almendra SC
   styles:
@@ -18,9 +17,8 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011 by Ana Sanfelippo (anasanfe@gmail.com). Reserved
       Font Names "Almendra" "Almendra SC"
-    font: AlmendraSC-Regular.ttf
-extract:
-  format: zip
+    font: Iure6Yx284eebowr7hbyTZZJprVA4XQ0.ttf
+extract: {}
 copyright: Copyright (c) 2011 by Ana Sanfelippo (anasanfe@gmail.com). Reserved Font
   Names "Almendra" "Almendra SC"
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

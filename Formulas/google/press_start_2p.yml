@@ -3,11 +3,11 @@ name: Press Start 2P
 description: Press Start 2P
 homepage: http://www.zone38.net/
 resources:
-  PressStart2P.zip:
-    urls:
-    - https://fonts.google.com/download?family=Press%20Start%202P
-    sha256: 61132d4834ccd756edbd58e0c230d8bffe24cad29829ea29c77e6f667119dc4b
-    file_size: 40994
+  Press Start 2P:
+    source: google
+    family: Press Start 2P
+    files:
+    - https://fonts.gstatic.com/s/pressstart2p/v15/e3t4euO8T-267oIAQAu6jDQyK0nSgPJE4580.ttf
 fonts:
 - name: Press Start 2P
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: '3.000'
     copyright: Copyright 2012 The Press Start 2P Project Authors (cody@zone38.net),
       with Reserved Font Name "Press Start 2P"
-    font: PressStart2P-Regular.ttf
-extract:
-  format: zip
+    font: e3t4euO8T-267oIAQAu6jDQyK0nSgPJE4580.ttf
+extract: {}
 copyright: Copyright 2012 The Press Start 2P Project Authors (cody@zone38.net), with
   Reserved Font Name "Press Start 2P"
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

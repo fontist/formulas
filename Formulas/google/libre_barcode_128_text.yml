@@ -2,11 +2,11 @@
 name: Libre Barcode 128 Text
 description: Libre Barcode 128 Text
 resources:
-  Libre_Barcode_128_Text.zip:
-    urls:
-    - https://fonts.google.com/download?family=Libre%20Barcode%20128%20Text
-    sha256: d48f284270b8585081f6f2b4bdaa53f35de427895a4c59b134904dd76e9e1d54
-    file_size: 19661
+  Libre Barcode 128 Text:
+    source: google
+    family: Libre Barcode 128 Text
+    files:
+    - https://fonts.gstatic.com/s/librebarcode128text/v28/fdNv9tubt3ZEnz1Gu3I4-zppwZ9CWZ16Z0w5cV3Y6M90w4k.ttf
 fonts:
 - name: Libre Barcode 128 Text
   styles:
@@ -16,7 +16,7 @@ fonts:
     post_script_name: LibreBarcode128Text-Regular
     version: 1.005; ttfautohint (v1.8.3)
     copyright: Copyright 2017-2020 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)
-    font: LibreBarcode128Text-Regular.ttf
+    font: fdNv9tubt3ZEnz1Gu3I4-zppwZ9CWZ16Z0w5cV3Y6M90w4k.ttf
 extract: {}
 copyright: Copyright 2017-2020 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +25,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 6ccbdcb390d3478ebfac9cf4f16ac7a7273ba04365f7cf326fb1c0c990f695d3
-command: google import --formulas_path Formulas
+command: import google -n 9999

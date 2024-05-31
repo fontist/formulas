@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Coptic
 description: Noto Sans Coptic
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Coptic.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Coptic
-    sha256: 35462ae22c5053f2f6f8ff6930d105bf70aec1b07526013213a41b4d1eece0ef
-    file_size: 50727
+  Noto Sans Coptic:
+    source: google
+    family: Noto Sans Coptic
+    files:
+    - https://fonts.gstatic.com/s/notosanscoptic/v21/iJWfBWmUZi_OHPqn4wq6kgqumOEd78u_VG0xR4Y.ttf
 fonts:
 - name: Noto Sans Coptic
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.004; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/coptic)
-    font: NotoSansCoptic-Regular.ttf
+    font: iJWfBWmUZi_OHPqn4wq6kgqumOEd78u_VG0xR4Y.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/coptic)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e9dbb8ce86d8b648c1fedf93ac4d4b466f41c0c30f1d9218b4288309186704c6
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

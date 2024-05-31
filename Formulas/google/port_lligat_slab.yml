@@ -1,12 +1,13 @@
 ---
+name: Port Lligat Slab
 description: Port Lligat Slab
 homepage: http://www.tipo.net.ar
 resources:
-  PortLligatSlab.zip:
-    urls:
-    - https://fonts.google.com/download?family=Port%20Lligat%20Slab
-    sha256: 6e07460d1c268831c332446310aa076d9d96227008914e6a65a621b00a19b679
-    file_size: 20265
+  Port Lligat Slab:
+    source: google
+    family: Port Lligat Slab
+    files:
+    - https://fonts.gstatic.com/s/portlligatslab/v25/LDIpaoiQNgArA8kR7ulhZ8P_NYOss7ob9yGLmfI.ttf
 fonts:
 - name: Port Lligat Slab
   styles:
@@ -17,11 +18,10 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Tipo (http://www.tipo.net.ar), with Reserved Font
       Name "Port Lligat Slab"
-    font: PortLligatSlab-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Tipo (http://www.tipo.net.ar dario@tipo.net.ar), with
-  Reserved Font Name "Port Lligat Slab"
+    font: LDIpaoiQNgArA8kR7ulhZ8P_NYOss7ob9yGLmfI.ttf
+extract: {}
+copyright: Copyright (c) 2011, Tipo (http://www.tipo.net.ar), with Reserved Font Name
+  "Port Lligat Slab"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Tipo (http://www.tipo.net.ar),
@@ -118,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

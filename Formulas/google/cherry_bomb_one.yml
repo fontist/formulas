@@ -1,12 +1,13 @@
 ---
+name: Cherry Bomb One
 description: Cherry Bomb One
 homepage: https://satsuyako.com/
 resources:
-  Cherry_Bomb_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Cherry%20Bomb%20One
-    sha256: f779657f773104cf2c6c7cd720243d8ab5ef9626b1a2b5bddc33cd1f5d8a72af
-    file_size: 101386
+  Cherry Bomb One:
+    source: google
+    family: Cherry Bomb One
+    files:
+    - https://fonts.gstatic.com/s/cherrybombone/v8/y83DW4od1h6KlV3c6JJhRhGOdhrKDNpF41fr-w.ttf
 fonts:
 - name: Cherry Bomb One
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: CherryBombOne-Regular
     version: 4.100; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Cherry Bomb Project Authors (https://github.com/satsuyako/CherryBomb)
-    font: CherryBombOne-Regular.ttf
+    font: y83DW4od1h6KlV3c6JJhRhGOdhrKDNpF41fr-w.ttf
 extract: {}
 copyright: Copyright 2019 The Cherry Bomb Project Authors (https://github.com/satsuyako/CherryBomb)
 license_url: https://scripts.sil.org/OFL
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 27a7811a56136d8d85bf8ee55c3e50ed33c46a961cbf094bfeda9167ec2536e3
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

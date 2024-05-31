@@ -1,12 +1,13 @@
 ---
+name: Moirai One
 description: Moirai One
 homepage: https://jamo.works
 resources:
-  Moirai_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Moirai%20One
-    sha256: 9f0fc4f3b14945e0db15e89a332db92e3d235308f7d7a7c0d26efd3cb69f1e25
-    file_size: 944980
+  Moirai One:
+    source: google
+    family: Moirai One
+    files:
+    - https://fonts.gstatic.com/s/moiraione/v1/2sDbZGFUgJLJmby6xgNGT0WWB7UcfCg.ttf
 fonts:
 - name: Moirai One
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: MoiraiOne-Regular
     version: 1.000; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.29]
     copyright: Copyright 2022 The Moirai Project Authors (https://github.com/JAMO-TYPEFACE/Moirai)
-    font: MoiraiOne-Regular.ttf
+    font: 2sDbZGFUgJLJmby6xgNGT0WWB7UcfCg.ttf
 extract: {}
 copyright: Copyright 2022 The Moirai Project Authors (https://github.com/JAMO-TYPEFACE/Moirai)
 license_url: https://scripts.sil.org/OFL
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 1fbc985e9cd498984d94d53cbf42ca6289c4008d7507e35a40e45679c21e0ace
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

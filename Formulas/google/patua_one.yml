@@ -1,12 +1,13 @@
 ---
+name: Patua One
 description: Patua One
 homepage: www.latinotype.com
 resources:
-  PatuaOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Patua%20One
-    sha256: ff493914aab04525950f7f7e68ab51f5c5819b53899bb9ccafeb1c3d553bee4d
-    file_size: 20910
+  Patua One:
+    source: google
+    family: Patua One
+    files:
+    - https://fonts.gstatic.com/s/patuaone/v20/ZXuke1cDvLCKLDcimxBI5PNvNA9LuA.ttf
 fonts:
 - name: Patua One
   styles:
@@ -17,11 +18,10 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com),  with
       Reserved Font Names "Patua" and "Patua One"
-    font: PatuaOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com), with Reserved
-  Font Names "Patua" and "Patua One"
+    font: ZXuke1cDvLCKLDcimxBI5PNvNA9LuA.ttf
+extract: {}
+copyright: Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com),  with
+  Reserved Font Names "Patua" and "Patua One"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by LatinoType Limitada (luciano@latinotype.com),
@@ -118,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -3,11 +3,11 @@ name: Galada
 description: Galada
 homepage: www.black-foundry.com
 resources:
-  Galada.zip:
-    urls:
-    - https://fonts.google.com/download?family=Galada
-    sha256: 0306cc61b1da4a991651cbc1f6424a567e55272402a48a487d671791f237c54d
-    file_size: 89637
+  Galada:
+    source: google
+    family: Galada
+    files:
+    - https://fonts.gstatic.com/s/galada/v18/H4cmBXyGmcjXlUX-8iw-4Lqggw.ttf
 fonts:
 - name: Galada
   styles:
@@ -18,9 +18,8 @@ fonts:
     version: 1.261;PS 1.261;hotconv 1.0.86;makeotf.lib2.5.63406
     copyright: Copyright (c) 2010 by Pablo Impallari (www.impallari.com). Copyright
       (c) 2015 by black foundry (www.black-foundry.com)
-    font: Galada-Regular.ttf
-extract:
-  format: zip
+    font: H4cmBXyGmcjXlUX-8iw-4Lqggw.ttf
+extract: {}
 copyright: Copyright (c) 2010 by Pablo Impallari (www.impallari.com). Copyright (c)
   2015 by black foundry (www.black-foundry.com)
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

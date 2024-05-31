@@ -3,11 +3,11 @@ name: Spinnaker
 description: Spinnaker
 homepage: http://www.sorkintype.com
 resources:
-  Spinnaker.zip:
-    urls:
-    - https://fonts.google.com/download?family=Spinnaker
-    sha256: 336384af6dcd589beffafc633cfba45323b26037cee1267160960a2a935e2be8
-    file_size: 17171
+  Spinnaker:
+    source: google
+    family: Spinnaker
+    files:
+    - https://fonts.gstatic.com/s/spinnaker/v19/w8gYH2oyX-I0_rvR6Hmn3HwLqOqSBg.ttf
 fonts:
 - name: Spinnaker
   styles:
@@ -23,11 +23,10 @@ fonts:
       to large sizes.
     copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved
       Font Name "Spinnaker".
-    font: Spinnaker-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)
-  with Reserved Font Name "Spinnaker".
+    font: w8gYH2oyX-I0_rvR6Hmn3HwLqOqSBg.ttf
+extract: {}
+copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved Font
+  Name "Spinnaker".
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
@@ -124,3 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

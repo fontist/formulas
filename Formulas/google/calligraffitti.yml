@@ -3,11 +3,11 @@ name: Calligraffitti
 description: Calligraffitti
 homepage: http://www.fontbros.com/openwindow.php
 resources:
-  Calligraffitti.zip:
-    urls:
-    - https://fonts.google.com/download?family=Calligraffitti
-    sha256: 2a6249c12ff0c3e6ece78bf444390d9dc2394a3a0a7084648825e8774b8af86f
-    file_size: 41479
+  Calligraffitti:
+    source: google
+    family: Calligraffitti
+    files:
+    - https://fonts.gstatic.com/s/calligraffitti/v19/46k2lbT3XjDVqJw3DCmCFjE0vnFZM5ZBpYN-.ttf
 fonts:
 - name: Calligraffitti
   styles:
@@ -17,13 +17,12 @@ fonts:
     post_script_name: Calligraffitti-Regular
     version: '1.002'
     copyright: Copyright (c) 2010 by Open Window. All rights reserved.
-    font: Calligraffitti-Regular.ttf
-extract:
-  format: zip
+    font: 46k2lbT3XjDVqJw3DCmCFjE0vnFZM5ZBpYN-.ttf
+extract: {}
 copyright: Copyright (c) 2010 by Open Window. All rights reserved.
 license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |2-
-                                   Apache License
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -224,3 +223,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999

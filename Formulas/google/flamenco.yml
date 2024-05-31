@@ -3,22 +3,15 @@ name: Flamenco
 description: Flamenco
 homepage: www.latinotype.com
 resources:
-  Flamenco.zip:
-    urls:
-    - https://fonts.google.com/download?family=Flamenco
-    sha256: 599f234253cc0a238c222663e3dad8c02ca0423a9eca2326aea3c4a3165baeed
-    file_size: 39004
+  Flamenco:
+    source: google
+    family: Flamenco
+    files:
+    - https://fonts.gstatic.com/s/flamenco/v18/neIPzCehqYguo67ssZ0qNIkyepH9qGsf.ttf
+    - https://fonts.gstatic.com/s/flamenco/v18/neIIzCehqYguo67ssaWGHK06UY30.ttf
 fonts:
 - name: Flamenco
   styles:
-  - family_name: Flamenco
-    type: Light
-    full_name: Flamenco Light
-    post_script_name: Flamenco-Light
-    version: '1.003'
-    copyright: Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com),  with
-      Reserved Font Names "Flamenco"
-    font: Flamenco-Light.ttf
   - family_name: Flamenco
     type: Regular
     full_name: Flamenco Regular
@@ -26,11 +19,22 @@ fonts:
     version: '1.003'
     copyright: Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com),  with
       Reserved Font Names "Flamenco"
-    font: Flamenco-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com), with Reserved
-  Font Names "Flamenco"
+    font: neIIzCehqYguo67ssaWGHK06UY30.ttf
+- name: Flamenco Light
+  styles:
+  - family_name: Flamenco Light
+    type: Regular
+    preferred_family_name: Flamenco
+    preferred_type: Light
+    full_name: Flamenco Light
+    post_script_name: Flamenco-Light
+    version: '1.003'
+    copyright: Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com),  with
+      Reserved Font Names "Flamenco"
+    font: neIPzCehqYguo67ssZ0qNIkyepH9qGsf.ttf
+extract: {}
+copyright: Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com),  with
+  Reserved Font Names "Flamenco"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011 by LatinoType Limitada (luciano@latinotype.com),
@@ -127,3 +131,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

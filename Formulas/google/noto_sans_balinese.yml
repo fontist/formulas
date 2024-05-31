@@ -1,11 +1,16 @@
 ---
+name: Noto Sans Balinese
 description: Noto Sans Balinese
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Balinese.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Balinese
-    file_size: 249134
+  Noto Sans Balinese:
+    source: google
+    family: Noto Sans Balinese
+    files:
+    - https://fonts.gstatic.com/s/notosansbalinese/v24/NaPwcYvSBuhTirw6IaFn6UrRDaqje-lpbbRtYf-Fwu2Ov7fdhE5Vd222PPY.ttf
+    - https://fonts.gstatic.com/s/notosansbalinese/v24/NaPwcYvSBuhTirw6IaFn6UrRDaqje-lpbbRtYf-Fwu2Ov4XdhE5Vd222PPY.ttf
+    - https://fonts.gstatic.com/s/notosansbalinese/v24/NaPwcYvSBuhTirw6IaFn6UrRDaqje-lpbbRtYf-Fwu2Ov2nahE5Vd222PPY.ttf
+    - https://fonts.gstatic.com/s/notosansbalinese/v24/NaPwcYvSBuhTirw6IaFn6UrRDaqje-lpbbRtYf-Fwu2Ov1DahE5Vd222PPY.ttf
 fonts:
 - name: Noto Sans Balinese
   styles:
@@ -13,23 +18,16 @@ fonts:
     type: Bold
     full_name: Noto Sans Balinese Bold
     post_script_name: NotoSansBalinese-Bold
-    version: '2.001'
-    copyright: Copyright 2020 Noto Sans Balinese Google
-    font: NotoSansBalinese-Bold.ttf
+    version: '2.003'
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/balinese)
+    font: NaPwcYvSBuhTirw6IaFn6UrRDaqje-lpbbRtYf-Fwu2Ov1DahE5Vd222PPY.ttf
   - family_name: Noto Sans Balinese
     type: Regular
     full_name: Noto Sans Balinese Regular
     post_script_name: NotoSansBalinese-Regular
-    version: '2.001'
-    copyright: Copyright 2020 Noto Sans Balinese Google
-    font: NotoSansBalinese-Regular.ttf
-  - family_name: Noto Sans Balinese
-    type: Regular
-    full_name: Noto Sans Balinese Regular
-    post_script_name: NotoSansBalinese-Regular
-    version: '2.001'
-    copyright: Copyright 2020 Noto Sans Balinese Google
-    font: NotoSansBalinese-VariableFont_wght.ttf
+    version: '2.003'
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/balinese)
+    font: NaPwcYvSBuhTirw6IaFn6UrRDaqje-lpbbRtYf-Fwu2Ov7fdhE5Vd222PPY.ttf
 - name: Noto Sans Balinese Medium
   styles:
   - family_name: Noto Sans Balinese Medium
@@ -38,9 +36,9 @@ fonts:
     preferred_type: Medium
     full_name: Noto Sans Balinese Medium
     post_script_name: NotoSansBalinese-Medium
-    version: '2.001'
-    copyright: Copyright 2020 Noto Sans Balinese Google
-    font: NotoSansBalinese-Medium.ttf
+    version: '2.003'
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/balinese)
+    font: NaPwcYvSBuhTirw6IaFn6UrRDaqje-lpbbRtYf-Fwu2Ov4XdhE5Vd222PPY.ttf
 - name: Noto Sans Balinese SemiBold
   styles:
   - family_name: Noto Sans Balinese SemiBold
@@ -49,18 +47,18 @@ fonts:
     preferred_type: SemiBold
     full_name: Noto Sans Balinese SemiBold
     post_script_name: NotoSansBalinese-SemiBold
-    version: '2.001'
-    copyright: Copyright 2020 Noto Sans Balinese Google
-    font: NotoSansBalinese-SemiBold.ttf
+    version: '2.003'
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/balinese)
+    font: NaPwcYvSBuhTirw6IaFn6UrRDaqje-lpbbRtYf-Fwu2Ov2nahE5Vd222PPY.ttf
 extract: {}
-copyright: Copyright 2020 Noto Sans Balinese Google
-license_url: http://scripts.sil.org/OFL
+copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/balinese)
+license_url: https://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2012 Google Inc. All Rights Reserved.
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/balinese)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -149,5 +147,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 37a84cfc016c05faeb9774d6e38a9a76adeaa416490433651dc8123bd68aac88
-command: import google --formulas_path Formulas
+command: import google -n 9999

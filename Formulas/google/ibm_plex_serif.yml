@@ -3,11 +3,24 @@ name: IBM Plex Serif
 description: IBM Plex Serif
 homepage: http://www.boldmonday.com
 resources:
-  IBM_Plex_Serif.zip:
-    urls:
-    - https://fonts.google.com/download?family=IBM%20Plex%20Serif
-    sha256: 8c2448c4db7857a46f77237ab3c188d34afef568b33bb6e3b85a43a25830daf4
-    file_size: 1032003
+  IBM Plex Serif:
+    source: google
+    family: IBM Plex Serif
+    files:
+    - https://fonts.gstatic.com/s/ibmplexserif/v19/jizBREVNn1dOx-zrZ2X3pZvkTi182zIZj1bIkNo.ttf
+    - https://fonts.gstatic.com/s/ibmplexserif/v19/jizHREVNn1dOx-zrZ2X3pZvkTiUa41YTi3TNgNq55w.ttf
+    - https://fonts.gstatic.com/s/ibmplexserif/v19/jizAREVNn1dOx-zrZ2X3pZvkTi3Q-hIzoVrBicOg.ttf
+    - https://fonts.gstatic.com/s/ibmplexserif/v19/jizGREVNn1dOx-zrZ2X3pZvkTiUa4_oyq17jjNOg_oc.ttf
+    - https://fonts.gstatic.com/s/ibmplexserif/v19/jizAREVNn1dOx-zrZ2X3pZvkTi20-RIzoVrBicOg.ttf
+    - https://fonts.gstatic.com/s/ibmplexserif/v19/jizGREVNn1dOx-zrZ2X3pZvkTiUa454xq17jjNOg_oc.ttf
+    - https://fonts.gstatic.com/s/ibmplexserif/v19/jizDREVNn1dOx-zrZ2X3pZvkThUY0TY7ikbI.ttf
+    - https://fonts.gstatic.com/s/ibmplexserif/v19/jizBREVNn1dOx-zrZ2X3pZvkTiUa2zIZj1bIkNo.ttf
+    - https://fonts.gstatic.com/s/ibmplexserif/v19/jizAREVNn1dOx-zrZ2X3pZvkTi3s-BIzoVrBicOg.ttf
+    - https://fonts.gstatic.com/s/ibmplexserif/v19/jizGREVNn1dOx-zrZ2X3pZvkTiUa48Ywq17jjNOg_oc.ttf
+    - https://fonts.gstatic.com/s/ibmplexserif/v19/jizAREVNn1dOx-zrZ2X3pZvkTi3A_xIzoVrBicOg.ttf
+    - https://fonts.gstatic.com/s/ibmplexserif/v19/jizGREVNn1dOx-zrZ2X3pZvkTiUa4-o3q17jjNOg_oc.ttf
+    - https://fonts.gstatic.com/s/ibmplexserif/v19/jizAREVNn1dOx-zrZ2X3pZvkTi2k_hIzoVrBicOg.ttf
+    - https://fonts.gstatic.com/s/ibmplexserif/v19/jizGREVNn1dOx-zrZ2X3pZvkTiUa4442q17jjNOg_oc.ttf
 fonts:
 - name: IBM Plex Serif
   styles:
@@ -17,28 +30,28 @@ fonts:
     post_script_name: IBMPlexSerif-Bold
     version: '2.6'
     copyright: Copyright 2020 IBM Corp. All rights reserved.
-    font: IBMPlexSerif-Bold.ttf
+    font: jizAREVNn1dOx-zrZ2X3pZvkTi2k_hIzoVrBicOg.ttf
   - family_name: IBM Plex Serif
     type: Bold Italic
     full_name: IBM Plex Serif Bold Italic
     post_script_name: IBMPlexSerif-BoldItalic
     version: '2.6'
     copyright: Copyright 2020 IBM Corp. All rights reserved.
-    font: IBMPlexSerif-BoldItalic.ttf
+    font: jizGREVNn1dOx-zrZ2X3pZvkTiUa4442q17jjNOg_oc.ttf
   - family_name: IBM Plex Serif
     type: Italic
     full_name: IBM Plex Serif Italic
     post_script_name: IBMPlexSerif-Italic
     version: '2.6'
     copyright: Copyright 2020 IBM Corp. All rights reserved.
-    font: IBMPlexSerif-Italic.ttf
+    font: jizBREVNn1dOx-zrZ2X3pZvkTiUa2zIZj1bIkNo.ttf
   - family_name: IBM Plex Serif
     type: Regular
     full_name: IBM Plex Serif Regular
     post_script_name: IBMPlexSerif-Regular
     version: '2.6'
     copyright: Copyright 2020 IBM Corp. All rights reserved.
-    font: IBMPlexSerif-Regular.ttf
+    font: jizDREVNn1dOx-zrZ2X3pZvkThUY0TY7ikbI.ttf
 - name: IBM Plex Serif ExtraLight
   styles:
   - family_name: IBM Plex Serif ExtraLight
@@ -49,7 +62,7 @@ fonts:
     post_script_name: IBMPlexSerif-ExtraLightItalic
     version: '2.6'
     copyright: Copyright 2020 IBM Corp. All rights reserved.
-    font: IBMPlexSerif-ExtraLightItalic.ttf
+    font: jizGREVNn1dOx-zrZ2X3pZvkTiUa4_oyq17jjNOg_oc.ttf
   - family_name: IBM Plex Serif ExtraLight
     type: Regular
     preferred_family_name: IBM Plex Serif
@@ -58,7 +71,7 @@ fonts:
     post_script_name: IBMPlexSerif-ExtraLight
     version: '2.6'
     copyright: Copyright 2020 IBM Corp. All rights reserved.
-    font: IBMPlexSerif-ExtraLight.ttf
+    font: jizAREVNn1dOx-zrZ2X3pZvkTi3Q-hIzoVrBicOg.ttf
 - name: IBM Plex Serif Light
   styles:
   - family_name: IBM Plex Serif Light
@@ -69,7 +82,7 @@ fonts:
     post_script_name: IBMPlexSerif-LightItalic
     version: '2.6'
     copyright: Copyright 2020 IBM Corp. All rights reserved.
-    font: IBMPlexSerif-LightItalic.ttf
+    font: jizGREVNn1dOx-zrZ2X3pZvkTiUa454xq17jjNOg_oc.ttf
   - family_name: IBM Plex Serif Light
     type: Regular
     preferred_family_name: IBM Plex Serif
@@ -78,7 +91,7 @@ fonts:
     post_script_name: IBMPlexSerif-Light
     version: '2.6'
     copyright: Copyright 2020 IBM Corp. All rights reserved.
-    font: IBMPlexSerif-Light.ttf
+    font: jizAREVNn1dOx-zrZ2X3pZvkTi20-RIzoVrBicOg.ttf
 - name: IBM Plex Serif Medium
   styles:
   - family_name: IBM Plex Serif Medium
@@ -89,7 +102,7 @@ fonts:
     post_script_name: IBMPlexSerif-MediumItalic
     version: '2.6'
     copyright: Copyright 2020 IBM Corp. All rights reserved.
-    font: IBMPlexSerif-MediumItalic.ttf
+    font: jizGREVNn1dOx-zrZ2X3pZvkTiUa48Ywq17jjNOg_oc.ttf
   - family_name: IBM Plex Serif Medium
     type: Regular
     preferred_family_name: IBM Plex Serif
@@ -98,7 +111,7 @@ fonts:
     post_script_name: IBMPlexSerif-Medium
     version: '2.6'
     copyright: Copyright 2020 IBM Corp. All rights reserved.
-    font: IBMPlexSerif-Medium.ttf
+    font: jizAREVNn1dOx-zrZ2X3pZvkTi3s-BIzoVrBicOg.ttf
 - name: IBM Plex Serif SemiBold
   styles:
   - family_name: IBM Plex Serif SemiBold
@@ -109,7 +122,7 @@ fonts:
     post_script_name: IBMPlexSerif-SemiBoldItalic
     version: '2.6'
     copyright: Copyright 2020 IBM Corp. All rights reserved.
-    font: IBMPlexSerif-SemiBoldItalic.ttf
+    font: jizGREVNn1dOx-zrZ2X3pZvkTiUa4-o3q17jjNOg_oc.ttf
   - family_name: IBM Plex Serif SemiBold
     type: Regular
     preferred_family_name: IBM Plex Serif
@@ -118,7 +131,7 @@ fonts:
     post_script_name: IBMPlexSerif-SemiBold
     version: '2.6'
     copyright: Copyright 2020 IBM Corp. All rights reserved.
-    font: IBMPlexSerif-SemiBold.ttf
+    font: jizAREVNn1dOx-zrZ2X3pZvkTi3A_xIzoVrBicOg.ttf
 - name: IBM Plex Serif Thin
   styles:
   - family_name: IBM Plex Serif Thin
@@ -129,7 +142,7 @@ fonts:
     post_script_name: IBMPlexSerif-ThinItalic
     version: '2.6'
     copyright: Copyright 2020 IBM Corp. All rights reserved.
-    font: IBMPlexSerif-ThinItalic.ttf
+    font: jizHREVNn1dOx-zrZ2X3pZvkTiUa41YTi3TNgNq55w.ttf
   - family_name: IBM Plex Serif Thin
     type: Regular
     preferred_family_name: IBM Plex Serif
@@ -138,7 +151,7 @@ fonts:
     post_script_name: IBMPlexSerif-Thin
     version: '2.6'
     copyright: Copyright 2020 IBM Corp. All rights reserved.
-    font: IBMPlexSerif-Thin.ttf
+    font: jizBREVNn1dOx-zrZ2X3pZvkTi182zIZj1bIkNo.ttf
 extract: {}
 copyright: Copyright 2020 IBM Corp. All rights reserved.
 license_url: http://scripts.sil.org/OFL
@@ -146,8 +159,8 @@ open_license: |-
   Copyright © 2017 IBM Corp. with Reserved Font Name "Plex"
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
-  This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+
+  This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -236,5 +249,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 7b082d6110c5dfdb9dda5c707dc8f5d983503cb1e3659cb768d698e0f5a89bef
-command: google import --formulas_path Formulas
+command: import google -n 9999

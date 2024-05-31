@@ -3,58 +3,84 @@ name: Maitree
 description: Maitree
 homepage: www.cadsondemak.com
 resources:
-  Maitree.zip:
-    urls:
-    - https://fonts.google.com/download?family=Maitree
-    sha256: f9c530a8e949c0b3cd220806d67e35f09b69c5306702efb8b60971884119432e
-    file_size: 460512
+  Maitree:
+    source: google
+    family: Maitree
+    files:
+    - https://fonts.gstatic.com/s/maitree/v10/MjQDmil5tffhpBrklhGNWJGovLdh6OE.ttf
+    - https://fonts.gstatic.com/s/maitree/v10/MjQDmil5tffhpBrklnWOWJGovLdh6OE.ttf
+    - https://fonts.gstatic.com/s/maitree/v10/MjQGmil5tffhpBrkrtmmfJmDoL4.ttf
+    - https://fonts.gstatic.com/s/maitree/v10/MjQDmil5tffhpBrkli2PWJGovLdh6OE.ttf
+    - https://fonts.gstatic.com/s/maitree/v10/MjQDmil5tffhpBrklgGIWJGovLdh6OE.ttf
+    - https://fonts.gstatic.com/s/maitree/v10/MjQDmil5tffhpBrklmWJWJGovLdh6OE.ttf
 fonts:
 - name: Maitree
   styles:
   - family_name: Maitree
-    type: ExtraLight
-    full_name: Maitree ExtraLight
-    post_script_name: Maitree-ExtraLight
-    version: '1.003'
-    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: Maitree-ExtraLight.ttf
-  - family_name: Maitree
-    type: Light
-    full_name: Maitree Light
-    post_script_name: Maitree-Light
-    version: '1.001'
-    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: Maitree-Light.ttf
-  - family_name: Maitree
-    type: Regular
-    full_name: Maitree Regular
-    post_script_name: Maitree-Regular
-    version: '1.001'
-    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: Maitree-Regular.ttf
-  - family_name: Maitree
-    type: Medium
-    full_name: Maitree Medium
-    post_script_name: Maitree-Medium
-    version: '1.001'
-    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: Maitree-Medium.ttf
-  - family_name: Maitree
-    type: SemiBold
-    full_name: Maitree SemiBold
-    post_script_name: Maitree-SemiBold
-    version: '1.001'
-    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: Maitree-SemiBold.ttf
-  - family_name: Maitree
     type: Bold
     full_name: Maitree Bold
     post_script_name: Maitree-Bold
-    version: '1.003'
+    version: '1.002'
+    description: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
     copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: Maitree-Bold.ttf
-extract:
-  format: zip
+    font: MjQDmil5tffhpBrklmWJWJGovLdh6OE.ttf
+  - family_name: Maitree
+    type: Regular
+    full_name: Maitree
+    post_script_name: Maitree
+    version: '1.000'
+    description: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    font: MjQGmil5tffhpBrkrtmmfJmDoL4.ttf
+- name: Maitree ExtraLight
+  styles:
+  - family_name: Maitree ExtraLight
+    type: Regular
+    preferred_family_name: Maitree
+    preferred_type: ExtraLight
+    full_name: Maitree-ExtraLight
+    post_script_name: Maitree-ExtraLight
+    version: '1.002'
+    description: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    font: MjQDmil5tffhpBrklhGNWJGovLdh6OE.ttf
+- name: Maitree Light
+  styles:
+  - family_name: Maitree Light
+    type: Regular
+    preferred_family_name: Maitree
+    preferred_type: Light
+    full_name: Maitree-Light
+    post_script_name: Maitree-Light
+    version: '1.000'
+    description: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    font: MjQDmil5tffhpBrklnWOWJGovLdh6OE.ttf
+- name: Maitree Medium
+  styles:
+  - family_name: Maitree Medium
+    type: Regular
+    preferred_family_name: Maitree
+    preferred_type: Medium
+    full_name: Maitree-Medium
+    post_script_name: Maitree-Medium
+    version: '1.000'
+    description: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    font: MjQDmil5tffhpBrkli2PWJGovLdh6OE.ttf
+- name: Maitree SemiBold
+  styles:
+  - family_name: Maitree SemiBold
+    type: Regular
+    preferred_family_name: Maitree
+    preferred_type: SemiBold
+    full_name: Maitree-SemiBold
+    post_script_name: Maitree-SemiBold
+    version: '1.000'
+    description: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    font: MjQDmil5tffhpBrklgGIWJGovLdh6OE.ttf
+extract: {}
 copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -151,3 +177,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

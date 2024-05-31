@@ -3,11 +3,11 @@ name: Peddana
 description: Peddana
 homepage: Andhrapradesh Society for Knowledge Networks
 resources:
-  Peddana.zip:
-    urls:
-    - https://fonts.google.com/download?family=Peddana
-    sha256: be77900c7d329fc2ff1e4826446414ddec7d6630fe04bcbe05cba455e07fdbdf
-    file_size: 262320
+  Peddana:
+    source: google
+    family: Peddana
+    files:
+    - https://fonts.gstatic.com/s/peddana/v20/aFTU7PBhaX89UcKWhh2aBYyMcKw.ttf
 fonts:
 - name: Peddana
   styles:
@@ -20,9 +20,8 @@ fonts:
     copyright: Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org).
       Copyright (c) 1997-2014, SIL International (http://scripts.sil.org/) with Reserved
       Font Names "Charis" and "SIL".
-    font: Peddana-Regular.ttf
-extract:
-  format: zip
+    font: aFTU7PBhaX89UcKWhh2aBYyMcKw.ttf
+extract: {}
 copyright: Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org).
   Copyright (c) 1997-2014, SIL International (http://scripts.sil.org/) with Reserved
   Font Names "Charis" and "SIL".
@@ -121,3 +120,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,13 +1,12 @@
 ---
 name: Siemreap
 description: Siemreap
-homepage:
 resources:
-  Siemreap.zip:
-    urls:
-    - https://fonts.google.com/download?family=Siemreap
-    sha256: 6b4c7e8cfa9fff847abdabbdf97b45f9e3ef70e985bbc55ac20235230efe7522
-    file_size: 51437
+  Siemreap:
+    source: google
+    family: Siemreap
+    files:
+    - https://fonts.gstatic.com/s/siemreap/v28/Gg82N5oFbgLvHAfNl2YbnA8DLXpe.ttf
 fonts:
 - name: Siemreap
   styles:
@@ -17,14 +16,9 @@ fonts:
     post_script_name: Siemreap
     version: 6.00 December 28, 2010
     copyright: Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
-    font: Siemreap.ttf
-extract:
-  format: zip
-copyright: 'Copyright (c) 2010, Danh Hong (khmertype.blogspot.com danhhong@gmail.com),
-  with Reserved Font Name Khmer OS Siemreap. This Font Software is licensed under
-  the SIL Open Font License, Version 1.1. This license is available with a FAQ at:
-  http://scripts.sil.org/OFL'
-license_url:
+    font: Gg82N5oFbgLvHAfNl2YbnA8DLXpe.ttf
+extract: {}
+copyright: Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
 open_license: |-
   Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),
   with Reserved Font Name Siemreap.
@@ -120,3 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

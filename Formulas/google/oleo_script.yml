@@ -1,23 +1,17 @@
 ---
+name: Oleo Script
 description: Oleo Script
 homepage: www.soytutype.com.ar
 resources:
-  OleoScript.zip:
-    urls:
-    - https://fonts.google.com/download?family=Oleo%20Script
-    sha256: 4ad1a7b4c48a3e65312f1af86789da5b4dff892ae371c05fb6cbf33e1b1a6861
-    file_size: 38246
+  Oleo Script:
+    source: google
+    family: Oleo Script
+    files:
+    - https://fonts.gstatic.com/s/oleoscript/v14/rax5HieDvtMOe0iICsUccBhasU7Q8Cad.ttf
+    - https://fonts.gstatic.com/s/oleoscript/v14/raxkHieDvtMOe0iICsUccCDmnmrY2zqUKafv.ttf
 fonts:
 - name: Oleo Script
   styles:
-  - family_name: Oleo Script
-    type: Regular
-    full_name: Oleo Script
-    post_script_name: OleoScript-Regular
-    version: '1.002'
-    copyright: Copyright (c) 2012, Soytutype (contact@soytutype.com.ar|soytutype@gmail.com),
-      with reserved fontname 'Oleo'
-    font: OleoScript-Regular.ttf
   - family_name: Oleo Script
     type: Bold
     full_name: Oleo Script Bold
@@ -25,9 +19,16 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2012, Soytutype (contact@soytutype.com.ar|soytutype@gmail.com),
       with reserved fontname 'Oleo'
-    font: OleoScript-Bold.ttf
-extract:
-  format: zip
+    font: raxkHieDvtMOe0iICsUccCDmnmrY2zqUKafv.ttf
+  - family_name: Oleo Script
+    type: Regular
+    full_name: Oleo Script
+    post_script_name: OleoScript-Regular
+    version: '1.002'
+    copyright: Copyright (c) 2012, Soytutype (contact@soytutype.com.ar|soytutype@gmail.com),
+      with reserved fontname 'Oleo'
+    font: rax5HieDvtMOe0iICsUccBhasU7Q8Cad.ttf
+extract: {}
 copyright: Copyright (c) 2012, Soytutype (contact@soytutype.com.ar|soytutype@gmail.com),
   with reserved fontname 'Oleo'
 license_url: http://scripts.sil.org/OFL
@@ -125,3 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

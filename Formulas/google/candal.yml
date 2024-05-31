@@ -1,10 +1,12 @@
 ---
+name: Candal
 description: Candal
 resources:
-  Candal.zip:
-    urls:
-    - https://fonts.google.com/download?family=Candal
-    sha256: 22fd7f33f8d970bc824c54e49f3a83b7498957455c62656f7204687f2ce3bb76
+  Candal:
+    source: google
+    family: Candal
+    files:
+    - https://fonts.gstatic.com/s/candal/v15/XoHn2YH6T7-t_8cNAR4Jt9Yxlw.ttf
 fonts:
 - name: Candal
   styles:
@@ -15,7 +17,7 @@ fonts:
     version: '1.000'
     description: Copyright (c) 2011 by vernon adams. All rights reserved.
     copyright: Copyright (c) 2011 by vernon adams. All rights reserved.
-    font: Candal-Regular.ttf
+    font: XoHn2YH6T7-t_8cNAR4Jt9Yxlw.ttf
 extract: {}
 copyright: Copyright (c) 2011 by vernon adams. All rights reserved.
 license_url: http://scripts.sil.org/OFL
@@ -114,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 43c3378685ca9911cd28d19af24997e1038ee493884e1d744823518acf33a1c4
-command: google import --formulas_path Formulas
+command: import google -n 9999

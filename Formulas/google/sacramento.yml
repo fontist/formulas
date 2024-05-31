@@ -3,11 +3,11 @@ name: Sacramento
 description: Sacramento
 homepage: http://www.astigmatic.com/
 resources:
-  Sacramento.zip:
-    urls:
-    - https://fonts.google.com/download?family=Sacramento
-    sha256: 890f6bde91d3f0a1d4dce078ca2aa6e0384859d63f07d35a3035135d582cf659
-    file_size: 37700
+  Sacramento:
+    source: google
+    family: Sacramento
+    files:
+    - https://fonts.gstatic.com/s/sacramento/v15/buEzpo6gcdjy0EiZMBUG0CoV_NxLeiw.ttf
 fonts:
 - name: Sacramento
   styles:
@@ -19,11 +19,11 @@ fonts:
     copyright: |-
       Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
       Font Name "Sacramento"
-    font: Sacramento-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com),
-  with Reserved Font Name 'Sacramento'
+    font: buEzpo6gcdjy0EiZMBUG0CoV_NxLeiw.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+  Font Name "Sacramento"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012, Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Names 'Sacramento'
@@ -119,3 +119,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

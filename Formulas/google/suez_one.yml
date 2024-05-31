@@ -1,24 +1,24 @@
 ---
+name: Suez One
 description: Suez One
 homepage: http://hagilda.com
 resources:
-  SuezOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Suez%20One
-    sha256: be187c757589c55706ec5220629942e3c04c629afa28f1fb80eec30ca94b7a0b
-    file_size: 38036
+  Suez One:
+    source: google
+    family: Suez One
+    files:
+    - https://fonts.gstatic.com/s/suezone/v13/taiJGmd_EZ6rqscQgNFJkIqg-I0w.ttf
 fonts:
 - name: Suez One
   styles:
   - family_name: Suez One
     type: Regular
-    full_name: Suez One Regular
+    full_name: SuezOne-Regular
     post_script_name: SuezOne-Regular
-    version: '1.001'
+    version: '1.000'
     copyright: Copyright 2016 Michal Sahar. All rights reserved.
-    font: SuezOne-Regular.ttf
-extract:
-  format: zip
+    font: taiJGmd_EZ6rqscQgNFJkIqg-I0w.ttf
+extract: {}
 copyright: Copyright 2016 Michal Sahar. All rights reserved.
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -115,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

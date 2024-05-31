@@ -3,58 +3,78 @@ name: Mitr
 description: Mitr
 homepage: www.cadsondemak.com
 resources:
-  Mitr.zip:
-    urls:
-    - https://fonts.google.com/download?family=Mitr
-    sha256: e29dad193f5dcc8bb9c6b118db16ea6e7967945d380b29bfc00583b687e45b48
-    file_size: 483679
+  Mitr:
+    source: google
+    family: Mitr
+    files:
+    - https://fonts.gstatic.com/s/mitr/v11/pxiEypw5ucZF8fMZFJDUc1NECPY.ttf
+    - https://fonts.gstatic.com/s/mitr/v11/pxiEypw5ucZF8ZcaFJDUc1NECPY.ttf
+    - https://fonts.gstatic.com/s/mitr/v11/pxiLypw5ucZFyTsyMJj_b1o.ttf
+    - https://fonts.gstatic.com/s/mitr/v11/pxiEypw5ucZF8c8bFJDUc1NECPY.ttf
+    - https://fonts.gstatic.com/s/mitr/v11/pxiEypw5ucZF8eMcFJDUc1NECPY.ttf
+    - https://fonts.gstatic.com/s/mitr/v11/pxiEypw5ucZF8YcdFJDUc1NECPY.ttf
 fonts:
 - name: Mitr
   styles:
-  - family_name: Mitr
-    type: ExtraLight
-    full_name: Mitr ExtraLight
-    post_script_name: Mitr-ExtraLight
-    version: '1.001'
-    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: Mitr-ExtraLight.ttf
-  - family_name: Mitr
-    type: Light
-    full_name: Mitr Light
-    post_script_name: Mitr-Light
-    version: '1.003'
-    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: Mitr-Light.ttf
-  - family_name: Mitr
-    type: Regular
-    full_name: Mitr Regular
-    post_script_name: Mitr-Regular
-    version: '1.003'
-    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: Mitr-Regular.ttf
-  - family_name: Mitr
-    type: Medium
-    full_name: Mitr Medium
-    post_script_name: Mitr-Medium
-    version: '1.003'
-    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: Mitr-Medium.ttf
-  - family_name: Mitr
-    type: SemiBold
-    full_name: Mitr SemiBold
-    post_script_name: Mitr-SemiBold
-    version: '1.003'
-    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: Mitr-SemiBold.ttf
   - family_name: Mitr
     type: Bold
     full_name: Mitr Bold
     post_script_name: Mitr-Bold
     version: '1.003'
     copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: Mitr-Bold.ttf
-extract:
-  format: zip
+    font: pxiEypw5ucZF8YcdFJDUc1NECPY.ttf
+  - family_name: Mitr
+    type: Regular
+    full_name: Mitr Regular
+    post_script_name: Mitr-Regular
+    version: '1.003'
+    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    font: pxiLypw5ucZFyTsyMJj_b1o.ttf
+- name: Mitr ExtraLight
+  styles:
+  - family_name: Mitr ExtraLight
+    type: Regular
+    preferred_family_name: Mitr
+    preferred_type: ExtraLight
+    full_name: Mitr ExtraLight
+    post_script_name: Mitr-ExtraLight
+    version: '1.001'
+    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    font: pxiEypw5ucZF8fMZFJDUc1NECPY.ttf
+- name: Mitr Light
+  styles:
+  - family_name: Mitr Light
+    type: Regular
+    preferred_family_name: Mitr
+    preferred_type: Light
+    full_name: Mitr Light
+    post_script_name: Mitr-Light
+    version: '1.003'
+    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    font: pxiEypw5ucZF8ZcaFJDUc1NECPY.ttf
+- name: Mitr Medium
+  styles:
+  - family_name: Mitr Medium
+    type: Regular
+    preferred_family_name: Mitr
+    preferred_type: Medium
+    full_name: Mitr Medium
+    post_script_name: Mitr-Medium
+    version: '1.003'
+    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    font: pxiEypw5ucZF8c8bFJDUc1NECPY.ttf
+- name: Mitr SemiBold
+  styles:
+  - family_name: Mitr SemiBold
+    type: Regular
+    preferred_family_name: Mitr
+    preferred_type: SemiBold
+    full_name: Mitr SemiBold
+    post_script_name: Mitr-SemiBold
+    version: '1.003'
+    copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    font: pxiEypw5ucZF8eMcFJDUc1NECPY.ttf
+extract: {}
 copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
 license_url: http://scripts.sil.org/OFL
-open_license: ''
+command: import google -n 9999

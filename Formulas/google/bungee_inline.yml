@@ -1,24 +1,24 @@
 ---
+name: Bungee Inline
 description: Bungee Inline
 homepage: http://www.djr.com
 resources:
-  BungeeInline.zip:
-    urls:
-    - https://fonts.google.com/download?family=Bungee%20Inline
-    sha256: 77fab33a289cb25b647c830a71f721bf0f45593cc348052fc2367992c1dac7b4
-    file_size: 84902
+  Bungee Inline:
+    source: google
+    family: Bungee Inline
+    files:
+    - https://fonts.gstatic.com/s/bungeeinline/v15/Gg8zN58UcgnlCweMrih332VuDGJ1-FEglsc.ttf
 fonts:
 - name: Bungee Inline
   styles:
   - family_name: Bungee Inline
     type: Regular
-    full_name: Bungee Inline Regular
+    full_name: Bungee Inline
     post_script_name: BungeeInline-Regular
-    version: 1.001;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900
+    version: 1.000;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900
     copyright: Copyright 2008 The Bungee Project Authors (david@djr.com)
-    font: BungeeInline-Regular.ttf
-extract:
-  format: zip
+    font: Gg8zN58UcgnlCweMrih332VuDGJ1-FEglsc.ttf
+extract: {}
 copyright: Copyright 2008 The Bungee Project Authors (david@djr.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -115,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

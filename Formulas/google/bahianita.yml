@@ -3,11 +3,11 @@ name: Bahianita
 description: Bahianita
 homepage: http://www.omnibus-type.com/
 resources:
-  Bahianita.zip:
-    urls:
-    - https://fonts.google.com/download?family=Bahianita
-    sha256: d88e67aecd8f8b125a2b10f52bd197b8a4e37165408b5cc69d8f6d9531846ab6
-    file_size: 69095
+  Bahianita:
+    source: google
+    family: Bahianita
+    files:
+    - https://fonts.gstatic.com/s/bahianita/v21/yYLr0hTb3vuqqsBUgxWtxTvV2NJPcA.ttf
 fonts:
 - name: Bahianita
   styles:
@@ -17,10 +17,9 @@ fonts:
     post_script_name: Bahianita-Regular
     version: '1.008'
     copyright: Copyright 2018 The Bahianita Project Authors (https://github.com/Omnibus-Type/Bahiana/Bahianita)
-    font: Bahianita-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright 2018 The Bahianita Project Authors (https://github.com/Omnibus-Type/Bahiana/tree/master/Bahianita)
+    font: yYLr0hTb3vuqqsBUgxWtxTvV2NJPcA.ttf
+extract: {}
+copyright: Copyright 2018 The Bahianita Project Authors (https://github.com/Omnibus-Type/Bahiana/Bahianita)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright 2018 The Bahianita Project Authors (https://github.com/Omnibus-Type/Bahiana/Bahianita)
@@ -116,3 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

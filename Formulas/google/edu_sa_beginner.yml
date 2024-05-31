@@ -1,11 +1,16 @@
 ---
+name: Edu SA Beginner
 description: Edu SA Beginner
 homepage: https://github.com/MezMerrit/AU-School-Handwriting-Fonts
 resources:
-  Edu_SA_Beginner.zip:
-    urls:
-    - https://fonts.google.com/download?family=Edu%20SA%20Beginner
-    file_size: 75230
+  Edu SA Beginner:
+    source: google
+    family: Edu SA Beginner
+    files:
+    - https://fonts.gstatic.com/s/edusabeginner/v3/rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9989fo1yBydUEDs.ttf
+    - https://fonts.gstatic.com/s/edusabeginner/v3/rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9-09fo1yBydUEDs.ttf
+    - https://fonts.gstatic.com/s/edusabeginner/v3/rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9wE6fo1yBydUEDs.ttf
+    - https://fonts.gstatic.com/s/edusabeginner/v3/rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9zg6fo1yBydUEDs.ttf
 fonts:
 - name: Edu SA Beginner
   styles:
@@ -16,7 +21,7 @@ fonts:
     version: '1.003'
     description: Australian SA School Handwriting (Beginner)
     copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
-    font: EduSABeginner-Bold.ttf
+    font: rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9zg6fo1yBydUEDs.ttf
   - family_name: Edu SA Beginner
     type: Regular
     full_name: Edu SA Beginner Regular
@@ -24,15 +29,7 @@ fonts:
     version: '1.003'
     description: Australian SA School Handwriting (Beginner)
     copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
-    font: EduSABeginner-Regular.ttf
-  - family_name: Edu SA Beginner
-    type: Regular
-    full_name: Edu SA Beginner Regular
-    post_script_name: EduSABeginner-Regular
-    version: '1.003'
-    description: Australian SA School Handwriting (Beginner)
-    copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
-    font: EduSABeginner-VariableFont_wght.ttf
+    font: rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9989fo1yBydUEDs.ttf
 - name: Edu SA Beginner Medium
   styles:
   - family_name: Edu SA Beginner Medium
@@ -44,7 +41,7 @@ fonts:
     version: '1.003'
     description: Australian SA School Handwriting (Beginner)
     copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
-    font: EduSABeginner-Medium.ttf
+    font: rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9-09fo1yBydUEDs.ttf
 - name: Edu SA Beginner SemiBold
   styles:
   - family_name: Edu SA Beginner SemiBold
@@ -56,7 +53,7 @@ fonts:
     version: '1.003'
     description: Australian SA School Handwriting (Beginner)
     copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
-    font: EduSABeginner-SemiBold.ttf
+    font: rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9wE6fo1yBydUEDs.ttf
 extract: {}
 copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
 license_url: https://scripts.sil.org/OFL
@@ -65,7 +62,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -154,5 +151,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 5bb34f40d6caeddc90a10aa71d06c25511fd307605cd47e50459dda70efcdb8e
-command: import google --formulas_path Formulas
+command: import google -n 9999

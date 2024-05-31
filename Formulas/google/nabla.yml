@@ -1,12 +1,13 @@
 ---
+name: Nabla
 description: Nabla
 homepage: http://www.typearture.com
 resources:
-  Nabla.zip:
-    urls:
-    - https://fonts.google.com/download?family=Nabla
-    sha256: 2f063814cbc12dc26ca7b0f3180a92012a94513689cdb528901265d01b924dd6
-    file_size: 603199
+  Nabla:
+    source: google
+    family: Nabla
+    files:
+    - https://fonts.gstatic.com/s/nabla/v10/j8_D6-LI0Lvpe7Makz5UhJt9C3uqg_X_75gyGS4jAxsNIjrRNRBUFFR_198.ttf
 fonts:
 - name: Nabla
   styles:
@@ -16,14 +17,7 @@ fonts:
     post_script_name: Nabla-Regular
     version: '1.003'
     copyright: Copyright 2022 The Nabla Project Authors (https://github.com/justvanrossum/nabla)
-    font: Nabla-Regular-VariableFont_EDPT,EHLT.ttf
-  - family_name: Nabla
-    type: Regular
-    full_name: Nabla Regular
-    post_script_name: Nabla-Regular
-    version: '1.003'
-    copyright: Copyright 2022 The Nabla Project Authors (https://github.com/justvanrossum/nabla)
-    font: Nabla-Regular.ttf
+    font: j8_D6-LI0Lvpe7Makz5UhJt9C3uqg_X_75gyGS4jAxsNIjrRNRBUFFR_198.ttf
 extract: {}
 copyright: Copyright 2022 The Nabla Project Authors (https://github.com/justvanrossum/nabla)
 license_url: https://scripts.sil.org/OFL
@@ -121,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 0a03bb6c4bd39aab136d86ded36a624ade402d244dc1556a3a0b49c7fb01510b
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

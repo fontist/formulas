@@ -1,12 +1,13 @@
 ---
+name: Short Stack
 description: Short Stack
 homepage: www.sorkintype.com
 resources:
-  ShortStack.zip:
-    urls:
-    - https://fonts.google.com/download?family=Short%20Stack
-    sha256: ff523a84ce55895f291cec4b928d254de6e473697d547a965567dfbda3d699ae
-    file_size: 35100
+  Short Stack:
+    source: google
+    family: Short Stack
+    files:
+    - https://fonts.gstatic.com/s/shortstack/v15/bMrzmS2X6p0jZC6EcmPFX-SScX8D0nq6.ttf
 fonts:
 - name: Short Stack
   styles:
@@ -21,10 +22,10 @@ fonts:
     copyright: |-
       Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
       with Reserved Font Names "Short Stack" and "Short Stack One".
-    font: ShortStack-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com)
+    font: bMrzmS2X6p0jZC6EcmPFX-SScX8D0nq6.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
   with Reserved Font Names "Short Stack" and "Short Stack One".
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -122,3 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

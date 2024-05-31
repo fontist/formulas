@@ -1,11 +1,19 @@
 ---
+name: Ojuju
 description: Ojuju
 homepage: http://udifoundry.com
 resources:
-  Ojuju.zip:
-    urls:
-    - https://fonts.google.com/download?family=Ojuju
-    file_size: 618796
+  Ojuju:
+    source: google
+    family: Ojuju
+    files:
+    - https://fonts.gstatic.com/s/ojuju/v3/7r3bqXF7v9ApbrMih3jYQBVm9-n_ypk552FRLYeruQ.ttf
+    - https://fonts.gstatic.com/s/ojuju/v3/7r3bqXF7v9ApbrMih3jYQBVm9-n_FJk552FRLYeruQ.ttf
+    - https://fonts.gstatic.com/s/ojuju/v3/7r3bqXF7v9ApbrMih3jYQBVm9-n_Spk552FRLYeruQ.ttf
+    - https://fonts.gstatic.com/s/ojuju/v3/7r3bqXF7v9ApbrMih3jYQBVm9-n_eJk552FRLYeruQ.ttf
+    - https://fonts.gstatic.com/s/ojuju/v3/7r3bqXF7v9ApbrMih3jYQBVm9-n_lJ4552FRLYeruQ.ttf
+    - https://fonts.gstatic.com/s/ojuju/v3/7r3bqXF7v9ApbrMih3jYQBVm9-n_rZ4552FRLYeruQ.ttf
+    - https://fonts.gstatic.com/s/ojuju/v3/7r3bqXF7v9ApbrMih3jYQBVm9-n_yp4552FRLYeruQ.ttf
 fonts:
 - name: Ojuju
   styles:
@@ -15,14 +23,14 @@ fonts:
     post_script_name: Ojuju-Bold
     version: '1.000'
     copyright: Copyright 2024 The Ojuju Project Authors (https://github.com/jobosonchisa/ojuju)
-    font: Ojuju-Bold.ttf
+    font: 7r3bqXF7v9ApbrMih3jYQBVm9-n_rZ4552FRLYeruQ.ttf
   - family_name: Ojuju
     type: Regular
     full_name: Ojuju Regular
     post_script_name: Ojuju-Regular
     version: '1.000'
     copyright: Copyright 2024 The Ojuju Project Authors (https://github.com/jobosonchisa/ojuju)
-    font: Ojuju-Regular.ttf
+    font: 7r3bqXF7v9ApbrMih3jYQBVm9-n_Spk552FRLYeruQ.ttf
 - name: Ojuju ExtraBold
   styles:
   - family_name: Ojuju ExtraBold
@@ -33,7 +41,7 @@ fonts:
     post_script_name: Ojuju-ExtraBold
     version: '1.000'
     copyright: Copyright 2024 The Ojuju Project Authors (https://github.com/jobosonchisa/ojuju)
-    font: Ojuju-ExtraBold.ttf
+    font: 7r3bqXF7v9ApbrMih3jYQBVm9-n_yp4552FRLYeruQ.ttf
 - name: Ojuju ExtraLight
   styles:
   - family_name: Ojuju ExtraLight
@@ -44,16 +52,7 @@ fonts:
     post_script_name: Ojuju-ExtraLight
     version: '1.000'
     copyright: Copyright 2024 The Ojuju Project Authors (https://github.com/jobosonchisa/ojuju)
-    font: Ojuju-VariableFont_wght.ttf
-  - family_name: Ojuju ExtraLight
-    type: Regular
-    preferred_family_name: Ojuju
-    preferred_type: ExtraLight
-    full_name: Ojuju ExtraLight
-    post_script_name: Ojuju-ExtraLight
-    version: '1.000'
-    copyright: Copyright 2024 The Ojuju Project Authors (https://github.com/jobosonchisa/ojuju)
-    font: Ojuju-ExtraLight.ttf
+    font: 7r3bqXF7v9ApbrMih3jYQBVm9-n_ypk552FRLYeruQ.ttf
 - name: Ojuju Light
   styles:
   - family_name: Ojuju Light
@@ -64,7 +63,7 @@ fonts:
     post_script_name: Ojuju-Light
     version: '1.000'
     copyright: Copyright 2024 The Ojuju Project Authors (https://github.com/jobosonchisa/ojuju)
-    font: Ojuju-Light.ttf
+    font: 7r3bqXF7v9ApbrMih3jYQBVm9-n_FJk552FRLYeruQ.ttf
 - name: Ojuju Medium
   styles:
   - family_name: Ojuju Medium
@@ -75,7 +74,7 @@ fonts:
     post_script_name: Ojuju-Medium
     version: '1.000'
     copyright: Copyright 2024 The Ojuju Project Authors (https://github.com/jobosonchisa/ojuju)
-    font: Ojuju-Medium.ttf
+    font: 7r3bqXF7v9ApbrMih3jYQBVm9-n_eJk552FRLYeruQ.ttf
 - name: Ojuju SemiBold
   styles:
   - family_name: Ojuju SemiBold
@@ -86,7 +85,7 @@ fonts:
     post_script_name: Ojuju-SemiBold
     version: '1.000'
     copyright: Copyright 2024 The Ojuju Project Authors (https://github.com/jobosonchisa/ojuju)
-    font: Ojuju-SemiBold.ttf
+    font: 7r3bqXF7v9ApbrMih3jYQBVm9-n_lJ4552FRLYeruQ.ttf
 extract: {}
 copyright: Copyright 2024 The Ojuju Project Authors (https://github.com/jobosonchisa/ojuju)
 license_url: https://openfontlicense.org
@@ -184,5 +183,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e8b02ac787762e7ad0162d07fc81371a6e3a640b6c9ad39cfb291b9e6c75825b
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

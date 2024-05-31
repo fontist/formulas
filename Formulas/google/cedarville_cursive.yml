@@ -1,10 +1,12 @@
 ---
+name: Cedarville Cursive
 description: Cedarville Cursive
 resources:
-  Cedarville_Cursive.zip:
-    urls:
-    - https://fonts.google.com/download?family=Cedarville%20Cursive
-    sha256: 74a951164bd8fdbfa985e28981c620b74473d6d4401b461c16e32ed2c3688ee4
+  Cedarville Cursive:
+    source: google
+    family: Cedarville Cursive
+    files:
+    - https://fonts.gstatic.com/s/cedarvillecursive/v17/yYL00g_a2veiudhUmxjo5VKkoqA-B_neJbBxw8BeTg.ttf
 fonts:
 - name: Cedarville Cursive
   styles:
@@ -14,7 +16,7 @@ fonts:
     post_script_name: Cedarville-Cursive
     version: 1.001 2010
     copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
-    font: CedarvilleCursive-Regular.ttf
+    font: yYL00g_a2veiudhUmxjo5VKkoqA-B_neJbBxw8BeTg.ttf
 extract: {}
 copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
 license_url: http://scripts.sil.org/OFL
@@ -112,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: aa81afcca5d4f9b9edeae2f1cad84744dfe131b56dbac9e6dce7ab7900f1a883
-command: google import --formulas_path Formulas
+command: import google -n 9999

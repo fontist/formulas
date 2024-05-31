@@ -3,21 +3,15 @@ name: Unkempt
 description: Unkempt
 homepage: http://www.fontbros.com/sideshow.php
 resources:
-  Unkempt.zip:
-    urls:
-    - https://fonts.google.com/download?family=Unkempt
-    sha256: 2b317bbddd9bddca20ac6e6c4e710f09bbfd974a7deb12df7d188489f8adfa34
-    file_size: 191725
+  Unkempt:
+    source: google
+    family: Unkempt
+    files:
+    - https://fonts.gstatic.com/s/unkempt/v21/2EbnL-Z2DFZue0DSSYYf8z2Yt_c.ttf
+    - https://fonts.gstatic.com/s/unkempt/v21/2EbiL-Z2DFZue0DScTow1zWzq_5uT84.ttf
 fonts:
 - name: Unkempt
   styles:
-  - family_name: Unkempt
-    type: Regular
-    full_name: Unkempt Regular
-    post_script_name: Unkempt-Regular
-    version: '1.001'
-    copyright: Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.
-    font: Unkempt-Regular.ttf
   - family_name: Unkempt
     type: Bold
     full_name: Unkempt Bold
@@ -25,13 +19,19 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com)
       with Reseved Font Name "Unkempt Bold"
-    font: Unkempt-Bold.ttf
-extract:
-  format: zip
+    font: 2EbiL-Z2DFZue0DScTow1zWzq_5uT84.ttf
+  - family_name: Unkempt
+    type: Regular
+    full_name: Unkempt Regular
+    post_script_name: Unkempt-Regular
+    version: '1.001'
+    copyright: Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.
+    font: 2EbnL-Z2DFZue0DSSYYf8z2Yt_c.ttf
+extract: {}
 copyright: Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.
-license_url: http://scripts.sil.org/OFL
-open_license: |2-
-                                   Apache License
+license_url: http://www.apache.org/licenses/LICENSE-2.0
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -232,3 +232,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999

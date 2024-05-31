@@ -1,43 +1,25 @@
 ---
+name: Hedvig Letters Serif
 description: Hedvig Letters Serif
 homepage: http://www.kanonfoundry.com
 resources:
-  Hedvig_Letters_Serif.zip:
-    urls:
-    - https://fonts.google.com/download?family=Hedvig%20Letters%20Serif
-    file_size: 150674
+  Hedvig Letters Serif:
+    source: google
+    family: Hedvig Letters Serif
+    files:
+    - https://fonts.gstatic.com/s/hedviglettersserif/v2/OD5puN2I2mekHmyoU1Kj2AXOd5_7v7gIDlX8quj7viQ_N1HixEAZf7fcvSGpZg.ttf
 fonts:
-- name: Hedvig Letters Serif
-  styles:
-  - family_name: Hedvig Letters Serif
-    type: Regular
-    full_name: Hedvig Letters Serif Regular
-    post_script_name: HedvigLettersSerif-Regular
-    version: '1.000'
-    copyright: Copyright 2023 The Hedvig Letters Project Authors (https://github.com/KanonFoundry/HedvigLetters)
-    font: HedvigLettersSerif_14pt-Regular.ttf
-- name: Hedvig Letters Serif 18pt
-  styles:
-  - family_name: Hedvig Letters Serif 18pt
-    type: Regular
-    preferred_family_name: Hedvig Letters Serif 18pt
-    preferred_type: Regular
-    full_name: Hedvig Letters Serif 18pt Regular
-    post_script_name: HedvigLettersSerif18pt-Regular
-    version: '1.000'
-    copyright: Copyright 2023 The Hedvig Letters Project Authors (https://github.com/KanonFoundry/HedvigLetters)
-    font: HedvigLettersSerif_18pt-Regular.ttf
 - name: Hedvig Letters Serif 24pt
   styles:
   - family_name: Hedvig Letters Serif 24pt
     type: Regular
-    preferred_family_name: Hedvig Letters Serif
-    preferred_type: 24pt Regular
+    preferred_family_name: Hedvig Letters Serif 24pt
+    preferred_type: Regular
     full_name: Hedvig Letters Serif 24pt Regular
-    post_script_name: HedvigLettersSerif-24ptRegular
+    post_script_name: HedvigLettersSerif24pt-Regular
     version: '1.000'
     copyright: Copyright 2023 The Hedvig Letters Project Authors (https://github.com/KanonFoundry/HedvigLetters)
-    font: HedvigLettersSerif-Regular-VariableFont_opsz.ttf
+    font: OD5puN2I2mekHmyoU1Kj2AXOd5_7v7gIDlX8quj7viQ_N1HixEAZf7fcvSGpZg.ttf
 extract: {}
 copyright: Copyright 2023 The Hedvig Letters Project Authors (https://github.com/KanonFoundry/HedvigLetters)
 license_url: https://scripts.sil.org/OFL
@@ -46,7 +28,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -135,5 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 77920a22eca3dd1ceb4100ba686a6348bca07502033bbbe72e148cd5003f6ba2
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

@@ -3,11 +3,11 @@ name: Birthstone
 description: Birthstone
 homepage: www.typesetit.com
 resources:
-  Birthstone.zip:
-    urls:
-    - https://fonts.google.com/download?family=Birthstone
-    sha256: 8f71dc63841dcc4aa1dd654736c0212af233756a5f3055395582f93abad287bd
-    file_size: 185353
+  Birthstone:
+    source: google
+    family: Birthstone
+    files:
+    - https://fonts.gstatic.com/s/birthstone/v14/8AtsGs2xO4yLRhy87sv_HLn5jRfZHzM.ttf
 fonts:
 - name: Birthstone
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: Birthstone-Regular
     version: 1.013; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Birthstone Project Authors (https://github.com/googlefonts/birthstone)
-    font: Birthstone-Regular.ttf
+    font: 8AtsGs2xO4yLRhy87sv_HLn5jRfZHzM.ttf
 extract: {}
 copyright: Copyright 2019 The Birthstone Project Authors (https://github.com/googlefonts/birthstone)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 9366b7da7198b39201ac0252746314989df5c47221437a439edc344ca22b9baf
-command: google import --formulas_path Formulas
+command: import google -n 9999

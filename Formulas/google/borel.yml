@@ -1,12 +1,13 @@
 ---
+name: Borel
 description: Borel
 homepage: https://anrt-nancy.fr
 resources:
-  Borel.zip:
-    urls:
-    - https://fonts.google.com/download?family=Borel
-    sha256: 3a80bfe59874511c1a40b0d1cebdd8c612a1c99b31a9c67ee4b845f3e7599967
-    file_size: 74233
+  Borel:
+    source: google
+    family: Borel
+    files:
+    - https://fonts.gstatic.com/s/borel/v3/6qLOKZsftAPisgshYyMnOjwE.ttf
 fonts:
 - name: Borel
   styles:
@@ -16,7 +17,7 @@ fonts:
     post_script_name: Borel-Regular
     version: 1.005; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2023 The Borel Project Authors (https://github.com/RosaWagner/Borel)
-    font: Borel-Regular.ttf
+    font: 6qLOKZsftAPisgshYyMnOjwE.ttf
 extract: {}
 copyright: Copyright 2023 The Borel Project Authors (https://github.com/RosaWagner/Borel)
 license_url: https://scripts.sil.org/OFL
@@ -25,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -114,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: f4027efb3edceabae46b57d047ea54bfec2d6833356a3b76d6ffc42db6eb06b2
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

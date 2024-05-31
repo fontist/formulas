@@ -3,11 +3,11 @@ name: Frijole
 description: Frijole
 homepage: http://www.fontbros.com/sideshow.php
 resources:
-  Frijole.zip:
-    urls:
-    - https://fonts.google.com/download?family=Frijole
-    sha256: b1a758fd08cd20f510144a308f82475060f2e1cfa9d9f886520473d177a11ec2
-    file_size: 123414
+  Frijole:
+    source: google
+    family: Frijole
+    files:
+    - https://fonts.gstatic.com/s/frijole/v14/uU9PCBUR8oakM2BQ7xPb3vyHmlI.ttf
 fonts:
 - name: Frijole
   styles:
@@ -18,11 +18,10 @@ fonts:
     version: '1.000'
     copyright: Copyright (c) 2011 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com)
       with Reseved Font Name "Frijole"
-    font: Frijole-Regular.ttf
-extract:
-  format: zip
+    font: uU9PCBUR8oakM2BQ7xPb3vyHmlI.ttf
+extract: {}
 copyright: Copyright (c) 2011 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com)
-  with Reserved Font Name "Frijole"
+  with Reseved Font Name "Frijole"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Sideshow (a DBA of Font Diner, Inc) (www.fontdiner.com),
@@ -119,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -3,48 +3,17 @@ name: PT Serif
 description: PT Serif
 homepage: http://www.paratype.com
 resources:
-  PTSerif.zip:
-    urls:
-    - https://fonts.google.com/download?family=PT%20Serif
-    sha256: 6fa11bef62d1331f968c804d59fe35a8a38cccc5036593fcc39f1892534f5960
-    file_size: 437696
+  PT Serif:
+    source: google
+    family: PT Serif
+    files:
+    - https://fonts.gstatic.com/s/ptserif/v18/EJRVQgYoZZY2vCFuvDFRxL6ddjb-.ttf
+    - https://fonts.gstatic.com/s/ptserif/v18/EJRTQgYoZZY2vCFuvAFTzrq_cyb-vco.ttf
+    - https://fonts.gstatic.com/s/ptserif/v18/EJRSQgYoZZY2vCFuvAnt65qVXSr3pNNB.ttf
+    - https://fonts.gstatic.com/s/ptserif/v18/EJRQQgYoZZY2vCFuvAFT9gaQVy7VocNB6Iw.ttf
 fonts:
 - name: PT Serif
   styles:
-  - family_name: PT Serif
-    type: Regular
-    full_name: PT Serif
-    post_script_name: PTSerif-Regular
-    version: 1.000W OFL
-    description: 'PT Serif is a universal type family designed for use together with
-      PT Sans released earlier. PT Serif coordinates with PT Sans on metrics, proportions,
-      weights and design. It consists of six styles: regular and bold weights with
-      corresponding italics form a standard computer font family; two caption styles
-      (regular and italic) are for texts of small point sizes. The letterforms are
-      distinguished by large x-height, modest stroke contrast, robust wedge-like serifs,
-      and triangular terminals. Due to these features the face can be qualified as
-      matched to modern trends of type design and of enhanced legibility. Mentioned
-      characteristics beside conventional use in business applications and printed
-      stuff make the fonts quite useable for advertising and display typography.'
-    copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
-    font: PT_Serif-Web-Regular.ttf
-  - family_name: PT Serif
-    type: Italic
-    full_name: PT Serif Italic
-    post_script_name: PTSerif-Italic
-    version: 1.000W OFL
-    description: 'PT Serif is a universal type family designed for use together with
-      PT Sans released earlier. PT Serif coordinates with PT Sans on metrics, proportions,
-      weights and design. It consists of six styles: regular and bold weights with
-      corresponding italics form a standard computer font family; two caption styles
-      (regular and italic) are for texts of small point sizes. The letterforms are
-      distinguished by large x-height, modest stroke contrast, robust wedge-like serifs,
-      and triangular terminals. Due to these features the face can be qualified as
-      matched to modern trends of type design and of enhanced legibility. Mentioned
-      characteristics beside conventional use in business applications and printed
-      stuff make the fonts quite useable for advertising and display typography.'
-    copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
-    font: PT_Serif-Web-Italic.ttf
   - family_name: PT Serif
     type: Bold
     full_name: PT Serif Bold
@@ -61,7 +30,7 @@ fonts:
       characteristics beside conventional use in business applications and printed
       stuff make the fonts quite useable for advertising and display typography.'
     copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
-    font: PT_Serif-Web-Bold.ttf
+    font: EJRSQgYoZZY2vCFuvAnt65qVXSr3pNNB.ttf
   - family_name: PT Serif
     type: Bold Italic
     full_name: PT Serif Bold Italic
@@ -78,10 +47,43 @@ fonts:
       characteristics beside conventional use in business applications and printed
       stuff make the fonts quite useable for advertising and display typography.'
     copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
-    font: PT_Serif-Web-BoldItalic.ttf
-extract:
-  format: zip
-copyright: Copyright © 2010 ParaType Ltd (yakupov@paratype.com). All rights reserved.
+    font: EJRQQgYoZZY2vCFuvAFT9gaQVy7VocNB6Iw.ttf
+  - family_name: PT Serif
+    type: Italic
+    full_name: PT Serif Italic
+    post_script_name: PTSerif-Italic
+    version: 1.000W OFL
+    description: 'PT Serif is a universal type family designed for use together with
+      PT Sans released earlier. PT Serif coordinates with PT Sans on metrics, proportions,
+      weights and design. It consists of six styles: regular and bold weights with
+      corresponding italics form a standard computer font family; two caption styles
+      (regular and italic) are for texts of small point sizes. The letterforms are
+      distinguished by large x-height, modest stroke contrast, robust wedge-like serifs,
+      and triangular terminals. Due to these features the face can be qualified as
+      matched to modern trends of type design and of enhanced legibility. Mentioned
+      characteristics beside conventional use in business applications and printed
+      stuff make the fonts quite useable for advertising and display typography.'
+    copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
+    font: EJRTQgYoZZY2vCFuvAFTzrq_cyb-vco.ttf
+  - family_name: PT Serif
+    type: Regular
+    full_name: PT Serif
+    post_script_name: PTSerif-Regular
+    version: 1.000W OFL
+    description: 'PT Serif is a universal type family designed for use together with
+      PT Sans released earlier. PT Serif coordinates with PT Sans on metrics, proportions,
+      weights and design. It consists of six styles: regular and bold weights with
+      corresponding italics form a standard computer font family; two caption styles
+      (regular and italic) are for texts of small point sizes. The letterforms are
+      distinguished by large x-height, modest stroke contrast, robust wedge-like serifs,
+      and triangular terminals. Due to these features the face can be qualified as
+      matched to modern trends of type design and of enhanced legibility. Mentioned
+      characteristics beside conventional use in business applications and printed
+      stuff make the fonts quite useable for advertising and display typography.'
+    copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
+    font: EJRVQgYoZZY2vCFuvDFRxL6ddjb-.ttf
+extract: {}
+copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
 license_url: http://scripts.sil.org/OFL_web
 open_license: |-
   Copyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),
@@ -177,3 +179,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

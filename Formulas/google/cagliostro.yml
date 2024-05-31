@@ -3,11 +3,11 @@ name: Cagliostro
 description: Cagliostro
 homepage: http://www.madtype.com
 resources:
-  Cagliostro.zip:
-    urls:
-    - https://fonts.google.com/download?family=Cagliostro
-    sha256: c17ef095a9bbdd3b4e8ca4f5581ef5830fec61a944ea8ef3631dd368885bfd9e
-    file_size: 21966
+  Cagliostro:
+    source: google
+    family: Cagliostro
+    files:
+    - https://fonts.gstatic.com/s/cagliostro/v21/ZgNWjP5HM73BV5amnX-TjGXEM4COoE4.ttf
 fonts:
 - name: Cagliostro
   styles:
@@ -19,9 +19,8 @@ fonts:
     description: Inspired by a design by Ozwald Bruce Cooper.
     copyright: Copyright (c) 2011 Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com),
       with Reserved Font Name "Cagliostro"
-    font: Cagliostro-Regular.ttf
-extract:
-  format: zip
+    font: ZgNWjP5HM73BV5amnX-TjGXEM4COoE4.ttf
+extract: {}
 copyright: Copyright (c) 2011 Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com),
   with Reserved Font Name "Cagliostro"
 license_url: http://scripts.sil.org/OFL
@@ -119,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

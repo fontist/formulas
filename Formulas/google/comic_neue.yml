@@ -1,59 +1,70 @@
 ---
+name: Comic Neue
 description: Comic Neue
 homepage: http://www.comicneue.com
 resources:
-  ComicNeue.zip:
-    urls:
-    - https://fonts.google.com/download?family=Comic%20Neue
-    sha256: 9f254e5cd219c1aa9b1f18e73c2588d8cd8587ac16997eeff9adb0d556fa6461
-    file_size: 179735
+  Comic Neue:
+    source: google
+    family: Comic Neue
+    files:
+    - https://fonts.gstatic.com/s/comicneue/v8/4UaErEJDsxBrF37olUeD_wHLwpteLwtHJlc.ttf
+    - https://fonts.gstatic.com/s/comicneue/v8/4UaarEJDsxBrF37olUeD96_RTplUKylCNlcw_Q.ttf
+    - https://fonts.gstatic.com/s/comicneue/v8/4UaHrEJDsxBrF37olUeDx63j5pN1MwI.ttf
+    - https://fonts.gstatic.com/s/comicneue/v8/4UaFrEJDsxBrF37olUeD96_p4rFwIwJePw.ttf
+    - https://fonts.gstatic.com/s/comicneue/v8/4UaErEJDsxBrF37olUeD_xHMwpteLwtHJlc.ttf
+    - https://fonts.gstatic.com/s/comicneue/v8/4UaarEJDsxBrF37olUeD96_RXp5UKylCNlcw_Q.ttf
 fonts:
 - name: Comic Neue
   styles:
-  - family_name: Comic Neue
-    type: Light
-    full_name: Comic Neue Light
-    post_script_name: ComicNeue-Light
-    version: '2.003'
-    copyright: Copyright 2014 The Comic Neue Project Authors (https://github.com/crozynski/comicneue)
-    font: ComicNeue-Light.ttf
-  - family_name: Comic Neue
-    type: Light Italic
-    full_name: Comic Neue Light Italic
-    post_script_name: ComicNeue-LightItalic
-    version: '2.003'
-    copyright: Copyright 2014 The Comic Neue Project Authors (https://github.com/crozynski/comicneue)
-    font: ComicNeue-LightItalic.ttf
-  - family_name: Comic Neue
-    type: Regular
-    full_name: Comic Neue Regular
-    post_script_name: ComicNeue-Regular
-    version: '2.003'
-    copyright: Copyright 2014 The Comic Neue Project Authors (https://github.com/crozynski/comicneue)
-    font: ComicNeue-Regular.ttf
-  - family_name: Comic Neue
-    type: Italic
-    full_name: Comic Neue Italic
-    post_script_name: ComicNeue-Italic
-    version: '2.003'
-    copyright: Copyright 2014 The Comic Neue Project Authors (https://github.com/crozynski/comicneue)
-    font: ComicNeue-Italic.ttf
   - family_name: Comic Neue
     type: Bold
     full_name: Comic Neue Bold
     post_script_name: ComicNeue-Bold
     version: '2.003'
     copyright: Copyright 2014 The Comic Neue Project Authors (https://github.com/crozynski/comicneue)
-    font: ComicNeue-Bold.ttf
+    font: 4UaErEJDsxBrF37olUeD_xHMwpteLwtHJlc.ttf
   - family_name: Comic Neue
     type: Bold Italic
     full_name: Comic Neue Bold Italic
     post_script_name: ComicNeue-BoldItalic
     version: '2.003'
     copyright: Copyright 2014 The Comic Neue Project Authors (https://github.com/crozynski/comicneue)
-    font: ComicNeue-BoldItalic.ttf
-extract:
-  format: zip
+    font: 4UaarEJDsxBrF37olUeD96_RXp5UKylCNlcw_Q.ttf
+  - family_name: Comic Neue
+    type: Italic
+    full_name: Comic Neue Italic
+    post_script_name: ComicNeue-Italic
+    version: '2.003'
+    copyright: Copyright 2014 The Comic Neue Project Authors (https://github.com/crozynski/comicneue)
+    font: 4UaFrEJDsxBrF37olUeD96_p4rFwIwJePw.ttf
+  - family_name: Comic Neue
+    type: Regular
+    full_name: Comic Neue Regular
+    post_script_name: ComicNeue-Regular
+    version: '2.003'
+    copyright: Copyright 2014 The Comic Neue Project Authors (https://github.com/crozynski/comicneue)
+    font: 4UaHrEJDsxBrF37olUeDx63j5pN1MwI.ttf
+- name: Comic Neue Light
+  styles:
+  - family_name: Comic Neue Light
+    type: Italic
+    preferred_family_name: Comic Neue
+    preferred_type: Light Italic
+    full_name: Comic Neue Light Italic
+    post_script_name: ComicNeue-LightItalic
+    version: '2.003'
+    copyright: Copyright 2014 The Comic Neue Project Authors (https://github.com/crozynski/comicneue)
+    font: 4UaarEJDsxBrF37olUeD96_RTplUKylCNlcw_Q.ttf
+  - family_name: Comic Neue Light
+    type: Regular
+    preferred_family_name: Comic Neue
+    preferred_type: Light
+    full_name: Comic Neue Light
+    post_script_name: ComicNeue-Light
+    version: '2.003'
+    copyright: Copyright 2014 The Comic Neue Project Authors (https://github.com/crozynski/comicneue)
+    font: 4UaErEJDsxBrF37olUeD_wHLwpteLwtHJlc.ttf
+extract: {}
 copyright: Copyright 2014 The Comic Neue Project Authors (https://github.com/crozynski/comicneue)
 license_url: https://scripts.sil.org/OFL
 open_license: |-
@@ -150,3 +161,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -3,11 +3,11 @@ name: Grechen Fuemen
 description: Grechen Fuemen
 homepage: www.typesetit.com
 resources:
-  Grechen_Fuemen.zip:
-    urls:
-    - https://fonts.google.com/download?family=Grechen%20Fuemen
-    sha256: 67012986f855d42c42a93a108c0be569df0d564f591f188b57a52e871dce9cfd
-    file_size: 65903
+  Grechen Fuemen:
+    source: google
+    family: Grechen Fuemen
+    files:
+    - https://fonts.gstatic.com/s/grechenfuemen/v9/vEFI2_tHEQ4d5ObgKxBzZh0MAWgc-NaXXq7H.ttf
 fonts:
 - name: Grechen Fuemen
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: GrechenFuemen-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2003-2021 The Grechen Fuemen Project Authors (https://github.com/googlefonts/grechen-fuemen)
-    font: GrechenFuemen-Regular.ttf
+    font: vEFI2_tHEQ4d5ObgKxBzZh0MAWgc-NaXXq7H.ttf
 extract: {}
 copyright: Copyright 2003-2021 The Grechen Fuemen Project Authors (https://github.com/googlefonts/grechen-fuemen)
 license_url: https://scripts.sil.org/OFL
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: c0744f30adb5790c00f45f1fefa46764ea24a3ace1debb28131d53bb58e2851f
-command: google import --formulas_path Formulas
+command: import google -n 9999

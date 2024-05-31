@@ -3,11 +3,11 @@ name: Road Rage
 description: Road Rage
 homepage: www.typesetit.com
 resources:
-  Road_Rage.zip:
-    urls:
-    - https://fonts.google.com/download?family=Road%20Rage
-    sha256: 757eda6973d93325250107d6345df70d34896407e6c3b5b91bd525da96e526a0
-    file_size: 170596
+  Road Rage:
+    source: google
+    family: Road Rage
+    files:
+    - https://fonts.gstatic.com/s/roadrage/v7/6NUU8F2fKAOBKjjr4ekvtMYAwdRZfw.ttf
 fonts:
 - name: Road Rage
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: RoadRage-Regular
     version: '1.010'
     copyright: Copyright 2010 The Road Rage Project Authors (https://github.com/googlefonts/road-rage)
-    font: RoadRage-Regular.ttf
+    font: 6NUU8F2fKAOBKjjr4ekvtMYAwdRZfw.ttf
 extract: {}
 copyright: Copyright 2010 The Road Rage Project Authors (https://github.com/googlefonts/road-rage)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 7053f76954425bd784ad55651b6c09eb40896266355649cf0836d1828019772b
-command: google import --formulas_path Formulas
+command: import google -n 9999

@@ -3,11 +3,11 @@ name: Montez
 description: Montez
 homepage: http://www.astigmatic.com/
 resources:
-  Montez.zip:
-    urls:
-    - https://fonts.google.com/download?family=Montez
-    sha256: 0b8448bd1c847cec74db195c1787d1bed7db7a11b2d20c4032dca601b3931220
-    file_size: 36505
+  Montez:
+    source: google
+    family: Montez
+    files:
+    - https://fonts.gstatic.com/s/montez/v22/845ZNMk5GoGIX8lm1LDeSd-R_g.ttf
 fonts:
 - name: Montez
   styles:
@@ -19,14 +19,14 @@ fonts:
     copyright: |-
       Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.
       http://www.apache.org/licenses/LICENSE-2.0.html
-    font: Montez-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All
-  rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html
+    font: 845ZNMk5GoGIX8lm1LDeSd-R_g.ttf
+extract: {}
+copyright: |-
+  Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.
+  http://www.apache.org/licenses/LICENSE-2.0.html
 license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |2-
-                                   Apache License
+open_license: |-
+  Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -227,3 +227,4 @@ open_license: |2-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+command: import google -n 9999

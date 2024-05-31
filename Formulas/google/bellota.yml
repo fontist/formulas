@@ -3,58 +3,68 @@ name: Bellota
 description: Bellota
 homepage: http://www.pixilate.com
 resources:
-  Bellota.zip:
-    urls:
-    - https://fonts.google.com/download?family=Bellota
-    sha256: 9a8500c027e3adf04ca7abfe3620469f8bc4ae4e0480d05b071b3d0b9674a9e2
-    file_size: 554438
+  Bellota:
+    source: google
+    family: Bellota
+    files:
+    - https://fonts.gstatic.com/s/bellota/v16/MwQzbhXl3_qEpiwAID55kGMViblPtXs.ttf
+    - https://fonts.gstatic.com/s/bellota/v16/MwQxbhXl3_qEpiwAKJBjHGEfjZtKpXulTQ.ttf
+    - https://fonts.gstatic.com/s/bellota/v16/MwQ2bhXl3_qEpiwAGJJRtGs-lbA.ttf
+    - https://fonts.gstatic.com/s/bellota/v16/MwQ0bhXl3_qEpiwAKJBbsEk7hbBWrA.ttf
+    - https://fonts.gstatic.com/s/bellota/v16/MwQzbhXl3_qEpiwAIC5-kGMViblPtXs.ttf
+    - https://fonts.gstatic.com/s/bellota/v16/MwQxbhXl3_qEpiwAKJBjDGYfjZtKpXulTQ.ttf
 fonts:
 - name: Bellota
   styles:
-  - family_name: Bellota
-    type: Light
-    full_name: Bellota Light
-    post_script_name: Bellota-Light
-    version: '4.001'
-    copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
-    font: Bellota-Light.ttf
-  - family_name: Bellota
-    type: Light Italic
-    full_name: Bellota Light Italic
-    post_script_name: Bellota-LightItalic
-    version: '4.001'
-    copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
-    font: Bellota-LightItalic.ttf
-  - family_name: Bellota
-    type: Regular
-    full_name: Bellota Regular
-    post_script_name: Bellota-Regular
-    version: '4.001'
-    copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
-    font: Bellota-Regular.ttf
-  - family_name: Bellota
-    type: Italic
-    full_name: Bellota Italic
-    post_script_name: Bellota-Italic
-    version: '4.001'
-    copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
-    font: Bellota-Italic.ttf
   - family_name: Bellota
     type: Bold
     full_name: Bellota Bold
     post_script_name: Bellota-Bold
     version: '4.001'
     copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
-    font: Bellota-Bold.ttf
+    font: MwQzbhXl3_qEpiwAIC5-kGMViblPtXs.ttf
   - family_name: Bellota
     type: Bold Italic
     full_name: Bellota Bold Italic
     post_script_name: Bellota-BoldItalic
     version: '4.001'
     copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
-    font: Bellota-BoldItalic.ttf
-extract:
-  format: zip
+    font: MwQxbhXl3_qEpiwAKJBjDGYfjZtKpXulTQ.ttf
+  - family_name: Bellota
+    type: Italic
+    full_name: Bellota Italic
+    post_script_name: Bellota-Italic
+    version: '4.001'
+    copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
+    font: MwQ0bhXl3_qEpiwAKJBbsEk7hbBWrA.ttf
+  - family_name: Bellota
+    type: Regular
+    full_name: Bellota Regular
+    post_script_name: Bellota-Regular
+    version: '4.001'
+    copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
+    font: MwQ2bhXl3_qEpiwAGJJRtGs-lbA.ttf
+- name: Bellota Light
+  styles:
+  - family_name: Bellota Light
+    type: Italic
+    preferred_family_name: Bellota
+    preferred_type: Light Italic
+    full_name: Bellota Light Italic
+    post_script_name: Bellota-LightItalic
+    version: '4.001'
+    copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
+    font: MwQxbhXl3_qEpiwAKJBjHGEfjZtKpXulTQ.ttf
+  - family_name: Bellota Light
+    type: Regular
+    preferred_family_name: Bellota
+    preferred_type: Light
+    full_name: Bellota Light
+    post_script_name: Bellota-Light
+    version: '4.001'
+    copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
+    font: MwQzbhXl3_qEpiwAID55kGMViblPtXs.ttf
+extract: {}
 copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -151,3 +161,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

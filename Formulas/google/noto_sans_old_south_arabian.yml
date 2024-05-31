@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Old South Arabian
 description: Noto Sans Old South Arabian
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Old_South_Arabian.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Old%20South%20Arabian
-    sha256: b8ba1d13adaa2b963d28d034233e6d2743e548b8ac2214b2bb45428e22e194ae
-    file_size: 30788
+  Noto Sans Old South Arabian:
+    source: google
+    family: Noto Sans Old South Arabian
+    files:
+    - https://fonts.gstatic.com/s/notosansoldsoutharabian/v16/3qT5oiOhnSyU8TNFIdhZTice3hB_HWKsEnF--0XCHiKx1OtDT9HwTA.ttf
 fonts:
 - name: Noto Sans Old South Arabian
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-south-arabian)
-    font: NotoSansOldSouthArabian-Regular.ttf
+    font: 3qT5oiOhnSyU8TNFIdhZTice3hB_HWKsEnF--0XCHiKx1OtDT9HwTA.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-south-arabian)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 0e43c33f2da699ad2b5ce17831f9adc5b391c79f18ca9a467d97409f7ec1bb56
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

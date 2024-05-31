@@ -1,11 +1,16 @@
 ---
+name: Edu VIC WA NT Beginner
 description: Edu VIC WA NT Beginner
 homepage: https://github.com/MezMerrit/AU-School-Handwriting-Fonts
 resources:
-  Edu_VIC_WA_NT_Beginner.zip:
-    urls:
-    - https://fonts.google.com/download?family=Edu%20VIC%20WA%20NT%20Beginner
-    file_size: 76715
+  Edu VIC WA NT Beginner:
+    source: google
+    family: Edu VIC WA NT Beginner
+    files:
+    - https://fonts.gstatic.com/s/eduvicwantbeginner/v4/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-OXlPmFXwnpkeGR.ttf
+    - https://fonts.gstatic.com/s/eduvicwantbeginner/v4/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-OllPmFXwnpkeGR.ttf
+    - https://fonts.gstatic.com/s/eduvicwantbeginner/v4/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-NJk_mFXwnpkeGR.ttf
+    - https://fonts.gstatic.com/s/eduvicwantbeginner/v4/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-Nwk_mFXwnpkeGR.ttf
 fonts:
 - name: Edu VIC WA NT Beginner
   styles:
@@ -16,7 +21,7 @@ fonts:
     version: '1.003'
     description: Australian VIC WA NT School Handwriting Font (Print)
     copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
-    font: EduVICWANTBeginner-Bold.ttf
+    font: jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-Nwk_mFXwnpkeGR.ttf
   - family_name: Edu VIC WA NT Beginner
     type: Regular
     full_name: Edu VIC WA NT Beginner Regular
@@ -24,15 +29,7 @@ fonts:
     version: '1.003'
     description: Australian VIC WA NT School Handwriting Font (Print)
     copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
-    font: EduVICWANTBeginner-Regular.ttf
-  - family_name: Edu VIC WA NT Beginner
-    type: Regular
-    full_name: Edu VIC WA NT Beginner Regular
-    post_script_name: EduVICWANTBeginner-Regular
-    version: '1.003'
-    description: Australian VIC WA NT School Handwriting Font (Print)
-    copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
-    font: EduVICWANTBeginner-VariableFont_wght.ttf
+    font: jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-OXlPmFXwnpkeGR.ttf
 - name: Edu VIC WA NT Beginner Medium
   styles:
   - family_name: Edu VIC WA NT Beginner Medium
@@ -44,7 +41,7 @@ fonts:
     version: '1.003'
     description: Australian VIC WA NT School Handwriting Font (Print)
     copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
-    font: EduVICWANTBeginner-Medium.ttf
+    font: jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-OllPmFXwnpkeGR.ttf
 - name: Edu VIC WA NT Beginner SemiBold
   styles:
   - family_name: Edu VIC WA NT Beginner SemiBold
@@ -56,7 +53,7 @@ fonts:
     version: '1.003'
     description: Australian VIC WA NT School Handwriting Font (Print)
     copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
-    font: EduVICWANTBeginner-SemiBold.ttf
+    font: jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-NJk_mFXwnpkeGR.ttf
 extract: {}
 copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
 license_url: https://scripts.sil.org/OFL
@@ -65,7 +62,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -154,5 +151,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 800ca9bd2ac6290bbc51f238019c5c75da37d9b76c140c8d16beebbcb3a2daf7
-command: import google --formulas_path Formulas
+command: import google -n 9999

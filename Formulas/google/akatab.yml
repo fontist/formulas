@@ -1,12 +1,18 @@
 ---
+name: Akatab
 description: Akatab
 homepage: https://scripts.sil.org
 resources:
-  Akatab.zip:
-    urls:
-    - https://fonts.google.com/download?family=Akatab
-    sha256: db8f6c5b79997f617d45c80da48eac079fcbf148f94acc7ba8533dea92c2c628
-    file_size: 262273
+  Akatab:
+    source: google
+    family: Akatab
+    files:
+    - https://fonts.gstatic.com/s/akatab/v7/VuJwdNrK3Z7gqJEPWIz5NIh-YA.ttf
+    - https://fonts.gstatic.com/s/akatab/v7/VuJzdNrK3Z7gqJE3rKXdPKNiaRpFvg.ttf
+    - https://fonts.gstatic.com/s/akatab/v7/VuJzdNrK3Z7gqJE3gKLdPKNiaRpFvg.ttf
+    - https://fonts.gstatic.com/s/akatab/v7/VuJzdNrK3Z7gqJE35KPdPKNiaRpFvg.ttf
+    - https://fonts.gstatic.com/s/akatab/v7/VuJzdNrK3Z7gqJE3-KDdPKNiaRpFvg.ttf
+    - https://fonts.gstatic.com/s/akatab/v7/VuJzdNrK3Z7gqJE33KHdPKNiaRpFvg.ttf
 fonts:
 - name: Akatab
   styles:
@@ -20,7 +26,7 @@ fonts:
     copyright: Copyright (c) 2010-2023, SIL International (https://scripts.sil.org),
       with Reserved Font Name "Akatab", copyright 2010-2019 Adobe (http://www.adobe.com/),
       with Reserved Font Name "Source" (Latin glyphs).
-    font: Akatab-Bold.ttf
+    font: VuJzdNrK3Z7gqJE35KPdPKNiaRpFvg.ttf
   - family_name: Akatab
     type: Regular
     full_name: Akatab
@@ -31,7 +37,7 @@ fonts:
     copyright: Copyright (c) 2010-2023, SIL International (https://scripts.sil.org),
       with Reserved Font Name "Akatab", copyright 2010-2019 Adobe (http://www.adobe.com/),
       with Reserved Font Name "Source" (Latin glyphs).
-    font: Akatab-Regular.ttf
+    font: VuJwdNrK3Z7gqJEPWIz5NIh-YA.ttf
 - name: Akatab Black
   styles:
   - family_name: Akatab Black
@@ -46,7 +52,7 @@ fonts:
     copyright: Copyright (c) 2010-2023, SIL International (https://scripts.sil.org),
       with Reserved Font Name "Akatab", copyright 2010-2019 Adobe (http://www.adobe.com/),
       with Reserved Font Name "Source" (Latin glyphs).
-    font: Akatab-Black.ttf
+    font: VuJzdNrK3Z7gqJE33KHdPKNiaRpFvg.ttf
 - name: Akatab ExtraBold
   styles:
   - family_name: Akatab ExtraBold
@@ -61,7 +67,7 @@ fonts:
     copyright: Copyright (c) 2010-2023, SIL International (https://scripts.sil.org),
       with Reserved Font Name "Akatab", copyright 2010-2019 Adobe (http://www.adobe.com/),
       with Reserved Font Name "Source" (Latin glyphs).
-    font: Akatab-ExtraBold.ttf
+    font: VuJzdNrK3Z7gqJE3-KDdPKNiaRpFvg.ttf
 - name: Akatab Medium
   styles:
   - family_name: Akatab Medium
@@ -76,7 +82,7 @@ fonts:
     copyright: Copyright (c) 2010-2023, SIL International (https://scripts.sil.org),
       with Reserved Font Name "Akatab", copyright 2010-2019 Adobe (http://www.adobe.com/),
       with Reserved Font Name "Source" (Latin glyphs).
-    font: Akatab-Medium.ttf
+    font: VuJzdNrK3Z7gqJE3rKXdPKNiaRpFvg.ttf
 - name: Akatab SemiBold
   styles:
   - family_name: Akatab SemiBold
@@ -91,7 +97,7 @@ fonts:
     copyright: Copyright (c) 2010-2023, SIL International (https://scripts.sil.org),
       with Reserved Font Name "Akatab", copyright 2010-2019 Adobe (http://www.adobe.com/),
       with Reserved Font Name "Source" (Latin glyphs).
-    font: Akatab-SemiBold.ttf
+    font: VuJzdNrK3Z7gqJE3gKLdPKNiaRpFvg.ttf
 extract: {}
 copyright: Copyright (c) 2010-2023, SIL International (https://scripts.sil.org), with
   Reserved Font Name "Akatab", copyright 2010-2019 Adobe (http://www.adobe.com/),
@@ -194,5 +200,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: f5de0ce3b7ea3fb39d996313e684adaffa68edac674c67e81099ee23d1225ca8
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

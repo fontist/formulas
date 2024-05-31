@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Old Persian
 description: Noto Sans Old Persian
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Old_Persian.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Old%20Persian
-    sha256: f7f3b493007b73a846d654394891fd5f04d536b2a668d84ec52ba8230430d0db
-    file_size: 34292
+  Noto Sans Old Persian:
+    source: google
+    family: Noto Sans Old Persian
+    files:
+    - https://fonts.gstatic.com/s/notosansoldpersian/v16/wEOjEAbNnc5caQTFG18FHrZr9Bp6-8CmIJ_tqOlQfx9CjA.ttf
 fonts:
 - name: Noto Sans Old Persian
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-persian)
-    font: NotoSansOldPersian-Regular.ttf
+    font: wEOjEAbNnc5caQTFG18FHrZr9Bp6-8CmIJ_tqOlQfx9CjA.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/old-persian)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 89f5a631db11376d291f0f920adb09421e654a6e51c79aadd90df1e05e52839b
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

@@ -3,22 +3,15 @@ name: DM Serif Display
 description: DM Serif Display
 homepage: http://www.colophon-foundry.org
 resources:
-  DMSerifDisplay.zip:
-    urls:
-    - https://fonts.google.com/download?family=DM%20Serif%20Display
-    sha256: 0d6be3f124eec4a53f941ffaf52c5101254fcfcf44373b22cb1155e4ca26c98f
-    file_size: 80665
+  DM Serif Display:
+    source: google
+    family: DM Serif Display
+    files:
+    - https://fonts.gstatic.com/s/dmserifdisplay/v15/-nFnOHM81r4j6k0gjAW3mujVU2B2K_d709jy92k.ttf
+    - https://fonts.gstatic.com/s/dmserifdisplay/v15/-nFhOHM81r4j6k0gjAW3mujVU2B2G_Vx1_r352np3Q.ttf
 fonts:
 - name: DM Serif Display
   styles:
-  - family_name: DM Serif Display
-    type: Regular
-    full_name: DM Serif Display Regular
-    post_script_name: DMSerifDisplay-Regular
-    version: 5.200; ttfautohint (v1.8.3)
-    copyright: Copyright 2014 - 2017 Adobe Systems Incorporated (http://www.adobe.com/),
-      with Reserved Font Name 'Source'. Copyright 2019 Google LLC.
-    font: DMSerifDisplay-Regular.ttf
   - family_name: DM Serif Display
     type: Italic
     full_name: DM Serif Display Italic
@@ -26,9 +19,16 @@ fonts:
     version: 5.200; ttfautohint (v1.8.3)
     copyright: Copyright 2014 - 2017 Adobe Systems Incorporated (http://www.adobe.com/),
       with Reserved Font Name 'Source'. Copyright 2019 Google LLC.
-    font: DMSerifDisplay-Italic.ttf
-extract:
-  format: zip
+    font: "-nFhOHM81r4j6k0gjAW3mujVU2B2G_Vx1_r352np3Q.ttf"
+  - family_name: DM Serif Display
+    type: Regular
+    full_name: DM Serif Display Regular
+    post_script_name: DMSerifDisplay-Regular
+    version: 5.200; ttfautohint (v1.8.3)
+    copyright: Copyright 2014 - 2017 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name 'Source'. Copyright 2019 Google LLC.
+    font: "-nFnOHM81r4j6k0gjAW3mujVU2B2K_d709jy92k.ttf"
+extract: {}
 copyright: Copyright 2014 - 2017 Adobe Systems Incorporated (http://www.adobe.com/),
   with Reserved Font Name 'Source'. Copyright 2019 Google LLC.
 license_url: http://scripts.sil.org/OFL
@@ -126,3 +126,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

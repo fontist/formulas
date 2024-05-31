@@ -3,11 +3,11 @@ name: Alata
 description: Alata
 homepage: www.sorkintype.com
 resources:
-  Alata.zip:
-    urls:
-    - https://fonts.google.com/download?family=Alata
-    sha256: a1266d0d6df4b52aee442767822ae81c5b0e8ebb3a8611111c1280e7f0cc7943
-    file_size: 50403
+  Alata:
+    source: google
+    family: Alata
+    files:
+    - https://fonts.gstatic.com/s/alata/v9/PbytFmztEwbIofe6xKcRQEOX.ttf
 fonts:
 - name: Alata
   styles:
@@ -18,17 +18,16 @@ fonts:
     version: '1.004'
     description: Alata is a geometric sans.
     copyright: Copyright 2019 The Alata Project Authors (https://github.com/SorkinType/Alata)
-    font: Alata-Regular.ttf
-extract:
-  format: zip
+    font: PbytFmztEwbIofe6xKcRQEOX.ttf
+extract: {}
 copyright: Copyright 2019 The Alata Project Authors (https://github.com/SorkinType/Alata)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
-  Copyright 2016 The Alata Project Authors (https://github.com/sorkintype/alata)
+  Copyright 2016 The Alata Project Authors (https://github.com/SorkinType/Alata)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://openfontlicense.org
 
 
   -----------------------------------------------------------
@@ -117,3 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

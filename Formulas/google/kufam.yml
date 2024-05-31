@@ -3,10 +3,22 @@ name: Kufam
 description: Kufam
 homepage: https://originaltype.com/
 resources:
-  Kufam.zip:
-    urls:
-    - https://fonts.google.com/download?family=Kufam
-    file_size: 1957426
+  Kufam:
+    source: google
+    family: Kufam
+    files:
+    - https://fonts.gstatic.com/s/kufam/v21/C8c-4cY7pG7w_oSJDszBXsKCcBH3lqk7qQCJHvIwYg.ttf
+    - https://fonts.gstatic.com/s/kufam/v21/C8c-4cY7pG7w_oSJDszBXsKCcBH3pKk7qQCJHvIwYg.ttf
+    - https://fonts.gstatic.com/s/kufam/v21/C8c-4cY7pG7w_oSJDszBXsKCcBH3SK47qQCJHvIwYg.ttf
+    - https://fonts.gstatic.com/s/kufam/v21/C8c-4cY7pG7w_oSJDszBXsKCcBH3ca47qQCJHvIwYg.ttf
+    - https://fonts.gstatic.com/s/kufam/v21/C8c-4cY7pG7w_oSJDszBXsKCcBH3Fq47qQCJHvIwYg.ttf
+    - https://fonts.gstatic.com/s/kufam/v21/C8c-4cY7pG7w_oSJDszBXsKCcBH3P647qQCJHvIwYg.ttf
+    - https://fonts.gstatic.com/s/kufam/v21/C8c84cY7pG7w_q6APDMZN6kY3hbiXurT6gqNPPcgYp0i.ttf
+    - https://fonts.gstatic.com/s/kufam/v21/C8c84cY7pG7w_q6APDMZN6kY3hbiXurh6gqNPPcgYp0i.ttf
+    - https://fonts.gstatic.com/s/kufam/v21/C8c84cY7pG7w_q6APDMZN6kY3hbiXuoN7QqNPPcgYp0i.ttf
+    - https://fonts.gstatic.com/s/kufam/v21/C8c84cY7pG7w_q6APDMZN6kY3hbiXuo07QqNPPcgYp0i.ttf
+    - https://fonts.gstatic.com/s/kufam/v21/C8c84cY7pG7w_q6APDMZN6kY3hbiXupT7QqNPPcgYp0i.ttf
+    - https://fonts.gstatic.com/s/kufam/v21/C8c84cY7pG7w_q6APDMZN6kY3hbiXup67QqNPPcgYp0i.ttf
 fonts:
 - name: Kufam
   styles:
@@ -16,42 +28,28 @@ fonts:
     post_script_name: Kufam-Bold
     version: 1.301; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Kufam Project Authors (https://github.com/originaltype/kufam)
-    font: Kufam-Bold.ttf
+    font: C8c-4cY7pG7w_oSJDszBXsKCcBH3ca47qQCJHvIwYg.ttf
   - family_name: Kufam
     type: Bold Italic
     full_name: Kufam Bold Italic
     post_script_name: Kufam-BoldItalic
     version: 1.301; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Kufam Project Authors (https://github.com/originaltype/kufam)
-    font: Kufam-BoldItalic.ttf
+    font: C8c84cY7pG7w_q6APDMZN6kY3hbiXuo07QqNPPcgYp0i.ttf
   - family_name: Kufam
     type: Italic
     full_name: Kufam Italic
     post_script_name: Kufam-Italic
     version: 1.301; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Kufam Project Authors (https://github.com/originaltype/kufam)
-    font: Kufam-Italic-VariableFont_wght.ttf
-  - family_name: Kufam
-    type: Italic
-    full_name: Kufam Italic
-    post_script_name: Kufam-Italic
-    version: 1.301; ttfautohint (v1.8.3)
-    copyright: Copyright 2019 The Kufam Project Authors (https://github.com/originaltype/kufam)
-    font: Kufam-Italic.ttf
+    font: C8c84cY7pG7w_q6APDMZN6kY3hbiXurT6gqNPPcgYp0i.ttf
   - family_name: Kufam
     type: Regular
     full_name: Kufam Regular
     post_script_name: Kufam-Regular
     version: 1.301; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Kufam Project Authors (https://github.com/originaltype/kufam)
-    font: Kufam-VariableFont_wght.ttf
-  - family_name: Kufam
-    type: Regular
-    full_name: Kufam Regular
-    post_script_name: Kufam-Regular
-    version: 1.301; ttfautohint (v1.8.3)
-    copyright: Copyright 2019 The Kufam Project Authors (https://github.com/originaltype/kufam)
-    font: Kufam-Regular.ttf
+    font: C8c-4cY7pG7w_oSJDszBXsKCcBH3lqk7qQCJHvIwYg.ttf
 - name: Kufam Black
   styles:
   - family_name: Kufam Black
@@ -62,7 +60,7 @@ fonts:
     post_script_name: Kufam-BlackItalic
     version: 1.301; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Kufam Project Authors (https://github.com/originaltype/kufam)
-    font: Kufam-BlackItalic.ttf
+    font: C8c84cY7pG7w_q6APDMZN6kY3hbiXup67QqNPPcgYp0i.ttf
   - family_name: Kufam Black
     type: Regular
     preferred_family_name: Kufam
@@ -71,7 +69,7 @@ fonts:
     post_script_name: Kufam-Black
     version: 1.301; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Kufam Project Authors (https://github.com/originaltype/kufam)
-    font: Kufam-Black.ttf
+    font: C8c-4cY7pG7w_oSJDszBXsKCcBH3P647qQCJHvIwYg.ttf
 - name: Kufam ExtraBold
   styles:
   - family_name: Kufam ExtraBold
@@ -82,7 +80,7 @@ fonts:
     post_script_name: Kufam-ExtraBoldItalic
     version: 1.301; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Kufam Project Authors (https://github.com/originaltype/kufam)
-    font: Kufam-ExtraBoldItalic.ttf
+    font: C8c84cY7pG7w_q6APDMZN6kY3hbiXupT7QqNPPcgYp0i.ttf
   - family_name: Kufam ExtraBold
     type: Regular
     preferred_family_name: Kufam
@@ -91,7 +89,7 @@ fonts:
     post_script_name: Kufam-ExtraBold
     version: 1.301; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Kufam Project Authors (https://github.com/originaltype/kufam)
-    font: Kufam-ExtraBold.ttf
+    font: C8c-4cY7pG7w_oSJDszBXsKCcBH3Fq47qQCJHvIwYg.ttf
 - name: Kufam Medium
   styles:
   - family_name: Kufam Medium
@@ -102,7 +100,7 @@ fonts:
     post_script_name: Kufam-MediumItalic
     version: 1.301; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Kufam Project Authors (https://github.com/originaltype/kufam)
-    font: Kufam-MediumItalic.ttf
+    font: C8c84cY7pG7w_q6APDMZN6kY3hbiXurh6gqNPPcgYp0i.ttf
   - family_name: Kufam Medium
     type: Regular
     preferred_family_name: Kufam
@@ -111,7 +109,7 @@ fonts:
     post_script_name: Kufam-Medium
     version: 1.301; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Kufam Project Authors (https://github.com/originaltype/kufam)
-    font: Kufam-Medium.ttf
+    font: C8c-4cY7pG7w_oSJDszBXsKCcBH3pKk7qQCJHvIwYg.ttf
 - name: Kufam SemiBold
   styles:
   - family_name: Kufam SemiBold
@@ -122,7 +120,7 @@ fonts:
     post_script_name: Kufam-SemiBoldItalic
     version: 1.301; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Kufam Project Authors (https://github.com/originaltype/kufam)
-    font: Kufam-SemiBoldItalic.ttf
+    font: C8c84cY7pG7w_q6APDMZN6kY3hbiXuoN7QqNPPcgYp0i.ttf
   - family_name: Kufam SemiBold
     type: Regular
     preferred_family_name: Kufam
@@ -131,7 +129,7 @@ fonts:
     post_script_name: Kufam-SemiBold
     version: 1.301; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Kufam Project Authors (https://github.com/originaltype/kufam)
-    font: Kufam-SemiBold.ttf
+    font: C8c-4cY7pG7w_oSJDszBXsKCcBH3SK47qQCJHvIwYg.ttf
 extract: {}
 copyright: Copyright 2019 The Kufam Project Authors (https://github.com/originaltype/kufam)
 license_url: https://scripts.sil.org/OFL
@@ -229,5 +227,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 199b05d315848612139a722dd890b4cbfb28d0d1150c760ad999f042ecfc0911
-command: google import --formulas_path Formulas
+command: import google -n 9999

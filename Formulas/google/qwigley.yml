@@ -3,11 +3,11 @@ name: Qwigley
 description: Qwigley
 homepage: www.typesetit.com
 resources:
-  Qwigley.zip:
-    urls:
-    - https://fonts.google.com/download?family=Qwigley
-    sha256: 23a36880f5e02fb1eae4391ec2625e5097f73f819f16829c5e35673fff37f869
-    file_size: 49088
+  Qwigley:
+    source: google
+    family: Qwigley
+    files:
+    - https://fonts.gstatic.com/s/qwigley/v18/1cXzaU3UGJb5tGoCuVxsi1mBmcE.ttf
 fonts:
 - name: Qwigley
   styles:
@@ -17,7 +17,7 @@ fonts:
     post_script_name: Qwigley-Regular
     version: 1.010; ttfautohint (v1.8.3)
     copyright: Copyright 2011 The Qwigley Project Authors (https://github.com/googlefonts/qwigley)
-    font: Qwigley-Regular.ttf
+    font: 1cXzaU3UGJb5tGoCuVxsi1mBmcE.ttf
 extract: {}
 copyright: Copyright 2011 The Qwigley Project Authors (https://github.com/googlefonts/qwigley)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +26,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +115,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: d50034dc11b24adea6343f0a1b37c84c3bd706e262f2f074d94f23e60e608ee3
-command: google import --formulas_path Formulas
+command: import google -n 9999

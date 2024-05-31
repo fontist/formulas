@@ -1,12 +1,14 @@
 ---
+name: BIZ UDPGothic
 description: BIZ UDPGothic
 homepage: http://www.morisawa.co.jp/
 resources:
-  BIZ_UDPGothic.zip:
-    urls:
-    - https://fonts.google.com/download?family=BIZ%20UDPGothic
-    sha256: e491950b733920299387e0e18ee740c6ac323255f7be952fc083563163c98af0
-    file_size: 5893569
+  BIZ UDPGothic:
+    source: google
+    family: BIZ UDPGothic
+    files:
+    - https://fonts.gstatic.com/s/bizudpgothic/v10/hES36X5pHAIBjmS84VL0Bue83nUMQWkMUAk.ttf
+    - https://fonts.gstatic.com/s/bizudpgothic/v10/hESq6X5pHAIBjmS84VL0Bue85skjZWEnTABCSQo.ttf
 fonts:
 - name: BIZ UDPGothic
   styles:
@@ -16,14 +18,14 @@ fonts:
     post_script_name: BIZUDPGothic-Bold
     version: '1.051'
     copyright: Copyright 2022 The BIZ UDGothic Project Authors (https://github.com/googlefonts/morisawa-biz-ud-gothic)
-    font: BIZUDPGothic-Bold.ttf
+    font: hESq6X5pHAIBjmS84VL0Bue85skjZWEnTABCSQo.ttf
   - family_name: BIZ UDPGothic
     type: Regular
     full_name: BIZ UDPGothic
     post_script_name: BIZUDPGothic-Regular
     version: '1.051'
     copyright: Copyright 2022 The BIZ UDGothic Project Authors (https://github.com/googlefonts/morisawa-biz-ud-gothic)
-    font: BIZUDPGothic-Regular.ttf
+    font: hES36X5pHAIBjmS84VL0Bue83nUMQWkMUAk.ttf
 extract: {}
 copyright: Copyright 2022 The BIZ UDGothic Project Authors (https://github.com/googlefonts/morisawa-biz-ud-gothic)
 license_url: https://scripts.sil.org/OFL
@@ -32,7 +34,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -121,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 290b5bdc1b61965c8a2e6e49abdb8b84a04387b9fc3f62edc46cd4c51683fca4
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

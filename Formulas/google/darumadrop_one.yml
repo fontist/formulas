@@ -1,11 +1,12 @@
 ---
+name: Darumadrop One
 description: Darumadrop One
 resources:
-  Darumadrop_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Darumadrop%20One
-    sha256: f70501518b91a7d14a135bca203266335c4481a1fd00822f492b53a313b90e5a
-    file_size: 187797
+  Darumadrop One:
+    source: google
+    family: Darumadrop One
+    files:
+    - https://fonts.gstatic.com/s/darumadropone/v10/cY9cfjeIW11dpCKgRLi675a87IhHBJOxZQPp.ttf
 fonts:
 - name: Darumadrop One
   styles:
@@ -16,7 +17,7 @@ fonts:
     version: '1.000'
     copyright: Copyright 2020 The Darumadrop Project Authors (https://github.com/ManiackersDesign/darumadrop),
       all rights reserved.
-    font: DarumadropOne-Regular.ttf
+    font: cY9cfjeIW11dpCKgRLi675a87IhHBJOxZQPp.ttf
 extract: {}
 copyright: Copyright 2020 The Darumadrop Project Authors (https://github.com/ManiackersDesign/darumadrop),
   all rights reserved.
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: db885034b55d7805b8a4ceb4d5856c5390514e2e1e4ae3fce60e6c961a80df8b
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

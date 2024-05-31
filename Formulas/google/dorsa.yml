@@ -1,13 +1,12 @@
 ---
 name: Dorsa
 description: Dorsa
-homepage:
 resources:
-  Dorsa.zip:
-    urls:
-    - https://fonts.google.com/download?family=Dorsa
-    sha256: f1270278496650ade974d4dfb3acdbbc8d8b43e385ed102546ffdad6b5cb788e
-    file_size: 12386
+  Dorsa:
+    source: google
+    family: Dorsa
+    files:
+    - https://fonts.gstatic.com/s/dorsa/v27/yYLn0hjd0OGwqo493XCFxAnQ.ttf
 fonts:
 - name: Dorsa
   styles:
@@ -18,9 +17,8 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Santiago Orozco (hi@typemade.mx), with Reserved
       Font Name "Dorsa"
-    font: Dorsa-Regular.ttf
-extract:
-  format: zip
+    font: yYLn0hjd0OGwqo493XCFxAnQ.ttf
+extract: {}
 copyright: Copyright (c) 2011, Santiago Orozco (hi@typemade.mx), with Reserved Font
   Name "Dorsa"
 license_url: http://scripts.sil.org/OFL
@@ -119,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

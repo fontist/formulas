@@ -1,44 +1,55 @@
 ---
+name: Vesper Libre
 description: Vesper Libre
 homepage: www.motaitalic.com
 resources:
-  VesperLibre.zip:
-    urls:
-    - https://fonts.google.com/download?family=Vesper%20Libre
-    sha256: 3b1fc71090e7fb02302a778a2010e8bb412ae34d8a1158536ed8875f65516874
-    file_size: 350004
+  Vesper Libre:
+    source: google
+    family: Vesper Libre
+    files:
+    - https://fonts.gstatic.com/s/vesperlibre/v19/bx6CNxyWnf-uxPdXDHUD_Rd4D0-N2qIWVQ.ttf
+    - https://fonts.gstatic.com/s/vesperlibre/v19/bx6dNxyWnf-uxPdXDHUD_RdA-2ap0okKXKvPlw.ttf
+    - https://fonts.gstatic.com/s/vesperlibre/v19/bx6dNxyWnf-uxPdXDHUD_RdAs2Cp0okKXKvPlw.ttf
+    - https://fonts.gstatic.com/s/vesperlibre/v19/bx6dNxyWnf-uxPdXDHUD_RdAi2Kp0okKXKvPlw.ttf
 fonts:
 - name: Vesper Libre
   styles:
-  - family_name: Vesper Libre
-    type: Regular
-    full_name: Vesper Libre
-    post_script_name: VesperLibre-Regular
-    version: '1.058'
-    font: VesperLibre-Regular.ttf
-  - family_name: Vesper Libre
-    type: Medium
-    full_name: Vesper Libre Medium
-    post_script_name: VesperLibre-Medium
-    version: '1.058'
-    copyright: Copyright (c) 2007, Robert Keller (www.motaitalic.com)
-    font: VesperLibre-Medium.ttf
   - family_name: Vesper Libre
     type: Bold
     full_name: Vesper Libre Bold
     post_script_name: VesperLibre-Bold
     version: '1.058'
     copyright: Copyright (c) 2007, Robert Keller (www.motaitalic.com)
-    font: VesperLibre-Bold.ttf
+    font: bx6dNxyWnf-uxPdXDHUD_RdAs2Cp0okKXKvPlw.ttf
   - family_name: Vesper Libre
-    type: Heavy
+    type: Regular
+    full_name: Vesper Libre
+    post_script_name: VesperLibre-Regular
+    version: '1.058'
+    font: bx6CNxyWnf-uxPdXDHUD_Rd4D0-N2qIWVQ.ttf
+- name: Vesper Libre Heavy
+  styles:
+  - family_name: Vesper Libre Heavy
+    type: Regular
+    preferred_family_name: Vesper Libre
+    preferred_type: Heavy
     full_name: Vesper Libre Heavy
     post_script_name: VesperLibre-Heavy
     version: '1.058'
     copyright: Copyright (c) 2007, Robert Keller (www.motaitalic.com)
-    font: VesperLibre-Heavy.ttf
-extract:
-  format: zip
+    font: bx6dNxyWnf-uxPdXDHUD_RdAi2Kp0okKXKvPlw.ttf
+- name: Vesper Libre Medium
+  styles:
+  - family_name: Vesper Libre Medium
+    type: Regular
+    preferred_family_name: Vesper Libre
+    preferred_type: Medium
+    full_name: Vesper Libre Medium
+    post_script_name: VesperLibre-Medium
+    version: '1.058'
+    copyright: Copyright (c) 2007, Robert Keller (www.motaitalic.com)
+    font: bx6dNxyWnf-uxPdXDHUD_RdA-2ap0okKXKvPlw.ttf
+extract: {}
 copyright: Copyright (c) 2007, Robert Keller (www.motaitalic.com)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
@@ -135,3 +146,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

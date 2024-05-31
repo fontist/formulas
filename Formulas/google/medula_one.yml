@@ -1,12 +1,13 @@
 ---
+name: Medula One
 description: Medula One
 homepage: www.latinotype.com
 resources:
-  MedulaOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Medula%20One
-    sha256: 1ab47bba713677c470fc5b75955edf36c2f063121cdb9d5ef30e6c67ce078ae5
-    file_size: 17805
+  Medula One:
+    source: google
+    family: Medula One
+    files:
+    - https://fonts.gstatic.com/s/medulaone/v19/YA9Wr0qb5kjJM6l2V0yukiEqs7GtlvY.ttf
 fonts:
 - name: Medula One
   styles:
@@ -17,9 +18,8 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011 by LatinoType Limitada (luciano@latinotype.com),
       with Reserved Font Names "Medula"
-    font: MedulaOne-Regular.ttf
-extract:
-  format: zip
+    font: YA9Wr0qb5kjJM6l2V0yukiEqs7GtlvY.ttf
+extract: {}
 copyright: Copyright (c) 2011 by LatinoType Limitada (luciano@latinotype.com), with
   Reserved Font Names "Medula"
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

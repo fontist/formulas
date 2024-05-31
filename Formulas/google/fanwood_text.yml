@@ -1,32 +1,32 @@
 ---
+name: Fanwood Text
 description: Fanwood Text
-homepage:
 resources:
-  FanwoodText.zip:
-    urls:
-    - https://fonts.google.com/download?family=Fanwood%20Text
-    sha256: 4ab06b878968d51ed635931bbe747676c13f29e5af16f1c2ce6ac935003f5906
-    file_size: 115968
+  Fanwood Text:
+    source: google
+    family: Fanwood Text
+    files:
+    - https://fonts.gstatic.com/s/fanwoodtext/v15/3XFtErwl05Ad_vSCF6Fq7xXGRdbY1P1Sbg.ttf
+    - https://fonts.gstatic.com/s/fanwoodtext/v15/3XFzErwl05Ad_vSCF6Fq7xX2R9zc9vhCblye.ttf
 fonts:
 - name: Fanwood Text
   styles:
-  - family_name: Fanwood Text
-    type: Regular
-    full_name: Fanwood Text
-    post_script_name: FanwoodText-Regular
-    version: '1.1001'
-    copyright: Copyright (c) 2011, Barry Schwartz  (chemoelectric@chemoelectric.org)
-    font: FanwoodText-Regular.ttf
   - family_name: Fanwood Text
     type: Italic
     full_name: Fanwood Text Italic
     post_script_name: FanwoodText-Italic
     version: '1.101'
     copyright: Copyright (c) 2011, Barry Schwartz (chemoelectric@chemoelectric.org)
-    font: FanwoodText-Italic.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Barry Schwartz (chemoelectric@chemoelectric.org)
+    font: 3XFzErwl05Ad_vSCF6Fq7xX2R9zc9vhCblye.ttf
+  - family_name: Fanwood Text
+    type: Regular
+    full_name: Fanwood Text
+    post_script_name: FanwoodText-Regular
+    version: '1.1001'
+    copyright: Copyright (c) 2011, Barry Schwartz  (chemoelectric@chemoelectric.org)
+    font: 3XFtErwl05Ad_vSCF6Fq7xXGRdbY1P1Sbg.ttf
+extract: {}
+copyright: Copyright (c) 2011, Barry Schwartz  (chemoelectric@chemoelectric.org)
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Barry Schwartz (chemoelectric@chemoelectric.org)
@@ -122,3 +122,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

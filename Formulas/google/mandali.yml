@@ -1,13 +1,12 @@
 ---
 name: Mandali
 description: Mandali
-homepage:
 resources:
-  Mandali.zip:
-    urls:
-    - https://fonts.google.com/download?family=Mandali
-    sha256: 7a1d9d00181eb93f622d817c368eca8ff6905f2ebf771c13b2d36017e3a6383f
-    file_size: 228371
+  Mandali:
+    source: google
+    family: Mandali
+    files:
+    - https://fonts.gstatic.com/s/mandali/v15/LhWlMVbYOfASNfNUVFk1ZPdcKtA.ttf
 fonts:
 - name: Mandali
   styles:
@@ -19,9 +18,8 @@ fonts:
       -w G -X ""
     copyright: Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org). Copyright
       (c) 2011, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Name Nunito
-    font: Mandali-Regular.ttf
-extract:
-  format: zip
+    font: LhWlMVbYOfASNfNUVFk1ZPdcKtA.ttf
+extract: {}
 copyright: Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org). Copyright
   (c) 2011, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Name Nunito
 license_url: http://scripts.sil.org/OFL
@@ -119,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

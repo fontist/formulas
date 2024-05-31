@@ -1,11 +1,12 @@
 ---
+name: Bruno Ace
 description: Bruno Ace
 resources:
-  Bruno_Ace.zip:
-    urls:
-    - https://fonts.google.com/download?family=Bruno%20Ace
-    sha256: 6ba5f620e9c5557a6e05a99b14fd6b8bd9301ff198d9136271e43335d57fc123
-    file_size: 29939
+  Bruno Ace:
+    source: google
+    family: Bruno Ace
+    files:
+    - https://fonts.gstatic.com/s/brunoace/v5/WwkcxPa2E06x4trkOj_kMKoMWNMg3Q.ttf
 fonts:
 - name: Bruno Ace
   styles:
@@ -15,7 +16,7 @@ fonts:
     post_script_name: BrunoAce-Regular
     version: 1.100; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.27]
     copyright: Copyright 2023 The Bruno Ace Project Authors (https://github.com/googlefonts/Bruno-ace)
-    font: BrunoAce-Regular.ttf
+    font: WwkcxPa2E06x4trkOj_kMKoMWNMg3Q.ttf
 extract: {}
 copyright: Copyright 2023 The Bruno Ace Project Authors (https://github.com/googlefonts/Bruno-ace)
 license_url: https://scripts.sil.org/OFL
@@ -24,7 +25,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -113,5 +114,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: da684ac236a6543f8bcff7bd10c8e57f2e9493252c4b74721131acd11e5c0079
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

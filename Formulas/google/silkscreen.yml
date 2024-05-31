@@ -1,12 +1,14 @@
 ---
+name: Silkscreen
 description: Silkscreen
 homepage: https://kottke.org/
 resources:
-  Silkscreen.zip:
-    urls:
-    - https://fonts.google.com/download?family=Silkscreen
-    sha256: 97268acc7d9d88cfa37fe01ae427ce77c3d305ec2ec3e822ba103230f83a9e72
-    file_size: 24218
+  Silkscreen:
+    source: google
+    family: Silkscreen
+    files:
+    - https://fonts.gstatic.com/s/silkscreen/v4/m8JXjfVPf62XiF7kO-i9ULRvamODxdI.ttf
+    - https://fonts.gstatic.com/s/silkscreen/v4/m8JUjfVPf62XiF7kO-i9aAhATmuo2dudFvc.ttf
 fonts:
 - name: Silkscreen
   styles:
@@ -16,14 +18,14 @@ fonts:
     post_script_name: Silkscreen-Bold
     version: 1.001; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2001 The Silkscreen Project Authors (https://github.com/googlefonts/silkscreen)
-    font: Silkscreen-Bold.ttf
+    font: m8JUjfVPf62XiF7kO-i9aAhATmuo2dudFvc.ttf
   - family_name: Silkscreen
     type: Regular
     full_name: Silkscreen Regular
     post_script_name: Silkscreen-Regular
     version: 1.001; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2001 The Silkscreen Project Authors (https://github.com/googlefonts/silkscreen)
-    font: Silkscreen-Regular.ttf
+    font: m8JXjfVPf62XiF7kO-i9ULRvamODxdI.ttf
 extract: {}
 copyright: Copyright 2001 The Silkscreen Project Authors (https://github.com/googlefonts/silkscreen)
 license_url: https://scripts.sil.org/OFL
@@ -32,7 +34,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -121,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: 02ec0f253bbcbea49056b46be4e31f22943a9ef1af5fac809be95dfc5ca7497c
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

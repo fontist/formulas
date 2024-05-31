@@ -1,12 +1,13 @@
 ---
+name: Noto Sans Linear B
 description: Noto Sans Linear B
 homepage: http://www.google.com/get/noto/
 resources:
-  Noto_Sans_Linear_B.zip:
-    urls:
-    - https://fonts.google.com/download?family=Noto%20Sans%20Linear%20B
-    sha256: 73d7599424b193dd6e0b7cbb399de9547649f7500b47178210f9cca9fe5e7dbe
-    file_size: 78487
+  Noto Sans Linear B:
+    source: google
+    family: Noto Sans Linear B
+    files:
+    - https://fonts.gstatic.com/s/notosanslinearb/v17/HhyJU4wt9vSgfHoORYOiXOckKNB737IV3BkFTq4EPw.ttf
 fonts:
 - name: Noto Sans Linear B
   styles:
@@ -17,7 +18,7 @@ fonts:
     version: 2.002; ttfautohint (v1.8.4.7-5d5b)
     description: Designed by Monotype design team.
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/linear-b)
-    font: NotoSansLinearB-Regular.ttf
+    font: HhyJU4wt9vSgfHoORYOiXOckKNB737IV3BkFTq4EPw.ttf
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/linear-b)
 license_url: https://scripts.sil.org/OFL
@@ -26,7 +27,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -115,5 +116,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e64d2953908b8d6a8b3b0a6c58fba7a9c4cd68777f8ed8b88c048106917b3536
-command: import google --formulas_path Formulas -n 50
+command: import google -n 9999

@@ -1,12 +1,14 @@
 ---
+name: Alumni Sans Inline One
 description: Alumni Sans Inline One
 homepage: www.typesetit.com
 resources:
-  Alumni_Sans_Inline_One.zip:
-    urls:
-    - https://fonts.google.com/download?family=Alumni%20Sans%20Inline%20One
-    sha256: 9c83c162044a48f2117121510740df14e5d059f389f793bbb611fcdfe7353ff8
-    file_size: 127349
+  Alumni Sans Inline One:
+    source: google
+    family: Alumni Sans Inline One
+    files:
+    - https://fonts.gstatic.com/s/alumnisansinlineone/v5/RrQBbpJx9zZ3IXTBOASKp5gJAetBdaihcjbpD3AZcr7xbYw.ttf
+    - https://fonts.gstatic.com/s/alumnisansinlineone/v5/RrQDbpJx9zZ3IXTBOASKp5gJAetBdaihcjbpP3ITdpz0fYxcrQ.ttf
 fonts:
 - name: Alumni Sans Inline One
   styles:
@@ -16,14 +18,14 @@ fonts:
     post_script_name: AlumniSansInlineOne-Italic
     version: 1.100; ttfautohint (v1.8.3)
     copyright: Copyright 2014 The Alumni Sans Inline Project Authors (https://github.com/googlefonts/alumni-sans-inline)
-    font: AlumniSansInlineOne-Italic.ttf
+    font: RrQDbpJx9zZ3IXTBOASKp5gJAetBdaihcjbpP3ITdpz0fYxcrQ.ttf
   - family_name: Alumni Sans Inline One
     type: Regular
     full_name: Alumni Sans Inline One Regular
     post_script_name: AlumniSansInlineOne-Regular
     version: 1.100; ttfautohint (v1.8.3)
     copyright: Copyright 2014 The Alumni Sans Inline Project Authors (https://github.com/googlefonts/alumni-sans-inline)
-    font: AlumniSansInlineOne-Regular.ttf
+    font: RrQBbpJx9zZ3IXTBOASKp5gJAetBdaihcjbpD3AZcr7xbYw.ttf
 extract: {}
 copyright: Copyright 2014 The Alumni Sans Inline Project Authors (https://github.com/googlefonts/alumni-sans-inline)
 license_url: https://scripts.sil.org/OFL
@@ -32,7 +34,7 @@ open_license: |-
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
   This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
+  https://scripts.sil.org/OFL
 
 
   -----------------------------------------------------------
@@ -121,5 +123,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-digest: e05bfd888c370fe7fcac1977f346b4c1a258bf9e8914b0353e7a910e3b5dc0d0
-command: import google --formulas_path Formulas
+command: import google -n 9999

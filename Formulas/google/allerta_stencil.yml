@@ -1,12 +1,12 @@
 ---
+name: Allerta Stencil
 description: Allerta Stencil
-homepage:
 resources:
-  AllertaStencil.zip:
-    urls:
-    - https://fonts.google.com/download?family=Allerta%20Stencil
-    sha256: 321193559633b78109a2a659c6fd9aa59e35944ceeff6621fa7542ac0313afa6
-    file_size: 13203
+  Allerta Stencil:
+    source: google
+    family: Allerta Stencil
+    files:
+    - https://fonts.gstatic.com/s/allertastencil/v22/HTx0L209KT-LmIE9N7OR6eiycOeF-zz313DuvQ.ttf
 fonts:
 - name: Allerta Stencil
   styles:
@@ -17,9 +17,8 @@ fonts:
     version: '1.02'
     copyright: Copyright (c) 2009, Matt McInerney <matt@pixelspread.com> with Reserved
       Font Name Allerta.
-    font: AllertaStencil-Regular.ttf
-extract:
-  format: zip
+    font: HTx0L209KT-LmIE9N7OR6eiycOeF-zz313DuvQ.ttf
+extract: {}
 copyright: Copyright (c) 2009, Matt McInerney <matt@pixelspread.com> with Reserved
   Font Name Allerta.
 license_url: http://scripts.sil.org/OFL
@@ -118,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

@@ -1,12 +1,13 @@
 ---
+name: Port Lligat Sans
 description: Port Lligat Sans
 homepage: http://www.tipo.net.ar
 resources:
-  PortLligatSans.zip:
-    urls:
-    - https://fonts.google.com/download?family=Port%20Lligat%20Sans
-    sha256: fdbe7c74e9a746d05ed50fc0a55062d83ca62a8c9406f120d33e15d133345bd8
-    file_size: 19318
+  Port Lligat Sans:
+    source: google
+    family: Port Lligat Sans
+    files:
+    - https://fonts.gstatic.com/s/portlligatsans/v22/kmKmZrYrGBbdN1aV7Vokow6Lw4s4l7N0Tx4xEcQ.ttf
 fonts:
 - name: Port Lligat Sans
   styles:
@@ -17,11 +18,10 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Tipo (http://www.tipo.net.ar), with Reserved Font
       Name "Port Lligat Sans"
-    font: PortLligatSans-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2011, Tipo (http://www.tipo.net.ar dario@tipo.net.ar), with
-  Reserved Font Name "Port Lligat Sans"
+    font: kmKmZrYrGBbdN1aV7Vokow6Lw4s4l7N0Tx4xEcQ.ttf
+extract: {}
+copyright: Copyright (c) 2011, Tipo (http://www.tipo.net.ar), with Reserved Font Name
+  "Port Lligat Sans"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Tipo (http://www.tipo.net.ar),
@@ -118,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

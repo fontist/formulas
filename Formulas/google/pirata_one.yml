@@ -1,12 +1,13 @@
 ---
+name: Pirata One
 description: Pirata One
 homepage: abc.taip.com.ar
 resources:
-  PirataOne.zip:
-    urls:
-    - https://fonts.google.com/download?family=Pirata%20One
-    sha256: 6fabad9bfc199f64863641874a59bf36978baab4e89fab5e8e738681d95afd52
-    file_size: 21473
+  Pirata One:
+    source: google
+    family: Pirata One
+    files:
+    - https://fonts.gstatic.com/s/pirataone/v22/I_urMpiDvgLdLh0fAtoftiiEr5_BdZ8.ttf
 fonts:
 - name: Pirata One
   styles:
@@ -17,12 +18,10 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2012, Rodrigo Fuenzalida, Nicolas Massi (www.taip.com.ar
       / abc.taip.com.ar), with Reserved Font Name 'Pirata'
-    font: PirataOne-Regular.ttf
-extract:
-  format: zip
-copyright: Copyright (c) 2012, Rodrigo Fuenzalida (hello@rfuenzalida.com), Nicolas
-  Massi (www.taip.com.ar / abc.taip.com.ar / nmassi@gmail.com), with Reserved Font
-  Name 'Pirata'
+    font: I_urMpiDvgLdLh0fAtoftiiEr5_BdZ8.ttf
+extract: {}
+copyright: Copyright (c) 2012, Rodrigo Fuenzalida, Nicolas Massi (www.taip.com.ar
+  / abc.taip.com.ar), with Reserved Font Name 'Pirata'
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2012, Rodrigo Fuenzalida, Nicolas Massi (www.taip.com.ar / abc.taip.com.ar), with Reserved Font Name 'Pirata'
@@ -118,3 +117,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999

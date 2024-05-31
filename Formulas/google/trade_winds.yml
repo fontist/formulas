@@ -1,12 +1,13 @@
 ---
+name: Trade Winds
 description: Trade Winds
 homepage: http://www.fontbros.com/sideshow.php
 resources:
-  TradeWinds.zip:
-    urls:
-    - https://fonts.google.com/download?family=Trade%20Winds
-    sha256: 60d4500399d3ecc700adf3407d1390f547aba8881e1a558f5c99046f50a425b5
-    file_size: 48673
+  Trade Winds:
+    source: google
+    family: Trade Winds
+    files:
+    - https://fonts.gstatic.com/s/tradewinds/v17/AYCPpXPpYNIIT7h8-QenM3Jq7PKP5Z_G.ttf
 fonts:
 - name: Trade Winds
   styles:
@@ -17,11 +18,10 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com)
       with Reseved Font Name "Trade Winds"
-    font: TradeWinds-Regular.ttf
-extract:
-  format: zip
+    font: AYCPpXPpYNIIT7h8-QenM3Jq7PKP5Z_G.ttf
+extract: {}
 copyright: Copyright (c) 2011 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com)
-  with Reserved Font Name "Trade Winds"
+  with Reseved Font Name "Trade Winds"
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2011, Sideshow (a DBA of Font Diner, Inc) (www.fontdiner.com),
@@ -118,3 +118,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
+command: import google -n 9999
