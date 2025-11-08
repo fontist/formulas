@@ -1,0 +1,153 @@
+---
+name: Wine
+description: Wine
+homepage: http://www.winehq.org
+resources:
+  wine-10.18.tar.xz:
+    urls:
+    - https://dl.winehq.org/wine/source/10.x/wine-10.18.tar.xz
+    sha256: 51fb7273d65d09dea032c4a5e2197b12724b27ca360e1a622b2373d1ee50ad7b
+    file_size: 32970828
+fonts:
+- name: Wine Courier
+  styles:
+  - family_name: Wine Courier
+    type: Medium
+    full_name: Courier
+    post_script_name: courier
+    version: '001.000'
+    copyright: Copyright (C) 2004 Huw D M Davies, Dmitry Timoshkov
+    font: courier.ttf
+- name: Wine FixedSys
+  styles:
+  - family_name: Wine FixedSys
+    type: Medium
+    full_name: FixedSys
+    post_script_name: fixedsys_jp
+    version: '001.000'
+    copyright: Copyright (C) 2013 Huw D M Davies, Dmitry Timoshkov, et al.
+    font: fixedsys_jp.ttf
+- name: Wine Fixedsys
+  styles:
+  - family_name: Wine Fixedsys
+    type: Medium
+    full_name: Fixedsys
+    post_script_name: fixedsys
+    version: '001.000'
+    copyright: Copyright (C) 2013 Huw D M Davies, Dmitry Timoshkov, et al.
+    font: fixedsys.ttf
+- name: Wine MS Sans Serif
+  styles:
+  - family_name: Wine MS Sans Serif
+    type: Medium
+    full_name: MS Sans Serif
+    post_script_name: ms_sans_serif
+    version: '001.000'
+    copyright: Copyright (C) 2004 Huw D M Davies, Dmitry Timoshkov
+    font: ms_sans_serif.ttf
+- name: Wine Marlett
+  styles:
+  - family_name: Wine Marlett
+    type: Regular
+    full_name: Marlett
+    post_script_name: marlett
+    version: '0.2'
+    copyright: Copyright (C) TransGaming Technologies. All rights reserved.
+    font: marlett.ttf
+- name: Wine Small Fonts
+  styles:
+  - family_name: Wine Small Fonts
+    type: Medium
+    full_name: Small Fonts
+    post_script_name: small_fonts
+    version: '001.000'
+    copyright: Copyright (C) 2006 Huw D M Davies, Dmitry Timoshkov
+    font: small_fonts.ttf
+  - family_name: Wine Small Fonts
+    type: Medium
+    full_name: Small Fonts
+    post_script_name: small_fonts
+    version: '001.000'
+    copyright: Copyright (C) 2006 Huw D M Davies, Dmitry Timoshkov, Aric Stewart
+    font: small_fonts_jp.ttf
+- name: Wine Symbol
+  styles:
+  - family_name: Wine Symbol
+    type: Regular
+    full_name: Symbol
+    post_script_name: WineSymbol
+    version: 1.1 February 3, 2009, initial release
+    copyright: WineSymbol © (Jon Parshall for CodeWeavers). 2009.
+    font: symbol.ttf
+- name: Wine System
+  styles:
+  - family_name: Wine System
+    type: Bold
+    full_name: System
+    post_script_name: system
+    version: '001.000'
+    copyright: Copyright (C) 2004 Huw D M Davies, Dmitry Timoshkov
+    font: system.ttf
+- name: Wine Tahoma
+  styles:
+  - family_name: Wine Tahoma
+    type: Bold
+    full_name: Tahoma Bold
+    post_script_name: WineTahomaBold
+    version: '0.001'
+    copyright: Copyright (c) 2004 Larry Snyder, Based on Bitstream Vera Sans Copyright
+      (c) 2003 by Bitstream, Inc. Font renamed in accordance with former's license.
+      Please do not contact Bitstream Inc. for any reason regarding this font.
+    font: tahomabd.ttf
+  - family_name: Wine Tahoma
+    type: Regular
+    full_name: Tahoma
+    post_script_name: WineTahoma
+    version: '0.001'
+    copyright: Copyright (c) 2004 Larry Snyder, Based on Bitstream Vera Sans Copyright
+      (c) 2003 by Bitstream, Inc. Font renamed in accordance with former's license.
+      Please do not contact Bitstream Inc. for any reason regarding this font.
+    font: tahoma.ttf
+- name: Wine Webdings
+  styles:
+  - family_name: Wine Webdings
+    type: Regular
+    full_name: Webdings
+    post_script_name: WineWebdings
+    version: '001.000'
+    copyright: Copyright (C) 2020 Dmitry Timoshkov
+    font: webdings.ttf
+- name: Wine Wingdings
+  styles:
+  - family_name: Wine Wingdings
+    type: Regular
+    full_name: Wingdings
+    post_script_name: WineWingdings
+    version: '001.000'
+    copyright: Copyright (C) 2013 Dmitry Timoshkov
+    font: wingding.ttf
+extract:
+  options:
+    fonts_sub_dir: fonts
+copyright: Copyright (C) 2004 Huw D M Davies, Dmitry Timoshkov
+license_url: http://www.gnu.org/licenses/lgpl.html
+open_license: |-
+  Copyright (c) 1993-2025 the Wine project authors (see the file AUTHORS
+  for a complete list)
+
+  Wine is free software; you can redistribute it and/or modify it under
+  the terms of the GNU Lesser General Public License as published by the
+  Free Software Foundation; either version 2.1 of the License, or (at
+  your option) any later version.
+
+  This program is distributed in the hope that it will be useful, but
+  WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  Lesser General Public License for more details.
+
+  A copy of the GNU Lesser General Public License is included in the
+  Wine distribution in the file COPYING.LIB. If you did not receive this
+  copy, write to the Free Software Foundation, Inc., 51 Franklin St,
+  Fifth Floor, Boston, MA 02110-1301, USA.
+command: 'create-formula https://dl.winehq.org/wine/source/10.x/wine-10.18.tar.xz
+  --subdir fonts --file-pattern \*.ttf --name-prefix Wine\ '
