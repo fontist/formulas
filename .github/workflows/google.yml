@@ -14,7 +14,7 @@ jobs:
     needs: prepare
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - uses: ruby/setup-ruby@v1
         with:
@@ -27,7 +27,7 @@ jobs:
           sudo apt-get install lcdf-typetools
 
       - name: Cache Google repo
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: "~/.fontist/google/fonts"
           key: key2
