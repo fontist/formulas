@@ -1,12 +1,14 @@
 ---
 name: VT323
-description: VT323
+description: VT323 font family
+homepage: https://fonts.google.com/specimen/VT323
 resources:
   VT323:
     source: google
     family: VT323
     files:
-    - https://fonts.gstatic.com/s/vt323/v17/pxiKyp0ihIEF2hsYHpT2dkNE.ttf
+    - https://fonts.gstatic.com/s/vt323/v18/pxiKyp0ihIEF2hsYHpT2dkNE.ttf
+    format: ttf
 fonts:
 - name: VT323
   styles:
@@ -17,10 +19,12 @@ fonts:
     version: '2.000'
     copyright: Copyright 2011, The VT323 Project Authors (peter.hull@oikoi.com)
     font: pxiKyp0ihIEF2hsYHpT2dkNE.ttf
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
 extract: {}
 copyright: Copyright 2011, The VT323 Project Authors (peter.hull@oikoi.com)
-license_url: http://scripts.sil.org/OFL
-open_license: |-
+license_url: https://scripts.sil.org/OFL
+open_license: |
   Copyright 2011, The VT323 Project Authors (peter.hull@oikoi.com)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -114,4 +118,3 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-command: import google -n 9999

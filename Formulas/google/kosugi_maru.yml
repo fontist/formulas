@@ -1,12 +1,14 @@
 ---
 name: Kosugi Maru
-description: Kosugi Maru
+description: Kosugi Maru font family
+homepage: https://fonts.google.com/specimen/Kosugi+Maru
 resources:
   Kosugi Maru:
     source: google
     family: Kosugi Maru
     files:
-    - https://fonts.gstatic.com/s/kosugimaru/v14/0nksC9PgP_wGh21A2KeqGiTqivr9iBq_.ttf
+    - https://fonts.gstatic.com/s/kosugimaru/v17/0nksC9PgP_wGh21A2KeqGiTqivr9iBq_.ttf
+    format: ttf
 fonts:
 - name: Kosugi Maru
   styles:
@@ -17,11 +19,13 @@ fonts:
     version: '4.002'
     copyright: Copyright 2010 The Kosugi Maru Project Authors \(https://github.com/googlefonts/kosugi-maru\)
     font: 0nksC9PgP_wGh21A2KeqGiTqivr9iBq_.ttf
+    description: Licensed under the Apache License, Version 2.0
 extract: {}
 copyright: Copyright 2010 The Kosugi Maru Project Authors \(https://github.com/googlefonts/kosugi-maru\)
-license_url: https://www.apache.org/licenses/LICENSE-2.0
-open_license: |-
-  Apache License
+license_url: https://scripts.sil.org/OFL
+open_license: |2
+
+                                   Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -222,4 +226,3 @@ open_license: |-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
-command: import google -n 9999

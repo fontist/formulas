@@ -1,42 +1,43 @@
 ---
 name: Syncopate
-description: Syncopate
-homepage: http://www.astigmatic.com/
+description: Syncopate font family
+homepage: https://fonts.google.com/specimen/Syncopate
 resources:
   Syncopate:
     source: google
     family: Syncopate
     files:
-    - https://fonts.gstatic.com/s/syncopate/v21/pe0sMIuPIYBCpEV5eFdyAv2-C99ycg.ttf
-    - https://fonts.gstatic.com/s/syncopate/v21/pe0pMIuPIYBCpEV5eFdKvtKaA_Rue1UwVg.ttf
+    - https://fonts.gstatic.com/s/syncopate/v24/pe0sMIuPIYBCpEV5eFdyAv2-C99ycg.ttf
+    - https://fonts.gstatic.com/s/syncopate/v24/pe0pMIuPIYBCpEV5eFdKvtKaA_Rue1UwVg.ttf
+    format: ttf
 fonts:
 - name: Syncopate
   styles:
-  - family_name: Syncopate
-    type: Bold
-    full_name: Syncopate Bold
-    post_script_name: Syncopate-Bold
-    version: 1.001 2011
-    copyright: |-
-      Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.
-      http://www.apache.org/licenses/LICENSE-2.0.html
-    font: pe0pMIuPIYBCpEV5eFdKvtKaA_Rue1UwVg.ttf
   - family_name: Syncopate
     type: Regular
     full_name: Syncopate Regular
     post_script_name: Syncopate-Regular
     version: '001.001'
-    copyright: |-
-      Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.
-      http://www.apache.org/licenses/LICENSE-2.0.html
+    copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI).
+      All rights reserved. Available under the Apache 2.0 licence.\rhttp://www.apache.org/licenses/LICENSE-2.0.html"
     font: pe0sMIuPIYBCpEV5eFdyAv2-C99ycg.ttf
+    description: Licensed under the Apache License, Version 2.0
+  - family_name: Syncopate
+    type: Bold
+    full_name: Syncopate Bold
+    post_script_name: Syncopate-Bold
+    version: 1.001 2011
+    copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI).
+      All rights reserved. Available under the Apache 2.0 licence.\rhttp://www.apache.org/licenses/LICENSE-2.0.html"
+    font: pe0pMIuPIYBCpEV5eFdKvtKaA_Rue1UwVg.ttf
+    description: Licensed under the Apache License, Version 2.0
 extract: {}
-copyright: |-
-  Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.
-  http://www.apache.org/licenses/LICENSE-2.0.html
-license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |-
-  Apache License
+copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All
+  rights reserved. Available under the Apache 2.0 licence.\rhttp://www.apache.org/licenses/LICENSE-2.0.html"
+license_url: https://scripts.sil.org/OFL
+open_license: |2
+
+                                   Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -237,4 +238,3 @@ open_license: |-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
-command: import google -n 9999

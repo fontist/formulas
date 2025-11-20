@@ -1,13 +1,14 @@
 ---
 name: Yomogi
-description: Yomogi
-homepage: http://satsuyako.com/
+description: Yomogi font family
+homepage: https://fonts.google.com/specimen/Yomogi
 resources:
   Yomogi:
     source: google
     family: Yomogi
     files:
-    - https://fonts.gstatic.com/s/yomogi/v11/VuJwdNrS2ZL7rpoPWIz5NIh-YA.ttf
+    - https://fonts.gstatic.com/s/yomogi/v13/VuJwdNrS2ZL7rpoPWIz5NIh-YA.ttf
+    format: ttf
 fonts:
 - name: Yomogi
   styles:
@@ -19,11 +20,13 @@ fonts:
     copyright: Copyright 2020 The Yomogi Project Authors (https://github.com/satsuyako/YomogiFont),
       all rights reserved.
     font: VuJwdNrS2ZL7rpoPWIz5NIh-YA.ttf
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
 extract: {}
 copyright: Copyright 2020 The Yomogi Project Authors (https://github.com/satsuyako/YomogiFont),
   all rights reserved.
 license_url: https://scripts.sil.org/OFL
-open_license: |-
+open_license: |
   Copyright 2020 The Yomogi Project Authors (https://github.com/satsuyako/YomogiFont), all rights reserved.
 
   This Font Software is licensed under the SIL Open Font License,
@@ -118,4 +121,3 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-command: import google -n 9999

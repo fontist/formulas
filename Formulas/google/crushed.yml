@@ -1,13 +1,14 @@
 ---
 name: Crushed
-description: Crushed
-homepage: http://www.astigmatic.com/
+description: Crushed font family
+homepage: https://fonts.google.com/specimen/Crushed
 resources:
   Crushed:
     source: google
     family: Crushed
     files:
-    - https://fonts.gstatic.com/s/crushed/v29/U9Mc6dym6WXImTlFT1kfuIqyLzA.ttf
+    - https://fonts.gstatic.com/s/crushed/v32/U9Mc6dym6WXImTlFT1kfuIqyLzA.ttf
+    format: ttf
 fonts:
 - name: Crushed
   styles:
@@ -16,17 +17,17 @@ fonts:
     full_name: Crushed Regular
     post_script_name: Crushed-Regular
     version: '001.001'
-    copyright: |-
-      Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.
-      http://www.apache.org/licenses/LICENSE-2.0.html
+    copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI).
+      All rights reserved. Available under the Apache 2.0 licence.\rhttp://www.apache.org/licenses/LICENSE-2.0.html"
     font: U9Mc6dym6WXImTlFT1kfuIqyLzA.ttf
+    description: Licensed under the Apache License, Version 2.0
 extract: {}
-copyright: |-
-  Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.
-  http://www.apache.org/licenses/LICENSE-2.0.html
-license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |-
-  Apache License
+copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All
+  rights reserved. Available under the Apache 2.0 licence.\rhttp://www.apache.org/licenses/LICENSE-2.0.html"
+license_url: https://scripts.sil.org/OFL
+open_license: |2
+
+                                   Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -227,4 +228,3 @@ open_license: |-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
-command: import google -n 9999

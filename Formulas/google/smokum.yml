@@ -1,13 +1,14 @@
 ---
 name: Smokum
-description: Smokum
-homepage: http://www.astigmatic.com/
+description: Smokum font family
+homepage: https://fonts.google.com/specimen/Smokum
 resources:
   Smokum:
     source: google
     family: Smokum
     files:
-    - https://fonts.gstatic.com/s/smokum/v28/TK3iWkUbAhopmrdGHjUHte5fKg.ttf
+    - https://fonts.gstatic.com/s/smokum/v30/TK3iWkUbAhopmrdGHjUHte5fKg.ttf
+    format: ttf
 fonts:
 - name: Smokum
   styles:
@@ -16,15 +17,19 @@ fonts:
     full_name: Smokum Regular
     post_script_name: Smokum-Regular
     version: '1.001'
-    copyright: Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI).
-      All rights reserved. Available under the Apache 2.0 licence.
+    copyright: |-
+      Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.
+      http://www.apache.org/licenses/LICENSE-2.0.html
     font: TK3iWkUbAhopmrdGHjUHte5fKg.ttf
+    description: Licensed under the Apache License, Version 2.0
 extract: {}
-copyright: Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All
-  rights reserved. Available under the Apache 2.0 licence.
-license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |-
-  Apache License
+copyright: |-
+  Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.
+  http://www.apache.org/licenses/LICENSE-2.0.html
+license_url: https://scripts.sil.org/OFL
+open_license: |2
+
+                                   Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -225,4 +230,3 @@ open_license: |-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
-command: import google -n 9999

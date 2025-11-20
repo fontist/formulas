@@ -1,26 +1,19 @@
 ---
 name: Fira Mono
-description: Fira Mono
-homepage: http://www.carrois.com
+description: Fira Mono font family
+homepage: https://fonts.google.com/specimen/Fira+Mono
 resources:
   Fira Mono:
     source: google
     family: Fira Mono
     files:
-    - https://fonts.gstatic.com/s/firamono/v14/N0bX2SlFPv1weGeLZDtQIfTTkdbJYA.ttf
-    - https://fonts.gstatic.com/s/firamono/v14/N0bS2SlFPv1weGeLZDto1d33mf3VaZBRBQ.ttf
-    - https://fonts.gstatic.com/s/firamono/v14/N0bS2SlFPv1weGeLZDtondv3mf3VaZBRBQ.ttf
+    - https://fonts.gstatic.com/s/firamono/v16/N0bX2SlFPv1weGeLZDtQIfTTkdbJYA.ttf
+    - https://fonts.gstatic.com/s/firamono/v16/N0bS2SlFPv1weGeLZDto1d33mf3VaZBRBQ.ttf
+    - https://fonts.gstatic.com/s/firamono/v16/N0bS2SlFPv1weGeLZDtondv3mf3VaZBRBQ.ttf
+    format: ttf
 fonts:
 - name: Fira Mono
   styles:
-  - family_name: Fira Mono
-    type: Bold
-    full_name: Fira Mono Bold
-    post_script_name: FiraMono-Bold
-    version: '3.206'
-    copyright: Digitized data copyright © 2012-2015, The Mozilla Foundation and Telefonica
-      S.A.
-    font: N0bS2SlFPv1weGeLZDtondv3mf3VaZBRBQ.ttf
   - family_name: Fira Mono
     type: Regular
     full_name: Fira Mono Regular
@@ -29,23 +22,32 @@ fonts:
     copyright: Digitized data copyright © 2012-2015, The Mozilla Foundation and Telefonica
       S.A.
     font: N0bX2SlFPv1weGeLZDtQIfTTkdbJYA.ttf
+    description: Licensed under the Open Font License, version 1.1 or later
+  - family_name: Fira Mono
+    type: Bold
+    full_name: Fira Mono Bold
+    post_script_name: FiraMono-Bold
+    version: '3.206'
+    copyright: Digitized data copyright © 2012-2015, The Mozilla Foundation and Telefonica
+      S.A.
+    font: N0bS2SlFPv1weGeLZDtondv3mf3VaZBRBQ.ttf
+    description: Licensed under the Open Font License, version 1.1 or later
 - name: Fira Mono Medium
   styles:
   - family_name: Fira Mono Medium
     type: Regular
-    preferred_family_name: Fira Mono
-    preferred_type: Medium
     full_name: Fira Mono Medium
     post_script_name: FiraMono-Medium
     version: '3.206'
     copyright: Digitized data copyright © 2012-2015, The Mozilla Foundation and Telefonica
       S.A.
     font: N0bS2SlFPv1weGeLZDto1d33mf3VaZBRBQ.ttf
+    description: Licensed under the Open Font License, version 1.1 or later
 extract: {}
 copyright: Digitized data copyright © 2012-2015, The Mozilla Foundation and Telefonica
   S.A.
-license_url: http://scripts.sil.org/OFL
-open_license: |-
+license_url: https://scripts.sil.org/OFL
+open_license: |
   Copyright (c) 2012-2013, The Mozilla Corporation and Telefonica S.A.
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -139,4 +141,3 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-command: import google -n 9999

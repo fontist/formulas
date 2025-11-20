@@ -1,13 +1,14 @@
 ---
 name: Rochester
-description: Rochester
-homepage: http://www.fontbros.com/sideshow.php
+description: Rochester font family
+homepage: https://fonts.google.com/specimen/Rochester
 resources:
   Rochester:
     source: google
     family: Rochester
     files:
-    - https://fonts.gstatic.com/s/rochester/v22/6ae-4KCqVa4Zy6Fif-Uy31vWNTMwoQ.ttf
+    - https://fonts.gstatic.com/s/rochester/v24/6ae-4KCqVa4Zy6Fif-Uy31vWNTMwoQ.ttf
+    format: ttf
 fonts:
 - name: Rochester
   styles:
@@ -16,15 +17,19 @@ fonts:
     full_name: Rochester Regular
     post_script_name: Rochester-Regular
     version: '1.006'
-    copyright: Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.
-      Available under the Apache 2.0 licence.
+    copyright: |-
+      Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved. Available under the Apache 2.0 licence.
+      http://www.apache.org/licenses/LICENSE-2.0.html
     font: 6ae-4KCqVa4Zy6Fif-Uy31vWNTMwoQ.ttf
+    description: Licensed under the Apache License, Version 2.0
 extract: {}
-copyright: Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.
-  Available under the Apache 2.0 licence.
-license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |-
-  Apache License
+copyright: |-
+  Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved. Available under the Apache 2.0 licence.
+  http://www.apache.org/licenses/LICENSE-2.0.html
+license_url: https://scripts.sil.org/OFL
+open_license: |2
+
+                                   Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -225,4 +230,3 @@ open_license: |-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
-command: import google -n 9999

@@ -1,20 +1,19 @@
 ---
 name: Ubuntu Condensed
-description: Ubuntu Condensed
-homepage: http://www.daltonmaag.com/
+description: Ubuntu Condensed font family
+homepage: https://fonts.google.com/specimen/Ubuntu+Condensed
 resources:
   Ubuntu Condensed:
     source: google
     family: Ubuntu Condensed
     files:
-    - https://fonts.gstatic.com/s/ubuntucondensed/v16/u-4k0rCzjgs5J7oXnJcM_0kACGMtf-fVqvHoJXw.ttf
+    - https://fonts.gstatic.com/s/ubuntucondensed/v17/u-4k0rCzjgs5J7oXnJcM_0kACGMtf-fVqvHoJXw.ttf
+    format: ttf
 fonts:
 - name: Ubuntu Condensed
   styles:
   - family_name: Ubuntu Condensed
     type: Regular
-    preferred_family_name: Ubuntu Condensed
-    preferred_type: Regular
     full_name: Ubuntu Condensed
     post_script_name: UbuntuCondensed-Regular
     version: '0.83'
@@ -23,7 +22,8 @@ fonts:
     font: u-4k0rCzjgs5J7oXnJcM_0kACGMtf-fVqvHoJXw.ttf
 extract: {}
 copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0
-open_license: |-
+license_url: https://scripts.sil.org/OFL
+open_license: |
   -------------------------------
   UBUNTU FONT LICENCE Version 1.0
   -------------------------------
@@ -120,4 +120,3 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER
   DEALINGS IN THE FONT SOFTWARE.
-command: import google -n 9999

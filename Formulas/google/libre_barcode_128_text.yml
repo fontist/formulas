@@ -1,12 +1,14 @@
 ---
 name: Libre Barcode 128 Text
-description: Libre Barcode 128 Text
+description: Libre Barcode 128 Text font family
+homepage: https://fonts.google.com/specimen/Libre+Barcode+128+Text
 resources:
   Libre Barcode 128 Text:
     source: google
     family: Libre Barcode 128 Text
     files:
-    - https://fonts.gstatic.com/s/librebarcode128text/v28/fdNv9tubt3ZEnz1Gu3I4-zppwZ9CWZ16Z0w5cV3Y6M90w4k.ttf
+    - https://fonts.gstatic.com/s/librebarcode128text/v31/fdNv9tubt3ZEnz1Gu3I4-zppwZ9CWZ16Z0w5cV3Y6M90w4k.ttf
+    format: ttf
 fonts:
 - name: Libre Barcode 128 Text
   styles:
@@ -17,10 +19,12 @@ fonts:
     version: 1.005; ttfautohint (v1.8.3)
     copyright: Copyright 2017-2020 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)
     font: fdNv9tubt3ZEnz1Gu3I4-zppwZ9CWZ16Z0w5cV3Y6M90w4k.ttf
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
 extract: {}
 copyright: Copyright 2017-2020 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)
 license_url: https://scripts.sil.org/OFL
-open_license: |-
+open_license: |
   Copyright 2017-2019 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -114,4 +118,3 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-command: import google -n 9999

@@ -1,12 +1,14 @@
 ---
 name: Nova Mono
-description: Nova Mono
+description: Nova Mono font family
+homepage: https://fonts.google.com/specimen/Nova+Mono
 resources:
   Nova Mono:
     source: google
     family: Nova Mono
     files:
-    - https://fonts.gstatic.com/s/novamono/v20/Cn-0JtiGWQ5Ajb--MRKfYGxYrdM9Sg.ttf
+    - https://fonts.gstatic.com/s/novamono/v23/Cn-0JtiGWQ5Ajb--MRKfYGxYrdM9Sg.ttf
+    format: ttf
 fonts:
 - name: NovaMono
   styles:
@@ -15,12 +17,23 @@ fonts:
     full_name: NovaMono
     post_script_name: NovaMono
     version: '1.2'
-    copyright: wmk69
+    copyright: |-
+      wmk69
+      SIL - Open Font License v.1.1
     font: Cn-0JtiGWQ5Ajb--MRKfYGxYrdM9Sg.ttf
+    description: |
+      Copyright (c) 2011, wmk69, (wmk69@o2.pl),
+      with Reserved Font Name NovaMono.
+
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+      This license is copied below, and is also available with a FAQ at:
+      http://scripts.sil.org/OFL
 extract: {}
-copyright: wmk69
-license_url: http://scripts.sil.org/OFL
-open_license: |-
+copyright: |-
+  wmk69
+  SIL - Open Font License v.1.1
+license_url: https://scripts.sil.org/OFL
+open_license: |
   Copyright (c) 2011, wmk69 (wmk69@o2.pl),
   with Reserved Font Name NovaMono.
 
@@ -126,4 +139,3 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-command: import google -n 9999

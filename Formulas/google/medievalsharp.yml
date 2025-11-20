@@ -1,12 +1,14 @@
 ---
 name: MedievalSharp
-description: MedievalSharp
+description: MedievalSharp font family
+homepage: https://fonts.google.com/specimen/MedievalSharp
 resources:
   MedievalSharp:
     source: google
     family: MedievalSharp
     files:
-    - https://fonts.gstatic.com/s/medievalsharp/v26/EvOJzAlL3oU5AQl2mP5KdgptAq96MwvXLDk.ttf
+    - https://fonts.gstatic.com/s/medievalsharp/v28/EvOJzAlL3oU5AQl2mP5KdgptAq96MwvXLDk.ttf
+    format: ttf
 fonts:
 - name: MedievalSharp
   styles:
@@ -15,12 +17,23 @@ fonts:
     full_name: MedievalSharp
     post_script_name: MedievalSharp
     version: '1.0'
-    copyright: wmk69
+    copyright: |-
+      wmk69
+      SIL Open Font License v.1.1
     font: EvOJzAlL3oU5AQl2mP5KdgptAq96MwvXLDk.ttf
+    description: |-
+      Copyright (c) 2011, wmk69, (wmk69@o2.pl),
+      with Reserved Font Name NovaRound.
+
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+      This license is copied below, and is also available with a FAQ at:
+      http://scripts.sil.org/OFL
 extract: {}
-copyright: wmk69
-license_url: http://scripts.sil.org/OFL
-open_license: |-
+copyright: |-
+  wmk69
+  SIL Open Font License v.1.1
+license_url: https://scripts.sil.org/OFL
+open_license: |
   Copyright (c) 2011, wmk69 (wmk69@o2.pl),
   with Reserved Font Name MedievalSharp.
 
@@ -126,4 +139,3 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-command: import google -n 9999

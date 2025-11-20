@@ -1,40 +1,20 @@
 ---
 name: Tinos
-description: Tinos
-homepage: http://www.monotypeimaging.com
+description: Tinos font family
+homepage: https://fonts.google.com/specimen/Tinos
 resources:
   Tinos:
     source: google
     family: Tinos
     files:
-    - https://fonts.gstatic.com/s/tinos/v24/buE4poGnedXvwgX8dGVh8TI-.ttf
-    - https://fonts.gstatic.com/s/tinos/v24/buE2poGnedXvwjX-fmFD9CI-4NU.ttf
-    - https://fonts.gstatic.com/s/tinos/v24/buE1poGnedXvwj1AW0Fp2i43-cxL.ttf
-    - https://fonts.gstatic.com/s/tinos/v24/buEzpoGnedXvwjX-Rt1s0CoV_NxLeiw.ttf
+    - https://fonts.gstatic.com/s/tinos/v25/buE4poGnedXvwgX8dGVh8TI-.ttf
+    - https://fonts.gstatic.com/s/tinos/v25/buE2poGnedXvwjX-fmFD9CI-4NU.ttf
+    - https://fonts.gstatic.com/s/tinos/v25/buE1poGnedXvwj1AW0Fp2i43-cxL.ttf
+    - https://fonts.gstatic.com/s/tinos/v25/buEzpoGnedXvwjX-Rt1s0CoV_NxLeiw.ttf
+    format: ttf
 fonts:
 - name: Tinos
   styles:
-  - family_name: Tinos
-    type: Bold
-    full_name: Tinos Bold
-    post_script_name: Tinos-Bold
-    version: '1.23'
-    copyright: Digitized data copyright (c) 2010-2012 Google Corporation.
-    font: buE1poGnedXvwj1AW0Fp2i43-cxL.ttf
-  - family_name: Tinos
-    type: Bold Italic
-    full_name: Tinos Bold Italic
-    post_script_name: Tinos-BoldItalic
-    version: '1.23'
-    copyright: Digitized data copyright (c) 2010-2012 Google Corporation.
-    font: buEzpoGnedXvwjX-Rt1s0CoV_NxLeiw.ttf
-  - family_name: Tinos
-    type: Italic
-    full_name: Tinos Italic
-    post_script_name: Tinos-Italic
-    version: '1.23'
-    copyright: Digitized data copyright (c) 2010-2012 Google Corporation.
-    font: buE2poGnedXvwjX-fmFD9CI-4NU.ttf
   - family_name: Tinos
     type: Regular
     full_name: Tinos Regular
@@ -42,11 +22,37 @@ fonts:
     version: '1.23'
     copyright: Digitized data copyright (c) 2010-2012 Google Corporation.
     font: buE4poGnedXvwgX8dGVh8TI-.ttf
+    description: Licensed under the Apache License, Version 2.0
+  - family_name: Tinos
+    type: Italic
+    full_name: Tinos Italic
+    post_script_name: Tinos-Italic
+    version: '1.23'
+    copyright: Digitized data copyright (c) 2010-2012 Google Corporation.
+    font: buE2poGnedXvwjX-fmFD9CI-4NU.ttf
+    description: Licensed under the Apache License, Version 2.0
+  - family_name: Tinos
+    type: Bold
+    full_name: Tinos Bold
+    post_script_name: Tinos-Bold
+    version: '1.23'
+    copyright: Digitized data copyright (c) 2010-2012 Google Corporation.
+    font: buE1poGnedXvwj1AW0Fp2i43-cxL.ttf
+    description: Licensed under the Apache License, Version 2.0
+  - family_name: Tinos
+    type: Bold Italic
+    full_name: Tinos Bold Italic
+    post_script_name: Tinos-BoldItalic
+    version: '1.23'
+    copyright: Digitized data copyright (c) 2010-2012 Google Corporation.
+    font: buEzpoGnedXvwjX-Rt1s0CoV_NxLeiw.ttf
+    description: Licensed under the Apache License, Version 2.0
 extract: {}
 copyright: Digitized data copyright (c) 2010-2012 Google Corporation.
-license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |-
-  Apache License
+license_url: https://scripts.sil.org/OFL
+open_license: |2
+
+                                   Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -247,4 +253,3 @@ open_license: |-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
-command: import google -n 9999

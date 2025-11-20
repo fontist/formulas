@@ -1,24 +1,18 @@
 ---
 name: Xanh Mono
-description: Xanh Mono
-homepage: https://yellow-type.com/
+description: Xanh Mono font family
+homepage: https://fonts.google.com/specimen/Xanh+Mono
 resources:
   Xanh Mono:
     source: google
     family: Xanh Mono
     files:
-    - https://fonts.gstatic.com/s/xanhmono/v18/R70YjykVmvKCep-vWhSYmACQXzLhTg.ttf
-    - https://fonts.gstatic.com/s/xanhmono/v18/R70ejykVmvKCep-vWhSomgqUfTfxTo24.ttf
+    - https://fonts.gstatic.com/s/xanhmono/v19/R70YjykVmvKCep-vWhSYmACQXzLhTg.ttf
+    - https://fonts.gstatic.com/s/xanhmono/v19/R70ejykVmvKCep-vWhSomgqUfTfxTo24.ttf
+    format: ttf
 fonts:
 - name: Xanh Mono
   styles:
-  - family_name: Xanh Mono
-    type: Italic
-    full_name: Xanh Mono Italic
-    post_script_name: XanhMono-Italic
-    version: 3.101; ttfautohint (v1.8.3)
-    copyright: Copyright 2020 The XanhMono Project Authors (https://github.com/yellow-type-foundry/xanhmono)
-    font: R70ejykVmvKCep-vWhSomgqUfTfxTo24.ttf
   - family_name: Xanh Mono
     type: Regular
     full_name: Xanh Mono Regular
@@ -26,10 +20,21 @@ fonts:
     version: 3.101; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The XanhMono Project Authors (https://github.com/yellow-type-foundry/xanhmono)
     font: R70YjykVmvKCep-vWhSYmACQXzLhTg.ttf
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+  - family_name: Xanh Mono
+    type: Italic
+    full_name: Xanh Mono Italic
+    post_script_name: XanhMono-Italic
+    version: 3.101; ttfautohint (v1.8.3)
+    copyright: Copyright 2020 The XanhMono Project Authors (https://github.com/yellow-type-foundry/xanhmono)
+    font: R70ejykVmvKCep-vWhSomgqUfTfxTo24.ttf
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
 extract: {}
 copyright: Copyright 2020 The XanhMono Project Authors (https://github.com/yellow-type-foundry/xanhmono)
 license_url: https://scripts.sil.org/OFL
-open_license: |-
+open_license: |
   Copyright 2020 The XanhMono Project Authors (https://github.com/yellow-type-foundry/xanhmono).
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -123,4 +128,3 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-command: import google -n 9999

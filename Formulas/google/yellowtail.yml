@@ -1,12 +1,14 @@
 ---
 name: Yellowtail
-description: Yellowtail
+description: Yellowtail font family
+homepage: https://fonts.google.com/specimen/Yellowtail
 resources:
   Yellowtail:
     source: google
     family: Yellowtail
     files:
-    - https://fonts.gstatic.com/s/yellowtail/v22/OZpGg_pnoDtINPfRIlLotlzNwED-b4g.ttf
+    - https://fonts.gstatic.com/s/yellowtail/v25/OZpGg_pnoDtINPfRIlLotlzNwED-b4g.ttf
+    format: ttf
 fonts:
 - name: Yellowtail
   styles:
@@ -14,15 +16,19 @@ fonts:
     type: Regular
     full_name: Yellowtail Regular
     post_script_name: Yellowtail-Regular
-    version: '001.002'
-    copyright: Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI).
-      All rights reserved. Available under the Apache 2.0 licence.
+    version: '001.002 '
+    copyright: |-
+      Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.
+      http://www.apache.org/licenses/LICENSE-2.0.html
     font: OZpGg_pnoDtINPfRIlLotlzNwED-b4g.ttf
 extract: {}
-copyright: Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All
-  rights reserved. Available under the Apache 2.0 licence.
-open_license: |-
-  Apache License
+copyright: |-
+  Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.
+  http://www.apache.org/licenses/LICENSE-2.0.html
+license_url: https://scripts.sil.org/OFL
+open_license: |2
+
+                                   Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -223,4 +229,3 @@ open_license: |-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
-command: import google -n 9999

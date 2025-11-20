@@ -1,13 +1,14 @@
 ---
 name: Rock Salt
-description: Rock Salt
-homepage: http://www.fontbros.com/sideshow.php
+description: Rock Salt font family
+homepage: https://fonts.google.com/specimen/Rock+Salt
 resources:
   Rock Salt:
     source: google
     family: Rock Salt
     files:
-    - https://fonts.gstatic.com/s/rocksalt/v22/MwQ0bhv11fWD6QsAVOZbsEk7hbBWrA.ttf
+    - https://fonts.gstatic.com/s/rocksalt/v24/MwQ0bhv11fWD6QsAVOZbsEk7hbBWrA.ttf
+    format: ttf
 fonts:
 - name: Rock Salt
   styles:
@@ -18,11 +19,13 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.
     font: MwQ0bhv11fWD6QsAVOZbsEk7hbBWrA.ttf
+    description: Licensed under the Apache License, Version 2.0
 extract: {}
 copyright: Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.
-license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |-
-  Apache License
+license_url: https://scripts.sil.org/OFL
+open_license: |2
+
+                                   Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -223,4 +226,3 @@ open_license: |-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
-command: import google -n 9999

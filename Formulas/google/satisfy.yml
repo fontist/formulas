@@ -1,13 +1,14 @@
 ---
 name: Satisfy
-description: Satisfy
-homepage: http://www.fontdiner.com
+description: Satisfy font family
+homepage: https://fonts.google.com/specimen/Satisfy
 resources:
   Satisfy:
     source: google
     family: Satisfy
     files:
-    - https://fonts.gstatic.com/s/satisfy/v21/rP2Hp2yn6lkG50LoOZSCHBeHFl0.ttf
+    - https://fonts.gstatic.com/s/satisfy/v22/rP2Hp2yn6lkG50LoOZSCHBeHFl0.ttf
+    format: ttf
 fonts:
 - name: Satisfy
   styles:
@@ -18,11 +19,13 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011 by Font Diner, Inc. All rights reserved.
     font: rP2Hp2yn6lkG50LoOZSCHBeHFl0.ttf
+    description: Licensed under the Apache License, Version 2.0
 extract: {}
 copyright: Copyright (c) 2011 by Font Diner, Inc. All rights reserved.
-license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |-
-  Apache License
+license_url: https://scripts.sil.org/OFL
+open_license: |2
+
+                                   Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -223,4 +226,3 @@ open_license: |-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
-command: import google -n 9999

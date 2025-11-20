@@ -1,23 +1,38 @@
 ---
 name: Ubuntu Mono
-description: Ubuntu Mono
-homepage: http://www.daltonmaag.com/
+description: Ubuntu Mono font family
+homepage: https://fonts.google.com/specimen/Ubuntu+Mono
 resources:
   Ubuntu Mono:
     source: google
     family: Ubuntu Mono
     files:
-    - https://fonts.gstatic.com/s/ubuntumono/v17/KFOjCneDtsqEr0keqCMhbBc9AMX6lJBP.ttf
-    - https://fonts.gstatic.com/s/ubuntumono/v17/KFOhCneDtsqEr0keqCMhbCc_CsHYkYBPY3o.ttf
-    - https://fonts.gstatic.com/s/ubuntumono/v17/KFO-CneDtsqEr0keqCMhbC-BL-Hyv4xGemO1.ttf
-    - https://fonts.gstatic.com/s/ubuntumono/v17/KFO8CneDtsqEr0keqCMhbCc_Mn33tYhkf3O1GVg.ttf
+    - https://fonts.gstatic.com/s/ubuntumono/v19/KFOjCneDtsqEr0keqCMhbBc9AMX6lJBP.ttf
+    - https://fonts.gstatic.com/s/ubuntumono/v19/KFOhCneDtsqEr0keqCMhbCc_CsHYkYBPY3o.ttf
+    - https://fonts.gstatic.com/s/ubuntumono/v19/KFO-CneDtsqEr0keqCMhbC-BL-Hyv4xGemO1.ttf
+    - https://fonts.gstatic.com/s/ubuntumono/v19/KFO8CneDtsqEr0keqCMhbCc_Mn33tYhkf3O1GVg.ttf
+    format: ttf
 fonts:
 - name: Ubuntu Mono
   styles:
   - family_name: Ubuntu Mono
+    type: Regular
+    full_name: Ubuntu Mono
+    post_script_name: UbuntuMono-Regular
+    version: '0.80'
+    copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
+      1.0
+    font: KFOjCneDtsqEr0keqCMhbBc9AMX6lJBP.ttf
+  - family_name: Ubuntu Mono
+    type: Italic
+    full_name: Ubuntu Mono Italic
+    post_script_name: UbuntuMono-Italic
+    version: '0.80'
+    copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
+      1.0
+    font: KFOhCneDtsqEr0keqCMhbCc_CsHYkYBPY3o.ttf
+  - family_name: Ubuntu Mono
     type: Bold
-    preferred_family_name: Ubuntu Mono
-    preferred_type: Bold
     full_name: Ubuntu Mono Bold
     post_script_name: UbuntuMono-Bold
     version: '0.80'
@@ -26,37 +41,16 @@ fonts:
     font: KFO-CneDtsqEr0keqCMhbC-BL-Hyv4xGemO1.ttf
   - family_name: Ubuntu Mono
     type: Bold Italic
-    preferred_family_name: Ubuntu Mono
-    preferred_type: Bold Italic
     full_name: Ubuntu Mono Bold Italic
     post_script_name: UbuntuMono-BoldItalic
     version: '0.80'
     copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
       1.0
     font: KFO8CneDtsqEr0keqCMhbCc_Mn33tYhkf3O1GVg.ttf
-  - family_name: Ubuntu Mono
-    type: Italic
-    preferred_family_name: Ubuntu Mono
-    preferred_type: Italic
-    full_name: Ubuntu Mono Italic
-    post_script_name: UbuntuMono-Italic
-    version: '0.80'
-    copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
-      1.0
-    font: KFOhCneDtsqEr0keqCMhbCc_CsHYkYBPY3o.ttf
-  - family_name: Ubuntu Mono
-    type: Regular
-    preferred_family_name: Ubuntu Mono
-    preferred_type: Regular
-    full_name: Ubuntu Mono
-    post_script_name: UbuntuMono-Regular
-    version: '0.80'
-    copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
-      1.0
-    font: KFOjCneDtsqEr0keqCMhbBc9AMX6lJBP.ttf
 extract: {}
 copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0
-open_license: |-
+license_url: https://scripts.sil.org/OFL
+open_license: |
   -------------------------------
   UBUNTU FONT LICENCE Version 1.0
   -------------------------------
@@ -153,4 +147,3 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER
   DEALINGS IN THE FONT SOFTWARE.
-command: import google -n 9999

@@ -1,12 +1,14 @@
 ---
 name: Libre Barcode 39 Text
-description: Libre Barcode 39 Text
+description: Libre Barcode 39 Text font family
+homepage: https://fonts.google.com/specimen/Libre+Barcode+39+Text
 resources:
   Libre Barcode 39 Text:
     source: google
     family: Libre Barcode 39 Text
     files:
-    - https://fonts.gstatic.com/s/librebarcode39text/v28/sJoa3KhViNKANw_E3LwoDXvs5Un0HQ1vT-031RRL-9rYaw.ttf
+    - https://fonts.gstatic.com/s/librebarcode39text/v32/sJoa3KhViNKANw_E3LwoDXvs5Un0HQ1vT-031RRL-9rYaw.ttf
+    format: ttf
 fonts:
 - name: Libre Barcode 39 Text
   styles:
@@ -17,10 +19,12 @@ fonts:
     version: 1.005; ttfautohint (v1.8.3)
     copyright: Copyright 2017-2020 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)
     font: sJoa3KhViNKANw_E3LwoDXvs5Un0HQ1vT-031RRL-9rYaw.ttf
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
 extract: {}
 copyright: Copyright 2017-2020 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)
 license_url: https://scripts.sil.org/OFL
-open_license: |-
+open_license: |
   Copyright 2017-2019 The Libre Barcode Project Authors (https://github.com/graphicore/librebarcode)
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -114,4 +118,3 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-command: import google -n 9999

@@ -1,13 +1,14 @@
 ---
 name: Redressed
-description: Redressed
-homepage: http://www.astigmatic.com/
+description: Redressed font family
+homepage: https://fonts.google.com/specimen/Redressed
 resources:
   Redressed:
     source: google
     family: Redressed
     files:
-    - https://fonts.gstatic.com/s/redressed/v29/x3dickHUbrmJ7wMy9MsBfPACvy_1BA.ttf
+    - https://fonts.gstatic.com/s/redressed/v32/x3dickHUbrmJ7wMy9MsBfPACvy_1BA.ttf
+    format: ttf
 fonts:
 - name: Redressed
   styles:
@@ -16,17 +17,17 @@ fonts:
     full_name: Redressed Regular
     post_script_name: Redressed-Regular
     version: '1.001'
-    copyright: |-
-      Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.
-      http://www.apache.org/licenses/LICENSE-2.0.html
+    copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI).
+      All rights reserved. Available under the Apache 2.0 licence.\rhttp://www.apache.org/licenses/LICENSE-2.0.html"
     font: x3dickHUbrmJ7wMy9MsBfPACvy_1BA.ttf
+    description: Licensed under the Apache License, Version 2.0
 extract: {}
-copyright: |-
-  Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.
-  http://www.apache.org/licenses/LICENSE-2.0.html
-license_url: http://www.apache.org/licenses/LICENSE-2.0
-open_license: |-
-  Apache License
+copyright: "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All
+  rights reserved. Available under the Apache 2.0 licence.\rhttp://www.apache.org/licenses/LICENSE-2.0.html"
+license_url: https://scripts.sil.org/OFL
+open_license: |2
+
+                                   Apache License
                              Version 2.0, January 2004
                           http://www.apache.org/licenses/
 
@@ -227,4 +228,3 @@ open_license: |-
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
-command: import google -n 9999
