@@ -1,4 +1,3 @@
-require "json"
 require "yaml"
 require "tmpdir"
 require "optparse"
@@ -58,7 +57,7 @@ class TestFormulas
   end
 
   def formulas_paths
-    @formulas ||= JSON.parse(File.read("changed.json")).select do |file|
+    @formulas ||= File.read("changed.txt").split.select do |file|
       next unless file.start_with?("Formulas/")
 
       content = YAML.load_file(file)

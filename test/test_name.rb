@@ -1,4 +1,3 @@
-require "json"
 require "yaml"
 
 class TestName
@@ -19,7 +18,7 @@ class TestName
   private
 
   def changed_formulas_paths
-    JSON.parse(File.read("changed.json")).select do |file|
+    File.read("changed.txt").split.select do |file|
       file.start_with?("Formulas/")
     end
   end

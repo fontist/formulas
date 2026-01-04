@@ -17,11 +17,9 @@ jobs:
 
       - uses: tj-actions/changed-files@v47
         id: files
-        with:
-          json: true
 
       - run: |
-          echo "${{ steps.files.outputs.all_changed_files }}" > changed.json
+          echo "${{ steps.files.outputs.all_changed_files }}" > changed.txt
         shell: bash
 
       - uses: ruby/setup-ruby@v1
