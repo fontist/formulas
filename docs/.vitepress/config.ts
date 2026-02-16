@@ -2,6 +2,19 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  // Exclude development/design documents from processing
+  srcExclude: [
+    "RESOURCE_ARCHITECTURE.md",
+    "V4_*.md",
+    "broken-formulas-branch-analysis.md",
+    "dual-source-import-plan.md",
+    "formula-font-format-proposal*.md",
+    "google-fonts-import-*.md",
+    "phase4-*.md",
+    "testing-google-import.md",
+    "GOOGLE_FONTS_IMPLEMENTATION.md",
+  ],
+
   ignoreDeadLinks: [
     "./www.woowahan.com",
     "./www.woowahan.comm",
@@ -23,7 +36,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Guide", link: "/guide/" },
+      { text: "Guide", link: "/guide/create-formula" },
       { text: "Formulas", link: "/formulas/" },
     ],
 
