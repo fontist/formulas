@@ -1,0 +1,266 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# URL accessibility check for fontist formulas
+# Performs HEAD requests to verify font URLs are accessible
+
+require "yaml"
+require "net/http"
+require "uri"
+require "optparse"
+require "concurrent"
+
+class CheckUrls
+  TIMEOUT_SECONDS = 10
+  MAX_RETRIES = 2
+  RETRY_DELAY = 2
+  MAX_CONCURRENT = 10
+
+  def initialize(args)
+    OptionParser.new do |opts|
+      opts.banner = "Usage: ruby check_urls.rb [options]"
+
+      opts.on("--directory DIR", "Directory to scan for formulas") do |dir|
+        @directory = dir
+      end
+
+      opts.on("--timeout SECONDS", Integer, "Request timeout") do |timeout|
+        @timeout = timeout
+      end
+
+      opts.on("--sample N", Integer, "Only check N formulas randomly") do |n|
+        @sample_size = n
+      end
+
+      opts.on("--google-only", "Only check Google fonts") do
+        @google_only = true
+      end
+
+      opts.on("--verbose", "Show all URLs checked") do
+        @verbose = true
+      end
+    end.parse!
+
+    @directory ||= "Formulas"
+    @timeout ||= TIMEOUT_SECONDS
+    @sample_size ||= nil
+    @google_only ||= false
+    @verbose ||= false
+
+    @errors = []
+    @warnings = []
+    @checked_urls = {}
+    @mutex = Mutex.new
+  end
+
+  def call
+    puts "Checking URL accessibility in: #{@directory}"
+    puts "Timeout: #{@timeout}s, Max concurrent: #{MAX_CONCURRENT}"
+    puts "=" * 60
+
+    formulas = collect_formulas
+    formulas = sample_formulas(formulas) if @sample_size
+
+    puts "Checking #{formulas.size} formulas..."
+    puts
+
+    # Process formulas concurrently
+    pool = Concurrent::FixedThreadPool.new(MAX_CONCURRENT)
+    futures = formulas.map do |formula|
+      Concurrent::Future.execute(executor: pool) do
+        check_formula_urls(formula)
+      end
+    end
+
+    # Wait for all to complete
+    futures.each(&:value!)
+    pool.shutdown
+    pool.wait_for_termination
+
+    print_results
+    exit 1 if @errors.any?
+  end
+
+  private
+
+  def collect_formulas
+    files = Dir.glob(File.join(@directory, "**/*.yml"))
+
+    files.select do |file|
+      next false if file.include?("BACKUP")
+
+      if @google_only
+        file.include?("/google/")
+      else
+        true
+      end
+    end.sort
+  end
+
+  def sample_formulas(formulas)
+    formulas.sample(@sample_size)
+  end
+
+  def check_formula_urls(file)
+    content = YAML.load_file(file)
+    return unless content
+
+    urls = extract_urls(content)
+    return if urls.empty?
+
+    formula_name = content["name"] || File.basename(file, ".yml")
+
+    urls.each do |url|
+      next if already_checked?(url)
+
+      result = check_url(url)
+
+      @mutex.synchronize do
+        if result[:status] == :error
+          @errors << { file: file, url: url, message: result[:message] }
+          puts "  FAIL: #{formula_name}"
+          puts "        #{url}"
+          puts "        #{result[:message]}"
+        elsif result[:status] == :warning
+          @warnings << { file: file, url: url, message: result[:message] }
+          puts "  WARN: #{formula_name} - #{result[:message]}" if @verbose
+        elsif @verbose
+          puts "  OK:   #{formula_name}"
+        end
+      end
+    end
+  rescue StandardError => e
+    @mutex.synchronize do
+      @errors << { file: file, url: "N/A", message: "Parse error: #{e.message}" }
+    end
+  end
+
+  def extract_urls(content)
+    urls = []
+    resources = content["resources"]
+    return urls unless resources
+
+    resources.each do |_name, resource|
+      # v5 Google-style: files array
+      if resource["files"].is_a?(Array)
+        urls.concat(resource["files"])
+      end
+
+      # v4 URL-based: urls array
+      if resource["urls"].is_a?(Array)
+        urls.concat(resource["urls"])
+      end
+
+      # Single URL
+      urls << resource["url"] if resource["url"]
+    end
+
+    urls.compact.uniq
+  end
+
+  def already_checked?(url)
+    @mutex.synchronize do
+      if @checked_urls.key?(url)
+        return @checked_urls[url]
+      end
+      @checked_urls[url] = :checking
+      false
+    end
+  end
+
+  def check_url(url)
+    uri = URI.parse(url)
+
+    unless %w[http https].include?(uri.scheme)
+      return { status: :warning, message: "Non-HTTP URL" }
+    end
+
+    retries = 0
+
+    begin
+      http = Net::HTTP.new(uri.host, uri.port)
+      http.use_ssl = (uri.scheme == "https")
+      http.open_timeout = @timeout
+      http.read_timeout = @timeout
+
+      request = Net::HTTP::Head.new(uri.request_uri)
+      request["User-Agent"] = "fontist-formula-check/1.0"
+
+      response = http.request(request)
+
+      case response.code.to_i
+      when 200..299
+        @mutex.synchronize { @checked_urls[url] = :ok }
+        { status: :ok, message: "OK (#{response.code})" }
+      when 301, 302, 303, 307, 308
+        # Follow redirects up to 3 times
+        location = response["Location"]
+        if location && retries < 3
+          retries += 1
+          return check_url(location)
+        end
+        { status: :warning, message: "Redirect (#{response.code}) -> #{location}" }
+      when 403
+        { status: :warning, message: "Forbidden (403) - may need special headers" }
+      when 404
+        @mutex.synchronize { @checked_urls[url] = :error }
+        { status: :error, message: "Not Found (404)" }
+      when 429
+        { status: :warning, message: "Rate Limited (429)" }
+      when 500..599
+        @mutex.synchronize { @checked_urls[url] = :error }
+        { status: :error, message: "Server Error (#{response.code})" }
+      else
+        { status: :warning, message: "Unexpected status: #{response.code}" }
+      end
+    rescue Net::OpenTimeout, Net::ReadTimeout
+      retries += 1
+      if retries <= MAX_RETRIES
+        sleep(RETRY_DELAY)
+        retry
+      end
+      @mutex.synchronize { @checked_urls[url] = :error }
+      { status: :error, message: "Timeout after #{@timeout}s" }
+    rescue SocketError => e
+      @mutex.synchronize { @checked_urls[url] = :error }
+      { status: :error, message: "DNS/Network error: #{e.message}" }
+    rescue StandardError => e
+      @mutex.synchronize { @checked_urls[url] = :error }
+      { status: :error, message: "Error: #{e.message}" }
+    end
+  end
+
+  def print_results
+    puts
+    puts "=" * 60
+    puts "URL CHECK RESULTS"
+    puts "=" * 60
+    puts "URLs checked:    #{@checked_urls.size}"
+    puts "Errors:          #{@errors.size}"
+    puts "Warnings:        #{@warnings.size}"
+
+    if @errors.any?
+      puts
+      puts "FAILED URLs:"
+      @errors.group_by { |e| e[:file] }.each do |file, errs|
+        puts "  #{file}"
+        errs.each { |e| puts "    - #{e[:url]}: #{e[:message]}" }
+      end
+    end
+
+    if @warnings.any? && @warnings.size <= 20
+      puts
+      puts "WARNINGS:"
+      @warnings.each { |w| puts "  #{w[:url]}: #{w[:message]}" }
+    end
+
+    puts
+    if @errors.empty?
+      puts "All URLs are accessible."
+    else
+      puts "URL check FAILED."
+    end
+  end
+end
+
+CheckUrls.new(ARGV.dup).call

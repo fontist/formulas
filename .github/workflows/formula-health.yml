@@ -1,0 +1,348 @@
+name: formula-health
+
+# Periodic health check for fontist formulas
+# Runs every other day to validate formula integrity
+
+on:
+  schedule:
+    # Tier 1: Fast validation - Daily at 6am UTC
+    - cron: '0 6 * * *'
+    # Tier 2: Full installation - Every other day at 7am UTC
+    - cron: '0 7 */2 * *'
+  workflow_dispatch:
+    inputs:
+      tier:
+        description: 'Which tier to run'
+        required: true
+        default: 'both'
+        type: choice
+        options:
+          - both
+          - tier1-validation
+          - tier2-installation
+      group:
+        description: 'Formula group to test (for tier 2)'
+        required: false
+        default: ''
+        type: choice
+        options:
+          - ''
+          - google
+          - sil
+          - macos
+          - other
+      sample_size:
+        description: 'Sample N formulas (for testing)'
+        required: false
+        default: ''
+        type: string
+
+env:
+  RUBY_VERSION: '3.3'
+
+jobs:
+  # ===========================================================================
+  # TIER 1: Fast Validation
+  # ===========================================================================
+  tier1-validation:
+    name: Tier 1 - Schema & URL Validation
+    runs-on: ubuntu-latest
+    # Run daily at 6am UTC, or when manually triggered
+    if: |
+      (github.event_name == 'schedule' &&
+       github.event.schedule == '0 6 * * *') ||
+      (github.event_name == 'workflow_dispatch' &&
+       (github.event.inputs.tier == 'both' ||
+        github.event.inputs.tier == 'tier1-validation'))
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ env.RUBY_VERSION }}
+          bundler-cache: true
+
+      - name: Install concurrent-ruby for URL checking
+        run: gem install concurrent-ruby
+
+      - name: Schema Validation
+        id: schema
+        run: |
+          echo "::group::Schema Validation"
+          ruby .github/scripts/validate_schema.rb --directory Formulas 2>&1 | tee schema-results.txt
+          echo "::endgroup::"
+
+          # Check for failures
+          if grep -q "Schema validation FAILED" schema-results.txt; then
+            echo "schema_passed=false" >> $GITHUB_OUTPUT
+          else
+            echo "schema_passed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: URL Accessibility Check (Google fonts sample)
+        id: urls
+        run: |
+          echo "::group::URL Check - Google Fonts"
+          # Check all Google fonts (they share same URL pattern)
+          ruby .github/scripts/check_urls.rb \
+            --directory Formulas/google \
+            --timeout 15 \
+            --verbose 2>&1 | tee url-results.txt
+          echo "::endgroup::"
+
+          # Check for failures
+          if grep -q "URL check FAILED" url-results.txt; then
+            echo "urls_passed=false" >> $GITHUB_OUTPUT
+          else
+            echo "urls_passed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Upload validation results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: tier1-validation-results
+          path: |
+            schema-results.txt
+            url-results.txt
+          retention-days: 30
+
+      - name: Summary
+        run: |
+          echo "## Tier 1 Validation Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Check | Status |" >> $GITHUB_STEP_SUMMARY
+          echo "|-------|--------|" >> $GITHUB_STEP_SUMMARY
+          echo "| Schema | ${{ steps.schema.outputs.schema_passed == 'true' && '✅ Passed' || '❌ Failed' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| URLs | ${{ steps.urls.outputs.urls_passed == 'true' && '✅ Passed' || '❌ Failed' }} |" >> $GITHUB_STEP_SUMMARY
+
+      - name: Fail if validation failed
+        if: steps.schema.outputs.schema_passed != 'true' || steps.urls.outputs.urls_passed != 'true'
+        run: exit 1
+
+  # ===========================================================================
+  # TIER 2: Full Installation Test
+  # ===========================================================================
+  tier2-installation:
+    name: Tier 2 - Installation Test (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    # Run every other day at 7am UTC, or when manually triggered
+    if: |
+      (github.event_name == 'schedule' &&
+       github.event.schedule == '0 7 */2 * *') ||
+      (github.event_name == 'workflow_dispatch' &&
+       (github.event.inputs.tier == 'both' ||
+        github.event.inputs.tier == 'tier2-installation'))
+
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ env.RUBY_VERSION }}
+          bundler-cache: true
+
+      - name: Determine rotation and platform
+        id: config
+        shell: bash
+        run: |
+          # Calculate rotation day (1 or 2) based on current day of year
+          ROTATION_DAY=$(( $(date +%j) % 2 + 1 ))
+          echo "rotation_day=${ROTATION_DAY}" >> $GITHUB_OUTPUT
+
+          # Map OS to platform
+          case "${{ matrix.os }}" in
+            ubuntu-latest) PLATFORM="linux" ;;
+            macos-latest)  PLATFORM="macos" ;;
+            windows-latest) PLATFORM="windows" ;;
+          esac
+          echo "platform=${PLATFORM}" >> $GITHUB_OUTPUT
+
+          # Build extra args from inputs
+          EXTRA_ARGS=""
+          if [ -n "${{ github.event.inputs.group }}" ]; then
+            EXTRA_ARGS="${EXTRA_ARGS} --group ${{ github.event.inputs.group }}"
+          fi
+          if [ -n "${{ github.event.inputs.sample_size }}" ]; then
+            EXTRA_ARGS="${EXTRA_ARGS} --sample ${{ github.event.inputs.sample_size }}"
+          fi
+          echo "extra_args=${EXTRA_ARGS}" >> $GITHUB_OUTPUT
+
+          echo "Rotation day: ${ROTATION_DAY}"
+          echo "Platform: ${PLATFORM}"
+
+      - name: Run installation test (Day ${{ steps.config.outputs.rotation_day }})
+        id: install
+        shell: bash
+        continue-on-error: true
+        run: |
+          echo "::group::Installation Test - Rotation Day ${{ steps.config.outputs.rotation_day }}"
+
+          # Build the command
+          CMD="ruby .github/scripts/install_formulas.rb"
+          CMD="${CMD} --directory Formulas"
+          CMD="${CMD} --rotation ${{ steps.config.outputs.rotation_day }}"
+          CMD="${CMD} --platform ${{ steps.config.outputs.platform }}"
+          CMD="${CMD} --continue-on-error"
+          CMD="${CMD} ${{ steps.config.outputs.extra_args }}"
+          CMD="${CMD} --output install-results-${{ steps.config.outputs.platform }}.yml"
+
+          echo "Running: ${CMD}"
+          ${CMD} 2>&1 | tee install-output.txt
+
+          echo "::endgroup::"
+
+          # Check for failures
+          if grep -q "Installation test FAILED" install-output.txt; then
+            echo "install_passed=false" >> $GITHUB_OUTPUT
+          else
+            echo "install_passed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Upload installation results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: tier2-install-results-${{ steps.config.outputs.platform }}
+          path: |
+            install-output.txt
+            install-results-${{ steps.config.outputs.platform }}.yml
+          retention-days: 30
+
+      - name: Summary
+        shell: bash
+        run: |
+          echo "## Tier 2 Installation Results (${{ steps.config.outputs.platform }})" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- Rotation Day: ${{ steps.config.outputs.rotation_day }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Platform: ${{ steps.config.outputs.platform }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Status: ${{ steps.install.outputs.install_passed == 'true' && '✅ Passed' || '❌ Failed' }}" >> $GITHUB_STEP_SUMMARY
+
+          if [ -f "install-results-${{ steps.config.outputs.platform }}.yml" ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### Statistics" >> $GITHUB_STEP_SUMMARY
+            echo '```yaml' >> $GITHUB_STEP_SUMMARY
+            cat "install-results-${{ steps.config.outputs.platform }}.yml" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+
+  # ===========================================================================
+  # Report: Aggregate results and create issue on failure
+  # ===========================================================================
+  report:
+    name: Report Results
+    runs-on: ubuntu-latest
+    needs: [tier1-validation, tier2-installation]
+    if: always() && (needs.tier1-validation.result == 'failure' ||
+                     needs.tier2-installation.result == 'failure')
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: results
+
+      - name: Check for repeated failures
+        id: check
+        run: |
+          # Look for existing open issue with same title pattern
+          ISSUE_NUMBER=$(gh issue list \
+            --repo ${{ github.repository }} \
+            --state open \
+            --label "formula-health-failure" \
+            --limit 1 \
+            --json number \
+            --jq '.[0].number // empty')
+
+          if [ -n "$ISSUE_NUMBER" ]; then
+            echo "issue_number=${ISSUE_NUMBER}" >> $GITHUB_OUTPUT
+            echo "is_existing=true" >> $GITHUB_OUTPUT
+          else
+            echo "is_existing=false" >> $GITHUB_OUTPUT
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Create or update issue
+        run: |
+          # Build issue body
+          cat > issue-body.md << 'EOF'
+          ## Formula Health Check Failed
+
+          The periodic formula health check detected failures.
+
+          **Workflow Run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+          ### Tier 1 Validation
+          Status: ${{ needs.tier1-validation.result }}
+
+          ### Tier 2 Installation
+          Status: ${{ needs.tier2-installation.result }}
+
+          ### Artifacts
+          - [Download results](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}#artifacts)
+
+          ---
+          *This issue was automatically created by the formula-health workflow.*
+          *It will be auto-closed when all health checks pass.*
+          EOF
+
+          if [ "${{ steps.check.outputs.is_existing }}" == "true" ]; then
+            # Update existing issue with comment
+            gh issue comment ${{ steps.check.outputs.issue_number }} \
+              --repo ${{ github.repository }} \
+              --body-file issue-body.md
+          else
+            # Create new issue
+            gh issue create \
+              --repo ${{ github.repository }} \
+              --title "Formula Health Check Failed - $(date +%Y-%m-%d)" \
+              --body-file issue-body.md \
+              --label "formula-health-failure,automated"
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Summary
+        run: |
+          echo "## Health Check Report" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Issues detected. A GitHub issue has been created/updated." >> $GITHUB_STEP_SUMMARY
+
+  # ===========================================================================
+  # Close issue on success (optional)
+  # ===========================================================================
+  close-issue-on-success:
+    name: Close Issue on Success
+    runs-on: ubuntu-latest
+    needs: [tier1-validation, tier2-installation]
+    if: |
+      always() &&
+      needs.tier1-validation.result == 'success' &&
+      needs.tier2-installation.result == 'success'
+
+    steps:
+      - name: Close existing health check issues
+        run: |
+          # Find and close open health check issues
+          gh issue list \
+            --repo ${{ github.repository }} \
+            --state open \
+            --label "formula-health-failure" \
+            --json number \
+            --jq '.[].number' | while read issue_number; do
+              gh issue close $issue_number \
+                --repo ${{ github.repository }} \
+                --comment "✅ All formula health checks are now passing. Closing this issue."
+            done
+        env:
+          GH_TOKEN: ${{ github.token }}
+        continue-on-error: true
