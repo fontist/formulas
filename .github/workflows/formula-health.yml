@@ -4,6 +4,12 @@ name: formula-health
 # Runs every other day to validate formula integrity
 
 on:
+  push:
+    branches:
+      - v5
+    paths:
+      - '.github/workflows/formula-health.yml'
+      - '.github/scripts/**'
   schedule:
     # Tier 1: Fast validation - Daily at 6am UTC
     - cron: '0 6 * * *'
