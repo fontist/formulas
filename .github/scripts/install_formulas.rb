@@ -172,11 +172,12 @@ class InstallFormulas
     puts "Copying formulas to Fontist home..."
 
     # Copy all formulas to maintain directory structure
+    # Fontist expects formulas to be under "Formulas/" in the repo path
     Dir.glob(File.join(@directory, "**/*.yml")).each do |formula|
       next if formula.include?("BACKUP")
 
-      relative = formula.sub(/^#{@directory}\//, "")
-      dest = Fontist.formulas_repo_path.join(relative)
+      # Keep the full path including "Formulas/" prefix
+      dest = Fontist.formulas_repo_path.join(formula)
       dest_dir = File.dirname(dest)
 
       FileUtils.mkdir_p(dest_dir)

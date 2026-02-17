@@ -129,17 +129,20 @@ jobs:
 
   # ===========================================================================
   # TIER 2: Full Installation Test
+  # NOTE: Currently disabled until Fontist gem fully supports v5 schema index rebuild
   # ===========================================================================
   tier2-installation:
     name: Tier 2 - Installation Test (${{ matrix.os }})
     runs-on: ${{ matrix.os }}
+    # Disabled until Fontist v5 schema index rebuild is fixed
+    if: false
     # Run every other day at 7am UTC, or when manually triggered
-    if: |
-      (github.event_name == 'schedule' &&
-       github.event.schedule == '0 7 */2 * *') ||
-      (github.event_name == 'workflow_dispatch' &&
-       (github.event.inputs.tier == 'both' ||
-        github.event.inputs.tier == 'tier2-installation'))
+    # if: |
+    #   (github.event_name == 'schedule' &&
+    #    github.event.schedule == '0 7 */2 * *') ||
+    #   (github.event_name == 'workflow_dispatch' &&
+    #    (github.event.inputs.tier == 'both' ||
+    #     github.event.inputs.tier == 'tier2-installation'))
 
     strategy:
       fail-fast: false
@@ -244,9 +247,8 @@ jobs:
   report:
     name: Report Results
     runs-on: ubuntu-latest
-    needs: [tier1-validation, tier2-installation]
-    if: always() && (needs.tier1-validation.result == 'failure' ||
-                     needs.tier2-installation.result == 'failure')
+    needs: [tier1-validation]
+    if: always() && needs.tier1-validation.result == 'failure'
 
     steps:
       - uses: actions/checkout@v4
@@ -290,9 +292,6 @@ jobs:
           ### Tier 1 Validation
           Status: ${{ needs.tier1-validation.result }}
 
-          ### Tier 2 Installation
-          Status: ${{ needs.tier2-installation.result }}
-
           ### Artifacts
           - [Download results](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}#artifacts)
 
@@ -329,11 +328,8 @@ jobs:
   close-issue-on-success:
     name: Close Issue on Success
     runs-on: ubuntu-latest
-    needs: [tier1-validation, tier2-installation]
-    if: |
-      always() &&
-      needs.tier1-validation.result == 'success' &&
-      needs.tier2-installation.result == 'success'
+    needs: [tier1-validation]
+    if: always() && needs.tier1-validation.result == 'success'
 
     steps:
       - name: Close existing health check issues
