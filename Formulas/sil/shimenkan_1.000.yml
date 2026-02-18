@@ -9,6 +9,7 @@ resources:
     - https://software.sil.org/downloads/r/shimenkan/Shimenkan-1.000.zip
     sha256: 8bc2a4c152d0cefaa983deaccb9aeb7cd9b06901579d27ec0ca37b5d3cb7fe1f
     file_size: 651133
+    format: ttf
 fonts:
 - name: Shimenkan
   styles:
@@ -553,9 +554,9 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-command: import sil --output-path ./Formulas/sil --verbose --import-cache /Users/mulgogi/Downloads/fontist-test-cache
+command: import sil --schema-version\=5 --output-path\=./Formulas/sil --force --no-interactive
 import_source:
   type: sil
   version: '1.000'
-  release_date: '2025-12-31T04:03:33Z'
+  release_date: '2026-02-18T03:53:47Z'
 font_version: '1.000'

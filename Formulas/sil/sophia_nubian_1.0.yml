@@ -9,6 +9,7 @@ resources:
     - https://software.sil.org/downloads/r/sophianubian/SophiaNubian-1.0.zip
     sha256: d1c4748b712cd43f3fd30f8a6a34ee362d102912e900c82f04380206ae7b9b5f
     file_size: 190051
+    format: ttf
 fonts:
 - name: Sophia Nubian
   styles:
@@ -362,9 +363,9 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-command: import sil --output-path ./Formulas/sil --verbose --import-cache /Users/mulgogi/Downloads/fontist-test-cache
+command: import sil --schema-version\=5 --output-path\=./Formulas/sil --force --no-interactive
 import_source:
   type: sil
   version: '1.0'
-  release_date: '2025-12-31T04:04:20Z'
+  release_date: '2026-02-18T03:54:37Z'
 font_version: '1.000'

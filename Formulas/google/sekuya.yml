@@ -1,15 +1,25 @@
 ---
-schema_version: 5
 name: sekuya
+schema_version: 5
 description: Sekuya font family
 homepage: https://fonts.google.com/specimen/Sekuya
 resources:
-  Sekuya:
+  ttf_static:
     source: google
     family: Sekuya
     files:
     - https://fonts.gstatic.com/s/sekuya/v1/fdN_9suEu39Dg3wk2ipfnF8U4A.ttf
+    urls:
+    - https://fonts.gstatic.com/s/sekuya/v1/fdN_9suEu39Dg3wk2ipfnF8U4A.ttf
     format: ttf
+  woff2_static:
+    source: google
+    family: Sekuya
+    files:
+    - https://fonts.gstatic.com/s/sekuya/v1/fdN_9suEu39Dg3wk3ypfnF8U4A.woff2
+    urls:
+    - https://fonts.gstatic.com/s/sekuya/v1/fdN_9suEu39Dg3wk3ypfnF8U4A.woff2
+    format: woff2
 fonts:
 - name: Sekuya
   styles:
@@ -22,6 +32,10 @@ fonts:
     font: fdN_9suEu39Dg3wk2ipfnF8U4A.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
 extract: {}
 copyright: Copyright 2025 The Sekuya Project Authors (https://github.com/kevinnseptian/SEKUYA)
 license_url: https://scripts.sil.org/OFL
@@ -129,8 +143,4 @@ open_license: "Copyright 2024 The SEKUYA Project Authors (https://github.com/kev
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source:
-  commit_id: 0bd2d5599819aa0774f5ca64c8ac3f54ae3fd54f
-  api_version: v1
-  last_modified: '2025-12-10'
-  family_id: sekuya
+import_source: {}

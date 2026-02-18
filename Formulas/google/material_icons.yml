@@ -1,14 +1,25 @@
 ---
+name: material_icons
 schema_version: 5
-name: Material Icons
-description: Material Icons
+description: Material Icons font family
+homepage: https://fonts.google.com/specimen/Material+Icons
 resources:
-  Material Icons:
+  ttf_static:
     source: google
     family: Material Icons
     files:
-    - https://fonts.gstatic.com/s/materialicons/v142/flUhRq6tzZclQEJ-Vdg-IuiaDsNZIhI8tIHh.ttf
+    - https://fonts.gstatic.com/s/materialicons/v145/flUhRq6tzZclQEJ-Vdg-IuiaDsNZIhI8tIHh.ttf
+    urls:
+    - https://fonts.gstatic.com/s/materialicons/v145/flUhRq6tzZclQEJ-Vdg-IuiaDsNZIhI8tIHh.ttf
     format: ttf
+  woff2_static:
+    source: google
+    family: Material Icons
+    files:
+    - https://fonts.gstatic.com/s/materialicons/v145/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhI8tIHh.woff2
+    urls:
+    - https://fonts.gstatic.com/s/materialicons/v145/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhI8tIHh.woff2
+    format: woff2
 fonts:
 - name: Material Icons
   styles:
@@ -19,6 +30,13 @@ fonts:
     version: '1.017'
     copyright: Copyright 2018 Google, Inc. All Rights Reserved.
     font: flUhRq6tzZclQEJ-Vdg-IuiaDsNZIhI8tIHh.ttf
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
 extract: {}
 copyright: Copyright 2018 Google, Inc. All Rights Reserved.
-command: import google -n 9999
+license_url: https://scripts.sil.org/OFL
+license: SIL Open Font License v1.1
+open_license: SIL Open Font License v1.1
+import_source: {}

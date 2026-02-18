@@ -1,10 +1,46 @@
 ---
-schema_version: 5
 name: amarna
+schema_version: 5
 description: Amarna font family
 homepage: https://fonts.google.com/specimen/Amarna
 resources:
-  Amarna:
+  woff2_variable:
+    source: google
+    family: Amarna
+    files:
+    - https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwaakgRt9AuNICqo.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwSalgRt9AuNICqo.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwfilgRt9AuNICqo.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwaalgRt9AuNICqo.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwZSlgRt9AuNICqo.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwXiigRt9AuNICqo.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwUGigRt9AuNICqo.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7maVx3A8FNGqo2iw.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7m6V13A8FNGqo2iw.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mN113A8FNGqo2iw.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7maV13A8FNGqo2iw.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mW113A8FNGqo2iw.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mt1p3A8FNGqo2iw.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mjlp3A8FNGqo2iw.woff2
+    urls:
+    - https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwaakgRt9AuNICqo.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwSalgRt9AuNICqo.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwfilgRt9AuNICqo.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwaalgRt9AuNICqo.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwZSlgRt9AuNICqo.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwXiigRt9AuNICqo.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwUGigRt9AuNICqo.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7maVx3A8FNGqo2iw.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7m6V13A8FNGqo2iw.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mN113A8FNGqo2iw.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7maV13A8FNGqo2iw.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mW113A8FNGqo2iw.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mt1p3A8FNGqo2iw.woff2
+    - https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mjlp3A8FNGqo2iw.woff2
+    format: woff2
+    variable_axes:
+    - wght
+  ttf_variable:
     source: google
     family: Amarna
     files:
@@ -22,7 +58,24 @@ resources:
     - https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mW113BsFNGqo2iw.ttf
     - https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mt1p3BsFNGqo2iw.ttf
     - https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mjlp3BsFNGqo2iw.ttf
+    urls:
+    - https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwaakgR59AuNICqo.ttf
+    - https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwSalgR59AuNICqo.ttf
+    - https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwfilgR59AuNICqo.ttf
+    - https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwaalgR59AuNICqo.ttf
+    - https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwZSlgR59AuNICqo.ttf
+    - https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwXiigR59AuNICqo.ttf
+    - https://fonts.gstatic.com/s/amarna/v1/MCoPzAj-18jIHCAeTqjMCgZDAOUBwUGigR59AuNICqo.ttf
+    - https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7maVx3BsFNGqo2iw.ttf
+    - https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7m6V13BsFNGqo2iw.ttf
+    - https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mN113BsFNGqo2iw.ttf
+    - https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7maV13BsFNGqo2iw.ttf
+    - https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mW113BsFNGqo2iw.ttf
+    - https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mt1p3BsFNGqo2iw.ttf
+    - https://fonts.gstatic.com/s/amarna/v1/MCoNzAj-18jIHCA0R5oz0m8omksG1G7mjlp3BsFNGqo2iw.ttf
     format: ttf
+    variable_axes:
+    - wght
 fonts:
 - name: Amarna Thin
   styles:
@@ -37,6 +90,12 @@ fonts:
     preferred_type: Thin
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
   - family_name: Amarna Thin
     type: Italic
     full_name: Amarna Thin Italic
@@ -48,6 +107,12 @@ fonts:
     preferred_type: Thin Italic
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
 - name: Amarna ExtraLight
   styles:
   - family_name: Amarna ExtraLight
@@ -61,6 +126,12 @@ fonts:
     preferred_type: ExtraLight
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
   - family_name: Amarna ExtraLight
     type: Italic
     full_name: Amarna ExtraLight Italic
@@ -72,6 +143,12 @@ fonts:
     preferred_type: ExtraLight Italic
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
 - name: Amarna Light
   styles:
   - family_name: Amarna Light
@@ -85,6 +162,12 @@ fonts:
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
   - family_name: Amarna Light
     type: Italic
     full_name: Amarna Light Italic
@@ -96,6 +179,12 @@ fonts:
     preferred_type: Light Italic
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
 - name: Amarna
   styles:
   - family_name: Amarna
@@ -107,6 +196,12 @@ fonts:
     font: MCoPzAj-18jIHCAeTqjMCgZDAOUBwaalgR59AuNICqo.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
   - family_name: Amarna
     type: Bold
     full_name: Amarna Bold
@@ -116,6 +211,12 @@ fonts:
     font: MCoPzAj-18jIHCAeTqjMCgZDAOUBwUGigR59AuNICqo.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
   - family_name: Amarna
     type: Italic
     full_name: Amarna Italic
@@ -125,6 +226,12 @@ fonts:
     font: MCoNzAj-18jIHCA0R5oz0m8omksG1G7maV13BsFNGqo2iw.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
   - family_name: Amarna
     type: Bold Italic
     full_name: Amarna Bold Italic
@@ -134,6 +241,12 @@ fonts:
     font: MCoNzAj-18jIHCA0R5oz0m8omksG1G7mjlp3BsFNGqo2iw.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
 - name: Amarna Medium
   styles:
   - family_name: Amarna Medium
@@ -147,6 +260,12 @@ fonts:
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
   - family_name: Amarna Medium
     type: Italic
     full_name: Amarna Medium Italic
@@ -158,6 +277,12 @@ fonts:
     preferred_type: Medium Italic
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
 - name: Amarna SemiBold
   styles:
   - family_name: Amarna SemiBold
@@ -171,6 +296,12 @@ fonts:
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
   - family_name: Amarna SemiBold
     type: Italic
     full_name: Amarna SemiBold Italic
@@ -182,6 +313,12 @@ fonts:
     preferred_type: SemiBold Italic
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
 extract: {}
 copyright: Copyright 2025 The Amarna Project Authors (https://github.com/ijvanl/Amarna)
 license_url: https://scripts.sil.org/OFL
@@ -373,8 +510,4 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-import_source:
-  commit_id: 0bd2d5599819aa0774f5ca64c8ac3f54ae3fd54f
-  api_version: v1
-  last_modified: '2025-12-10'
-  family_id: amarna
+import_source: {}

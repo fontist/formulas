@@ -1,14 +1,25 @@
 ---
+name: material_icons_outlined
 schema_version: 5
-name: Material Icons Outlined
-description: Material Icons Outlined
+description: Material Icons Outlined font family
+homepage: https://fonts.google.com/specimen/Material+Icons+Outlined
 resources:
-  Material Icons Outlined:
+  ttf_static:
     source: google
     family: Material Icons Outlined
     files:
-    - https://fonts.gstatic.com/s/materialiconsoutlined/v109/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUcdl5GuI2Ze.otf
-    format: otf
+    - https://fonts.gstatic.com/s/materialiconsoutlined/v110/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUcdl5GuI2Ze.otf
+    urls:
+    - https://fonts.gstatic.com/s/materialiconsoutlined/v110/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUcdl5GuI2Ze.otf
+    format: ttf
+  woff2_static:
+    source: google
+    family: Material Icons Outlined
+    files:
+    - https://fonts.gstatic.com/s/materialiconsoutlined/v110/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUcel5GuI2Ze.woff2
+    urls:
+    - https://fonts.gstatic.com/s/materialiconsoutlined/v110/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUcel5GuI2Ze.woff2
+    format: woff2
 fonts:
 - name: Material Icons Outlined
   styles:
@@ -19,6 +30,13 @@ fonts:
     version: '2022-08-02T22:00:24.736834'
     copyright: Copyright 2019 Google LLC. All Rights Reserved.
     font: gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUcdl5GuI2Ze.otf
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
 extract: {}
 copyright: Copyright 2019 Google LLC. All Rights Reserved.
-command: import google -n 9999
+license_url: https://scripts.sil.org/OFL
+license: SIL Open Font License v1.1
+open_license: SIL Open Font License v1.1
+import_source: {}

@@ -9,6 +9,7 @@ resources:
     - https://scripts.sil.org/cms/sites/nrsi/download/unicodebmpfallback_61/UnicodeBMPFallback-6.1.zip
     sha256: 350b843e5daef0e48c0f5e04d9105c2938b395e045d37598cf58edec82e5e4b4
     file_size: 542533
+    format: ttf
 fonts:
 - name: Unicode BMP Fallback SIL
   styles:
@@ -175,9 +176,9 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-command: import sil --output-path ./Formulas/sil --verbose --import-cache /Users/mulgogi/Downloads/fontist-test-cache
+command: import sil --schema-version\=5 --output-path\=./Formulas/sil --force --no-interactive
 import_source:
   type: sil
   version: '6.1'
-  release_date: '2025-12-31T07:56:21Z'
+  release_date: '2026-02-18T03:53:17Z'
 font_version: '6.1'

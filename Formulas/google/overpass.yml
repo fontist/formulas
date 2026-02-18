@@ -1,352 +1,529 @@
 ---
+name: overpass
 schema_version: 5
-name: Overpass
-description: Overpass
-homepage: https://delvefonts.com
+description: 'Overpass is a free, Open Source typeface designed by Delve Fonts . The
+  design of Overpass is an interpretation of the well-known “Highway Gothic” letterforms
+  from the Standard Alphabets for Traffic Control Devices published by the U.S. Federal
+  Highway Administration. Starting from those specifications, critical adjustments
+  were made to the letterforms to create an optimal presentation at smaller sizes
+  on-screen and later for display sizes, especially in the lighter weights. Also see
+  Overpass Mono! Overpass can be used for everything from extended passages of text
+  in print and online, to UI design, posters, wayfinding signage, and environmental
+  graphic design. Designers: Delve Withrington, Dave Bailey, and Thomas Jockin TrueType
+  Hinting: Jason Campbell Direction: Dave Crossland, Andy Fitzsimon, Jakub Steiner,
+  and Ben Dubrovsky Special thanks: Aaron Bell for his diligence in preparing v4.0
+  for release and Michael Luton for his insight and support. To contribute to the
+  project, please visit https://github.com/RedHatOfficial/Overpass'
+homepage: https://fonts.google.com/specimen/Overpass
 resources:
-  Overpass:
+  woff2_variable:
     source: google
     family: Overpass
     files:
-    - https://fonts.gstatic.com/s/overpass/v13/qFda35WCmI96Ajtm83upeyoaX6QPnlo6_PLrOZCLtce-og.ttf
-    - https://fonts.gstatic.com/s/overpass/v13/qFda35WCmI96Ajtm83upeyoaX6QPnlo6fPPrOZCLtce-og.ttf
-    - https://fonts.gstatic.com/s/overpass/v13/qFda35WCmI96Ajtm83upeyoaX6QPnlo6ovPrOZCLtce-og.ttf
-    - https://fonts.gstatic.com/s/overpass/v13/qFda35WCmI96Ajtm83upeyoaX6QPnlo6_PPrOZCLtce-og.ttf
-    - https://fonts.gstatic.com/s/overpass/v13/qFda35WCmI96Ajtm83upeyoaX6QPnlo6zvPrOZCLtce-og.ttf
-    - https://fonts.gstatic.com/s/overpass/v13/qFda35WCmI96Ajtm83upeyoaX6QPnlo6IvTrOZCLtce-og.ttf
-    - https://fonts.gstatic.com/s/overpass/v13/qFda35WCmI96Ajtm83upeyoaX6QPnlo6G_TrOZCLtce-og.ttf
-    - https://fonts.gstatic.com/s/overpass/v13/qFda35WCmI96Ajtm83upeyoaX6QPnlo6fPTrOZCLtce-og.ttf
-    - https://fonts.gstatic.com/s/overpass/v13/qFda35WCmI96Ajtm83upeyoaX6QPnlo6VfTrOZCLtce-og.ttf
-    - https://fonts.gstatic.com/s/overpass/v13/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLADe5qPl8Kuosgz.ttf
-    - https://fonts.gstatic.com/s/overpass/v13/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLCDepqPl8Kuosgz.ttf
-    - https://fonts.gstatic.com/s/overpass/v13/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLBdepqPl8Kuosgz.ttf
-    - https://fonts.gstatic.com/s/overpass/v13/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLADepqPl8Kuosgz.ttf
-    - https://fonts.gstatic.com/s/overpass/v13/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLAxepqPl8Kuosgz.ttf
-    - https://fonts.gstatic.com/s/overpass/v13/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLDdfZqPl8Kuosgz.ttf
-    - https://fonts.gstatic.com/s/overpass/v13/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLDkfZqPl8Kuosgz.ttf
-    - https://fonts.gstatic.com/s/overpass/v13/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLCDfZqPl8Kuosgz.ttf
-    - https://fonts.gstatic.com/s/overpass/v13/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLCqfZqPl8Kuosgz.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6_PLrPJCLtce-og.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6fPPrPJCLtce-og.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6ovPrPJCLtce-og.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6_PPrPJCLtce-og.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6zvPrPJCLtce-og.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6IvTrPJCLtce-og.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6G_TrPJCLtce-og.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6fPTrPJCLtce-og.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6VfTrPJCLtce-og.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLADe5qKl8Kuosgz.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLCDepqKl8Kuosgz.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLBdepqKl8Kuosgz.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLADepqKl8Kuosgz.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLAxepqKl8Kuosgz.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLDdfZqKl8Kuosgz.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLDkfZqKl8Kuosgz.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLCDfZqKl8Kuosgz.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLCqfZqKl8Kuosgz.woff2
+    urls:
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6_PLrPJCLtce-og.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6fPPrPJCLtce-og.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6ovPrPJCLtce-og.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6_PPrPJCLtce-og.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6zvPrPJCLtce-og.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6IvTrPJCLtce-og.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6G_TrPJCLtce-og.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6fPTrPJCLtce-og.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6VfTrPJCLtce-og.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLADe5qKl8Kuosgz.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLCDepqKl8Kuosgz.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLBdepqKl8Kuosgz.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLADepqKl8Kuosgz.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLAxepqKl8Kuosgz.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLDdfZqKl8Kuosgz.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLDkfZqKl8Kuosgz.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLCDfZqKl8Kuosgz.woff2
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLCqfZqKl8Kuosgz.woff2
+    format: woff2
+    variable_axes:
+    - wght
+  ttf_variable:
+    source: google
+    family: Overpass
+    files:
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6_PLrOZCLtce-og.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6fPPrOZCLtce-og.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6ovPrOZCLtce-og.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6_PPrOZCLtce-og.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6zvPrOZCLtce-og.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6IvTrOZCLtce-og.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6G_TrOZCLtce-og.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6fPTrOZCLtce-og.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6VfTrOZCLtce-og.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLADe5qPl8Kuosgz.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLCDepqPl8Kuosgz.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLBdepqPl8Kuosgz.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLADepqPl8Kuosgz.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLAxepqPl8Kuosgz.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLDdfZqPl8Kuosgz.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLDkfZqPl8Kuosgz.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLCDfZqPl8Kuosgz.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLCqfZqPl8Kuosgz.ttf
+    urls:
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6_PLrOZCLtce-og.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6fPPrOZCLtce-og.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6ovPrOZCLtce-og.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6_PPrOZCLtce-og.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6zvPrOZCLtce-og.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6IvTrOZCLtce-og.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6G_TrOZCLtce-og.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6fPTrOZCLtce-og.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6VfTrOZCLtce-og.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLADe5qPl8Kuosgz.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLCDepqPl8Kuosgz.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLBdepqPl8Kuosgz.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLADepqPl8Kuosgz.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLAxepqPl8Kuosgz.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLDdfZqPl8Kuosgz.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLDkfZqPl8Kuosgz.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLCDfZqPl8Kuosgz.ttf
+    - https://fonts.gstatic.com/s/overpass/v19/qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLCqfZqPl8Kuosgz.ttf
     format: ttf
+    variable_axes:
+    - wght
 fonts:
+- name: Overpass Thin
+  styles:
+  - family_name: Overpass Thin
+    type: Regular
+    full_name: Overpass Thin
+    post_script_name: Overpass-Thin
+    version: '4.000'
+    copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
+    font: qFda35WCmI96Ajtm83upeyoaX6QPnlo6_PLrOZCLtce-og.ttf
+    preferred_family_name: Overpass
+    preferred_type: Thin
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
+  - family_name: Overpass Thin
+    type: Italic
+    full_name: Overpass Thin Italic
+    post_script_name: Overpass-ThinItalic
+    version: '4.000'
+    copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
+    font: qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLADe5qPl8Kuosgz.ttf
+    preferred_family_name: Overpass
+    preferred_type: Thin Italic
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
+- name: Overpass ExtraLight
+  styles:
+  - family_name: Overpass ExtraLight
+    type: Regular
+    full_name: Overpass ExtraLight
+    post_script_name: Overpass-ExtraLight
+    version: '4.000'
+    copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
+    font: qFda35WCmI96Ajtm83upeyoaX6QPnlo6fPPrOZCLtce-og.ttf
+    preferred_family_name: Overpass
+    preferred_type: ExtraLight
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
+  - family_name: Overpass ExtraLight
+    type: Italic
+    full_name: Overpass ExtraLight Italic
+    post_script_name: Overpass-ExtraLightItalic
+    version: '4.000'
+    copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
+    font: qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLCDepqPl8Kuosgz.ttf
+    preferred_family_name: Overpass
+    preferred_type: ExtraLight Italic
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
+- name: Overpass Light
+  styles:
+  - family_name: Overpass Light
+    type: Regular
+    full_name: Overpass Light
+    post_script_name: Overpass-Light
+    version: '4.000'
+    copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
+    font: qFda35WCmI96Ajtm83upeyoaX6QPnlo6ovPrOZCLtce-og.ttf
+    preferred_family_name: Overpass
+    preferred_type: Light
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
+  - family_name: Overpass Light
+    type: Italic
+    full_name: Overpass Light Italic
+    post_script_name: Overpass-LightItalic
+    version: '4.000'
+    copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
+    font: qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLBdepqPl8Kuosgz.ttf
+    preferred_family_name: Overpass
+    preferred_type: Light Italic
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
 - name: Overpass
   styles:
-  - family_name: Overpass
-    type: Bold
-    full_name: Overpass Bold
-    post_script_name: Overpass-Bold
-    version: '4.000'
-    description: Overpass is a free, open source modern interpretation of the Highway
-      Gothic typeface. The Overpass type family was created by Delve Fonts and sponsored
-      by Red Hat, Google Fonts, and public support. Thank you.
-    copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
-    font: qFda35WCmI96Ajtm83upeyoaX6QPnlo6G_TrOZCLtce-og.ttf
-  - family_name: Overpass
-    type: Bold Italic
-    full_name: Overpass Bold Italic
-    post_script_name: Overpass-BoldItalic
-    version: '4.000'
-    description: Overpass is a free, open source modern interpretation of the Highway
-      Gothic typeface. The Overpass type family was created by Delve Fonts and sponsored
-      by Red Hat, Google Fonts, and public support. Thank you.
-    copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
-    font: qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLDkfZqPl8Kuosgz.ttf
-  - family_name: Overpass
-    type: Italic
-    full_name: Overpass Italic
-    post_script_name: Overpass-Italic
-    version: '4.000'
-    description: Overpass is a free, open source modern interpretation of the Highway
-      Gothic typeface. The Overpass type family was created by Delve Fonts and sponsored
-      by Red Hat, Google Fonts, and public support. Thank you.
-    copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
-    font: qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLADepqPl8Kuosgz.ttf
   - family_name: Overpass
     type: Regular
     full_name: Overpass Regular
     post_script_name: Overpass-Regular
     version: '4.000'
-    description: Overpass is a free, open source modern interpretation of the Highway
-      Gothic typeface. The Overpass type family was created by Delve Fonts and sponsored
-      by Red Hat, Google Fonts, and public support. Thank you.
     copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
     font: qFda35WCmI96Ajtm83upeyoaX6QPnlo6_PPrOZCLtce-og.ttf
-- name: Overpass Black
-  styles:
-  - family_name: Overpass Black
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
+  - family_name: Overpass
+    type: Bold
+    full_name: Overpass Bold
+    post_script_name: Overpass-Bold
+    version: '4.000'
+    copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
+    font: qFda35WCmI96Ajtm83upeyoaX6QPnlo6G_TrOZCLtce-og.ttf
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
+  - family_name: Overpass
     type: Italic
-    preferred_family_name: Overpass
-    preferred_type: Black Italic
-    full_name: Overpass Black Italic
-    post_script_name: Overpass-BlackItalic
+    full_name: Overpass Italic
+    post_script_name: Overpass-Italic
     version: '4.000'
-    description: Overpass is a free, open source modern interpretation of the Highway
-      Gothic typeface. The Overpass type family was created by Delve Fonts and sponsored
-      by Red Hat, Google Fonts, and public support. Thank you.
     copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
-    font: qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLCqfZqPl8Kuosgz.ttf
-  - family_name: Overpass Black
-    type: Regular
-    preferred_family_name: Overpass
-    preferred_type: Black
-    full_name: Overpass Black
-    post_script_name: Overpass-Black
+    font: qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLADepqPl8Kuosgz.ttf
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
+  - family_name: Overpass
+    type: Bold Italic
+    full_name: Overpass Bold Italic
+    post_script_name: Overpass-BoldItalic
     version: '4.000'
-    description: Overpass is a free, open source modern interpretation of the Highway
-      Gothic typeface. The Overpass type family was created by Delve Fonts and sponsored
-      by Red Hat, Google Fonts, and public support. Thank you.
     copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
-    font: qFda35WCmI96Ajtm83upeyoaX6QPnlo6VfTrOZCLtce-og.ttf
-- name: Overpass ExtraBold
-  styles:
-  - family_name: Overpass ExtraBold
-    type: Italic
-    preferred_family_name: Overpass
-    preferred_type: ExtraBold Italic
-    full_name: Overpass ExtraBold Italic
-    post_script_name: Overpass-ExtraBoldItalic
-    version: '4.000'
-    description: Overpass is a free, open source modern interpretation of the Highway
-      Gothic typeface. The Overpass type family was created by Delve Fonts and sponsored
-      by Red Hat, Google Fonts, and public support. Thank you.
-    copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
-    font: qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLCDfZqPl8Kuosgz.ttf
-  - family_name: Overpass ExtraBold
-    type: Regular
-    preferred_family_name: Overpass
-    preferred_type: ExtraBold
-    full_name: Overpass ExtraBold
-    post_script_name: Overpass-ExtraBold
-    version: '4.000'
-    description: Overpass is a free, open source modern interpretation of the Highway
-      Gothic typeface. The Overpass type family was created by Delve Fonts and sponsored
-      by Red Hat, Google Fonts, and public support. Thank you.
-    copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
-    font: qFda35WCmI96Ajtm83upeyoaX6QPnlo6fPTrOZCLtce-og.ttf
-- name: Overpass ExtraLight
-  styles:
-  - family_name: Overpass ExtraLight
-    type: Italic
-    preferred_family_name: Overpass
-    preferred_type: ExtraLight Italic
-    full_name: Overpass ExtraLight Italic
-    post_script_name: Overpass-ExtraLightItalic
-    version: '4.000'
-    description: Overpass is a free, open source modern interpretation of the Highway
-      Gothic typeface. The Overpass type family was created by Delve Fonts and sponsored
-      by Red Hat, Google Fonts, and public support. Thank you.
-    copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
-    font: qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLCDepqPl8Kuosgz.ttf
-  - family_name: Overpass ExtraLight
-    type: Regular
-    preferred_family_name: Overpass
-    preferred_type: ExtraLight
-    full_name: Overpass ExtraLight
-    post_script_name: Overpass-ExtraLight
-    version: '4.000'
-    description: Overpass is a free, open source modern interpretation of the Highway
-      Gothic typeface. The Overpass type family was created by Delve Fonts and sponsored
-      by Red Hat, Google Fonts, and public support. Thank you.
-    copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
-    font: qFda35WCmI96Ajtm83upeyoaX6QPnlo6fPPrOZCLtce-og.ttf
-- name: Overpass Light
-  styles:
-  - family_name: Overpass Light
-    type: Italic
-    preferred_family_name: Overpass
-    preferred_type: Light Italic
-    full_name: Overpass Light Italic
-    post_script_name: Overpass-LightItalic
-    version: '4.000'
-    description: Overpass is a free, open source modern interpretation of the Highway
-      Gothic typeface. The Overpass type family was created by Delve Fonts and sponsored
-      by Red Hat, Google Fonts, and public support. Thank you.
-    copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
-    font: qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLBdepqPl8Kuosgz.ttf
-  - family_name: Overpass Light
-    type: Regular
-    preferred_family_name: Overpass
-    preferred_type: Light
-    full_name: Overpass Light
-    post_script_name: Overpass-Light
-    version: '4.000'
-    description: Overpass is a free, open source modern interpretation of the Highway
-      Gothic typeface. The Overpass type family was created by Delve Fonts and sponsored
-      by Red Hat, Google Fonts, and public support. Thank you.
-    copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
-    font: qFda35WCmI96Ajtm83upeyoaX6QPnlo6ovPrOZCLtce-og.ttf
+    font: qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLDkfZqPl8Kuosgz.ttf
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
 - name: Overpass Medium
   styles:
   - family_name: Overpass Medium
-    type: Italic
-    preferred_family_name: Overpass
-    preferred_type: Medium Italic
-    full_name: Overpass Medium Italic
-    post_script_name: Overpass-MediumItalic
-    version: '4.000'
-    description: Overpass is a free, open source modern interpretation of the Highway
-      Gothic typeface. The Overpass type family was created by Delve Fonts and sponsored
-      by Red Hat, Google Fonts, and public support. Thank you.
-    copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
-    font: qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLAxepqPl8Kuosgz.ttf
-  - family_name: Overpass Medium
     type: Regular
-    preferred_family_name: Overpass
-    preferred_type: Medium
     full_name: Overpass Medium
     post_script_name: Overpass-Medium
     version: '4.000'
-    description: Overpass is a free, open source modern interpretation of the Highway
-      Gothic typeface. The Overpass type family was created by Delve Fonts and sponsored
-      by Red Hat, Google Fonts, and public support. Thank you.
     copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
     font: qFda35WCmI96Ajtm83upeyoaX6QPnlo6zvPrOZCLtce-og.ttf
+    preferred_family_name: Overpass
+    preferred_type: Medium
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
+  - family_name: Overpass Medium
+    type: Italic
+    full_name: Overpass Medium Italic
+    post_script_name: Overpass-MediumItalic
+    version: '4.000'
+    copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
+    font: qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLAxepqPl8Kuosgz.ttf
+    preferred_family_name: Overpass
+    preferred_type: Medium Italic
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
 - name: Overpass SemiBold
   styles:
   - family_name: Overpass SemiBold
-    type: Italic
-    preferred_family_name: Overpass
-    preferred_type: SemiBold Italic
-    full_name: Overpass SemiBold Italic
-    post_script_name: Overpass-SemiBoldItalic
-    version: '4.000'
-    description: Overpass is a free, open source modern interpretation of the Highway
-      Gothic typeface. The Overpass type family was created by Delve Fonts and sponsored
-      by Red Hat, Google Fonts, and public support. Thank you.
-    copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
-    font: qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLDdfZqPl8Kuosgz.ttf
-  - family_name: Overpass SemiBold
     type: Regular
-    preferred_family_name: Overpass
-    preferred_type: SemiBold
     full_name: Overpass SemiBold
     post_script_name: Overpass-SemiBold
     version: '4.000'
-    description: Overpass is a free, open source modern interpretation of the Highway
-      Gothic typeface. The Overpass type family was created by Delve Fonts and sponsored
-      by Red Hat, Google Fonts, and public support. Thank you.
     copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
     font: qFda35WCmI96Ajtm83upeyoaX6QPnlo6IvTrOZCLtce-og.ttf
-- name: Overpass Thin
-  styles:
-  - family_name: Overpass Thin
+    preferred_family_name: Overpass
+    preferred_type: SemiBold
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
+  - family_name: Overpass SemiBold
     type: Italic
-    preferred_family_name: Overpass
-    preferred_type: Thin Italic
-    full_name: Overpass Thin Italic
-    post_script_name: Overpass-ThinItalic
+    full_name: Overpass SemiBold Italic
+    post_script_name: Overpass-SemiBoldItalic
     version: '4.000'
-    description: Overpass is a free, open source modern interpretation of the Highway
-      Gothic typeface. The Overpass type family was created by Delve Fonts and sponsored
-      by Red Hat, Google Fonts, and public support. Thank you.
     copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
-    font: qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLADe5qPl8Kuosgz.ttf
-  - family_name: Overpass Thin
+    font: qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLDdfZqPl8Kuosgz.ttf
+    preferred_family_name: Overpass
+    preferred_type: SemiBold Italic
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
+- name: Overpass ExtraBold
+  styles:
+  - family_name: Overpass ExtraBold
     type: Regular
-    preferred_family_name: Overpass
-    preferred_type: Thin
-    full_name: Overpass Thin
-    post_script_name: Overpass-Thin
+    full_name: Overpass ExtraBold
+    post_script_name: Overpass-ExtraBold
     version: '4.000'
-    description: Overpass is a free, open source modern interpretation of the Highway
-      Gothic typeface. The Overpass type family was created by Delve Fonts and sponsored
-      by Red Hat, Google Fonts, and public support. Thank you.
     copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
-    font: qFda35WCmI96Ajtm83upeyoaX6QPnlo6_PLrOZCLtce-og.ttf
+    font: qFda35WCmI96Ajtm83upeyoaX6QPnlo6fPTrOZCLtce-og.ttf
+    preferred_family_name: Overpass
+    preferred_type: ExtraBold
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
+  - family_name: Overpass ExtraBold
+    type: Italic
+    full_name: Overpass ExtraBold Italic
+    post_script_name: Overpass-ExtraBoldItalic
+    version: '4.000'
+    copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
+    font: qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLCDfZqPl8Kuosgz.ttf
+    preferred_family_name: Overpass
+    preferred_type: ExtraBold Italic
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
+- name: Overpass Black
+  styles:
+  - family_name: Overpass Black
+    type: Regular
+    full_name: Overpass Black
+    post_script_name: Overpass-Black
+    version: '4.000'
+    copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
+    font: qFda35WCmI96Ajtm83upeyoaX6QPnlo6VfTrOZCLtce-og.ttf
+    preferred_family_name: Overpass
+    preferred_type: Black
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
+  - family_name: Overpass Black
+    type: Italic
+    full_name: Overpass Black Italic
+    post_script_name: Overpass-BlackItalic
+    version: '4.000'
+    copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
+    font: qFdU35WCmI96Ajtm81GgSdXCNs-VMF0vNLCqfZqPl8Kuosgz.ttf
+    preferred_family_name: Overpass
+    preferred_type: Black Italic
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
 extract: {}
 copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
 license_url: https://scripts.sil.org/OFL
-open_license: |-
-  Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
-
-  This Font Software is licensed under the SIL Open Font License, Version 1.1.
-  This license is copied below, and is also available with a FAQ at:
-  http://scripts.sil.org/OFL
-
-
-  -----------------------------------------------------------
-  SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
-  -----------------------------------------------------------
-
-  PREAMBLE
-  The goals of the Open Font License (OFL) are to stimulate worldwide
-  development of collaborative font projects, to support the font creation
-  efforts of academic and linguistic communities, and to provide a free and
-  open framework in which fonts may be shared and improved in partnership
-  with others.
-
-  The OFL allows the licensed fonts to be used, studied, modified and
-  redistributed freely as long as they are not sold by themselves. The
-  fonts, including any derivative works, can be bundled, embedded,
-  redistributed and/or sold with any software provided that any reserved
-  names are not used by derivative works. The fonts and derivatives,
-  however, cannot be released under any other type of license. The
-  requirement for fonts to remain under this license does not apply
-  to any document created using the fonts or their derivatives.
-
-  DEFINITIONS
-  "Font Software" refers to the set of files released by the Copyright
-  Holder(s) under this license and clearly marked as such. This may
-  include source files, build scripts and documentation.
-
-  "Reserved Font Name" refers to any names specified as such after the
-  copyright statement(s).
-
-  "Original Version" refers to the collection of Font Software components as
-  distributed by the Copyright Holder(s).
-
-  "Modified Version" refers to any derivative made by adding to, deleting,
-  or substituting -- in part or in whole -- any of the components of the
-  Original Version, by changing formats or by porting the Font Software to a
-  new environment.
-
-  "Author" refers to any designer, engineer, programmer, technical
-  writer or other person who contributed to the Font Software.
-
-  PERMISSION & CONDITIONS
-  Permission is hereby granted, free of charge, to any person obtaining
-  a copy of the Font Software, to use, study, copy, merge, embed, modify,
-  redistribute, and sell modified and unmodified copies of the Font
-  Software, subject to the following conditions:
-
-  1) Neither the Font Software nor any of its individual components,
-  in Original or Modified Versions, may be sold by itself.
-
-  2) Original or Modified Versions of the Font Software may be bundled,
-  redistributed and/or sold with any software, provided that each copy
-  contains the above copyright notice and this license. These can be
-  included either as stand-alone text files, human-readable headers or
-  in the appropriate machine-readable metadata fields within text or
-  binary files as long as those fields can be easily viewed by the user.
-
-  3) No Modified Version of the Font Software may use the Reserved Font
-  Name(s) unless explicit written permission is granted by the corresponding
-  Copyright Holder. This restriction only applies to the primary font name as
-  presented to the users.
-
-  4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
-  Software shall not be used to promote, endorse or advertise any
-  Modified Version, except to acknowledge the contribution(s) of the
-  Copyright Holder(s) and the Author(s) or with their explicit written
-  permission.
-
-  5) The Font Software, modified or unmodified, in part or in whole,
-  must be distributed entirely under this license, and must not be
-  distributed under any other license. The requirement for fonts to
-  remain under this license does not apply to any document created
-  using the Font Software.
-
-  TERMINATION
-  This license becomes null and void if any of the above conditions are
-  not met.
-
-  DISCLAIMER
-  THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
-  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
-  OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
-  COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
-  INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
-  DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-  FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
-  OTHER DEALINGS IN THE FONT SOFTWARE.
-command: import google -n 9999
+license: "Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)\n\nThis
+  Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
+  is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL\n\n\n-----------------------------------------------------------\nSIL
+  OPEN FONT LICENSE Version 1.1 - 26 February 2007\n-----------------------------------------------------------\n\nPREAMBLE\nThe
+  goals of the Open Font License (OFL) are to stimulate worldwide\ndevelopment of
+  collaborative font projects, to support the font creation\nefforts of academic and
+  linguistic communities, and to provide a free and\nopen framework in which fonts
+  may be shared and improved in partnership\nwith others.\n\nThe OFL allows the licensed
+  fonts to be used, studied, modified and\nredistributed freely as long as they are
+  not sold by themselves. The\nfonts, including any derivative works, can be bundled,
+  embedded, \nredistributed and/or sold with any software provided that any reserved\nnames
+  are not used by derivative works. The fonts and derivatives,\nhowever, cannot be
+  released under any other type of license. The\nrequirement for fonts to remain under
+  this license does not apply\nto any document created using the fonts or their derivatives.\n\nDEFINITIONS\n\"Font
+  Software\" refers to the set of files released by the Copyright\nHolder(s) under
+  this license and clearly marked as such. This may\ninclude source files, build scripts
+  and documentation.\n\n\"Reserved Font Name\" refers to any names specified as such
+  after the\ncopyright statement(s).\n\n\"Original Version\" refers to the collection
+  of Font Software components as\ndistributed by the Copyright Holder(s).\n\n\"Modified
+  Version\" refers to any derivative made by adding to, deleting,\nor substituting
+  -- in part or in whole -- any of the components of the\nOriginal Version, by changing
+  formats or by porting the Font Software to a\nnew environment.\n\n\"Author\" refers
+  to any designer, engineer, programmer, technical\nwriter or other person who contributed
+  to the Font Software.\n\nPERMISSION & CONDITIONS\nPermission is hereby granted,
+  free of charge, to any person obtaining\na copy of the Font Software, to use, study,
+  copy, merge, embed, modify,\nredistribute, and sell modified and unmodified copies
+  of the Font\nSoftware, subject to the following conditions:\n\n1) Neither the Font
+  Software nor any of its individual components,\nin Original or Modified Versions,
+  may be sold by itself.\n\n2) Original or Modified Versions of the Font Software
+  may be bundled,\nredistributed and/or sold with any software, provided that each
+  copy\ncontains the above copyright notice and this license. These can be\nincluded
+  either as stand-alone text files, human-readable headers or\nin the appropriate
+  machine-readable metadata fields within text or\nbinary files as long as those fields
+  can be easily viewed by the user.\n\n3) No Modified Version of the Font Software
+  may use the Reserved Font\nName(s) unless explicit written permission is granted
+  by the corresponding\nCopyright Holder. This restriction only applies to the primary
+  font name as\npresented to the users.\n\n4) The name(s) of the Copyright Holder(s)
+  or the Author(s) of the Font\nSoftware shall not be used to promote, endorse or
+  advertise any\nModified Version, except to acknowledge the contribution(s) of the\nCopyright
+  Holder(s) and the Author(s) or with their explicit written\npermission.\n\n5) The
+  Font Software, modified or unmodified, in part or in whole,\nmust be distributed
+  entirely under this license, and must not be\ndistributed under any other license.
+  The requirement for fonts to\nremain under this license does not apply to any document
+  created\nusing the Font Software.\n\nTERMINATION\nThis license becomes null and
+  void if any of the above conditions are\nnot met.\n\nDISCLAIMER\nTHE FONT SOFTWARE
+  IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING
+  BUT NOT LIMITED TO ANY WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR
+  PURPOSE AND NONINFRINGEMENT\nOF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN
+  NO EVENT SHALL THE\nCOPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nINCLUDING
+  ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
+  AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
+  TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
+open_license: "Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)\n\nThis
+  Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
+  is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL\n\n\n-----------------------------------------------------------\nSIL
+  OPEN FONT LICENSE Version 1.1 - 26 February 2007\n-----------------------------------------------------------\n\nPREAMBLE\nThe
+  goals of the Open Font License (OFL) are to stimulate worldwide\ndevelopment of
+  collaborative font projects, to support the font creation\nefforts of academic and
+  linguistic communities, and to provide a free and\nopen framework in which fonts
+  may be shared and improved in partnership\nwith others.\n\nThe OFL allows the licensed
+  fonts to be used, studied, modified and\nredistributed freely as long as they are
+  not sold by themselves. The\nfonts, including any derivative works, can be bundled,
+  embedded, \nredistributed and/or sold with any software provided that any reserved\nnames
+  are not used by derivative works. The fonts and derivatives,\nhowever, cannot be
+  released under any other type of license. The\nrequirement for fonts to remain under
+  this license does not apply\nto any document created using the fonts or their derivatives.\n\nDEFINITIONS\n\"Font
+  Software\" refers to the set of files released by the Copyright\nHolder(s) under
+  this license and clearly marked as such. This may\ninclude source files, build scripts
+  and documentation.\n\n\"Reserved Font Name\" refers to any names specified as such
+  after the\ncopyright statement(s).\n\n\"Original Version\" refers to the collection
+  of Font Software components as\ndistributed by the Copyright Holder(s).\n\n\"Modified
+  Version\" refers to any derivative made by adding to, deleting,\nor substituting
+  -- in part or in whole -- any of the components of the\nOriginal Version, by changing
+  formats or by porting the Font Software to a\nnew environment.\n\n\"Author\" refers
+  to any designer, engineer, programmer, technical\nwriter or other person who contributed
+  to the Font Software.\n\nPERMISSION & CONDITIONS\nPermission is hereby granted,
+  free of charge, to any person obtaining\na copy of the Font Software, to use, study,
+  copy, merge, embed, modify,\nredistribute, and sell modified and unmodified copies
+  of the Font\nSoftware, subject to the following conditions:\n\n1) Neither the Font
+  Software nor any of its individual components,\nin Original or Modified Versions,
+  may be sold by itself.\n\n2) Original or Modified Versions of the Font Software
+  may be bundled,\nredistributed and/or sold with any software, provided that each
+  copy\ncontains the above copyright notice and this license. These can be\nincluded
+  either as stand-alone text files, human-readable headers or\nin the appropriate
+  machine-readable metadata fields within text or\nbinary files as long as those fields
+  can be easily viewed by the user.\n\n3) No Modified Version of the Font Software
+  may use the Reserved Font\nName(s) unless explicit written permission is granted
+  by the corresponding\nCopyright Holder. This restriction only applies to the primary
+  font name as\npresented to the users.\n\n4) The name(s) of the Copyright Holder(s)
+  or the Author(s) of the Font\nSoftware shall not be used to promote, endorse or
+  advertise any\nModified Version, except to acknowledge the contribution(s) of the\nCopyright
+  Holder(s) and the Author(s) or with their explicit written\npermission.\n\n5) The
+  Font Software, modified or unmodified, in part or in whole,\nmust be distributed
+  entirely under this license, and must not be\ndistributed under any other license.
+  The requirement for fonts to\nremain under this license does not apply to any document
+  created\nusing the Font Software.\n\nTERMINATION\nThis license becomes null and
+  void if any of the above conditions are\nnot met.\n\nDISCLAIMER\nTHE FONT SOFTWARE
+  IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING
+  BUT NOT LIMITED TO ANY WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR
+  PURPOSE AND NONINFRINGEMENT\nOF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN
+  NO EVENT SHALL THE\nCOPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nINCLUDING
+  ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
+  AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
+  TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
+import_source: {}

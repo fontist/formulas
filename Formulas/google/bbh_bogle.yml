@@ -1,15 +1,25 @@
 ---
-schema_version: 5
 name: bbh_bogle
+schema_version: 5
 description: BBH Bogle font family
 homepage: https://fonts.google.com/specimen/BBH+Bogle
 resources:
-  BBH Bogle:
+  ttf_static:
     source: google
     family: BBH Bogle
     files:
     - https://fonts.gstatic.com/s/bbhbogle/v1/GFDoWA58rVDJf-fOV9ALq5hcOA0hUA.ttf
+    urls:
+    - https://fonts.gstatic.com/s/bbhbogle/v1/GFDoWA58rVDJf-fOV9ALq5hcOA0hUA.ttf
     format: ttf
+  woff2_static:
+    source: google
+    family: BBH Bogle
+    files:
+    - https://fonts.gstatic.com/s/bbhbogle/v1/GFDoWA58rVDJf-fOV9ALrphcOA0hUA.woff2
+    urls:
+    - https://fonts.gstatic.com/s/bbhbogle/v1/GFDoWA58rVDJf-fOV9ALrphcOA0hUA.woff2
+    format: woff2
 fonts:
 - name: BBH Bogle
   styles:
@@ -22,6 +32,10 @@ fonts:
     font: GFDoWA58rVDJf-fOV9ALq5hcOA0hUA.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
 extract: {}
 copyright: Copyright 2025 The BBH Project Authors (https://github.com/Studio-DRAMA/BBH)
 license_url: https://scripts.sil.org/OFL
@@ -129,8 +143,4 @@ open_license: "Copyright 2025 The BBH Project Authors (https://github.com/Studio
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source:
-  commit_id: 0bd2d5599819aa0774f5ca64c8ac3f54ae3fd54f
-  api_version: v1
-  last_modified: '2025-12-10'
-  family_id: bbh_bogle
+import_source: {}

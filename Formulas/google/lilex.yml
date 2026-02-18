@@ -1,10 +1,46 @@
 ---
-schema_version: 5
 name: lilex
+schema_version: 5
 description: Lilex font family
 homepage: https://fonts.google.com/specimen/Lilex
 resources:
-  Lilex:
+  woff2_variable:
+    source: google
+    family: Lilex
+    files:
+    - https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcj3e3UXkW31vDSYQ.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcjXezUXkW31vDSYQ.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcjg-zUXkW31vDSYQ.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcj3ezUXkW31vDSYQ.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcj7-zUXkW31vDSYQ.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcjA-vUXkW31vDSYQ.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcjOuvUXkW31vDSYQ.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa88GU-29PXCYRKB.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa-8GE-29PXCYRKB.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa9iGE-29PXCYRKB.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa88GE-29PXCYRKB.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa8OGE-29PXCYRKB.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa_iH0-29PXCYRKB.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa_bH0-29PXCYRKB.woff2
+    urls:
+    - https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcj3e3UXkW31vDSYQ.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcjXezUXkW31vDSYQ.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcjg-zUXkW31vDSYQ.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcj3ezUXkW31vDSYQ.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcj7-zUXkW31vDSYQ.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcjA-vUXkW31vDSYQ.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcjOuvUXkW31vDSYQ.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa88GU-29PXCYRKB.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa-8GE-29PXCYRKB.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa9iGE-29PXCYRKB.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa88GE-29PXCYRKB.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa8OGE-29PXCYRKB.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa_iH0-29PXCYRKB.woff2
+    - https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa_bH0-29PXCYRKB.woff2
+    format: woff2
+    variable_axes:
+    - wght
+  ttf_variable:
     source: google
     family: Lilex
     files:
@@ -22,7 +58,24 @@ resources:
     - https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa8OGE-z9PXCYRKB.ttf
     - https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa_iH0-z9PXCYRKB.ttf
     - https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa_bH0-z9PXCYRKB.ttf
+    urls:
+    - https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcj3e3UW0W31vDSYQ.ttf
+    - https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcjXezUW0W31vDSYQ.ttf
+    - https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcjg-zUW0W31vDSYQ.ttf
+    - https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcj3ezUW0W31vDSYQ.ttf
+    - https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcj7-zUW0W31vDSYQ.ttf
+    - https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcjA-vUW0W31vDSYQ.ttf
+    - https://fonts.gstatic.com/s/lilex/v1/DPExYwmezwMATC7iDMrR60bcpUcjOuvUW0W31vDSYQ.ttf
+    - https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa88GU-z9PXCYRKB.ttf
+    - https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa-8GE-z9PXCYRKB.ttf
+    - https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa9iGE-z9PXCYRKB.ttf
+    - https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa88GE-z9PXCYRKB.ttf
+    - https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa8OGE-z9PXCYRKB.ttf
+    - https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa_iH0-z9PXCYRKB.ttf
+    - https://fonts.gstatic.com/s/lilex/v1/DPEzYwmezwMATATrPjUJgi1GC0A2Fa_bH0-z9PXCYRKB.ttf
     format: ttf
+    variable_axes:
+    - wght
 fonts:
 - name: Lilex Thin
   styles:
@@ -37,6 +90,12 @@ fonts:
     preferred_type: Thin
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
   - family_name: Lilex Thin
     type: Italic
     full_name: Lilex Thin Italic
@@ -48,6 +107,12 @@ fonts:
     preferred_type: Thin Italic
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
 - name: Lilex ExtraLight
   styles:
   - family_name: Lilex ExtraLight
@@ -61,6 +126,12 @@ fonts:
     preferred_type: ExtraLight
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
   - family_name: Lilex ExtraLight
     type: Italic
     full_name: Lilex ExtraLight Italic
@@ -72,6 +143,12 @@ fonts:
     preferred_type: ExtraLight Italic
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
 - name: Lilex Light
   styles:
   - family_name: Lilex Light
@@ -85,6 +162,12 @@ fonts:
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
   - family_name: Lilex Light
     type: Italic
     full_name: Lilex Light Italic
@@ -96,6 +179,12 @@ fonts:
     preferred_type: Light Italic
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
 - name: Lilex
   styles:
   - family_name: Lilex
@@ -107,6 +196,12 @@ fonts:
     font: DPExYwmezwMATC7iDMrR60bcpUcj3ezUW0W31vDSYQ.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
   - family_name: Lilex
     type: Bold
     full_name: Lilex Bold
@@ -116,6 +211,12 @@ fonts:
     font: DPExYwmezwMATC7iDMrR60bcpUcjOuvUW0W31vDSYQ.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
   - family_name: Lilex
     type: Italic
     full_name: Lilex Italic
@@ -125,6 +226,12 @@ fonts:
     font: DPEzYwmezwMATATrPjUJgi1GC0A2Fa88GE-z9PXCYRKB.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
   - family_name: Lilex
     type: Bold Italic
     full_name: Lilex Bold Italic
@@ -134,6 +241,12 @@ fonts:
     font: DPEzYwmezwMATATrPjUJgi1GC0A2Fa_bH0-z9PXCYRKB.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
 - name: Lilex Medium
   styles:
   - family_name: Lilex Medium
@@ -147,6 +260,12 @@ fonts:
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
   - family_name: Lilex Medium
     type: Italic
     full_name: Lilex Medium Italic
@@ -158,6 +277,12 @@ fonts:
     preferred_type: Medium Italic
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
 - name: Lilex SemiBold
   styles:
   - family_name: Lilex SemiBold
@@ -171,6 +296,12 @@ fonts:
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
   - family_name: Lilex SemiBold
     type: Italic
     full_name: Lilex SemiBold Italic
@@ -182,6 +313,12 @@ fonts:
     preferred_type: SemiBold Italic
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - wght
 extract: {}
 copyright: Copyright 2019 The Lilex Project Authors (https://github.com/mishamyrt/Lilex)
 license_url: https://scripts.sil.org/OFL
@@ -289,8 +426,4 @@ open_license: "Copyright 2019 The Lilex Project Authors (https://github.com/mish
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source:
-  commit_id: 0bd2d5599819aa0774f5ca64c8ac3f54ae3fd54f
-  api_version: v1
-  last_modified: '2025-12-10'
-  family_id: lilex
+import_source: {}

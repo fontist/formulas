@@ -1,254 +1,467 @@
 ---
+name: playfair
 schema_version: 5
-name: Playfair
-description: Playfair
-homepage: https://www.forthehearts.net/
+description: Playfair font family
+homepage: https://fonts.google.com/specimen/Playfair
 resources:
-  Playfair:
+  woff2_variable:
     source: google
     family: Playfair
     files:
-    - https://fonts.gstatic.com/s/playfair/v2/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPlKetgdoSMw5ifm.ttf
-    - https://fonts.gstatic.com/s/playfair/v2/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPkUetgdoSMw5ifm.ttf
-    - https://fonts.gstatic.com/s/playfair/v2/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPkmetgdoSMw5ifm.ttf
-    - https://fonts.gstatic.com/s/playfair/v2/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPnKfdgdoSMw5ifm.ttf
-    - https://fonts.gstatic.com/s/playfair/v2/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPnzfdgdoSMw5ifm.ttf
-    - https://fonts.gstatic.com/s/playfair/v2/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPmUfdgdoSMw5ifm.ttf
-    - https://fonts.gstatic.com/s/playfair/v2/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPm9fdgdoSMw5ifm.ttf
-    - https://fonts.gstatic.com/s/playfair/v2/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOW5eqycS4zfmNrE.ttf
-    - https://fonts.gstatic.com/s/playfair/v2/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOTBeqycS4zfmNrE.ttf
-    - https://fonts.gstatic.com/s/playfair/v2/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOQJeqycS4zfmNrE.ttf
-    - https://fonts.gstatic.com/s/playfair/v2/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOe5ZqycS4zfmNrE.ttf
-    - https://fonts.gstatic.com/s/playfair/v2/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOddZqycS4zfmNrE.ttf
-    - https://fonts.gstatic.com/s/playfair/v2/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcObBZqycS4zfmNrE.ttf
-    - https://fonts.gstatic.com/s/playfair/v2/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOZlZqycS4zfmNrE.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPlKetgYoSMw5ifm.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPkUetgYoSMw5ifm.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPkmetgYoSMw5ifm.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPnKfdgYoSMw5ifm.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPnzfdgYoSMw5ifm.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPmUfdgYoSMw5ifm.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPm9fdgYoSMw5ifm.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOW5eqyIS4zfmNrE.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOTBeqyIS4zfmNrE.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOQJeqyIS4zfmNrE.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOe5ZqyIS4zfmNrE.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOddZqyIS4zfmNrE.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcObBZqyIS4zfmNrE.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOZlZqyIS4zfmNrE.woff2
+    urls:
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPlKetgYoSMw5ifm.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPkUetgYoSMw5ifm.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPkmetgYoSMw5ifm.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPnKfdgYoSMw5ifm.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPnzfdgYoSMw5ifm.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPmUfdgYoSMw5ifm.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPm9fdgYoSMw5ifm.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOW5eqyIS4zfmNrE.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOTBeqyIS4zfmNrE.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOQJeqyIS4zfmNrE.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOe5ZqyIS4zfmNrE.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOddZqyIS4zfmNrE.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcObBZqyIS4zfmNrE.woff2
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOZlZqyIS4zfmNrE.woff2
+    format: woff2
+    variable_axes:
+    - opsz
+    - wdth
+    - wght
+  ttf_variable:
+    source: google
+    family: Playfair
+    files:
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPlKetgdoSMw5ifm.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPkUetgdoSMw5ifm.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPkmetgdoSMw5ifm.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPnKfdgdoSMw5ifm.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPnzfdgdoSMw5ifm.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPmUfdgdoSMw5ifm.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPm9fdgdoSMw5ifm.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOW5eqycS4zfmNrE.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOTBeqycS4zfmNrE.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOQJeqycS4zfmNrE.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOe5ZqycS4zfmNrE.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOddZqycS4zfmNrE.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcObBZqycS4zfmNrE.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOZlZqycS4zfmNrE.ttf
+    urls:
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPlKetgdoSMw5ifm.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPkUetgdoSMw5ifm.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPkmetgdoSMw5ifm.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPnKfdgdoSMw5ifm.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPnzfdgdoSMw5ifm.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPmUfdgdoSMw5ifm.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPm9fdgdoSMw5ifm.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOW5eqycS4zfmNrE.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOTBeqycS4zfmNrE.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOQJeqycS4zfmNrE.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOe5ZqycS4zfmNrE.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOddZqycS4zfmNrE.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcObBZqycS4zfmNrE.ttf
+    - https://fonts.gstatic.com/s/playfair/v10/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOZlZqycS4zfmNrE.ttf
     format: ttf
+    variable_axes:
+    - opsz
+    - wdth
+    - wght
 fonts:
+- name: Playfair Light
+  styles:
+  - family_name: Playfair Light
+    type: Regular
+    full_name: Playfair Light
+    post_script_name: Playfair-Light
+    version: '2.203'
+    copyright: Copyright 2005 The Playfair Project Authors (https://github.com/clauseggers/Playfair)
+    font: 0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPlKetgdoSMw5ifm.ttf
+    preferred_family_name: Playfair
+    preferred_type: Light
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - opsz
+    - wdth
+    - wght
+  - family_name: Playfair Light
+    type: Italic
+    full_name: Playfair Light Italic
+    post_script_name: Playfair-LightItalic
+    version: '2.203'
+    copyright: Copyright 2005 The Playfair Project Authors (https://github.com/googlefonts/Playfair)
+    font: 0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOW5eqycS4zfmNrE.ttf
+    preferred_family_name: Playfair
+    preferred_type: Light Italic
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - opsz
+    - wdth
+    - wght
 - name: Playfair
   styles:
-  - family_name: Playfair
-    type: Bold
-    full_name: Playfair Bold
-    post_script_name: Playfair-Bold
-    version: 2.001;gftools[0.9.30]
-    copyright: Copyright 2005 The Playfair Project Authors (https://github.com/googlefonts/Playfair)
-    font: 0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPnzfdgdoSMw5ifm.ttf
-  - family_name: Playfair
-    type: Bold Italic
-    full_name: Playfair Bold Italic
-    post_script_name: Playfair-BoldItalic
-    version: 2.001;gftools[0.9.30]
-    copyright: Copyright 2005 The Playfair Project Authors (https://github.com/googlefonts/Playfair)
-    font: 0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOddZqycS4zfmNrE.ttf
-  - family_name: Playfair
-    type: Italic
-    full_name: Playfair Italic
-    post_script_name: Playfair-Italic
-    version: 2.001;gftools[0.9.30]
-    copyright: Copyright 2005 The Playfair Project Authors (https://github.com/googlefonts/Playfair)
-    font: 0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOTBeqycS4zfmNrE.ttf
   - family_name: Playfair
     type: Regular
     full_name: Playfair Regular
     post_script_name: Playfair-Regular
-    version: 2.001;gftools[0.9.30]
-    copyright: Copyright 2005 The Playfair Project Authors (https://github.com/googlefonts/Playfair)
+    version: '2.203'
+    copyright: Copyright 2005 The Playfair Project Authors (https://github.com/clauseggers/Playfair)
     font: 0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPkUetgdoSMw5ifm.ttf
-- name: Playfair Black
-  styles:
-  - family_name: Playfair Black
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - opsz
+    - wdth
+    - wght
+  - family_name: Playfair
+    type: Bold
+    full_name: Playfair Bold
+    post_script_name: Playfair-Bold
+    version: '2.203'
+    copyright: Copyright 2005 The Playfair Project Authors (https://github.com/clauseggers/Playfair)
+    font: 0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPnzfdgdoSMw5ifm.ttf
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - opsz
+    - wdth
+    - wght
+  - family_name: Playfair
     type: Italic
-    preferred_family_name: Playfair
-    preferred_type: Black Italic
-    full_name: Playfair Black Italic
-    post_script_name: Playfair-BlackItalic
-    version: 2.001;gftools[0.9.30]
+    full_name: Playfair Italic
+    post_script_name: Playfair-Italic
+    version: '2.203'
     copyright: Copyright 2005 The Playfair Project Authors (https://github.com/googlefonts/Playfair)
-    font: 0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOZlZqycS4zfmNrE.ttf
-  - family_name: Playfair Black
-    type: Regular
-    preferred_family_name: Playfair
-    preferred_type: Black
-    full_name: Playfair Black
-    post_script_name: Playfair-Black
-    version: 2.001;gftools[0.9.30]
+    font: 0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOTBeqycS4zfmNrE.ttf
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - opsz
+    - wdth
+    - wght
+  - family_name: Playfair
+    type: Bold Italic
+    full_name: Playfair Bold Italic
+    post_script_name: Playfair-BoldItalic
+    version: '2.203'
     copyright: Copyright 2005 The Playfair Project Authors (https://github.com/googlefonts/Playfair)
-    font: 0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPm9fdgdoSMw5ifm.ttf
-- name: Playfair ExtraBold
-  styles:
-  - family_name: Playfair ExtraBold
-    type: Italic
-    preferred_family_name: Playfair
-    preferred_type: ExtraBold Italic
-    full_name: Playfair ExtraBold Italic
-    post_script_name: Playfair-ExtraBoldItalic
-    version: 2.001;gftools[0.9.30]
-    copyright: Copyright 2005 The Playfair Project Authors (https://github.com/googlefonts/Playfair)
-    font: 0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcObBZqycS4zfmNrE.ttf
-  - family_name: Playfair ExtraBold
-    type: Regular
-    preferred_family_name: Playfair
-    preferred_type: ExtraBold
-    full_name: Playfair ExtraBold
-    post_script_name: Playfair-ExtraBold
-    version: 2.001;gftools[0.9.30]
-    copyright: Copyright 2005 The Playfair Project Authors (https://github.com/googlefonts/Playfair)
-    font: 0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPmUfdgdoSMw5ifm.ttf
-- name: Playfair Light
-  styles:
-  - family_name: Playfair Light
-    type: Italic
-    preferred_family_name: Playfair
-    preferred_type: Light Italic
-    full_name: Playfair Light Italic
-    post_script_name: Playfair-LightItalic
-    version: 2.001;gftools[0.9.30]
-    copyright: Copyright 2005 The Playfair Project Authors (https://github.com/googlefonts/Playfair)
-    font: 0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOW5eqycS4zfmNrE.ttf
-  - family_name: Playfair Light
-    type: Regular
-    preferred_family_name: Playfair
-    preferred_type: Light
-    full_name: Playfair Light
-    post_script_name: Playfair-Light
-    version: 2.001;gftools[0.9.30]
-    copyright: Copyright 2005 The Playfair Project Authors (https://github.com/googlefonts/Playfair)
-    font: 0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPlKetgdoSMw5ifm.ttf
+    font: 0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOddZqycS4zfmNrE.ttf
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - opsz
+    - wdth
+    - wght
 - name: Playfair Medium
   styles:
   - family_name: Playfair Medium
-    type: Italic
-    preferred_family_name: Playfair
-    preferred_type: Medium Italic
-    full_name: Playfair Medium Italic
-    post_script_name: Playfair-MediumItalic
-    version: 2.001;gftools[0.9.30]
-    copyright: Copyright 2005 The Playfair Project Authors (https://github.com/googlefonts/Playfair)
-    font: 0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOQJeqycS4zfmNrE.ttf
-  - family_name: Playfair Medium
     type: Regular
-    preferred_family_name: Playfair
-    preferred_type: Medium
     full_name: Playfair Medium
     post_script_name: Playfair-Medium
-    version: 2.001;gftools[0.9.30]
-    copyright: Copyright 2005 The Playfair Project Authors (https://github.com/googlefonts/Playfair)
+    version: '2.203'
+    copyright: Copyright 2005 The Playfair Project Authors (https://github.com/clauseggers/Playfair)
     font: 0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPkmetgdoSMw5ifm.ttf
+    preferred_family_name: Playfair
+    preferred_type: Medium
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - opsz
+    - wdth
+    - wght
+  - family_name: Playfair Medium
+    type: Italic
+    full_name: Playfair Medium Italic
+    post_script_name: Playfair-MediumItalic
+    version: '2.203'
+    copyright: Copyright 2005 The Playfair Project Authors (https://github.com/googlefonts/Playfair)
+    font: 0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOQJeqycS4zfmNrE.ttf
+    preferred_family_name: Playfair
+    preferred_type: Medium Italic
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - opsz
+    - wdth
+    - wght
 - name: Playfair SemiBold
   styles:
   - family_name: Playfair SemiBold
-    type: Italic
-    preferred_family_name: Playfair
-    preferred_type: SemiBold Italic
-    full_name: Playfair SemiBold Italic
-    post_script_name: Playfair-SemiBoldItalic
-    version: 2.001;gftools[0.9.30]
-    copyright: Copyright 2005 The Playfair Project Authors (https://github.com/googlefonts/Playfair)
-    font: 0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOe5ZqycS4zfmNrE.ttf
-  - family_name: Playfair SemiBold
     type: Regular
-    preferred_family_name: Playfair
-    preferred_type: SemiBold
     full_name: Playfair SemiBold
     post_script_name: Playfair-SemiBold
-    version: 2.001;gftools[0.9.30]
-    copyright: Copyright 2005 The Playfair Project Authors (https://github.com/googlefonts/Playfair)
+    version: '2.203'
+    copyright: Copyright 2005 The Playfair Project Authors (https://github.com/clauseggers/Playfair)
     font: 0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPnKfdgdoSMw5ifm.ttf
+    preferred_family_name: Playfair
+    preferred_type: SemiBold
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - opsz
+    - wdth
+    - wght
+  - family_name: Playfair SemiBold
+    type: Italic
+    full_name: Playfair SemiBold Italic
+    post_script_name: Playfair-SemiBoldItalic
+    version: '2.203'
+    copyright: Copyright 2005 The Playfair Project Authors (https://github.com/googlefonts/Playfair)
+    font: 0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOe5ZqycS4zfmNrE.ttf
+    preferred_family_name: Playfair
+    preferred_type: SemiBold Italic
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - opsz
+    - wdth
+    - wght
+- name: Playfair ExtraBold
+  styles:
+  - family_name: Playfair ExtraBold
+    type: Regular
+    full_name: Playfair ExtraBold
+    post_script_name: Playfair-ExtraBold
+    version: '2.203'
+    copyright: Copyright 2005 The Playfair Project Authors (https://github.com/clauseggers/Playfair)
+    font: 0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPmUfdgdoSMw5ifm.ttf
+    preferred_family_name: Playfair
+    preferred_type: ExtraBold
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - opsz
+    - wdth
+    - wght
+  - family_name: Playfair ExtraBold
+    type: Italic
+    full_name: Playfair ExtraBold Italic
+    post_script_name: Playfair-ExtraBoldItalic
+    version: '2.203'
+    copyright: Copyright 2005 The Playfair Project Authors (https://github.com/googlefonts/Playfair)
+    font: 0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcObBZqycS4zfmNrE.ttf
+    preferred_family_name: Playfair
+    preferred_type: ExtraBold Italic
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - opsz
+    - wdth
+    - wght
+- name: Playfair Black
+  styles:
+  - family_name: Playfair Black
+    type: Regular
+    full_name: Playfair Black
+    post_script_name: Playfair-Black
+    version: '2.203'
+    copyright: Copyright 2005 The Playfair Project Authors (https://github.com/clauseggers/Playfair)
+    font: 0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPm9fdgdoSMw5ifm.ttf
+    preferred_family_name: Playfair
+    preferred_type: Black
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - opsz
+    - wdth
+    - wght
+  - family_name: Playfair Black
+    type: Italic
+    full_name: Playfair Black Italic
+    post_script_name: Playfair-BlackItalic
+    version: '2.203'
+    copyright: Copyright 2005 The Playfair Project Authors (https://github.com/googlefonts/Playfair)
+    font: 0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOZlZqycS4zfmNrE.ttf
+    preferred_family_name: Playfair
+    preferred_type: Black Italic
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: true
+    variable_axes:
+    - opsz
+    - wdth
+    - wght
 extract: {}
-copyright: Copyright 2005 The Playfair Project Authors (https://github.com/googlefonts/Playfair)
+copyright: Copyright 2005 The Playfair Project Authors (https://github.com/clauseggers/Playfair)
 license_url: https://scripts.sil.org/OFL
-open_license: |-
-  Copyright 2005 The Playfair Project Authors (https://github.com/googlefonts/Playfair)
-
-  This Font Software is licensed under the SIL Open Font License, Version 1.1.
-  This license is copied below, and is also available with a FAQ at:
-  https://scripts.sil.org/OFL
-
-
-  -----------------------------------------------------------
-  SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
-  -----------------------------------------------------------
-
-  PREAMBLE
-  The goals of the Open Font License (OFL) are to stimulate worldwide
-  development of collaborative font projects, to support the font creation
-  efforts of academic and linguistic communities, and to provide a free and
-  open framework in which fonts may be shared and improved in partnership
-  with others.
-
-  The OFL allows the licensed fonts to be used, studied, modified and
-  redistributed freely as long as they are not sold by themselves. The
-  fonts, including any derivative works, can be bundled, embedded,
-  redistributed and/or sold with any software provided that any reserved
-  names are not used by derivative works. The fonts and derivatives,
-  however, cannot be released under any other type of license. The
-  requirement for fonts to remain under this license does not apply
-  to any document created using the fonts or their derivatives.
-
-  DEFINITIONS
-  "Font Software" refers to the set of files released by the Copyright
-  Holder(s) under this license and clearly marked as such. This may
-  include source files, build scripts and documentation.
-
-  "Reserved Font Name" refers to any names specified as such after the
-  copyright statement(s).
-
-  "Original Version" refers to the collection of Font Software components as
-  distributed by the Copyright Holder(s).
-
-  "Modified Version" refers to any derivative made by adding to, deleting,
-  or substituting -- in part or in whole -- any of the components of the
-  Original Version, by changing formats or by porting the Font Software to a
-  new environment.
-
-  "Author" refers to any designer, engineer, programmer, technical
-  writer or other person who contributed to the Font Software.
-
-  PERMISSION & CONDITIONS
-  Permission is hereby granted, free of charge, to any person obtaining
-  a copy of the Font Software, to use, study, copy, merge, embed, modify,
-  redistribute, and sell modified and unmodified copies of the Font
-  Software, subject to the following conditions:
-
-  1) Neither the Font Software nor any of its individual components,
-  in Original or Modified Versions, may be sold by itself.
-
-  2) Original or Modified Versions of the Font Software may be bundled,
-  redistributed and/or sold with any software, provided that each copy
-  contains the above copyright notice and this license. These can be
-  included either as stand-alone text files, human-readable headers or
-  in the appropriate machine-readable metadata fields within text or
-  binary files as long as those fields can be easily viewed by the user.
-
-  3) No Modified Version of the Font Software may use the Reserved Font
-  Name(s) unless explicit written permission is granted by the corresponding
-  Copyright Holder. This restriction only applies to the primary font name as
-  presented to the users.
-
-  4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
-  Software shall not be used to promote, endorse or advertise any
-  Modified Version, except to acknowledge the contribution(s) of the
-  Copyright Holder(s) and the Author(s) or with their explicit written
-  permission.
-
-  5) The Font Software, modified or unmodified, in part or in whole,
-  must be distributed entirely under this license, and must not be
-  distributed under any other license. The requirement for fonts to
-  remain under this license does not apply to any document created
-  using the Font Software.
-
-  TERMINATION
-  This license becomes null and void if any of the above conditions are
-  not met.
-
-  DISCLAIMER
-  THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
-  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
-  OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
-  COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
-  INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
-  DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-  FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
-  OTHER DEALINGS IN THE FONT SOFTWARE.
-command: import google -n 9999
+license: "Copyright 2005 The Playfair Project Authors (https://github.com/googlefonts/Playfair)\r\n\r\nThis
+  Font Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis
+  license is copied below, and is also available with a FAQ at:\r\nhttps://openfontlicense.org\r\n\r\n\r\n-----------------------------------------------------------\r\nSIL
+  OPEN FONT LICENSE Version 1.1 - 26 February 2007\r\n-----------------------------------------------------------\r\n\r\nPREAMBLE\r\nThe
+  goals of the Open Font License (OFL) are to stimulate worldwide\r\ndevelopment of
+  collaborative font projects, to support the font creation\r\nefforts of academic
+  and linguistic communities, and to provide a free and\r\nopen framework in which
+  fonts may be shared and improved in partnership\r\nwith others.\r\n\r\nThe OFL allows
+  the licensed fonts to be used, studied, modified and\r\nredistributed freely as
+  long as they are not sold by themselves. The\r\nfonts, including any derivative
+  works, can be bundled, embedded,\r\nredistributed and/or sold with any software
+  provided that any reserved\r\nnames are not used by derivative works. The fonts
+  and derivatives,\r\nhowever, cannot be released under any other type of license.
+  The\r\nrequirement for fonts to remain under this license does not apply\r\nto any
+  document created using the fonts or their derivatives.\r\n\r\nDEFINITIONS\r\n\"Font
+  Software\" refers to the set of files released by the Copyright\r\nHolder(s) under
+  this license and clearly marked as such. This may\r\ninclude source files, build
+  scripts and documentation.\r\n\r\n\"Reserved Font Name\" refers to any names specified
+  as such after the\r\ncopyright statement(s).\r\n\r\n\"Original Version\" refers
+  to the collection of Font Software components as\r\ndistributed by the Copyright
+  Holder(s).\r\n\r\n\"Modified Version\" refers to any derivative made by adding to,
+  deleting,\r\nor substituting -- in part or in whole -- any of the components of
+  the\r\nOriginal Version, by changing formats or by porting the Font Software to
+  a\r\nnew environment.\r\n\r\n\"Author\" refers to any designer, engineer, programmer,
+  technical\r\nwriter or other person who contributed to the Font Software.\r\n\r\nPERMISSION
+  & CONDITIONS\r\nPermission is hereby granted, free of charge, to any person obtaining\r\na
+  copy of the Font Software, to use, study, copy, merge, embed, modify,\r\nredistribute,
+  and sell modified and unmodified copies of the Font\r\nSoftware, subject to the
+  following conditions:\r\n\r\n1) Neither the Font Software nor any of its individual
+  components,\r\nin Original or Modified Versions, may be sold by itself.\r\n\r\n2)
+  Original or Modified Versions of the Font Software may be bundled,\r\nredistributed
+  and/or sold with any software, provided that each copy\r\ncontains the above copyright
+  notice and this license. These can be\r\nincluded either as stand-alone text files,
+  human-readable headers or\r\nin the appropriate machine-readable metadata fields
+  within text or\r\nbinary files as long as those fields can be easily viewed by the
+  user.\r\n\r\n3) No Modified Version of the Font Software may use the Reserved Font\r\nName(s)
+  unless explicit written permission is granted by the corresponding\r\nCopyright
+  Holder. This restriction only applies to the primary font name as\r\npresented to
+  the users.\r\n\r\n4) The name(s) of the Copyright Holder(s) or the Author(s) of
+  the Font\r\nSoftware shall not be used to promote, endorse or advertise any\r\nModified
+  Version, except to acknowledge the contribution(s) of the\r\nCopyright Holder(s)
+  and the Author(s) or with their explicit written\r\npermission.\r\n\r\n5) The Font
+  Software, modified or unmodified, in part or in whole,\r\nmust be distributed entirely
+  under this license, and must not be\r\ndistributed under any other license. The
+  requirement for fonts to\r\nremain under this license does not apply to any document
+  created\r\nusing the Font Software.\r\n\r\nTERMINATION\r\nThis license becomes null
+  and void if any of the above conditions are\r\nnot met.\r\n\r\nDISCLAIMER\r\nTHE
+  FONT SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\r\nEXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF\r\nMERCHANTABILITY, FITNESS
+  FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\r\nOF COPYRIGHT, PATENT, TRADEMARK,
+  OR OTHER RIGHT. IN NO EVENT SHALL THE\r\nCOPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM,
+  DAMAGES OR OTHER LIABILITY,\r\nINCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL,
+  OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+  ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
+  DEALINGS IN THE FONT SOFTWARE.\r\n"
+open_license: "Copyright 2005 The Playfair Project Authors (https://github.com/googlefonts/Playfair)\r\n\r\nThis
+  Font Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis
+  license is copied below, and is also available with a FAQ at:\r\nhttps://openfontlicense.org\r\n\r\n\r\n-----------------------------------------------------------\r\nSIL
+  OPEN FONT LICENSE Version 1.1 - 26 February 2007\r\n-----------------------------------------------------------\r\n\r\nPREAMBLE\r\nThe
+  goals of the Open Font License (OFL) are to stimulate worldwide\r\ndevelopment of
+  collaborative font projects, to support the font creation\r\nefforts of academic
+  and linguistic communities, and to provide a free and\r\nopen framework in which
+  fonts may be shared and improved in partnership\r\nwith others.\r\n\r\nThe OFL allows
+  the licensed fonts to be used, studied, modified and\r\nredistributed freely as
+  long as they are not sold by themselves. The\r\nfonts, including any derivative
+  works, can be bundled, embedded,\r\nredistributed and/or sold with any software
+  provided that any reserved\r\nnames are not used by derivative works. The fonts
+  and derivatives,\r\nhowever, cannot be released under any other type of license.
+  The\r\nrequirement for fonts to remain under this license does not apply\r\nto any
+  document created using the fonts or their derivatives.\r\n\r\nDEFINITIONS\r\n\"Font
+  Software\" refers to the set of files released by the Copyright\r\nHolder(s) under
+  this license and clearly marked as such. This may\r\ninclude source files, build
+  scripts and documentation.\r\n\r\n\"Reserved Font Name\" refers to any names specified
+  as such after the\r\ncopyright statement(s).\r\n\r\n\"Original Version\" refers
+  to the collection of Font Software components as\r\ndistributed by the Copyright
+  Holder(s).\r\n\r\n\"Modified Version\" refers to any derivative made by adding to,
+  deleting,\r\nor substituting -- in part or in whole -- any of the components of
+  the\r\nOriginal Version, by changing formats or by porting the Font Software to
+  a\r\nnew environment.\r\n\r\n\"Author\" refers to any designer, engineer, programmer,
+  technical\r\nwriter or other person who contributed to the Font Software.\r\n\r\nPERMISSION
+  & CONDITIONS\r\nPermission is hereby granted, free of charge, to any person obtaining\r\na
+  copy of the Font Software, to use, study, copy, merge, embed, modify,\r\nredistribute,
+  and sell modified and unmodified copies of the Font\r\nSoftware, subject to the
+  following conditions:\r\n\r\n1) Neither the Font Software nor any of its individual
+  components,\r\nin Original or Modified Versions, may be sold by itself.\r\n\r\n2)
+  Original or Modified Versions of the Font Software may be bundled,\r\nredistributed
+  and/or sold with any software, provided that each copy\r\ncontains the above copyright
+  notice and this license. These can be\r\nincluded either as stand-alone text files,
+  human-readable headers or\r\nin the appropriate machine-readable metadata fields
+  within text or\r\nbinary files as long as those fields can be easily viewed by the
+  user.\r\n\r\n3) No Modified Version of the Font Software may use the Reserved Font\r\nName(s)
+  unless explicit written permission is granted by the corresponding\r\nCopyright
+  Holder. This restriction only applies to the primary font name as\r\npresented to
+  the users.\r\n\r\n4) The name(s) of the Copyright Holder(s) or the Author(s) of
+  the Font\r\nSoftware shall not be used to promote, endorse or advertise any\r\nModified
+  Version, except to acknowledge the contribution(s) of the\r\nCopyright Holder(s)
+  and the Author(s) or with their explicit written\r\npermission.\r\n\r\n5) The Font
+  Software, modified or unmodified, in part or in whole,\r\nmust be distributed entirely
+  under this license, and must not be\r\ndistributed under any other license. The
+  requirement for fonts to\r\nremain under this license does not apply to any document
+  created\r\nusing the Font Software.\r\n\r\nTERMINATION\r\nThis license becomes null
+  and void if any of the above conditions are\r\nnot met.\r\n\r\nDISCLAIMER\r\nTHE
+  FONT SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\r\nEXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF\r\nMERCHANTABILITY, FITNESS
+  FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\r\nOF COPYRIGHT, PATENT, TRADEMARK,
+  OR OTHER RIGHT. IN NO EVENT SHALL THE\r\nCOPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM,
+  DAMAGES OR OTHER LIABILITY,\r\nINCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL,
+  OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+  ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
+  DEALINGS IN THE FONT SOFTWARE.\r\n"
+import_source: {}

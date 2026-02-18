@@ -1,15 +1,25 @@
 ---
+name: kumar_one_outline
 schema_version: 5
-name: Kumar One Outline
-description: Kumar One Outline
-homepage: http://www.indiantypefoundry.com/googlefonts
+description: Kumar One Outline font family
+homepage: https://fonts.google.com/specimen/Kumar+One+Outline
 resources:
-  Kumar One Outline:
+  ttf_static:
     source: google
     family: Kumar One Outline
     files:
-    - https://fonts.gstatic.com/s/kumaroneoutline/v17/Noao6VH62pyLP0fsrZ-v18wlUEcX9zDwRQu8EGKF.ttf
+    - https://fonts.gstatic.com/s/kumaroneoutline/v20/Noao6VH62pyLP0fsrZ-v18wlUEcX9zDwRQu8EGKF.ttf
+    urls:
+    - https://fonts.gstatic.com/s/kumaroneoutline/v20/Noao6VH62pyLP0fsrZ-v18wlUEcX9zDwRQu8EGKF.ttf
     format: ttf
+  woff2_static:
+    source: google
+    family: Kumar One Outline
+    files:
+    - https://fonts.gstatic.com/s/kumaroneoutline/v20/Noao6VH62pyLP0fsrZ-v18wlUEcX9zD1RQu8EGKF.woff2
+    urls:
+    - https://fonts.gstatic.com/s/kumaroneoutline/v20/Noao6VH62pyLP0fsrZ-v18wlUEcX9zD1RQu8EGKF.woff2
+    format: woff2
 fonts:
 - name: Kumar One Outline
   styles:
@@ -20,7 +30,15 @@ fonts:
     version: 1.000;PS 1.000;hotconv 1.0.88;makeotf.lib2.5.647800
     copyright: Copyright (c) 2016 Indian Type Foundry (info@indiantypefoundry.com)
     font: Noao6VH62pyLP0fsrZ-v18wlUEcX9zDwRQu8EGKF.ttf
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
 extract: {}
 copyright: Copyright (c) 2016 Indian Type Foundry (info@indiantypefoundry.com)
-license_url: http://scripts.sil.org/OFL
-command: import google -n 9999
+license_url: https://scripts.sil.org/OFL
+license: SIL Open Font License v1.1
+open_license: SIL Open Font License v1.1
+import_source: {}

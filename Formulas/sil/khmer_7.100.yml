@@ -9,6 +9,7 @@ resources:
     - https://software.sil.org/downloads/r/mondulkiri/Mondulkiri-7.100.zip
     sha256: c2e5dc08f4835be9a0da5cf9dcf92105aff973e47fc31e075e8bc44bec632c85
     file_size: 4347137
+    format: ttf
 fonts:
 - name: Khmer Busra
   styles:
@@ -658,9 +659,9 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-command: import sil --output-path ./Formulas/sil --verbose --import-cache /Users/mulgogi/Downloads/fontist-test-cache
+command: import sil --schema-version\=5 --output-path\=./Formulas/sil --force --no-interactive
 import_source:
   type: sil
   version: '7.100'
-  release_date: '2025-12-31T07:56:35Z'
+  release_date: '2026-02-18T03:53:35Z'
 font_version: 7.100; 2014

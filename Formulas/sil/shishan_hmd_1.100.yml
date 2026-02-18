@@ -8,6 +8,7 @@ resources:
     - https://software.sil.org/downloads/r/shishan/ShiShan-HMD-1.100.zip
     sha256: 0a0637a1798af4c13052df4ced97a18378a380c68929d5f1c84b3bba3a04deed
     file_size: 216837
+    format: ttf
 fonts:
 - name: ShiShan HMD
   styles:
@@ -320,9 +321,9 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-command: import sil --output-path ./Formulas/sil --verbose --import-cache /Users/mulgogi/Downloads/fontist-test-cache
+command: import sil --schema-version\=5 --output-path\=./Formulas/sil --force --no-interactive
 import_source:
   type: sil
   version: '1.100'
-  release_date: '2025-12-31T07:57:36Z'
+  release_date: '2026-02-18T03:54:44Z'
 font_version: '1.001'

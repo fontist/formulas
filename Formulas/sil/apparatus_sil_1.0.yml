@@ -8,6 +8,7 @@ resources:
     - https://scripts.sil.org/cms/sites/nrsi/download/appsil1.0.zip/ApparatusSIL.zip
     sha256: 0d8e3143b9c46c97916ab2cf85ae2187fe33b9b40859567a5524266dd58581bc
     file_size: 126550
+    format: ttf
 fonts:
 - name: Apparatus SIL
   styles:
@@ -373,9 +374,9 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-command: import sil --output-path ./Formulas/sil --verbose --import-cache /Users/mulgogi/Downloads/fontist-test-cache
+command: import sil --schema-version\=5 --output-path\=./Formulas/sil --force --no-interactive
 import_source:
   type: sil
   version: '1.0'
-  release_date: '2025-12-31T04:03:04Z'
+  release_date: '2026-02-18T03:53:14Z'
 font_version: '1.0'

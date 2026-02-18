@@ -1,15 +1,25 @@
 ---
-schema_version: 5
 name: bbh_hegarty
+schema_version: 5
 description: BBH Hegarty font family
 homepage: https://fonts.google.com/specimen/BBH+Hegarty
 resources:
-  BBH Hegarty:
+  ttf_static:
     source: google
     family: BBH Hegarty
     files:
     - https://fonts.gstatic.com/s/bbhhegarty/v1/yYLt0hbb_dvjg8talgb5vDHR-tdfcIT_.ttf
+    urls:
+    - https://fonts.gstatic.com/s/bbhhegarty/v1/yYLt0hbb_dvjg8talgb5vDHR-tdfcIT_.ttf
     format: ttf
+  woff2_static:
+    source: google
+    family: BBH Hegarty
+    files:
+    - https://fonts.gstatic.com/s/bbhhegarty/v1/yYLt0hbb_dvjg8talgb5vDHU-tdfcIT_.woff2
+    urls:
+    - https://fonts.gstatic.com/s/bbhhegarty/v1/yYLt0hbb_dvjg8talgb5vDHU-tdfcIT_.woff2
+    format: woff2
 fonts:
 - name: BBH Hegarty
   styles:
@@ -22,6 +32,10 @@ fonts:
     font: yYLt0hbb_dvjg8talgb5vDHR-tdfcIT_.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
 extract: {}
 copyright: Copyright 2025 The BBH Project Authors (https://github.com/Studio-DRAMA/BBH)
 license_url: https://scripts.sil.org/OFL
@@ -129,8 +143,4 @@ open_license: "Copyright 2025 The BBH Project Authors (https://github.com/Studio
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source:
-  commit_id: 0bd2d5599819aa0774f5ca64c8ac3f54ae3fd54f
-  api_version: v1
-  last_modified: '2025-12-10'
-  family_id: bbh_hegarty
+import_source: {}
