@@ -22,11 +22,25 @@ jobs:
           sudo apt-get update
           sudo apt-get install lcdf-typetools
 
-      - name: Cache Google repo
+      - name: Cache Google fonts repo
         uses: actions/cache@v4
         with:
           path: "~/.fontist/google/fonts"
-          key: google-fonts-cache
+          key: google-fonts-repo-${{ github.run_number }}
+          restore-keys: |
+            google-fonts-repo-
+
+      - name: Clone or update Google fonts repo
+        run: |
+          mkdir -p ~/.fontist/google
+          if [ -d ~/.fontist/google/fonts/.git ]; then
+            cd ~/.fontist/google/fonts
+            git fetch origin
+            git reset --hard origin/main
+          else
+            rm -rf ~/.fontist/google/fonts
+            git clone --depth 1 https://github.com/google/fonts ~/.fontist/google/fonts
+          fi
 
       - name: Setup fontist config
         run: bundle exec fontist config set read_timeout 60
@@ -35,7 +49,11 @@ jobs:
         id: import
         continue-on-error: true
         run: |
-          bundle exec fontist import google --formulas-path Formulas --schema-version 5 -v 2>&1 | tee import-output.log
+          bundle exec fontist import google \
+            --source-path ~/.fontist/google/fonts \
+            --output-path Formulas/google \
+            --schema-version 5 \
+            -v 2>&1 | tee import-output.log
           echo "exit_code=${PIPESTATUS[0]}" >> $GITHUB_OUTPUT
 
       - name: Upload import logs
