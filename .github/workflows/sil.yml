@@ -1,0 +1,159 @@
+name: sil
+
+on:
+  schedule:
+    - cron: '0 6 * * 0'  # Weekly on Sunday at 6am UTC
+  workflow_dispatch:
+
+jobs:
+  prepare:
+    uses: metanorma/ci/.github/workflows/prepare-rake.yml@main
+
+  import:
+    runs-on: ubuntu-latest
+    needs: prepare
+
+    steps:
+      - name: Checkout formulas repository
+        uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ needs.prepare.outputs.default-ruby-version }}
+          bundler-cache: true
+          working-directory: ../fontist
+
+      - name: Import SIL fonts
+        id: import
+        continue-on-error: true
+        working-directory: ../fontist
+        run: |
+          # Run import with timing
+          START_TIME=$(date +%s)
+
+          # Execute the import command
+          bundle exec fontist import sil 2>&1 | tee import-output.log
+          EXIT_CODE=${PIPESTATUS[0]}
+
+          END_TIME=$(date +%s)
+          DURATION=$((END_TIME - START_TIME))
+
+          # Save metrics
+          echo "exit_code=$EXIT_CODE" >> $GITHUB_OUTPUT
+          echo "duration=$DURATION" >> $GITHUB_OUTPUT
+
+          # Count generated formulas
+          FORMULA_COUNT=$(find ~/.fontist/versions/v4/formulas/Formulas/sil -name "*.yml" 2>/dev/null | wc -l)
+          echo "formula_count=$FORMULA_COUNT" >> $GITHUB_OUTPUT
+
+          exit $EXIT_CODE
+
+      - name: Copy formulas to repository
+        if: success()
+        run: |
+          # Copy generated formulas to repository
+          mkdir -p Formulas/sil
+          cp ~/.fontist/versions/v4/formulas/Formulas/sil/*.yml ./Formulas/sil/ || true
+
+      - name: Generate import report
+        if: always()
+        run: |
+          echo "## SIL Import Report" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Results" >> $GITHUB_STEP_SUMMARY
+          echo "- **Exit code:** ${{ steps.import.outputs.exit_code }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Duration:** ${{ steps.import.outputs.duration }}s" >> $GITHUB_STEP_SUMMARY
+          echo "- **Formulas generated:** ${{ steps.import.outputs.formula_count }}" >> $GITHUB_STEP_SUMMARY
+
+          if [ "${{ steps.import.outputs.exit_code }}" != "0" ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### ⚠️ Import completed with errors" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### ✅ Import completed successfully" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Upload import logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sil-import-logs-${{ github.run_id }}
+          path: ../fontist/import-output.log
+          retention-days: 7
+
+      - name: Check for formula changes
+        id: check-changes
+        if: success()
+        run: |
+          if [ -n "$(git status --porcelain Formulas/sil)" ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "### 📝 Formula Changes Detected" >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+            git status --short Formulas/sil | head -20 >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "### ℹ️ No formula changes" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Commit changes
+        if: success() && steps.check-changes.outputs.has_changes == 'true'
+        uses: EndBug/add-and-commit@v7
+        with:
+          add: Formulas/sil
+          default_author: github_actions
+          message: 'chore(formulas): update SIL fonts with import_source tracking'
+
+      - name: Create issue on repeated failures
+        if: failure() && github.event_name == 'schedule'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issueTitle = '🔴 SIL Import Failed';
+            const issueBody = `
+            ## Import Failure Report
+
+            The scheduled SIL fonts import failed.
+
+            ### Details
+            - **Run ID:** ${{ github.run_id }}
+            - **Run URL:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+            - **Duration:** ${{ steps.import.outputs.duration }}s
+
+            ### Action Required
+            - Review the [workflow logs](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
+            - Check the uploaded artifacts for detailed error information
+            - SIL website structure may have changed
+
+            ### Artifacts
+            - Import logs: \`sil-import-logs-${{ github.run_id }}\`
+            `;
+
+            // Check for existing open issues
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'sil-import,automated'
+            });
+
+            const existingIssue = issues.data.find(issue =>
+              issue.title === issueTitle
+            );
+
+            if (existingIssue) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existingIssue.number,
+                body: `Another failure occurred:\n\n${issueBody}`
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: issueTitle,
+                body: issueBody,
+                labels: ['sil-import', 'automated', 'bug']
+              });
+            }

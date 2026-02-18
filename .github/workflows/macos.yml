@@ -1,0 +1,201 @@
+name: macos
+
+on:
+  schedule:
+    - cron: '0 12 * * 0'  # Weekly on Sunday at 12pm UTC
+  workflow_dispatch:
+    inputs:
+      platform:
+        description: 'Platform to run import on'
+        required: false
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - macos-15
+          - macos-26
+
+jobs:
+  prepare:
+    uses: metanorma/ci/.github/workflows/prepare-rake.yml@main
+
+  import:
+    runs-on: ${{ matrix.os }}
+    needs: prepare
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: macos-15
+            framework: font7
+            catalog_url: https://mesu.apple.com/assets/macos/com_apple_MobileAsset_Font7/com_apple_MobileAsset_Font7.xml
+            output_dir: Formulas/macos/font7
+          - os: macos-26
+            framework: font8
+            catalog_url: https://mesu.apple.com/assets/macos/com_apple_MobileAsset_Font8/com_apple_MobileAsset_Font8.xml
+            output_dir: Formulas/macos/font8
+
+    steps:
+      - name: Checkout formulas repository
+        uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ needs.prepare.outputs.default-ruby-version }}
+          bundler-cache: true
+          working-directory: ../fontist
+
+      - name: Download macOS font catalog
+        id: download-catalog
+        run: |
+          CATALOG_FILE="com_apple_MobileAsset_${{ matrix.framework }}.xml"
+          echo "Downloading ${{ matrix.framework }} catalog..."
+
+          curl -f -o "$CATALOG_FILE" "${{ matrix.catalog_url }}"
+
+          if [ -f "$CATALOG_FILE" ]; then
+            echo "catalog_file=$CATALOG_FILE" >> $GITHUB_OUTPUT
+            echo "✅ Downloaded $CATALOG_FILE" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ Failed to download catalog" >> $GITHUB_STEP_SUMMARY
+            exit 1
+          fi
+
+      - name: Import macOS ${{ matrix.framework }} fonts
+        id: import
+        continue-on-error: true
+        working-directory: ../fontist
+        run: |
+          # Run import with timing
+          START_TIME=$(date +%s)
+
+          # Execute the import command
+          bundle exec fontist import macos \
+            --plist "${{ github.workspace }}/${{ steps.download-catalog.outputs.catalog_file }}" \
+            --formulas-dir "${{ github.workspace }}/${{ matrix.output_dir }}" \
+            2>&1 | tee import-output.log
+
+          EXIT_CODE=${PIPESTATUS[0]}
+
+          END_TIME=$(date +%s)
+          DURATION=$((END_TIME - START_TIME))
+
+          # Save metrics
+          echo "exit_code=$EXIT_CODE" >> $GITHUB_OUTPUT
+          echo "duration=$DURATION" >> $GITHUB_OUTPUT
+
+          # Count generated formulas
+          FORMULA_COUNT=$(find "${{ github.workspace }}/${{ matrix.output_dir }}" -name "*.yml" 2>/dev/null | wc -l)
+          echo "formula_count=$FORMULA_COUNT" >> $GITHUB_OUTPUT
+
+          exit $EXIT_CODE
+
+      - name: Generate import report
+        if: always()
+        run: |
+          echo "## macOS ${{ matrix.framework }} Import Report" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Platform" >> $GITHUB_STEP_SUMMARY
+          echo "- **Runner:** ${{ matrix.os }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Framework:** ${{ matrix.framework }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Output:** ${{ matrix.output_dir }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Results" >> $GITHUB_STEP_SUMMARY
+          echo "- **Exit code:** ${{ steps.import.outputs.exit_code }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Duration:** ${{ steps.import.outputs.duration }}s" >> $GITHUB_STEP_SUMMARY
+          echo "- **Formulas generated:** ${{ steps.import.outputs.formula_count }}" >> $GITHUB_STEP_SUMMARY
+
+          if [ "${{ steps.import.outputs.exit_code }}" != "0" ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### ⚠️ Import completed with errors" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### ✅ Import completed successfully" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Upload import logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: macos-${{ matrix.framework }}-import-logs-${{ github.run_id }}
+          path: ../fontist/import-output.log
+          retention-days: 7
+
+      - name: Check for formula changes
+        id: check-changes
+        if: success()
+        run: |
+          if [ -n "$(git status --porcelain ${{ matrix.output_dir }})" ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "### 📝 Formula Changes Detected" >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+            git status --short ${{ matrix.output_dir }} | head -20 >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "### ℹ️ No formula changes" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Commit changes
+        if: success() && steps.check-changes.outputs.has_changes == 'true'
+        uses: EndBug/add-and-commit@v7
+        with:
+          add: ${{ matrix.output_dir }}
+          default_author: github_actions
+          message: 'chore(formulas): update macOS ${{ matrix.framework }} fonts with import_source'
+
+      - name: Create issue on repeated failures
+        if: failure() && github.event_name == 'schedule'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issueTitle = `🔴 macOS ${{ matrix.framework }} Import Failed`;
+            const issueBody = `
+            ## Import Failure Report
+
+            The scheduled macOS ${{ matrix.framework }} import failed on ${{ matrix.os }}.
+
+            ### Details
+            - **Platform:** ${{ matrix.os }}
+            - **Framework:** ${{ matrix.framework }}
+            - **Run ID:** ${{ github.run_id }}
+            - **Run URL:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+            - **Duration:** ${{ steps.import.outputs.duration }}s
+
+            ### Action Required
+            - Review the [workflow logs](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
+            - Check the uploaded artifacts for detailed error information
+            - Verify macOS catalog URL is accessible
+
+            ### Artifacts
+            - Import logs: \`macos-${{ matrix.framework }}-import-logs-${{ github.run_id }}\`
+            `;
+
+            // Check for existing open issues
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: `macos-import,automated,${{ matrix.framework }}`
+            });
+
+            const existingIssue = issues.data.find(issue =>
+              issue.title === issueTitle
+            );
+
+            if (existingIssue) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existingIssue.number,
+                body: `Another failure occurred:\n\n${issueBody}`
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: issueTitle,
+                body: issueBody,
+                labels: ['macos-import', 'automated', 'bug', '${{ matrix.framework }}']
+              });
+            }
