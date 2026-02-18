@@ -26,7 +26,7 @@ jobs:
           START_TIME=$(date +%s)
 
           # Execute the import command
-          bundle exec fontist import sil --formulas-dir Formulas/sil 2>&1 | tee import-output.log
+          bundle exec fontist import sil --output-path Formulas/sil --schema-version 5 -v 2>&1 | tee import-output.log
           EXIT_CODE=${PIPESTATUS[0]}
 
           END_TIME=$(date +%s)

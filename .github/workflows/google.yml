@@ -35,7 +35,7 @@ jobs:
         id: import
         continue-on-error: true
         run: |
-          bundle exec fontist import google --formulas_path Formulas -n 100 -v 2>&1 | tee import-output.log
+          bundle exec fontist import google --formulas-path Formulas --schema-version 5 -v 2>&1 | tee import-output.log
           echo "exit_code=${PIPESTATUS[0]}" >> $GITHUB_OUTPUT
 
       - name: Upload import logs

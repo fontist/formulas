@@ -66,8 +66,9 @@ jobs:
           # Execute the import command
           bundle exec fontist import macos \
             --plist "${{ steps.download-catalog.outputs.catalog_file }}" \
-            --formulas-dir "${{ matrix.output_dir }}" \
-            2>&1 | tee import-output.log
+            --output-path "${{ matrix.output_dir }}" \
+            --schema-version 5 \
+            -v 2>&1 | tee import-output.log
 
           EXIT_CODE=${PIPESTATUS[0]}
 
