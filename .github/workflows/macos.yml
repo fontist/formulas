@@ -16,12 +16,8 @@ on:
           - macos-26
 
 jobs:
-  prepare:
-    uses: metanorma/ci/.github/workflows/prepare-rake.yml@main
-
   import:
     runs-on: ${{ matrix.os }}
-    needs: prepare
     strategy:
       fail-fast: false
       matrix:
@@ -41,9 +37,8 @@ jobs:
 
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: ${{ needs.prepare.outputs.default-ruby-version }}
+          ruby-version: '3.3'
           bundler-cache: true
-          working-directory: ../fontist
 
       - name: Download macOS font catalog
         id: download-catalog
@@ -64,15 +59,14 @@ jobs:
       - name: Import macOS ${{ matrix.framework }} fonts
         id: import
         continue-on-error: true
-        working-directory: ../fontist
         run: |
           # Run import with timing
           START_TIME=$(date +%s)
 
           # Execute the import command
           bundle exec fontist import macos \
-            --plist "${{ github.workspace }}/${{ steps.download-catalog.outputs.catalog_file }}" \
-            --formulas-dir "${{ github.workspace }}/${{ matrix.output_dir }}" \
+            --plist "${{ steps.download-catalog.outputs.catalog_file }}" \
+            --formulas-dir "${{ matrix.output_dir }}" \
             2>&1 | tee import-output.log
 
           EXIT_CODE=${PIPESTATUS[0]}
@@ -85,7 +79,7 @@ jobs:
           echo "duration=$DURATION" >> $GITHUB_OUTPUT
 
           # Count generated formulas
-          FORMULA_COUNT=$(find "${{ github.workspace }}/${{ matrix.output_dir }}" -name "*.yml" 2>/dev/null | wc -l)
+          FORMULA_COUNT=$(find "${{ matrix.output_dir }}" -name "*.yml" 2>/dev/null | wc -l)
           echo "formula_count=$FORMULA_COUNT" >> $GITHUB_OUTPUT
 
           exit $EXIT_CODE
@@ -118,7 +112,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: macos-${{ matrix.framework }}-import-logs-${{ github.run_id }}
-          path: ../fontist/import-output.log
+          path: import-output.log
           retention-days: 7
 
       - name: Check for formula changes
@@ -142,7 +136,7 @@ jobs:
         with:
           add: ${{ matrix.output_dir }}
           default_author: github_actions
-          message: 'chore(formulas): update macOS ${{ matrix.framework }} fonts with import_source'
+          message: 'chore(formulas): update macOS ${{ matrix.framework }} fonts'
 
       - name: Create issue on repeated failures
         if: failure() && github.event_name == 'schedule'
