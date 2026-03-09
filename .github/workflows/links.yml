@@ -3,7 +3,7 @@ name: Link Checker
 on:
   push:
     branches:
-      - main
+      - v4
     paths:
       - 'docs/**'
   pull_request:
@@ -42,7 +42,7 @@ jobs:
       - name: Restore lychee cache
         uses: actions/cache@v4
         with:
-          path: .lycheecache
+          path: docs/.lycheecache
           key: cache-lychee-${{ github.sha }}
           restore-keys: cache-lychee-
 
@@ -60,11 +60,11 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           args: >-
+            --cache
             --verbose
             --no-progress
             --config lychee.toml
-            --root-dir "$(pwd)/.vitepress/dist"
-            --base-url file://${{ github.workspace }}/docs/.vitepress/dist
+            --root-dir ${{ github.workspace }}/docs/.vitepress/dist
             '.vitepress/dist/**/*.html'
           fail: true
           output: link-check-results.md
@@ -76,7 +76,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: link-check-results
-          path: link-check-results.md
+          path: docs/link-check-results.md
           retention-days: 30
 
       - name: Comment PR with results
@@ -87,8 +87,8 @@ jobs:
             const fs = require('fs');
             let comment = '## 🔗 Link Check Failed\n\n';
 
-            if (fs.existsSync('link-check-results.md')) {
-              const results = fs.readFileSync('link-check-results.md', 'utf8');
+            if (fs.existsSync('docs/link-check-results.md')) {
+              const results = fs.readFileSync('docs/link-check-results.md', 'utf8');
               comment += '### Results\n\n' + results + '\n\n';
             }
 
