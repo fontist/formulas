@@ -41,19 +41,19 @@ function getSourceInfo(type) {
   const sources = {
     google: {
       name: "Google Fonts",
-      badge: `<img src="/formulas/sources/google.svg" alt="Google Fonts" class="source-badge" title="Google Fonts">`,
+      badge: `<img src="/sources/google.svg" alt="Google Fonts" class="source-badge" title="Google Fonts">`,
     },
     sil: {
       name: "SIL International",
-      badge: `<img src="/formulas/sources/sil.svg" alt="SIL International" class="source-badge" title="SIL International">`,
+      badge: `<img src="/sources/sil.svg" alt="SIL International" class="source-badge" title="SIL International">`,
     },
     macos: {
       name: "Apple",
-      badge: `<img src="/formulas/sources/apple.svg" alt="Apple" class="source-badge" title="Apple">`,
+      badge: `<img src="/sources/apple.svg" alt="Apple" class="source-badge" title="Apple">`,
     },
     manual: {
       name: "Expert Curated",
-      badge: `<img src="/formulas/sources/fontist.svg" alt="Expert Curated" class="source-badge" title="Expert Curated">`,
+      badge: `<img src="/sources/fontist.svg" alt="Expert Curated" class="source-badge" title="Expert Curated">`,
     },
   };
   return sources[type] || sources.manual;
