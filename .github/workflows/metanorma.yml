@@ -3,7 +3,17 @@ name: metanorma
 on:
   push:
     branches: [ master, v2, v3, v4 ]
+    paths-ignore:
+      - 'docs/**'
+      - '.github/workflows/docs.yml'
+      - '.github/workflows/links.yml'
+      - '.github/workflows/deploy-pages.yml'
   pull_request:
+    paths-ignore:
+      - 'docs/**'
+      - '.github/workflows/docs.yml'
+      - '.github/workflows/links.yml'
+      - '.github/workflows/deploy-pages.yml'
 
 jobs:
   prepare:
