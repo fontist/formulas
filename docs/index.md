@@ -199,22 +199,22 @@ watch(searchQuery, (val) => {
   <h2 class="section-title">Browse by License</h2>
   <div class="card-grid">
     <a href="browse/?license=open_source" class="browse-card">
-      <img src="/formulas/licenses/open.svg" alt="Open Source" class="card-icon-img">
+      <img src="/licenses/open.svg" alt="Open Source" class="card-icon-img">
       <span class="card-title">Open Source</span>
       <span class="card-count">{{ stats.licenses.open_source.toLocaleString() }}+</span>
     </a>
     <a href="browse/?license=freely_distributable" class="browse-card">
-      <img src="/formulas/licenses/freely-distributed.svg" alt="Freely Distributable" class="card-icon-img">
+      <img src="/licenses/freely-distributed.svg" alt="Freely Distributable" class="card-icon-img">
       <span class="card-title">Freely Distributable</span>
       <span class="card-count">{{ stats.licenses.freely_distributable.toLocaleString() }}+</span>
     </a>
     <a href="browse/?license=platform_restricted" class="browse-card">
-      <img src="/formulas/licenses/platform-tied.svg" alt="Platform Tied" class="card-icon-img">
+      <img src="/licenses/platform-tied.svg" alt="Platform Tied" class="card-icon-img">
       <span class="card-title">Platform Tied</span>
       <span class="card-count">{{ stats.licenses.platform_restricted.toLocaleString() }}+</span>
     </a>
     <a href="browse/?license=bundled_software" class="browse-card">
-      <img src="/formulas/licenses/bundled.svg" alt="Bundled Software" class="card-icon-img">
+      <img src="/licenses/bundled.svg" alt="Bundled Software" class="card-icon-img">
       <span class="card-title">Bundled Software</span>
       <span class="card-count">{{ stats.licenses.bundled_software.toLocaleString() }}+</span>
     </a>
@@ -225,22 +225,22 @@ watch(searchQuery, (val) => {
   <h2 class="section-title">Browse by Source</h2>
   <div class="card-grid">
     <a href="browse/?source=google" class="browse-card source-card">
-      <img src="/formulas/sources/google.svg" alt="Google Fonts" class="card-icon-img">
+      <img src="/sources/google.svg" alt="Google Fonts" class="card-icon-img">
       <span class="card-title">Google Fonts</span>
       <span class="card-count">{{ stats.sources.google.toLocaleString() }}+</span>
     </a>
     <a href="browse/?source=sil" class="browse-card source-card">
-      <img src="/formulas/sources/sil.svg" alt="SIL International" class="card-icon-img">
+      <img src="/sources/sil.svg" alt="SIL International" class="card-icon-img">
       <span class="card-title">SIL International</span>
       <span class="card-count">{{ stats.sources.sil.toLocaleString() }}+</span>
     </a>
     <a href="browse/?source=macos" class="browse-card source-card">
-      <img src="/formulas/sources/apple.svg" alt="Apple" class="card-icon-img">
+      <img src="/sources/apple.svg" alt="Apple" class="card-icon-img">
       <span class="card-title">Apple</span>
       <span class="card-count">{{ stats.sources.macos.toLocaleString() }}+</span>
     </a>
     <a href="browse/?source=manual" class="browse-card source-card">
-      <img src="/formulas/sources/fontist.svg" alt="Expert Curated" class="card-icon-img">
+      <img src="/sources/fontist.svg" alt="Expert Curated" class="card-icon-img">
       <span class="card-title">Expert Curated</span>
       <span class="card-count">{{ stats.sources.manual.toLocaleString() }}+</span>
     </a>

@@ -6,15 +6,15 @@ This guide explains font licenses, their permissions, and how to determine what 
 
 | Category | Icon | Description |
 |----------|------|-------------|
-| Open Source | 🟢 | Fully open licenses (OFL, Apache, MIT, etc.) |
-| Freely Distributable | 🔵 | Free to redistribute with conditions |
-| Platform Restricted | 🟡 | Limited to specific platforms (macOS, Windows) |
-| Bundled Software | 🟣 | Comes with specific software |
-| Unknown | ❓ | License not specified in formula |
+| Open Source | <img src="/licenses/open.svg" alt="Open Source" width="20" height="20"> | Fully open licenses (OFL, Apache, MIT, etc.) |
+| Freely Distributable | <img src="/licenses/freely-distributed.svg" alt="Freely Distributable" width="20" height="20"> | Free to redistribute with conditions |
+| Platform Tied | <img src="/licenses/platform-tied.svg" alt="Platform Tied" width="20" height="20"> | Limited to specific platforms (macOS, Windows) |
+| Bundled Software | <img src="/licenses/bundled.svg" alt="Bundled" width="20" height="20"> | Comes with specific software |
+| Unknown | <img src="/licenses/unknown.svg" alt="Unknown" width="20" height="20"> | License not specified in formula |
 
 ## License Categories
 
-### 🟢 Open Source Fonts
+### <img src="/licenses/open.svg" alt="Open Source" width="20" height="20"> Open Source Fonts
 
 Fonts licensed under open source licenses that generally allow:
 
@@ -44,7 +44,7 @@ Fonts licensed under open source licenses that generally allow:
 | [Bitstream Vera License](./bitstream) | Bitstream | [Bitstream-Vera](https://spdx.org/licenses/Bitstream-Vera.html) |
 | [Freely Usable](./free-use) | Free to Use | Not on SPDX |
 
-### 🔵 Freely Distributable
+### <img src="/licenses/freely-distributed.svg" alt="Freely Distributable" width="20" height="20"> Freely Distributable
 
 Fonts that can be redistributed under specific terms:
 
@@ -53,7 +53,7 @@ Fonts that can be redistributed under specific terms:
 | [Microsoft Web Fonts EULA](./microsoft-web) | Unlimited redistribution (not for profit) |
 | [Freeware](./freeware) | Free for personal use, redistribution restricted |
 
-### 🟡 Platform Restricted
+### <img src="/licenses/platform-tied.svg" alt="Platform Tied" width="20" height="20"> Platform Tied
 
 Fonts that come with specific platforms:
 
@@ -61,7 +61,7 @@ Fonts that come with specific platforms:
 |---------|-------------|
 | [Apple-only](./apple-only) | Licensed for use on Apple-branded systems only |
 
-### 🟣 Bundled Software
+### <img src="/licenses/bundled.svg" alt="Bundled" width="20" height="20"> Bundled Software
 
 Fonts that come with specific software:
 
@@ -71,7 +71,7 @@ Fonts that come with specific software:
 | [Adobe Software License](./adobe) | Bundled with Adobe products |
 | [Software Bundle License](./bundled) | Bundled with other software |
 
-### ❓ Unknown
+### <img src="/licenses/unknown.svg" alt="Unknown" width="20" height="20"> Unknown
 
 | License | Description |
 |---------|-------------|
