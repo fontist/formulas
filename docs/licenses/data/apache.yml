@@ -1,0 +1,79 @@
+id: apache
+name: Apache License 2.0
+spdx_id: Apache-2.0
+spdx_url: https://spdx.org/licenses/Apache-2.0.html
+badge_color: "#28a745"
+category: open_source
+summary: The Apache License 2.0 is a permissive open source license that allows free use, modification, and distribution. It includes an express grant of patent rights, making it particularly suitable for fonts used in commercial products.
+
+sample_formula: google/roboto_mono
+sample_source: Formulas/google/roboto_mono.yml
+
+permissions:
+  allows:
+    - context: Academic
+      permission: Full
+      notes: Use in research, education, thesis
+    - context: Non-commercial
+      permission: Full
+      notes: Personal projects, hobbies
+    - context: Commercial (Static)
+      permission: Full
+      notes: PDFs, images, printed materials
+    - context: Commercial (Server)
+      permission: Full
+      notes: CI/CD, automated document generation
+    - context: Web (Hosting)
+      permission: Full
+      notes: Self-host WOFF/WOFF2/SVG
+    - context: Web (Subsetting)
+      permission: Full
+      notes: Create subsets for performance
+    - context: Desktop (Personal)
+      permission: Full
+      notes: Install on personal machines
+    - context: Desktop (Commercial)
+      permission: Full
+      notes: Install for commercial work
+    - context: Server/CI
+      permission: Full
+      notes: Install on servers, cloud
+    - context: Redistribution (Bundled)
+      permission: Full
+      notes: Include in npm/gem/any package
+    - context: Redistribution (Standalone)
+      permission: Full
+      notes: Distribute font files separately
+    - context: Modification
+      permission: Full
+      notes: Edit and redistribute
+    - context: Subsetting
+      permission: Full
+      notes: Create subset fonts
+    - context: Format Conversion
+      permission: Full
+      notes: TTF ↔ WOFF ↔ WOFF2
+    - context: Commercial Documents
+      permission: Full
+      notes: Any commercial use
+    - context: Patent License
+      permission: Full
+      notes: Express patent grant included
+  conditional:
+    - permission: Redistribution
+      condition: Must include license copy and copyright notice
+    - permission: Modification
+      condition: Must state changes made to files
+    - permission: NOTICE file
+      condition: If present, must include in derivatives
+  disallows:
+    - permission: Trademark Use
+      notes: Cannot use licensor's trademarks
+
+see_also:
+  - title: Apache License 2.0 Full Text
+    url: https://www.apache.org/licenses/LICENSE-2.0
+  - title: Apache License FAQ
+    url: https://www.apache.org/foundation/license-faq.html
+  - title: "Choose a License: Apache 2.0"
+    url: https://choosealicense.com/licenses/apache-2.0/

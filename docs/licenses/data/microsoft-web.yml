@@ -1,0 +1,88 @@
+id: microsoft-web
+name: Microsoft Web Fonts License
+spdx_id: null
+badge_color: "#17a2b8"
+category: freely_distributable
+summary: Microsoft's TrueType core fonts for the Web (Andale Mono, Arial, Arial Black, Comic Sans MS, Courier New, Georgia, Impact, Times New Roman, Trebuchet MS, Verdana, Webdings) were released under a special EULA that allows free redistribution. These fonts can be used anywhere and redistributed freely (not for profit).
+
+sample_formula: andale
+
+use_cases:
+  - title: Any Platform
+    description: |
+      Install and use these fonts on any operating system - Windows, macOS,
+      Linux, BSD, etc. No platform restrictions.
+    allowed: true
+    platforms: [Windows, macOS, Linux, BSD]
+  - title: Server/CI Environments
+    description: |
+      Use these fonts on any server or CI system for document generation,
+      PDF creation, image rendering, etc.
+    allowed: true
+    platforms: [Any Server]
+  - title: Docker Containers
+    description: |
+      Include these fonts in Docker images for reproducible builds.
+      No licensing concerns.
+    allowed: true
+    platforms: [Docker, Kubernetes]
+  - title: Cloud VMs
+    description: |
+      Install on any cloud VM (AWS EC2, Azure, GCP, etc.) without
+      platform restrictions.
+    allowed: true
+    platforms: [AWS, Azure, GCP]
+  - title: Redistribution
+    description: |
+      You may redistribute these fonts, but cannot charge for them.
+      Must include the EULA.
+    allowed: true
+    platforms: [Any]
+
+permissions:
+  allows:
+    - context: Academic
+      permission: Full
+      notes: ""
+    - context: Non-commercial
+      permission: Full
+      notes: ""
+    - context: Commercial (Static)
+      permission: Full
+      notes: PDFs, images, printed materials
+    - context: Commercial (Server)
+      permission: Full
+      notes: CI/CD, document generation
+    - context: Web (Hosting)
+      permission: Full
+      notes: ""
+    - context: Desktop
+      permission: Full
+      notes: Unlimited installations
+    - context: Server/CI
+      permission: Full
+      notes: ""
+    - context: Redistribution
+      permission: With conditions
+      notes: Non-profit redistribution only, must include EULA
+    - context: Format Conversion
+      permission: With conditions
+      notes: Subsetting allowed when embedding
+  conditional:
+    - permission: Redistribution
+      condition: Must include EULA, cannot charge for fonts
+    - permission: Subsetting
+      condition: Only when embedding in documents
+  disallows:
+    - permission: Modification
+      notes: Cannot rename, edit, or create derivative works
+    - permission: Reverse Engineering
+      notes: Cannot decompile or disassemble
+    - permission: Standalone Sale
+      notes: Cannot sell fonts for profit
+
+see_also:
+  - title: Microsoft Typography
+    url: https://docs.microsoft.com/en-us/typography/
+  - title: Core Fonts EULA
+    url: https://web.archive.org/web/20011222020409/http://www.microsoft.com/typography/fontpack/eula.htm

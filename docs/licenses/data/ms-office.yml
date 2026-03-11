@@ -1,0 +1,75 @@
+id: ms-office
+name: Microsoft Software License
+spdx_id: null
+spdx_url: null
+badge_color: "#8b5cf6"
+category: bundled_software
+summary: Fonts bundled with Microsoft software (Office, Windows) can be used on any computer where the Microsoft software is installed. Once installed, you may use those fonts with any application on that computer.
+
+sample_formula: segoe_ui
+sample_source: Formulas/segoe_ui.yml
+
+use_cases:
+  - title: Desktop with Microsoft Software
+    description: |
+      Install Microsoft Office or Windows on your computer. The bundled fonts
+      become available to ALL applications on that computer, not just Microsoft apps.
+    allowed: true
+    platforms: [Windows]
+  - title: Windows VMs on Azure
+    description: |
+      Windows VMs on Azure come with Microsoft fonts. Use them with any application
+      running on that VM.
+    allowed: true
+    platforms: [Azure, Windows]
+  - title: Windows Containers
+    description: |
+      Windows containers with Microsoft software include the fonts. Use them
+      for document generation, PDF creation, etc.
+    allowed: true
+    platforms: [Docker, Windows]
+  - title: CI/CD on Windows Runners
+    description: |
+      GitHub Actions Windows runners include Microsoft fonts. Use them for
+      automated document generation.
+    allowed: true
+    platforms: [GitHub Actions]
+
+permissions:
+  allows:
+    - context: Download & Install
+      permission: Full
+      notes: Install the Microsoft software package
+    - context: Use on Device
+      permission: Full
+      notes: Use fonts with ANY application on that device
+    - context: Create Documents
+      permission: Full
+      notes: Create documents using the fonts on that device
+    - context: Server/CI (Windows)
+      permission: Full
+      notes: On Windows servers/containers
+    - context: Cloud VMs (Windows)
+      permission: Full
+      notes: Windows VMs on Azure, AWS, etc.
+  disallows:
+    - permission: Redistribution
+      notes: Cannot redistribute the font files
+    - permission: Redistribute Package
+      notes: Cannot redistribute the installation package
+    - permission: Move to Another Computer
+      notes: Cannot extract and move fonts to another computer
+    - permission: Share License
+      notes: Cannot share the license between devices
+    - permission: Reverse Engineer
+      notes: Cannot reverse engineer, decompile, or disassemble the software
+    - permission: Publish
+      notes: Cannot publish the software for others to copy
+    - permission: Rent/Lease
+      notes: Cannot rent, lease, or lend the software
+
+see_also:
+  - title: Microsoft Font Licensing
+    url: https://docs.microsoft.com/en-us/typography/fonts/
+  - title: Microsoft Software License Terms
+    url: https://www.microsoft.com/useterms/

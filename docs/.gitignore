@@ -2,8 +2,15 @@
 **/.vitepress/cache
 **/.vitepress/dist
 
-# Custom pre-build step
-/formulas/
+# Custom pre-build step - generated content
+/browse/
+!/browse/index.md
+
+# Generated license pages (keep YAML data and generator)
+/licenses/*.md
+!/licenses/index.md
+!/licenses/generate-licenses.js
+!/licenses/data/
 
 #region https://github.com/github/gitignore/blob/main/Node.gitignore
 # Logs
