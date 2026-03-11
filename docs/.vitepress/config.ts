@@ -31,6 +31,47 @@ export default defineConfig({
   // Base path for deployment (e.g., /formulas/ for fontist.org/formulas/)
   base: process.env.BASE_PATH || "/formulas/",
 
+  // Vite build optimization for large sites
+  vite: {
+    build: {
+      // Increase chunk size warning limit (in KB)
+      chunkSizeWarningLimit: 2000,
+      // Disable source maps to reduce memory usage
+      sourcemap: false,
+      // Don't inline assets - reduces memory during build
+      assetsInlineLimit: 0,
+      rollupOptions: {
+        // Limit parallel processing to reduce memory spikes
+        maxParallelFileOps: 2,
+        output: {
+          // Function-based chunking for more aggressive splitting
+          manualChunks(id) {
+            // Split vue into its own chunk
+            if (id.includes('node_modules/vue/')) {
+              return 'vendor-vue';
+            }
+            // Split vitepress into its own chunk
+            if (id.includes('node_modules/vitepress/')) {
+              return 'vendor-vitepress';
+            }
+            // Split other node_modules by package
+            if (id.includes('node_modules/')) {
+              const match = id.match(/node_modules\/([^/]+)/);
+              if (match && match[1]) {
+                // Group smaller packages together
+                return 'vendor-other';
+              }
+            }
+          },
+        },
+      },
+    },
+    // Optimize SSR build as well
+    ssr: {
+      noExternal: ['vitepress', 'mark.js'],
+    },
+  },
+
   head: [
     [
       "link",
