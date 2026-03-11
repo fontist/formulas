@@ -18,6 +18,8 @@ export default defineConfig({
     "TODO.revamp.md",
   ],
 
+  buildConcurrency: 10,
+
   ignoreDeadLinks: true,
 
   // https://vitepress.dev/guide/routing#generating-clean-url
