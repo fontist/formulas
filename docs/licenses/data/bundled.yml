@@ -1,0 +1,35 @@
+id: bundled
+name: Bundled Software License
+spdx_id: null
+badge_color: "#ffc107"
+category: bundled_software
+summary: Fonts bundled with software applications may only be used in conjunction with that software. The license typically restricts extraction, separate use, and redistribution of the fonts outside the bundled application.
+sample_formula: null
+permissions:
+  allows:
+    - context: Use with bundled software
+      permission: Full
+      notes: Use fonts within the application
+    - context: Document creation
+      permission: Full
+      notes: Create documents using bundled fonts
+    - context: Printing
+      permission: Full
+      notes: Print documents using bundled fonts
+  conditional:
+    - permission: Embedding
+      condition: May be embedded in documents created with the software
+    - permission: Viewing
+      condition: Documents can be viewed on any system
+  disallows:
+    - permission: Extraction
+      notes: Cannot extract fonts from software
+    - permission: Standalone use
+      notes: Cannot use fonts outside bundled software
+    - permission: Redistribution
+      notes: Cannot redistribute fonts separately
+    - permission: Modification
+      notes: Cannot modify fonts
+see_also:
+  - title: Font Licensing FAQ
+    url: https://www.fonts.com/legal/font-licensing-faq

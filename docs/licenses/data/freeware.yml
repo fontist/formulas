@@ -1,0 +1,40 @@
+id: freeware
+name: Freeware Font License
+spdx_id: null
+badge_color: "#17a2b8"
+category: freely_distributable
+summary: Freeware fonts are free to use but may have restrictions on modification, redistribution, or commercial use. Each freeware font has its own specific license terms that should be reviewed individually.
+sample_formula: google/abel
+permissions:
+  allows:
+    - context: Academic
+      permission: Full
+      notes: Typically allowed
+    - context: Non-commercial
+      permission: Full
+      notes: Usually free for personal use
+    - context: Commercial (Static)
+      permission: Varies
+      notes: Check specific license
+    - context: Desktop
+      permission: Full
+      notes: Usually allowed for personal use
+  conditional:
+    - permission: Commercial use
+      condition: Check specific font license
+    - permission: Redistribution
+      condition: Often requires permission
+    - permission: Modification
+      condition: Usually requires permission
+  disallows:
+    - permission: Redistribution
+      notes: Often not allowed without permission
+    - permission: Modification
+      notes: Often not allowed
+    - permission: Sale
+      notes: Cannot sell freeware fonts
+see_also:
+  - title: Font Squirrel Freeware
+    url: https://www.fontsquirrel.com/
+  - title: DaFont License Info
+    url: https://www.dafont.com/faq.php

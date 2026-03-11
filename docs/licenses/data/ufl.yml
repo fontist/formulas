@@ -1,0 +1,66 @@
+id: ufl
+name: Ubuntu Font License 1.0
+spdx_id: Ubuntu-font-1.0
+spdx_url: https://spdx.org/licenses/Ubuntu-font-1.0.html
+badge_color: "#28a745"
+category: open_source
+summary: The Ubuntu Font License is a permissive license specifically designed for fonts, similar to the SIL OFL. It was created for the Ubuntu font family and allows free use, modification, and redistribution.
+
+sample_formula: google/ubuntu
+
+permissions:
+  allows:
+    - context: Academic
+      permission: Full
+      notes: Use in research, education
+    - context: Non-commercial
+      permission: Full
+      notes: Personal projects
+    - context: Commercial (Static)
+      permission: Full
+      notes: PDFs, images, printed materials
+    - context: Commercial (Server)
+      permission: Full
+      notes: CI/CD, document generation
+    - context: Web (Hosting)
+      permission: Full
+      notes: Self-host WOFF/WOFF2
+    - context: Web (Subsetting)
+      permission: Full
+      notes: Create subsets
+    - context: Desktop
+      permission: Full
+      notes: Install on any machine
+    - context: Server/CI
+      permission: Full
+      notes: Install on servers
+    - context: Redistribution (Bundled)
+      permission: Full
+      notes: Include in packages
+    - context: Redistribution (Standalone)
+      permission: Full
+      notes: Distribute font files
+    - context: Modification
+      permission: With conditions
+      notes: Must rename
+    - context: Format Conversion
+      permission: Full
+      notes: TTF ↔ WOFF ↔ WOFF2
+  conditional:
+    - permission: Redistribution
+      condition: Must include UFL license text
+    - permission: Modification
+      condition: Must not use Reserved Font Name
+    - permission: Derivative works
+      condition: Must use different name
+  disallows:
+    - permission: Standalone Sale
+      notes: Cannot sell fonts by themselves
+    - permission: Reserved Name Use
+      notes: Cannot use Ubuntu name for modified versions
+
+see_also:
+  - title: Ubuntu Font Family
+    url: https://design.ubuntu.com/font/
+  - title: "SPDX: Ubuntu-font-1.0"
+    url: https://spdx.org/licenses/Ubuntu-font-1.0.html

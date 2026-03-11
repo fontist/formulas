@@ -1,0 +1,60 @@
+id: gust
+name: GUST Font License
+spdx_id: null
+spdx_url: null
+badge_color: "#28a745"
+category: open_source
+summary: The GUST Font License is a permissive license used primarily by the GUST (Dutch "Gebruikersgroep U TeX") group for TeX-related fonts. It allows free use, modification, and redistribution.
+
+sample_formula: tex_gyre_math
+sample_source: Formulas/tex_gyre_math.yml
+
+permissions:
+  allows:
+    - context: Academic
+      permission: Full
+      notes: ""
+    - context: Non-commercial
+      permission: Full
+      notes: ""
+    - context: Commercial (Static)
+      permission: Full
+      notes: ""
+    - context: Commercial (Server)
+      permission: Full
+      notes: ""
+    - context: Web (Hosting)
+      permission: Full
+      notes: ""
+    - context: Web (Subsetting)
+      permission: Full
+      notes: ""
+    - context: Desktop
+      permission: Full
+      notes: ""
+    - context: Server/CI
+      permission: Full
+      notes: ""
+    - context: Redistribution
+      permission: Full
+      notes: Must include license
+    - context: Modification
+      permission: Full
+      notes: Must rename
+    - context: Format Conversion
+      permission: Full
+      notes: ""
+  conditional:
+    - permission: Redistribution
+      condition: Must include license and copyright notice
+    - permission: Modification
+      condition: Must rename the font
+  disallows:
+    - permission: Sale
+      notes: Cannot sell fonts by themselves
+
+see_also:
+  - title: GUST Font License
+    url: http://www.gust.org.pl/fonts/licenses/GUST-FONT-LICENSE.txt
+  - title: TeX Gyre Fonts
+    url: http://www.gust.org.pl/projects/e-foundry/tex-gyre

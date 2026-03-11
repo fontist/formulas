@@ -1,0 +1,55 @@
+id: bitstream
+name: Bitstream Vera License
+spdx_id: Bitstream-Vera
+spdx_url: https://spdx.org/licenses/Bitstream-Vera.html
+badge_color: "#28a745"
+category: open_source
+summary: The Bitstream Vera License is a permissive license for the Bitstream Vera font family. It allows free use, modification, and redistribution with naming restrictions for derivative works.
+sample_formula: google/roboto
+permissions:
+  allows:
+    - context: Academic
+      permission: Full
+      notes: ""
+    - context: Non-commercial
+      permission: Full
+      notes: ""
+    - context: Commercial (Static)
+      permission: Full
+      notes: PDFs, images, printed materials
+    - context: Commercial (Server)
+      permission: Full
+      notes: CI/CD, document generation
+    - context: Web (Hosting)
+      permission: Full
+      notes: ""
+    - context: Desktop
+      permission: Full
+      notes: ""
+    - context: Server/CI
+      permission: Full
+      notes: ""
+    - context: Redistribution
+      permission: Full
+      notes: Must include license
+    - context: Modification
+      permission: With conditions
+      notes: Must rename font
+    - context: Format Conversion
+      permission: Full
+      notes: ""
+  conditional:
+    - permission: Redistribution
+      condition: Must include copyright and license notice
+    - permission: Modification
+      condition: Must rename font (cannot use Bitstream or Vera names)
+  disallows:
+    - permission: Standalone Sale
+      notes: Cannot sell fonts by themselves
+    - permission: Using Bitstream/Vera name
+      notes: Cannot use names for modified versions
+see_also:
+  - title: Bitstream Vera Fonts
+    url: https://www.gnome.org/fonts/
+  - title: DejaVu Fonts
+    url: https://dejavu-fonts.github.io/

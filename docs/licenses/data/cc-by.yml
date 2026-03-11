@@ -1,0 +1,71 @@
+id: cc-by
+name: Creative Commons Attribution 4.0
+spdx_id: CC-BY-4.0
+spdx_url: https://spdx.org/licenses/CC-BY-4.0.html
+badge_color: "#28a745"
+category: open_source
+summary: The Creative Commons Attribution license allows free use, modification, and distribution with only one requirement - you must give appropriate credit to the original creator.
+
+sample_formula: seshat
+
+permissions:
+  allows:
+    - context: Academic
+      permission: Full
+      notes: Must attribute
+    - context: Non-commercial
+      permission: Full
+      notes: Must attribute
+    - context: Commercial (Static)
+      permission: Full
+      notes: Must attribute
+    - context: Commercial (Server)
+      permission: Full
+      notes: Must attribute
+    - context: Web (Hosting)
+      permission: Full
+      notes: Must attribute
+    - context: Web (Subsetting)
+      permission: Full
+      notes: Must attribute
+    - context: Desktop (Personal)
+      permission: Full
+      notes: Must attribute
+    - context: Desktop (Commercial)
+      permission: Full
+      notes: Must attribute
+    - context: Server/CI
+      permission: Full
+      notes: Must attribute
+    - context: Redistribution (Bundled)
+      permission: Full
+      notes: Must attribute
+    - context: Redistribution (Standalone)
+      permission: Full
+      notes: Must attribute
+    - context: Modification
+      permission: Full
+      notes: Must attribute
+    - context: Subsetting
+      permission: Full
+      notes: Must attribute
+    - context: Format Conversion
+      permission: Full
+      notes: Must attribute
+    - context: Commercial Documents
+      permission: Full
+      notes: Must attribute
+  conditional:
+    - permission: Any use
+      condition: Must provide attribution to creator
+    - permission: Modification
+      condition: Must indicate changes made
+  disallows:
+    - permission: No attribution
+      notes: Cannot use without giving credit
+
+see_also:
+  - title: Creative Commons CC BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  - title: "SPDX: CC-BY-4.0"
+    url: https://spdx.org/licenses/CC-BY-4.0.html

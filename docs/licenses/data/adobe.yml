@@ -1,0 +1,66 @@
+id: adobe
+name: Adobe Software License
+spdx_id: null
+badge_color: "#8b5cf6"
+category: bundled_software
+summary: Fonts bundled with Adobe software (Reader, Acrobat, Creative Suite) can be used on any computer where the Adobe software is installed. Once installed, you may use those fonts with any application on that computer.
+
+sample_formula: adobe_reader_19
+
+use_cases:
+  - title: Desktop with Adobe Software
+    description: |
+      Install Adobe software on your computer. The bundled fonts become available
+      to ALL applications on that computer, not just Adobe apps.
+    allowed: true
+    platforms: [Windows, macOS, Linux]
+  - title: Cloud VMs with Adobe Software
+    description: |
+      If you have a valid Adobe license, you can install Adobe software on cloud VMs
+      and use the fonts there. Works on any platform Adobe supports.
+    allowed: true
+    platforms: [Azure, AWS, GCP, Docker]
+  - title: CI/CD with Adobe Software
+    description: |
+      If Adobe software is installed in your CI environment, fonts are available
+      to all processes on that machine.
+    allowed: true
+    platforms: [GitHub Actions, GitLab CI, Jenkins]
+
+permissions:
+  allows:
+    - context: Viewing
+      permission: Full
+      notes: View PDFs and documents
+    - context: Printing
+      permission: Full
+      notes: Print documents using bundled fonts
+    - context: Desktop (with Adobe software)
+      permission: Full
+      notes: Use with any application on that computer
+    - context: Server/CI (with Adobe software)
+      permission: Full
+      notes: If Adobe software is installed
+    - context: Cloud VMs (with Adobe software)
+      permission: Full
+      notes: If Adobe software is installed
+  conditional:
+    - permission: Embedding
+      condition: May be embedded in documents for viewing/printing only
+  disallows:
+    - permission: Extraction
+      notes: Cannot extract fonts from Adobe software
+    - permission: Standalone use without Adobe
+      notes: Cannot use fonts without Adobe software installed
+    - permission: Redistribution
+      notes: Cannot redistribute fonts separately
+    - permission: Modification
+      notes: Cannot modify fonts
+    - permission: Commercial redistribution
+      notes: Cannot use for commercial font distribution
+
+see_also:
+  - title: Adobe Font Licensing
+    url: https://www.adobe.com/type/legal.html
+  - title: Adobe Reader
+    url: https://get.adobe.com/reader/

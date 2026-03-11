@@ -1,0 +1,57 @@
+id: gpl
+name: GNU General Public License
+spdx_id: GPL-2.0 or GPL-3.0 (with Font Exception)
+spdx_url: https://spdx.org/licenses/GPL-3.0.html
+badge_color: "#28a745"
+category: open_source
+summary: The GNU General Public License is a copyleft license that requires derivative works to be distributed under the same license terms. For fonts, a special font exception often applies allowing embedding in documents.
+sample_formula: liberation
+permissions:
+  allows:
+    - context: Academic
+      permission: Full
+      notes: Use in research, education
+    - context: Non-commercial
+      permission: Full
+      notes: Personal projects
+    - context: Commercial (Static)
+      permission: Full
+      notes: PDFs, images, printed materials
+    - context: Commercial (Server)
+      permission: Full
+      notes: CI/CD, document generation
+    - context: Web (Hosting)
+      permission: Full
+      notes: Self-host WOFF/WOFF2
+    - context: Desktop
+      permission: Full
+      notes: Install on any machine
+    - context: Server/CI
+      permission: Full
+      notes: Install on servers
+    - context: Redistribution (Bundled)
+      permission: Full
+      notes: Include in packages with same license
+    - context: Modification
+      permission: With conditions
+      notes: Must use GPL license
+    - context: Format Conversion
+      permission: Full
+      notes: TTF ↔ WOFF ↔ WOFF2
+  conditional:
+    - permission: Redistribution
+      condition: Must distribute under GPL with source code
+    - permission: Modification
+      condition: Derivative works must use GPL license
+    - permission: Embedding in documents
+      condition: Font exception allows embedding without document being GPL
+  disallows:
+    - permission: Proprietary use
+      notes: Cannot use in closed-source software without font exception
+    - permission: Standalone Sale
+      notes: Cannot sell fonts by themselves
+see_also:
+  - title: GNU GPL License
+    url: https://www.gnu.org/licenses/gpl-3.0.html
+  - title: Font Exception
+    url: https://www.gnu.org/licenses/gpl-faq.html#FontException

@@ -268,7 +268,7 @@ Fonts from SIL International, primarily for linguistic and scholarly use.
 - **License**: OFL 1.1
 - **Website**: https://scripts.sil.org/
 
-### Manual Formulas
+### Expert Curated
 
 Curated formulas from various sources:
 

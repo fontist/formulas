@@ -1,0 +1,78 @@
+id: ofl
+name: SIL Open Font License 1.1
+spdx_id: OFL-1.1
+spdx_url: https://spdx.org/licenses/OFL-1.1.html
+badge_color: "#28a745"
+category: open_source
+summary: The SIL Open Font License (OFL) is the most permissive and popular license specifically designed for fonts. It allows free use, modification, and redistribution with minimal restrictions.
+
+sample_formula: google/lato
+sample_source: Formulas/google/lato.yml
+
+permissions:
+  allows:
+    - context: Academic
+      permission: Full
+      notes: Use in research, education, thesis
+    - context: Non-commercial
+      permission: Full
+      notes: Personal projects, hobbies
+    - context: Commercial (Static)
+      permission: Full
+      notes: PDFs, images, printed materials
+    - context: Commercial (Server)
+      permission: Full
+      notes: CI/CD, automated document generation
+    - context: Web (Hosting)
+      permission: Full
+      notes: Self-host WOFF/WOFF2/SVG
+    - context: Web (Subsetting)
+      permission: Full
+      notes: Create subsets for performance
+    - context: Desktop (Personal)
+      permission: Full
+      notes: Install on personal machines
+    - context: Desktop (Commercial)
+      permission: Full
+      notes: Install for commercial work
+    - context: Server/CI
+      permission: Full
+      notes: Install on servers, cloud
+    - context: Redistribution (Bundled)
+      permission: Full
+      notes: Include in npm/gem/any package
+    - context: Redistribution (Standalone)
+      permission: Full
+      notes: Distribute font files separately
+    - context: Modification
+      permission: With conditions
+      notes: Must rename using Reserved Font Name rules
+    - context: Subsetting
+      permission: Full
+      notes: Create subset fonts
+    - context: Format Conversion
+      permission: Full
+      notes: TTF ↔ WOFF ↔ WOFF2
+    - context: Commercial Documents
+      permission: Full
+      notes: Any commercial use
+  conditional:
+    - permission: Redistribution
+      condition: Must include OFL license text and copyright notice
+    - permission: Modification
+      condition: Must not use Reserved Font Name for modified versions
+    - permission: Bundling
+      condition: Should include license file in package
+  disallows:
+    - permission: Standalone Sale
+      notes: Cannot sell the font files by themselves
+    - permission: Reserved Name Use
+      notes: Cannot use Reserved Font Name for modified versions
+
+see_also:
+  - title: SIL OFL FAQ
+    url: https://scripts.sil.org/OFL-FAQ_web
+  - title: SIL OFL Official Page
+    url: https://scripts.sil.org/OFL
+  - title: Google Fonts OFL Guide
+    url: https://developers.google.com/fonts/docs/legal_others

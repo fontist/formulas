@@ -1,0 +1,55 @@
+id: cc-by-sa
+name: Creative Commons Attribution-ShareAlike 4.0
+spdx_id: CC-BY-SA-4.0
+spdx_url: https://spdx.org/licenses/CC-BY-SA-4.0.html
+badge_color: "#28a745"
+category: open_source
+summary: The CC-BY-SA 4.0 license allows free use, modification, and distribution with attribution. Derivative works must be licensed under the same terms. Commonly used for fonts with design contributions from multiple sources.
+sample_formula: null
+permissions:
+  allows:
+    - context: Academic
+      permission: Full
+      notes: With attribution
+    - context: Non-commercial
+      permission: Full
+      notes: With attribution
+    - context: Commercial (Static)
+      permission: Full
+      notes: PDFs, images, printed materials with attribution
+    - context: Commercial (Server)
+      permission: Full
+      notes: CI/CD, document generation with attribution
+    - context: Web (Hosting)
+      permission: Full
+      notes: With attribution
+    - context: Desktop
+      permission: Full
+      notes: ""
+    - context: Server/CI
+      permission: Full
+      notes: ""
+    - context: Redistribution
+      permission: Full
+      notes: With attribution and same license
+    - context: Modification
+      permission: Full
+      notes: Must use CC-BY-SA license
+    - context: Format Conversion
+      permission: Full
+      notes: ""
+  conditional:
+    - permission: Any use
+      condition: Must provide attribution
+    - permission: Derivative works
+      condition: Must use CC-BY-SA license
+  disallows:
+    - permission: Use without attribution
+      notes: Attribution required
+    - permission: Proprietary derivatives
+      notes: Cannot change to more restrictive license
+see_also:
+  - title: CC BY-SA 4.0 License
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+  - title: Creative Commons License Chooser
+    url: https://creativecommons.org/choose/
