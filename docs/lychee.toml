@@ -17,7 +17,8 @@ timeout = 20
 
 ############################# Requests #############################
 accept = ["200..=299", "429"]
-scheme = ["https", "http", "file"]
+# Only check http/https links, not file:// (breaks with base path)
+scheme = ["https", "http"]
 require_https = false
 
 ############################# Exclusions ##########################
