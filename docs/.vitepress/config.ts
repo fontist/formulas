@@ -227,7 +227,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: `Fontist is <a href="https://open.ribose.com/">riboseopen</a>`,
+      message: `Fontist is a <a href="https://www.ribose.com/">Ribose</a> project`,
       copyright: `Copyright &copy; 2026 Ribose Group Inc. All rights reserved.`,
     },
   },
