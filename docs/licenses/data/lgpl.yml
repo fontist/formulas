@@ -1,0 +1,53 @@
+id: lgpl
+name: GNU Lesser General Public License
+spdx_id: LGPL-2.1
+spdx_url: https://spdx.org/licenses/LGPL-2.1.html
+badge_color: "#28a745"
+category: open_source
+summary: The GNU Lesser General Public License is a compromise between copyleft and permissive licensing. It allows linking to the software from non-GPL applications, making it more flexible than the GPL.
+sample_formula: liberation
+permissions:
+  allows:
+    - context: Academic
+      permission: Full
+      notes: Use in research, education
+    - context: Non-commercial
+      permission: Full
+      notes: Personal projects
+    - context: Commercial (Static)
+      permission: Full
+      notes: PDFs, images, printed materials
+    - context: Commercial (Server)
+      permission: Full
+      notes: CI/CD, document generation
+    - context: Web (Hosting)
+      permission: Full
+      notes: Self-host WOFF/WOFF2
+    - context: Desktop
+      permission: Full
+      notes: Install on any machine
+    - context: Server/CI
+      permission: Full
+      notes: Install on servers
+    - context: Redistribution (Bundled)
+      permission: Full
+      notes: Can bundle with non-GPL software
+    - context: Modification
+      permission: With conditions
+      notes: Modifications to font itself need LGPL
+    - context: Format Conversion
+      permission: Full
+      notes: TTF ↔ WOFF ↔ WOFF2
+  conditional:
+    - permission: Modification
+      condition: Changes to font must be LGPL
+    - permission: Distribution
+      condition: Must provide source or link to source
+  disallows:
+    - permission: Proprietary modifications
+      notes: Cannot make font itself closed-source
+see_also:
+  - title: GNU LGPL License
+    url: https://www.gnu.org/licenses/lgpl-3.0.html
+  - title: Why use LGPL
+    url: https://www.gnu.org/licenses/why-not-lgpl.html

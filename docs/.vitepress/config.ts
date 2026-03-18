@@ -2,6 +2,8 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: "en-US",
+
   // Exclude development/design documents from processing
   srcExclude: [
     "RESOURCE_ARCHITECTURE.md",
@@ -13,13 +15,10 @@ export default defineConfig({
     "phase4-*.md",
     "testing-google-import.md",
     "GOOGLE_FONTS_IMPLEMENTATION.md",
+    "TODO.revamp.md",
   ],
 
-  ignoreDeadLinks: [
-    "./www.woowahan.com",
-    "./www.woowahan.comm",
-    "./http//scripts.sil.org/OFL",
-  ],
+  ignoreDeadLinks: true,
 
   // https://vitepress.dev/guide/routing#generating-clean-url
   cleanUrls: true,
@@ -27,17 +26,89 @@ export default defineConfig({
   title: "Fontist Formulas",
   description: "Index of all Fontist Formulas",
 
-  // https://github.com/vuejs/vitepress/issues/3508
-  base: process.env.BASE_PATH,
+  lastUpdated: true,
+
+  // Base path for deployment (e.g., /formulas/ for fontist.org/formulas/)
+  base: process.env.BASE_PATH || "/formulas/",
+
+  // Vite build optimization for large sites
+  vite: {
+    build: {
+      // Increase chunk size warning limit (in KB)
+      chunkSizeWarningLimit: 2000,
+      // Disable source maps to reduce memory usage
+      sourcemap: false,
+      // Don't inline assets - reduces memory during build
+      assetsInlineLimit: 0,
+      rollupOptions: {
+        // Limit parallel processing to reduce memory spikes
+        maxParallelFileOps: 2,
+        output: {
+          // Function-based chunking for more aggressive splitting
+          manualChunks(id) {
+            // Split vue into its own chunk
+            if (id.includes('node_modules/vue/')) {
+              return 'vendor-vue';
+            }
+            // Split vitepress into its own chunk
+            if (id.includes('node_modules/vitepress/')) {
+              return 'vendor-vitepress';
+            }
+            // Split other node_modules by package
+            if (id.includes('node_modules/')) {
+              const match = id.match(/node_modules\/([^/]+)/);
+              if (match && match[1]) {
+                // Group smaller packages together
+                return 'vendor-other';
+              }
+            }
+          },
+        },
+      },
+    },
+    // Optimize SSR build as well
+    ssr: {
+      noExternal: ['vitepress', 'mark.js'],
+    },
+  },
+
+  head: [
+    [
+      "link",
+      { rel: "icon", type: "image/png", href: "/favicon-96x96.png", sizes: "96x96" },
+    ],
+    ["link", { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }],
+    ["link", { rel: "shortcut icon", href: "/favicon.ico" }],
+    [
+      "link",
+      { rel: "apple-touch-icon", sizes: "180x180", href: "/apple-touch-icon.png" },
+    ],
+    ["link", { rel: "manifest", href: "/site.webmanifest" }],
+    ["meta", { property: "og:type", content: "website" }],
+    ["meta", { property: "og:title", content: "Fontist Formulas" }],
+    [
+      "meta",
+      {
+        property: "og:description",
+        content: "Searchable index of all Fontist Formulas",
+      },
+    ],
+    ["meta", { property: "og:image", content: "/logo-full.svg" }],
+    ["meta", { name: "twitter:card", content: "summary_large_image" }],
+  ],
 
   themeConfig: {
-    logo: "/logo.png",
+    logo: "/logo-full.svg",
+    siteTitle: false,
 
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Home", link: "/" },
-      { text: "Guide", link: "/guide/create-formula" },
-      { text: "Formulas", link: "/formulas/" },
+      { text: "← Fontist.org", link: "https://www.fontist.org", target: "_self" },
+      { text: "Guide", link: "/guide/" },
+      { text: "Licenses", link: "/licenses/" },
+      { text: "Formulas", link: "/browse/" },
+      { text: "Fontist", link: "https://www.fontist.org/fontist/", target: "_self" },
+      { text: "Fontisan", link: "https://www.fontist.org/fontisan/", target: "_self" },
     ],
 
     // https://vitepress.dev/reference/default-theme-search
@@ -46,15 +117,106 @@ export default defineConfig({
     },
 
     sidebar: {
+      // Guide sidebar - only guide content
       "/guide/": [
         {
-          text: "Guide",
+          text: "Getting Started",
+          items: [
+            { text: "Overview", link: "/guide/" },
+          ],
+        },
+        {
+          text: "Understanding Formulas",
+          items: [
+            { text: "What is a Formula?", link: "/guide/what-is-formula" },
+            { text: "Formula Structure", link: "/guide/formula-structure" },
+            { text: "Choosing a Formula", link: "/guide/choosing-formula" },
+          ],
+        },
+        {
+          text: "Use Cases",
+          collapsed: true,
+          items: [
+            { text: "Overview", link: "/guide/use-cases/" },
+            { text: "Desktop Publishing", link: "/guide/use-cases/desktop-publishing" },
+            { text: "Web Development", link: "/guide/use-cases/web-development" },
+            { text: "Document Generation", link: "/guide/use-cases/document-generation" },
+            { text: "PDF Generation", link: "/guide/use-cases/pdf-generation" },
+            { text: "CI/CD & Servers", link: "/guide/use-cases/server-side" },
+            { text: "Docker & Containers", link: "/guide/use-cases/containerized" },
+            { text: "Cloud VMs", link: "/guide/use-cases/cloud-vms" },
+          ],
+        },
+        {
+          text: "Creating Formulas",
           items: [
             { text: "Create a Formula", link: "/guide/create-formula" },
             {
               text: "Private repositories",
               link: "/guide/private-repositories",
             },
+          ],
+        },
+      ],
+
+      // Licenses sidebar - separate section
+      "/licenses/": [
+        {
+          text: "License Overview",
+          items: [
+            { text: "All Licenses", link: "/licenses/" },
+          ],
+        },
+        {
+          text: "Open Source",
+          collapsed: true,
+          items: [
+            { text: "OFL 1.1", link: "/licenses/ofl" },
+            { text: "Apache 2.0", link: "/licenses/apache" },
+            { text: "MIT", link: "/licenses/mit" },
+            { text: "BSD", link: "/licenses/bsd" },
+            { text: "CC0", link: "/licenses/cc0" },
+            { text: "Public Domain", link: "/licenses/public-domain" },
+            { text: "CC-BY 4.0", link: "/licenses/cc-by" },
+            { text: "CC-BY-SA 4.0", link: "/licenses/cc-by-sa" },
+            { text: "UFL 1.0", link: "/licenses/ufl" },
+            { text: "GUST", link: "/licenses/gust" },
+            { text: "LGPL", link: "/licenses/lgpl" },
+            { text: "GPL", link: "/licenses/gpl" },
+            { text: "IPA", link: "/licenses/ipa" },
+            { text: "Bitstream Vera", link: "/licenses/bitstream" },
+          ],
+        },
+        {
+          text: "Freely Distributable",
+          collapsed: true,
+          items: [
+            { text: "Freely Usable", link: "/licenses/free-use" },
+            { text: "Microsoft Web Fonts", link: "/licenses/microsoft-web" },
+            { text: "Freeware", link: "/licenses/freeware" },
+          ],
+        },
+        {
+          text: "Platform Restricted",
+          collapsed: true,
+          items: [
+            { text: "Apple-only", link: "/licenses/apple-only" },
+          ],
+        },
+        {
+          text: "Bundled Software",
+          collapsed: true,
+          items: [
+            { text: "Microsoft Software", link: "/licenses/ms-office" },
+            { text: "Adobe Software", link: "/licenses/adobe" },
+            { text: "Bundled Software", link: "/licenses/bundled" },
+          ],
+        },
+        {
+          text: "Other",
+          collapsed: true,
+          items: [
+            { text: "Unknown", link: "/licenses/unknown" },
           ],
         },
       ],
@@ -65,8 +227,8 @@ export default defineConfig({
     ],
 
     footer: {
-      message: `Fontist is <a href="https://open.ribose.com/">riboseopen</a>`,
-      copyright: `Copyright &copy; 2023 Ribose Group Inc. All rights reserved.`,
+      message: `Fontist is a <a href="https://www.ribose.com/">Ribose</a> project`,
+      copyright: `Copyright &copy; 2026 Ribose Group Inc. All rights reserved.`,
     },
   },
 });

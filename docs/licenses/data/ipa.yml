@@ -1,0 +1,56 @@
+id: ipa
+name: IPA Font License
+spdx_id: IPA
+spdx_url: https://spdx.org/licenses/IPA.html
+badge_color: "#28a745"
+category: open_source
+summary: The IPA Font License is an open source license created by the Information-technology Promotion Agency (IPA) of Japan. It allows free use, modification, and redistribution with specific requirements for derivative works.
+sample_formula: null
+
+permissions:
+  allows:
+    - context: Academic
+      permission: Full
+      notes: Use in research, education
+    - context: Non-commercial
+      permission: Full
+      notes: Personal projects
+    - context: Commercial (Static)
+      permission: Full
+      notes: PDFs, images, printed materials
+    - context: Commercial (Server)
+      permission: Full
+      notes: CI/CD, document generation
+    - context: Web (Hosting)
+      permission: Full
+      notes: Self-host WOFF/WOFF2
+    - context: Desktop
+      permission: Full
+      notes: Install on any machine
+    - context: Server/CI
+      permission: Full
+      notes: Install on servers
+    - context: Redistribution (Bundled)
+      permission: Full
+      notes: Include in packages
+    - context: Modification
+      permission: With conditions
+      notes: Must rename font
+    - context: Format Conversion
+      permission: Full
+      notes: TTF ↔ WOFF ↔ WOFF2
+  conditional:
+    - permission: Redistribution of modified fonts
+      condition: Must include source files and means to replace with original
+    - permission: Modification
+      condition: Must not use original font name
+    - permission: Derivative works
+      condition: Must license under IPA license
+  disallows:
+    - permission: Using original name
+      notes: Cannot use original font name for modified versions
+see_also:
+  - title: IPA Font License
+    url: https://opensource.org/licenses/IPA/
+  - title: IPA Fonts
+    url: https://moji.or.jp/ipafont/

@@ -1,0 +1,92 @@
+id: apple-only
+name: Apple-only License
+spdx_id: null
+spdx_url: null
+badge_color: "#f0ad4e"
+category: platform_restricted
+summary: macOS and iOS system fonts are licensed by Apple for use on Apple-branded hardware only. This includes legitimate Apple virtual machines like GitHub Actions macOS runners and MacStadium.
+
+sample_formula: macos/hiragino
+sample_source: Formulas/macos/hiragino.yml
+
+use_cases:
+  - title: macOS Desktop
+    description: |
+      Use any system font on your Mac with any application. Full access to
+      all macOS fonts.
+    allowed: true
+    platforms: [macOS]
+  - title: iOS Development
+    description: |
+      Use system fonts in your iOS apps. Apple provides APIs for accessing
+      system fonts.
+    allowed: true
+    platforms: [iOS]
+  - title: GitHub Actions (macOS runners)
+    description: |
+      GitHub Actions provides legitimate macOS VMs. Apple fonts are available
+      on these runners for CI/CD workflows.
+    allowed: true
+    platforms: [GitHub Actions, macOS]
+  - title: MacStadium VMs
+    description: |
+      MacStadium provides legitimate Apple-branded hardware VMs. Apple fonts
+      can be used in these environments.
+    allowed: true
+    platforms: [MacStadium, macOS]
+  - title: AWS EC2 Mac Instances
+    description: |
+      AWS provides Mac mini instances. Apple fonts are available on these
+      legitimate Apple hardware VMs.
+    allowed: true
+    platforms: [AWS, macOS]
+  - title: Non-Apple Hardware
+    description: |
+      Cannot use Apple fonts on Windows, Linux, or Hackintosh systems.
+      This violates Apple's license terms.
+    allowed: false
+    platforms: [Windows, Linux]
+
+permissions:
+  allows:
+    - context: macOS Apps
+      permission: With conditions
+      notes: Must follow Apple guidelines
+    - context: iOS Apps
+      permission: With conditions
+      notes: System fonts available
+    - context: Documents on Mac
+      permission: Full
+      notes: ""
+    - context: Cloud macOS (GitHub Actions)
+      permission: Full
+      notes: macOS runners are legitimate Apple hardware
+    - context: Cloud macOS (MacStadium)
+      permission: Full
+      notes: MacStadium uses Apple-branded hardware
+    - context: Cloud macOS (AWS EC2 Mac)
+      permission: Full
+      notes: AWS Mac instances are Apple hardware
+  disallows:
+    - permission: Desktop (Non-Apple)
+      notes: Cannot install on Windows, Linux, Hackintosh
+    - permission: Web (Hosting)
+      notes: Cannot use @font-face for non-Apple clients
+    - permission: Web (Subsetting)
+      notes: Cannot subset for web distribution
+    - permission: Redistribution (Standalone)
+      notes: Cannot distribute font files
+    - permission: Redistribution (Bundled)
+      notes: Cannot include in npm/gem packages
+    - permission: Modification
+      notes: Cannot edit font files
+    - permission: Resale
+      notes: Cannot sell font files
+    - permission: Format Conversion
+      notes: Cannot convert to other formats
+
+see_also:
+  - title: Apple Software License Agreement
+    url: https://www.apple.com/legal/sla/
+  - title: Apple Fonts
+    url: https://developer.apple.com/fonts/

@@ -1,0 +1,54 @@
+id: bsd
+name: BSD License
+spdx_id: BSD-2-Clause
+spdx_url: https://spdx.org/licenses/BSD-2-Clause.html
+badge_color: "#28a745"
+category: open_source
+summary: The BSD License is a permissive open source license that allows free use, modification, and distribution with minimal restrictions. Only requires preservation of copyright notice and disclaimer.
+sample_formula: null
+permissions:
+  allows:
+    - context: Academic
+      permission: Full
+      notes: ""
+    - context: Non-commercial
+      permission: Full
+      notes: ""
+    - context: Commercial (Static)
+      permission: Full
+      notes: PDFs, images, printed materials
+    - context: Commercial (Server)
+      permission: Full
+      notes: CI/CD, document generation
+    - context: Web (Hosting)
+      permission: Full
+      notes: ""
+    - context: Desktop
+      permission: Full
+      notes: ""
+    - context: Server/CI
+      permission: Full
+      notes: ""
+    - context: Redistribution
+      permission: Full
+      notes: Must include copyright notice
+    - context: Modification
+      permission: Full
+      notes: ""
+    - context: Format Conversion
+      permission: Full
+      notes: ""
+    - context: Proprietary use
+      permission: Full
+      notes: Can include in proprietary software
+  conditional:
+    - permission: Redistribution
+      condition: Must include copyright notice and license
+  disallows:
+    - permission: Using author name for endorsement
+      notes: Cannot use to promote derived products
+see_also:
+  - title: BSD License
+    url: https://opensource.org/licenses/BSD-2-Clause
+  - title: Open Source Initiative
+    url: https://opensource.org/licenses

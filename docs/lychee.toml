@@ -1,0 +1,38 @@
+# Lychee Link Checker Configuration
+# https://github.com/lycheeverse/lychee
+
+############################# Display #############################
+verbose = "info"
+no_progress = false
+
+############################# Cache #############################
+cache = true
+max_cache_age = "1d"
+
+############################# Runtime #############################
+max_redirects = 10
+max_retries = 3
+max_concurrency = 8
+timeout = 20
+
+############################# Requests #############################
+accept = ["200..=299", "429"]
+# Only check http/https links, not file:// (breaks with base path)
+scheme = ["https", "http"]
+require_https = false
+
+############################# Exclusions ##########################
+exclude_path = [
+  ".git",
+  ".github",
+  "node_modules",
+  "vendor",
+  ".bundle",
+  ".jekyll-cache"
+]
+exclude_all_private = false
+include_mail = false
+
+############################# Other #############################
+include_verbatim = true
+index_files = ["index.html"]

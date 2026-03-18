@@ -1,0 +1,71 @@
+id: mit
+name: MIT License
+spdx_id: MIT
+spdx_url: https://spdx.org/licenses/MIT.html
+badge_color: "#28a745"
+category: open_source
+summary: The MIT License is one of the most permissive open source licenses. It allows virtually unlimited use, modification, and distribution with only minimal requirements - keeping the copyright notice and license text.
+
+sample_formula: google/roboto
+sample_source: Formulas/mitimasu.yml
+
+permissions:
+  allows:
+    - context: Academic
+      permission: Full
+      notes: Use in research, education, thesis
+    - context: Non-commercial
+      permission: Full
+      notes: Personal projects, hobbies
+    - context: Commercial (Static)
+      permission: Full
+      notes: PDFs, images, printed materials
+    - context: Commercial (Server)
+      permission: Full
+      notes: CI/CD, automated document generation
+    - context: Web (Hosting)
+      permission: Full
+      notes: Self-host WOFF/WOFF2/SVG
+    - context: Web (Subsetting)
+      permission: Full
+      notes: Create subsets for performance
+    - context: Desktop (Personal)
+      permission: Full
+      notes: Install on personal machines
+    - context: Desktop (Commercial)
+      permission: Full
+      notes: Install for commercial work
+    - context: Server/CI
+      permission: Full
+      notes: Install on servers, cloud
+    - context: Redistribution (Bundled)
+      permission: Full
+      notes: Include in npm/gem/any package
+    - context: Redistribution (Standalone)
+      permission: Full
+      notes: Distribute font files separately
+    - context: Modification
+      permission: Full
+      notes: Edit and redistribute
+    - context: Subsetting
+      permission: Full
+      notes: Create subset fonts
+    - context: Format Conversion
+      permission: Full
+      notes: TTF ↔ WOFF ↔ WOFF2
+    - context: Commercial Documents
+      permission: Full
+      notes: Any commercial use
+    - context: Sale
+      permission: Full
+      notes: Can sell as part of a product
+  conditional:
+    - permission: Any use
+      condition: Must include copyright notice and license text
+  disallows: []
+
+see_also:
+  - title: "Open Source Initiative: MIT License"
+    url: https://opensource.org/licenses/MIT
+  - title: "Choose a License: MIT"
+    url: https://choosealicense.com/licenses/mit/

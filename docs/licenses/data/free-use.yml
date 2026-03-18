@@ -1,0 +1,49 @@
+id: free-use
+name: Freely Usable Fonts
+spdx_id: null
+badge_color: "#17a2b8"
+category: freely_distributable
+summary: Freely usable fonts can be used without payment for most purposes, including commercial use. They may have minimal restrictions but are generally available for broad use without licensing fees.
+sample_formula: google/abel
+permissions:
+  allows:
+    - context: Academic
+      permission: Full
+      notes: ""
+    - context: Non-commercial
+      permission: Full
+      notes: ""
+    - context: Commercial (Static)
+      permission: Full
+      notes: PDFs, images, printed materials
+    - context: Commercial (Server)
+      permission: Full
+      notes: CI/CD, document generation
+    - context: Web (Hosting)
+      permission: Full
+      notes: ""
+    - context: Desktop
+      permission: Full
+      notes: ""
+    - context: Server/CI
+      permission: Full
+      notes: ""
+    - context: Redistribution
+      permission: Full
+      notes: Check specific license
+    - context: Format Conversion
+      permission: Full
+      notes: ""
+  conditional:
+    - permission: Modification
+      condition: Check specific font license
+    - permission: Attribution
+      condition: Some may require attribution
+  disallows:
+    - permission: Standalone Sale
+      notes: Usually not allowed
+see_also:
+  - title: Google Fonts
+    url: https://fonts.google.com/
+  - title: Font Squirrel
+    url: https://www.fontsquirrel.com/

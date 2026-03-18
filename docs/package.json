@@ -1,22 +1,22 @@
 {
-  "type": "module",
-  "dependencies": {
-    "@types/node": "^22.0.0",
-    "glob": "^13.0.3",
-    "marked": "^17.0.2",
-    "prettier": "^3.8.1",
-    "typescript": "^5.9.3",
-    "vitepress": "^1.6.4",
-    "vue": "^3.5.28",
-    "vue-tsc": "^3.2.4",
-    "yaml": "^2.8.2"
-  },
   "scripts": {
     "predev": "node generate.js",
     "dev": "vitepress dev",
     "prebuild": "node generate.js",
-    "build": "vitepress build",
+    "build": "NODE_OPTIONS='--max-old-space-size=16384' vitepress build",
     "preview": "vitepress preview",
     "format": "prettier -w ."
+  },
+  "type": "module",
+  "dependencies": {
+    "glob": "^13.0.6",
+    "marked": "^17.0.4",
+    "yaml": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.4.0",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3",
+    "vitepress": "^1.6.4"
   }
 }
