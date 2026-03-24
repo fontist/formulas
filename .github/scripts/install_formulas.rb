@@ -7,6 +7,8 @@
 require "yaml"
 require "tmpdir"
 require "optparse"
+require "fileutils"
+require "time"
 require "fontist"
 
 class InstallFormulas

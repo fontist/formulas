@@ -6,6 +6,7 @@
 
 require "yaml"
 require "optparse"
+require "date"
 
 class ValidateSchema
   SCHEMA_V5_REQUIRED_FIELDS = %w[fonts resources].freeze
@@ -84,7 +85,7 @@ class ValidateSchema
   end
 
   def load_yaml(file)
-    YAML.load_file(file)
+    YAML.safe_load_file(file, permitted_classes: [Date])
   rescue Psych::SyntaxError => e
     add_error(file, "YAML syntax error: #{e.message}")
     nil
@@ -103,9 +104,6 @@ class ValidateSchema
         add_warning(file, "Missing recommended field: #{field}")
       end
     end
-
-    # Derive name from fonts if not present at top level
-    derived_name = content["name"] || content.dig("fonts", 0, "name")
 
     # Validate resources structure (v5 style)
     resources = content["resources"]
@@ -178,7 +176,7 @@ class ValidateSchema
     name = content["name"]
     return unless name
 
-    expected_filename = name.downcase.gsub(/\s+/, "_") + ".yml"
+    expected_filename = name.downcase.gsub(/[^a-z0-9]+/, "_").gsub(/^_|_$/, "") + ".yml"
     actual_filename = File.basename(file)
 
     # Extract just the formula name from path

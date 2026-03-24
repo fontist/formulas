@@ -8,6 +8,7 @@ require "yaml"
 require "net/http"
 require "uri"
 require "optparse"
+require "date"
 require "concurrent"
 
 class CheckUrls
@@ -102,7 +103,7 @@ class CheckUrls
   end
 
   def check_formula_urls(file)
-    content = YAML.load_file(file)
+    content = YAML.safe_load_file(file, permitted_classes: [Date])
     return unless content
 
     urls = extract_urls(content)
@@ -161,7 +162,7 @@ class CheckUrls
   def already_checked?(url)
     @mutex.synchronize do
       if @checked_urls.key?(url)
-        return @checked_urls[url]
+        return true
       end
       @checked_urls[url] = :checking
       false
@@ -172,10 +173,12 @@ class CheckUrls
     uri = URI.parse(url)
 
     unless %w[http https].include?(uri.scheme)
+      @mutex.synchronize { @checked_urls[url] = :warning }
       return { status: :warning, message: "Non-HTTP URL" }
     end
 
     retries = 0
+    redirects = 0
 
     begin
       http = Net::HTTP.new(uri.host, uri.port)
@@ -193,24 +196,28 @@ class CheckUrls
         @mutex.synchronize { @checked_urls[url] = :ok }
         { status: :ok, message: "OK (#{response.code})" }
       when 301, 302, 303, 307, 308
-        # Follow redirects up to 3 times
         location = response["Location"]
-        if location && retries < 3
-          retries += 1
-          return check_url(location)
+        if location && redirects < 3
+          redirects += 1
+          uri = URI.parse(location)
+          retry
         end
+        @mutex.synchronize { @checked_urls[url] = :warning }
         { status: :warning, message: "Redirect (#{response.code}) -> #{location}" }
       when 403
+        @mutex.synchronize { @checked_urls[url] = :warning }
         { status: :warning, message: "Forbidden (403) - may need special headers" }
       when 404
         @mutex.synchronize { @checked_urls[url] = :error }
         { status: :error, message: "Not Found (404)" }
       when 429
+        @mutex.synchronize { @checked_urls[url] = :warning }
         { status: :warning, message: "Rate Limited (429)" }
       when 500..599
         @mutex.synchronize { @checked_urls[url] = :error }
         { status: :error, message: "Server Error (#{response.code})" }
       else
+        @mutex.synchronize { @checked_urls[url] = :warning }
         { status: :warning, message: "Unexpected status: #{response.code}" }
       end
     rescue Net::OpenTimeout, Net::ReadTimeout
