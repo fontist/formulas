@@ -51,12 +51,6 @@ jobs:
           rubygems: ${{ matrix.ruby.rubygems }}
           bundler-cache: true
 
-      - name: Override fontist to v5-schema branch
-        run: |
-          echo 'gem "fontist", github: "fontist/fontist", branch: "feat/v5-schema-multi-format"' >> Gemfile
-          bundle update fontist
-        shell: bash
-
       - uses: metanorma/ci/inkscape-setup-action@main
 
       - run: bundle exec rake
