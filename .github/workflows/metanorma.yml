@@ -53,7 +53,7 @@ jobs:
 
       - uses: metanorma/ci/fontist-repo-setup@main
         with:
-          private-fonts-pat: ${{ secrets.METANORMA_CI_PAT_TOKEN }}
+          private-fonts-pat: ${{ secrets.FONTIST_CI_PAT_TOKEN }}
           use-bundler: 'true'
 
       - uses: metanorma/ci/inkscape-setup-action@main
