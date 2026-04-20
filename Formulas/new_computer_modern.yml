@@ -1,15 +1,104 @@
 ---
+schema_version: 5
 name: New Computer Modern
 description: New Computer Modern
-homepage: https://ctan.org/pkg/newcomputermodern
 resources:
   newcm-7.1.1.txz:
     urls:
     - https://download.gnu.org.ua/release/newcm/newcm-7.1.1.txz
     sha256: 27ba53922256ebb339a9b1e4e07252ee8e832738b4be6228e4adcaa9a9a76583
     file_size: 24096408
+    format: otf
 fonts:
-- name: New Computer Modern
+- name: NewCM08Devanagari
+  styles:
+  - family_name: NewCM08Devanagari
+    type: Book
+    full_name: NewCM08Devanagari-Book
+    post_script_name: NewCM08Devanagari-Book
+    version: 7.1.1
+    copyright: "(C) 2023 Antonis Tsolomitis and Niranjan. This work is released under
+      the GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
+      for details.\n"
+    font: NewCM08Devanagari-Book.otf
+  - family_name: NewCM08Devanagari
+    type: Regular
+    full_name: NewCM10Devanagari-Regular
+    post_script_name: NewCM08Devanagari-Regular
+    version: 7.1.1
+    copyright: "(C) 2023 Antonis Tsolomitis and Niranjan. This work is released under
+      the GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
+      for details.\n"
+    font: NewCM08Devanagari-Regular.otf
+- name: NewCMUncial08
+  styles:
+  - family_name: NewCMUncial08
+    type: Bold
+    full_name: NewCMUncial08-Bold
+    post_script_name: NewCMUncial08-Bold
+    version: 7.1.1
+    copyright: Copyright (c) 2021, Antonis Tsolomitis
+    font: NewCMUncial08-Bold.otf
+  - family_name: NewCMUncial08
+    type: Book
+    full_name: NewCMUncial08-Book
+    post_script_name: NewCMUncial08-Book
+    version: 7.1.1
+    copyright: Copyright (c) 2021, Antonis Tsolomitis
+    font: NewCMUncial08-Book.otf
+  - family_name: NewCMUncial08
+    type: Regular
+    full_name: NewCMUncial08-Regular
+    post_script_name: NewCMUncial08-Regular
+    version: 7.1.1
+    copyright: Copyright (c) 2021, Antonis Tsolomitis
+    font: NewCMUncial08-Regular.otf
+- name: NewCMUncial10
+  styles:
+  - family_name: NewCMUncial10
+    type: Bold
+    full_name: NewCMUncial10-Bold
+    post_script_name: NewCMUncial10-Bold
+    version: 7.1.1
+    copyright: Copyright (c) 2021, Antonis Tsolomitis
+    font: NewCMUncial10-Bold.otf
+  - family_name: NewCMUncial10
+    type: Book
+    full_name: NewCMUncial10-Book
+    post_script_name: NewCMUncial10-Book
+    version: 7.1.1
+    copyright: Copyright (c) 2021, Antonis Tsolomitis
+    font: NewCMUncial10-Book.otf
+- name: NewComputerModern 10 Devanagari
+  styles:
+  - family_name: NewComputerModern 10 Devanagari
+    type: Bold
+    full_name: NewComputerModern 10 Bold
+    post_script_name: NewCM10Devanagari-Bold
+    version: 7.1.1
+    copyright: "(C) 2023 Antonis Tsolomitis and Niranjan. This work is released under
+      the GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
+      for details.\n"
+    font: NewCM10Devanagari-Bold.otf
+  - family_name: NewComputerModern 10 Devanagari
+    type: Book
+    full_name: NewComputerModern 10 Book
+    post_script_name: NewCM10Devanagari-Book
+    version: 7.1.1
+    copyright: "(C) 2023 Antonis Tsolomitis and Niranjan. This work is released under
+      the GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
+      for details."
+    font: NewCM10Devanagari-Book.otf
+  - family_name: NewComputerModern 10 Devanagari
+    type: Regular
+    full_name: NewComputerModern 10 Regular
+    post_script_name: NewCM10Devanagari-Regular
+    version: 7.1.1
+    copyright: "(C) 2023 Antonis Tsolomitis and Niranjan. This work is released under
+      the GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
+      for details."
+    font: NewCM10Devanagari-Regular.otf
+- name: NewComputerModern08
   styles:
   - family_name: NewComputerModern08
     type: Book
@@ -17,37 +106,39 @@ fonts:
     post_script_name: NewCM08-Book
     version: 'Version: 7.1.1'
     copyright: Copyright 2021 A. Tsolomitis
-    font: newcm-7.1.1/otf/NewCM08-Book.otf
+    font: NewCM08-Book.otf
   - family_name: NewComputerModern08
     type: BookItalic
     full_name: NewComputerModern08-BookItalic
     post_script_name: NewCM08-BookItalic
     version: 'Version: 7.1.1'
     copyright: Copyright 2021 A. Tsolomitis
-    font: newcm-7.1.1/otf/NewCM08-BookItalic.otf
+    font: NewCM08-BookItalic.otf
   - family_name: NewComputerModern08
     type: Italic
     full_name: NewComputerModern08-Italic
     post_script_name: NewCM08-Italic
     version: 'Version: 7.1.1'
     copyright: Copyright 2021 A. Tsolomitis
-    font: newcm-7.1.1/otf/NewCM08-Italic.otf
+    font: NewCM08-Italic.otf
   - family_name: NewComputerModern08
     type: Regular
     full_name: NewComputerModern08-Regular
     post_script_name: NewCM08-Regular
     version: 'Version: 7.1.1'
     copyright: Copyright 2021 A. Tsolomitis
-    font: newcm-7.1.1/otf/NewCM08-Regular.otf
+    font: NewCM08-Regular.otf
+- name: NewComputerModern10
+  styles:
   - family_name: NewComputerModern10
     type: Bold
     full_name: NewComputerModern10-Bold
     post_script_name: NewCM10-Bold
     version: 'Version: 7.1.1'
-    copyright: (C) 2019-2020 Antonis Tsolomitis. This work is released under the
+    copyright: "(C) 2019-2020 Antonis Tsolomitis. This work is released under the
       GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCM10-Bold.otf
+      for details."
+    font: NewCM10-Bold.otf
   - family_name: NewComputerModern10
     type: BoldItalic
     full_name: NewComputerModern10-BoldItalic
@@ -55,16 +146,16 @@ fonts:
     version: 'Version: 7.1.1'
     copyright: Antonis Tsolomitis. This work is released under the GUST Font License
       --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details.
-    font: newcm-7.1.1/otf/NewCM10-BoldItalic.otf
+    font: NewCM10-BoldItalic.otf
   - family_name: NewComputerModern10
     type: Book
     full_name: NewComputerModern10-Book
     post_script_name: NewCM10-Book
     version: 'Version: 7.1.1'
-    copyright: (C) 2019-2020 Antonis Tsolomitis. This work is released under the
+    copyright: "(C) 2019-2020 Antonis Tsolomitis. This work is released under the
       GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCM10-Book.otf
+      for details."
+    font: NewCM10-Book.otf
   - family_name: NewComputerModern10
     type: BookItalic
     full_name: NewComputerModern10-BookItalic
@@ -72,7 +163,7 @@ fonts:
     version: 'Version: 7.1.1'
     copyright: Antonis Tsolomitis. This work is released under the GUST Font License
       --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details.
-    font: newcm-7.1.1/otf/NewCM10-BookItalic.otf
+    font: NewCM10-BookItalic.otf
   - family_name: NewComputerModern10
     type: Italic
     full_name: NewComputerModern10-Italic
@@ -80,326 +171,216 @@ fonts:
     version: 'Version: 7.1.1'
     copyright: Antonis Tsolomitis. This work is released under the GUST Font License
       --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details.
-    font: newcm-7.1.1/otf/NewCM10-Italic.otf
+    font: NewCM10-Italic.otf
   - family_name: NewComputerModern10
     type: Regular
     full_name: NewComputerModern10-Regular
     post_script_name: NewCM10-Regular
     version: 'Version: 7.1.1'
-    copyright: (C) 2019-2024 Antonis Tsolomitis. This work is released under the
+    copyright: "(C) 2019-2024 Antonis Tsolomitis. This work is released under the
       GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCM10-Regular.otf
-- name: New Computer Modern Devanagari
-  styles:
-  - family_name: NewCM08Devanagari
-    type: Book
-    full_name: NewCM08Devanagari-Book
-    post_script_name: NewCM08Devanagari-Book
-    version: Version 7.1.1
-    copyright: (C) 2023 Antonis Tsolomitis and Niranjan. This work is released under
-      the GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCM08Devanagari-Book.otf
-  - family_name: NewCM08Devanagari
-    type: Regular
-    full_name: NewCM10Devanagari-Regular
-    post_script_name: NewCM08Devanagari-Regular
-    version: Version 7.1.1
-    copyright: (C) 2023 Antonis Tsolomitis and Niranjan. This work is released under
-      the GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCM08Devanagari-Regular.otf
-  - family_name: NewComputerModern 10 Devanagari
-    type: Bold
-    full_name: NewComputerModern 10 Bold
-    post_script_name: NewCM10Devanagari-Bold
-    version: Version 7.1.1
-    copyright: (C) 2023 Antonis Tsolomitis and Niranjan. This work is released under
-      the GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCM10Devanagari-Bold.otf
-  - family_name: NewComputerModern 10 Devanagari
-    type: Book
-    full_name: NewComputerModern 10 Book
-    post_script_name: NewCM10Devanagari-Book
-    version: Version 7.1.1
-    copyright: (C) 2023 Antonis Tsolomitis and Niranjan. This work is released under
-      the GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCM10Devanagari-Book.otf
-  - family_name: NewComputerModern 10 Devanagari
-    type: Regular
-    full_name: NewComputerModern 10 Regular
-    post_script_name: NewCM10Devanagari-Regular
-    version: Version 7.1.1
-    copyright: (C) 2023 Antonis Tsolomitis and Niranjan. This work is released under
-      the GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCM10Devanagari-Regular.otf
-- name: New Computer Modern Math
+      for details."
+    font: NewCM10-Regular.otf
+- name: NewComputerModernMath
   styles:
   - family_name: NewComputerModernMath
     type: Bold
     full_name: NewComputerModernMath-Bold
     post_script_name: NewCMMath-Bold
-    version: '5.3.0'
-    copyright: (C) 2019-2021 Antonis Tsolomitis. This work is released under the
+    version: 5.3.0
+    copyright: "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the
       GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCMMath-Bold.otf
+      for details."
+    font: NewCMMath-Bold.otf
   - family_name: NewComputerModernMath
     type: Book
     full_name: NewComputerModernMath-Book
     post_script_name: NewCMMath-Book
     version: '4.0'
-    copyright: (C) 2019-2021 Antonis Tsolomitis. This work is released under the
+    copyright: "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the
       GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCMMath-Book.otf
+      for details."
+    font: NewCMMath-Book.otf
   - family_name: NewComputerModernMath
     type: Regular
     full_name: NewComputerModernMath-Regular
     post_script_name: NewCMMath-Regular
     version: '4.0'
-    copyright: (C) 2019-2021 Antonis Tsolomitis. This work is released under the
+    copyright: "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the
       GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCMMath-Regular.otf
-- name: New Computer Modern Mono
+      for details."
+    font: NewCMMath-Regular.otf
+- name: NewComputerModernMono10
   styles:
   - family_name: NewComputerModernMono10
     type: Bold
     full_name: NewComputerModernMono10-Bold
     post_script_name: NewCMMono10-Bold
     version: 'Version: 7.1.1'
-    copyright: (C) 2019-2021 Antonis Tsolomitis. This work is released under the
+    copyright: "(C) 2019-2021 Antonis Tsolomitis. This work is released under the
       GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCMMono10-Bold.otf
+      for details."
+    font: NewCMMono10-Bold.otf
   - family_name: NewComputerModernMono10
     type: BoldOblique
     full_name: NewComputerModernMono10-BoldOblique
     post_script_name: NewCMMono10-BoldOblique
     version: 'Version: 7.1.1'
-    copyright: (C) 2019-2021 Antonis Tsolomitis. This work is released under the
+    copyright: "(C) 2019-2021 Antonis Tsolomitis. This work is released under the
       GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCMMono10-BoldOblique.otf
+      for details."
+    font: NewCMMono10-BoldOblique.otf
   - family_name: NewComputerModernMono10
     type: Book
     full_name: NewComputerModernMono10-Book
     post_script_name: NewCMMono10-Book
     version: 'Version: 7.1.1'
-    copyright: (C) 2019-2021 Antonis Tsolomitis. This work is released under the
+    copyright: "(C) 2019-2021 Antonis Tsolomitis. This work is released under the
       GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCMMono10-Book.otf
+      for details."
+    font: NewCMMono10-Book.otf
   - family_name: NewComputerModernMono10
     type: BookItalic
     full_name: NewComputerModernMono10-BookItalic
     post_script_name: NewCMMono10-BookItalic
     version: 'Version: 7.1.1'
-    copyright: (C) 2019-2021 Antonis Tsolomitis. This work is released under the
+    copyright: "(C) 2019-2021 Antonis Tsolomitis. This work is released under the
       GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCMMono10-BookItalic.otf
+      for details."
+    font: NewCMMono10-BookItalic.otf
   - family_name: NewComputerModernMono10
     type: Italic
     full_name: NewComputerModernMono10-Italic
     post_script_name: NewCMMono10-Italic
     version: 'Version: 7.1.1'
-    copyright: (C) 2019-2021 Antonis Tsolomitis. This work is released under the
+    copyright: "(C) 2019-2021 Antonis Tsolomitis. This work is released under the
       GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCMMono10-Italic.otf
+      for details."
+    font: NewCMMono10-Italic.otf
   - family_name: NewComputerModernMono10
     type: Regular
     full_name: NewComputerModernMono10-Regular
     post_script_name: NewCMMono10-Regular
     version: 'Version: 7.1.1'
-    copyright: (C) 2019-2021 Antonis Tsolomitis. This work is released under the
+    copyright: "(C) 2019-2021 Antonis Tsolomitis. This work is released under the
       GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCMMono10-Regular.otf
-- name: New Computer Modern Sans
+      for details."
+    font: NewCMMono10-Regular.otf
+- name: NewComputerModernSans08
   styles:
   - family_name: NewComputerModernSans08
     type: Book
     full_name: NewComputerModernSans08-Book
     post_script_name: NewCMSans08-Book
     version: 'Version: 7.1.1'
-    copyright: (C) 2019-2021 Antonis Tsolomitis. This work is released under the
+    copyright: "(C) 2019-2021 Antonis Tsolomitis. This work is released under the
       GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCMSans08-Book.otf
+      for details."
+    font: NewCMSans08-Book.otf
   - family_name: NewComputerModernSans08
     type: BookOblique
     full_name: NewComputerModernSans08-BookOblique
     post_script_name: NewCMSans08-BookOblique
     version: 'Version: 7.1.1'
-    copyright: (C) 2019-2021 Antonis Tsolomitis. This work is released under the
+    copyright: "(C) 2019-2021 Antonis Tsolomitis. This work is released under the
       GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCMSans08-BookOblique.otf
+      for details."
+    font: NewCMSans08-BookOblique.otf
   - family_name: NewComputerModernSans08
     type: Oblique
     full_name: NewComputerModernSans08-Oblique
     post_script_name: NewCMSans08-Oblique
     version: 'Version: 7.1.1'
-    copyright: (C) 2019-2021 Antonis Tsolomitis. This work is released under the
+    copyright: "(C) 2019-2021 Antonis Tsolomitis. This work is released under the
       GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCMSans08-Oblique.otf
+      for details."
+    font: NewCMSans08-Oblique.otf
   - family_name: NewComputerModernSans08
     type: Regular
     full_name: NewComputerModernSans08-Regular
     post_script_name: NewCMSans08-Regular
     version: 'Version: 7.1.1'
-    copyright: (C) 2019-2021 Antonis Tsolomitis. This work is released under the
+    copyright: "(C) 2019-2021 Antonis Tsolomitis. This work is released under the
       GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCMSans08-Regular.otf
+      for details."
+    font: NewCMSans08-Regular.otf
+- name: NewComputerModernSans10
+  styles:
   - family_name: NewComputerModernSans10
     type: Bold
     full_name: NewComputerModernSans10-Bold
     post_script_name: NewCMSans10-Bold
     version: 'Version: 7.1.1'
-    copyright: (C) 2019-2021 Antonis Tsolomitis. This work is released under the
+    copyright: "(C) 2019-2021 Antonis Tsolomitis. This work is released under the
       GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCMSans10-Bold.otf
+      for details."
+    font: NewCMSans10-Bold.otf
   - family_name: NewComputerModernSans10
     type: BoldOblique
     full_name: NewComputerModernSans10-BoldOblique
     post_script_name: NewCMSans10-BoldOblique
     version: 'Version: 7.1.1'
-    copyright: (C) 2019-2021 Antonis Tsolomitis. This work is released under the
+    copyright: "(C) 2019-2021 Antonis Tsolomitis. This work is released under the
       GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCMSans10-BoldOblique.otf
+      for details."
+    font: NewCMSans10-BoldOblique.otf
   - family_name: NewComputerModernSans10
     type: Book
     full_name: NewComputerModernSans10-Book
     post_script_name: NewCMSans10-Book
     version: 'Version: 7.1.1'
-    copyright: (C) 2019-2021 Antonis Tsolomitis. This work is released under the
+    copyright: "(C) 2019-2021 Antonis Tsolomitis. This work is released under the
       GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCMSans10-Book.otf
+      for details."
+    font: NewCMSans10-Book.otf
   - family_name: NewComputerModernSans10
     type: BookOblique
     full_name: NewComputerModernSans10-BookOblique
     post_script_name: NewCMSans10-BookOblique
     version: 'Version: 7.1.1'
-    copyright: (C) 2019-2021 Antonis Tsolomitis. This work is released under the
+    copyright: "(C) 2019-2021 Antonis Tsolomitis. This work is released under the
       GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCMSans10-BookOblique.otf
+      for details."
+    font: NewCMSans10-BookOblique.otf
   - family_name: NewComputerModernSans10
     type: Oblique
     full_name: NewComputerModernSans10-Oblique
     post_script_name: NewCMSans10-Oblique
     version: 'Version: 7.1.1'
-    copyright: (C) 2019 Antonis Tsolomitis. This work is released under the GUST
+    copyright: "(C) 2019 Antonis Tsolomitis. This work is released under the GUST
       Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for
-      details.
-    font: newcm-7.1.1/otf/NewCMSans10-Oblique.otf
+      details."
+    font: NewCMSans10-Oblique.otf
   - family_name: NewComputerModernSans10
     type: Regular
     full_name: NewComputerModernSans10-Regular
     post_script_name: NewCMSans10-Regular
     version: 'Version: 7.1.1'
-    copyright: (C) 2019-2020 Antonis Tsolomitis. This work is released under the
+    copyright: "(C) 2019-2020 Antonis Tsolomitis. This work is released under the
       GUST Font License --  see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCMSans10-Regular.otf
-- name: New Computer Modern Sans Math
+      for details."
+    font: NewCMSans10-Regular.otf
+- name: NewComputerModernSansMath
   styles:
   - family_name: NewComputerModernSansMath
     type: Regular
     full_name: NewComputerModernSansMath-Regular
     post_script_name: NewCMSansMath-Regular
     version: '4.0'
-    copyright: (C) 2019-2021 Antonis Tsolomitis. This work is released under the
+    copyright: "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the
       GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-      for details.
-    font: newcm-7.1.1/otf/NewCMSansMath-Regular.otf
-- name: New Computer Modern Uncial
+      for details."
+    font: NewCMSansMath-Regular.otf
+- name: NewComputerModernUncial10
   styles:
-  - family_name: NewCMUncial08
-    type: Bold
-    full_name: NewCMUncial08-Bold
-    post_script_name: NewCMUncial08-Bold
-    version: Version 7.1.1
-    copyright: Copyright (c) 2021, Antonis Tsolomitis
-    font: newcm-7.1.1/otf/NewCMUncial08-Bold.otf
-  - family_name: NewCMUncial08
-    type: Book
-    full_name: NewCMUncial08-Book
-    post_script_name: NewCMUncial08-Book
-    version: Version 7.1.1
-    copyright: Copyright (c) 2021, Antonis Tsolomitis
-    font: newcm-7.1.1/otf/NewCMUncial08-Book.otf
-  - family_name: NewCMUncial08
-    type: Regular
-    full_name: NewCMUncial08-Regular
-    post_script_name: NewCMUncial08-Regular
-    version: Version 7.1.1
-    copyright: Copyright (c) 2021, Antonis Tsolomitis
-    font: newcm-7.1.1/otf/NewCMUncial08-Regular.otf
-  - family_name: NewCMUncial10
-    type: Bold
-    full_name: NewCMUncial10-Bold
-    post_script_name: NewCMUncial10-Bold
-    version: Version 7.1.1
-    copyright: Copyright (c) 2021, Antonis Tsolomitis
-    font: newcm-7.1.1/otf/NewCMUncial10-Bold.otf
-  - family_name: NewCMUncial10
-    type: Book
-    full_name: NewCMUncial10-Book
-    post_script_name: NewCMUncial10-Book
-    version: Version 7.1.1
-    copyright: Copyright (c) 2021, Antonis Tsolomitis
-    font: newcm-7.1.1/otf/NewCMUncial10-Book.otf
   - family_name: NewComputerModernUncial10
     type: Regular
     full_name: NewComputerModernUncial10-Regular
     post_script_name: NewCMUncial10-Regular
-    version: Version 7.1.1
+    version: 7.1.1
     copyright: Copyright (c) 2021, Antonis Tsolomitis
-    font: newcm-7.1.1/otf/NewCMUncial10-Regular.otf
-extract:
-  format: tar
-copyright: (C) 2019-2024 Antonis Tsolomitis. This work is released under the GUST Font License
-license_url: http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-open_license: |-
-  % This is a preliminary version (2006-09-30), barring acceptance from
-  % the LaTeX Project Team and other feedback, of the GUST Font License.
-  % (GUST is the Polish TeX Users Group, http://www.gust.org.pl)
-  %
-  % For the most recent version of this license see
-  % http://www.gust.org.pl/fonts/licenses/GUST-FONT-LICENSE.txt
-  % or
-  % http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
-  %
-  % This work may be distributed and/or modified under the conditions
-  % of the LaTeX Project Public License, either version 1.3c of this
-  % license or (at your option) any later version.
-  %
-  % Please also observe the following clause:
-  % 1) it is requested, but not legally required, that derived works be
-  %    distributed only after changing the names of the fonts comprising this
-  %    work and given in an accompanying "manifest", and that the
-  %    files comprising the Work, as listed in the manifest, also be given
-  %    new names. Any exceptions to this request are also given in the
-  %    manifest.
-  %
-  %    We recommend the manifest be given in a separate file named
-  %    MANIFEST-<fontid>.txt, where <fontid> is some unique identification
-  %    of the font family. If a separate "readme" file accompanies the Work,
-  %    we recommend a name of the form README-<fontid>.txt.
-  %
-  % The latest version of the LaTeX Project Public License is in
-  % http://www.latex-project.org/lppl.txt and version 1.3c or later
-  % is part of all distributions of LaTeX version 2006/05/20 or later.
+    font: NewCMUncial10-Regular.otf
+extract: {}
+copyright: Copyright 2021 A. Tsolomitis
+command: create-formula --name New\ Computer\ Modern --no-interactive https://download.gnu.org.ua/release/newcm/newcm-7.1.1.txz
+font_version: 'Version: 7.1.1'
