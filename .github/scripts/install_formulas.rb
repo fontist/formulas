@@ -168,6 +168,8 @@ class InstallFormulas
 
       ENV["FONTIST_PATH"] = nil
     end
+  rescue Errno::EACCES, Errno::ENOTEMPTY
+    nil
   end
 
   def copy_all_formulas
