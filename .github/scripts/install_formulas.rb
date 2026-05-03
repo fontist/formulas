@@ -216,6 +216,9 @@ class InstallFormulas
       install_formula(formula_path, formula_name)
       @mutex.synchronize { @successes << formula_name }
       puts "  OK"
+    rescue Fontist::Errors::PlatformMismatchError => e
+      @mutex.synchronize { @skipped << "#{formula_name} (platform: #{e.message.slice(0, 80)})" }
+      puts "  SKIP: #{e.message.slice(0, 80)}"
     rescue StandardError => e
       @mutex.synchronize { @errors << { name: formula_name, error: e.message } }
       puts "  FAILED: #{e.message}"
