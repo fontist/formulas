@@ -190,7 +190,7 @@ jobs:
           echo "::group::Installation Test - Rotation Day ${{ steps.config.outputs.rotation_day }}"
 
           # Build the command
-          CMD="ruby .github/scripts/install_formulas.rb"
+          CMD="bundle exec ruby .github/scripts/install_formulas.rb"
           CMD="${CMD} --directory Formulas"
           CMD="${CMD} --rotation ${{ steps.config.outputs.rotation_day }}"
           CMD="${CMD} --platform ${{ steps.config.outputs.platform }}"
