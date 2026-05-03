@@ -9,7 +9,7 @@ require "optparse"
 require "date"
 
 class ValidateSchema
-  SCHEMA_V5_REQUIRED_FIELDS = %w[fonts resources].freeze
+  SCHEMA_V5_REQUIRED_FIELDS = %w[resources].freeze
   FONT_REQUIRED_FIELDS = %w[name styles].freeze
   STYLE_REQUIRED_FIELDS = %w[family_name type font].freeze
 
@@ -74,6 +74,8 @@ class ValidateSchema
     else
       validate_v4_schema(file, content)
     end
+
+    validate_fonts_or_collections(file, content)
 
     # Common validations
     validate_fonts(file, content)
@@ -141,10 +143,18 @@ class ValidateSchema
   end
 
   def validate_v4_schema(file, content)
-    %w[name fonts resources].each do |field|
+    %w[name resources].each do |field|
       unless content[field]
         add_error(file, "Missing required field: #{field}")
       end
+    end
+
+    validate_fonts_or_collections(file, content)
+  end
+
+  def validate_fonts_or_collections(file, content)
+    unless content["fonts"] || content["font_collections"]
+      add_error(file, "Missing required field: fonts or font_collections")
     end
   end
 
