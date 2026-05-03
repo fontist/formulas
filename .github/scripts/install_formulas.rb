@@ -44,6 +44,10 @@ class InstallFormulas
         @sample_size = n
       end
 
+      opts.on("--full", "Test all formulas (no rotation)") do
+        @full = true
+      end
+
       opts.on("--continue-on-error", "Don't stop on errors") do
         @continue_on_error = true
       end
@@ -56,11 +60,13 @@ class InstallFormulas
     @directory ||= "Formulas"
     @platform ||= nil
     @every_platform ||= false
+    @rotation_day = nil if @full
     @rotation_day ||= calculate_rotation_day
     @group ||= nil
     @sample_size ||= nil
     @continue_on_error ||= false
     @output_file ||= nil
+    @full ||= false
 
     @errors = []
     @successes = []
@@ -74,7 +80,7 @@ class InstallFormulas
     puts "=" * 60
     puts "Directory:     #{@directory}"
     puts "Platform:      #{@platform || 'all'}"
-    puts "Rotation day:  #{@rotation_day}"
+    puts "Mode:          #{@full ? 'full scan' : "rotation day #{@rotation_day}"}"
     puts "Group filter:  #{@group || 'none'}"
     puts "=" * 60
     puts
