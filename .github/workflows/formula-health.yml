@@ -283,7 +283,7 @@ jobs:
         id: install
         shell: bash
         continue-on-error: true
-        timeout-minutes: 240
+        timeout-minutes: 360
         run: |
           echo "::group::Full Formula Scan (${{ steps.config.outputs.platform }})"
 
@@ -304,14 +304,17 @@ jobs:
         if: always()
         shell: bash
         run: |
-          if [ ! -f "full-scan-${{ steps.config.outputs.platform }}.yml" ]; then
-            echo "has_failures=false" >> $GITHUB_OUTPUT
+          RESULTS_FILE="full-scan-${{ steps.config.outputs.platform }}.yml"
+
+          if [ ! -f "${RESULTS_FILE}" ]; then
+            echo "has_failures=unknown" >> $GITHUB_OUTPUT
+            echo "Results file not found (scan may have timed out)." > failure-report.txt
             exit 0
           fi
 
           # Extract failure count from results
           FAILURES=$(ruby -ryaml -e "
-            data = YAML.load_file('full-scan-${{ steps.config.outputs.platform }}.yml')
+            data = YAML.load_file('${RESULTS_FILE}')
             failures = data['failures'] || []
             puts failures.size
           " 2>/dev/null || echo "unknown")
@@ -323,7 +326,7 @@ jobs:
 
             # Build failure list for summary
             ruby -ryaml -e "
-              data = YAML.load_file('full-scan-${{ steps.config.outputs.platform }}.yml')
+              data = YAML.load_file('${RESULTS_FILE}')
               failures = data['failures'] || []
               successes = data['successes'] || []
               skipped = data['skipped'] || []

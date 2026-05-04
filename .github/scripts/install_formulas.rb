@@ -75,6 +75,8 @@ class InstallFormulas
   end
 
   def call
+    trap_results_write
+
     puts "=" * 60
     puts "FORMULA INSTALLATION TEST"
     puts "=" * 60
@@ -109,6 +111,16 @@ class InstallFormulas
   end
 
   private
+
+  def trap_results_write
+    %w[TERM INT].each do |sig|
+      Signal.trap(sig) do
+        $stderr.puts "\nCaught SIG#{sig}, writing results before exit..."
+        write_results if @output_file
+        exit 1
+      end
+    end
+  end
 
   def calculate_rotation_day
     # Day 1 or 2 based on day of year
@@ -206,13 +218,11 @@ class InstallFormulas
 
     formula_name = content["name"] || File.basename(formula_path, ".yml")
 
-    # Skip non-downloadable formulas
     unless downloadable?(content)
       @mutex.synchronize { @skipped << formula_name }
       return
     end
 
-    # Skip platform-specific formulas
     unless matches_platform?(content)
       @mutex.synchronize { @skipped << "#{formula_name} (platform mismatch)" }
       return
@@ -233,6 +243,8 @@ class InstallFormulas
 
       raise unless @continue_on_error
     end
+
+    write_results if @output_file && (@successes.size + @errors.size) % 50 == 0
   end
 
   def load_formula(path)
