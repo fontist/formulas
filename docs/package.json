@@ -3,7 +3,7 @@
     "predev": "node generate.js",
     "dev": "vitepress dev",
     "prebuild": "node generate.js",
-    "build": "NODE_OPTIONS='--max-old-space-size=6144' vitepress build",
+    "build": "bash build.sh",
     "preview": "vitepress preview",
     "format": "prettier -w ."
   },
