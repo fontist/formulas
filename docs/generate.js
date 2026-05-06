@@ -7,7 +7,7 @@ import { glob } from "glob";
 const projectRoot = resolve(process.cwd(), "..");
 
 // Configuration
-const GITHUB_BRANCH = "v4";
+const GITHUB_BRANCH = "v5";
 const GITHUB_REPO = "fontist/formulas";
 
 await rm("browse", { recursive: true, force: true });
@@ -35,6 +35,8 @@ function svgBadge(label, text, color, textWidth = 90) {
   const textTextX = labelWidth + textWidth / 2;
   return `<img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='${totalWidth}' height='20' role='img' aria-label='${label}: ${text}'%3E%3Ctitle%3E${label}: ${text}%3C/title%3E%3ClinearGradient id='b' x2='0' y2='100%25'%3E%3Cstop offset='0' stop-color='%23bbb' stop-opacity='.1'/%3E%3Cstop offset='1' stop-opacity='.1'/%3E%3C/linearGradient%3E%3Cmask id='a'%3E%3Crect width='100%25' height='100%25' fill='%23fff' rx='3'/%3E%3C/mask%3E%3Cg mask='url(%23a)'%3E%3Cpath fill='%23555' d='M0 0h${labelWidth}v20H0z'/%3E%3Cpath fill='${encodeURIComponent(color)}' d='M${labelWidth} 0h${textWidth}v20H${labelWidth}z'/%3E%3Cpath fill='url(%23b)' d='M0 0h${totalWidth}v20H0z'/%3E%3C/g%3E%3Cg fill='%23fff' text-anchor='middle' font-family='Verdana,Geneva,DejaVu Sans,sans-serif' font-size='11'%3E%3Ctext x='${labelTextX}' y='15'%3E${label}%3C/text%3E%3Ctext x='${textTextX}' y='15'%3E${text}%3C/text%3E%3C/g%3E%3C/svg%3E" alt="${label}: ${text}" class="source-badge">`;
 }
+
+const v5Tag = '<span class="v5-tag" title="New in Formula v5">v5</span>';
 
 // Get source display info - uses SVG images from /sources/ folder
 function getSourceInfo(type) {
@@ -64,6 +66,7 @@ function detectLicenseInfo(yaml, sourceType) {
   const licenseUrl = (yaml.license_url || "").toLowerCase();
   const requiresLicense = yaml.requires_license_agreement || "";
   const openLicense = yaml.open_license || "";
+  const spdxLicense = (yaml.spdx_license || "").toUpperCase();
   let copyright = (yaml.copyright || "").toLowerCase();
 
   // Also collect copyright from font styles (for formulas without top-level copyright)
@@ -81,6 +84,101 @@ function detectLicenseInfo(yaml, sourceType) {
 
   // Combine all text for license detection
   const allText = `${licenseUrl} ${openLicense} ${copyright}`.toLowerCase();
+
+  // Fast path: use spdx_license field if available
+  if (spdxLicense) {
+    if (spdxLicense.startsWith("OFL-1.1")) {
+      const isRfn = spdxLicense.includes("-RFN");
+      return {
+        type: "ofl",
+        name: `SIL Open Font License 1.1${isRfn ? " (with RFN)" : ""}`,
+        badge: svgBadge("License", isRfn ? "OFL 1.1-RFN" : "OFL 1.1", "#28a745", isRfn ? 140 : 120),
+        docLink: "/licenses/ofl",
+        spdxUrl: `https://spdx.org/licenses/${spdxLicense}.html`,
+        category: "open_source",
+        isOpen: true,
+      };
+    }
+    if (spdxLicense === "APACHE-2.0") {
+      return {
+        type: "apache", name: "Apache License 2.0",
+        badge: svgBadge("License", "Apache 2.0", "#28a745", 120),
+        docLink: "/licenses/apache", spdxUrl: "https://spdx.org/licenses/Apache-2.0.html",
+        category: "open_source", isOpen: true,
+      };
+    }
+    if (spdxLicense === "MIT") {
+      return {
+        type: "mit", name: "MIT License",
+        badge: svgBadge("License", "MIT", "#28a745", 120),
+        docLink: "/licenses/mit", spdxUrl: "https://spdx.org/licenses/MIT.html",
+        category: "open_source", isOpen: true,
+      };
+    }
+    if (spdxLicense.startsWith("CC0-")) {
+      return {
+        type: "cc0", name: "Creative Commons Zero (Public Domain)",
+        badge: svgBadge("License", "CC0 1.0", "#28a745", 120),
+        docLink: "/licenses/cc0", spdxUrl: `https://spdx.org/licenses/${spdxLicense}.html`,
+        category: "open_source", isOpen: true,
+      };
+    }
+    if (spdxLicense.startsWith("CC-BY-")) {
+      return {
+        type: "cc-by", name: "Creative Commons Attribution",
+        badge: svgBadge("License", "CC BY 4.0", "#28a745", 120),
+        docLink: "/licenses/cc-by", spdxUrl: `https://spdx.org/licenses/${spdxLicense}.html`,
+        category: "open_source", isOpen: true,
+      };
+    }
+    if (spdxLicense.startsWith("CC-BY-SA-")) {
+      return {
+        type: "cc-by-sa", name: "Creative Commons Attribution-ShareAlike",
+        badge: svgBadge("License", "CC BY-SA 4.0", "#28a745", 120),
+        docLink: "/licenses/cc-by-sa", spdxUrl: `https://spdx.org/licenses/${spdxLicense}.html`,
+        category: "open_source", isOpen: true,
+      };
+    }
+    if (spdxLicense.startsWith("GPL-") || spdxLicense.includes("GPL")) {
+      return {
+        type: "gpl", name: "GNU GPL (with Font Exception)",
+        badge: svgBadge("License", "GPL", "#28a745", 120),
+        docLink: "/licenses/gpl", spdxUrl: `https://spdx.org/licenses/${spdxLicense}.html`,
+        category: "open_source", isOpen: true,
+      };
+    }
+    if (spdxLicense.startsWith("LGPL-")) {
+      return {
+        type: "lgpl", name: "GNU LGPL",
+        badge: svgBadge("License", "LGPL", "#28a745", 120),
+        docLink: "/licenses/lgpl", spdxUrl: `https://spdx.org/licenses/${spdxLicense}.html`,
+        category: "open_source", isOpen: true,
+      };
+    }
+    if (spdxLicense.startsWith("UBUNTU-FONT-")) {
+      return {
+        type: "ufl", name: "Ubuntu Font Licence 1.0",
+        badge: svgBadge("License", "UFL 1.0", "#28a745", 120),
+        docLink: "/licenses/ufl", spdxUrl: `https://spdx.org/licenses/${spdxLicense}.html`,
+        category: "open_source", isOpen: true,
+      };
+    }
+    if (spdxLicense.startsWith("IPA")) {
+      return {
+        type: "ipa", name: "IPA Font License",
+        badge: svgBadge("License", "IPA", "#28a745", 120),
+        docLink: "/licenses/ipa", spdxUrl: `https://spdx.org/licenses/${spdxLicense}.html`,
+        category: "open_source", isOpen: true,
+      };
+    }
+    // Generic fallback for known SPDX codes not matched above
+    return {
+      type: "spdx_other", name: spdxLicense,
+      badge: svgBadge("License", spdxLicense.slice(0, 15), "#28a745", 120),
+      docLink: null, spdxUrl: `https://spdx.org/licenses/${spdxLicense}.html`,
+      category: "open_source", isOpen: true,
+    };
+  }
 
   // ============================================================
   // PLATFORM RESTRICTED
@@ -567,6 +665,9 @@ for (const relativeFilePath of formulaFiles) {
         version: style.version,
         font: style.font,
         copyright: style.copyright,
+        formats: style.formats || [],
+        variable_font: style.variable_font || false,
+        variable_axes: style.variable_axes || [],
       };
 
       fontFamilies[familyName].push(styleInfo);
@@ -594,6 +695,9 @@ for (const relativeFilePath of formulaFiles) {
           font: style.font || collection.filename,
           copyright: style.copyright,
           collection_file: collection.filename,
+          formats: style.formats || [],
+          variable_font: style.variable_font || false,
+          variable_axes: style.variable_axes || [],
         };
 
         fontFamilies[familyName].push(styleInfo);
@@ -622,6 +726,9 @@ for (const relativeFilePath of formulaFiles) {
           font: style.font,
           copyright: style.copyright,
           collection_file: collection.filename,
+          formats: style.formats || [],
+          variable_font: style.variable_font || false,
+          variable_axes: style.variable_axes || [],
         };
 
         fontFamilies[familyName].push(styleInfo);
@@ -637,6 +744,8 @@ for (const relativeFilePath of formulaFiles) {
   const resources = yaml.resources || {};
   if (Object.keys(resources).length > 0) {
     const resourceEntries = Object.entries(resources).flatMap(([name, resource]) => {
+      const format = resource.format || null;
+      const variableAxes = resource.variable_axes || [];
       if (resource.urls && resource.urls.length > 0) {
         const sizeKB = resource.file_size
           ? `${(resource.file_size / 1024).toFixed(1)} KB`
@@ -649,6 +758,8 @@ for (const relativeFilePath of formulaFiles) {
           : "N/A";
         return resource.urls.map((url, index) => ({
           name: resource.urls.length > 1 ? `${name} (mirror ${index + 1})` : name,
+          format,
+          variableAxes,
           sizeKB,
           shaShort,
           shaFull,
@@ -660,6 +771,8 @@ for (const relativeFilePath of formulaFiles) {
           const fileName = url.split("/").pop();
           return {
             name: fileName,
+            format,
+            variableAxes,
             sizeKB: "Direct",
             shaShort: "N/A",
             downloadUrl: url,
@@ -670,17 +783,27 @@ for (const relativeFilePath of formulaFiles) {
     });
 
     if (resourceEntries.length > 0) {
+      const hasFormat = resourceEntries.some((e) => e.format);
+      const hasVariable = resourceEntries.some((e) => e.variableAxes && e.variableAxes.length > 0);
+      const fmtHdr = hasFormat ? ` | Format ${v5Tag}` : "";
+      const fmtSep = hasFormat ? " | ------" : "";
+      const varHdr = hasVariable ? ` | Variable ${v5Tag}` : "";
+      const varSep = hasVariable ? " | --------" : "";
+
       resourcesSection = `## Resources
 
-| File | Size | SHA256 | Download |
-|------|------|--------|----------|
+| File${fmtHdr} | Size | SHA256 | Download |${varHdr}
+|------${fmtSep} |------|--------|----------|${varSep}
 ${resourceEntries
   .map((entry) => {
     let shaCell = "N/A";
     if (entry.shaFull) {
-      shaCell = `<span class="sha-cell"><code class="sha-value">${entry.shaShort}</code><button class="sha-copy-btn" data-sha="${entry.shaFull}">Copy</button></span>`;
+      shaCell = `<span class="sha-cell"><code class="sha-value" title="${entry.shaFull}">${entry.shaShort}</code><button class="sha-copy-btn" data-sha="${entry.shaFull}">Copy</button></span>`;
     }
-    return `| <span class="font-filename" title="${entry.name}">${entry.name}</span> | ${entry.sizeKB} | ${shaCell} | [Download](${entry.downloadUrl}) |`;
+    const fmtCell = hasFormat ? ` | ${entry.format || "-"}` : "";
+    const axesText = entry.variableAxes && entry.variableAxes.length > 0 ? entry.variableAxes.join(", ") : "-";
+    const varCell = hasVariable ? ` | ${axesText}` : "";
+    return `| <span class="font-filename" title="${entry.name}">${entry.name}</span>${fmtCell} | ${entry.sizeKB} | ${shaCell} | [Download](${entry.downloadUrl}) |${varCell}`;
   })
   .join("\n")}
 `;
@@ -697,6 +820,12 @@ ${familyNames
   .map((familyName) => {
     const styles = fontFamilies[familyName];
     const uniqueTypes = [...new Set(styles.map((s) => s.type))];
+    const hasFormats = styles.some((s) => s.formats && s.formats.length > 0);
+    const hasVariable = styles.some((s) => s.variable_font);
+    const fmtHdr = hasFormats ? ` | Formats ${v5Tag}` : "";
+    const fmtSep = hasFormats ? " | ------------------" : "";
+    const varHdr = hasVariable ? ` | Variable ${v5Tag}` : "";
+    const varSep = hasVariable ? " | -------------------" : "";
 
     return `### ${familyName}
 
@@ -704,8 +833,8 @@ ${familyNames
 
 <div class="font-styles-table">
 
-| Style | Font File | PostScript Name | Version |
-|-------|-----------|-----------------|---------|
+| Style | Font File${fmtHdr}${varHdr} | PostScript Name | Version |
+|-------|-----------${fmtSep}${varSep}|-----------------|---------|
 ${styles
   .map((style) => {
     const fontFile = style.font || "N/A";
@@ -713,7 +842,11 @@ ${styles
     const version = style.version
       ? style.version.split(";")[0].trim()
       : "N/A";
-    return `| ${style.type} | <span class="font-filename" title="${fontFile}">${fontFile}</span> | ${psName} | ${version} |`;
+    const fmtCell = hasFormats ? ` | ${(style.formats || []).join(", ") || "-"}` : "";
+    const varCell = hasVariable
+      ? ` | ${style.variable_font ? `Yes (${(style.variable_axes || []).join(", ")})` : "No"}`
+      : "";
+    return `| ${style.type} | <span class="font-filename" title="${fontFile}">${fontFile}</span>${fmtCell}${varCell} | ${psName} | ${version} |`;
   })
   .join("\n")}
 
@@ -783,13 +916,27 @@ ${[...allCopyrights]
   const badges = [licenseInfo.badge, sourceInfo.badge].join(" ");
 
   // Build source section
+  let importSourceLine = "";
+  if (yaml.import_source && Object.keys(yaml.import_source).length > 0) {
+    const is = yaml.import_source;
+    const details = [];
+    if (is.type) details.push(`type: ${is.type}`);
+    if (is.version) details.push(`version: ${is.version}`);
+    if (is.commit_id) details.push(`commit: ${String(is.commit_id).slice(0, 8)}`);
+    if (is.release_date) details.push(`date: ${is.release_date}`);
+    if (is.framework_version) details.push(`framework: ${is.framework_version}`);
+    if (is.asset_id) details.push(`asset: ${is.asset_id}`);
+    if (is.family_id) details.push(`family: ${is.family_id}`);
+    importSourceLine = `\n- **Import Source** ${v5Tag}: ${details.join(" · ")}`;
+  }
+
   const sourceSection = `## Source
 
 ${sourceInfo.badge}
 
 - **Type**: ${sourceInfo.name}
 - **Formula**: [View on GitHub](${githubURL})
-${yaml.homepage ? `- **Homepage**: [${yaml.homepage}](${yaml.homepage})` : ""}`;
+${yaml.homepage ? `- **Homepage**: [${yaml.homepage}](${yaml.homepage})` : ""}${importSourceLine}`;
 
   // Build complete markdown
   const md = `\
@@ -818,150 +965,9 @@ ${licenseSection}
 
 ## Formula Source
 
-<details>
-<summary>View Full YAML Formula</summary>
+- [View YAML on GitHub](${githubURL})
 
-\`\`\`yaml
-${originalYamlText}
-\`\`\`
-
-</details>
-
-<style>
-.font-filename {
-  display: inline-block;
-  max-width: 250px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  vertical-align: bottom;
-  position: relative;
-}
-.font-filename:hover::after {
-  content: attr(title);
-  position: absolute;
-  left: 0;
-  top: 100%;
-  background: var(--vp-c-bg);
-  padding: 0.5rem 0.75rem;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 6px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  z-index: 100;
-  max-width: 400px;
-  word-break: break-word;
-  font-family: var(--vp-font-family-mono);
-  font-size: 0.85rem;
-  white-space: normal;
-  margin-top: 4px;
-  display: block;
-  line-height: 1.4;
-}
-.font-styles-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 1rem;
-}
-.font-styles-table th,
-.font-styles-table td {
-  padding: 0.5rem;
-  text-align: left;
-  border: 1px solid var(--vp-c-divider);
-}
-.font-styles-table th {
-  background: var(--vp-c-bg-soft);
-  font-weight: 600;
-}
-.sha-cell {
-  position: relative;
-}
-.sha-value {
-  font-family: var(--vp-font-family-mono);
-  font-size: 0.8rem;
-  color: var(--vp-c-text-2);
-}
-.sha-copy-btn {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  background: var(--vp-c-brand-1);
-  color: white;
-  border: none;
-  border-radius: 4px;
-  padding: 0.2rem 0.5rem;
-  font-size: 0.7rem;
-  cursor: pointer;
-  opacity: 0;
-  transition: opacity 0.2s;
-}
-.sha-cell:hover .sha-copy-btn {
-  opacity: 1;
-}
-.sha-copy-btn:hover {
-  background: var(--vp-c-brand-2);
-}
-.source-badge {
-  height: 20px;
-  vertical-align: middle;
-}
-.sha-cell {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-.sha-value {
-  font-family: var(--vp-font-family-mono);
-  font-size: 0.8rem;
-  color: var(--vp-c-text-2);
-}
-.sha-copy-btn {
-  background: var(--vp-c-brand-soft);
-  color: var(--vp-c-brand-1);
-  border: 1px solid var(--vp-c-brand-1);
-  border-radius: 4px;
-  padding: 0.15rem 0.4rem;
-  font-size: 0.7rem;
-  cursor: pointer;
-  opacity: 0;
-  transition: all 0.2s;
-  white-space: nowrap;
-}
-.sha-cell:hover .sha-copy-btn {
-  opacity: 1;
-}
-.sha-copy-btn:hover {
-  background: var(--vp-c-brand-1);
-  color: white;
-}
-.sha-copy-btn.copied {
-  background: var(--vp-c-tip-1);
-  border-color: var(--vp-c-tip-1);
-  color: white;
-}
-</style>
-
-<script setup>
-import { onMounted } from 'vue'
-
-onMounted(() => {
-  document.querySelectorAll('.sha-copy-btn').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      e.preventDefault()
-      const sha = btn.dataset.sha
-      navigator.clipboard.writeText(sha).then(() => {
-        const originalText = btn.textContent
-        btn.textContent = 'Copied!'
-        btn.classList.add('copied')
-        setTimeout(() => {
-          btn.textContent = originalText
-          btn.classList.remove('copied')
-        }, 2000)
-      })
-    })
-  })
-})
-</script>
+<ShaCopy />
 `;
 
   await mkdir(dirname(`browse/${slug}.md`), { recursive: true });

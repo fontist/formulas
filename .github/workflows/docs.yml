@@ -3,7 +3,7 @@ name: Documentation
 on:
   push:
     branches:
-      - v4
+      - v5
     paths:
       - 'docs/**'
       - 'Formulas/**'
@@ -24,15 +24,11 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v5
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -40,6 +36,82 @@ jobs:
           node-version: 24
           cache: 'npm'
           cache-dependency-path: docs/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: docs
+
+      - name: Validate page generation
+        run: node generate.js
+        working-directory: docs
+
+  prepare:
+    needs: validate
+    if: github.ref_name == 'v5'
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.split.outputs.matrix }}
+      total: ${{ steps.split.outputs.total }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: 'npm'
+          cache-dependency-path: docs/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: docs
+
+      - name: Generate pages
+        run: node generate.js
+        working-directory: docs
+
+      - name: Compute batch matrix
+        id: split
+        working-directory: docs
+        run: |
+          total=$(find browse -name "*.md" ! -name "index.md" | wc -l | tr -d ' ')
+          batch_size=500
+          num_batches=$(( (total + batch_size - 1) / batch_size ))
+          echo "total=$total" >> $GITHUB_OUTPUT
+          echo "Splitting $total pages into $num_batches batches"
+          matrix=$(node -e "
+            const total = $total;
+            const batchSize = $batch_size;
+            const batches = [];
+            for (let i = 0; i < total; i += batchSize) {
+              batches.push({
+                index: batches.length,
+                start: i,
+                end: Math.min(i + batchSize, total)
+              });
+            }
+            console.log(JSON.stringify({ include: batches }));
+          ")
+          echo "matrix=$matrix" >> $GITHUB_OUTPUT
+
+  build-main:
+    needs: prepare
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: 'npm'
+          cache-dependency-path: docs/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: docs
 
       - name: Add swap space
         run: |
@@ -56,26 +128,149 @@ jobs:
           fi
           free -h
 
+      - name: Generate pages
+        run: node generate.js
+        working-directory: docs
+
+      - name: Build main site (no formula pages)
+        working-directory: docs
+        run: |
+          mkdir -p .browse-staging
+          find browse -name "*.md" ! -name "index.md" | while read -r f; do
+            relpath="${f#browse/}"
+            mkdir -p ".browse-staging/$(dirname "$relpath")"
+            mv "$f" ".browse-staging/$relpath"
+          done
+          NODE_OPTIONS="--max-old-space-size=6144" npx vitepress build
+          mv .browse-staging .browse-staging-saved
+
+      - name: Upload main site artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-main
+          path: docs/.vitepress/dist
+          retention-days: 1
+
+      - name: Upload staged pages
+        uses: actions/upload-artifact@v4
+        with:
+          name: staged-pages
+          path: docs/.browse-staging-saved
+          retention-days: 1
+
+  build-batch:
+    needs: [prepare, build-main]
+    runs-on: ubuntu-latest
+    strategy:
+      matrix: ${{ fromJson(needs.prepare.outputs.matrix) }}
+      fail-fast: false
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: 'npm'
+          cache-dependency-path: docs/package-lock.json
+
       - name: Install dependencies
         run: npm ci
         working-directory: docs
 
-      - name: Build
-        run: npm run build
-        working-directory: docs
+      - name: Add swap space
+        run: |
+          if swapon --show | grep -q '/swapfile'; then
+            echo "Swap already active:"
+          else
+            sudo swapoff /swapfile 2>/dev/null || true
+            sudo rm -f /swapfile
+            sudo fallocate -l 8G /swapfile
+            sudo chmod 600 /swapfile
+            sudo mkswap /swapfile
+            sudo swapon /swapfile
+            echo "Swap configured:"
+          fi
+          free -h
 
-      - name: Upload artifact
+      - name: Download staged pages
+        uses: actions/download-artifact@v4
+        with:
+          name: staged-pages
+          path: docs/.browse-staging
+
+      - name: Build batch ${{ matrix.index }}
+        working-directory: docs
+        env:
+          BATCH_START: ${{ matrix.start }}
+          BATCH_END: ${{ matrix.end }}
+        run: |
+          # Generate pages
+          node generate.js
+          # Clear browse pages
+          find browse -name "*.md" ! -name "index.md" -delete
+          find browse -type d -empty -delete 2>/dev/null || true
+          # Copy only this batch's pages
+          echo "Batch ${{ matrix.index }}: pages ${{ matrix.start }}-${{ matrix.end }}"
+          all_files=($(find .browse-staging -name "*.md" | sort))
+          for ((i=${BATCH_START}; i<${BATCH_END}; i++)); do
+            f="${all_files[$i]}"
+            relpath="${f#.browse-staging/}"
+            mkdir -p "browse/$(dirname "$relpath")"
+            cp "$f" "browse/$relpath"
+          done
+          batch_count=$(find browse -name "*.md" ! -name "index.md" | wc -l | tr -d ' ')
+          echo "Building $batch_count pages for batch ${{ matrix.index }}"
+          NODE_OPTIONS="--max-old-space-size=6144" npx vitepress build
+
+      - name: Upload batch artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-batch-${{ matrix.index }}
+          path: docs/.vitepress/dist
+          retention-days: 1
+
+  combine:
+    needs: [build-main, build-batch]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download main site
+        uses: actions/download-artifact@v4
+        with:
+          name: dist-main
+          path: dist
+
+      - name: Download batch artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: dist-batch-*
+          path: batches
+
+      - name: Merge batch browse pages
+        run: |
+          for d in batches/dist-batch-*/; do
+            [ -d "$d" ] || continue
+            echo "Merging $d"
+            if [ -d "$d/browse" ]; then
+              mkdir -p dist/browse
+              cp -r "$d/browse/"* dist/browse/ 2>/dev/null || true
+            fi
+          done
+        shell: bash
+
+      - name: Upload combined artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: docs/.vitepress/dist
+          path: dist
 
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    if: github.ref_name == 'v4'
+    if: github.ref_name == 'v5'
     runs-on: ubuntu-latest
-    needs: build
+    needs: combine
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
