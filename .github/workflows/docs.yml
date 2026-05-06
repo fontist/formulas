@@ -135,14 +135,14 @@ jobs:
       - name: Build main site (no formula pages)
         working-directory: docs
         run: |
-          mkdir -p .browse-staging
+          mkdir -p browse-staging
           find browse -name "*.md" ! -name "index.md" | while read -r f; do
             relpath="${f#browse/}"
-            mkdir -p ".browse-staging/$(dirname "$relpath")"
-            mv "$f" ".browse-staging/$relpath"
+            mkdir -p "browse-staging/$(dirname "$relpath")"
+            mv "$f" "browse-staging/$relpath"
           done
           NODE_OPTIONS="--max-old-space-size=6144" npx vitepress build
-          mv .browse-staging .browse-staging-saved
+          mv browse-staging browse-staging-saved
 
       - name: Upload main site artifact
         uses: actions/upload-artifact@v4
@@ -155,7 +155,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: staged-pages
-          path: docs/.browse-staging-saved
+          path: docs/browse-staging-saved
           retention-days: 1
 
   build-batch:
@@ -198,7 +198,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: staged-pages
-          path: docs/.browse-staging
+          path: docs/browse-staging
 
       - name: Build batch ${{ matrix.index }}
         working-directory: docs
@@ -213,10 +213,10 @@ jobs:
           find browse -type d -empty -delete 2>/dev/null || true
           # Copy only this batch's pages
           echo "Batch ${{ matrix.index }}: pages ${{ matrix.start }}-${{ matrix.end }}"
-          all_files=($(find .browse-staging -name "*.md" | sort))
+          all_files=($(find browse-staging -name "*.md" | sort))
           for ((i=${BATCH_START}; i<${BATCH_END}; i++)); do
             f="${all_files[$i]}"
-            relpath="${f#.browse-staging/}"
+            relpath="${f#browse-staging/}"
             mkdir -p "browse/$(dirname "$relpath")"
             cp "$f" "browse/$relpath"
           done
