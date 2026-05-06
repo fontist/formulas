@@ -1,317 +1,220 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
+require "thor"
 require "yaml"
-require "json"
-require "net/http"
-require "uri"
-require "optparse"
-require "fileutils"
-require "digest"
+require "time"
+require_relative "archive_fonts/registry"
+require_relative "archive_fonts/registry_entry"
+require_relative "archive_fonts/url_collector"
+require_relative "archive_fonts/liveness_checker"
+require_relative "archive_fonts/archive_client"
+require_relative "archive_fonts/formula_updater"
+require_relative "archive_fonts/sync_runner"
 
-class ArchiveFonts
-  USER_AGENTS = [
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 " \
-    "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 " \
-    "(KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 " \
-    "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-  ].freeze
+class ArchiveFontsCLI < Thor
+  class_option :dry_run, type: :boolean, default: false, desc: "Show changes without making them"
+  class_option :verbose, type: :boolean, default: false, desc: "Verbose output"
 
-  def initialize(args)
-    OptionParser.new do |opts|
-      opts.banner = "Usage: ruby archive_fonts.rb [options] [formula_files...]"
-
-      opts.on("--directory DIR", "Scan directory for formulas with failing URLs") do |dir|
-        @directory = dir
-      end
-
-      opts.on("--urls URL1,URL2", Array, "Specific URLs to archive") do |urls|
-        @urls = urls
-      end
-
-      opts.on("--formula FILE", "Update a specific formula file with archive.org mirror") do |f|
-        @formula_file = f
-      end
-
-      opts.on("--mirror-only", "Only add archive.org mirrors, don't download/upload") do
-        @mirror_only = true
-      end
-
-      opts.on("--check", "Only check which URLs are archived") do
-        @check_only = true
-      end
-
-      opts.on("--dry-run", "Show what would be done without making changes") do
-        @dry_run = true
-      end
-    end.parse!(args)
-
-    @formula_files = args.empty? ? [] : args
-    @directory ||= nil
-    @urls ||= []
-    @formula_file ||= nil
-    @mirror_only ||= false
-    @check_only ||= false
-    @dry_run ||= false
+  desc "sync", "Full pipeline: gather, check, archive, update formulas"
+  option :registry, type: :string, default: "process/archive_registry.yml",
+                    desc: "Path to registry file"
+  option :formula_dir, type: :string, default: "Formulas",
+                       desc: "Path to formulas directory"
+  option :group, type: :string, desc: "Only process: manual, sil, macos"
+  option :check_liveness, type: :boolean, default: false,
+                          desc: "HEAD-check if original URLs are alive"
+  option :replace_dead, type: :boolean, default: false,
+                        desc: "Remove dead originals from formulas"
+  option :rate_limit, type: :numeric, default: 2,
+                      desc: "Seconds between archive.org save submissions"
+  option :batch_size, type: :numeric, desc: "Max new URLs to process per run"
+  option :resume, type: :boolean, default: true,
+                  desc: "Skip already-processed URLs"
+  def sync
+    runner = ArchiveFonts::SyncRunner.new(
+      registry_path: options[:registry],
+      formula_dir: options[:formula_dir],
+      group: options[:group],
+      batch_size: options[:batch_size],
+      rate_limit: options[:rate_limit],
+      check_liveness: options[:check_liveness],
+      replace_dead: options[:replace_dead],
+      dry_run: options[:dry_run],
+      verbose: options[:verbose],
+    )
+    runner.run
   end
 
-  def call
-    urls = collect_urls
-    puts "Found #{urls.size} URLs to process"
-    puts
+  desc "archive URL", "Archive a specific URL to the Wayback Machine"
+  option :formula, type: :string, desc: "Formula file to update with mirror"
+  option :registry, type: :string, default: "process/archive_registry.yml"
+  def archive(url)
+    registry = ArchiveFonts::Registry.load(options[:registry])
+    client = ArchiveFonts::ArchiveClient.new
+    updater = ArchiveFonts::FormulaUpdater.new
 
-    results = urls.map { |url| process_url(url) }
-    print_summary(results)
+    puts "Archiving: #{url}"
 
-    update_formulas(results) unless @check_only || @mirror_only
-  end
-
-  private
-
-  def collect_urls
-    urls = @urls.dup
-
-    if @directory
-      Dir.glob(File.join(@directory, "**/*.yml")).each do |f|
-        next if f.include?("BACKUP")
-        content = YAML.load_file(f)
-        next unless content.is_a?(Hash) && content["resources"]
-
-        content["resources"].each_value do |res|
-          next unless res.is_a?(Hash) && res["urls"]
-          res["urls"].each do |u|
-            urls << { url: u, formula: f }
-          end
-        end
+    archive_url = client.check_availability(url)
+    if archive_url && client.validate_snapshot(archive_url)
+      puts "Already archived: #{archive_url}"
+    else
+      archive_url = client.submit(url)
+      if archive_url
+        puts "Archived: #{archive_url}"
+      else
+        puts "FAILED to archive"
+        return
       end
     end
 
-    @formula_files.each do |f|
-      content = YAML.load_file(f)
+    entry = ArchiveFonts::RegistryEntry.new(
+      url: url,
+      status: "archived",
+      archive_url: archive_url,
+      original_alive: true,
+      last_checked: Time.now.utc.iso8601,
+      formulas: options[:formula] ? [options[:formula]] : [],
+    )
+    registry.upsert(entry)
+
+    if options[:formula]
+      updater.add_mirror(options[:formula], url, archive_url, dry_run: options[:dry_run])
+    end
+
+    registry.save
+    puts "Registry saved."
+  end
+
+  desc "check", "Check archival status of URLs"
+  option :formula_dir, type: :string, default: "Formulas"
+  option :group, type: :string, desc: "Filter: manual, sil, macos"
+  def check
+    collector = ArchiveFonts::URLCollector.new
+    client = ArchiveFonts::ArchiveClient.new
+
+    items = collector.from_directory(options[:formula_dir], group: options[:group])
+    puts "Found #{items.size} URLs to check\n\n"
+
+    archived = 0
+    not_archived = 0
+    failed = 0
+
+    items.each_with_index do |item, i|
+      url = item[:url]
+      print "[#{i + 1}/#{items.size}] #{url}: "
+
+      archive_url = client.check_availability(url)
+      if archive_url
+        valid = client.validate_snapshot(archive_url)
+        if valid
+          puts "archived (#{archive_url})"
+          archived += 1
+        else
+          puts "archived but INVALID"
+          not_archived += 1
+        end
+      else
+        puts "NOT archived"
+        not_archived += 1
+      end
+    end
+
+    puts "\n#{'=' * 40}"
+    puts "  Archived: #{archived}"
+    puts "  Not archived: #{not_archived}"
+    puts "  Total: #{items.size}"
+  end
+
+  desc "seed", "Seed registry from formulas that already have archive.org mirrors"
+  option :registry, type: :string, default: "process/archive_registry.yml"
+  option :formula_dir, type: :string, default: "Formulas"
+  def seed
+    registry = ArchiveFonts::Registry.load(options[:registry])
+    seeded = 0
+
+    paths = Dir.glob(File.join(options[:formula_dir], "**/*.yml"))
+               .reject { |p| p.include?("/google/") }
+
+    paths.each do |path|
+      content = YAML.load_file(path)
       next unless content.is_a?(Hash) && content["resources"]
 
-      content["resources"].each_value do |res|
+      content["resources"].each do |_res_key, res|
         next unless res.is_a?(Hash) && res["urls"]
-        res["urls"].each do |u|
-          urls << { url: u, formula: f }
-        end
-      end
-    end
 
-    urls.uniq
-  end
+        urls = res["urls"]
+        archive_urls = urls.select { |u| u.include?("web.archive.org") }
+        original_urls = urls.reject { |u| u.include?("web.archive.org") || u.include?("archive.org") }
 
-  def process_url(item)
-    url = item.is_a?(Hash) ? item[:url] : item
-    formula = item.is_a?(Hash) ? item[:formula] : nil
+        next if archive_urls.empty?
 
-    puts "Processing: #{url}"
-
-    result = { url: url, formula: formula, archived_url: nil, status: :unknown }
-
-    archived = check_archive(url)
-    if archived
-      puts "  Already archived: #{archived}"
-      valid = validate_archived_url(archived)
-      if valid
-        result[:archived_url] = archived
-        result[:status] = :already_archived
-      else
-        puts "  Archived snapshot is not valid (404/empty), re-submitting..."
-        archived = submit_to_archive(url)
-        if archived
-          puts "  Re-archived: #{archived}"
-          result[:archived_url] = archived
-          result[:status] = :newly_archived
-        else
-          puts "  FAILED to re-archive"
-          result[:status] = :failed
-        end
-      end
-    elsif @check_only
-      puts "  Not archived"
-      result[:status] = :not_archived
-    else
-      archived = submit_to_archive(url)
-      if archived
-        puts "  Archived: #{archived}"
-        result[:archived_url] = archived
-        result[:status] = :newly_archived
-      else
-        puts "  FAILED to archive"
-        result[:status] = :failed
-      end
-    end
-
-    result
-  end
-
-  def check_archive(url)
-    api_url = "https://archive.org/wayback/available?url=#{URI.encode_www_form_component(url)}"
-    response = http_get(api_url)
-    return nil unless response&.code == "200"
-
-    data = JSON.parse(response.body)
-    snapshot = data.dig("archived_snapshots", "closest")
-    return nil unless snapshot&.dig("available")
-
-    snapshot["url"]
-  rescue StandardError => e
-    puts "  Check failed: #{e.message}"
-    nil
-  end
-
-  def validate_archived_url(archived_url)
-    response = http_head(archived_url)
-    return false unless response
-    code = response.code.to_i
-    code >= 200 && code < 400
-  rescue StandardError
-    false
-  end
-
-  def submit_to_archive(url)
-    save_url = "https://web.archive.org/save/#{url}"
-    puts "  Submitting to archive.org..."
-
-    if @dry_run
-      puts "  [DRY RUN] Would submit: #{save_url}"
-      return "https://web.archive.org/web/placeholder/#{url}"
-    end
-
-    uri = URI.parse(save_url)
-    http = Net::HTTP.new(uri.host, uri.port)
-    http.use_ssl = true
-    http.open_timeout = 30
-    http.read_timeout = 120
-
-    request = Net::HTTP::Get.new(uri.request_uri, headers_with_ua)
-    response = http.request(request)
-
-    case response.code.to_i
-    when 302
-      location = response["Location"]
-      if location
-        location.start_with?("http") ? location : "https://web.archive.org#{location}"
-      else
-        wait_and_check(url)
-      end
-    when 200
-      content_location = response["Content-Location"]
-      if content_location
-        content_location.start_with?("http") ? content_location : "https://web.archive.org#{content_location}"
-      else
-        wait_and_check(url)
-      end
-    else
-      puts "  archive.org returned HTTP #{response.code}"
-      nil
-    end
-  rescue StandardError => e
-    puts "  Submit failed: #{e.message}"
-    nil
-  end
-
-  def wait_and_check(url)
-    puts "  Waiting 15s for archive to process..."
-    sleep 15
-    check_archive(url)
-  end
-
-  def update_formulas(results)
-    formula_updates = {}
-    results.each do |r|
-      next unless r[:archived_url] && r[:formula]
-      formula_updates[r[:formula]] ||= []
-      formula_updates[r[:formula]] << { original: r[:url], mirror: r[:archived_url] }
-    end
-
-    formula_updates.each do |formula_file, updates|
-      puts "\nUpdating: #{formula_file}"
-      content = File.read(formula_file)
-
-      updates.each do |update|
-        original = update[:original]
-        mirror = update[:mirror]
-
-        if content.include?(mirror)
-          puts "  Mirror already present for #{original}"
-          next
+        original_urls.each do |orig|
+          entry = ArchiveFonts::RegistryEntry.new(
+            url: orig,
+            status: "archived",
+            archive_url: archive_urls.first,
+            original_alive: true,
+            last_checked: Time.now.utc.iso8601,
+            formulas: [path],
+          )
+          registry.upsert(entry)
+          seeded += 1
         end
 
-        # Add mirror URL after the original URL in the YAML
-        # The original URL line looks like: "    - https://..."
-        if content.include?("    - #{original}")
-          if @dry_run
-            puts "  [DRY RUN] Would add mirror: #{mirror}"
-          else
-            content = content.sub("    - #{original}", "    - #{original}\n    - #{mirror}")
-            puts "  Added mirror: #{mirror}"
+        # URLs that are archive-only (dead originals already removed)
+        if original_urls.empty?
+          archive_urls.each do |au|
+            entry = ArchiveFonts::RegistryEntry.new(
+              url: au,
+              status: "archived",
+              archive_url: au,
+              original_alive: false,
+              last_checked: Time.now.utc.iso8601,
+              formulas: [path],
+            )
+            registry.upsert(entry)
+            seeded += 1
           end
         end
       end
-
-      unless @dry_run
-        File.write(formula_file, content)
-        puts "  Saved: #{formula_file}"
-      end
-    end
-  end
-
-  def http_get(url)
-    uri = URI.parse(url)
-    http = Net::HTTP.new(uri.host, uri.port)
-    http.use_ssl = true
-    http.open_timeout = 15
-    http.read_timeout = 30
-
-    request = Net::HTTP::Get.new(uri.request_uri, headers_with_ua)
-    http.request(request)
-  end
-
-  def http_head(url)
-    uri = URI.parse(url)
-    http = Net::HTTP.new(uri.host, uri.port)
-    http.use_ssl = true
-    http.open_timeout = 15
-    http.read_timeout = 30
-
-    request = Net::HTTP::Head.new(uri.request_uri, headers_with_ua)
-    http.request(request)
-  end
-
-  def headers_with_ua
-    { "User-Agent" => USER_AGENTS.sample }
-  end
-
-  def print_summary(results)
-    puts
-    puts "=" * 60
-    puts "ARCHIVE SUMMARY"
-    puts "=" * 60
-
-    counts = results.group_by { |r| r[:status] }
-    counts.each { |status, items| puts "  #{status}: #{items.size}" }
-    puts
-
-    newly = results.select { |r| r[:status] == :newly_archived || r[:status] == :already_archived }
-    if newly.any?
-      puts "Archived URLs:"
-      newly.each { |r| puts "  #{r[:url]}" }
-      puts
-      puts "Mirror URLs:"
-      newly.each { |r| puts "  #{r[:archived_url]}" if r[:archived_url] }
     end
 
-    failed = results.select { |r| r[:status] == :failed }
-    if failed.any?
-      puts
-      puts "Failed:"
-      failed.each { |r| puts "  #{r[:url]}" }
+    registry.save
+    puts "Seeded #{seeded} entries from existing formulas"
+    puts "Registry saved to #{options[:registry]}"
+  end
+
+  desc "prepare-matrix", "Output JSON matrix of URL chunks for parallel processing"
+  option :formula_dir, type: :string, default: "Formulas"
+  option :group, type: :string, desc: "Filter: manual, sil, macos"
+  option :chunk_size, type: :numeric, default: 50, desc: "URLs per chunk"
+  option :registry, type: :string, default: "process/archive_registry.yml"
+  def prepare_matrix
+    registry = ArchiveFonts::Registry.load(options[:registry])
+    collector = ArchiveFonts::URLCollector.new
+
+    items = collector.from_directory(options[:formula_dir], group: options[:group])
+
+    # Filter to only URLs that need processing
+    items = items.select do |item|
+      entry = registry.find(item[:url])
+      !entry&.archived?
     end
+
+    chunk_size = options[:chunk_size]
+    chunks = items.each_slice(chunk_size).map.with_index do |slice, i|
+      { "index" => i, "urls" => slice.map { |it| it[:url] } }
+    end
+
+    require "json"
+    puts JSON.generate({ "include" => chunks })
+  end
+
+  def self.exit_on_failure?
+    true
   end
 end
 
-ArchiveFonts.new(ARGV.dup).call
+ArchiveFontsCLI.start(ARGV)
