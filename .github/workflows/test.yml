@@ -3,15 +3,19 @@ name: test
 on:
   push:
     branches: [ 'v[0-9]+' ]
-    paths-ignore:
-      - 'docs/**'
-      - '.github/workflows/docs.yml'
-      - '.github/workflows/links.yml'
+    paths:
+      - 'Formulas/**'
+      - 'test/**'
+      - '.github/scripts/**'
+      - '.github/workflows/test.yml'
+      - 'Gemfile*'
   pull_request:
-    paths-ignore:
-      - 'docs/**'
-      - '.github/workflows/docs.yml'
-      - '.github/workflows/links.yml'
+    paths:
+      - 'Formulas/**'
+      - 'test/**'
+      - '.github/scripts/**'
+      - '.github/workflows/test.yml'
+      - 'Gemfile*'
 
 jobs:
   test:
