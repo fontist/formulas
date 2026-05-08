@@ -5,16 +5,16 @@ homepage: http://www.microsoft.com
 resources:
   webcore.rpm:
     urls:
-    - http://mirror.math.princeton.edu/pub/pclinuxos/pclinuxos/srpms/SRPMS.pclos/webcore-fonts-1.3-4pclos2017.src.rpm
+    - http://mirror.math.princeton.edu/pub/pclinuxos/srpms/SRPMS.pclos/webcore-fonts-1.3-4pclos2017.src.rpm
     - https://web.archive.org/web/20220403052754/http://mirror.math.princeton.edu/pub/pclinuxos/pclinuxos/srpms/SRPMS.pclos/webcore-fonts-1.3-4pclos2017.src.rpm
-    - http://ftp.jaist.ac.jp/pub/Linux/PCLinuxOS/pclinuxos/srpms/SRPMS.pclos/webcore-fonts-1.3-4pclos2017.src.rpm
+    - http://ftp.jaist.ac.jp/pub/Linux/PCLinuxOS/srpms/SRPMS.pclos/webcore-fonts-1.3-4pclos2017.src.rpm
     - https://ftp.sjtu.edu.cn/sites/www.pclinuxos.com/pclinuxos/srpms/SRPMS.pclos/webcore-fonts-1.3-4pclos2017.src.rpm
     - https://web.archive.org/web/20220403051221/https://ftp.sjtu.edu.cn/sites/www.pclinuxos.com/pclinuxos/srpms/SRPMS.pclos/webcore-fonts-1.3-4pclos2017.src.rpm
-    - https://mirrors.uni-ruse.bg/pclinuxos/pclinuxos/srpms/SRPMS.pclos/webcore-fonts-1.3-4pclos2017.src.rpm
+    - https://mirrors.uni-ruse.bg/pclinuxos/srpms/SRPMS.pclos/webcore-fonts-1.3-4pclos2017.src.rpm
     - http://ftp.klid.dk/ftp/pclinuxos/srpms/SRPMS.pclos/webcore-fonts-1.3-4pclos2017.src.rpm
     - http://openvz.mirror.garr.it/mirrors/pclinuxos/srpms/SRPMS.pclos/webcore-fonts-1.3-4pclos2017.src.rpm
-    - https://archive.ubuntulinux.jp/pub/Linux/PCLinuxOS/pclinuxos/srpms/SRPMS.pclos/webcore-fonts-1.3-4pclos2017.src.rpm
-    - http://distrib-coffee.ipsl.jussieu.fr/pub/linux/pclinuxos/pclinuxos/srpms/SRPMS.pclos/webcore-fonts-1.3-4pclos2017.src.rpm
+    - https://archive.ubuntulinux.jp/pub/Linux/PCLinuxOS/srpms/SRPMS.pclos/webcore-fonts-1.3-4pclos2017.src.rpm
+    - http://distrib-coffee.ipsl.jussieu.fr/pub/linux/pclinuxos/srpms/SRPMS.pclos/webcore-fonts-1.3-4pclos2017.src.rpm
     sha256: d9d99c0a27a97debc829f210b29bfc974099ca5d81f96da58e65c66dcf6fc581
     file_size: 9320503
 font_collections:
@@ -709,4 +709,4 @@ requires_license_agreement: |-
   Linux end users a very easy way to use them, trough an RPM package.
 
   These fonts are free only for who have a Microsoft Windows license.
-command: create-formula --name pclinux_webcore_fonts http://mirror.math.princeton.edu/pub/pclinuxos/pclinuxos/srpms/SRPMS.pclos/webcore-fonts-1.3-4pclos2017.src.rpm
+command: create-formula --name pclinux_webcore_fonts http://mirror.math.princeton.edu/pub/pclinuxos/srpms/SRPMS.pclos/webcore-fonts-1.3-4pclos2017.src.rpm
