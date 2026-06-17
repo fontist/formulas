@@ -1009,6 +1009,48 @@ const formulasJson = allFormulas.map((f) => ({
 
 await writeFile("public/formulas-data.json", JSON.stringify(formulasJson, null, 2));
 
+// Lightweight stats for the homepage counters.
+// Lets the landing page render totals without fetching the full 1.8MB index.
+// See https://github.com/fontist/formulas/issues/245
+const stats = {
+  total: allFormulas.length,
+  licenses: {
+    open_source: 0,
+    freely_distributable: 0,
+    platform_restricted: 0,
+    bundled_software: 0,
+  },
+  sources: {
+    google: 0,
+    sil: 0,
+    macos: 0,
+    manual: 0,
+  },
+};
+allFormulas.forEach((f) => {
+  const lic = f.licenseCategory || "unknown";
+  if (stats.licenses[lic] !== undefined) stats.licenses[lic]++;
+  const src = f.sourceType || "unknown";
+  if (stats.sources[src] !== undefined) stats.sources[src]++;
+});
+await writeFile("public/stats.json", JSON.stringify(stats, null, 2));
+
+// Slim search index for the homepage autocomplete dropdown.
+// Lazy-loaded only when the user focuses the search input.
+// Drops licenseName, platforms, styleCount and other fields the homepage
+// never reads, cutting payload substantially versus formulas-data.json.
+const searchIndex = allFormulas.map((f) => ({
+  name: f.name,
+  formulaName: f.formulaName,
+  slug: f.slug,
+  familyNames: f.familyNames,
+  licenseType: f.licenseType,
+  licenseCategory: f.licenseCategory,
+  sourceType: f.sourceType,
+  familyCount: f.familyCount,
+}));
+await writeFile("public/search-index.json", JSON.stringify(searchIndex, null, 2));
+
 // Generate Vue-based interactive index page
 const indexMd = `\
 ---

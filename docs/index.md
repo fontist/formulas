@@ -6,28 +6,16 @@ pageClass: formulas-index
 
 <script setup>
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
+import { data as buildTimeStats } from './.vitepress/stats.data'
 
 const formulasData = ref([])
 const searchQuery = ref('')
 const showAutocomplete = ref(false)
 const copied = ref(false)
 const selectedIndex = ref(-1)
+let searchIndexPromise = null
 
-const stats = ref({
-  total: 0,
-  licenses: {
-    open_source: 0,
-    freely_distributable: 0,
-    platform_restricted: 0,
-    bundled_software: 0
-  },
-  sources: {
-    google: 0,
-    sil: 0,
-    macos: 0,
-    manual: 0
-  }
-})
+const stats = ref(buildTimeStats)
 
 const autocompleteResults = computed(() => {
   if (!searchQuery.value.trim()) return []
@@ -41,27 +29,20 @@ const autocompleteResults = computed(() => {
 
 const basePath = import.meta.env.BASE_URL || '/'
 
-onMounted(async () => {
-  try {
-    const response = await fetch(`${basePath}formulas-data.json`)
-    const data = await response.json()
-    formulasData.value = data
-    stats.value.total = data.length
-
-    data.forEach(f => {
-      const lic = f.licenseCategory || 'unknown'
-      if (stats.value.licenses[lic] !== undefined) {
-        stats.value.licenses[lic]++
-      }
-      const src = f.sourceType || 'unknown'
-      if (stats.value.sources[src] !== undefined) {
-        stats.value.sources[src]++
-      }
-    })
-  } catch (e) {
-    console.error('Failed to load stats:', e)
+function loadSearchIndex() {
+  if (!searchIndexPromise) {
+    searchIndexPromise = fetch(`${basePath}search-index.json`)
+      .then(r => r.json())
+      .then(data => { formulasData.value = data })
+      .catch(e => {
+        console.error('Failed to load search index:', e)
+        searchIndexPromise = null
+      })
   }
+  return searchIndexPromise
+}
 
+onMounted(() => {
   document.addEventListener('click', handleClickOutside)
 })
 
@@ -165,6 +146,7 @@ watch(searchQuery, (val) => {
     </svg>
     <input
       v-model="searchQuery"
+      @focus="loadSearchIndex"
       type="search"
       placeholder="Search by name, family, or formula..."
       class="search-input"
