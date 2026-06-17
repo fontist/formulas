@@ -261,6 +261,20 @@ jobs:
           done
         shell: bash
 
+      - name: Rewrite clean URLs to directory style
+        # VitePress cleanUrls:true emits foo.html and expects the host to
+        # rewrite /foo/ -> /foo.html. GitHub Pages doesn't, so every browse
+        # page 404s on its directory-style URL. Convert each non-index .html
+        # to <name>/index.html so /foo/ resolves natively.
+        run: |
+          find dist -type f -name "*.html" ! -name "index.html" | while read -r f; do
+            dir="$(dirname "$f")/$(basename "$f" .html)"
+            mkdir -p "$dir"
+            mv "$f" "$dir/index.html"
+          done
+          echo "Rewrote $(find dist -type d -name index.html -exec dirname {} \; | wc -l) pages"
+        shell: bash
+
       - name: Upload combined artifact
         uses: actions/upload-pages-artifact@v4
         with:
