@@ -3,7 +3,7 @@
     "predev": "node generate.js",
     "dev": "vitepress dev",
     "prebuild": "node generate.js",
-    "build": "bash build.sh",
+    "build": "node build.js",
     "preview": "vitepress preview",
     "format": "prettier -w ."
   },
