@@ -83,14 +83,30 @@ jobs:
       - name: Comment PR with results
         if: failure() && github.event_name == 'pull_request'
         uses: actions/github-script@v7
+        env:
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         with:
           script: |
             const fs = require('fs');
+            // GitHub rejects PR comments longer than 65536 chars. The lychee
+            // report often exceeds this when many formula URLs are broken, so
+            // we cap the body and point readers to the uploaded artifact.
+            const MAX_BODY = 60000;
+
             let comment = '## 🔗 Link Check Failed\n\n';
+            comment += `Full report: [workflow run](${process.env.RUN_URL}) → download the \`link-check-results\` artifact.\n\n`;
 
             if (fs.existsSync('docs/link-check-results.md')) {
               const results = fs.readFileSync('docs/link-check-results.md', 'utf8');
-              comment += '### Results\n\n' + results + '\n\n';
+              if (comment.length + results.length <= MAX_BODY) {
+                comment += '### Results\n\n' + results;
+              } else {
+                const budget = MAX_BODY - comment.length - 200;
+                const truncated = results.substring(0, budget);
+                const lastNewline = truncated.lastIndexOf('\n');
+                const safe = lastNewline > 0 ? truncated.substring(0, lastNewline) : truncated;
+                comment += '### Results (truncated — see artifact for full report)\n\n' + safe;
+              }
             }
 
             github.rest.issues.createComment({
