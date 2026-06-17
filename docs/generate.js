@@ -19,6 +19,15 @@ function escapeYAMLString(str) {
   return str.replace(/\\/g, "\\\\").replace(/"/g, '\\"');
 }
 
+// Prevent markdown autolinking of bare URLs in body text (descriptions,
+// copyrights). The backslash escapes the colon so markdown-it renders the
+// URL as plain text instead of an <a href>. License/EULA body text is
+// already safe — it ships inside ```code blocks```.
+function escapeBareUrls(str) {
+  if (!str) return "";
+  return str.replace(/(https?:)(\/\/)/g, "$1\\$2");
+}
+
 // Detect formula source type from path
 function detectSourceType(slug) {
   if (slug.startsWith("google/")) return "google";
@@ -85,16 +94,37 @@ function detectLicenseInfo(yaml, sourceType) {
   // Combine all text for license detection
   const allText = `${licenseUrl} ${openLicense} ${copyright}`.toLowerCase();
 
+  // Platform-tied sources (macOS) win over SPDX detection: a macOS font is
+  // platform_restricted regardless of any SPDX code on the formula, because
+  // the SPDX code (often LicenseRef-Apple-EA1705) describes the EULA text,
+  // not the redistribution category. Without this guard, all 2,107 macOS
+  // fonts get miscategorized as open_source via the SPDX fallback below.
+  if (sourceType === "macos") {
+    return {
+      type: "macos",
+      name: "Apple-only License",
+      badge: svgBadge("License", "Apple-only", "#f0ad4e", 120),
+      docLink: "/licenses/apple-only",
+      spdxUrl: null,
+      category: "platform_restricted",
+      isOpen: false,
+      warning: "⚠️ **Platform Restricted**: These fonts are licensed for use on macOS only. Installation on other platforms may violate Apple's license terms.",
+    };
+  }
+
   // Fast path: use spdx_license field if available
   if (spdxLicense) {
     if (spdxLicense.startsWith("OFL-1.1")) {
       const isRfn = spdxLicense.includes("-RFN");
+      // SPDX URLs are case-sensitive: OFL-1.1-RFN.html and OFL-1.1-no-RFN.html
+      // exist, but OFL-1.1-NO-RFN.html does not. YAML stores it uppercase.
+      const spdxPath = spdxLicense.replace("-NO-RFN", "-no-RFN");
       return {
         type: "ofl",
         name: `SIL Open Font License 1.1${isRfn ? " (with RFN)" : ""}`,
         badge: svgBadge("License", isRfn ? "OFL 1.1-RFN" : "OFL 1.1", "#28a745", isRfn ? 140 : 120),
         docLink: "/licenses/ofl",
-        spdxUrl: `https://spdx.org/licenses/${spdxLicense}.html`,
+        spdxUrl: `https://spdx.org/licenses/${spdxPath}.html`,
         category: "open_source",
         isOpen: true,
       };
@@ -171,30 +201,36 @@ function detectLicenseInfo(yaml, sourceType) {
         category: "open_source", isOpen: true,
       };
     }
-    // Generic fallback for known SPDX codes not matched above
+    // Generic fallback for SPDX codes not matched above.
+    // LicenseRef-* codes are vendor-specific references with no SPDX page
+    // (spdxUrl=null). Categorize by vendor prefix so the browse page and
+    // stats reflect the right redistribution category instead of dumping
+    // everything into open_source.
+    const isLicenseRef = spdxLicense.startsWith("LICENSEREF-");
+    let refType = "spdx_other";
+    let refCategory = "open_source";
+    let refBadgeText = spdxLicense.slice(0, 15);
+    let refBadgeColor = "#28a745";
+    if (isLicenseRef) {
+      if (spdxLicense.startsWith("LICENSEREF-APPLE-")) {
+        refType = "macos"; refCategory = "platform_restricted";
+        refBadgeText = "Apple-only"; refBadgeColor = "#f0ad4e";
+      } else if (spdxLicense.startsWith("LICENSEREF-MICROSOFT-FONTPACK-")) {
+        refType = "ms_web_fonts"; refCategory = "freely_distributable";
+        refBadgeText = "MS Web Fonts"; refBadgeColor = "#007bff";
+      } else if (spdxLicense.startsWith("LICENSEREF-MICROSOFT-")) {
+        refType = "ms_office"; refCategory = "bundled_software";
+        refBadgeText = "MS Software"; refBadgeColor = "#8b5cf6";
+      } else if (spdxLicense.startsWith("LICENSEREF-ADOBE-")) {
+        refType = "adobe"; refCategory = "bundled_software";
+        refBadgeText = "Adobe Software"; refBadgeColor = "#8b5cf6";
+      }
+    }
     return {
-      type: "spdx_other", name: spdxLicense,
-      badge: svgBadge("License", spdxLicense.slice(0, 15), "#28a745", 120),
-      docLink: null, spdxUrl: `https://spdx.org/licenses/${spdxLicense}.html`,
-      category: "open_source", isOpen: true,
-    };
-  }
-
-  // ============================================================
-  // PLATFORM RESTRICTED
-  // ============================================================
-
-  // macOS fonts
-  if (sourceType === "macos") {
-    return {
-      type: "macos",
-      name: "Apple-only License",
-      badge: svgBadge("License", "Apple-only", "#f0ad4e", 120),
-      docLink: "/licenses/apple-only",
-      spdxUrl: null,
-      category: "platform_restricted",
-      isOpen: false,
-      warning: "⚠️ **Platform Restricted**: These fonts are licensed for use on macOS only. Installation on other platforms may violate Apple's license terms.",
+      type: refType, name: spdxLicense,
+      badge: svgBadge("License", refBadgeText, refBadgeColor, 120),
+      docLink: null, spdxUrl: isLicenseRef ? null : `https://spdx.org/licenses/${spdxLicense}.html`,
+      category: refCategory, isOpen: refCategory === "open_source",
     };
   }
 
@@ -899,7 +935,7 @@ ${licenseInfo.warning || ""}${licenseTextSection}${
     copyrightSection = `## Copyright
 
 ${[...allCopyrights]
-  .map((c) => `- ${c.replace(/</g, "&lt;").replace(/>/g, "&gt;")}`)
+  .map((c) => `- ${escapeBareUrls(c.replace(/</g, "&lt;").replace(/>/g, "&gt;"))}`)
   .join("\n")}
 `;
   }
@@ -950,7 +986,7 @@ outline: [2, 3]
 
 ${badges}
 
-${yaml.description && yaml.description !== displayName ? yaml.description + "\n" : ""}## Quick Install
+${yaml.description && yaml.description !== displayName ? escapeBareUrls(yaml.description) + "\n" : ""}## Quick Install
 
 \`\`\`bash
 ${installCmd}

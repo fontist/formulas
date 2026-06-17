@@ -56,6 +56,31 @@ async function countHtmlFiles(dir) {
   return n;
 }
 
+// VitePress with cleanUrls:true emits foo.html and expects the host to
+// rewrite /foo/ -> /foo.html. GitHub Pages doesn't, so every browse page
+// 404s on its directory-style URL. Convert each non-index .html to
+// <name>/index.html so /foo/ resolves natively.
+async function rewriteCleanUrls(dir) {
+  let count = 0;
+  async function walk(d) {
+    const entries = await readdir(d, { withFileTypes: true });
+    for (const e of entries) {
+      const full = join(d, e.name);
+      if (e.isDirectory()) {
+        await walk(full);
+      } else if (e.isFile() && e.name.endsWith(".html") && e.name !== "index.html") {
+        const baseName = e.name.slice(0, -5);
+        const newDir = join(d, baseName);
+        await mkdir(newDir, { recursive: true });
+        await rename(full, join(newDir, "index.html"));
+        count++;
+      }
+    }
+  }
+  await walk(dir);
+  return count;
+}
+
 function run(cmd, args, env = process.env) {
   const result = spawnSync(cmd, args, {
     stdio: "inherit",
@@ -156,6 +181,10 @@ async function main() {
   await rm(STAGING_DIR, { recursive: true, force: true });
   await rm(DIST_DIR, { recursive: true, force: true });
   await rename(FINAL_DIR, DIST_DIR);
+
+  console.log("=== Rewriting clean URLs to directory style ===");
+  const rewritten = await rewriteCleanUrls(DIST_DIR);
+  console.log(`Rewrote ${rewritten} pages`);
 
   console.log(`\n=== Build complete: ${await countHtmlFiles(DIST_DIR)} total HTML pages ===`);
 }
