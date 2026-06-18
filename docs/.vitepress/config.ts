@@ -94,7 +94,7 @@ export default defineConfig({
     ],
     ["link", { rel: "manifest", href: "/site.webmanifest" }],
     ["meta", { property: "og:type", content: "website" }],
-    ["meta", { property: "og:image", content: `${SITE_BASE}logo-full.svg` }],
+    ["meta", { property: "og:image", content: `${SITE_ORIGIN}/og-image.png` }],
     ["meta", { name: "twitter:card", content: "summary_large_image" }],
   ],
 
@@ -118,8 +118,7 @@ export default defineConfig({
   // generic "Fontist Formulas" for every page.
   transformHead(context) {
     const pageData = context.pageData;
-    const title =
-      (pageData.frontmatter.title as string) || "Fontist Formulas";
+    const title = pageData.title || "Fontist Formulas";
     const description =
       (pageData.frontmatter.description as string) ||
       "Searchable index of all Fontist Formulas";
