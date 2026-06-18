@@ -147,6 +147,29 @@ extract:
   format: gzip       # For GZIP files
 ```
 
+## Categories
+
+Optional structured classification used by the docs site's browse filters and the formula detail page badges. All fields are optional — omit the ones you don't know.
+
+```yaml
+categories:
+  style: sans-serif          # Primary style classification
+  script: [latin, cjk]       # Supported scripts (string or array)
+  variable: false            # Whether the font is a variable font
+  use_case: body             # Intended primary use case
+```
+
+### Controlled Vocabulary
+
+| Field | Type | Allowed Values |
+|-------|------|----------------|
+| `style` | string | `serif`, `sans-serif`, `monospace`, `display`, `script`, `handwriting`, `decorative` |
+| `script` | string or array | `latin`, `cjk`, `arabic`, `cyrillic`, `hebrew`, `devanagari`, `thai`, `other` |
+| `variable` | boolean | `true`, `false` (inferred from `resources.format` if omitted) |
+| `use_case` | string | `body`, `heading`, `code`, `ui`, `decorative`, `caption` |
+
+Values outside this vocabulary emit a warning (not error) during schema validation, so the vocabulary can evolve as new fonts are added.
+
 ## Example: Complete Formula
 
 ```yaml
