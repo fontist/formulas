@@ -9,6 +9,7 @@ require "tmpdir"
 require "optparse"
 require "fileutils"
 require "time"
+require "json"
 require "fontist"
 
 class InstallFormulas
@@ -55,6 +56,10 @@ class InstallFormulas
       opts.on("--output FILE", "Write results to file") do |file|
         @output_file = file
       end
+
+      opts.on("--json-output FILE", "Write structured results as JSON") do |file|
+        @json_output = file
+      end
     end.parse!
 
     @directory ||= "Formulas"
@@ -66,12 +71,14 @@ class InstallFormulas
     @sample_size ||= nil
     @continue_on_error ||= false
     @output_file ||= nil
+    @json_output ||= nil
     @full ||= false
 
     @errors = []
     @successes = []
     @skipped = []
     @mutex = Mutex.new
+    @started_at = Time.now.utc
   end
 
   def call
@@ -106,6 +113,7 @@ class InstallFormulas
 
     print_results
     write_results if @output_file
+    write_json_results if @json_output
 
     exit 1 if @errors.any? && !@continue_on_error
   end
@@ -117,6 +125,7 @@ class InstallFormulas
       Signal.trap(sig) do
         $stderr.puts "\nCaught SIG#{sig}, writing results before exit..."
         write_results if @output_file
+        write_json_results if @json_output
         exit 1
       end
     end
@@ -238,19 +247,24 @@ class InstallFormulas
       @mutex.synchronize { @skipped << "#{formula_name} (platform: #{e.message.slice(0, 80)})" }
       puts "  SKIP: #{e.message.slice(0, 80)}"
     rescue StandardError => e
-      @mutex.synchronize { @errors << { name: formula_name, error: e.message } }
+      @mutex.synchronize do
+        @errors << { name: formula_name, path: formula_path, error: e.message }
+      end
       puts "  FAILED: #{e.message}"
 
       raise unless @continue_on_error
     end
 
     write_results if @output_file && (@successes.size + @errors.size) % 50 == 0
+    write_json_results if @json_output && (@successes.size + @errors.size) % 50 == 0
   end
 
   def load_formula(path)
     YAML.load_file(path)
   rescue StandardError => e
-    @mutex.synchronize { @errors << { name: path, error: "Parse error: #{e.message}" } }
+    @mutex.synchronize do
+      @errors << { name: path, path: path, error: "Parse error: #{e.message}" }
+    end
     nil
   end
 
@@ -330,6 +344,49 @@ class InstallFormulas
 
     File.write(@output_file, results.to_yaml)
     puts "\nResults written to: #{@output_file}"
+  end
+
+  def write_json_results
+    failures = @errors.map do |e|
+      path = e[:path] || e[:name]
+      {
+        "formula" => derive_formula_name(e[:name], path),
+        "formula_path" => relativise(path.to_s),
+        "message" => e[:error].to_s.split("\n").first,
+        "severity" => "error",
+      }
+    end
+
+    data = {
+      "check" => "install",
+      "platform" => @platform || "all",
+      "scope" => @full ? "full" : "rotation:#{@rotation_day}",
+      "started_at" => @started_at.iso8601,
+      "completed_at" => Time.now.utc.iso8601,
+      "summary" => {
+        "total" => @successes.size + @errors.size,
+        "passed" => @successes.size,
+        "failed" => @errors.size,
+        "warnings" => 0,
+        "skipped" => @skipped.size,
+      },
+      "failures" => failures,
+      "warnings" => [],
+    }
+
+    FileUtils.mkdir_p(File.dirname(@json_output))
+    File.write(@json_output, JSON.pretty_generate(data))
+    puts "JSON results written to: #{@json_output}"
+  end
+
+  def derive_formula_name(name, path)
+    return File.basename(path, ".yml") if path.to_s.end_with?(".yml")
+
+    name.to_s
+  end
+
+  def relativise(path)
+    path.sub(%r{^\./}, "")
   end
 end
 

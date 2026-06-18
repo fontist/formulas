@@ -7,6 +7,8 @@
 require "yaml"
 require "optparse"
 require "date"
+require "json"
+require "fileutils"
 
 class ValidateSchema
   SCHEMA_V5_REQUIRED_FIELDS = %w[resources].freeze
@@ -28,6 +30,14 @@ class ValidateSchema
       opts.on("--fail-fast", "Stop on first error") do
         @fail_fast = true
       end
+
+      opts.on("--json-output FILE", "Write structured results as JSON") do |file|
+        @json_output = file
+      end
+
+      opts.on("--only PATHS", "Comma-separated list of formula paths (skip glob)") do |paths|
+        @only = paths.split(",").map(&:strip)
+      end
     end.parse!
 
     @directory ||= "Formulas"
@@ -36,6 +46,7 @@ class ValidateSchema
     @warnings = []
     @total = 0
     @passed = 0
+    @started_at = Time.now.utc
   end
 
   def call
@@ -53,12 +64,16 @@ class ValidateSchema
     end
 
     print_results
+    write_json_results if @json_output
+
     exit 1 if @errors.any?
   end
 
   private
 
   def formula_files
+    return @only.select { |f| File.exist?(f) }.sort if @only
+
     Dir.glob(File.join(@directory, "**/*.yml")).sort
   end
 
@@ -245,6 +260,64 @@ class ValidateSchema
       puts "All formulas passed schema validation."
     else
       puts "Schema validation FAILED."
+    end
+  end
+
+  def write_json_results
+    failures = @errors.map do |e|
+      {
+        "formula" => derive_formula_name(e[:file]),
+        "formula_path" => relativise(e[:file]),
+        "message" => e[:message],
+        "severity" => "error",
+      }
+    end
+
+    warnings = @warnings.map do |w|
+      {
+        "formula" => derive_formula_name(w[:file]),
+        "formula_path" => relativise(w[:file]),
+        "message" => w[:message],
+        "severity" => "warning",
+      }
+    end
+
+    data = {
+      "check" => "schema",
+      "platform" => "all",
+      "scope" => derive_scope,
+      "started_at" => @started_at.iso8601,
+      "completed_at" => Time.now.utc.iso8601,
+      "summary" => {
+        "total" => @total,
+        "passed" => @passed,
+        "failed" => @errors.size,
+        "warnings" => @warnings.size,
+        "skipped" => 0,
+      },
+      "failures" => failures,
+      "warnings" => warnings,
+    }
+
+    FileUtils.mkdir_p(File.dirname(@json_output))
+    File.write(@json_output, JSON.pretty_generate(data))
+    puts "JSON results written to: #{@json_output}"
+  end
+
+  def derive_formula_name(file)
+    File.basename(file, ".yml")
+  end
+
+  def relativise(file)
+    file.sub(%r{^\./}, "")
+  end
+
+  def derive_scope
+    case @directory
+    when %r{google}i then "google"
+    when %r{sil}i then "sil"
+    when %r{macos}i then "macos"
+    else "full"
     end
   end
 end
