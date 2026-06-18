@@ -242,6 +242,11 @@ jobs:
     needs: [build-main, build-batch]
     runs-on: ubuntu-latest
     steps:
+      # Checkout needed so the combine job can run docs/generate-sitemap.js
+      # (the script that scans the final dist/ and emits a complete sitemap).
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Download main site
         uses: actions/download-artifact@v4
         with:
