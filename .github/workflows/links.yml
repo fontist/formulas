@@ -19,6 +19,10 @@ permissions:
   contents: read
   pull-requests: write
 
+# Match docs.yml — VitePress config reads SITE_URL for og:url / canonical / sitemap.
+env:
+  SITE_URL: https://www.fontist.org
+
 jobs:
   link_checker:
     runs-on: ubuntu-latest

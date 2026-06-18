@@ -20,6 +20,11 @@ permissions:
   pages: write
   id-token: write
 
+# Used by VitePress config for og:url, canonical URLs, and sitemap hostname.
+# VitePress reads process.env.SITE_URL; defaults to localhost for local dev.
+env:
+  SITE_URL: https://www.fontist.org
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
