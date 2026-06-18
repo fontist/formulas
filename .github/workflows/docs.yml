@@ -249,7 +249,13 @@ jobs:
           pattern: dist-batch-*
           path: batches
 
-      - name: Merge batch browse pages
+      - name: Merge batch browse pages and assets
+        # Each batch's VitePress build produces its own content-hashed JS chunks
+        # (app.HASH.js, browse_index.md.HASH.lean.js, etc.) because the page set
+        # differs per batch. Browse HTML from batch N references batch-N's hashes,
+        # so we must merge ALL batches' assets/ into dist/assets/ — otherwise
+        # client-side navigation 404s on the missing chunks (the SSR HTML still
+        # works on full page refresh, which masked this for a long time).
         run: |
           for d in batches/dist-batch-*/; do
             [ -d "$d" ] || continue
@@ -257,6 +263,10 @@ jobs:
             if [ -d "$d/browse" ]; then
               mkdir -p dist/browse
               cp -r "$d/browse/"* dist/browse/ 2>/dev/null || true
+            fi
+            if [ -d "$d/assets" ]; then
+              mkdir -p dist/assets
+              cp -r "$d/assets/"* dist/assets/ 2>/dev/null || true
             fi
           done
         shell: bash
