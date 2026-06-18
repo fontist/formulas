@@ -204,6 +204,17 @@ function scrollToLetter(letter) {
   if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
 }
 
+function goToFormula(slug) {
+  // Formula pages are rendered in CI batches (docs.yml build-batch matrix),
+  // and each batch's VitePress router manifest only includes its own pages.
+  // SPA navigation from /browse/ to a formula in a different batch hits a
+  // "Page not found" 404 even though the SSR HTML exists on the server.
+  // Bypass SPA routing for formula clicks — full page load fetches the
+  // correct HTML which loads the correct app chunk for that formula's batch.
+  const basePath = import.meta.env.BASE_URL || '/'
+  window.location.href = `${basePath}browse/${slug}/`
+}
+
 function toggleLicense(value) {
   if (value === 'all') {
     selectedLicenses.value = ['all']
@@ -255,7 +266,7 @@ function toggleSource(value) {
           <div v-for="letter in activeLetters" :key="letter" :id="'letter-' + letter" class="letter-group">
             <h3 class="letter-heading">{{ letter }}</h3>
             <div class="formula-items">
-              <a v-for="f in groupedFormulas[letter]" :key="f.slug" :href="f.slug + '/'" class="formula-item">
+              <a v-for="f in groupedFormulas[letter]" :key="f.slug" :href="f.slug + '/'" class="formula-item" @click.stop.prevent="goToFormula(f.slug)">
                 <div class="formula-main">
                   <span class="formula-name">{{ f.name }}</span>
                   <span class="formula-key">{{ f.formulaName }}</span>
