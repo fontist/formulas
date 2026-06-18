@@ -17,6 +17,10 @@ class ValidateSchema
   # But we should warn if it's missing for clarity
   SCHEMA_V5_OPTIONAL_BUT_RECOMMENDED = %w[name description].freeze
 
+  CATEGORY_STYLES = %w[serif sans-serif monospace display script handwriting decorative].freeze
+  CATEGORY_SCRIPTS = %w[latin cjk arabic cyrillic hebrew devanagari thai other].freeze
+  CATEGORY_USE_CASES = %w[body heading code ui decorative caption].freeze
+
   def initialize(args)
     OptionParser.new do |opts|
       opts.banner = "Usage: ruby validate_schema.rb [options]"
@@ -77,6 +81,8 @@ class ValidateSchema
 
     validate_fonts_or_collections(file, content)
 
+    validate_categories(file, content)
+
     # Common validations
     validate_fonts(file, content)
     validate_naming(file, content)
@@ -114,6 +120,50 @@ class ValidateSchema
     resources.each do |name, resource|
       validate_v5_resource(file, name, resource)
     end
+  end
+
+  def validate_categories(file, content)
+    categories = content["categories"]
+    return unless categories
+
+    unless categories.is_a?(Hash)
+      add_error(file, "categories must be a mapping (hash), got #{categories.class}")
+      return
+    end
+
+    validate_category_enum(file, categories, "style", CATEGORY_STYLES, array: false)
+    validate_category_enum(file, categories, "script", CATEGORY_SCRIPTS, array: true)
+    validate_category_enum(file, categories, "use_case", CATEGORY_USE_CASES, array: false)
+
+    return unless categories.key?("variable") &&
+                  ![true, false].include?(categories["variable"])
+
+    add_error(file, "categories.variable must be boolean, " \
+                    "got #{categories["variable"].inspect}")
+  end
+
+  def validate_category_enum(file, categories, key, allowed, array:)
+    return unless categories.key?(key)
+
+    value = categories[key]
+    values = array ? normalize_array(value, key) : [value]
+    return if values.nil?
+
+    values.each do |v|
+      next if allowed.include?(v)
+
+      add_warning(file, "categories.#{key} unknown value '#{v}' " \
+                        "— allowed: #{allowed.join(', ')}")
+    end
+  end
+
+  def normalize_array(value, key)
+    return [value] unless value.is_a?(Array)
+
+    value
+  rescue StandardError
+    add_error(file, "categories.#{key} must be string or array")
+    nil
   end
 
   def validate_v5_resource(file, name, resource)
