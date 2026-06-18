@@ -82,6 +82,14 @@ function getLicenseBadge(f) {
   return `<img src="${basePath}licenses/unknown.svg" alt="Unknown" class="license-icon" title="Unknown">`
 }
 
+function goToFormula(slug) {
+  // Formula pages are rendered in CI batches, and each batch's VitePress
+  // router manifest only knows about its own pages. SPA navigation from
+  // the homepage to a formula in a different batch 404s. Force a full page
+  // load so the server sends the correct HTML with the correct app chunk.
+  window.location.href = `${basePath}browse/${slug}/`
+}
+
 function getSourceBadge(f) {
   if (!f) return `<img src="${basePath}sources/fontist.svg" alt="Expert Curated" class="source-icon" title="Expert Curated">`
   if (f.sourceType === 'google') return `<img src="${basePath}sources/google.svg" alt="Google Fonts" class="source-icon" title="Google Fonts">`
@@ -159,6 +167,7 @@ watch(searchQuery, (val) => {
         :href="basePath + 'browse/' + item.slug + '/'"
         :class="getItemClass(idx)"
         @mouseover="selectedIndex = idx"
+        @click.stop.prevent="goToFormula(item.slug)"
       >
         <div class="autocomplete-main">
           <span class="autocomplete-name">{{ item.name }}</span>
