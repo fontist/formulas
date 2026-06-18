@@ -87,7 +87,9 @@ function goToFormula(slug) {
   // router manifest only knows about its own pages. SPA navigation from
   // the homepage to a formula in a different batch 404s. Force a full page
   // load so the server sends the correct HTML with the correct app chunk.
-  window.location.href = `${basePath}browse/${slug}/`
+  // No trailing slash: cleanUrls:true route map expects /browse/foo, and
+  // GitHub Pages serves /browse/foo/index.html for either form.
+  window.location.href = `${basePath}browse/${slug}`
 }
 
 function getSourceBadge(f) {
@@ -125,7 +127,7 @@ function onKeydown(e) {
   } else if (e.key === 'Enter') {
     e.preventDefault()
     if (selectedIndex.value >= 0) {
-      window.location.href = `${basePath}browse/${results[selectedIndex.value].slug}/`
+      window.location.href = `${basePath}browse/${results[selectedIndex.value].slug}`
     } else {
       handleSearch(e)
     }
@@ -164,7 +166,7 @@ watch(searchQuery, (val) => {
       <a
         v-for="(item, idx) in autocompleteResults"
         :key="item.slug"
-        :href="basePath + 'browse/' + item.slug + '/'"
+        :href="basePath + 'browse/' + item.slug"
         :class="getItemClass(idx)"
         @mouseover="selectedIndex = idx"
         @click.stop.prevent="goToFormula(item.slug)"
