@@ -8,6 +8,12 @@
   --fontist-beige: #bebbac;
   --fontist-pale: #dddac8;
 
+  --fontist-display: "Iowan Old Style", "Apple Garamond", Baskerville, Georgia,
+    "Times New Roman", "Droid Serif", Times, serif;
+  --fontist-meta: var(--vp-font-family-mono, ui-monospace, SFMono-Regular, Menlo,
+    monospace);
+  --fontist-rule: var(--vp-c-divider, rgba(60, 60, 67, 0.12));
+
   /* VitePress Theme Overrides - Light Mode */
   --vp-c-brand-1: var(--fontist-rose);
   --vp-c-brand-2: #a3435a;
@@ -249,4 +255,340 @@ html.dark .vp-doc [class*="language-"] {
   margin-left: 0.3em;
   letter-spacing: 0.02em;
   line-height: 1.4;
+}
+
+.vp-doc:has(.formula-hero) .formula-hero {
+  margin: 0 0 2.5rem;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.vp-doc:has(.formula-hero) .hero-eyebrow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.vp-doc:has(.formula-hero) .hero-title {
+  font-family: var(--fontist-display);
+  font-weight: 500;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  color: var(--vp-c-text-1);
+  margin: 0;
+  padding: 0;
+  border-bottom: none;
+}
+
+.vp-doc:has(.formula-hero) .hero-desc {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--vp-c-text-2);
+  max-width: 65ch;
+  margin: 0.85rem 0 0;
+}
+
+.vp-doc:has(.formula-hero) .detail-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.22rem 0.6rem;
+  border: 1px solid var(--fontist-rule);
+  border-radius: 999px;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  text-decoration: none;
+  color: var(--vp-c-text-2);
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.vp-doc:has(.formula-hero) .detail-chip--link:hover {
+  border-color: var(--fontist-rose);
+  color: var(--vp-c-text-1);
+}
+
+.vp-doc:has(.formula-hero) .detail-chip-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--fontist-rose);
+  opacity: 0.75;
+  flex-shrink: 0;
+}
+
+.vp-doc:has(.formula-hero) .detail-chip-k {
+  font-family: var(--fontist-meta);
+  font-size: 0.58rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--vp-c-text-3);
+  opacity: 0.8;
+}
+
+.vp-doc:has(.formula-hero) .detail-chip-v {
+  font-weight: 500;
+  color: var(--vp-c-text-1);
+}
+
+.vp-doc:has(.formula-hero) h2#install + div[class*="language-"] {
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--fontist-rule);
+  border-radius: 8px;
+  margin: 1rem 0 0.5rem;
+  padding: 1rem 1.25rem;
+  font-size: 0.95rem;
+}
+
+.vp-doc:has(.formula-hero) h2#install + div[class*="language-"] code {
+  color: var(--fontist-rose);
+  background: transparent;
+  font-size: 0.95rem;
+  font-family: var(--fontist-meta);
+}
+
+.vp-doc:has(.formula-hero) h2#install + div[class*="language-"] .copy,
+.vp-doc:has(.formula-hero) h2#install + div[class*="language-"] button.copy {
+  color: var(--vp-c-text-3);
+}
+
+.vp-doc:has(.formula-hero) h2#install + div[class*="language-"] .lang {
+  color: var(--vp-c-text-3);
+  opacity: 0.5;
+}
+
+.vp-doc:has(.formula-hero) .source-line {
+  font-family: var(--fontist-meta);
+  font-size: 0.75rem;
+  color: var(--vp-c-text-3);
+  margin: 0.5rem 0 0;
+  line-height: 1.8;
+}
+
+.vp-doc:has(.formula-hero) .source-link {
+  color: var(--vp-c-text-2);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.vp-doc:has(.formula-hero) .source-link:hover {
+  color: var(--fontist-rose);
+  border-bottom-color: var(--fontist-rose);
+}
+
+.vp-doc:has(.formula-hero) .import-meta {
+  color: var(--vp-c-text-3);
+}
+
+.vp-doc:has(.formula-hero) h2 {
+  font-family: var(--fontist-display);
+  font-weight: 400;
+  font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+  letter-spacing: -0.02em;
+  color: var(--vp-c-text-1);
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem;
+  border-top: none;
+  border-bottom: 1px solid var(--fontist-rule);
+}
+
+.vp-doc:has(.formula-hero) h2:first-of-type {
+  margin-top: 2rem;
+}
+
+.vp-doc:has(.formula-hero) h3 {
+  font-family: var(--fontist-display);
+  font-weight: 500;
+  font-size: clamp(1.25rem, 2.5vw, 1.6rem);
+  letter-spacing: -0.02em;
+  color: var(--vp-c-text-1);
+  margin-top: 2.5rem;
+  margin-bottom: 0.25rem;
+  scroll-margin-top: calc(var(--vp-nav-height, 64px) + 1.5rem);
+}
+
+.vp-doc:has(.formula-hero) h3 + p {
+  font-family: var(--fontist-meta);
+  font-size: 0.7rem;
+  letter-spacing: 0.02em;
+  color: var(--vp-c-text-3);
+  margin: 0 0 0.5rem;
+  font-style: italic;
+}
+
+.vp-doc:has(.formula-hero) .family-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.6rem;
+  padding: 0.75rem 0 0.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px dashed var(--fontist-rule);
+}
+
+.vp-doc:has(.formula-hero) .family-jump-link {
+  font-family: var(--fontist-meta);
+  font-size: 0.7rem;
+  letter-spacing: 0.02em;
+  color: var(--vp-c-text-3);
+  text-decoration: none;
+  padding: 0.15rem 0.4rem;
+  border-radius: 3px;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+.vp-doc:has(.formula-hero) .family-jump-link:hover {
+  color: var(--fontist-rose);
+  background: var(--vp-c-brand-soft);
+}
+
+.vp-doc:has(.formula-hero) table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.85rem;
+  margin: 0.75rem 0 1.5rem;
+}
+
+.vp-doc:has(.formula-hero) table thead,
+.vp-doc:has(.formula-hero) table tbody {
+  width: 100%;
+}
+
+.vp-doc:has(.formula-hero) table th {
+  font-family: var(--fontist-meta);
+  font-weight: 500;
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--vp-c-text-3);
+  border: none;
+  border-bottom: 2px solid var(--fontist-rule);
+  padding: 0.6rem 0.8rem;
+  text-align: left;
+  background: transparent;
+}
+
+.vp-doc:has(.formula-hero) table td {
+  border: none;
+  border-bottom: 1px solid var(--fontist-rule);
+  padding: 0.55rem 0.8rem;
+  vertical-align: top;
+  color: var(--vp-c-text-2);
+}
+
+.vp-doc:has(.formula-hero) table td:first-child {
+  color: var(--vp-c-text-1);
+  font-weight: 500;
+}
+
+.vp-doc:has(.formula-hero) table tr:last-child td {
+  border-bottom: none;
+}
+
+.vp-doc:has(.formula-hero) .sha-value {
+  font-family: var(--fontist-meta);
+  font-size: 0.78rem;
+  color: var(--vp-c-text-3);
+}
+
+.vp-doc:has(.formula-hero) .sha-copy-btn {
+  background: transparent;
+  color: var(--vp-c-text-3);
+  border: 1px solid var(--fontist-rule);
+  border-radius: 4px;
+  padding: 0.15rem 0.45rem;
+  font-size: 0.65rem;
+  font-family: var(--fontist-meta);
+  position: static;
+  transform: none;
+  opacity: 1;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.vp-doc:has(.formula-hero) .sha-copy-btn:hover {
+  color: var(--fontist-rose);
+  border-color: var(--fontist-rose);
+  background: transparent;
+}
+
+.vp-doc:has(.formula-hero) .sha-copy-btn.copied {
+  color: #28a745;
+  border-color: #28a745;
+  background: transparent;
+}
+
+.vp-doc:has(.formula-hero) table a[href],
+.vp-doc:has(.formula-hero) .source-link {
+  transition: color 0.15s ease;
+}
+
+.vp-doc:has(.formula-hero) .font-filename {
+  max-width: 200px;
+}
+
+.vp-doc:has(.formula-hero) details {
+  margin: 1rem 0;
+  border: 1px solid var(--fontist-rule);
+  border-radius: 6px;
+  background: var(--vp-c-bg-soft);
+}
+
+.vp-doc:has(.formula-hero) details summary {
+  padding: 0.75rem 1rem;
+  font-family: var(--fontist-meta);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  color: var(--vp-c-text-2);
+  cursor: pointer;
+}
+
+.vp-doc:has(.formula-hero) details summary:hover {
+  color: var(--fontist-rose);
+}
+
+.vp-doc:has(.formula-hero) details pre {
+  margin: 0;
+  border-radius: 0;
+}
+
+.vp-doc:has(.formula-hero) details > div[class*="language-"] {
+  border-radius: 0 0 6px 6px;
+}
+
+html.dark .vp-doc:has(.formula-hero) h2#install + div[class*="language-"] {
+  background: var(--vp-c-bg-soft);
+  border-color: var(--fontist-rule);
+}
+
+html.dark .vp-doc:has(.formula-hero) h2#install + div[class*="language-"] code {
+  color: var(--fontist-rose-light);
+}
+
+@media (max-width: 768px) {
+  .vp-doc:has(.formula-hero) .hero-title {
+    font-size: clamp(2rem, 8vw, 3rem);
+  }
+
+  .vp-doc:has(.formula-hero) .detail-chip-v {
+    font-size: 0.7rem;
+  }
+
+  .vp-doc:has(.formula-hero) table {
+    font-size: 0.8rem;
+  }
+
+  .vp-doc:has(.formula-hero) .family-jump-link {
+    font-size: 0.65rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .vp-doc:has(.formula-hero) * {
+    transition: none !important;
+  }
 }

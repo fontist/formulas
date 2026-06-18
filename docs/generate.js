@@ -28,6 +28,15 @@ function escapeBareUrls(str) {
   return str.replace(/(https?:)(\/\/)/g, "$1\\$2");
 }
 
+function slugify(str) {
+  return String(str)
+    .toLowerCase()
+    .trim()
+    .replace(/[^\w\s-]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-");
+}
+
 // Detect formula source type from path
 function detectSourceType(slug) {
   if (slug.startsWith("google/")) return "google";
@@ -36,18 +45,22 @@ function detectSourceType(slug) {
   return "manual";
 }
 
-// Generate inline SVG badge
-function svgBadge(label, text, color, textWidth = 90) {
-  const labelWidth = 50;
-  const totalWidth = labelWidth + textWidth;
-  const labelTextX = labelWidth / 2;
-  const textTextX = labelWidth + textWidth / 2;
-  return `<img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='${totalWidth}' height='20' role='img' aria-label='${label}: ${text}'%3E%3Ctitle%3E${label}: ${text}%3C/title%3E%3ClinearGradient id='b' x2='0' y2='100%25'%3E%3Cstop offset='0' stop-color='%23bbb' stop-opacity='.1'/%3E%3Cstop offset='1' stop-opacity='.1'/%3E%3C/linearGradient%3E%3Cmask id='a'%3E%3Crect width='100%25' height='100%25' fill='%23fff' rx='3'/%3E%3C/mask%3E%3Cg mask='url(%23a)'%3E%3Cpath fill='%23555' d='M0 0h${labelWidth}v20H0z'/%3E%3Cpath fill='${encodeURIComponent(color)}' d='M${labelWidth} 0h${textWidth}v20H${labelWidth}z'/%3E%3Cpath fill='url(%23b)' d='M0 0h${totalWidth}v20H0z'/%3E%3C/g%3E%3Cg fill='%23fff' text-anchor='middle' font-family='Verdana,Geneva,DejaVu Sans,sans-serif' font-size='11'%3E%3Ctext x='${labelTextX}' y='15'%3E${label}%3C/text%3E%3Ctext x='${textTextX}' y='15'%3E${text}%3C/text%3E%3C/g%3E%3C/svg%3E" alt="${label}: ${text}" class="source-badge">`;
+function badgeCategory(color) {
+  const c = (color || "").toLowerCase();
+  if (c === "#28a745") return "open";
+  if (c === "#f0ad4e") return "platform";
+  if (c === "#007bff") return "freely";
+  if (c === "#8b5cf6") return "bundled";
+  return "other";
+}
+
+function chipBadge(label, text, color, _textWidth) {
+  const cat = badgeCategory(color);
+  return `<span class="detail-chip detail-chip--lic detail-chip--${cat}" title="${label}: ${text}"><span class="detail-chip-dot"></span><span class="detail-chip-k">${label}</span><span class="detail-chip-v">${text}</span></span>`;
 }
 
 const v5Tag = '<span class="v5-tag" title="New in Formula v5">v5</span>';
 
-// Get source display info - uses SVG images from /sources/ folder
 function getSourceInfo(type) {
   const sources = {
     google: {
@@ -67,7 +80,9 @@ function getSourceInfo(type) {
       badge: `<img src="/sources/fontist.svg" alt="Expert Curated" class="source-badge" title="Expert Curated">`,
     },
   };
-  return sources[type] || sources.manual;
+  const info = sources[type] || sources.manual;
+  info.chip = `<span class="detail-chip detail-chip--src" title="${info.name}"><span class="detail-chip-k">Source</span><span class="detail-chip-v">${info.name}</span></span>`;
+  return info;
 }
 
 // Comprehensive license detection
@@ -103,7 +118,7 @@ function detectLicenseInfo(yaml, sourceType) {
     return {
       type: "macos",
       name: "Apple-only License",
-      badge: svgBadge("License", "Apple-only", "#f0ad4e", 120),
+      badge: chipBadge("License", "Apple-only", "#f0ad4e", 120),
       docLink: "/licenses/apple-only",
       spdxUrl: null,
       category: "platform_restricted",
@@ -122,7 +137,7 @@ function detectLicenseInfo(yaml, sourceType) {
       return {
         type: "ofl",
         name: `SIL Open Font License 1.1${isRfn ? " (with RFN)" : ""}`,
-        badge: svgBadge("License", isRfn ? "OFL 1.1-RFN" : "OFL 1.1", "#28a745", isRfn ? 140 : 120),
+        badge: chipBadge("License", isRfn ? "OFL 1.1-RFN" : "OFL 1.1", "#28a745", isRfn ? 140 : 120),
         docLink: "/licenses/ofl",
         spdxUrl: `https://spdx.org/licenses/${spdxPath}.html`,
         category: "open_source",
@@ -132,7 +147,7 @@ function detectLicenseInfo(yaml, sourceType) {
     if (spdxLicense === "APACHE-2.0") {
       return {
         type: "apache", name: "Apache License 2.0",
-        badge: svgBadge("License", "Apache 2.0", "#28a745", 120),
+        badge: chipBadge("License", "Apache 2.0", "#28a745", 120),
         docLink: "/licenses/apache", spdxUrl: "https://spdx.org/licenses/Apache-2.0.html",
         category: "open_source", isOpen: true,
       };
@@ -140,7 +155,7 @@ function detectLicenseInfo(yaml, sourceType) {
     if (spdxLicense === "MIT") {
       return {
         type: "mit", name: "MIT License",
-        badge: svgBadge("License", "MIT", "#28a745", 120),
+        badge: chipBadge("License", "MIT", "#28a745", 120),
         docLink: "/licenses/mit", spdxUrl: "https://spdx.org/licenses/MIT.html",
         category: "open_source", isOpen: true,
       };
@@ -148,7 +163,7 @@ function detectLicenseInfo(yaml, sourceType) {
     if (spdxLicense.startsWith("CC0-")) {
       return {
         type: "cc0", name: "Creative Commons Zero (Public Domain)",
-        badge: svgBadge("License", "CC0 1.0", "#28a745", 120),
+        badge: chipBadge("License", "CC0 1.0", "#28a745", 120),
         docLink: "/licenses/cc0", spdxUrl: `https://spdx.org/licenses/${spdxLicense}.html`,
         category: "open_source", isOpen: true,
       };
@@ -156,7 +171,7 @@ function detectLicenseInfo(yaml, sourceType) {
     if (spdxLicense.startsWith("CC-BY-")) {
       return {
         type: "cc-by", name: "Creative Commons Attribution",
-        badge: svgBadge("License", "CC BY 4.0", "#28a745", 120),
+        badge: chipBadge("License", "CC BY 4.0", "#28a745", 120),
         docLink: "/licenses/cc-by", spdxUrl: `https://spdx.org/licenses/${spdxLicense}.html`,
         category: "open_source", isOpen: true,
       };
@@ -164,7 +179,7 @@ function detectLicenseInfo(yaml, sourceType) {
     if (spdxLicense.startsWith("CC-BY-SA-")) {
       return {
         type: "cc-by-sa", name: "Creative Commons Attribution-ShareAlike",
-        badge: svgBadge("License", "CC BY-SA 4.0", "#28a745", 120),
+        badge: chipBadge("License", "CC BY-SA 4.0", "#28a745", 120),
         docLink: "/licenses/cc-by-sa", spdxUrl: `https://spdx.org/licenses/${spdxLicense}.html`,
         category: "open_source", isOpen: true,
       };
@@ -172,7 +187,7 @@ function detectLicenseInfo(yaml, sourceType) {
     if (spdxLicense.startsWith("GPL-") || spdxLicense.includes("GPL")) {
       return {
         type: "gpl", name: "GNU GPL (with Font Exception)",
-        badge: svgBadge("License", "GPL", "#28a745", 120),
+        badge: chipBadge("License", "GPL", "#28a745", 120),
         docLink: "/licenses/gpl", spdxUrl: `https://spdx.org/licenses/${spdxLicense}.html`,
         category: "open_source", isOpen: true,
       };
@@ -180,7 +195,7 @@ function detectLicenseInfo(yaml, sourceType) {
     if (spdxLicense.startsWith("LGPL-")) {
       return {
         type: "lgpl", name: "GNU LGPL",
-        badge: svgBadge("License", "LGPL", "#28a745", 120),
+        badge: chipBadge("License", "LGPL", "#28a745", 120),
         docLink: "/licenses/lgpl", spdxUrl: `https://spdx.org/licenses/${spdxLicense}.html`,
         category: "open_source", isOpen: true,
       };
@@ -188,7 +203,7 @@ function detectLicenseInfo(yaml, sourceType) {
     if (spdxLicense.startsWith("UBUNTU-FONT-")) {
       return {
         type: "ufl", name: "Ubuntu Font Licence 1.0",
-        badge: svgBadge("License", "UFL 1.0", "#28a745", 120),
+        badge: chipBadge("License", "UFL 1.0", "#28a745", 120),
         docLink: "/licenses/ufl", spdxUrl: `https://spdx.org/licenses/${spdxLicense}.html`,
         category: "open_source", isOpen: true,
       };
@@ -196,7 +211,7 @@ function detectLicenseInfo(yaml, sourceType) {
     if (spdxLicense.startsWith("IPA")) {
       return {
         type: "ipa", name: "IPA Font License",
-        badge: svgBadge("License", "IPA", "#28a745", 120),
+        badge: chipBadge("License", "IPA", "#28a745", 120),
         docLink: "/licenses/ipa", spdxUrl: `https://spdx.org/licenses/${spdxLicense}.html`,
         category: "open_source", isOpen: true,
       };
@@ -228,7 +243,7 @@ function detectLicenseInfo(yaml, sourceType) {
     }
     return {
       type: refType, name: spdxLicense,
-      badge: svgBadge("License", refBadgeText, refBadgeColor, 120),
+      badge: chipBadge("License", refBadgeText, refBadgeColor, 120),
       docLink: null, spdxUrl: isLicenseRef ? null : `https://spdx.org/licenses/${spdxLicense}.html`,
       category: refCategory, isOpen: refCategory === "open_source",
     };
@@ -254,7 +269,7 @@ function detectLicenseInfo(yaml, sourceType) {
     return {
       type: "ofl",
       name: "SIL Open Font License 1.1",
-      badge: svgBadge("License", "OFL 1.1", "#28a745", 120),
+      badge: chipBadge("License", "OFL 1.1", "#28a745", 120),
       docLink: "/licenses/ofl",
       spdxUrl: "https://spdx.org/licenses/OFL-1.1.html",
       category: "open_source",
@@ -270,7 +285,7 @@ function detectLicenseInfo(yaml, sourceType) {
     return {
       type: "ufl",
       name: "Ubuntu Font Licence 1.0",
-      badge: svgBadge("License", "UFL 1.0", "#28a745", 120),
+      badge: chipBadge("License", "UFL 1.0", "#28a745", 120),
       docLink: "/licenses/ufl",
       spdxUrl: "https://spdx.org/licenses/Ubuntu-font-1.0.html",
       category: "open_source",
@@ -287,7 +302,7 @@ function detectLicenseInfo(yaml, sourceType) {
     return {
       type: "gust",
       name: "GUST Font License",
-      badge: svgBadge("License", "GUST", "#28a745", 120),
+      badge: chipBadge("License", "GUST", "#28a745", 120),
       docLink: "/licenses/gust",
       spdxUrl: null, // Not on SPDX
       category: "open_source",
@@ -304,7 +319,7 @@ function detectLicenseInfo(yaml, sourceType) {
     return {
       type: "lgpl",
       name: "GNU LGPL",
-      badge: svgBadge("License", "LGPL", "#28a745", 120),
+      badge: chipBadge("License", "LGPL", "#28a745", 120),
       docLink: "/licenses/lgpl",
       spdxUrl: "https://spdx.org/licenses/LGPL-3.0.html",
       category: "open_source",
@@ -321,7 +336,7 @@ function detectLicenseInfo(yaml, sourceType) {
     return {
       type: "bitstream",
       name: "Bitstream Vera License",
-      badge: svgBadge("License", "Bitstream Vera", "#28a745", 120),
+      badge: chipBadge("License", "Bitstream Vera", "#28a745", 120),
       docLink: "/licenses/bitstream",
       spdxUrl: "https://spdx.org/licenses/Bitstream-Vera.html",
       category: "open_source",
@@ -341,7 +356,7 @@ function detectLicenseInfo(yaml, sourceType) {
     return {
       type: "apache",
       name: "Apache License 2.0",
-      badge: svgBadge("License", "Apache 2.0", "#28a745", 120),
+      badge: chipBadge("License", "Apache 2.0", "#28a745", 120),
       docLink: "/licenses/apache",
       spdxUrl: "https://spdx.org/licenses/Apache-2.0.html",
       category: "open_source",
@@ -360,7 +375,7 @@ function detectLicenseInfo(yaml, sourceType) {
     return {
       type: "mit",
       name: "MIT License",
-      badge: svgBadge("License", "MIT", "#28a745", 120),
+      badge: chipBadge("License", "MIT", "#28a745", 120),
       docLink: "/licenses/mit",
       spdxUrl: "https://spdx.org/licenses/MIT.html",
       category: "open_source",
@@ -378,7 +393,7 @@ function detectLicenseInfo(yaml, sourceType) {
     return {
       type: "bsd",
       name: "BSD License",
-      badge: svgBadge("License", "BSD", "#28a745", 120),
+      badge: chipBadge("License", "BSD", "#28a745", 120),
       docLink: "/licenses/bsd",
       spdxUrl: "https://spdx.org/licenses/BSD-3-Clause.html",
       category: "open_source",
@@ -397,7 +412,7 @@ function detectLicenseInfo(yaml, sourceType) {
     return {
       type: "public_domain",
       name: "Public Domain",
-      badge: svgBadge("License", "Public Domain", "#28a745", 120),
+      badge: chipBadge("License", "Public Domain", "#28a745", 120),
       docLink: "/licenses/public-domain",
       spdxUrl: null, // Public domain is not a license per se
       category: "open_source",
@@ -415,7 +430,7 @@ function detectLicenseInfo(yaml, sourceType) {
     return {
       type: "cc0",
       name: "Creative Commons Zero (Public Domain)",
-      badge: svgBadge("License", "CC0 1.0", "#28a745", 120),
+      badge: chipBadge("License", "CC0 1.0", "#28a745", 120),
       docLink: "/licenses/cc0",
       spdxUrl: "https://spdx.org/licenses/CC0-1.0.html",
       category: "open_source",
@@ -431,7 +446,7 @@ function detectLicenseInfo(yaml, sourceType) {
     return {
       type: "cc-by",
       name: "Creative Commons Attribution",
-      badge: svgBadge("License", "CC BY 4.0", "#28a745", 120),
+      badge: chipBadge("License", "CC BY 4.0", "#28a745", 120),
       docLink: "/licenses/cc-by",
       spdxUrl: "https://spdx.org/licenses/CC-BY-4.0.html",
       category: "open_source",
@@ -447,7 +462,7 @@ function detectLicenseInfo(yaml, sourceType) {
     return {
       type: "cc-by-sa",
       name: "Creative Commons Attribution-ShareAlike",
-      badge: svgBadge("License", "CC BY-SA 4.0", "#28a745", 120),
+      badge: chipBadge("License", "CC BY-SA 4.0", "#28a745", 120),
       docLink: "/licenses/cc-by-sa",
       spdxUrl: "https://spdx.org/licenses/CC-BY-SA-4.0.html",
       category: "open_source",
@@ -464,7 +479,7 @@ function detectLicenseInfo(yaml, sourceType) {
     return {
       type: "gpl",
       name: "GNU GPL (with Font Exception)",
-      badge: svgBadge("License", "GPL", "#28a745", 120),
+      badge: chipBadge("License", "GPL", "#28a745", 120),
       docLink: "/licenses/gpl",
       spdxUrl: "https://spdx.org/licenses/GPL-3.0.html",
       category: "open_source",
@@ -480,7 +495,7 @@ function detectLicenseInfo(yaml, sourceType) {
     return {
       type: "ipa",
       name: "IPA Font License",
-      badge: svgBadge("License", "IPA", "#28a745", 120),
+      badge: chipBadge("License", "IPA", "#28a745", 120),
       docLink: "/licenses/ipa",
       spdxUrl: "https://spdx.org/licenses/IPA.html",
       category: "open_source",
@@ -507,7 +522,7 @@ function detectLicenseInfo(yaml, sourceType) {
       return {
         type: "freeware",
         name: "Freeware (Personal Use Only)",
-        badge: svgBadge("License", "Freeware", "#007bff", 120),
+        badge: chipBadge("License", "Freeware", "#007bff", 120),
         docLink: "/licenses/freeware",
         spdxUrl: null,
         category: "freely_distributable",
@@ -519,7 +534,7 @@ function detectLicenseInfo(yaml, sourceType) {
     return {
       type: "free_use",
       name: "Freely Usable",
-      badge: svgBadge("License", "Free to Use", "#28a745", 120),
+      badge: chipBadge("License", "Free to Use", "#28a745", 120),
       docLink: "/licenses/free-use",
       spdxUrl: null,
       category: "open_source",
@@ -537,7 +552,7 @@ function detectLicenseInfo(yaml, sourceType) {
     return {
       type: "free_use",
       name: "Freely Usable",
-      badge: svgBadge("License", "Free to Use", "#28a745", 120),
+      badge: chipBadge("License", "Free to Use", "#28a745", 120),
       docLink: "/licenses/free-use",
       spdxUrl: null,
       category: "open_source",
@@ -553,7 +568,7 @@ function detectLicenseInfo(yaml, sourceType) {
     return {
       type: "free_commercial",
       name: "Free for Commercial Use",
-      badge: svgBadge("License", "Free Commercial", "#28a745", 120),
+      badge: chipBadge("License", "Free Commercial", "#28a745", 120),
       docLink: "/licenses/free-use",
       spdxUrl: null,
       category: "open_source",
@@ -575,7 +590,7 @@ function detectLicenseInfo(yaml, sourceType) {
     return {
       type: "ms_web_fonts",
       name: "Microsoft Web Fonts EULA",
-      badge: svgBadge("License", "Freely Distributable", "#007bff", 120),
+      badge: chipBadge("License", "Freely Distributable", "#007bff", 120),
       docLink: "/licenses/microsoft-web",
       spdxUrl: null,
       category: "freely_distributable",
@@ -596,7 +611,7 @@ function detectLicenseInfo(yaml, sourceType) {
     return {
       type: "ms_office",
       name: "Microsoft Software License",
-      badge: svgBadge("License", "MS Software", "#8b5cf6", 120),
+      badge: chipBadge("License", "MS Software", "#8b5cf6", 120),
       docLink: "/licenses/ms-office",
       spdxUrl: null,
       category: "bundled_software",
@@ -610,7 +625,7 @@ function detectLicenseInfo(yaml, sourceType) {
     return {
       type: "adobe",
       name: "Adobe Software License",
-      badge: svgBadge("License", "Adobe Software", "#8b5cf6", 120),
+      badge: chipBadge("License", "Adobe Software", "#8b5cf6", 120),
       docLink: "/licenses/adobe",
       spdxUrl: null,
       category: "bundled_software",
@@ -624,7 +639,7 @@ function detectLicenseInfo(yaml, sourceType) {
     return {
       type: "bundled",
       name: "Software Bundle License",
-      badge: svgBadge("License", "Bundled Software", "#8b5cf6", 120),
+      badge: chipBadge("License", "Bundled Software", "#8b5cf6", 120),
       docLink: "/licenses/bundled",
       spdxUrl: null,
       category: "bundled_software",
@@ -641,7 +656,7 @@ function detectLicenseInfo(yaml, sourceType) {
   return {
     type: "unknown",
     name: "License Not Specified",
-    badge: svgBadge("License", "Check Source", "#17a2b8", 120),
+    badge: chipBadge("License", "Check Source", "#17a2b8", 120),
     docLink: "/licenses/unknown",
     spdxUrl: null,
     category: "unknown",
@@ -850,9 +865,16 @@ ${resourceEntries
   let fontsSection = "";
   const familyNames = Object.keys(fontFamilies);
   if (familyNames.length > 0) {
+    const showFamilyIndex = familyNames.length >= 5;
+    const familyIndex = showFamilyIndex
+      ? `<div class="family-jump">\n${familyNames
+          .map((fn) => `<a href="#${slugify(fn)}" class="family-jump-link">${fn}</a>`)
+          .join(" ")}</div>\n\n`
+      : "";
+
     fontsSection = `## Font Families
 
-${familyNames
+${familyIndex}${familyNames
   .map((familyName) => {
     const styles = fontFamilies[familyName];
     const uniqueTypes = [...new Set(styles.map((s) => s.type))];
@@ -865,7 +887,7 @@ ${familyNames
 
     return `### ${familyName}
 
-*${styles.length} styles: ${uniqueTypes.join(", ")}*
+*${styles.length} ${styles.length === 1 ? "style" : "styles"}: ${uniqueTypes.join(", ")}*
 
 <div class="font-styles-table">
 
@@ -948,11 +970,15 @@ ${[...allCopyrights]
   const familyCount = familyNames.length;
   const metaDescription = `${displayName} font package for Fontist. ${familyCount} font families, ${styleCount} styles. Install: fontist install "${formulaName}"`;
 
-  // Build badges
-  const badges = [licenseInfo.badge, sourceInfo.badge].join(" ");
+  // Build hero eyebrow chips
+  const heroChips = [licenseInfo.badge, sourceInfo.chip];
+  if (yaml.homepage) {
+    const homepageLabel = yaml.homepage.replace(/^https?:\/\//, "").replace(/\/$/, "");
+    heroChips.push(`<a href="${yaml.homepage}" class="detail-chip detail-chip--link"><span class="detail-chip-k">Web</span><span class="detail-chip-v">${homepageLabel}</span></a>`);
+  }
 
-  // Build source section
-  let importSourceLine = "";
+  // Build source line (below install)
+  let importSourceText = "";
   if (yaml.import_source && Object.keys(yaml.import_source).length > 0) {
     const is = yaml.import_source;
     const details = [];
@@ -963,16 +989,12 @@ ${[...allCopyrights]
     if (is.framework_version) details.push(`framework: ${is.framework_version}`);
     if (is.asset_id) details.push(`asset: ${is.asset_id}`);
     if (is.family_id) details.push(`family: ${is.family_id}`);
-    importSourceLine = `\n- **Import Source** ${v5Tag}: ${details.join(" · ")}`;
+    importSourceText = ` · <span class="import-meta">Import Source ${v5Tag}: ${details.join(" · ")}</span>`;
   }
 
-  const sourceSection = `## Source
-
-${sourceInfo.badge}
-
-- **Type**: ${sourceInfo.name}
-- **Formula**: [View on GitHub](${githubURL})
-${yaml.homepage ? `- **Homepage**: [${yaml.homepage}](${yaml.homepage})` : ""}${importSourceLine}`;
+  const heroDesc = yaml.description && yaml.description !== displayName
+    ? `<p class="hero-desc">${escapeBareUrls(yaml.description)}</p>`
+    : "";
 
   // Build complete markdown
   const md = `\
@@ -982,17 +1004,22 @@ description: "${escapeYAMLString(metaDescription)}"
 outline: [2, 3]
 ---
 
-# ${displayName}
+<div class="formula-hero">
+<div class="hero-eyebrow">${heroChips.join(" ")}</div>
+<h1 class="hero-title">${displayName}</h1>${heroDesc ? "\n" + heroDesc : ""}
+</div>
 
-${badges}
-
-${yaml.description && yaml.description !== displayName ? escapeBareUrls(yaml.description) + "\n" : ""}## Quick Install
+## Install
 
 \`\`\`bash
 ${installCmd}
 \`\`\`
 
-${sourceSection}
+<div class="source-line">
+
+<a href="${githubURL}" class="source-link">Formula YAML ↗</a>${importSourceText}
+
+</div>
 
 ${resourcesSection}
 ${fontsSection}
