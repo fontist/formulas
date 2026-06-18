@@ -1,5 +1,12 @@
 import { defineConfig } from "vitepress";
 
+// Allow override via env (CI sets SITE_URL=https://www.fontist.org).
+// Default to localhost so `vitepress dev` and local `npm run build` produce
+// URLs that actually resolve during testing.
+const SITE_ORIGIN = process.env.SITE_URL || "http://localhost:5173";
+const SITE_PATH = process.env.BASE_PATH || "/formulas/";
+const SITE_BASE = `${SITE_ORIGIN}${SITE_PATH}`;
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: "en-US",
@@ -16,6 +23,8 @@ export default defineConfig({
     "testing-google-import.md",
     "GOOGLE_FONTS_IMPLEMENTATION.md",
     "TODO.revamp.md",
+    "TODO.style.md",
+    "V5_MIGRATION_PLAN.md",
   ],
 
   ignoreDeadLinks: true,
@@ -85,17 +94,47 @@ export default defineConfig({
     ],
     ["link", { rel: "manifest", href: "/site.webmanifest" }],
     ["meta", { property: "og:type", content: "website" }],
-    ["meta", { property: "og:title", content: "Fontist Formulas" }],
-    [
-      "meta",
-      {
-        property: "og:description",
-        content: "Searchable index of all Fontist Formulas",
-      },
-    ],
-    ["meta", { property: "og:image", content: "/logo-full.svg" }],
+    ["meta", { property: "og:image", content: `${SITE_BASE}logo-full.svg` }],
     ["meta", { name: "twitter:card", content: "summary_large_image" }],
   ],
+
+  // Generates /sitemap.xml at build time so crawlers can discover all
+  // 4,283 formula pages even though /browse/ renders its list client-side.
+  // VitePress sitemap doesn't auto-include the `base` path (/formulas/),
+  // so transformItems prepends SITE_PATH to every URL.
+  sitemap: {
+    hostname: SITE_ORIGIN,
+    transformItems(items) {
+      return items.map((item) => ({
+        ...item,
+        url: `${SITE_PATH}${item.url}`.replace(/\/{2,}/g, "/"),
+      }));
+    },
+  },
+
+  // Per-page SEO tags (og:title, og:description, og:url, canonical URL)
+  // sourced from page frontmatter. Global head only sets site-wide og:type
+  // and og:image — title/description/url must be per-page or scrapers see
+  // generic "Fontist Formulas" for every page.
+  transformHead(context) {
+    const pageData = context.pageData;
+    const title =
+      (pageData.frontmatter.title as string) || "Fontist Formulas";
+    const description =
+      (pageData.frontmatter.description as string) ||
+      "Searchable index of all Fontist Formulas";
+    const canonicalPath = pageData.relativePath
+      .replace(/(index)?\.md$/, "")
+      .replace(/\\/g, "/");
+    const canonicalURL = `${SITE_BASE}${canonicalPath}`;
+
+    return [
+      ["meta", { property: "og:title", content: title }],
+      ["meta", { property: "og:description", content: description }],
+      ["meta", { property: "og:url", content: canonicalURL }],
+      ["link", { rel: "canonical", href: canonicalURL }],
+    ];
+  },
 
   themeConfig: {
     logo: "/logo-full.svg",
