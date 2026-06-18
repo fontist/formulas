@@ -186,6 +186,10 @@ async function main() {
   const rewritten = await rewriteCleanUrls(DIST_DIR);
   console.log(`Rewrote ${rewritten} pages`);
 
+  console.log("=== Regenerating sitemap ===");
+  const sitemapResult = spawnSync("node", ["generate-sitemap.js", DIST_DIR], { stdio: "inherit" });
+  if (sitemapResult.status !== 0) process.exit(sitemapResult.status ?? 1);
+
   console.log(`\n=== Build complete: ${await countHtmlFiles(DIST_DIR)} total HTML pages ===`);
 }
 

@@ -287,8 +287,15 @@ jobs:
             mkdir -p "$dir"
             mv "$f" "$dir/index.html"
           done
-          echo "Rewrote $(find dist -type d -name index.html -exec dirname {} \; | wc -l) pages"
         shell: bash
+
+      - name: Regenerate sitemap
+        # VitePress sitemap is generated per-batch and only lists that batch's
+        # pages. The combined dist has 4,283 browse pages from the matrix build
+        # that the deployed sitemap would otherwise miss. Scan the final dist/
+        # and emit a complete sitemap.xml.
+        working-directory: docs
+        run: node generate-sitemap.js ../dist
 
       - name: Upload combined artifact
         uses: actions/upload-pages-artifact@v4
