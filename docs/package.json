@@ -5,7 +5,8 @@
     "prebuild": "node generate.js",
     "build": "node build.js",
     "preview": "vitepress preview",
-    "format": "prettier -w ."
+    "format": "prettier -w .",
+    "test": "node --test test/"
   },
   "type": "module",
   "dependencies": {
