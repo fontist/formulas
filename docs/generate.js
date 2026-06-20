@@ -994,7 +994,7 @@ ${yaml.description && yaml.description !== displayName ? escapeBareUrls(yaml.des
 ${installCmd}
 \`\`\`
 
-<FontSpecimen slug="${slug}" family-name="${escapeYAMLString(displayName)}" redistributable="${isRedistributable}" />
+<FontSpecimen slug="${slug}" family-name="${escapeYAMLString(displayName)}" :redistributable="${isRedistributable}"${isRedistributable ? ` woff2-path="fonts/${slug}.woff2"` : ""} />
 
 ${sourceSection}
 
@@ -1003,7 +1003,7 @@ ${fontsSection}
 
 ## Unicode Coverage
 
-<UnicodeCoverage slug="${slug}" redistributable="${isRedistributable}" />
+<UnicodeCoverage slug="${slug}" :redistributable="${isRedistributable}" />
 
 ${copyrightSection}
 ${licenseSection}
