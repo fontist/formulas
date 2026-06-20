@@ -297,12 +297,18 @@ class RenderReport
     parts = []
     if failure["url"]
       url = failure["url"]
-      # Truncate long URLs for readability in tables
-      display = url.size > 80 ? "#{url[0..77]}..." : url
-      parts << "[`#{display}`](#{url})"
+      safe_url = redact_url(url)
+      parts << "[`#{safe_url}`](#{safe_url})"
     end
     parts << failure["message"].to_s if failure["message"]
     parts.join(" · ")
+  end
+
+  def redact_url(url)
+    return url unless url.is_a?(String) && url.include?("?")
+
+    base = url.split("?").first
+    "#{base}?…(query redacted)"
   end
 
   def pr_footer
