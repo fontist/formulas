@@ -975,6 +975,8 @@ ${sourceInfo.badge}
 ${yaml.homepage ? `- **Homepage**: [${yaml.homepage}](${yaml.homepage})` : ""}${importSourceLine}`;
 
   // Build complete markdown
+  const isRedistributable = /^\s*(OFL|Apache|MIT|CC0|UFL|BSD|GPL|LGPL|IPA|Bitstream|GUST|CC-BY)/i.test(yaml.spdx_license || "");
+
   const md = `\
 ---
 title: "${displayName} - Fontist Formula"
@@ -992,10 +994,17 @@ ${yaml.description && yaml.description !== displayName ? escapeBareUrls(yaml.des
 ${installCmd}
 \`\`\`
 
+<FontSpecimen slug="${slug}" family-name="${escapeYAMLString(displayName)}" redistributable="${isRedistributable}" />
+
 ${sourceSection}
 
 ${resourcesSection}
 ${fontsSection}
+
+## Unicode Coverage
+
+<UnicodeCoverage slug="${slug}" redistributable="${isRedistributable}" />
+
 ${copyrightSection}
 ${licenseSection}
 

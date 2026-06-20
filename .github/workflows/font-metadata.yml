@@ -1,0 +1,110 @@
+name: font-metadata
+
+on:
+  schedule:
+    - cron: '0 4 * * 1'
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Max formulas to process (blank = all)'
+        required: false
+        default: ''
+        type: string
+      group:
+        description: 'Formula group (blank = all)'
+        required: false
+        default: ''
+        type: choice
+        options:
+          - ''
+          - google
+          - sil
+          - manual
+
+permissions:
+  contents: read
+
+env:
+  RUBY_VERSION: '3.3'
+
+jobs:
+  generate:
+    name: Generate Font Metadata
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ env.RUBY_VERSION }}
+          bundler-cache: true
+
+      - name: Install Fontisan + excavate
+        run: gem install fontisan excavate
+
+      - name: Fetch Unicode blocks database
+        run: |
+          mkdir -p vendor
+          curl -sL "https://unicode.org/Public/UCD/latest/ucd/Blocks.txt" -o vendor/Blocks.txt
+          ruby -e '
+            require "json"
+            blocks = []
+            File.foreach("vendor/Blocks.txt") do |line|
+              m = line.match(/^([0-9A-Fa-f]+)\.\.([0-9A-Fa-f]+);\s*(.+)$/)
+              next unless m
+              blocks << { "start" => m[1].to_i(16), "end" => m[2].to_i(16), "name" => m[3].strip }
+            end
+            File.write("vendor/unicode-blocks.json", JSON.pretty_generate(blocks))
+            puts "Wrote #{blocks.size} Unicode blocks"
+          '
+
+      - name: Determine scope
+        id: scope
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.limit }}" ]; then
+            ARGS="$ARGS --limit ${{ github.event.inputs.limit }}"
+          fi
+          if [ -n "${{ github.event.inputs.group }}" ]; then
+            ARGS="$ARGS --directory Formulas/${{ github.event.inputs.group }}"
+          fi
+          echo "args=$ARGS" >> $GITHUB_OUTPUT
+
+      - name: Generate metadata
+        run: |
+          mkdir -p docs/public
+          ruby process/generate_font_metadata.rb \
+            --output-dir docs/public \
+            --verbose ${{ steps.scope.outputs.args }}
+
+      - name: Copy Unicode blocks data for runtime
+        run: cp vendor/unicode-blocks.json docs/public/
+
+      - name: Upload metadata artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: font-metadata
+          path: |
+            docs/public/coverage/
+            docs/public/fonts/
+            docs/public/font-metadata.json
+            docs/public/unicode-blocks.json
+          retention-days: 30
+
+      - name: Summary
+        run: |
+          echo "## Font Metadata Generation" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f docs/public/font-metadata.json ]; then
+            ruby -rjson -e '
+              d = JSON.parse(File.read("docs/public/font-metadata.json"))
+              puts "| Metric | Count |"
+              puts "|--------|-------|"
+              puts "| Total fonts | #{d["total_fonts"]} |"
+              puts "| Redistributable | #{d["redistributable"]} |"
+            ' >> $GITHUB_STEP_SUMMARY
+          else
+            echo "No metadata generated." >> $GITHUB_STEP_SUMMARY
+          fi
