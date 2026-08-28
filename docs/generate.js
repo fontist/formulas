@@ -76,6 +76,7 @@ function detectLicenseInfo(yaml, sourceType) {
   const requiresLicense = yaml.requires_license_agreement || "";
   const openLicense = yaml.open_license || "";
   const spdxLicense = (yaml.spdx_license || "").toUpperCase();
+  const spdxLicenseRaw = yaml.spdx_license || "";
   let copyright = (yaml.copyright || "").toLowerCase();
 
   // Also collect copyright from font styles (for formulas without top-level copyright)
@@ -149,7 +150,7 @@ function detectLicenseInfo(yaml, sourceType) {
       return {
         type: "cc0", name: "Creative Commons Zero (Public Domain)",
         badge: svgBadge("License", "CC0 1.0", "#28a745", 120),
-        docLink: "/licenses/cc0", spdxUrl: `https://spdx.org/licenses/${spdxLicense}.html`,
+        docLink: "/licenses/cc0", spdxUrl: `https://spdx.org/licenses/${spdxLicenseRaw}.html`,
         category: "open_source", isOpen: true,
       };
     }
@@ -157,7 +158,7 @@ function detectLicenseInfo(yaml, sourceType) {
       return {
         type: "cc-by", name: "Creative Commons Attribution",
         badge: svgBadge("License", "CC BY 4.0", "#28a745", 120),
-        docLink: "/licenses/cc-by", spdxUrl: `https://spdx.org/licenses/${spdxLicense}.html`,
+        docLink: "/licenses/cc-by", spdxUrl: `https://spdx.org/licenses/${spdxLicenseRaw}.html`,
         category: "open_source", isOpen: true,
       };
     }
@@ -165,7 +166,7 @@ function detectLicenseInfo(yaml, sourceType) {
       return {
         type: "cc-by-sa", name: "Creative Commons Attribution-ShareAlike",
         badge: svgBadge("License", "CC BY-SA 4.0", "#28a745", 120),
-        docLink: "/licenses/cc-by-sa", spdxUrl: `https://spdx.org/licenses/${spdxLicense}.html`,
+        docLink: "/licenses/cc-by-sa", spdxUrl: `https://spdx.org/licenses/${spdxLicenseRaw}.html`,
         category: "open_source", isOpen: true,
       };
     }
@@ -173,7 +174,7 @@ function detectLicenseInfo(yaml, sourceType) {
       return {
         type: "gpl", name: "GNU GPL (with Font Exception)",
         badge: svgBadge("License", "GPL", "#28a745", 120),
-        docLink: "/licenses/gpl", spdxUrl: `https://spdx.org/licenses/${spdxLicense}.html`,
+        docLink: "/licenses/gpl", spdxUrl: `https://spdx.org/licenses/${spdxLicenseRaw}.html`,
         category: "open_source", isOpen: true,
       };
     }
@@ -181,7 +182,7 @@ function detectLicenseInfo(yaml, sourceType) {
       return {
         type: "lgpl", name: "GNU LGPL",
         badge: svgBadge("License", "LGPL", "#28a745", 120),
-        docLink: "/licenses/lgpl", spdxUrl: `https://spdx.org/licenses/${spdxLicense}.html`,
+        docLink: "/licenses/lgpl", spdxUrl: `https://spdx.org/licenses/${spdxLicenseRaw}.html`,
         category: "open_source", isOpen: true,
       };
     }
@@ -189,7 +190,7 @@ function detectLicenseInfo(yaml, sourceType) {
       return {
         type: "ufl", name: "Ubuntu Font Licence 1.0",
         badge: svgBadge("License", "UFL 1.0", "#28a745", 120),
-        docLink: "/licenses/ufl", spdxUrl: `https://spdx.org/licenses/${spdxLicense}.html`,
+        docLink: "/licenses/ufl", spdxUrl: `https://spdx.org/licenses/${spdxLicenseRaw}.html`,
         category: "open_source", isOpen: true,
       };
     }
@@ -197,7 +198,7 @@ function detectLicenseInfo(yaml, sourceType) {
       return {
         type: "ipa", name: "IPA Font License",
         badge: svgBadge("License", "IPA", "#28a745", 120),
-        docLink: "/licenses/ipa", spdxUrl: `https://spdx.org/licenses/${spdxLicense}.html`,
+        docLink: "/licenses/ipa", spdxUrl: `https://spdx.org/licenses/${spdxLicenseRaw}.html`,
         category: "open_source", isOpen: true,
       };
     }

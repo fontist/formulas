@@ -30,6 +30,12 @@ exclude_path = [
   ".bundle",
   ".jekyll-cache"
 ]
+# SourceForge download mirrors rate-limit or block GitHub Actions IPs,
+# causing false link-check failures. These URLs are verified by the
+# formula-health Tier 2 installation tests, not by the link checker.
+exclude = [
+  "https://[^/]*\\.sourceforge\\.net"
+]
 exclude_all_private = false
 include_mail = false
 
