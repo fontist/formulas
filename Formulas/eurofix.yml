@@ -5,7 +5,7 @@ homepage: https://docs.microsoft.com/en-us/previous-versions//cc767898(v=technet
 resources:
   EuroFix.exe:
     urls:
-    - http://web.archive.org/web/20030118044911/http://download.microsoft.com:80/msdownload/euro/wts/x86/eurofixi.exe
+    - https://web.archive.org/web/20000820212157/http://download.microsoft.com/msdownload/euro/wts/x86/eurofixi.exe
     sha256: 41f272a33521f6e15f2cce9ff1e049f2badd5ff0dc327fc81b60825766d5b6c7
     file_size: 1930192
 fonts:
@@ -251,4 +251,4 @@ requires_license_agreement: |-
   POSSIBILITY OF SUCH DAMAGES.  SOME STATES DO NOT ALLOW THE EXCLUSION
   OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES
   SO THE FOREGOING LIMITATION MAY NOT APPLY.
-command: create-formula --name EuroFix http://web.archive.org/web/20030118044911/http://download.microsoft.com:80/msdownload/euro/wts/x86/eurofixi.exe
+command: create-formula --name EuroFix https://web.archive.org/web/20000820212157/http://download.microsoft.com/msdownload/euro/wts/x86/eurofixi.exe
