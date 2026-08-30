@@ -90,12 +90,15 @@ jobs:
             DRY_RUN="--dry-run"
           fi
 
+          mkdir -p results
           # Process each URL in the chunk
           echo "$CHUNK_URLS" | ruby -rjson -e '
             urls = JSON.parse(STDIN.read)
             urls.each { |u| puts u }
           ' | while read -r url; do
-            ruby process/archive_fonts.rb archive "$url" $DRY_RUN --registry process/archive_registry.yml
+            ruby process/archive_fonts.rb archive "$url" $DRY_RUN \
+              --registry process/archive_registry.yml \
+              --json-output results/chunk-${{ matrix.index }}.jsonl
           done
 
       - name: Upload formula changes
@@ -105,6 +108,7 @@ jobs:
           path: |
             Formulas/
             process/archive_registry.yml
+            results/
           retention-days: 1
 
   collect:
@@ -124,6 +128,7 @@ jobs:
 
       - name: Merge formula changes
         run: |
+          mkdir -p all-results
           for chunk_dir in chunks/chunk-*/; do
             if [ -d "$chunk_dir" ]; then
               echo "Merging from $chunk_dir"
@@ -135,8 +140,31 @@ jobs:
               if [ -f "$chunk_dir/process/archive_registry.yml" ]; then
                 cp "$chunk_dir/process/archive_registry.yml" process/archive_registry.yml
               fi
+              # Collect JSONL results
+              if [ -d "$chunk_dir/results" ]; then
+                cp "$chunk_dir/results/"*.jsonl all-results/ 2>/dev/null || true
+              fi
             fi
           done
+
+      - name: Generate archive report
+        if: always()
+        run: |
+          if [ -d all-results ] && ls all-results/*.jsonl 1>/dev/null 2>&1; then
+            mkdir -p results reports
+            cp all-results/*.jsonl results/
+            ruby process/archive_fonts.rb report \
+              --input-dir results \
+              --output results/archive.json \
+              --formula-dir Formulas
+            ruby .github/scripts/render_report.rb \
+              --input-dir results \
+              --output-dir reports \
+              --run-url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+              --commit-sha "${{ github.sha }}" || true
+          else
+            echo "No JSONL results found"
+          fi
 
       - name: Check for changes
         id: changes
@@ -149,6 +177,14 @@ jobs:
             git diff --stat
           fi
 
+      - name: Read report summary
+        id: report
+        if: always() && hashFiles('reports/pr-comment.md') != ''
+        run: |
+          echo "body<<EOF" >> $GITHUB_OUTPUT
+          cat reports/pr-comment.md >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
       - name: Create Pull Request
         if: steps.changes.outputs.has_changes == 'true'
         uses: peter-evans/create-pull-request@v6
@@ -156,6 +192,10 @@ jobs:
           branch: archive-sync-${{ github.run_number }}
           title: "chore: archive sync $(date +%Y-%m-%d)"
           body: |
+            ${{ steps.report.outputs.body }}
+
+            ---
+
             Automated archive.org mirror sync.
 
             - **Chunks processed**: ${{ needs.prepare.outputs.total }}
