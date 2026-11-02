@@ -26,32 +26,18 @@ description: 'Anek, as the meaning of the word suggests, is an exercise in multi
   contribute, see github.com/EkType/Anek'
 homepage: https://fonts.google.com/specimen/Anek+Gujarati
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Anek Gujarati
     files:
-    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0F5G7xkKgB7Lm7g.woff2
-    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0l5C7xkKgB7Lm7g.woff2
-    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0SZC7xkKgB7Lm7g.woff2
-    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0F5C7xkKgB7Lm7g.woff2
-    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0JZC7xkKgB7Lm7g.woff2
-    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0yZe7xkKgB7Lm7g.woff2
-    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-08Je7xkKgB7Lm7g.woff2
-    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0l5e7xkKgB7Lm7g.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/anekgujarati/AnekGujarati[wdth,wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0F5G7xkKgB7Lm7g.woff2
-    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0l5C7xkKgB7Lm7g.woff2
-    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0SZC7xkKgB7Lm7g.woff2
-    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0F5C7xkKgB7Lm7g.woff2
-    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0JZC7xkKgB7Lm7g.woff2
-    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0yZe7xkKgB7Lm7g.woff2
-    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-08Je7xkKgB7Lm7g.woff2
-    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0l5e7xkKgB7Lm7g.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/anekgujarati/AnekGujarati[wdth,wght].ttf
+    format: ttf
     variable_axes:
     - wdth
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Anek Gujarati
     files:
@@ -73,9 +59,28 @@ resources:
     - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-08Je7w0KgB7Lm7g.ttf
     - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0l5e7w0KgB7Lm7g.ttf
     format: ttf
-    variable_axes:
-    - wdth
-    - wght
+  woff2_static:
+    source: google
+    family: Anek Gujarati
+    files:
+    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0F5G7xkKgB7Lm7g.woff2
+    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0l5C7xkKgB7Lm7g.woff2
+    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0SZC7xkKgB7Lm7g.woff2
+    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0F5C7xkKgB7Lm7g.woff2
+    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0JZC7xkKgB7Lm7g.woff2
+    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0yZe7xkKgB7Lm7g.woff2
+    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-08Je7xkKgB7Lm7g.woff2
+    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0l5e7xkKgB7Lm7g.woff2
+    urls:
+    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0F5G7xkKgB7Lm7g.woff2
+    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0l5C7xkKgB7Lm7g.woff2
+    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0SZC7xkKgB7Lm7g.woff2
+    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0F5C7xkKgB7Lm7g.woff2
+    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0JZC7xkKgB7Lm7g.woff2
+    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0yZe7xkKgB7Lm7g.woff2
+    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-08Je7xkKgB7Lm7g.woff2
+    - https://fonts.gstatic.com/s/anekgujarati/v17/l7g_bj5oysqknvkCo2T_8FuiIRBA7lncQUmbIBEtPKiYYQhRwyBxCD-0l5e7xkKgB7Lm7g.woff2
+    format: woff2
 fonts:
 - name: Anek Gujarati Thin
   styles:
@@ -93,10 +98,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Anek Gujarati ExtraLight
   styles:
   - family_name: Anek Gujarati ExtraLight
@@ -113,10 +116,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Anek Gujarati Light
   styles:
   - family_name: Anek Gujarati Light
@@ -133,10 +134,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Anek Gujarati
   styles:
   - family_name: Anek Gujarati
@@ -151,10 +150,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Anek Gujarati
     type: Bold
     full_name: Anek Gujarati Bold
@@ -167,10 +164,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Anek Gujarati
+    type: Regular
+    full_name: Anek Gujarati Medium
+    post_script_name: AnekGujarati-Medium
+    copyright: Copyright 2021 The Anek Project Authors (https://github.com/EkType/Anek)
+    font: AnekGujarati[wdth,wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wdth
     - wght
+    source_resource: ttf_variable
 - name: Anek Gujarati Medium
   styles:
   - family_name: Anek Gujarati Medium
@@ -187,10 +195,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Anek Gujarati SemiBold
   styles:
   - family_name: Anek Gujarati SemiBold
@@ -207,10 +213,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Anek Gujarati ExtraBold
   styles:
   - family_name: Anek Gujarati ExtraBold
@@ -227,10 +231,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2021 The Anek Project Authors (https://github.com/EkType/Anek)
 spdx_license: OFL-1.1-no-RFN

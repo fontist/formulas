@@ -4,39 +4,19 @@ schema_version: 5
 description: ''
 homepage: https://fonts.google.com/specimen/Platypi
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Platypi
     files:
-    - https://fonts.gstatic.com/s/platypi/v6/bMromSGU7pMlaX6-PAmuwBQP4Hwe02It4p9muxgnYP1P.woff2
-    - https://fonts.gstatic.com/s/platypi/v6/bMromSGU7pMlaX6-PAmuwBQP4Hwe02Jz4p9muxgnYP1P.woff2
-    - https://fonts.gstatic.com/s/platypi/v6/bMromSGU7pMlaX6-PAmuwBQP4Hwe02JB4p9muxgnYP1P.woff2
-    - https://fonts.gstatic.com/s/platypi/v6/bMromSGU7pMlaX6-PAmuwBQP4Hwe02Kt5Z9muxgnYP1P.woff2
-    - https://fonts.gstatic.com/s/platypi/v6/bMromSGU7pMlaX6-PAmuwBQP4Hwe02KU5Z9muxgnYP1P.woff2
-    - https://fonts.gstatic.com/s/platypi/v6/bMromSGU7pMlaX6-PAmuwBQP4Hwe02Lz5Z9muxgnYP1P.woff2
-    - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oSkgsRkFZe1PPTo.woff2
-    - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oXcgsRkFZe1PPTo.woff2
-    - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oUUgsRkFZe1PPTo.woff2
-    - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oaknsRkFZe1PPTo.woff2
-    - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oZAnsRkFZe1PPTo.woff2
-    - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7ofcnsRkFZe1PPTo.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/platypi/Platypi[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/platypi/Platypi-Italic[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/platypi/v6/bMromSGU7pMlaX6-PAmuwBQP4Hwe02It4p9muxgnYP1P.woff2
-    - https://fonts.gstatic.com/s/platypi/v6/bMromSGU7pMlaX6-PAmuwBQP4Hwe02Jz4p9muxgnYP1P.woff2
-    - https://fonts.gstatic.com/s/platypi/v6/bMromSGU7pMlaX6-PAmuwBQP4Hwe02JB4p9muxgnYP1P.woff2
-    - https://fonts.gstatic.com/s/platypi/v6/bMromSGU7pMlaX6-PAmuwBQP4Hwe02Kt5Z9muxgnYP1P.woff2
-    - https://fonts.gstatic.com/s/platypi/v6/bMromSGU7pMlaX6-PAmuwBQP4Hwe02KU5Z9muxgnYP1P.woff2
-    - https://fonts.gstatic.com/s/platypi/v6/bMromSGU7pMlaX6-PAmuwBQP4Hwe02Lz5Z9muxgnYP1P.woff2
-    - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oSkgsRkFZe1PPTo.woff2
-    - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oXcgsRkFZe1PPTo.woff2
-    - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oUUgsRkFZe1PPTo.woff2
-    - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oaknsRkFZe1PPTo.woff2
-    - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oZAnsRkFZe1PPTo.woff2
-    - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7ofcnsRkFZe1PPTo.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/platypi/Platypi[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/platypi/Platypi-Italic[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Platypi
     files:
@@ -66,8 +46,36 @@ resources:
     - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oZAnsRwFZe1PPTo.ttf
     - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7ofcnsRwFZe1PPTo.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Platypi
+    files:
+    - https://fonts.gstatic.com/s/platypi/v6/bMromSGU7pMlaX6-PAmuwBQP4Hwe02It4p9muxgnYP1P.woff2
+    - https://fonts.gstatic.com/s/platypi/v6/bMromSGU7pMlaX6-PAmuwBQP4Hwe02Jz4p9muxgnYP1P.woff2
+    - https://fonts.gstatic.com/s/platypi/v6/bMromSGU7pMlaX6-PAmuwBQP4Hwe02JB4p9muxgnYP1P.woff2
+    - https://fonts.gstatic.com/s/platypi/v6/bMromSGU7pMlaX6-PAmuwBQP4Hwe02Kt5Z9muxgnYP1P.woff2
+    - https://fonts.gstatic.com/s/platypi/v6/bMromSGU7pMlaX6-PAmuwBQP4Hwe02KU5Z9muxgnYP1P.woff2
+    - https://fonts.gstatic.com/s/platypi/v6/bMromSGU7pMlaX6-PAmuwBQP4Hwe02Lz5Z9muxgnYP1P.woff2
+    - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oSkgsRkFZe1PPTo.woff2
+    - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oXcgsRkFZe1PPTo.woff2
+    - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oUUgsRkFZe1PPTo.woff2
+    - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oaknsRkFZe1PPTo.woff2
+    - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oZAnsRkFZe1PPTo.woff2
+    - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7ofcnsRkFZe1PPTo.woff2
+    urls:
+    - https://fonts.gstatic.com/s/platypi/v6/bMromSGU7pMlaX6-PAmuwBQP4Hwe02It4p9muxgnYP1P.woff2
+    - https://fonts.gstatic.com/s/platypi/v6/bMromSGU7pMlaX6-PAmuwBQP4Hwe02Jz4p9muxgnYP1P.woff2
+    - https://fonts.gstatic.com/s/platypi/v6/bMromSGU7pMlaX6-PAmuwBQP4Hwe02JB4p9muxgnYP1P.woff2
+    - https://fonts.gstatic.com/s/platypi/v6/bMromSGU7pMlaX6-PAmuwBQP4Hwe02Kt5Z9muxgnYP1P.woff2
+    - https://fonts.gstatic.com/s/platypi/v6/bMromSGU7pMlaX6-PAmuwBQP4Hwe02KU5Z9muxgnYP1P.woff2
+    - https://fonts.gstatic.com/s/platypi/v6/bMromSGU7pMlaX6-PAmuwBQP4Hwe02Lz5Z9muxgnYP1P.woff2
+    - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oSkgsRkFZe1PPTo.woff2
+    - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oXcgsRkFZe1PPTo.woff2
+    - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oUUgsRkFZe1PPTo.woff2
+    - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oaknsRkFZe1PPTo.woff2
+    - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7oZAnsRkFZe1PPTo.woff2
+    - https://fonts.gstatic.com/s/platypi/v6/bMrmmSGU7pMlaX6-FgCcP8xmi-aw1He7ofcnsRkFZe1PPTo.woff2
+    format: woff2
 fonts:
 - name: Platypi Light
   styles:
@@ -85,9 +93,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Platypi Light
     type: Italic
     full_name: Platypi Light Italic
@@ -102,9 +109,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Platypi
   styles:
   - family_name: Platypi
@@ -119,9 +125,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Platypi
     type: Bold
     full_name: Platypi Bold
@@ -134,9 +139,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Platypi
     type: Italic
     full_name: Platypi Italic
@@ -149,9 +153,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Platypi
     type: Bold Italic
     full_name: Platypi Bold Italic
@@ -164,9 +167,32 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Platypi
+    type: Regular
+    full_name: Platypi Light
+    post_script_name: Platypi-Light
+    copyright: Copyright 2024 The Platypi Project Authors (https://github.com/d-sargent/platypi)
+    font: Platypi[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
+  - family_name: Platypi
+    type: Italic
+    full_name: Platypi Light Italic
+    post_script_name: Platypi-LightItalic
+    copyright: Copyright 2024 The Platypi Project Authors (https://github.com/d-sargent/platypi)
+    font: Platypi-Italic[wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wght
+    source_resource: ttf_variable
 - name: Platypi Medium
   styles:
   - family_name: Platypi Medium
@@ -183,9 +209,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Platypi Medium
     type: Italic
     full_name: Platypi Medium Italic
@@ -200,9 +225,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Platypi SemiBold
   styles:
   - family_name: Platypi SemiBold
@@ -219,9 +243,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Platypi SemiBold
     type: Italic
     full_name: Platypi SemiBold Italic
@@ -236,9 +259,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Platypi ExtraBold
   styles:
   - family_name: Platypi ExtraBold
@@ -255,9 +277,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Platypi ExtraBold
     type: Italic
     full_name: Platypi ExtraBold Italic
@@ -272,9 +293,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2024 The Platypi Project Authors (https://github.com/d-sargent/platypi)
 spdx_license: OFL-1.1-no-RFN

@@ -4,29 +4,17 @@ schema_version: 5
 description: Menbere font family
 homepage: https://fonts.google.com/specimen/Menbere
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Menbere
     files:
-    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdI_9qnwUnpeWOQ5.woff2
-    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdK_96nwUnpeWOQ5.woff2
-    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdJh96nwUnpeWOQ5.woff2
-    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdI_96nwUnpeWOQ5.woff2
-    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdIN96nwUnpeWOQ5.woff2
-    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdLh8KnwUnpeWOQ5.woff2
-    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdLY8KnwUnpeWOQ5.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/menbere/Menbere[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdI_9qnwUnpeWOQ5.woff2
-    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdK_96nwUnpeWOQ5.woff2
-    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdJh96nwUnpeWOQ5.woff2
-    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdI_96nwUnpeWOQ5.woff2
-    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdIN96nwUnpeWOQ5.woff2
-    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdLh8KnwUnpeWOQ5.woff2
-    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdLY8KnwUnpeWOQ5.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/menbere/Menbere[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Menbere
     files:
@@ -46,8 +34,26 @@ resources:
     - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdLh8Kn1UnpeWOQ5.ttf
     - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdLY8Kn1UnpeWOQ5.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Menbere
+    files:
+    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdI_9qnwUnpeWOQ5.woff2
+    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdK_96nwUnpeWOQ5.woff2
+    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdJh96nwUnpeWOQ5.woff2
+    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdI_96nwUnpeWOQ5.woff2
+    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdIN96nwUnpeWOQ5.woff2
+    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdLh8KnwUnpeWOQ5.woff2
+    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdLY8KnwUnpeWOQ5.woff2
+    urls:
+    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdI_9qnwUnpeWOQ5.woff2
+    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdK_96nwUnpeWOQ5.woff2
+    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdJh96nwUnpeWOQ5.woff2
+    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdI_96nwUnpeWOQ5.woff2
+    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdIN96nwUnpeWOQ5.woff2
+    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdLh8KnwUnpeWOQ5.woff2
+    - https://fonts.gstatic.com/s/menbere/v1/lJwY-p0zhmBrWvcG80OiXWeXfSDWXdLY8KnwUnpeWOQ5.woff2
+    format: woff2
 fonts:
 - name: Menbere Thin
   styles:
@@ -65,9 +71,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Menbere ExtraLight
   styles:
   - family_name: Menbere ExtraLight
@@ -84,9 +89,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Menbere Light
   styles:
   - family_name: Menbere Light
@@ -103,9 +107,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Menbere
   styles:
   - family_name: Menbere
@@ -120,9 +123,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Menbere
     type: Bold
     full_name: Menbere Bold
@@ -135,9 +137,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Menbere
+    type: Regular
+    full_name: Menbere Regular
+    post_script_name: Menbere-Regular
+    copyright: Copyright 2022 The Menbere Project Authors (https://github.com/SorkinType/Menbere/)
+    font: Menbere[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Menbere Medium
   styles:
   - family_name: Menbere Medium
@@ -154,9 +167,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Menbere SemiBold
   styles:
   - family_name: Menbere SemiBold
@@ -173,9 +185,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Menbere Project Authors (https://github.com/SorkinType/Menbere/)
 spdx_license: OFL-1.1-no-RFN

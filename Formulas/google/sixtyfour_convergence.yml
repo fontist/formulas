@@ -4,20 +4,20 @@ schema_version: 5
 description: Sixtyfour Convergence font family
 homepage: https://fonts.google.com/specimen/Sixtyfour+Convergence
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Sixtyfour Convergence
     files:
-    - https://fonts.gstatic.com/s/sixtyfourconvergence/v5/m8IQjepPf7mIglv5K__zM9srGA7wurbybZMfZsqG2Q6EWlJro5FJSJ4acT9PoOPwGgieaK7zkSpdXP-GrR9Yw9Tg7E4HGLbUKPlOh102ho5kk3grz3g.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/sixtyfourconvergence/SixtyfourConvergence[BLED,SCAN,XELA,YELA].ttf
     urls:
-    - https://fonts.gstatic.com/s/sixtyfourconvergence/v5/m8IQjepPf7mIglv5K__zM9srGA7wurbybZMfZsqG2Q6EWlJro5FJSJ4acT9PoOPwGgieaK7zkSpdXP-GrR9Yw9Tg7E4HGLbUKPlOh102ho5kk3grz3g.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/sixtyfourconvergence/SixtyfourConvergence[BLED,SCAN,XELA,YELA].ttf
+    format: ttf
     variable_axes:
     - BLED
     - SCAN
     - XELA
     - YELA
-  ttf_variable:
+  ttf_static:
     source: google
     family: Sixtyfour Convergence
     files:
@@ -25,11 +25,14 @@ resources:
     urls:
     - https://fonts.gstatic.com/s/sixtyfourconvergence/v5/m8IQjepPf7mIglv5K__zM9srGA7wurbybZMfZsqG2Q6EWlJro5FJSJ4acT9PoOPwGgieaK7zkSpdXP-GrR9Yw9Tg7E4HGLbUKPlOh102hotkk3grz3g.ttf
     format: ttf
-    variable_axes:
-    - BLED
-    - SCAN
-    - XELA
-    - YELA
+  woff2_static:
+    source: google
+    family: Sixtyfour Convergence
+    files:
+    - https://fonts.gstatic.com/s/sixtyfourconvergence/v5/m8IQjepPf7mIglv5K__zM9srGA7wurbybZMfZsqG2Q6EWlJro5FJSJ4acT9PoOPwGgieaK7zkSpdXP-GrR9Yw9Tg7E4HGLbUKPlOh102ho5kk3grz3g.woff2
+    urls:
+    - https://fonts.gstatic.com/s/sixtyfourconvergence/v5/m8IQjepPf7mIglv5K__zM9srGA7wurbybZMfZsqG2Q6EWlJro5FJSJ4acT9PoOPwGgieaK7zkSpdXP-GrR9Yw9Tg7E4HGLbUKPlOh102ho5kk3grz3g.woff2
+    format: woff2
 fonts:
 - name: Sixtyfour Convergence
   styles:
@@ -45,12 +48,23 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Sixtyfour Convergence
+    type: Regular
+    full_name: Sixtyfour Convergence Regular
+    post_script_name: SixtyfourConvergence-Regular
+    copyright: Copyright 2021 The Sixtyfour Convergence Project Authors (https://github.com/jenskutilek/homecomputer-fonts)
+    font: SixtyfourConvergence[BLED,SCAN,XELA,YELA].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - BLED
     - SCAN
     - XELA
     - YELA
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2021 The Sixtyfour Convergence Project Authors (https://github.com/jenskutilek/homecomputer-fonts)
 spdx_license: OFL-1.1-no-RFN

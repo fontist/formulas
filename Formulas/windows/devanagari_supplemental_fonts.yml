@@ -1,0 +1,122 @@
+---
+schema_version: 5
+name: Devanagari Supplemental Fonts
+description: Devanagari Supplemental Fonts for Windows
+homepage: https://learn.microsoft.com/en-us/typography/fonts/windows_11_font_list
+platforms:
+- windows
+open_license: |
+  Licensed under the Microsoft Software License Terms for Windows.
+  These fonts are provided as part of the Windows operating system
+  and are subject to the Windows license agreement accepted during
+  installation. No additional license agreement is required.
+resources:
+  devanagari_supplemental_fonts:
+    source: windows_fod
+    capability_name: Language.Fonts.Deva~~~und-DEVA~0.0.1.0
+    format: ttf
+fonts:
+- name: Aparajita
+  styles:
+  - family_name: Aparajita
+    type: Regular
+    font: Aparaj.ttf
+    formats:
+    - ttf
+    variable_font: false
+  - family_name: Aparajita
+    type: Italic
+    font: Aparaji.ttf
+    formats:
+    - ttf
+    variable_font: false
+  - family_name: Aparajita
+    type: Bold
+    font: Aparajb.ttf
+    formats:
+    - ttf
+    variable_font: false
+  - family_name: Aparajita
+    type: Bold Italic
+    font: Aparajbi.ttf
+    formats:
+    - ttf
+    variable_font: false
+- name: Kokila
+  styles:
+  - family_name: Kokila
+    type: Regular
+    font: Kokila.ttf
+    formats:
+    - ttf
+    variable_font: false
+  - family_name: Kokila
+    type: Italic
+    font: Kokilai.ttf
+    formats:
+    - ttf
+    variable_font: false
+  - family_name: Kokila
+    type: Bold
+    font: Kokilab.ttf
+    formats:
+    - ttf
+    variable_font: false
+  - family_name: Kokila
+    type: Bold Italic
+    font: Kokilabi.ttf
+    formats:
+    - ttf
+    variable_font: false
+- name: Mangal
+  styles:
+  - family_name: Mangal
+    type: Regular
+    font: Mangal.ttf
+    formats:
+    - ttf
+    variable_font: false
+  - family_name: Mangal
+    type: Bold
+    font: MangalB.ttf
+    formats:
+    - ttf
+    variable_font: false
+- name: Sanskrit Text
+  styles:
+  - family_name: Sanskrit Text
+    type: Regular
+    font: Sanskr.ttf
+    formats:
+    - ttf
+    variable_font: false
+- name: Utsaah
+  styles:
+  - family_name: Utsaah
+    type: Regular
+    font: Utsaah.ttf
+    formats:
+    - ttf
+    variable_font: false
+  - family_name: Utsaah
+    type: Italic
+    font: Utsaahi.ttf
+    formats:
+    - ttf
+    variable_font: false
+  - family_name: Utsaah
+    type: Bold
+    font: Utsaahb.ttf
+    formats:
+    - ttf
+    variable_font: false
+  - family_name: Utsaah
+    type: Bold Italic
+    font: Utsaahbi.ttf
+    formats:
+    - ttf
+    variable_font: false
+import_source:
+  type: windows
+  capability_name: Language.Fonts.Deva~~~und-DEVA~0.0.1.0
+  min_windows_version: '10.0'

@@ -4,28 +4,18 @@ schema_version: 5
 description: Readex Pro font family
 homepage: https://fonts.google.com/specimen/Readex+Pro
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Readex Pro
     files:
-    - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCYUSmh2sglvjkag.woff2
-    - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCv0Smh2sglvjkag.woff2
-    - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTC4USmh2sglvjkag.woff2
-    - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTC00Smh2sglvjkag.woff2
-    - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCP0Omh2sglvjkag.woff2
-    - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCBkOmh2sglvjkag.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/readexpro/ReadexPro[HEXP,wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCYUSmh2sglvjkag.woff2
-    - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCv0Smh2sglvjkag.woff2
-    - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTC4USmh2sglvjkag.woff2
-    - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTC00Smh2sglvjkag.woff2
-    - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCP0Omh2sglvjkag.woff2
-    - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCBkOmh2sglvjkag.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/readexpro/ReadexPro[HEXP,wght].ttf
+    format: ttf
     variable_axes:
     - HEXP
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Readex Pro
     files:
@@ -43,9 +33,24 @@ resources:
     - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCP0Omgmsglvjkag.ttf
     - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCBkOmgmsglvjkag.ttf
     format: ttf
-    variable_axes:
-    - HEXP
-    - wght
+  woff2_static:
+    source: google
+    family: Readex Pro
+    files:
+    - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCYUSmh2sglvjkag.woff2
+    - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCv0Smh2sglvjkag.woff2
+    - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTC4USmh2sglvjkag.woff2
+    - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTC00Smh2sglvjkag.woff2
+    - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCP0Omh2sglvjkag.woff2
+    - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCBkOmh2sglvjkag.woff2
+    urls:
+    - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCYUSmh2sglvjkag.woff2
+    - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCv0Smh2sglvjkag.woff2
+    - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTC4USmh2sglvjkag.woff2
+    - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTC00Smh2sglvjkag.woff2
+    - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCP0Omh2sglvjkag.woff2
+    - https://fonts.gstatic.com/s/readexpro/v27/SLXnc1bJ7HE5YDoGPuzj_dh8uc7wUy8ZQQyX2KY8TL0kGZN6blTCBkOmh2sglvjkag.woff2
+    format: woff2
 fonts:
 - name: Readex Pro ExtraLight
   styles:
@@ -63,10 +68,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - HEXP
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Readex Pro Light
   styles:
   - family_name: Readex Pro Light
@@ -83,10 +86,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - HEXP
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Readex Pro
   styles:
   - family_name: Readex Pro
@@ -101,10 +102,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - HEXP
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Readex Pro
     type: Bold
     full_name: Readex Pro Bold
@@ -117,10 +116,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Readex Pro
+    type: Regular
+    full_name: Readex Pro Regular
+    post_script_name: ReadexPro-Regular
+    copyright: Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)
+    font: ReadexPro[HEXP,wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - HEXP
     - wght
+    source_resource: ttf_variable
 - name: Readex Pro Medium
   styles:
   - family_name: Readex Pro Medium
@@ -137,10 +147,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - HEXP
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Readex Pro SemiBold
   styles:
   - family_name: Readex Pro SemiBold
@@ -157,10 +165,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - HEXP
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)
 spdx_license: OFL-1.1-RFN

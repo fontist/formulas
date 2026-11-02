@@ -10,25 +10,17 @@ description: Pontano Sans is a minimalist and light weighted Sans Serif. Pontano
   .
 homepage: https://fonts.google.com/specimen/Pontano+Sans
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Pontano Sans
     files:
-    - https://fonts.gstatic.com/s/pontanosans/v19/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOSzMncOMp9gzWsE.woff2
-    - https://fonts.gstatic.com/s/pontanosans/v19/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOXLMncOMp9gzWsE.woff2
-    - https://fonts.gstatic.com/s/pontanosans/v19/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOUDMncOMp9gzWsE.woff2
-    - https://fonts.gstatic.com/s/pontanosans/v19/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOazLncOMp9gzWsE.woff2
-    - https://fonts.gstatic.com/s/pontanosans/v19/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOZXLncOMp9gzWsE.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/pontanosans/PontanoSans[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/pontanosans/v19/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOSzMncOMp9gzWsE.woff2
-    - https://fonts.gstatic.com/s/pontanosans/v19/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOXLMncOMp9gzWsE.woff2
-    - https://fonts.gstatic.com/s/pontanosans/v19/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOUDMncOMp9gzWsE.woff2
-    - https://fonts.gstatic.com/s/pontanosans/v19/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOazLncOMp9gzWsE.woff2
-    - https://fonts.gstatic.com/s/pontanosans/v19/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOZXLncOMp9gzWsE.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/pontanosans/PontanoSans[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Pontano Sans
     files:
@@ -44,8 +36,22 @@ resources:
     - https://fonts.gstatic.com/s/pontanosans/v19/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOazLncaMp9gzWsE.ttf
     - https://fonts.gstatic.com/s/pontanosans/v19/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOZXLncaMp9gzWsE.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Pontano Sans
+    files:
+    - https://fonts.gstatic.com/s/pontanosans/v19/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOSzMncOMp9gzWsE.woff2
+    - https://fonts.gstatic.com/s/pontanosans/v19/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOXLMncOMp9gzWsE.woff2
+    - https://fonts.gstatic.com/s/pontanosans/v19/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOUDMncOMp9gzWsE.woff2
+    - https://fonts.gstatic.com/s/pontanosans/v19/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOazLncOMp9gzWsE.woff2
+    - https://fonts.gstatic.com/s/pontanosans/v19/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOZXLncOMp9gzWsE.woff2
+    urls:
+    - https://fonts.gstatic.com/s/pontanosans/v19/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOSzMncOMp9gzWsE.woff2
+    - https://fonts.gstatic.com/s/pontanosans/v19/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOXLMncOMp9gzWsE.woff2
+    - https://fonts.gstatic.com/s/pontanosans/v19/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOUDMncOMp9gzWsE.woff2
+    - https://fonts.gstatic.com/s/pontanosans/v19/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOazLncOMp9gzWsE.woff2
+    - https://fonts.gstatic.com/s/pontanosans/v19/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOZXLncOMp9gzWsE.woff2
+    format: woff2
 fonts:
 - name: Pontano Sans Light
   styles:
@@ -63,9 +69,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Pontano Sans
   styles:
   - family_name: Pontano Sans
@@ -80,9 +85,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Pontano Sans
     type: Bold
     full_name: Pontano Sans Bold
@@ -95,9 +99,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Pontano Sans
+    type: Regular
+    full_name: Pontano Sans Regular
+    post_script_name: PontanoSans-Regular
+    copyright: Copyright 2012 The Pontano Sans Project Authors (https://github.com/googlefonts/PontanoSansFont)
+    font: PontanoSans[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Pontano Sans Medium
   styles:
   - family_name: Pontano Sans Medium
@@ -114,9 +129,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Pontano Sans SemiBold
   styles:
   - family_name: Pontano Sans SemiBold
@@ -133,9 +147,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2012 The Pontano Sans Project Authors (https://github.com/googlefonts/PontanoSansFont)
 spdx_license: OFL-1.1-no-RFN

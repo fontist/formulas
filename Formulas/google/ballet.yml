@@ -7,17 +7,17 @@ description: 'Ballet is a reinterpretation of the classic Spencerian script styl
   by Maximiliano Sproviero and developed by Eduardo Tunni. To contribute, see github.com/Omnibus-Type/Ballet'
 homepage: https://fonts.google.com/specimen/Ballet
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Ballet
     files:
-    - https://fonts.gstatic.com/s/ballet/v30/QGYyz_MYZA-HM4NjuGOVnUEXme1I4Xi3C4S-EiAou6Y.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/ballet/Ballet[opsz].ttf
     urls:
-    - https://fonts.gstatic.com/s/ballet/v30/QGYyz_MYZA-HM4NjuGOVnUEXme1I4Xi3C4S-EiAou6Y.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/ballet/Ballet[opsz].ttf
+    format: ttf
     variable_axes:
     - opsz
-  ttf_variable:
+  ttf_static:
     source: google
     family: Ballet
     files:
@@ -25,8 +25,14 @@ resources:
     urls:
     - https://fonts.gstatic.com/s/ballet/v30/QGYyz_MYZA-HM4NjuGOVnUEXme1I4Xi3C4G-EiAou6Y.ttf
     format: ttf
-    variable_axes:
-    - opsz
+  woff2_static:
+    source: google
+    family: Ballet
+    files:
+    - https://fonts.gstatic.com/s/ballet/v30/QGYyz_MYZA-HM4NjuGOVnUEXme1I4Xi3C4S-EiAou6Y.woff2
+    urls:
+    - https://fonts.gstatic.com/s/ballet/v30/QGYyz_MYZA-HM4NjuGOVnUEXme1I4Xi3C4S-EiAou6Y.woff2
+    format: woff2
 fonts:
 - name: Ballet
   styles:
@@ -42,9 +48,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Ballet
+    type: Regular
+    full_name: Ballet Regular
+    post_script_name: Ballet-Regular
+    copyright: Copyright 2020 The Ballet Project Authors (https://github.com/Omnibus-Type/Ballet)
+    font: Ballet[opsz].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - opsz
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2020 The Ballet Project Authors (https://github.com/Omnibus-Type/Ballet)
 spdx_license: OFL-1.1-no-RFN

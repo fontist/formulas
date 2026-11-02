@@ -13,23 +13,17 @@ description: Reem Kufi is a Kufic typeface based on early Kufic (Mushafi) models
   see github.com/aliftype/reem-kufi
 homepage: https://fonts.google.com/specimen/Reem+Kufi
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Reem Kufi
     files:
-    - https://fonts.gstatic.com/s/reemkufi/v28/2sDPZGJLip7W2J7v7wQZZE1I0yCmYzzQtuZnEGSf3qGuvM4.woff2
-    - https://fonts.gstatic.com/s/reemkufi/v28/2sDPZGJLip7W2J7v7wQZZE1I0yCmYzzQttRnEGSf3qGuvM4.woff2
-    - https://fonts.gstatic.com/s/reemkufi/v28/2sDPZGJLip7W2J7v7wQZZE1I0yCmYzzQtjhgEGSf3qGuvM4.woff2
-    - https://fonts.gstatic.com/s/reemkufi/v28/2sDPZGJLip7W2J7v7wQZZE1I0yCmYzzQtgFgEGSf3qGuvM4.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/reemkufi/ReemKufi[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/reemkufi/v28/2sDPZGJLip7W2J7v7wQZZE1I0yCmYzzQtuZnEGSf3qGuvM4.woff2
-    - https://fonts.gstatic.com/s/reemkufi/v28/2sDPZGJLip7W2J7v7wQZZE1I0yCmYzzQttRnEGSf3qGuvM4.woff2
-    - https://fonts.gstatic.com/s/reemkufi/v28/2sDPZGJLip7W2J7v7wQZZE1I0yCmYzzQtjhgEGSf3qGuvM4.woff2
-    - https://fonts.gstatic.com/s/reemkufi/v28/2sDPZGJLip7W2J7v7wQZZE1I0yCmYzzQtgFgEGSf3qGuvM4.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/reemkufi/ReemKufi[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Reem Kufi
     files:
@@ -43,8 +37,20 @@ resources:
     - https://fonts.gstatic.com/s/reemkufi/v28/2sDPZGJLip7W2J7v7wQZZE1I0yCmYzzQtjhgEGGf3qGuvM4.ttf
     - https://fonts.gstatic.com/s/reemkufi/v28/2sDPZGJLip7W2J7v7wQZZE1I0yCmYzzQtgFgEGGf3qGuvM4.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Reem Kufi
+    files:
+    - https://fonts.gstatic.com/s/reemkufi/v28/2sDPZGJLip7W2J7v7wQZZE1I0yCmYzzQtuZnEGSf3qGuvM4.woff2
+    - https://fonts.gstatic.com/s/reemkufi/v28/2sDPZGJLip7W2J7v7wQZZE1I0yCmYzzQttRnEGSf3qGuvM4.woff2
+    - https://fonts.gstatic.com/s/reemkufi/v28/2sDPZGJLip7W2J7v7wQZZE1I0yCmYzzQtjhgEGSf3qGuvM4.woff2
+    - https://fonts.gstatic.com/s/reemkufi/v28/2sDPZGJLip7W2J7v7wQZZE1I0yCmYzzQtgFgEGSf3qGuvM4.woff2
+    urls:
+    - https://fonts.gstatic.com/s/reemkufi/v28/2sDPZGJLip7W2J7v7wQZZE1I0yCmYzzQtuZnEGSf3qGuvM4.woff2
+    - https://fonts.gstatic.com/s/reemkufi/v28/2sDPZGJLip7W2J7v7wQZZE1I0yCmYzzQttRnEGSf3qGuvM4.woff2
+    - https://fonts.gstatic.com/s/reemkufi/v28/2sDPZGJLip7W2J7v7wQZZE1I0yCmYzzQtjhgEGSf3qGuvM4.woff2
+    - https://fonts.gstatic.com/s/reemkufi/v28/2sDPZGJLip7W2J7v7wQZZE1I0yCmYzzQtgFgEGSf3qGuvM4.woff2
+    format: woff2
 fonts:
 - name: Reem Kufi
   styles:
@@ -60,9 +66,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Reem Kufi
     type: Bold
     full_name: Reem Kufi Bold
@@ -75,9 +80,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Reem Kufi
+    type: Regular
+    full_name: Reem Kufi
+    post_script_name: ReemKufi
+    copyright: Copyright 2015-2022 The Reem Kufi Project Authors (https://github.com/aliftype/reem-kufi).
+    font: ReemKufi[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Reem Kufi Medium
   styles:
   - family_name: Reem Kufi Medium
@@ -94,9 +110,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Reem Kufi SemiBold
   styles:
   - family_name: Reem Kufi SemiBold
@@ -113,9 +128,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2015-2022 The Reem Kufi Project Authors (https://github.com/aliftype/reem-kufi).
 spdx_license: OFL-1.1-RFN

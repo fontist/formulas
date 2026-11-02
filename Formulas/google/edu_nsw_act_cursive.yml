@@ -4,23 +4,7 @@ schema_version: 5
 description: Edu NSW ACT Cursive font family
 homepage: https://fonts.google.com/specimen/Edu+NSW+ACT+Cursive
 resources:
-  woff2_variable:
-    source: google
-    family: Edu NSW ACT Cursive
-    files:
-    - https://fonts.gstatic.com/s/edunswactcursive/v3/xn7LYGUw02PnIPEjskHSG_2fCaz9DzhQbcTNLWxkwsHVCrd5giiQjXBs6BMb.woff2
-    - https://fonts.gstatic.com/s/edunswactcursive/v3/xn7LYGUw02PnIPEjskHSG_2fCaz9DzhQbcTNLWxkwsHVCrdLgiiQjXBs6BMb.woff2
-    - https://fonts.gstatic.com/s/edunswactcursive/v3/xn7LYGUw02PnIPEjskHSG_2fCaz9DzhQbcTNLWxkwsHVCrenhSiQjXBs6BMb.woff2
-    - https://fonts.gstatic.com/s/edunswactcursive/v3/xn7LYGUw02PnIPEjskHSG_2fCaz9DzhQbcTNLWxkwsHVCreehSiQjXBs6BMb.woff2
-    urls:
-    - https://fonts.gstatic.com/s/edunswactcursive/v3/xn7LYGUw02PnIPEjskHSG_2fCaz9DzhQbcTNLWxkwsHVCrd5giiQjXBs6BMb.woff2
-    - https://fonts.gstatic.com/s/edunswactcursive/v3/xn7LYGUw02PnIPEjskHSG_2fCaz9DzhQbcTNLWxkwsHVCrdLgiiQjXBs6BMb.woff2
-    - https://fonts.gstatic.com/s/edunswactcursive/v3/xn7LYGUw02PnIPEjskHSG_2fCaz9DzhQbcTNLWxkwsHVCrenhSiQjXBs6BMb.woff2
-    - https://fonts.gstatic.com/s/edunswactcursive/v3/xn7LYGUw02PnIPEjskHSG_2fCaz9DzhQbcTNLWxkwsHVCreehSiQjXBs6BMb.woff2
-    format: woff2
-    variable_axes:
-    - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Edu NSW ACT Cursive
     files:
@@ -34,8 +18,20 @@ resources:
     - https://fonts.gstatic.com/s/edunswactcursive/v3/xn7LYGUw02PnIPEjskHSG_2fCaz9DzhQbcTNLWxkwsHVCrenhSiVjXBs6BMb.ttf
     - https://fonts.gstatic.com/s/edunswactcursive/v3/xn7LYGUw02PnIPEjskHSG_2fCaz9DzhQbcTNLWxkwsHVCreehSiVjXBs6BMb.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Edu NSW ACT Cursive
+    files:
+    - https://fonts.gstatic.com/s/edunswactcursive/v3/xn7LYGUw02PnIPEjskHSG_2fCaz9DzhQbcTNLWxkwsHVCrd5giiQjXBs6BMb.woff2
+    - https://fonts.gstatic.com/s/edunswactcursive/v3/xn7LYGUw02PnIPEjskHSG_2fCaz9DzhQbcTNLWxkwsHVCrdLgiiQjXBs6BMb.woff2
+    - https://fonts.gstatic.com/s/edunswactcursive/v3/xn7LYGUw02PnIPEjskHSG_2fCaz9DzhQbcTNLWxkwsHVCrenhSiQjXBs6BMb.woff2
+    - https://fonts.gstatic.com/s/edunswactcursive/v3/xn7LYGUw02PnIPEjskHSG_2fCaz9DzhQbcTNLWxkwsHVCreehSiQjXBs6BMb.woff2
+    urls:
+    - https://fonts.gstatic.com/s/edunswactcursive/v3/xn7LYGUw02PnIPEjskHSG_2fCaz9DzhQbcTNLWxkwsHVCrd5giiQjXBs6BMb.woff2
+    - https://fonts.gstatic.com/s/edunswactcursive/v3/xn7LYGUw02PnIPEjskHSG_2fCaz9DzhQbcTNLWxkwsHVCrdLgiiQjXBs6BMb.woff2
+    - https://fonts.gstatic.com/s/edunswactcursive/v3/xn7LYGUw02PnIPEjskHSG_2fCaz9DzhQbcTNLWxkwsHVCrenhSiQjXBs6BMb.woff2
+    - https://fonts.gstatic.com/s/edunswactcursive/v3/xn7LYGUw02PnIPEjskHSG_2fCaz9DzhQbcTNLWxkwsHVCreehSiQjXBs6BMb.woff2
+    format: woff2
 fonts:
 - name: Edu NSW ACT Cursive
   styles:
@@ -51,9 +47,7 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
   - family_name: Edu NSW ACT Cursive
     type: Bold
     full_name: Edu NSW ACT Cursive Bold
@@ -66,9 +60,7 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
 - name: Edu NSW ACT Cursive Medium
   styles:
   - family_name: Edu NSW ACT Cursive Medium
@@ -85,9 +77,7 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
 - name: Edu NSW ACT Cursive SemiBold
   styles:
   - family_name: Edu NSW ACT Cursive SemiBold
@@ -104,9 +94,7 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
 extract: {}
 copyright: Copyright 2023 The NSW ACT School Hand Australia Project Authors (https://github.com/SorkinType/NSWACTSchoolHandAustralia)
 spdx_license: OFL-1.1-no-RFN

@@ -11,23 +11,17 @@ description: 'Caveat is a handwriting type family designed by Pablo Impallari. I
   by Cyreal , a type design foundry in Moscow, Russia.'
 homepage: https://fonts.google.com/specimen/Caveat
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Caveat
     files:
-    - https://fonts.gstatic.com/s/caveat/v23/WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9SIejYBxPigs.woff2
-    - https://fonts.gstatic.com/s/caveat/v23/WnznHAc5bAfYB2QRah7pcpNvOx-pjcB9SIejYBxPigs.woff2
-    - https://fonts.gstatic.com/s/caveat/v23/WnznHAc5bAfYB2QRah7pcpNvOx-pjSx6SIejYBxPigs.woff2
-    - https://fonts.gstatic.com/s/caveat/v23/WnznHAc5bAfYB2QRah7pcpNvOx-pjRV6SIejYBxPigs.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/caveat/Caveat[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/caveat/v23/WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9SIejYBxPigs.woff2
-    - https://fonts.gstatic.com/s/caveat/v23/WnznHAc5bAfYB2QRah7pcpNvOx-pjcB9SIejYBxPigs.woff2
-    - https://fonts.gstatic.com/s/caveat/v23/WnznHAc5bAfYB2QRah7pcpNvOx-pjSx6SIejYBxPigs.woff2
-    - https://fonts.gstatic.com/s/caveat/v23/WnznHAc5bAfYB2QRah7pcpNvOx-pjRV6SIejYBxPigs.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/caveat/Caveat[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Caveat
     files:
@@ -41,8 +35,20 @@ resources:
     - https://fonts.gstatic.com/s/caveat/v23/WnznHAc5bAfYB2QRah7pcpNvOx-pjSx6SIKjYBxPigs.ttf
     - https://fonts.gstatic.com/s/caveat/v23/WnznHAc5bAfYB2QRah7pcpNvOx-pjRV6SIKjYBxPigs.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Caveat
+    files:
+    - https://fonts.gstatic.com/s/caveat/v23/WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9SIejYBxPigs.woff2
+    - https://fonts.gstatic.com/s/caveat/v23/WnznHAc5bAfYB2QRah7pcpNvOx-pjcB9SIejYBxPigs.woff2
+    - https://fonts.gstatic.com/s/caveat/v23/WnznHAc5bAfYB2QRah7pcpNvOx-pjSx6SIejYBxPigs.woff2
+    - https://fonts.gstatic.com/s/caveat/v23/WnznHAc5bAfYB2QRah7pcpNvOx-pjRV6SIejYBxPigs.woff2
+    urls:
+    - https://fonts.gstatic.com/s/caveat/v23/WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9SIejYBxPigs.woff2
+    - https://fonts.gstatic.com/s/caveat/v23/WnznHAc5bAfYB2QRah7pcpNvOx-pjcB9SIejYBxPigs.woff2
+    - https://fonts.gstatic.com/s/caveat/v23/WnznHAc5bAfYB2QRah7pcpNvOx-pjSx6SIejYBxPigs.woff2
+    - https://fonts.gstatic.com/s/caveat/v23/WnznHAc5bAfYB2QRah7pcpNvOx-pjRV6SIejYBxPigs.woff2
+    format: woff2
 fonts:
 - name: Caveat
   styles:
@@ -58,9 +64,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Caveat
     type: Bold
     full_name: Caveat Bold
@@ -73,9 +78,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Caveat
+    type: Regular
+    full_name: Caveat Regular
+    post_script_name: Caveat-Regular
+    copyright: Copyright 2014 The Caveat Project Authors (https://github.com/googlefonts/caveat)
+    font: Caveat[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Caveat Medium
   styles:
   - family_name: Caveat Medium
@@ -92,9 +108,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Caveat SemiBold
   styles:
   - family_name: Caveat SemiBold
@@ -111,9 +126,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2014 The Caveat Project Authors (https://github.com/googlefonts/caveat)
 spdx_license: OFL-1.1-no-RFN

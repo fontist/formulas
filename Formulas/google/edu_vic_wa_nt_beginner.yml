@@ -19,23 +19,17 @@ description: 'The Foundation Fonts for Australian Schools collection is a set of
   .'
 homepage: https://fonts.google.com/specimen/Edu+VIC+WA+NT+Beginner
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Edu VIC WA NT Beginner
     files:
-    - https://fonts.gstatic.com/s/eduvicwantbeginner/v6/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-OXlPmAXwnpkeGR.woff2
-    - https://fonts.gstatic.com/s/eduvicwantbeginner/v6/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-OllPmAXwnpkeGR.woff2
-    - https://fonts.gstatic.com/s/eduvicwantbeginner/v6/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-NJk_mAXwnpkeGR.woff2
-    - https://fonts.gstatic.com/s/eduvicwantbeginner/v6/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-Nwk_mAXwnpkeGR.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/eduvicwantbeginner/EduVICWANTBeginner[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/eduvicwantbeginner/v6/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-OXlPmAXwnpkeGR.woff2
-    - https://fonts.gstatic.com/s/eduvicwantbeginner/v6/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-OllPmAXwnpkeGR.woff2
-    - https://fonts.gstatic.com/s/eduvicwantbeginner/v6/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-NJk_mAXwnpkeGR.woff2
-    - https://fonts.gstatic.com/s/eduvicwantbeginner/v6/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-Nwk_mAXwnpkeGR.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/eduvicwantbeginner/EduVICWANTBeginner[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Edu VIC WA NT Beginner
     files:
@@ -49,8 +43,20 @@ resources:
     - https://fonts.gstatic.com/s/eduvicwantbeginner/v6/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-NJk_mFXwnpkeGR.ttf
     - https://fonts.gstatic.com/s/eduvicwantbeginner/v6/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-Nwk_mFXwnpkeGR.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Edu VIC WA NT Beginner
+    files:
+    - https://fonts.gstatic.com/s/eduvicwantbeginner/v6/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-OXlPmAXwnpkeGR.woff2
+    - https://fonts.gstatic.com/s/eduvicwantbeginner/v6/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-OllPmAXwnpkeGR.woff2
+    - https://fonts.gstatic.com/s/eduvicwantbeginner/v6/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-NJk_mAXwnpkeGR.woff2
+    - https://fonts.gstatic.com/s/eduvicwantbeginner/v6/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-Nwk_mAXwnpkeGR.woff2
+    urls:
+    - https://fonts.gstatic.com/s/eduvicwantbeginner/v6/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-OXlPmAXwnpkeGR.woff2
+    - https://fonts.gstatic.com/s/eduvicwantbeginner/v6/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-OllPmAXwnpkeGR.woff2
+    - https://fonts.gstatic.com/s/eduvicwantbeginner/v6/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-NJk_mAXwnpkeGR.woff2
+    - https://fonts.gstatic.com/s/eduvicwantbeginner/v6/jiz2RF1BuW9OwcnNPxLl4KfZCHd9nFtd5Tu7stCpElYpvPfZZ-Nwk_mAXwnpkeGR.woff2
+    format: woff2
 fonts:
 - name: Edu VIC WA NT Beginner
   styles:
@@ -66,9 +72,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Edu VIC WA NT Beginner
     type: Bold
     full_name: Edu VIC WA NT Beginner Bold
@@ -81,9 +86,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Edu VIC WA NT Beginner
+    type: Regular
+    full_name: Edu VIC WA NT Beginner Regular
+    post_script_name: EduVICWANTBeginner-Regular
+    copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
+    font: EduVICWANTBeginner[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Edu VIC WA NT Beginner Medium
   styles:
   - family_name: Edu VIC WA NT Beginner Medium
@@ -100,9 +116,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Edu VIC WA NT Beginner SemiBold
   styles:
   - family_name: Edu VIC WA NT Beginner SemiBold
@@ -119,9 +134,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
 spdx_license: OFL-1.1-no-RFN

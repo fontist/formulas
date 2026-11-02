@@ -8,6 +8,7 @@ resources:
     - https://modi.jpn.org/download/MODI_mushin_2021_1104.zip
     sha256: 700d9306dfe224e17441c9b404079d6e1564a771b5e7c94a935a1f82870cdea6
     file_size: 3092167
+    format: otf
 fonts:
 - name: Mushin
   styles:
@@ -20,6 +21,8 @@ fonts:
     version: '1.04'
     copyright: MODI
     font: mushin.otf
+    formats:
+    - otf
 extract: {}
 copyright: MODI
 command: create-formula https://modi.jpn.org/download/MODI_mushin_2021_1104.zip

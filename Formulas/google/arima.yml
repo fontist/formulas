@@ -17,29 +17,17 @@ description: A display font with soft edges and calligraphic feel is the main in
   based in Portugal. To contribute, see github.com/NDISCOVER/Arima-Font
 homepage: https://fonts.google.com/specimen/Arima
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Arima
     files:
-    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1YTE-oAGOyYw2fw.woff2
-    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX14TA-oAGOyYw2fw.woff2
-    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1PzA-oAGOyYw2fw.woff2
-    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1YTA-oAGOyYw2fw.woff2
-    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1UzA-oAGOyYw2fw.woff2
-    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1vzc-oAGOyYw2fw.woff2
-    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1hjc-oAGOyYw2fw.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/arima/Arima[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1YTE-oAGOyYw2fw.woff2
-    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX14TA-oAGOyYw2fw.woff2
-    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1PzA-oAGOyYw2fw.woff2
-    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1YTA-oAGOyYw2fw.woff2
-    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1UzA-oAGOyYw2fw.woff2
-    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1vzc-oAGOyYw2fw.woff2
-    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1hjc-oAGOyYw2fw.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/arima/Arima[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Arima
     files:
@@ -59,8 +47,26 @@ resources:
     - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1vzc-pQGOyYw2fw.ttf
     - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1hjc-pQGOyYw2fw.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Arima
+    files:
+    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1YTE-oAGOyYw2fw.woff2
+    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX14TA-oAGOyYw2fw.woff2
+    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1PzA-oAGOyYw2fw.woff2
+    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1YTA-oAGOyYw2fw.woff2
+    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1UzA-oAGOyYw2fw.woff2
+    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1vzc-oAGOyYw2fw.woff2
+    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1hjc-oAGOyYw2fw.woff2
+    urls:
+    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1YTE-oAGOyYw2fw.woff2
+    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX14TA-oAGOyYw2fw.woff2
+    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1PzA-oAGOyYw2fw.woff2
+    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1YTA-oAGOyYw2fw.woff2
+    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1UzA-oAGOyYw2fw.woff2
+    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1vzc-oAGOyYw2fw.woff2
+    - https://fonts.gstatic.com/s/arima/v7/neIWzCqmt4Aup_qE1nFWqxI1RZX1hjc-oAGOyYw2fw.woff2
+    format: woff2
 fonts:
 - name: Arima Thin
   styles:
@@ -78,9 +84,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Arima ExtraLight
   styles:
   - family_name: Arima ExtraLight
@@ -97,9 +102,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Arima Light
   styles:
   - family_name: Arima Light
@@ -116,9 +120,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Arima
   styles:
   - family_name: Arima
@@ -133,9 +136,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Arima
     type: Bold
     full_name: Arima Bold
@@ -148,9 +150,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Arima
+    type: Regular
+    full_name: Arima Thin
+    post_script_name: Arima-Thin
+    copyright: Copyright 2020 The Arima Project Authors (https://github.com/NDISCOVER/Arima-Font)
+    font: Arima[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Arima Medium
   styles:
   - family_name: Arima Medium
@@ -167,9 +180,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Arima SemiBold
   styles:
   - family_name: Arima SemiBold
@@ -186,9 +198,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2020 The Arima Project Authors (https://github.com/NDISCOVER/Arima-Font)
 spdx_license: OFL-1.1-no-RFN

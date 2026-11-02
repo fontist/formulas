@@ -4,35 +4,19 @@ schema_version: 5
 description: Vend Sans font family
 homepage: https://fonts.google.com/specimen/Vend+Sans
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Vend Sans
     files:
-    - https://fonts.gstatic.com/s/vendsans/v1/E212_d7ijufNwCJPEUs2WCek2ncUdeeBqgeqzzLJQAJuEJw.woff2
-    - https://fonts.gstatic.com/s/vendsans/v1/E212_d7ijufNwCJPEUs2WCek2ncUdeeBqlmqzzLJQAJuEJw.woff2
-    - https://fonts.gstatic.com/s/vendsans/v1/E212_d7ijufNwCJPEUs2WCek2ncUdeeBqmuqzzLJQAJuEJw.woff2
-    - https://fonts.gstatic.com/s/vendsans/v1/E212_d7ijufNwCJPEUs2WCek2ncUdeeBqoetzzLJQAJuEJw.woff2
-    - https://fonts.gstatic.com/s/vendsans/v1/E212_d7ijufNwCJPEUs2WCek2ncUdeeBqr6tzzLJQAJuEJw.woff2
-    - https://fonts.gstatic.com/s/vendsans/v1/E210_d7ijufNwCJPEUscURVbAh5_70mGv5HpeXTDQSBrAJz0nA.woff2
-    - https://fonts.gstatic.com/s/vendsans/v1/E210_d7ijufNwCJPEUscURVbAh5_70mGv5HpJ3TDQSBrAJz0nA.woff2
-    - https://fonts.gstatic.com/s/vendsans/v1/E210_d7ijufNwCJPEUscURVbAh5_70mGv5HpFXTDQSBrAJz0nA.woff2
-    - https://fonts.gstatic.com/s/vendsans/v1/E210_d7ijufNwCJPEUscURVbAh5_70mGv5Hp-XPDQSBrAJz0nA.woff2
-    - https://fonts.gstatic.com/s/vendsans/v1/E210_d7ijufNwCJPEUscURVbAh5_70mGv5HpwHPDQSBrAJz0nA.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/vendsans/VendSans[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/vendsans/VendSans-Italic[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/vendsans/v1/E212_d7ijufNwCJPEUs2WCek2ncUdeeBqgeqzzLJQAJuEJw.woff2
-    - https://fonts.gstatic.com/s/vendsans/v1/E212_d7ijufNwCJPEUs2WCek2ncUdeeBqlmqzzLJQAJuEJw.woff2
-    - https://fonts.gstatic.com/s/vendsans/v1/E212_d7ijufNwCJPEUs2WCek2ncUdeeBqmuqzzLJQAJuEJw.woff2
-    - https://fonts.gstatic.com/s/vendsans/v1/E212_d7ijufNwCJPEUs2WCek2ncUdeeBqoetzzLJQAJuEJw.woff2
-    - https://fonts.gstatic.com/s/vendsans/v1/E212_d7ijufNwCJPEUs2WCek2ncUdeeBqr6tzzLJQAJuEJw.woff2
-    - https://fonts.gstatic.com/s/vendsans/v1/E210_d7ijufNwCJPEUscURVbAh5_70mGv5HpeXTDQSBrAJz0nA.woff2
-    - https://fonts.gstatic.com/s/vendsans/v1/E210_d7ijufNwCJPEUscURVbAh5_70mGv5HpJ3TDQSBrAJz0nA.woff2
-    - https://fonts.gstatic.com/s/vendsans/v1/E210_d7ijufNwCJPEUscURVbAh5_70mGv5HpFXTDQSBrAJz0nA.woff2
-    - https://fonts.gstatic.com/s/vendsans/v1/E210_d7ijufNwCJPEUscURVbAh5_70mGv5Hp-XPDQSBrAJz0nA.woff2
-    - https://fonts.gstatic.com/s/vendsans/v1/E210_d7ijufNwCJPEUscURVbAh5_70mGv5HpwHPDQSBrAJz0nA.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/vendsans/VendSans[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/vendsans/VendSans-Italic[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Vend Sans
     files:
@@ -58,8 +42,32 @@ resources:
     - https://fonts.gstatic.com/s/vendsans/v1/E210_d7ijufNwCJPEUscURVbAh5_70mGv5Hp-XPDRCBrAJz0nA.ttf
     - https://fonts.gstatic.com/s/vendsans/v1/E210_d7ijufNwCJPEUscURVbAh5_70mGv5HpwHPDRCBrAJz0nA.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Vend Sans
+    files:
+    - https://fonts.gstatic.com/s/vendsans/v1/E212_d7ijufNwCJPEUs2WCek2ncUdeeBqgeqzzLJQAJuEJw.woff2
+    - https://fonts.gstatic.com/s/vendsans/v1/E212_d7ijufNwCJPEUs2WCek2ncUdeeBqlmqzzLJQAJuEJw.woff2
+    - https://fonts.gstatic.com/s/vendsans/v1/E212_d7ijufNwCJPEUs2WCek2ncUdeeBqmuqzzLJQAJuEJw.woff2
+    - https://fonts.gstatic.com/s/vendsans/v1/E212_d7ijufNwCJPEUs2WCek2ncUdeeBqoetzzLJQAJuEJw.woff2
+    - https://fonts.gstatic.com/s/vendsans/v1/E212_d7ijufNwCJPEUs2WCek2ncUdeeBqr6tzzLJQAJuEJw.woff2
+    - https://fonts.gstatic.com/s/vendsans/v1/E210_d7ijufNwCJPEUscURVbAh5_70mGv5HpeXTDQSBrAJz0nA.woff2
+    - https://fonts.gstatic.com/s/vendsans/v1/E210_d7ijufNwCJPEUscURVbAh5_70mGv5HpJ3TDQSBrAJz0nA.woff2
+    - https://fonts.gstatic.com/s/vendsans/v1/E210_d7ijufNwCJPEUscURVbAh5_70mGv5HpFXTDQSBrAJz0nA.woff2
+    - https://fonts.gstatic.com/s/vendsans/v1/E210_d7ijufNwCJPEUscURVbAh5_70mGv5Hp-XPDQSBrAJz0nA.woff2
+    - https://fonts.gstatic.com/s/vendsans/v1/E210_d7ijufNwCJPEUscURVbAh5_70mGv5HpwHPDQSBrAJz0nA.woff2
+    urls:
+    - https://fonts.gstatic.com/s/vendsans/v1/E212_d7ijufNwCJPEUs2WCek2ncUdeeBqgeqzzLJQAJuEJw.woff2
+    - https://fonts.gstatic.com/s/vendsans/v1/E212_d7ijufNwCJPEUs2WCek2ncUdeeBqlmqzzLJQAJuEJw.woff2
+    - https://fonts.gstatic.com/s/vendsans/v1/E212_d7ijufNwCJPEUs2WCek2ncUdeeBqmuqzzLJQAJuEJw.woff2
+    - https://fonts.gstatic.com/s/vendsans/v1/E212_d7ijufNwCJPEUs2WCek2ncUdeeBqoetzzLJQAJuEJw.woff2
+    - https://fonts.gstatic.com/s/vendsans/v1/E212_d7ijufNwCJPEUs2WCek2ncUdeeBqr6tzzLJQAJuEJw.woff2
+    - https://fonts.gstatic.com/s/vendsans/v1/E210_d7ijufNwCJPEUscURVbAh5_70mGv5HpeXTDQSBrAJz0nA.woff2
+    - https://fonts.gstatic.com/s/vendsans/v1/E210_d7ijufNwCJPEUscURVbAh5_70mGv5HpJ3TDQSBrAJz0nA.woff2
+    - https://fonts.gstatic.com/s/vendsans/v1/E210_d7ijufNwCJPEUscURVbAh5_70mGv5HpFXTDQSBrAJz0nA.woff2
+    - https://fonts.gstatic.com/s/vendsans/v1/E210_d7ijufNwCJPEUscURVbAh5_70mGv5Hp-XPDQSBrAJz0nA.woff2
+    - https://fonts.gstatic.com/s/vendsans/v1/E210_d7ijufNwCJPEUscURVbAh5_70mGv5HpwHPDQSBrAJz0nA.woff2
+    format: woff2
 fonts:
 - name: Vend Sans Light
   styles:
@@ -77,9 +85,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Vend Sans Light
     type: Italic
     full_name: Vend Sans Light Italic
@@ -94,9 +101,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Vend Sans
   styles:
   - family_name: Vend Sans
@@ -111,9 +117,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Vend Sans
     type: Bold
     full_name: Vend Sans Bold
@@ -126,9 +131,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Vend Sans
     type: Italic
     full_name: Vend Sans Italic
@@ -141,9 +145,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Vend Sans
     type: Bold Italic
     full_name: Vend Sans Bold Italic
@@ -156,9 +159,32 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Vend Sans
+    type: Regular
+    full_name: Vend Sans Light
+    post_script_name: VendSans-Light
+    copyright: Copyright 2025 The Vend Sans Project Authors (https://github.com/ktkm/Vend-Sans)
+    font: VendSans[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
+  - family_name: Vend Sans
+    type: Italic
+    full_name: Vend Sans Light Italic
+    post_script_name: VendSans-LightItalic
+    copyright: Copyright 2025 The Vend Sans Project Authors (https://github.com/ktkm/Vend-Sans)
+    font: VendSans-Italic[wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wght
+    source_resource: ttf_variable
 - name: Vend Sans Medium
   styles:
   - family_name: Vend Sans Medium
@@ -175,9 +201,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Vend Sans Medium
     type: Italic
     full_name: Vend Sans Medium Italic
@@ -192,9 +217,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Vend Sans SemiBold
   styles:
   - family_name: Vend Sans SemiBold
@@ -211,9 +235,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Vend Sans SemiBold
     type: Italic
     full_name: Vend Sans SemiBold Italic
@@ -228,9 +251,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2025 The Vend Sans Project Authors (https://github.com/ktkm/Vend-Sans)
 spdx_license: OFL-1.1-no-RFN

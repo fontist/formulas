@@ -8,27 +8,17 @@ description: Ruda is a sans serif typeface originally developed for a specific c
   . Ruda is a collaboration between marie monsalve and Angelina Saanchez.
 homepage: https://fonts.google.com/specimen/Ruda
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Ruda
     files:
-    - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaJFsi_72KiSGg-H.woff2
-    - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaJ3si_72KiSGg-H.woff2
-    - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaKbtS_72KiSGg-H.woff2
-    - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaKitS_72KiSGg-H.woff2
-    - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaLFtS_72KiSGg-H.woff2
-    - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaLstS_72KiSGg-H.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/ruda/Ruda[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaJFsi_72KiSGg-H.woff2
-    - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaJ3si_72KiSGg-H.woff2
-    - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaKbtS_72KiSGg-H.woff2
-    - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaKitS_72KiSGg-H.woff2
-    - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaLFtS_72KiSGg-H.woff2
-    - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaLstS_72KiSGg-H.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/ruda/Ruda[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Ruda
     files:
@@ -46,8 +36,24 @@ resources:
     - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaLFtS_-2KiSGg-H.ttf
     - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaLstS_-2KiSGg-H.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Ruda
+    files:
+    - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaJFsi_72KiSGg-H.woff2
+    - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaJ3si_72KiSGg-H.woff2
+    - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaKbtS_72KiSGg-H.woff2
+    - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaKitS_72KiSGg-H.woff2
+    - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaLFtS_72KiSGg-H.woff2
+    - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaLstS_72KiSGg-H.woff2
+    urls:
+    - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaJFsi_72KiSGg-H.woff2
+    - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaJ3si_72KiSGg-H.woff2
+    - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaKbtS_72KiSGg-H.woff2
+    - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaKitS_72KiSGg-H.woff2
+    - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaLFtS_72KiSGg-H.woff2
+    - https://fonts.gstatic.com/s/ruda/v30/k3kKo8YQJOpFgHQ1mQ5VkEbUKaLstS_72KiSGg-H.woff2
+    format: woff2
 fonts:
 - name: Ruda
   styles:
@@ -63,9 +69,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Ruda
     type: Bold
     full_name: Ruda Bold
@@ -78,9 +83,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Ruda
+    type: Regular
+    full_name: Ruda Regular
+    post_script_name: Ruda-Regular
+    copyright: Copyright 2019 The Ruda Project Authors (https://github.com/marmonsalve/Ruda-new)
+    font: Ruda[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Ruda Medium
   styles:
   - family_name: Ruda Medium
@@ -97,9 +113,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Ruda SemiBold
   styles:
   - family_name: Ruda SemiBold
@@ -116,9 +131,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Ruda ExtraBold
   styles:
   - family_name: Ruda ExtraBold
@@ -135,9 +149,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Ruda Black
   styles:
   - family_name: Ruda Black
@@ -154,9 +167,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2019 The Ruda Project Authors (https://github.com/marmonsalve/Ruda-new)
 spdx_license: OFL-1.1-no-RFN

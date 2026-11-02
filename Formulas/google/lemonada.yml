@@ -13,25 +13,17 @@ description: Lemonada is a modern Arabic and Latin typeface family designed by M
   based in Cairo, Egypt. To contribute, see github.com/Gue3bara/Lemonada
 homepage: https://fonts.google.com/specimen/Lemonada
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Lemonada
     files:
-    - https://fonts.gstatic.com/s/lemonada/v31/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGJOt2nPWc3Z2pTg.woff2
-    - https://fonts.gstatic.com/s/lemonada/v31/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGeut2nPWc3Z2pTg.woff2
-    - https://fonts.gstatic.com/s/lemonada/v31/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGSOt2nPWc3Z2pTg.woff2
-    - https://fonts.gstatic.com/s/lemonada/v31/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGpOx2nPWc3Z2pTg.woff2
-    - https://fonts.gstatic.com/s/lemonada/v31/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGnex2nPWc3Z2pTg.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/lemonada/Lemonada[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/lemonada/v31/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGJOt2nPWc3Z2pTg.woff2
-    - https://fonts.gstatic.com/s/lemonada/v31/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGeut2nPWc3Z2pTg.woff2
-    - https://fonts.gstatic.com/s/lemonada/v31/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGSOt2nPWc3Z2pTg.woff2
-    - https://fonts.gstatic.com/s/lemonada/v31/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGpOx2nPWc3Z2pTg.woff2
-    - https://fonts.gstatic.com/s/lemonada/v31/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGnex2nPWc3Z2pTg.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/lemonada/Lemonada[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Lemonada
     files:
@@ -47,8 +39,22 @@ resources:
     - https://fonts.gstatic.com/s/lemonada/v31/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGpOx2mfWc3Z2pTg.ttf
     - https://fonts.gstatic.com/s/lemonada/v31/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGnex2mfWc3Z2pTg.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Lemonada
+    files:
+    - https://fonts.gstatic.com/s/lemonada/v31/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGJOt2nPWc3Z2pTg.woff2
+    - https://fonts.gstatic.com/s/lemonada/v31/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGeut2nPWc3Z2pTg.woff2
+    - https://fonts.gstatic.com/s/lemonada/v31/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGSOt2nPWc3Z2pTg.woff2
+    - https://fonts.gstatic.com/s/lemonada/v31/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGpOx2nPWc3Z2pTg.woff2
+    - https://fonts.gstatic.com/s/lemonada/v31/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGnex2nPWc3Z2pTg.woff2
+    urls:
+    - https://fonts.gstatic.com/s/lemonada/v31/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGJOt2nPWc3Z2pTg.woff2
+    - https://fonts.gstatic.com/s/lemonada/v31/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGeut2nPWc3Z2pTg.woff2
+    - https://fonts.gstatic.com/s/lemonada/v31/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGSOt2nPWc3Z2pTg.woff2
+    - https://fonts.gstatic.com/s/lemonada/v31/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGpOx2nPWc3Z2pTg.woff2
+    - https://fonts.gstatic.com/s/lemonada/v31/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGnex2nPWc3Z2pTg.woff2
+    format: woff2
 fonts:
 - name: Lemonada Light
   styles:
@@ -66,9 +72,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Lemonada
   styles:
   - family_name: Lemonada
@@ -83,9 +88,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Lemonada
     type: Bold
     full_name: Lemonada Bold
@@ -98,9 +102,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Lemonada
+    type: Regular
+    full_name: Lemonada Regular
+    post_script_name: Lemonada-Regular
+    copyright: Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)
+    font: Lemonada[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Lemonada Medium
   styles:
   - family_name: Lemonada Medium
@@ -117,9 +132,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Lemonada SemiBold
   styles:
   - family_name: Lemonada SemiBold
@@ -136,9 +150,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)
 spdx_license: OFL-1.1-no-RFN

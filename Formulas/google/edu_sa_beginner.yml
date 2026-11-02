@@ -18,23 +18,17 @@ description: 'The Foundation Fonts for Australian Schools collection is a set of
   contribute, see github.com/MezMerrit/AU-School-Handwriting-Fonts .'
 homepage: https://fonts.google.com/specimen/Edu+SA+Beginner
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Edu SA Beginner
     files:
-    - https://fonts.gstatic.com/s/edusabeginner/v5/rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9989fohyBydUEDs.woff2
-    - https://fonts.gstatic.com/s/edusabeginner/v5/rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9-09fohyBydUEDs.woff2
-    - https://fonts.gstatic.com/s/edusabeginner/v5/rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9wE6fohyBydUEDs.woff2
-    - https://fonts.gstatic.com/s/edusabeginner/v5/rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9zg6fohyBydUEDs.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/edusabeginner/EduSABeginner[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/edusabeginner/v5/rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9989fohyBydUEDs.woff2
-    - https://fonts.gstatic.com/s/edusabeginner/v5/rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9-09fohyBydUEDs.woff2
-    - https://fonts.gstatic.com/s/edusabeginner/v5/rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9wE6fohyBydUEDs.woff2
-    - https://fonts.gstatic.com/s/edusabeginner/v5/rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9zg6fohyBydUEDs.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/edusabeginner/EduSABeginner[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Edu SA Beginner
     files:
@@ -48,8 +42,20 @@ resources:
     - https://fonts.gstatic.com/s/edusabeginner/v5/rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9wE6fo1yBydUEDs.ttf
     - https://fonts.gstatic.com/s/edusabeginner/v5/rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9zg6fo1yBydUEDs.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Edu SA Beginner
+    files:
+    - https://fonts.gstatic.com/s/edusabeginner/v5/rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9989fohyBydUEDs.woff2
+    - https://fonts.gstatic.com/s/edusabeginner/v5/rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9-09fohyBydUEDs.woff2
+    - https://fonts.gstatic.com/s/edusabeginner/v5/rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9wE6fohyBydUEDs.woff2
+    - https://fonts.gstatic.com/s/edusabeginner/v5/rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9zg6fohyBydUEDs.woff2
+    urls:
+    - https://fonts.gstatic.com/s/edusabeginner/v5/rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9989fohyBydUEDs.woff2
+    - https://fonts.gstatic.com/s/edusabeginner/v5/rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9-09fohyBydUEDs.woff2
+    - https://fonts.gstatic.com/s/edusabeginner/v5/rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9wE6fohyBydUEDs.woff2
+    - https://fonts.gstatic.com/s/edusabeginner/v5/rnC_-xRb1x-1lHXnLaZZ2xOoLIGfU3L82irpr_3C9zg6fohyBydUEDs.woff2
+    format: woff2
 fonts:
 - name: Edu SA Beginner
   styles:
@@ -65,9 +71,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Edu SA Beginner
     type: Bold
     full_name: Edu SA Beginner Bold
@@ -80,9 +85,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Edu SA Beginner
+    type: Regular
+    full_name: Edu SA Beginner Regular
+    post_script_name: EduSABeginner-Regular
+    copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
+    font: EduSABeginner[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Edu SA Beginner Medium
   styles:
   - family_name: Edu SA Beginner Medium
@@ -99,9 +115,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Edu SA Beginner SemiBold
   styles:
   - family_name: Edu SA Beginner SemiBold
@@ -118,9 +133,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
 spdx_license: OFL-1.1-no-RFN

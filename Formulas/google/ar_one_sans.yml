@@ -14,24 +14,18 @@ description: AR One Sans is a type family for use in augmented reality environme
   github.com/niteeshy/ar-one-sans .
 homepage: https://fonts.google.com/specimen/AR+One+Sans
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: AR One Sans
     files:
-    - https://fonts.gstatic.com/s/aronesans/v6/TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWn_9DWg3no5mBF4.woff2
-    - https://fonts.gstatic.com/s/aronesans/v6/TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWk39DWg3no5mBF4.woff2
-    - https://fonts.gstatic.com/s/aronesans/v6/TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWqH6DWg3no5mBF4.woff2
-    - https://fonts.gstatic.com/s/aronesans/v6/TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWpj6DWg3no5mBF4.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/aronesans/AROneSans[ARRR,wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/aronesans/v6/TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWn_9DWg3no5mBF4.woff2
-    - https://fonts.gstatic.com/s/aronesans/v6/TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWk39DWg3no5mBF4.woff2
-    - https://fonts.gstatic.com/s/aronesans/v6/TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWqH6DWg3no5mBF4.woff2
-    - https://fonts.gstatic.com/s/aronesans/v6/TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWpj6DWg3no5mBF4.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/aronesans/AROneSans[ARRR,wght].ttf
+    format: ttf
     variable_axes:
     - ARRR
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: AR One Sans
     files:
@@ -45,9 +39,20 @@ resources:
     - https://fonts.gstatic.com/s/aronesans/v6/TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWqH6DW03no5mBF4.ttf
     - https://fonts.gstatic.com/s/aronesans/v6/TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWpj6DW03no5mBF4.ttf
     format: ttf
-    variable_axes:
-    - ARRR
-    - wght
+  woff2_static:
+    source: google
+    family: AR One Sans
+    files:
+    - https://fonts.gstatic.com/s/aronesans/v6/TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWn_9DWg3no5mBF4.woff2
+    - https://fonts.gstatic.com/s/aronesans/v6/TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWk39DWg3no5mBF4.woff2
+    - https://fonts.gstatic.com/s/aronesans/v6/TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWqH6DWg3no5mBF4.woff2
+    - https://fonts.gstatic.com/s/aronesans/v6/TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWpj6DWg3no5mBF4.woff2
+    urls:
+    - https://fonts.gstatic.com/s/aronesans/v6/TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWn_9DWg3no5mBF4.woff2
+    - https://fonts.gstatic.com/s/aronesans/v6/TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWk39DWg3no5mBF4.woff2
+    - https://fonts.gstatic.com/s/aronesans/v6/TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWqH6DWg3no5mBF4.woff2
+    - https://fonts.gstatic.com/s/aronesans/v6/TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWpj6DWg3no5mBF4.woff2
+    format: woff2
 fonts:
 - name: AR One Sans
   styles:
@@ -63,10 +68,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ARRR
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: AR One Sans
     type: Bold
     full_name: AR One Sans Bold
@@ -79,10 +82,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: AR One Sans
+    type: Regular
+    full_name: AR One Sans Regular
+    post_script_name: AROneSans-Regular
+    copyright: Copyright 2018 The AR One Project Authors (https://github.com/niteeshy/ar-one-sans)
+    font: AROneSans[ARRR,wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - ARRR
     - wght
+    source_resource: ttf_variable
 - name: AR One Sans Medium
   styles:
   - family_name: AR One Sans Medium
@@ -99,10 +113,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ARRR
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: AR One Sans SemiBold
   styles:
   - family_name: AR One Sans SemiBold
@@ -119,10 +131,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ARRR
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2018 The AR One Project Authors (https://github.com/niteeshy/ar-one-sans)
 spdx_license: OFL-1.1-no-RFN

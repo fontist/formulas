@@ -19,23 +19,17 @@ description: 'The Foundation Fonts for Australian Schools collection is a set of
   .'
 homepage: https://fonts.google.com/specimen/Edu+QLD+Beginner
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Edu QLD Beginner
     files:
-    - https://fonts.gstatic.com/s/eduqldbeginner/v5/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE4E3oeei6vyVWCN.woff2
-    - https://fonts.gstatic.com/s/eduqldbeginner/v5/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE423oeei6vyVWCN.woff2
-    - https://fonts.gstatic.com/s/eduqldbeginner/v5/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE7a2Yeei6vyVWCN.woff2
-    - https://fonts.gstatic.com/s/eduqldbeginner/v5/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE7j2Yeei6vyVWCN.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/eduqldbeginner/EduQLDBeginner[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/eduqldbeginner/v5/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE4E3oeei6vyVWCN.woff2
-    - https://fonts.gstatic.com/s/eduqldbeginner/v5/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE423oeei6vyVWCN.woff2
-    - https://fonts.gstatic.com/s/eduqldbeginner/v5/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE7a2Yeei6vyVWCN.woff2
-    - https://fonts.gstatic.com/s/eduqldbeginner/v5/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE7j2Yeei6vyVWCN.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/eduqldbeginner/EduQLDBeginner[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Edu QLD Beginner
     files:
@@ -49,8 +43,20 @@ resources:
     - https://fonts.gstatic.com/s/eduqldbeginner/v5/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE7a2Yebi6vyVWCN.ttf
     - https://fonts.gstatic.com/s/eduqldbeginner/v5/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE7j2Yebi6vyVWCN.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Edu QLD Beginner
+    files:
+    - https://fonts.gstatic.com/s/eduqldbeginner/v5/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE4E3oeei6vyVWCN.woff2
+    - https://fonts.gstatic.com/s/eduqldbeginner/v5/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE423oeei6vyVWCN.woff2
+    - https://fonts.gstatic.com/s/eduqldbeginner/v5/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE7a2Yeei6vyVWCN.woff2
+    - https://fonts.gstatic.com/s/eduqldbeginner/v5/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE7j2Yeei6vyVWCN.woff2
+    urls:
+    - https://fonts.gstatic.com/s/eduqldbeginner/v5/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE4E3oeei6vyVWCN.woff2
+    - https://fonts.gstatic.com/s/eduqldbeginner/v5/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE423oeei6vyVWCN.woff2
+    - https://fonts.gstatic.com/s/eduqldbeginner/v5/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE7a2Yeei6vyVWCN.woff2
+    - https://fonts.gstatic.com/s/eduqldbeginner/v5/AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE7j2Yeei6vyVWCN.woff2
+    format: woff2
 fonts:
 - name: Edu QLD Beginner
   styles:
@@ -66,9 +72,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Edu QLD Beginner
     type: Bold
     full_name: Edu QLD Beginner Bold
@@ -81,9 +86,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Edu QLD Beginner
+    type: Regular
+    full_name: Edu QLD Beginner Regular
+    post_script_name: EduQLDBeginner-Regular
+    copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
+    font: EduQLDBeginner[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Edu QLD Beginner Medium
   styles:
   - family_name: Edu QLD Beginner Medium
@@ -100,9 +116,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Edu QLD Beginner SemiBold
   styles:
   - family_name: Edu QLD Beginner SemiBold
@@ -119,9 +134,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
 spdx_license: OFL-1.1-no-RFN

@@ -14,31 +14,17 @@ description: Sora, meaning sky in Japanese, is a typeface family commissioned fo
   github.com/sora-xor/sora-font
 homepage: https://fonts.google.com/specimen/Sora
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Sora
     files:
-    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSdSn3-PIwNhBti0.woff2
-    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSfSnn-PIwNhBti0.woff2
-    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmScMnn-PIwNhBti0.woff2
-    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSdSnn-PIwNhBti0.woff2
-    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSdgnn-PIwNhBti0.woff2
-    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSeMmX-PIwNhBti0.woff2
-    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSe1mX-PIwNhBti0.woff2
-    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSfSmX-PIwNhBti0.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/sora/Sora[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSdSn3-PIwNhBti0.woff2
-    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSfSnn-PIwNhBti0.woff2
-    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmScMnn-PIwNhBti0.woff2
-    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSdSnn-PIwNhBti0.woff2
-    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSdgnn-PIwNhBti0.woff2
-    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSeMmX-PIwNhBti0.woff2
-    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSe1mX-PIwNhBti0.woff2
-    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSfSmX-PIwNhBti0.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/sora/Sora[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Sora
     files:
@@ -60,8 +46,28 @@ resources:
     - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSe1mX-KIwNhBti0.ttf
     - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSfSmX-KIwNhBti0.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Sora
+    files:
+    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSdSn3-PIwNhBti0.woff2
+    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSfSnn-PIwNhBti0.woff2
+    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmScMnn-PIwNhBti0.woff2
+    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSdSnn-PIwNhBti0.woff2
+    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSdgnn-PIwNhBti0.woff2
+    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSeMmX-PIwNhBti0.woff2
+    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSe1mX-PIwNhBti0.woff2
+    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSfSmX-PIwNhBti0.woff2
+    urls:
+    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSdSn3-PIwNhBti0.woff2
+    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSfSnn-PIwNhBti0.woff2
+    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmScMnn-PIwNhBti0.woff2
+    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSdSnn-PIwNhBti0.woff2
+    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSdgnn-PIwNhBti0.woff2
+    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSeMmX-PIwNhBti0.woff2
+    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSe1mX-PIwNhBti0.woff2
+    - https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSfSmX-PIwNhBti0.woff2
+    format: woff2
 fonts:
 - name: Sora Thin
   styles:
@@ -79,9 +85,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Sora ExtraLight
   styles:
   - family_name: Sora ExtraLight
@@ -98,9 +103,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Sora Light
   styles:
   - family_name: Sora Light
@@ -117,9 +121,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Sora
   styles:
   - family_name: Sora
@@ -134,9 +137,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Sora
     type: Bold
     full_name: Sora Bold
@@ -149,9 +151,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Sora
+    type: Regular
+    full_name: Sora Regular
+    post_script_name: Sora-Regular
+    copyright: Copyright 2019 The Sora Project Authors (https://github.com/sora-xor/sora-font)
+    font: Sora[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Sora Medium
   styles:
   - family_name: Sora Medium
@@ -168,9 +181,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Sora SemiBold
   styles:
   - family_name: Sora SemiBold
@@ -187,9 +199,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Sora ExtraBold
   styles:
   - family_name: Sora ExtraBold
@@ -206,9 +217,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2019 The Sora Project Authors (https://github.com/sora-xor/sora-font)
 spdx_license: OFL-1.1-no-RFN

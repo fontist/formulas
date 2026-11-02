@@ -12,18 +12,18 @@ description: 'Typearture''s Nabla: an Isometric COLRv1 font Nabla is a color fon
   .'
 homepage: https://fonts.google.com/specimen/Nabla
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Nabla
     files:
-    - https://fonts.gstatic.com/s/nabla/v17/j8_D6-LI0Lvpe7Makz5UhJt9C3uqg_X_75gyGS4jAxsNIjrRNRVUFFR_198.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/nabla/Nabla[EDPT,EHLT].ttf
     urls:
-    - https://fonts.gstatic.com/s/nabla/v17/j8_D6-LI0Lvpe7Makz5UhJt9C3uqg_X_75gyGS4jAxsNIjrRNRVUFFR_198.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/nabla/Nabla[EDPT,EHLT].ttf
+    format: ttf
     variable_axes:
     - EDPT
     - EHLT
-  ttf_variable:
+  ttf_static:
     source: google
     family: Nabla
     files:
@@ -31,9 +31,14 @@ resources:
     urls:
     - https://fonts.gstatic.com/s/nabla/v17/j8_D6-LI0Lvpe7Makz5UhJt9C3uqg_X_75gyGS4jAxsNIjrRNRBUFFR_198.ttf
     format: ttf
-    variable_axes:
-    - EDPT
-    - EHLT
+  woff2_static:
+    source: google
+    family: Nabla
+    files:
+    - https://fonts.gstatic.com/s/nabla/v17/j8_D6-LI0Lvpe7Makz5UhJt9C3uqg_X_75gyGS4jAxsNIjrRNRVUFFR_198.woff2
+    urls:
+    - https://fonts.gstatic.com/s/nabla/v17/j8_D6-LI0Lvpe7Makz5UhJt9C3uqg_X_75gyGS4jAxsNIjrRNRVUFFR_198.woff2
+    format: woff2
 fonts:
 - name: Nabla
   styles:
@@ -49,10 +54,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Nabla
+    type: Regular
+    full_name: Nabla Regular
+    post_script_name: Nabla-Regular
+    copyright: Copyright 2022 The Nabla Project Authors (https://github.com/justvanrossum/nabla)
+    font: Nabla[EDPT,EHLT].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - EDPT
     - EHLT
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2022 The Nabla Project Authors (https://github.com/justvanrossum/nabla)
 spdx_license: OFL-1.1-no-RFN

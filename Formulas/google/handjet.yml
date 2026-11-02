@@ -12,35 +12,19 @@ description: 'Handjet is an element-based variable font (aka pixel font, modular
   .'
 homepage: https://fonts.google.com/specimen/Handjet
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Handjet
     files:
-    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHTmbUkAsEHFAH2A.woff2
-    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHbmaUkAsEHFAH2A.woff2
-    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHWeaUkAsEHFAH2A.woff2
-    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHTmaUkAsEHFAH2A.woff2
-    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHQuaUkAsEHFAH2A.woff2
-    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHeedUkAsEHFAH2A.woff2
-    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHd6dUkAsEHFAH2A.woff2
-    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHbmdUkAsEHFAH2A.woff2
-    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHZCdUkAsEHFAH2A.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/handjet/Handjet[ELGR,ELSH,wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHTmbUkAsEHFAH2A.woff2
-    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHbmaUkAsEHFAH2A.woff2
-    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHWeaUkAsEHFAH2A.woff2
-    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHTmaUkAsEHFAH2A.woff2
-    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHQuaUkAsEHFAH2A.woff2
-    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHeedUkAsEHFAH2A.woff2
-    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHd6dUkAsEHFAH2A.woff2
-    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHbmdUkAsEHFAH2A.woff2
-    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHZCdUkAsEHFAH2A.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/handjet/Handjet[ELGR,ELSH,wght].ttf
+    format: ttf
     variable_axes:
     - ELGR
     - ELSH
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Handjet
     files:
@@ -64,10 +48,30 @@ resources:
     - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHbmdUkUsEHFAH2A.ttf
     - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHZCdUkUsEHFAH2A.ttf
     format: ttf
-    variable_axes:
-    - ELGR
-    - ELSH
-    - wght
+  woff2_static:
+    source: google
+    family: Handjet
+    files:
+    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHTmbUkAsEHFAH2A.woff2
+    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHbmaUkAsEHFAH2A.woff2
+    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHWeaUkAsEHFAH2A.woff2
+    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHTmaUkAsEHFAH2A.woff2
+    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHQuaUkAsEHFAH2A.woff2
+    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHeedUkAsEHFAH2A.woff2
+    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHd6dUkAsEHFAH2A.woff2
+    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHbmdUkAsEHFAH2A.woff2
+    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHZCdUkAsEHFAH2A.woff2
+    urls:
+    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHTmbUkAsEHFAH2A.woff2
+    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHbmaUkAsEHFAH2A.woff2
+    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHWeaUkAsEHFAH2A.woff2
+    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHTmaUkAsEHFAH2A.woff2
+    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHQuaUkAsEHFAH2A.woff2
+    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHeedUkAsEHFAH2A.woff2
+    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHd6dUkAsEHFAH2A.woff2
+    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHbmdUkAsEHFAH2A.woff2
+    - https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHZCdUkAsEHFAH2A.woff2
+    format: woff2
 fonts:
 - name: Handjet Thin
   styles:
@@ -85,11 +89,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ELGR
-    - ELSH
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Handjet ExtraLight
   styles:
   - family_name: Handjet ExtraLight
@@ -106,11 +107,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ELGR
-    - ELSH
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Handjet Light
   styles:
   - family_name: Handjet Light
@@ -127,11 +125,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ELGR
-    - ELSH
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Handjet
   styles:
   - family_name: Handjet
@@ -146,11 +141,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ELGR
-    - ELSH
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Handjet
     type: Bold
     full_name: Handjet Bold
@@ -163,11 +155,22 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Handjet
+    type: Regular
+    full_name: Handjet Regular
+    post_script_name: Handjet-Regular
+    copyright: Copyright 2018 The Handjet Project Authors (https://github.com/rosettatype/Handjet/)
+    font: Handjet[ELGR,ELSH,wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - ELGR
     - ELSH
     - wght
+    source_resource: ttf_variable
 - name: Handjet Medium
   styles:
   - family_name: Handjet Medium
@@ -184,11 +187,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ELGR
-    - ELSH
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Handjet SemiBold
   styles:
   - family_name: Handjet SemiBold
@@ -205,11 +205,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ELGR
-    - ELSH
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Handjet ExtraBold
   styles:
   - family_name: Handjet ExtraBold
@@ -226,11 +223,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ELGR
-    - ELSH
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Handjet Black
   styles:
   - family_name: Handjet Black
@@ -247,11 +241,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ELGR
-    - ELSH
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2018 The Handjet Project Authors (https://github.com/rosettatype/Handjet/)
 spdx_license: OFL-1.1-no-RFN

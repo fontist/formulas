@@ -4,34 +4,18 @@ schema_version: 5
 description: Afacad Flux font family
 homepage: https://fonts.google.com/specimen/Afacad+Flux
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Afacad Flux
     files:
-    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsUwWZaFqQsJr67E.woff2
-    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edscwXZaFqQsJr67E.woff2
-    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsRIXZaFqQsJr67E.woff2
-    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsUwXZaFqQsJr67E.woff2
-    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsX4XZaFqQsJr67E.woff2
-    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsZIQZaFqQsJr67E.woff2
-    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsasQZaFqQsJr67E.woff2
-    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edscwQZaFqQsJr67E.woff2
-    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edseUQZaFqQsJr67E.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/afacadflux/AfacadFlux[slnt,wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsUwWZaFqQsJr67E.woff2
-    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edscwXZaFqQsJr67E.woff2
-    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsRIXZaFqQsJr67E.woff2
-    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsUwXZaFqQsJr67E.woff2
-    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsX4XZaFqQsJr67E.woff2
-    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsZIQZaFqQsJr67E.woff2
-    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsasQZaFqQsJr67E.woff2
-    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edscwQZaFqQsJr67E.woff2
-    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edseUQZaFqQsJr67E.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/afacadflux/AfacadFlux[slnt,wght].ttf
+    format: ttf
     variable_axes:
     - slnt
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Afacad Flux
     files:
@@ -55,9 +39,30 @@ resources:
     - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edscwQZaRqQsJr67E.ttf
     - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edseUQZaRqQsJr67E.ttf
     format: ttf
-    variable_axes:
-    - slnt
-    - wght
+  woff2_static:
+    source: google
+    family: Afacad Flux
+    files:
+    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsUwWZaFqQsJr67E.woff2
+    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edscwXZaFqQsJr67E.woff2
+    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsRIXZaFqQsJr67E.woff2
+    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsUwXZaFqQsJr67E.woff2
+    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsX4XZaFqQsJr67E.woff2
+    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsZIQZaFqQsJr67E.woff2
+    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsasQZaFqQsJr67E.woff2
+    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edscwQZaFqQsJr67E.woff2
+    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edseUQZaFqQsJr67E.woff2
+    urls:
+    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsUwWZaFqQsJr67E.woff2
+    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edscwXZaFqQsJr67E.woff2
+    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsRIXZaFqQsJr67E.woff2
+    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsUwXZaFqQsJr67E.woff2
+    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsX4XZaFqQsJr67E.woff2
+    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsZIQZaFqQsJr67E.woff2
+    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edsasQZaFqQsJr67E.woff2
+    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edscwQZaFqQsJr67E.woff2
+    - https://fonts.gstatic.com/s/afacadflux/v4/9oRgNYYQryMlneUPykRmTuH4ET0fri4I5rJVT_CWHKDZnskVK5edseUQZaFqQsJr67E.woff2
+    format: woff2
 fonts:
 - name: Afacad Flux Thin
   styles:
@@ -75,10 +80,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - slnt
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Afacad Flux ExtraLight
   styles:
   - family_name: Afacad Flux ExtraLight
@@ -95,10 +98,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - slnt
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Afacad Flux Light
   styles:
   - family_name: Afacad Flux Light
@@ -115,10 +116,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - slnt
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Afacad Flux
   styles:
   - family_name: Afacad Flux
@@ -133,10 +132,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - slnt
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Afacad Flux
     type: Bold
     full_name: Afacad Flux Bold
@@ -149,10 +146,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Afacad Flux
+    type: Regular
+    full_name: Afacad Flux Regular
+    post_script_name: AfacadFlux-Regular
+    copyright: Copyright 2023 The Afacad Project Authors (https://github.com/Dicotype/Afacad)
+    font: AfacadFlux[slnt,wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - slnt
     - wght
+    source_resource: ttf_variable
 - name: Afacad Flux Medium
   styles:
   - family_name: Afacad Flux Medium
@@ -169,10 +177,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - slnt
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Afacad Flux SemiBold
   styles:
   - family_name: Afacad Flux SemiBold
@@ -189,10 +195,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - slnt
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Afacad Flux ExtraBold
   styles:
   - family_name: Afacad Flux ExtraBold
@@ -209,10 +213,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - slnt
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Afacad Flux Black
   styles:
   - family_name: Afacad Flux Black
@@ -229,10 +231,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - slnt
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2023 The Afacad Project Authors (https://github.com/Dicotype/Afacad)
 spdx_license: OFL-1.1-no-RFN

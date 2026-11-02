@@ -7,23 +7,17 @@ description: Noto is a global font collection for writing in all modern and anci
   glyphs.
 homepage: https://fonts.google.com/specimen/Noto+Sans+Medefaidrin
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Noto Sans Medefaidrin
     files:
-    - https://fonts.gstatic.com/s/notosansmedefaidrin/v29/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmErWlTj18e5A3rw.woff2
-    - https://fonts.gstatic.com/s/notosansmedefaidrin/v29/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmHjWlTj18e5A3rw.woff2
-    - https://fonts.gstatic.com/s/notosansmedefaidrin/v29/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmJTRlTj18e5A3rw.woff2
-    - https://fonts.gstatic.com/s/notosansmedefaidrin/v29/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmK3RlTj18e5A3rw.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosansmedefaidrin/NotoSansMedefaidrin[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/notosansmedefaidrin/v29/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmErWlTj18e5A3rw.woff2
-    - https://fonts.gstatic.com/s/notosansmedefaidrin/v29/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmHjWlTj18e5A3rw.woff2
-    - https://fonts.gstatic.com/s/notosansmedefaidrin/v29/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmJTRlTj18e5A3rw.woff2
-    - https://fonts.gstatic.com/s/notosansmedefaidrin/v29/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmK3RlTj18e5A3rw.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosansmedefaidrin/NotoSansMedefaidrin[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Noto Sans Medefaidrin
     files:
@@ -37,8 +31,20 @@ resources:
     - https://fonts.gstatic.com/s/notosansmedefaidrin/v29/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmJTRlT318e5A3rw.ttf
     - https://fonts.gstatic.com/s/notosansmedefaidrin/v29/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmK3RlT318e5A3rw.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Noto Sans Medefaidrin
+    files:
+    - https://fonts.gstatic.com/s/notosansmedefaidrin/v29/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmErWlTj18e5A3rw.woff2
+    - https://fonts.gstatic.com/s/notosansmedefaidrin/v29/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmHjWlTj18e5A3rw.woff2
+    - https://fonts.gstatic.com/s/notosansmedefaidrin/v29/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmJTRlTj18e5A3rw.woff2
+    - https://fonts.gstatic.com/s/notosansmedefaidrin/v29/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmK3RlTj18e5A3rw.woff2
+    urls:
+    - https://fonts.gstatic.com/s/notosansmedefaidrin/v29/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmErWlTj18e5A3rw.woff2
+    - https://fonts.gstatic.com/s/notosansmedefaidrin/v29/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmHjWlTj18e5A3rw.woff2
+    - https://fonts.gstatic.com/s/notosansmedefaidrin/v29/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmJTRlTj18e5A3rw.woff2
+    - https://fonts.gstatic.com/s/notosansmedefaidrin/v29/WwkzxOq6Dk-wranENynkfeVsNbRZtbOIdLb1exeM4ZeuabBfmK3RlTj18e5A3rw.woff2
+    format: woff2
 fonts:
 - name: Noto Sans Medefaidrin
   styles:
@@ -54,9 +60,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Noto Sans Medefaidrin
     type: Bold
     full_name: Noto Sans Medefaidrin Bold
@@ -69,9 +74,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Noto Sans Medefaidrin
+    type: Regular
+    full_name: Noto Sans Medefaidrin Regular
+    post_script_name: NotoSansMedefaidrin-Regular
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/medefaidrin)
+    font: NotoSansMedefaidrin[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Noto Sans Medefaidrin Medium
   styles:
   - family_name: Noto Sans Medefaidrin Medium
@@ -88,9 +104,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans Medefaidrin SemiBold
   styles:
   - family_name: Noto Sans Medefaidrin SemiBold
@@ -107,9 +122,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/medefaidrin)
 spdx_license: OFL-1.1-no-RFN

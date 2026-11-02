@@ -8,31 +8,19 @@ description: 'The Libre Bodoni fonts are based on the 19th century Morris Fuller
   see github.com/googlefonts/Libre-Bodoni .'
 homepage: https://fonts.google.com/specimen/Libre+Bodoni
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Libre Bodoni
     files:
-    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm--H45qDWDYULr5OfyZudXzSBgY2oMBGte6I1fwWnZcOb3U3s.woff2
-    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm--H45qDWDYULr5OfyZudXzSBgY2oMBGte6L9fwWnZcOb3U3s.woff2
-    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm--H45qDWDYULr5OfyZudXzSBgY2oMBGte6FNYwWnZcOb3U3s.woff2
-    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm--H45qDWDYULr5OfyZudXzSBgY2oMBGte6GpYwWnZcOb3U3s.woff2
-    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm4-H45qDWDYULr5OfyZud9xBKfuwNnnsVZ_UUcKS_TccTyQ3syLg.woff2
-    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm4-H45qDWDYULr5OfyZud9xBKfuwNnnsVZ_UUcGy_TccTyQ3syLg.woff2
-    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm4-H45qDWDYULr5OfyZud9xBKfuwNnnsVZ_UUc9yjTccTyQ3syLg.woff2
-    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm4-H45qDWDYULr5OfyZud9xBKfuwNnnsVZ_UUczijTccTyQ3syLg.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/librebodoni/LibreBodoni[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/librebodoni/LibreBodoni-Italic[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm--H45qDWDYULr5OfyZudXzSBgY2oMBGte6I1fwWnZcOb3U3s.woff2
-    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm--H45qDWDYULr5OfyZudXzSBgY2oMBGte6L9fwWnZcOb3U3s.woff2
-    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm--H45qDWDYULr5OfyZudXzSBgY2oMBGte6FNYwWnZcOb3U3s.woff2
-    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm--H45qDWDYULr5OfyZudXzSBgY2oMBGte6GpYwWnZcOb3U3s.woff2
-    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm4-H45qDWDYULr5OfyZud9xBKfuwNnnsVZ_UUcKS_TccTyQ3syLg.woff2
-    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm4-H45qDWDYULr5OfyZud9xBKfuwNnnsVZ_UUcGy_TccTyQ3syLg.woff2
-    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm4-H45qDWDYULr5OfyZud9xBKfuwNnnsVZ_UUc9yjTccTyQ3syLg.woff2
-    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm4-H45qDWDYULr5OfyZud9xBKfuwNnnsVZ_UUczijTccTyQ3syLg.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/librebodoni/LibreBodoni[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/librebodoni/LibreBodoni-Italic[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Libre Bodoni
     files:
@@ -54,8 +42,28 @@ resources:
     - https://fonts.gstatic.com/s/librebodoni/v9/_Xm4-H45qDWDYULr5OfyZud9xBKfuwNnnsVZ_UUc9yjTdMTyQ3syLg.ttf
     - https://fonts.gstatic.com/s/librebodoni/v9/_Xm4-H45qDWDYULr5OfyZud9xBKfuwNnnsVZ_UUczijTdMTyQ3syLg.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Libre Bodoni
+    files:
+    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm--H45qDWDYULr5OfyZudXzSBgY2oMBGte6I1fwWnZcOb3U3s.woff2
+    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm--H45qDWDYULr5OfyZudXzSBgY2oMBGte6L9fwWnZcOb3U3s.woff2
+    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm--H45qDWDYULr5OfyZudXzSBgY2oMBGte6FNYwWnZcOb3U3s.woff2
+    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm--H45qDWDYULr5OfyZudXzSBgY2oMBGte6GpYwWnZcOb3U3s.woff2
+    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm4-H45qDWDYULr5OfyZud9xBKfuwNnnsVZ_UUcKS_TccTyQ3syLg.woff2
+    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm4-H45qDWDYULr5OfyZud9xBKfuwNnnsVZ_UUcGy_TccTyQ3syLg.woff2
+    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm4-H45qDWDYULr5OfyZud9xBKfuwNnnsVZ_UUc9yjTccTyQ3syLg.woff2
+    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm4-H45qDWDYULr5OfyZud9xBKfuwNnnsVZ_UUczijTccTyQ3syLg.woff2
+    urls:
+    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm--H45qDWDYULr5OfyZudXzSBgY2oMBGte6I1fwWnZcOb3U3s.woff2
+    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm--H45qDWDYULr5OfyZudXzSBgY2oMBGte6L9fwWnZcOb3U3s.woff2
+    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm--H45qDWDYULr5OfyZudXzSBgY2oMBGte6FNYwWnZcOb3U3s.woff2
+    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm--H45qDWDYULr5OfyZudXzSBgY2oMBGte6GpYwWnZcOb3U3s.woff2
+    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm4-H45qDWDYULr5OfyZud9xBKfuwNnnsVZ_UUcKS_TccTyQ3syLg.woff2
+    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm4-H45qDWDYULr5OfyZud9xBKfuwNnnsVZ_UUcGy_TccTyQ3syLg.woff2
+    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm4-H45qDWDYULr5OfyZud9xBKfuwNnnsVZ_UUc9yjTccTyQ3syLg.woff2
+    - https://fonts.gstatic.com/s/librebodoni/v9/_Xm4-H45qDWDYULr5OfyZud9xBKfuwNnnsVZ_UUczijTccTyQ3syLg.woff2
+    format: woff2
 fonts:
 - name: Libre Bodoni
   styles:
@@ -71,9 +79,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Libre Bodoni
     type: Bold
     full_name: Libre Bodoni Bold
@@ -86,9 +93,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Libre Bodoni
     type: Italic
     full_name: Libre Bodoni Italic
@@ -101,9 +107,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Libre Bodoni
     type: Bold Italic
     full_name: Libre Bodoni Bold Italic
@@ -116,9 +121,32 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Libre Bodoni
+    type: Regular
+    full_name: Libre Bodoni Regular
+    post_script_name: LibreBodoni-Regular
+    copyright: Copyright 2012 The Libre Bodoni Project Authors (https://github.com/googlefonts/Libre-Bodoni/)
+    font: LibreBodoni[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
+  - family_name: Libre Bodoni
+    type: Italic
+    full_name: Libre Bodoni Italic
+    post_script_name: LibreBodoni-Italic
+    copyright: Copyright 2012 The Libre Bodoni Project Authors (https://github.com/googlefonts/Libre-Bodoni/)
+    font: LibreBodoni-Italic[wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wght
+    source_resource: ttf_variable
 - name: Libre Bodoni Medium
   styles:
   - family_name: Libre Bodoni Medium
@@ -135,9 +163,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Libre Bodoni Medium
     type: Italic
     full_name: Libre Bodoni Medium Italic
@@ -152,9 +179,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Libre Bodoni SemiBold
   styles:
   - family_name: Libre Bodoni SemiBold
@@ -171,9 +197,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Libre Bodoni SemiBold
     type: Italic
     full_name: Libre Bodoni SemiBold Italic
@@ -188,9 +213,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2012 The Libre Bodoni Project Authors (https://github.com/googlefonts/Libre-Bodoni/)
 spdx_license: OFL-1.1-no-RFN
