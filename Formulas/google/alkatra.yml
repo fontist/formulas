@@ -11,23 +11,17 @@ description: A display typeface family comprising of Bangla, Devanagari, Odia an
   .
 homepage: https://fonts.google.com/specimen/Alkatra
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Alkatra
     files:
-    - https://fonts.gstatic.com/s/alkatra/v5/r05EGLZA5qhCYsyJbuChFuK48Medzngmu7cKrNDVemxE.woff2
-    - https://fonts.gstatic.com/s/alkatra/v5/r05EGLZA5qhCYsyJbuChFuK48MedzngUu7cKrNDVemxE.woff2
-    - https://fonts.gstatic.com/s/alkatra/v5/r05EGLZA5qhCYsyJbuChFuK48Medznj4vLcKrNDVemxE.woff2
-    - https://fonts.gstatic.com/s/alkatra/v5/r05EGLZA5qhCYsyJbuChFuK48MedznjBvLcKrNDVemxE.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/alkatra/Alkatra[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/alkatra/v5/r05EGLZA5qhCYsyJbuChFuK48Medzngmu7cKrNDVemxE.woff2
-    - https://fonts.gstatic.com/s/alkatra/v5/r05EGLZA5qhCYsyJbuChFuK48MedzngUu7cKrNDVemxE.woff2
-    - https://fonts.gstatic.com/s/alkatra/v5/r05EGLZA5qhCYsyJbuChFuK48Medznj4vLcKrNDVemxE.woff2
-    - https://fonts.gstatic.com/s/alkatra/v5/r05EGLZA5qhCYsyJbuChFuK48MedznjBvLcKrNDVemxE.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/alkatra/Alkatra[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Alkatra
     files:
@@ -41,8 +35,20 @@ resources:
     - https://fonts.gstatic.com/s/alkatra/v5/r05EGLZA5qhCYsyJbuChFuK48Medznj4vLcPrNDVemxE.ttf
     - https://fonts.gstatic.com/s/alkatra/v5/r05EGLZA5qhCYsyJbuChFuK48MedznjBvLcPrNDVemxE.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Alkatra
+    files:
+    - https://fonts.gstatic.com/s/alkatra/v5/r05EGLZA5qhCYsyJbuChFuK48Medzngmu7cKrNDVemxE.woff2
+    - https://fonts.gstatic.com/s/alkatra/v5/r05EGLZA5qhCYsyJbuChFuK48MedzngUu7cKrNDVemxE.woff2
+    - https://fonts.gstatic.com/s/alkatra/v5/r05EGLZA5qhCYsyJbuChFuK48Medznj4vLcKrNDVemxE.woff2
+    - https://fonts.gstatic.com/s/alkatra/v5/r05EGLZA5qhCYsyJbuChFuK48MedznjBvLcKrNDVemxE.woff2
+    urls:
+    - https://fonts.gstatic.com/s/alkatra/v5/r05EGLZA5qhCYsyJbuChFuK48Medzngmu7cKrNDVemxE.woff2
+    - https://fonts.gstatic.com/s/alkatra/v5/r05EGLZA5qhCYsyJbuChFuK48MedzngUu7cKrNDVemxE.woff2
+    - https://fonts.gstatic.com/s/alkatra/v5/r05EGLZA5qhCYsyJbuChFuK48Medznj4vLcKrNDVemxE.woff2
+    - https://fonts.gstatic.com/s/alkatra/v5/r05EGLZA5qhCYsyJbuChFuK48MedznjBvLcKrNDVemxE.woff2
+    format: woff2
 fonts:
 - name: Alkatra
   styles:
@@ -58,9 +64,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Alkatra
     type: Bold
     full_name: Alkatra Bold
@@ -73,9 +78,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Alkatra
+    type: Regular
+    full_name: Alkatra Regular
+    post_script_name: Alkatra-Regular
+    copyright: Copyright 2022 The Alkatra Project Authors (https://github.com/suman51284/Alkatra)
+    font: Alkatra[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Alkatra Medium
   styles:
   - family_name: Alkatra Medium
@@ -92,9 +108,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Alkatra SemiBold
   styles:
   - family_name: Alkatra SemiBold
@@ -111,9 +126,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Alkatra Project Authors (https://github.com/suman51284/Alkatra)
 spdx_license: OFL-1.1-no-RFN

@@ -4,23 +4,17 @@ schema_version: 5
 description: Playwrite FR Moderne font family
 homepage: https://fonts.google.com/specimen/Playwrite+FR+Moderne
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Playwrite FR Moderne
     files:
-    - https://fonts.gstatic.com/s/playwritefrmoderne/v11/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJuAOvB174XSpRjw.woff2
-    - https://fonts.gstatic.com/s/playwritefrmoderne/v11/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJOAKvB174XSpRjw.woff2
-    - https://fonts.gstatic.com/s/playwritefrmoderne/v11/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJ5gKvB174XSpRjw.woff2
-    - https://fonts.gstatic.com/s/playwritefrmoderne/v11/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJuAKvB174XSpRjw.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playwritefrmoderne/PlaywriteFRModerne[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/playwritefrmoderne/v11/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJuAOvB174XSpRjw.woff2
-    - https://fonts.gstatic.com/s/playwritefrmoderne/v11/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJOAKvB174XSpRjw.woff2
-    - https://fonts.gstatic.com/s/playwritefrmoderne/v11/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJ5gKvB174XSpRjw.woff2
-    - https://fonts.gstatic.com/s/playwritefrmoderne/v11/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJuAKvB174XSpRjw.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playwritefrmoderne/PlaywriteFRModerne[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Playwrite FR Moderne
     files:
@@ -34,8 +28,20 @@ resources:
     - https://fonts.gstatic.com/s/playwritefrmoderne/v11/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJ5gKvAl74XSpRjw.ttf
     - https://fonts.gstatic.com/s/playwritefrmoderne/v11/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJuAKvAl74XSpRjw.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Playwrite FR Moderne
+    files:
+    - https://fonts.gstatic.com/s/playwritefrmoderne/v11/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJuAOvB174XSpRjw.woff2
+    - https://fonts.gstatic.com/s/playwritefrmoderne/v11/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJOAKvB174XSpRjw.woff2
+    - https://fonts.gstatic.com/s/playwritefrmoderne/v11/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJ5gKvB174XSpRjw.woff2
+    - https://fonts.gstatic.com/s/playwritefrmoderne/v11/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJuAKvB174XSpRjw.woff2
+    urls:
+    - https://fonts.gstatic.com/s/playwritefrmoderne/v11/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJuAOvB174XSpRjw.woff2
+    - https://fonts.gstatic.com/s/playwritefrmoderne/v11/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJOAKvB174XSpRjw.woff2
+    - https://fonts.gstatic.com/s/playwritefrmoderne/v11/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJ5gKvB174XSpRjw.woff2
+    - https://fonts.gstatic.com/s/playwritefrmoderne/v11/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJuAKvB174XSpRjw.woff2
+    format: woff2
 fonts:
 - name: Playwrite FR Moderne Thin
   styles:
@@ -53,9 +59,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite FR Moderne ExtraLight
   styles:
   - family_name: Playwrite FR Moderne ExtraLight
@@ -72,9 +77,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite FR Moderne Light
   styles:
   - family_name: Playwrite FR Moderne Light
@@ -91,9 +95,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite FR Moderne
   styles:
   - family_name: Playwrite FR Moderne
@@ -108,9 +111,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Playwrite FR Moderne
+    type: Regular
+    full_name: Playwrite FR Moderne Regular
+    post_script_name: PlaywriteFRModerne-Regular
+    copyright: Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)
+    font: PlaywriteFRModerne[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)
 spdx_license: OFL-1.1-no-RFN

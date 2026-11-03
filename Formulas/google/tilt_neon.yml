@@ -13,18 +13,18 @@ description: Tilt is a family of type inspired by the dimensional lettering foun
   see github.com/googlefonts/Tilt-Fonts .
 homepage: https://fonts.google.com/specimen/Tilt+Neon
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Tilt Neon
     files:
-    - https://fonts.gstatic.com/s/tiltneon/v12/E21L_d7gguXdwD9LEFY2WCeElCNtd-eBqpHp1TzrkJSmwpj5ndxquXK4WualJ9DS.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/tiltneon/TiltNeon[XROT,YROT].ttf
     urls:
-    - https://fonts.gstatic.com/s/tiltneon/v12/E21L_d7gguXdwD9LEFY2WCeElCNtd-eBqpHp1TzrkJSmwpj5ndxquXK4WualJ9DS.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/tiltneon/TiltNeon[XROT,YROT].ttf
+    format: ttf
     variable_axes:
     - XROT
     - YROT
-  ttf_variable:
+  ttf_static:
     source: google
     family: Tilt Neon
     files:
@@ -32,9 +32,14 @@ resources:
     urls:
     - https://fonts.gstatic.com/s/tiltneon/v12/E21L_d7gguXdwD9LEFY2WCeElCNtd-eBqpHp1TzrkJSmwpj5ndxquXK9WualJ9DS.ttf
     format: ttf
-    variable_axes:
-    - XROT
-    - YROT
+  woff2_static:
+    source: google
+    family: Tilt Neon
+    files:
+    - https://fonts.gstatic.com/s/tiltneon/v12/E21L_d7gguXdwD9LEFY2WCeElCNtd-eBqpHp1TzrkJSmwpj5ndxquXK4WualJ9DS.woff2
+    urls:
+    - https://fonts.gstatic.com/s/tiltneon/v12/E21L_d7gguXdwD9LEFY2WCeElCNtd-eBqpHp1TzrkJSmwpj5ndxquXK4WualJ9DS.woff2
+    format: woff2
 fonts:
 - name: Tilt Neon
   styles:
@@ -50,10 +55,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Tilt Neon
+    type: Regular
+    full_name: Tilt Neon Regular
+    post_script_name: TiltNeon-Regular
+    copyright: Copyright 2019 The Tilt Project Authors (https://github.com/googlefonts/Tilt-Fonts)
+    font: TiltNeon[XROT,YROT].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - XROT
     - YROT
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2019 The Tilt Project Authors (https://github.com/googlefonts/Tilt-Fonts)
 spdx_license: OFL-1.1-no-RFN

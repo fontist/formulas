@@ -24,25 +24,17 @@ description: A perfect blend of pointy paws in a coat of fur, Baloo is an affabl
   type design assistance by Girish Dalvi. To contribute to the project, visit github.com/EkType/Baloo2
 homepage: https://fonts.google.com/specimen/Baloo+2
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Baloo 2
     files:
-    - https://fonts.gstatic.com/s/baloo2/v23/wXK0E3kTposypRydzVT08TS3JnAmtdgazapq9Fat7WcN.woff2
-    - https://fonts.gstatic.com/s/baloo2/v23/wXK0E3kTposypRydzVT08TS3JnAmtdgozapq9Fat7WcN.woff2
-    - https://fonts.gstatic.com/s/baloo2/v23/wXK0E3kTposypRydzVT08TS3JnAmtdjEyqpq9Fat7WcN.woff2
-    - https://fonts.gstatic.com/s/baloo2/v23/wXK0E3kTposypRydzVT08TS3JnAmtdj9yqpq9Fat7WcN.woff2
-    - https://fonts.gstatic.com/s/baloo2/v23/wXK0E3kTposypRydzVT08TS3JnAmtdiayqpq9Fat7WcN.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/baloo2/Baloo2[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/baloo2/v23/wXK0E3kTposypRydzVT08TS3JnAmtdgazapq9Fat7WcN.woff2
-    - https://fonts.gstatic.com/s/baloo2/v23/wXK0E3kTposypRydzVT08TS3JnAmtdgozapq9Fat7WcN.woff2
-    - https://fonts.gstatic.com/s/baloo2/v23/wXK0E3kTposypRydzVT08TS3JnAmtdjEyqpq9Fat7WcN.woff2
-    - https://fonts.gstatic.com/s/baloo2/v23/wXK0E3kTposypRydzVT08TS3JnAmtdj9yqpq9Fat7WcN.woff2
-    - https://fonts.gstatic.com/s/baloo2/v23/wXK0E3kTposypRydzVT08TS3JnAmtdiayqpq9Fat7WcN.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/baloo2/Baloo2[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Baloo 2
     files:
@@ -58,8 +50,22 @@ resources:
     - https://fonts.gstatic.com/s/baloo2/v23/wXK0E3kTposypRydzVT08TS3JnAmtdj9yqpv9Fat7WcN.ttf
     - https://fonts.gstatic.com/s/baloo2/v23/wXK0E3kTposypRydzVT08TS3JnAmtdiayqpv9Fat7WcN.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Baloo 2
+    files:
+    - https://fonts.gstatic.com/s/baloo2/v23/wXK0E3kTposypRydzVT08TS3JnAmtdgazapq9Fat7WcN.woff2
+    - https://fonts.gstatic.com/s/baloo2/v23/wXK0E3kTposypRydzVT08TS3JnAmtdgozapq9Fat7WcN.woff2
+    - https://fonts.gstatic.com/s/baloo2/v23/wXK0E3kTposypRydzVT08TS3JnAmtdjEyqpq9Fat7WcN.woff2
+    - https://fonts.gstatic.com/s/baloo2/v23/wXK0E3kTposypRydzVT08TS3JnAmtdj9yqpq9Fat7WcN.woff2
+    - https://fonts.gstatic.com/s/baloo2/v23/wXK0E3kTposypRydzVT08TS3JnAmtdiayqpq9Fat7WcN.woff2
+    urls:
+    - https://fonts.gstatic.com/s/baloo2/v23/wXK0E3kTposypRydzVT08TS3JnAmtdgazapq9Fat7WcN.woff2
+    - https://fonts.gstatic.com/s/baloo2/v23/wXK0E3kTposypRydzVT08TS3JnAmtdgozapq9Fat7WcN.woff2
+    - https://fonts.gstatic.com/s/baloo2/v23/wXK0E3kTposypRydzVT08TS3JnAmtdjEyqpq9Fat7WcN.woff2
+    - https://fonts.gstatic.com/s/baloo2/v23/wXK0E3kTposypRydzVT08TS3JnAmtdj9yqpq9Fat7WcN.woff2
+    - https://fonts.gstatic.com/s/baloo2/v23/wXK0E3kTposypRydzVT08TS3JnAmtdiayqpq9Fat7WcN.woff2
+    format: woff2
 fonts:
 - name: Baloo 2
   styles:
@@ -75,9 +81,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Baloo 2
     type: Bold
     full_name: Baloo 2 Bold
@@ -90,9 +95,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Baloo 2
+    type: Regular
+    full_name: Baloo 2 Regular
+    post_script_name: Baloo2-Regular
+    copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
+    font: Baloo2[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Baloo 2 Medium
   styles:
   - family_name: Baloo 2 Medium
@@ -109,9 +125,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Baloo 2 SemiBold
   styles:
   - family_name: Baloo 2 SemiBold
@@ -128,9 +143,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Baloo 2 ExtraBold
   styles:
   - family_name: Baloo 2 ExtraBold
@@ -147,9 +161,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
 spdx_license: OFL-1.1-no-RFN

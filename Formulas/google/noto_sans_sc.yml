@@ -8,33 +8,17 @@ description: Noto is a global font collection for writing in all modern and anci
   weights.
 homepage: https://fonts.google.com/specimen/Noto+Sans+SC
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Noto Sans SC
     files:
-    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG9_EnYlNbPzS5HE.woff2
-    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG1_FnYlNbPzS5HE.woff2
-    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG4HFnYlNbPzS5HE.woff2
-    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG9_FnYlNbPzS5HE.woff2
-    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG-3FnYlNbPzS5HE.woff2
-    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaGwHCnYlNbPzS5HE.woff2
-    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaGzjCnYlNbPzS5HE.woff2
-    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG1_CnYlNbPzS5HE.woff2
-    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG3bCnYlNbPzS5HE.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosanssc/NotoSansSC[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG9_EnYlNbPzS5HE.woff2
-    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG1_FnYlNbPzS5HE.woff2
-    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG4HFnYlNbPzS5HE.woff2
-    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG9_FnYlNbPzS5HE.woff2
-    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG-3FnYlNbPzS5HE.woff2
-    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaGwHCnYlNbPzS5HE.woff2
-    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaGzjCnYlNbPzS5HE.woff2
-    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG1_CnYlNbPzS5HE.woff2
-    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG3bCnYlNbPzS5HE.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosanssc/NotoSansSC[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Noto Sans SC
     files:
@@ -58,8 +42,30 @@ resources:
     - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG1_CnYxNbPzS5HE.ttf
     - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG3bCnYxNbPzS5HE.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Noto Sans SC
+    files:
+    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG9_EnYlNbPzS5HE.woff2
+    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG1_FnYlNbPzS5HE.woff2
+    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG4HFnYlNbPzS5HE.woff2
+    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG9_FnYlNbPzS5HE.woff2
+    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG-3FnYlNbPzS5HE.woff2
+    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaGwHCnYlNbPzS5HE.woff2
+    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaGzjCnYlNbPzS5HE.woff2
+    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG1_CnYlNbPzS5HE.woff2
+    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG3bCnYlNbPzS5HE.woff2
+    urls:
+    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG9_EnYlNbPzS5HE.woff2
+    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG1_FnYlNbPzS5HE.woff2
+    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG4HFnYlNbPzS5HE.woff2
+    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG9_FnYlNbPzS5HE.woff2
+    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG-3FnYlNbPzS5HE.woff2
+    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaGwHCnYlNbPzS5HE.woff2
+    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaGzjCnYlNbPzS5HE.woff2
+    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG1_CnYlNbPzS5HE.woff2
+    - https://fonts.gstatic.com/s/notosanssc/v40/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG3bCnYlNbPzS5HE.woff2
+    format: woff2
 fonts:
 - name: Noto Sans SC Thin
   styles:
@@ -78,9 +84,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans SC ExtraLight
   styles:
   - family_name: Noto Sans SC ExtraLight
@@ -98,9 +103,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans SC Light
   styles:
   - family_name: Noto Sans SC Light
@@ -118,9 +122,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans SC
   styles:
   - family_name: Noto Sans SC
@@ -136,9 +139,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Noto Sans SC
     type: Bold
     full_name: Noto Sans SC Bold
@@ -152,9 +154,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Noto Sans SC
+    type: Regular
+    full_name: Noto Sans SC Thin
+    post_script_name: NotoSansSC-Thin
+    copyright: "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name
+      'Source'."
+    font: NotoSansSC[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Noto Sans SC Medium
   styles:
   - family_name: Noto Sans SC Medium
@@ -172,9 +186,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans SC SemiBold
   styles:
   - family_name: Noto Sans SC SemiBold
@@ -192,9 +205,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans SC ExtraBold
   styles:
   - family_name: Noto Sans SC ExtraBold
@@ -212,9 +224,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans SC Black
   styles:
   - family_name: Noto Sans SC Black
@@ -232,9 +243,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
 spdx_license: OFL-1.1-RFN

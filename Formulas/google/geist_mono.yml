@@ -4,33 +4,19 @@ schema_version: 5
 description: Geist Mono font family
 homepage: https://fonts.google.com/specimen/Geist+Mono
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Geist Mono
     files:
-    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeE9KZ5W7ihaO_CS.woff2
-    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeG9KJ5W7ihaO_CS.woff2
-    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeFjKJ5W7ihaO_CS.woff2
-    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeE9KJ5W7ihaO_CS.woff2
-    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeEPKJ5W7ihaO_CS.woff2
-    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeHjL55W7ihaO_CS.woff2
-    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeHaL55W7ihaO_CS.woff2
-    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeG9L55W7ihaO_CS.woff2
-    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeGUL55W7ihaO_CS.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/geistmono/GeistMono[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/geistmono/GeistMono-Italic[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeE9KZ5W7ihaO_CS.woff2
-    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeG9KJ5W7ihaO_CS.woff2
-    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeFjKJ5W7ihaO_CS.woff2
-    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeE9KJ5W7ihaO_CS.woff2
-    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeEPKJ5W7ihaO_CS.woff2
-    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeHjL55W7ihaO_CS.woff2
-    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeHaL55W7ihaO_CS.woff2
-    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeG9L55W7ihaO_CS.woff2
-    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeGUL55W7ihaO_CS.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/geistmono/GeistMono[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/geistmono/GeistMono-Italic[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Geist Mono
     files:
@@ -54,8 +40,30 @@ resources:
     - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeG9L55T7ihaO_CS.ttf
     - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeGUL55T7ihaO_CS.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Geist Mono
+    files:
+    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeE9KZ5W7ihaO_CS.woff2
+    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeG9KJ5W7ihaO_CS.woff2
+    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeFjKJ5W7ihaO_CS.woff2
+    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeE9KJ5W7ihaO_CS.woff2
+    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeEPKJ5W7ihaO_CS.woff2
+    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeHjL55W7ihaO_CS.woff2
+    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeHaL55W7ihaO_CS.woff2
+    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeG9L55W7ihaO_CS.woff2
+    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeGUL55W7ihaO_CS.woff2
+    urls:
+    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeE9KZ5W7ihaO_CS.woff2
+    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeG9KJ5W7ihaO_CS.woff2
+    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeFjKJ5W7ihaO_CS.woff2
+    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeE9KJ5W7ihaO_CS.woff2
+    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeEPKJ5W7ihaO_CS.woff2
+    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeHjL55W7ihaO_CS.woff2
+    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeHaL55W7ihaO_CS.woff2
+    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeG9L55W7ihaO_CS.woff2
+    - https://fonts.gstatic.com/s/geistmono/v4/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeGUL55W7ihaO_CS.woff2
+    format: woff2
 fonts:
 - name: Geist Mono Thin
   styles:
@@ -73,9 +81,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Geist Mono ExtraLight
   styles:
   - family_name: Geist Mono ExtraLight
@@ -92,9 +99,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Geist Mono Light
   styles:
   - family_name: Geist Mono Light
@@ -111,9 +117,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Geist Mono
   styles:
   - family_name: Geist Mono
@@ -128,9 +133,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Geist Mono
     type: Bold
     full_name: Geist Mono Bold
@@ -143,9 +147,32 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Geist Mono
+    type: Regular
+    full_name: Geist Mono Regular
+    post_script_name: GeistMono-Regular
+    copyright: Copyright 2024 The Geist Project Authors (https://github.com/vercel/geist-font.git)
+    font: GeistMono[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
+  - family_name: Geist Mono
+    type: Italic
+    full_name: Geist Mono Italic
+    post_script_name: GeistMono-Italic
+    copyright: Copyright 2024 The Geist Project Authors (https://github.com/vercel/geist-font.git)
+    font: GeistMono-Italic[wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wght
+    source_resource: ttf_variable
 - name: Geist Mono Medium
   styles:
   - family_name: Geist Mono Medium
@@ -162,9 +189,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Geist Mono SemiBold
   styles:
   - family_name: Geist Mono SemiBold
@@ -181,9 +207,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Geist Mono ExtraBold
   styles:
   - family_name: Geist Mono ExtraBold
@@ -200,9 +225,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Geist Mono Black
   styles:
   - family_name: Geist Mono Black
@@ -219,9 +243,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2024 The Geist Project Authors (https://github.com/vercel/geist-font.git)
 spdx_license: OFL-1.1-no-RFN

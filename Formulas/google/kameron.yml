@@ -7,23 +7,17 @@ description: Kameron is a reworking and fusing of several classic Slab Serif and
   To contribute, see github.com/googlefonts/kameronFont .
 homepage: https://fonts.google.com/specimen/Kameron
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Kameron
     files:
-    - https://fonts.gstatic.com/s/kameron/v18/vm8pdR7vXErQxuznqrUS3z1Uw3nq4Ne3cbcevZPxCDLR.woff2
-    - https://fonts.gstatic.com/s/kameron/v18/vm8pdR7vXErQxuznqrUS3z1Uw3nq4NeFcbcevZPxCDLR.woff2
-    - https://fonts.gstatic.com/s/kameron/v18/vm8pdR7vXErQxuznqrUS3z1Uw3nq4NdpdrcevZPxCDLR.woff2
-    - https://fonts.gstatic.com/s/kameron/v18/vm8pdR7vXErQxuznqrUS3z1Uw3nq4NdQdrcevZPxCDLR.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/kameron/Kameron[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/kameron/v18/vm8pdR7vXErQxuznqrUS3z1Uw3nq4Ne3cbcevZPxCDLR.woff2
-    - https://fonts.gstatic.com/s/kameron/v18/vm8pdR7vXErQxuznqrUS3z1Uw3nq4NeFcbcevZPxCDLR.woff2
-    - https://fonts.gstatic.com/s/kameron/v18/vm8pdR7vXErQxuznqrUS3z1Uw3nq4NdpdrcevZPxCDLR.woff2
-    - https://fonts.gstatic.com/s/kameron/v18/vm8pdR7vXErQxuznqrUS3z1Uw3nq4NdQdrcevZPxCDLR.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/kameron/Kameron[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Kameron
     files:
@@ -37,8 +31,20 @@ resources:
     - https://fonts.gstatic.com/s/kameron/v18/vm8pdR7vXErQxuznqrUS3z1Uw3nq4NdpdrcbvZPxCDLR.ttf
     - https://fonts.gstatic.com/s/kameron/v18/vm8pdR7vXErQxuznqrUS3z1Uw3nq4NdQdrcbvZPxCDLR.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Kameron
+    files:
+    - https://fonts.gstatic.com/s/kameron/v18/vm8pdR7vXErQxuznqrUS3z1Uw3nq4Ne3cbcevZPxCDLR.woff2
+    - https://fonts.gstatic.com/s/kameron/v18/vm8pdR7vXErQxuznqrUS3z1Uw3nq4NeFcbcevZPxCDLR.woff2
+    - https://fonts.gstatic.com/s/kameron/v18/vm8pdR7vXErQxuznqrUS3z1Uw3nq4NdpdrcevZPxCDLR.woff2
+    - https://fonts.gstatic.com/s/kameron/v18/vm8pdR7vXErQxuznqrUS3z1Uw3nq4NdQdrcevZPxCDLR.woff2
+    urls:
+    - https://fonts.gstatic.com/s/kameron/v18/vm8pdR7vXErQxuznqrUS3z1Uw3nq4Ne3cbcevZPxCDLR.woff2
+    - https://fonts.gstatic.com/s/kameron/v18/vm8pdR7vXErQxuznqrUS3z1Uw3nq4NeFcbcevZPxCDLR.woff2
+    - https://fonts.gstatic.com/s/kameron/v18/vm8pdR7vXErQxuznqrUS3z1Uw3nq4NdpdrcevZPxCDLR.woff2
+    - https://fonts.gstatic.com/s/kameron/v18/vm8pdR7vXErQxuznqrUS3z1Uw3nq4NdQdrcevZPxCDLR.woff2
+    format: woff2
 fonts:
 - name: Kameron
   styles:
@@ -54,9 +60,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Kameron
     type: Bold
     full_name: Kameron Bold
@@ -69,9 +74,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Kameron
+    type: Regular
+    full_name: Kameron Regular
+    post_script_name: Kameron-Regular
+    copyright: Copyright 2011 The Kameron Project Authors (https://github.com/googlefonts/kameronFont)
+    font: Kameron[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Kameron Medium
   styles:
   - family_name: Kameron Medium
@@ -88,9 +104,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Kameron SemiBold
   styles:
   - family_name: Kameron SemiBold
@@ -107,9 +122,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2011 The Kameron Project Authors (https://github.com/googlefonts/kameronFont)
 spdx_license: OFL-1.1-no-RFN

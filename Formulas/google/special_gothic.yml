@@ -4,24 +4,18 @@ schema_version: 5
 description: Special Gothic font family
 homepage: https://fonts.google.com/specimen/Special+Gothic
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Special Gothic
     files:
-    - https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4bF8-S0LPIOkEp8.woff2
-    - https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4YN8-S0LPIOkEp8.woff2
-    - https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4W97-S0LPIOkEp8.woff2
-    - https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4VZ7-S0LPIOkEp8.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/specialgothic/SpecialGothic[wdth,wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4bF8-S0LPIOkEp8.woff2
-    - https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4YN8-S0LPIOkEp8.woff2
-    - https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4W97-S0LPIOkEp8.woff2
-    - https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4VZ7-S0LPIOkEp8.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/specialgothic/SpecialGothic[wdth,wght].ttf
+    format: ttf
     variable_axes:
     - wdth
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Special Gothic
     files:
@@ -35,9 +29,20 @@ resources:
     - https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4W97-SgLPIOkEp8.ttf
     - https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4VZ7-SgLPIOkEp8.ttf
     format: ttf
-    variable_axes:
-    - wdth
-    - wght
+  woff2_static:
+    source: google
+    family: Special Gothic
+    files:
+    - https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4bF8-S0LPIOkEp8.woff2
+    - https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4YN8-S0LPIOkEp8.woff2
+    - https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4W97-S0LPIOkEp8.woff2
+    - https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4VZ7-S0LPIOkEp8.woff2
+    urls:
+    - https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4bF8-S0LPIOkEp8.woff2
+    - https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4YN8-S0LPIOkEp8.woff2
+    - https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4W97-S0LPIOkEp8.woff2
+    - https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4VZ7-S0LPIOkEp8.woff2
+    format: woff2
 fonts:
 - name: Special Gothic
   styles:
@@ -53,10 +58,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Special Gothic
     type: Bold
     full_name: Special Gothic Bold
@@ -69,10 +72,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Special Gothic
+    type: Regular
+    full_name: Special Gothic Regular
+    post_script_name: SpecialGothic-Regular
+    copyright: Copyright 2023 The Special Gothic Project Authors (https://github.com/AlistairMcCready/Special-Gothic/)
+    font: SpecialGothic[wdth,wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wdth
     - wght
+    source_resource: ttf_variable
 - name: Special Gothic Medium
   styles:
   - family_name: Special Gothic Medium
@@ -89,10 +103,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Special Gothic SemiBold
   styles:
   - family_name: Special Gothic SemiBold
@@ -109,10 +121,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2023 The Special Gothic Project Authors (https://github.com/AlistairMcCready/Special-Gothic/)
 spdx_license: OFL-1.1-no-RFN

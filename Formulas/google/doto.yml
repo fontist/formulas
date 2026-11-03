@@ -4,34 +4,18 @@ schema_version: 5
 description: Doto font family
 homepage: https://fonts.google.com/specimen/Doto
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Doto
     files:
-    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFOOOeykWSvrlpgw.woff2
-    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFuOKeykWSvrlpgw.woff2
-    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFZuKeykWSvrlpgw.woff2
-    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFOOKeykWSvrlpgw.woff2
-    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFCuKeykWSvrlpgw.woff2
-    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphF5uWeykWSvrlpgw.woff2
-    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphF3-WeykWSvrlpgw.woff2
-    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFuOWeykWSvrlpgw.woff2
-    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFkeWeykWSvrlpgw.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/doto/Doto[ROND,wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFOOOeykWSvrlpgw.woff2
-    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFuOKeykWSvrlpgw.woff2
-    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFZuKeykWSvrlpgw.woff2
-    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFOOKeykWSvrlpgw.woff2
-    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFCuKeykWSvrlpgw.woff2
-    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphF5uWeykWSvrlpgw.woff2
-    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphF3-WeykWSvrlpgw.woff2
-    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFuOWeykWSvrlpgw.woff2
-    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFkeWeykWSvrlpgw.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/doto/Doto[ROND,wght].ttf
+    format: ttf
     variable_axes:
     - ROND
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Doto
     files:
@@ -55,9 +39,30 @@ resources:
     - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFuOWez0WSvrlpgw.ttf
     - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFkeWez0WSvrlpgw.ttf
     format: ttf
-    variable_axes:
-    - ROND
-    - wght
+  woff2_static:
+    source: google
+    family: Doto
+    files:
+    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFOOOeykWSvrlpgw.woff2
+    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFuOKeykWSvrlpgw.woff2
+    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFZuKeykWSvrlpgw.woff2
+    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFOOKeykWSvrlpgw.woff2
+    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFCuKeykWSvrlpgw.woff2
+    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphF5uWeykWSvrlpgw.woff2
+    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphF3-WeykWSvrlpgw.woff2
+    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFuOWeykWSvrlpgw.woff2
+    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFkeWeykWSvrlpgw.woff2
+    urls:
+    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFOOOeykWSvrlpgw.woff2
+    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFuOKeykWSvrlpgw.woff2
+    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFZuKeykWSvrlpgw.woff2
+    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFOOKeykWSvrlpgw.woff2
+    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFCuKeykWSvrlpgw.woff2
+    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphF5uWeykWSvrlpgw.woff2
+    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphF3-WeykWSvrlpgw.woff2
+    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFuOWeykWSvrlpgw.woff2
+    - https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphFkeWeykWSvrlpgw.woff2
+    format: woff2
 fonts:
 - name: Doto Thin
   styles:
@@ -75,10 +80,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ROND
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Doto ExtraLight
   styles:
   - family_name: Doto ExtraLight
@@ -95,10 +98,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ROND
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Doto Light
   styles:
   - family_name: Doto Light
@@ -115,10 +116,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ROND
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Doto
   styles:
   - family_name: Doto
@@ -133,10 +132,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ROND
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Doto
     type: Bold
     full_name: Doto Bold
@@ -149,10 +146,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Doto
+    type: Regular
+    full_name: Doto Black
+    post_script_name: Doto-Black
+    copyright: Copyright 2024-2024 The Doto Project Authors (https://github.com/oliverlalan/Doto)
+    font: Doto[ROND,wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - ROND
     - wght
+    source_resource: ttf_variable
 - name: Doto Medium
   styles:
   - family_name: Doto Medium
@@ -169,10 +177,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ROND
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Doto SemiBold
   styles:
   - family_name: Doto SemiBold
@@ -189,10 +195,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ROND
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Doto ExtraBold
   styles:
   - family_name: Doto ExtraBold
@@ -209,10 +213,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ROND
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Doto Black
   styles:
   - family_name: Doto Black
@@ -229,10 +231,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ROND
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2024-2024 The Doto Project Authors (https://github.com/oliverlalan/Doto)
 spdx_license: OFL-1.1-no-RFN

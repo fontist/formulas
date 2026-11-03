@@ -4,17 +4,17 @@ schema_version: 5
 description: ''
 homepage: https://fonts.google.com/specimen/Jaro
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Jaro
     files:
-    - https://fonts.gstatic.com/s/jaro/v8/ea8DadQwV_r_Rv3-7zZMCGhQgVr1SlCpNP3VpQ_a.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/jaro/Jaro[opsz].ttf
     urls:
-    - https://fonts.gstatic.com/s/jaro/v8/ea8DadQwV_r_Rv3-7zZMCGhQgVr1SlCpNP3VpQ_a.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/jaro/Jaro[opsz].ttf
+    format: ttf
     variable_axes:
     - opsz
-  ttf_variable:
+  ttf_static:
     source: google
     family: Jaro
     files:
@@ -22,8 +22,14 @@ resources:
     urls:
     - https://fonts.gstatic.com/s/jaro/v8/ea8DadQwV_r_Rv3-7zZMCGhQgVr1SlCsNP3VpQ_a.ttf
     format: ttf
-    variable_axes:
-    - opsz
+  woff2_static:
+    source: google
+    family: Jaro
+    files:
+    - https://fonts.gstatic.com/s/jaro/v8/ea8DadQwV_r_Rv3-7zZMCGhQgVr1SlCpNP3VpQ_a.woff2
+    urls:
+    - https://fonts.gstatic.com/s/jaro/v8/ea8DadQwV_r_Rv3-7zZMCGhQgVr1SlCpNP3VpQ_a.woff2
+    format: woff2
 fonts:
 - name: Jaro
   styles:
@@ -39,9 +45,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Jaro
+    type: Regular
+    full_name: Jaro Regular
+    post_script_name: Jaro-Regular
+    copyright: Copyright 2023 The Jaro Project Authors (https://github.com/agyeiarcher/Jaro)
+    font: Jaro[opsz].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - opsz
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2023 The Jaro Project Authors (https://github.com/agyeiarcher/Jaro)
 spdx_license: OFL-1.1-no-RFN

@@ -10,23 +10,17 @@ description: Dancing Script is a lively casual script where the letters bounce a
   Font "Weight" axis. To contribute, see github.com/impallari/DancingScript .
 homepage: https://fonts.google.com/specimen/Dancing+Script
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Dancing Script
     files:
-    - https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHSOB9ptDqpw.woff2
-    - https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BAyoHSOB9ptDqpw.woff2
-    - https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B7y0HSOB9ptDqpw.woff2
-    - https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B1i0HSOB9ptDqpw.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/dancingscript/DancingScript[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHSOB9ptDqpw.woff2
-    - https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BAyoHSOB9ptDqpw.woff2
-    - https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B7y0HSOB9ptDqpw.woff2
-    - https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B1i0HSOB9ptDqpw.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/dancingscript/DancingScript[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Dancing Script
     files:
@@ -40,8 +34,20 @@ resources:
     - https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B7y0HTeB9ptDqpw.ttf
     - https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B1i0HTeB9ptDqpw.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Dancing Script
+    files:
+    - https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHSOB9ptDqpw.woff2
+    - https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BAyoHSOB9ptDqpw.woff2
+    - https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B7y0HSOB9ptDqpw.woff2
+    - https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B1i0HSOB9ptDqpw.woff2
+    urls:
+    - https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHSOB9ptDqpw.woff2
+    - https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BAyoHSOB9ptDqpw.woff2
+    - https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B7y0HSOB9ptDqpw.woff2
+    - https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B1i0HSOB9ptDqpw.woff2
+    format: woff2
 fonts:
 - name: Dancing Script
   styles:
@@ -58,9 +64,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Dancing Script
     type: Bold
     full_name: Dancing Script Bold
@@ -74,9 +79,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Dancing Script
+    type: Regular
+    full_name: Dancing Script Regular
+    post_script_name: DancingScript-Regular
+    copyright: Copyright 2016 The Dancing Script Project Authors (https://github.com/googlefonts/DancingScript),
+      with Reserved Font Name 'Dancing Script'.
+    font: DancingScript[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Dancing Script Medium
   styles:
   - family_name: Dancing Script Medium
@@ -94,9 +111,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Dancing Script SemiBold
   styles:
   - family_name: Dancing Script SemiBold
@@ -114,9 +130,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2016 The Dancing Script Project Authors (https://github.com/googlefonts/DancingScript),
   with Reserved Font Name "Dancing Script".

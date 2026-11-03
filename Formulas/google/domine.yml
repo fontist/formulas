@@ -21,23 +21,17 @@ description: From the very first steps in the design process, Domine was designe
   .
 homepage: https://fonts.google.com/specimen/Domine
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Domine
     files:
-    - https://fonts.gstatic.com/s/domine/v25/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X3LAI1gVErGuW8Q.woff2
-    - https://fonts.gstatic.com/s/domine/v25/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X0DAI1gVErGuW8Q.woff2
-    - https://fonts.gstatic.com/s/domine/v25/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X6zHI1gVErGuW8Q.woff2
-    - https://fonts.gstatic.com/s/domine/v25/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X5XHI1gVErGuW8Q.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/domine/Domine[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/domine/v25/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X3LAI1gVErGuW8Q.woff2
-    - https://fonts.gstatic.com/s/domine/v25/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X0DAI1gVErGuW8Q.woff2
-    - https://fonts.gstatic.com/s/domine/v25/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X6zHI1gVErGuW8Q.woff2
-    - https://fonts.gstatic.com/s/domine/v25/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X5XHI1gVErGuW8Q.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/domine/Domine[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Domine
     files:
@@ -51,8 +45,20 @@ resources:
     - https://fonts.gstatic.com/s/domine/v25/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X6zHI10VErGuW8Q.ttf
     - https://fonts.gstatic.com/s/domine/v25/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X5XHI10VErGuW8Q.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Domine
+    files:
+    - https://fonts.gstatic.com/s/domine/v25/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X3LAI1gVErGuW8Q.woff2
+    - https://fonts.gstatic.com/s/domine/v25/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X0DAI1gVErGuW8Q.woff2
+    - https://fonts.gstatic.com/s/domine/v25/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X6zHI1gVErGuW8Q.woff2
+    - https://fonts.gstatic.com/s/domine/v25/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X5XHI1gVErGuW8Q.woff2
+    urls:
+    - https://fonts.gstatic.com/s/domine/v25/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X3LAI1gVErGuW8Q.woff2
+    - https://fonts.gstatic.com/s/domine/v25/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X0DAI1gVErGuW8Q.woff2
+    - https://fonts.gstatic.com/s/domine/v25/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X6zHI1gVErGuW8Q.woff2
+    - https://fonts.gstatic.com/s/domine/v25/L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X5XHI1gVErGuW8Q.woff2
+    format: woff2
 fonts:
 - name: Domine
   styles:
@@ -68,9 +74,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Domine
     type: Bold
     full_name: Domine Bold
@@ -83,9 +88,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Domine
+    type: Regular
+    full_name: Domine Regular
+    post_script_name: Domine-Regular
+    copyright: Copyright 2020 The Domine Project Authors (https://github.com/googlefonts/domine)
+    font: Domine[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Domine Medium
   styles:
   - family_name: Domine Medium
@@ -102,9 +118,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Domine SemiBold
   styles:
   - family_name: Domine SemiBold
@@ -121,9 +136,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2020 The Domine Project Authors (https://github.com/googlefonts/domine)
 spdx_license: OFL-1.1-RFN

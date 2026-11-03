@@ -4,23 +4,17 @@ schema_version: 5
 description: Playwrite BE VLG font family
 homepage: https://fonts.google.com/specimen/Playwrite+BE+VLG
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Playwrite BE VLG
     files:
-    - https://fonts.gstatic.com/s/playwritebevlg/v6/GFD8WBdug3mQSvrAT9AL6fd4ZkB-a2sDmg3dy2W0blL8vfCJMiyBIkNg.woff2
-    - https://fonts.gstatic.com/s/playwritebevlg/v6/GFD8WBdug3mQSvrAT9AL6fd4ZkB-a2sDmg3dy2W0blJ8vPCJMiyBIkNg.woff2
-    - https://fonts.gstatic.com/s/playwritebevlg/v6/GFD8WBdug3mQSvrAT9AL6fd4ZkB-a2sDmg3dy2W0blKivPCJMiyBIkNg.woff2
-    - https://fonts.gstatic.com/s/playwritebevlg/v6/GFD8WBdug3mQSvrAT9AL6fd4ZkB-a2sDmg3dy2W0blL8vPCJMiyBIkNg.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playwritebevlg/PlaywriteBEVLG[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/playwritebevlg/v6/GFD8WBdug3mQSvrAT9AL6fd4ZkB-a2sDmg3dy2W0blL8vfCJMiyBIkNg.woff2
-    - https://fonts.gstatic.com/s/playwritebevlg/v6/GFD8WBdug3mQSvrAT9AL6fd4ZkB-a2sDmg3dy2W0blJ8vPCJMiyBIkNg.woff2
-    - https://fonts.gstatic.com/s/playwritebevlg/v6/GFD8WBdug3mQSvrAT9AL6fd4ZkB-a2sDmg3dy2W0blKivPCJMiyBIkNg.woff2
-    - https://fonts.gstatic.com/s/playwritebevlg/v6/GFD8WBdug3mQSvrAT9AL6fd4ZkB-a2sDmg3dy2W0blL8vPCJMiyBIkNg.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playwritebevlg/PlaywriteBEVLG[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Playwrite BE VLG
     files:
@@ -34,8 +28,20 @@ resources:
     - https://fonts.gstatic.com/s/playwritebevlg/v6/GFD8WBdug3mQSvrAT9AL6fd4ZkB-a2sDmg3dy2W0blKivPCMMiyBIkNg.ttf
     - https://fonts.gstatic.com/s/playwritebevlg/v6/GFD8WBdug3mQSvrAT9AL6fd4ZkB-a2sDmg3dy2W0blL8vPCMMiyBIkNg.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Playwrite BE VLG
+    files:
+    - https://fonts.gstatic.com/s/playwritebevlg/v6/GFD8WBdug3mQSvrAT9AL6fd4ZkB-a2sDmg3dy2W0blL8vfCJMiyBIkNg.woff2
+    - https://fonts.gstatic.com/s/playwritebevlg/v6/GFD8WBdug3mQSvrAT9AL6fd4ZkB-a2sDmg3dy2W0blJ8vPCJMiyBIkNg.woff2
+    - https://fonts.gstatic.com/s/playwritebevlg/v6/GFD8WBdug3mQSvrAT9AL6fd4ZkB-a2sDmg3dy2W0blKivPCJMiyBIkNg.woff2
+    - https://fonts.gstatic.com/s/playwritebevlg/v6/GFD8WBdug3mQSvrAT9AL6fd4ZkB-a2sDmg3dy2W0blL8vPCJMiyBIkNg.woff2
+    urls:
+    - https://fonts.gstatic.com/s/playwritebevlg/v6/GFD8WBdug3mQSvrAT9AL6fd4ZkB-a2sDmg3dy2W0blL8vfCJMiyBIkNg.woff2
+    - https://fonts.gstatic.com/s/playwritebevlg/v6/GFD8WBdug3mQSvrAT9AL6fd4ZkB-a2sDmg3dy2W0blJ8vPCJMiyBIkNg.woff2
+    - https://fonts.gstatic.com/s/playwritebevlg/v6/GFD8WBdug3mQSvrAT9AL6fd4ZkB-a2sDmg3dy2W0blKivPCJMiyBIkNg.woff2
+    - https://fonts.gstatic.com/s/playwritebevlg/v6/GFD8WBdug3mQSvrAT9AL6fd4ZkB-a2sDmg3dy2W0blL8vPCJMiyBIkNg.woff2
+    format: woff2
 fonts:
 - name: Playwrite BE VLG Thin
   styles:
@@ -53,9 +59,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite BE VLG ExtraLight
   styles:
   - family_name: Playwrite BE VLG ExtraLight
@@ -72,9 +77,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite BE VLG Light
   styles:
   - family_name: Playwrite BE VLG Light
@@ -91,9 +95,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite BE VLG
   styles:
   - family_name: Playwrite BE VLG
@@ -108,9 +111,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Playwrite BE VLG
+    type: Regular
+    full_name: Playwrite BE VLG Regular
+    post_script_name: PlaywriteBEVLG-Regular
+    copyright: Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)
+    font: PlaywriteBEVLG[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)
 spdx_license: OFL-1.1-no-RFN

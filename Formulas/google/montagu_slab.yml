@@ -10,30 +10,18 @@ description: Montagu Slab is a slab-serif display typeface designed by Florian K
   see github.com/floriankarsten/montagu-slab .
 homepage: https://fonts.google.com/specimen/Montagu+Slab
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Montagu Slab
     files:
-    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkDbE3P4Fs7bOSO7.woff2
-    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkBbEnP4Fs7bOSO7.woff2
-    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkCFEnP4Fs7bOSO7.woff2
-    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkDbEnP4Fs7bOSO7.woff2
-    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkDpEnP4Fs7bOSO7.woff2
-    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkAFFXP4Fs7bOSO7.woff2
-    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkA8FXP4Fs7bOSO7.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/montaguslab/MontaguSlab[opsz,wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkDbE3P4Fs7bOSO7.woff2
-    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkBbEnP4Fs7bOSO7.woff2
-    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkCFEnP4Fs7bOSO7.woff2
-    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkDbEnP4Fs7bOSO7.woff2
-    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkDpEnP4Fs7bOSO7.woff2
-    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkAFFXP4Fs7bOSO7.woff2
-    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkA8FXP4Fs7bOSO7.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/montaguslab/MontaguSlab[opsz,wght].ttf
+    format: ttf
     variable_axes:
     - opsz
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Montagu Slab
     files:
@@ -53,9 +41,26 @@ resources:
     - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkAFFXP9Fs7bOSO7.ttf
     - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkA8FXP9Fs7bOSO7.ttf
     format: ttf
-    variable_axes:
-    - opsz
-    - wght
+  woff2_static:
+    source: google
+    family: Montagu Slab
+    files:
+    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkDbE3P4Fs7bOSO7.woff2
+    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkBbEnP4Fs7bOSO7.woff2
+    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkCFEnP4Fs7bOSO7.woff2
+    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkDbEnP4Fs7bOSO7.woff2
+    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkDpEnP4Fs7bOSO7.woff2
+    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkAFFXP4Fs7bOSO7.woff2
+    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkA8FXP4Fs7bOSO7.woff2
+    urls:
+    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkDbE3P4Fs7bOSO7.woff2
+    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkBbEnP4Fs7bOSO7.woff2
+    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkCFEnP4Fs7bOSO7.woff2
+    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkDbEnP4Fs7bOSO7.woff2
+    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkDpEnP4Fs7bOSO7.woff2
+    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkAFFXP4Fs7bOSO7.woff2
+    - https://fonts.gstatic.com/s/montaguslab/v17/6qLhKZIQtB_zv0xUaXRDWkY_HXsphdLRZF40vm_jzR2jhk_n3T6ACkA8FXP4Fs7bOSO7.woff2
+    format: woff2
 fonts:
 - name: Montagu Slab Thin
   styles:
@@ -73,10 +78,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - opsz
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Montagu Slab ExtraLight
   styles:
   - family_name: Montagu Slab ExtraLight
@@ -93,10 +96,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - opsz
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Montagu Slab Light
   styles:
   - family_name: Montagu Slab Light
@@ -113,10 +114,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - opsz
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Montagu Slab
   styles:
   - family_name: Montagu Slab
@@ -131,10 +130,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - opsz
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Montagu Slab
     type: Bold
     full_name: Montagu Slab Bold
@@ -147,10 +144,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Montagu Slab
+    type: Regular
+    full_name: Montagu Slab Bold
+    post_script_name: MontaguSlab-Bold
+    copyright: Copyright 2021 The Montagu Slab Project Authors (https://github.com/floriankarsten/montagu-slab)
+    font: MontaguSlab[opsz,wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - opsz
     - wght
+    source_resource: ttf_variable
 - name: Montagu Slab Medium
   styles:
   - family_name: Montagu Slab Medium
@@ -167,10 +175,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - opsz
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Montagu Slab SemiBold
   styles:
   - family_name: Montagu Slab SemiBold
@@ -187,10 +193,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - opsz
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2021 The Montagu Slab Project Authors (https://github.com/floriankarsten/montagu-slab)
 spdx_license: OFL-1.1-no-RFN

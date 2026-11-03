@@ -4,27 +4,17 @@ schema_version: 5
 description: ''
 homepage: https://fonts.google.com/specimen/Gabarito
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Gabarito
     files:
-    - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj248K0EwItq6bFIg.woff2
-    - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj20cK0EwItq6bFIg.woff2
-    - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2PcW0EwItq6bFIg.woff2
-    - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2BMW0EwItq6bFIg.woff2
-    - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2Y8W0EwItq6bFIg.woff2
-    - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2SsW0EwItq6bFIg.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/gabarito/Gabarito[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj248K0EwItq6bFIg.woff2
-    - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj20cK0EwItq6bFIg.woff2
-    - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2PcW0EwItq6bFIg.woff2
-    - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2BMW0EwItq6bFIg.woff2
-    - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2Y8W0EwItq6bFIg.woff2
-    - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2SsW0EwItq6bFIg.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/gabarito/Gabarito[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Gabarito
     files:
@@ -42,8 +32,24 @@ resources:
     - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2Y8W0FgItq6bFIg.ttf
     - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2SsW0FgItq6bFIg.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Gabarito
+    files:
+    - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj248K0EwItq6bFIg.woff2
+    - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj20cK0EwItq6bFIg.woff2
+    - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2PcW0EwItq6bFIg.woff2
+    - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2BMW0EwItq6bFIg.woff2
+    - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2Y8W0EwItq6bFIg.woff2
+    - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2SsW0EwItq6bFIg.woff2
+    urls:
+    - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj248K0EwItq6bFIg.woff2
+    - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj20cK0EwItq6bFIg.woff2
+    - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2PcW0EwItq6bFIg.woff2
+    - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2BMW0EwItq6bFIg.woff2
+    - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2Y8W0EwItq6bFIg.woff2
+    - https://fonts.gstatic.com/s/gabarito/v9/QGYwz_0dZAGKJJ4t3FFkc3Q8AkNP9Pj2SsW0EwItq6bFIg.woff2
+    format: woff2
 fonts:
 - name: Gabarito
   styles:
@@ -59,9 +65,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Gabarito
     type: Bold
     full_name: Gabarito Bold
@@ -74,9 +79,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Gabarito
+    type: Regular
+    full_name: Gabarito Regular
+    post_script_name: Gabarito-Regular
+    copyright: Copyright 2023 The Gabarito Project Authors (https://github.com/naipefoundry/gabarito)
+    font: Gabarito[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Gabarito Medium
   styles:
   - family_name: Gabarito Medium
@@ -93,9 +109,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Gabarito SemiBold
   styles:
   - family_name: Gabarito SemiBold
@@ -112,9 +127,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Gabarito ExtraBold
   styles:
   - family_name: Gabarito ExtraBold
@@ -131,9 +145,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Gabarito Black
   styles:
   - family_name: Gabarito Black
@@ -150,9 +163,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2023 The Gabarito Project Authors (https://github.com/naipefoundry/gabarito)
 spdx_license: OFL-1.1-no-RFN

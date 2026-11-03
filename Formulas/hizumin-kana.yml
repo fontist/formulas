@@ -8,6 +8,7 @@ resources:
     - https://modi.jpn.org/download/MODI_hizumin-kana_2017_0213.zip
     sha256: 5da2b798314f8accd37010c12984fe64edb47ce3cd32b312c53ad043b9bf428f
     file_size: 148329
+    format: otf
 fonts:
 - name: hizumin-kana
   styles:
@@ -20,6 +21,8 @@ fonts:
     version: '1.01'
     copyright: MODI
     font: hizumin-kana.otf
+    formats:
+    - otf
 extract: {}
 copyright: MODI
 command: create-formula https://modi.jpn.org/download/MODI_hizumin-kana_2017_0213.zip

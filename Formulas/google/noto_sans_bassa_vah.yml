@@ -6,23 +6,17 @@ description: Noto is a global font collection for writing in all modern and anci
   in the African Bassa Vah script. It has 45 glyphs.
 homepage: https://fonts.google.com/specimen/Noto+Sans+Bassa+Vah
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Noto Sans Bassa Vah
     files:
-    - https://fonts.gstatic.com/s/notosansbassavah/v21/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4MaAc6s34gH-GD7.woff2
-    - https://fonts.gstatic.com/s/notosansbassavah/v21/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4MoAc6s34gH-GD7.woff2
-    - https://fonts.gstatic.com/s/notosansbassavah/v21/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4PEBs6s34gH-GD7.woff2
-    - https://fonts.gstatic.com/s/notosansbassavah/v21/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4P9Bs6s34gH-GD7.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosansbassavah/NotoSansBassaVah[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/notosansbassavah/v21/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4MaAc6s34gH-GD7.woff2
-    - https://fonts.gstatic.com/s/notosansbassavah/v21/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4MoAc6s34gH-GD7.woff2
-    - https://fonts.gstatic.com/s/notosansbassavah/v21/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4PEBs6s34gH-GD7.woff2
-    - https://fonts.gstatic.com/s/notosansbassavah/v21/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4P9Bs6s34gH-GD7.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosansbassavah/NotoSansBassaVah[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Noto Sans Bassa Vah
     files:
@@ -36,8 +30,20 @@ resources:
     - https://fonts.gstatic.com/s/notosansbassavah/v21/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4PEBs6p34gH-GD7.ttf
     - https://fonts.gstatic.com/s/notosansbassavah/v21/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4P9Bs6p34gH-GD7.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Noto Sans Bassa Vah
+    files:
+    - https://fonts.gstatic.com/s/notosansbassavah/v21/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4MaAc6s34gH-GD7.woff2
+    - https://fonts.gstatic.com/s/notosansbassavah/v21/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4MoAc6s34gH-GD7.woff2
+    - https://fonts.gstatic.com/s/notosansbassavah/v21/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4PEBs6s34gH-GD7.woff2
+    - https://fonts.gstatic.com/s/notosansbassavah/v21/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4P9Bs6s34gH-GD7.woff2
+    urls:
+    - https://fonts.gstatic.com/s/notosansbassavah/v21/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4MaAc6s34gH-GD7.woff2
+    - https://fonts.gstatic.com/s/notosansbassavah/v21/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4MoAc6s34gH-GD7.woff2
+    - https://fonts.gstatic.com/s/notosansbassavah/v21/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4PEBs6s34gH-GD7.woff2
+    - https://fonts.gstatic.com/s/notosansbassavah/v21/PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4P9Bs6s34gH-GD7.woff2
+    format: woff2
 fonts:
 - name: Noto Sans Bassa Vah
   styles:
@@ -53,9 +59,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Noto Sans Bassa Vah
     type: Bold
     full_name: Noto Sans Bassa Vah Bold
@@ -68,9 +73,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Noto Sans Bassa Vah
+    type: Regular
+    full_name: Noto Sans Bassa Vah Regular
+    post_script_name: NotoSansBassaVah-Regular
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bassa-vah)
+    font: NotoSansBassaVah[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Noto Sans Bassa Vah Medium
   styles:
   - family_name: Noto Sans Bassa Vah Medium
@@ -87,9 +103,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans Bassa Vah SemiBold
   styles:
   - family_name: Noto Sans Bassa Vah SemiBold
@@ -106,9 +121,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bassa-vah)
 spdx_license: OFL-1.1-no-RFN

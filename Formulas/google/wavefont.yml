@@ -11,35 +11,19 @@ description: 'Wavefont is a variable font with Weight, Round, and Vertical Align
   github.com/dy/wavefont'
 homepage: https://fonts.google.com/specimen/Wavefont
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Wavefont
     files:
-    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI3V0rDCXKtOXOg4.woff2
-    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI1V07DCXKtOXOg4.woff2
-    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI2L07DCXKtOXOg4.woff2
-    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI3V07DCXKtOXOg4.woff2
-    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI3n07DCXKtOXOg4.woff2
-    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI0L1LDCXKtOXOg4.woff2
-    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI0y1LDCXKtOXOg4.woff2
-    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI1V1LDCXKtOXOg4.woff2
-    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI181LDCXKtOXOg4.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/wavefont/Wavefont[ROND,YELA,wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI3V0rDCXKtOXOg4.woff2
-    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI1V07DCXKtOXOg4.woff2
-    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI2L07DCXKtOXOg4.woff2
-    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI3V07DCXKtOXOg4.woff2
-    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI3n07DCXKtOXOg4.woff2
-    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI0L1LDCXKtOXOg4.woff2
-    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI0y1LDCXKtOXOg4.woff2
-    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI1V1LDCXKtOXOg4.woff2
-    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI181LDCXKtOXOg4.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/wavefont/Wavefont[ROND,YELA,wght].ttf
+    format: ttf
     variable_axes:
     - ROND
     - YELA
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Wavefont
     files:
@@ -63,10 +47,30 @@ resources:
     - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI1V1LDHXKtOXOg4.ttf
     - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI181LDHXKtOXOg4.ttf
     format: ttf
-    variable_axes:
-    - ROND
-    - YELA
-    - wght
+  woff2_static:
+    source: google
+    family: Wavefont
+    files:
+    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI3V0rDCXKtOXOg4.woff2
+    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI1V07DCXKtOXOg4.woff2
+    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI2L07DCXKtOXOg4.woff2
+    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI3V07DCXKtOXOg4.woff2
+    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI3n07DCXKtOXOg4.woff2
+    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI0L1LDCXKtOXOg4.woff2
+    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI0y1LDCXKtOXOg4.woff2
+    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI1V1LDCXKtOXOg4.woff2
+    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI181LDCXKtOXOg4.woff2
+    urls:
+    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI3V0rDCXKtOXOg4.woff2
+    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI1V07DCXKtOXOg4.woff2
+    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI2L07DCXKtOXOg4.woff2
+    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI3V07DCXKtOXOg4.woff2
+    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI3n07DCXKtOXOg4.woff2
+    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI0L1LDCXKtOXOg4.woff2
+    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI0y1LDCXKtOXOg4.woff2
+    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI1V1LDCXKtOXOg4.woff2
+    - https://fonts.gstatic.com/s/wavefont/v19/L0xFDF00m0cP6hefyOCpRezQNuizSrqDyx8FHbFu21B3L4m0SEzuQYwq-f_JJ8I1WI181LDCXKtOXOg4.woff2
+    format: woff2
 fonts:
 - name: Wavefont Thin
   styles:
@@ -84,11 +88,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ROND
-    - YELA
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Wavefont ExtraLight
   styles:
   - family_name: Wavefont ExtraLight
@@ -105,11 +106,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ROND
-    - YELA
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Wavefont Light
   styles:
   - family_name: Wavefont Light
@@ -126,11 +124,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ROND
-    - YELA
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Wavefont
   styles:
   - family_name: Wavefont
@@ -145,11 +140,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ROND
-    - YELA
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Wavefont
     type: Bold
     full_name: Wavefont Bold
@@ -162,11 +154,22 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Wavefont
+    type: Regular
+    full_name: Wavefont Thin
+    post_script_name: Wavefont-Thin
+    copyright: Copyright 2022 The Wavefont Project Authors (https://github.com/dy/wavefont)
+    font: Wavefont[ROND,YELA,wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - ROND
     - YELA
     - wght
+    source_resource: ttf_variable
 - name: Wavefont Medium
   styles:
   - family_name: Wavefont Medium
@@ -183,11 +186,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ROND
-    - YELA
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Wavefont SemiBold
   styles:
   - family_name: Wavefont SemiBold
@@ -204,11 +204,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ROND
-    - YELA
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Wavefont ExtraBold
   styles:
   - family_name: Wavefont ExtraBold
@@ -225,11 +222,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ROND
-    - YELA
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Wavefont Black
   styles:
   - family_name: Wavefont Black
@@ -246,11 +240,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - ROND
-    - YELA
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Wavefont Project Authors (https://github.com/dy/wavefont)
 spdx_license: OFL-1.1-no-RFN

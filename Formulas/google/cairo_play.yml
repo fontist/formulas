@@ -7,32 +7,18 @@ description: Cairo Play is a color font version of Cairo which features colored 
   .
 homepage: https://fonts.google.com/specimen/Cairo+Play
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Cairo Play
     files:
-    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1EnYq8iXa8GvzaA.woff2
-    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1zHYq8iXa8GvzaA.woff2
-    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1knYq8iXa8GvzaA.woff2
-    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1oHYq8iXa8GvzaA.woff2
-    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1THEq8iXa8GvzaA.woff2
-    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1dXEq8iXa8GvzaA.woff2
-    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1EnEq8iXa8GvzaA.woff2
-    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1O3Eq8iXa8GvzaA.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/cairoplay/CairoPlay[slnt,wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1EnYq8iXa8GvzaA.woff2
-    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1zHYq8iXa8GvzaA.woff2
-    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1knYq8iXa8GvzaA.woff2
-    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1oHYq8iXa8GvzaA.woff2
-    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1THEq8iXa8GvzaA.woff2
-    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1dXEq8iXa8GvzaA.woff2
-    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1EnEq8iXa8GvzaA.woff2
-    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1O3Eq8iXa8GvzaA.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/cairoplay/CairoPlay[slnt,wght].ttf
+    format: ttf
     variable_axes:
     - slnt
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Cairo Play
     files:
@@ -54,9 +40,28 @@ resources:
     - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1EnEq9yXa8GvzaA.ttf
     - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1O3Eq9yXa8GvzaA.ttf
     format: ttf
-    variable_axes:
-    - slnt
-    - wght
+  woff2_static:
+    source: google
+    family: Cairo Play
+    files:
+    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1EnYq8iXa8GvzaA.woff2
+    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1zHYq8iXa8GvzaA.woff2
+    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1knYq8iXa8GvzaA.woff2
+    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1oHYq8iXa8GvzaA.woff2
+    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1THEq8iXa8GvzaA.woff2
+    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1dXEq8iXa8GvzaA.woff2
+    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1EnEq8iXa8GvzaA.woff2
+    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1O3Eq8iXa8GvzaA.woff2
+    urls:
+    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1EnYq8iXa8GvzaA.woff2
+    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1zHYq8iXa8GvzaA.woff2
+    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1knYq8iXa8GvzaA.woff2
+    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1oHYq8iXa8GvzaA.woff2
+    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1THEq8iXa8GvzaA.woff2
+    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1dXEq8iXa8GvzaA.woff2
+    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1EnEq8iXa8GvzaA.woff2
+    - https://fonts.gstatic.com/s/cairoplay/v13/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1O3Eq8iXa8GvzaA.woff2
+    format: woff2
 fonts:
 - name: Cairo Play ExtraLight
   styles:
@@ -74,10 +79,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - slnt
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Cairo Play Light
   styles:
   - family_name: Cairo Play Light
@@ -94,10 +97,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - slnt
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Cairo Play
   styles:
   - family_name: Cairo Play
@@ -112,10 +113,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - slnt
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Cairo Play
     type: Bold
     full_name: Cairo Play Bold
@@ -128,10 +127,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Cairo Play
+    type: Regular
+    full_name: Cairo Play Regular
+    post_script_name: CairoPlay-Regular
+    copyright: Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
+    font: CairoPlay[slnt,wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - slnt
     - wght
+    source_resource: ttf_variable
 - name: Cairo Play Medium
   styles:
   - family_name: Cairo Play Medium
@@ -148,10 +158,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - slnt
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Cairo Play SemiBold
   styles:
   - family_name: Cairo Play SemiBold
@@ -168,10 +176,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - slnt
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Cairo Play ExtraBold
   styles:
   - family_name: Cairo Play ExtraBold
@@ -188,10 +194,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - slnt
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Cairo Play Black
   styles:
   - family_name: Cairo Play Black
@@ -208,10 +212,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - slnt
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
 spdx_license: OFL-1.1-no-RFN

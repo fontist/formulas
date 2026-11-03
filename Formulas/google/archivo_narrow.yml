@@ -12,31 +12,19 @@ description: Archivo Narrow was designed to be used simultaneously in print and 
   visit github.com/Omnibus-Type
 homepage: https://fonts.google.com/specimen/Archivo+Narrow
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Archivo Narrow
     files:
-    - https://fonts.gstatic.com/s/archivonarrow/v35/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhvLFGKoXOtFCQ76Q.woff2
-    - https://fonts.gstatic.com/s/archivonarrow/v35/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhvHlGKoXOtFCQ76Q.woff2
-    - https://fonts.gstatic.com/s/archivonarrow/v35/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhv8laKoXOtFCQ76Q.woff2
-    - https://fonts.gstatic.com/s/archivonarrow/v35/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhvy1aKoXOtFCQ76Q.woff2
-    - https://fonts.gstatic.com/s/archivonarrow/v35/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BJi53msNiEr6T6Y.woff2
-    - https://fonts.gstatic.com/s/archivonarrow/v35/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BJQ53msNiEr6T6Y.woff2
-    - https://fonts.gstatic.com/s/archivonarrow/v35/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BK84HmsNiEr6T6Y.woff2
-    - https://fonts.gstatic.com/s/archivonarrow/v35/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BKF4HmsNiEr6T6Y.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/archivonarrow/ArchivoNarrow[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/archivonarrow/ArchivoNarrow-Italic[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/archivonarrow/v35/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhvLFGKoXOtFCQ76Q.woff2
-    - https://fonts.gstatic.com/s/archivonarrow/v35/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhvHlGKoXOtFCQ76Q.woff2
-    - https://fonts.gstatic.com/s/archivonarrow/v35/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhv8laKoXOtFCQ76Q.woff2
-    - https://fonts.gstatic.com/s/archivonarrow/v35/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhvy1aKoXOtFCQ76Q.woff2
-    - https://fonts.gstatic.com/s/archivonarrow/v35/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BJi53msNiEr6T6Y.woff2
-    - https://fonts.gstatic.com/s/archivonarrow/v35/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BJQ53msNiEr6T6Y.woff2
-    - https://fonts.gstatic.com/s/archivonarrow/v35/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BK84HmsNiEr6T6Y.woff2
-    - https://fonts.gstatic.com/s/archivonarrow/v35/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BKF4HmsNiEr6T6Y.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/archivonarrow/ArchivoNarrow[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/archivonarrow/ArchivoNarrow-Italic[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Archivo Narrow
     files:
@@ -58,8 +46,28 @@ resources:
     - https://fonts.gstatic.com/s/archivonarrow/v35/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BK84HmpNiEr6T6Y.ttf
     - https://fonts.gstatic.com/s/archivonarrow/v35/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BKF4HmpNiEr6T6Y.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Archivo Narrow
+    files:
+    - https://fonts.gstatic.com/s/archivonarrow/v35/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhvLFGKoXOtFCQ76Q.woff2
+    - https://fonts.gstatic.com/s/archivonarrow/v35/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhvHlGKoXOtFCQ76Q.woff2
+    - https://fonts.gstatic.com/s/archivonarrow/v35/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhv8laKoXOtFCQ76Q.woff2
+    - https://fonts.gstatic.com/s/archivonarrow/v35/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhvy1aKoXOtFCQ76Q.woff2
+    - https://fonts.gstatic.com/s/archivonarrow/v35/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BJi53msNiEr6T6Y.woff2
+    - https://fonts.gstatic.com/s/archivonarrow/v35/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BJQ53msNiEr6T6Y.woff2
+    - https://fonts.gstatic.com/s/archivonarrow/v35/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BK84HmsNiEr6T6Y.woff2
+    - https://fonts.gstatic.com/s/archivonarrow/v35/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BKF4HmsNiEr6T6Y.woff2
+    urls:
+    - https://fonts.gstatic.com/s/archivonarrow/v35/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhvLFGKoXOtFCQ76Q.woff2
+    - https://fonts.gstatic.com/s/archivonarrow/v35/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhvHlGKoXOtFCQ76Q.woff2
+    - https://fonts.gstatic.com/s/archivonarrow/v35/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhv8laKoXOtFCQ76Q.woff2
+    - https://fonts.gstatic.com/s/archivonarrow/v35/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhvy1aKoXOtFCQ76Q.woff2
+    - https://fonts.gstatic.com/s/archivonarrow/v35/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BJi53msNiEr6T6Y.woff2
+    - https://fonts.gstatic.com/s/archivonarrow/v35/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BJQ53msNiEr6T6Y.woff2
+    - https://fonts.gstatic.com/s/archivonarrow/v35/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BK84HmsNiEr6T6Y.woff2
+    - https://fonts.gstatic.com/s/archivonarrow/v35/tss7ApVBdCYD5Q7hcxTE1ArZ0bb1k3JSLwe1hB965BKF4HmsNiEr6T6Y.woff2
+    format: woff2
 fonts:
 - name: Archivo Narrow
   styles:
@@ -75,9 +83,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Archivo Narrow
     type: Bold
     full_name: Archivo Narrow Bold
@@ -90,9 +97,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Archivo Narrow
     type: Italic
     full_name: Archivo Narrow Italic
@@ -105,9 +111,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Archivo Narrow
     type: Bold Italic
     full_name: Archivo Narrow Bold Italic
@@ -120,9 +125,32 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Archivo Narrow
+    type: Regular
+    full_name: Archivo Narrow Regular
+    post_script_name: ArchivoNarrow-Regular
+    copyright: Copyright 2019 The Archivo Narrow Project Authors (https://github.com/Omnibus-Type/ArchivoNarrow)
+    font: ArchivoNarrow[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
+  - family_name: Archivo Narrow
+    type: Italic
+    full_name: Archivo Narrow Italic
+    post_script_name: ArchivoNarrow-Italic
+    copyright: Copyright 2019 The Archivo Narrow Project Authors (https://github.com/Omnibus-Type/ArchivoNarrow)
+    font: ArchivoNarrow-Italic[wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wght
+    source_resource: ttf_variable
 - name: Archivo Narrow Medium
   styles:
   - family_name: Archivo Narrow Medium
@@ -139,9 +167,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Archivo Narrow Medium
     type: Italic
     full_name: Archivo Narrow Medium Italic
@@ -156,9 +183,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Archivo Narrow SemiBold
   styles:
   - family_name: Archivo Narrow SemiBold
@@ -175,9 +201,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Archivo Narrow SemiBold
     type: Italic
     full_name: Archivo Narrow SemiBold Italic
@@ -192,9 +217,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2019 The Archivo Narrow Project Authors (https://github.com/Omnibus-Type/ArchivoNarrow)
 spdx_license: OFL-1.1-no-RFN

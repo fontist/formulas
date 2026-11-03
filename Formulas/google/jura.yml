@@ -12,25 +12,17 @@ description: Jura is a family of sans-serif fonts in the Eurostile vein. It was 
   .
 homepage: https://fonts.google.com/specimen/Jura
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Jura
     files:
-    - https://fonts.gstatic.com/s/jura/v34/z7NOdRfiaC4Vd8hhoPzfb5vBTP0D7aukTfmrH_rt.woff2
-    - https://fonts.gstatic.com/s/jura/v34/z7NOdRfiaC4Vd8hhoPzfb5vBTP1d7aukTfmrH_rt.woff2
-    - https://fonts.gstatic.com/s/jura/v34/z7NOdRfiaC4Vd8hhoPzfb5vBTP1v7aukTfmrH_rt.woff2
-    - https://fonts.gstatic.com/s/jura/v34/z7NOdRfiaC4Vd8hhoPzfb5vBTP2D6qukTfmrH_rt.woff2
-    - https://fonts.gstatic.com/s/jura/v34/z7NOdRfiaC4Vd8hhoPzfb5vBTP266qukTfmrH_rt.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/jura/Jura[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/jura/v34/z7NOdRfiaC4Vd8hhoPzfb5vBTP0D7aukTfmrH_rt.woff2
-    - https://fonts.gstatic.com/s/jura/v34/z7NOdRfiaC4Vd8hhoPzfb5vBTP1d7aukTfmrH_rt.woff2
-    - https://fonts.gstatic.com/s/jura/v34/z7NOdRfiaC4Vd8hhoPzfb5vBTP1v7aukTfmrH_rt.woff2
-    - https://fonts.gstatic.com/s/jura/v34/z7NOdRfiaC4Vd8hhoPzfb5vBTP2D6qukTfmrH_rt.woff2
-    - https://fonts.gstatic.com/s/jura/v34/z7NOdRfiaC4Vd8hhoPzfb5vBTP266qukTfmrH_rt.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/jura/Jura[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Jura
     files:
@@ -46,8 +38,22 @@ resources:
     - https://fonts.gstatic.com/s/jura/v34/z7NOdRfiaC4Vd8hhoPzfb5vBTP2D6quhTfmrH_rt.ttf
     - https://fonts.gstatic.com/s/jura/v34/z7NOdRfiaC4Vd8hhoPzfb5vBTP266quhTfmrH_rt.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Jura
+    files:
+    - https://fonts.gstatic.com/s/jura/v34/z7NOdRfiaC4Vd8hhoPzfb5vBTP0D7aukTfmrH_rt.woff2
+    - https://fonts.gstatic.com/s/jura/v34/z7NOdRfiaC4Vd8hhoPzfb5vBTP1d7aukTfmrH_rt.woff2
+    - https://fonts.gstatic.com/s/jura/v34/z7NOdRfiaC4Vd8hhoPzfb5vBTP1v7aukTfmrH_rt.woff2
+    - https://fonts.gstatic.com/s/jura/v34/z7NOdRfiaC4Vd8hhoPzfb5vBTP2D6qukTfmrH_rt.woff2
+    - https://fonts.gstatic.com/s/jura/v34/z7NOdRfiaC4Vd8hhoPzfb5vBTP266qukTfmrH_rt.woff2
+    urls:
+    - https://fonts.gstatic.com/s/jura/v34/z7NOdRfiaC4Vd8hhoPzfb5vBTP0D7aukTfmrH_rt.woff2
+    - https://fonts.gstatic.com/s/jura/v34/z7NOdRfiaC4Vd8hhoPzfb5vBTP1d7aukTfmrH_rt.woff2
+    - https://fonts.gstatic.com/s/jura/v34/z7NOdRfiaC4Vd8hhoPzfb5vBTP1v7aukTfmrH_rt.woff2
+    - https://fonts.gstatic.com/s/jura/v34/z7NOdRfiaC4Vd8hhoPzfb5vBTP2D6qukTfmrH_rt.woff2
+    - https://fonts.gstatic.com/s/jura/v34/z7NOdRfiaC4Vd8hhoPzfb5vBTP266qukTfmrH_rt.woff2
+    format: woff2
 fonts:
 - name: Jura Light
   styles:
@@ -65,9 +71,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Jura
   styles:
   - family_name: Jura
@@ -82,9 +87,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Jura
     type: Bold
     full_name: Jura Bold
@@ -97,9 +101,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Jura
+    type: Regular
+    full_name: Jura Light
+    post_script_name: Jura-Light
+    copyright: Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)
+    font: Jura[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Jura Medium
   styles:
   - family_name: Jura Medium
@@ -116,9 +131,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Jura SemiBold
   styles:
   - family_name: Jura SemiBold
@@ -135,9 +149,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)
 spdx_license: OFL-1.1-no-RFN

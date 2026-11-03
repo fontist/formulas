@@ -8,33 +8,17 @@ description: Noto is a global font collection for writing in all modern and anci
   used for religious commentary. It has multiple weights and 92 glyphs.
 homepage: https://fonts.google.com/specimen/Noto+Rashi+Hebrew
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Noto Rashi Hebrew
     files:
-    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZB-DkQiq6Nf2pfA.woff2
-    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZh-HkQiq6Nf2pfA.woff2
-    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZWeHkQiq6Nf2pfA.woff2
-    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZB-HkQiq6Nf2pfA.woff2
-    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZNeHkQiq6Nf2pfA.woff2
-    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZ2ebkQiq6Nf2pfA.woff2
-    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZ4ObkQiq6Nf2pfA.woff2
-    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZh-bkQiq6Nf2pfA.woff2
-    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZrubkQiq6Nf2pfA.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notorashihebrew/NotoRashiHebrew[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZB-DkQiq6Nf2pfA.woff2
-    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZh-HkQiq6Nf2pfA.woff2
-    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZWeHkQiq6Nf2pfA.woff2
-    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZB-HkQiq6Nf2pfA.woff2
-    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZNeHkQiq6Nf2pfA.woff2
-    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZ2ebkQiq6Nf2pfA.woff2
-    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZ4ObkQiq6Nf2pfA.woff2
-    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZh-bkQiq6Nf2pfA.woff2
-    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZrubkQiq6Nf2pfA.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notorashihebrew/NotoRashiHebrew[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Noto Rashi Hebrew
     files:
@@ -58,8 +42,30 @@ resources:
     - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZh-bkRyq6Nf2pfA.ttf
     - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZrubkRyq6Nf2pfA.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Noto Rashi Hebrew
+    files:
+    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZB-DkQiq6Nf2pfA.woff2
+    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZh-HkQiq6Nf2pfA.woff2
+    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZWeHkQiq6Nf2pfA.woff2
+    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZB-HkQiq6Nf2pfA.woff2
+    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZNeHkQiq6Nf2pfA.woff2
+    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZ2ebkQiq6Nf2pfA.woff2
+    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZ4ObkQiq6Nf2pfA.woff2
+    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZh-bkQiq6Nf2pfA.woff2
+    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZrubkQiq6Nf2pfA.woff2
+    urls:
+    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZB-DkQiq6Nf2pfA.woff2
+    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZh-HkQiq6Nf2pfA.woff2
+    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZWeHkQiq6Nf2pfA.woff2
+    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZB-HkQiq6Nf2pfA.woff2
+    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZNeHkQiq6Nf2pfA.woff2
+    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZ2ebkQiq6Nf2pfA.woff2
+    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZ4ObkQiq6Nf2pfA.woff2
+    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZh-bkQiq6Nf2pfA.woff2
+    - https://fonts.gstatic.com/s/notorashihebrew/v28/EJR_Qh82XsIK-QFmqXk4zvLwFVya0vFL-HlKM5e6C6HZrubkQiq6Nf2pfA.woff2
+    format: woff2
 fonts:
 - name: Noto Rashi Hebrew Thin
   styles:
@@ -77,9 +83,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Rashi Hebrew ExtraLight
   styles:
   - family_name: Noto Rashi Hebrew ExtraLight
@@ -96,9 +101,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Rashi Hebrew Light
   styles:
   - family_name: Noto Rashi Hebrew Light
@@ -115,9 +119,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Rashi Hebrew
   styles:
   - family_name: Noto Rashi Hebrew
@@ -132,9 +135,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Noto Rashi Hebrew
     type: Bold
     full_name: Noto Rashi Hebrew Bold
@@ -147,9 +149,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Noto Rashi Hebrew
+    type: Regular
+    full_name: Noto Rashi Hebrew Regular
+    post_script_name: NotoRashiHebrew-Regular
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hebrew)
+    font: NotoRashiHebrew[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Noto Rashi Hebrew Medium
   styles:
   - family_name: Noto Rashi Hebrew Medium
@@ -166,9 +179,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Rashi Hebrew SemiBold
   styles:
   - family_name: Noto Rashi Hebrew SemiBold
@@ -185,9 +197,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Rashi Hebrew ExtraBold
   styles:
   - family_name: Noto Rashi Hebrew ExtraBold
@@ -204,9 +215,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Rashi Hebrew Black
   styles:
   - family_name: Noto Rashi Hebrew Black
@@ -223,9 +233,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hebrew)
 spdx_license: OFL-1.1-no-RFN

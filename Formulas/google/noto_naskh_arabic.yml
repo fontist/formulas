@@ -7,23 +7,17 @@ description: Noto is a global font collection for writing in all modern and anci
   It has multiple weights and 1,598 glyphs.
 homepage: https://fonts.google.com/specimen/Noto+Naskh+Arabic
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Noto Naskh Arabic
     files:
-    - https://fonts.gstatic.com/s/notonaskharabic/v44/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc5kqa0z9_Mnuw.woff2
-    - https://fonts.gstatic.com/s/notonaskharabic/v44/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwj85kqa0z9_Mnuw.woff2
-    - https://fonts.gstatic.com/s/notonaskharabic/v44/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwY8lkqa0z9_Mnuw.woff2
-    - https://fonts.gstatic.com/s/notonaskharabic/v44/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwWslkqa0z9_Mnuw.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notonaskharabic/NotoNaskhArabic[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/notonaskharabic/v44/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc5kqa0z9_Mnuw.woff2
-    - https://fonts.gstatic.com/s/notonaskharabic/v44/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwj85kqa0z9_Mnuw.woff2
-    - https://fonts.gstatic.com/s/notonaskharabic/v44/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwY8lkqa0z9_Mnuw.woff2
-    - https://fonts.gstatic.com/s/notonaskharabic/v44/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwWslkqa0z9_Mnuw.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notonaskharabic/NotoNaskhArabic[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Noto Naskh Arabic
     files:
@@ -37,8 +31,20 @@ resources:
     - https://fonts.gstatic.com/s/notonaskharabic/v44/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwY8lkrK0z9_Mnuw.ttf
     - https://fonts.gstatic.com/s/notonaskharabic/v44/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwWslkrK0z9_Mnuw.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Noto Naskh Arabic
+    files:
+    - https://fonts.gstatic.com/s/notonaskharabic/v44/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc5kqa0z9_Mnuw.woff2
+    - https://fonts.gstatic.com/s/notonaskharabic/v44/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwj85kqa0z9_Mnuw.woff2
+    - https://fonts.gstatic.com/s/notonaskharabic/v44/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwY8lkqa0z9_Mnuw.woff2
+    - https://fonts.gstatic.com/s/notonaskharabic/v44/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwWslkqa0z9_Mnuw.woff2
+    urls:
+    - https://fonts.gstatic.com/s/notonaskharabic/v44/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc5kqa0z9_Mnuw.woff2
+    - https://fonts.gstatic.com/s/notonaskharabic/v44/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwj85kqa0z9_Mnuw.woff2
+    - https://fonts.gstatic.com/s/notonaskharabic/v44/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwY8lkqa0z9_Mnuw.woff2
+    - https://fonts.gstatic.com/s/notonaskharabic/v44/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwWslkqa0z9_Mnuw.woff2
+    format: woff2
 fonts:
 - name: Noto Naskh Arabic
   styles:
@@ -54,9 +60,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Noto Naskh Arabic
     type: Bold
     full_name: Noto Naskh Arabic Bold
@@ -69,9 +74,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Noto Naskh Arabic
+    type: Regular
+    full_name: Noto Naskh Arabic Regular
+    post_script_name: NotoNaskhArabic-Regular
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/arabic)
+    font: NotoNaskhArabic[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Noto Naskh Arabic Medium
   styles:
   - family_name: Noto Naskh Arabic Medium
@@ -88,9 +104,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Naskh Arabic SemiBold
   styles:
   - family_name: Noto Naskh Arabic SemiBold
@@ -107,9 +122,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/arabic)
 spdx_license: OFL-1.1-no-RFN

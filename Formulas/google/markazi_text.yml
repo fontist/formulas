@@ -14,23 +14,17 @@ description: This typeface design was inspired by Tim Holloway's Markazi typefac
   .
 homepage: https://fonts.google.com/specimen/Markazi+Text
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Markazi Text
     files:
-    - https://fonts.gstatic.com/s/markazitext/v28/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtfSQT4YlBekmJLo.woff2
-    - https://fonts.gstatic.com/s/markazitext/v28/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtcaQT4YlBekmJLo.woff2
-    - https://fonts.gstatic.com/s/markazitext/v28/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtSqXT4YlBekmJLo.woff2
-    - https://fonts.gstatic.com/s/markazitext/v28/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtROXT4YlBekmJLo.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/markazitext/MarkaziText[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/markazitext/v28/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtfSQT4YlBekmJLo.woff2
-    - https://fonts.gstatic.com/s/markazitext/v28/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtcaQT4YlBekmJLo.woff2
-    - https://fonts.gstatic.com/s/markazitext/v28/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtSqXT4YlBekmJLo.woff2
-    - https://fonts.gstatic.com/s/markazitext/v28/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtROXT4YlBekmJLo.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/markazitext/MarkaziText[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Markazi Text
     files:
@@ -44,8 +38,20 @@ resources:
     - https://fonts.gstatic.com/s/markazitext/v28/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtSqXT4MlBekmJLo.ttf
     - https://fonts.gstatic.com/s/markazitext/v28/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtROXT4MlBekmJLo.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Markazi Text
+    files:
+    - https://fonts.gstatic.com/s/markazitext/v28/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtfSQT4YlBekmJLo.woff2
+    - https://fonts.gstatic.com/s/markazitext/v28/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtcaQT4YlBekmJLo.woff2
+    - https://fonts.gstatic.com/s/markazitext/v28/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtSqXT4YlBekmJLo.woff2
+    - https://fonts.gstatic.com/s/markazitext/v28/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtROXT4YlBekmJLo.woff2
+    urls:
+    - https://fonts.gstatic.com/s/markazitext/v28/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtfSQT4YlBekmJLo.woff2
+    - https://fonts.gstatic.com/s/markazitext/v28/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtcaQT4YlBekmJLo.woff2
+    - https://fonts.gstatic.com/s/markazitext/v28/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtSqXT4YlBekmJLo.woff2
+    - https://fonts.gstatic.com/s/markazitext/v28/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtROXT4YlBekmJLo.woff2
+    format: woff2
 fonts:
 - name: Markazi Text
   styles:
@@ -61,9 +67,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Markazi Text
     type: Bold
     full_name: Markazi Text Bold
@@ -76,9 +81,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Markazi Text
+    type: Regular
+    full_name: Markazi Text Regular
+    post_script_name: MarkaziText-Regular
+    copyright: Copyright 2017 The Markazi Text Project Authors (https://github.com/BornaIz/markazitext)
+    font: MarkaziText[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Markazi Text Medium
   styles:
   - family_name: Markazi Text Medium
@@ -95,9 +111,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Markazi Text SemiBold
   styles:
   - family_name: Markazi Text SemiBold
@@ -114,9 +129,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2017 The Markazi Text Project Authors (https://github.com/BornaIz/markazitext)
 spdx_license: OFL-1.1-no-RFN

@@ -4,27 +4,17 @@ schema_version: 5
 description: Asta Sans font family
 homepage: https://fonts.google.com/specimen/Asta+Sans
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Asta Sans
     files:
-    - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveo6r_mVzvqYRoVr0.woff2
-    - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveo_T_mVzvqYRoVr0.woff2
-    - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveo8b_mVzvqYRoVr0.woff2
-    - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveoyr4mVzvqYRoVr0.woff2
-    - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveoxP4mVzvqYRoVr0.woff2
-    - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveo3T4mVzvqYRoVr0.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/astasans/AstaSans[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveo6r_mVzvqYRoVr0.woff2
-    - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveo_T_mVzvqYRoVr0.woff2
-    - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveo8b_mVzvqYRoVr0.woff2
-    - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveoyr4mVzvqYRoVr0.woff2
-    - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveoxP4mVzvqYRoVr0.woff2
-    - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveo3T4mVzvqYRoVr0.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/astasans/AstaSans[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Asta Sans
     files:
@@ -42,8 +32,24 @@ resources:
     - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveoxP4mVnvqYRoVr0.ttf
     - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveo3T4mVnvqYRoVr0.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Asta Sans
+    files:
+    - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveo6r_mVzvqYRoVr0.woff2
+    - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveo_T_mVzvqYRoVr0.woff2
+    - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveo8b_mVzvqYRoVr0.woff2
+    - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveoyr4mVzvqYRoVr0.woff2
+    - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveoxP4mVzvqYRoVr0.woff2
+    - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveo3T4mVzvqYRoVr0.woff2
+    urls:
+    - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveo6r_mVzvqYRoVr0.woff2
+    - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveo_T_mVzvqYRoVr0.woff2
+    - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveo8b_mVzvqYRoVr0.woff2
+    - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveoyr4mVzvqYRoVr0.woff2
+    - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveoxP4mVzvqYRoVr0.woff2
+    - https://fonts.gstatic.com/s/astasans/v3/XoH32Y74XaWovvhMb0c3tN_dRqdT9zveo3T4mVzvqYRoVr0.woff2
+    format: woff2
 fonts:
 - name: Asta Sans Light
   styles:
@@ -61,9 +67,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Asta Sans
   styles:
   - family_name: Asta Sans
@@ -78,9 +83,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Asta Sans
     type: Bold
     full_name: Asta Sans Bold
@@ -93,9 +97,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Asta Sans
+    type: Regular
+    full_name: Asta Sans Light
+    post_script_name: AstaSans-Light
+    copyright: Copyright 2024 The Asta Sans Project Authors (https://github.com/42dot/Asta-Sans).
+    font: AstaSans[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Asta Sans Medium
   styles:
   - family_name: Asta Sans Medium
@@ -112,9 +127,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Asta Sans SemiBold
   styles:
   - family_name: Asta Sans SemiBold
@@ -131,9 +145,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Asta Sans ExtraBold
   styles:
   - family_name: Asta Sans ExtraBold
@@ -150,9 +163,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2024 The Asta Sans Project Authors (https://github.com/42dot/Asta-Sans).
 spdx_license: OFL-1.1-no-RFN

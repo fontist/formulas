@@ -12,25 +12,18 @@ description: 'Akshar is a variable display sans-serif font family that supports 
   .'
 homepage: https://fonts.google.com/specimen/Akshar
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Akshar
     files:
-    - https://fonts.gstatic.com/s/akshar/v17/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSSgFy9WY94XsnPc.woff2
-    - https://fonts.gstatic.com/s/akshar/v17/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSXYFy9WY94XsnPc.woff2
-    - https://fonts.gstatic.com/s/akshar/v17/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSUQFy9WY94XsnPc.woff2
-    - https://fonts.gstatic.com/s/akshar/v17/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSagCy9WY94XsnPc.woff2
-    - https://fonts.gstatic.com/s/akshar/v17/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSZECy9WY94XsnPc.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/akshar/Akshar[CTRS,wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/akshar/v17/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSSgFy9WY94XsnPc.woff2
-    - https://fonts.gstatic.com/s/akshar/v17/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSXYFy9WY94XsnPc.woff2
-    - https://fonts.gstatic.com/s/akshar/v17/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSUQFy9WY94XsnPc.woff2
-    - https://fonts.gstatic.com/s/akshar/v17/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSagCy9WY94XsnPc.woff2
-    - https://fonts.gstatic.com/s/akshar/v17/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSZECy9WY94XsnPc.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/akshar/Akshar[CTRS,wght].ttf
+    format: ttf
     variable_axes:
+    - CTRS
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Akshar
     files:
@@ -46,8 +39,22 @@ resources:
     - https://fonts.gstatic.com/s/akshar/v17/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSagCy9CY94XsnPc.ttf
     - https://fonts.gstatic.com/s/akshar/v17/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSZECy9CY94XsnPc.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Akshar
+    files:
+    - https://fonts.gstatic.com/s/akshar/v17/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSSgFy9WY94XsnPc.woff2
+    - https://fonts.gstatic.com/s/akshar/v17/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSXYFy9WY94XsnPc.woff2
+    - https://fonts.gstatic.com/s/akshar/v17/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSUQFy9WY94XsnPc.woff2
+    - https://fonts.gstatic.com/s/akshar/v17/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSagCy9WY94XsnPc.woff2
+    - https://fonts.gstatic.com/s/akshar/v17/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSZECy9WY94XsnPc.woff2
+    urls:
+    - https://fonts.gstatic.com/s/akshar/v17/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSSgFy9WY94XsnPc.woff2
+    - https://fonts.gstatic.com/s/akshar/v17/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSXYFy9WY94XsnPc.woff2
+    - https://fonts.gstatic.com/s/akshar/v17/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSUQFy9WY94XsnPc.woff2
+    - https://fonts.gstatic.com/s/akshar/v17/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSagCy9WY94XsnPc.woff2
+    - https://fonts.gstatic.com/s/akshar/v17/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSZECy9WY94XsnPc.woff2
+    format: woff2
 fonts:
 - name: Akshar Light
   styles:
@@ -65,9 +72,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Akshar
   styles:
   - family_name: Akshar
@@ -82,9 +88,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Akshar
     type: Bold
     full_name: Akshar Bold
@@ -97,9 +102,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Akshar
+    type: Regular
+    full_name: Akshar Light
+    post_script_name: Akshar-Light
+    copyright: Copyright 2026 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)
+    font: Akshar[CTRS,wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
+    - CTRS
     - wght
+    source_resource: ttf_variable
 - name: Akshar Medium
   styles:
   - family_name: Akshar Medium
@@ -116,9 +133,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Akshar SemiBold
   styles:
   - family_name: Akshar SemiBold
@@ -135,9 +151,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Akshar Type Project Authors (https://github.com/tallchai/akshar-type)
 spdx_license: OFL-1.1-no-RFN

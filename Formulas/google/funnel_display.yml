@@ -4,27 +4,17 @@ schema_version: 5
 description: Funnel Display font family
 homepage: https://fonts.google.com/specimen/Funnel+Display
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Funnel Display
     files:
-    - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYxGPXXcVwIZDKFA.woff2
-    - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYmmPXXcVwIZDKFA.woff2
-    - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYqGPXXcVwIZDKFA.woff2
-    - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYRGTXXcVwIZDKFA.woff2
-    - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYfWTXXcVwIZDKFA.woff2
-    - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYGmTXXcVwIZDKFA.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/funneldisplay/FunnelDisplay[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYxGPXXcVwIZDKFA.woff2
-    - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYmmPXXcVwIZDKFA.woff2
-    - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYqGPXXcVwIZDKFA.woff2
-    - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYRGTXXcVwIZDKFA.woff2
-    - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYfWTXXcVwIZDKFA.woff2
-    - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYGmTXXcVwIZDKFA.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/funneldisplay/FunnelDisplay[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Funnel Display
     files:
@@ -42,8 +32,24 @@ resources:
     - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYfWTXWMVwIZDKFA.ttf
     - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYGmTXWMVwIZDKFA.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Funnel Display
+    files:
+    - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYxGPXXcVwIZDKFA.woff2
+    - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYmmPXXcVwIZDKFA.woff2
+    - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYqGPXXcVwIZDKFA.woff2
+    - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYRGTXXcVwIZDKFA.woff2
+    - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYfWTXXcVwIZDKFA.woff2
+    - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYGmTXXcVwIZDKFA.woff2
+    urls:
+    - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYxGPXXcVwIZDKFA.woff2
+    - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYmmPXXcVwIZDKFA.woff2
+    - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYqGPXXcVwIZDKFA.woff2
+    - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYRGTXXcVwIZDKFA.woff2
+    - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYfWTXXcVwIZDKFA.woff2
+    - https://fonts.gstatic.com/s/funneldisplay/v3/B50bF7FGv37QNVWgE0ga--4PbZSRJXrOHcLHLoAYGmTXXcVwIZDKFA.woff2
+    format: woff2
 fonts:
 - name: Funnel Display Light
   styles:
@@ -61,9 +67,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Funnel Display
   styles:
   - family_name: Funnel Display
@@ -78,9 +83,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Funnel Display
     type: Bold
     full_name: Funnel Display Bold
@@ -93,9 +97,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Funnel Display
+    type: Regular
+    full_name: Funnel Display Light
+    post_script_name: FunnelDisplay-Light
+    copyright: Copyright 2023 The Funnel Project Authors (https://github.com/Dicotype/Funnel)
+    font: FunnelDisplay[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Funnel Display Medium
   styles:
   - family_name: Funnel Display Medium
@@ -112,9 +127,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Funnel Display SemiBold
   styles:
   - family_name: Funnel Display SemiBold
@@ -131,9 +145,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Funnel Display ExtraBold
   styles:
   - family_name: Funnel Display ExtraBold
@@ -150,9 +163,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2023 The Funnel Project Authors (https://github.com/Dicotype/Funnel)
 spdx_license: OFL-1.1-no-RFN

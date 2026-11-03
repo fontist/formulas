@@ -7,35 +7,19 @@ description: Mohave is a titling display typeface, initially designed by Gumpita
   with a weight axis. To contribute, see github.com/tokotype/mohave-typefaces .
 homepage: https://fonts.google.com/specimen/Mohave
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Mohave
     files:
-    - https://fonts.gstatic.com/s/mohave/v13/7cH0v4ksjJunKqMVAOPIMOeSmiojdif_HvWQopLSvBk.woff2
-    - https://fonts.gstatic.com/s/mohave/v13/7cH0v4ksjJunKqMVAOPIMOeSmiojdnn_HvWQopLSvBk.woff2
-    - https://fonts.gstatic.com/s/mohave/v13/7cH0v4ksjJunKqMVAOPIMOeSmiojdkv_HvWQopLSvBk.woff2
-    - https://fonts.gstatic.com/s/mohave/v13/7cH0v4ksjJunKqMVAOPIMOeSmiojdqf4HvWQopLSvBk.woff2
-    - https://fonts.gstatic.com/s/mohave/v13/7cH0v4ksjJunKqMVAOPIMOeSmiojdp74HvWQopLSvBk.woff2
-    - https://fonts.gstatic.com/s/mohave/v13/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8qLOao7DXrBlSVw.woff2
-    - https://fonts.gstatic.com/s/mohave/v13/7cH2v4ksjJunKqM_CdE36I75AIQkY7G89rOao7DXrBlSVw.woff2
-    - https://fonts.gstatic.com/s/mohave/v13/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8xLOao7DXrBlSVw.woff2
-    - https://fonts.gstatic.com/s/mohave/v13/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8KLSao7DXrBlSVw.woff2
-    - https://fonts.gstatic.com/s/mohave/v13/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8EbSao7DXrBlSVw.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/mohave/Mohave[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/mohave/Mohave-Italic[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/mohave/v13/7cH0v4ksjJunKqMVAOPIMOeSmiojdif_HvWQopLSvBk.woff2
-    - https://fonts.gstatic.com/s/mohave/v13/7cH0v4ksjJunKqMVAOPIMOeSmiojdnn_HvWQopLSvBk.woff2
-    - https://fonts.gstatic.com/s/mohave/v13/7cH0v4ksjJunKqMVAOPIMOeSmiojdkv_HvWQopLSvBk.woff2
-    - https://fonts.gstatic.com/s/mohave/v13/7cH0v4ksjJunKqMVAOPIMOeSmiojdqf4HvWQopLSvBk.woff2
-    - https://fonts.gstatic.com/s/mohave/v13/7cH0v4ksjJunKqMVAOPIMOeSmiojdp74HvWQopLSvBk.woff2
-    - https://fonts.gstatic.com/s/mohave/v13/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8qLOao7DXrBlSVw.woff2
-    - https://fonts.gstatic.com/s/mohave/v13/7cH2v4ksjJunKqM_CdE36I75AIQkY7G89rOao7DXrBlSVw.woff2
-    - https://fonts.gstatic.com/s/mohave/v13/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8xLOao7DXrBlSVw.woff2
-    - https://fonts.gstatic.com/s/mohave/v13/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8KLSao7DXrBlSVw.woff2
-    - https://fonts.gstatic.com/s/mohave/v13/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8EbSao7DXrBlSVw.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/mohave/Mohave[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/mohave/Mohave-Italic[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Mohave
     files:
@@ -61,8 +45,32 @@ resources:
     - https://fonts.gstatic.com/s/mohave/v13/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8KLSaprDXrBlSVw.ttf
     - https://fonts.gstatic.com/s/mohave/v13/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8EbSaprDXrBlSVw.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Mohave
+    files:
+    - https://fonts.gstatic.com/s/mohave/v13/7cH0v4ksjJunKqMVAOPIMOeSmiojdif_HvWQopLSvBk.woff2
+    - https://fonts.gstatic.com/s/mohave/v13/7cH0v4ksjJunKqMVAOPIMOeSmiojdnn_HvWQopLSvBk.woff2
+    - https://fonts.gstatic.com/s/mohave/v13/7cH0v4ksjJunKqMVAOPIMOeSmiojdkv_HvWQopLSvBk.woff2
+    - https://fonts.gstatic.com/s/mohave/v13/7cH0v4ksjJunKqMVAOPIMOeSmiojdqf4HvWQopLSvBk.woff2
+    - https://fonts.gstatic.com/s/mohave/v13/7cH0v4ksjJunKqMVAOPIMOeSmiojdp74HvWQopLSvBk.woff2
+    - https://fonts.gstatic.com/s/mohave/v13/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8qLOao7DXrBlSVw.woff2
+    - https://fonts.gstatic.com/s/mohave/v13/7cH2v4ksjJunKqM_CdE36I75AIQkY7G89rOao7DXrBlSVw.woff2
+    - https://fonts.gstatic.com/s/mohave/v13/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8xLOao7DXrBlSVw.woff2
+    - https://fonts.gstatic.com/s/mohave/v13/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8KLSao7DXrBlSVw.woff2
+    - https://fonts.gstatic.com/s/mohave/v13/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8EbSao7DXrBlSVw.woff2
+    urls:
+    - https://fonts.gstatic.com/s/mohave/v13/7cH0v4ksjJunKqMVAOPIMOeSmiojdif_HvWQopLSvBk.woff2
+    - https://fonts.gstatic.com/s/mohave/v13/7cH0v4ksjJunKqMVAOPIMOeSmiojdnn_HvWQopLSvBk.woff2
+    - https://fonts.gstatic.com/s/mohave/v13/7cH0v4ksjJunKqMVAOPIMOeSmiojdkv_HvWQopLSvBk.woff2
+    - https://fonts.gstatic.com/s/mohave/v13/7cH0v4ksjJunKqMVAOPIMOeSmiojdqf4HvWQopLSvBk.woff2
+    - https://fonts.gstatic.com/s/mohave/v13/7cH0v4ksjJunKqMVAOPIMOeSmiojdp74HvWQopLSvBk.woff2
+    - https://fonts.gstatic.com/s/mohave/v13/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8qLOao7DXrBlSVw.woff2
+    - https://fonts.gstatic.com/s/mohave/v13/7cH2v4ksjJunKqM_CdE36I75AIQkY7G89rOao7DXrBlSVw.woff2
+    - https://fonts.gstatic.com/s/mohave/v13/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8xLOao7DXrBlSVw.woff2
+    - https://fonts.gstatic.com/s/mohave/v13/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8KLSao7DXrBlSVw.woff2
+    - https://fonts.gstatic.com/s/mohave/v13/7cH2v4ksjJunKqM_CdE36I75AIQkY7G8EbSao7DXrBlSVw.woff2
+    format: woff2
 fonts:
 - name: Mohave Light
   styles:
@@ -80,9 +88,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Mohave Light
     type: Italic
     full_name: Mohave Light Italic
@@ -97,9 +104,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Mohave
   styles:
   - family_name: Mohave
@@ -114,9 +120,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Mohave
     type: Bold
     full_name: Mohave Bold
@@ -129,9 +134,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Mohave
     type: Italic
     full_name: Mohave Italic
@@ -144,9 +148,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Mohave
     type: Bold Italic
     full_name: Mohave Bold Italic
@@ -159,9 +162,32 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Mohave
+    type: Regular
+    full_name: Mohave Light
+    post_script_name: Mohave-Light
+    copyright: Copyright 2019 The Mohave Project Authors (https://github.com/tokotype/Mohave-Typefaces)
+    font: Mohave[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
+  - family_name: Mohave
+    type: Italic
+    full_name: Mohave Light Italic
+    post_script_name: Mohave-LightItalic
+    copyright: Copyright 2019 The Mohave Project Authors (https://github.com/tokotype/Mohave-Typefaces)
+    font: Mohave-Italic[wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wght
+    source_resource: ttf_variable
 - name: Mohave Medium
   styles:
   - family_name: Mohave Medium
@@ -178,9 +204,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Mohave Medium
     type: Italic
     full_name: Mohave Medium Italic
@@ -195,9 +220,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Mohave SemiBold
   styles:
   - family_name: Mohave SemiBold
@@ -214,9 +238,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Mohave SemiBold
     type: Italic
     full_name: Mohave SemiBold Italic
@@ -231,9 +254,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2019 The Mohave Project Authors (https://github.com/tokotype/Mohave-Typefaces)
 spdx_license: OFL-1.1-no-RFN

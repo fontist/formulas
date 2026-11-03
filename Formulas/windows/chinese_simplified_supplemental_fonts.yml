@@ -1,0 +1,66 @@
+---
+schema_version: 5
+name: Chinese Simplified Supplemental Fonts
+description: Chinese (Simplified) Supplemental Fonts for Windows
+homepage: https://learn.microsoft.com/en-us/typography/fonts/windows_11_font_list
+platforms:
+- windows
+open_license: |
+  Licensed under the Microsoft Software License Terms for Windows.
+  These fonts are provided as part of the Windows operating system
+  and are subject to the Windows license agreement accepted during
+  installation. No additional license agreement is required.
+resources:
+  chinese_simplified_supplemental_fonts:
+    source: windows_fod
+    capability_name: Language.Fonts.Hans~~~und-HANS~0.0.1.0
+    format: ttf
+fonts:
+- name: DengXian
+  styles:
+  - family_name: DengXian
+    type: Light
+    font: Dengl.ttf
+    formats:
+    - ttf
+    variable_font: false
+  - family_name: DengXian
+    type: Regular
+    font: Deng.ttf
+    formats:
+    - ttf
+    variable_font: false
+  - family_name: DengXian
+    type: Bold
+    font: Dengb.ttf
+    formats:
+    - ttf
+    variable_font: false
+- name: FangSong
+  styles:
+  - family_name: FangSong
+    type: Regular
+    font: Simfang.ttf
+    formats:
+    - ttf
+    variable_font: false
+- name: KaiTi
+  styles:
+  - family_name: KaiTi
+    type: Regular
+    font: Simkai.ttf
+    formats:
+    - ttf
+    variable_font: false
+- name: SimHei
+  styles:
+  - family_name: SimHei
+    type: Regular
+    font: Simhei.ttf
+    formats:
+    - ttf
+    variable_font: false
+import_source:
+  type: windows
+  capability_name: Language.Fonts.Hans~~~und-HANS~0.0.1.0
+  min_windows_version: '10.0'

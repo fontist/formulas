@@ -4,31 +4,19 @@ schema_version: 5
 description: ''
 homepage: https://fonts.google.com/specimen/Afacad
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Afacad
     files:
-    - https://fonts.gstatic.com/s/afacad/v3/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfhXtWmU08mCgdfM.woff2
-    - https://fonts.gstatic.com/s/afacad/v3/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfiftWmU08mCgdfM.woff2
-    - https://fonts.gstatic.com/s/afacad/v3/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfsvqWmU08mCgdfM.woff2
-    - https://fonts.gstatic.com/s/afacad/v3/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfvLqWmU08mCgdfM.woff2
-    - https://fonts.gstatic.com/s/afacad/v3/6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92usiM-80KlZfNfuw.woff2
-    - https://fonts.gstatic.com/s/afacad/v3/6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92ugCM-80KlZfNfuw.woff2
-    - https://fonts.gstatic.com/s/afacad/v3/6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92ubCQ-80KlZfNfuw.woff2
-    - https://fonts.gstatic.com/s/afacad/v3/6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92uVSQ-80KlZfNfuw.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/afacad/Afacad[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/afacad/Afacad-Italic[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/afacad/v3/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfhXtWmU08mCgdfM.woff2
-    - https://fonts.gstatic.com/s/afacad/v3/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfiftWmU08mCgdfM.woff2
-    - https://fonts.gstatic.com/s/afacad/v3/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfsvqWmU08mCgdfM.woff2
-    - https://fonts.gstatic.com/s/afacad/v3/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfvLqWmU08mCgdfM.woff2
-    - https://fonts.gstatic.com/s/afacad/v3/6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92usiM-80KlZfNfuw.woff2
-    - https://fonts.gstatic.com/s/afacad/v3/6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92ugCM-80KlZfNfuw.woff2
-    - https://fonts.gstatic.com/s/afacad/v3/6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92ubCQ-80KlZfNfuw.woff2
-    - https://fonts.gstatic.com/s/afacad/v3/6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92uVSQ-80KlZfNfuw.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/afacad/Afacad[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/afacad/Afacad-Italic[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Afacad
     files:
@@ -50,8 +38,28 @@ resources:
     - https://fonts.gstatic.com/s/afacad/v3/6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92ubCQ-9kKlZfNfuw.ttf
     - https://fonts.gstatic.com/s/afacad/v3/6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92uVSQ-9kKlZfNfuw.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Afacad
+    files:
+    - https://fonts.gstatic.com/s/afacad/v3/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfhXtWmU08mCgdfM.woff2
+    - https://fonts.gstatic.com/s/afacad/v3/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfiftWmU08mCgdfM.woff2
+    - https://fonts.gstatic.com/s/afacad/v3/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfsvqWmU08mCgdfM.woff2
+    - https://fonts.gstatic.com/s/afacad/v3/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfvLqWmU08mCgdfM.woff2
+    - https://fonts.gstatic.com/s/afacad/v3/6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92usiM-80KlZfNfuw.woff2
+    - https://fonts.gstatic.com/s/afacad/v3/6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92ugCM-80KlZfNfuw.woff2
+    - https://fonts.gstatic.com/s/afacad/v3/6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92ubCQ-80KlZfNfuw.woff2
+    - https://fonts.gstatic.com/s/afacad/v3/6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92uVSQ-80KlZfNfuw.woff2
+    urls:
+    - https://fonts.gstatic.com/s/afacad/v3/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfhXtWmU08mCgdfM.woff2
+    - https://fonts.gstatic.com/s/afacad/v3/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfiftWmU08mCgdfM.woff2
+    - https://fonts.gstatic.com/s/afacad/v3/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfsvqWmU08mCgdfM.woff2
+    - https://fonts.gstatic.com/s/afacad/v3/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfvLqWmU08mCgdfM.woff2
+    - https://fonts.gstatic.com/s/afacad/v3/6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92usiM-80KlZfNfuw.woff2
+    - https://fonts.gstatic.com/s/afacad/v3/6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92ugCM-80KlZfNfuw.woff2
+    - https://fonts.gstatic.com/s/afacad/v3/6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92ubCQ-80KlZfNfuw.woff2
+    - https://fonts.gstatic.com/s/afacad/v3/6NUI8FKMIQOGaw6ahLYEvBjUVG5Ga92uVSQ-80KlZfNfuw.woff2
+    format: woff2
 fonts:
 - name: Afacad
   styles:
@@ -67,9 +75,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Afacad
     type: Bold
     full_name: Afacad Bold
@@ -82,9 +89,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Afacad
     type: Italic
     full_name: Afacad Italic
@@ -97,9 +103,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Afacad
     type: Bold Italic
     full_name: Afacad Bold Italic
@@ -112,9 +117,32 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Afacad
+    type: Regular
+    full_name: Afacad Regular
+    post_script_name: Afacad-Regular
+    copyright: Copyright 2023 The Afacad Project Authors (https://github.com/Dicotype/Afacad)
+    font: Afacad[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
+  - family_name: Afacad
+    type: Italic
+    full_name: Afacad Italic
+    post_script_name: Afacad-Italic
+    copyright: Copyright 2023 The Afacad Project Authors (https://github.com/Dicotype/Afacad)
+    font: Afacad-Italic[wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wght
+    source_resource: ttf_variable
 - name: Afacad Medium
   styles:
   - family_name: Afacad Medium
@@ -131,9 +159,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Afacad Medium
     type: Italic
     full_name: Afacad Medium Italic
@@ -148,9 +175,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Afacad SemiBold
   styles:
   - family_name: Afacad SemiBold
@@ -167,9 +193,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Afacad SemiBold
     type: Italic
     full_name: Afacad SemiBold Italic
@@ -184,9 +209,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2023 The Afacad Project Authors (https://github.com/Dicotype/Afacad)
 spdx_license: OFL-1.1-no-RFN

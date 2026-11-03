@@ -4,31 +4,17 @@ schema_version: 5
 description: Playpen Sans Arabic font family
 homepage: https://fonts.google.com/specimen/Playpen+Sans+Arabic
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Playpen Sans Arabic
     files:
-    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-ZBobPZBO1L0EHE.woff2
-    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-bBoLPZBO1L0EHE.woff2
-    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-YfoLPZBO1L0EHE.woff2
-    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-ZBoLPZBO1L0EHE.woff2
-    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-ZzoLPZBO1L0EHE.woff2
-    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-afp7PZBO1L0EHE.woff2
-    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-amp7PZBO1L0EHE.woff2
-    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-bBp7PZBO1L0EHE.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playpensansarabic/PlaypenSansArabic[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-ZBobPZBO1L0EHE.woff2
-    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-bBoLPZBO1L0EHE.woff2
-    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-YfoLPZBO1L0EHE.woff2
-    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-ZBoLPZBO1L0EHE.woff2
-    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-ZzoLPZBO1L0EHE.woff2
-    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-afp7PZBO1L0EHE.woff2
-    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-amp7PZBO1L0EHE.woff2
-    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-bBp7PZBO1L0EHE.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playpensansarabic/PlaypenSansArabic[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Playpen Sans Arabic
     files:
@@ -50,8 +36,28 @@ resources:
     - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-amp7PcBO1L0EHE.ttf
     - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-bBp7PcBO1L0EHE.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Playpen Sans Arabic
+    files:
+    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-ZBobPZBO1L0EHE.woff2
+    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-bBoLPZBO1L0EHE.woff2
+    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-YfoLPZBO1L0EHE.woff2
+    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-ZBoLPZBO1L0EHE.woff2
+    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-ZzoLPZBO1L0EHE.woff2
+    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-afp7PZBO1L0EHE.woff2
+    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-amp7PZBO1L0EHE.woff2
+    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-bBp7PZBO1L0EHE.woff2
+    urls:
+    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-ZBobPZBO1L0EHE.woff2
+    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-bBoLPZBO1L0EHE.woff2
+    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-YfoLPZBO1L0EHE.woff2
+    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-ZBoLPZBO1L0EHE.woff2
+    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-ZzoLPZBO1L0EHE.woff2
+    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-afp7PZBO1L0EHE.woff2
+    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-amp7PZBO1L0EHE.woff2
+    - https://fonts.gstatic.com/s/playpensansarabic/v8/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-bBp7PZBO1L0EHE.woff2
+    format: woff2
 fonts:
 - name: Playpen Sans Arabic Thin
   styles:
@@ -69,9 +75,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playpen Sans Arabic ExtraLight
   styles:
   - family_name: Playpen Sans Arabic ExtraLight
@@ -88,9 +93,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playpen Sans Arabic Light
   styles:
   - family_name: Playpen Sans Arabic Light
@@ -107,9 +111,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playpen Sans Arabic
   styles:
   - family_name: Playpen Sans Arabic
@@ -124,9 +127,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Playpen Sans Arabic
     type: Bold
     full_name: Playpen Sans Arabic Bold
@@ -139,9 +141,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Playpen Sans Arabic
+    type: Regular
+    full_name: Playpen Sans Arabic Regular
+    post_script_name: PlaypenSansArabic-Regular
+    copyright: Copyright 2023 The Playpen Sans Project Authors (https://github.com/TypeTogether/Playpen-Sans)
+    font: PlaypenSansArabic[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Playpen Sans Arabic Medium
   styles:
   - family_name: Playpen Sans Arabic Medium
@@ -158,9 +171,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playpen Sans Arabic SemiBold
   styles:
   - family_name: Playpen Sans Arabic SemiBold
@@ -177,9 +189,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playpen Sans Arabic ExtraBold
   styles:
   - family_name: Playpen Sans Arabic ExtraBold
@@ -196,9 +207,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2023 The Playpen Sans Project Authors (https://github.com/TypeTogether/Playpen-Sans)
 spdx_license: OFL-1.1-no-RFN

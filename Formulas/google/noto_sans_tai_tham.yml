@@ -7,23 +7,17 @@ description: Noto is a global font collection for writing in all modern and anci
   glyphs.
 homepage: https://fonts.google.com/specimen/Noto+Sans+Tai+Tham
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Noto Sans Tai Tham
     files:
-    - https://fonts.gstatic.com/s/notosanstaitham/v25/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBCUbPg-uyaRGKMw.woff2
-    - https://fonts.gstatic.com/s/notosanstaitham/v25/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBBcbPg-uyaRGKMw.woff2
-    - https://fonts.gstatic.com/s/notosanstaitham/v25/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBPscPg-uyaRGKMw.woff2
-    - https://fonts.gstatic.com/s/notosanstaitham/v25/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBMIcPg-uyaRGKMw.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosanstaitham/NotoSansTaiTham[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/notosanstaitham/v25/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBCUbPg-uyaRGKMw.woff2
-    - https://fonts.gstatic.com/s/notosanstaitham/v25/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBBcbPg-uyaRGKMw.woff2
-    - https://fonts.gstatic.com/s/notosanstaitham/v25/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBPscPg-uyaRGKMw.woff2
-    - https://fonts.gstatic.com/s/notosanstaitham/v25/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBMIcPg-uyaRGKMw.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosanstaitham/NotoSansTaiTham[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Noto Sans Tai Tham
     files:
@@ -37,8 +31,20 @@ resources:
     - https://fonts.gstatic.com/s/notosanstaitham/v25/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBPscPgquyaRGKMw.ttf
     - https://fonts.gstatic.com/s/notosanstaitham/v25/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBMIcPgquyaRGKMw.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Noto Sans Tai Tham
+    files:
+    - https://fonts.gstatic.com/s/notosanstaitham/v25/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBCUbPg-uyaRGKMw.woff2
+    - https://fonts.gstatic.com/s/notosanstaitham/v25/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBBcbPg-uyaRGKMw.woff2
+    - https://fonts.gstatic.com/s/notosanstaitham/v25/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBPscPg-uyaRGKMw.woff2
+    - https://fonts.gstatic.com/s/notosanstaitham/v25/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBMIcPg-uyaRGKMw.woff2
+    urls:
+    - https://fonts.gstatic.com/s/notosanstaitham/v25/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBCUbPg-uyaRGKMw.woff2
+    - https://fonts.gstatic.com/s/notosanstaitham/v25/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBBcbPg-uyaRGKMw.woff2
+    - https://fonts.gstatic.com/s/notosanstaitham/v25/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBPscPg-uyaRGKMw.woff2
+    - https://fonts.gstatic.com/s/notosanstaitham/v25/kJEbBv0U4hgtwxDUw2x9q7tbjLIfbPGHBoaVSAZ3MdLJBMIcPg-uyaRGKMw.woff2
+    format: woff2
 fonts:
 - name: Noto Sans Tai Tham
   styles:
@@ -54,9 +60,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Noto Sans Tai Tham
     type: Bold
     full_name: Noto Sans Tai Tham Bold
@@ -69,9 +74,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Noto Sans Tai Tham
+    type: Regular
+    full_name: Noto Sans Tai Tham Regular
+    post_script_name: NotoSansTaiTham-Regular
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tai-tham)
+    font: NotoSansTaiTham[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Noto Sans Tai Tham Medium
   styles:
   - family_name: Noto Sans Tai Tham Medium
@@ -88,9 +104,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans Tai Tham SemiBold
   styles:
   - family_name: Noto Sans Tai Tham SemiBold
@@ -107,9 +122,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tai-tham)
 spdx_license: OFL-1.1-no-RFN

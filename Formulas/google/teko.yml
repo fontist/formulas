@@ -20,25 +20,17 @@ description: Teko is an Open Source typeface that currently supports the Devanag
   .
 homepage: https://fonts.google.com/specimen/Teko
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Teko
     files:
-    - https://fonts.gstatic.com/s/teko/v23/LYjYdG7kmE0gV69VVPPdFl06VN9JG7S33TKEvkCF.woff2
-    - https://fonts.gstatic.com/s/teko/v23/LYjYdG7kmE0gV69VVPPdFl06VN8XG7S33TKEvkCF.woff2
-    - https://fonts.gstatic.com/s/teko/v23/LYjYdG7kmE0gV69VVPPdFl06VN8lG7S33TKEvkCF.woff2
-    - https://fonts.gstatic.com/s/teko/v23/LYjYdG7kmE0gV69VVPPdFl06VN_JHLS33TKEvkCF.woff2
-    - https://fonts.gstatic.com/s/teko/v23/LYjYdG7kmE0gV69VVPPdFl06VN_wHLS33TKEvkCF.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/teko/Teko[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/teko/v23/LYjYdG7kmE0gV69VVPPdFl06VN9JG7S33TKEvkCF.woff2
-    - https://fonts.gstatic.com/s/teko/v23/LYjYdG7kmE0gV69VVPPdFl06VN8XG7S33TKEvkCF.woff2
-    - https://fonts.gstatic.com/s/teko/v23/LYjYdG7kmE0gV69VVPPdFl06VN8lG7S33TKEvkCF.woff2
-    - https://fonts.gstatic.com/s/teko/v23/LYjYdG7kmE0gV69VVPPdFl06VN_JHLS33TKEvkCF.woff2
-    - https://fonts.gstatic.com/s/teko/v23/LYjYdG7kmE0gV69VVPPdFl06VN_wHLS33TKEvkCF.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/teko/Teko[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Teko
     files:
@@ -54,8 +46,22 @@ resources:
     - https://fonts.gstatic.com/s/teko/v23/LYjYdG7kmE0gV69VVPPdFl06VN_JHLSy3TKEvkCF.ttf
     - https://fonts.gstatic.com/s/teko/v23/LYjYdG7kmE0gV69VVPPdFl06VN_wHLSy3TKEvkCF.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Teko
+    files:
+    - https://fonts.gstatic.com/s/teko/v23/LYjYdG7kmE0gV69VVPPdFl06VN9JG7S33TKEvkCF.woff2
+    - https://fonts.gstatic.com/s/teko/v23/LYjYdG7kmE0gV69VVPPdFl06VN8XG7S33TKEvkCF.woff2
+    - https://fonts.gstatic.com/s/teko/v23/LYjYdG7kmE0gV69VVPPdFl06VN8lG7S33TKEvkCF.woff2
+    - https://fonts.gstatic.com/s/teko/v23/LYjYdG7kmE0gV69VVPPdFl06VN_JHLS33TKEvkCF.woff2
+    - https://fonts.gstatic.com/s/teko/v23/LYjYdG7kmE0gV69VVPPdFl06VN_wHLS33TKEvkCF.woff2
+    urls:
+    - https://fonts.gstatic.com/s/teko/v23/LYjYdG7kmE0gV69VVPPdFl06VN9JG7S33TKEvkCF.woff2
+    - https://fonts.gstatic.com/s/teko/v23/LYjYdG7kmE0gV69VVPPdFl06VN8XG7S33TKEvkCF.woff2
+    - https://fonts.gstatic.com/s/teko/v23/LYjYdG7kmE0gV69VVPPdFl06VN8lG7S33TKEvkCF.woff2
+    - https://fonts.gstatic.com/s/teko/v23/LYjYdG7kmE0gV69VVPPdFl06VN_JHLS33TKEvkCF.woff2
+    - https://fonts.gstatic.com/s/teko/v23/LYjYdG7kmE0gV69VVPPdFl06VN_wHLS33TKEvkCF.woff2
+    format: woff2
 fonts:
 - name: Teko Light
   styles:
@@ -73,9 +79,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Teko
   styles:
   - family_name: Teko
@@ -90,9 +95,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Teko
     type: Bold
     full_name: Teko Bold
@@ -105,9 +109,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Teko
+    type: Regular
+    full_name: Teko Light
+    post_script_name: Teko-Light
+    copyright: Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)
+    font: Teko[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Teko Medium
   styles:
   - family_name: Teko Medium
@@ -124,9 +139,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Teko SemiBold
   styles:
   - family_name: Teko SemiBold
@@ -143,9 +157,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)
 spdx_license: OFL-1.1-no-RFN

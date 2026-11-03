@@ -14,32 +14,20 @@ description: Instrument Sans is a font designed for the Instrument brand. It's a
   .
 homepage: https://fonts.google.com/specimen/Instrument+Sans
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Instrument Sans
     files:
-    - https://fonts.gstatic.com/s/instrumentsans/v4/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npSTF-QfwmS0v3_7Y.woff2
-    - https://fonts.gstatic.com/s/instrumentsans/v4/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npST3-QfwmS0v3_7Y.woff2
-    - https://fonts.gstatic.com/s/instrumentsans/v4/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npSQb_gfwmS0v3_7Y.woff2
-    - https://fonts.gstatic.com/s/instrumentsans/v4/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npSQi_gfwmS0v3_7Y.woff2
-    - https://fonts.gstatic.com/s/instrumentsans/v4/pxigypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNE27lgU-XJojENuu-2kywN2u7YUwU.woff2
-    - https://fonts.gstatic.com/s/instrumentsans/v4/pxigypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNE27lgU-XJojENut22kywN2u7YUwU.woff2
-    - https://fonts.gstatic.com/s/instrumentsans/v4/pxigypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNE27lgU-XJojENujGxkywN2u7YUwU.woff2
-    - https://fonts.gstatic.com/s/instrumentsans/v4/pxigypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNE27lgU-XJojENugixkywN2u7YUwU.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/instrumentsans/InstrumentSans[wdth,wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/instrumentsans/InstrumentSans-Italic[wdth,wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/instrumentsans/v4/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npSTF-QfwmS0v3_7Y.woff2
-    - https://fonts.gstatic.com/s/instrumentsans/v4/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npST3-QfwmS0v3_7Y.woff2
-    - https://fonts.gstatic.com/s/instrumentsans/v4/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npSQb_gfwmS0v3_7Y.woff2
-    - https://fonts.gstatic.com/s/instrumentsans/v4/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npSQi_gfwmS0v3_7Y.woff2
-    - https://fonts.gstatic.com/s/instrumentsans/v4/pxigypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNE27lgU-XJojENuu-2kywN2u7YUwU.woff2
-    - https://fonts.gstatic.com/s/instrumentsans/v4/pxigypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNE27lgU-XJojENut22kywN2u7YUwU.woff2
-    - https://fonts.gstatic.com/s/instrumentsans/v4/pxigypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNE27lgU-XJojENujGxkywN2u7YUwU.woff2
-    - https://fonts.gstatic.com/s/instrumentsans/v4/pxigypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNE27lgU-XJojENugixkywN2u7YUwU.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/instrumentsans/InstrumentSans[wdth,wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/instrumentsans/InstrumentSans-Italic[wdth,wght].ttf
+    format: ttf
     variable_axes:
     - wdth
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Instrument Sans
     files:
@@ -61,9 +49,28 @@ resources:
     - https://fonts.gstatic.com/s/instrumentsans/v4/pxigypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNE27lgU-XJojENujGxkykN2u7YUwU.ttf
     - https://fonts.gstatic.com/s/instrumentsans/v4/pxigypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNE27lgU-XJojENugixkykN2u7YUwU.ttf
     format: ttf
-    variable_axes:
-    - wdth
-    - wght
+  woff2_static:
+    source: google
+    family: Instrument Sans
+    files:
+    - https://fonts.gstatic.com/s/instrumentsans/v4/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npSTF-QfwmS0v3_7Y.woff2
+    - https://fonts.gstatic.com/s/instrumentsans/v4/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npST3-QfwmS0v3_7Y.woff2
+    - https://fonts.gstatic.com/s/instrumentsans/v4/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npSQb_gfwmS0v3_7Y.woff2
+    - https://fonts.gstatic.com/s/instrumentsans/v4/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npSQi_gfwmS0v3_7Y.woff2
+    - https://fonts.gstatic.com/s/instrumentsans/v4/pxigypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNE27lgU-XJojENuu-2kywN2u7YUwU.woff2
+    - https://fonts.gstatic.com/s/instrumentsans/v4/pxigypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNE27lgU-XJojENut22kywN2u7YUwU.woff2
+    - https://fonts.gstatic.com/s/instrumentsans/v4/pxigypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNE27lgU-XJojENujGxkywN2u7YUwU.woff2
+    - https://fonts.gstatic.com/s/instrumentsans/v4/pxigypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNE27lgU-XJojENugixkywN2u7YUwU.woff2
+    urls:
+    - https://fonts.gstatic.com/s/instrumentsans/v4/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npSTF-QfwmS0v3_7Y.woff2
+    - https://fonts.gstatic.com/s/instrumentsans/v4/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npST3-QfwmS0v3_7Y.woff2
+    - https://fonts.gstatic.com/s/instrumentsans/v4/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npSQb_gfwmS0v3_7Y.woff2
+    - https://fonts.gstatic.com/s/instrumentsans/v4/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npSQi_gfwmS0v3_7Y.woff2
+    - https://fonts.gstatic.com/s/instrumentsans/v4/pxigypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNE27lgU-XJojENuu-2kywN2u7YUwU.woff2
+    - https://fonts.gstatic.com/s/instrumentsans/v4/pxigypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNE27lgU-XJojENut22kywN2u7YUwU.woff2
+    - https://fonts.gstatic.com/s/instrumentsans/v4/pxigypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNE27lgU-XJojENujGxkywN2u7YUwU.woff2
+    - https://fonts.gstatic.com/s/instrumentsans/v4/pxigypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNE27lgU-XJojENugixkywN2u7YUwU.woff2
+    format: woff2
 fonts:
 - name: Instrument Sans
   styles:
@@ -79,10 +86,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Instrument Sans
     type: Bold
     full_name: Instrument Sans Bold
@@ -95,10 +100,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Instrument Sans
     type: Italic
     full_name: Instrument Sans Italic
@@ -111,10 +114,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Instrument Sans
     type: Bold Italic
     full_name: Instrument Sans Bold Italic
@@ -127,10 +128,34 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Instrument Sans
+    type: Regular
+    full_name: Instrument Sans Regular
+    post_script_name: InstrumentSans-Regular
+    copyright: Copyright 2022 The Instrument Sans Project Authors (https://github.com/Instrument/instrument-sans)
+    font: InstrumentSans[wdth,wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wdth
     - wght
+    source_resource: ttf_variable
+  - family_name: Instrument Sans
+    type: Italic
+    full_name: Instrument Sans Italic
+    post_script_name: InstrumentSans-Italic
+    copyright: Copyright 2022 The Instrument Sans Project Authors (https://github.com/Instrument/instrument-sans)
+    font: InstrumentSans-Italic[wdth,wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wdth
+    - wght
+    source_resource: ttf_variable
 - name: Instrument Sans Medium
   styles:
   - family_name: Instrument Sans Medium
@@ -147,10 +172,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Instrument Sans Medium
     type: Italic
     full_name: Instrument Sans Medium Italic
@@ -165,10 +188,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Instrument Sans SemiBold
   styles:
   - family_name: Instrument Sans SemiBold
@@ -185,10 +206,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Instrument Sans SemiBold
     type: Italic
     full_name: Instrument Sans SemiBold Italic
@@ -203,10 +222,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Instrument Sans Project Authors (https://github.com/Instrument/instrument-sans)
 spdx_license: OFL-1.1-no-RFN

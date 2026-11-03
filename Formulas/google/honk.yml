@@ -20,18 +20,18 @@ description: Loud, bright, and exuberantly fun! Honk is a variable colour font f
   color page to learn more about Color Fonts technology. To contribute, see github.com/EkType/Honk
 homepage: https://fonts.google.com/specimen/Honk
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Honk
     files:
-    - https://fonts.gstatic.com/s/honk/v6/m8J7jftUea-XwTaemClumrBQbmvynOmXBji9zFhHRr8WFgVLprtNepQKvg.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/honk/Honk[MORF,SHLN].ttf
     urls:
-    - https://fonts.gstatic.com/s/honk/v6/m8J7jftUea-XwTaemClumrBQbmvynOmXBji9zFhHRr8WFgVLprtNepQKvg.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/honk/Honk[MORF,SHLN].ttf
+    format: ttf
     variable_axes:
     - MORF
     - SHLN
-  ttf_variable:
+  ttf_static:
     source: google
     family: Honk
     files:
@@ -39,9 +39,14 @@ resources:
     urls:
     - https://fonts.gstatic.com/s/honk/v6/m8J7jftUea-XwTaemClumrBQbmvynOmXBji9zFhHRr8WFgVLo7tNepQKvg.ttf
     format: ttf
-    variable_axes:
-    - MORF
-    - SHLN
+  woff2_static:
+    source: google
+    family: Honk
+    files:
+    - https://fonts.gstatic.com/s/honk/v6/m8J7jftUea-XwTaemClumrBQbmvynOmXBji9zFhHRr8WFgVLprtNepQKvg.woff2
+    urls:
+    - https://fonts.gstatic.com/s/honk/v6/m8J7jftUea-XwTaemClumrBQbmvynOmXBji9zFhHRr8WFgVLprtNepQKvg.woff2
+    format: woff2
 fonts:
 - name: Honk
   styles:
@@ -57,10 +62,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Honk
+    type: Regular
+    full_name: Honk Regular
+    post_script_name: Honk-Regular
+    copyright: Copyright 2023 The Honk Project Authors (https://github.com/EkType/Honk)
+    font: Honk[MORF,SHLN].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - MORF
     - SHLN
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2023 The Honk Project Authors (https://github.com/EkType/Honk)
 spdx_license: OFL-1.1-no-RFN

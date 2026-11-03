@@ -9,6 +9,7 @@ resources:
     - https://web.archive.org/web/20260506003654/https://medarbejdere.au.dk/fileadmin/www.designmanual.au.dk/hent_filer/hent_skrifttyper/AUPass_Obliques.zip
     sha256: 8e1df9c6ccdd0f787caa1d81962131a1a7ce6d67dfccc63a39e28b030224677d
     file_size: 111391
+    format: ttf
 fonts:
 - name: AU Passata
   styles:
@@ -19,6 +20,8 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2008 by 1508 A/S. All rights reserved.
     font: AUPass_BoldOblique.ttf
+    formats:
+    - ttf
   - family_name: AU Passata
     type: Italic
     full_name: AUPassata-Oblique
@@ -26,6 +29,8 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2008 by 1508 A/S. All rights reserved.
     font: AUPass_RgOblique.ttf
+    formats:
+    - ttf
 - name: AU Passata Light
   styles:
   - family_name: AU Passata Light
@@ -35,6 +40,8 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2008 by 1508 A/S. All rights reserved.
     font: AUPassLight_BoldOblique.ttf
+    formats:
+    - ttf
   - family_name: AU Passata Light
     type: Italic
     full_name: AUPassataLight-Oblique
@@ -42,6 +49,8 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2008 by 1508 A/S. All rights reserved.
     font: AUPassLight_Oblique.ttf
+    formats:
+    - ttf
 extract:
   format: zip
 spdx_license: LicenseRef-AarhusUniversity-Passata

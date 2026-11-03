@@ -17,35 +17,19 @@ description: 'EB Garamond is intended to be an excellent, classical, Garamond. I
   is led by Georg Duffner, and developed at github.com/georgd/EB-Garamond'
 homepage: https://fonts.google.com/specimen/EB+Garamond
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: EB Garamond
     files:
-    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-6_RUBoV-e6yHgQ.woff2
-    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-2fRUBoV-e6yHgQ.woff2
-    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-NfNUBoV-e6yHgQ.woff2
-    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-DPNUBoV-e6yHgQ.woff2
-    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-a_NUBoV-e6yHgQ.woff2
-    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7e8QI9_WamXgXFI.woff2
-    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7eOQI9_WamXgXFI.woff2
-    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7diR49_WamXgXFI.woff2
-    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7dbR49_WamXgXFI.woff2
-    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7c8R49_WamXgXFI.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/ebgaramond/EBGaramond[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/ebgaramond/EBGaramond-Italic[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-6_RUBoV-e6yHgQ.woff2
-    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-2fRUBoV-e6yHgQ.woff2
-    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-NfNUBoV-e6yHgQ.woff2
-    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-DPNUBoV-e6yHgQ.woff2
-    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-a_NUBoV-e6yHgQ.woff2
-    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7e8QI9_WamXgXFI.woff2
-    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7eOQI9_WamXgXFI.woff2
-    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7diR49_WamXgXFI.woff2
-    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7dbR49_WamXgXFI.woff2
-    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7c8R49_WamXgXFI.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/ebgaramond/EBGaramond[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/ebgaramond/EBGaramond-Italic[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: EB Garamond
     files:
@@ -71,8 +55,32 @@ resources:
     - https://fonts.gstatic.com/s/ebgaramond/v32/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7dbR496WamXgXFI.ttf
     - https://fonts.gstatic.com/s/ebgaramond/v32/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7c8R496WamXgXFI.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: EB Garamond
+    files:
+    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-6_RUBoV-e6yHgQ.woff2
+    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-2fRUBoV-e6yHgQ.woff2
+    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-NfNUBoV-e6yHgQ.woff2
+    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-DPNUBoV-e6yHgQ.woff2
+    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-a_NUBoV-e6yHgQ.woff2
+    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7e8QI9_WamXgXFI.woff2
+    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7eOQI9_WamXgXFI.woff2
+    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7diR49_WamXgXFI.woff2
+    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7dbR49_WamXgXFI.woff2
+    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7c8R49_WamXgXFI.woff2
+    urls:
+    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-6_RUBoV-e6yHgQ.woff2
+    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-2fRUBoV-e6yHgQ.woff2
+    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-NfNUBoV-e6yHgQ.woff2
+    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-DPNUBoV-e6yHgQ.woff2
+    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-a_NUBoV-e6yHgQ.woff2
+    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7e8QI9_WamXgXFI.woff2
+    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7eOQI9_WamXgXFI.woff2
+    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7diR49_WamXgXFI.woff2
+    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7dbR49_WamXgXFI.woff2
+    - https://fonts.gstatic.com/s/ebgaramond/v32/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7c8R49_WamXgXFI.woff2
+    format: woff2
 fonts:
 - name: EB Garamond
   styles:
@@ -88,9 +96,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: EB Garamond
     type: Bold
     full_name: EB Garamond Bold
@@ -103,9 +110,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: EB Garamond
     type: Italic
     full_name: EB Garamond Italic
@@ -118,9 +124,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: EB Garamond
     type: Bold Italic
     full_name: EB Garamond Bold Italic
@@ -133,9 +138,32 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: EB Garamond
+    type: Regular
+    full_name: EB Garamond Regular
+    post_script_name: EBGaramond-Regular
+    copyright: Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)
+    font: EBGaramond[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
+  - family_name: EB Garamond
+    type: Italic
+    full_name: EB Garamond Italic
+    post_script_name: EBGaramond-Italic
+    copyright: Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)
+    font: EBGaramond-Italic[wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wght
+    source_resource: ttf_variable
 - name: EB Garamond Medium
   styles:
   - family_name: EB Garamond Medium
@@ -152,9 +180,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: EB Garamond Medium
     type: Italic
     full_name: EB Garamond Medium Italic
@@ -169,9 +196,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: EB Garamond SemiBold
   styles:
   - family_name: EB Garamond SemiBold
@@ -188,9 +214,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: EB Garamond SemiBold
     type: Italic
     full_name: EB Garamond SemiBold Italic
@@ -205,9 +230,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: EB Garamond ExtraBold
   styles:
   - family_name: EB Garamond ExtraBold
@@ -224,9 +248,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: EB Garamond ExtraBold
     type: Italic
     full_name: EB Garamond ExtraBold Italic
@@ -241,9 +264,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)
 spdx_license: OFL-1.1-no-RFN

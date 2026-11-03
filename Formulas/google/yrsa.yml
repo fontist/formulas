@@ -13,35 +13,19 @@ description: 'Intended for continuous reading on the web (longer articles in onl
   .'
 homepage: https://fonts.google.com/specimen/Yrsa
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Yrsa
     files:
-    - https://fonts.gstatic.com/s/yrsa/v25/wlprgwnQFlxs_wD3CFSMYmFaaCjASNNQ9rRPfrKu.woff2
-    - https://fonts.gstatic.com/s/yrsa/v25/wlprgwnQFlxs_wD3CFSMYmFaaCieSNNQ9rRPfrKu.woff2
-    - https://fonts.gstatic.com/s/yrsa/v25/wlprgwnQFlxs_wD3CFSMYmFaaCisSNNQ9rRPfrKu.woff2
-    - https://fonts.gstatic.com/s/yrsa/v25/wlprgwnQFlxs_wD3CFSMYmFaaChAT9NQ9rRPfrKu.woff2
-    - https://fonts.gstatic.com/s/yrsa/v25/wlprgwnQFlxs_wD3CFSMYmFaaCh5T9NQ9rRPfrKu.woff2
-    - https://fonts.gstatic.com/s/yrsa/v25/wlptgwnQFlxs1QnF94zlCfv0bz1WC2UW_LVte6KuGEo.woff2
-    - https://fonts.gstatic.com/s/yrsa/v25/wlptgwnQFlxs1QnF94zlCfv0bz1WCzsW_LVte6KuGEo.woff2
-    - https://fonts.gstatic.com/s/yrsa/v25/wlptgwnQFlxs1QnF94zlCfv0bz1WCwkW_LVte6KuGEo.woff2
-    - https://fonts.gstatic.com/s/yrsa/v25/wlptgwnQFlxs1QnF94zlCfv0bz1WC-UR_LVte6KuGEo.woff2
-    - https://fonts.gstatic.com/s/yrsa/v25/wlptgwnQFlxs1QnF94zlCfv0bz1WC9wR_LVte6KuGEo.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/yrsa/Yrsa[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/yrsa/Yrsa-Italic[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/yrsa/v25/wlprgwnQFlxs_wD3CFSMYmFaaCjASNNQ9rRPfrKu.woff2
-    - https://fonts.gstatic.com/s/yrsa/v25/wlprgwnQFlxs_wD3CFSMYmFaaCieSNNQ9rRPfrKu.woff2
-    - https://fonts.gstatic.com/s/yrsa/v25/wlprgwnQFlxs_wD3CFSMYmFaaCisSNNQ9rRPfrKu.woff2
-    - https://fonts.gstatic.com/s/yrsa/v25/wlprgwnQFlxs_wD3CFSMYmFaaChAT9NQ9rRPfrKu.woff2
-    - https://fonts.gstatic.com/s/yrsa/v25/wlprgwnQFlxs_wD3CFSMYmFaaCh5T9NQ9rRPfrKu.woff2
-    - https://fonts.gstatic.com/s/yrsa/v25/wlptgwnQFlxs1QnF94zlCfv0bz1WC2UW_LVte6KuGEo.woff2
-    - https://fonts.gstatic.com/s/yrsa/v25/wlptgwnQFlxs1QnF94zlCfv0bz1WCzsW_LVte6KuGEo.woff2
-    - https://fonts.gstatic.com/s/yrsa/v25/wlptgwnQFlxs1QnF94zlCfv0bz1WCwkW_LVte6KuGEo.woff2
-    - https://fonts.gstatic.com/s/yrsa/v25/wlptgwnQFlxs1QnF94zlCfv0bz1WC-UR_LVte6KuGEo.woff2
-    - https://fonts.gstatic.com/s/yrsa/v25/wlptgwnQFlxs1QnF94zlCfv0bz1WC9wR_LVte6KuGEo.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/yrsa/Yrsa[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/yrsa/Yrsa-Italic[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Yrsa
     files:
@@ -67,8 +51,32 @@ resources:
     - https://fonts.gstatic.com/s/yrsa/v25/wlptgwnQFlxs1QnF94zlCfv0bz1WC-UR_LBte6KuGEo.ttf
     - https://fonts.gstatic.com/s/yrsa/v25/wlptgwnQFlxs1QnF94zlCfv0bz1WC9wR_LBte6KuGEo.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Yrsa
+    files:
+    - https://fonts.gstatic.com/s/yrsa/v25/wlprgwnQFlxs_wD3CFSMYmFaaCjASNNQ9rRPfrKu.woff2
+    - https://fonts.gstatic.com/s/yrsa/v25/wlprgwnQFlxs_wD3CFSMYmFaaCieSNNQ9rRPfrKu.woff2
+    - https://fonts.gstatic.com/s/yrsa/v25/wlprgwnQFlxs_wD3CFSMYmFaaCisSNNQ9rRPfrKu.woff2
+    - https://fonts.gstatic.com/s/yrsa/v25/wlprgwnQFlxs_wD3CFSMYmFaaChAT9NQ9rRPfrKu.woff2
+    - https://fonts.gstatic.com/s/yrsa/v25/wlprgwnQFlxs_wD3CFSMYmFaaCh5T9NQ9rRPfrKu.woff2
+    - https://fonts.gstatic.com/s/yrsa/v25/wlptgwnQFlxs1QnF94zlCfv0bz1WC2UW_LVte6KuGEo.woff2
+    - https://fonts.gstatic.com/s/yrsa/v25/wlptgwnQFlxs1QnF94zlCfv0bz1WCzsW_LVte6KuGEo.woff2
+    - https://fonts.gstatic.com/s/yrsa/v25/wlptgwnQFlxs1QnF94zlCfv0bz1WCwkW_LVte6KuGEo.woff2
+    - https://fonts.gstatic.com/s/yrsa/v25/wlptgwnQFlxs1QnF94zlCfv0bz1WC-UR_LVte6KuGEo.woff2
+    - https://fonts.gstatic.com/s/yrsa/v25/wlptgwnQFlxs1QnF94zlCfv0bz1WC9wR_LVte6KuGEo.woff2
+    urls:
+    - https://fonts.gstatic.com/s/yrsa/v25/wlprgwnQFlxs_wD3CFSMYmFaaCjASNNQ9rRPfrKu.woff2
+    - https://fonts.gstatic.com/s/yrsa/v25/wlprgwnQFlxs_wD3CFSMYmFaaCieSNNQ9rRPfrKu.woff2
+    - https://fonts.gstatic.com/s/yrsa/v25/wlprgwnQFlxs_wD3CFSMYmFaaCisSNNQ9rRPfrKu.woff2
+    - https://fonts.gstatic.com/s/yrsa/v25/wlprgwnQFlxs_wD3CFSMYmFaaChAT9NQ9rRPfrKu.woff2
+    - https://fonts.gstatic.com/s/yrsa/v25/wlprgwnQFlxs_wD3CFSMYmFaaCh5T9NQ9rRPfrKu.woff2
+    - https://fonts.gstatic.com/s/yrsa/v25/wlptgwnQFlxs1QnF94zlCfv0bz1WC2UW_LVte6KuGEo.woff2
+    - https://fonts.gstatic.com/s/yrsa/v25/wlptgwnQFlxs1QnF94zlCfv0bz1WCzsW_LVte6KuGEo.woff2
+    - https://fonts.gstatic.com/s/yrsa/v25/wlptgwnQFlxs1QnF94zlCfv0bz1WCwkW_LVte6KuGEo.woff2
+    - https://fonts.gstatic.com/s/yrsa/v25/wlptgwnQFlxs1QnF94zlCfv0bz1WC-UR_LVte6KuGEo.woff2
+    - https://fonts.gstatic.com/s/yrsa/v25/wlptgwnQFlxs1QnF94zlCfv0bz1WC9wR_LVte6KuGEo.woff2
+    format: woff2
 fonts:
 - name: Yrsa Light
   styles:
@@ -86,9 +94,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Yrsa Light
     type: Italic
     full_name: Yrsa Light Italic
@@ -103,9 +110,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Yrsa
   styles:
   - family_name: Yrsa
@@ -120,9 +126,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Yrsa
     type: Bold
     full_name: Yrsa Bold
@@ -135,9 +140,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Yrsa
     type: Italic
     full_name: Yrsa Italic
@@ -150,9 +154,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Yrsa
     type: Bold Italic
     full_name: Yrsa Bold Italic
@@ -165,9 +168,32 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Yrsa
+    type: Regular
+    full_name: Yrsa Regular
+    post_script_name: Yrsa-Regular
+    copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
+    font: Yrsa[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
+  - family_name: Yrsa
+    type: Italic
+    full_name: Yrsa Italic
+    post_script_name: Yrsa-Italic
+    copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
+    font: Yrsa-Italic[wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wght
+    source_resource: ttf_variable
 - name: Yrsa Medium
   styles:
   - family_name: Yrsa Medium
@@ -184,9 +210,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Yrsa Medium
     type: Italic
     full_name: Yrsa Medium Italic
@@ -201,9 +226,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Yrsa SemiBold
   styles:
   - family_name: Yrsa SemiBold
@@ -220,9 +244,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Yrsa SemiBold
     type: Italic
     full_name: Yrsa SemiBold Italic
@@ -237,9 +260,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
 spdx_license: OFL-1.1-no-RFN

@@ -4,23 +4,17 @@ schema_version: 5
 description: Playwrite AU NSW font family
 homepage: https://fonts.google.com/specimen/Playwrite+AU+NSW
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Playwrite AU NSW
     files:
-    - https://fonts.gstatic.com/s/playwriteaunsw/v11/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xZjML9_TD2dC1gS.woff2
-    - https://fonts.gstatic.com/s/playwriteaunsw/v11/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xbjMb9_TD2dC1gS.woff2
-    - https://fonts.gstatic.com/s/playwriteaunsw/v11/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xY9Mb9_TD2dC1gS.woff2
-    - https://fonts.gstatic.com/s/playwriteaunsw/v11/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xZjMb9_TD2dC1gS.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playwriteaunsw/PlaywriteAUNSW[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/playwriteaunsw/v11/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xZjML9_TD2dC1gS.woff2
-    - https://fonts.gstatic.com/s/playwriteaunsw/v11/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xbjMb9_TD2dC1gS.woff2
-    - https://fonts.gstatic.com/s/playwriteaunsw/v11/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xY9Mb9_TD2dC1gS.woff2
-    - https://fonts.gstatic.com/s/playwriteaunsw/v11/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xZjMb9_TD2dC1gS.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playwriteaunsw/PlaywriteAUNSW[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Playwrite AU NSW
     files:
@@ -34,8 +28,20 @@ resources:
     - https://fonts.gstatic.com/s/playwriteaunsw/v11/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xY9Mb96TD2dC1gS.ttf
     - https://fonts.gstatic.com/s/playwriteaunsw/v11/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xZjMb96TD2dC1gS.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Playwrite AU NSW
+    files:
+    - https://fonts.gstatic.com/s/playwriteaunsw/v11/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xZjML9_TD2dC1gS.woff2
+    - https://fonts.gstatic.com/s/playwriteaunsw/v11/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xbjMb9_TD2dC1gS.woff2
+    - https://fonts.gstatic.com/s/playwriteaunsw/v11/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xY9Mb9_TD2dC1gS.woff2
+    - https://fonts.gstatic.com/s/playwriteaunsw/v11/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xZjMb9_TD2dC1gS.woff2
+    urls:
+    - https://fonts.gstatic.com/s/playwriteaunsw/v11/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xZjML9_TD2dC1gS.woff2
+    - https://fonts.gstatic.com/s/playwriteaunsw/v11/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xbjMb9_TD2dC1gS.woff2
+    - https://fonts.gstatic.com/s/playwriteaunsw/v11/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xY9Mb9_TD2dC1gS.woff2
+    - https://fonts.gstatic.com/s/playwriteaunsw/v11/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xZjMb9_TD2dC1gS.woff2
+    format: woff2
 fonts:
 - name: Playwrite AU NSW Thin
   styles:
@@ -53,9 +59,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite AU NSW ExtraLight
   styles:
   - family_name: Playwrite AU NSW ExtraLight
@@ -72,9 +77,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite AU NSW Light
   styles:
   - family_name: Playwrite AU NSW Light
@@ -91,9 +95,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite AU NSW
   styles:
   - family_name: Playwrite AU NSW
@@ -108,9 +111,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Playwrite AU NSW
+    type: Regular
+    full_name: Playwrite AU NSW Regular
+    post_script_name: PlaywriteAUNSW-Regular
+    copyright: Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)
+    font: PlaywriteAUNSW[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)
 spdx_license: OFL-1.1-no-RFN

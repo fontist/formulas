@@ -15,31 +15,19 @@ description: The Scientific and Technical Information eXchange (STIX) fonts are 
   .
 homepage: https://fonts.google.com/specimen/STIX+Two+Text
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: STIX Two Text
     files:
-    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Gr02F12Xkf5whdwKf11l0jbKkeidMTtZ5Yihg2SOdWxFMN1WD.woff2
-    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Gr02F12Xkf5whdwKf11l0jbKkeidMTtZ5YihS2SOdWxFMN1WD.woff2
-    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Gr02F12Xkf5whdwKf11l0jbKkeidMTtZ5Yii-3iOdWxFMN1WD.woff2
-    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Gr02F12Xkf5whdwKf11l0jbKkeidMTtZ5YiiH3iOdWxFMN1WD.woff2
-    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omsvbURBuMkWDmSo.woff2
-    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omvnbURBuMkWDmSo.woff2
-    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omhXcURBuMkWDmSo.woff2
-    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omizcURBuMkWDmSo.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/stixtwotext/STIXTwoText[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/stixtwotext/STIXTwoText-Italic[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Gr02F12Xkf5whdwKf11l0jbKkeidMTtZ5Yihg2SOdWxFMN1WD.woff2
-    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Gr02F12Xkf5whdwKf11l0jbKkeidMTtZ5YihS2SOdWxFMN1WD.woff2
-    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Gr02F12Xkf5whdwKf11l0jbKkeidMTtZ5Yii-3iOdWxFMN1WD.woff2
-    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Gr02F12Xkf5whdwKf11l0jbKkeidMTtZ5YiiH3iOdWxFMN1WD.woff2
-    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omsvbURBuMkWDmSo.woff2
-    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omvnbURBuMkWDmSo.woff2
-    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omhXcURBuMkWDmSo.woff2
-    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omizcURBuMkWDmSo.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/stixtwotext/STIXTwoText[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/stixtwotext/STIXTwoText-Italic[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: STIX Two Text
     files:
@@ -61,8 +49,28 @@ resources:
     - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omhXcURVuMkWDmSo.ttf
     - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omizcURVuMkWDmSo.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: STIX Two Text
+    files:
+    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Gr02F12Xkf5whdwKf11l0jbKkeidMTtZ5Yihg2SOdWxFMN1WD.woff2
+    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Gr02F12Xkf5whdwKf11l0jbKkeidMTtZ5YihS2SOdWxFMN1WD.woff2
+    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Gr02F12Xkf5whdwKf11l0jbKkeidMTtZ5Yii-3iOdWxFMN1WD.woff2
+    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Gr02F12Xkf5whdwKf11l0jbKkeidMTtZ5YiiH3iOdWxFMN1WD.woff2
+    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omsvbURBuMkWDmSo.woff2
+    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omvnbURBuMkWDmSo.woff2
+    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omhXcURBuMkWDmSo.woff2
+    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omizcURBuMkWDmSo.woff2
+    urls:
+    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Gr02F12Xkf5whdwKf11l0jbKkeidMTtZ5Yihg2SOdWxFMN1WD.woff2
+    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Gr02F12Xkf5whdwKf11l0jbKkeidMTtZ5YihS2SOdWxFMN1WD.woff2
+    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Gr02F12Xkf5whdwKf11l0jbKkeidMTtZ5Yii-3iOdWxFMN1WD.woff2
+    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Gr02F12Xkf5whdwKf11l0jbKkeidMTtZ5YiiH3iOdWxFMN1WD.woff2
+    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omsvbURBuMkWDmSo.woff2
+    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omvnbURBuMkWDmSo.woff2
+    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omhXcURBuMkWDmSo.woff2
+    - https://fonts.gstatic.com/s/stixtwotext/v18/YA9Er02F12Xkf5whdwKf11l0p7uWhf8lJUzXZT2omizcURBuMkWDmSo.woff2
+    format: woff2
 fonts:
 - name: STIX Two Text
   styles:
@@ -78,9 +86,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: STIX Two Text
     type: Bold
     full_name: STIX Two Text Bold
@@ -93,9 +100,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: STIX Two Text
     type: Italic
     full_name: STIX Two Text Italic
@@ -108,9 +114,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: STIX Two Text
     type: Bold Italic
     full_name: STIX Two Text Bold Italic
@@ -123,9 +128,32 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: STIX Two Text
+    type: Regular
+    full_name: STIX Two Text
+    post_script_name: STIXTwoText
+    copyright: Copyright 2001-2021 The STIX Fonts Project Authors (https://github.com/stipub/stixfonts)
+    font: STIXTwoText[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
+  - family_name: STIX Two Text
+    type: Italic
+    full_name: STIX Two Text Italic
+    post_script_name: STIXTwoText-Italic
+    copyright: Copyright 2001-2021 The STIX Fonts Project Authors (https://github.com/stipub/stixfonts)
+    font: STIXTwoText-Italic[wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wght
+    source_resource: ttf_variable
 - name: STIX Two Text Medium
   styles:
   - family_name: STIX Two Text Medium
@@ -142,9 +170,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: STIX Two Text Medium
     type: Italic
     full_name: STIX Two Text Medium Italic
@@ -159,9 +186,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: STIX Two Text SemiBold
   styles:
   - family_name: STIX Two Text SemiBold
@@ -178,9 +204,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: STIX Two Text SemiBold
     type: Italic
     full_name: STIX Two Text SemiBold Italic
@@ -195,9 +220,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2001-2021 The STIX Fonts Project Authors (https://github.com/stipub/stixfonts)
 spdx_license: OFL-1.1-RFN

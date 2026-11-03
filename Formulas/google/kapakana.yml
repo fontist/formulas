@@ -7,19 +7,17 @@ description: Kapakana is a Kana typeface designed with the concept of a copperpl
   contribute to the project, visit github.com/nagamaki008/kapakana
 homepage: https://fonts.google.com/specimen/Kapakana
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Kapakana
     files:
-    - https://fonts.gstatic.com/s/kapakana/v19/sykt-yN0m6InS7OD9BCc9iYVO-6XOlDixNA5sBbXZ4IXAA.woff2
-    - https://fonts.gstatic.com/s/kapakana/v19/sykt-yN0m6InS7OD9BCc9iYVO-6XOlDimtA5sBbXZ4IXAA.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/kapakana/Kapakana[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/kapakana/v19/sykt-yN0m6InS7OD9BCc9iYVO-6XOlDixNA5sBbXZ4IXAA.woff2
-    - https://fonts.gstatic.com/s/kapakana/v19/sykt-yN0m6InS7OD9BCc9iYVO-6XOlDimtA5sBbXZ4IXAA.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/kapakana/Kapakana[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Kapakana
     files:
@@ -29,8 +27,16 @@ resources:
     - https://fonts.gstatic.com/s/kapakana/v19/sykt-yN0m6InS7OD9BCc9iYVO-6XOlDixNA5tRbXZ4IXAA.ttf
     - https://fonts.gstatic.com/s/kapakana/v19/sykt-yN0m6InS7OD9BCc9iYVO-6XOlDimtA5tRbXZ4IXAA.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Kapakana
+    files:
+    - https://fonts.gstatic.com/s/kapakana/v19/sykt-yN0m6InS7OD9BCc9iYVO-6XOlDixNA5sBbXZ4IXAA.woff2
+    - https://fonts.gstatic.com/s/kapakana/v19/sykt-yN0m6InS7OD9BCc9iYVO-6XOlDimtA5sBbXZ4IXAA.woff2
+    urls:
+    - https://fonts.gstatic.com/s/kapakana/v19/sykt-yN0m6InS7OD9BCc9iYVO-6XOlDixNA5sBbXZ4IXAA.woff2
+    - https://fonts.gstatic.com/s/kapakana/v19/sykt-yN0m6InS7OD9BCc9iYVO-6XOlDimtA5sBbXZ4IXAA.woff2
+    format: woff2
 fonts:
 - name: Kapakana Light
   styles:
@@ -48,9 +54,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Kapakana
   styles:
   - family_name: Kapakana
@@ -65,9 +70,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Kapakana
+    type: Regular
+    full_name: Kapakana Regular
+    post_script_name: Kapakana-Regular
+    copyright: Copyright 2020 The Kapakana Project Authors (https://github.com/nagamaki008/kapakana)
+    font: Kapakana[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2020 The Kapakana Project Authors (https://github.com/nagamaki008/kapakana)
 spdx_license: OFL-1.1-no-RFN

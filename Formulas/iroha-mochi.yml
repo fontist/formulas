@@ -8,6 +8,7 @@ resources:
     - https://modi.jpn.org/download/MODI_iroha-mochi_2018_0112.zip
     sha256: 181e17f9fa1847d01e786d72bce9e34b1184c566ea1ccdd396855065c1df6420
     file_size: 153677
+    format: otf
 fonts:
 - name: iroha-mochi
   styles:
@@ -20,6 +21,8 @@ fonts:
     version: 1.00.20180112
     copyright: MODI
     font: iroha-mochi.otf
+    formats:
+    - otf
 extract: {}
 copyright: MODI
 command: create-formula https://modi.jpn.org/download/MODI_iroha-mochi_2018_0112.zip

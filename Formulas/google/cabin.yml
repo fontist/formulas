@@ -13,32 +13,20 @@ description: Cabin is a humanist sans inspired by Edward Johnston&apos;s and Eri
   European languages. To contribute, see github.com/impallari/Cabin
 homepage: https://fonts.google.com/specimen/Cabin
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Cabin
     files:
-    - https://fonts.gstatic.com/s/cabin/v35/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkV2EL7Svxm7rE_s.woff2
-    - https://fonts.gstatic.com/s/cabin/v35/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkW-EL7Svxm7rE_s.woff2
-    - https://fonts.gstatic.com/s/cabin/v35/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkYODL7Svxm7rE_s.woff2
-    - https://fonts.gstatic.com/s/cabin/v35/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkbqDL7Svxm7rE_s.woff2
-    - https://fonts.gstatic.com/s/cabin/v35/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXHx_Klx0zuA_u1Bg.woff2
-    - https://fonts.gstatic.com/s/cabin/v35/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXH9fKlx0zuA_u1Bg.woff2
-    - https://fonts.gstatic.com/s/cabin/v35/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXHGfWlx0zuA_u1Bg.woff2
-    - https://fonts.gstatic.com/s/cabin/v35/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXHIPWlx0zuA_u1Bg.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/cabin/Cabin[wdth,wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/cabin/Cabin-Italic[wdth,wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/cabin/v35/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkV2EL7Svxm7rE_s.woff2
-    - https://fonts.gstatic.com/s/cabin/v35/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkW-EL7Svxm7rE_s.woff2
-    - https://fonts.gstatic.com/s/cabin/v35/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkYODL7Svxm7rE_s.woff2
-    - https://fonts.gstatic.com/s/cabin/v35/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkbqDL7Svxm7rE_s.woff2
-    - https://fonts.gstatic.com/s/cabin/v35/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXHx_Klx0zuA_u1Bg.woff2
-    - https://fonts.gstatic.com/s/cabin/v35/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXH9fKlx0zuA_u1Bg.woff2
-    - https://fonts.gstatic.com/s/cabin/v35/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXHGfWlx0zuA_u1Bg.woff2
-    - https://fonts.gstatic.com/s/cabin/v35/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXHIPWlx0zuA_u1Bg.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/cabin/Cabin[wdth,wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/cabin/Cabin-Italic[wdth,wght].ttf
+    format: ttf
     variable_axes:
     - wdth
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Cabin
     files:
@@ -60,9 +48,28 @@ resources:
     - https://fonts.gstatic.com/s/cabin/v35/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXHGfWlwkzuA_u1Bg.ttf
     - https://fonts.gstatic.com/s/cabin/v35/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXHIPWlwkzuA_u1Bg.ttf
     format: ttf
-    variable_axes:
-    - wdth
-    - wght
+  woff2_static:
+    source: google
+    family: Cabin
+    files:
+    - https://fonts.gstatic.com/s/cabin/v35/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkV2EL7Svxm7rE_s.woff2
+    - https://fonts.gstatic.com/s/cabin/v35/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkW-EL7Svxm7rE_s.woff2
+    - https://fonts.gstatic.com/s/cabin/v35/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkYODL7Svxm7rE_s.woff2
+    - https://fonts.gstatic.com/s/cabin/v35/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkbqDL7Svxm7rE_s.woff2
+    - https://fonts.gstatic.com/s/cabin/v35/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXHx_Klx0zuA_u1Bg.woff2
+    - https://fonts.gstatic.com/s/cabin/v35/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXH9fKlx0zuA_u1Bg.woff2
+    - https://fonts.gstatic.com/s/cabin/v35/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXHGfWlx0zuA_u1Bg.woff2
+    - https://fonts.gstatic.com/s/cabin/v35/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXHIPWlx0zuA_u1Bg.woff2
+    urls:
+    - https://fonts.gstatic.com/s/cabin/v35/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkV2EL7Svxm7rE_s.woff2
+    - https://fonts.gstatic.com/s/cabin/v35/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkW-EL7Svxm7rE_s.woff2
+    - https://fonts.gstatic.com/s/cabin/v35/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkYODL7Svxm7rE_s.woff2
+    - https://fonts.gstatic.com/s/cabin/v35/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkbqDL7Svxm7rE_s.woff2
+    - https://fonts.gstatic.com/s/cabin/v35/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXHx_Klx0zuA_u1Bg.woff2
+    - https://fonts.gstatic.com/s/cabin/v35/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXH9fKlx0zuA_u1Bg.woff2
+    - https://fonts.gstatic.com/s/cabin/v35/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXHGfWlx0zuA_u1Bg.woff2
+    - https://fonts.gstatic.com/s/cabin/v35/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXHIPWlx0zuA_u1Bg.woff2
+    format: woff2
 fonts:
 - name: Cabin
   styles:
@@ -78,10 +85,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Cabin
     type: Bold
     full_name: Cabin Bold
@@ -94,10 +99,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Cabin
     type: Italic
     full_name: Cabin Italic
@@ -110,10 +113,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Cabin
     type: Bold Italic
     full_name: Cabin Bold Italic
@@ -126,10 +127,34 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Cabin
+    type: Regular
+    full_name: Cabin Regular
+    post_script_name: Cabin-Regular
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin[wdth,wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wdth
     - wght
+    source_resource: ttf_variable
+  - family_name: Cabin
+    type: Italic
+    full_name: Cabin Italic
+    post_script_name: Cabin-Italic
+    copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
+    font: Cabin-Italic[wdth,wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wdth
+    - wght
+    source_resource: ttf_variable
 - name: Cabin Medium
   styles:
   - family_name: Cabin Medium
@@ -146,10 +171,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Cabin Medium
     type: Italic
     full_name: Cabin Medium Italic
@@ -164,10 +187,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Cabin SemiBold
   styles:
   - family_name: Cabin SemiBold
@@ -184,10 +205,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Cabin SemiBold
     type: Italic
     full_name: Cabin SemiBold Italic
@@ -202,10 +221,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin)
 spdx_license: OFL-1.1-no-RFN
