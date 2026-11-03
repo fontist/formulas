@@ -1,7 +1,7 @@
 ---
 schema_version: 5
-name: Chinese (Traditional) Supplemental Fonts
-description: Chinese (Traditional) Supplemental Fonts for Windows
+name: Chinese Simplified Supplemental Fonts
+description: Chinese (Simplified) Supplemental Fonts for Windows
 homepage: https://learn.microsoft.com/en-us/typography/fonts/windows_11_font_list
 platforms:
 - windows
@@ -11,43 +11,56 @@ open_license: |
   and are subject to the Windows license agreement accepted during
   installation. No additional license agreement is required.
 resources:
-  chinese_traditional_supplemental_fonts:
+  chinese_simplified_supplemental_fonts:
     source: windows_fod
-    capability_name: Language.Fonts.Hant~~~und-HANT~0.0.1.0
+    capability_name: Language.Fonts.Hans~~~und-HANS~0.0.1.0
+    format: ttf
 fonts:
-- name: DFKai-SB
+- name: DengXian
   styles:
-  - family_name: DFKai-SB
-    type: Regular
-    font: Kaiu.ttf
+  - family_name: DengXian
+    type: Light
+    font: Dengl.ttf
     formats:
     - ttf
     variable_font: false
-- name: MingLiU
-  styles:
-  - family_name: MingLiU
+  - family_name: DengXian
     type: Regular
-    font: Mingliu.ttc
+    font: Deng.ttf
     formats:
-    - ttc
+    - ttf
     variable_font: false
-- name: MingLiU_HKSCS
-  styles:
-  - family_name: MingLiU_HKSCS
-    type: Regular
-    font: Mingliu.ttc
+  - family_name: DengXian
+    type: Bold
+    font: Dengb.ttf
     formats:
-    - ttc
+    - ttf
     variable_font: false
-- name: PMingLiU
+- name: FangSong
   styles:
-  - family_name: PMingLiU
+  - family_name: FangSong
     type: Regular
-    font: Mingliu.ttc
+    font: Simfang.ttf
     formats:
-    - ttc
+    - ttf
+    variable_font: false
+- name: KaiTi
+  styles:
+  - family_name: KaiTi
+    type: Regular
+    font: Simkai.ttf
+    formats:
+    - ttf
+    variable_font: false
+- name: SimHei
+  styles:
+  - family_name: SimHei
+    type: Regular
+    font: Simhei.ttf
+    formats:
+    - ttf
     variable_font: false
 import_source:
   type: windows
-  capability_name: Language.Fonts.Hant~~~und-HANT~0.0.1.0
+  capability_name: Language.Fonts.Hans~~~und-HANS~0.0.1.0
   min_windows_version: '10.0'
