@@ -47,6 +47,9 @@ jobs:
         run: bundle exec ruby test/test_name.rb
 
       - if: matrix.os == 'ubuntu-latest'
+        run: bundle exec rspec
+
+      - if: matrix.os == 'ubuntu-latest'
         run: bundle exec ruby test/test_formulas.rb --every-platform --platform linux
 
       - if: matrix.os == 'macos-latest'
