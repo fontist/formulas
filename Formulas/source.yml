@@ -1,947 +1,534 @@
+---
 schema_version: 5
 name: Source
 description: Adobe Source Fonts
 homepage: https://www.adobe.com
 resources:
-  source-fonts-1.3.zip:
+  source-fonts.zip:
     urls:
-    - https://github.com/fontist/source-fonts/releases/download/v1.3/source-fonts-1.3.zip
-    sha256: fe0eadc43b4b410af49b2caa4b311fec1f25840c39b5e3a2d347c5431acefa6d
-    file_size: 162742653
-    format: ttf
+    - https://github.com/fontist/source-fonts/releases/download/v1.0/source-fonts-1.0.zip
+    sha256: 0107b5d4ba305cb4dff2ba19138407aa2153632a2c41592f74d20cd0d0261bfd
+    file_size: 101440249
 font_collections:
-- filename: han-mono.ttc
+- filename: SourceHanSans-Bold.ttc
   fonts:
-  - name: Source Han Mono
+  - name: Source Han Sans
     styles:
-    - family_name: Source Han Mono
+    - family_name: Source Han Sans
       type: Bold
-      full_name: Source Han Mono Bold
-      post_script_name: SourceHanMono-Bold
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
+      full_name: Source Han Sans Bold
+      post_script_name: SourceHanSans-Bold
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
       formats:
-      - ttf
-    - family_name: Source Han Mono
-      type: Bold Italic
-      full_name: Source Han Mono Bold Italic
-      post_script_name: SourceHanMono-BoldIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono
-      type: Italic
-      full_name: Source Han Mono Italic
-      post_script_name: SourceHanMono-RegularIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono
-      type: Regular
-      full_name: Source Han Mono
-      post_script_name: SourceHanMono-Regular
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-  - name: Source Han Mono EL
+      - ttc
+  - name: Source Han Sans HC
     styles:
-    - family_name: Source Han Mono EL
-      type: Italic
-      preferred_family_name: Source Han Mono
-      preferred_type: EL Italic
-      full_name: Source Han Mono EL Italic
-      post_script_name: SourceHanMono-ExtraLightIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono EL
-      type: Regular
-      preferred_family_name: Source Han Mono
-      preferred_type: EL
-      full_name: Source Han Mono EL
-      post_script_name: SourceHanMono-ExtraLight
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-  - name: Source Han Mono H
-    styles:
-    - family_name: Source Han Mono H
-      type: Italic
-      preferred_family_name: Source Han Mono
-      preferred_type: H Italic
-      full_name: Source Han Mono H Italic
-      post_script_name: SourceHanMono-HeavyIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono H
-      type: Regular
-      preferred_family_name: Source Han Mono
-      preferred_type: H
-      full_name: Source Han Mono H
-      post_script_name: SourceHanMono-Heavy
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-  - name: Source Han Mono HC
-    styles:
-    - family_name: Source Han Mono HC
+    - family_name: Source Han Sans HC
       type: Bold
-      full_name: Source Han Mono HC Bold
-      post_script_name: SourceHanMonoHC-Bold
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
+      full_name: Source Han Sans HC Bold
+      post_script_name: SourceHanSansHC-Bold
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
       formats:
-      - ttf
-    - family_name: Source Han Mono HC
-      type: Bold Italic
-      full_name: Source Han Mono HC Bold Italic
-      post_script_name: SourceHanMonoHC-BoldIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono HC
-      type: Italic
-      full_name: Source Han Mono HC Italic
-      post_script_name: SourceHanMonoHC-RegularIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono HC
-      type: Regular
-      full_name: Source Han Mono HC
-      post_script_name: SourceHanMonoHC-Regular
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-  - name: Source Han Mono HC EL
+      - ttc
+  - name: Source Han Sans K
     styles:
-    - family_name: Source Han Mono HC EL
-      type: Italic
-      preferred_family_name: Source Han Mono HC
-      preferred_type: EL Italic
-      full_name: Source Han Mono HC EL Italic
-      post_script_name: SourceHanMonoHC-ExtraLightIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono HC EL
-      type: Regular
-      preferred_family_name: Source Han Mono HC
-      preferred_type: EL
-      full_name: Source Han Mono HC EL
-      post_script_name: SourceHanMonoHC-ExtraLight
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-  - name: Source Han Mono HC H
-    styles:
-    - family_name: Source Han Mono HC H
-      type: Italic
-      preferred_family_name: Source Han Mono HC
-      preferred_type: H Italic
-      full_name: Source Han Mono HC H Italic
-      post_script_name: SourceHanMonoHC-HeavyIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono HC H
-      type: Regular
-      preferred_family_name: Source Han Mono HC
-      preferred_type: H
-      full_name: Source Han Mono HC H
-      post_script_name: SourceHanMonoHC-Heavy
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-  - name: Source Han Mono HC L
-    styles:
-    - family_name: Source Han Mono HC L
-      type: Italic
-      preferred_family_name: Source Han Mono HC
-      preferred_type: L Italic
-      full_name: Source Han Mono HC L Italic
-      post_script_name: SourceHanMonoHC-LightIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono HC L
-      type: Regular
-      preferred_family_name: Source Han Mono HC
-      preferred_type: L
-      full_name: Source Han Mono HC L
-      post_script_name: SourceHanMonoHC-Light
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-  - name: Source Han Mono HC M
-    styles:
-    - family_name: Source Han Mono HC M
-      type: Italic
-      preferred_family_name: Source Han Mono HC
-      preferred_type: M Italic
-      full_name: Source Han Mono HC M Italic
-      post_script_name: SourceHanMonoHC-MediumIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono HC M
-      type: Regular
-      preferred_family_name: Source Han Mono HC
-      preferred_type: M
-      full_name: Source Han Mono HC M
-      post_script_name: SourceHanMonoHC-Medium
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-  - name: Source Han Mono HC N
-    styles:
-    - family_name: Source Han Mono HC N
-      type: Italic
-      preferred_family_name: Source Han Mono HC
-      preferred_type: N Italic
-      full_name: Source Han Mono HC N Italic
-      post_script_name: SourceHanMonoHC-NormalIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono HC N
-      type: Regular
-      preferred_family_name: Source Han Mono HC
-      preferred_type: N
-      full_name: Source Han Mono HC N
-      post_script_name: SourceHanMonoHC-Normal
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-  - name: Source Han Mono K
-    styles:
-    - family_name: Source Han Mono K
+    - family_name: Source Han Sans K
       type: Bold
-      full_name: Source Han Mono K Bold
-      post_script_name: SourceHanMonoK-Bold
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
+      full_name: Source Han Sans K Bold
+      post_script_name: SourceHanSansK-Bold
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
       formats:
-      - ttf
-    - family_name: Source Han Mono K
-      type: Bold Italic
-      full_name: Source Han Mono K Bold Italic
-      post_script_name: SourceHanMonoK-BoldIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono K
-      type: Italic
-      full_name: Source Han Mono K Italic
-      post_script_name: SourceHanMonoK-RegularIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono K
-      type: Regular
-      full_name: Source Han Mono K
-      post_script_name: SourceHanMonoK-Regular
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-  - name: Source Han Mono K EL
+      - ttc
+  - name: Source Han Sans SC
     styles:
-    - family_name: Source Han Mono K EL
-      type: Italic
-      preferred_family_name: Source Han Mono K
-      preferred_type: EL Italic
-      full_name: Source Han Mono K EL Italic
-      post_script_name: SourceHanMonoK-ExtraLightIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono K EL
-      type: Regular
-      preferred_family_name: Source Han Mono K
-      preferred_type: EL
-      full_name: Source Han Mono K EL
-      post_script_name: SourceHanMonoK-ExtraLight
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-  - name: Source Han Mono K H
-    styles:
-    - family_name: Source Han Mono K H
-      type: Italic
-      preferred_family_name: Source Han Mono K
-      preferred_type: H Italic
-      full_name: Source Han Mono K H Italic
-      post_script_name: SourceHanMonoK-HeavyIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono K H
-      type: Regular
-      preferred_family_name: Source Han Mono K
-      preferred_type: H
-      full_name: Source Han Mono K H
-      post_script_name: SourceHanMonoK-Heavy
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-  - name: Source Han Mono K L
-    styles:
-    - family_name: Source Han Mono K L
-      type: Italic
-      preferred_family_name: Source Han Mono K
-      preferred_type: L Italic
-      full_name: Source Han Mono K L Italic
-      post_script_name: SourceHanMonoK-LightIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono K L
-      type: Regular
-      preferred_family_name: Source Han Mono K
-      preferred_type: L
-      full_name: Source Han Mono K L
-      post_script_name: SourceHanMonoK-Light
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-  - name: Source Han Mono K M
-    styles:
-    - family_name: Source Han Mono K M
-      type: Italic
-      preferred_family_name: Source Han Mono K
-      preferred_type: M Italic
-      full_name: Source Han Mono K M Italic
-      post_script_name: SourceHanMonoK-MediumIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono K M
-      type: Regular
-      preferred_family_name: Source Han Mono K
-      preferred_type: M
-      full_name: Source Han Mono K M
-      post_script_name: SourceHanMonoK-Medium
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-  - name: Source Han Mono K N
-    styles:
-    - family_name: Source Han Mono K N
-      type: Italic
-      preferred_family_name: Source Han Mono K
-      preferred_type: N Italic
-      full_name: Source Han Mono K N Italic
-      post_script_name: SourceHanMonoK-NormalIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono K N
-      type: Regular
-      preferred_family_name: Source Han Mono K
-      preferred_type: N
-      full_name: Source Han Mono K N
-      post_script_name: SourceHanMonoK-Normal
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-  - name: Source Han Mono L
-    styles:
-    - family_name: Source Han Mono L
-      type: Italic
-      preferred_family_name: Source Han Mono
-      preferred_type: L Italic
-      full_name: Source Han Mono L Italic
-      post_script_name: SourceHanMono-LightIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono L
-      type: Regular
-      preferred_family_name: Source Han Mono
-      preferred_type: L
-      full_name: Source Han Mono L
-      post_script_name: SourceHanMono-Light
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-  - name: Source Han Mono M
-    styles:
-    - family_name: Source Han Mono M
-      type: Italic
-      preferred_family_name: Source Han Mono
-      preferred_type: M Italic
-      full_name: Source Han Mono M Italic
-      post_script_name: SourceHanMono-MediumIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono M
-      type: Regular
-      preferred_family_name: Source Han Mono
-      preferred_type: M
-      full_name: Source Han Mono M
-      post_script_name: SourceHanMono-Medium
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-  - name: Source Han Mono N
-    styles:
-    - family_name: Source Han Mono N
-      type: Italic
-      preferred_family_name: Source Han Mono
-      preferred_type: N Italic
-      full_name: Source Han Mono N Italic
-      post_script_name: SourceHanMono-NormalIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono N
-      type: Regular
-      preferred_family_name: Source Han Mono
-      preferred_type: N
-      full_name: Source Han Mono N
-      post_script_name: SourceHanMono-Normal
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-  - name: Source Han Mono SC
-    styles:
-    - family_name: Source Han Mono SC
+    - family_name: Source Han Sans SC
       type: Bold
-      full_name: Source Han Mono SC Bold
-      post_script_name: SourceHanMonoSC-Bold
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
+      full_name: Source Han Sans SC Bold
+      post_script_name: SourceHanSansSC-Bold
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
       formats:
-      - ttf
-    - family_name: Source Han Mono SC
-      type: Bold Italic
-      full_name: Source Han Mono SC Bold Italic
-      post_script_name: SourceHanMonoSC-BoldIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono SC
-      type: Italic
-      full_name: Source Han Mono SC Italic
-      post_script_name: SourceHanMonoSC-RegularIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono SC
-      type: Regular
-      full_name: Source Han Mono SC
-      post_script_name: SourceHanMonoSC-Regular
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-  - name: Source Han Mono SC EL
+      - ttc
+  - name: Source Han Sans TC
     styles:
-    - family_name: Source Han Mono SC EL
-      type: Italic
-      preferred_family_name: Source Han Mono SC
-      preferred_type: EL Italic
-      full_name: Source Han Mono SC EL Italic
-      post_script_name: SourceHanMonoSC-ExtraLightIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono SC EL
-      type: Regular
-      preferred_family_name: Source Han Mono SC
-      preferred_type: EL
-      full_name: Source Han Mono SC EL
-      post_script_name: SourceHanMonoSC-ExtraLight
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-  - name: Source Han Mono SC H
-    styles:
-    - family_name: Source Han Mono SC H
-      type: Italic
-      preferred_family_name: Source Han Mono SC
-      preferred_type: H Italic
-      full_name: Source Han Mono SC H Italic
-      post_script_name: SourceHanMonoSC-HeavyIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono SC H
-      type: Regular
-      preferred_family_name: Source Han Mono SC
-      preferred_type: H
-      full_name: Source Han Mono SC H
-      post_script_name: SourceHanMonoSC-Heavy
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-  - name: Source Han Mono SC L
-    styles:
-    - family_name: Source Han Mono SC L
-      type: Italic
-      preferred_family_name: Source Han Mono SC
-      preferred_type: L Italic
-      full_name: Source Han Mono SC L Italic
-      post_script_name: SourceHanMonoSC-LightIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono SC L
-      type: Regular
-      preferred_family_name: Source Han Mono SC
-      preferred_type: L
-      full_name: Source Han Mono SC L
-      post_script_name: SourceHanMonoSC-Light
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-  - name: Source Han Mono SC M
-    styles:
-    - family_name: Source Han Mono SC M
-      type: Italic
-      preferred_family_name: Source Han Mono SC
-      preferred_type: M Italic
-      full_name: Source Han Mono SC M Italic
-      post_script_name: SourceHanMonoSC-MediumIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono SC M
-      type: Regular
-      preferred_family_name: Source Han Mono SC
-      preferred_type: M
-      full_name: Source Han Mono SC M
-      post_script_name: SourceHanMonoSC-Medium
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-  - name: Source Han Mono SC N
-    styles:
-    - family_name: Source Han Mono SC N
-      type: Italic
-      preferred_family_name: Source Han Mono SC
-      preferred_type: N Italic
-      full_name: Source Han Mono SC N Italic
-      post_script_name: SourceHanMonoSC-NormalIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono SC N
-      type: Regular
-      preferred_family_name: Source Han Mono SC
-      preferred_type: N
-      full_name: Source Han Mono SC N
-      post_script_name: SourceHanMonoSC-Normal
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-  - name: Source Han Mono TC
-    styles:
-    - family_name: Source Han Mono TC
+    - family_name: Source Han Sans TC
       type: Bold
-      full_name: Source Han Mono TC Bold
-      post_script_name: SourceHanMonoTC-Bold
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
+      full_name: Source Han Sans TC Bold
+      post_script_name: SourceHanSansTC-Bold
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
       formats:
-      - ttf
-    - family_name: Source Han Mono TC
-      type: Bold Italic
-      full_name: Source Han Mono TC Bold Italic
-      post_script_name: SourceHanMonoTC-BoldIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono TC
-      type: Italic
-      full_name: Source Han Mono TC Italic
-      post_script_name: SourceHanMonoTC-RegularIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono TC
-      type: Regular
-      full_name: Source Han Mono TC
-      post_script_name: SourceHanMonoTC-Regular
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-  - name: Source Han Mono TC EL
+      - ttc
+- filename: SourceHanSans-ExtraLight.ttc
+  fonts:
+  - name: Source Han Sans ExtraLight
     styles:
-    - family_name: Source Han Mono TC EL
-      type: Italic
-      preferred_family_name: Source Han Mono TC
-      preferred_type: EL Italic
-      full_name: Source Han Mono TC EL Italic
-      post_script_name: SourceHanMonoTC-ExtraLightIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono TC EL
+    - family_name: Source Han Sans ExtraLight
       type: Regular
-      preferred_family_name: Source Han Mono TC
-      preferred_type: EL
-      full_name: Source Han Mono TC EL
-      post_script_name: SourceHanMonoTC-ExtraLight
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
+      preferred_family_name: Source Han Sans
+      preferred_type: ExtraLight
+      full_name: Source Han Sans ExtraLight
+      post_script_name: SourceHanSans-ExtraLight
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
       formats:
-      - ttf
-  - name: Source Han Mono TC H
+      - ttc
+  - name: Source Han Sans HC ExtraLight
     styles:
-    - family_name: Source Han Mono TC H
-      type: Italic
-      preferred_family_name: Source Han Mono TC
-      preferred_type: H Italic
-      full_name: Source Han Mono TC H Italic
-      post_script_name: SourceHanMonoTC-HeavyIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono TC H
+    - family_name: Source Han Sans HC ExtraLight
       type: Regular
-      preferred_family_name: Source Han Mono TC
-      preferred_type: H
-      full_name: Source Han Mono TC H
-      post_script_name: SourceHanMonoTC-Heavy
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
+      preferred_family_name: Source Han Sans HC
+      preferred_type: ExtraLight
+      full_name: Source Han Sans HC ExtraLight
+      post_script_name: SourceHanSansHC-ExtraLight
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
       formats:
-      - ttf
-  - name: Source Han Mono TC L
+      - ttc
+  - name: Source Han Sans K ExtraLight
     styles:
-    - family_name: Source Han Mono TC L
-      type: Italic
-      preferred_family_name: Source Han Mono TC
-      preferred_type: L Italic
-      full_name: Source Han Mono TC L Italic
-      post_script_name: SourceHanMonoTC-LightIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono TC L
+    - family_name: Source Han Sans K ExtraLight
       type: Regular
-      preferred_family_name: Source Han Mono TC
-      preferred_type: L
-      full_name: Source Han Mono TC L
-      post_script_name: SourceHanMonoTC-Light
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
+      preferred_family_name: Source Han Sans K
+      preferred_type: ExtraLight
+      full_name: Source Han Sans K ExtraLight
+      post_script_name: SourceHanSansK-ExtraLight
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
       formats:
-      - ttf
-  - name: Source Han Mono TC M
+      - ttc
+  - name: Source Han Sans SC ExtraLight
     styles:
-    - family_name: Source Han Mono TC M
-      type: Italic
-      preferred_family_name: Source Han Mono TC
-      preferred_type: M Italic
-      full_name: Source Han Mono TC M Italic
-      post_script_name: SourceHanMonoTC-MediumIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono TC M
+    - family_name: Source Han Sans SC ExtraLight
       type: Regular
-      preferred_family_name: Source Han Mono TC
-      preferred_type: M
-      full_name: Source Han Mono TC M
-      post_script_name: SourceHanMonoTC-Medium
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
+      preferred_family_name: Source Han Sans SC
+      preferred_type: ExtraLight
+      full_name: Source Han Sans SC ExtraLight
+      post_script_name: SourceHanSansSC-ExtraLight
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
       formats:
-      - ttf
-  - name: Source Han Mono TC N
+      - ttc
+  - name: Source Han Sans TC ExtraLight
     styles:
-    - family_name: Source Han Mono TC N
-      type: Italic
-      preferred_family_name: Source Han Mono TC
-      preferred_type: N Italic
-      full_name: Source Han Mono TC N Italic
-      post_script_name: SourceHanMonoTC-NormalIt
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-      formats:
-      - ttf
-    - family_name: Source Han Mono TC N
+    - family_name: Source Han Sans TC ExtraLight
       type: Regular
-      preferred_family_name: Source Han Mono TC
-      preferred_type: N
-      full_name: Source Han Mono TC N
-      post_script_name: SourceHanMonoTC-Normal
-      version: 1.002;hotconv 1.0.107;makeotfexe 2.5.65593
-      description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-        on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-        License for the specific language, permissions and limitations governing your use of this Font Software.
-      copyright: © 2014–2019 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
+      preferred_family_name: Source Han Sans TC
+      preferred_type: ExtraLight
+      full_name: Source Han Sans TC ExtraLight
+      post_script_name: SourceHanSansTC-ExtraLight
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
       formats:
-      - ttf
+      - ttc
+- filename: SourceHanSans-Heavy.ttc
+  fonts:
+  - name: Source Han Sans HC Heavy
+    styles:
+    - family_name: Source Han Sans HC Heavy
+      type: Regular
+      preferred_family_name: Source Han Sans HC
+      preferred_type: Heavy
+      full_name: Source Han Sans HC Heavy
+      post_script_name: SourceHanSansHC-Heavy
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+      formats:
+      - ttc
+  - name: Source Han Sans Heavy
+    styles:
+    - family_name: Source Han Sans Heavy
+      type: Regular
+      preferred_family_name: Source Han Sans
+      preferred_type: Heavy
+      full_name: Source Han Sans Heavy
+      post_script_name: SourceHanSans-Heavy
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+      formats:
+      - ttc
+  - name: Source Han Sans K Heavy
+    styles:
+    - family_name: Source Han Sans K Heavy
+      type: Regular
+      preferred_family_name: Source Han Sans K
+      preferred_type: Heavy
+      full_name: Source Han Sans K Heavy
+      post_script_name: SourceHanSansK-Heavy
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+      formats:
+      - ttc
+  - name: Source Han Sans SC Heavy
+    styles:
+    - family_name: Source Han Sans SC Heavy
+      type: Regular
+      preferred_family_name: Source Han Sans SC
+      preferred_type: Heavy
+      full_name: Source Han Sans SC Heavy
+      post_script_name: SourceHanSansSC-Heavy
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+      formats:
+      - ttc
+  - name: Source Han Sans TC Heavy
+    styles:
+    - family_name: Source Han Sans TC Heavy
+      type: Regular
+      preferred_family_name: Source Han Sans TC
+      preferred_type: Heavy
+      full_name: Source Han Sans TC Heavy
+      post_script_name: SourceHanSansTC-Heavy
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+      formats:
+      - ttc
+- filename: SourceHanSans-Light.ttc
+  fonts:
+  - name: Source Han Sans HC Light
+    styles:
+    - family_name: Source Han Sans HC Light
+      type: Regular
+      preferred_family_name: Source Han Sans HC
+      preferred_type: Light
+      full_name: Source Han Sans HC Light
+      post_script_name: SourceHanSansHC-Light
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+      formats:
+      - ttc
+  - name: Source Han Sans K Light
+    styles:
+    - family_name: Source Han Sans K Light
+      type: Regular
+      preferred_family_name: Source Han Sans K
+      preferred_type: Light
+      full_name: Source Han Sans K Light
+      post_script_name: SourceHanSansK-Light
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+      formats:
+      - ttc
+  - name: Source Han Sans Light
+    styles:
+    - family_name: Source Han Sans Light
+      type: Regular
+      preferred_family_name: Source Han Sans
+      preferred_type: Light
+      full_name: Source Han Sans Light
+      post_script_name: SourceHanSans-Light
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+      formats:
+      - ttc
+  - name: Source Han Sans SC Light
+    styles:
+    - family_name: Source Han Sans SC Light
+      type: Regular
+      preferred_family_name: Source Han Sans SC
+      preferred_type: Light
+      full_name: Source Han Sans SC Light
+      post_script_name: SourceHanSansSC-Light
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+      formats:
+      - ttc
+  - name: Source Han Sans TC Light
+    styles:
+    - family_name: Source Han Sans TC Light
+      type: Regular
+      preferred_family_name: Source Han Sans TC
+      preferred_type: Light
+      full_name: Source Han Sans TC Light
+      post_script_name: SourceHanSansTC-Light
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+      formats:
+      - ttc
+- filename: SourceHanSans-Medium.ttc
+  fonts:
+  - name: Source Han Sans HC Medium
+    styles:
+    - family_name: Source Han Sans HC Medium
+      type: Regular
+      preferred_family_name: Source Han Sans HC
+      preferred_type: Medium
+      full_name: Source Han Sans HC Medium
+      post_script_name: SourceHanSansHC-Medium
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+      formats:
+      - ttc
+  - name: Source Han Sans K Medium
+    styles:
+    - family_name: Source Han Sans K Medium
+      type: Regular
+      preferred_family_name: Source Han Sans K
+      preferred_type: Medium
+      full_name: Source Han Sans K Medium
+      post_script_name: SourceHanSansK-Medium
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+      formats:
+      - ttc
+  - name: Source Han Sans Medium
+    styles:
+    - family_name: Source Han Sans Medium
+      type: Regular
+      preferred_family_name: Source Han Sans
+      preferred_type: Medium
+      full_name: Source Han Sans Medium
+      post_script_name: SourceHanSans-Medium
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+      formats:
+      - ttc
+  - name: Source Han Sans SC Medium
+    styles:
+    - family_name: Source Han Sans SC Medium
+      type: Regular
+      preferred_family_name: Source Han Sans SC
+      preferred_type: Medium
+      full_name: Source Han Sans SC Medium
+      post_script_name: SourceHanSansSC-Medium
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+      formats:
+      - ttc
+  - name: Source Han Sans TC Medium
+    styles:
+    - family_name: Source Han Sans TC Medium
+      type: Regular
+      preferred_family_name: Source Han Sans TC
+      preferred_type: Medium
+      full_name: Source Han Sans TC Medium
+      post_script_name: SourceHanSansTC-Medium
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+      formats:
+      - ttc
+- filename: SourceHanSans-Normal.ttc
+  fonts:
+  - name: Source Han Sans HC Normal
+    styles:
+    - family_name: Source Han Sans HC Normal
+      type: Regular
+      preferred_family_name: Source Han Sans HC
+      preferred_type: Normal
+      full_name: Source Han Sans HC Normal
+      post_script_name: SourceHanSansHC-Normal
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+      formats:
+      - ttc
+  - name: Source Han Sans K Normal
+    styles:
+    - family_name: Source Han Sans K Normal
+      type: Regular
+      preferred_family_name: Source Han Sans K
+      preferred_type: Normal
+      full_name: Source Han Sans K Normal
+      post_script_name: SourceHanSansK-Normal
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+      formats:
+      - ttc
+  - name: Source Han Sans Normal
+    styles:
+    - family_name: Source Han Sans Normal
+      type: Regular
+      preferred_family_name: Source Han Sans
+      preferred_type: Normal
+      full_name: Source Han Sans Normal
+      post_script_name: SourceHanSans-Normal
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+      formats:
+      - ttc
+  - name: Source Han Sans SC Normal
+    styles:
+    - family_name: Source Han Sans SC Normal
+      type: Regular
+      preferred_family_name: Source Han Sans SC
+      preferred_type: Normal
+      full_name: Source Han Sans SC Normal
+      post_script_name: SourceHanSansSC-Normal
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+      formats:
+      - ttc
+  - name: Source Han Sans TC Normal
+    styles:
+    - family_name: Source Han Sans TC Normal
+      type: Regular
+      preferred_family_name: Source Han Sans TC
+      preferred_type: Normal
+      full_name: Source Han Sans TC Normal
+      post_script_name: SourceHanSansTC-Normal
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+      formats:
+      - ttc
+- filename: SourceHanSans-Regular.ttc
+  fonts:
+  - name: Source Han Sans
+    styles:
+    - family_name: Source Han Sans
+      type: Regular
+      full_name: Source Han Sans
+      post_script_name: SourceHanSans-Regular
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+      formats:
+      - ttc
+  - name: Source Han Sans HC
+    styles:
+    - family_name: Source Han Sans HC
+      type: Regular
+      full_name: Source Han Sans HC
+      post_script_name: SourceHanSansHC-Regular
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+      formats:
+      - ttc
+  - name: Source Han Sans K
+    styles:
+    - family_name: Source Han Sans K
+      type: Regular
+      full_name: Source Han Sans K
+      post_script_name: SourceHanSansK-Regular
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+      formats:
+      - ttc
+  - name: Source Han Sans SC
+    styles:
+    - family_name: Source Han Sans SC
+      type: Regular
+      full_name: Source Han Sans SC
+      post_script_name: SourceHanSansSC-Regular
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+      formats:
+      - ttc
+  - name: Source Han Sans TC
+    styles:
+    - family_name: Source Han Sans TC
+      type: Regular
+      full_name: Source Han Sans TC
+      post_script_name: SourceHanSansTC-Regular
+      version: 2.000;hotconv 1.0.107;makeotfexe 2.5.65593
+      description: Dr. Ken Lunde (project architect, glyph set definition & overall
+        production); Masataka HATTORI 服部正貴 (production & ideograph elements)
+      copyright: "© 2014, 2015, 2018 Adobe (http://www.adobe.com/), with Reserved
+        Font Name 'Source'."
+      formats:
+      - ttc
 fonts:
 - name: Source Code Pro
   styles:
@@ -949,12 +536,9 @@ fonts:
     type: Bold
     full_name: Source Code Pro Bold
     post_script_name: SourceCodePro-Bold
-    version: 2.042;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
+    version: 2.030;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220
+    copyright: Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’.
     font: SourceCodePro-Bold.ttf
     formats:
     - ttf
@@ -962,12 +546,9 @@ fonts:
     type: Bold Italic
     full_name: Source Code Pro Bold Italic
     post_script_name: SourceCodePro-BoldIt
-    version: 1.062;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
+    version: 1.050;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220
+    copyright: Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’.
     font: SourceCodePro-BoldIt.ttf
     formats:
     - ttf
@@ -975,12 +556,9 @@ fonts:
     type: Italic
     full_name: Source Code Pro Italic
     post_script_name: SourceCodePro-It
-    version: 1.062;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
+    version: 1.050;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220
+    copyright: Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’.
     font: SourceCodePro-It.ttf
     formats:
     - ttf
@@ -988,12 +566,9 @@ fonts:
     type: Regular
     full_name: Source Code Pro
     post_script_name: SourceCodePro-Regular
-    version: 2.042;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
+    version: 2.030;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220
+    copyright: Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’.
     font: SourceCodePro-Regular.ttf
     formats:
     - ttf
@@ -1005,12 +580,9 @@ fonts:
     preferred_type: Black Italic
     full_name: Source Code Pro Black Italic
     post_script_name: SourceCodePro-BlackIt
-    version: 1.062;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
+    version: 1.050;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220
+    copyright: Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’.
     font: SourceCodePro-BlackIt.ttf
     formats:
     - ttf
@@ -1020,12 +592,9 @@ fonts:
     preferred_type: Black
     full_name: Source Code Pro Black
     post_script_name: SourceCodePro-Black
-    version: 2.042;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
+    version: 2.030;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220
+    copyright: Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’.
     font: SourceCodePro-Black.ttf
     formats:
     - ttf
@@ -1037,12 +606,9 @@ fonts:
     preferred_type: ExtraLight Italic
     full_name: Source Code Pro ExtraLight Italic
     post_script_name: SourceCodePro-ExtraLightIt
-    version: 1.062;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
+    version: 1.050;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220
+    copyright: Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’.
     font: SourceCodePro-ExtraLightIt.ttf
     formats:
     - ttf
@@ -1052,12 +618,9 @@ fonts:
     preferred_type: ExtraLight
     full_name: Source Code Pro ExtraLight
     post_script_name: SourceCodePro-ExtraLight
-    version: 2.042;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
+    version: 2.030;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220
+    copyright: Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’.
     font: SourceCodePro-ExtraLight.ttf
     formats:
     - ttf
@@ -1069,12 +632,9 @@ fonts:
     preferred_type: Light Italic
     full_name: Source Code Pro Light Italic
     post_script_name: SourceCodePro-LightIt
-    version: 1.062;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
+    version: 1.050;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220
+    copyright: Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’.
     font: SourceCodePro-LightIt.ttf
     formats:
     - ttf
@@ -1084,12 +644,9 @@ fonts:
     preferred_type: Light
     full_name: Source Code Pro Light
     post_script_name: SourceCodePro-Light
-    version: 2.042;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
+    version: 2.030;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220
+    copyright: Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’.
     font: SourceCodePro-Light.ttf
     formats:
     - ttf
@@ -1101,12 +658,9 @@ fonts:
     preferred_type: Medium Italic
     full_name: Source Code Pro Medium Italic
     post_script_name: SourceCodePro-MediumIt
-    version: 1.062;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
+    version: 1.050;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220
+    copyright: Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’.
     font: SourceCodePro-MediumIt.ttf
     formats:
     - ttf
@@ -1116,12 +670,9 @@ fonts:
     preferred_type: Medium
     full_name: Source Code Pro Medium
     post_script_name: SourceCodePro-Medium
-    version: 2.042;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
+    version: 2.030;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220
+    copyright: Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’.
     font: SourceCodePro-Medium.ttf
     formats:
     - ttf
@@ -1133,12 +684,9 @@ fonts:
     preferred_type: Semibold Italic
     full_name: Source Code Pro Semibold Italic
     post_script_name: SourceCodePro-SemiboldIt
-    version: 1.062;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
+    version: 1.050;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220
+    copyright: Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’.
     font: SourceCodePro-SemiboldIt.ttf
     formats:
     - ttf
@@ -1148,1340 +696,401 @@ fonts:
     preferred_type: Semibold
     full_name: Source Code Pro Semibold
     post_script_name: SourceCodePro-Semibold
-    version: 2.042;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
+    version: 2.030;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220
+    copyright: Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’.
     font: SourceCodePro-Semibold.ttf
     formats:
     - ttf
-- name: Source Han Sans VF
+- name: Source Sans Pro
   styles:
-  - family_name: Source Han Sans VF
-    type: Regular
-    preferred_type: ExtraLight
-    full_name: Source Han Sans VF
-    post_script_name: SourceHanSansVF-ExtraLight
-    version: 2.005;addfeatures 5.0.0b21
-    description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-      on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-      License for the specific language, permissions and limitations governing your use of this Font Software.
-    copyright: © 2014-2025 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
-    font: SourceHanSans-VF.ttf
-    preferred_family_name: Source Han Sans
-    formats:
-    - ttf
-- name: Source Han Serif VF
-  styles:
-  - family_name: Source Han Serif VF
-    type: Regular
-    preferred_type: ExtraLight
-    full_name: Source Han Serif VF
-    post_script_name: SourceHanSerifVF-ExtraLight
-    version: 2.003;hotconv 1.1.1;makeotfexe 2.6.0
-    description: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed
-      on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
-      License for the specific language, permissions and limitations governing your use of this Font Software.
-    copyright: © 2017-2024 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
-    font: SourceHanSerif-VF.ttf
-    preferred_family_name: Source Han Serif
-    formats:
-    - ttf
-- name: Source Sans 3
-  styles:
-  - family_name: Source Sans 3
+  - family_name: Source Sans Pro
     type: Bold
-    full_name: Source Sans 3 Bold
-    post_script_name: SourceSans3-Bold
-    version: 3.052;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
-    font: SourceSans3-Bold.ttf
+    full_name: Source Sans Pro Bold
+    post_script_name: SourceSansPro-Bold
+    version: 3.006;hotconv 1.0.111;makeotfexe 2.5.65597
+    copyright: "© 2010 - 2019 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’."
+    font: SourceSansPro-Bold.ttf
     formats:
     - ttf
-  - family_name: Source Sans 3
+  - family_name: Source Sans Pro
     type: Bold Italic
-    full_name: Source Sans 3 Bold Italic
-    post_script_name: SourceSans3-BoldIt
-    version: 3.052;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
-    font: SourceSans3-BoldIt.ttf
+    full_name: Source Sans Pro Bold Italic
+    post_script_name: SourceSansPro-BoldIt
+    version: 3.006;hotconv 1.0.111;makeotfexe 2.5.65597
+    copyright: "© 2010 - 2019 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’."
+    font: SourceSansPro-BoldIt.ttf
     formats:
     - ttf
-  - family_name: Source Sans 3
+  - family_name: Source Sans Pro
     type: Italic
-    full_name: Source Sans 3 Italic
-    post_script_name: SourceSans3-It
-    version: 3.052;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
-    font: SourceSans3-It.ttf
+    full_name: Source Sans Pro Italic
+    post_script_name: SourceSansPro-It
+    version: 3.006;hotconv 1.0.111;makeotfexe 2.5.65597
+    copyright: "© 2010 - 2019 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’."
+    font: SourceSansPro-It.ttf
     formats:
     - ttf
-  - family_name: Source Sans 3
+  - family_name: Source Sans Pro
     type: Regular
-    full_name: Source Sans 3
-    post_script_name: SourceSans3-Regular
-    version: 3.052;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
-    font: SourceSans3-Regular.ttf
+    full_name: Source Sans Pro
+    post_script_name: SourceSansPro-Regular
+    version: 3.006;hotconv 1.0.111;makeotfexe 2.5.65597
+    copyright: "© 2010 - 2019 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’."
+    font: SourceSansPro-Regular.ttf
     formats:
     - ttf
-- name: Source Sans 3 Black
+- name: Source Sans Pro Black
   styles:
-  - family_name: Source Sans 3 Black
+  - family_name: Source Sans Pro Black
     type: Italic
-    preferred_family_name: Source Sans 3
+    preferred_family_name: Source Sans Pro
     preferred_type: Black Italic
-    full_name: Source Sans 3 Black Italic
-    post_script_name: SourceSans3-BlackIt
-    version: 3.052;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
-    font: SourceSans3-BlackIt.ttf
+    full_name: Source Sans Pro Black Italic
+    post_script_name: SourceSansPro-BlackIt
+    version: 3.006;hotconv 1.0.111;makeotfexe 2.5.65597
+    copyright: "© 2010 - 2019 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’."
+    font: SourceSansPro-BlackIt.ttf
     formats:
     - ttf
-  - family_name: Source Sans 3 Black
+  - family_name: Source Sans Pro Black
     type: Regular
-    preferred_family_name: Source Sans 3
+    preferred_family_name: Source Sans Pro
     preferred_type: Black
-    full_name: Source Sans 3 Black
-    post_script_name: SourceSans3-Black
-    version: 3.052;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
-    font: SourceSans3-Black.ttf
+    full_name: Source Sans Pro Black
+    post_script_name: SourceSansPro-Black
+    version: 3.006;hotconv 1.0.111;makeotfexe 2.5.65597
+    copyright: "© 2010 - 2019 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’."
+    font: SourceSansPro-Black.ttf
     formats:
     - ttf
-- name: Source Sans 3 ExtraLight
+- name: Source Sans Pro ExtraLight
   styles:
-  - family_name: Source Sans 3 ExtraLight
+  - family_name: Source Sans Pro ExtraLight
     type: Italic
-    preferred_family_name: Source Sans 3
+    preferred_family_name: Source Sans Pro
     preferred_type: ExtraLight Italic
-    full_name: Source Sans 3 ExtraLight Italic
-    post_script_name: SourceSans3-ExtraLightIt
-    version: 3.052;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
-    font: SourceSans3-ExtraLightIt.ttf
+    full_name: Source Sans Pro ExtraLight Italic
+    post_script_name: SourceSansPro-ExtraLightIt
+    version: 3.006;hotconv 1.0.111;makeotfexe 2.5.65597
+    copyright: "© 2010 - 2019 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’."
+    font: SourceSansPro-ExtraLightIt.ttf
     formats:
     - ttf
-  - family_name: Source Sans 3 ExtraLight
+  - family_name: Source Sans Pro ExtraLight
     type: Regular
-    preferred_family_name: Source Sans 3
+    preferred_family_name: Source Sans Pro
     preferred_type: ExtraLight
-    full_name: Source Sans 3 ExtraLight
-    post_script_name: SourceSans3-ExtraLight
-    version: 3.052;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
-    font: SourceSans3-ExtraLight.ttf
+    full_name: Source Sans Pro ExtraLight
+    post_script_name: SourceSansPro-ExtraLight
+    version: 3.006;hotconv 1.0.111;makeotfexe 2.5.65597
+    copyright: "© 2010 - 2019 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’."
+    font: SourceSansPro-ExtraLight.ttf
     formats:
     - ttf
-- name: Source Sans 3 Light
+- name: Source Sans Pro Light
   styles:
-  - family_name: Source Sans 3 Light
+  - family_name: Source Sans Pro Light
     type: Italic
-    preferred_family_name: Source Sans 3
+    preferred_family_name: Source Sans Pro
     preferred_type: Light Italic
-    full_name: Source Sans 3 Light Italic
-    post_script_name: SourceSans3-LightIt
-    version: 3.052;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
-    font: SourceSans3-LightIt.ttf
+    full_name: Source Sans Pro Light Italic
+    post_script_name: SourceSansPro-LightIt
+    version: 3.006;hotconv 1.0.111;makeotfexe 2.5.65597
+    copyright: "© 2010 - 2019 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’."
+    font: SourceSansPro-LightIt.ttf
     formats:
     - ttf
-  - family_name: Source Sans 3 Light
+  - family_name: Source Sans Pro Light
     type: Regular
-    preferred_family_name: Source Sans 3
+    preferred_family_name: Source Sans Pro
     preferred_type: Light
-    full_name: Source Sans 3 Light
-    post_script_name: SourceSans3-Light
-    version: 3.052;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
-    font: SourceSans3-Light.ttf
+    full_name: Source Sans Pro Light
+    post_script_name: SourceSansPro-Light
+    version: 3.006;hotconv 1.0.111;makeotfexe 2.5.65597
+    copyright: "© 2010 - 2019 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’."
+    font: SourceSansPro-Light.ttf
     formats:
     - ttf
-- name: Source Sans 3 Medium
+- name: Source Sans Pro Semibold
   styles:
-  - family_name: Source Sans 3 Medium
+  - family_name: Source Sans Pro Semibold
     type: Italic
-    preferred_family_name: Source Sans 3
-    preferred_type: Medium Italic
-    full_name: Source Sans 3 Medium Italic
-    post_script_name: SourceSans3-MediumIt
-    version: 3.052;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
-    font: SourceSans3-MediumIt.ttf
-    formats:
-    - ttf
-  - family_name: Source Sans 3 Medium
-    type: Regular
-    preferred_family_name: Source Sans 3
-    preferred_type: Medium
-    full_name: Source Sans 3 Medium
-    post_script_name: SourceSans3-Medium
-    version: 3.052;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
-    font: SourceSans3-Medium.ttf
-    formats:
-    - ttf
-- name: Source Sans 3 Semibold
-  styles:
-  - family_name: Source Sans 3 Semibold
-    type: Italic
-    preferred_family_name: Source Sans 3
+    preferred_family_name: Source Sans Pro
     preferred_type: Semibold Italic
-    full_name: Source Sans 3 Semibold Italic
-    post_script_name: SourceSans3-SemiboldIt
-    version: 3.052;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
-    font: SourceSans3-SemiboldIt.ttf
+    full_name: Source Sans Pro Semibold Italic
+    post_script_name: SourceSansPro-SemiboldIt
+    version: 3.006;hotconv 1.0.111;makeotfexe 2.5.65597
+    copyright: "© 2010 - 2019 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’."
+    font: SourceSansPro-SemiboldIt.ttf
     formats:
     - ttf
-  - family_name: Source Sans 3 Semibold
+  - family_name: Source Sans Pro Semibold
     type: Regular
-    preferred_family_name: Source Sans 3
+    preferred_family_name: Source Sans Pro
     preferred_type: Semibold
-    full_name: Source Sans 3 Semibold
-    post_script_name: SourceSans3-Semibold
-    version: 3.052;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’
-    font: SourceSans3-Semibold.ttf
+    full_name: Source Sans Pro Semibold
+    post_script_name: SourceSansPro-Semibold
+    version: 3.006;hotconv 1.0.111;makeotfexe 2.5.65597
+    copyright: "© 2010 - 2019 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’."
+    font: SourceSansPro-Semibold.ttf
     formats:
     - ttf
-- name: Source Serif 4
+- name: Source Serif Pro
   styles:
-  - family_name: Source Serif 4
+  - family_name: Source Serif Pro
     type: Bold
-    full_name: Source Serif 4 Bold
-    post_script_name: SourceSerif4-Bold
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4-Bold.ttf
+    full_name: Source Serif Pro Bold
+    post_script_name: SourceSerifPro-Bold
+    version: 3.001;hotconv 1.0.111;makeotfexe 2.5.65597
+    copyright: "© 2014 - 2019 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’."
+    font: SourceSerifPro-Bold.ttf
     formats:
     - ttf
-  - family_name: Source Serif 4
+  - family_name: Source Serif Pro
     type: Bold Italic
-    full_name: Source Serif 4 Bold Italic
-    post_script_name: SourceSerif4-BoldIt
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4-BoldIt.ttf
+    full_name: Source Serif Pro Bold Italic
+    post_script_name: SourceSerifPro-BoldIt
+    version: 3.001;hotconv 1.0.111;makeotfexe 2.5.65597
+    copyright: "© 2014 - 2019 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’."
+    font: SourceSerifPro-BoldIt.ttf
     formats:
     - ttf
-  - family_name: Source Serif 4
+  - family_name: Source Serif Pro
     type: Italic
-    full_name: Source Serif 4 Italic
-    post_script_name: SourceSerif4-It
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4-It.ttf
+    full_name: Source Serif Pro Italic
+    post_script_name: SourceSerifPro-It
+    version: 3.001;hotconv 1.0.111;makeotfexe 2.5.65597
+    copyright: "© 2014 - 2019 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’."
+    font: SourceSerifPro-It.ttf
     formats:
     - ttf
-  - family_name: Source Serif 4
+  - family_name: Source Serif Pro
     type: Regular
-    full_name: Source Serif 4
-    post_script_name: SourceSerif4-Regular
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4-Regular.ttf
+    full_name: Source Serif Pro
+    post_script_name: SourceSerifPro-Regular
+    version: 3.001;hotconv 1.0.111;makeotfexe 2.5.65597
+    copyright: "© 2014 - 2019 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’."
+    font: SourceSerifPro-Regular.ttf
     formats:
     - ttf
-- name: Source Serif 4 Black
+- name: Source Serif Pro Black
   styles:
-  - family_name: Source Serif 4 Black
+  - family_name: Source Serif Pro Black
     type: Italic
-    preferred_family_name: Source Serif 4
+    preferred_family_name: Source Serif Pro
     preferred_type: Black Italic
-    full_name: Source Serif 4 Black Italic
-    post_script_name: SourceSerif4-BlackIt
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4-BlackIt.ttf
+    full_name: Source Serif Pro Black Italic
+    post_script_name: SourceSerifPro-BlackIt
+    version: 3.001;hotconv 1.0.111;makeotfexe 2.5.65597
+    copyright: "© 2014 - 2019 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’."
+    font: SourceSerifPro-BlackIt.ttf
     formats:
     - ttf
-  - family_name: Source Serif 4 Black
+  - family_name: Source Serif Pro Black
     type: Regular
-    preferred_family_name: Source Serif 4
+    preferred_family_name: Source Serif Pro
     preferred_type: Black
-    full_name: Source Serif 4 Black
-    post_script_name: SourceSerif4-Black
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4-Black.ttf
+    full_name: Source Serif Pro Black
+    post_script_name: SourceSerifPro-Black
+    version: 3.001;hotconv 1.0.111;makeotfexe 2.5.65597
+    copyright: "© 2014 - 2019 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’."
+    font: SourceSerifPro-Black.ttf
     formats:
     - ttf
-- name: Source Serif 4 Caption
+- name: Source Serif Pro ExtraLight
   styles:
-  - family_name: Source Serif 4 Caption
-    type: Bold
-    full_name: Source Serif 4 Caption Bold
-    post_script_name: SourceSerif4Caption-Bold
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Caption-Bold.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 Caption
-    type: Bold Italic
-    full_name: Source Serif 4 Caption Bold Italic
-    post_script_name: SourceSerif4Caption-BoldIt
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Caption-BoldIt.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 Caption
+  - family_name: Source Serif Pro ExtraLight
     type: Italic
-    full_name: Source Serif 4 Caption Italic
-    post_script_name: SourceSerif4Caption-It
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Caption-It.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 Caption
-    type: Regular
-    full_name: Source Serif 4 Caption
-    post_script_name: SourceSerif4Caption-Regular
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Caption-Regular.ttf
-    formats:
-    - ttf
-- name: Source Serif 4 Caption Black
-  styles:
-  - family_name: Source Serif 4 Caption Black
-    type: Italic
-    preferred_family_name: Source Serif 4 Caption
-    preferred_type: Black Italic
-    full_name: Source Serif 4 Caption Black Italic
-    post_script_name: SourceSerif4Caption-BlackIt
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Caption-BlackIt.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 Caption Black
-    type: Regular
-    preferred_family_name: Source Serif 4 Caption
-    preferred_type: Black
-    full_name: Source Serif 4 Caption Black
-    post_script_name: SourceSerif4Caption-Black
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Caption-Black.ttf
-    formats:
-    - ttf
-- name: Source Serif 4 Caption ExtraLight
-  styles:
-  - family_name: Source Serif 4 Caption ExtraLight
-    type: Italic
-    preferred_family_name: Source Serif 4 Caption
+    preferred_family_name: Source Serif Pro
     preferred_type: ExtraLight Italic
-    full_name: Source Serif 4 Caption ExtraLight Italic
-    post_script_name: SourceSerif4Caption-ExtraLightIt
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Caption-ExtraLightIt.ttf
+    full_name: Source Serif Pro ExtraLight Italic
+    post_script_name: SourceSerifPro-ExtraLightIt
+    version: 3.001;hotconv 1.0.111;makeotfexe 2.5.65597
+    copyright: "© 2014 - 2019 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’."
+    font: SourceSerifPro-ExtraLightIt.ttf
     formats:
     - ttf
-  - family_name: Source Serif 4 Caption ExtraLight
+  - family_name: Source Serif Pro ExtraLight
     type: Regular
-    preferred_family_name: Source Serif 4 Caption
+    preferred_family_name: Source Serif Pro
     preferred_type: ExtraLight
-    full_name: Source Serif 4 Caption ExtraLight
-    post_script_name: SourceSerif4Caption-ExtraLight
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Caption-ExtraLight.ttf
+    full_name: Source Serif Pro ExtraLight
+    post_script_name: SourceSerifPro-ExtraLight
+    version: 3.001;hotconv 1.0.111;makeotfexe 2.5.65597
+    copyright: "© 2014 - 2019 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’."
+    font: SourceSerifPro-ExtraLight.ttf
     formats:
     - ttf
-- name: Source Serif 4 Caption Light
+- name: Source Serif Pro Light
   styles:
-  - family_name: Source Serif 4 Caption Light
+  - family_name: Source Serif Pro Light
     type: Italic
-    preferred_family_name: Source Serif 4 Caption
+    preferred_family_name: Source Serif Pro
     preferred_type: Light Italic
-    full_name: Source Serif 4 Caption Light Italic
-    post_script_name: SourceSerif4Caption-LightIt
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Caption-LightIt.ttf
+    full_name: Source Serif Pro Light Italic
+    post_script_name: SourceSerifPro-LightIt
+    version: 3.001;hotconv 1.0.111;makeotfexe 2.5.65597
+    copyright: "© 2014 - 2019 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’."
+    font: SourceSerifPro-LightIt.ttf
     formats:
     - ttf
-  - family_name: Source Serif 4 Caption Light
+  - family_name: Source Serif Pro Light
     type: Regular
-    preferred_family_name: Source Serif 4 Caption
+    preferred_family_name: Source Serif Pro
     preferred_type: Light
-    full_name: Source Serif 4 Caption Light
-    post_script_name: SourceSerif4Caption-Light
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Caption-Light.ttf
+    full_name: Source Serif Pro Light
+    post_script_name: SourceSerifPro-Light
+    version: 3.001;hotconv 1.0.111;makeotfexe 2.5.65597
+    copyright: "© 2014 - 2019 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’."
+    font: SourceSerifPro-Light.ttf
     formats:
     - ttf
-- name: Source Serif 4 Caption Semibold
+- name: Source Serif Pro Semibold
   styles:
-  - family_name: Source Serif 4 Caption Semibold
+  - family_name: Source Serif Pro Semibold
     type: Italic
-    preferred_family_name: Source Serif 4 Caption
+    preferred_family_name: Source Serif Pro
     preferred_type: Semibold Italic
-    full_name: Source Serif 4 Caption Semibold Italic
-    post_script_name: SourceSerif4Caption-SemiboldIt
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Caption-SemiboldIt.ttf
+    full_name: Source Serif Pro Semibold Italic
+    post_script_name: SourceSerifPro-SemiboldIt
+    version: 3.001;hotconv 1.0.111;makeotfexe 2.5.65597
+    copyright: "© 2014 - 2019 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’."
+    font: SourceSerifPro-SemiboldIt.ttf
     formats:
     - ttf
-  - family_name: Source Serif 4 Caption Semibold
+  - family_name: Source Serif Pro Semibold
     type: Regular
-    preferred_family_name: Source Serif 4 Caption
+    preferred_family_name: Source Serif Pro
     preferred_type: Semibold
-    full_name: Source Serif 4 Caption Semibold
-    post_script_name: SourceSerif4Caption-Semibold
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Caption-Semibold.ttf
-    formats:
-    - ttf
-- name: Source Serif 4 Display
-  styles:
-  - family_name: Source Serif 4 Display
-    type: Bold
-    full_name: Source Serif 4 Display Bold
-    post_script_name: SourceSerif4Display-Bold
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Display-Bold.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 Display
-    type: Bold Italic
-    full_name: Source Serif 4 Display Bold Italic
-    post_script_name: SourceSerif4Display-BoldIt
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Display-BoldIt.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 Display
-    type: Italic
-    full_name: Source Serif 4 Display Italic
-    post_script_name: SourceSerif4Display-It
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Display-It.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 Display
-    type: Regular
-    full_name: Source Serif 4 Display
-    post_script_name: SourceSerif4Display-Regular
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Display-Regular.ttf
-    formats:
-    - ttf
-- name: Source Serif 4 Display Black
-  styles:
-  - family_name: Source Serif 4 Display Black
-    type: Italic
-    preferred_family_name: Source Serif 4 Display
-    preferred_type: Black Italic
-    full_name: Source Serif 4 Display Black Italic
-    post_script_name: SourceSerif4Display-BlackIt
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Display-BlackIt.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 Display Black
-    type: Regular
-    preferred_family_name: Source Serif 4 Display
-    preferred_type: Black
-    full_name: Source Serif 4 Display Black
-    post_script_name: SourceSerif4Display-Black
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Display-Black.ttf
-    formats:
-    - ttf
-- name: Source Serif 4 Display ExtraLight
-  styles:
-  - family_name: Source Serif 4 Display ExtraLight
-    type: Italic
-    preferred_family_name: Source Serif 4 Display
-    preferred_type: ExtraLight Italic
-    full_name: Source Serif 4 Display ExtraLight Italic
-    post_script_name: SourceSerif4Display-ExtraLightIt
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Display-ExtraLightIt.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 Display ExtraLight
-    type: Regular
-    preferred_family_name: Source Serif 4 Display
-    preferred_type: ExtraLight
-    full_name: Source Serif 4 Display ExtraLight
-    post_script_name: SourceSerif4Display-ExtraLight
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Display-ExtraLight.ttf
-    formats:
-    - ttf
-- name: Source Serif 4 Display Light
-  styles:
-  - family_name: Source Serif 4 Display Light
-    type: Italic
-    preferred_family_name: Source Serif 4 Display
-    preferred_type: Light Italic
-    full_name: Source Serif 4 Display Light Italic
-    post_script_name: SourceSerif4Display-LightIt
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Display-LightIt.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 Display Light
-    type: Regular
-    preferred_family_name: Source Serif 4 Display
-    preferred_type: Light
-    full_name: Source Serif 4 Display Light
-    post_script_name: SourceSerif4Display-Light
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Display-Light.ttf
-    formats:
-    - ttf
-- name: Source Serif 4 Display Semibold
-  styles:
-  - family_name: Source Serif 4 Display Semibold
-    type: Italic
-    preferred_family_name: Source Serif 4 Display
-    preferred_type: Semibold Italic
-    full_name: Source Serif 4 Display Semibold Italic
-    post_script_name: SourceSerif4Display-SemiboldIt
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Display-SemiboldIt.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 Display Semibold
-    type: Regular
-    preferred_family_name: Source Serif 4 Display
-    preferred_type: Semibold
-    full_name: Source Serif 4 Display Semibold
-    post_script_name: SourceSerif4Display-Semibold
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Display-Semibold.ttf
-    formats:
-    - ttf
-- name: Source Serif 4 ExtraLight
-  styles:
-  - family_name: Source Serif 4 ExtraLight
-    type: Italic
-    preferred_family_name: Source Serif 4
-    preferred_type: ExtraLight Italic
-    full_name: Source Serif 4 ExtraLight Italic
-    post_script_name: SourceSerif4-ExtraLightIt
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4-ExtraLightIt.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 ExtraLight
-    type: Regular
-    preferred_family_name: Source Serif 4
-    preferred_type: ExtraLight
-    full_name: Source Serif 4 ExtraLight
-    post_script_name: SourceSerif4-ExtraLight
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4-ExtraLight.ttf
-    formats:
-    - ttf
-- name: Source Serif 4 Light
-  styles:
-  - family_name: Source Serif 4 Light
-    type: Italic
-    preferred_family_name: Source Serif 4
-    preferred_type: Light Italic
-    full_name: Source Serif 4 Light Italic
-    post_script_name: SourceSerif4-LightIt
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4-LightIt.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 Light
-    type: Regular
-    preferred_family_name: Source Serif 4
-    preferred_type: Light
-    full_name: Source Serif 4 Light
-    post_script_name: SourceSerif4-Light
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4-Light.ttf
-    formats:
-    - ttf
-- name: Source Serif 4 Semibold
-  styles:
-  - family_name: Source Serif 4 Semibold
-    type: Italic
-    preferred_family_name: Source Serif 4
-    preferred_type: Semibold Italic
-    full_name: Source Serif 4 Semibold Italic
-    post_script_name: SourceSerif4-SemiboldIt
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4-SemiboldIt.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 Semibold
-    type: Regular
-    preferred_family_name: Source Serif 4
-    preferred_type: Semibold
-    full_name: Source Serif 4 Semibold
-    post_script_name: SourceSerif4-Semibold
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4-Semibold.ttf
-    formats:
-    - ttf
-- name: Source Serif 4 SmText
-  styles:
-  - family_name: Source Serif 4 SmText
-    type: Bold
-    full_name: Source Serif 4 SmText Bold
-    post_script_name: SourceSerif4SmText-Bold
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4SmText-Bold.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 SmText
-    type: Bold Italic
-    full_name: Source Serif 4 SmText Bold Italic
-    post_script_name: SourceSerif4SmText-BoldIt
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4SmText-BoldIt.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 SmText
-    type: Italic
-    full_name: Source Serif 4 SmText Italic
-    post_script_name: SourceSerif4SmText-It
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4SmText-It.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 SmText
-    type: Regular
-    full_name: Source Serif 4 SmText
-    post_script_name: SourceSerif4SmText-Regular
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4SmText-Regular.ttf
-    formats:
-    - ttf
-- name: Source Serif 4 SmText Black
-  styles:
-  - family_name: Source Serif 4 SmText Black
-    type: Italic
-    preferred_family_name: Source Serif 4 SmText
-    preferred_type: Black Italic
-    full_name: Source Serif 4 SmText Black Italic
-    post_script_name: SourceSerif4SmText-BlackIt
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4SmText-BlackIt.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 SmText Black
-    type: Regular
-    preferred_family_name: Source Serif 4 SmText
-    preferred_type: Black
-    full_name: Source Serif 4 SmText Black
-    post_script_name: SourceSerif4SmText-Black
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4SmText-Black.ttf
-    formats:
-    - ttf
-- name: Source Serif 4 SmText ExtraLight
-  styles:
-  - family_name: Source Serif 4 SmText ExtraLight
-    type: Italic
-    preferred_family_name: Source Serif 4 SmText
-    preferred_type: ExtraLight Italic
-    full_name: Source Serif 4 SmText ExtraLight Italic
-    post_script_name: SourceSerif4SmText-ExtraLightIt
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4SmText-ExtraLightIt.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 SmText ExtraLight
-    type: Regular
-    preferred_family_name: Source Serif 4 SmText
-    preferred_type: ExtraLight
-    full_name: Source Serif 4 SmText ExtraLight
-    post_script_name: SourceSerif4SmText-ExtraLight
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4SmText-ExtraLight.ttf
-    formats:
-    - ttf
-- name: Source Serif 4 SmText Light
-  styles:
-  - family_name: Source Serif 4 SmText Light
-    type: Italic
-    preferred_family_name: Source Serif 4 SmText
-    preferred_type: Light Italic
-    full_name: Source Serif 4 SmText Light Italic
-    post_script_name: SourceSerif4SmText-LightIt
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4SmText-LightIt.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 SmText Light
-    type: Regular
-    preferred_family_name: Source Serif 4 SmText
-    preferred_type: Light
-    full_name: Source Serif 4 SmText Light
-    post_script_name: SourceSerif4SmText-Light
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4SmText-Light.ttf
-    formats:
-    - ttf
-- name: Source Serif 4 SmText Semibold
-  styles:
-  - family_name: Source Serif 4 SmText Semibold
-    type: Italic
-    preferred_family_name: Source Serif 4 SmText
-    preferred_type: Semibold Italic
-    full_name: Source Serif 4 SmText Semibold Italic
-    post_script_name: SourceSerif4SmText-SemiboldIt
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4SmText-SemiboldIt.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 SmText Semibold
-    type: Regular
-    preferred_family_name: Source Serif 4 SmText
-    preferred_type: Semibold
-    full_name: Source Serif 4 SmText Semibold
-    post_script_name: SourceSerif4SmText-Semibold
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4SmText-Semibold.ttf
-    formats:
-    - ttf
-- name: Source Serif 4 Subhead
-  styles:
-  - family_name: Source Serif 4 Subhead
-    type: Bold
-    full_name: Source Serif 4 Subhead Bold
-    post_script_name: SourceSerif4Subhead-Bold
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Subhead-Bold.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 Subhead
-    type: Bold Italic
-    full_name: Source Serif 4 Subhead Bold Italic
-    post_script_name: SourceSerif4Subhead-BoldIt
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Subhead-BoldIt.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 Subhead
-    type: Italic
-    full_name: Source Serif 4 Subhead Italic
-    post_script_name: SourceSerif4Subhead-It
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Subhead-It.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 Subhead
-    type: Regular
-    full_name: Source Serif 4 Subhead
-    post_script_name: SourceSerif4Subhead-Regular
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Subhead-Regular.ttf
-    formats:
-    - ttf
-- name: Source Serif 4 Subhead Black
-  styles:
-  - family_name: Source Serif 4 Subhead Black
-    type: Italic
-    preferred_family_name: Source Serif 4 Subhead
-    preferred_type: Black Italic
-    full_name: Source Serif 4 Subhead Black Italic
-    post_script_name: SourceSerif4Subhead-BlackIt
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Subhead-BlackIt.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 Subhead Black
-    type: Regular
-    preferred_family_name: Source Serif 4 Subhead
-    preferred_type: Black
-    full_name: Source Serif 4 Subhead Black
-    post_script_name: SourceSerif4Subhead-Black
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Subhead-Black.ttf
-    formats:
-    - ttf
-- name: Source Serif 4 Subhead ExtraLight
-  styles:
-  - family_name: Source Serif 4 Subhead ExtraLight
-    type: Italic
-    preferred_family_name: Source Serif 4 Subhead
-    preferred_type: ExtraLight Italic
-    full_name: Source Serif 4 Subhead ExtraLight Italic
-    post_script_name: SourceSerif4Subhead-ExtraLightIt
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Subhead-ExtraLightIt.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 Subhead ExtraLight
-    type: Regular
-    preferred_family_name: Source Serif 4 Subhead
-    preferred_type: ExtraLight
-    full_name: Source Serif 4 Subhead ExtraLight
-    post_script_name: SourceSerif4Subhead-ExtraLight
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Subhead-ExtraLight.ttf
-    formats:
-    - ttf
-- name: Source Serif 4 Subhead Light
-  styles:
-  - family_name: Source Serif 4 Subhead Light
-    type: Italic
-    preferred_family_name: Source Serif 4 Subhead
-    preferred_type: Light Italic
-    full_name: Source Serif 4 Subhead Light Italic
-    post_script_name: SourceSerif4Subhead-LightIt
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Subhead-LightIt.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 Subhead Light
-    type: Regular
-    preferred_family_name: Source Serif 4 Subhead
-    preferred_type: Light
-    full_name: Source Serif 4 Subhead Light
-    post_script_name: SourceSerif4Subhead-Light
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Subhead-Light.ttf
-    formats:
-    - ttf
-- name: Source Serif 4 Subhead Semibold
-  styles:
-  - family_name: Source Serif 4 Subhead Semibold
-    type: Italic
-    preferred_family_name: Source Serif 4 Subhead
-    preferred_type: Semibold Italic
-    full_name: Source Serif 4 Subhead Semibold Italic
-    post_script_name: SourceSerif4Subhead-SemiboldIt
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Subhead-SemiboldIt.ttf
-    formats:
-    - ttf
-  - family_name: Source Serif 4 Subhead Semibold
-    type: Regular
-    preferred_family_name: Source Serif 4 Subhead
-    preferred_type: Semibold
-    full_name: Source Serif 4 Subhead Semibold
-    post_script_name: SourceSerif4Subhead-Semibold
-    version: 4.005;hotconv 1.1.0;makeotfexe 2.6.0
-    description: 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with
-      a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS
-      OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations
-      governing your use of this Font Software.'
-    copyright: © 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved Font Name ‘Source’.
-    font: SourceSerif4Subhead-Semibold.ttf
+    full_name: Source Serif Pro Semibold
+    post_script_name: SourceSerifPro-Semibold
+    version: 3.001;hotconv 1.0.111;makeotfexe 2.5.65597
+    copyright: "© 2014 - 2019 Adobe Systems Incorporated (http://www.adobe.com/),
+      with Reserved Font Name ‘Source’."
+    font: SourceSerifPro-Semibold.ttf
     formats:
     - ttf
 extract: {}
-copyright: © 2014-2025 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+copyright: "© 2010 - 2019 Adobe Systems Incorporated (http://www.adobe.com/), with
+  Reserved Font Name ‘Source’."
+spdx_license: OFL-1.1-RFN
 license_url: http://scripts.sil.org/OFL
-command: create-formula https://github.com/fontist/source-fonts/releases/download/v1.3/source-fonts-1.3.zip
-font_version: 2.005;addfeatures 5.0.0b21
-open_license: 'Copyright 2010-2020 Adobe (http://www.adobe.com/), with Reserved Font Name ''Source''. All Rights Reserved.
-  Source is a trademark of Adobe in the United States and/or other countries.
-
+open_license: |-
+  Copyright 2010-2020 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe in the United States and/or other countries.
 
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
-
 
   This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
 
-
   -----------------------------------------------------------
-
   SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
-
   -----------------------------------------------------------
-
 
   PREAMBLE
-
   The goals of the Open Font License (OFL) are to stimulate worldwide
-
   development of collaborative font projects, to support the font creation
-
   efforts of academic and linguistic communities, and to provide a free and
-
   open framework in which fonts may be shared and improved in partnership
-
   with others.
 
-
   The OFL allows the licensed fonts to be used, studied, modified and
-
   redistributed freely as long as they are not sold by themselves. The
-
   fonts, including any derivative works, can be bundled, embedded,
-
   redistributed and/or sold with any software provided that any reserved
-
   names are not used by derivative works. The fonts and derivatives,
-
   however, cannot be released under any other type of license. The
-
   requirement for fonts to remain under this license does not apply
-
   to any document created using the fonts or their derivatives.
 
-
   DEFINITIONS
-
   "Font Software" refers to the set of files released by the Copyright
-
   Holder(s) under this license and clearly marked as such. This may
-
   include source files, build scripts and documentation.
 
-
   "Reserved Font Name" refers to any names specified as such after the
-
   copyright statement(s).
 
-
   "Original Version" refers to the collection of Font Software components as
-
   distributed by the Copyright Holder(s).
 
-
   "Modified Version" refers to any derivative made by adding to, deleting,
-
   or substituting -- in part or in whole -- any of the components of the
-
   Original Version, by changing formats or by porting the Font Software to a
-
   new environment.
 
-
   "Author" refers to any designer, engineer, programmer, technical
-
   writer or other person who contributed to the Font Software.
 
-
   PERMISSION & CONDITIONS
-
   Permission is hereby granted, free of charge, to any person obtaining
-
   a copy of the Font Software, to use, study, copy, merge, embed, modify,
-
   redistribute, and sell modified and unmodified copies of the Font
-
   Software, subject to the following conditions:
 
-
   1) Neither the Font Software nor any of its individual components,
-
   in Original or Modified Versions, may be sold by itself.
 
-
   2) Original or Modified Versions of the Font Software may be bundled,
-
   redistributed and/or sold with any software, provided that each copy
-
   contains the above copyright notice and this license. These can be
-
   included either as stand-alone text files, human-readable headers or
-
   in the appropriate machine-readable metadata fields within text or
-
   binary files as long as those fields can be easily viewed by the user.
 
-
   3) No Modified Version of the Font Software may use the Reserved Font
-
   Name(s) unless explicit written permission is granted by the corresponding
-
   Copyright Holder. This restriction only applies to the primary font name as
-
   presented to the users.
 
-
   4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
-
   Software shall not be used to promote, endorse or advertise any
-
   Modified Version, except to acknowledge the contribution(s) of the
-
   Copyright Holder(s) and the Author(s) or with their explicit written
-
   permission.
 
-
   5) The Font Software, modified or unmodified, in part or in whole,
-
   must be distributed entirely under this license, and must not be
-
   distributed under any other license. The requirement for fonts to
-
   remain under this license does not apply to any document created
-
   using the Font Software.
 
-
   TERMINATION
-
   This license becomes null and void if any of the above conditions are
-
   not met.
 
-
   DISCLAIMER
-
   THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-
   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
-
   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
-
   OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
-
   COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
-
   INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
-
-  OTHER DEALINGS IN THE FONT SOFTWARE.'
+  OTHER DEALINGS IN THE FONT SOFTWARE.
+command: create-formula https://github.com/fontist/source-fonts/releases/download/v1.0/source-fonts-1.0.zip
