@@ -6,23 +6,17 @@ description: Noto is a global font collection for writing in all modern and anci
   script. It has multiple weights, and has 103 glyphs.
 homepage: https://fonts.google.com/specimen/Noto+Serif+Vithkuqi
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Noto Serif Vithkuqi
     files:
-    - https://fonts.gstatic.com/s/notoserifvithkuqi/v3/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRWMdW2Hqy9A4teH.woff2
-    - https://fonts.gstatic.com/s/notoserifvithkuqi/v3/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRW-dW2Hqy9A4teH.woff2
-    - https://fonts.gstatic.com/s/notoserifvithkuqi/v3/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRVScm2Hqy9A4teH.woff2
-    - https://fonts.gstatic.com/s/notoserifvithkuqi/v3/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRVrcm2Hqy9A4teH.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notoserifvithkuqi/NotoSerifVithkuqi[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/notoserifvithkuqi/v3/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRWMdW2Hqy9A4teH.woff2
-    - https://fonts.gstatic.com/s/notoserifvithkuqi/v3/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRW-dW2Hqy9A4teH.woff2
-    - https://fonts.gstatic.com/s/notoserifvithkuqi/v3/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRVScm2Hqy9A4teH.woff2
-    - https://fonts.gstatic.com/s/notoserifvithkuqi/v3/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRVrcm2Hqy9A4teH.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notoserifvithkuqi/NotoSerifVithkuqi[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Noto Serif Vithkuqi
     files:
@@ -36,8 +30,20 @@ resources:
     - https://fonts.gstatic.com/s/notoserifvithkuqi/v3/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRVScm2Cqy9A4teH.ttf
     - https://fonts.gstatic.com/s/notoserifvithkuqi/v3/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRVrcm2Cqy9A4teH.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Noto Serif Vithkuqi
+    files:
+    - https://fonts.gstatic.com/s/notoserifvithkuqi/v3/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRWMdW2Hqy9A4teH.woff2
+    - https://fonts.gstatic.com/s/notoserifvithkuqi/v3/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRW-dW2Hqy9A4teH.woff2
+    - https://fonts.gstatic.com/s/notoserifvithkuqi/v3/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRVScm2Hqy9A4teH.woff2
+    - https://fonts.gstatic.com/s/notoserifvithkuqi/v3/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRVrcm2Hqy9A4teH.woff2
+    urls:
+    - https://fonts.gstatic.com/s/notoserifvithkuqi/v3/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRWMdW2Hqy9A4teH.woff2
+    - https://fonts.gstatic.com/s/notoserifvithkuqi/v3/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRW-dW2Hqy9A4teH.woff2
+    - https://fonts.gstatic.com/s/notoserifvithkuqi/v3/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRVScm2Hqy9A4teH.woff2
+    - https://fonts.gstatic.com/s/notoserifvithkuqi/v3/YA94r1OY7FjTf5szakutkndpw9HH-4a4z9pklvg1IQSNcRVrcm2Hqy9A4teH.woff2
+    format: woff2
 fonts:
 - name: Noto Serif Vithkuqi
   styles:
@@ -53,9 +59,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Noto Serif Vithkuqi
     type: Bold
     full_name: Noto Serif Vithkuqi Bold
@@ -68,9 +73,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Noto Serif Vithkuqi
+    type: Regular
+    full_name: Noto Serif Vithkuqi Regular
+    post_script_name: NotoSerifVithkuqi-Regular
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/vithkuqi)
+    font: NotoSerifVithkuqi[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Noto Serif Vithkuqi Medium
   styles:
   - family_name: Noto Serif Vithkuqi Medium
@@ -87,9 +103,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Serif Vithkuqi SemiBold
   styles:
   - family_name: Noto Serif Vithkuqi SemiBold
@@ -106,9 +121,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/vithkuqi)
 spdx_license: OFL-1.1-no-RFN

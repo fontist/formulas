@@ -9,17 +9,17 @@ description: Climate Crisis, is a variable font designed to help visualise the u
   .
 homepage: https://fonts.google.com/specimen/Climate+Crisis
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Climate Crisis
     files:
-    - https://fonts.gstatic.com/s/climatecrisis/v14/wEOpEB3AntNeKCPBVW9XOKlmp3AUgWFN1DvIvcM0gFp6iKUrGb7PsQ.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/climatecrisis/ClimateCrisis[YEAR].ttf
     urls:
-    - https://fonts.gstatic.com/s/climatecrisis/v14/wEOpEB3AntNeKCPBVW9XOKlmp3AUgWFN1DvIvcM0gFp6iKUrGb7PsQ.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/climatecrisis/ClimateCrisis[YEAR].ttf
+    format: ttf
     variable_axes:
     - YEAR
-  ttf_variable:
+  ttf_static:
     source: google
     family: Climate Crisis
     files:
@@ -27,8 +27,14 @@ resources:
     urls:
     - https://fonts.gstatic.com/s/climatecrisis/v14/wEOpEB3AntNeKCPBVW9XOKlmp3AUgWFN1DvIvcM0gFp6jaUrGb7PsQ.ttf
     format: ttf
-    variable_axes:
-    - YEAR
+  woff2_static:
+    source: google
+    family: Climate Crisis
+    files:
+    - https://fonts.gstatic.com/s/climatecrisis/v14/wEOpEB3AntNeKCPBVW9XOKlmp3AUgWFN1DvIvcM0gFp6iKUrGb7PsQ.woff2
+    urls:
+    - https://fonts.gstatic.com/s/climatecrisis/v14/wEOpEB3AntNeKCPBVW9XOKlmp3AUgWFN1DvIvcM0gFp6iKUrGb7PsQ.woff2
+    format: woff2
 fonts:
 - name: Climate Crisis
   styles:
@@ -44,9 +50,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Climate Crisis
+    type: Regular
+    full_name: Climate Crisis Regular
+    post_script_name: ClimateCrisis-Regular
+    copyright: Copyright 2020 The Climate Crisis Project Authors (https://github.com/dancoull/ClimateCrisis)
+    font: ClimateCrisis[YEAR].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - YEAR
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2020 The Climate Crisis Project Authors (https://github.com/dancoull/ClimateCrisis)
 spdx_license: OFL-1.1-no-RFN

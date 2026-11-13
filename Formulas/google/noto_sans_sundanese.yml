@@ -6,23 +6,17 @@ description: Noto is a global font collection for writing in all modern and anci
   in the Southeast Asian Sundanese script. It has multiple weights and 89 glyphs.
 homepage: https://fonts.google.com/specimen/Noto+Sans+Sundanese
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Noto Sans Sundanese
     files:
-    - https://fonts.gstatic.com/s/notosanssundanese/v28/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6ctxpNNHHizv7fQES.woff2
-    - https://fonts.gstatic.com/s/notosanssundanese/v28/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6ctxbNNHHizv7fQES.woff2
-    - https://fonts.gstatic.com/s/notosanssundanese/v28/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6cty3M9HHizv7fQES.woff2
-    - https://fonts.gstatic.com/s/notosanssundanese/v28/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6ctyOM9HHizv7fQES.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosanssundanese/NotoSansSundanese[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/notosanssundanese/v28/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6ctxpNNHHizv7fQES.woff2
-    - https://fonts.gstatic.com/s/notosanssundanese/v28/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6ctxbNNHHizv7fQES.woff2
-    - https://fonts.gstatic.com/s/notosanssundanese/v28/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6cty3M9HHizv7fQES.woff2
-    - https://fonts.gstatic.com/s/notosanssundanese/v28/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6ctyOM9HHizv7fQES.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosanssundanese/NotoSansSundanese[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Noto Sans Sundanese
     files:
@@ -36,8 +30,20 @@ resources:
     - https://fonts.gstatic.com/s/notosanssundanese/v28/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6cty3M9HCizv7fQES.ttf
     - https://fonts.gstatic.com/s/notosanssundanese/v28/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6ctyOM9HCizv7fQES.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Noto Sans Sundanese
+    files:
+    - https://fonts.gstatic.com/s/notosanssundanese/v28/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6ctxpNNHHizv7fQES.woff2
+    - https://fonts.gstatic.com/s/notosanssundanese/v28/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6ctxbNNHHizv7fQES.woff2
+    - https://fonts.gstatic.com/s/notosanssundanese/v28/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6cty3M9HHizv7fQES.woff2
+    - https://fonts.gstatic.com/s/notosanssundanese/v28/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6ctyOM9HHizv7fQES.woff2
+    urls:
+    - https://fonts.gstatic.com/s/notosanssundanese/v28/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6ctxpNNHHizv7fQES.woff2
+    - https://fonts.gstatic.com/s/notosanssundanese/v28/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6ctxbNNHHizv7fQES.woff2
+    - https://fonts.gstatic.com/s/notosanssundanese/v28/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6cty3M9HHizv7fQES.woff2
+    - https://fonts.gstatic.com/s/notosanssundanese/v28/FwZw7_84xUkosG2xJo2gm7nFwSLQkdymq2mkz3Gz1_b6ctyOM9HHizv7fQES.woff2
+    format: woff2
 fonts:
 - name: Noto Sans Sundanese
   styles:
@@ -53,9 +59,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Noto Sans Sundanese
     type: Bold
     full_name: Noto Sans Sundanese Bold
@@ -68,9 +73,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Noto Sans Sundanese
+    type: Regular
+    full_name: Noto Sans Sundanese Regular
+    post_script_name: NotoSansSundanese-Regular
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sundanese)
+    font: NotoSansSundanese[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Noto Sans Sundanese Medium
   styles:
   - family_name: Noto Sans Sundanese Medium
@@ -87,9 +103,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans Sundanese SemiBold
   styles:
   - family_name: Noto Sans Sundanese SemiBold
@@ -106,9 +121,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sundanese)
 spdx_license: OFL-1.1-no-RFN

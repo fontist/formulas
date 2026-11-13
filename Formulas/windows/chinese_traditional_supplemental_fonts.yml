@@ -1,0 +1,53 @@
+---
+schema_version: 5
+name: Chinese Traditional Supplemental Fonts
+description: Chinese (Traditional) Supplemental Fonts for Windows
+homepage: https://learn.microsoft.com/en-us/typography/fonts/windows_11_font_list
+platforms:
+- windows
+open_license: |
+  Licensed under the Microsoft Software License Terms for Windows.
+  These fonts are provided as part of the Windows operating system
+  and are subject to the Windows license agreement accepted during
+  installation. No additional license agreement is required.
+resources:
+  chinese_traditional_supplemental_fonts:
+    source: windows_fod
+    capability_name: Language.Fonts.Hant~~~und-HANT~0.0.1.0
+fonts:
+- name: DFKai-SB
+  styles:
+  - family_name: DFKai-SB
+    type: Regular
+    font: Kaiu.ttf
+    formats:
+    - ttf
+    variable_font: false
+- name: MingLiU
+  styles:
+  - family_name: MingLiU
+    type: Regular
+    font: Mingliu.ttc
+    formats:
+    - ttc
+    variable_font: false
+- name: MingLiU_HKSCS
+  styles:
+  - family_name: MingLiU_HKSCS
+    type: Regular
+    font: Mingliu.ttc
+    formats:
+    - ttc
+    variable_font: false
+- name: PMingLiU
+  styles:
+  - family_name: PMingLiU
+    type: Regular
+    font: Mingliu.ttc
+    formats:
+    - ttc
+    variable_font: false
+import_source:
+  type: windows
+  capability_name: Language.Fonts.Hant~~~und-HANT~0.0.1.0
+  min_windows_version: '10.0'

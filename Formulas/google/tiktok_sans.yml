@@ -4,32 +4,20 @@ schema_version: 5
 description: TikTok Sans font family
 homepage: https://fonts.google.com/specimen/TikTok+Sans
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: TikTok Sans
     files:
-    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo7VuH1oVroETJ6Rg.woff2
-    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo7COH1oVroETJ6Rg.woff2
-    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo7OuH1oVroETJ6Rg.woff2
-    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo71ub1oVroETJ6Rg.woff2
-    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo77-b1oVroETJ6Rg.woff2
-    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo7iOb1oVroETJ6Rg.woff2
-    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo7oeb1oVroETJ6Rg.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/tiktoksans/TikTokSans[opsz,slnt,wdth,wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo7VuH1oVroETJ6Rg.woff2
-    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo7COH1oVroETJ6Rg.woff2
-    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo7OuH1oVroETJ6Rg.woff2
-    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo71ub1oVroETJ6Rg.woff2
-    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo77-b1oVroETJ6Rg.woff2
-    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo7iOb1oVroETJ6Rg.woff2
-    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo7oeb1oVroETJ6Rg.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/tiktoksans/TikTokSans[opsz,slnt,wdth,wght].ttf
+    format: ttf
     variable_axes:
     - opsz
     - slnt
     - wdth
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: TikTok Sans
     files:
@@ -49,11 +37,26 @@ resources:
     - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo7iOb1pFroETJ6Rg.ttf
     - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo7oeb1pFroETJ6Rg.ttf
     format: ttf
-    variable_axes:
-    - opsz
-    - slnt
-    - wdth
-    - wght
+  woff2_static:
+    source: google
+    family: TikTok Sans
+    files:
+    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo7VuH1oVroETJ6Rg.woff2
+    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo7COH1oVroETJ6Rg.woff2
+    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo7OuH1oVroETJ6Rg.woff2
+    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo71ub1oVroETJ6Rg.woff2
+    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo77-b1oVroETJ6Rg.woff2
+    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo7iOb1oVroETJ6Rg.woff2
+    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo7oeb1oVroETJ6Rg.woff2
+    urls:
+    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo7VuH1oVroETJ6Rg.woff2
+    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo7COH1oVroETJ6Rg.woff2
+    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo7OuH1oVroETJ6Rg.woff2
+    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo71ub1oVroETJ6Rg.woff2
+    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo77-b1oVroETJ6Rg.woff2
+    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo7iOb1oVroETJ6Rg.woff2
+    - https://fonts.gstatic.com/s/tiktoksans/v7/70kbu7g-Lm8OXGnh_Ow1sUfFMmlnhbRF425wxXH-UGeud7XItbaHtxhggMrrmAvSNAHtMV6x5PpBL2J5Rgbj-Bo7oeb1oVroETJ6Rg.woff2
+    format: woff2
 fonts:
 - name: TikTok Sans Light
   styles:
@@ -71,12 +74,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - opsz
-    - slnt
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: TikTok Sans
   styles:
   - family_name: TikTok Sans
@@ -91,12 +90,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - opsz
-    - slnt
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: TikTok Sans
     type: Bold
     full_name: TikTok Sans Bold
@@ -109,12 +104,23 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: TikTok Sans
+    type: Regular
+    full_name: TikTok Sans Light
+    post_script_name: TikTokSans-Light
+    copyright: Copyright 2024 TikTok Inc. (https://github.com/tiktok/TikTokSans)
+    font: TikTokSans[opsz,slnt,wdth,wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - opsz
     - slnt
     - wdth
     - wght
+    source_resource: ttf_variable
 - name: TikTok Sans Medium
   styles:
   - family_name: TikTok Sans Medium
@@ -131,12 +137,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - opsz
-    - slnt
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: TikTok Sans SemiBold
   styles:
   - family_name: TikTok Sans SemiBold
@@ -153,12 +155,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - opsz
-    - slnt
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: TikTok Sans ExtraBold
   styles:
   - family_name: TikTok Sans ExtraBold
@@ -175,12 +173,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - opsz
-    - slnt
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: TikTok Sans Black
   styles:
   - family_name: TikTok Sans Black
@@ -197,12 +191,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - opsz
-    - slnt
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2024 TikTok Inc. (https://github.com/tiktok/TikTokSans)
 spdx_license: OFL-1.1-no-RFN

@@ -7,25 +7,17 @@ description: Kreon targets text typesetting for magazines and news sites. With a
   as well as italics. Enjoy.
 homepage: https://fonts.google.com/specimen/Kreon
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Kreon
     files:
-    - https://fonts.gstatic.com/s/kreon/v40/t5t9IRIUKY-TFF_LW5lnMR3v2DnvPNimfzUfp2dWNg.woff2
-    - https://fonts.gstatic.com/s/kreon/v40/t5t9IRIUKY-TFF_LW5lnMR3v2DnvYtimfzUfp2dWNg.woff2
-    - https://fonts.gstatic.com/s/kreon/v40/t5t9IRIUKY-TFF_LW5lnMR3v2DnvUNimfzUfp2dWNg.woff2
-    - https://fonts.gstatic.com/s/kreon/v40/t5t9IRIUKY-TFF_LW5lnMR3v2DnvvN-mfzUfp2dWNg.woff2
-    - https://fonts.gstatic.com/s/kreon/v40/t5t9IRIUKY-TFF_LW5lnMR3v2Dnvhd-mfzUfp2dWNg.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/kreon/Kreon[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/kreon/v40/t5t9IRIUKY-TFF_LW5lnMR3v2DnvPNimfzUfp2dWNg.woff2
-    - https://fonts.gstatic.com/s/kreon/v40/t5t9IRIUKY-TFF_LW5lnMR3v2DnvYtimfzUfp2dWNg.woff2
-    - https://fonts.gstatic.com/s/kreon/v40/t5t9IRIUKY-TFF_LW5lnMR3v2DnvUNimfzUfp2dWNg.woff2
-    - https://fonts.gstatic.com/s/kreon/v40/t5t9IRIUKY-TFF_LW5lnMR3v2DnvvN-mfzUfp2dWNg.woff2
-    - https://fonts.gstatic.com/s/kreon/v40/t5t9IRIUKY-TFF_LW5lnMR3v2Dnvhd-mfzUfp2dWNg.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/kreon/Kreon[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Kreon
     files:
@@ -41,8 +33,22 @@ resources:
     - https://fonts.gstatic.com/s/kreon/v40/t5t9IRIUKY-TFF_LW5lnMR3v2DnvvN-mejUfp2dWNg.ttf
     - https://fonts.gstatic.com/s/kreon/v40/t5t9IRIUKY-TFF_LW5lnMR3v2Dnvhd-mejUfp2dWNg.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Kreon
+    files:
+    - https://fonts.gstatic.com/s/kreon/v40/t5t9IRIUKY-TFF_LW5lnMR3v2DnvPNimfzUfp2dWNg.woff2
+    - https://fonts.gstatic.com/s/kreon/v40/t5t9IRIUKY-TFF_LW5lnMR3v2DnvYtimfzUfp2dWNg.woff2
+    - https://fonts.gstatic.com/s/kreon/v40/t5t9IRIUKY-TFF_LW5lnMR3v2DnvUNimfzUfp2dWNg.woff2
+    - https://fonts.gstatic.com/s/kreon/v40/t5t9IRIUKY-TFF_LW5lnMR3v2DnvvN-mfzUfp2dWNg.woff2
+    - https://fonts.gstatic.com/s/kreon/v40/t5t9IRIUKY-TFF_LW5lnMR3v2Dnvhd-mfzUfp2dWNg.woff2
+    urls:
+    - https://fonts.gstatic.com/s/kreon/v40/t5t9IRIUKY-TFF_LW5lnMR3v2DnvPNimfzUfp2dWNg.woff2
+    - https://fonts.gstatic.com/s/kreon/v40/t5t9IRIUKY-TFF_LW5lnMR3v2DnvYtimfzUfp2dWNg.woff2
+    - https://fonts.gstatic.com/s/kreon/v40/t5t9IRIUKY-TFF_LW5lnMR3v2DnvUNimfzUfp2dWNg.woff2
+    - https://fonts.gstatic.com/s/kreon/v40/t5t9IRIUKY-TFF_LW5lnMR3v2DnvvN-mfzUfp2dWNg.woff2
+    - https://fonts.gstatic.com/s/kreon/v40/t5t9IRIUKY-TFF_LW5lnMR3v2Dnvhd-mfzUfp2dWNg.woff2
+    format: woff2
 fonts:
 - name: Kreon Light
   styles:
@@ -61,9 +67,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Kreon
   styles:
   - family_name: Kreon
@@ -79,9 +84,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Kreon
     type: Bold
     full_name: Kreon Bold
@@ -95,9 +99,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Kreon
+    type: Regular
+    full_name: Kreon Light
+    post_script_name: Kreon-Light
+    copyright: Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon),
+      with Reserved Font Name "Kreon"
+    font: Kreon[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Kreon Medium
   styles:
   - family_name: Kreon Medium
@@ -115,9 +131,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Kreon SemiBold
   styles:
   - family_name: Kreon SemiBold
@@ -135,9 +150,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon),
   with Reserved Font Name "Kreon"

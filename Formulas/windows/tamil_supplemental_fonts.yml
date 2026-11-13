@@ -1,0 +1,50 @@
+---
+schema_version: 5
+name: Tamil Supplemental Fonts
+description: Tamil Supplemental Fonts for Windows
+homepage: https://learn.microsoft.com/en-us/typography/fonts/windows_11_font_list
+platforms:
+- windows
+open_license: |
+  Licensed under the Microsoft Software License Terms for Windows.
+  These fonts are provided as part of the Windows operating system
+  and are subject to the Windows license agreement accepted during
+  installation. No additional license agreement is required.
+resources:
+  tamil_supplemental_fonts:
+    source: windows_fod
+    capability_name: Language.Fonts.Taml~~~und-TAML~0.0.1.0
+    format: ttf
+fonts:
+- name: Latha
+  styles:
+  - family_name: Latha
+    type: Regular
+    font: Latha.ttf
+    formats:
+    - ttf
+    variable_font: false
+  - family_name: Latha
+    type: Bold
+    font: Lathab.ttf
+    formats:
+    - ttf
+    variable_font: false
+- name: Vijaya
+  styles:
+  - family_name: Vijaya
+    type: Regular
+    font: Vijaya.ttf
+    formats:
+    - ttf
+    variable_font: false
+  - family_name: Vijaya
+    type: Bold
+    font: Vijayab.ttf
+    formats:
+    - ttf
+    variable_font: false
+import_source:
+  type: windows
+  capability_name: Language.Fonts.Taml~~~und-TAML~0.0.1.0
+  min_windows_version: '10.0'

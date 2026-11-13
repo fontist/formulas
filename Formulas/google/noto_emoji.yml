@@ -6,25 +6,17 @@ description: Noto Emoji is an open source font that has you covered for all your
   weights and features thousands of emoji.
 homepage: https://fonts.google.com/specimen/Noto+Emoji
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Noto Emoji
     files:
-    - https://fonts.gstatic.com/s/notoemoji/v62/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob_10jwqS-FGJCMY.woff2
-    - https://fonts.gstatic.com/s/notoemoji/v62/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob-r0jwqS-FGJCMY.woff2
-    - https://fonts.gstatic.com/s/notoemoji/v62/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob-Z0jwqS-FGJCMY.woff2
-    - https://fonts.gstatic.com/s/notoemoji/v62/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob911TwqS-FGJCMY.woff2
-    - https://fonts.gstatic.com/s/notoemoji/v62/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob9M1TwqS-FGJCMY.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notoemoji/NotoEmoji[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/notoemoji/v62/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob_10jwqS-FGJCMY.woff2
-    - https://fonts.gstatic.com/s/notoemoji/v62/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob-r0jwqS-FGJCMY.woff2
-    - https://fonts.gstatic.com/s/notoemoji/v62/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob-Z0jwqS-FGJCMY.woff2
-    - https://fonts.gstatic.com/s/notoemoji/v62/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob911TwqS-FGJCMY.woff2
-    - https://fonts.gstatic.com/s/notoemoji/v62/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob9M1TwqS-FGJCMY.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notoemoji/NotoEmoji[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Noto Emoji
     files:
@@ -40,8 +32,22 @@ resources:
     - https://fonts.gstatic.com/s/notoemoji/v62/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob911TwvS-FGJCMY.ttf
     - https://fonts.gstatic.com/s/notoemoji/v62/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob9M1TwvS-FGJCMY.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Noto Emoji
+    files:
+    - https://fonts.gstatic.com/s/notoemoji/v62/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob_10jwqS-FGJCMY.woff2
+    - https://fonts.gstatic.com/s/notoemoji/v62/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob-r0jwqS-FGJCMY.woff2
+    - https://fonts.gstatic.com/s/notoemoji/v62/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob-Z0jwqS-FGJCMY.woff2
+    - https://fonts.gstatic.com/s/notoemoji/v62/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob911TwqS-FGJCMY.woff2
+    - https://fonts.gstatic.com/s/notoemoji/v62/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob9M1TwqS-FGJCMY.woff2
+    urls:
+    - https://fonts.gstatic.com/s/notoemoji/v62/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob_10jwqS-FGJCMY.woff2
+    - https://fonts.gstatic.com/s/notoemoji/v62/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob-r0jwqS-FGJCMY.woff2
+    - https://fonts.gstatic.com/s/notoemoji/v62/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob-Z0jwqS-FGJCMY.woff2
+    - https://fonts.gstatic.com/s/notoemoji/v62/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob911TwqS-FGJCMY.woff2
+    - https://fonts.gstatic.com/s/notoemoji/v62/bMrnmSyK7YY-MEu6aWjPDs-ar6uWaGWuob9M1TwqS-FGJCMY.woff2
+    format: woff2
 fonts:
 - name: Noto Emoji Light
   styles:
@@ -62,9 +68,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Emoji
   styles:
   - family_name: Noto Emoji
@@ -82,9 +87,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Noto Emoji
     type: Bold
     full_name: Noto Emoji Bold
@@ -100,9 +104,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Noto Emoji
+    type: Regular
+    full_name: Noto Emoji Regular
+    post_script_name: NotoEmoji-Regular
+    copyright: Copyright 2013, 2022 Google Inc. All Rights Reserved.
+    font: NotoEmoji[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Noto Emoji Medium
   styles:
   - family_name: Noto Emoji Medium
@@ -122,9 +137,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Emoji SemiBold
   styles:
   - family_name: Noto Emoji SemiBold
@@ -144,9 +158,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2013 Google LLC
 spdx_license: OFL-1.1-no-RFN

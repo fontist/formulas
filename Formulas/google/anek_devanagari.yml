@@ -26,32 +26,18 @@ description: 'Anek, as the meaning of the word suggests, is an exercise in multi
   contribute, see github.com/EkType/Anek'
 homepage: https://fonts.google.com/specimen/Anek+Devanagari
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Anek Devanagari
     files:
-    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLDtk-9iFk0LjZ7E.woff2
-    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLBtku9iFk0LjZ7E.woff2
-    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLCzku9iFk0LjZ7E.woff2
-    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLDtku9iFk0LjZ7E.woff2
-    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLDfku9iFk0LjZ7E.woff2
-    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLAzle9iFk0LjZ7E.woff2
-    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLAKle9iFk0LjZ7E.woff2
-    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLBtle9iFk0LjZ7E.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/anekdevanagari/AnekDevanagari[wdth,wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLDtk-9iFk0LjZ7E.woff2
-    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLBtku9iFk0LjZ7E.woff2
-    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLCzku9iFk0LjZ7E.woff2
-    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLDtku9iFk0LjZ7E.woff2
-    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLDfku9iFk0LjZ7E.woff2
-    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLAzle9iFk0LjZ7E.woff2
-    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLAKle9iFk0LjZ7E.woff2
-    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLBtle9iFk0LjZ7E.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/anekdevanagari/AnekDevanagari[wdth,wght].ttf
+    format: ttf
     variable_axes:
     - wdth
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Anek Devanagari
     files:
@@ -73,9 +59,28 @@ resources:
     - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLAKle9nFk0LjZ7E.ttf
     - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLBtle9nFk0LjZ7E.ttf
     format: ttf
-    variable_axes:
-    - wdth
-    - wght
+  woff2_static:
+    source: google
+    family: Anek Devanagari
+    files:
+    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLDtk-9iFk0LjZ7E.woff2
+    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLBtku9iFk0LjZ7E.woff2
+    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLCzku9iFk0LjZ7E.woff2
+    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLDtku9iFk0LjZ7E.woff2
+    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLDfku9iFk0LjZ7E.woff2
+    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLAzle9iFk0LjZ7E.woff2
+    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLAKle9iFk0LjZ7E.woff2
+    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLBtle9iFk0LjZ7E.woff2
+    urls:
+    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLDtk-9iFk0LjZ7E.woff2
+    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLBtku9iFk0LjZ7E.woff2
+    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLCzku9iFk0LjZ7E.woff2
+    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLDtku9iFk0LjZ7E.woff2
+    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLDfku9iFk0LjZ7E.woff2
+    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLAzle9iFk0LjZ7E.woff2
+    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLAKle9iFk0LjZ7E.woff2
+    - https://fonts.gstatic.com/s/anekdevanagari/v17/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLBtle9iFk0LjZ7E.woff2
+    format: woff2
 fonts:
 - name: Anek Devanagari Thin
   styles:
@@ -93,10 +98,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Anek Devanagari ExtraLight
   styles:
   - family_name: Anek Devanagari ExtraLight
@@ -113,10 +116,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Anek Devanagari Light
   styles:
   - family_name: Anek Devanagari Light
@@ -133,10 +134,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Anek Devanagari
   styles:
   - family_name: Anek Devanagari
@@ -151,10 +150,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Anek Devanagari
     type: Bold
     full_name: Anek Devanagari Bold
@@ -167,10 +164,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Anek Devanagari
+    type: Regular
+    full_name: Anek Devanagari Medium
+    post_script_name: AnekDevanagari-Medium
+    copyright: Copyright 2021 The Anek Project Authors (https://github.com/EkType/Anek)
+    font: AnekDevanagari[wdth,wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wdth
     - wght
+    source_resource: ttf_variable
 - name: Anek Devanagari Medium
   styles:
   - family_name: Anek Devanagari Medium
@@ -187,10 +195,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Anek Devanagari SemiBold
   styles:
   - family_name: Anek Devanagari SemiBold
@@ -207,10 +213,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Anek Devanagari ExtraBold
   styles:
   - family_name: Anek Devanagari ExtraBold
@@ -227,10 +231,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2021 The Anek Project Authors (https://github.com/EkType/Anek)
 spdx_license: OFL-1.1-no-RFN

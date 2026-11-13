@@ -10,25 +10,17 @@ description: Podkova is the Russian word for Horseshoe, and this is a monoline s
   is now a variable font. To contribute, see github.com/cyrealtype/Podkova .
 homepage: https://fonts.google.com/specimen/Podkova
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Podkova
     files:
-    - https://fonts.gstatic.com/s/podkova/v33/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWtFzcU9EoporSHH.woff2
-    - https://fonts.gstatic.com/s/podkova/v33/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWt3zcU9EoporSHH.woff2
-    - https://fonts.gstatic.com/s/podkova/v33/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWubysU9EoporSHH.woff2
-    - https://fonts.gstatic.com/s/podkova/v33/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWuiysU9EoporSHH.woff2
-    - https://fonts.gstatic.com/s/podkova/v33/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWvFysU9EoporSHH.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/podkova/Podkova[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/podkova/v33/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWtFzcU9EoporSHH.woff2
-    - https://fonts.gstatic.com/s/podkova/v33/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWt3zcU9EoporSHH.woff2
-    - https://fonts.gstatic.com/s/podkova/v33/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWubysU9EoporSHH.woff2
-    - https://fonts.gstatic.com/s/podkova/v33/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWuiysU9EoporSHH.woff2
-    - https://fonts.gstatic.com/s/podkova/v33/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWvFysU9EoporSHH.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/podkova/Podkova[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Podkova
     files:
@@ -44,8 +36,22 @@ resources:
     - https://fonts.gstatic.com/s/podkova/v33/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWuiysU4EoporSHH.ttf
     - https://fonts.gstatic.com/s/podkova/v33/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWvFysU4EoporSHH.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Podkova
+    files:
+    - https://fonts.gstatic.com/s/podkova/v33/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWtFzcU9EoporSHH.woff2
+    - https://fonts.gstatic.com/s/podkova/v33/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWt3zcU9EoporSHH.woff2
+    - https://fonts.gstatic.com/s/podkova/v33/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWubysU9EoporSHH.woff2
+    - https://fonts.gstatic.com/s/podkova/v33/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWuiysU9EoporSHH.woff2
+    - https://fonts.gstatic.com/s/podkova/v33/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWvFysU9EoporSHH.woff2
+    urls:
+    - https://fonts.gstatic.com/s/podkova/v33/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWtFzcU9EoporSHH.woff2
+    - https://fonts.gstatic.com/s/podkova/v33/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWt3zcU9EoporSHH.woff2
+    - https://fonts.gstatic.com/s/podkova/v33/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWubysU9EoporSHH.woff2
+    - https://fonts.gstatic.com/s/podkova/v33/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWuiysU9EoporSHH.woff2
+    - https://fonts.gstatic.com/s/podkova/v33/K2FufZ1EmftJSV9VQpXb1lo9vC3nZWvFysU9EoporSHH.woff2
+    format: woff2
 fonts:
 - name: Podkova
   styles:
@@ -61,9 +67,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Podkova
     type: Bold
     full_name: Podkova Bold
@@ -76,9 +81,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Podkova
+    type: Regular
+    full_name: Podkova Regular
+    post_script_name: Podkova-Regular
+    copyright: Copyright 2011 The Podkova Project Authors (https://github.com/cyrealtype/Podkova)
+    font: Podkova[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Podkova Medium
   styles:
   - family_name: Podkova Medium
@@ -95,9 +111,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Podkova SemiBold
   styles:
   - family_name: Podkova SemiBold
@@ -114,9 +129,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Podkova ExtraBold
   styles:
   - family_name: Podkova ExtraBold
@@ -133,9 +147,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2011 The Podkova Project Authors (https://github.com/cyrealtype/Podkova)
 spdx_license: OFL-1.1-no-RFN

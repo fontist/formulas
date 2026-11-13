@@ -18,23 +18,17 @@ description: 'The Foundation Fonts for Australian Schools collection is a set of
   .'
 homepage: https://fonts.google.com/specimen/Edu+TAS+Beginner
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Edu TAS Beginner
     files:
-    - https://fonts.gstatic.com/s/edutasbeginner/v5/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_HwemkuBWRhvk02.woff2
-    - https://fonts.gstatic.com/s/edutasbeginner/v5/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_HCemkuBWRhvk02.woff2
-    - https://fonts.gstatic.com/s/edutasbeginner/v5/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_EufWkuBWRhvk02.woff2
-    - https://fonts.gstatic.com/s/edutasbeginner/v5/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_EXfWkuBWRhvk02.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/edutasbeginner/EduTASBeginner[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/edutasbeginner/v5/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_HwemkuBWRhvk02.woff2
-    - https://fonts.gstatic.com/s/edutasbeginner/v5/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_HCemkuBWRhvk02.woff2
-    - https://fonts.gstatic.com/s/edutasbeginner/v5/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_EufWkuBWRhvk02.woff2
-    - https://fonts.gstatic.com/s/edutasbeginner/v5/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_EXfWkuBWRhvk02.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/edutasbeginner/EduTASBeginner[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Edu TAS Beginner
     files:
@@ -48,8 +42,20 @@ resources:
     - https://fonts.gstatic.com/s/edutasbeginner/v5/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_EufWkrBWRhvk02.ttf
     - https://fonts.gstatic.com/s/edutasbeginner/v5/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_EXfWkrBWRhvk02.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Edu TAS Beginner
+    files:
+    - https://fonts.gstatic.com/s/edutasbeginner/v5/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_HwemkuBWRhvk02.woff2
+    - https://fonts.gstatic.com/s/edutasbeginner/v5/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_HCemkuBWRhvk02.woff2
+    - https://fonts.gstatic.com/s/edutasbeginner/v5/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_EufWkuBWRhvk02.woff2
+    - https://fonts.gstatic.com/s/edutasbeginner/v5/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_EXfWkuBWRhvk02.woff2
+    urls:
+    - https://fonts.gstatic.com/s/edutasbeginner/v5/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_HwemkuBWRhvk02.woff2
+    - https://fonts.gstatic.com/s/edutasbeginner/v5/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_HCemkuBWRhvk02.woff2
+    - https://fonts.gstatic.com/s/edutasbeginner/v5/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_EufWkuBWRhvk02.woff2
+    - https://fonts.gstatic.com/s/edutasbeginner/v5/ZXuwe04WubHfGVY-1TcNg7AFUmshg8jIUTzK3r34f_EXfWkuBWRhvk02.woff2
+    format: woff2
 fonts:
 - name: Edu TAS Beginner
   styles:
@@ -65,9 +71,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Edu TAS Beginner
     type: Bold
     full_name: Edu TAS Beginner Bold
@@ -80,9 +85,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Edu TAS Beginner
+    type: Regular
+    full_name: Edu TAS Beginner Regular
+    post_script_name: EduTASBeginner-Regular
+    copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
+    font: EduTASBeginner[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Edu TAS Beginner Medium
   styles:
   - family_name: Edu TAS Beginner Medium
@@ -99,9 +115,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Edu TAS Beginner SemiBold
   styles:
   - family_name: Edu TAS Beginner SemiBold
@@ -118,9 +133,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
 spdx_license: OFL-1.1-no-RFN

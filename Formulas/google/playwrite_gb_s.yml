@@ -4,31 +4,19 @@ schema_version: 5
 description: Playwrite GB S font family
 homepage: https://fonts.google.com/specimen/Playwrite+GB+S
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Playwrite GB S
     files:
-    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU6uhH8wpeMaTk8AQ.woff2
-    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU6OhD8wpeMaTk8AQ.woff2
-    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU65BD8wpeMaTk8AQ.woff2
-    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU6uhD8wpeMaTk8AQ.woff2
-    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclMUhZ2NSzwsAReZ.woff2
-    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclOUhJ2NSzwsAReZ.woff2
-    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclNKhJ2NSzwsAReZ.woff2
-    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclMUhJ2NSzwsAReZ.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playwritegbs/PlaywriteGBS[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playwritegbs/PlaywriteGBS-Italic[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU6uhH8wpeMaTk8AQ.woff2
-    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU6OhD8wpeMaTk8AQ.woff2
-    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU65BD8wpeMaTk8AQ.woff2
-    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU6uhD8wpeMaTk8AQ.woff2
-    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclMUhZ2NSzwsAReZ.woff2
-    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclOUhJ2NSzwsAReZ.woff2
-    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclNKhJ2NSzwsAReZ.woff2
-    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclMUhJ2NSzwsAReZ.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playwritegbs/PlaywriteGBS[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playwritegbs/PlaywriteGBS-Italic[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Playwrite GB S
     files:
@@ -50,8 +38,28 @@ resources:
     - https://fonts.gstatic.com/s/playwritegbs/v12/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclNKhJ2ISzwsAReZ.ttf
     - https://fonts.gstatic.com/s/playwritegbs/v12/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclMUhJ2ISzwsAReZ.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Playwrite GB S
+    files:
+    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU6uhH8wpeMaTk8AQ.woff2
+    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU6OhD8wpeMaTk8AQ.woff2
+    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU65BD8wpeMaTk8AQ.woff2
+    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU6uhD8wpeMaTk8AQ.woff2
+    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclMUhZ2NSzwsAReZ.woff2
+    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclOUhJ2NSzwsAReZ.woff2
+    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclNKhJ2NSzwsAReZ.woff2
+    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclMUhJ2NSzwsAReZ.woff2
+    urls:
+    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU6uhH8wpeMaTk8AQ.woff2
+    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU6OhD8wpeMaTk8AQ.woff2
+    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU65BD8wpeMaTk8AQ.woff2
+    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU6uhD8wpeMaTk8AQ.woff2
+    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclMUhZ2NSzwsAReZ.woff2
+    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclOUhJ2NSzwsAReZ.woff2
+    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclNKhJ2NSzwsAReZ.woff2
+    - https://fonts.gstatic.com/s/playwritegbs/v12/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclMUhJ2NSzwsAReZ.woff2
+    format: woff2
 fonts:
 - name: Playwrite GB S Thin
   styles:
@@ -69,9 +77,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Playwrite GB S Thin
     type: Italic
     full_name: Playwrite GB S Thin Italic
@@ -86,9 +93,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite GB S ExtraLight
   styles:
   - family_name: Playwrite GB S ExtraLight
@@ -105,9 +111,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Playwrite GB S ExtraLight
     type: Italic
     full_name: Playwrite GB S ExtraLight Italic
@@ -122,9 +127,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite GB S Light
   styles:
   - family_name: Playwrite GB S Light
@@ -141,9 +145,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Playwrite GB S Light
     type: Italic
     full_name: Playwrite GB S Light Italic
@@ -158,9 +161,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite GB S
   styles:
   - family_name: Playwrite GB S
@@ -175,9 +177,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Playwrite GB S
     type: Italic
     full_name: Playwrite GB S Italic
@@ -190,9 +191,32 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Playwrite GB S
+    type: Regular
+    full_name: Playwrite GB S Regular
+    post_script_name: PlaywriteGBS-Regular
+    copyright: Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)
+    font: PlaywriteGBS[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
+  - family_name: Playwrite GB S
+    type: Italic
+    full_name: Playwrite GB S Italic
+    post_script_name: PlaywriteGBS-Italic
+    copyright: Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)
+    font: PlaywriteGBS-Italic[wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wght
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)
 spdx_license: OFL-1.1-no-RFN

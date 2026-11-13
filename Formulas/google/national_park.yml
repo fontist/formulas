@@ -4,29 +4,17 @@ schema_version: 5
 description: National Park font family
 homepage: https://fonts.google.com/specimen/National+Park
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: National Park
     files:
-    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfL_b5XJdoayNUNf.woff2
-    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfIhb5XJdoayNUNf.woff2
-    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfJ_b5XJdoayNUNf.woff2
-    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfJNb5XJdoayNUNf.woff2
-    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfKhaJXJdoayNUNf.woff2
-    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfKYaJXJdoayNUNf.woff2
-    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfL_aJXJdoayNUNf.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/nationalpark/NationalPark[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfL_b5XJdoayNUNf.woff2
-    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfIhb5XJdoayNUNf.woff2
-    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfJ_b5XJdoayNUNf.woff2
-    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfJNb5XJdoayNUNf.woff2
-    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfKhaJXJdoayNUNf.woff2
-    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfKYaJXJdoayNUNf.woff2
-    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfL_aJXJdoayNUNf.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/nationalpark/NationalPark[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: National Park
     files:
@@ -46,8 +34,26 @@ resources:
     - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfKYaJXMdoayNUNf.ttf
     - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfL_aJXMdoayNUNf.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: National Park
+    files:
+    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfL_b5XJdoayNUNf.woff2
+    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfIhb5XJdoayNUNf.woff2
+    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfJ_b5XJdoayNUNf.woff2
+    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfJNb5XJdoayNUNf.woff2
+    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfKhaJXJdoayNUNf.woff2
+    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfKYaJXJdoayNUNf.woff2
+    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfL_aJXJdoayNUNf.woff2
+    urls:
+    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfL_b5XJdoayNUNf.woff2
+    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfIhb5XJdoayNUNf.woff2
+    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfJ_b5XJdoayNUNf.woff2
+    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfJNb5XJdoayNUNf.woff2
+    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfKhaJXJdoayNUNf.woff2
+    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfKYaJXJdoayNUNf.woff2
+    - https://fonts.gstatic.com/s/nationalpark/v4/GftQ7vJOtg4NO-gmoY4nmcqP-VY9vs1ixcqgHfL_aJXJdoayNUNf.woff2
+    format: woff2
 fonts:
 - name: National Park ExtraLight
   styles:
@@ -65,9 +71,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: National Park Light
   styles:
   - family_name: National Park Light
@@ -84,9 +89,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: National Park
   styles:
   - family_name: National Park
@@ -101,9 +105,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: National Park
     type: Bold
     full_name: National Park Bold
@@ -116,9 +119,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: National Park
+    type: Regular
+    full_name: National Park Regular
+    post_script_name: NationalPark-Regular
+    copyright: Copyright 2024 The National Park Project Authors (https://github.com/benhoepner/National-Park)
+    font: NationalPark[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: National Park Medium
   styles:
   - family_name: National Park Medium
@@ -135,9 +149,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: National Park SemiBold
   styles:
   - family_name: National Park SemiBold
@@ -154,9 +167,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: National Park ExtraBold
   styles:
   - family_name: National Park ExtraBold
@@ -173,9 +185,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2024 The National Park Project Authors (https://github.com/benhoepner/National-Park)
 spdx_license: OFL-1.1-no-RFN

@@ -4,23 +4,17 @@ schema_version: 5
 description: Playwrite ZA font family
 homepage: https://fonts.google.com/specimen/Playwrite+ZA
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Playwrite ZA
     files:
-    - https://fonts.gstatic.com/s/playwriteza/v11/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0EbLGbYAsn9T5dt0.woff2
-    - https://fonts.gstatic.com/s/playwriteza/v11/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0ETLHbYAsn9T5dt0.woff2
-    - https://fonts.gstatic.com/s/playwriteza/v11/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0EezHbYAsn9T5dt0.woff2
-    - https://fonts.gstatic.com/s/playwriteza/v11/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0EbLHbYAsn9T5dt0.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playwriteza/PlaywriteZA[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/playwriteza/v11/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0EbLGbYAsn9T5dt0.woff2
-    - https://fonts.gstatic.com/s/playwriteza/v11/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0ETLHbYAsn9T5dt0.woff2
-    - https://fonts.gstatic.com/s/playwriteza/v11/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0EezHbYAsn9T5dt0.woff2
-    - https://fonts.gstatic.com/s/playwriteza/v11/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0EbLHbYAsn9T5dt0.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playwriteza/PlaywriteZA[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Playwrite ZA
     files:
@@ -34,8 +28,20 @@ resources:
     - https://fonts.gstatic.com/s/playwriteza/v11/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0EezHbYUsn9T5dt0.ttf
     - https://fonts.gstatic.com/s/playwriteza/v11/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0EbLHbYUsn9T5dt0.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Playwrite ZA
+    files:
+    - https://fonts.gstatic.com/s/playwriteza/v11/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0EbLGbYAsn9T5dt0.woff2
+    - https://fonts.gstatic.com/s/playwriteza/v11/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0ETLHbYAsn9T5dt0.woff2
+    - https://fonts.gstatic.com/s/playwriteza/v11/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0EezHbYAsn9T5dt0.woff2
+    - https://fonts.gstatic.com/s/playwriteza/v11/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0EbLHbYAsn9T5dt0.woff2
+    urls:
+    - https://fonts.gstatic.com/s/playwriteza/v11/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0EbLGbYAsn9T5dt0.woff2
+    - https://fonts.gstatic.com/s/playwriteza/v11/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0ETLHbYAsn9T5dt0.woff2
+    - https://fonts.gstatic.com/s/playwriteza/v11/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0EezHbYAsn9T5dt0.woff2
+    - https://fonts.gstatic.com/s/playwriteza/v11/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0EbLHbYAsn9T5dt0.woff2
+    format: woff2
 fonts:
 - name: Playwrite ZA Thin
   styles:
@@ -53,9 +59,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite ZA ExtraLight
   styles:
   - family_name: Playwrite ZA ExtraLight
@@ -72,9 +77,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite ZA Light
   styles:
   - family_name: Playwrite ZA Light
@@ -91,9 +95,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite ZA
   styles:
   - family_name: Playwrite ZA
@@ -108,9 +111,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Playwrite ZA
+    type: Regular
+    full_name: Playwrite ZA Regular
+    post_script_name: PlaywriteZA-Regular
+    copyright: Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)
+    font: PlaywriteZA[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)
 spdx_license: OFL-1.1-no-RFN

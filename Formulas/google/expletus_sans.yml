@@ -10,31 +10,19 @@ description: Expletus Sans is a display typeface, which means that it is not rec
   Expletus Sans .
 homepage: https://fonts.google.com/specimen/Expletus+Sans
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Expletus Sans
     files:
-    - https://fonts.gstatic.com/s/expletussans/v31/RLpqK5v5_bqufTYdnhFzDj2dX_IwS3my73zcDaSY2s1tFQTcXfMm.woff2
-    - https://fonts.gstatic.com/s/expletussans/v31/RLpqK5v5_bqufTYdnhFzDj2dX_IwS3my73zcDaSq2s1tFQTcXfMm.woff2
-    - https://fonts.gstatic.com/s/expletussans/v31/RLpqK5v5_bqufTYdnhFzDj2dX_IwS3my73zcDaRG3c1tFQTcXfMm.woff2
-    - https://fonts.gstatic.com/s/expletussans/v31/RLpqK5v5_bqufTYdnhFzDj2dX_IwS3my73zcDaR_3c1tFQTcXfMm.woff2
-    - https://fonts.gstatic.com/s/expletussans/v31/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmSUrHwX-WOMmKKY.woff2
-    - https://fonts.gstatic.com/s/expletussans/v31/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmRcrHwX-WOMmKKY.woff2
-    - https://fonts.gstatic.com/s/expletussans/v31/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmfssHwX-WOMmKKY.woff2
-    - https://fonts.gstatic.com/s/expletussans/v31/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmcIsHwX-WOMmKKY.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/expletussans/ExpletusSans[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/expletussans/ExpletusSans-Italic[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/expletussans/v31/RLpqK5v5_bqufTYdnhFzDj2dX_IwS3my73zcDaSY2s1tFQTcXfMm.woff2
-    - https://fonts.gstatic.com/s/expletussans/v31/RLpqK5v5_bqufTYdnhFzDj2dX_IwS3my73zcDaSq2s1tFQTcXfMm.woff2
-    - https://fonts.gstatic.com/s/expletussans/v31/RLpqK5v5_bqufTYdnhFzDj2dX_IwS3my73zcDaRG3c1tFQTcXfMm.woff2
-    - https://fonts.gstatic.com/s/expletussans/v31/RLpqK5v5_bqufTYdnhFzDj2dX_IwS3my73zcDaR_3c1tFQTcXfMm.woff2
-    - https://fonts.gstatic.com/s/expletussans/v31/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmSUrHwX-WOMmKKY.woff2
-    - https://fonts.gstatic.com/s/expletussans/v31/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmRcrHwX-WOMmKKY.woff2
-    - https://fonts.gstatic.com/s/expletussans/v31/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmfssHwX-WOMmKKY.woff2
-    - https://fonts.gstatic.com/s/expletussans/v31/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmcIsHwX-WOMmKKY.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/expletussans/ExpletusSans[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/expletussans/ExpletusSans-Italic[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Expletus Sans
     files:
@@ -56,8 +44,28 @@ resources:
     - https://fonts.gstatic.com/s/expletussans/v31/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmfssHwD-WOMmKKY.ttf
     - https://fonts.gstatic.com/s/expletussans/v31/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmcIsHwD-WOMmKKY.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Expletus Sans
+    files:
+    - https://fonts.gstatic.com/s/expletussans/v31/RLpqK5v5_bqufTYdnhFzDj2dX_IwS3my73zcDaSY2s1tFQTcXfMm.woff2
+    - https://fonts.gstatic.com/s/expletussans/v31/RLpqK5v5_bqufTYdnhFzDj2dX_IwS3my73zcDaSq2s1tFQTcXfMm.woff2
+    - https://fonts.gstatic.com/s/expletussans/v31/RLpqK5v5_bqufTYdnhFzDj2dX_IwS3my73zcDaRG3c1tFQTcXfMm.woff2
+    - https://fonts.gstatic.com/s/expletussans/v31/RLpqK5v5_bqufTYdnhFzDj2dX_IwS3my73zcDaR_3c1tFQTcXfMm.woff2
+    - https://fonts.gstatic.com/s/expletussans/v31/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmSUrHwX-WOMmKKY.woff2
+    - https://fonts.gstatic.com/s/expletussans/v31/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmRcrHwX-WOMmKKY.woff2
+    - https://fonts.gstatic.com/s/expletussans/v31/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmfssHwX-WOMmKKY.woff2
+    - https://fonts.gstatic.com/s/expletussans/v31/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmcIsHwX-WOMmKKY.woff2
+    urls:
+    - https://fonts.gstatic.com/s/expletussans/v31/RLpqK5v5_bqufTYdnhFzDj2dX_IwS3my73zcDaSY2s1tFQTcXfMm.woff2
+    - https://fonts.gstatic.com/s/expletussans/v31/RLpqK5v5_bqufTYdnhFzDj2dX_IwS3my73zcDaSq2s1tFQTcXfMm.woff2
+    - https://fonts.gstatic.com/s/expletussans/v31/RLpqK5v5_bqufTYdnhFzDj2dX_IwS3my73zcDaRG3c1tFQTcXfMm.woff2
+    - https://fonts.gstatic.com/s/expletussans/v31/RLpqK5v5_bqufTYdnhFzDj2dX_IwS3my73zcDaR_3c1tFQTcXfMm.woff2
+    - https://fonts.gstatic.com/s/expletussans/v31/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmSUrHwX-WOMmKKY.woff2
+    - https://fonts.gstatic.com/s/expletussans/v31/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmRcrHwX-WOMmKKY.woff2
+    - https://fonts.gstatic.com/s/expletussans/v31/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmfssHwX-WOMmKKY.woff2
+    - https://fonts.gstatic.com/s/expletussans/v31/RLpoK5v5_bqufTYdnhFzDj2ddfsCtKHbhOZyCrFQmcIsHwX-WOMmKKY.woff2
+    format: woff2
 fonts:
 - name: Expletus Sans
   styles:
@@ -73,9 +81,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Expletus Sans
     type: Bold
     full_name: Expletus Sans Bold
@@ -88,9 +95,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Expletus Sans
     type: Italic
     full_name: Expletus Sans Italic
@@ -103,9 +109,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Expletus Sans
     type: Bold Italic
     full_name: Expletus Sans Bold Italic
@@ -118,9 +123,32 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Expletus Sans
+    type: Regular
+    full_name: Expletus Sans Regular
+    post_script_name: ExpletusSans-Regular
+    copyright: Copyright 2019 The Expletus Sans Project Authors (https://github.com/googlefonts/Expletus-Sans)
+    font: ExpletusSans[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
+  - family_name: Expletus Sans
+    type: Italic
+    full_name: Expletus Sans Italic
+    post_script_name: ExpletusSans-Italic
+    copyright: Copyright 2019 The Expletus Sans Project Authors (https://github.com/googlefonts/Expletus-Sans)
+    font: ExpletusSans-Italic[wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wght
+    source_resource: ttf_variable
 - name: Expletus Sans Medium
   styles:
   - family_name: Expletus Sans Medium
@@ -137,9 +165,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Expletus Sans Medium
     type: Italic
     full_name: Expletus Sans Medium Italic
@@ -154,9 +181,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Expletus Sans SemiBold
   styles:
   - family_name: Expletus Sans SemiBold
@@ -173,9 +199,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Expletus Sans SemiBold
     type: Italic
     full_name: Expletus Sans SemiBold Italic
@@ -190,9 +215,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2019 The Expletus Sans Project Authors (https://github.com/googlefonts/Expletus-Sans)
 spdx_license: OFL-1.1-no-RFN

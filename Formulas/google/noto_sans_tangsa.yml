@@ -6,23 +6,17 @@ description: Noto is a global font collection for writing in all modern and anci
   weights, and has 94 glyphs.
 homepage: https://fonts.google.com/specimen/Noto+Sans+Tangsa
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Noto Sans Tangsa
     files:
-    - https://fonts.gstatic.com/s/notosanstangsa/v9/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp1YkyoUYdplyJDA.woff2
-    - https://fonts.gstatic.com/s/notosanstangsa/v9/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp1qkyoUYdplyJDA.woff2
-    - https://fonts.gstatic.com/s/notosanstangsa/v9/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp2GlCoUYdplyJDA.woff2
-    - https://fonts.gstatic.com/s/notosanstangsa/v9/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp2_lCoUYdplyJDA.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosanstangsa/NotoSansTangsa[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/notosanstangsa/v9/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp1YkyoUYdplyJDA.woff2
-    - https://fonts.gstatic.com/s/notosanstangsa/v9/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp1qkyoUYdplyJDA.woff2
-    - https://fonts.gstatic.com/s/notosanstangsa/v9/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp2GlCoUYdplyJDA.woff2
-    - https://fonts.gstatic.com/s/notosanstangsa/v9/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp2_lCoUYdplyJDA.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosanstangsa/NotoSansTangsa[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Noto Sans Tangsa
     files:
@@ -36,8 +30,20 @@ resources:
     - https://fonts.gstatic.com/s/notosanstangsa/v9/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp2GlCoRYdplyJDA.ttf
     - https://fonts.gstatic.com/s/notosanstangsa/v9/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp2_lCoRYdplyJDA.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Noto Sans Tangsa
+    files:
+    - https://fonts.gstatic.com/s/notosanstangsa/v9/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp1YkyoUYdplyJDA.woff2
+    - https://fonts.gstatic.com/s/notosanstangsa/v9/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp1qkyoUYdplyJDA.woff2
+    - https://fonts.gstatic.com/s/notosanstangsa/v9/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp2GlCoUYdplyJDA.woff2
+    - https://fonts.gstatic.com/s/notosanstangsa/v9/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp2_lCoUYdplyJDA.woff2
+    urls:
+    - https://fonts.gstatic.com/s/notosanstangsa/v9/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp1YkyoUYdplyJDA.woff2
+    - https://fonts.gstatic.com/s/notosanstangsa/v9/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp1qkyoUYdplyJDA.woff2
+    - https://fonts.gstatic.com/s/notosanstangsa/v9/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp2GlCoUYdplyJDA.woff2
+    - https://fonts.gstatic.com/s/notosanstangsa/v9/z7NCdQPmcigbbZAIOl9igP26K470lICpky0-peX5Qp2_lCoUYdplyJDA.woff2
+    format: woff2
 fonts:
 - name: Noto Sans Tangsa
   styles:
@@ -53,9 +59,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Noto Sans Tangsa
     type: Bold
     full_name: Noto Sans Tangsa Bold
@@ -68,9 +73,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Noto Sans Tangsa
+    type: Regular
+    full_name: Noto Sans Tangsa Regular
+    post_script_name: NotoSansTangsa-Regular
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tangsa)
+    font: NotoSansTangsa[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Noto Sans Tangsa Medium
   styles:
   - family_name: Noto Sans Tangsa Medium
@@ -87,9 +103,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans Tangsa SemiBold
   styles:
   - family_name: Noto Sans Tangsa SemiBold
@@ -106,9 +121,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/tangsa)
 spdx_license: OFL-1.1-no-RFN

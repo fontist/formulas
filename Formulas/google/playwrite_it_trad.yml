@@ -4,23 +4,17 @@ schema_version: 5
 description: Playwrite IT Trad font family
 homepage: https://fonts.google.com/specimen/Playwrite+IT+Trad
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Playwrite IT Trad
     files:
-    - https://fonts.gstatic.com/s/playwriteittrad/v11/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq96u--_hUNNXvzL2Q.woff2
-    - https://fonts.gstatic.com/s/playwriteittrad/v11/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq96O-6_hUNNXvzL2Q.woff2
-    - https://fonts.gstatic.com/s/playwriteittrad/v11/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq965e6_hUNNXvzL2Q.woff2
-    - https://fonts.gstatic.com/s/playwriteittrad/v11/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq96u-6_hUNNXvzL2Q.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playwriteittrad/PlaywriteITTrad[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/playwriteittrad/v11/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq96u--_hUNNXvzL2Q.woff2
-    - https://fonts.gstatic.com/s/playwriteittrad/v11/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq96O-6_hUNNXvzL2Q.woff2
-    - https://fonts.gstatic.com/s/playwriteittrad/v11/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq965e6_hUNNXvzL2Q.woff2
-    - https://fonts.gstatic.com/s/playwriteittrad/v11/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq96u-6_hUNNXvzL2Q.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playwriteittrad/PlaywriteITTrad[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Playwrite IT Trad
     files:
@@ -34,8 +28,20 @@ resources:
     - https://fonts.gstatic.com/s/playwriteittrad/v11/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq965e6_gENNXvzL2Q.ttf
     - https://fonts.gstatic.com/s/playwriteittrad/v11/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq96u-6_gENNXvzL2Q.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Playwrite IT Trad
+    files:
+    - https://fonts.gstatic.com/s/playwriteittrad/v11/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq96u--_hUNNXvzL2Q.woff2
+    - https://fonts.gstatic.com/s/playwriteittrad/v11/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq96O-6_hUNNXvzL2Q.woff2
+    - https://fonts.gstatic.com/s/playwriteittrad/v11/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq965e6_hUNNXvzL2Q.woff2
+    - https://fonts.gstatic.com/s/playwriteittrad/v11/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq96u-6_hUNNXvzL2Q.woff2
+    urls:
+    - https://fonts.gstatic.com/s/playwriteittrad/v11/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq96u--_hUNNXvzL2Q.woff2
+    - https://fonts.gstatic.com/s/playwriteittrad/v11/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq96O-6_hUNNXvzL2Q.woff2
+    - https://fonts.gstatic.com/s/playwriteittrad/v11/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq965e6_hUNNXvzL2Q.woff2
+    - https://fonts.gstatic.com/s/playwriteittrad/v11/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq96u-6_hUNNXvzL2Q.woff2
+    format: woff2
 fonts:
 - name: Playwrite IT Trad Thin
   styles:
@@ -53,9 +59,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite IT Trad ExtraLight
   styles:
   - family_name: Playwrite IT Trad ExtraLight
@@ -72,9 +77,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite IT Trad Light
   styles:
   - family_name: Playwrite IT Trad Light
@@ -91,9 +95,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite IT Trad
   styles:
   - family_name: Playwrite IT Trad
@@ -108,9 +111,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Playwrite IT Trad
+    type: Regular
+    full_name: Playwrite IT Trad Regular
+    post_script_name: PlaywriteITTrad-Regular
+    copyright: Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)
+    font: PlaywriteITTrad[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)
 spdx_license: OFL-1.1-no-RFN

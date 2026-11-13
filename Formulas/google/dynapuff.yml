@@ -15,24 +15,18 @@ description: "Dynapuff’s loveable demeanor and hand-drawn charm makes it well 
   ."
 homepage: https://fonts.google.com/specimen/DynaPuff
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: DynaPuff
     files:
-    - https://fonts.gstatic.com/s/dynapuff/v9/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RSxYu6Y3rSRs4wn8.woff2
-    - https://fonts.gstatic.com/s/dynapuff/v9/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RSyQu6Y3rSRs4wn8.woff2
-    - https://fonts.gstatic.com/s/dynapuff/v9/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RS8gp6Y3rSRs4wn8.woff2
-    - https://fonts.gstatic.com/s/dynapuff/v9/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RS_Ep6Y3rSRs4wn8.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/dynapuff/DynaPuff[wdth,wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/dynapuff/v9/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RSxYu6Y3rSRs4wn8.woff2
-    - https://fonts.gstatic.com/s/dynapuff/v9/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RSyQu6Y3rSRs4wn8.woff2
-    - https://fonts.gstatic.com/s/dynapuff/v9/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RS8gp6Y3rSRs4wn8.woff2
-    - https://fonts.gstatic.com/s/dynapuff/v9/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RS_Ep6Y3rSRs4wn8.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/dynapuff/DynaPuff[wdth,wght].ttf
+    format: ttf
     variable_axes:
     - wdth
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: DynaPuff
     files:
@@ -46,9 +40,20 @@ resources:
     - https://fonts.gstatic.com/s/dynapuff/v9/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RS8gp6YjrSRs4wn8.ttf
     - https://fonts.gstatic.com/s/dynapuff/v9/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RS_Ep6YjrSRs4wn8.ttf
     format: ttf
-    variable_axes:
-    - wdth
-    - wght
+  woff2_static:
+    source: google
+    family: DynaPuff
+    files:
+    - https://fonts.gstatic.com/s/dynapuff/v9/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RSxYu6Y3rSRs4wn8.woff2
+    - https://fonts.gstatic.com/s/dynapuff/v9/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RSyQu6Y3rSRs4wn8.woff2
+    - https://fonts.gstatic.com/s/dynapuff/v9/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RS8gp6Y3rSRs4wn8.woff2
+    - https://fonts.gstatic.com/s/dynapuff/v9/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RS_Ep6Y3rSRs4wn8.woff2
+    urls:
+    - https://fonts.gstatic.com/s/dynapuff/v9/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RSxYu6Y3rSRs4wn8.woff2
+    - https://fonts.gstatic.com/s/dynapuff/v9/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RSyQu6Y3rSRs4wn8.woff2
+    - https://fonts.gstatic.com/s/dynapuff/v9/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RS8gp6Y3rSRs4wn8.woff2
+    - https://fonts.gstatic.com/s/dynapuff/v9/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RS_Ep6Y3rSRs4wn8.woff2
+    format: woff2
 fonts:
 - name: DynaPuff
   styles:
@@ -64,10 +69,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: DynaPuff
     type: Bold
     full_name: DynaPuff Bold
@@ -80,10 +83,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: DynaPuff
+    type: Regular
+    full_name: DynaPuff Regular
+    post_script_name: DynaPuff-Regular
+    copyright: Copyright 2021 The DynaPuff Project Authors (https://github.com/googlefonts/dynapuff)
+    font: DynaPuff[wdth,wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wdth
     - wght
+    source_resource: ttf_variable
 - name: DynaPuff Medium
   styles:
   - family_name: DynaPuff Medium
@@ -100,10 +114,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: DynaPuff SemiBold
   styles:
   - family_name: DynaPuff SemiBold
@@ -120,10 +132,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2021 The DynaPuff Project Authors (https://github.com/googlefonts/dynapuff)
 spdx_license: OFL-1.1-no-RFN

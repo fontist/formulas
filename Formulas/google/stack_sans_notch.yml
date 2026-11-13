@@ -4,27 +4,17 @@ schema_version: 5
 description: Stack Sans Notch font family
 homepage: https://fonts.google.com/specimen/Stack+Sans+Notch
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Stack Sans Notch
     files:
-    - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8diuR2cGGf6Bw3r.woff2
-    - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8e8uR2cGGf6Bw3r.woff2
-    - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8fiuR2cGGf6Bw3r.woff2
-    - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8fQuR2cGGf6Bw3r.woff2
-    - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8c8vh2cGGf6Bw3r.woff2
-    - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8cFvh2cGGf6Bw3r.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/stacksansnotch/StackSansNotch[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8diuR2cGGf6Bw3r.woff2
-    - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8e8uR2cGGf6Bw3r.woff2
-    - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8fiuR2cGGf6Bw3r.woff2
-    - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8fQuR2cGGf6Bw3r.woff2
-    - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8c8vh2cGGf6Bw3r.woff2
-    - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8cFvh2cGGf6Bw3r.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/stacksansnotch/StackSansNotch[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Stack Sans Notch
     files:
@@ -42,8 +32,24 @@ resources:
     - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8c8vh2ZGGf6Bw3r.ttf
     - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8cFvh2ZGGf6Bw3r.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Stack Sans Notch
+    files:
+    - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8diuR2cGGf6Bw3r.woff2
+    - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8e8uR2cGGf6Bw3r.woff2
+    - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8fiuR2cGGf6Bw3r.woff2
+    - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8fQuR2cGGf6Bw3r.woff2
+    - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8c8vh2cGGf6Bw3r.woff2
+    - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8cFvh2cGGf6Bw3r.woff2
+    urls:
+    - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8diuR2cGGf6Bw3r.woff2
+    - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8e8uR2cGGf6Bw3r.woff2
+    - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8fiuR2cGGf6Bw3r.woff2
+    - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8fQuR2cGGf6Bw3r.woff2
+    - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8c8vh2cGGf6Bw3r.woff2
+    - https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8cFvh2cGGf6Bw3r.woff2
+    format: woff2
 fonts:
 - name: Stack Sans Notch ExtraLight
   styles:
@@ -61,9 +67,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Stack Sans Notch Light
   styles:
   - family_name: Stack Sans Notch Light
@@ -80,9 +85,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Stack Sans Notch
   styles:
   - family_name: Stack Sans Notch
@@ -97,9 +101,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Stack Sans Notch
     type: Bold
     full_name: Stack Sans Notch Bold
@@ -112,9 +115,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Stack Sans Notch
+    type: Regular
+    full_name: Stack Sans Notch ExtraLight
+    post_script_name: StackSansNotch-ExtraLight
+    copyright: Copyright 2025 The Stack Sans Project Authors (https://github.com/DylanYoungKoto/Stack-Sans)
+    font: StackSansNotch[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Stack Sans Notch Medium
   styles:
   - family_name: Stack Sans Notch Medium
@@ -131,9 +145,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Stack Sans Notch SemiBold
   styles:
   - family_name: Stack Sans Notch SemiBold
@@ -150,9 +163,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2025 The Stack Sans Project Authors (https://github.com/DylanYoungKoto/Stack-Sans)
 spdx_license: OFL-1.1-no-RFN

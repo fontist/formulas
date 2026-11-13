@@ -4,33 +4,21 @@ schema_version: 5
 description: Google Sans font family
 homepage: https://fonts.google.com/specimen/Google+Sans
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Google Sans
     files:
-    - https://fonts.gstatic.com/s/googlesans/v67/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIKlnrSjiEjo5.woff2
-    - https://fonts.gstatic.com/s/googlesans/v67/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrw2IKlnrSjiEjo5.woff2
-    - https://fonts.gstatic.com/s/googlesans/v67/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrzaJ6lnrSjiEjo5.woff2
-    - https://fonts.gstatic.com/s/googlesans/v67/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrzjJ6lnrSjiEjo5.woff2
-    - https://fonts.gstatic.com/s/googlesans/v67/4Ua9rENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQOs5beU3yksanMY0EhpynAFyo5T4o.woff2
-    - https://fonts.gstatic.com/s/googlesans/v67/4Ua9rENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQOs5beU3yksanMY3MhpynAFyo5T4o.woff2
-    - https://fonts.gstatic.com/s/googlesans/v67/4Ua9rENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQOs5beU3yksanMY58mpynAFyo5T4o.woff2
-    - https://fonts.gstatic.com/s/googlesans/v67/4Ua9rENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQOs5beU3yksanMY6YmpynAFyo5T4o.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/googlesans/GoogleSans[GRAD,opsz,wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/googlesans/GoogleSans-Italic[GRAD,opsz,wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/googlesans/v67/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIKlnrSjiEjo5.woff2
-    - https://fonts.gstatic.com/s/googlesans/v67/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrw2IKlnrSjiEjo5.woff2
-    - https://fonts.gstatic.com/s/googlesans/v67/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrzaJ6lnrSjiEjo5.woff2
-    - https://fonts.gstatic.com/s/googlesans/v67/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrzjJ6lnrSjiEjo5.woff2
-    - https://fonts.gstatic.com/s/googlesans/v67/4Ua9rENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQOs5beU3yksanMY0EhpynAFyo5T4o.woff2
-    - https://fonts.gstatic.com/s/googlesans/v67/4Ua9rENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQOs5beU3yksanMY3MhpynAFyo5T4o.woff2
-    - https://fonts.gstatic.com/s/googlesans/v67/4Ua9rENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQOs5beU3yksanMY58mpynAFyo5T4o.woff2
-    - https://fonts.gstatic.com/s/googlesans/v67/4Ua9rENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQOs5beU3yksanMY6YmpynAFyo5T4o.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/googlesans/GoogleSans[GRAD,opsz,wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/googlesans/GoogleSans-Italic[GRAD,opsz,wght].ttf
+    format: ttf
     variable_axes:
     - GRAD
     - opsz
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Google Sans
     files:
@@ -52,10 +40,28 @@ resources:
     - https://fonts.gstatic.com/s/googlesans/v67/4Ua9rENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQOs5beU3yksanMY58mpyzAFyo5T4o.ttf
     - https://fonts.gstatic.com/s/googlesans/v67/4Ua9rENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQOs5beU3yksanMY6YmpyzAFyo5T4o.ttf
     format: ttf
-    variable_axes:
-    - GRAD
-    - opsz
-    - wght
+  woff2_static:
+    source: google
+    family: Google Sans
+    files:
+    - https://fonts.gstatic.com/s/googlesans/v67/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIKlnrSjiEjo5.woff2
+    - https://fonts.gstatic.com/s/googlesans/v67/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrw2IKlnrSjiEjo5.woff2
+    - https://fonts.gstatic.com/s/googlesans/v67/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrzaJ6lnrSjiEjo5.woff2
+    - https://fonts.gstatic.com/s/googlesans/v67/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrzjJ6lnrSjiEjo5.woff2
+    - https://fonts.gstatic.com/s/googlesans/v67/4Ua9rENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQOs5beU3yksanMY0EhpynAFyo5T4o.woff2
+    - https://fonts.gstatic.com/s/googlesans/v67/4Ua9rENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQOs5beU3yksanMY3MhpynAFyo5T4o.woff2
+    - https://fonts.gstatic.com/s/googlesans/v67/4Ua9rENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQOs5beU3yksanMY58mpynAFyo5T4o.woff2
+    - https://fonts.gstatic.com/s/googlesans/v67/4Ua9rENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQOs5beU3yksanMY6YmpynAFyo5T4o.woff2
+    urls:
+    - https://fonts.gstatic.com/s/googlesans/v67/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIKlnrSjiEjo5.woff2
+    - https://fonts.gstatic.com/s/googlesans/v67/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrw2IKlnrSjiEjo5.woff2
+    - https://fonts.gstatic.com/s/googlesans/v67/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrzaJ6lnrSjiEjo5.woff2
+    - https://fonts.gstatic.com/s/googlesans/v67/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrzjJ6lnrSjiEjo5.woff2
+    - https://fonts.gstatic.com/s/googlesans/v67/4Ua9rENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQOs5beU3yksanMY0EhpynAFyo5T4o.woff2
+    - https://fonts.gstatic.com/s/googlesans/v67/4Ua9rENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQOs5beU3yksanMY3MhpynAFyo5T4o.woff2
+    - https://fonts.gstatic.com/s/googlesans/v67/4Ua9rENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQOs5beU3yksanMY58mpynAFyo5T4o.woff2
+    - https://fonts.gstatic.com/s/googlesans/v67/4Ua9rENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQOs5beU3yksanMY6YmpynAFyo5T4o.woff2
+    format: woff2
 fonts:
 - name: Google Sans
   styles:
@@ -71,11 +77,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - GRAD
-    - opsz
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Google Sans
     type: Bold
     full_name: Google Sans Bold
@@ -88,11 +91,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - GRAD
-    - opsz
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Google Sans
     type: Italic
     full_name: Google Sans Italic
@@ -105,11 +105,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - GRAD
-    - opsz
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Google Sans
     type: Bold Italic
     full_name: Google Sans Bold Italic
@@ -122,11 +119,36 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Google Sans
+    type: Regular
+    full_name: Google Sans Regular
+    post_script_name: GoogleSans-Regular
+    copyright: Copyright 2025 The Google Sans Project Authors (github.com/googlefonts/googlesans)
+    font: GoogleSans[GRAD,opsz,wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - GRAD
     - opsz
     - wght
+    source_resource: ttf_variable
+  - family_name: Google Sans
+    type: Italic
+    full_name: Google Sans Italic
+    post_script_name: GoogleSans-Italic
+    copyright: Copyright 2025 The Google Sans Project Authors (github.com/googlefonts/googlesans)
+    font: GoogleSans-Italic[GRAD,opsz,wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - GRAD
+    - opsz
+    - wght
+    source_resource: ttf_variable
 - name: Google Sans Medium
   styles:
   - family_name: Google Sans Medium
@@ -143,11 +165,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - GRAD
-    - opsz
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Google Sans Medium
     type: Italic
     full_name: Google Sans Medium Italic
@@ -162,11 +181,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - GRAD
-    - opsz
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Google Sans SemiBold
   styles:
   - family_name: Google Sans SemiBold
@@ -183,11 +199,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - GRAD
-    - opsz
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Google Sans SemiBold
     type: Italic
     full_name: Google Sans SemiBold Italic
@@ -202,11 +215,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - GRAD
-    - opsz
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2025 The Google Sans Project Authors (github.com/googlefonts/googlesans)
 spdx_license: OFL-1.1-no-RFN

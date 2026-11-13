@@ -4,29 +4,17 @@ schema_version: 5
 description: Matangi font family
 homepage: https://fonts.google.com/specimen/Matangi
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Matangi
     files:
-    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7PICDY1I8Gcw6Oi.woff2
-    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7OWCDY1I8Gcw6Oi.woff2
-    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7OkCDY1I8Gcw6Oi.woff2
-    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7NIDzY1I8Gcw6Oi.woff2
-    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7NxDzY1I8Gcw6Oi.woff2
-    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7MWDzY1I8Gcw6Oi.woff2
-    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7M_DzY1I8Gcw6Oi.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/matangi/Matangi[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7PICDY1I8Gcw6Oi.woff2
-    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7OWCDY1I8Gcw6Oi.woff2
-    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7OkCDY1I8Gcw6Oi.woff2
-    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7NIDzY1I8Gcw6Oi.woff2
-    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7NxDzY1I8Gcw6Oi.woff2
-    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7MWDzY1I8Gcw6Oi.woff2
-    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7M_DzY1I8Gcw6Oi.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/matangi/Matangi[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Matangi
     files:
@@ -46,8 +34,26 @@ resources:
     - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7MWDzYwI8Gcw6Oi.ttf
     - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7M_DzYwI8Gcw6Oi.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Matangi
+    files:
+    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7PICDY1I8Gcw6Oi.woff2
+    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7OWCDY1I8Gcw6Oi.woff2
+    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7OkCDY1I8Gcw6Oi.woff2
+    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7NIDzY1I8Gcw6Oi.woff2
+    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7NxDzY1I8Gcw6Oi.woff2
+    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7MWDzY1I8Gcw6Oi.woff2
+    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7M_DzY1I8Gcw6Oi.woff2
+    urls:
+    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7PICDY1I8Gcw6Oi.woff2
+    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7OWCDY1I8Gcw6Oi.woff2
+    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7OkCDY1I8Gcw6Oi.woff2
+    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7NIDzY1I8Gcw6Oi.woff2
+    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7NxDzY1I8Gcw6Oi.woff2
+    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7MWDzY1I8Gcw6Oi.woff2
+    - https://fonts.gstatic.com/s/matangi/v5/kmKiZqE2FhDIeX2QvjZNI_5FGeJet7M_DzY1I8Gcw6Oi.woff2
+    format: woff2
 fonts:
 - name: Matangi Light
   styles:
@@ -65,9 +71,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Matangi
   styles:
   - family_name: Matangi
@@ -82,9 +87,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Matangi
     type: Bold
     full_name: Matangi Bold
@@ -97,9 +101,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Matangi
+    type: Regular
+    full_name: Matangi Light
+    post_script_name: Matangi-Light
+    copyright: Copyright 2021 The Matangi Project Authors (https://github.com/thegraphicant/Matangi)
+    font: Matangi[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Matangi Medium
   styles:
   - family_name: Matangi Medium
@@ -116,9 +131,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Matangi SemiBold
   styles:
   - family_name: Matangi SemiBold
@@ -135,9 +149,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Matangi ExtraBold
   styles:
   - family_name: Matangi ExtraBold
@@ -154,9 +167,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Matangi Black
   styles:
   - family_name: Matangi Black
@@ -173,9 +185,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2021 The Matangi Project Authors (https://github.com/thegraphicant/Matangi)
 spdx_license: OFL-1.1-no-RFN

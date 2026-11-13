@@ -6,23 +6,17 @@ description: Noto is a global font collection for writing in all modern and anci
   East Asian Fraser script. It has multiple weights and 59 glyphs.
 homepage: https://fonts.google.com/specimen/Noto+Sans+Lisu
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Noto Sans Lisu
     files:
-    - https://fonts.gstatic.com/s/notosanslisu/v27/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHP2Vwt3tIlxkVdig.woff2
-    - https://fonts.gstatic.com/s/notosanslisu/v27/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHP61wt3tIlxkVdig.woff2
-    - https://fonts.gstatic.com/s/notosanslisu/v27/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHPB1st3tIlxkVdig.woff2
-    - https://fonts.gstatic.com/s/notosanslisu/v27/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHPPlst3tIlxkVdig.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosanslisu/NotoSansLisu[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/notosanslisu/v27/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHP2Vwt3tIlxkVdig.woff2
-    - https://fonts.gstatic.com/s/notosanslisu/v27/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHP61wt3tIlxkVdig.woff2
-    - https://fonts.gstatic.com/s/notosanslisu/v27/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHPB1st3tIlxkVdig.woff2
-    - https://fonts.gstatic.com/s/notosanslisu/v27/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHPPlst3tIlxkVdig.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosanslisu/NotoSansLisu[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Noto Sans Lisu
     files:
@@ -36,8 +30,20 @@ resources:
     - https://fonts.gstatic.com/s/notosanslisu/v27/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHPB1st29IlxkVdig.ttf
     - https://fonts.gstatic.com/s/notosanslisu/v27/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHPPlst29IlxkVdig.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Noto Sans Lisu
+    files:
+    - https://fonts.gstatic.com/s/notosanslisu/v27/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHP2Vwt3tIlxkVdig.woff2
+    - https://fonts.gstatic.com/s/notosanslisu/v27/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHP61wt3tIlxkVdig.woff2
+    - https://fonts.gstatic.com/s/notosanslisu/v27/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHPB1st3tIlxkVdig.woff2
+    - https://fonts.gstatic.com/s/notosanslisu/v27/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHPPlst3tIlxkVdig.woff2
+    urls:
+    - https://fonts.gstatic.com/s/notosanslisu/v27/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHP2Vwt3tIlxkVdig.woff2
+    - https://fonts.gstatic.com/s/notosanslisu/v27/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHP61wt3tIlxkVdig.woff2
+    - https://fonts.gstatic.com/s/notosanslisu/v27/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHPB1st3tIlxkVdig.woff2
+    - https://fonts.gstatic.com/s/notosanslisu/v27/uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHPPlst3tIlxkVdig.woff2
+    format: woff2
 fonts:
 - name: Noto Sans Lisu
   styles:
@@ -53,9 +59,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Noto Sans Lisu
     type: Bold
     full_name: Noto Sans Lisu Bold
@@ -68,9 +73,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Noto Sans Lisu
+    type: Regular
+    full_name: Noto Sans Lisu Regular
+    post_script_name: NotoSansLisu-Regular
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/lisu)
+    font: NotoSansLisu[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Noto Sans Lisu Medium
   styles:
   - family_name: Noto Sans Lisu Medium
@@ -87,9 +103,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans Lisu SemiBold
   styles:
   - family_name: Noto Sans Lisu SemiBold
@@ -106,9 +121,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/lisu)
 spdx_license: OFL-1.1-no-RFN

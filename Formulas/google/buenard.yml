@@ -10,23 +10,17 @@ description: Buenard is a high-quality serif typeface for art books. It is based
   To contribute, see github.com/googlefonts/buenard .
 homepage: https://fonts.google.com/specimen/Buenard
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Buenard
     files:
-    - https://fonts.gstatic.com/s/buenard/v22/OD5cuM6Cyma8FnnsJTzfWLAhv7i92sqpK0_yiBYVfsc4.woff2
-    - https://fonts.gstatic.com/s/buenard/v22/OD5cuM6Cyma8FnnsJTzfWLAhv7i92sqbK0_yiBYVfsc4.woff2
-    - https://fonts.gstatic.com/s/buenard/v22/OD5cuM6Cyma8FnnsJTzfWLAhv7i92sp3LE_yiBYVfsc4.woff2
-    - https://fonts.gstatic.com/s/buenard/v22/OD5cuM6Cyma8FnnsJTzfWLAhv7i92spOLE_yiBYVfsc4.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/buenard/Buenard[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/buenard/v22/OD5cuM6Cyma8FnnsJTzfWLAhv7i92sqpK0_yiBYVfsc4.woff2
-    - https://fonts.gstatic.com/s/buenard/v22/OD5cuM6Cyma8FnnsJTzfWLAhv7i92sqbK0_yiBYVfsc4.woff2
-    - https://fonts.gstatic.com/s/buenard/v22/OD5cuM6Cyma8FnnsJTzfWLAhv7i92sp3LE_yiBYVfsc4.woff2
-    - https://fonts.gstatic.com/s/buenard/v22/OD5cuM6Cyma8FnnsJTzfWLAhv7i92spOLE_yiBYVfsc4.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/buenard/Buenard[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Buenard
     files:
@@ -40,8 +34,20 @@ resources:
     - https://fonts.gstatic.com/s/buenard/v22/OD5cuM6Cyma8FnnsJTzfWLAhv7i92sp3LE_3iBYVfsc4.ttf
     - https://fonts.gstatic.com/s/buenard/v22/OD5cuM6Cyma8FnnsJTzfWLAhv7i92spOLE_3iBYVfsc4.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Buenard
+    files:
+    - https://fonts.gstatic.com/s/buenard/v22/OD5cuM6Cyma8FnnsJTzfWLAhv7i92sqpK0_yiBYVfsc4.woff2
+    - https://fonts.gstatic.com/s/buenard/v22/OD5cuM6Cyma8FnnsJTzfWLAhv7i92sqbK0_yiBYVfsc4.woff2
+    - https://fonts.gstatic.com/s/buenard/v22/OD5cuM6Cyma8FnnsJTzfWLAhv7i92sp3LE_yiBYVfsc4.woff2
+    - https://fonts.gstatic.com/s/buenard/v22/OD5cuM6Cyma8FnnsJTzfWLAhv7i92spOLE_yiBYVfsc4.woff2
+    urls:
+    - https://fonts.gstatic.com/s/buenard/v22/OD5cuM6Cyma8FnnsJTzfWLAhv7i92sqpK0_yiBYVfsc4.woff2
+    - https://fonts.gstatic.com/s/buenard/v22/OD5cuM6Cyma8FnnsJTzfWLAhv7i92sqbK0_yiBYVfsc4.woff2
+    - https://fonts.gstatic.com/s/buenard/v22/OD5cuM6Cyma8FnnsJTzfWLAhv7i92sp3LE_yiBYVfsc4.woff2
+    - https://fonts.gstatic.com/s/buenard/v22/OD5cuM6Cyma8FnnsJTzfWLAhv7i92spOLE_yiBYVfsc4.woff2
+    format: woff2
 fonts:
 - name: Buenard
   styles:
@@ -57,9 +63,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Buenard
     type: Bold
     full_name: Buenard Bold
@@ -72,9 +77,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Buenard
+    type: Regular
+    full_name: Buenard Regular
+    post_script_name: Buenard-Regular
+    copyright: Copyright 2024 The Buenard Project Authors (https://github.com/googlefonts/buenard)
+    font: Buenard[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Buenard Medium
   styles:
   - family_name: Buenard Medium
@@ -91,9 +107,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Buenard SemiBold
   styles:
   - family_name: Buenard SemiBold
@@ -110,9 +125,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2024 The Buenard Project Authors (https://github.com/googlefonts/buenard)
 spdx_license: OFL-1.1-RFN

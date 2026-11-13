@@ -4,30 +4,18 @@ schema_version: 5
 description: Kalnia Glaze font family
 homepage: https://fonts.google.com/specimen/Kalnia+Glaze
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Kalnia Glaze
     files:
-    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYdL63ncKfhpVTvN.woff2
-    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYfL6nncKfhpVTvN.woff2
-    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYcV6nncKfhpVTvN.woff2
-    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYdL6nncKfhpVTvN.woff2
-    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYd56nncKfhpVTvN.woff2
-    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYeV7XncKfhpVTvN.woff2
-    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYes7XncKfhpVTvN.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/kalniaglaze/KalniaGlaze[wdth,wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYdL63ncKfhpVTvN.woff2
-    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYfL6nncKfhpVTvN.woff2
-    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYcV6nncKfhpVTvN.woff2
-    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYdL6nncKfhpVTvN.woff2
-    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYd56nncKfhpVTvN.woff2
-    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYeV7XncKfhpVTvN.woff2
-    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYes7XncKfhpVTvN.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/kalniaglaze/KalniaGlaze[wdth,wght].ttf
+    format: ttf
     variable_axes:
     - wdth
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Kalnia Glaze
     files:
@@ -47,9 +35,26 @@ resources:
     - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYeV7XnZKfhpVTvN.ttf
     - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYes7XnZKfhpVTvN.ttf
     format: ttf
-    variable_axes:
-    - wdth
-    - wght
+  woff2_static:
+    source: google
+    family: Kalnia Glaze
+    files:
+    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYdL63ncKfhpVTvN.woff2
+    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYfL6nncKfhpVTvN.woff2
+    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYcV6nncKfhpVTvN.woff2
+    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYdL6nncKfhpVTvN.woff2
+    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYd56nncKfhpVTvN.woff2
+    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYeV7XncKfhpVTvN.woff2
+    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYes7XncKfhpVTvN.woff2
+    urls:
+    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYdL63ncKfhpVTvN.woff2
+    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYfL6nncKfhpVTvN.woff2
+    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYcV6nncKfhpVTvN.woff2
+    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYdL6nncKfhpVTvN.woff2
+    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYd56nncKfhpVTvN.woff2
+    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYeV7XncKfhpVTvN.woff2
+    - https://fonts.gstatic.com/s/kalniaglaze/v5/wlpQgwHCBUNjrGrfu-hwowN1YyC-42Lu26VHf2LtOkAod0wTxm2tFYes7XncKfhpVTvN.woff2
+    format: woff2
 fonts:
 - name: Kalnia Glaze Thin
   styles:
@@ -67,10 +72,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Kalnia Glaze ExtraLight
   styles:
   - family_name: Kalnia Glaze ExtraLight
@@ -87,10 +90,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Kalnia Glaze Light
   styles:
   - family_name: Kalnia Glaze Light
@@ -107,10 +108,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Kalnia Glaze
   styles:
   - family_name: Kalnia Glaze
@@ -125,10 +124,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Kalnia Glaze
     type: Bold
     full_name: Kalnia Glaze Bold
@@ -141,10 +138,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Kalnia Glaze
+    type: Regular
+    full_name: Kalnia Glaze Thin
+    post_script_name: KalniaGlaze-Thin
+    copyright: Copyright 2022 The Kalnia Glaze Project Authors (https://github.com/fridamedrano/Kalnia-Glaze)
+    font: KalniaGlaze[wdth,wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wdth
     - wght
+    source_resource: ttf_variable
 - name: Kalnia Glaze Medium
   styles:
   - family_name: Kalnia Glaze Medium
@@ -161,10 +169,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Kalnia Glaze SemiBold
   styles:
   - family_name: Kalnia Glaze SemiBold
@@ -181,10 +187,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Kalnia Glaze Project Authors (https://github.com/fridamedrano/Kalnia-Glaze)
 spdx_license: OFL-1.1-no-RFN

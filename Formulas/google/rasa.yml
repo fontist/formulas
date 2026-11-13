@@ -12,35 +12,19 @@ description: 'Intended for continuous reading on the web (longer articles in onl
   . To contribute, see github.com/rosettatype/yrsa .'
 homepage: https://fonts.google.com/specimen/Rasa
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Rasa
     files:
-    - https://fonts.gstatic.com/s/rasa/v27/xn76YHIn1mWmVKl8ZtAM9NrJfN4YJW4wfcvN2KT4.woff2
-    - https://fonts.gstatic.com/s/rasa/v27/xn76YHIn1mWmVKl8ZtAM9NrJfN5GJW4wfcvN2KT4.woff2
-    - https://fonts.gstatic.com/s/rasa/v27/xn76YHIn1mWmVKl8ZtAM9NrJfN50JW4wfcvN2KT4.woff2
-    - https://fonts.gstatic.com/s/rasa/v27/xn76YHIn1mWmVKl8ZtAM9NrJfN6YIm4wfcvN2KT4.woff2
-    - https://fonts.gstatic.com/s/rasa/v27/xn76YHIn1mWmVKl8ZtAM9NrJfN6hIm4wfcvN2KT4.woff2
-    - https://fonts.gstatic.com/s/rasa/v27/xn78YHIn1mWmfqBOmQhln0Bne8uOZth2d8rv3bT4Ycc.woff2
-    - https://fonts.gstatic.com/s/rasa/v27/xn78YHIn1mWmfqBOmQhln0Bne8uOZoZ2d8rv3bT4Ycc.woff2
-    - https://fonts.gstatic.com/s/rasa/v27/xn78YHIn1mWmfqBOmQhln0Bne8uOZrR2d8rv3bT4Ycc.woff2
-    - https://fonts.gstatic.com/s/rasa/v27/xn78YHIn1mWmfqBOmQhln0Bne8uOZlhxd8rv3bT4Ycc.woff2
-    - https://fonts.gstatic.com/s/rasa/v27/xn78YHIn1mWmfqBOmQhln0Bne8uOZmFxd8rv3bT4Ycc.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/rasa/Rasa[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/rasa/Rasa-Italic[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/rasa/v27/xn76YHIn1mWmVKl8ZtAM9NrJfN4YJW4wfcvN2KT4.woff2
-    - https://fonts.gstatic.com/s/rasa/v27/xn76YHIn1mWmVKl8ZtAM9NrJfN5GJW4wfcvN2KT4.woff2
-    - https://fonts.gstatic.com/s/rasa/v27/xn76YHIn1mWmVKl8ZtAM9NrJfN50JW4wfcvN2KT4.woff2
-    - https://fonts.gstatic.com/s/rasa/v27/xn76YHIn1mWmVKl8ZtAM9NrJfN6YIm4wfcvN2KT4.woff2
-    - https://fonts.gstatic.com/s/rasa/v27/xn76YHIn1mWmVKl8ZtAM9NrJfN6hIm4wfcvN2KT4.woff2
-    - https://fonts.gstatic.com/s/rasa/v27/xn78YHIn1mWmfqBOmQhln0Bne8uOZth2d8rv3bT4Ycc.woff2
-    - https://fonts.gstatic.com/s/rasa/v27/xn78YHIn1mWmfqBOmQhln0Bne8uOZoZ2d8rv3bT4Ycc.woff2
-    - https://fonts.gstatic.com/s/rasa/v27/xn78YHIn1mWmfqBOmQhln0Bne8uOZrR2d8rv3bT4Ycc.woff2
-    - https://fonts.gstatic.com/s/rasa/v27/xn78YHIn1mWmfqBOmQhln0Bne8uOZlhxd8rv3bT4Ycc.woff2
-    - https://fonts.gstatic.com/s/rasa/v27/xn78YHIn1mWmfqBOmQhln0Bne8uOZmFxd8rv3bT4Ycc.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/rasa/Rasa[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/rasa/Rasa-Italic[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Rasa
     files:
@@ -66,8 +50,32 @@ resources:
     - https://fonts.gstatic.com/s/rasa/v27/xn78YHIn1mWmfqBOmQhln0Bne8uOZlhxd8_v3bT4Ycc.ttf
     - https://fonts.gstatic.com/s/rasa/v27/xn78YHIn1mWmfqBOmQhln0Bne8uOZmFxd8_v3bT4Ycc.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Rasa
+    files:
+    - https://fonts.gstatic.com/s/rasa/v27/xn76YHIn1mWmVKl8ZtAM9NrJfN4YJW4wfcvN2KT4.woff2
+    - https://fonts.gstatic.com/s/rasa/v27/xn76YHIn1mWmVKl8ZtAM9NrJfN5GJW4wfcvN2KT4.woff2
+    - https://fonts.gstatic.com/s/rasa/v27/xn76YHIn1mWmVKl8ZtAM9NrJfN50JW4wfcvN2KT4.woff2
+    - https://fonts.gstatic.com/s/rasa/v27/xn76YHIn1mWmVKl8ZtAM9NrJfN6YIm4wfcvN2KT4.woff2
+    - https://fonts.gstatic.com/s/rasa/v27/xn76YHIn1mWmVKl8ZtAM9NrJfN6hIm4wfcvN2KT4.woff2
+    - https://fonts.gstatic.com/s/rasa/v27/xn78YHIn1mWmfqBOmQhln0Bne8uOZth2d8rv3bT4Ycc.woff2
+    - https://fonts.gstatic.com/s/rasa/v27/xn78YHIn1mWmfqBOmQhln0Bne8uOZoZ2d8rv3bT4Ycc.woff2
+    - https://fonts.gstatic.com/s/rasa/v27/xn78YHIn1mWmfqBOmQhln0Bne8uOZrR2d8rv3bT4Ycc.woff2
+    - https://fonts.gstatic.com/s/rasa/v27/xn78YHIn1mWmfqBOmQhln0Bne8uOZlhxd8rv3bT4Ycc.woff2
+    - https://fonts.gstatic.com/s/rasa/v27/xn78YHIn1mWmfqBOmQhln0Bne8uOZmFxd8rv3bT4Ycc.woff2
+    urls:
+    - https://fonts.gstatic.com/s/rasa/v27/xn76YHIn1mWmVKl8ZtAM9NrJfN4YJW4wfcvN2KT4.woff2
+    - https://fonts.gstatic.com/s/rasa/v27/xn76YHIn1mWmVKl8ZtAM9NrJfN5GJW4wfcvN2KT4.woff2
+    - https://fonts.gstatic.com/s/rasa/v27/xn76YHIn1mWmVKl8ZtAM9NrJfN50JW4wfcvN2KT4.woff2
+    - https://fonts.gstatic.com/s/rasa/v27/xn76YHIn1mWmVKl8ZtAM9NrJfN6YIm4wfcvN2KT4.woff2
+    - https://fonts.gstatic.com/s/rasa/v27/xn76YHIn1mWmVKl8ZtAM9NrJfN6hIm4wfcvN2KT4.woff2
+    - https://fonts.gstatic.com/s/rasa/v27/xn78YHIn1mWmfqBOmQhln0Bne8uOZth2d8rv3bT4Ycc.woff2
+    - https://fonts.gstatic.com/s/rasa/v27/xn78YHIn1mWmfqBOmQhln0Bne8uOZoZ2d8rv3bT4Ycc.woff2
+    - https://fonts.gstatic.com/s/rasa/v27/xn78YHIn1mWmfqBOmQhln0Bne8uOZrR2d8rv3bT4Ycc.woff2
+    - https://fonts.gstatic.com/s/rasa/v27/xn78YHIn1mWmfqBOmQhln0Bne8uOZlhxd8rv3bT4Ycc.woff2
+    - https://fonts.gstatic.com/s/rasa/v27/xn78YHIn1mWmfqBOmQhln0Bne8uOZmFxd8rv3bT4Ycc.woff2
+    format: woff2
 fonts:
 - name: Rasa Light
   styles:
@@ -85,9 +93,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Rasa Light
     type: Italic
     full_name: Rasa Light Italic
@@ -102,9 +109,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Rasa
   styles:
   - family_name: Rasa
@@ -119,9 +125,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Rasa
     type: Bold
     full_name: Rasa Bold
@@ -134,9 +139,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Rasa
     type: Italic
     full_name: Rasa Italic
@@ -149,9 +153,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Rasa
     type: Bold Italic
     full_name: Rasa Bold Italic
@@ -164,9 +167,32 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Rasa
+    type: Regular
+    full_name: Rasa Regular
+    post_script_name: Rasa-Regular
+    copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
+    font: Rasa[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
+  - family_name: Rasa
+    type: Italic
+    full_name: Rasa Italic
+    post_script_name: Rasa-Italic
+    copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
+    font: Rasa-Italic[wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wght
+    source_resource: ttf_variable
 - name: Rasa Medium
   styles:
   - family_name: Rasa Medium
@@ -183,9 +209,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Rasa Medium
     type: Italic
     full_name: Rasa Medium Italic
@@ -200,9 +225,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Rasa SemiBold
   styles:
   - family_name: Rasa SemiBold
@@ -219,9 +243,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Rasa SemiBold
     type: Italic
     full_name: Rasa SemiBold Italic
@@ -236,9 +259,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2015 The Yrsa-Rasa Project Authors (https://github.com/rosettatype/yrsa-rasa/)
 spdx_license: OFL-1.1-no-RFN
