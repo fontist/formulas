@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Hiragino
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2020/ios/061-87817-20200306-93DA4FC0-6008-11EA-A746-68B153371E3E/com_apple_MobileAsset_Font6/3a62fa3ea4bd9113ee818fcaad8401dffde57cfa.zip
     sha256: de091b61e2b345d89de2677822a816aba444240317ff937c18502f536386a28d
     file_size: 3063654
+    format: ttc
 font_collections:
 - filename: HiraginoSans-W8.ttc
   fonts:
@@ -23,6 +25,8 @@ font_collections:
       version: 15.0d1e6
       copyright: ver7.10, Copyright (c) 1993-2002 Dainippon Screen Mfg. Co., Ltd.
         All Rights Reserved.
+      formats:
+      - ttc
   - name: Hiragino Kaku Gothic StdN W8
     styles:
     - family_name: Hiragino Kaku Gothic StdN W8
@@ -34,6 +38,8 @@ font_collections:
       version: 15.0d1e6
       copyright: ver8.20, Copyright (c) 1993-2013 Dainippon Screen Mfg. Co., Ltd.
         All Rights Reserved.
+      formats:
+      - ttc
   - name: Hiragino Sans W8
     styles:
     - family_name: Hiragino Sans W8
@@ -45,9 +51,12 @@ font_collections:
       version: 15.0d1e6
       copyright: ver8.20, Copyright (c) 1993-2013 Dainippon Screen Mfg. Co., Ltd.
         All Rights Reserved.
+      formats:
+      - ttc
 extract: {}
 copyright: ver8.20, Copyright (c) 1993-2013 Dainippon Screen Mfg. Co., Ltd. All Rights
   Reserved.
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

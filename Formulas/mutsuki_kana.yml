@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 description: Mutsuki Kana
 homepage: https://mandel59.github.io/mutsuki/
 resources:
@@ -7,6 +8,7 @@ resources:
     - https://github.com/mandel59/mutsuki/releases/download/v19.232/Mutsuki-kana.ttf.zip
     sha256: aa706529c0e9774584d75c789d2d1d749f4eeec92f7b6552740075303ff8b7ea
     file_size: 24744
+    format: ttf
 fonts:
 - name: Mutsuki Kana
   styles:
@@ -19,10 +21,13 @@ fonts:
     version: '19.232'
     copyright: Copyright (c) 2008-2011 Gutenberg Labo.
     font: Mutsuki-kana.ttf
+    formats:
+    - ttf
 extract: {}
+spdx_license: LicenseRef-mutsuki-license
 copyright: Copyright (c) 2008-2011 Gutenberg Labo. Copyright (c) 2012 Ryusei Yamaguchi.
 command: create-formula https://github.com/mandel59/mutsuki/releases/download/v19.232/Mutsuki-kana.ttf.zip
-open_license: |
+open_license: |-
   Copyright (c) 2008-2011 Gutenberg Labo.
   Copyright (c) 2012 Ryusei Yamaguchi.
 

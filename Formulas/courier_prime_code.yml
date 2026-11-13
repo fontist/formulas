@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: Courier Prime Code
 description: Courier Prime Code
 homepage: http://quoteunquoteapps.com
@@ -6,8 +7,10 @@ resources:
   Courier_Prime_Code.zip:
     urls:
     - https://quoteunquoteapps.com/courierprime/downloads/courier-prime-code.zip
+    - https://web.archive.org/web/20260506004038/https://quoteunquoteapps.com/courierprime/downloads/courier-prime-code.zip
     sha256: c400b6addeddef7c26a9943f847a8584c83d8bb775cd35da2dcd41c6ad98d827
     file_size: 74040
+    format: ttf
 fonts:
 - name: Courier Prime Code
   styles:
@@ -18,6 +21,8 @@ fonts:
     version: '3.0318'
     copyright: Copyright (c) 2015 Quote-Unquote Apps.
     font: Courier Prime Code Italic.ttf
+    formats:
+    - ttf
   - family_name: Courier Prime Code
     type: Regular
     full_name: CourierPrimeCode-Regular
@@ -25,8 +30,11 @@ fonts:
     version: '3.0318'
     copyright: Copyright (c) 2015 Quote-Unquote Apps.
     font: Courier Prime Code.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: Copyright (c) 2015 Quote-Unquote Apps.
+spdx_license: OFL-1.1-RFN
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2015, Quote-Unquote Apps (http://quoteunquoteapps.com), with Reserved Font Name Courier Prime Sans.

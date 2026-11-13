@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: LXGW WenKai TC
 description: LXGW WenKai TC
 homepage: https://github.com/lxgw
@@ -8,6 +9,7 @@ resources:
     - https://github.com/lxgw/LxgwWenkaiTC/releases/download/v1.330/lxgw-wenkai-tc-v1.330.zip
     sha256: cbccbb37676487c3fddafb7da190bfab30e26ae57049478a3e474123d2cc47a3
     file_size: 46274155
+    format: ttf
 fonts:
 - name: LXGW WenKai Mono TC
   styles:
@@ -18,6 +20,8 @@ fonts:
     version: 1.330;April 28, 2024
     copyright: Copyright 2022-2024 LXGW (https://github.com/lxgw/LxgwWenkaiTC)
     font: LXGWWenKaiMonoTC-Bold.ttf
+    formats:
+    - ttf
   - family_name: LXGW WenKai Mono TC
     type: Regular
     full_name: LXGW WenKai Mono TC
@@ -25,6 +29,8 @@ fonts:
     version: 1.330;April 28, 2024
     copyright: Copyright 2022-2024 LXGW (https://github.com/lxgw/LxgwWenkaiTC)
     font: LXGWWenKaiMonoTC-Regular.ttf
+    formats:
+    - ttf
 - name: LXGW WenKai Mono TC Light
   styles:
   - family_name: LXGW WenKai Mono TC Light
@@ -36,6 +42,8 @@ fonts:
     version: 1.330;April 28, 2024
     copyright: Copyright 2022-2024 LXGW (https://github.com/lxgw/LxgwWenkaiTC)
     font: LXGWWenKaiMonoTC-Light.ttf
+    formats:
+    - ttf
 - name: LXGW WenKai TC
   styles:
   - family_name: LXGW WenKai TC
@@ -45,6 +53,8 @@ fonts:
     version: 1.330;April 28, 2024
     copyright: Copyright 2022-2024 LXGW (https://github.com/lxgw/LxgwWenkaiTC)
     font: LXGWWenKaiTC-Bold.ttf
+    formats:
+    - ttf
   - family_name: LXGW WenKai TC
     type: Regular
     full_name: LXGW WenKai TC
@@ -52,6 +62,8 @@ fonts:
     version: 1.330;April 28, 2024
     copyright: Copyright 2022-2024 LXGW (https://github.com/lxgw/LxgwWenkaiTC)
     font: LXGWWenKaiTC-Regular.ttf
+    formats:
+    - ttf
 - name: LXGW WenKai TC Light
   styles:
   - family_name: LXGW WenKai TC Light
@@ -63,8 +75,11 @@ fonts:
     version: 1.330;April 28, 2024
     copyright: Copyright 2022-2024 LXGW (https://github.com/lxgw/LxgwWenkaiTC)
     font: LXGWWenKaiTC-Light.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: Copyright 2022-2024 LXGW (https://github.com/lxgw/LxgwWenkaiTC)
+spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 open_license: |-
   Copyright 2022-2024 LXGW (https://github.com/lxgw/LxgwWenkaiTC)

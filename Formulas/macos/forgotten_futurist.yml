@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Forgotten Futurist
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/ef91ad51d2b631cfbf055a43fce5e8691c3fa3a6.zip
     sha256: c7ad5d3f016ec9bda953665cf6da8393a9ff39c95c9189439ec6ef47b2fb1770
     file_size: 514578
+    format: ttc
 font_collections:
 - filename: ForgottenFuturist.ttc
   fonts:
@@ -21,6 +23,8 @@ font_collections:
       version: 13.0d1e3
       description: To see more fonts by Ray Larabie, visit Typodermic.com and LarabieFonts.com
       copyright: "© 1999-2009 Ray Larabie. Accents by Chikako Larabie."
+      formats:
+      - ttc
     - family_name: Forgotten Futurist
       type: Bold Italic
       full_name: Forgotten Futurist Bold Italic
@@ -28,6 +32,8 @@ font_collections:
       version: 13.0d1e3
       description: To see more fonts by Ray Larabie, visit Typodermic.com and LarabieFonts.com
       copyright: "© 1999-2009 Ray Larabie. Accents by Chikako Larabie."
+      formats:
+      - ttc
     - family_name: Forgotten Futurist
       type: Italic
       full_name: Forgotten Futurist Italic
@@ -35,6 +41,8 @@ font_collections:
       version: 13.0d1e3
       description: To see more fonts by Ray Larabie, visit Typodermic.com and LarabieFonts.com
       copyright: "© 1999-2009 Ray Larabie. Accents by Chikako Larabie."
+      formats:
+      - ttc
     - family_name: Forgotten Futurist
       type: Regular
       full_name: Forgotten Futurist Regular
@@ -42,6 +50,8 @@ font_collections:
       version: 13.0d1e3
       description: To see more fonts by Ray Larabie, visit Typodermic.com and LarabieFonts.com
       copyright: "© 1999-2009 Ray Larabie. Accents by Chikako Larabie."
+      formats:
+      - ttc
     - family_name: Forgotten Futurist
       type: Shadow
       full_name: Forgotten Futurist Shadow
@@ -49,8 +59,11 @@ font_collections:
       version: 13.0d1e3
       description: To see more fonts by Ray Larabie, visit Typodermic.com and LarabieFonts.com
       copyright: "© 1999-2009 Ray Larabie. Accents by Chikako Larabie."
+      formats:
+      - ttc
 extract: {}
 copyright: "© 1999-2009 Ray Larabie. Accents by Chikako Larabie."
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

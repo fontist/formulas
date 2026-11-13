@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Comic Sans MS
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/63518d5d2c74db21f95e40f4f8718055a13f774c.zip
     sha256: a896daa98d737e9c5b8a6143cb3c67f1e216033e73a254590b530bcde3248214
     file_size: 94594
+    format: ttf
 fonts:
 - name: Comic Sans MS
   styles:
@@ -22,8 +24,11 @@ fonts:
       very popular with a wide variety of people.
     copyright: "© 2006 Microsoft Corporation. All rights reserved."
     font: comic.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: "© 2006 Microsoft Corporation. All rights reserved."
+spdx_license: LicenseRef-Apple-EA1705
 license_url: http://www.microsoft.com/typography/fonts/
 requires_license_agreement: |
   For use on Apple-branded Systems

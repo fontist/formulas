@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Telugu MN
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/a2ebc7cff7e2ae11ea210373e39de72818b4984f.zip
     sha256: e6c6c5942e48b5425c4b17bd08948d92d5914bd13b8948e72ccc913cdf1ae952
     file_size: 118278
+    format: ttc
 font_collections:
 - filename: Telugu-MN.ttc
   fonts:
@@ -23,6 +25,8 @@ font_collections:
         reserved.
       copyright: Copyright (c) 2009 by Murasu Systems Sdn. Bhd. Malaysia. All rights
         reserved.
+      formats:
+      - ttc
     - family_name: Telugu MN
       type: Regular
       full_name: Telugu MN
@@ -32,8 +36,11 @@ font_collections:
         reserved.
       copyright: Copyright (c) 2009 by Murasu Systems Sdn. Bhd. Malaysia. All rights
         reserved.
+      formats:
+      - ttc
 extract: {}
 copyright: Copyright (c) 2009 by Murasu Systems Sdn. Bhd. Malaysia. All rights reserved.
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

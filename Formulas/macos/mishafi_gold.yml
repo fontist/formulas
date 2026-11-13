@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Mishafi Gold
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/31bbabd3bdbdc2442837a79e2d50384fc0d23cd7.zip
     sha256: 9d852239a811219741d2648418e84593b8b3c2f18c16f8ff04eee17791ef0f55
     file_size: 193784
+    format: ttf
 fonts:
 - name: Mishafi Gold
   styles:
@@ -19,8 +21,11 @@ fonts:
     version: 13.0d2e1
     copyright: "© 1998-2000 Diwan Software Ltd. All rights reserved"
     font: MishafiGold.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: "© 1998-2000 Diwan Software Ltd. All rights reserved"
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

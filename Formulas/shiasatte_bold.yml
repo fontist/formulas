@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 description: SHIASATTE Bold
 homepage: https://modi.jpn.org/
 resources:
@@ -7,6 +8,7 @@ resources:
     - https://modi.jpn.org/download/MODI_shiasatte_2017_0527.zip
     sha256: ea4855eb9ce07c6c707deba4ce3ff638ec854e9e2f5374f46d76ce92ffd133e6
     file_size: 136881
+    format: otf
 fonts:
 - name: SHIASATTE
   styles:
@@ -19,9 +21,12 @@ fonts:
     version: '1.00'
     copyright: MODI
     font: shiasatte.otf
+    formats:
+    - otf
 extract: {}
 copyright: MODI
 command: create-formula https://modi.jpn.org/download/MODI_shiasatte_2017_0527.zip
+spdx_license: OFL-1.1-no-RFN
 license_url: https://modi.jpn.org/licence.php
 open_license: |-
   Copyright (c) 2017 M+ FONTS PROJECT/MODI

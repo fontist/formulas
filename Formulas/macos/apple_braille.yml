@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Apple Braille
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/935c8ae4a43ab2285bcacfa6db5e8c930b353dbb.zip
     sha256: 2149031048371f672dc5bde4384d0cdd022bc158c751c0aa3f0f59bc63e8f622
     file_size: 15868
+    format: ttf
 fonts:
 - name: Apple Braille
   styles:
@@ -19,8 +21,11 @@ fonts:
     version: 13.0d2e27
     copyright: "© Copyright 2007 by Apple, Inc."
     font: AppleBraille.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: "© Copyright 2007 by Apple, Inc."
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

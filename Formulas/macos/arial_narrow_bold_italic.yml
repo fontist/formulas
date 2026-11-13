@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Arial Narrow Bold Italic
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/5b45b45539f7edaf6ea7fba19487ed7556be70b6.zip
     sha256: 3dd06ed7e63bc3d5bdd18c887b6db41cfee61133938f54e86f58e2252ad87a97
     file_size: 95406
+    format: ttf
 fonts:
 - name: Arial Narrow
   styles:
@@ -28,8 +30,11 @@ fonts:
       and promotions.
     copyright: "© 2007 The Monotype Corporation. All Rights Reserved."
     font: ARIALNBI.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: "© 2007 The Monotype Corporation. All Rights Reserved."
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

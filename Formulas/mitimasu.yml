@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 description: Mitimasu
 resources:
   Mitimasu.zip:
@@ -6,6 +7,7 @@ resources:
     - http://www.masuseki.com/works/mitimasu.zip
     sha256: 27ed584743cc8418335aa4272b41b468645436e0f9c212677dbca9f44d4a2fa7
     file_size: 3367690
+    format: ttf
 fonts:
 - name: Mitimasu
   styles:
@@ -16,9 +18,12 @@ fonts:
     version: '2.00'
     copyright: MASUDA mitiya
     font: mitimasu.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: MASUDA mitiya
 command: create-formula http://www.masuseki.com/works/mitimasu.zip
+spdx_license: MIT
 license_url: http://www.masuseki.com/wp/?p=197
 requires_license_agreement: |-
   Copyright 2013 桝田道也 (Michiya Masuda)

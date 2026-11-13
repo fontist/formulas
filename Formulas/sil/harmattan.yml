@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: Harmattan
 description: Harmattan
 homepage: http://www.sil.org/
@@ -6,8 +7,10 @@ resources:
   Harmattan.zip:
     urls:
     - https://software.sil.org/downloads/r/harmattan/Harmattan-2.000.zip
+    - https://web.archive.org/web/20260505155422/https://software.sil.org/downloads/r/harmattan/Harmattan-2.000.zip
     sha256: 0b2e1fad07b6101bfb140801a71bc53956105376fd8ac261dd76eab178280a5c
     file_size: 2477910
+    format: ttf
 fonts:
 - name: Harmattan
   styles:
@@ -19,6 +22,8 @@ fonts:
     description: Arabic script font designed for use by languages in West Africa
     copyright: Copyright (c) 2007-2008, The C&MA Guinea Fulbe Team;
     font: Harmattan-Bold.ttf
+    formats:
+    - ttf
   - family_name: Harmattan
     type: Regular
     full_name: Harmattan
@@ -27,9 +32,12 @@ fonts:
     description: Arabic script font designed for use by languages in West Africa
     copyright: Copyright (c) 2007-2008, The C&MA Guinea Fulbe Team;
     font: Harmattan-Regular.ttf
+    formats:
+    - ttf
 extract:
   format: zip
 copyright: Copyright (c) 2007-2008, The C&MA Guinea Fulbe Team;
+spdx_license: OFL-1.1-RFN
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2007-2008, The C&MA Guinea Fulbe Team;

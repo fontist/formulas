@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: Annapurna SIL
 description: Annapurna SIL
 homepage: http://www.sil.org
@@ -6,8 +7,10 @@ resources:
   Annapurna_SIL.zip:
     urls:
     - https://software.sil.org/downloads/r/annapurna/AnnapurnaSIL-1.204.zip
+    - https://web.archive.org/web/20260505151442/https://software.sil.org/downloads/r/annapurna/AnnapurnaSIL-1.204.zip
     sha256: d85cbd17f90a882255eb6f915729e164703c2b708b80ebd96db948556c13e9f0
     file_size: 1544775
+    format: ttf
 fonts:
 - name: Annapurna SIL
   styles:
@@ -20,6 +23,8 @@ fonts:
     copyright: Copyright (c) 2007-2019 SIL International(http://www.sil.org) with
       Reserved Font Names Annapurna and SIL"
     font: AnnapurnaSIL-Bold.ttf
+    formats:
+    - ttf
   - family_name: Annapurna SIL
     type: Regular
     full_name: Annapurna SIL
@@ -29,10 +34,13 @@ fonts:
     copyright: Copyright (c) 2007-2019 SIL International(http://www.sil.org) with
       Reserved Font Names Annapurna and SIL"
     font: AnnapurnaSIL-Regular.ttf
+    formats:
+    - ttf
 extract:
   format: zip
 copyright: Copyright (c) 2007-2019 SIL International(http://www.sil.org) with Reserved
   Font Names Annapurna and SIL"
+spdx_license: OFL-1.1-RFN
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   This Font Software is Copyright (c) 2007-2019, SIL International (http://scripts.sil.org/)

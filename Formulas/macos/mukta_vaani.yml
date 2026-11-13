@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Mukta Vaani
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/a19eb7cce29b1f0673ae2aecff74dd5f38a730aa.zip
     sha256: 540e0b1a791debb04d9aab5e33b460e9dd3d6ceffbc38c9d5a3a415651186099
     file_size: 1262676
+    format: ttc
 font_collections:
 - filename: MuktaVaani-Gujarati.ttc
   fonts:
@@ -22,6 +24,8 @@ font_collections:
       post_script_name: MuktaVaani-Bold
       version: 2.538;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220; ttfautohint (v1.6)
       copyright: Copyright (c) 2016, Ek Type. All rights reserved.
+      formats:
+      - ttc
   - name: Mukta Vaani ExtraBold
     styles:
     - family_name: Mukta Vaani ExtraBold
@@ -32,6 +36,8 @@ font_collections:
       post_script_name: MuktaVaani-ExtraBold
       version: 2.538;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220; ttfautohint (v1.6)
       copyright: Copyright (c) 2016, Ek Type. All rights reserved.
+      formats:
+      - ttc
   - name: Mukta Vaani ExtraLight
     styles:
     - family_name: Mukta Vaani ExtraLight
@@ -42,6 +48,8 @@ font_collections:
       post_script_name: MuktaVaani-ExtraLight
       version: 2.538;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220; ttfautohint (v1.6)
       copyright: Copyright (c) 2016, Ek Type. All rights reserved.
+      formats:
+      - ttc
   - name: Mukta Vaani Light
     styles:
     - family_name: Mukta Vaani Light
@@ -52,6 +60,8 @@ font_collections:
       post_script_name: MuktaVaani-Light
       version: 2.538;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220; ttfautohint (v1.6)
       copyright: Copyright (c) 2016, Ek Type. All rights reserved.
+      formats:
+      - ttc
   - name: Mukta Vaani Medium
     styles:
     - family_name: Mukta Vaani Medium
@@ -62,6 +72,8 @@ font_collections:
       post_script_name: MuktaVaani-Medium
       version: 2.538;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220; ttfautohint (v1.6)
       copyright: Copyright (c) 2016, Ek Type. All rights reserved.
+      formats:
+      - ttc
   - name: Mukta Vaani Regular
     styles:
     - family_name: Mukta Vaani Regular
@@ -71,6 +83,8 @@ font_collections:
       post_script_name: MuktaVaani-Regular
       version: 2.538;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220; ttfautohint (v1.6)
       copyright: Copyright (c) 2016, Ek Type. All rights reserved.
+      formats:
+      - ttc
   - name: Mukta Vaani SemiBold
     styles:
     - family_name: Mukta Vaani SemiBold
@@ -81,8 +95,11 @@ font_collections:
       post_script_name: MuktaVaani-SemiBold
       version: 2.538;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220; ttfautohint (v1.6)
       copyright: Copyright (c) 2016, Ek Type. All rights reserved.
+      formats:
+      - ttc
 extract: {}
 copyright: Copyright (c) 2016, Ek Type. All rights reserved.
+spdx_license: LicenseRef-Apple-EA1705
 license_url: http://scripts.sil.org/OFL
 requires_license_agreement: |
   For use on Apple-branded Systems

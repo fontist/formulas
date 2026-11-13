@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: Courier Prime
 description: Courier Prime
 homepage: http://quoteunquoteapps.com
@@ -6,8 +7,10 @@ resources:
   Courier_Prime.zip:
     urls:
     - https://quoteunquoteapps.com/courierprime/downloads/courier-prime.zip
+    - https://web.archive.org/web/20260505172844/https://quoteunquoteapps.com/courierprime/downloads/courier-prime.zip
     sha256: d5d4faf1bee0d1f52bab1103cbfdfb354976331c86f999c110c22a098cb12d73
     file_size: 193595
+    format: ttf
 fonts:
 - name: Courier Prime
   styles:
@@ -18,6 +21,8 @@ fonts:
     version: '1.202'
     copyright: Copyright (c) 2013 Quote-Unquote Apps.
     font: Courier Prime Bold.ttf
+    formats:
+    - ttf
   - family_name: Courier Prime
     type: Bold Italic
     full_name: CourierPrime-BoldItalic
@@ -25,6 +30,8 @@ fonts:
     version: '1.202'
     copyright: Copyright (c) 2013 Quote-Unquote Apps.
     font: Courier Prime Bold Italic.ttf
+    formats:
+    - ttf
   - family_name: Courier Prime
     type: Italic
     full_name: CourierPrime-Italic
@@ -32,6 +39,8 @@ fonts:
     version: '1.202'
     copyright: Copyright (c) 2013 Quote-Unquote Apps.
     font: Courier Prime Italic.ttf
+    formats:
+    - ttf
   - family_name: Courier Prime
     type: Regular
     full_name: CourierPrime
@@ -39,8 +48,11 @@ fonts:
     version: '1.203'
     copyright: Copyright (c) 2013 Quote-Unquote Apps.
     font: Courier Prime.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: Copyright (c) 2013 Quote-Unquote Apps.
+spdx_license: OFL-1.1-RFN
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2013, Quote-Unquote Apps (http://quoteunquoteapps.com),

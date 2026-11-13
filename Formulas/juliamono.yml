@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: JuliaMono
 description: JuliaMono
 homepage: https://github.com/cormullion/juliamono
@@ -8,6 +9,7 @@ resources:
     - https://github.com/cormullion/juliamono/releases/download/v0.060/JuliaMono-ttf.zip
     sha256: 9bc3f393f014131f63fc12b7905dba27b239535c6536bb61c0bbe2f7b6d91197
     file_size: 21224364
+    format: ttf
 fonts:
 - name: JuliaMono
   styles:
@@ -20,6 +22,8 @@ fonts:
     version: 0.060; ttfautohint (v1.8.4)
     copyright: Copyright 2020 - 2025 The JuliaMono Project Authors (https://github.com/cormullion/juliamono)
     font: JuliaMono-Bold.ttf
+    formats:
+    - ttf
   - family_name: JuliaMono
     type: Bold Italic
     preferred_family_name: JuliaMono
@@ -29,6 +33,8 @@ fonts:
     version: 0.060; ttfautohint (v1.8.4)
     copyright: Copyright 2020 - 2024 The JuliaMono Project Authors (https://github.com/cormullion/juliamono)
     font: JuliaMono-BoldItalic.ttf
+    formats:
+    - ttf
   - family_name: JuliaMono
     type: Italic
     preferred_family_name: JuliaMono
@@ -38,6 +44,8 @@ fonts:
     version: 0.060; ttfautohint (v1.8.4)
     copyright: Copyright 2020 - 2024 The JuliaMono Project Authors (https://github.com/cormullion/juliamono)
     font: JuliaMono-RegularItalic.ttf
+    formats:
+    - ttf
   - family_name: JuliaMono
     type: Regular
     preferred_family_name: JuliaMono
@@ -47,6 +55,8 @@ fonts:
     version: 0.060; ttfautohint (v1.8.4)
     copyright: Copyright 2020 - 2025 The JuliaMono Project Authors (https://github.com/cormullion/juliamono)
     font: JuliaMono-Regular.ttf
+    formats:
+    - ttf
 - name: JuliaMono Black
   styles:
   - family_name: JuliaMono Black
@@ -58,6 +68,8 @@ fonts:
     version: 0.060; ttfautohint (v1.8.4)
     copyright: Copyright 2020 - 2024 The JuliaMono Project Authors (https://github.com/cormullion/juliamono)
     font: JuliaMono-BlackItalic.ttf
+    formats:
+    - ttf
   - family_name: JuliaMono Black
     type: Regular
     preferred_family_name: JuliaMono
@@ -67,6 +79,8 @@ fonts:
     version: 0.060; ttfautohint (v1.8.4)
     copyright: Copyright 2020 - 2025 The JuliaMono Project Authors (https://github.com/cormullion/juliamono)
     font: JuliaMono-Black.ttf
+    formats:
+    - ttf
 - name: JuliaMono ExtraBold
   styles:
   - family_name: JuliaMono ExtraBold
@@ -78,6 +92,8 @@ fonts:
     version: 0.060; ttfautohint (v1.8.4)
     copyright: Copyright 2020 - 2024 The JuliaMono Project Authors (https://github.com/cormullion/juliamono)
     font: JuliaMono-ExtraBoldItalic.ttf
+    formats:
+    - ttf
   - family_name: JuliaMono ExtraBold
     type: Regular
     preferred_family_name: JuliaMono
@@ -87,6 +103,8 @@ fonts:
     version: 0.060; ttfautohint (v1.8.4)
     copyright: Copyright 2020 - 2025 The JuliaMono Project Authors (https://github.com/cormullion/juliamono)
     font: JuliaMono-ExtraBold.ttf
+    formats:
+    - ttf
 - name: JuliaMono Light
   styles:
   - family_name: JuliaMono Light
@@ -98,6 +116,8 @@ fonts:
     version: 0.060; ttfautohint (v1.8.4)
     copyright: Copyright 2020 - 2024 The JuliaMono Project Authors (https://github.com/cormullion/juliamono)
     font: JuliaMono-LightItalic.ttf
+    formats:
+    - ttf
   - family_name: JuliaMono Light
     type: Regular
     preferred_family_name: JuliaMono
@@ -107,6 +127,8 @@ fonts:
     version: 0.060; ttfautohint (v1.8.4)
     copyright: Copyright 2020 - 2025 The JuliaMono Project Authors (https://github.com/cormullion/juliamono)
     font: JuliaMono-Light.ttf
+    formats:
+    - ttf
 - name: JuliaMono Medium
   styles:
   - family_name: JuliaMono Medium
@@ -118,6 +140,8 @@ fonts:
     version: 0.060; ttfautohint (v1.8.4)
     copyright: Copyright 2020 - 2024 The JuliaMono Project Authors (https://github.com/cormullion/juliamono)
     font: JuliaMono-MediumItalic.ttf
+    formats:
+    - ttf
   - family_name: JuliaMono Medium
     type: Regular
     preferred_family_name: JuliaMono
@@ -127,6 +151,8 @@ fonts:
     version: 0.060; ttfautohint (v1.8.4)
     copyright: Copyright 2020 - 2025 The JuliaMono Project Authors (https://github.com/cormullion/juliamono)
     font: JuliaMono-Medium.ttf
+    formats:
+    - ttf
 - name: JuliaMono SemiBold
   styles:
   - family_name: JuliaMono SemiBold
@@ -138,6 +164,8 @@ fonts:
     version: 0.060; ttfautohint (v1.8.4)
     copyright: Copyright 2020 - 2024 The JuliaMono Project Authors (https://github.com/cormullion/juliamono)
     font: JuliaMono-SemiBoldItalic.ttf
+    formats:
+    - ttf
   - family_name: JuliaMono SemiBold
     type: Regular
     preferred_family_name: JuliaMono
@@ -147,8 +175,11 @@ fonts:
     version: 0.060; ttfautohint (v1.8.4)
     copyright: Copyright 2020 - 2025 The JuliaMono Project Authors (https://github.com/cormullion/juliamono)
     font: JuliaMono-SemiBold.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: Copyright 2020 - 2025 The JuliaMono Project Authors (https://github.com/cormullion/juliamono)
+spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2020 - 2023, cormullion

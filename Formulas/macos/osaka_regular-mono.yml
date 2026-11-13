@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Osaka Regular-Mono
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/5c5ff94f65c8472a12188a8ce9843eee9307a2b6.zip
     sha256: 17d83d56424ad1ae6b19f662e286a807ef9ed546b80e9f3fdbf0249c29bbd931
     file_size: 1397719
+    format: ttf
 fonts:
 - name: Osaka
   styles:
@@ -19,8 +21,11 @@ fonts:
     version: 13.0d1e1
     copyright: "© 1990-2008 Apple Inc."
     font: OsakaMono.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: "© 1990-2008 Apple Inc."
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

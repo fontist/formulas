@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 description: Genkaimincho
 homepage: https://www.flopdesign.com/
 resources:
@@ -7,6 +8,7 @@ resources:
     - https://web.archive.org/web/20220916205242/http://flop.sakura.ne.jp/font/fontdata/Genkai-Mincho-font.zip
     sha256: 2608f5fac4b8d1908413efb4130839d873525e666687279b1c0a2cd7affee90b
     file_size: 13584125
+    format: ttf
 fonts:
 - name: Genkaimincho
   styles:
@@ -21,8 +23,11 @@ fonts:
       production); Masataka HATTORI 服部正貴 (production & ideograph elements)
     copyright: Adobe Systems Incorporated
     font: genkai-mincho.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: Adobe Systems Incorporated
+spdx_license: OFL-1.1-no-RFN
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   This Font Software is licensed under the SIL Open Font License,

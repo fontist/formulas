@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: Tahoma
 description: Microsoft Tahoma Font
 homepage: https://www.microsoft.com
@@ -9,6 +10,7 @@ resources:
     - https://master.dl.sourceforge.net/project/corefonts/OldFiles/IELPKTH.CAB
     sha256: c1be3fb8f0042570be76ec6daa03a99142c88367c1bc810240b85827c715961a
     file_size: 411248
+    format: ttf
 fonts:
 - name: Tahoma
   styles:
@@ -23,6 +25,8 @@ fonts:
       dialog boxes and menus.
     copyright: Typeface and data © 1995-1999 Microsoft Corporation. All Rights Reserved.
     font: tahoma.ttf
+    formats:
+    - ttf
   - family_name: Tahoma
     type: Bold
     full_name: Tahoma Bold
@@ -34,6 +38,8 @@ fonts:
       dialog boxes and menus.
     copyright: Typeface and data © 1995-1999 Microsoft Corporation. All Rights Reserved.
     font: tahomabd.ttf
+    formats:
+    - ttf
 extract:
   format: cab
 requires_license_agreement: |
@@ -133,3 +139,4 @@ requires_license_agreement: |
   contact Microsoft for any reason, please contact the Microsoft subsidiary
   serving your country, or write: Microsoft Sales Information Center/One
   Microsoft Way/Redmond, WA  98052-6399.
+spdx_license: LicenseRef-Microsoft-WordViewer

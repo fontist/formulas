@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: Penna
 description: Penna
 homepage: http://www.dotcolon.net
@@ -8,6 +9,7 @@ resources:
     - https://dotcolon.net/files/fonts/penna_0100.zip
     sha256: d4ab6bcadd70e323eea6c6ce54499627b931f2d8ef285a5030e80ba95390e9ed
     file_size: 7541
+    format: otf
 fonts:
 - name: Penna
   styles:
@@ -21,8 +23,11 @@ fonts:
     description: No Rights Reserved.
     copyright: No Rights Reserved.
     font: penna.otf
+    formats:
+    - otf
 extract: {}
 copyright: No Rights Reserved.
+spdx_license: CC0-1.0
 license_url: http://creativecommons.org/publicdomain/zero/1.0/
 open_license: |-
   Creative Commons Legal Code

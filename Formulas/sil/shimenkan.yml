@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: Shimenkan
 description: Shimenkan
 homepage: http://scripts.sil.org
@@ -6,8 +7,10 @@ resources:
   Shimenkan.zip:
     urls:
     - https://software.sil.org/downloads/r/shimenkan/Shimenkan-1.000.zip
+    - https://web.archive.org/web/20260505160340/https://software.sil.org/downloads/r/shimenkan/Shimenkan-1.000.zip
     sha256: 8bc2a4c152d0cefaa983deaccb9aeb7cd9b06901579d27ec0ca37b5d3cb7fe1f
     file_size: 651133
+    format: ttf
 fonts:
 - name: Shimenkan
   styles:
@@ -23,6 +26,8 @@ fonts:
       glyphs copyright (c) 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/),
       with Reserved Font Name 'Source'.
     font: Shimenkan-Bold.ttf
+    formats:
+    - ttf
   - family_name: Shimenkan
     type: Regular
     full_name: Shimenkan
@@ -35,6 +40,8 @@ fonts:
       glyphs copyright (c) 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/),
       with Reserved Font Name 'Source'.
     font: Shimenkan-Regular.ttf
+    formats:
+    - ttf
 - name: Shimenkan Book
   styles:
   - family_name: Shimenkan Book
@@ -49,6 +56,8 @@ fonts:
       glyphs copyright (c) 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/),
       with Reserved Font Name 'Source'.
     font: ShimenkanBook-Bold.ttf
+    formats:
+    - ttf
   - family_name: Shimenkan Book
     type: Regular
     full_name: Shimenkan Book
@@ -61,6 +70,8 @@ fonts:
       glyphs copyright (c) 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/),
       with Reserved Font Name 'Source'.
     font: ShimenkanBook-Regular.ttf
+    formats:
+    - ttf
 - name: Shimenkan Extra Light
   styles:
   - family_name: Shimenkan Extra Light
@@ -75,6 +86,8 @@ fonts:
       glyphs copyright (c) 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/),
       with Reserved Font Name 'Source'.
     font: ShimenkanExtraLight-Bold.ttf
+    formats:
+    - ttf
   - family_name: Shimenkan Extra Light
     type: Regular
     full_name: Shimenkan Extra Light
@@ -87,6 +100,8 @@ fonts:
       glyphs copyright (c) 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/),
       with Reserved Font Name 'Source'.
     font: ShimenkanExtraLight-Regular.ttf
+    formats:
+    - ttf
 - name: Shimenkan Light
   styles:
   - family_name: Shimenkan Light
@@ -101,6 +116,8 @@ fonts:
       glyphs copyright (c) 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/),
       with Reserved Font Name 'Source'.
     font: ShimenkanLight-Bold.ttf
+    formats:
+    - ttf
   - family_name: Shimenkan Light
     type: Regular
     full_name: Shimenkan Light
@@ -113,12 +130,15 @@ fonts:
       glyphs copyright (c) 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/),
       with Reserved Font Name 'Source'.
     font: ShimenkanLight-Regular.ttf
+    formats:
+    - ttf
 extract:
   format: zip
 copyright: Copyright (c) 2018-2019, SIL International (http://scripts.sil.org), with
   Reserved Font Names 'Shimenkan', 'Sapushan', 'Salaowu', and 'Taogu'. Latin glyphs
   copyright (c) 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/),
   with Reserved Font Name 'Source'.
+spdx_license: OFL-1.1-RFN
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2018-2019, SIL International (http://scripts.sil.org), with

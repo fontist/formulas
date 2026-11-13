@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 description: Space Grotesk
 homepage: https://fonts.floriankarsten.com
 resources:
@@ -17,6 +18,8 @@ fonts:
     version: '2.000'
     copyright: Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)
     font: SpaceGrotesk-Bold.otf
+    formats:
+    - otf
   - family_name: Space Grotesk
     type: Bold
     full_name: Space Grotesk Bold
@@ -24,6 +27,8 @@ fonts:
     version: 2.000; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)
     font: SpaceGrotesk-Bold.ttf
+    formats:
+    - ttf
   - family_name: Space Grotesk
     type: Regular
     full_name: Space Grotesk Regular
@@ -31,6 +36,8 @@ fonts:
     version: '2.000'
     copyright: Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)
     font: SpaceGrotesk-Regular.otf
+    formats:
+    - otf
   - family_name: Space Grotesk
     type: Regular
     full_name: Space Grotesk Regular
@@ -38,6 +45,8 @@ fonts:
     version: 2.000; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)
     font: SpaceGrotesk-Regular.ttf
+    formats:
+    - ttf
 - name: Space Grotesk Light
   styles:
   - family_name: Space Grotesk Light
@@ -49,6 +58,8 @@ fonts:
     version: '2.000'
     copyright: Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)
     font: SpaceGrotesk-Light.otf
+    formats:
+    - otf
   - family_name: Space Grotesk Light
     type: Regular
     preferred_family_name: Space Grotesk
@@ -58,6 +69,8 @@ fonts:
     version: '2.000'
     copyright: Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)
     font: SpaceGrotesk[wght].ttf
+    formats:
+    - ttf
   - family_name: Space Grotesk Light
     type: Regular
     preferred_family_name: Space Grotesk
@@ -67,6 +80,8 @@ fonts:
     version: 2.000; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)
     font: SpaceGrotesk-Light.ttf
+    formats:
+    - ttf
 - name: Space Grotesk Medium
   styles:
   - family_name: Space Grotesk Medium
@@ -78,6 +93,8 @@ fonts:
     version: '2.000'
     copyright: Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)
     font: SpaceGrotesk-Medium.otf
+    formats:
+    - otf
   - family_name: Space Grotesk Medium
     type: Regular
     preferred_family_name: Space Grotesk
@@ -87,8 +104,11 @@ fonts:
     version: 2.000; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)
     font: SpaceGrotesk-Medium.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)
+spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 open_license: |-
   Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)

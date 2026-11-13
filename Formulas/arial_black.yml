@@ -1,14 +1,19 @@
 ---
+schema_version: 5
 description: Microsoft TrueType Core fonts for the Web
 homepage: https://www.microsoft.com
 resources:
   arialb32.exe:
     urls:
     - https://gitlab.com/fontmirror/archive/-/raw/master/arialb32.exe
+    - https://web.archive.org/web/20260506003306/https://gitlab.com/fontmirror/archive/-/raw/master/arialb32.exe
     - https://nchc.dl.sourceforge.net/project/corefonts/the%20fonts/final/arialb32.exe
+    - http://web.archive.org/web/20160410121511/http://nchc.dl.sourceforge.net/project/corefonts/the%20fonts/final/arialb32.exe
     - http://sft.if.usp.br/msttcorefonts/arialb32.exe
+    - https://web.archive.org/web/20260506003339/http://sft.if.usp.br/msttcorefonts/arialb32.exe
     sha256: a425f0ffb6a1a5ede5b979ed6177f4f4f4fdef6ae7c302a7b7720ef332fec0a8
     file_size: 168176
+    format: ttf
 fonts:
 - name: Arial Black
   styles:
@@ -30,6 +35,8 @@ fonts:
       reserved. Arial® is a trademark of The Monotype Corporation which may be registered
       in certain jurisdictions.
     font: AriBlk.TTF
+    formats:
+    - ttf
 extract:
   format: cab
 requires_license_agreement: |
@@ -60,3 +67,4 @@ requires_license_agreement: |
   this page was last updated 28 July 1998
   © 1997 Microsoft Corporation. All rights reserved. Terms of use.
   comments to the MST group: ttwsite@microsoft.com
+spdx_license: LicenseRef-Microsoft-fontpack-19980728

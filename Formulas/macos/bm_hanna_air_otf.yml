@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: BM HANNA Air OTF
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/e6af6811c8ad8c4d615a9aceab5a4c3da73f032e.zip
     sha256: 5c9f5eb4c40f150327e08a2380ef8d4556881172896b67a0867c7b4d39fabeeb
     file_size: 233360
+    format: otf
 fonts:
 - name: BM HANNA Air OTF
   styles:
@@ -22,9 +24,12 @@ fonts:
     copyright: Copyright © 2018 WOOWA BROTHERS Corp. All right reserved. Font Designed
       by Sandoll Communications Inc.
     font: BMHannaAir-Regular.otf
+    formats:
+    - otf
 extract: {}
 copyright: Copyright © 2018 WOOWA BROTHERS Corp. All right reserved. Font Designed
   by Sandoll Communications Inc.
+spdx_license: LicenseRef-Apple-EA1705
 license_url: www.woowahan.comm
 requires_license_agreement: |
   For use on Apple-branded Systems

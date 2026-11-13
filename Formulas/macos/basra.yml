@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Basra
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/d0f9e1418e4041eaa2ac67c222cf9608a3eadcc8.zip
     sha256: 24ea4a4e52e93f3b31302f347331a8031a23524c8a2e14e29bcb4fe2a6feab54
     file_size: 73214
+    format: ttc
 font_collections:
 - filename: Basra.ttc
   fonts:
@@ -20,14 +22,19 @@ font_collections:
       post_script_name: Basra-Bold
       version: 13.0d1e3
       copyright: Basra (c) 2013 Diwan Software Ltd.
+      formats:
+      - ttc
     - family_name: Basra
       type: Regular
       full_name: Basra Regular
       post_script_name: Basra
       version: 13.0d1e3
       copyright: Basra (c) 2013 Diwan Software Ltd.
+      formats:
+      - ttc
 extract: {}
 copyright: Basra (c) 2013 Diwan Software Ltd.
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

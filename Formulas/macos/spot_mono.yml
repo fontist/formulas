@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Spot Mono
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2020/ios/061-87819-20200306-93DA1D52-6008-11EA-8852-69B153371E3E/com_apple_MobileAsset_Font6/22caa559ca5aa30335f2a23267dea663f486e125.zip
     sha256: e5b22a8cfeb5d44145eb5837cf2695c5c39a8f5b8ae73d7c015d137023803c40
     file_size: 181446
+    format: ttc
 font_collections:
 - filename: SpotMono.ttc
   fonts:
@@ -22,6 +24,8 @@ font_collections:
       version: 15.0d1e2
       copyright: Copyright © 2014 Schick Toikka. All rights reserved. Spot Mono is
         a trademark of Schick Toikka.
+      formats:
+      - ttc
   - name: Spot Mono Bold
     styles:
     - family_name: Spot Mono Bold
@@ -33,6 +37,8 @@ font_collections:
       version: 15.0d1e2
       copyright: Copyright © 2014 Schick Toikka. All rights reserved. Spot Mono is
         a trademark of Schick Toikka.
+      formats:
+      - ttc
   - name: Spot Mono Medium
     styles:
     - family_name: Spot Mono Medium
@@ -44,9 +50,12 @@ font_collections:
       version: 15.0d1e2
       copyright: Copyright © 2014 Schick Toikka. All rights reserved. Spot Mono is
         a trademark of Schick Toikka.
+      formats:
+      - ttc
 extract: {}
 copyright: Copyright © 2014 Schick Toikka. All rights reserved. Spot Mono is a trademark
   of Schick Toikka.
+spdx_license: LicenseRef-Apple-EA1705
 license_url: http://www.schick-toikka.com/legal/
 requires_license_agreement: |
   For use on Apple-branded Systems

@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: Unicode BMP Fallback SIL
 description: Unicode BMP Fallback SIL
 homepage: http://www.sil.org
@@ -8,6 +9,7 @@ resources:
     - https://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=UnicodeBMPFallback_61&filename=UnicodeBMPFallback-6.1.zip
     sha256: 350b843e5daef0e48c0f5e04d9105c2938b395e045d37598cf58edec82e5e4b4
     file_size: 542533
+    format: ttf
 fonts:
 - name: Unicode BMP Fallback SIL
   styles:
@@ -21,9 +23,12 @@ fonts:
       enclosing the four hex digits identifying the Unicode scalar value.
     copyright: Copyright (c) 1994-2012, SIL International (http://www.sil.org/)
     font: UnicodeBMPFallback.ttf
+    formats:
+    - ttf
 extract:
   format: zip
 copyright: Copyright (c) 1994-2012, SIL International (http://www.sil.org/)
+spdx_license: OFL-1.1-RFN
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 1994-2012, SIL International (http://www.sil.org/)

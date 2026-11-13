@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Founders Grotesk
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2020/ios/061-87819-20200306-93DA1D52-6008-11EA-8852-69B153371E3E/com_apple_MobileAsset_Font6/84947d479ac0d6534c6c95852520257a8422778b.zip
     sha256: 55645d6f7fbef60fd44dc8e4a77ded46e81b2ead09e062a572631bd928f347b2
     file_size: 300713
+    format: ttc
 font_collections:
 - filename: FoundersGrotesk.ttc
   fonts:
@@ -22,6 +24,8 @@ font_collections:
       post_script_name: FoundersGrotesk-BoldItalic
       version: 15.0d1e4
       copyright: "© 2010 Klim Type Foundry. All rights reserved."
+      formats:
+      - ttc
     - family_name: Founders Grotesk Bold
       type: Regular
       preferred_family_name: Founders Grotesk
@@ -30,6 +34,8 @@ font_collections:
       post_script_name: FoundersGrotesk-Bold
       version: 15.0d1e4
       copyright: "© 2010 Klim Type Foundry. All rights reserved."
+      formats:
+      - ttc
   - name: Founders Grotesk Light
     styles:
     - family_name: Founders Grotesk Light
@@ -40,6 +46,8 @@ font_collections:
       post_script_name: FoundersGrotesk-LightItalic
       version: 15.0d1e4
       copyright: "© 2010 Klim Type Foundry. All rights reserved."
+      formats:
+      - ttc
     - family_name: Founders Grotesk Light
       type: Regular
       preferred_family_name: Founders Grotesk
@@ -48,6 +56,8 @@ font_collections:
       post_script_name: FoundersGrotesk-Light
       version: 15.0d1e4
       copyright: "© 2010 Klim Type Foundry. All rights reserved."
+      formats:
+      - ttc
   - name: Founders Grotesk Medium
     styles:
     - family_name: Founders Grotesk Medium
@@ -58,6 +68,8 @@ font_collections:
       post_script_name: FoundersGrotesk-MediumItalic
       version: 15.0d1e4
       copyright: "© 2010 Klim Type Foundry. All rights reserved."
+      formats:
+      - ttc
     - family_name: Founders Grotesk Medium
       type: Regular
       preferred_family_name: Founders Grotesk
@@ -66,6 +78,8 @@ font_collections:
       post_script_name: FoundersGrotesk-Medium
       version: 15.0d1e4
       copyright: "© 2010 Klim Type Foundry. All rights reserved."
+      formats:
+      - ttc
   - name: Founders Grotesk Regular
     styles:
     - family_name: Founders Grotesk Regular
@@ -76,6 +90,8 @@ font_collections:
       post_script_name: FoundersGrotesk-RegularItalic
       version: 15.0d1e4
       copyright: "© 2010 Klim Type Foundry. All rights reserved."
+      formats:
+      - ttc
     - family_name: Founders Grotesk Regular
       type: Regular
       preferred_family_name: Founders Grotesk
@@ -83,6 +99,8 @@ font_collections:
       post_script_name: FoundersGrotesk-Regular
       version: 15.0d1e4
       copyright: "© 2010 Klim Type Foundry. All rights reserved."
+      formats:
+      - ttc
   - name: Founders Grotesk Semibold
     styles:
     - family_name: Founders Grotesk Semibold
@@ -93,6 +111,8 @@ font_collections:
       post_script_name: FoundersGrotesk-SemiboldItalic
       version: 15.0d1e4
       copyright: "© 2010 Klim Type Foundry. All rights reserved."
+      formats:
+      - ttc
     - family_name: Founders Grotesk Semibold
       type: Regular
       preferred_family_name: Founders Grotesk
@@ -101,8 +121,11 @@ font_collections:
       post_script_name: FoundersGrotesk-Semibold
       version: 15.0d1e4
       copyright: "© 2010 Klim Type Foundry. All rights reserved."
+      formats:
+      - ttc
 extract: {}
 copyright: "© 2010 Klim Type Foundry. All rights reserved."
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

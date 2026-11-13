@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: MingLiU
 description: MingLiU
 resources:
@@ -8,6 +9,7 @@ resources:
     - https://web.archive.org/web/20200705160237if_/https://download.microsoft.com/download/6/1/4/6149F613-738D-4292-A6EB-65B9F50AFCB6/HKSCS2004-x86.EXE
     sha256: 19d791a72ff7b268a2d128cc334520b716633fd5e11579794a975be88ce9babe
     file_size: 26484072
+    format: ttc
 font_collections:
 - filename: MINGLIU.TTC
   fonts:
@@ -19,6 +21,8 @@ font_collections:
       post_script_name: MingLiU
       version: '6.90'
       copyright: "(c) Copyright DynaComware Corp. 2008"
+      formats:
+      - ttc
   - name: MingLiU_HKSCS
     styles:
     - family_name: MingLiU_HKSCS
@@ -27,6 +31,8 @@ font_collections:
       post_script_name: Ming-Lt-HKSCS-UNI-H
       version: '6.90'
       copyright: "(c) Copyright DynaComware Corp. 2008"
+      formats:
+      - ttc
   - name: PMingLiU
     styles:
     - family_name: PMingLiU
@@ -35,6 +41,8 @@ font_collections:
       post_script_name: PMingLiU
       version: '6.90'
       copyright: "(c) Copyright DynaComware Corp. 2008"
+      formats:
+      - ttc
 - filename: MINGLIUB.TTC
   fonts:
   - name: MingLiU-ExtB
@@ -45,6 +53,8 @@ font_collections:
       post_script_name: MingLiU-ExtB
       version: '6.90'
       copyright: "(c) Copyright DynaComware Corp. 2008"
+      formats:
+      - ttc
   - name: MingLiU_HKSCS-ExtB
     styles:
     - family_name: MingLiU_HKSCS-ExtB
@@ -53,6 +63,8 @@ font_collections:
       post_script_name: Ming-Lt-HKSCS-ExtB
       version: '6.90'
       copyright: "(c) Copyright DynaComware Corp. 2008"
+      formats:
+      - ttc
   - name: PMingLiU-ExtB
     styles:
     - family_name: PMingLiU-ExtB
@@ -61,9 +73,12 @@ font_collections:
       post_script_name: PMingLiU-ExtB
       version: '6.90'
       copyright: "(c) Copyright DynaComware Corp. 2008"
+      formats:
+      - ttc
 extract:
   format: cab
 copyright: "(c) Copyright DynaComware Corp. 2008"
+spdx_license: LicenseRef-Microsoft-ISO10646
 license_url: http://www.microsoft.com/typography
 requires_license_agreement: |-
   Windows XP Font Pack for ISO 10646:2003 + Amendment 1 Traditional Chinese Support

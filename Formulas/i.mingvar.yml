@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: I.MingVar
 description: I.MingVar
 homepage: https://github.com/ichitenfont/I.Ming
@@ -8,6 +9,7 @@ resources:
     - https://github.com/ichitenfont/I.Ming/releases/download/8.10/I.MingVar-8.10.ttf
     sha256: ba877ed20835c5622e4cbe83b4107e78f11ad919d0268491efd00d4141a2fd78
     file_size: 25862588
+    format: ttf
 fonts:
 - name: I.MingVar
   styles:
@@ -20,10 +22,13 @@ fonts:
       Agency, Japan (IPA), 2011-2018. You must accept "http://ipafont.ipa.go.jp/ipa_font_license_v1.html"
       to use this product.
     font: I.MingVar-8.10.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: Copyright © 2003-2024 I.Font Project; Information-technology Promotion
   Agency, Japan (IPA), 2011-2018. You must accept "http://ipafont.ipa.go.jp/ipa_font_license_v1.html"
   to use this product.
+spdx_license: IPA
 license_url: http://ipafont.ipa.go.jp/ipa_font_license_v1.html
 open_license: |-
   # IPA Font License Agreement v1.0 <Japanese/English>

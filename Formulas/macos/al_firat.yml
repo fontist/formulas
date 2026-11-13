@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Al Firat
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/841944629a9ea70a0dab8a1e62ab2acb29cbeec7.zip
     sha256: a0eada1e14c88d1f79e1995eb2eb5ac5b56d2e91490f5a3b2944d08e0a4d76f7
     file_size: 34365
+    format: ttc
 font_collections:
 - filename: AlFirat.ttc
   fonts:
@@ -20,8 +22,11 @@ font_collections:
       post_script_name: Al-Firat
       version: 13.0d2e10
       copyright: AlFirat (c) 2013 Diwan Software Ltd.
+      formats:
+      - ttc
 extract: {}
 copyright: AlFirat (c) 2013 Diwan Software Ltd.
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

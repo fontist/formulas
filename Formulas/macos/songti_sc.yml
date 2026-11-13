@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Songti SC
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/8e7b6109583fe577c25e5fc559daa5300a928d74.zip
     sha256: 11bc0a40a454461e3e82c12c2923d921104a791caa08326b2af3879e469ee1e3
     file_size: 43702578
+    format: ttc
 font_collections:
 - filename: Songti.ttc
   fonts:
@@ -21,6 +23,8 @@ font_collections:
       version: 14.0d0e1
       copyright: Copyright (c) 2002, Changzhou SinoType Technology Co., Ltd.  All
         rights reserved.
+      formats:
+      - ttc
   - name: Songti SC
     styles:
     - family_name: Songti SC
@@ -32,6 +36,8 @@ font_collections:
       version: 14.0d0e1
       copyright: "© 1991-1998, 2012 Changzhou SinoType Technology Co., Ltd.  All rights
         reserved."
+      formats:
+      - ttc
     - family_name: Songti SC
       type: Bold
       preferred_family_name: Songti SC
@@ -41,6 +47,8 @@ font_collections:
       version: 14.0d0e1
       copyright: "© 2000-2005, 2012 Changzhou SinoType Technology Co., Ltd.  All rights
         reserved."
+      formats:
+      - ttc
     - family_name: Songti SC
       type: Light
       preferred_family_name: Songti SC
@@ -50,6 +58,8 @@ font_collections:
       version: 14.0d0e1
       copyright: "© 1991-2001 Changzhou SinoType Technology Co., Ltd.  All rights
         reserved."
+      formats:
+      - ttc
     - family_name: Songti SC
       type: Regular
       preferred_family_name: Songti SC
@@ -59,6 +69,8 @@ font_collections:
       version: 14.0d0e1
       copyright: "© 2010-2012 Changzhou SinoType Technology Co., Ltd.  All rights
         reserved."
+      formats:
+      - ttc
   - name: Songti TC
     styles:
     - family_name: Songti TC
@@ -70,6 +82,8 @@ font_collections:
       version: 14.0d0e1
       copyright: "© 2010-2012, 2013 Changzhou SinoType Technology Co., Ltd.  All rights
         reserved."
+      formats:
+      - ttc
     - family_name: Songti TC
       type: Light
       preferred_family_name: Songti TC
@@ -79,6 +93,8 @@ font_collections:
       version: 14.0d0e1
       copyright: "© 2010-2012, 2013 Changzhou SinoType Technology Co., Ltd.  All rights
         reserved."
+      formats:
+      - ttc
     - family_name: Songti TC
       type: Regular
       preferred_family_name: Songti TC
@@ -88,9 +104,12 @@ font_collections:
       version: 14.0d0e1
       copyright: "© 2010-2012, 2013 Changzhou SinoType Technology Co., Ltd.  All rights
         reserved."
+      formats:
+      - ttc
 extract: {}
 copyright: "© 1991-1998, 2012 Changzhou SinoType Technology Co., Ltd.  All rights
   reserved."
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

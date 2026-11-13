@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Kefa Bold
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/a008b91aa86f9af51d8fc7dd6e933ac1541eaf9d.zip
     sha256: dc91439289bd6a201caaba035b5832579d646450dd350ae75cc57accf800b328
     file_size: 77491
+    format: ttf
 fonts:
 - name: Kefa
   styles:
@@ -19,8 +21,11 @@ fonts:
     version: 13.0d1e3
     copyright: Copyright (c) 2006 - 2009 by Jeremie Hornus. All rights reserved.
     font: Kefa-Bold.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: Copyright (c) 2006 - 2009 by Jeremie Hornus. All rights reserved.
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

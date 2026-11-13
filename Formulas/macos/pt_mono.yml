@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: PT Mono
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/61f5284e146e52ab5e869184a667ddcfb0963730.zip
     sha256: ebdc50e02557f199a4f96fb1b6afa13490123a359bdd672fafbf2948a319af89
     file_size: 165273
+    format: ttc
 font_collections:
 - filename: PTMono.ttc
   fonts:
@@ -29,6 +31,8 @@ font_collections:
         Designer Alexandra Korolkova with a participation of Bella Chaeva. Released
         by ParaType in 2011.
       copyright: Copyright © 2010 ParaType Inc., ParaType Ltd. All rights reserved.
+      formats:
+      - ttc
     - family_name: PT Mono
       type: Regular
       full_name: PT Mono
@@ -44,8 +48,11 @@ font_collections:
         Designer Alexandra Korolkova with a participation of Bella Chaeva. Released
         by ParaType in 2011.
       copyright: Copyright © 2010 ParaType Inc., ParaType Ltd. All rights reserved.
+      formats:
+      - ttc
 extract: {}
 copyright: Copyright © 2010 ParaType Inc., ParaType Ltd. All rights reserved.
+spdx_license: LicenseRef-Apple-EA1705
 license_url: http://www.paratype.com/public/pt_openlicense_eng.asp
 requires_license_agreement: |
   For use on Apple-branded Systems

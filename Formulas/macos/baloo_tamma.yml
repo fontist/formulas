@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Baloo Tamma
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/8d2f0d4bc7cb132efb49ebe29878a9a6c6a07a1c.zip
     sha256: 5dee2ec3125ab9433b8c2c3f471fb0e778c3167f317517b9a6fa519eca933512
     file_size: 283550
+    format: ttf
 fonts:
 - name: Baloo Tamma
   styles:
@@ -19,8 +21,11 @@ fonts:
     version: 1.443;PS 1.000;hotconv 16.6.51;makeotf.lib2.5.65220; ttfautohint (v1.6)
     copyright: "\uFEFFCopyright (c) 2015 Ek Type (www.ektype.in)"
     font: BalooTammaKannada-Regular.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: "\uFEFFCopyright (c) 2015 Ek Type (www.ektype.in)"
+spdx_license: LicenseRef-Apple-EA1705
 license_url: http://scripts.sil.org/OFL
 requires_license_agreement: |
   For use on Apple-branded Systems

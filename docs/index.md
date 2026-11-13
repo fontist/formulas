@@ -6,28 +6,16 @@ pageClass: formulas-index
 
 <script setup>
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
+import { data as buildTimeStats } from './.vitepress/stats.data'
 
 const formulasData = ref([])
 const searchQuery = ref('')
 const showAutocomplete = ref(false)
 const copied = ref(false)
 const selectedIndex = ref(-1)
+let searchIndexPromise = null
 
-const stats = ref({
-  total: 0,
-  licenses: {
-    open_source: 0,
-    freely_distributable: 0,
-    platform_restricted: 0,
-    bundled_software: 0
-  },
-  sources: {
-    google: 0,
-    sil: 0,
-    macos: 0,
-    manual: 0
-  }
-})
+const stats = ref(buildTimeStats)
 
 const autocompleteResults = computed(() => {
   if (!searchQuery.value.trim()) return []
@@ -41,27 +29,20 @@ const autocompleteResults = computed(() => {
 
 const basePath = import.meta.env.BASE_URL || '/'
 
-onMounted(async () => {
-  try {
-    const response = await fetch(`${basePath}formulas-data.json`)
-    const data = await response.json()
-    formulasData.value = data
-    stats.value.total = data.length
-
-    data.forEach(f => {
-      const lic = f.licenseCategory || 'unknown'
-      if (stats.value.licenses[lic] !== undefined) {
-        stats.value.licenses[lic]++
-      }
-      const src = f.sourceType || 'unknown'
-      if (stats.value.sources[src] !== undefined) {
-        stats.value.sources[src]++
-      }
-    })
-  } catch (e) {
-    console.error('Failed to load stats:', e)
+function loadSearchIndex() {
+  if (!searchIndexPromise) {
+    searchIndexPromise = fetch(`${basePath}search-index.json`)
+      .then(r => r.json())
+      .then(data => { formulasData.value = data })
+      .catch(e => {
+        console.error('Failed to load search index:', e)
+        searchIndexPromise = null
+      })
   }
+  return searchIndexPromise
+}
 
+onMounted(() => {
   document.addEventListener('click', handleClickOutside)
 })
 
@@ -101,6 +82,16 @@ function getLicenseBadge(f) {
   return `<img src="${basePath}licenses/unknown.svg" alt="Unknown" class="license-icon" title="Unknown">`
 }
 
+function goToFormula(slug) {
+  // Formula pages are rendered in CI batches, and each batch's VitePress
+  // router manifest only knows about its own pages. SPA navigation from
+  // the homepage to a formula in a different batch 404s. Force a full page
+  // load so the server sends the correct HTML with the correct app chunk.
+  // No trailing slash: cleanUrls:true route map expects /browse/foo, and
+  // GitHub Pages serves /browse/foo/index.html for either form.
+  window.location.href = `${basePath}browse/${slug}`
+}
+
 function getSourceBadge(f) {
   if (!f) return `<img src="${basePath}sources/fontist.svg" alt="Expert Curated" class="source-icon" title="Expert Curated">`
   if (f.sourceType === 'google') return `<img src="${basePath}sources/google.svg" alt="Google Fonts" class="source-icon" title="Google Fonts">`
@@ -136,7 +127,7 @@ function onKeydown(e) {
   } else if (e.key === 'Enter') {
     e.preventDefault()
     if (selectedIndex.value >= 0) {
-      window.location.href = `${basePath}browse/${results[selectedIndex.value].slug}/`
+      window.location.href = `${basePath}browse/${results[selectedIndex.value].slug}`
     } else {
       handleSearch(e)
     }
@@ -165,6 +156,7 @@ watch(searchQuery, (val) => {
     </svg>
     <input
       v-model="searchQuery"
+      @focus="loadSearchIndex"
       type="search"
       placeholder="Search by name, family, or formula..."
       class="search-input"
@@ -174,9 +166,10 @@ watch(searchQuery, (val) => {
       <a
         v-for="(item, idx) in autocompleteResults"
         :key="item.slug"
-        :href="basePath + 'browse/' + item.slug + '/'"
+        :href="basePath + 'browse/' + item.slug"
         :class="getItemClass(idx)"
         @mouseover="selectedIndex = idx"
+        @click.stop.prevent="goToFormula(item.slug)"
       >
         <div class="autocomplete-main">
           <span class="autocomplete-name">{{ item.name }}</span>

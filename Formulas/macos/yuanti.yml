@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Yuanti
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/ec2979c8550757993101e27b30b2b89cb45917fc.zip
     sha256: 11f0107c0c917aac7fe599a5154010136d7de522a1ed1684d23e42c9e3f73ec3
     file_size: 46455121
+    format: ttc
 font_collections:
 - filename: Yuanti.ttc
   fonts:
@@ -23,6 +25,8 @@ font_collections:
       version: 14.0d1e1
       copyright: "© 2010-2015 Changzhou SinoType Technology Co., Ltd.  All rights
         reserved."
+      formats:
+      - ttc
     - family_name: Yuanti SC
       type: Light
       preferred_family_name: Yuanti SC
@@ -32,6 +36,8 @@ font_collections:
       version: 14.0d1e1
       copyright: "© 2010-2015 Changzhou SinoType Technology Co., Ltd.  All rights
         reserved."
+      formats:
+      - ttc
     - family_name: Yuanti SC
       type: Regular
       preferred_family_name: Yuanti SC
@@ -41,6 +47,8 @@ font_collections:
       version: 14.0d1e1
       copyright: "© 2010-2015 Changzhou SinoType Technology Co., Ltd.  All rights
         reserved."
+      formats:
+      - ttc
   - name: Yuanti TC
     styles:
     - family_name: Yuanti TC
@@ -52,6 +60,8 @@ font_collections:
       version: 14.0d1e1
       copyright: "© 2010-2015  Changzhou SinoType Technology Co., Ltd.  All rights
         reserved."
+      formats:
+      - ttc
     - family_name: Yuanti TC
       type: Light
       preferred_family_name: Yuanti TC
@@ -61,6 +71,8 @@ font_collections:
       version: 14.0d1e1
       copyright: "© 2010-2015 Changzhou SinoType Technology Co., Ltd.  All rights
         reserved."
+      formats:
+      - ttc
     - family_name: Yuanti TC
       type: Regular
       preferred_family_name: Yuanti TC
@@ -70,8 +82,11 @@ font_collections:
       version: 14.0d1e1
       copyright: "© 2010-2015 Changzhou SinoType Technology Co., Ltd.  All rights
         reserved."
+      formats:
+      - ttc
 extract: {}
 copyright: "© 2010-2015 Changzhou SinoType Technology Co., Ltd.  All rights reserved."
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

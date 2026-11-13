@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Hiragino Sans W0
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/e8f965e5559b752a6b0b60138fbc39e41905df88.zip
     sha256: 520011a797e3d0efad2befafff88cf419c3c7e9d075b62d29c6d0daf0746192d
     file_size: 2219104
+    format: ttc
 font_collections:
 - filename: HiraginoSans-W0.ttc
   fonts:
@@ -23,9 +25,12 @@ font_collections:
       version: 15.0d1e3
       copyright: ver8.20, Copyright (c) 2014-2015 SCREEN Graphic and Precision Solutions
         Co., Ltd. All Rights Reserved.
+      formats:
+      - ttc
 extract: {}
 copyright: ver8.20, Copyright (c) 2014-2015 SCREEN Graphic and Precision Solutions
   Co., Ltd. All Rights Reserved.
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

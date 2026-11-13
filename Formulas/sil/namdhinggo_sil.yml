@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: Namdhinggo SIL
 description: Namdhinggo SIL
 homepage: http://scripts.sil.org/
@@ -6,8 +7,10 @@ resources:
   Namdhinggo_SIL.zip:
     urls:
     - https://software.sil.org/downloads/r/namdhinggo/NamdhinggoSIL-1.004.zip
+    - https://web.archive.org/web/20260505155903/https://software.sil.org/downloads/r/namdhinggo/NamdhinggoSIL-1.004.zip
     sha256: 8bd69ee93687f2b3fcb705b0c8867c8ff573edcaf9a5c51a08a8ca1c1ddc966b
     file_size: 71678
+    format: ttf
 fonts:
 - name: Namdhinggo SIL
   styles:
@@ -20,11 +23,14 @@ fonts:
       is licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL),
       with Reserved Font Names "Namdhinggo" and "SIL".
     font: NamdhinggoSIL-R.ttf
+    formats:
+    - ttf
 extract:
   format: zip
 copyright: Copyright (c) 2002-2009, SIL International (http://www.sil.org/), and is
   licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL),
   with Reserved Font Names "Namdhinggo" and "SIL".
+spdx_license: OFL-1.1-RFN
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2002-2007, SIL International (http://www.sil.org/), with Reserved Font Names "Namdhinggo" and "SIL".

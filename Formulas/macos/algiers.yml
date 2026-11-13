@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Algiers
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/6abfe5a1e1dfd714d66a87614ecedfc47c8aa5b6.zip
     sha256: bf9fb61119920582728e5d9ef55239a61822d6a5cdaca0f8d51ece9e854bb09f
     file_size: 47251
+    format: ttc
 font_collections:
 - filename: Algiers.ttc
   fonts:
@@ -20,8 +22,11 @@ font_collections:
       post_script_name: Algiers
       version: 13.0d2e1
       copyright: "© 2001 Diwan Software Ltd."
+      formats:
+      - ttc
 extract: {}
 copyright: "© 2001 Diwan Software Ltd."
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: I.MingVarCP
 description: I.MingVarCP
 homepage: https://github.com/ichitenfont/I.Ming
@@ -8,6 +9,7 @@ resources:
     - https://github.com/ichitenfont/I.Ming/releases/download/8.10/I.MingVarCP-8.10.ttf
     sha256: 9d342893b0eddc5baa46398eb9e83741cad86143ddd493bdb8d04268d78ad527
     file_size: 25862100
+    format: ttf
 fonts:
 - name: I.MingVarCP
   styles:
@@ -20,10 +22,13 @@ fonts:
       Agency, Japan (IPA), 2011-2018. You must accept "http://ipafont.ipa.go.jp/ipa_font_license_v1.html"
       to use this product.
     font: I.MingVarCP-8.10.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: Copyright © 2003-2024 I.Font Project; Information-technology Promotion
   Agency, Japan (IPA), 2011-2018. You must accept "http://ipafont.ipa.go.jp/ipa_font_license_v1.html"
   to use this product.
+spdx_license: IPA
 license_url: http://ipafont.ipa.go.jp/ipa_font_license_v1.html
 open_license: |-
   # IPA Font License Agreement v1.0 <Japanese/English>

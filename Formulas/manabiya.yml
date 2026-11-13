@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 description: Manabiya
 homepage: https://modi.jpn.org/
 resources:
@@ -7,6 +8,7 @@ resources:
     - https://modi.jpn.org/download/MODI_manabiya_2018_0314.zip
     sha256: 84e2a64f505d4326b191261d307b88313ee308c1c28de396d99006c8c86d2282
     file_size: 337475
+    format: otf
 fonts:
 - name: Manabiya-ICHO
   styles:
@@ -19,6 +21,8 @@ fonts:
     version: 1.00.20180314
     copyright: MODI
     font: Manabiya-ICHO.otf
+    formats:
+    - otf
 - name: Manabiya-SAKURA
   styles:
   - family_name: Manabiya-SAKURA
@@ -30,9 +34,12 @@ fonts:
     version: 1.00.20180314
     copyright: MODI
     font: Manabiya-SAKURA.otf
+    formats:
+    - otf
 extract: {}
 copyright: MODI
 command: create-formula https://modi.jpn.org/download/MODI_manabiya_2018_0314.zip
+spdx_license: OFL-1.1-no-RFN
 license_url: https://modi.jpn.org/licence.php
 open_license: |-
   Copyright (c) 2018 M+ FONTS PROJECT/MODI

@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: Meiryo
 description: Meiryo
 homepage: http://www.microsoft.com/typography/ctfonts
@@ -9,6 +10,7 @@ resources:
     - https://web.archive.org/web/20200221141943if_/https://download.microsoft.com/download/f/d/b/fdb92afb-937b-4bf1-be2b-585f43248c39/VistaFont_JPN.EXE
     sha256: f750266b7c3095a25a00b784077ccd70ab4499733846e7601aa04b4ab8d042a6
     file_size: 8927800
+    format: ttc
 font_collections:
 - filename: meiryo.ttc
   fonts:
@@ -31,6 +33,8 @@ font_collections:
         a robust legible typeface yet compact enough to enable tight inter-line spacing
         which is good for space economy.
       copyright: "© 2006 Microsoft Corporation. All Rights Reserved."
+      formats:
+      - ttc
     - family_name: Meiryo
       type: Italic
       full_name: Meiryo Italic
@@ -48,6 +52,8 @@ font_collections:
         a robust legible typeface yet compact enough to enable tight inter-line spacing
         which is good for space economy.
       copyright: "© 2006 Microsoft Corporation. All Rights Reserved."
+      formats:
+      - ttc
 - filename: meiryob.ttc
   fonts:
   - name: Meiryo
@@ -69,6 +75,8 @@ font_collections:
         a robust legible typeface yet compact enough to enable tight inter-line spacing
         which is good for space economy.
       copyright: "© 2006 Microsoft Corporation. All Rights Reserved."
+      formats:
+      - ttc
     - family_name: Meiryo
       type: Bold Italic
       full_name: Meiryo Bold Italic
@@ -86,9 +94,12 @@ font_collections:
         a robust legible typeface yet compact enough to enable tight inter-line spacing
         which is good for space economy.
       copyright: "© 2006 Microsoft Corporation. All Rights Reserved."
+      formats:
+      - ttc
 extract:
   format: cab
 copyright: "© 2006 Microsoft Corporation. All Rights Reserved."
+spdx_license: LicenseRef-Microsoft-EastAsianClearType
 license_url: http://www.microsoft.com/typography/fonts/default.aspx
 requires_license_agreement: |-
   MICROSOFT SOFTWARE LICENSE TERMS

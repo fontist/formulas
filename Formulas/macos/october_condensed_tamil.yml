@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: October Condensed Tamil
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2020/mobileassets/001-26051/B1CF7C35-D704-4F2D-82D1-DCE47CD14C5C/com_apple_MobileAsset_Font6/273c47674feb3e77c9deb5ce4849f95406645bca.zip
     sha256: ce17c2b69f6b454aabba8a614abae225fca8a44bb04f4d0d70c182f04e0ec7a8
     file_size: 541103
+    format: ttc
 font_collections:
 - filename: OctoberCondensedTamil.ttc
   fonts:
@@ -20,12 +22,16 @@ font_collections:
       post_script_name: OctoberCondensedTLBold
       version: 15.0d1e4
       copyright: Copyright 2019 Typotheque. All rights reserved.
+      formats:
+      - ttc
     - family_name: October Condensed Tamil
       type: Regular
       full_name: October Condensed Tamil Regular
       post_script_name: OctoberCondensedTLRegular
       version: 15.0d1e4
       copyright: Copyright 2019 Typotheque. All rights reserved.
+      formats:
+      - ttc
   - name: October Condensed Tamil Black
     styles:
     - family_name: October Condensed Tamil Black
@@ -36,6 +42,8 @@ font_collections:
       post_script_name: OctoberCondensedTLBlack
       version: 15.0d1e4
       copyright: Copyright 2019 Typotheque. All rights reserved.
+      formats:
+      - ttc
   - name: October Condensed Tamil ExtraLight
     styles:
     - family_name: October Condensed Tamil ExtraLight
@@ -46,6 +54,8 @@ font_collections:
       post_script_name: OctoberCondensedTLExtraLight
       version: 15.0d1e4
       copyright: Copyright 2019 Typotheque. All rights reserved.
+      formats:
+      - ttc
   - name: October Condensed Tamil Hairline
     styles:
     - family_name: October Condensed Tamil Hairline
@@ -56,6 +66,8 @@ font_collections:
       post_script_name: OctoberCondensedTLHairline
       version: 15.0d1e4
       copyright: Copyright 2019 Typotheque. All rights reserved.
+      formats:
+      - ttc
   - name: October Condensed Tamil Heavy
     styles:
     - family_name: October Condensed Tamil Heavy
@@ -66,6 +78,8 @@ font_collections:
       post_script_name: OctoberCondensedTLHeavy
       version: 15.0d1e4
       copyright: Copyright 2019 Typotheque. All rights reserved.
+      formats:
+      - ttc
   - name: October Condensed Tamil Light
     styles:
     - family_name: October Condensed Tamil Light
@@ -76,6 +90,8 @@ font_collections:
       post_script_name: OctoberCondensedTLLight
       version: 15.0d1e4
       copyright: Copyright 2019 Typotheque. All rights reserved.
+      formats:
+      - ttc
   - name: October Condensed Tamil Medium
     styles:
     - family_name: October Condensed Tamil Medium
@@ -86,6 +102,8 @@ font_collections:
       post_script_name: OctoberCondensedTLMedium
       version: 15.0d1e4
       copyright: Copyright 2019 Typotheque. All rights reserved.
+      formats:
+      - ttc
   - name: October Condensed Tamil Thin
     styles:
     - family_name: October Condensed Tamil Thin
@@ -96,8 +114,11 @@ font_collections:
       post_script_name: OctoberCondensedTLThin
       version: 15.0d1e4
       copyright: Copyright 2019 Typotheque. All rights reserved.
+      formats:
+      - ttc
 extract: {}
 copyright: Copyright 2019 Typotheque. All rights reserved.
+spdx_license: LicenseRef-Apple-EA1705
 license_url: https://typotheque.com/licensing/eula
 requires_license_agreement: |
   For use on Apple-branded Systems

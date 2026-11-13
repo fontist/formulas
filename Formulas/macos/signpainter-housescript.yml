@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: SignPainter-HouseScript
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/ea60e42f5945aa7a073d5473f52e648862cb06bb.zip
     sha256: f30b841e23906bf241273f508ec1004ec25c3afffa40478cf042419afd555ad1
     file_size: 100188
+    format: otf
 fonts:
 - name: SignPainter-HouseScript
   styles:
@@ -22,8 +24,11 @@ fonts:
     description: Part of the Sign Painter Font Kit from House Industries
     copyright: "(C)1999 House Industries/Brand Design Co., Inc."
     font: SignPainter-Regular.otf
+    formats:
+    - otf
 extract: {}
 copyright: "(C)1999 House Industries/Brand Design Co., Inc."
+spdx_license: LicenseRef-Apple-EA1705
 license_url: http://www.houseind.com/license
 requires_license_agreement: |
   For use on Apple-branded Systems

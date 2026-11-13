@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Century Schoolbook
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/9e7c4ad79a2623a791064749848a782fe3a32265.zip
     sha256: 43a7cfd5745a0c1b6ceafdbc1481f9b95798625d1800c3781c4f7253d3f44048
     file_size: 200759
+    format: ttc
 font_collections:
 - filename: CenturySchoolbook.ttc
   fonts:
@@ -28,6 +30,8 @@ font_collections:
         choice for setting books, newspapers and magazines.
       copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
         plc / Type Solutions Inc. 1990-91 All Rights Reserved.
+      formats:
+      - ttc
     - family_name: Century Schoolbook
       type: Bold Italic
       full_name: Century Schoolbook Bold Italic
@@ -42,6 +46,8 @@ font_collections:
         choice for setting books, newspapers and magazines.
       copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
         plc / Type Solutions Inc. 1990-91 All Rights Reserved.
+      formats:
+      - ttc
     - family_name: Century Schoolbook
       type: Italic
       full_name: Century Schoolbook Italic
@@ -56,6 +62,8 @@ font_collections:
         choice for setting books, newspapers and magazines.
       copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
         plc / Type Solutions Inc. 1990-91 All Rights Reserved.
+      formats:
+      - ttc
     - family_name: Century Schoolbook
       type: Regular
       full_name: Century Schoolbook
@@ -70,9 +78,12 @@ font_collections:
         choice for setting books, newspapers and magazines.
       copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
         plc / Type Solutions Inc. 1990-91 All Rights Reserved.
+      formats:
+      - ttc
 extract: {}
 copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
   plc / Type Solutions Inc. 1990-91 All Rights Reserved.
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

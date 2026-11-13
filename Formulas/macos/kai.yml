@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Kai
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/7cb72b1f60ccd0551894a1f248aa7c28fa3afb1d.zip
     sha256: 69192a6a84ed00499a0a9ea5ed082d4297c42e7db8effa059cee79a9903a161f
     file_size: 5328254
+    format: ttf
 fonts:
 - name: Kai
   styles:
@@ -19,8 +21,11 @@ fonts:
     version: 13.0d1e2
     copyright: "˝Copyright Shanghai Ikarus Ltd. 1993 1994 1995"
     font: Kai.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: "˝Copyright Shanghai Ikarus Ltd. 1993 1994 1995"
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

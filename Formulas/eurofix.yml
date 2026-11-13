@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 description: EuroFix
 homepage: https://docs.microsoft.com/en-us/previous-versions//cc767898(v=technet.10)?redirectedfrom=MSDN
 resources:
@@ -7,6 +8,7 @@ resources:
     - http://web.archive.org/web/20030118044911/http://download.microsoft.com:80/msdownload/euro/wts/x86/eurofixi.exe
     sha256: 41f272a33521f6e15f2cce9ff1e049f2badd5ff0dc327fc81b60825766d5b6c7
     file_size: 1930192
+    format: ttf
 fonts:
 - name: Arial
   styles:
@@ -26,6 +28,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: arialbd.ttf
+    formats:
+    - ttf
   - family_name: Arial
     type: Bold Italic
     full_name: Arial Bold Italic
@@ -42,6 +46,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: arialbi.ttf
+    formats:
+    - ttf
   - family_name: Arial
     type: Italic
     full_name: Arial Italic
@@ -58,6 +64,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: ariali.ttf
+    formats:
+    - ttf
   - family_name: Arial
     type: Regular
     full_name: Arial
@@ -74,6 +82,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: arial.ttf
+    formats:
+    - ttf
 - name: Courier New
   styles:
   - family_name: Courier New
@@ -88,6 +98,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: courbd.ttf
+    formats:
+    - ttf
   - family_name: Courier New
     type: Bold Italic
     full_name: Courier New Bold Italic
@@ -100,6 +112,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: courbi.ttf
+    formats:
+    - ttf
   - family_name: Courier New
     type: Italic
     full_name: Courier New Italic
@@ -112,6 +126,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: couri.ttf
+    formats:
+    - ttf
   - family_name: Courier New
     type: Regular
     full_name: Courier New
@@ -124,6 +140,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1994. All Rights Reserved
     font: cour.ttf
+    formats:
+    - ttf
 - name: Lucida Console
   styles:
   - family_name: Lucida Console
@@ -133,6 +151,8 @@ fonts:
     version: '1.60'
     copyright: Copyright © 1993 Bigelow & Holmes Inc. All rights reserved.
     font: lucon.ttf
+    formats:
+    - ttf
 - name: Lucida Sans Unicode
   styles:
   - family_name: Lucida Sans Unicode
@@ -144,6 +164,8 @@ fonts:
     copyright: Copyright © 1993 Bigelow & Holmes Inc. All rights reserved. Pat. Des.
       289,420. Pats. Pend.
     font: l_10646.ttf
+    formats:
+    - ttf
 - name: Symbol
   styles:
   - family_name: Symbol
@@ -154,6 +176,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: symbol.ttf
+    formats:
+    - ttf
 - name: Times New Roman
   styles:
   - family_name: Times New Roman
@@ -173,6 +197,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: timesbd.ttf
+    formats:
+    - ttf
   - family_name: Times New Roman
     type: Bold Italic
     full_name: Times New Roman Bold Italic
@@ -190,6 +216,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: timesbi.ttf
+    formats:
+    - ttf
   - family_name: Times New Roman
     type: Italic
     full_name: Times New Roman Italic
@@ -207,6 +235,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: timesi.ttf
+    formats:
+    - ttf
   - family_name: Times New Roman
     type: Regular
     full_name: Times New Roman
@@ -224,6 +254,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: times.ttf
+    formats:
+    - ttf
 - name: Wingdings
   styles:
   - family_name: Wingdings
@@ -234,7 +266,10 @@ fonts:
     copyright: Copyright © 1992-1995 Microsoft Corp. All Rights Reserved. © 1990-1991
       Type Solutions, Inc. All Rights Reserved.
     font: wingding.ttf
+    formats:
+    - ttf
 extract: {}
+spdx_license: LicenseRef-Microsoft-Supplemental
 copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
   plc/Type Solutions Inc. 1990-1992. All Rights Reserved
 requires_license_agreement: |-

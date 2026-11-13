@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: NanumMyeongjo
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/5c10807185ddbca859bc0b3ecefe55ebb1985aa9.zip
     sha256: ac5bca339ce76a1a2d11c95b1fd5797d9110912e5781e8d9cbe926bf2bf520de
     file_size: 4907547
+    format: ttc
 font_collections:
 - filename: NanumMyeongjo.ttc
   fonts:
@@ -23,6 +25,8 @@ font_collections:
       version: 13.0d1e3
       copyright: Copyright © 2010 NHN Corporation. All rights reserved. Font designed
         by FONTRIX.
+      formats:
+      - ttc
     - family_name: NanumMyeongjo
       type: Regular
       preferred_family_name: Nanum Myeongjo
@@ -32,6 +36,8 @@ font_collections:
       version: 13.0d1e3
       copyright: Copyright © 2010 NHN Corporation. All rights reserved. Font designed
         by FONTRIX.
+      formats:
+      - ttc
   - name: NanumMyeongjoExtraBold
     styles:
     - family_name: NanumMyeongjoExtraBold
@@ -43,9 +49,12 @@ font_collections:
       version: 13.0d1e3
       copyright: Copyright © 2010 NHN Corporation. All rights reserved. Font designed
         by FONTRIX.
+      formats:
+      - ttc
 extract: {}
 copyright: Copyright © 2010 NHN Corporation. All rights reserved. Font designed by
   FONTRIX.
+spdx_license: LicenseRef-Apple-EA1705
 license_url: http://www.nhncorp.com
 requires_license_agreement: |
   For use on Apple-branded Systems

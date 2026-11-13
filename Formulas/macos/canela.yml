@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Canela
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2020/ios/061-87819-20200306-93DA1D52-6008-11EA-8852-69B153371E3E/com_apple_MobileAsset_Font6/08b8f0160fae5a609259e6b6d5b35aab4d11e8f0.zip
     sha256: 257f7a5a37b1ac0a34d40f2fc9ebcfe21f90e9029fd2544885ba48945aa7263d
     file_size: 158253
+    format: ttc
 font_collections:
 - filename: Canela.ttc
   fonts:
@@ -22,6 +24,8 @@ font_collections:
       post_script_name: Canela-Bold
       version: 15.0d1e14
       copyright: Copyright (C)2016 Commercial Type.
+      formats:
+      - ttc
     - family_name: Canela
       type: Bold Italic
       preferred_family_name: Canela
@@ -30,6 +34,8 @@ font_collections:
       post_script_name: Canela-BoldItalic
       version: 15.0d1e14
       copyright: Copyright (C)2016 Commercial Type.
+      formats:
+      - ttc
     - family_name: Canela
       type: Italic
       preferred_family_name: Canela
@@ -38,6 +44,8 @@ font_collections:
       post_script_name: Canela-RegularItalic
       version: 15.0d1e14
       copyright: Copyright (C)2016 Commercial Type.
+      formats:
+      - ttc
     - family_name: Canela
       type: Regular
       preferred_family_name: Canela
@@ -45,8 +53,11 @@ font_collections:
       post_script_name: Canela-Regular
       version: 15.0d1e14
       copyright: Copyright (C)2016 Commercial Type.
+      formats:
+      - ttc
 extract: {}
 copyright: Copyright (C)2016 Commercial Type.
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

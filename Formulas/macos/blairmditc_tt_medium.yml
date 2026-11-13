@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: BlairMdITC TT Medium
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/f4e689ee66da7e46b0a5f7bd297470afbeb51e8f.zip
     sha256: d766c6b002a17690fd429ae74b882a887a4d84185d6bbd14b8962f07b6f51c62
     file_size: 60012
+    format: ttf
 fonts:
 - name: BlairMdITC TT
   styles:
@@ -20,8 +22,11 @@ fonts:
     copyright: Copyright © 1995-1997 International Typeface Corporation.  All rights
       reserved.
     font: Blair-medium.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: Copyright © 1995-1997 International Typeface Corporation.  All rights reserved.
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

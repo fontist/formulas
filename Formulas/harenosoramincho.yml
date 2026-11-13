@@ -1,12 +1,15 @@
 ---
+schema_version: 5
 description: HarenosoraMincho
 homepage: https://fontopo.com/
 resources:
   HarenosoraMincho.zip:
     urls:
     - https://fontopo.com/fontdata/hare.zip
+    - https://web.archive.org/web/20260504065043/https://fontopo.com/fontdata/hare.zip
     sha256: a1bef59309f1816fefc6dffc4decbeafb6449be636140e4c93c97e993acfc1e8
     file_size: 2600379
+    format: otf
 fonts:
 - name: HarenosoraMincho
   styles:
@@ -19,9 +22,12 @@ fonts:
     version: '1.00'
     copyright: fontopo
     font: Harenosora.otf
+    formats:
+    - otf
 extract: {}
 copyright: fontopo
 command: create-formula https://fontopo.com/fontdata/hare.zip
+spdx_license: IPA
 license_url: https://fontopo.com/?page_id=55
 open_license: |
   IPA FONT LICENSE AGREEMENT V1.0

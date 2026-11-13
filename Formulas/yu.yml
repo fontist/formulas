@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: Yu
 description: Yu
 homepage: http://www.jiyu-kobo.co.jp/
@@ -21,6 +22,8 @@ font_collections:
       post_script_name: YuGothic-Bold
       version: '1.62'
       copyright: Copyright © 2014 JIYUKOBO Ltd. All Rights Reserved.
+      formats:
+      - ttc
   - name: Yu Gothic UI
     styles:
     - family_name: Yu Gothic UI
@@ -29,6 +32,8 @@ font_collections:
       post_script_name: YuGothicUI-Bold
       version: '1.10'
       copyright: Copyright © 2014 JIYUKOBO Ltd. All Rights Reserved.
+      formats:
+      - ttc
   - name: Yu Gothic UI Semibold
     styles:
     - family_name: Yu Gothic UI Semibold
@@ -39,6 +44,8 @@ font_collections:
       post_script_name: YuGothicUI-Semibold
       version: '1.10'
       copyright: Copyright © 2014 JIYUKOBO Ltd. All Rights Reserved.
+      formats:
+      - ttc
 - filename: YUGOTHL.TTC
   fonts:
   - name: Yu Gothic Light
@@ -51,6 +58,8 @@ font_collections:
       post_script_name: YuGothic-Light
       version: '1.62'
       copyright: Copyright © 2014 JIYUKOBO Ltd. All Rights Reserved.
+      formats:
+      - ttc
   - name: Yu Gothic UI Light
     styles:
     - family_name: Yu Gothic UI Light
@@ -61,6 +70,8 @@ font_collections:
       post_script_name: YuGothicUI-Light
       version: '1.10'
       copyright: Copyright © 2014 JIYUKOBO Ltd. All Rights Reserved.
+      formats:
+      - ttc
 - filename: YUGOTHM.TTC
   fonts:
   - name: Yu Gothic Medium
@@ -73,6 +84,8 @@ font_collections:
       post_script_name: YuGothic-Medium
       version: '1.11'
       copyright: Copyright © 2014 JIYUKOBO Ltd. All Rights Reserved.
+      formats:
+      - ttc
   - name: Yu Gothic UI
     styles:
     - family_name: Yu Gothic UI
@@ -81,6 +94,8 @@ font_collections:
       post_script_name: YuGothicUI-Regular
       version: '1.11'
       copyright: Copyright © 2014 JIYUKOBO Ltd. All Rights Reserved.
+      formats:
+      - ttc
 - filename: YUGOTHR.TTC
   fonts:
   - name: Yu Gothic
@@ -91,6 +106,8 @@ font_collections:
       post_script_name: YuGothic-Regular
       version: '1.62'
       copyright: Copyright © 2014 JIYUKOBO Ltd. All Rights Reserved.
+      formats:
+      - ttc
   - name: Yu Gothic UI Semilight
     styles:
     - family_name: Yu Gothic UI Semilight
@@ -101,6 +118,8 @@ font_collections:
       post_script_name: YuGothicUI-Semilight
       version: '1.10'
       copyright: Copyright © 2014 JIYUKOBO Ltd. All Rights Reserved.
+      formats:
+      - ttc
 fonts:
 - name: Yu Mincho
   styles:
@@ -113,6 +132,8 @@ fonts:
     version: '1.70'
     copyright: Copyright © 2015 JIYUKOBO Ltd. All Rights Reserved.
     font: YUMIN.TTF
+    formats:
+    - ttf
 - name: Yu Mincho Demibold
   styles:
   - family_name: Yu Mincho Demibold
@@ -124,6 +145,8 @@ fonts:
     version: '1.70'
     copyright: Copyright © 2015 JIYUKOBO Ltd. All Rights Reserved.
     font: YUMINDB.TTF
+    formats:
+    - ttf
 - name: Yu Mincho Light
   styles:
   - family_name: Yu Mincho Light
@@ -135,8 +158,11 @@ fonts:
     version: '1.61'
     copyright: Copyright © 2015 JIYUKOBO Ltd. All Rights Reserved.
     font: YUMINL.TTF
+    formats:
+    - ttf
 extract: {}
 copyright: Copyright © 2015 JIYUKOBO Ltd. All Rights Reserved.
+spdx_license: LicenseRef-Microsoft-EastAsian-Pack
 license_url: http://www.jiyu-kobo.co.jp/
 requires_license_agreement: |-
   MICROSOFT SOFTWARE SUPPLEMENTAL LICENSE TERMS

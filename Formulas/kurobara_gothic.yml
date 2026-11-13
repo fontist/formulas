@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 description: kurobara gothic
 homepage: http://modi.jpn.org/
 resources:
@@ -7,6 +8,7 @@ resources:
     - https://modi.jpn.org/download/MODI_kurobara-gothic_2018_1102.zip
     sha256: 97c73d3f974642818f385a6eece731d40b86a3d378d15b91ec36d2557b4360ed
     file_size: 10365290
+    format: ttf
 fonts:
 - name: kurobara gothic black
   styles:
@@ -19,6 +21,8 @@ fonts:
     version: 1.00.20181102
     copyright: Copyright(c) 2017 M+ FONTS PROJECT/MODI
     font: kurobara-gothic-black.ttf
+    formats:
+    - ttf
 - name: kurobara gothic bold
   styles:
   - family_name: kurobara gothic bold
@@ -30,6 +34,8 @@ fonts:
     version: 1.00.20181102
     copyright: Copyright(c) 2017 M+ FONTS PROJECT/MODI
     font: kurobara-gothic-bold.ttf
+    formats:
+    - ttf
 - name: kurobara gothic heavy
   styles:
   - family_name: kurobara gothic heavy
@@ -41,6 +47,8 @@ fonts:
     version: 1.00.20181102
     copyright: Copyright(c) 2017 M+ FONTS PROJECT/MODI
     font: kurobara-gothic-heavy.ttf
+    formats:
+    - ttf
 - name: kurobara gothic light
   styles:
   - family_name: kurobara gothic light
@@ -52,6 +60,8 @@ fonts:
     version: 1.00.20181102
     copyright: Copyright(c) 2017 M+ FONTS PROJECT/MODI
     font: kurobara-gothic-light.ttf
+    formats:
+    - ttf
 - name: kurobara gothic medium
   styles:
   - family_name: kurobara gothic medium
@@ -63,6 +73,8 @@ fonts:
     version: 1.00.20181102
     copyright: Copyright(c) 2017 M+ FONTS PROJECT/MODI
     font: kurobara-gothic-medium.ttf
+    formats:
+    - ttf
 - name: kurobara gothic regular
   styles:
   - family_name: kurobara gothic regular
@@ -74,6 +86,8 @@ fonts:
     version: 1.00.20181102
     copyright: Copyright(c) 2017 M+ FONTS PROJECT/MODI
     font: kurobara-gothic-regular.ttf
+    formats:
+    - ttf
 - name: kurobara gothic thin
   styles:
   - family_name: kurobara gothic thin
@@ -85,9 +99,12 @@ fonts:
     version: 1.00.20181102
     copyright: Copyright(c) 2017 M+ FONTS PROJECT/MODI
     font: kurobara-gothic-thin.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: Copyright(c) 2017 M+ FONTS PROJECT/MODI
 command: create-formula https://modi.jpn.org/download/MODI_kurobara-gothic_2018_1102.zip
+spdx_license: OFL-1.1-no-RFN
 license_url: https://modi.jpn.org/licence.php
 open_license: |-
   Copyright (c) 2017 M+ FONTS PROJECT/MODI

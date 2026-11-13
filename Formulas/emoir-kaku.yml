@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 description: emoir-kaku
 homepage: http://modi.jpn.org/
 resources:
@@ -7,6 +8,7 @@ resources:
     - https://modi.jpn.org/download/MODI_emoir-kaku_2018_063020.zip
     sha256: 18d532f707c71eb98c9d3e8ff2e7f277a6c7ddeb629ccd34b9e01339334ad967
     file_size: 1077283
+    format: ttf
 fonts:
 - name: emoir-kaku
   styles:
@@ -19,9 +21,12 @@ fonts:
     version: 1.00.20180630
     copyright: Copyright(c) 2017 M+ FONTS PROJECT/MODI
     font: emoir-kaku.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: Copyright(c) 2017 M+ FONTS PROJECT/MODI
 command: create-formula https://modi.jpn.org/download/MODI_emoir-kaku_2018_063020.zip
+spdx_license: OFL-1.1-no-RFN
 license_url: https://modi.jpn.org/licence.php
 open_license: |-
   Copyright (c) 2017 M+ FONTS PROJECT/MODI

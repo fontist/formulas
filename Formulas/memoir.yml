@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 description: Memoir
 homepage: https://modi.jpn.org/
 resources:
@@ -7,6 +8,7 @@ resources:
     - https://modi.jpn.org/download/MODI_memoir_2018_1215.zip
     sha256: 4b997cbfd60a3df4b6f4e741c6a96ce4d06c8c7c43e895c5d1aa0279c2372dd5
     file_size: 500407
+    format: otf
 fonts:
 - name: Memoir
   styles:
@@ -19,6 +21,8 @@ fonts:
     version: '1.03'
     copyright: MODI
     font: memoir.otf
+    formats:
+    - otf
 - name: Memoir-Round
   styles:
   - family_name: Memoir-Round
@@ -30,6 +34,8 @@ fonts:
     version: '1.03'
     copyright: MODI
     font: memoir-round.otf
+    formats:
+    - otf
 - name: Memoir-Square
   styles:
   - family_name: Memoir-Square
@@ -41,9 +47,12 @@ fonts:
     version: '1.03'
     copyright: MODI
     font: memoir-square.otf
+    formats:
+    - otf
 extract: {}
 copyright: MODI
 command: create-formula https://modi.jpn.org/download/MODI_memoir_2018_1215.zip
+spdx_license: OFL-1.1-no-RFN
 license_url: https://modi.jpn.org/licence.php
 open_license: |-
   Copyright (c) 2018 M+ FONTS PROJECT/MODI

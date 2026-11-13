@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: Dai Banna SIL
 description: Dai Banna SIL
 homepage: http://www.sil.org/
@@ -6,8 +7,10 @@ resources:
   Dai_Banna_SIL.zip:
     urls:
     - https://software.sil.org/downloads/r/daibanna/DaiBanna-2.200.zip
+    - http://web.archive.org/web/20250824034947/https://software.sil.org/downloads/r/daibanna/DaiBanna-2.200.zip
     sha256: bab67e560484ee9bc041d1e95ae2e36a08ceb9cde6800ef032381fae0700f691
     file_size: 606774
+    format: ttf
 fonts:
 - name: Dai Banna SIL Book
   styles:
@@ -19,6 +22,8 @@ fonts:
     description: Copyright (c) 1998-2011 SIL International
     copyright: Copyright (c) 1998-2011 SIL International
     font: DBSILBB.ttf
+    formats:
+    - ttf
   - family_name: Dai Banna SIL Book
     type: Bold Italic
     full_name: Dai Banna SIL Book Bold Italic
@@ -27,6 +32,8 @@ fonts:
     description: Copyright (c) 1998-2011 SIL International
     copyright: Copyright (c) 1998-2011 SIL International
     font: DBSILBC.ttf
+    formats:
+    - ttf
   - family_name: Dai Banna SIL Book
     type: Italic
     full_name: Dai Banna SIL Book Italic
@@ -35,6 +42,8 @@ fonts:
     description: Copyright (c) 1998-2011 SIL International
     copyright: Copyright (c) 1998-2011 SIL International
     font: DBSILBO.ttf
+    formats:
+    - ttf
   - family_name: Dai Banna SIL Book
     type: Regular
     full_name: Dai Banna SIL Book
@@ -43,6 +52,8 @@ fonts:
     description: Copyright (c) 1998-2011 SIL International
     copyright: Copyright (c) 1998-2011 SIL International
     font: DBSILBR.ttf
+    formats:
+    - ttf
 - name: Dai Banna SIL Light
   styles:
   - family_name: Dai Banna SIL Light
@@ -53,6 +64,8 @@ fonts:
     description: Copyright (c) 1998-2011 SIL International
     copyright: Copyright (c) 1998-2011 SIL International
     font: DBSILLB.ttf
+    formats:
+    - ttf
   - family_name: Dai Banna SIL Light
     type: Bold Italic
     full_name: Dai Banna SIL Light Bold Italic
@@ -61,6 +74,8 @@ fonts:
     description: Copyright (c) 1998-2011 SIL International
     copyright: Copyright (c) 1998-2011 SIL International
     font: DBSILLC.ttf
+    formats:
+    - ttf
   - family_name: Dai Banna SIL Light
     type: Italic
     full_name: Dai Banna SIL Light Italic
@@ -69,6 +84,8 @@ fonts:
     description: Copyright (c) 1998-2011 SIL International
     copyright: Copyright (c) 1998-2011 SIL International
     font: DBSILLO.ttf
+    formats:
+    - ttf
   - family_name: Dai Banna SIL Light
     type: Regular
     full_name: Dai Banna SIL Light
@@ -77,9 +94,12 @@ fonts:
     description: Copyright (c) 1998-2011 SIL International
     copyright: Copyright (c) 1998-2011 SIL International
     font: DBSILLR.ttf
+    formats:
+    - ttf
 extract:
   format: zip
 copyright: Copyright (c) 1998-2011 SIL International
+spdx_license: OFL-1.1-RFN
 license_url: http://scripts.sil.org/ofl
 open_license: |-
   Copyright (c) 1998-2011 SIL International (http://www.sil.org/), with Reserved Font Name "SIL".

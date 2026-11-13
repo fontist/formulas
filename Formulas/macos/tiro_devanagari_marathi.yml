@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Tiro Devanagari Marathi
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2020/mobileassets/001-26051/B1CF7C35-D704-4F2D-82D1-DCE47CD14C5C/com_apple_MobileAsset_Font6/ec513bff065875dfc33b74ee1e390ff03222a587.zip
     sha256: dcaa69dedc95f0269ac1add1973d16b9fb237ce93cc60ca26b5c838f263d5a81
     file_size: 428669
+    format: ttc
 font_collections:
 - filename: TiroMarathi.ttc
   fonts:
@@ -20,14 +22,19 @@ font_collections:
       post_script_name: TiroDevaMarathi-Italic
       version: 15.0d6e1
       copyright: Copyright (c) 2016, 2020 by Tiro Typeworks Ltd. All rights reserved.
+      formats:
+      - ttc
     - family_name: Tiro Devanagari Marathi
       type: Regular
       full_name: Tiro Devanagari Marathi
       post_script_name: TiroDevaMarathi
       version: 15.0d6e1
       copyright: Copyright (c) 2014, 2020 by Tiro Typeworks Ltd. All rights reserved.
+      formats:
+      - ttc
 extract: {}
 copyright: Copyright (c) 2014, 2020 by Tiro Typeworks Ltd. All rights reserved.
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

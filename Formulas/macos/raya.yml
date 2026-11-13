@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Raya
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/9da889afbad348879fbf08fd7134e086dafe1522.zip
     sha256: 59ae76a95fcfbd64851405bc7e83379883268ab611a5f968b5238650cc36f978
     file_size: 27817
+    format: ttc
 font_collections:
 - filename: Raya.ttc
   fonts:
@@ -20,8 +22,11 @@ font_collections:
       post_script_name: Raya
       version: 13.0d1e4
       copyright: Raya (c) 2013 Diwan Software Ltd.
+      formats:
+      - ttc
 extract: {}
 copyright: Raya (c) 2013 Diwan Software Ltd.
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

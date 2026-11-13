@@ -1,0 +1,201 @@
+---
+schema_version: 5
+name: Japanese Supplemental Fonts
+description: Japanese Supplemental Fonts for Windows
+homepage: https://learn.microsoft.com/en-us/typography/fonts/windows_11_font_list
+platforms:
+- windows
+open_license: |
+  Licensed under the Microsoft Software License Terms for Windows.
+  These fonts are provided as part of the Windows operating system
+  and are subject to the Windows license agreement accepted during
+  installation. No additional license agreement is required.
+resources:
+  japanese_supplemental_fonts:
+    source: windows_fod
+    capability_name: Language.Fonts.Jpan~~~und-JPAN~0.0.1.0
+fonts:
+- name: BIZ UDGothic
+  styles:
+  - family_name: BIZ UDGothic
+    type: Regular
+    font: BIZ-UDGothicR.ttc
+    formats:
+    - ttc
+    variable_font: false
+  - family_name: BIZ UDGothic
+    type: Bold
+    font: BIZ-UDGothicB.ttc
+    formats:
+    - ttc
+    variable_font: false
+- name: BIZ UDPGothic
+  styles:
+  - family_name: BIZ UDPGothic
+    type: Regular
+    font: BIZ-UDGothicR.ttc
+    formats:
+    - ttc
+    variable_font: false
+  - family_name: BIZ UDPGothic
+    type: Bold
+    font: BIZ-UDGothicB.ttc
+    formats:
+    - ttc
+    variable_font: false
+- name: BIZ UDMincho Medium
+  styles:
+  - family_name: BIZ UDMincho Medium
+    type: Medium
+    font: BIZ-UDMinchoM.ttc
+    formats:
+    - ttc
+    variable_font: false
+- name: BIZ UDPMincho Medium
+  styles:
+  - family_name: BIZ UDPMincho Medium
+    type: Medium
+    font: BIZ-UDMinchoM.ttc
+    formats:
+    - ttc
+    variable_font: false
+- name: Meiryo
+  styles:
+  - family_name: Meiryo
+    type: Regular
+    font: Meiryo.ttc
+    formats:
+    - ttc
+    variable_font: false
+  - family_name: Meiryo
+    type: Italic
+    font: Meiryo.ttc
+    formats:
+    - ttc
+    variable_font: false
+  - family_name: Meiryo
+    type: Bold
+    font: Meiryob.ttc
+    formats:
+    - ttc
+    variable_font: false
+  - family_name: Meiryo
+    type: Bold Italic
+    font: Meiryob.ttc
+    formats:
+    - ttc
+    variable_font: false
+- name: Meiryo UI
+  styles:
+  - family_name: Meiryo UI
+    type: Regular
+    font: Meiryo.ttc
+    formats:
+    - ttc
+    variable_font: false
+  - family_name: Meiryo UI
+    type: Italic
+    font: Meiryo.ttc
+    formats:
+    - ttc
+    variable_font: false
+  - family_name: Meiryo UI
+    type: Bold
+    font: Meiryob.ttc
+    formats:
+    - ttc
+    variable_font: false
+  - family_name: Meiryo UI
+    type: Bold Italic
+    font: Meiryob.ttc
+    formats:
+    - ttc
+    variable_font: false
+- name: MS Mincho
+  styles:
+  - family_name: MS Mincho
+    type: Regular
+    font: Msmincho.ttc
+    formats:
+    - ttc
+    variable_font: false
+- name: MS PMincho
+  styles:
+  - family_name: MS PMincho
+    type: Regular
+    font: Msmincho.ttc
+    formats:
+    - ttc
+    variable_font: false
+- name: UD Digi Kyokasho N-B
+  styles:
+  - family_name: UD Digi Kyokasho N-B
+    type: Bold
+    font: UDDigiKyokashoN-B.ttc
+    formats:
+    - ttc
+    variable_font: false
+- name: UD Digi Kyokasho NK-B
+  styles:
+  - family_name: UD Digi Kyokasho NK-B
+    type: Bold
+    font: UDDigiKyokashoN-B.ttc
+    formats:
+    - ttc
+    variable_font: false
+- name: UD Digi Kyokasho NK-R
+  styles:
+  - family_name: UD Digi Kyokasho NK-R
+    type: Regular
+    font: UDDigiKyokashoN-R.ttc
+    formats:
+    - ttc
+    variable_font: false
+- name: UD Digi Kyokasho NP-B
+  styles:
+  - family_name: UD Digi Kyokasho NP-B
+    type: Bold
+    font: UDDigiKyokashoN-B.ttc
+    formats:
+    - ttc
+    variable_font: false
+- name: UD Digi Kyokasho NP-R
+  styles:
+  - family_name: UD Digi Kyokasho NP-R
+    type: Regular
+    font: UDDigiKyokashoN-R.ttc
+    formats:
+    - ttc
+    variable_font: false
+- name: UD Digi Kyokasho N-R
+  styles:
+  - family_name: UD Digi Kyokasho N-R
+    type: Regular
+    font: UDDigiKyokashoN-R.ttc
+    formats:
+    - ttc
+    variable_font: false
+- name: Yu Mincho
+  styles:
+  - family_name: Yu Mincho
+    type: Light
+    font: Yuminl.ttf
+    formats:
+    - ttf
+    variable_font: false
+  - family_name: Yu Mincho
+    type: Regular
+    font: Yumin.ttf
+    formats:
+    - ttf
+    variable_font: false
+  - family_name: Yu Mincho
+    type: Demibold
+    font: Yumindb.ttf
+    formats:
+    - ttf
+    variable_font: false
+import_source:
+  type: windows
+  capability_name: Language.Fonts.Jpan~~~und-JPAN~0.0.1.0
+  min_windows_version: '10.0'

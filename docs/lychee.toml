@@ -34,5 +34,8 @@ exclude_all_private = false
 include_mail = false
 
 ############################# Other #############################
-include_verbatim = true
+# Only check URLs in <a href>/<img src>/markdown links — skip URLs that appear
+# verbatim in code blocks (license/EULA text) or plain text (descriptions).
+# Those are informational mentions, not links we maintain.
+include_verbatim = false
 index_files = ["index.html"]

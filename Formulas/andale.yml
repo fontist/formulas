@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: Andale
 description: Microsoft TrueType Core fonts for the Web
 homepage: https://www.microsoft.com
@@ -6,10 +7,13 @@ resources:
   andale32.exe:
     urls:
     - https://gitlab.com/fontmirror/archive/-/raw/master/andale32.exe
+    - https://web.archive.org/web/20260506003127/https://gitlab.com/fontmirror/archive/-/raw/master/andale32.exe
     - https://nchc.dl.sourceforge.net/project/corefonts/the%20fonts/final/andale32.exe
     - http://sft.if.usp.br/msttcorefonts/andale32.exe
+    - https://web.archive.org/web/20260506003253/http://sft.if.usp.br/msttcorefonts/andale32.exe
     sha256: 0524fe42951adc3a7eb870e32f0920313c71f170c859b5f770d82b4ee111e970
     file_size: 198384
+    format: ttf
 fonts:
 - name: Andale Mono
   styles:
@@ -22,6 +26,8 @@ fonts:
     copyright: Digitized data copyright (C) 1993-1997 The Monotype Corporation. All
       rights reserved.
     font: AndaleMo.TTF
+    formats:
+    - ttf
 extract:
   format: cab
 requires_license_agreement: |
@@ -52,3 +58,4 @@ requires_license_agreement: |
   this page was last updated 28 July 1998
   © 1997 Microsoft Corporation. All rights reserved. Terms of use.
   comments to the MST group: ttwsite@microsoft.com
+spdx_license: LicenseRef-Microsoft-fontpack-19980728

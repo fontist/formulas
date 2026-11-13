@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Toppan Bunkyu Gothic Regular
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/5ef536f846908ec81f4b37caef397b3cb050b64e.zip
     sha256: f9d7c8d1d299a9f6afbcc58f482895720696eae4d269ffdb94fc53b050e2070a
     file_size: 9869152
+    format: ttc
 font_collections:
 - filename: ToppanBunkyuGothicPr6N.ttc
   fonts:
@@ -23,6 +25,8 @@ font_collections:
       version: 13.0d2e3
       copyright: ver1.00, Copyright © 2013 - 2015 Toppan Printing Co., Ltd. All rights
         reserved.
+      formats:
+      - ttc
     - family_name: Toppan Bunkyu Gothic Regular
       type: Regular
       preferred_family_name: Toppan Bunkyu Gothic
@@ -32,8 +36,11 @@ font_collections:
       version: 13.0d2e3
       copyright: ver1.00, Copyright © 2013 - 2016 Toppan Printing Co., Ltd. All rights
         reserved.
+      formats:
+      - ttc
 extract: {}
 copyright: ver1.00, Copyright © 2013 - 2015 Toppan Printing Co., Ltd. All rights reserved.
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

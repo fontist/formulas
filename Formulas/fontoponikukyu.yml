@@ -1,12 +1,15 @@
 ---
+schema_version: 5
 description: FontopoNIKUKYU
 homepage: https://fontopo.com/
 resources:
   FontopoNIKUKYU.zip:
     urls:
     - https://fontopo.com/fontdata/nikukyu.zip
+    - https://web.archive.org/web/20260504064437/https://fontopo.com/fontdata/nikukyu.zip
     sha256: b59f2806f874e74d29bb8bdf44dfc900de1cc89a5bc4ec1996ec5511afc86417
     file_size: 11151
+    format: otf
 fonts:
 - name: FontopoNIKUKYU
   styles:
@@ -19,9 +22,12 @@ fonts:
     version: '1.00'
     copyright: Fontopo
     font: FontopoNIKUKYU.otf
+    formats:
+    - otf
 extract: {}
 copyright: Fontopo
 command: create-formula https://fontopo.com/fontdata/nikukyu.zip
+spdx_license: LicenseRef-fontopo-free
 license_url: https://fontopo.com/?page_id=55
 open_license: |
   All fonts on this site can be downloaded and used for commercial purposes for

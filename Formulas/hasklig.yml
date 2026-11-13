@@ -1,3 +1,5 @@
+---
+schema_version: 5
 name: Hasklig
 description: Hasklig - a code font with monospaced ligatures
 homepage: https://github.com/i-tu/Hasklig
@@ -7,6 +9,7 @@ resources:
     - https://github.com/i-tu/Hasklig/releases/download/v1.2/Hasklig-1.2.zip
     sha256: 9cd35a7449b220dc84f9516c57817e147003fc905a477f1ec727816d9d8a81d4
     file_size: 2242002
+    format: otf
 fonts:
 - name: Hasklig
   styles:
@@ -18,6 +21,8 @@ fonts:
     post_script_name: Hasklig-Black
     version: '2.032'
     font: Hasklig-Black.otf
+    formats:
+    - otf
   - family_name: Hasklig Black
     type: Italic
     preferred_family_name: Hasklig
@@ -26,18 +31,24 @@ fonts:
     post_script_name: Hasklig-BlackIt
     version: '1.052'
     font: Hasklig-BlackIt.otf
+    formats:
+    - otf
   - family_name: Hasklig
     type: Bold
     full_name: Hasklig Bold
     post_script_name: Hasklig-Bold
     version: '2.032'
     font: Hasklig-Bold.otf
+    formats:
+    - otf
   - family_name: Hasklig
     type: Bold Italic
     full_name: Hasklig Bold Italic
     post_script_name: Hasklig-BoldIt
     version: '1.052'
     font: Hasklig-BoldIt.otf
+    formats:
+    - otf
   - family_name: Hasklig ExtraLight
     type: Regular
     preferred_family_name: Hasklig
@@ -46,6 +57,8 @@ fonts:
     post_script_name: Hasklig-ExtraLight
     version: '1.052'
     font: Hasklig-ExtraLight.otf
+    formats:
+    - otf
   - family_name: Hasklig ExtraLight
     type: Italic
     preferred_family_name: Hasklig
@@ -54,12 +67,16 @@ fonts:
     post_script_name: Hasklig-ExtraLightIt
     version: '1.052'
     font: Hasklig-ExtraLightIt.otf
+    formats:
+    - otf
   - family_name: Hasklig
     type: Italic
     full_name: Hasklig Italic
     post_script_name: Hasklig-It
     version: '1.052'
     font: Hasklig-It.otf
+    formats:
+    - otf
   - family_name: Hasklig Light
     type: Regular
     preferred_family_name: Hasklig
@@ -68,6 +85,8 @@ fonts:
     post_script_name: Hasklig-Light
     version: '2.032'
     font: Hasklig-Light.otf
+    formats:
+    - otf
   - family_name: Hasklig Light
     type: Italic
     preferred_family_name: Hasklig
@@ -76,6 +95,8 @@ fonts:
     post_script_name: Hasklig-LightIt
     version: '1.052'
     font: Hasklig-LightIt.otf
+    formats:
+    - otf
   - family_name: Hasklig Medium
     type: Regular
     preferred_family_name: Hasklig
@@ -84,6 +105,8 @@ fonts:
     post_script_name: Hasklig-Medium
     version: '2.032'
     font: Hasklig-Medium.otf
+    formats:
+    - otf
   - family_name: Hasklig Medium
     type: Italic
     preferred_family_name: Hasklig
@@ -92,12 +115,16 @@ fonts:
     post_script_name: Hasklig-MediumIt
     version: '1.052'
     font: Hasklig-MediumIt.otf
+    formats:
+    - otf
   - family_name: Hasklig
     type: Regular
     full_name: Hasklig Regular
     post_script_name: Hasklig-Regular
     version: '2.032'
     font: Hasklig-Regular.otf
+    formats:
+    - otf
   - family_name: Hasklig Semibold
     type: Regular
     preferred_family_name: Hasklig
@@ -106,6 +133,8 @@ fonts:
     post_script_name: Hasklig-Semibold
     version: '2.032'
     font: Hasklig-Semibold.otf
+    formats:
+    - otf
   - family_name: Hasklig Semibold
     type: Italic
     preferred_family_name: Hasklig
@@ -114,9 +143,13 @@ fonts:
     post_script_name: Hasklig-SemiboldIt
     version: '1.052'
     font: Hasklig-SemiboldIt.otf
+    formats:
+    - otf
 extract:
   format: zip
-copyright: © 2010 - 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’.
+copyright: "© 2010 - 2012 Adobe Systems Incorporated (http://www.adobe.com/), with
+  Reserved Font Name ‘Source’."
+spdx_license: OFL-1.1-no-RFN
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   This Font Software is licensed under the SIL Open Font License, Version 1.1.

@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Tsukushi A Round Gothic
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/8def8795a8bc5906be76cb45d9ca92ff305adb0f.zip
     sha256: 4cf0deeb104db8c87c3beed522bcaca0270d85012318d5e28809e25b464868d0
     file_size: 5827422
+    format: ttc
 font_collections:
 - filename: TsukushiAMaruGothic.ttc
   fonts:
@@ -22,6 +24,8 @@ font_collections:
       post_script_name: TsukuARdGothic-Bold
       version: 15.0d1e1
       copyright: Copyright © 2015 Fontworks Inc. All Rights Reserved.
+      formats:
+      - ttc
   - name: Tsukushi A Round Gothic Regular
     styles:
     - family_name: Tsukushi A Round Gothic Regular
@@ -32,8 +36,11 @@ font_collections:
       post_script_name: TsukuARdGothic-Regular
       version: 15.0d1e1
       copyright: Copyright © 2015 Fontworks Inc. All Rights Reserved.
+      formats:
+      - ttc
 extract: {}
 copyright: Copyright © 2015 Fontworks Inc. All Rights Reserved.
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

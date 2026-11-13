@@ -1,12 +1,15 @@
 ---
+schema_version: 5
 description: fontopoSUBWAY
 homepage: https://fontopo.com/
 resources:
   fontopoSUBWAY.zip:
     urls:
     - https://fontopo.com/fontdata/subway.zip
+    - https://web.archive.org/web/20260504064717/https://fontopo.com/fontdata/subway.zip
     sha256: caea8272677d23470aff6746d932fac4f4cc05691638a79362b6302b36f7fe3c
     file_size: 10794
+    format: otf
 fonts:
 - name: fontopoSUBWAY
   styles:
@@ -19,9 +22,12 @@ fonts:
       2012.
     copyright: Copyright (c) 2012 by fontopo. All rights reserved.
     font: fontopoSUBWAY-Regular.otf
+    formats:
+    - otf
 extract: {}
 copyright: Copyright (c) 2012 by fontopo. All rights reserved.
 command: create-formula https://fontopo.com/fontdata/subway.zip
+spdx_license: LicenseRef-fontopo-free
 license_url: https://fontopo.com/?page_id=55
 open_license: |
   All fonts on this site can be downloaded and used for commercial purposes for

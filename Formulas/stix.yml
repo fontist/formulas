@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 description: STIX Two
 homepage: https://www.stixfonts.org
 resources:
@@ -7,6 +8,7 @@ resources:
     - https://github.com/stipub/stixfonts/raw/v2.13b171/zipfiles/static_otf.zip
     sha256: b5ec34636e117ec97e71e6b89ad2718618184329bbb3d3be5d1e3b0f8ed52789
     file_size: 2151632
+    format: otf
 fonts:
 - name: STIX Two Math
   styles:
@@ -23,6 +25,8 @@ fonts:
       available royalty-free under the SIL Open Font License.
     copyright: Copyright 2001-2021 The STIX Fonts Project Authors (https://github.com/stipub/stixfonts)
     font: STIXTwoMath-Regular.otf
+    formats:
+    - otf
 - name: STIX Two Text
   styles:
   - family_name: STIX Two Text
@@ -38,6 +42,8 @@ fonts:
       available royalty-free under the SIL Open Font License.
     copyright: Copyright 2001-2021 The STIX Fonts Project Authors (https://github.com/stipub/stixfonts)
     font: STIXTwoText-Bold.otf
+    formats:
+    - otf
   - family_name: STIX Two Text
     type: Bold Italic
     full_name: STIX Two Text Bold Italic
@@ -51,6 +57,8 @@ fonts:
       available royalty-free under the SIL Open Font License.
     copyright: Copyright 2001-2021 The STIX Fonts Project Authors (https://github.com/stipub/stixfonts)
     font: STIXTwoText-BoldItalic.otf
+    formats:
+    - otf
   - family_name: STIX Two Text
     type: Italic
     full_name: STIX Two Text Italic
@@ -64,6 +72,8 @@ fonts:
       available royalty-free under the SIL Open Font License.
     copyright: Copyright 2001-2021 The STIX Fonts Project Authors (https://github.com/stipub/stixfonts)
     font: STIXTwoText-Italic.otf
+    formats:
+    - otf
   - family_name: STIX Two Text
     type: Regular
     full_name: STIX Two Text Regular
@@ -77,6 +87,8 @@ fonts:
       available royalty-free under the SIL Open Font License.
     copyright: Copyright 2001-2021 The STIX Fonts Project Authors (https://github.com/stipub/stixfonts)
     font: STIXTwoText-Regular.otf
+    formats:
+    - otf
 - name: STIX Two Text Medium
   styles:
   - family_name: STIX Two Text Medium
@@ -94,6 +106,8 @@ fonts:
       available royalty-free under the SIL Open Font License.
     copyright: Copyright 2001-2021 The STIX Fonts Project Authors (https://github.com/stipub/stixfonts)
     font: STIXTwoText-MediumItalic.otf
+    formats:
+    - otf
   - family_name: STIX Two Text Medium
     type: Regular
     preferred_family_name: STIX Two Text
@@ -109,6 +123,8 @@ fonts:
       available royalty-free under the SIL Open Font License.
     copyright: Copyright 2001-2021 The STIX Fonts Project Authors (https://github.com/stipub/stixfonts)
     font: STIXTwoText-Medium.otf
+    formats:
+    - otf
 - name: STIX Two Text SemiBold
   styles:
   - family_name: STIX Two Text SemiBold
@@ -126,6 +142,8 @@ fonts:
       available royalty-free under the SIL Open Font License.
     copyright: Copyright 2001-2021 The STIX Fonts Project Authors (https://github.com/stipub/stixfonts)
     font: STIXTwoText-SemiBoldItalic.otf
+    formats:
+    - otf
   - family_name: STIX Two Text SemiBold
     type: Regular
     preferred_family_name: STIX Two Text
@@ -141,8 +159,11 @@ fonts:
       available royalty-free under the SIL Open Font License.
     copyright: Copyright 2001-2021 The STIX Fonts Project Authors (https://github.com/stipub/stixfonts)
     font: STIXTwoText-SemiBold.otf
+    formats:
+    - otf
 extract: {}
 copyright: Copyright 2001-2021 The STIX Fonts Project Authors (https://github.com/stipub/stixfonts)
+spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2001-2010 by the STI Pub Companies, consisting of the American

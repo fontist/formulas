@@ -1,12 +1,15 @@
 ---
+schema_version: 5
 description: fontopoNEUTRAL
 homepage: https://fontopo.com/
 resources:
   fontopoNEUTRAL.zip:
     urls:
     - https://fontopo.com/fontdata/neutral.zip
+    - https://web.archive.org/web/20260504064543/https://fontopo.com/fontdata/neutral.zip
     sha256: 6746a8c7bea018b79cc2b82508b187f16d2e0279d19ada6f1ac9da5e16e45fb7
     file_size: 6218
+    format: otf
 fonts:
 - name: fontopoNEUTRAL
   styles:
@@ -19,9 +22,12 @@ fonts:
       in 2012.
     copyright: Copyright (c) 2012 by fontopo. All rights reserved.
     font: fontopoNEUTRAL-Regular.otf
+    formats:
+    - otf
 extract: {}
 copyright: Copyright (c) 2012 by fontopo. All rights reserved.
 command: create-formula https://fontopo.com/fontdata/neutral.zip
+spdx_license: LicenseRef-fontopo-free
 license_url: https://fontopo.com/?page_id=55
 open_license: |
   All fonts on this site can be downloaded and used for commercial purposes for

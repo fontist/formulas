@@ -1,0 +1,166 @@
+name: Archive Sync
+
+on:
+  schedule:
+    - cron: '0 2 * * 3'
+  workflow_dispatch:
+    inputs:
+      chunk_size:
+        description: 'URLs per parallel job'
+        required: false
+        default: '50'
+      group:
+        description: 'Formula group'
+        required: false
+        default: ''
+        type: choice
+        options:
+          - ''
+          - manual
+          - sil
+          - macos
+      dry_run:
+        description: 'Dry run (no changes)'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.split.outputs.matrix }}
+      total: ${{ steps.split.outputs.total }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: v5
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - name: Gather URLs and build matrix
+        id: split
+        run: |
+          ARGS="--formula-dir Formulas"
+          if [ -n "${{ github.event.inputs.group }}" ]; then
+            ARGS="$ARGS --group ${{ github.event.inputs.group }}"
+          fi
+
+          ruby process/archive_fonts.rb prepare-matrix \
+            --chunk-size ${{ github.event.inputs.chunk_size || '50' }} \
+            $ARGS > matrix.json
+
+          total=$(ruby -rjson -e 'puts JSON.parse(STDIN.read)["include"].size' < matrix.json)
+          echo "total=$total" >> $GITHUB_OUTPUT
+          echo "matrix=$(cat matrix.json)" >> $GITHUB_OUTPUT
+
+      - name: Summary
+        run: |
+          echo "URLs to process: ${{ steps.split.outputs.total }} chunks"
+
+  archive:
+    needs: prepare
+    if: needs.prepare.outputs.total > 0
+    strategy:
+      matrix: ${{ fromJson(needs.prepare.outputs.matrix) }}
+      fail-fast: false
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: v5
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - name: Archive chunk ${{ matrix.index }}
+        env:
+          CHUNK_URLS: ${{ matrix.urls }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" == "true" ]; then
+            DRY_RUN="--dry-run"
+          fi
+
+          # Process each URL in the chunk
+          echo "$CHUNK_URLS" | ruby -rjson -e '
+            urls = JSON.parse(STDIN.read)
+            urls.each { |u| puts u }
+          ' | while read -r url; do
+            ruby process/archive_fonts.rb archive "$url" $DRY_RUN --registry process/archive_registry.yml
+          done
+
+      - name: Upload formula changes
+        uses: actions/upload-artifact@v4
+        with:
+          name: chunk-${{ matrix.index }}
+          path: |
+            Formulas/
+            process/archive_registry.yml
+          retention-days: 1
+
+  collect:
+    needs: [prepare, archive]
+    runs-on: ubuntu-latest
+    if: always() && needs.archive.result != 'cancelled'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: v5
+
+      - name: Download all chunk artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: chunks/
+          merge-multiple: false
+
+      - name: Merge formula changes
+        run: |
+          for chunk_dir in chunks/chunk-*/; do
+            if [ -d "$chunk_dir" ]; then
+              echo "Merging from $chunk_dir"
+              # Copy formula changes
+              if [ -d "$chunk_dir/Formulas" ]; then
+                cp -rn "$chunk_dir/Formulas/"* Formulas/ 2>/dev/null || true
+              fi
+              # Use latest registry
+              if [ -f "$chunk_dir/process/archive_registry.yml" ]; then
+                cp "$chunk_dir/process/archive_registry.yml" process/archive_registry.yml
+              fi
+            fi
+          done
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes:"
+            git diff --stat
+          fi
+
+      - name: Create Pull Request
+        if: steps.changes.outputs.has_changes == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: archive-sync-${{ github.run_number }}
+          title: "chore: archive sync $(date +%Y-%m-%d)"
+          body: |
+            Automated archive.org mirror sync.
+
+            - **Chunks processed**: ${{ needs.prepare.outputs.total }}
+            - Registry: `process/archive_registry.yml`
+            - Formula updates: archive mirrors added/replaced
+          labels: automated, archive-sync
+          delete-branch: true
+          base: v5

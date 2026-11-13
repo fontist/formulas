@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Tiro Kannada
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2020/mobileassets/001-26051/B1CF7C35-D704-4F2D-82D1-DCE47CD14C5C/com_apple_MobileAsset_Font6/40c980b283891469985538c6506de55d8a3810db.zip
     sha256: f8f1550c868ebfebda284c95a03bbb3d13cb64ab10b286ca9a4aa614e6243a4a
     file_size: 332173
+    format: ttc
 font_collections:
 - filename: TiroKannada.ttc
   fonts:
@@ -20,14 +22,19 @@ font_collections:
       post_script_name: TiroKannada-Italic
       version: 15.0d6e1
       copyright: Copyright (c) 2016, 2020 by Tiro Typeworks Ltd. All rights reserved.
+      formats:
+      - ttc
     - family_name: Tiro Kannada
       type: Regular
       full_name: Tiro Kannada
       post_script_name: TiroKannada
       version: 15.0d6e1
       copyright: Copyright (c) 2016, 2020 by Tiro Typeworks Ltd. All rights reserved.
+      formats:
+      - ttc
 extract: {}
 copyright: Copyright (c) 2016, 2020 by Tiro Typeworks Ltd. All rights reserved.
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

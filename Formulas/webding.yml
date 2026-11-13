@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: Webding
 description: Microsoft TrueType Core fonts for the Web
 homepage: https://www.microsoft.com
@@ -10,6 +11,7 @@ resources:
     - http://sft.if.usp.br/msttcorefonts/webdin32.exe
     sha256: 64595b5abc1080fba8610c5c34fab5863408e806aafe84653ca8575bed17d75a
     file_size: 185072
+    format: ttf
 fonts:
 - name: Webdings
   styles:
@@ -21,6 +23,8 @@ fonts:
     description:
     copyright: Copyright (c) 1997 Microsoft Corporation. All rights reserved.
     font: Webdings.TTF
+    formats:
+    - ttf
 extract:
   format: cab
 requires_license_agreement: |
@@ -51,3 +55,4 @@ requires_license_agreement: |
   this page was last updated 28 July 1998
   © 1997 Microsoft Corporation. All rights reserved. Terms of use.
   comments to the MST group: ttwsite@microsoft.com
+spdx_license: LicenseRef-Microsoft-fontpack-19980728

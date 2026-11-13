@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: October Tamil
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2020/mobileassets/001-26051/B1CF7C35-D704-4F2D-82D1-DCE47CD14C5C/com_apple_MobileAsset_Font6/01e7502ab3a311b7db7d0d420284184af4f90709.zip
     sha256: d5be1cda1cd30eee212c24ae3631eeb66a9cef74d007d7e9274b9fce4faa8f2b
     file_size: 518240
+    format: ttc
 font_collections:
 - filename: OctoberTamil.ttc
   fonts:
@@ -20,12 +22,16 @@ font_collections:
       post_script_name: OctoberTL-Bold
       version: 15.0d1e7
       copyright: Copyright 2019 Typotheque. All rights reserved.
+      formats:
+      - ttc
     - family_name: October Tamil
       type: Regular
       full_name: October Tamil Regular
       post_script_name: OctoberTL-Regular
       version: 15.0d1e7
       copyright: Copyright 2019 Typotheque. All rights reserved.
+      formats:
+      - ttc
   - name: October Tamil Black
     styles:
     - family_name: October Tamil Black
@@ -36,6 +42,8 @@ font_collections:
       post_script_name: OctoberTL-Black
       version: 15.0d1e7
       copyright: Copyright 2019 Typotheque. All rights reserved.
+      formats:
+      - ttc
   - name: October Tamil ExtraLight
     styles:
     - family_name: October Tamil ExtraLight
@@ -46,6 +54,8 @@ font_collections:
       post_script_name: OctoberTL-ExtraLight
       version: 15.0d1e7
       copyright: Copyright 2019 Typotheque. All rights reserved.
+      formats:
+      - ttc
   - name: October Tamil Hairline
     styles:
     - family_name: October Tamil Hairline
@@ -56,6 +66,8 @@ font_collections:
       post_script_name: OctoberTL-Hairline
       version: 15.0d1e7
       copyright: Copyright 2019 Typotheque. All rights reserved.
+      formats:
+      - ttc
   - name: October Tamil Heavy
     styles:
     - family_name: October Tamil Heavy
@@ -66,6 +78,8 @@ font_collections:
       post_script_name: OctoberTL-Heavy
       version: 15.0d1e7
       copyright: Copyright 2019 Typotheque. All rights reserved.
+      formats:
+      - ttc
   - name: October Tamil Light
     styles:
     - family_name: October Tamil Light
@@ -76,6 +90,8 @@ font_collections:
       post_script_name: OctoberTL-Light
       version: 15.0d1e7
       copyright: Copyright 2019 Typotheque. All rights reserved.
+      formats:
+      - ttc
   - name: October Tamil Medium
     styles:
     - family_name: October Tamil Medium
@@ -86,6 +102,8 @@ font_collections:
       post_script_name: OctoberTL-Medium
       version: 15.0d1e7
       copyright: Copyright 2019 Typotheque. All rights reserved.
+      formats:
+      - ttc
   - name: October Tamil Thin
     styles:
     - family_name: October Tamil Thin
@@ -96,8 +114,11 @@ font_collections:
       post_script_name: OctoberTL-Thin
       version: 15.0d1e7
       copyright: Copyright 2019 Typotheque. All rights reserved.
+      formats:
+      - ttc
 extract: {}
 copyright: Copyright 2019 Typotheque. All rights reserved.
+spdx_license: LicenseRef-Apple-EA1705
 license_url: https://typotheque.com/licensing/eula
 requires_license_agreement: |
   For use on Apple-branded Systems

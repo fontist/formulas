@@ -1,12 +1,15 @@
 ---
+schema_version: 5
 name: Apparatus SIL
 description: Apparatus SIL
 resources:
   Apparatus_SIL.zip:
     urls:
     - https://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=AppSIL1.0.zip&filename=ApparatusSIL.zip
+    - http://web.archive.org/web/20230606085237/http://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=AppSIL1.0.zip&filename=ApparatusSIL.zip
     sha256: 0d8e3143b9c46c97916ab2cf85ae2187fe33b9b40859567a5524266dd58581bc
     file_size: 126550
+    format: ttf
 fonts:
 - name: Apparatus SIL
   styles:
@@ -19,6 +22,8 @@ fonts:
       rights reserved.
     font: AppSILB.ttf
     source_font: AppSILB.TTF
+    formats:
+    - ttf
   - family_name: Apparatus SIL
     type: Bold Italic
     full_name: Apparatus SIL Bold Italic
@@ -28,6 +33,8 @@ fonts:
       rights reserved.
     font: AppSILBI.ttf
     source_font: AppSILBI.TTF
+    formats:
+    - ttf
   - family_name: Apparatus SIL
     type: Italic
     full_name: Apparatus SIL Italic
@@ -37,6 +44,8 @@ fonts:
       rights reserved.
     font: AppSILI.ttf
     source_font: AppSILI.TTF
+    formats:
+    - ttf
   - family_name: Apparatus SIL
     type: Regular
     full_name: Apparatus SIL
@@ -45,10 +54,13 @@ fonts:
     copyright: Copyright (c) SIL International (http://www.sil.org/), 1998-2009. All
       rights reserved.
     font: AppSILR.ttf
+    formats:
+    - ttf
 extract:
   format: zip
 copyright: Copyright (c) SIL International (http://www.sil.org/), 1998-2009. All rights
   reserved.
+spdx_license: OFL-1.1-RFN
 open_license: |-
   This Font Software is Copyright (c) 1998-2009, SIL International (http://scripts.sil.org/)
   with Reserved Font Names "Apparatus" and "SIL".

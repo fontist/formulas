@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Quotes Script
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2020/ios/061-87819-20200306-93DA1D52-6008-11EA-8852-69B153371E3E/com_apple_MobileAsset_Font6/c58635046dfd5cfacfe02fb728da71819272e167.zip
     sha256: b45e3ee7e76d2d1cd5cae84b6927759eab54d67d2961dad543aa89b9bb76adfe
     file_size: 176004
+    format: otf
 fonts:
 - name: Quotes Script
   styles:
@@ -22,9 +24,12 @@ fonts:
     copyright: Copyright (c) 2015 Designed by Yanina Arabena & Guille Vizzari. Published
       by Sudtipos. Production Ale Paul. All rights reserved.
     font: QuotesScript-Regular.otf
+    formats:
+    - otf
 extract: {}
 copyright: Copyright (c) 2015 Designed by Yanina Arabena & Guille Vizzari. Published
   by Sudtipos. Production Ale Paul. All rights reserved.
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

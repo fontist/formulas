@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Gotu
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2020/mobileassets/001-26051/B1CF7C35-D704-4F2D-82D1-DCE47CD14C5C/com_apple_MobileAsset_Font6/d8bccb332c6e896509629067d953a4854a6d3827.zip
     sha256: ee26771db8f9f2474c3223b0855e7e43fa9e5d645fd1d242dd64ac35d72a55af
     file_size: 575199
+    format: ttf
 fonts:
 - name: Gotu
   styles:
@@ -19,8 +21,11 @@ fonts:
     version: 2.320 (15.0d2e2)
     copyright: Copyright 2019 The Gotu Project Authors (https://github.com/EkType/Gotu)
     font: GotuDevanagari-Regular.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: Copyright 2019 The Gotu Project Authors (https://github.com/EkType/Gotu)
+spdx_license: LicenseRef-Apple-EA1705
 license_url: http://scripts.sil.org/OFL
 requires_license_agreement: |
   For use on Apple-branded Systems

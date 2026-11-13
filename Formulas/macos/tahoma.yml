@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Tahoma
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/5c7ed9908298e36ffc8fac9c71837bcc73a7baef.zip
     sha256: 71cd4add8dfc5792037499e35808d6a631fb00f76a31ddcc6f34c5d49245aad0
     file_size: 379533
+    format: ttf
 fonts:
 - name: Tahoma
   styles:
@@ -19,8 +21,11 @@ fonts:
     version: 5.01.2x
     copyright: "© 2006 Microsoft Corporation. All rights reserved."
     font: tahoma.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: "© 2006 Microsoft Corporation. All rights reserved."
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

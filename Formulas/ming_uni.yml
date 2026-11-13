@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: Ming Uni
 description: Ming font (ISO 10646 HKSCS-2011)
 resources:
@@ -7,6 +8,7 @@ resources:
     - https://web.archive.org/web/20181025105830/https://www.ogcio.gov.hk/en/our_work/business/tech_promotion/ccli/terms/doc/ming_uni.ttf.gz
     sha256: d72ff917fc59046550676cba40d956eb8b6584e1f6e57bf94d3486113a86ff16
     file_size: 22971372
+    format: ttf
 fonts:
 - name: Ming(for ISO10646)
   styles:
@@ -18,8 +20,11 @@ fonts:
     copyright: "(c) Copyright DynaComware Corp. 2003"
     font: ming_uni.ttf
     source_font: ming_uni.ttf.gz
-min_fontist: "1.16.1"
+    formats:
+    - ttf
+min_fontist: 1.16.1
 extract: {}
+spdx_license: LicenseRef-HKSARG-SoftwareTOS
 copyright: "(c) Copyright DynaComware Corp. 2003"
 requires_license_agreement: |-
   Before downloading the Software or Document provided on this Web page, you should read the following terms (Terms of Use). By downloading the Software and Document, you are deemed to agree to these terms.

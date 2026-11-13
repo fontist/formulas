@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: GNU FreeFont
 description: GNU FreeFont
 homepage: https://www.gnu.org/software/freefont/
@@ -8,6 +9,7 @@ resources:
     - https://ftp.gnu.org/gnu/freefont/freefont-ttf-20120503.zip
     sha256: 7c85baf1bf82a1a1845d1322112bc6ca982221b484e3b3925022e25b5cae89af
     file_size: 6076197
+    format: ttf
 fonts:
 - name: FreeMono
   styles:
@@ -18,6 +20,8 @@ fonts:
     version: '0412.2268'
     copyright: Copyright 2002, 2003, 2005, 2008, 2009, 2010, 2012 GNU Freefont contributors.
     font: FreeMono.ttf
+    formats:
+    - ttf
   - family_name: FreeMono
     type: Bold
     full_name: FreeMono Bold
@@ -25,6 +29,8 @@ fonts:
     version: '0412.2261'
     copyright: Copyright 2002, 2003, 2005, 2008, 2009, 2010, 2012 GNU Freefont contributors.
     font: FreeMonoBold.ttf
+    formats:
+    - ttf
   - family_name: FreeMono
     type: Bold Oblique
     full_name: FreeMono Bold Oblique
@@ -32,6 +38,8 @@ fonts:
     version: '0412.2261'
     copyright: Copyright 2002, 2003, 2005, 2008, 2009, 2010, 2012 GNU Freefont contributors.
     font: FreeMonoBoldOblique.ttf
+    formats:
+    - ttf
   - family_name: FreeMono
     type: Oblique
     full_name: FreeMono Oblique
@@ -39,6 +47,8 @@ fonts:
     version: '0412.2264'
     copyright: Copyright 2002, 2003, 2005, 2008, 2009, 2010, 2012 GNU Freefont contributors.
     font: FreeMonoOblique.ttf
+    formats:
+    - ttf
 - name: FreeSans
   styles:
   - family_name: FreeSans
@@ -48,6 +58,8 @@ fonts:
     version: '0412.2268'
     copyright: Copyright 2002, 2003, 2005, 2008, 2009, 2010, 2012 GNU Freefont contributors.
     font: FreeSans.ttf
+    formats:
+    - ttf
   - family_name: FreeSans
     type: Bold
     full_name: FreeSans Bold
@@ -55,6 +67,8 @@ fonts:
     version: '0412.2261'
     copyright: Copyright 2002, 2003, 2005, 2008, 2009, 2010, 2012 GNU Freefont contributors.
     font: FreeSansBold.ttf
+    formats:
+    - ttf
   - family_name: FreeSans
     type: Bold Oblique
     full_name: FreeSans Bold Oblique
@@ -62,6 +76,8 @@ fonts:
     version: '0412.2268'
     copyright: Copyright 2002, 2003, 2005, 2008, 2009, 2010, 2012 GNU Freefont contributors.
     font: FreeSansBoldOblique.ttf
+    formats:
+    - ttf
   - family_name: FreeSans
     type: Oblique
     full_name: FreeSans Oblique
@@ -69,6 +85,8 @@ fonts:
     version: '0412.2261'
     copyright: Copyright 2002, 2003, 2005, 2008, 2009, 2010, 2012 GNU Freefont contributors.
     font: FreeSansOblique.ttf
+    formats:
+    - ttf
 - name: FreeSerif
   styles:
   - family_name: FreeSerif
@@ -78,6 +96,8 @@ fonts:
     version: '0412.2263'
     copyright: Copyright 2002, 2003, 2005, 2008, 2009, 2010, 2012 GNU Freefont contributors.
     font: FreeSerif.ttf
+    formats:
+    - ttf
   - family_name: FreeSerif
     type: Bold
     full_name: FreeSerif Bold
@@ -85,6 +105,8 @@ fonts:
     version: '0412.2268'
     copyright: Copyright 2002, 2003, 2005, 2008, 2009, 2010, 2012 GNU Freefont contributors.
     font: FreeSerifBold.ttf
+    formats:
+    - ttf
   - family_name: FreeSerif
     type: Bold Italic
     full_name: FreeSerif Bold Italic
@@ -92,6 +114,8 @@ fonts:
     version: '0412.2268'
     copyright: Copyright 2002, 2003, 2005, 2008, 2009, 2010, 2012 GNU Freefont contributors.
     font: FreeSerifBoldItalic.ttf
+    formats:
+    - ttf
   - family_name: FreeSerif
     type: Italic
     full_name: FreeSerif Italic
@@ -99,8 +123,11 @@ fonts:
     version: '0412.2268'
     copyright: Copyright 2002, 2003, 2005, 2008, 2009, 2010, 2012 GNU Freefont contributors.
     font: FreeSerifItalic.ttf
+    formats:
+    - ttf
 extract:
   format: zip
+spdx_license: GPL-3.0-or-later
 license_url: http://www.gnu.org/copyleft/gpl.html
 open_license: |-
   This computer font is part of GNU FreeFont.  It is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.

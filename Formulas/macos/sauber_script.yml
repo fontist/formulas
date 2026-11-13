@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Sauber Script
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2020/ios/061-87819-20200306-93DA1D52-6008-11EA-8852-69B153371E3E/com_apple_MobileAsset_Font6/fae2c9f101f39190668e80d53c52bf5a4b471d34.zip
     sha256: ed9d8ee02607cced72f3583f0951e2e83a59887007f2aa8d3e0ac13f106ef5c8
     file_size: 80380
+    format: otf
 fonts:
 - name: Sauber Script
   styles:
@@ -20,8 +22,11 @@ fonts:
     description: Designed 2011-2014 by Michael Hochleitner.
     copyright: Copyright © 2014 Typejockeys. All Rights Reserved.
     font: SauberScript-Regular.otf
+    formats:
+    - otf
 extract: {}
 copyright: Copyright © 2014 Typejockeys. All Rights Reserved.
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: Charis SIL
 description: Charis SIL
 homepage: www.sil.org
@@ -6,8 +7,10 @@ resources:
   Charis_SIL.zip:
     urls:
     - https://software.sil.org/downloads/r/charis/CharisSIL-5.000.zip
+    - https://web.archive.org/web/20260505155205/https://software.sil.org/downloads/r/charis/CharisSIL-5.000.zip
     sha256: 5e3e5473b30363008c289cc87e2aa584a0916087a63a3f689defa8e0cee09bfd
     file_size: 2967087
+    format: ttf
 fonts:
 - name: Charis SIL
   styles:
@@ -18,6 +21,8 @@ fonts:
     version: '5.000'
     copyright: Copyright (c) SIL International, 1997-2014.
     font: CharisSIL-B.ttf
+    formats:
+    - ttf
   - family_name: Charis SIL
     type: Bold Italic
     full_name: Charis SIL Bold Italic
@@ -25,6 +30,8 @@ fonts:
     version: '5.000'
     copyright: Copyright (c) SIL International, 1997-2014.
     font: CharisSIL-BI.ttf
+    formats:
+    - ttf
   - family_name: Charis SIL
     type: Italic
     full_name: Charis SIL Italic
@@ -32,6 +39,8 @@ fonts:
     version: '5.000'
     copyright: Copyright (c) SIL International, 1997-2014.
     font: CharisSIL-I.ttf
+    formats:
+    - ttf
   - family_name: Charis SIL
     type: Regular
     full_name: Charis SIL
@@ -39,9 +48,12 @@ fonts:
     version: '5.000'
     copyright: Copyright (c) SIL International, 1997-2014.
     font: CharisSIL-R.ttf
+    formats:
+    - ttf
 extract:
   format: zip
 copyright: Copyright (c) SIL International, 1997-2014.
+spdx_license: OFL-1.1-RFN
 license_url: http://scripts.sil.org/OFL
 open_license: |-
   This Font Software is Copyright (c) 1997-2014, SIL International (http://scripts.sil.org/)

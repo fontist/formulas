@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 description: Oradano Mincho GSRR
 homepage: http://www.asahi-net.or.jp/~sd5a-ucd/freefonts/Oradano-Mincho/
 resources:
@@ -7,6 +8,7 @@ resources:
     - http://www.asahi-net.or.jp/~sd5a-ucd/freefonts/Oradano-Mincho/OradanoGSRR2018.zip
     sha256: 6981a562be950808b317f6a2acf65fa65bfe970192070c88024e5b46a9ef71a3
     file_size: 7220297
+    format: ttf
 fonts:
 - name: Oradano-mincho-GSRR
   styles:
@@ -17,6 +19,9 @@ fonts:
     version: 0.2018.0101
     copyright: Public Domain
     font: OradanoGSRR.ttf
+    formats:
+    - ttf
 extract: {}
+spdx_license: LicenseRef-PublicDomain
 copyright: Public Domain
 command: create-formula http://www.asahi-net.or.jp/\~sd5a-ucd/freefonts/Oradano-Mincho/OradanoGSRR2018.zip

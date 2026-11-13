@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Luminari
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/69f6f5f345b21a6674d8d436c154adb00b35732f.zip
     sha256: 7cd019dbaf16316b5d83a9d8d06e18159900637d1de64f5c5410b779a48cacde
     file_size: 218721
+    format: ttf
 fonts:
 - name: Luminari
   styles:
@@ -22,8 +24,11 @@ fonts:
     copyright: Copyright © 2008 Philip Bouwsma. Published by Canada Type. All rights
       reserved.
     font: Luminari-regular.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: Copyright © 2008 Philip Bouwsma. Published by Canada Type. All rights reserved.
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

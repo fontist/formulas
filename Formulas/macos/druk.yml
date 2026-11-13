@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Druk
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2020/ios/061-87817-20200306-93DA4FC0-6008-11EA-A746-68B153371E3E/com_apple_MobileAsset_Font6/3cab7fb6a131a037dd4a552341ce0a1a49d0c58e.zip
     sha256: 28f07d418e1e41b2ec6aa340d0200e82df638215394a67e9efe1c2fc99c60f6e
     file_size: 914287
+    format: ttc
 font_collections:
 - filename: Druk.ttc
   fonts:
@@ -22,6 +24,8 @@ font_collections:
       post_script_name: Druk-BoldItalic
       version: 15.0d4e1
       copyright: Copyright (c)2014 Commercial Type.
+      formats:
+      - ttc
     - family_name: Druk Bold
       type: Regular
       preferred_family_name: Druk
@@ -30,6 +34,8 @@ font_collections:
       post_script_name: Druk-Bold
       version: 15.0d4e1
       copyright: Copyright (c)2014 Commercial Type.
+      formats:
+      - ttc
   - name: Druk Heavy
     styles:
     - family_name: Druk Heavy
@@ -40,6 +46,8 @@ font_collections:
       post_script_name: Druk-Heavy
       version: 15.0d4e1
       copyright: Copyright (c)2014 Commercial Type.
+      formats:
+      - ttc
   - name: Druk Medium
     styles:
     - family_name: Druk Medium
@@ -50,6 +58,8 @@ font_collections:
       post_script_name: Druk-MediumItalic
       version: 15.0d4e1
       copyright: Copyright (c)2014 Commercial Type.
+      formats:
+      - ttc
     - family_name: Druk Medium
       type: Regular
       preferred_family_name: Druk
@@ -58,6 +68,8 @@ font_collections:
       post_script_name: Druk-Medium
       version: 15.0d4e1
       copyright: Copyright (c)2014 Commercial Type.
+      formats:
+      - ttc
   - name: Druk Super
     styles:
     - family_name: Druk Super
@@ -68,6 +80,8 @@ font_collections:
       post_script_name: Druk-SuperItalic
       version: 15.0d4e1
       copyright: Copyright (c)2014 Commercial Type.
+      formats:
+      - ttc
     - family_name: Druk Super
       type: Regular
       preferred_family_name: Druk
@@ -76,6 +90,8 @@ font_collections:
       post_script_name: Druk-Super
       version: 15.0d4e1
       copyright: Copyright (c)2014 Commercial Type.
+      formats:
+      - ttc
   - name: Druk Wide Bold
     styles:
     - family_name: Druk Wide Bold
@@ -86,6 +102,8 @@ font_collections:
       post_script_name: DrukWide-Bold
       version: 15.0d4e1
       copyright: Copyright (c) 2018 Commercial Type, Inc.. All rights reserved.
+      formats:
+      - ttc
   - name: Druk Wide Bold Italic
     styles:
     - family_name: Druk Wide Bold Italic
@@ -96,6 +114,8 @@ font_collections:
       post_script_name: DrukWide-BoldItalic
       version: 15.0d4e1
       copyright: Copyright (c) 2018 Commercial Type, Inc.. All rights reserved.
+      formats:
+      - ttc
   - name: Druk Wide Medium Italic
     styles:
     - family_name: Druk Wide Medium Italic
@@ -106,8 +126,11 @@ font_collections:
       post_script_name: DrukWide-MediumItalic
       version: 15.0d4e1
       copyright: Copyright (c) 2018 Commercial Type, Inc.. All rights reserved.
+      formats:
+      - ttc
 extract: {}
 copyright: Copyright (c)2014 Commercial Type.
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

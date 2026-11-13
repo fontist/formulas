@@ -1,12 +1,15 @@
 ---
+schema_version: 5
 description: Shippori Antique
 homepage: http://fontdasu.com
 resources:
   Shippori_Antique.zip:
     urls:
     - https://fontdasu.com/shippori-antique-download/
+    - https://web.archive.org/web/20260504065326/https://fontdasu.com/download/antique.zip
     sha256: c9edaa130272585f0c6801b06be32f9ea53d45659442a8c4fe09d8118566d081
     file_size: 10054934
+    format: otf
 fonts:
 - name: Shippori Antique B1 OTF Medium
   styles:
@@ -19,6 +22,8 @@ fonts:
     version: 2.100;hotconv 1.0.109;makeotfexe 2.5.65596
     copyright: Copyright 2020 The Shippori Antique Project Authors (https://github.com/fontdasu/ShipporiAntique)
     font: ShipporiAntiqueB1-OTF-Medium.otf
+    formats:
+    - otf
 - name: Shippori Antique OTF Medium
   styles:
   - family_name: Shippori Antique OTF Medium
@@ -30,8 +35,11 @@ fonts:
     version: 2.100;hotconv 1.0.109;makeotfexe 2.5.65596
     copyright: Copyright 2020 The Shippori Antique Project Authors (https://github.com/fontdasu/ShipporiAntique)
     font: ShipporiAntique-OTF-Medium.otf
+    formats:
+    - otf
 extract: {}
 copyright: Copyright 2020 The Shippori Antique Project Authors (https://github.com/fontdasu/ShipporiAntique)
+spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 open_license: |-
   Copyright 2020 The Mochiypop Project Authors (https://github.com/fontdasu/Mochiypop)

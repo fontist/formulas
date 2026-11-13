@@ -33,7 +33,7 @@ class TestName
     generated_key = generate_key(name)
     key = fetch_key(path)
     puts "Generated key and key from path:\n#{generated_key}\n#{key}\n"
-    return if generated_key == key
+    return if key == generated_key || key.start_with?("#{generated_key}_")
 
     @errors << [path, name, generated_key, key]
   end

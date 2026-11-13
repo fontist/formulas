@@ -1,12 +1,15 @@
 ---
+schema_version: 5
 description: fontopoSOLID
 homepage: https://fontopo.com/
 resources:
   fontopoSOLID.zip:
     urls:
     - https://fontopo.com/fontdata/solid.zip
+    - https://web.archive.org/web/20260504064606/https://fontopo.com/fontdata/solid.zip
     sha256: 4920c5b5e945dc298b30474135d0e734e23c49f333ad630d2c40d3b0c9bb3693
     file_size: 6923
+    format: otf
 fonts:
 - name: fontopoSOLID
   styles:
@@ -19,9 +22,12 @@ fonts:
       2012.
     copyright: Copyright (c) 2012 by fontopo. All rights reserved.
     font: fontopoSOLID-Regular.otf
+    formats:
+    - otf
 extract: {}
 copyright: Copyright (c) 2012 by fontopo. All rights reserved.
 command: create-formula https://fontopo.com/fontdata/solid.zip
+spdx_license: LicenseRef-fontopo-free
 license_url: https://fontopo.com/?page_id=55
 open_license: |
   All fonts on this site can be downloaded and used for commercial purposes for

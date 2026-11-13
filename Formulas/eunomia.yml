@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: Eunomia
 description: Eunomia
 homepage: http://www.dotcolon.net/
@@ -8,6 +9,7 @@ resources:
     - https://dotcolon.net/files/fonts/eunomia_0200.zip
     sha256: c1718a0e2592cfd7537d0114de580b9c66e503f6766e6e5e6c702a9e7fb69ee4
     file_size: 17958
+    format: otf
 fonts:
 - name: Eunomia
   styles:
@@ -18,6 +20,8 @@ fonts:
     version: 0.200;PS 000.200;hotconv 1.0.88;makeotf.lib2.5.64775
     copyright: Copyright (C) 2016 by Sora Sagano.
     font: Eunomia-Regular.otf
+    formats:
+    - otf
 - name: Eunomia Bold
   styles:
   - family_name: Eunomia Bold
@@ -29,6 +33,8 @@ fonts:
     version: 0.200;PS 000.200;hotconv 1.0.88;makeotf.lib2.5.64775
     copyright: Copyright (C) 2016 by Sora Sagano.
     font: Eunomia-Bold.otf
+    formats:
+    - otf
 - name: Eunomia Light
   styles:
   - family_name: Eunomia Light
@@ -40,8 +46,11 @@ fonts:
     version: 0.200;PS 000.200;hotconv 1.0.88;makeotf.lib2.5.64775
     copyright: Copyright (C) 2016 by Sora Sagano.
     font: Eunomia-Light.otf
+    formats:
+    - otf
 extract: {}
 copyright: Copyright (C) 2016 by Sora Sagano.
+spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 open_license: |-
   Copyright (c) 2016, Sora Sagano (sagano@dotcolon.net)

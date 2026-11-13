@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Kohinoor Devanagari
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/7f4c9f1fc7cee3585a6fa8ed2011569f3a45f9d8.zip
     sha256: de40766b8af2eaa14105332b2c23b92adc569eccfb91b961ef2a0269bbf7daed
     file_size: 268327
+    format: ttc
 font_collections:
 - filename: KohinoorComplement.ttc
   fonts:
@@ -25,6 +27,8 @@ font_collections:
         for both body and display text in print and on screen. Designed between 2009
         and 2014 by Satya Rajpurohit. OpenType production by Liang Hai.
       copyright: Copyright 2010, 2014 Indian Type Foundry. All rights reserved.
+      formats:
+      - ttc
     - family_name: Kohinoor Devanagari
       type: Medium
       preferred_family_name: Kohinoor Devanagari
@@ -36,8 +40,11 @@ font_collections:
         for both body and display text in print and on screen. Designed between 2009
         and 2014 by Satya Rajpurohit. OpenType production by Liang Hai.
       copyright: Copyright 2010, 2014 Indian Type Foundry. All rights reserved.
+      formats:
+      - ttc
 extract: {}
 copyright: Copyright 2010, 2014 Indian Type Foundry. All rights reserved.
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: HanziPen
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/cb9a85576455613deae27ccbede3cece696b39c0.zip
     sha256: 888eccb94d019d8452c1eefcfa4ba20e9838e0f157af4b3479abf87360426369
     file_size: 48702183
+    format: ttc
 font_collections:
 - filename: Hanzipen.ttc
   fonts:
@@ -22,6 +24,8 @@ font_collections:
       post_script_name: HanziPenSC-W5
       version: 14.0d1e1
       copyright: "© 2012 DynaComware Taiwan Inc. All rights reserved."
+      formats:
+      - ttc
     - family_name: HanziPen SC
       type: Regular
       preferred_family_name: HanziPen SC
@@ -30,6 +34,8 @@ font_collections:
       post_script_name: HanziPenSC-W3
       version: 14.0d1e1
       copyright: "© 2012 DynaComware Taiwan Inc. All rights reserved."
+      formats:
+      - ttc
   - name: HanziPen TC
     styles:
     - family_name: HanziPen TC
@@ -40,6 +46,8 @@ font_collections:
       post_script_name: HanziPenTC-W5
       version: 14.0d1e1
       copyright: "© 2012 DynaComware Taiwan Inc. All rights reserved."
+      formats:
+      - ttc
     - family_name: HanziPen TC
       type: Regular
       preferred_family_name: HanziPen TC
@@ -48,8 +56,11 @@ font_collections:
       post_script_name: HanziPenTC-W3
       version: 14.0d1e1
       copyright: "© 2012 DynaComware Taiwan Inc. All rights reserved."
+      formats:
+      - ttc
 extract: {}
 copyright: "© 2012 DynaComware Taiwan Inc. All rights reserved."
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

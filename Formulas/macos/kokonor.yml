@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Kokonor
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/c0b687019378d7672cb2ab9e23446eca299a29e2.zip
     sha256: 17571e73c4f2068444f2d51268d35c9fac8670120a0ad4856fee5fafbc95062a
     file_size: 273358
+    format: ttf
 fonts:
 - name: Kokonor
   styles:
@@ -20,9 +22,12 @@ fonts:
     copyright: Copyright (c) Otani University Shin Buddhist Research Institute, 2006.
       All rights reserved.
     font: Kokonor-regular.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: Copyright (c) Otani University Shin Buddhist Research Institute, 2006.
   All rights reserved.
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

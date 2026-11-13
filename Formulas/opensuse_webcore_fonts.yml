@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 description: webcore
 resources:
   webcore.rpm:
@@ -6,7 +7,7 @@ resources:
     - http://ftp.lysator.liu.se/pub/opensuse/repositories/home:/alteratio:/Common/openSUSE_13.2/src/webcore-fonts-3.0-2.1.src.rpm
     - https://download.opensuse.org/repositories/home:/alteratio:/Common/openSUSE_13.2/src/webcore-fonts-3.0-2.1.src.rpm
     - http://plug-mirror.rcac.purdue.edu/opensuse/repositories/home:/alteratio:/Common/openSUSE_13.2/src/webcore-fonts-3.0-2.1.src.rpm
-    - https://web.archive.org/web/20210122154443/http://plug-mirror.rcac.purdue.edu/opensuse/repositories/home:/alteratio:/Common/openSUSE_13.2/src/webcore-fonts-3.0-2.1.src.rpm
+    - https://web.archive.org/web/20210122154443id_/http://plug-mirror.rcac.purdue.edu/opensuse/repositories/home:/alteratio:/Common/openSUSE_13.2/src/webcore-fonts-3.0-2.1.src.rpm
     sha256: 75aab1edd72bb2e65592346ad54b78089cddedaa9801c8c133cba79677482fb2
     file_size: 7962466
 font_collections:
@@ -34,6 +35,8 @@ font_collections:
         team of experts, who aimed to set a historical new standard in multi-script
         type design.'
       copyright: "© 2006 Microsoft Corporation. All Rights Reserved."
+      formats:
+      - ttc
   - name: Cambria Math
     styles:
     - family_name: Cambria Math
@@ -55,6 +58,8 @@ font_collections:
         team of experts, who aimed to set a historical new standard in multi-script
         type design.'
       copyright: "© 2006 Microsoft Corporation. All Rights Reserved."
+      formats:
+      - ttc
 fonts:
 - name: Andale Mono
   styles:
@@ -67,6 +72,8 @@ fonts:
     copyright: Digitized data copyright (C) 1993-1997 The Monotype Corporation. All
       rights reserved.
     font: andalemo.ttf
+    formats:
+    - ttf
 - name: Arial
   styles:
   - family_name: Arial
@@ -85,6 +92,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: arial.ttf
+    formats:
+    - ttf
   - family_name: Arial
     type: Bold
     full_name: Arial Bold
@@ -101,6 +110,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: arialbd.ttf
+    formats:
+    - ttf
   - family_name: Arial
     type: Bold Italic
     full_name: Arial Bold Italic
@@ -117,6 +128,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: arialbi.ttf
+    formats:
+    - ttf
   - family_name: Arial
     type: Italic
     full_name: Arial Italic
@@ -133,6 +146,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: ariali.ttf
+    formats:
+    - ttf
 - name: Arial Black
   styles:
   - family_name: Arial Black
@@ -153,6 +168,8 @@ fonts:
       reserved. Arial® is a trademark of The Monotype Corporation which may be registered
       in certain jurisdictions.
     font: ariblk.ttf
+    formats:
+    - ttf
 - name: Calibri
   styles:
   - family_name: Calibri
@@ -168,6 +185,8 @@ fonts:
     copyright: "© 2006 Microsoft Corporation. All Rights Reserved."
     font: CALIBRI.ttf
     source_font: CALIBRI.TTF
+    formats:
+    - ttf
   - family_name: Calibri
     type: Bold
     full_name: Calibri Bold
@@ -181,6 +200,8 @@ fonts:
     copyright: "© 2006 Microsoft Corporation. All Rights Reserved."
     font: CALIBRIB.ttf
     source_font: CALIBRIB.TTF
+    formats:
+    - ttf
   - family_name: Calibri
     type: Italic
     full_name: Calibri Italic
@@ -194,6 +215,8 @@ fonts:
     copyright: "© 2006 Microsoft Corporation. All Rights Reserved."
     font: CALIBRII.ttf
     source_font: CALIBRII.TTF
+    formats:
+    - ttf
   - family_name: Calibri
     type: Bold Italic
     full_name: Calibri Bold Italic
@@ -207,6 +230,8 @@ fonts:
     copyright: "© 2006 Microsoft Corporation. All Rights Reserved."
     font: CALIBRIZ.ttf
     source_font: CALIBRIZ.TTF
+    formats:
+    - ttf
 - name: Cambria
   styles:
   - family_name: Cambria
@@ -229,6 +254,8 @@ fonts:
     copyright: "© 2006 Microsoft Corporation. All Rights Reserved."
     font: CAMBRIAB.ttf
     source_font: CAMBRIAB.TTF
+    formats:
+    - ttf
   - family_name: Cambria
     type: Italic
     full_name: Cambria Italic
@@ -249,6 +276,8 @@ fonts:
     copyright: "© 2005 Microsoft Corporation. All Rights Reserved."
     font: CAMBRIAI.ttf
     source_font: CAMBRIAI.TTF
+    formats:
+    - ttf
   - family_name: Cambria
     type: Bold Italic
     full_name: Cambria Bold Italic
@@ -269,6 +298,8 @@ fonts:
     copyright: "© 2005 Microsoft Corporation. All Rights Reserved."
     font: CAMBRIAZ.ttf
     source_font: CAMBRIAZ.TTF
+    formats:
+    - ttf
 - name: Candara
   styles:
   - family_name: Candara
@@ -283,6 +314,8 @@ fonts:
     copyright: "© 2005 Microsoft Corporation. All Rights Reserved."
     font: CANDARA.ttf
     source_font: CANDARA.TTF
+    formats:
+    - ttf
   - family_name: Candara
     type: Bold
     full_name: Candara Bold
@@ -295,6 +328,8 @@ fonts:
     copyright: "© 2005 Microsoft Corporation. All Rights Reserved."
     font: CANDARAB.ttf
     source_font: CANDARAB.TTF
+    formats:
+    - ttf
   - family_name: Candara
     type: Italic
     full_name: Candara Italic
@@ -307,6 +342,8 @@ fonts:
     copyright: "© 2005 Microsoft Corporation. All Rights Reserved."
     font: CANDARAI.ttf
     source_font: CANDARAI.TTF
+    formats:
+    - ttf
   - family_name: Candara
     type: Bold Italic
     full_name: Candara Bold Italic
@@ -319,6 +356,8 @@ fonts:
     copyright: "© 2005 Microsoft Corporation. All Rights Reserved."
     font: CANDARAZ.ttf
     source_font: CANDARAZ.TTF
+    formats:
+    - ttf
 - name: Comic Sans MS
   styles:
   - family_name: Comic Sans MS
@@ -331,6 +370,8 @@ fonts:
       very popular with a wide variety of people.
     copyright: Copyright (c) 1995 Microsoft Corporation. All rights reserved.
     font: comic.ttf
+    formats:
+    - ttf
   - family_name: Comic Sans MS
     type: Bold
     full_name: Comic Sans MS Bold
@@ -341,6 +382,8 @@ fonts:
       very popular with a wide variety of people.
     copyright: Copyright (c) 1995 Microsoft Corporation. All rights reserved.
     font: comicbd.ttf
+    formats:
+    - ttf
 - name: Consolas
   styles:
   - family_name: Consolas
@@ -360,6 +403,8 @@ fonts:
     copyright: "© 2005 Microsoft Corporation. All Rights Reserved."
     font: CONSOLA.ttf
     source_font: CONSOLA.TTF
+    formats:
+    - ttf
   - family_name: Consolas
     type: Bold
     full_name: Consolas Bold
@@ -377,6 +422,8 @@ fonts:
     copyright: "© 2005 Microsoft Corporation. All Rights Reserved."
     font: CONSOLAB.ttf
     source_font: CONSOLAB.TTF
+    formats:
+    - ttf
   - family_name: Consolas
     type: Italic
     full_name: Consolas Italic
@@ -394,6 +441,8 @@ fonts:
     copyright: "© 2005 Microsoft Corporation. All Rights Reserved."
     font: CONSOLAI.ttf
     source_font: CONSOLAI.TTF
+    formats:
+    - ttf
   - family_name: Consolas
     type: Bold Italic
     full_name: Consolas Bold Italic
@@ -411,6 +460,8 @@ fonts:
     copyright: "© 2005 Microsoft Corporation. All Rights Reserved."
     font: CONSOLAZ.ttf
     source_font: CONSOLAZ.TTF
+    formats:
+    - ttf
 - name: Constantia
   styles:
   - family_name: Constantia
@@ -429,6 +480,8 @@ fonts:
     copyright: "© 2005 Microsoft Corporation. All Rights Reserved."
     font: CONSTAN.ttf
     source_font: CONSTAN.TTF
+    formats:
+    - ttf
   - family_name: Constantia
     type: Bold
     full_name: Constantia Bold
@@ -445,6 +498,8 @@ fonts:
     copyright: "© 2005 Microsoft Corporation. All Rights Reserved."
     font: CONSTANB.ttf
     source_font: CONSTANB.TTF
+    formats:
+    - ttf
   - family_name: Constantia
     type: Italic
     full_name: Constantia Italic
@@ -461,6 +516,8 @@ fonts:
     copyright: "© 2005 Microsoft Corporation. All Rights Reserved."
     font: CONSTANI.ttf
     source_font: CONSTANI.TTF
+    formats:
+    - ttf
   - family_name: Constantia
     type: Bold Italic
     full_name: Constantia Bold Italic
@@ -477,6 +534,8 @@ fonts:
     copyright: "© 2005 Microsoft Corporation. All Rights Reserved."
     font: CONSTANZ.ttf
     source_font: CONSTANZ.TTF
+    formats:
+    - ttf
 - name: Corbel
   styles:
   - family_name: Corbel
@@ -492,6 +551,8 @@ fonts:
     copyright: "© 2005 Microsoft Corporation. All Rights Reserved."
     font: CORBEL.ttf
     source_font: CORBEL.TTF
+    formats:
+    - ttf
   - family_name: Corbel
     type: Bold
     full_name: Corbel Bold
@@ -505,6 +566,8 @@ fonts:
     copyright: "© 2005 Microsoft Corporation. All Rights Reserved."
     font: CORBELB.ttf
     source_font: CORBELB.TTF
+    formats:
+    - ttf
   - family_name: Corbel
     type: Italic
     full_name: Corbel Italic
@@ -518,6 +581,8 @@ fonts:
     copyright: "© 2005 Microsoft Corporation. All Rights Reserved."
     font: CORBELI.ttf
     source_font: CORBELI.TTF
+    formats:
+    - ttf
   - family_name: Corbel
     type: Bold Italic
     full_name: Corbel Bold Italic
@@ -531,6 +596,8 @@ fonts:
     copyright: "© 2005 Microsoft Corporation. All Rights Reserved."
     font: CORBELZ.ttf
     source_font: CORBELZ.TTF
+    formats:
+    - ttf
 - name: Courier New
   styles:
   - family_name: Courier New
@@ -545,6 +612,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1994. All Rights Reserved
     font: cour.ttf
+    formats:
+    - ttf
   - family_name: Courier New
     type: Bold
     full_name: Courier New Bold
@@ -557,6 +626,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: courbd.ttf
+    formats:
+    - ttf
   - family_name: Courier New
     type: Bold Italic
     full_name: Courier New Bold Italic
@@ -569,6 +640,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: courbi.ttf
+    formats:
+    - ttf
   - family_name: Courier New
     type: Italic
     full_name: Courier New Italic
@@ -581,6 +654,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: couri.ttf
+    formats:
+    - ttf
 - name: Georgia
   styles:
   - family_name: Georgia
@@ -591,6 +666,8 @@ fonts:
     copyright: Typeface and data copyright 1996 Microsoft Corporation. All Rights
       Reserved.
     font: georgia.ttf
+    formats:
+    - ttf
   - family_name: Georgia
     type: Bold
     full_name: Georgia Bold
@@ -599,6 +676,8 @@ fonts:
     copyright: Typeface and data copyright 1996 Microsoft Corporation. All Rights
       Reserved.
     font: georgiab.ttf
+    formats:
+    - ttf
   - family_name: Georgia
     type: Italic
     full_name: Georgia Italic
@@ -607,6 +686,8 @@ fonts:
     copyright: Typeface and data copyright 1996 Microsoft Corporation. All Rights
       Reserved.
     font: georgiai.ttf
+    formats:
+    - ttf
   - family_name: Georgia
     type: Bold Italic
     full_name: Georgia Bold Italic
@@ -615,6 +696,8 @@ fonts:
     copyright: Typeface and data copyright 1996 Microsoft Corporation. All Rights
       Reserved.
     font: georgiaz.ttf
+    formats:
+    - ttf
 - name: Impact
   styles:
   - family_name: Impact
@@ -629,6 +712,8 @@ fonts:
     copyright: Digitized data copyright (C) 1991-1996 The Monotype Corporation. All
       rights reserved. Impact is a trademark of Stephenson Blake (Holdings) Ltd.
     font: impact.ttf
+    formats:
+    - ttf
 - name: Lucida Console
   styles:
   - family_name: Lucida Console
@@ -638,6 +723,8 @@ fonts:
     version: '1.60'
     copyright: Copyright © 1993 Bigelow & Holmes Inc. All rights reserved.
     font: lucon.ttf
+    formats:
+    - ttf
 - name: Lucida Sans Unicode
   styles:
   - family_name: Lucida Sans Unicode
@@ -649,6 +736,8 @@ fonts:
     copyright: Copyright © 1993 Bigelow & Holmes Inc. All rights reserved. Pat. Des.
       289,420. Pats. Pend.
     font: l_10646.ttf
+    formats:
+    - ttf
 - name: Microsoft Sans Serif
   styles:
   - family_name: Microsoft Sans Serif
@@ -658,6 +747,8 @@ fonts:
     version: '1.41'
     copyright: Copyright © 1997 Microsoft Corporation. All rights reserved.
     font: micross.ttf
+    formats:
+    - ttf
 - name: Symbol
   styles:
   - family_name: Symbol
@@ -672,6 +763,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: symbol.ttf
+    formats:
+    - ttf
 - name: Tahoma
   styles:
   - family_name: Tahoma
@@ -685,6 +778,8 @@ fonts:
       dialog boxes and menus.
     copyright: "© 2004 Microsoft Corporation. All rights reserved."
     font: tahoma.ttf
+    formats:
+    - ttf
   - family_name: Tahoma
     type: Bold
     full_name: Tahoma Bold
@@ -696,6 +791,8 @@ fonts:
       dialog boxes and menus.
     copyright: "© 2004 Microsoft Corporation. All rights reserved."
     font: tahomabd.ttf
+    formats:
+    - ttf
 - name: Times New Roman
   styles:
   - family_name: Times New Roman
@@ -715,6 +812,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: times.ttf
+    formats:
+    - ttf
   - family_name: Times New Roman
     type: Bold
     full_name: Times New Roman Bold
@@ -732,6 +831,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: timesbd.ttf
+    formats:
+    - ttf
   - family_name: Times New Roman
     type: Bold Italic
     full_name: Times New Roman Bold Italic
@@ -749,6 +850,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: timesbi.ttf
+    formats:
+    - ttf
   - family_name: Times New Roman
     type: Italic
     full_name: Times New Roman Italic
@@ -766,6 +869,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: timesi.ttf
+    formats:
+    - ttf
 - name: Trebuchet MS
   styles:
   - family_name: Trebuchet MS
@@ -784,6 +889,8 @@ fonts:
       a Trebuchet page".
     copyright: Copyright (c) 1996 Microsoft Corporation. All rights reserved.
     font: trebuc.ttf
+    formats:
+    - ttf
   - family_name: Trebuchet MS
     type: Bold
     full_name: Trebuchet MS Bold
@@ -800,6 +907,8 @@ fonts:
       a Trebuchet page".
     copyright: Copyright (c) 1996 Microsoft Corporation. All rights reserved.
     font: trebucbd.ttf
+    formats:
+    - ttf
   - family_name: Trebuchet MS
     type: Bold Italic
     full_name: Trebuchet MS Bold Italic
@@ -816,6 +925,8 @@ fonts:
       a Trebuchet page".
     copyright: Copyright (c) 1996 Microsoft Corporation. All rights reserved.
     font: trebucbi.ttf
+    formats:
+    - ttf
   - family_name: Trebuchet MS
     type: Italic
     full_name: Trebuchet MS Italic
@@ -832,6 +943,8 @@ fonts:
       a Trebuchet page".
     copyright: Copyright (c) 1996 Microsoft Corporation. All rights reserved.
     font: trebucit.ttf
+    formats:
+    - ttf
 - name: Verdana
   styles:
   - family_name: Verdana
@@ -841,6 +954,8 @@ fonts:
     version: '2.43'
     copyright: Typeface and data © 1996 Microsoft Corporation. All Rights Reserved
     font: verdana.ttf
+    formats:
+    - ttf
   - family_name: Verdana
     type: Bold
     full_name: Verdana Bold
@@ -848,6 +963,8 @@ fonts:
     version: '2.40'
     copyright: Typeface and data © 1996 Microsoft Corporation. All Rights Reserved
     font: verdanab.ttf
+    formats:
+    - ttf
   - family_name: Verdana
     type: Italic
     full_name: Verdana Italic
@@ -855,6 +972,8 @@ fonts:
     version: '2.40'
     copyright: Typeface and data © 1996 Microsoft Corporation. All Rights Reserved
     font: verdanai.ttf
+    formats:
+    - ttf
   - family_name: Verdana
     type: Bold Italic
     full_name: Verdana Bold Italic
@@ -862,6 +981,8 @@ fonts:
     version: '2.40'
     copyright: Typeface and data © 1996 Microsoft Corporation. All Rights Reserved
     font: verdanaz.ttf
+    formats:
+    - ttf
 - name: Webdings
   styles:
   - family_name: Webdings
@@ -871,6 +992,8 @@ fonts:
     version: '1.03'
     copyright: Copyright (c) 1997 Microsoft Corporation. All rights reserved.
     font: webdings.ttf
+    formats:
+    - ttf
 - name: Wingdings
   styles:
   - family_name: Wingdings
@@ -883,6 +1006,8 @@ fonts:
     copyright: Copyright © 1992-1995 Microsoft Corp. All Rights Reserved. © 1990-1991
       Type Solutions, Inc. All Rights Reserved.
     font: wingding.ttf
+    formats:
+    - ttf
 - name: Wingdings 2
   styles:
   - family_name: Wingdings 2
@@ -895,6 +1020,8 @@ fonts:
       Type Solutions, Inc. All Rights Reserved.
     font: WINGDNG2.ttf
     source_font: WINGDNG2.TTF
+    formats:
+    - ttf
 - name: Wingdings 3
   styles:
   - family_name: Wingdings 3
@@ -907,21 +1034,24 @@ fonts:
       Type Solutions, Inc. All Rights Reserved.
     font: WINGDNG3.ttf
     source_font: WINGDNG3.TTF
+    formats:
+    - ttf
 extract:
 - format: rpm
 - format: gzip
 - format: cpio
 - format: gzip
 - format: tar
+spdx_license: LicenseRef-Microsoft-Webcore-Bundle
 copyright: Wingdings 2 designed by Bigelow & Holmes Inc. for Microsoft Corporation.
   Copyright © 1992 Microsoft Corporation. Pat. Pend. All Rights Reserved. © 1990-1991
   Type Solutions, Inc. All Rights Reserved.
 requires_license_agreement: |-
-    It is a fact that Linux lacks good high quality fonts for general use. In
-    the other hand, Microsoft invests time and money to provide a nice and
-    clean look and feel with high quality fonts like Verdana and Tahoma. The
-    result of this work is found in their typography
-    (http://microsoft.com/typography) web site. This is an attempt to give
-    Linux end users a very easy way to use them, trough an RPM package.
+  It is a fact that Linux lacks good high quality fonts for general use. In
+  the other hand, Microsoft invests time and money to provide a nice and
+  clean look and feel with high quality fonts like Verdana and Tahoma. The
+  result of this work is found in their typography
+  (http://microsoft.com/typography) web site. This is an attempt to give
+  Linux end users a very easy way to use them, trough an RPM package.
 
-    These fonts are free only for who have a Microsoft Windows license.
+  These fonts are free only for who have a Microsoft Windows license.

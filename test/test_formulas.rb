@@ -73,7 +73,7 @@ class TestFormulas
     return true if @every_platform && content["platforms"].nil?
 
     @platform && content["platforms"] && content["platforms"].any? do |p|
-      p.start_with?(@platform)
+      p == @platform
     end
   end
 

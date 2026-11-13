@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: Courier
 description: Microsoft TrueType Core fonts for the Web
 homepage: https://www.microsoft.com
@@ -6,10 +7,13 @@ resources:
   courie32.exe:
     urls:
     - https://gitlab.com/fontmirror/archive/-/raw/master/courie32.exe
+    - https://web.archive.org/web/20260506003942/https://gitlab.com/fontmirror/archive/-/raw/master/courie32.exe
     - https://nchc.dl.sourceforge.net/project/corefonts/the%20fonts/final/courie32.exe
     - http://sft.if.usp.br/msttcorefonts/courie32.exe
+    - https://web.archive.org/web/20260505172832/http://sft.if.usp.br/msttcorefonts/courie32.exe
     sha256: bb511d861655dde879ae552eb86b134d6fae67cb58502e6ff73ec5d9151f3384
     file_size: 646368
+    format: ttf
 fonts:
 - name: Courier New
   styles:
@@ -25,6 +29,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1994. All Rights Reserved
     font: cour.ttf
+    formats:
+    - ttf
   - family_name: Courier New
     type: Bold
     full_name: Courier New Bold
@@ -37,6 +43,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: courbd.ttf
+    formats:
+    - ttf
   - family_name: Courier New
     type: Bold Italic
     full_name: Courier New Bold Italic
@@ -49,6 +57,8 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: courbi.ttf
+    formats:
+    - ttf
   - family_name: Courier New
     type: Italic
     full_name: Courier New Italic
@@ -61,9 +71,12 @@ fonts:
     copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
       plc/Type Solutions Inc. 1990-1992. All Rights Reserved
     font: couri.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: Typeface © The Monotype Corporation plc. Data © The Monotype Corporation
   plc/Type Solutions Inc. 1990-1992. All Rights Reserved
+spdx_license: LicenseRef-Microsoft-fontpack-19980728
 license_url: http://www.monotype.com/html/type/license.html
 requires_license_agreement: |
   (from http://web.archive.org/web/20011222020409/http://www.microsoft.com/typography/fontpack/eula.htm)

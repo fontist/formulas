@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Monaco
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2020/mobileassets/001-26051/B1CF7C35-D704-4F2D-82D1-DCE47CD14C5C/com_apple_MobileAsset_Font6/c6571e6ff5403d59a1e1698914c18ad3af10cbb5.zip
     sha256: 53390223eb2b45a133db1ebdfb68a47a8d7bef84f0ab9366ca96c749cd3a2241
     file_size: 182885
+    format: ttf
 fonts:
 - name: Monaco
   styles:
@@ -21,10 +23,13 @@ fonts:
       Font Bureau Inc.  TrueType outline design of Monaco typeface created by Kris
       Holmes and Charles Bigelow."
     font: Monaco.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: "© 1990-2008 Apple Inc. © 1990-97 Type Solutions Inc. © 1990-97 The Font
   Bureau Inc.  TrueType outline design of Monaco typeface created by Kris Holmes and
   Charles Bigelow."
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Tiro Bangla
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2020/mobileassets/001-26051/B1CF7C35-D704-4F2D-82D1-DCE47CD14C5C/com_apple_MobileAsset_Font6/b9c3b578368dd1105e2a94f15cb75563e3b2c476.zip
     sha256: b228d4c30bd3e54fdd92c3be763a71b3761e8a4c0aed2ce61a9c7a1469177675
     file_size: 303787
+    format: ttc
 font_collections:
 - filename: TiroBangla.ttc
   fonts:
@@ -20,14 +22,19 @@ font_collections:
       post_script_name: TiroBangla-Italic
       version: 15.0d6e1
       copyright: Copyright (c) 2016, 2020 by Tiro Typeworks Ltd. All rights reserved.
+      formats:
+      - ttc
     - family_name: Tiro Bangla
       type: Regular
       full_name: Tiro Bangla
       post_script_name: TiroBangla
       version: 15.0d6e1
       copyright: Copyright (c) 2016, 2020 by Tiro Typeworks Ltd. All rights reserved.
+      formats:
+      - ttc
 extract: {}
 copyright: Copyright (c) 2016, 2020 by Tiro Typeworks Ltd. All rights reserved.
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 

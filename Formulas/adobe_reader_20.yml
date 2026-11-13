@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: Adobe Reader 20
 description: Adobe Reader 20
 homepage: http://www.adobe.com/type
@@ -9,6 +10,7 @@ resources:
     - https://web.archive.org/web/20200816153003if_/http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2001220041/AcroRdrDC2001220041_en_US.exe
     sha256: 9dd98fe4d1abd7574ca99fa697983a1865bf1f343172e228c2bfbf638c2ddf73
     file_size: 177434160
+    format: otf
 fonts:
 - name: Adobe Pi Std
   styles:
@@ -19,6 +21,8 @@ fonts:
     version: 1.059;PS 1.010;hotconv 1.0.67;makeotf.lib2.5.33168
     copyright: "© 2002 Adobe Systems Incorporated. All rights reserved."
     font: AdobePiStd.otf
+    formats:
+    - otf
 - name: Courier Std
   styles:
   - family_name: Courier Std
@@ -29,6 +33,8 @@ fonts:
     copyright: "© 1989, 1990, 1991, 1992, 1993, 1996, 1997, 1998, 2001 Adobe Systems
       Incorporated. All rights reserved."
     font: CourierStd_Bold.otf
+    formats:
+    - otf
   - family_name: Courier Std
     type: Bold Italic
     preferred_type: Bold Oblique
@@ -38,6 +44,8 @@ fonts:
     copyright: "© 1989, 1990, 1991, 1992, 1993, 1996, 1997, 1998, 2001 Adobe Systems
       Incorporated. All rights reserved."
     font: CourierStd_BoldOblique.otf
+    formats:
+    - otf
   - family_name: Courier Std
     type: Italic
     preferred_type: Medium Oblique
@@ -47,6 +55,8 @@ fonts:
     copyright: "© 1989, 1990, 1991, 1992, 1993, 1996, 1997, 1998, 2001 Adobe Systems
       Incorporated. All rights reserved."
     font: CourierStd_Oblique.otf
+    formats:
+    - otf
   - family_name: Courier Std
     type: Regular
     preferred_type: Medium
@@ -56,6 +66,8 @@ fonts:
     copyright: "© 1989, 1990, 1991, 1992, 1993, 1996, 1997, 1998, 2001 Adobe Systems
       Incorporated. All rights reserved."
     font: CourierStd.otf
+    formats:
+    - otf
 - name: Minion Pro
   styles:
   - family_name: Minion Pro
@@ -66,6 +78,8 @@ fonts:
     copyright: "© 1990, 1991, 1992, 1994, 1997, 1998, 2000, 2002, 2004 Adobe Systems
       Incorporated. All rights reserved."
     font: MinionPro_Bold.otf
+    formats:
+    - otf
   - family_name: Minion Pro
     type: Bold Italic
     full_name: MinionPro-BoldIt
@@ -74,6 +88,8 @@ fonts:
     copyright: "© 1990, 1991, 1992, 1994, 1997, 1998, 2000, 2002, 2004 Adobe Systems
       Incorporated. All rights reserved."
     font: MinionPro_BoldIt.otf
+    formats:
+    - otf
   - family_name: Minion Pro
     type: Italic
     full_name: MinionPro-It
@@ -82,6 +98,8 @@ fonts:
     copyright: "© 1990, 1991, 1992, 1994, 1997, 1998, 2000, 2002, 2004 Adobe Systems
       Incorporated. All rights reserved."
     font: MinionPro_It.otf
+    formats:
+    - otf
   - family_name: Minion Pro
     type: Regular
     full_name: MinionPro-Regular
@@ -90,6 +108,8 @@ fonts:
     copyright: "© 1990, 1991, 1992, 1994, 1997, 1998, 2000, 2002, 2004 Adobe Systems
       Incorporated. All rights reserved."
     font: MinionPro_Regular.otf
+    formats:
+    - otf
 - name: Myriad CAD
   styles:
   - family_name: Myriad CAD
@@ -99,6 +119,8 @@ fonts:
     version: 1.023;PS 1.000;hotconv 1.0.57;makeotf.lib2.0.21895
     copyright: "© 2000, 2004, 2006 Adobe Systems Incorporated. All Rights Reserved."
     font: MyriadCAD.otf
+    formats:
+    - otf
 - name: Myriad Pro
   styles:
   - family_name: Myriad Pro
@@ -109,6 +131,8 @@ fonts:
     copyright: "© 1992, 1994, 1997, 2000, 2004 Adobe Systems Incorporated. All rights
       reserved."
     font: MyriadPro_Bold.otf
+    formats:
+    - otf
   - family_name: Myriad Pro
     type: Bold Italic
     full_name: MyriadPro-BoldIt
@@ -117,6 +141,8 @@ fonts:
     copyright: "© 1992, 1994, 1997, 2000, 2004 Adobe Systems Incorporated. All rights
       reserved."
     font: MyriadPro_BoldIt.otf
+    formats:
+    - otf
   - family_name: Myriad Pro
     type: Italic
     full_name: MyriadPro-It
@@ -125,6 +151,8 @@ fonts:
     copyright: "© 1992, 1994, 1997, 2000, 2004 Adobe Systems Incorporated. All rights
       reserved."
     font: MyriadPro_It.otf
+    formats:
+    - otf
   - family_name: Myriad Pro
     type: Regular
     full_name: MyriadPro-Regular
@@ -133,9 +161,12 @@ fonts:
     copyright: "© 1992, 1994, 1997, 2000, 2004 Adobe Systems Incorporated. All rights
       reserved."
     font: MyriadPro_Regular.otf
+    formats:
+    - otf
 extract: {}
 copyright: "© 1992, 1994, 1997, 2000, 2004 Adobe Systems Incorporated. All rights
   reserved."
+spdx_license: LicenseRef-Adobe-EULA
 license_url: http://www.adobe.com/type/legal.html
 requires_license_agreement: |-
   Adobe End-User License Agreement

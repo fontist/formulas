@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 name: Seshat
 description: Seshat
 homepage: http://www.dotcolon.net
@@ -8,6 +9,7 @@ resources:
     - https://dotcolon.net/files/fonts/seshat_0100.zip
     sha256: cad99de1e6755f1720c63b6fd37f23b87f3284ae8728271b62e48d9420c1140f
     file_size: 17980
+    format: otf
 fonts:
 - name: Seshat
   styles:
@@ -18,8 +20,11 @@ fonts:
     version: 1.000;PS 001.000;hotconv 1.0.56;makeotf.lib2.0.21325
     copyright: No Rights Reserved.
     font: Seshat.otf
+    formats:
+    - otf
 extract: {}
 copyright: No Rights Reserved.
+spdx_license: CC0-1.0
 license_url: http://creativecommons.org/publicdomain/zero/1.0/
 open_license: |-
   Creative Commons Legal Code

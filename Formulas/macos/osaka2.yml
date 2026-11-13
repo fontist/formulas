@@ -1,4 +1,5 @@
 ---
+schema_version: 5
 platforms:
 - macos
 description: Osaka
@@ -9,6 +10,7 @@ resources:
     - http://updates-http.cdn-apple.com/2020/mobileassets/001-26051/B1CF7C35-D704-4F2D-82D1-DCE47CD14C5C/com_apple_MobileAsset_Font6/47405a357e3ac82b7afbf33f535962172e3e3d10.zip
     sha256: e17dde36e6d7b3fc4d7d5be597b359f108c504bb06d3523a06a9c5f8c0417ea2
     file_size: 2060658
+    format: ttf
 fonts:
 - name: Osaka
   styles:
@@ -19,8 +21,11 @@ fonts:
     version: 16.0d1e2
     copyright: ver J-6.1d3e1, © 1990-2008 Apple Inc.
     font: Osaka.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: ver J-6.1d3e1, © 1990-2008 Apple Inc.
+spdx_license: LicenseRef-Apple-EA1705
 requires_license_agreement: |
   For use on Apple-branded Systems
 
