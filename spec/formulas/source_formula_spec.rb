@@ -13,8 +13,18 @@ RSpec.describe "Formulas/source.yml" do
     regions.product(weights).map { |r, w| "Source Han Sans#{r}#{w}" }
   end
 
+  let(:latin_families) { ["Source Sans Pro", "Source Serif Pro", "Source Code Pro"] }
+
+  let(:latin_weight_names) do
+    latin_families.flat_map do |f|
+      # Source Sans/Serif Pro never shipped a Medium cut; Code Pro did.
+      weights = f == "Source Code Pro" ? %w[Black ExtraLight Light Medium Semibold] : %w[Black ExtraLight Light Semibold]
+      weights.map { |w| "#{f} #{w}" }
+    end
+  end
+
   def styles_of(name)
-    collections.flat_map { |c| c["fonts"] }
+    (collections.flat_map { |c| c["fonts"] } + Array(formula["fonts"]))
       .select { |f| f["name"] == name }
       .flat_map { |f| f["styles"] }
   end
@@ -52,6 +62,24 @@ RSpec.describe "Formulas/source.yml" do
         expect(style["post_script_name"]).not_to be_nil, font["name"]
         expect(style["version"]).not_to be_nil, font["name"]
       end
+    end
+  end
+
+  it "provides every legacy Latin font name" do
+    names = Array(formula["fonts"]).map { |f| f["name"] }
+    expect(names).to include(*latin_families, *latin_weight_names)
+  end
+
+  it "provides Regular, Bold, Italic and Bold Italic for the Latin families" do
+    latin_families.each do |name|
+      expect(styles_of(name).map { |s| s["type"] })
+        .to contain_exactly("Regular", "Bold", "Italic", "Bold Italic")
+    end
+  end
+
+  it "provides Regular and Italic for each Latin weight variant" do
+    latin_weight_names.each do |name|
+      expect(styles_of(name).map { |s| s["type"] }).to contain_exactly("Regular", "Italic")
     end
   end
 
