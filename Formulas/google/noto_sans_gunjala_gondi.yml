@@ -6,23 +6,17 @@ description: Noto is a global font collection for writing in all modern and anci
   It has multiple weights, and has 254 glyphs.
 homepage: https://fonts.google.com/specimen/Noto+Sans+Gunjala+Gondi
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Noto Sans Gunjala Gondi
     files:
-    - https://fonts.gstatic.com/s/notosansgunjalagondi/v21/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYL4YDE5Z4vCTxEJQ.woff2
-    - https://fonts.gstatic.com/s/notosansgunjalagondi/v21/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYL04DE5Z4vCTxEJQ.woff2
-    - https://fonts.gstatic.com/s/notosansgunjalagondi/v21/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYLP4fE5Z4vCTxEJQ.woff2
-    - https://fonts.gstatic.com/s/notosansgunjalagondi/v21/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYLBofE5Z4vCTxEJQ.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosansgunjalagondi/NotoSansGunjalaGondi[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/notosansgunjalagondi/v21/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYL4YDE5Z4vCTxEJQ.woff2
-    - https://fonts.gstatic.com/s/notosansgunjalagondi/v21/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYL04DE5Z4vCTxEJQ.woff2
-    - https://fonts.gstatic.com/s/notosansgunjalagondi/v21/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYLP4fE5Z4vCTxEJQ.woff2
-    - https://fonts.gstatic.com/s/notosansgunjalagondi/v21/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYLBofE5Z4vCTxEJQ.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosansgunjalagondi/NotoSansGunjalaGondi[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Noto Sans Gunjala Gondi
     files:
@@ -36,8 +30,20 @@ resources:
     - https://fonts.gstatic.com/s/notosansgunjalagondi/v21/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYLP4fE4J4vCTxEJQ.ttf
     - https://fonts.gstatic.com/s/notosansgunjalagondi/v21/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYLBofE4J4vCTxEJQ.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Noto Sans Gunjala Gondi
+    files:
+    - https://fonts.gstatic.com/s/notosansgunjalagondi/v21/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYL4YDE5Z4vCTxEJQ.woff2
+    - https://fonts.gstatic.com/s/notosansgunjalagondi/v21/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYL04DE5Z4vCTxEJQ.woff2
+    - https://fonts.gstatic.com/s/notosansgunjalagondi/v21/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYLP4fE5Z4vCTxEJQ.woff2
+    - https://fonts.gstatic.com/s/notosansgunjalagondi/v21/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYLBofE5Z4vCTxEJQ.woff2
+    urls:
+    - https://fonts.gstatic.com/s/notosansgunjalagondi/v21/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYL4YDE5Z4vCTxEJQ.woff2
+    - https://fonts.gstatic.com/s/notosansgunjalagondi/v21/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYL04DE5Z4vCTxEJQ.woff2
+    - https://fonts.gstatic.com/s/notosansgunjalagondi/v21/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYLP4fE5Z4vCTxEJQ.woff2
+    - https://fonts.gstatic.com/s/notosansgunjalagondi/v21/bWtX7e7KfBziStx7lIzKPrcSMwcEnCv6DW7n5g0ef3PLtymzNxYLBofE5Z4vCTxEJQ.woff2
+    format: woff2
 fonts:
 - name: Noto Sans Gunjala Gondi
   styles:
@@ -53,9 +59,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Noto Sans Gunjala Gondi
     type: Bold
     full_name: Noto Sans Gunjala Gondi Bold
@@ -68,9 +73,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Noto Sans Gunjala Gondi
+    type: Regular
+    full_name: Noto Sans Gunjala Gondi Regular
+    post_script_name: NotoSansGunjalaGondi-Regular
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/gunjala-gondi)
+    font: NotoSansGunjalaGondi[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Noto Sans Gunjala Gondi Medium
   styles:
   - family_name: Noto Sans Gunjala Gondi Medium
@@ -87,9 +103,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans Gunjala Gondi SemiBold
   styles:
   - family_name: Noto Sans Gunjala Gondi SemiBold
@@ -106,9 +121,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/gunjala-gondi)
 spdx_license: OFL-1.1-no-RFN

@@ -6,23 +6,17 @@ description: Noto is a global font collection for writing in all modern and anci
   has multiple weights, and has 66 glyphs.
 homepage: https://fonts.google.com/specimen/Noto+Sans+Nag+Mundari
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Noto Sans Nag Mundari
     files:
-    - https://fonts.gstatic.com/s/notosansnagmundari/v4/3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHRxirbUSA0whP19M.woff2
-    - https://fonts.gstatic.com/s/notosansnagmundari/v4/3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHRyqrbUSA0whP19M.woff2
-    - https://fonts.gstatic.com/s/notosansnagmundari/v4/3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHR8asbUSA0whP19M.woff2
-    - https://fonts.gstatic.com/s/notosansnagmundari/v4/3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHR_-sbUSA0whP19M.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosansnagmundari/NotoSansNagMundari[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/notosansnagmundari/v4/3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHRxirbUSA0whP19M.woff2
-    - https://fonts.gstatic.com/s/notosansnagmundari/v4/3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHRyqrbUSA0whP19M.woff2
-    - https://fonts.gstatic.com/s/notosansnagmundari/v4/3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHR8asbUSA0whP19M.woff2
-    - https://fonts.gstatic.com/s/notosansnagmundari/v4/3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHR_-sbUSA0whP19M.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosansnagmundari/NotoSansNagMundari[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Noto Sans Nag Mundari
     files:
@@ -36,8 +30,20 @@ resources:
     - https://fonts.gstatic.com/s/notosansnagmundari/v4/3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHR8asbUGA0whP19M.ttf
     - https://fonts.gstatic.com/s/notosansnagmundari/v4/3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHR_-sbUGA0whP19M.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Noto Sans Nag Mundari
+    files:
+    - https://fonts.gstatic.com/s/notosansnagmundari/v4/3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHRxirbUSA0whP19M.woff2
+    - https://fonts.gstatic.com/s/notosansnagmundari/v4/3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHRyqrbUSA0whP19M.woff2
+    - https://fonts.gstatic.com/s/notosansnagmundari/v4/3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHR8asbUSA0whP19M.woff2
+    - https://fonts.gstatic.com/s/notosansnagmundari/v4/3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHR_-sbUSA0whP19M.woff2
+    urls:
+    - https://fonts.gstatic.com/s/notosansnagmundari/v4/3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHRxirbUSA0whP19M.woff2
+    - https://fonts.gstatic.com/s/notosansnagmundari/v4/3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHRyqrbUSA0whP19M.woff2
+    - https://fonts.gstatic.com/s/notosansnagmundari/v4/3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHR8asbUSA0whP19M.woff2
+    - https://fonts.gstatic.com/s/notosansnagmundari/v4/3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHR_-sbUSA0whP19M.woff2
+    format: woff2
 fonts:
 - name: Noto Sans Nag Mundari
   styles:
@@ -53,9 +59,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Noto Sans Nag Mundari
     type: Bold
     full_name: Noto Sans Nag Mundari Bold
@@ -68,9 +73,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Noto Sans Nag Mundari
+    type: Regular
+    full_name: Noto Sans Nag Mundari Regular
+    post_script_name: NotoSansNagMundari-Regular
+    copyright: Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nag-mundari)
+    font: NotoSansNagMundari[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Noto Sans Nag Mundari Medium
   styles:
   - family_name: Noto Sans Nag Mundari Medium
@@ -87,9 +103,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans Nag Mundari SemiBold
   styles:
   - family_name: Noto Sans Nag Mundari SemiBold
@@ -106,9 +121,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nag-mundari)
 spdx_license: OFL-1.1-no-RFN

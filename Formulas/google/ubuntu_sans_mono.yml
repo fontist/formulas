@@ -18,31 +18,19 @@ description: The Ubuntu Font Family are a set of matching new libre/open fonts i
   Ltd. To contribute, see github.com/canonical/Ubuntu-Sans-Mono-fonts .
 homepage: https://fonts.google.com/specimen/Ubuntu+Sans+Mono
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Ubuntu Sans Mono
     files:
-    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyc7mzgBHrR5yE7ZyRg0QRJMKI4zAbgjc1t-pKe27Ev_kYUiqcZu3n0.woff2
-    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyc7mzgBHrR5yE7ZyRg0QRJMKI4zAbgjc1t-pKe27Ed_kYUiqcZu3n0.woff2
-    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyc7mzgBHrR5yE7ZyRg0QRJMKI4zAbgjc1t-pKe27Hx-UYUiqcZu3n0.woff2
-    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyc7mzgBHrR5yE7ZyRg0QRJMKI4zAbgjc1t-pKe27HI-UYUiqcZu3n0.woff2
-    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyi7mzgBHrR5yE7ZyRg0QRJMKI45g_SchUEkQgw3KTnva5SgKY7vmn0BLE.woff2
-    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyi7mzgBHrR5yE7ZyRg0QRJMKI45g_SchUEkQgw3KTnvZxSgKY7vmn0BLE.woff2
-    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyi7mzgBHrR5yE7ZyRg0QRJMKI45g_SchUEkQgw3KTnvXBVgKY7vmn0BLE.woff2
-    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyi7mzgBHrR5yE7ZyRg0QRJMKI45g_SchUEkQgw3KTnvUlVgKY7vmn0BLE.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ufl/ubuntusansmono/UbuntuSansMono[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ufl/ubuntusansmono/UbuntuSansMono-Italic[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyc7mzgBHrR5yE7ZyRg0QRJMKI4zAbgjc1t-pKe27Ev_kYUiqcZu3n0.woff2
-    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyc7mzgBHrR5yE7ZyRg0QRJMKI4zAbgjc1t-pKe27Ed_kYUiqcZu3n0.woff2
-    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyc7mzgBHrR5yE7ZyRg0QRJMKI4zAbgjc1t-pKe27Hx-UYUiqcZu3n0.woff2
-    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyc7mzgBHrR5yE7ZyRg0QRJMKI4zAbgjc1t-pKe27HI-UYUiqcZu3n0.woff2
-    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyi7mzgBHrR5yE7ZyRg0QRJMKI45g_SchUEkQgw3KTnva5SgKY7vmn0BLE.woff2
-    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyi7mzgBHrR5yE7ZyRg0QRJMKI45g_SchUEkQgw3KTnvZxSgKY7vmn0BLE.woff2
-    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyi7mzgBHrR5yE7ZyRg0QRJMKI45g_SchUEkQgw3KTnvXBVgKY7vmn0BLE.woff2
-    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyi7mzgBHrR5yE7ZyRg0QRJMKI45g_SchUEkQgw3KTnvUlVgKY7vmn0BLE.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ufl/ubuntusansmono/UbuntuSansMono[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ufl/ubuntusansmono/UbuntuSansMono-Italic[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Ubuntu Sans Mono
     files:
@@ -64,8 +52,28 @@ resources:
     - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyi7mzgBHrR5yE7ZyRg0QRJMKI45g_SchUEkQgw3KTnvXBVgKM7vmn0BLE.ttf
     - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyi7mzgBHrR5yE7ZyRg0QRJMKI45g_SchUEkQgw3KTnvUlVgKM7vmn0BLE.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Ubuntu Sans Mono
+    files:
+    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyc7mzgBHrR5yE7ZyRg0QRJMKI4zAbgjc1t-pKe27Ev_kYUiqcZu3n0.woff2
+    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyc7mzgBHrR5yE7ZyRg0QRJMKI4zAbgjc1t-pKe27Ed_kYUiqcZu3n0.woff2
+    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyc7mzgBHrR5yE7ZyRg0QRJMKI4zAbgjc1t-pKe27Hx-UYUiqcZu3n0.woff2
+    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyc7mzgBHrR5yE7ZyRg0QRJMKI4zAbgjc1t-pKe27HI-UYUiqcZu3n0.woff2
+    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyi7mzgBHrR5yE7ZyRg0QRJMKI45g_SchUEkQgw3KTnva5SgKY7vmn0BLE.woff2
+    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyi7mzgBHrR5yE7ZyRg0QRJMKI45g_SchUEkQgw3KTnvZxSgKY7vmn0BLE.woff2
+    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyi7mzgBHrR5yE7ZyRg0QRJMKI45g_SchUEkQgw3KTnvXBVgKY7vmn0BLE.woff2
+    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyi7mzgBHrR5yE7ZyRg0QRJMKI45g_SchUEkQgw3KTnvUlVgKY7vmn0BLE.woff2
+    urls:
+    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyc7mzgBHrR5yE7ZyRg0QRJMKI4zAbgjc1t-pKe27Ev_kYUiqcZu3n0.woff2
+    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyc7mzgBHrR5yE7ZyRg0QRJMKI4zAbgjc1t-pKe27Ed_kYUiqcZu3n0.woff2
+    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyc7mzgBHrR5yE7ZyRg0QRJMKI4zAbgjc1t-pKe27Hx-UYUiqcZu3n0.woff2
+    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyc7mzgBHrR5yE7ZyRg0QRJMKI4zAbgjc1t-pKe27HI-UYUiqcZu3n0.woff2
+    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyi7mzgBHrR5yE7ZyRg0QRJMKI45g_SchUEkQgw3KTnva5SgKY7vmn0BLE.woff2
+    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyi7mzgBHrR5yE7ZyRg0QRJMKI45g_SchUEkQgw3KTnvZxSgKY7vmn0BLE.woff2
+    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyi7mzgBHrR5yE7ZyRg0QRJMKI45g_SchUEkQgw3KTnvXBVgKY7vmn0BLE.woff2
+    - https://fonts.gstatic.com/s/ubuntusansmono/v3/jVyi7mzgBHrR5yE7ZyRg0QRJMKI45g_SchUEkQgw3KTnvUlVgKY7vmn0BLE.woff2
+    format: woff2
 fonts:
 - name: Ubuntu Sans Mono
   styles:
@@ -81,9 +89,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Ubuntu Sans Mono
     type: Bold
     full_name: Ubuntu Sans Mono Bold
@@ -96,9 +103,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Ubuntu Sans Mono
     type: Italic
     full_name: Ubuntu Sans Mono Italic
@@ -111,9 +117,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Ubuntu Sans Mono
     type: Bold Italic
     full_name: Ubuntu Sans Mono Bold Italic
@@ -126,9 +131,34 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Ubuntu Sans Mono
+    type: Regular
+    full_name: Ubuntu Sans Mono Regular
+    post_script_name: UbuntuSansMono-Regular
+    copyright: Copyright 2011, 2022, 2023 Canonical Ltd.  Licensed under the Ubuntu
+      Font Licence 1.0
+    font: UbuntuSansMono[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
+  - family_name: Ubuntu Sans Mono
+    type: Italic
+    full_name: Ubuntu Sans Mono Italic
+    post_script_name: UbuntuSansMono-Italic
+    copyright: Copyright 2011, 2022, 2023 Canonical Ltd.  Licensed under the Ubuntu
+      Font Licence 1.0
+    font: UbuntuSansMono-Italic[wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wght
+    source_resource: ttf_variable
 - name: Ubuntu Sans Mono Medium
   styles:
   - family_name: Ubuntu Sans Mono Medium
@@ -145,9 +175,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Ubuntu Sans Mono Medium
     type: Italic
     full_name: Ubuntu Sans Mono Medium Italic
@@ -162,9 +191,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Ubuntu Sans Mono SemiBold
   styles:
   - family_name: Ubuntu Sans Mono SemiBold
@@ -181,9 +209,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Ubuntu Sans Mono SemiBold
     type: Italic
     full_name: Ubuntu Sans Mono SemiBold Italic
@@ -198,9 +225,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2011, 2022, 2023 Canonical Ltd.  Licensed under the Ubuntu Font
   Licence 1.0

@@ -13,25 +13,17 @@ description: Spline Sans is a grotesque sans serif typeface family, purpose-buil
   and feedback, see github.com/SorkinType/SplineSans
 homepage: https://fonts.google.com/specimen/Spline+Sans
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Spline Sans
     files:
-    - https://fonts.gstatic.com/s/splinesans/v16/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpZlnYF9vlUfE2kw.woff2
-    - https://fonts.gstatic.com/s/splinesans/v16/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpOFnYF9vlUfE2kw.woff2
-    - https://fonts.gstatic.com/s/splinesans/v16/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpClnYF9vlUfE2kw.woff2
-    - https://fonts.gstatic.com/s/splinesans/v16/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRp5l7YF9vlUfE2kw.woff2
-    - https://fonts.gstatic.com/s/splinesans/v16/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRp317YF9vlUfE2kw.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/splinesans/SplineSans[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/splinesans/v16/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpZlnYF9vlUfE2kw.woff2
-    - https://fonts.gstatic.com/s/splinesans/v16/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpOFnYF9vlUfE2kw.woff2
-    - https://fonts.gstatic.com/s/splinesans/v16/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpClnYF9vlUfE2kw.woff2
-    - https://fonts.gstatic.com/s/splinesans/v16/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRp5l7YF9vlUfE2kw.woff2
-    - https://fonts.gstatic.com/s/splinesans/v16/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRp317YF9vlUfE2kw.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/splinesans/SplineSans[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Spline Sans
     files:
@@ -47,8 +39,22 @@ resources:
     - https://fonts.gstatic.com/s/splinesans/v16/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRp5l7YEtvlUfE2kw.ttf
     - https://fonts.gstatic.com/s/splinesans/v16/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRp317YEtvlUfE2kw.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Spline Sans
+    files:
+    - https://fonts.gstatic.com/s/splinesans/v16/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpZlnYF9vlUfE2kw.woff2
+    - https://fonts.gstatic.com/s/splinesans/v16/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpOFnYF9vlUfE2kw.woff2
+    - https://fonts.gstatic.com/s/splinesans/v16/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpClnYF9vlUfE2kw.woff2
+    - https://fonts.gstatic.com/s/splinesans/v16/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRp5l7YF9vlUfE2kw.woff2
+    - https://fonts.gstatic.com/s/splinesans/v16/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRp317YF9vlUfE2kw.woff2
+    urls:
+    - https://fonts.gstatic.com/s/splinesans/v16/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpZlnYF9vlUfE2kw.woff2
+    - https://fonts.gstatic.com/s/splinesans/v16/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpOFnYF9vlUfE2kw.woff2
+    - https://fonts.gstatic.com/s/splinesans/v16/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRpClnYF9vlUfE2kw.woff2
+    - https://fonts.gstatic.com/s/splinesans/v16/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRp5l7YF9vlUfE2kw.woff2
+    - https://fonts.gstatic.com/s/splinesans/v16/_6_sED73Uf-2WfU2LzycEZousNzn1a1lKWRp317YF9vlUfE2kw.woff2
+    format: woff2
 fonts:
 - name: Spline Sans Light
   styles:
@@ -66,9 +72,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Spline Sans
   styles:
   - family_name: Spline Sans
@@ -83,9 +88,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Spline Sans
     type: Bold
     full_name: Spline Sans Bold
@@ -98,9 +102,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Spline Sans
+    type: Regular
+    full_name: Spline Sans Regular
+    post_script_name: SplineSans-Regular
+    copyright: Copyright 2021 The Spline Sans Project Authors (https://github.com/SorkinType/SplineSans)
+    font: SplineSans[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Spline Sans Medium
   styles:
   - family_name: Spline Sans Medium
@@ -117,9 +132,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Spline Sans SemiBold
   styles:
   - family_name: Spline Sans SemiBold
@@ -136,9 +150,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2021 The Spline Sans Project Authors (https://github.com/SorkinType/SplineSans)
 spdx_license: OFL-1.1-no-RFN

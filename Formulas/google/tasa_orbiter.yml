@@ -4,25 +4,17 @@ schema_version: 5
 description: TASA Orbiter font family
 homepage: https://fonts.google.com/specimen/TASA+Orbiter
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: TASA Orbiter
     files:
-    - https://fonts.gstatic.com/s/tasaorbiter/v2/3XF4Erw3860rsdSUVZx78hPcTvQoDGHxaFGfVH4C8pm095IuGcc.woff2
-    - https://fonts.gstatic.com/s/tasaorbiter/v2/3XF4Erw3860rsdSUVZx78hPcTvQoDGHxaFGfVEwC8pm095IuGcc.woff2
-    - https://fonts.gstatic.com/s/tasaorbiter/v2/3XF4Erw3860rsdSUVZx78hPcTvQoDGHxaFGfVKAF8pm095IuGcc.woff2
-    - https://fonts.gstatic.com/s/tasaorbiter/v2/3XF4Erw3860rsdSUVZx78hPcTvQoDGHxaFGfVJkF8pm095IuGcc.woff2
-    - https://fonts.gstatic.com/s/tasaorbiter/v2/3XF4Erw3860rsdSUVZx78hPcTvQoDGHxaFGfVP4F8pm095IuGcc.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/tasaorbiter/TASAOrbiter[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/tasaorbiter/v2/3XF4Erw3860rsdSUVZx78hPcTvQoDGHxaFGfVH4C8pm095IuGcc.woff2
-    - https://fonts.gstatic.com/s/tasaorbiter/v2/3XF4Erw3860rsdSUVZx78hPcTvQoDGHxaFGfVEwC8pm095IuGcc.woff2
-    - https://fonts.gstatic.com/s/tasaorbiter/v2/3XF4Erw3860rsdSUVZx78hPcTvQoDGHxaFGfVKAF8pm095IuGcc.woff2
-    - https://fonts.gstatic.com/s/tasaorbiter/v2/3XF4Erw3860rsdSUVZx78hPcTvQoDGHxaFGfVJkF8pm095IuGcc.woff2
-    - https://fonts.gstatic.com/s/tasaorbiter/v2/3XF4Erw3860rsdSUVZx78hPcTvQoDGHxaFGfVP4F8pm095IuGcc.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/tasaorbiter/TASAOrbiter[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: TASA Orbiter
     files:
@@ -38,8 +30,22 @@ resources:
     - https://fonts.gstatic.com/s/tasaorbiter/v2/3XF4Erw3860rsdSUVZx78hPcTvQoDGHxaFGfVJkF8py095IuGcc.ttf
     - https://fonts.gstatic.com/s/tasaorbiter/v2/3XF4Erw3860rsdSUVZx78hPcTvQoDGHxaFGfVP4F8py095IuGcc.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: TASA Orbiter
+    files:
+    - https://fonts.gstatic.com/s/tasaorbiter/v2/3XF4Erw3860rsdSUVZx78hPcTvQoDGHxaFGfVH4C8pm095IuGcc.woff2
+    - https://fonts.gstatic.com/s/tasaorbiter/v2/3XF4Erw3860rsdSUVZx78hPcTvQoDGHxaFGfVEwC8pm095IuGcc.woff2
+    - https://fonts.gstatic.com/s/tasaorbiter/v2/3XF4Erw3860rsdSUVZx78hPcTvQoDGHxaFGfVKAF8pm095IuGcc.woff2
+    - https://fonts.gstatic.com/s/tasaorbiter/v2/3XF4Erw3860rsdSUVZx78hPcTvQoDGHxaFGfVJkF8pm095IuGcc.woff2
+    - https://fonts.gstatic.com/s/tasaorbiter/v2/3XF4Erw3860rsdSUVZx78hPcTvQoDGHxaFGfVP4F8pm095IuGcc.woff2
+    urls:
+    - https://fonts.gstatic.com/s/tasaorbiter/v2/3XF4Erw3860rsdSUVZx78hPcTvQoDGHxaFGfVH4C8pm095IuGcc.woff2
+    - https://fonts.gstatic.com/s/tasaorbiter/v2/3XF4Erw3860rsdSUVZx78hPcTvQoDGHxaFGfVEwC8pm095IuGcc.woff2
+    - https://fonts.gstatic.com/s/tasaorbiter/v2/3XF4Erw3860rsdSUVZx78hPcTvQoDGHxaFGfVKAF8pm095IuGcc.woff2
+    - https://fonts.gstatic.com/s/tasaorbiter/v2/3XF4Erw3860rsdSUVZx78hPcTvQoDGHxaFGfVJkF8pm095IuGcc.woff2
+    - https://fonts.gstatic.com/s/tasaorbiter/v2/3XF4Erw3860rsdSUVZx78hPcTvQoDGHxaFGfVP4F8pm095IuGcc.woff2
+    format: woff2
 fonts:
 - name: TASA Orbiter
   styles:
@@ -55,9 +61,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: TASA Orbiter
     type: Bold
     full_name: TASA Orbiter Bold
@@ -70,9 +75,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: TASA Orbiter
+    type: Regular
+    full_name: TASA Orbiter Regular
+    post_script_name: TASAOrbiter-Regular
+    copyright: Copyright 2022-2025 The TASA Typeface Collection Project Authors (https://github.com/localremotetw/TASA-Typeface-Collection)
+    font: TASAOrbiter[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: TASA Orbiter Medium
   styles:
   - family_name: TASA Orbiter Medium
@@ -89,9 +105,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: TASA Orbiter SemiBold
   styles:
   - family_name: TASA Orbiter SemiBold
@@ -108,9 +123,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: TASA Orbiter ExtraBold
   styles:
   - family_name: TASA Orbiter ExtraBold
@@ -127,9 +141,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022-2025 The TASA Typeface Collection Project Authors (https://github.com/localremotetw/TASA-Typeface-Collection)
 spdx_license: OFL-1.1-no-RFN

@@ -7,23 +7,19 @@ description: A custom-designed typeface explicitly created for the developer com
   .
 homepage: https://fonts.google.com/specimen/Kode+Mono
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Kode Mono
     files:
-    - https://fonts.gstatic.com/s/kodemono/v4/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq5my9D-TaOW2A3k.woff2
-    - https://fonts.gstatic.com/s/kodemono/v4/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq6uy9D-TaOW2A3k.woff2
-    - https://fonts.gstatic.com/s/kodemono/v4/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq0e19D-TaOW2A3k.woff2
-    - https://fonts.gstatic.com/s/kodemono/v4/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq3619D-TaOW2A3k.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/kodemono/KodeMono[ROND,wdth,wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/kodemono/v4/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq5my9D-TaOW2A3k.woff2
-    - https://fonts.gstatic.com/s/kodemono/v4/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq6uy9D-TaOW2A3k.woff2
-    - https://fonts.gstatic.com/s/kodemono/v4/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq0e19D-TaOW2A3k.woff2
-    - https://fonts.gstatic.com/s/kodemono/v4/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq3619D-TaOW2A3k.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/kodemono/KodeMono[ROND,wdth,wght].ttf
+    format: ttf
     variable_axes:
+    - ROND
+    - wdth
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Kode Mono
     files:
@@ -37,8 +33,20 @@ resources:
     - https://fonts.gstatic.com/s/kodemono/v4/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq0e19DqTaOW2A3k.ttf
     - https://fonts.gstatic.com/s/kodemono/v4/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq3619DqTaOW2A3k.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Kode Mono
+    files:
+    - https://fonts.gstatic.com/s/kodemono/v4/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq5my9D-TaOW2A3k.woff2
+    - https://fonts.gstatic.com/s/kodemono/v4/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq6uy9D-TaOW2A3k.woff2
+    - https://fonts.gstatic.com/s/kodemono/v4/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq0e19D-TaOW2A3k.woff2
+    - https://fonts.gstatic.com/s/kodemono/v4/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq3619D-TaOW2A3k.woff2
+    urls:
+    - https://fonts.gstatic.com/s/kodemono/v4/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq5my9D-TaOW2A3k.woff2
+    - https://fonts.gstatic.com/s/kodemono/v4/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq6uy9D-TaOW2A3k.woff2
+    - https://fonts.gstatic.com/s/kodemono/v4/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq0e19D-TaOW2A3k.woff2
+    - https://fonts.gstatic.com/s/kodemono/v4/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq3619D-TaOW2A3k.woff2
+    format: woff2
 fonts:
 - name: Kode Mono
   styles:
@@ -54,9 +62,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Kode Mono
     type: Bold
     full_name: Kode Mono Bold
@@ -69,9 +76,22 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Kode Mono
+    type: Regular
+    full_name: Kode Mono Regular
+    post_script_name: KodeMono-Regular
+    copyright: Copyright 2023 The Kode Mono Project Authors (https://github.com/isaozler/kode-mono)
+    font: KodeMono[ROND,wdth,wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
+    - ROND
+    - wdth
     - wght
+    source_resource: ttf_variable
 - name: Kode Mono Medium
   styles:
   - family_name: Kode Mono Medium
@@ -88,9 +108,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Kode Mono SemiBold
   styles:
   - family_name: Kode Mono SemiBold
@@ -107,9 +126,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2023 The Kode Mono Project Authors (https://github.com/isaozler/kode-mono)
 spdx_license: OFL-1.1-no-RFN

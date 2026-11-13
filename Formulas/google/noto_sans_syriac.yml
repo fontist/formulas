@@ -6,33 +6,17 @@ description: Noto is a global font collection for writing in all modern and anci
   texts in the Middle Eastern Syriac script. It has 288 glyphs.
 homepage: https://fonts.google.com/specimen/Noto+Sans+Syriac
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Noto Sans Syriac
     files:
-    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-VD9caMyZfUL_FC.woff2
-    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-XD9MaMyZfUL_FC.woff2
-    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-Ud9MaMyZfUL_FC.woff2
-    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-VD9MaMyZfUL_FC.woff2
-    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-Vx9MaMyZfUL_FC.woff2
-    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-Wd88aMyZfUL_FC.woff2
-    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-Wk88aMyZfUL_FC.woff2
-    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-XD88aMyZfUL_FC.woff2
-    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-Xq88aMyZfUL_FC.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosanssyriac/NotoSansSyriac[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-VD9caMyZfUL_FC.woff2
-    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-XD9MaMyZfUL_FC.woff2
-    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-Ud9MaMyZfUL_FC.woff2
-    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-VD9MaMyZfUL_FC.woff2
-    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-Vx9MaMyZfUL_FC.woff2
-    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-Wd88aMyZfUL_FC.woff2
-    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-Wk88aMyZfUL_FC.woff2
-    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-XD88aMyZfUL_FC.woff2
-    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-Xq88aMyZfUL_FC.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosanssyriac/NotoSansSyriac[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Noto Sans Syriac
     files:
@@ -56,8 +40,30 @@ resources:
     - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-XD88aJyZfUL_FC.ttf
     - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-Xq88aJyZfUL_FC.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Noto Sans Syriac
+    files:
+    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-VD9caMyZfUL_FC.woff2
+    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-XD9MaMyZfUL_FC.woff2
+    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-Ud9MaMyZfUL_FC.woff2
+    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-VD9MaMyZfUL_FC.woff2
+    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-Vx9MaMyZfUL_FC.woff2
+    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-Wd88aMyZfUL_FC.woff2
+    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-Wk88aMyZfUL_FC.woff2
+    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-XD88aMyZfUL_FC.woff2
+    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-Xq88aMyZfUL_FC.woff2
+    urls:
+    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-VD9caMyZfUL_FC.woff2
+    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-XD9MaMyZfUL_FC.woff2
+    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-Ud9MaMyZfUL_FC.woff2
+    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-VD9MaMyZfUL_FC.woff2
+    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-Vx9MaMyZfUL_FC.woff2
+    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-Wd88aMyZfUL_FC.woff2
+    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-Wk88aMyZfUL_FC.woff2
+    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-XD88aMyZfUL_FC.woff2
+    - https://fonts.gstatic.com/s/notosanssyriac/v18/Ktk7AKuMeZjqPnXgyqribqzQqgW0LYiVqV7dXcP0C-Xq88aMyZfUL_FC.woff2
+    format: woff2
 fonts:
 - name: Noto Sans Syriac Thin
   styles:
@@ -75,9 +81,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans Syriac ExtraLight
   styles:
   - family_name: Noto Sans Syriac ExtraLight
@@ -94,9 +99,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans Syriac Light
   styles:
   - family_name: Noto Sans Syriac Light
@@ -113,9 +117,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans Syriac
   styles:
   - family_name: Noto Sans Syriac
@@ -130,9 +133,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Noto Sans Syriac
     type: Bold
     full_name: Noto Sans Syriac Bold
@@ -145,9 +147,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Noto Sans Syriac
+    type: Regular
+    full_name: Noto Sans Syriac Regular
+    post_script_name: NotoSansSyriac-Regular
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/syriac)
+    font: NotoSansSyriac[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Noto Sans Syriac Medium
   styles:
   - family_name: Noto Sans Syriac Medium
@@ -164,9 +177,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans Syriac SemiBold
   styles:
   - family_name: Noto Sans Syriac SemiBold
@@ -183,9 +195,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans Syriac ExtraBold
   styles:
   - family_name: Noto Sans Syriac ExtraBold
@@ -202,9 +213,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans Syriac Black
   styles:
   - family_name: Noto Sans Syriac Black
@@ -221,9 +231,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/syriac)
 spdx_license: OFL-1.1-no-RFN

@@ -13,6 +13,7 @@ resources:
     - https://web.archive.org/web/20260506003339/http://sft.if.usp.br/msttcorefonts/arialb32.exe
     sha256: a425f0ffb6a1a5ede5b979ed6177f4f4f4fdef6ae7c302a7b7720ef332fec0a8
     file_size: 168176
+    format: ttf
 fonts:
 - name: Arial Black
   styles:
@@ -34,6 +35,8 @@ fonts:
       reserved. Arial® is a trademark of The Monotype Corporation which may be registered
       in certain jurisdictions.
     font: AriBlk.TTF
+    formats:
+    - ttf
 extract:
   format: cab
 requires_license_agreement: |

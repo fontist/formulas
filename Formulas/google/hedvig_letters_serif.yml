@@ -18,17 +18,17 @@ description: 'Hedvig is a digital insurance company that is challenging the trad
   .'
 homepage: https://fonts.google.com/specimen/Hedvig+Letters+Serif
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Hedvig Letters Serif
     files:
-    - https://fonts.gstatic.com/s/hedviglettersserif/v4/OD5puN2I2mekHmyoU1Kj2AXOd5_7v7gIDlX8quj7viQ_N1HixEAZerfcvSGpZg.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/hedviglettersserif/HedvigLettersSerif[opsz].ttf
     urls:
-    - https://fonts.gstatic.com/s/hedviglettersserif/v4/OD5puN2I2mekHmyoU1Kj2AXOd5_7v7gIDlX8quj7viQ_N1HixEAZerfcvSGpZg.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/hedviglettersserif/HedvigLettersSerif[opsz].ttf
+    format: ttf
     variable_axes:
     - opsz
-  ttf_variable:
+  ttf_static:
     source: google
     family: Hedvig Letters Serif
     files:
@@ -36,8 +36,14 @@ resources:
     urls:
     - https://fonts.gstatic.com/s/hedviglettersserif/v4/OD5puN2I2mekHmyoU1Kj2AXOd5_7v7gIDlX8quj7viQ_N1HixEAZf7fcvSGpZg.ttf
     format: ttf
-    variable_axes:
-    - opsz
+  woff2_static:
+    source: google
+    family: Hedvig Letters Serif
+    files:
+    - https://fonts.gstatic.com/s/hedviglettersserif/v4/OD5puN2I2mekHmyoU1Kj2AXOd5_7v7gIDlX8quj7viQ_N1HixEAZerfcvSGpZg.woff2
+    urls:
+    - https://fonts.gstatic.com/s/hedviglettersserif/v4/OD5puN2I2mekHmyoU1Kj2AXOd5_7v7gIDlX8quj7viQ_N1HixEAZerfcvSGpZg.woff2
+    format: woff2
 fonts:
 - name: Hedvig Letters Serif
   styles:
@@ -53,9 +59,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Hedvig Letters Serif
+    type: Regular
+    full_name: Hedvig Letters Serif 24pt Regular
+    post_script_name: HedvigLettersSerif-24ptRegular
+    copyright: Copyright 2023 The Hedvig Letters Project Authors (https://github.com/KanonFoundry/HedvigLetters)
+    font: HedvigLettersSerif[opsz].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - opsz
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2023 The Hedvig Letters Project Authors (https://github.com/KanonFoundry/HedvigLetters)
 spdx_license: OFL-1.1-no-RFN

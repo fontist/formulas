@@ -4,17 +4,17 @@ schema_version: 5
 description: ''
 homepage: https://fonts.google.com/specimen/Danfo
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Danfo
     files:
-    - https://fonts.gstatic.com/s/danfo/v5/snf3s0u_98t16THfK1Csj3N41ZqbYDe5Tr1ToPrNKQ.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/danfo/Danfo[ELSH].ttf
     urls:
-    - https://fonts.gstatic.com/s/danfo/v5/snf3s0u_98t16THfK1Csj3N41ZqbYDe5Tr1ToPrNKQ.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/danfo/Danfo[ELSH].ttf
+    format: ttf
     variable_axes:
     - ELSH
-  ttf_variable:
+  ttf_static:
     source: google
     family: Danfo
     files:
@@ -22,8 +22,14 @@ resources:
     urls:
     - https://fonts.gstatic.com/s/danfo/v5/snf3s0u_98t16THfK1Csj3N41ZqbYDe5S71ToPrNKQ.ttf
     format: ttf
-    variable_axes:
-    - ELSH
+  woff2_static:
+    source: google
+    family: Danfo
+    files:
+    - https://fonts.gstatic.com/s/danfo/v5/snf3s0u_98t16THfK1Csj3N41ZqbYDe5Tr1ToPrNKQ.woff2
+    urls:
+    - https://fonts.gstatic.com/s/danfo/v5/snf3s0u_98t16THfK1Csj3N41ZqbYDe5Tr1ToPrNKQ.woff2
+    format: woff2
 fonts:
 - name: Danfo
   styles:
@@ -39,9 +45,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Danfo
+    type: Regular
+    full_name: Danfo Regular
+    post_script_name: Danfo-Regular
+    copyright: Copyright 2024 The Tac Project Authors (https://github.com/Afrotype/Danfo)
+    font: Danfo[ELSH].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - ELSH
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2024 The Tac Project Authors (https://github.com/Afrotype/Danfo)
 spdx_license: OFL-1.1-no-RFN

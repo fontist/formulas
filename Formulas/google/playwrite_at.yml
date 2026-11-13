@@ -4,31 +4,19 @@ schema_version: 5
 description: Playwrite AT font family
 homepage: https://fonts.google.com/specimen/Playwrite+AT
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Playwrite AT
     files:
-    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6owc7n6kfJN4fVoKON7HIEBRSfb0U2uGBm2M77d0jMLIHJ-rk.woff2
-    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6owc7n6kfJN4fVoKON7HIEBRSfb0U2uGBm2E76d0jMLIHJ-rk.woff2
-    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6owc7n6kfJN4fVoKON7HIEBRSfb0U2uGBm2JD6d0jMLIHJ-rk.woff2
-    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6owc7n6kfJN4fVoKON7HIEBRSfb0U2uGBm2M76d0jMLIHJ-rk.woff2
-    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5nw_GLaPM6rkyVg.woff2
-    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5Hw7GLaPM6rkyVg.woff2
-    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5wQ7GLaPM6rkyVg.woff2
-    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5nw7GLaPM6rkyVg.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playwriteat/PlaywriteAT[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playwriteat/PlaywriteAT-Italic[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6owc7n6kfJN4fVoKON7HIEBRSfb0U2uGBm2M77d0jMLIHJ-rk.woff2
-    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6owc7n6kfJN4fVoKON7HIEBRSfb0U2uGBm2E76d0jMLIHJ-rk.woff2
-    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6owc7n6kfJN4fVoKON7HIEBRSfb0U2uGBm2JD6d0jMLIHJ-rk.woff2
-    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6owc7n6kfJN4fVoKON7HIEBRSfb0U2uGBm2M76d0jMLIHJ-rk.woff2
-    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5nw_GLaPM6rkyVg.woff2
-    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5Hw7GLaPM6rkyVg.woff2
-    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5wQ7GLaPM6rkyVg.woff2
-    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5nw7GLaPM6rkyVg.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playwriteat/PlaywriteAT[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playwriteat/PlaywriteAT-Italic[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Playwrite AT
     files:
@@ -50,8 +38,28 @@ resources:
     - https://fonts.gstatic.com/s/playwriteat/v6/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5wQ7GKKPM6rkyVg.ttf
     - https://fonts.gstatic.com/s/playwriteat/v6/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5nw7GKKPM6rkyVg.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Playwrite AT
+    files:
+    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6owc7n6kfJN4fVoKON7HIEBRSfb0U2uGBm2M77d0jMLIHJ-rk.woff2
+    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6owc7n6kfJN4fVoKON7HIEBRSfb0U2uGBm2E76d0jMLIHJ-rk.woff2
+    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6owc7n6kfJN4fVoKON7HIEBRSfb0U2uGBm2JD6d0jMLIHJ-rk.woff2
+    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6owc7n6kfJN4fVoKON7HIEBRSfb0U2uGBm2M76d0jMLIHJ-rk.woff2
+    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5nw_GLaPM6rkyVg.woff2
+    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5Hw7GLaPM6rkyVg.woff2
+    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5wQ7GLaPM6rkyVg.woff2
+    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5nw7GLaPM6rkyVg.woff2
+    urls:
+    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6owc7n6kfJN4fVoKON7HIEBRSfb0U2uGBm2M77d0jMLIHJ-rk.woff2
+    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6owc7n6kfJN4fVoKON7HIEBRSfb0U2uGBm2E76d0jMLIHJ-rk.woff2
+    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6owc7n6kfJN4fVoKON7HIEBRSfb0U2uGBm2JD6d0jMLIHJ-rk.woff2
+    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6owc7n6kfJN4fVoKON7HIEBRSfb0U2uGBm2M76d0jMLIHJ-rk.woff2
+    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5nw_GLaPM6rkyVg.woff2
+    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5Hw7GLaPM6rkyVg.woff2
+    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5wQ7GLaPM6rkyVg.woff2
+    - https://fonts.gstatic.com/s/playwriteat/v6/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5nw7GLaPM6rkyVg.woff2
+    format: woff2
 fonts:
 - name: Playwrite AT Thin
   styles:
@@ -69,9 +77,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Playwrite AT Thin
     type: Italic
     full_name: Playwrite AT Thin Italic
@@ -86,9 +93,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite AT ExtraLight
   styles:
   - family_name: Playwrite AT ExtraLight
@@ -105,9 +111,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Playwrite AT ExtraLight
     type: Italic
     full_name: Playwrite AT ExtraLight Italic
@@ -122,9 +127,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite AT Light
   styles:
   - family_name: Playwrite AT Light
@@ -141,9 +145,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Playwrite AT Light
     type: Italic
     full_name: Playwrite AT Light Italic
@@ -158,9 +161,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite AT
   styles:
   - family_name: Playwrite AT
@@ -175,9 +177,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Playwrite AT
     type: Italic
     full_name: Playwrite AT Italic
@@ -190,9 +191,32 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Playwrite AT
+    type: Regular
+    full_name: Playwrite AT Regular
+    post_script_name: PlaywriteAT-Regular
+    copyright: Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)
+    font: PlaywriteAT[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
+  - family_name: Playwrite AT
+    type: Italic
+    full_name: Playwrite AT Italic
+    post_script_name: PlaywriteAT-Italic
+    copyright: Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)
+    font: PlaywriteAT-Italic[wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wght
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)
 spdx_license: OFL-1.1-no-RFN

@@ -15,17 +15,17 @@ description: Kablammo is an experimental variable font, taking inspiration from 
   .
 homepage: https://fonts.google.com/specimen/Kablammo
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Kablammo
     files:
-    - https://fonts.gstatic.com/s/kablammo/v4/bWtm7fHPcgrhC-J3lcXhcQTY5Ixs6Au9YgCjih0Rf4YDKw.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/kablammo/Kablammo[MORF].ttf
     urls:
-    - https://fonts.gstatic.com/s/kablammo/v4/bWtm7fHPcgrhC-J3lcXhcQTY5Ixs6Au9YgCjih0Rf4YDKw.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/kablammo/Kablammo[MORF].ttf
+    format: ttf
     variable_axes:
     - MORF
-  ttf_variable:
+  ttf_static:
     source: google
     family: Kablammo
     files:
@@ -33,8 +33,14 @@ resources:
     urls:
     - https://fonts.gstatic.com/s/kablammo/v4/bWtm7fHPcgrhC-J3lcXhcQTY5Ixs6Au9YgCjjx0Rf4YDKw.ttf
     format: ttf
-    variable_axes:
-    - MORF
+  woff2_static:
+    source: google
+    family: Kablammo
+    files:
+    - https://fonts.gstatic.com/s/kablammo/v4/bWtm7fHPcgrhC-J3lcXhcQTY5Ixs6Au9YgCjih0Rf4YDKw.woff2
+    urls:
+    - https://fonts.gstatic.com/s/kablammo/v4/bWtm7fHPcgrhC-J3lcXhcQTY5Ixs6Au9YgCjih0Rf4YDKw.woff2
+    format: woff2
 fonts:
 - name: Kablammo
   styles:
@@ -50,9 +56,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Kablammo
+    type: Regular
+    full_name: Kablammo Regular
+    post_script_name: Kablammo-Regular
+    copyright: Copyright 2023 The Kablammo Project Authors (https://github.com/Vectro-Type-Foundry/kablammo)
+    font: Kablammo[MORF].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - MORF
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2023 The Kablammo Project Authors (https://github.com/Vectro-Type-Foundry/kablammo)
 spdx_license: OFL-1.1-no-RFN

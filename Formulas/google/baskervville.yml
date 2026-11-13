@@ -4,31 +4,19 @@ schema_version: 5
 description: Baskervville font family
 homepage: https://fonts.google.com/specimen/Baskervville
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Baskervville
     files:
-    - https://fonts.gstatic.com/s/baskervville/v20/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYuDrugaydR1FLkw.woff2
-    - https://fonts.gstatic.com/s/baskervville/v20/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYtLrugaydR1FLkw.woff2
-    - https://fonts.gstatic.com/s/baskervville/v20/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYj7sugaydR1FLkw.woff2
-    - https://fonts.gstatic.com/s/baskervville/v20/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYgfsugaydR1FLkw.woff2
-    - https://fonts.gstatic.com/s/baskervville/v20/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyioUkC4dD9APkyagA.woff2
-    - https://fonts.gstatic.com/s/baskervville/v20/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyioYEC4dD9APkyagA.woff2
-    - https://fonts.gstatic.com/s/baskervville/v20/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyiojEe4dD9APkyagA.woff2
-    - https://fonts.gstatic.com/s/baskervville/v20/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyiotUe4dD9APkyagA.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/baskervville/Baskervville[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/baskervville/Baskervville-Italic[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/baskervville/v20/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYuDrugaydR1FLkw.woff2
-    - https://fonts.gstatic.com/s/baskervville/v20/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYtLrugaydR1FLkw.woff2
-    - https://fonts.gstatic.com/s/baskervville/v20/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYj7sugaydR1FLkw.woff2
-    - https://fonts.gstatic.com/s/baskervville/v20/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYgfsugaydR1FLkw.woff2
-    - https://fonts.gstatic.com/s/baskervville/v20/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyioUkC4dD9APkyagA.woff2
-    - https://fonts.gstatic.com/s/baskervville/v20/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyioYEC4dD9APkyagA.woff2
-    - https://fonts.gstatic.com/s/baskervville/v20/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyiojEe4dD9APkyagA.woff2
-    - https://fonts.gstatic.com/s/baskervville/v20/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyiotUe4dD9APkyagA.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/baskervville/Baskervville[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/baskervville/Baskervville-Italic[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Baskervville
     files:
@@ -50,8 +38,28 @@ resources:
     - https://fonts.gstatic.com/s/baskervville/v20/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyiojEe4cT9APkyagA.ttf
     - https://fonts.gstatic.com/s/baskervville/v20/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyiotUe4cT9APkyagA.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Baskervville
+    files:
+    - https://fonts.gstatic.com/s/baskervville/v20/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYuDrugaydR1FLkw.woff2
+    - https://fonts.gstatic.com/s/baskervville/v20/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYtLrugaydR1FLkw.woff2
+    - https://fonts.gstatic.com/s/baskervville/v20/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYj7sugaydR1FLkw.woff2
+    - https://fonts.gstatic.com/s/baskervville/v20/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYgfsugaydR1FLkw.woff2
+    - https://fonts.gstatic.com/s/baskervville/v20/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyioUkC4dD9APkyagA.woff2
+    - https://fonts.gstatic.com/s/baskervville/v20/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyioYEC4dD9APkyagA.woff2
+    - https://fonts.gstatic.com/s/baskervville/v20/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyiojEe4dD9APkyagA.woff2
+    - https://fonts.gstatic.com/s/baskervville/v20/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyiotUe4dD9APkyagA.woff2
+    urls:
+    - https://fonts.gstatic.com/s/baskervville/v20/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYuDrugaydR1FLkw.woff2
+    - https://fonts.gstatic.com/s/baskervville/v20/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYtLrugaydR1FLkw.woff2
+    - https://fonts.gstatic.com/s/baskervville/v20/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYj7sugaydR1FLkw.woff2
+    - https://fonts.gstatic.com/s/baskervville/v20/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYgfsugaydR1FLkw.woff2
+    - https://fonts.gstatic.com/s/baskervville/v20/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyioUkC4dD9APkyagA.woff2
+    - https://fonts.gstatic.com/s/baskervville/v20/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyioYEC4dD9APkyagA.woff2
+    - https://fonts.gstatic.com/s/baskervville/v20/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyiojEe4dD9APkyagA.woff2
+    - https://fonts.gstatic.com/s/baskervville/v20/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyiotUe4dD9APkyagA.woff2
+    format: woff2
 fonts:
 - name: Baskervville
   styles:
@@ -67,9 +75,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Baskervville
     type: Bold
     full_name: Baskervville Bold
@@ -82,9 +89,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Baskervville
     type: Italic
     full_name: Baskervville Italic
@@ -97,9 +103,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Baskervville
     type: Bold Italic
     full_name: Baskervville Bold Italic
@@ -112,9 +117,32 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Baskervville
+    type: Regular
+    full_name: Baskervville Regular
+    post_script_name: Baskervville-Regular
+    copyright: Copyright 2018 The Baskervville Project Authors (https://github.com/anrt-type/ANRT-Baskervville)
+    font: Baskervville[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
+  - family_name: Baskervville
+    type: Italic
+    full_name: Baskervville Italic
+    post_script_name: Baskervville-Italic
+    copyright: Copyright 2018 The Baskervville Project Authors (https://github.com/anrt-type/ANRT-Baskervville)
+    font: Baskervville-Italic[wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wght
+    source_resource: ttf_variable
 - name: Baskervville Medium
   styles:
   - family_name: Baskervville Medium
@@ -131,9 +159,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Baskervville Medium
     type: Italic
     full_name: Baskervville Medium Italic
@@ -148,9 +175,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Baskervville SemiBold
   styles:
   - family_name: Baskervville SemiBold
@@ -167,9 +193,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Baskervville SemiBold
     type: Italic
     full_name: Baskervville SemiBold Italic
@@ -184,9 +209,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2018 The Baskervville Project Authors (https://github.com/anrt-type/ANRT-Baskervville)
 spdx_license: OFL-1.1-no-RFN

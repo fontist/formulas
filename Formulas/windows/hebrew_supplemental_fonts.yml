@@ -1,0 +1,112 @@
+---
+schema_version: 5
+name: Hebrew Supplemental Fonts
+description: Hebrew Supplemental Fonts for Windows
+homepage: https://learn.microsoft.com/en-us/typography/fonts/windows_11_font_list
+platforms:
+- windows
+open_license: |
+  Licensed under the Microsoft Software License Terms for Windows.
+  These fonts are provided as part of the Windows operating system
+  and are subject to the Windows license agreement accepted during
+  installation. No additional license agreement is required.
+resources:
+  hebrew_supplemental_fonts:
+    source: windows_fod
+    capability_name: Language.Fonts.Hebr~~~und-HEBR~0.0.1.0
+    format: ttf
+fonts:
+- name: Aharoni Bold
+  styles:
+  - family_name: Aharoni Bold
+    type: Bold
+    font: Ahronbd.ttf
+    formats:
+    - ttf
+    variable_font: false
+- name: David
+  styles:
+  - family_name: David
+    type: Regular
+    font: David.ttf
+    formats:
+    - ttf
+    variable_font: false
+  - family_name: David
+    type: Bold
+    font: Davidbd.ttf
+    formats:
+    - ttf
+    variable_font: false
+- name: FrankRuehl
+  styles:
+  - family_name: FrankRuehl
+    type: Regular
+    font: Frank.ttf
+    formats:
+    - ttf
+    variable_font: false
+- name: Gisha
+  styles:
+  - family_name: Gisha
+    type: Regular
+    font: Gisha.ttf
+    formats:
+    - ttf
+    variable_font: false
+  - family_name: Gisha
+    type: Bold
+    font: Gishabd.ttf
+    formats:
+    - ttf
+    variable_font: false
+- name: Levenim MT
+  styles:
+  - family_name: Levenim MT
+    type: Regular
+    font: Lvnm.ttf
+    formats:
+    - ttf
+    variable_font: false
+  - family_name: Levenim MT
+    type: Bold
+    font: Lvnmbd.ttf
+    formats:
+    - ttf
+    variable_font: false
+- name: Miriam
+  styles:
+  - family_name: Miriam
+    type: Regular
+    font: Mriam.ttf
+    formats:
+    - ttf
+    variable_font: false
+- name: Miriam Fixed
+  styles:
+  - family_name: Miriam Fixed
+    type: Regular
+    font: Mriamc.ttf
+    formats:
+    - ttf
+    variable_font: false
+- name: Narkisim
+  styles:
+  - family_name: Narkisim
+    type: Regular
+    font: Nrkis.ttf
+    formats:
+    - ttf
+    variable_font: false
+- name: Rod
+  styles:
+  - family_name: Rod
+    type: Regular
+    font: Rod.ttf
+    formats:
+    - ttf
+    variable_font: false
+import_source:
+  type: windows
+  capability_name: Language.Fonts.Hebr~~~und-HEBR~0.0.1.0
+  min_windows_version: '10.0'

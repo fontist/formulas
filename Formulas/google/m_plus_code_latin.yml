@@ -9,30 +9,18 @@ description: M+ FONTS is a little nifty font family for everyday usage. Mplus Co
   and 60% character width. To contribute to the project, visit https://github.com/coz-m/MPLUS_FONTS
 homepage: https://fonts.google.com/specimen/M+PLUS+Code+Latin
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: M PLUS Code Latin
     files:
-    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1EbB6itMqF9TRwg.woff2
-    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1MbA6itMqF9TRwg.woff2
-    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1BjA6itMqF9TRwg.woff2
-    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1EbA6itMqF9TRwg.woff2
-    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1HTA6itMqF9TRwg.woff2
-    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1JjH6itMqF9TRwg.woff2
-    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1KHH6itMqF9TRwg.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/mpluscodelatin/MPLUSCodeLatin[wdth,wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1EbB6itMqF9TRwg.woff2
-    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1MbA6itMqF9TRwg.woff2
-    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1BjA6itMqF9TRwg.woff2
-    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1EbA6itMqF9TRwg.woff2
-    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1HTA6itMqF9TRwg.woff2
-    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1JjH6itMqF9TRwg.woff2
-    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1KHH6itMqF9TRwg.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/mpluscodelatin/MPLUSCodeLatin[wdth,wght].ttf
+    format: ttf
     variable_axes:
     - wdth
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: M PLUS Code Latin
     files:
@@ -52,9 +40,26 @@ resources:
     - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1JjH6i5MqF9TRwg.ttf
     - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1KHH6i5MqF9TRwg.ttf
     format: ttf
-    variable_axes:
-    - wdth
-    - wght
+  woff2_static:
+    source: google
+    family: M PLUS Code Latin
+    files:
+    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1EbB6itMqF9TRwg.woff2
+    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1MbA6itMqF9TRwg.woff2
+    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1BjA6itMqF9TRwg.woff2
+    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1EbA6itMqF9TRwg.woff2
+    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1HTA6itMqF9TRwg.woff2
+    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1JjH6itMqF9TRwg.woff2
+    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1KHH6itMqF9TRwg.woff2
+    urls:
+    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1EbB6itMqF9TRwg.woff2
+    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1MbA6itMqF9TRwg.woff2
+    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1BjA6itMqF9TRwg.woff2
+    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1EbA6itMqF9TRwg.woff2
+    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1HTA6itMqF9TRwg.woff2
+    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1JjH6itMqF9TRwg.woff2
+    - https://fonts.gstatic.com/s/mpluscodelatin/v16/hv-ylyV-aXg7x7tULiNXXBA0Np4WMS8fDIymHY8fy8wn4_ifLAtrObKDO0Xf1KHH6itMqF9TRwg.woff2
+    format: woff2
 fonts:
 - name: M PLUS Code Latin Thin
   styles:
@@ -72,10 +77,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: M PLUS Code Latin ExtraLight
   styles:
   - family_name: M PLUS Code Latin ExtraLight
@@ -92,10 +95,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: M PLUS Code Latin Light
   styles:
   - family_name: M PLUS Code Latin Light
@@ -112,10 +113,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: M PLUS Code Latin
   styles:
   - family_name: M PLUS Code Latin
@@ -130,10 +129,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: M PLUS Code Latin
     type: Bold
     full_name: M PLUS Code Latin Bold
@@ -146,10 +143,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: M PLUS Code Latin
+    type: Regular
+    full_name: M PLUS Code Latin Regular
+    post_script_name: MPLUSCodeLatin-Regular
+    copyright: Copyright 2021 The M+ FONTS Project Authors (https://github.com/coz-m/MPLUS_FONTS)
+    font: MPLUSCodeLatin[wdth,wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wdth
     - wght
+    source_resource: ttf_variable
 - name: M PLUS Code Latin Medium
   styles:
   - family_name: M PLUS Code Latin Medium
@@ -166,10 +174,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: M PLUS Code Latin SemiBold
   styles:
   - family_name: M PLUS Code Latin SemiBold
@@ -186,10 +192,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2021 The M+ FONTS Project Authors (https://github.com/coz-m/MPLUS_FONTS)
 spdx_license: OFL-1.1-no-RFN

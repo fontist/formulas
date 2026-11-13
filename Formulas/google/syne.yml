@@ -14,25 +14,17 @@ description: 'The Syne family was originally designed in 2017 for the Art Center
   of Arman Mohtadji. To contribute, see gitlab.com/bonjour-monde/fonderie/syne-typeface'
 homepage: https://fonts.google.com/specimen/Syne
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Syne
     files:
-    - https://fonts.gstatic.com/s/syne/v24/8vIS7w4qzmVxsWxjBZRjr0FKM_04uT6hR47NCV5Z.woff2
-    - https://fonts.gstatic.com/s/syne/v24/8vIS7w4qzmVxsWxjBZRjr0FKM_0KuT6hR47NCV5Z.woff2
-    - https://fonts.gstatic.com/s/syne/v24/8vIS7w4qzmVxsWxjBZRjr0FKM_3mvj6hR47NCV5Z.woff2
-    - https://fonts.gstatic.com/s/syne/v24/8vIS7w4qzmVxsWxjBZRjr0FKM_3fvj6hR47NCV5Z.woff2
-    - https://fonts.gstatic.com/s/syne/v24/8vIS7w4qzmVxsWxjBZRjr0FKM_24vj6hR47NCV5Z.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/syne/Syne[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/syne/v24/8vIS7w4qzmVxsWxjBZRjr0FKM_04uT6hR47NCV5Z.woff2
-    - https://fonts.gstatic.com/s/syne/v24/8vIS7w4qzmVxsWxjBZRjr0FKM_0KuT6hR47NCV5Z.woff2
-    - https://fonts.gstatic.com/s/syne/v24/8vIS7w4qzmVxsWxjBZRjr0FKM_3mvj6hR47NCV5Z.woff2
-    - https://fonts.gstatic.com/s/syne/v24/8vIS7w4qzmVxsWxjBZRjr0FKM_3fvj6hR47NCV5Z.woff2
-    - https://fonts.gstatic.com/s/syne/v24/8vIS7w4qzmVxsWxjBZRjr0FKM_24vj6hR47NCV5Z.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/syne/Syne[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Syne
     files:
@@ -48,8 +40,22 @@ resources:
     - https://fonts.gstatic.com/s/syne/v24/8vIS7w4qzmVxsWxjBZRjr0FKM_3fvj6kR47NCV5Z.ttf
     - https://fonts.gstatic.com/s/syne/v24/8vIS7w4qzmVxsWxjBZRjr0FKM_24vj6kR47NCV5Z.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Syne
+    files:
+    - https://fonts.gstatic.com/s/syne/v24/8vIS7w4qzmVxsWxjBZRjr0FKM_04uT6hR47NCV5Z.woff2
+    - https://fonts.gstatic.com/s/syne/v24/8vIS7w4qzmVxsWxjBZRjr0FKM_0KuT6hR47NCV5Z.woff2
+    - https://fonts.gstatic.com/s/syne/v24/8vIS7w4qzmVxsWxjBZRjr0FKM_3mvj6hR47NCV5Z.woff2
+    - https://fonts.gstatic.com/s/syne/v24/8vIS7w4qzmVxsWxjBZRjr0FKM_3fvj6hR47NCV5Z.woff2
+    - https://fonts.gstatic.com/s/syne/v24/8vIS7w4qzmVxsWxjBZRjr0FKM_24vj6hR47NCV5Z.woff2
+    urls:
+    - https://fonts.gstatic.com/s/syne/v24/8vIS7w4qzmVxsWxjBZRjr0FKM_04uT6hR47NCV5Z.woff2
+    - https://fonts.gstatic.com/s/syne/v24/8vIS7w4qzmVxsWxjBZRjr0FKM_0KuT6hR47NCV5Z.woff2
+    - https://fonts.gstatic.com/s/syne/v24/8vIS7w4qzmVxsWxjBZRjr0FKM_3mvj6hR47NCV5Z.woff2
+    - https://fonts.gstatic.com/s/syne/v24/8vIS7w4qzmVxsWxjBZRjr0FKM_3fvj6hR47NCV5Z.woff2
+    - https://fonts.gstatic.com/s/syne/v24/8vIS7w4qzmVxsWxjBZRjr0FKM_24vj6hR47NCV5Z.woff2
+    format: woff2
 fonts:
 - name: Syne
   styles:
@@ -65,9 +71,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Syne
     type: Bold
     full_name: Syne Bold
@@ -80,9 +85,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Syne
+    type: Regular
+    full_name: Syne Regular
+    post_script_name: Syne-Regular
+    copyright: Copyright 2019 The Syne Project Authors (https://gitlab.com/bonjour-monde/fonderie/syne-typeface)
+    font: Syne[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Syne Medium
   styles:
   - family_name: Syne Medium
@@ -99,9 +115,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Syne SemiBold
   styles:
   - family_name: Syne SemiBold
@@ -118,9 +133,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Syne ExtraBold
   styles:
   - family_name: Syne ExtraBold
@@ -137,9 +151,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2019 The Syne Project Authors (https://gitlab.com/bonjour-monde/fonderie/syne-typeface)
 spdx_license: OFL-1.1-no-RFN

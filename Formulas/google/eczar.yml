@@ -12,25 +12,17 @@ description: Eczar started as a student project in 2010–11 during Vaibhav Sing
   .
 homepage: https://fonts.google.com/specimen/Eczar
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Eczar
     files:
-    - https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXHd6WrDIVKWJKWg.woff2
-    - https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXL96WrDIVKWJKWg.woff2
-    - https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXw9mWrDIVKWJKWg.woff2
-    - https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDX-tmWrDIVKWJKWg.woff2
-    - https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXndmWrDIVKWJKWg.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/eczar/Eczar[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXHd6WrDIVKWJKWg.woff2
-    - https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXL96WrDIVKWJKWg.woff2
-    - https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXw9mWrDIVKWJKWg.woff2
-    - https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDX-tmWrDIVKWJKWg.woff2
-    - https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXndmWrDIVKWJKWg.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/eczar/Eczar[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Eczar
     files:
@@ -46,8 +38,22 @@ resources:
     - https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDX-tmWqTIVKWJKWg.ttf
     - https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXndmWqTIVKWJKWg.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Eczar
+    files:
+    - https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXHd6WrDIVKWJKWg.woff2
+    - https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXL96WrDIVKWJKWg.woff2
+    - https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXw9mWrDIVKWJKWg.woff2
+    - https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDX-tmWrDIVKWJKWg.woff2
+    - https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXndmWrDIVKWJKWg.woff2
+    urls:
+    - https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXHd6WrDIVKWJKWg.woff2
+    - https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXL96WrDIVKWJKWg.woff2
+    - https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXw9mWrDIVKWJKWg.woff2
+    - https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDX-tmWrDIVKWJKWg.woff2
+    - https://fonts.gstatic.com/s/eczar/v27/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXndmWrDIVKWJKWg.woff2
+    format: woff2
 fonts:
 - name: Eczar
   styles:
@@ -63,9 +69,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Eczar
     type: Bold
     full_name: Eczar Bold
@@ -78,9 +83,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Eczar
+    type: Regular
+    full_name: Eczar Regular
+    post_script_name: Eczar-Regular
+    copyright: Copyright 2014 The Eczar Project Authors (https://github.com/rosettatype/eczar)
+    font: Eczar[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Eczar Medium
   styles:
   - family_name: Eczar Medium
@@ -97,9 +113,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Eczar SemiBold
   styles:
   - family_name: Eczar SemiBold
@@ -116,9 +131,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Eczar ExtraBold
   styles:
   - family_name: Eczar ExtraBold
@@ -135,9 +149,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2014 The Eczar Project Authors (https://github.com/rosettatype/eczar)
 spdx_license: OFL-1.1-no-RFN

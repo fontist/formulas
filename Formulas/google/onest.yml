@@ -4,33 +4,17 @@ schema_version: 5
 description: ''
 homepage: https://fonts.google.com/specimen/Onest
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Onest
     files:
-    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPh9R6ZtxFMQWXgSQ.woff2
-    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhdR-ZtxFMQWXgSQ.woff2
-    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhqx-ZtxFMQWXgSQ.woff2
-    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPh9R-ZtxFMQWXgSQ.woff2
-    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhxx-ZtxFMQWXgSQ.woff2
-    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhKxiZtxFMQWXgSQ.woff2
-    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhEhiZtxFMQWXgSQ.woff2
-    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhdRiZtxFMQWXgSQ.woff2
-    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhXBiZtxFMQWXgSQ.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/onest/Onest[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPh9R6ZtxFMQWXgSQ.woff2
-    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhdR-ZtxFMQWXgSQ.woff2
-    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhqx-ZtxFMQWXgSQ.woff2
-    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPh9R-ZtxFMQWXgSQ.woff2
-    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhxx-ZtxFMQWXgSQ.woff2
-    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhKxiZtxFMQWXgSQ.woff2
-    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhEhiZtxFMQWXgSQ.woff2
-    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhdRiZtxFMQWXgSQ.woff2
-    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhXBiZtxFMQWXgSQ.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/onest/Onest[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Onest
     files:
@@ -54,8 +38,30 @@ resources:
     - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhdRiZshFMQWXgSQ.ttf
     - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhXBiZshFMQWXgSQ.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Onest
+    files:
+    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPh9R6ZtxFMQWXgSQ.woff2
+    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhdR-ZtxFMQWXgSQ.woff2
+    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhqx-ZtxFMQWXgSQ.woff2
+    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPh9R-ZtxFMQWXgSQ.woff2
+    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhxx-ZtxFMQWXgSQ.woff2
+    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhKxiZtxFMQWXgSQ.woff2
+    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhEhiZtxFMQWXgSQ.woff2
+    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhdRiZtxFMQWXgSQ.woff2
+    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhXBiZtxFMQWXgSQ.woff2
+    urls:
+    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPh9R6ZtxFMQWXgSQ.woff2
+    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhdR-ZtxFMQWXgSQ.woff2
+    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhqx-ZtxFMQWXgSQ.woff2
+    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPh9R-ZtxFMQWXgSQ.woff2
+    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhxx-ZtxFMQWXgSQ.woff2
+    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhKxiZtxFMQWXgSQ.woff2
+    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhEhiZtxFMQWXgSQ.woff2
+    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhdRiZtxFMQWXgSQ.woff2
+    - https://fonts.gstatic.com/s/onest/v9/gNMZW3F-SZuj7zOT0IfSjTS16cPhXBiZtxFMQWXgSQ.woff2
+    format: woff2
 fonts:
 - name: Onest Thin
   styles:
@@ -73,9 +79,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Onest ExtraLight
   styles:
   - family_name: Onest ExtraLight
@@ -92,9 +97,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Onest Light
   styles:
   - family_name: Onest Light
@@ -111,9 +115,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Onest
   styles:
   - family_name: Onest
@@ -128,9 +131,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Onest
     type: Bold
     full_name: Onest Bold
@@ -143,9 +145,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Onest
+    type: Regular
+    full_name: Onest Regular
+    post_script_name: Onest-Regular
+    copyright: Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest)
+    font: Onest[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Onest Medium
   styles:
   - family_name: Onest Medium
@@ -162,9 +175,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Onest SemiBold
   styles:
   - family_name: Onest SemiBold
@@ -181,9 +193,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Onest ExtraBold
   styles:
   - family_name: Onest ExtraBold
@@ -200,9 +211,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Onest Black
   styles:
   - family_name: Onest Black
@@ -219,9 +229,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest)
 spdx_license: OFL-1.1-no-RFN

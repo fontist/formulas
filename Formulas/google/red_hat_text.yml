@@ -17,35 +17,19 @@ description: Red Hat is a family of typefaces produced in 2 optical sizes and a 
   improved fluidity in the variable font. To contribute, see github.com/RedHatOfficial/RedHatFont
 homepage: https://fonts.google.com/specimen/Red+Hat+Text
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Red Hat Text
     files:
-    - https://fonts.gstatic.com/s/redhattext/v19/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML-ZwVrPacYVFtIY.woff2
-    - https://fonts.gstatic.com/s/redhattext/v19/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML7hwVrPacYVFtIY.woff2
-    - https://fonts.gstatic.com/s/redhattext/v19/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML4pwVrPacYVFtIY.woff2
-    - https://fonts.gstatic.com/s/redhattext/v19/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML2Z3VrPacYVFtIY.woff2
-    - https://fonts.gstatic.com/s/redhattext/v19/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML193VrPacYVFtIY.woff2
-    - https://fonts.gstatic.com/s/redhattext/v19/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAz4PXQcKdApIYv_g.woff2
-    - https://fonts.gstatic.com/s/redhattext/v19/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAzvvXQcKdApIYv_g.woff2
-    - https://fonts.gstatic.com/s/redhattext/v19/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAzjPXQcKdApIYv_g.woff2
-    - https://fonts.gstatic.com/s/redhattext/v19/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAzYPLQcKdApIYv_g.woff2
-    - https://fonts.gstatic.com/s/redhattext/v19/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAzWfLQcKdApIYv_g.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/redhattext/RedHatText[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/redhattext/RedHatText-Italic[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/redhattext/v19/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML-ZwVrPacYVFtIY.woff2
-    - https://fonts.gstatic.com/s/redhattext/v19/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML7hwVrPacYVFtIY.woff2
-    - https://fonts.gstatic.com/s/redhattext/v19/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML4pwVrPacYVFtIY.woff2
-    - https://fonts.gstatic.com/s/redhattext/v19/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML2Z3VrPacYVFtIY.woff2
-    - https://fonts.gstatic.com/s/redhattext/v19/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML193VrPacYVFtIY.woff2
-    - https://fonts.gstatic.com/s/redhattext/v19/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAz4PXQcKdApIYv_g.woff2
-    - https://fonts.gstatic.com/s/redhattext/v19/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAzvvXQcKdApIYv_g.woff2
-    - https://fonts.gstatic.com/s/redhattext/v19/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAzjPXQcKdApIYv_g.woff2
-    - https://fonts.gstatic.com/s/redhattext/v19/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAzYPLQcKdApIYv_g.woff2
-    - https://fonts.gstatic.com/s/redhattext/v19/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAzWfLQcKdApIYv_g.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/redhattext/RedHatText[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/redhattext/RedHatText-Italic[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Red Hat Text
     files:
@@ -71,8 +55,32 @@ resources:
     - https://fonts.gstatic.com/s/redhattext/v19/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAzYPLQdadApIYv_g.ttf
     - https://fonts.gstatic.com/s/redhattext/v19/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAzWfLQdadApIYv_g.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Red Hat Text
+    files:
+    - https://fonts.gstatic.com/s/redhattext/v19/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML-ZwVrPacYVFtIY.woff2
+    - https://fonts.gstatic.com/s/redhattext/v19/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML7hwVrPacYVFtIY.woff2
+    - https://fonts.gstatic.com/s/redhattext/v19/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML4pwVrPacYVFtIY.woff2
+    - https://fonts.gstatic.com/s/redhattext/v19/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML2Z3VrPacYVFtIY.woff2
+    - https://fonts.gstatic.com/s/redhattext/v19/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML193VrPacYVFtIY.woff2
+    - https://fonts.gstatic.com/s/redhattext/v19/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAz4PXQcKdApIYv_g.woff2
+    - https://fonts.gstatic.com/s/redhattext/v19/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAzvvXQcKdApIYv_g.woff2
+    - https://fonts.gstatic.com/s/redhattext/v19/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAzjPXQcKdApIYv_g.woff2
+    - https://fonts.gstatic.com/s/redhattext/v19/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAzYPLQcKdApIYv_g.woff2
+    - https://fonts.gstatic.com/s/redhattext/v19/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAzWfLQcKdApIYv_g.woff2
+    urls:
+    - https://fonts.gstatic.com/s/redhattext/v19/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML-ZwVrPacYVFtIY.woff2
+    - https://fonts.gstatic.com/s/redhattext/v19/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML7hwVrPacYVFtIY.woff2
+    - https://fonts.gstatic.com/s/redhattext/v19/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML4pwVrPacYVFtIY.woff2
+    - https://fonts.gstatic.com/s/redhattext/v19/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML2Z3VrPacYVFtIY.woff2
+    - https://fonts.gstatic.com/s/redhattext/v19/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML193VrPacYVFtIY.woff2
+    - https://fonts.gstatic.com/s/redhattext/v19/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAz4PXQcKdApIYv_g.woff2
+    - https://fonts.gstatic.com/s/redhattext/v19/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAzvvXQcKdApIYv_g.woff2
+    - https://fonts.gstatic.com/s/redhattext/v19/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAzjPXQcKdApIYv_g.woff2
+    - https://fonts.gstatic.com/s/redhattext/v19/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAzYPLQcKdApIYv_g.woff2
+    - https://fonts.gstatic.com/s/redhattext/v19/RrQEbohi_ic6B3yVSzGBrMxQbb0jEzlRoOOLOnAzWfLQcKdApIYv_g.woff2
+    format: woff2
 fonts:
 - name: Red Hat Text Light
   styles:
@@ -90,9 +98,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Red Hat Text Light
     type: Italic
     full_name: Red Hat Text Light Italic
@@ -107,9 +114,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Red Hat Text
   styles:
   - family_name: Red Hat Text
@@ -124,9 +130,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Red Hat Text
     type: Bold
     full_name: Red Hat Text Bold
@@ -139,9 +144,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Red Hat Text
     type: Italic
     full_name: Red Hat Text Italic
@@ -154,9 +158,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Red Hat Text
     type: Bold Italic
     full_name: Red Hat Text Bold Italic
@@ -169,9 +172,32 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Red Hat Text
+    type: Regular
+    full_name: Red Hat Text Regular
+    post_script_name: RedHatText-Regular
+    copyright: Copyright 2024 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
+    font: RedHatText[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
+  - family_name: Red Hat Text
+    type: Italic
+    full_name: Red Hat Text Italic
+    post_script_name: RedHatText-Italic
+    copyright: Copyright 2024 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
+    font: RedHatText-Italic[wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wght
+    source_resource: ttf_variable
 - name: Red Hat Text Medium
   styles:
   - family_name: Red Hat Text Medium
@@ -188,9 +214,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Red Hat Text Medium
     type: Italic
     full_name: Red Hat Text Medium Italic
@@ -205,9 +230,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Red Hat Text SemiBold
   styles:
   - family_name: Red Hat Text SemiBold
@@ -224,9 +248,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Red Hat Text SemiBold
     type: Italic
     full_name: Red Hat Text SemiBold Italic
@@ -241,9 +264,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2024 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)
 spdx_license: OFL-1.1-no-RFN

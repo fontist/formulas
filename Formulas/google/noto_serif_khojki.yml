@@ -6,23 +6,17 @@ description: Noto is a global font collection for writing in all modern and anci
   Khojki script. It has 423 glyphs.
 homepage: https://fonts.google.com/specimen/Noto+Serif+Khojki
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Noto Serif Khojki
     files:
-    - https://fonts.gstatic.com/s/notoserifkhojki/v13/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMY0ghvzJ0Qtc5HAQ.woff2
-    - https://fonts.gstatic.com/s/notoserifkhojki/v13/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMY4AhvzJ0Qtc5HAQ.woff2
-    - https://fonts.gstatic.com/s/notoserifkhojki/v13/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMYDA9vzJ0Qtc5HAQ.woff2
-    - https://fonts.gstatic.com/s/notoserifkhojki/v13/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMYNQ9vzJ0Qtc5HAQ.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notoserifkhojki/NotoSerifKhojki[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/notoserifkhojki/v13/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMY0ghvzJ0Qtc5HAQ.woff2
-    - https://fonts.gstatic.com/s/notoserifkhojki/v13/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMY4AhvzJ0Qtc5HAQ.woff2
-    - https://fonts.gstatic.com/s/notoserifkhojki/v13/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMYDA9vzJ0Qtc5HAQ.woff2
-    - https://fonts.gstatic.com/s/notoserifkhojki/v13/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMYNQ9vzJ0Qtc5HAQ.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notoserifkhojki/NotoSerifKhojki[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Noto Serif Khojki
     files:
@@ -36,8 +30,20 @@ resources:
     - https://fonts.gstatic.com/s/notoserifkhojki/v13/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMYDA9vyZ0Qtc5HAQ.ttf
     - https://fonts.gstatic.com/s/notoserifkhojki/v13/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMYNQ9vyZ0Qtc5HAQ.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Noto Serif Khojki
+    files:
+    - https://fonts.gstatic.com/s/notoserifkhojki/v13/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMY0ghvzJ0Qtc5HAQ.woff2
+    - https://fonts.gstatic.com/s/notoserifkhojki/v13/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMY4AhvzJ0Qtc5HAQ.woff2
+    - https://fonts.gstatic.com/s/notoserifkhojki/v13/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMYDA9vzJ0Qtc5HAQ.woff2
+    - https://fonts.gstatic.com/s/notoserifkhojki/v13/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMYNQ9vzJ0Qtc5HAQ.woff2
+    urls:
+    - https://fonts.gstatic.com/s/notoserifkhojki/v13/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMY0ghvzJ0Qtc5HAQ.woff2
+    - https://fonts.gstatic.com/s/notoserifkhojki/v13/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMY4AhvzJ0Qtc5HAQ.woff2
+    - https://fonts.gstatic.com/s/notoserifkhojki/v13/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMYDA9vzJ0Qtc5HAQ.woff2
+    - https://fonts.gstatic.com/s/notoserifkhojki/v13/I_uHMoOduATTei9aP90ctmPGxP2rBKTM4mcQ5M3z9QMYNQ9vzJ0Qtc5HAQ.woff2
+    format: woff2
 fonts:
 - name: Noto Serif Khojki
   styles:
@@ -53,9 +59,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Noto Serif Khojki
     type: Bold
     full_name: Noto Serif Khojki Bold
@@ -68,9 +73,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Noto Serif Khojki
+    type: Regular
+    full_name: Noto Serif Khojki Regular
+    post_script_name: NotoSerifKhojki-Regular
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/khojki)
+    font: NotoSerifKhojki[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Noto Serif Khojki Medium
   styles:
   - family_name: Noto Serif Khojki Medium
@@ -87,9 +103,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Serif Khojki SemiBold
   styles:
   - family_name: Noto Serif Khojki SemiBold
@@ -106,9 +121,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/khojki)
 spdx_license: OFL-1.1-no-RFN

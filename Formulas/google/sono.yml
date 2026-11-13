@@ -7,30 +7,18 @@ description: 'Sono is a soft monospace (or proportional!) variable font. It has 
   proportional. To contribute, see github.com/sursly/sono .'
 homepage: https://fonts.google.com/specimen/Sono
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Sono
     files:
-    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVNkWdF3R4qYeB4Q.woff2
-    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxV6EWdF3R4qYeB4Q.woff2
-    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVtkWdF3R4qYeB4Q.woff2
-    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVhEWdF3R4qYeB4Q.woff2
-    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVaEKdF3R4qYeB4Q.woff2
-    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVUUKdF3R4qYeB4Q.woff2
-    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVNkKdF3R4qYeB4Q.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/sono/Sono[MONO,wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVNkWdF3R4qYeB4Q.woff2
-    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxV6EWdF3R4qYeB4Q.woff2
-    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVtkWdF3R4qYeB4Q.woff2
-    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVhEWdF3R4qYeB4Q.woff2
-    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVaEKdF3R4qYeB4Q.woff2
-    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVUUKdF3R4qYeB4Q.woff2
-    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVNkKdF3R4qYeB4Q.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/sono/Sono[MONO,wght].ttf
+    format: ttf
     variable_axes:
     - MONO
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Sono
     files:
@@ -50,9 +38,26 @@ resources:
     - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVUUKdEnR4qYeB4Q.ttf
     - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVNkKdEnR4qYeB4Q.ttf
     format: ttf
-    variable_axes:
-    - MONO
-    - wght
+  woff2_static:
+    source: google
+    family: Sono
+    files:
+    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVNkWdF3R4qYeB4Q.woff2
+    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxV6EWdF3R4qYeB4Q.woff2
+    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVtkWdF3R4qYeB4Q.woff2
+    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVhEWdF3R4qYeB4Q.woff2
+    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVaEKdF3R4qYeB4Q.woff2
+    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVUUKdF3R4qYeB4Q.woff2
+    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVNkKdF3R4qYeB4Q.woff2
+    urls:
+    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVNkWdF3R4qYeB4Q.woff2
+    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxV6EWdF3R4qYeB4Q.woff2
+    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVtkWdF3R4qYeB4Q.woff2
+    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVhEWdF3R4qYeB4Q.woff2
+    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVaEKdF3R4qYeB4Q.woff2
+    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVUUKdF3R4qYeB4Q.woff2
+    - https://fonts.gstatic.com/s/sono/v12/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVNkKdF3R4qYeB4Q.woff2
+    format: woff2
 fonts:
 - name: Sono ExtraLight
   styles:
@@ -70,10 +75,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - MONO
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Sono Light
   styles:
   - family_name: Sono Light
@@ -90,10 +93,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - MONO
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Sono
   styles:
   - family_name: Sono
@@ -108,10 +109,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - MONO
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Sono
     type: Bold
     full_name: Sono Bold
@@ -124,10 +123,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Sono
+    type: Regular
+    full_name: Sono ExtraLight
+    post_script_name: Sono-ExtraLight
+    copyright: Copyright 2020 The Sono Project Authors (https://github.com/sursly/sono)
+    font: Sono[MONO,wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - MONO
     - wght
+    source_resource: ttf_variable
 - name: Sono Medium
   styles:
   - family_name: Sono Medium
@@ -144,10 +154,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - MONO
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Sono SemiBold
   styles:
   - family_name: Sono SemiBold
@@ -164,10 +172,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - MONO
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Sono ExtraBold
   styles:
   - family_name: Sono ExtraBold
@@ -184,10 +190,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - MONO
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2020 The Sono Project Authors (https://github.com/sursly/sono)
 spdx_license: OFL-1.1-no-RFN

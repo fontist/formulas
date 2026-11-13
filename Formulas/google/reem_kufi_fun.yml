@@ -14,23 +14,17 @@ description: Reem Kufi Fun is a Kufic typeface based on early Kufic (Mushafi) mo
   to learn more about Color Fonts technology. To contribute, see github.com/alif-type/reem-kufi
 homepage: https://fonts.google.com/specimen/Reem+Kufi+Fun
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Reem Kufi Fun
     files:
-    - https://fonts.gstatic.com/s/reemkufifun/v13/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChoYj3nClrvqZzZXq.woff2
-    - https://fonts.gstatic.com/s/reemkufifun/v13/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChoYR3nClrvqZzZXq.woff2
-    - https://fonts.gstatic.com/s/reemkufifun/v13/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChob92XClrvqZzZXq.woff2
-    - https://fonts.gstatic.com/s/reemkufifun/v13/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChobE2XClrvqZzZXq.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/reemkufifun/ReemKufiFun[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/reemkufifun/v13/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChoYj3nClrvqZzZXq.woff2
-    - https://fonts.gstatic.com/s/reemkufifun/v13/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChoYR3nClrvqZzZXq.woff2
-    - https://fonts.gstatic.com/s/reemkufifun/v13/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChob92XClrvqZzZXq.woff2
-    - https://fonts.gstatic.com/s/reemkufifun/v13/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChobE2XClrvqZzZXq.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/reemkufifun/ReemKufiFun[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Reem Kufi Fun
     files:
@@ -44,8 +38,20 @@ resources:
     - https://fonts.gstatic.com/s/reemkufifun/v13/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChob92XCgrvqZzZXq.ttf
     - https://fonts.gstatic.com/s/reemkufifun/v13/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChobE2XCgrvqZzZXq.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Reem Kufi Fun
+    files:
+    - https://fonts.gstatic.com/s/reemkufifun/v13/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChoYj3nClrvqZzZXq.woff2
+    - https://fonts.gstatic.com/s/reemkufifun/v13/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChoYR3nClrvqZzZXq.woff2
+    - https://fonts.gstatic.com/s/reemkufifun/v13/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChob92XClrvqZzZXq.woff2
+    - https://fonts.gstatic.com/s/reemkufifun/v13/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChobE2XClrvqZzZXq.woff2
+    urls:
+    - https://fonts.gstatic.com/s/reemkufifun/v13/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChoYj3nClrvqZzZXq.woff2
+    - https://fonts.gstatic.com/s/reemkufifun/v13/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChoYR3nClrvqZzZXq.woff2
+    - https://fonts.gstatic.com/s/reemkufifun/v13/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChob92XClrvqZzZXq.woff2
+    - https://fonts.gstatic.com/s/reemkufifun/v13/uK_m4rOFYukkmyUEbF43fIryZEk5qRZ8nrKChobE2XClrvqZzZXq.woff2
+    format: woff2
 fonts:
 - name: Reem Kufi Fun
   styles:
@@ -61,9 +67,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Reem Kufi Fun
     type: Bold
     full_name: Reem Kufi Fun Bold
@@ -76,9 +81,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Reem Kufi Fun
+    type: Regular
+    full_name: Reem Kufi Fun Regular
+    post_script_name: ReemKufiFun-Regular
+    copyright: Copyright 2015-2022 The Reem Kufi Fun Project Authors (https://github.com/aliftype/reem-kufi).
+    font: ReemKufiFun[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Reem Kufi Fun Medium
   styles:
   - family_name: Reem Kufi Fun Medium
@@ -95,9 +111,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Reem Kufi Fun SemiBold
   styles:
   - family_name: Reem Kufi Fun SemiBold
@@ -114,9 +129,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2015-2022 The Reem Kufi Fun Project Authors (https://github.com/aliftype/reem-kufi).
 spdx_license: OFL-1.1-RFN

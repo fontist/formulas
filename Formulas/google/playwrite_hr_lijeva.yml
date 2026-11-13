@@ -4,23 +4,17 @@ schema_version: 5
 description: Playwrite HR Lijeva font family
 homepage: https://fonts.google.com/specimen/Playwrite+HR+Lijeva
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Playwrite HR Lijeva
     files:
-    - https://fonts.gstatic.com/s/playwritehrlijeva/v6/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d4zB8aRy4_lxmKl.woff2
-    - https://fonts.gstatic.com/s/playwritehrlijeva/v6/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d6zBsaRy4_lxmKl.woff2
-    - https://fonts.gstatic.com/s/playwritehrlijeva/v6/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d5tBsaRy4_lxmKl.woff2
-    - https://fonts.gstatic.com/s/playwritehrlijeva/v6/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d4zBsaRy4_lxmKl.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playwritehrlijeva/PlaywriteHRLijeva[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/playwritehrlijeva/v6/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d4zB8aRy4_lxmKl.woff2
-    - https://fonts.gstatic.com/s/playwritehrlijeva/v6/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d6zBsaRy4_lxmKl.woff2
-    - https://fonts.gstatic.com/s/playwritehrlijeva/v6/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d5tBsaRy4_lxmKl.woff2
-    - https://fonts.gstatic.com/s/playwritehrlijeva/v6/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d4zBsaRy4_lxmKl.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playwritehrlijeva/PlaywriteHRLijeva[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Playwrite HR Lijeva
     files:
@@ -34,8 +28,20 @@ resources:
     - https://fonts.gstatic.com/s/playwritehrlijeva/v6/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d5tBsaUy4_lxmKl.ttf
     - https://fonts.gstatic.com/s/playwritehrlijeva/v6/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d4zBsaUy4_lxmKl.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Playwrite HR Lijeva
+    files:
+    - https://fonts.gstatic.com/s/playwritehrlijeva/v6/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d4zB8aRy4_lxmKl.woff2
+    - https://fonts.gstatic.com/s/playwritehrlijeva/v6/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d6zBsaRy4_lxmKl.woff2
+    - https://fonts.gstatic.com/s/playwritehrlijeva/v6/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d5tBsaRy4_lxmKl.woff2
+    - https://fonts.gstatic.com/s/playwritehrlijeva/v6/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d4zBsaRy4_lxmKl.woff2
+    urls:
+    - https://fonts.gstatic.com/s/playwritehrlijeva/v6/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d4zB8aRy4_lxmKl.woff2
+    - https://fonts.gstatic.com/s/playwritehrlijeva/v6/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d6zBsaRy4_lxmKl.woff2
+    - https://fonts.gstatic.com/s/playwritehrlijeva/v6/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d5tBsaRy4_lxmKl.woff2
+    - https://fonts.gstatic.com/s/playwritehrlijeva/v6/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d4zBsaRy4_lxmKl.woff2
+    format: woff2
 fonts:
 - name: Playwrite HR Lijeva Thin
   styles:
@@ -53,9 +59,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite HR Lijeva ExtraLight
   styles:
   - family_name: Playwrite HR Lijeva ExtraLight
@@ -72,9 +77,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite HR Lijeva Light
   styles:
   - family_name: Playwrite HR Lijeva Light
@@ -91,9 +95,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite HR Lijeva
   styles:
   - family_name: Playwrite HR Lijeva
@@ -108,9 +111,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Playwrite HR Lijeva
+    type: Regular
+    full_name: Playwrite HR Lijeva Regular
+    post_script_name: PlaywriteHRLijeva-Regular
+    copyright: Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)
+    font: PlaywriteHRLijeva[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)
 spdx_license: OFL-1.1-no-RFN

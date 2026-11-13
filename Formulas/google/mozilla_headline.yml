@@ -4,28 +4,18 @@ schema_version: 5
 description: Mozilla Headline font family
 homepage: https://fonts.google.com/specimen/Mozilla+Headline
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Mozilla Headline
     files:
-    - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBYIYVYBxvtcorUQ.woff2
-    - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBvoYVYBxvtcorUQ.woff2
-    - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOB4IYVYBxvtcorUQ.woff2
-    - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOB0oYVYBxvtcorUQ.woff2
-    - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBPoEVYBxvtcorUQ.woff2
-    - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBB4EVYBxvtcorUQ.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/mozillaheadline/MozillaHeadline[wdth,wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBYIYVYBxvtcorUQ.woff2
-    - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBvoYVYBxvtcorUQ.woff2
-    - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOB4IYVYBxvtcorUQ.woff2
-    - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOB0oYVYBxvtcorUQ.woff2
-    - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBPoEVYBxvtcorUQ.woff2
-    - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBB4EVYBxvtcorUQ.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/mozillaheadline/MozillaHeadline[wdth,wght].ttf
+    format: ttf
     variable_axes:
     - wdth
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Mozilla Headline
     files:
@@ -43,9 +33,24 @@ resources:
     - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBPoEVZRxvtcorUQ.ttf
     - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBB4EVZRxvtcorUQ.ttf
     format: ttf
-    variable_axes:
-    - wdth
-    - wght
+  woff2_static:
+    source: google
+    family: Mozilla Headline
+    files:
+    - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBYIYVYBxvtcorUQ.woff2
+    - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBvoYVYBxvtcorUQ.woff2
+    - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOB4IYVYBxvtcorUQ.woff2
+    - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOB0oYVYBxvtcorUQ.woff2
+    - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBPoEVYBxvtcorUQ.woff2
+    - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBB4EVYBxvtcorUQ.woff2
+    urls:
+    - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBYIYVYBxvtcorUQ.woff2
+    - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBvoYVYBxvtcorUQ.woff2
+    - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOB4IYVYBxvtcorUQ.woff2
+    - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOB0oYVYBxvtcorUQ.woff2
+    - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBPoEVYBxvtcorUQ.woff2
+    - https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBB4EVYBxvtcorUQ.woff2
+    format: woff2
 fonts:
 - name: Mozilla Headline ExtraLight
   styles:
@@ -63,10 +68,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Mozilla Headline Light
   styles:
   - family_name: Mozilla Headline Light
@@ -83,10 +86,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Mozilla Headline
   styles:
   - family_name: Mozilla Headline
@@ -101,10 +102,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Mozilla Headline
     type: Bold
     full_name: Mozilla Headline Bold
@@ -117,10 +116,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Mozilla Headline
+    type: Regular
+    full_name: Mozilla Headline ExtraLight
+    post_script_name: MozillaHeadline-ExtraLight
+    copyright: Copyright 2025 The Mozilla Headline Project Authors (https://github.com/mozilla/mozilla-headline-type)
+    font: MozillaHeadline[wdth,wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wdth
     - wght
+    source_resource: ttf_variable
 - name: Mozilla Headline Medium
   styles:
   - family_name: Mozilla Headline Medium
@@ -137,10 +147,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Mozilla Headline SemiBold
   styles:
   - family_name: Mozilla Headline SemiBold
@@ -157,10 +165,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2025 The Mozilla Headline Project Authors (https://github.com/mozilla/mozilla-type-family/)
 spdx_license: OFL-1.1-no-RFN

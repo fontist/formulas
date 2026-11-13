@@ -13,23 +13,17 @@ description: 'Miriam Libre is a mono-linear Hebrew and Latin sans serif font fam
   To contribute, see github.com/simoncozens/Miriam-Libre'
 homepage: https://fonts.google.com/specimen/Miriam+Libre
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Miriam Libre
     files:
-    - https://fonts.gstatic.com/s/miriamlibre/v19/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjH9P3k97GL-8tY7Q.woff2
-    - https://fonts.gstatic.com/s/miriamlibre/v19/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjH-H3k97GL-8tY7Q.woff2
-    - https://fonts.gstatic.com/s/miriamlibre/v19/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjHw3wk97GL-8tY7Q.woff2
-    - https://fonts.gstatic.com/s/miriamlibre/v19/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjHzTwk97GL-8tY7Q.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/miriamlibre/MiriamLibre[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/miriamlibre/v19/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjH9P3k97GL-8tY7Q.woff2
-    - https://fonts.gstatic.com/s/miriamlibre/v19/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjH-H3k97GL-8tY7Q.woff2
-    - https://fonts.gstatic.com/s/miriamlibre/v19/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjHw3wk97GL-8tY7Q.woff2
-    - https://fonts.gstatic.com/s/miriamlibre/v19/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjHzTwk97GL-8tY7Q.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/miriamlibre/MiriamLibre[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Miriam Libre
     files:
@@ -43,8 +37,20 @@ resources:
     - https://fonts.gstatic.com/s/miriamlibre/v19/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjHw3wk9vGL-8tY7Q.ttf
     - https://fonts.gstatic.com/s/miriamlibre/v19/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjHzTwk9vGL-8tY7Q.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Miriam Libre
+    files:
+    - https://fonts.gstatic.com/s/miriamlibre/v19/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjH9P3k97GL-8tY7Q.woff2
+    - https://fonts.gstatic.com/s/miriamlibre/v19/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjH-H3k97GL-8tY7Q.woff2
+    - https://fonts.gstatic.com/s/miriamlibre/v19/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjHw3wk97GL-8tY7Q.woff2
+    - https://fonts.gstatic.com/s/miriamlibre/v19/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjHzTwk97GL-8tY7Q.woff2
+    urls:
+    - https://fonts.gstatic.com/s/miriamlibre/v19/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjH9P3k97GL-8tY7Q.woff2
+    - https://fonts.gstatic.com/s/miriamlibre/v19/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjH-H3k97GL-8tY7Q.woff2
+    - https://fonts.gstatic.com/s/miriamlibre/v19/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjHw3wk97GL-8tY7Q.woff2
+    - https://fonts.gstatic.com/s/miriamlibre/v19/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjHzTwk97GL-8tY7Q.woff2
+    format: woff2
 fonts:
 - name: Miriam Libre
   styles:
@@ -60,9 +66,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Miriam Libre
     type: Bold
     full_name: Miriam Libre Bold
@@ -75,9 +80,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Miriam Libre
+    type: Regular
+    full_name: Miriam Libre Regular
+    post_script_name: MiriamLibre-Regular
+    copyright: Copyright 2023 The Miriam Libre Project Authors (https://github.com/simoncozens/Miriam-Libre/)
+    font: MiriamLibre[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Miriam Libre Medium
   styles:
   - family_name: Miriam Libre Medium
@@ -94,9 +110,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Miriam Libre SemiBold
   styles:
   - family_name: Miriam Libre SemiBold
@@ -113,9 +128,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2023 The Miriam Libre Project Authors (https://github.com/simoncozens/Miriam-Libre/)
 spdx_license: OFL-1.1-no-RFN

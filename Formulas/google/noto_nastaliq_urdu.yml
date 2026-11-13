@@ -7,23 +7,17 @@ description: Noto is a global font collection for writing in all modern and anci
   It has 1,138 glyphs.
 homepage: https://fonts.google.com/specimen/Noto+Nastaliq+Urdu
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Noto Nastaliq Urdu
     files:
-    - https://fonts.gstatic.com/s/notonastaliqurdu/v23/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3Qt_-DKif2-_8mEw.woff2
-    - https://fonts.gstatic.com/s/notonastaliqurdu/v23/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3Qu3-DKif2-_8mEw.woff2
-    - https://fonts.gstatic.com/s/notonastaliqurdu/v23/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3QgH5DKif2-_8mEw.woff2
-    - https://fonts.gstatic.com/s/notonastaliqurdu/v23/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3Qjj5DKif2-_8mEw.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notonastaliqurdu/NotoNastaliqUrdu[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/notonastaliqurdu/v23/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3Qt_-DKif2-_8mEw.woff2
-    - https://fonts.gstatic.com/s/notonastaliqurdu/v23/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3Qu3-DKif2-_8mEw.woff2
-    - https://fonts.gstatic.com/s/notonastaliqurdu/v23/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3QgH5DKif2-_8mEw.woff2
-    - https://fonts.gstatic.com/s/notonastaliqurdu/v23/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3Qjj5DKif2-_8mEw.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notonastaliqurdu/NotoNastaliqUrdu[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Noto Nastaliq Urdu
     files:
@@ -37,8 +31,20 @@ resources:
     - https://fonts.gstatic.com/s/notonastaliqurdu/v23/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3QgH5DK2f2-_8mEw.ttf
     - https://fonts.gstatic.com/s/notonastaliqurdu/v23/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3Qjj5DK2f2-_8mEw.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Noto Nastaliq Urdu
+    files:
+    - https://fonts.gstatic.com/s/notonastaliqurdu/v23/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3Qt_-DKif2-_8mEw.woff2
+    - https://fonts.gstatic.com/s/notonastaliqurdu/v23/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3Qu3-DKif2-_8mEw.woff2
+    - https://fonts.gstatic.com/s/notonastaliqurdu/v23/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3QgH5DKif2-_8mEw.woff2
+    - https://fonts.gstatic.com/s/notonastaliqurdu/v23/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3Qjj5DKif2-_8mEw.woff2
+    urls:
+    - https://fonts.gstatic.com/s/notonastaliqurdu/v23/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3Qt_-DKif2-_8mEw.woff2
+    - https://fonts.gstatic.com/s/notonastaliqurdu/v23/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3Qu3-DKif2-_8mEw.woff2
+    - https://fonts.gstatic.com/s/notonastaliqurdu/v23/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3QgH5DKif2-_8mEw.woff2
+    - https://fonts.gstatic.com/s/notonastaliqurdu/v23/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3Qjj5DKif2-_8mEw.woff2
+    format: woff2
 fonts:
 - name: Noto Nastaliq Urdu
   styles:
@@ -54,9 +60,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Noto Nastaliq Urdu
     type: Bold
     full_name: Noto Nastaliq Urdu Bold
@@ -69,9 +74,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Noto Nastaliq Urdu
+    type: Regular
+    full_name: Noto Nastaliq Urdu Regular
+    post_script_name: NotoNastaliqUrdu-Regular
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nastaliq)
+    font: NotoNastaliqUrdu[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Noto Nastaliq Urdu Medium
   styles:
   - family_name: Noto Nastaliq Urdu Medium
@@ -88,9 +104,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Nastaliq Urdu SemiBold
   styles:
   - family_name: Noto Nastaliq Urdu SemiBold
@@ -107,9 +122,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nastaliq)
 spdx_license: OFL-1.1-no-RFN

@@ -4,31 +4,17 @@ schema_version: 5
 description: Playpen Sans font family
 homepage: https://fonts.google.com/specimen/Playpen+Sans
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Playpen Sans
     files:
-    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IvRgunE9Ffmme0w.woff2
-    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4InRhunE9Ffmme0w.woff2
-    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IqphunE9Ffmme0w.woff2
-    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IvRhunE9Ffmme0w.woff2
-    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IsZhunE9Ffmme0w.woff2
-    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IipmunE9Ffmme0w.woff2
-    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IhNmunE9Ffmme0w.woff2
-    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4InRmunE9Ffmme0w.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playpensans/PlaypenSans[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IvRgunE9Ffmme0w.woff2
-    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4InRhunE9Ffmme0w.woff2
-    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IqphunE9Ffmme0w.woff2
-    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IvRhunE9Ffmme0w.woff2
-    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IsZhunE9Ffmme0w.woff2
-    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IipmunE9Ffmme0w.woff2
-    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IhNmunE9Ffmme0w.woff2
-    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4InRmunE9Ffmme0w.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playpensans/PlaypenSans[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Playpen Sans
     files:
@@ -50,8 +36,28 @@ resources:
     - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IhNmunQ9Ffmme0w.ttf
     - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4InRmunQ9Ffmme0w.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Playpen Sans
+    files:
+    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IvRgunE9Ffmme0w.woff2
+    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4InRhunE9Ffmme0w.woff2
+    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IqphunE9Ffmme0w.woff2
+    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IvRhunE9Ffmme0w.woff2
+    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IsZhunE9Ffmme0w.woff2
+    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IipmunE9Ffmme0w.woff2
+    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IhNmunE9Ffmme0w.woff2
+    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4InRmunE9Ffmme0w.woff2
+    urls:
+    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IvRgunE9Ffmme0w.woff2
+    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4InRhunE9Ffmme0w.woff2
+    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IqphunE9Ffmme0w.woff2
+    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IvRhunE9Ffmme0w.woff2
+    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IsZhunE9Ffmme0w.woff2
+    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IipmunE9Ffmme0w.woff2
+    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IhNmunE9Ffmme0w.woff2
+    - https://fonts.gstatic.com/s/playpensans/v22/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4InRmunE9Ffmme0w.woff2
+    format: woff2
 fonts:
 - name: Playpen Sans Thin
   styles:
@@ -69,9 +75,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playpen Sans ExtraLight
   styles:
   - family_name: Playpen Sans ExtraLight
@@ -88,9 +93,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playpen Sans Light
   styles:
   - family_name: Playpen Sans Light
@@ -107,9 +111,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playpen Sans
   styles:
   - family_name: Playpen Sans
@@ -124,9 +127,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Playpen Sans
     type: Bold
     full_name: Playpen Sans Bold
@@ -139,9 +141,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Playpen Sans
+    type: Regular
+    full_name: Playpen Sans Regular
+    post_script_name: PlaypenSans-Regular
+    copyright: Copyright 2023 The Playpen Sans Project Authors (https://github.com/TypeTogether/Playpen-Sans)
+    font: PlaypenSans[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Playpen Sans Medium
   styles:
   - family_name: Playpen Sans Medium
@@ -158,9 +171,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playpen Sans SemiBold
   styles:
   - family_name: Playpen Sans SemiBold
@@ -177,9 +189,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playpen Sans ExtraBold
   styles:
   - family_name: Playpen Sans ExtraBold
@@ -196,9 +207,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2023 The Playpen Sans Project Authors (https://github.com/TypeTogether/Playpen-Sans)
 spdx_license: OFL-1.1-no-RFN

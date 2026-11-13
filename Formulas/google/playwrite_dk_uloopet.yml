@@ -4,23 +4,17 @@ schema_version: 5
 description: Playwrite DK Uloopet font family
 homepage: https://fonts.google.com/specimen/Playwrite+DK+Uloopet
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Playwrite DK Uloopet
     files:
-    - https://fonts.gstatic.com/s/playwritedkuloopet/v6/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K06lQrLOng6LUzAA.woff2
-    - https://fonts.gstatic.com/s/playwritedkuloopet/v6/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K0alUrLOng6LUzAA.woff2
-    - https://fonts.gstatic.com/s/playwritedkuloopet/v6/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K0tFUrLOng6LUzAA.woff2
-    - https://fonts.gstatic.com/s/playwritedkuloopet/v6/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K06lUrLOng6LUzAA.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playwritedkuloopet/PlaywriteDKUloopet[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/playwritedkuloopet/v6/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K06lQrLOng6LUzAA.woff2
-    - https://fonts.gstatic.com/s/playwritedkuloopet/v6/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K0alUrLOng6LUzAA.woff2
-    - https://fonts.gstatic.com/s/playwritedkuloopet/v6/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K0tFUrLOng6LUzAA.woff2
-    - https://fonts.gstatic.com/s/playwritedkuloopet/v6/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K06lUrLOng6LUzAA.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playwritedkuloopet/PlaywriteDKUloopet[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Playwrite DK Uloopet
     files:
@@ -34,8 +28,20 @@ resources:
     - https://fonts.gstatic.com/s/playwritedkuloopet/v6/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K0tFUrKeng6LUzAA.ttf
     - https://fonts.gstatic.com/s/playwritedkuloopet/v6/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K06lUrKeng6LUzAA.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Playwrite DK Uloopet
+    files:
+    - https://fonts.gstatic.com/s/playwritedkuloopet/v6/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K06lQrLOng6LUzAA.woff2
+    - https://fonts.gstatic.com/s/playwritedkuloopet/v6/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K0alUrLOng6LUzAA.woff2
+    - https://fonts.gstatic.com/s/playwritedkuloopet/v6/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K0tFUrLOng6LUzAA.woff2
+    - https://fonts.gstatic.com/s/playwritedkuloopet/v6/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K06lUrLOng6LUzAA.woff2
+    urls:
+    - https://fonts.gstatic.com/s/playwritedkuloopet/v6/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K06lQrLOng6LUzAA.woff2
+    - https://fonts.gstatic.com/s/playwritedkuloopet/v6/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K0alUrLOng6LUzAA.woff2
+    - https://fonts.gstatic.com/s/playwritedkuloopet/v6/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K0tFUrLOng6LUzAA.woff2
+    - https://fonts.gstatic.com/s/playwritedkuloopet/v6/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K06lUrLOng6LUzAA.woff2
+    format: woff2
 fonts:
 - name: Playwrite DK Uloopet Thin
   styles:
@@ -53,9 +59,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite DK Uloopet ExtraLight
   styles:
   - family_name: Playwrite DK Uloopet ExtraLight
@@ -72,9 +77,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite DK Uloopet Light
   styles:
   - family_name: Playwrite DK Uloopet Light
@@ -91,9 +95,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite DK Uloopet
   styles:
   - family_name: Playwrite DK Uloopet
@@ -108,9 +111,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Playwrite DK Uloopet
+    type: Regular
+    full_name: Playwrite DK Uloopet Regular
+    post_script_name: PlaywriteDKUloopet-Regular
+    copyright: Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)
+    font: PlaywriteDKUloopet[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)
 spdx_license: OFL-1.1-no-RFN

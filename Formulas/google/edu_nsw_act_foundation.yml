@@ -20,23 +20,17 @@ description: 'The Foundation Fonts for Australian Schools collection is a set of
   .'
 homepage: https://fonts.google.com/specimen/Edu+NSW+ACT+Foundation
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Edu NSW ACT Foundation
     files:
-    - https://fonts.gstatic.com/s/edunswactfoundation/v5/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki9tovGOeC-sfguJ.woff2
-    - https://fonts.gstatic.com/s/edunswactfoundation/v5/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki9fovGOeC-sfguJ.woff2
-    - https://fonts.gstatic.com/s/edunswactfoundation/v5/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki-zpfGOeC-sfguJ.woff2
-    - https://fonts.gstatic.com/s/edunswactfoundation/v5/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki-KpfGOeC-sfguJ.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/edunswactfoundation/EduNSWACTFoundation[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/edunswactfoundation/v5/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki9tovGOeC-sfguJ.woff2
-    - https://fonts.gstatic.com/s/edunswactfoundation/v5/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki9fovGOeC-sfguJ.woff2
-    - https://fonts.gstatic.com/s/edunswactfoundation/v5/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki-zpfGOeC-sfguJ.woff2
-    - https://fonts.gstatic.com/s/edunswactfoundation/v5/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki-KpfGOeC-sfguJ.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/edunswactfoundation/EduNSWACTFoundation[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Edu NSW ACT Foundation
     files:
@@ -50,8 +44,20 @@ resources:
     - https://fonts.gstatic.com/s/edunswactfoundation/v5/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki-zpfGLeC-sfguJ.ttf
     - https://fonts.gstatic.com/s/edunswactfoundation/v5/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki-KpfGLeC-sfguJ.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Edu NSW ACT Foundation
+    files:
+    - https://fonts.gstatic.com/s/edunswactfoundation/v5/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki9tovGOeC-sfguJ.woff2
+    - https://fonts.gstatic.com/s/edunswactfoundation/v5/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki9fovGOeC-sfguJ.woff2
+    - https://fonts.gstatic.com/s/edunswactfoundation/v5/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki-zpfGOeC-sfguJ.woff2
+    - https://fonts.gstatic.com/s/edunswactfoundation/v5/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki-KpfGOeC-sfguJ.woff2
+    urls:
+    - https://fonts.gstatic.com/s/edunswactfoundation/v5/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki9tovGOeC-sfguJ.woff2
+    - https://fonts.gstatic.com/s/edunswactfoundation/v5/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki9fovGOeC-sfguJ.woff2
+    - https://fonts.gstatic.com/s/edunswactfoundation/v5/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki-zpfGOeC-sfguJ.woff2
+    - https://fonts.gstatic.com/s/edunswactfoundation/v5/raxRHjqJtsNBFUi8WO0vUBgc9D-2lV_oQdCAYlt_QTQ0vUxJki-KpfGOeC-sfguJ.woff2
+    format: woff2
 fonts:
 - name: Edu NSW ACT Foundation
   styles:
@@ -67,9 +73,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Edu NSW ACT Foundation
     type: Bold
     full_name: Edu NSW ACT Foundation Bold
@@ -82,9 +87,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Edu NSW ACT Foundation
+    type: Regular
+    full_name: Edu NSW ACT Foundation Regular
+    post_script_name: EduNSWACTFoundation-Regular
+    copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
+    font: EduNSWACTFoundation[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Edu NSW ACT Foundation Medium
   styles:
   - family_name: Edu NSW ACT Foundation Medium
@@ -101,9 +117,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Edu NSW ACT Foundation SemiBold
   styles:
   - family_name: Edu NSW ACT Foundation SemiBold
@@ -120,9 +135,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
 spdx_license: OFL-1.1-no-RFN

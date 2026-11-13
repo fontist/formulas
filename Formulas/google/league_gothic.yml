@@ -10,17 +10,17 @@ description: 'League Gothic is a revival of an old classic: Alternate Gothic. It
   .'
 homepage: https://fonts.google.com/specimen/League+Gothic
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: League Gothic
     files:
-    - https://fonts.gstatic.com/s/leaguegothic/v13/qFdR35CBi4tvBz81xy7WG7ep-BQAY7Krj7feObpH_-ajidQ6Q9hn.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/leaguegothic/LeagueGothic[wdth].ttf
     urls:
-    - https://fonts.gstatic.com/s/leaguegothic/v13/qFdR35CBi4tvBz81xy7WG7ep-BQAY7Krj7feObpH_-ajidQ6Q9hn.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/leaguegothic/LeagueGothic[wdth].ttf
+    format: ttf
     variable_axes:
     - wdth
-  ttf_variable:
+  ttf_static:
     source: google
     family: League Gothic
     files:
@@ -28,8 +28,14 @@ resources:
     urls:
     - https://fonts.gstatic.com/s/leaguegothic/v13/qFdR35CBi4tvBz81xy7WG7ep-BQAY7Krj7feObpH_-amidQ6Q9hn.ttf
     format: ttf
-    variable_axes:
-    - wdth
+  woff2_static:
+    source: google
+    family: League Gothic
+    files:
+    - https://fonts.gstatic.com/s/leaguegothic/v13/qFdR35CBi4tvBz81xy7WG7ep-BQAY7Krj7feObpH_-ajidQ6Q9hn.woff2
+    urls:
+    - https://fonts.gstatic.com/s/leaguegothic/v13/qFdR35CBi4tvBz81xy7WG7ep-BQAY7Krj7feObpH_-ajidQ6Q9hn.woff2
+    format: woff2
 fonts:
 - name: League Gothic
   styles:
@@ -45,9 +51,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: League Gothic
+    type: Regular
+    full_name: League Gothic Regular
+    post_script_name: LeagueGothic-Regular
+    copyright: Copyright 2020 The League Gothic Project Authors (https://github.com/theleagueof/league-gothic)
+    font: LeagueGothic[wdth].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wdth
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2020 The League Gothic Project Authors (https://github.com/theleagueof/league-gothic)
 spdx_license: OFL-1.1-no-RFN

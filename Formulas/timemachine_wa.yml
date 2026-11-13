@@ -8,6 +8,7 @@ resources:
     - https://modi.jpn.org/download/MODI_timemachine-wa_2017_0930.zip
     sha256: aac48ec0e7988938c8f4c0cdd96d6692aa114e37aa2d5450b09ac53b8c2dfdeb
     file_size: 3805026
+    format: ttf
 fonts:
 - name: timemachine wa
   styles:
@@ -18,6 +19,8 @@ fonts:
     version: 1.00.20170930
     copyright: WadaLab, RareEarth
     font: timemachine-wa.ttf
+    formats:
+    - ttf
 extract: {}
 copyright: WadaLab, RareEarth
 command: create-formula https://modi.jpn.org/download/MODI_timemachine-wa_2017_0930.zip

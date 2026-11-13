@@ -8,33 +8,17 @@ description: Noto is a global font collection for writing in all modern and anci
   weights.
 homepage: https://fonts.google.com/specimen/Noto+Sans+HK
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Noto Sans HK
     files:
-    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qHB_-oCTiYjNvVA.woff2
-    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qPB--oCTiYjNvVA.woff2
-    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qC5--oCTiYjNvVA.woff2
-    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qHB--oCTiYjNvVA.woff2
-    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qEJ--oCTiYjNvVA.woff2
-    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qK55-oCTiYjNvVA.woff2
-    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qJd5-oCTiYjNvVA.woff2
-    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qPB5-oCTiYjNvVA.woff2
-    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qNl5-oCTiYjNvVA.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosanshk/NotoSansHK[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qHB_-oCTiYjNvVA.woff2
-    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qPB--oCTiYjNvVA.woff2
-    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qC5--oCTiYjNvVA.woff2
-    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qHB--oCTiYjNvVA.woff2
-    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qEJ--oCTiYjNvVA.woff2
-    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qK55-oCTiYjNvVA.woff2
-    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qJd5-oCTiYjNvVA.woff2
-    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qPB5-oCTiYjNvVA.woff2
-    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qNl5-oCTiYjNvVA.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosanshk/NotoSansHK[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Noto Sans HK
     files:
@@ -58,8 +42,30 @@ resources:
     - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qPB5-oWTiYjNvVA.ttf
     - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qNl5-oWTiYjNvVA.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Noto Sans HK
+    files:
+    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qHB_-oCTiYjNvVA.woff2
+    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qPB--oCTiYjNvVA.woff2
+    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qC5--oCTiYjNvVA.woff2
+    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qHB--oCTiYjNvVA.woff2
+    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qEJ--oCTiYjNvVA.woff2
+    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qK55-oCTiYjNvVA.woff2
+    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qJd5-oCTiYjNvVA.woff2
+    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qPB5-oCTiYjNvVA.woff2
+    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qNl5-oCTiYjNvVA.woff2
+    urls:
+    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qHB_-oCTiYjNvVA.woff2
+    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qPB--oCTiYjNvVA.woff2
+    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qC5--oCTiYjNvVA.woff2
+    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qHB--oCTiYjNvVA.woff2
+    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qEJ--oCTiYjNvVA.woff2
+    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qK55-oCTiYjNvVA.woff2
+    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qJd5-oCTiYjNvVA.woff2
+    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qPB5-oCTiYjNvVA.woff2
+    - https://fonts.gstatic.com/s/notosanshk/v35/nKKF-GM_FYFRJvXzVXaAPe97P1KHynJFP716qNl5-oCTiYjNvVA.woff2
+    format: woff2
 fonts:
 - name: Noto Sans HK Thin
   styles:
@@ -78,9 +84,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans HK ExtraLight
   styles:
   - family_name: Noto Sans HK ExtraLight
@@ -98,9 +103,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans HK Light
   styles:
   - family_name: Noto Sans HK Light
@@ -118,9 +122,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans HK
   styles:
   - family_name: Noto Sans HK
@@ -136,9 +139,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Noto Sans HK
     type: Bold
     full_name: Noto Sans HK Bold
@@ -152,9 +154,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Noto Sans HK
+    type: Regular
+    full_name: Noto Sans HK Thin
+    post_script_name: NotoSansHK-Thin
+    copyright: "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name
+      'Source'."
+    font: NotoSansHK[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Noto Sans HK Medium
   styles:
   - family_name: Noto Sans HK Medium
@@ -172,9 +186,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans HK SemiBold
   styles:
   - family_name: Noto Sans HK SemiBold
@@ -192,9 +205,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans HK ExtraBold
   styles:
   - family_name: Noto Sans HK ExtraBold
@@ -212,9 +224,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans HK Black
   styles:
   - family_name: Noto Sans HK Black
@@ -232,9 +243,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
 spdx_license: OFL-1.1-RFN

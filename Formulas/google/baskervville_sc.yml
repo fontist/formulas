@@ -4,23 +4,17 @@ schema_version: 5
 description: Baskervville SC font family
 homepage: https://fonts.google.com/specimen/Baskervville+SC
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Baskervville SC
     files:
-    - https://fonts.gstatic.com/s/baskervvillesc/v4/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHjziXMjkPWntDsg.woff2
-    - https://fonts.gstatic.com/s/baskervvillesc/v4/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHg7iXMjkPWntDsg.woff2
-    - https://fonts.gstatic.com/s/baskervvillesc/v4/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHuLlXMjkPWntDsg.woff2
-    - https://fonts.gstatic.com/s/baskervvillesc/v4/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHtvlXMjkPWntDsg.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/baskervvillesc/BaskervvilleSC[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/baskervvillesc/v4/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHjziXMjkPWntDsg.woff2
-    - https://fonts.gstatic.com/s/baskervvillesc/v4/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHg7iXMjkPWntDsg.woff2
-    - https://fonts.gstatic.com/s/baskervvillesc/v4/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHuLlXMjkPWntDsg.woff2
-    - https://fonts.gstatic.com/s/baskervvillesc/v4/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHtvlXMjkPWntDsg.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/baskervvillesc/BaskervvilleSC[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Baskervville SC
     files:
@@ -34,8 +28,20 @@ resources:
     - https://fonts.gstatic.com/s/baskervvillesc/v4/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHuLlXM3kPWntDsg.ttf
     - https://fonts.gstatic.com/s/baskervvillesc/v4/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHtvlXM3kPWntDsg.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Baskervville SC
+    files:
+    - https://fonts.gstatic.com/s/baskervvillesc/v4/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHjziXMjkPWntDsg.woff2
+    - https://fonts.gstatic.com/s/baskervvillesc/v4/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHg7iXMjkPWntDsg.woff2
+    - https://fonts.gstatic.com/s/baskervvillesc/v4/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHuLlXMjkPWntDsg.woff2
+    - https://fonts.gstatic.com/s/baskervvillesc/v4/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHtvlXMjkPWntDsg.woff2
+    urls:
+    - https://fonts.gstatic.com/s/baskervvillesc/v4/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHjziXMjkPWntDsg.woff2
+    - https://fonts.gstatic.com/s/baskervvillesc/v4/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHg7iXMjkPWntDsg.woff2
+    - https://fonts.gstatic.com/s/baskervvillesc/v4/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHuLlXMjkPWntDsg.woff2
+    - https://fonts.gstatic.com/s/baskervvillesc/v4/X7ny4bc_DeKlh6bBbk_WiKnBSUvL5HaHbrgS1MXKHtvlXMjkPWntDsg.woff2
+    format: woff2
 fonts:
 - name: Baskervville SC
   styles:
@@ -51,9 +57,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Baskervville SC
     type: Bold
     full_name: Baskervville SC Bold
@@ -66,9 +71,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Baskervville SC
+    type: Regular
+    full_name: Baskervville SC Regular
+    post_script_name: BaskervvilleSC-Regular
+    copyright: Copyright 2018 The Baskervville Project Authors (https://github.com/anrt-type/ANRT-Baskervville)
+    font: BaskervvilleSC[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Baskervville SC Medium
   styles:
   - family_name: Baskervville SC Medium
@@ -85,9 +101,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Baskervville SC SemiBold
   styles:
   - family_name: Baskervville SC SemiBold
@@ -104,9 +119,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2018 The Baskervville Project Authors (https://github.com/anrt-type/ANRT-Baskervville)
 spdx_license: OFL-1.1-no-RFN

@@ -7,23 +7,17 @@ description: Noto is a global font collection for writing in all modern and anci
   179 glyphs.
 homepage: https://fonts.google.com/specimen/Noto+Sans+Hanifi+Rohingya
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Noto Sans Hanifi Rohingya
     files:
-    - https://fonts.gstatic.com/s/notosanshanifirohingya/v30/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIYY4j6qvcudK8rN.woff2
-    - https://fonts.gstatic.com/s/notosanshanifirohingya/v30/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIYq4j6qvcudK8rN.woff2
-    - https://fonts.gstatic.com/s/notosanshanifirohingya/v30/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIbG5T6qvcudK8rN.woff2
-    - https://fonts.gstatic.com/s/notosanshanifirohingya/v30/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIb_5T6qvcudK8rN.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosanshanifirohingya/NotoSansHanifiRohingya[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/notosanshanifirohingya/v30/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIYY4j6qvcudK8rN.woff2
-    - https://fonts.gstatic.com/s/notosanshanifirohingya/v30/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIYq4j6qvcudK8rN.woff2
-    - https://fonts.gstatic.com/s/notosanshanifirohingya/v30/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIbG5T6qvcudK8rN.woff2
-    - https://fonts.gstatic.com/s/notosanshanifirohingya/v30/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIb_5T6qvcudK8rN.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosanshanifirohingya/NotoSansHanifiRohingya[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Noto Sans Hanifi Rohingya
     files:
@@ -37,8 +31,20 @@ resources:
     - https://fonts.gstatic.com/s/notosanshanifirohingya/v30/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIbG5T6vvcudK8rN.ttf
     - https://fonts.gstatic.com/s/notosanshanifirohingya/v30/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIb_5T6vvcudK8rN.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Noto Sans Hanifi Rohingya
+    files:
+    - https://fonts.gstatic.com/s/notosanshanifirohingya/v30/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIYY4j6qvcudK8rN.woff2
+    - https://fonts.gstatic.com/s/notosanshanifirohingya/v30/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIYq4j6qvcudK8rN.woff2
+    - https://fonts.gstatic.com/s/notosanshanifirohingya/v30/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIbG5T6qvcudK8rN.woff2
+    - https://fonts.gstatic.com/s/notosanshanifirohingya/v30/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIb_5T6qvcudK8rN.woff2
+    urls:
+    - https://fonts.gstatic.com/s/notosanshanifirohingya/v30/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIYY4j6qvcudK8rN.woff2
+    - https://fonts.gstatic.com/s/notosanshanifirohingya/v30/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIYq4j6qvcudK8rN.woff2
+    - https://fonts.gstatic.com/s/notosanshanifirohingya/v30/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIbG5T6qvcudK8rN.woff2
+    - https://fonts.gstatic.com/s/notosanshanifirohingya/v30/5h17iYsoOmIC3Yu3MDXLDw3UZCgghyOEBBY7hhLNyo3tiaiuSIAqrIb_5T6qvcudK8rN.woff2
+    format: woff2
 fonts:
 - name: Noto Sans Hanifi Rohingya
   styles:
@@ -54,9 +60,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Noto Sans Hanifi Rohingya
     type: Bold
     full_name: Noto Sans Hanifi Rohingya Bold
@@ -69,9 +74,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Noto Sans Hanifi Rohingya
+    type: Regular
+    full_name: Noto Sans Hanifi Rohingya Regular
+    post_script_name: NotoSansHanifiRohingya-Regular
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hanifi-rohingya)
+    font: NotoSansHanifiRohingya[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Noto Sans Hanifi Rohingya Medium
   styles:
   - family_name: Noto Sans Hanifi Rohingya Medium
@@ -88,9 +104,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans Hanifi Rohingya SemiBold
   styles:
   - family_name: Noto Sans Hanifi Rohingya SemiBold
@@ -107,9 +122,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/hanifi-rohingya)
 spdx_license: OFL-1.1-no-RFN

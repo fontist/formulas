@@ -4,23 +4,7 @@ schema_version: 5
 description: Edu VIC WA NT Hand font family
 homepage: https://fonts.google.com/specimen/Edu+VIC+WA+NT+Hand
 resources:
-  woff2_variable:
-    source: google
-    family: Edu VIC WA NT Hand
-    files:
-    - https://fonts.gstatic.com/s/eduvicwanthand/v3/UcCO3EsnIXnOaZKmY1Ry0wZjP9YVRBcw2boKoduKmMEVuLyfMZ1rib2Bg-4.woff2
-    - https://fonts.gstatic.com/s/eduvicwanthand/v3/UcCO3EsnIXnOaZKmY1Ry0wZjP9YVRBcw2boKoduKmMEVuI6fMZ1rib2Bg-4.woff2
-    - https://fonts.gstatic.com/s/eduvicwanthand/v3/UcCO3EsnIXnOaZKmY1Ry0wZjP9YVRBcw2boKoduKmMEVuGKYMZ1rib2Bg-4.woff2
-    - https://fonts.gstatic.com/s/eduvicwanthand/v3/UcCO3EsnIXnOaZKmY1Ry0wZjP9YVRBcw2boKoduKmMEVuFuYMZ1rib2Bg-4.woff2
-    urls:
-    - https://fonts.gstatic.com/s/eduvicwanthand/v3/UcCO3EsnIXnOaZKmY1Ry0wZjP9YVRBcw2boKoduKmMEVuLyfMZ1rib2Bg-4.woff2
-    - https://fonts.gstatic.com/s/eduvicwanthand/v3/UcCO3EsnIXnOaZKmY1Ry0wZjP9YVRBcw2boKoduKmMEVuI6fMZ1rib2Bg-4.woff2
-    - https://fonts.gstatic.com/s/eduvicwanthand/v3/UcCO3EsnIXnOaZKmY1Ry0wZjP9YVRBcw2boKoduKmMEVuGKYMZ1rib2Bg-4.woff2
-    - https://fonts.gstatic.com/s/eduvicwanthand/v3/UcCO3EsnIXnOaZKmY1Ry0wZjP9YVRBcw2boKoduKmMEVuFuYMZ1rib2Bg-4.woff2
-    format: woff2
-    variable_axes:
-    - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Edu VIC WA NT Hand
     files:
@@ -34,8 +18,20 @@ resources:
     - https://fonts.gstatic.com/s/eduvicwanthand/v3/UcCO3EsnIXnOaZKmY1Ry0wZjP9YVRBcw2boKoduKmMEVuGKYMZhrib2Bg-4.ttf
     - https://fonts.gstatic.com/s/eduvicwanthand/v3/UcCO3EsnIXnOaZKmY1Ry0wZjP9YVRBcw2boKoduKmMEVuFuYMZhrib2Bg-4.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Edu VIC WA NT Hand
+    files:
+    - https://fonts.gstatic.com/s/eduvicwanthand/v3/UcCO3EsnIXnOaZKmY1Ry0wZjP9YVRBcw2boKoduKmMEVuLyfMZ1rib2Bg-4.woff2
+    - https://fonts.gstatic.com/s/eduvicwanthand/v3/UcCO3EsnIXnOaZKmY1Ry0wZjP9YVRBcw2boKoduKmMEVuI6fMZ1rib2Bg-4.woff2
+    - https://fonts.gstatic.com/s/eduvicwanthand/v3/UcCO3EsnIXnOaZKmY1Ry0wZjP9YVRBcw2boKoduKmMEVuGKYMZ1rib2Bg-4.woff2
+    - https://fonts.gstatic.com/s/eduvicwanthand/v3/UcCO3EsnIXnOaZKmY1Ry0wZjP9YVRBcw2boKoduKmMEVuFuYMZ1rib2Bg-4.woff2
+    urls:
+    - https://fonts.gstatic.com/s/eduvicwanthand/v3/UcCO3EsnIXnOaZKmY1Ry0wZjP9YVRBcw2boKoduKmMEVuLyfMZ1rib2Bg-4.woff2
+    - https://fonts.gstatic.com/s/eduvicwanthand/v3/UcCO3EsnIXnOaZKmY1Ry0wZjP9YVRBcw2boKoduKmMEVuI6fMZ1rib2Bg-4.woff2
+    - https://fonts.gstatic.com/s/eduvicwanthand/v3/UcCO3EsnIXnOaZKmY1Ry0wZjP9YVRBcw2boKoduKmMEVuGKYMZ1rib2Bg-4.woff2
+    - https://fonts.gstatic.com/s/eduvicwanthand/v3/UcCO3EsnIXnOaZKmY1Ry0wZjP9YVRBcw2boKoduKmMEVuFuYMZ1rib2Bg-4.woff2
+    format: woff2
 fonts:
 - name: Edu VIC WA NT Hand
   styles:
@@ -52,9 +48,7 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
   - family_name: Edu VIC WA NT Hand
     type: Bold
     full_name: Edu VIC WA NT Hand Bold
@@ -68,9 +62,7 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
 - name: Edu VIC WA NT Hand Medium
   styles:
   - family_name: Edu VIC WA NT Hand Medium
@@ -88,9 +80,7 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
 - name: Edu VIC WA NT Hand SemiBold
   styles:
   - family_name: Edu VIC WA NT Hand SemiBold
@@ -108,9 +98,7 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
 extract: {}
 copyright: Copyright 2023 The VIC WA NT School Hand Australia Project Authors (https://github.com/SorkinType/VICWANTSchoolHandAustralia)
 spdx_license: OFL-1.1-no-RFN
