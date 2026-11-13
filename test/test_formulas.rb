@@ -18,7 +18,14 @@ class TestFormulas
     end.parse!
 
     @errors = []
+    @warnings = []
   end
+
+  # fontist already retries 429s through its full backoff ladder; if the
+  # remote still says "slow down" (web.archive.org does this to parallel
+  # CI jobs), the URL is alive and throttling us — that is not an
+  # invalid-URL failure, so report it without reddening the suite.
+  RATE_LIMIT_PATTERN = /429|Too Many Requests/
 
   def call
     prepare_formulas do |formulas|
@@ -110,10 +117,24 @@ class TestFormulas
       no_progress: true,
     )
   rescue StandardError => e
-    @errors << [e, formula]
+    if e.message.match?(RATE_LIMIT_PATTERN)
+      @warnings << [e, formula]
+    else
+      @errors << [e, formula]
+    end
+  end
+
+  def print_warnings
+    return if @warnings.empty?
+
+    puts "Rate-limited while verifying (URLs alive, not failures):"
+    @warnings.each do |e, formula|
+      puts "#{formula}, #{e}"
+    end
   end
 
   def print_errors
+    print_warnings
     return if @errors.empty?
 
     @errors.each do |e, formula|
