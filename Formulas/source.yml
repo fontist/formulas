@@ -4,11 +4,11 @@ name: Source
 description: Adobe Source Fonts
 homepage: https://www.adobe.com
 resources:
-  source-fonts-1.4.zip:
+  source-fonts-1.5.zip:
     urls:
-    - https://github.com/fontist/source-fonts/releases/download/v1.4/source-fonts-1.4.zip
-    sha256: 694ed9742701185bb69daa9e6f3798ea4716dc0728e792c183a49a558f84bc2c
-    file_size: 98072287
+    - https://github.com/fontist/source-fonts/releases/download/v1.5/source-fonts-1.5.zip
+    sha256: 287fc3c98fcace7b5e9708f3d7ebe45afba681c842b6bbfb3b3198669036cb87
+    file_size: 98080181
     format: ttf
 font_collections:
 - filename: SourceHanSans-Bold.ttc
@@ -101,6 +101,20 @@ font_collections:
         your use of this Font Software.
       copyright: "© 2014-2025 Adobe (http://www.adobe.com/), with Reserved Font Name
         'Source'."
+  - name: Source Han Sans HC ExtraLight
+    styles:
+    - family_name: Source Han Sans HC ExtraLight
+      type: Regular
+      full_name: Source Han Sans HC ExtraLight
+      post_script_name: SourceHanSansHC-ExtraLight
+      version: 2.005;addfeatures 5.0.0b21
+      description: This Font Software is licensed under the SIL Open Font License,
+        Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT
+        WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL
+        Open Font License for the specific language, permissions and limitations governing
+        your use of this Font Software.
+      copyright: "© 2014-2025 Adobe (http://www.adobe.com/), with Reserved Font Name
+        'Source'."
   - name: Source Han Sans K ExtraLight
     styles:
     - family_name: Source Han Sans K ExtraLight
@@ -141,20 +155,6 @@ font_collections:
       preferred_type: ExtraLight
       full_name: Source Han Sans TC ExtraLight
       post_script_name: SourceHanSansTC-ExtraLight
-      version: 2.005;addfeatures 5.0.0b21
-      description: This Font Software is licensed under the SIL Open Font License,
-        Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT
-        WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL
-        Open Font License for the specific language, permissions and limitations governing
-        your use of this Font Software.
-      copyright: "© 2014-2025 Adobe (http://www.adobe.com/), with Reserved Font Name
-        'Source'."
-  - name: SourceHanSansHC
-    styles:
-    - family_name: SourceHanSansHC
-      type: Regular
-      full_name: SourceHanSansHC
-      post_script_name: SourceHanSansHC-ExtraLight
       version: 2.005;addfeatures 5.0.0b21
       description: This Font Software is licensed under the SIL Open Font License,
         Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT
@@ -1264,5 +1264,5 @@ open_license: |-
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-command: create-formula https://github.com/fontist/source-fonts/releases/download/v1.4/source-fonts-1.4.zip
+command: create-formula https://github.com/fontist/source-fonts/releases/download/v1.5/source-fonts-1.5.zip
 font_version: 2.042;hotconv 1.1.0;makeotfexe 2.6.0
