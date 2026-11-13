@@ -53,7 +53,7 @@ jobs:
             ARGS="$ARGS --group ${{ github.event.inputs.group }}"
           fi
 
-          ruby process/archive_fonts.rb prepare-matrix \
+          bundle exec ruby process/archive_fonts.rb prepare-matrix \
             --chunk-size ${{ github.event.inputs.chunk_size || '50' }} \
             $ARGS > matrix.json
 
@@ -96,7 +96,7 @@ jobs:
             urls = JSON.parse(STDIN.read)
             urls.each { |u| puts u }
           ' | while read -r url; do
-            ruby process/archive_fonts.rb archive "$url" $DRY_RUN \
+            bundle exec ruby process/archive_fonts.rb archive "$url" $DRY_RUN \
               --registry process/archive_registry.yml \
               --json-output results/chunk-${{ matrix.index }}.jsonl
           done
@@ -153,11 +153,11 @@ jobs:
           if [ -d all-results ] && ls all-results/*.jsonl 1>/dev/null 2>&1; then
             mkdir -p results reports
             cp all-results/*.jsonl results/
-            ruby process/archive_fonts.rb report \
+            bundle exec ruby process/archive_fonts.rb report \
               --input-dir results \
               --output results/archive.json \
               --formula-dir Formulas
-            ruby .github/scripts/render_report.rb \
+            bundle exec ruby .github/scripts/render_report.rb \
               --input-dir results \
               --output-dir reports \
               --run-url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
