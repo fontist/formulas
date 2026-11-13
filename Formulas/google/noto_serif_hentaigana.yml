@@ -6,31 +6,17 @@ description: Noto is a global font collection for writing in all modern and anci
   Unicode block. It has 478 glyphs.
 homepage: https://fonts.google.com/specimen/Noto+Serif+Hentaigana
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Noto Serif Hentaigana
     files:
-    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzgwGqxQZWEARdDE.woff2
-    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hztIGqxQZWEARdDE.woff2
-    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzowGqxQZWEARdDE.woff2
-    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzr4GqxQZWEARdDE.woff2
-    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzlIBqxQZWEARdDE.woff2
-    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzmsBqxQZWEARdDE.woff2
-    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzgwBqxQZWEARdDE.woff2
-    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hziUBqxQZWEARdDE.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notoserifhentaigana/NotoSerifHentaigana[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzgwGqxQZWEARdDE.woff2
-    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hztIGqxQZWEARdDE.woff2
-    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzowGqxQZWEARdDE.woff2
-    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzr4GqxQZWEARdDE.woff2
-    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzlIBqxQZWEARdDE.woff2
-    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzmsBqxQZWEARdDE.woff2
-    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzgwBqxQZWEARdDE.woff2
-    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hziUBqxQZWEARdDE.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notoserifhentaigana/NotoSerifHentaigana[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Noto Serif Hentaigana
     files:
@@ -52,8 +38,28 @@ resources:
     - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzgwBqxEZWEARdDE.ttf
     - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hziUBqxEZWEARdDE.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Noto Serif Hentaigana
+    files:
+    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzgwGqxQZWEARdDE.woff2
+    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hztIGqxQZWEARdDE.woff2
+    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzowGqxQZWEARdDE.woff2
+    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzr4GqxQZWEARdDE.woff2
+    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzlIBqxQZWEARdDE.woff2
+    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzmsBqxQZWEARdDE.woff2
+    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzgwBqxQZWEARdDE.woff2
+    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hziUBqxQZWEARdDE.woff2
+    urls:
+    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzgwGqxQZWEARdDE.woff2
+    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hztIGqxQZWEARdDE.woff2
+    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzowGqxQZWEARdDE.woff2
+    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzr4GqxQZWEARdDE.woff2
+    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzlIBqxQZWEARdDE.woff2
+    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzmsBqxQZWEARdDE.woff2
+    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzgwBqxQZWEARdDE.woff2
+    - https://fonts.gstatic.com/s/notoserifhentaigana/v17/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hziUBqxQZWEARdDE.woff2
+    format: woff2
 fonts:
 - name: Noto Serif Hentaigana ExtraLight
   styles:
@@ -71,9 +77,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Serif Hentaigana Light
   styles:
   - family_name: Noto Serif Hentaigana Light
@@ -90,9 +95,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Serif Hentaigana
   styles:
   - family_name: Noto Serif Hentaigana
@@ -107,9 +111,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Noto Serif Hentaigana
     type: Bold
     full_name: Noto Serif Hentaigana Bold
@@ -122,9 +125,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Noto Serif Hentaigana
+    type: Regular
+    full_name: Noto Serif Hentaigana ExtraLight
+    post_script_name: NotoSerifHentaigana-ExtraLight
+    copyright: Copyright 2023 The Noto Project Authors (https://github.com/notofonts/hentaigana)
+    font: NotoSerifHentaigana[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Noto Serif Hentaigana Medium
   styles:
   - family_name: Noto Serif Hentaigana Medium
@@ -141,9 +155,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Serif Hentaigana SemiBold
   styles:
   - family_name: Noto Serif Hentaigana SemiBold
@@ -160,9 +173,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Serif Hentaigana ExtraBold
   styles:
   - family_name: Noto Serif Hentaigana ExtraBold
@@ -179,9 +191,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Serif Hentaigana Black
   styles:
   - family_name: Noto Serif Hentaigana Black
@@ -198,9 +209,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2023 The Noto Project Authors (https://github.com/notofonts/hentaigana)
 spdx_license: OFL-1.1-no-RFN

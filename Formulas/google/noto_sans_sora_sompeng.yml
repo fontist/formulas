@@ -6,23 +6,17 @@ description: Noto is a global font collection for writing in all modern and anci
   in the Indic Sora Sompeng script. It has multiple weights and 42 glyphs.
 homepage: https://fonts.google.com/specimen/Noto+Sans+Sora+Sompeng
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Noto Sans Sora Sompeng
     files:
-    - https://fonts.gstatic.com/s/notosanssorasompeng/v26/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHR818DsZXJQd4Mu.woff2
-    - https://fonts.gstatic.com/s/notosanssorasompeng/v26/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHRO18DsZXJQd4Mu.woff2
-    - https://fonts.gstatic.com/s/notosanssorasompeng/v26/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHSi0MDsZXJQd4Mu.woff2
-    - https://fonts.gstatic.com/s/notosanssorasompeng/v26/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHSb0MDsZXJQd4Mu.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosanssorasompeng/NotoSansSoraSompeng[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/notosanssorasompeng/v26/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHR818DsZXJQd4Mu.woff2
-    - https://fonts.gstatic.com/s/notosanssorasompeng/v26/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHRO18DsZXJQd4Mu.woff2
-    - https://fonts.gstatic.com/s/notosanssorasompeng/v26/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHSi0MDsZXJQd4Mu.woff2
-    - https://fonts.gstatic.com/s/notosanssorasompeng/v26/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHSb0MDsZXJQd4Mu.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosanssorasompeng/NotoSansSoraSompeng[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Noto Sans Sora Sompeng
     files:
@@ -36,8 +30,20 @@ resources:
     - https://fonts.gstatic.com/s/notosanssorasompeng/v26/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHSi0MDpZXJQd4Mu.ttf
     - https://fonts.gstatic.com/s/notosanssorasompeng/v26/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHSb0MDpZXJQd4Mu.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Noto Sans Sora Sompeng
+    files:
+    - https://fonts.gstatic.com/s/notosanssorasompeng/v26/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHR818DsZXJQd4Mu.woff2
+    - https://fonts.gstatic.com/s/notosanssorasompeng/v26/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHRO18DsZXJQd4Mu.woff2
+    - https://fonts.gstatic.com/s/notosanssorasompeng/v26/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHSi0MDsZXJQd4Mu.woff2
+    - https://fonts.gstatic.com/s/notosanssorasompeng/v26/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHSb0MDsZXJQd4Mu.woff2
+    urls:
+    - https://fonts.gstatic.com/s/notosanssorasompeng/v26/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHR818DsZXJQd4Mu.woff2
+    - https://fonts.gstatic.com/s/notosanssorasompeng/v26/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHRO18DsZXJQd4Mu.woff2
+    - https://fonts.gstatic.com/s/notosanssorasompeng/v26/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHSi0MDsZXJQd4Mu.woff2
+    - https://fonts.gstatic.com/s/notosanssorasompeng/v26/PlIRFkO5O6RzLfvNNVSioxM2_OTrEhPyDLolKvCsHzCxWuGkYHSb0MDsZXJQd4Mu.woff2
+    format: woff2
 fonts:
 - name: Noto Sans Sora Sompeng
   styles:
@@ -53,9 +59,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Noto Sans Sora Sompeng
     type: Bold
     full_name: Noto Sans Sora Sompeng Bold
@@ -68,9 +73,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Noto Sans Sora Sompeng
+    type: Regular
+    full_name: Noto Sans Sora Sompeng Regular
+    post_script_name: NotoSansSoraSompeng-Regular
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sora-sompeng)
+    font: NotoSansSoraSompeng[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Noto Sans Sora Sompeng Medium
   styles:
   - family_name: Noto Sans Sora Sompeng Medium
@@ -87,9 +103,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans Sora Sompeng SemiBold
   styles:
   - family_name: Noto Sans Sora Sompeng SemiBold
@@ -106,9 +121,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sora-sompeng)
 spdx_license: OFL-1.1-no-RFN

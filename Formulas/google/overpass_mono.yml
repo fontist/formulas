@@ -18,25 +18,17 @@ description: 'Overpass Mono is a thoughtful, monospaced re-imagining of the Over
   visit https://github.com/RedHatOfficial/Overpass'
 homepage: https://fonts.google.com/specimen/Overpass+Mono
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Overpass Mono
     files:
-    - https://fonts.gstatic.com/s/overpassmono/v21/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EWKokz2Xur-SmIr.woff2
-    - https://fonts.gstatic.com/s/overpassmono/v21/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EXUokz2Xur-SmIr.woff2
-    - https://fonts.gstatic.com/s/overpassmono/v21/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EXmokz2Xur-SmIr.woff2
-    - https://fonts.gstatic.com/s/overpassmono/v21/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EUKpUz2Xur-SmIr.woff2
-    - https://fonts.gstatic.com/s/overpassmono/v21/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EUzpUz2Xur-SmIr.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/overpassmono/OverpassMono[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/overpassmono/v21/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EWKokz2Xur-SmIr.woff2
-    - https://fonts.gstatic.com/s/overpassmono/v21/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EXUokz2Xur-SmIr.woff2
-    - https://fonts.gstatic.com/s/overpassmono/v21/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EXmokz2Xur-SmIr.woff2
-    - https://fonts.gstatic.com/s/overpassmono/v21/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EUKpUz2Xur-SmIr.woff2
-    - https://fonts.gstatic.com/s/overpassmono/v21/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EUzpUz2Xur-SmIr.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/overpassmono/OverpassMono[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Overpass Mono
     files:
@@ -52,8 +44,22 @@ resources:
     - https://fonts.gstatic.com/s/overpassmono/v21/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EUKpUzzXur-SmIr.ttf
     - https://fonts.gstatic.com/s/overpassmono/v21/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EUzpUzzXur-SmIr.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Overpass Mono
+    files:
+    - https://fonts.gstatic.com/s/overpassmono/v21/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EWKokz2Xur-SmIr.woff2
+    - https://fonts.gstatic.com/s/overpassmono/v21/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EXUokz2Xur-SmIr.woff2
+    - https://fonts.gstatic.com/s/overpassmono/v21/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EXmokz2Xur-SmIr.woff2
+    - https://fonts.gstatic.com/s/overpassmono/v21/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EUKpUz2Xur-SmIr.woff2
+    - https://fonts.gstatic.com/s/overpassmono/v21/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EUzpUz2Xur-SmIr.woff2
+    urls:
+    - https://fonts.gstatic.com/s/overpassmono/v21/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EWKokz2Xur-SmIr.woff2
+    - https://fonts.gstatic.com/s/overpassmono/v21/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EXUokz2Xur-SmIr.woff2
+    - https://fonts.gstatic.com/s/overpassmono/v21/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EXmokz2Xur-SmIr.woff2
+    - https://fonts.gstatic.com/s/overpassmono/v21/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EUKpUz2Xur-SmIr.woff2
+    - https://fonts.gstatic.com/s/overpassmono/v21/_Xm5-H86tzKDdAPa-KPQZ-AC_COcRycquHlL6EUzpUz2Xur-SmIr.woff2
+    format: woff2
 fonts:
 - name: Overpass Mono Light
   styles:
@@ -71,9 +77,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Overpass Mono
   styles:
   - family_name: Overpass Mono
@@ -88,9 +93,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Overpass Mono
     type: Bold
     full_name: Overpass Mono Bold
@@ -103,9 +107,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Overpass Mono
+    type: Regular
+    full_name: Overpass Mono Light
+    post_script_name: OverpassMono-Light
+    copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
+    font: OverpassMono[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Overpass Mono Medium
   styles:
   - family_name: Overpass Mono Medium
@@ -122,9 +137,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Overpass Mono SemiBold
   styles:
   - family_name: Overpass Mono SemiBold
@@ -141,9 +155,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)
 spdx_license: OFL-1.1-no-RFN

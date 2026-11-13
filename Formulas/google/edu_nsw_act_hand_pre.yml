@@ -4,23 +4,7 @@ schema_version: 5
 description: Edu NSW ACT Hand Pre font family
 homepage: https://fonts.google.com/specimen/Edu+NSW+ACT+Hand+Pre
 resources:
-  woff2_variable:
-    source: google
-    family: Edu NSW ACT Hand Pre
-    files:
-    - https://fonts.gstatic.com/s/edunswacthandpre/v3/kmKXZrI-ExGJWUmupHwGgw6Qw4svl-MsLiw7ATFEXwCkLE0ywWBqs8jedKEHuQ.woff2
-    - https://fonts.gstatic.com/s/edunswacthandpre/v3/kmKXZrI-ExGJWUmupHwGgw6Qw4svl-MsLiw7ATFEXwCkLE0y82Bqs8jedKEHuQ.woff2
-    - https://fonts.gstatic.com/s/edunswacthandpre/v3/kmKXZrI-ExGJWUmupHwGgw6Qw4svl-MsLiw7ATFEXwCkLE0yH2dqs8jedKEHuQ.woff2
-    - https://fonts.gstatic.com/s/edunswacthandpre/v3/kmKXZrI-ExGJWUmupHwGgw6Qw4svl-MsLiw7ATFEXwCkLE0yJmdqs8jedKEHuQ.woff2
-    urls:
-    - https://fonts.gstatic.com/s/edunswacthandpre/v3/kmKXZrI-ExGJWUmupHwGgw6Qw4svl-MsLiw7ATFEXwCkLE0ywWBqs8jedKEHuQ.woff2
-    - https://fonts.gstatic.com/s/edunswacthandpre/v3/kmKXZrI-ExGJWUmupHwGgw6Qw4svl-MsLiw7ATFEXwCkLE0y82Bqs8jedKEHuQ.woff2
-    - https://fonts.gstatic.com/s/edunswacthandpre/v3/kmKXZrI-ExGJWUmupHwGgw6Qw4svl-MsLiw7ATFEXwCkLE0yH2dqs8jedKEHuQ.woff2
-    - https://fonts.gstatic.com/s/edunswacthandpre/v3/kmKXZrI-ExGJWUmupHwGgw6Qw4svl-MsLiw7ATFEXwCkLE0yJmdqs8jedKEHuQ.woff2
-    format: woff2
-    variable_axes:
-    - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Edu NSW ACT Hand Pre
     files:
@@ -34,8 +18,20 @@ resources:
     - https://fonts.gstatic.com/s/edunswacthandpre/v3/kmKXZrI-ExGJWUmupHwGgw6Qw4svl-MsLiw7ATFEXwCkLE0yH2dqtsjedKEHuQ.ttf
     - https://fonts.gstatic.com/s/edunswacthandpre/v3/kmKXZrI-ExGJWUmupHwGgw6Qw4svl-MsLiw7ATFEXwCkLE0yJmdqtsjedKEHuQ.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Edu NSW ACT Hand Pre
+    files:
+    - https://fonts.gstatic.com/s/edunswacthandpre/v3/kmKXZrI-ExGJWUmupHwGgw6Qw4svl-MsLiw7ATFEXwCkLE0ywWBqs8jedKEHuQ.woff2
+    - https://fonts.gstatic.com/s/edunswacthandpre/v3/kmKXZrI-ExGJWUmupHwGgw6Qw4svl-MsLiw7ATFEXwCkLE0y82Bqs8jedKEHuQ.woff2
+    - https://fonts.gstatic.com/s/edunswacthandpre/v3/kmKXZrI-ExGJWUmupHwGgw6Qw4svl-MsLiw7ATFEXwCkLE0yH2dqs8jedKEHuQ.woff2
+    - https://fonts.gstatic.com/s/edunswacthandpre/v3/kmKXZrI-ExGJWUmupHwGgw6Qw4svl-MsLiw7ATFEXwCkLE0yJmdqs8jedKEHuQ.woff2
+    urls:
+    - https://fonts.gstatic.com/s/edunswacthandpre/v3/kmKXZrI-ExGJWUmupHwGgw6Qw4svl-MsLiw7ATFEXwCkLE0ywWBqs8jedKEHuQ.woff2
+    - https://fonts.gstatic.com/s/edunswacthandpre/v3/kmKXZrI-ExGJWUmupHwGgw6Qw4svl-MsLiw7ATFEXwCkLE0y82Bqs8jedKEHuQ.woff2
+    - https://fonts.gstatic.com/s/edunswacthandpre/v3/kmKXZrI-ExGJWUmupHwGgw6Qw4svl-MsLiw7ATFEXwCkLE0yH2dqs8jedKEHuQ.woff2
+    - https://fonts.gstatic.com/s/edunswacthandpre/v3/kmKXZrI-ExGJWUmupHwGgw6Qw4svl-MsLiw7ATFEXwCkLE0yJmdqs8jedKEHuQ.woff2
+    format: woff2
 fonts:
 - name: Edu NSW ACT Hand Pre
   styles:
@@ -51,9 +47,7 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
   - family_name: Edu NSW ACT Hand Pre
     type: Bold
     full_name: Edu NSW ACT Hand Pre Bold
@@ -66,9 +60,7 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
 - name: Edu NSW ACT Hand Pre Medium
   styles:
   - family_name: Edu NSW ACT Hand Pre Medium
@@ -85,9 +77,7 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
 - name: Edu NSW ACT Hand Pre SemiBold
   styles:
   - family_name: Edu NSW ACT Hand Pre SemiBold
@@ -104,9 +94,7 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
 extract: {}
 copyright: Copyright 2023 The NSW ACT School Hand Australia Project Authors (https://github.com/SorkinType/NSWACTSchoolHandAustralia)
 spdx_license: OFL-1.1-no-RFN

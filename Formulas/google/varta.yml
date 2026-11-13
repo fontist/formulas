@@ -10,25 +10,17 @@ description: Varta is a sans serif family that fuses warm humanity with bright c
   see https://github.com/SorkinType/Varta Varta is published by Sorkin Type .
 homepage: https://fonts.google.com/specimen/Varta
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Varta
     files:
-    - https://fonts.gstatic.com/s/varta/v25/Qw3AZQpJHj_6LzHUngWbrFkDH1x96j4Ej7E-9PGLfQ.woff2
-    - https://fonts.gstatic.com/s/varta/v25/Qw3AZQpJHj_6LzHUngWbrFkDH1x9tD4Ej7E-9PGLfQ.woff2
-    - https://fonts.gstatic.com/s/varta/v25/Qw3AZQpJHj_6LzHUngWbrFkDH1x9hj4Ej7E-9PGLfQ.woff2
-    - https://fonts.gstatic.com/s/varta/v25/Qw3AZQpJHj_6LzHUngWbrFkDH1x9ajkEj7E-9PGLfQ.woff2
-    - https://fonts.gstatic.com/s/varta/v25/Qw3AZQpJHj_6LzHUngWbrFkDH1x9UzkEj7E-9PGLfQ.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/varta/Varta[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/varta/v25/Qw3AZQpJHj_6LzHUngWbrFkDH1x96j4Ej7E-9PGLfQ.woff2
-    - https://fonts.gstatic.com/s/varta/v25/Qw3AZQpJHj_6LzHUngWbrFkDH1x9tD4Ej7E-9PGLfQ.woff2
-    - https://fonts.gstatic.com/s/varta/v25/Qw3AZQpJHj_6LzHUngWbrFkDH1x9hj4Ej7E-9PGLfQ.woff2
-    - https://fonts.gstatic.com/s/varta/v25/Qw3AZQpJHj_6LzHUngWbrFkDH1x9ajkEj7E-9PGLfQ.woff2
-    - https://fonts.gstatic.com/s/varta/v25/Qw3AZQpJHj_6LzHUngWbrFkDH1x9UzkEj7E-9PGLfQ.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/varta/Varta[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Varta
     files:
@@ -44,8 +36,22 @@ resources:
     - https://fonts.gstatic.com/s/varta/v25/Qw3AZQpJHj_6LzHUngWbrFkDH1x9ajkEirE-9PGLfQ.ttf
     - https://fonts.gstatic.com/s/varta/v25/Qw3AZQpJHj_6LzHUngWbrFkDH1x9UzkEirE-9PGLfQ.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Varta
+    files:
+    - https://fonts.gstatic.com/s/varta/v25/Qw3AZQpJHj_6LzHUngWbrFkDH1x96j4Ej7E-9PGLfQ.woff2
+    - https://fonts.gstatic.com/s/varta/v25/Qw3AZQpJHj_6LzHUngWbrFkDH1x9tD4Ej7E-9PGLfQ.woff2
+    - https://fonts.gstatic.com/s/varta/v25/Qw3AZQpJHj_6LzHUngWbrFkDH1x9hj4Ej7E-9PGLfQ.woff2
+    - https://fonts.gstatic.com/s/varta/v25/Qw3AZQpJHj_6LzHUngWbrFkDH1x9ajkEj7E-9PGLfQ.woff2
+    - https://fonts.gstatic.com/s/varta/v25/Qw3AZQpJHj_6LzHUngWbrFkDH1x9UzkEj7E-9PGLfQ.woff2
+    urls:
+    - https://fonts.gstatic.com/s/varta/v25/Qw3AZQpJHj_6LzHUngWbrFkDH1x96j4Ej7E-9PGLfQ.woff2
+    - https://fonts.gstatic.com/s/varta/v25/Qw3AZQpJHj_6LzHUngWbrFkDH1x9tD4Ej7E-9PGLfQ.woff2
+    - https://fonts.gstatic.com/s/varta/v25/Qw3AZQpJHj_6LzHUngWbrFkDH1x9hj4Ej7E-9PGLfQ.woff2
+    - https://fonts.gstatic.com/s/varta/v25/Qw3AZQpJHj_6LzHUngWbrFkDH1x9ajkEj7E-9PGLfQ.woff2
+    - https://fonts.gstatic.com/s/varta/v25/Qw3AZQpJHj_6LzHUngWbrFkDH1x9UzkEj7E-9PGLfQ.woff2
+    format: woff2
 fonts:
 - name: Varta Light
   styles:
@@ -63,9 +69,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Varta
   styles:
   - family_name: Varta
@@ -80,9 +85,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Varta
     type: Bold
     full_name: Varta Bold
@@ -95,9 +99,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Varta
+    type: Regular
+    full_name: Varta Light
+    post_script_name: Varta-Light
+    copyright: Copyright 2019 The Varta Project Authors (https://github.com/SorkinType/Varta)
+    font: Varta[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Varta Medium
   styles:
   - family_name: Varta Medium
@@ -114,9 +129,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Varta SemiBold
   styles:
   - family_name: Varta SemiBold
@@ -133,9 +147,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2019 The Varta Project Authors (https://github.com/SorkinType/Varta)
 spdx_license: OFL-1.1-no-RFN

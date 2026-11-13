@@ -4,30 +4,18 @@ schema_version: 5
 description: Kalnia font family
 homepage: https://fonts.google.com/specimen/Kalnia
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Kalnia
     files:
-    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW9il2xUGNcykIZc.woff2
-    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW_ilmxUGNcykIZc.woff2
-    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW88lmxUGNcykIZc.woff2
-    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW9ilmxUGNcykIZc.woff2
-    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW9QlmxUGNcykIZc.woff2
-    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW-8kWxUGNcykIZc.woff2
-    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW-FkWxUGNcykIZc.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/kalnia/Kalnia[wdth,wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW9il2xUGNcykIZc.woff2
-    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW_ilmxUGNcykIZc.woff2
-    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW88lmxUGNcykIZc.woff2
-    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW9ilmxUGNcykIZc.woff2
-    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW9QlmxUGNcykIZc.woff2
-    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW-8kWxUGNcykIZc.woff2
-    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW-FkWxUGNcykIZc.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/kalnia/Kalnia[wdth,wght].ttf
+    format: ttf
     variable_axes:
     - wdth
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Kalnia
     files:
@@ -47,9 +35,26 @@ resources:
     - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW-8kWxRGNcykIZc.ttf
     - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW-FkWxRGNcykIZc.ttf
     format: ttf
-    variable_axes:
-    - wdth
-    - wght
+  woff2_static:
+    source: google
+    family: Kalnia
+    files:
+    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW9il2xUGNcykIZc.woff2
+    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW_ilmxUGNcykIZc.woff2
+    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW88lmxUGNcykIZc.woff2
+    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW9ilmxUGNcykIZc.woff2
+    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW9QlmxUGNcykIZc.woff2
+    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW-8kWxUGNcykIZc.woff2
+    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW-FkWxUGNcykIZc.woff2
+    urls:
+    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW9il2xUGNcykIZc.woff2
+    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW_ilmxUGNcykIZc.woff2
+    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW88lmxUGNcykIZc.woff2
+    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW9ilmxUGNcykIZc.woff2
+    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW9QlmxUGNcykIZc.woff2
+    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW-8kWxUGNcykIZc.woff2
+    - https://fonts.gstatic.com/s/kalnia/v6/11hqGpPCwUbbYwZZP0RBuDY62BQZhjvOytM_sLzi-TFWAW-FkWxUGNcykIZc.woff2
+    format: woff2
 fonts:
 - name: Kalnia Thin
   styles:
@@ -67,10 +72,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Kalnia ExtraLight
   styles:
   - family_name: Kalnia ExtraLight
@@ -87,10 +90,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Kalnia Light
   styles:
   - family_name: Kalnia Light
@@ -107,10 +108,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Kalnia
   styles:
   - family_name: Kalnia
@@ -125,10 +124,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Kalnia
     type: Bold
     full_name: Kalnia Bold
@@ -141,10 +138,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Kalnia
+    type: Regular
+    full_name: Kalnia Thin
+    post_script_name: Kalnia-Thin
+    copyright: Copyright 2022 The Kalnia Project Authors (https://github.com/fridamedrano/Kalnia-Typeface.git)
+    font: Kalnia[wdth,wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wdth
     - wght
+    source_resource: ttf_variable
 - name: Kalnia Medium
   styles:
   - family_name: Kalnia Medium
@@ -161,10 +169,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Kalnia SemiBold
   styles:
   - family_name: Kalnia SemiBold
@@ -181,10 +187,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wdth
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Kalnia Project Authors (https://github.com/fridamedrano/Kalnia-Typeface.git)
 spdx_license: OFL-1.1-no-RFN

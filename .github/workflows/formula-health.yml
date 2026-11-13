@@ -78,8 +78,11 @@ jobs:
       - name: Schema Validation
         id: schema
         run: |
+          mkdir -p results
           echo "::group::Schema Validation"
-          ruby .github/scripts/validate_schema.rb --directory Formulas 2>&1 | tee schema-results.txt
+          ruby .github/scripts/validate_schema.rb \
+            --directory Formulas \
+            --json-output results/schema.json 2>&1 | tee schema-results.txt
           echo "::endgroup::"
 
           # Check for failures
@@ -97,7 +100,8 @@ jobs:
           ruby .github/scripts/check_urls.rb \
             --directory Formulas/google \
             --timeout 15 \
-            --verbose 2>&1 | tee url-results.txt
+            --verbose \
+            --json-output results/urls.json 2>&1 | tee url-results.txt
           echo "::endgroup::"
 
           # Check for failures
@@ -115,6 +119,7 @@ jobs:
           path: |
             schema-results.txt
             url-results.txt
+            results/
           retention-days: 30
 
       - name: Summary
@@ -191,6 +196,7 @@ jobs:
         continue-on-error: true
         run: |
           echo "::group::Installation Test - Rotation Day ${{ steps.config.outputs.rotation_day }}"
+          mkdir -p results
 
           # Build the command
           CMD="bundle exec ruby .github/scripts/install_formulas.rb"
@@ -200,6 +206,7 @@ jobs:
           CMD="${CMD} --continue-on-error"
           CMD="${CMD} ${{ steps.config.outputs.extra_args }}"
           CMD="${CMD} --output install-results-${{ steps.config.outputs.platform }}.yml"
+          CMD="${CMD} --json-output results/install-${{ steps.config.outputs.platform }}.json"
 
           echo "Running: ${CMD}"
           ${CMD} 2>&1 | tee install-output.txt
@@ -221,6 +228,7 @@ jobs:
           path: |
             install-output.txt
             install-results-${{ steps.config.outputs.platform }}.yml
+            results/
           retention-days: 30
 
       - name: Summary
@@ -286,6 +294,7 @@ jobs:
         timeout-minutes: 360
         run: |
           echo "::group::Full Formula Scan (${{ steps.config.outputs.platform }})"
+          mkdir -p results
 
           CMD="bundle exec ruby .github/scripts/install_formulas.rb"
           CMD="${CMD} --directory Formulas"
@@ -293,6 +302,7 @@ jobs:
           CMD="${CMD} --platform ${{ steps.config.outputs.platform }}"
           CMD="${CMD} --continue-on-error"
           CMD="${CMD} --output full-scan-${{ steps.config.outputs.platform }}.yml"
+          CMD="${CMD} --json-output results/full-scan-${{ steps.config.outputs.platform }}.json"
 
           echo "Running: ${CMD}"
           ${CMD} 2>&1 | tee scan-output.txt
@@ -355,6 +365,7 @@ jobs:
             scan-output.txt
             full-scan-${{ steps.config.outputs.platform }}.yml
             failure-report.txt
+            results/
           retention-days: 90
 
       - name: Summary
@@ -372,26 +383,89 @@ jobs:
           fi
 
   # ===========================================================================
-  # Report: Aggregate results and create issue on failure
+  # Render: Aggregate per-tier JSON results into rendered markdown reports
+  # and a health.json consumed by the docs dashboard.
   # ===========================================================================
-  report:
-    name: Report Results
+  render-reports:
+    name: Render Reports
     runs-on: ubuntu-latest
     needs: [tier1-validation, tier2-installation, tier2-full-scan]
-    if: always() && (needs.tier1-validation.result == 'failure' || needs.tier2-installation.result == 'failure' || needs.tier2-full-scan.result == 'failure')
+    if: always()
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download all artifacts
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ env.RUBY_VERSION }}
+          bundler-cache: true
+
+      - name: Download all tier artifacts
         uses: actions/download-artifact@v4
         with:
-          path: results
+          path: all-results/
+
+      - name: Consolidate JSON results
+        run: |
+          mkdir -p results
+          # All tier artifacts contain a results/ subdir with their JSON output.
+          # Flatten them into a single results/ dir for the renderer.
+          find all-results -name "*.json" -type f -print -exec cp {} results/ \;
+          echo "Consolidated JSON files:"
+          ls -1 results/
+
+      - name: Render reports
+        id: render
+        run: |
+          mkdir -p reports
+          ruby .github/scripts/render_report.rb \
+            --input-dir results/ \
+            --output-dir reports/ \
+            --run-url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            --commit-sha "${{ github.sha }}"
+
+          # Surface pass/fail for downstream jobs
+          if ruby -rjson -e 'exit(JSON.parse(File.read("reports/health.json"))["totals"]["checks_failed"].zero? ? 0 : 1)'; then
+            echo "all_passed=true" >> $GITHUB_OUTPUT
+          else
+            echo "all_passed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Step summary
+        if: always()
+        run: cat reports/step-summary.md >> $GITHUB_STEP_SUMMARY
+
+      - name: Upload rendered reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: rendered-reports
+          path: |
+            reports/
+            results/
+          retention-days: 30
+
+  # ===========================================================================
+  # Report: Create or update GitHub issue with full failure details
+  # ===========================================================================
+  report:
+    name: Report Results
+    runs-on: ubuntu-latest
+    needs: [tier1-validation, tier2-installation, tier2-full-scan, render-reports]
+    if: always() && needs.render-reports.result == 'success' && needs.render-reports.outputs.all_passed != 'true'
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download rendered reports
+        uses: actions/download-artifact@v4
+        with:
+          name: rendered-reports
+          path: reports/
 
       - name: Check for repeated failures
         id: check
         run: |
-          # Look for existing open issue with same title pattern
+          # Look for existing open issue with same label
           ISSUE_NUMBER=$(gh issue list \
             --repo ${{ github.repository }} \
             --state open \
@@ -411,55 +485,28 @@ jobs:
 
       - name: Create or update issue
         run: |
-          # Build issue body with failure details
-          cat > issue-body.md << EOF
-          ## Formula Health Check Failed
+          # Use the pre-rendered issue body from render-reports
+          cp reports/issue-body.md final-issue-body.md
 
-          The periodic formula health check detected failures.
-
-          **Workflow Run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-
-          ### Tier 1 Validation
-          Status: ${{ needs.tier1-validation.result }}
-
-          ### Tier 2 Installation
-          Status: ${{ needs.tier2-installation.result }}
-
-          ### Tier 2 Full Scan
-          Status: ${{ needs.tier2-full-scan.result }}
-          EOF
-
-          # Append full scan failure details if available
-          for platform in linux macos windows; do
-            report_file="results/full-scan-${platform}/failure-report.txt"
-            if [ -f "$report_file" ] && grep -q "FAILED FORMULAS" "$report_file"; then
-              echo "" >> issue-body.md
-              echo "### Full Scan Failures (${platform})" >> issue-body.md
-              echo '```' >> issue-body.md
-              cat "$report_file" >> issue-body.md
-              echo '```' >> issue-body.md
-            fi
-          done
-
-          echo "" >> issue-body.md
-          echo "### Artifacts" >> issue-body.md
-          echo "- [Download results](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}#artifacts)" >> issue-body.md
-          echo "" >> issue-body.md
-          echo "---" >> issue-body.md
-          echo "*This issue was automatically created by the formula-health workflow.*" >> issue-body.md
-          echo "*It will be auto-closed when all health checks pass.*" >> issue-body.md
+          # Append artifacts pointer
+          {
+            echo ""
+            echo "### Artifacts"
+            echo "- [Download full results](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}#artifacts)"
+            echo ""
+            echo "_This issue is automatically updated by the formula-health workflow._"
+            echo "_It will be auto-closed when all health checks pass._"
+          } >> final-issue-body.md
 
           if [ "${{ steps.check.outputs.is_existing }}" == "true" ]; then
-            # Update existing issue with comment
             gh issue comment ${{ steps.check.outputs.issue_number }} \
               --repo ${{ github.repository }} \
-              --body-file issue-body.md
+              --body-file final-issue-body.md
           else
-            # Create new issue
             gh issue create \
               --repo ${{ github.repository }} \
               --title "Formula Health Check Failed - $(date +%Y-%m-%d)" \
-              --body-file issue-body.md \
+              --body-file final-issue-body.md \
               --label "formula-health-failure,automated"
           fi
         env:
@@ -469,16 +516,16 @@ jobs:
         run: |
           echo "## Health Check Report" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "Issues detected. A GitHub issue has been created/updated." >> $GITHUB_STEP_SUMMARY
+          echo "Failures detected. A GitHub issue has been created or updated." >> $GITHUB_STEP_SUMMARY
 
   # ===========================================================================
-  # Close issue on success (optional)
+  # Close issue on success
   # ===========================================================================
   close-issue-on-success:
     name: Close Issue on Success
     runs-on: ubuntu-latest
-    needs: [tier1-validation, tier2-installation, tier2-full-scan]
-    if: always() && needs.tier1-validation.result == 'success' && (needs.tier2-installation.result == 'success' || needs.tier2-installation.result == 'skipped') && (needs.tier2-full-scan.result == 'success' || needs.tier2-full-scan.result == 'skipped')
+    needs: [tier1-validation, tier2-installation, tier2-full-scan, render-reports]
+    if: always() && needs.render-reports.result == 'success' && needs.render-reports.outputs.all_passed == 'true'
 
     steps:
       - name: Close existing health check issues
@@ -492,7 +539,7 @@ jobs:
             --jq '.[].number' | while read issue_number; do
               gh issue close $issue_number \
                 --repo ${{ github.repository }} \
-                --comment "✅ All formula health checks are now passing. Closing this issue."
+                --comment "All formula health checks are now passing. Closing this issue."
             done
         env:
           GH_TOKEN: ${{ github.token }}

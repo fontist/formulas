@@ -4,17 +4,17 @@ schema_version: 5
 description: Agu Display font family
 homepage: https://fonts.google.com/specimen/Agu+Display
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Agu Display
     files:
-    - https://fonts.gstatic.com/s/agudisplay/v3/iJWXBXKbbi6BeMC1_RX7qF_V5E7aciGRRWUwX4ftlK9LM6y8Zg.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/agudisplay/AguDisplay[MORF].ttf
     urls:
-    - https://fonts.gstatic.com/s/agudisplay/v3/iJWXBXKbbi6BeMC1_RX7qF_V5E7aciGRRWUwX4ftlK9LM6y8Zg.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/agudisplay/AguDisplay[MORF].ttf
+    format: ttf
     variable_axes:
     - MORF
-  ttf_variable:
+  ttf_static:
     source: google
     family: Agu Display
     files:
@@ -22,8 +22,14 @@ resources:
     urls:
     - https://fonts.gstatic.com/s/agudisplay/v3/iJWXBXKbbi6BeMC1_RX7qF_V5E7aciGRRWUwX4ftka9LM6y8Zg.ttf
     format: ttf
-    variable_axes:
-    - MORF
+  woff2_static:
+    source: google
+    family: Agu Display
+    files:
+    - https://fonts.gstatic.com/s/agudisplay/v3/iJWXBXKbbi6BeMC1_RX7qF_V5E7aciGRRWUwX4ftlK9LM6y8Zg.woff2
+    urls:
+    - https://fonts.gstatic.com/s/agudisplay/v3/iJWXBXKbbi6BeMC1_RX7qF_V5E7aciGRRWUwX4ftlK9LM6y8Zg.woff2
+    format: woff2
 fonts:
 - name: Agu Display
   styles:
@@ -39,9 +45,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Agu Display
+    type: Regular
+    full_name: Agu Display Uzo
+    post_script_name: AguDisplay-Uzo
+    copyright: Copyright 2024 The Agu Display Project Authors (https://github.com/theseunbadejo/Agu-Display)
+    font: AguDisplay[MORF].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - MORF
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2024 The Agu Display Project Authors (https://github.com/theseunbadejo/Agu-Display)
 spdx_license: OFL-1.1-no-RFN

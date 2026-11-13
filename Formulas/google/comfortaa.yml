@@ -10,25 +10,17 @@ description: Comfortaa is a rounded geometric sans-serif type design intended fo
   using my font!
 homepage: https://fonts.google.com/specimen/Comfortaa
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Comfortaa
     files:
-    - https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4TbMPrEVIT9c2c8.woff2
-    - https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMPrEVIT9c2c8.woff2
-    - https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4VrMPrEVIT9c2c8.woff2
-    - https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4bbLPrEVIT9c2c8.woff2
-    - https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4Y_LPrEVIT9c2c8.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/comfortaa/Comfortaa[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4TbMPrEVIT9c2c8.woff2
-    - https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMPrEVIT9c2c8.woff2
-    - https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4VrMPrEVIT9c2c8.woff2
-    - https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4bbLPrEVIT9c2c8.woff2
-    - https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4Y_LPrEVIT9c2c8.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/comfortaa/Comfortaa[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Comfortaa
     files:
@@ -44,8 +36,22 @@ resources:
     - https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4bbLPrQVIT9c2c8.ttf
     - https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4Y_LPrQVIT9c2c8.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Comfortaa
+    files:
+    - https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4TbMPrEVIT9c2c8.woff2
+    - https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMPrEVIT9c2c8.woff2
+    - https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4VrMPrEVIT9c2c8.woff2
+    - https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4bbLPrEVIT9c2c8.woff2
+    - https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4Y_LPrEVIT9c2c8.woff2
+    urls:
+    - https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4TbMPrEVIT9c2c8.woff2
+    - https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMPrEVIT9c2c8.woff2
+    - https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4VrMPrEVIT9c2c8.woff2
+    - https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4bbLPrEVIT9c2c8.woff2
+    - https://fonts.gstatic.com/s/comfortaa/v47/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4Y_LPrEVIT9c2c8.woff2
+    format: woff2
 fonts:
 - name: Comfortaa Light
   styles:
@@ -64,9 +70,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Comfortaa
   styles:
   - family_name: Comfortaa
@@ -82,9 +87,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Comfortaa
     type: Bold
     full_name: Comfortaa Bold
@@ -98,9 +102,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Comfortaa
+    type: Regular
+    full_name: Comfortaa Regular
+    post_script_name: Comfortaa-Regular
+    copyright: Copyright 2011 The Comfortaa Project Authors (https://github.com/alexeiva/comfortaa),
+      with Reserved Font Name "Comfortaa".
+    font: Comfortaa[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Comfortaa Medium
   styles:
   - family_name: Comfortaa Medium
@@ -118,9 +134,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Comfortaa SemiBold
   styles:
   - family_name: Comfortaa SemiBold
@@ -138,9 +153,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2011 The Comfortaa Project Authors (https://github.com/alexeiva/comfortaa),
   with Reserved Font Name "Comfortaa".

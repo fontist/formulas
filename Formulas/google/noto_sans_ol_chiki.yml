@@ -6,23 +6,17 @@ description: Noto is a global font collection for writing in all modern and anci
   in the Indic Ol Chiki script. It has multiple weights and 55 glyphs.
 homepage: https://fonts.google.com/specimen/Noto+Sans+Ol+Chiki
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Noto Sans Ol Chiki
     files:
-    - https://fonts.gstatic.com/s/notosansolchiki/v31/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALWk267c6gVrz5gQ.woff2
-    - https://fonts.gstatic.com/s/notosansolchiki/v31/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALVs267c6gVrz5gQ.woff2
-    - https://fonts.gstatic.com/s/notosansolchiki/v31/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALbcx67c6gVrz5gQ.woff2
-    - https://fonts.gstatic.com/s/notosansolchiki/v31/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALY4x67c6gVrz5gQ.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosansolchiki/NotoSansOlChiki[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/notosansolchiki/v31/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALWk267c6gVrz5gQ.woff2
-    - https://fonts.gstatic.com/s/notosansolchiki/v31/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALVs267c6gVrz5gQ.woff2
-    - https://fonts.gstatic.com/s/notosansolchiki/v31/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALbcx67c6gVrz5gQ.woff2
-    - https://fonts.gstatic.com/s/notosansolchiki/v31/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALY4x67c6gVrz5gQ.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosansolchiki/NotoSansOlChiki[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Noto Sans Ol Chiki
     files:
@@ -36,8 +30,20 @@ resources:
     - https://fonts.gstatic.com/s/notosansolchiki/v31/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALbcx67I6gVrz5gQ.ttf
     - https://fonts.gstatic.com/s/notosansolchiki/v31/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALY4x67I6gVrz5gQ.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Noto Sans Ol Chiki
+    files:
+    - https://fonts.gstatic.com/s/notosansolchiki/v31/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALWk267c6gVrz5gQ.woff2
+    - https://fonts.gstatic.com/s/notosansolchiki/v31/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALVs267c6gVrz5gQ.woff2
+    - https://fonts.gstatic.com/s/notosansolchiki/v31/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALbcx67c6gVrz5gQ.woff2
+    - https://fonts.gstatic.com/s/notosansolchiki/v31/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALY4x67c6gVrz5gQ.woff2
+    urls:
+    - https://fonts.gstatic.com/s/notosansolchiki/v31/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALWk267c6gVrz5gQ.woff2
+    - https://fonts.gstatic.com/s/notosansolchiki/v31/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALVs267c6gVrz5gQ.woff2
+    - https://fonts.gstatic.com/s/notosansolchiki/v31/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALbcx67c6gVrz5gQ.woff2
+    - https://fonts.gstatic.com/s/notosansolchiki/v31/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALY4x67c6gVrz5gQ.woff2
+    format: woff2
 fonts:
 - name: Noto Sans Ol Chiki
   styles:
@@ -53,9 +59,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Noto Sans Ol Chiki
     type: Bold
     full_name: Noto Sans Ol Chiki Bold
@@ -68,9 +73,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Noto Sans Ol Chiki
+    type: Regular
+    full_name: Noto Sans Ol Chiki Regular
+    post_script_name: NotoSansOlChiki-Regular
+    copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/ol-chiki)
+    font: NotoSansOlChiki[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Noto Sans Ol Chiki Medium
   styles:
   - family_name: Noto Sans Ol Chiki Medium
@@ -87,9 +103,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Noto Sans Ol Chiki SemiBold
   styles:
   - family_name: Noto Sans Ol Chiki SemiBold
@@ -106,9 +121,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/ol-chiki)
 spdx_license: OFL-1.1-no-RFN

@@ -4,23 +4,17 @@ schema_version: 5
 description: Playwrite NZ Basic font family
 homepage: https://fonts.google.com/specimen/Playwrite+NZ+Basic
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Playwrite NZ Basic
     files:
-    - https://fonts.gstatic.com/s/playwritenzbasic/v1/YcmesYdNS1SdgmHbGgtRtk4ljD2L-0t3tsFaQT-eokVSUi0LLohfcbg5URU.woff2
-    - https://fonts.gstatic.com/s/playwritenzbasic/v1/YcmesYdNS1SdgmHbGgtRtk4ljD2L-0t3tsFaQT-eokVSUq0KLohfcbg5URU.woff2
-    - https://fonts.gstatic.com/s/playwritenzbasic/v1/YcmesYdNS1SdgmHbGgtRtk4ljD2L-0t3tsFaQT-eokVSUnMKLohfcbg5URU.woff2
-    - https://fonts.gstatic.com/s/playwritenzbasic/v1/YcmesYdNS1SdgmHbGgtRtk4ljD2L-0t3tsFaQT-eokVSUi0KLohfcbg5URU.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playwritenzbasic/PlaywriteNZBasic[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/playwritenzbasic/v1/YcmesYdNS1SdgmHbGgtRtk4ljD2L-0t3tsFaQT-eokVSUi0LLohfcbg5URU.woff2
-    - https://fonts.gstatic.com/s/playwritenzbasic/v1/YcmesYdNS1SdgmHbGgtRtk4ljD2L-0t3tsFaQT-eokVSUq0KLohfcbg5URU.woff2
-    - https://fonts.gstatic.com/s/playwritenzbasic/v1/YcmesYdNS1SdgmHbGgtRtk4ljD2L-0t3tsFaQT-eokVSUnMKLohfcbg5URU.woff2
-    - https://fonts.gstatic.com/s/playwritenzbasic/v1/YcmesYdNS1SdgmHbGgtRtk4ljD2L-0t3tsFaQT-eokVSUi0KLohfcbg5URU.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/playwritenzbasic/PlaywriteNZBasic[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Playwrite NZ Basic
     files:
@@ -34,8 +28,20 @@ resources:
     - https://fonts.gstatic.com/s/playwritenzbasic/v1/YcmesYdNS1SdgmHbGgtRtk4ljD2L-0t3tsFaQT-eokVSUnMKLo1fcbg5URU.ttf
     - https://fonts.gstatic.com/s/playwritenzbasic/v1/YcmesYdNS1SdgmHbGgtRtk4ljD2L-0t3tsFaQT-eokVSUi0KLo1fcbg5URU.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Playwrite NZ Basic
+    files:
+    - https://fonts.gstatic.com/s/playwritenzbasic/v1/YcmesYdNS1SdgmHbGgtRtk4ljD2L-0t3tsFaQT-eokVSUi0LLohfcbg5URU.woff2
+    - https://fonts.gstatic.com/s/playwritenzbasic/v1/YcmesYdNS1SdgmHbGgtRtk4ljD2L-0t3tsFaQT-eokVSUq0KLohfcbg5URU.woff2
+    - https://fonts.gstatic.com/s/playwritenzbasic/v1/YcmesYdNS1SdgmHbGgtRtk4ljD2L-0t3tsFaQT-eokVSUnMKLohfcbg5URU.woff2
+    - https://fonts.gstatic.com/s/playwritenzbasic/v1/YcmesYdNS1SdgmHbGgtRtk4ljD2L-0t3tsFaQT-eokVSUi0KLohfcbg5URU.woff2
+    urls:
+    - https://fonts.gstatic.com/s/playwritenzbasic/v1/YcmesYdNS1SdgmHbGgtRtk4ljD2L-0t3tsFaQT-eokVSUi0LLohfcbg5URU.woff2
+    - https://fonts.gstatic.com/s/playwritenzbasic/v1/YcmesYdNS1SdgmHbGgtRtk4ljD2L-0t3tsFaQT-eokVSUq0KLohfcbg5URU.woff2
+    - https://fonts.gstatic.com/s/playwritenzbasic/v1/YcmesYdNS1SdgmHbGgtRtk4ljD2L-0t3tsFaQT-eokVSUnMKLohfcbg5URU.woff2
+    - https://fonts.gstatic.com/s/playwritenzbasic/v1/YcmesYdNS1SdgmHbGgtRtk4ljD2L-0t3tsFaQT-eokVSUi0KLohfcbg5URU.woff2
+    format: woff2
 fonts:
 - name: Playwrite NZ Basic Thin
   styles:
@@ -53,9 +59,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite NZ Basic ExtraLight
   styles:
   - family_name: Playwrite NZ Basic ExtraLight
@@ -72,9 +77,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite NZ Basic Light
   styles:
   - family_name: Playwrite NZ Basic Light
@@ -91,9 +95,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Playwrite NZ Basic
   styles:
   - family_name: Playwrite NZ Basic
@@ -108,9 +111,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Playwrite NZ Basic
+    type: Regular
+    full_name: Playwrite NZ Basic Regular
+    post_script_name: PlaywriteNZBasic-Regular
+    copyright: Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)
+    font: PlaywriteNZBasic[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)
 spdx_license: OFL-1.1-no-RFN

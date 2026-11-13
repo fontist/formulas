@@ -17,6 +17,10 @@ on:
       - '.github/workflows/test.yml'
       - 'Gemfile*'
 
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   test:
     runs-on: ${{ matrix.os }}
@@ -50,3 +54,111 @@ jobs:
 
       - if: matrix.os == 'windows-latest'
         run: bundle exec ruby test/test_formulas.rb --platform windows
+
+  formula-checks:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: tj-actions/changed-files@v47
+        id: files
+        with:
+          files: |
+            Formulas/**/*.yml
+            .github/scripts/**
+            .github/workflows/test.yml
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.3
+          bundler-cache: true
+
+      - name: Install concurrent-ruby
+        run: gem install concurrent-ruby
+
+      - name: Collect changed formula paths
+        id: changed
+        run: |
+          # Build a comma-separated list of changed .yml files under Formulas/
+          CHANGED="${{ steps.files.outputs.all_changed_files }}"
+          if [ -z "$CHANGED" ]; then
+            echo "skip=true" >> $GITHUB_OUTPUT
+            echo "No formula files changed."
+            exit 0
+          fi
+          ONLY=$(echo "$CHANGED" | tr ' ' '\n' | grep '^Formulas/.*\.yml$' | tr '\n' ',' | sed 's/,$//')
+          if [ -z "$ONLY" ]; then
+            echo "skip=true" >> $GITHUB_OUTPUT
+            echo "No formula files changed (only scripts/workflow)."
+            exit 0
+          fi
+          echo "skip=false" >> $GITHUB_OUTPUT
+          {
+            echo "only<<EOF"
+            echo "$ONLY"
+            echo "EOF"
+          } >> $GITHUB_OUTPUT
+          echo "Changed formulas: $ONLY"
+
+      - name: Schema validation
+        if: steps.changed.outputs.skip != 'true'
+        continue-on-error: true
+        run: |
+          mkdir -p results
+          ruby .github/scripts/validate_schema.rb \
+            --only "${{ steps.changed.outputs.only }}" \
+            --json-output results/schema.json
+
+      - name: URL accessibility check
+        if: steps.changed.outputs.skip != 'true'
+        continue-on-error: true
+        run: |
+          ruby .github/scripts/check_urls.rb \
+            --only "${{ steps.changed.outputs.only }}" \
+            --timeout 15 \
+            --json-output results/urls.json
+
+      - name: Render reports
+        if: always() && steps.changed.outputs.skip != 'true'
+        run: |
+          mkdir -p reports
+          ruby .github/scripts/render_report.rb \
+            --input-dir results/ \
+            --output-dir reports/ \
+            --run-url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            --commit-sha "${{ github.sha }}" \
+            --pr-number "${{ github.event.pull_request.number }}"
+
+      - name: Step summary
+        if: always() && steps.changed.outputs.skip != 'true'
+        run: cat reports/step-summary.md >> $GITHUB_STEP_SUMMARY
+
+      - name: Sticky PR comment
+        if: always() && steps.changed.outputs.skip != 'true' && github.event_name == 'pull_request'
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: formula-checks
+          path: reports/pr-comment.md
+
+      - name: Upload artifacts
+        if: always() && steps.changed.outputs.skip != 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: formula-check-results
+          path: |
+            results/
+            reports/
+          retention-days: 14
+
+      - name: Fail job if checks failed
+        if: steps.changed.outputs.skip != 'true'
+        run: |
+          if [ -f reports/health.json ]; then
+            if ruby -rjson -e 'exit(JSON.parse(File.read("reports/health.json"))["totals"]["checks_failed"].zero? ? 0 : 1)'; then
+              echo "All checks passed."
+            else
+              echo "Checks failed — see PR comment or step summary."
+              exit 1
+            fi
+          fi

@@ -7,6 +7,7 @@ const formulasData = ref([])
 const searchQuery = ref('')
 const selectedLicenses = ref(['all'])
 const selectedSources = ref(['all'])
+const basePath = import.meta.env.BASE_URL || '/'
 
 const licenseOptions = [
   { value: 'all', label: 'All Licenses', icon: 'all', count: 0 },
@@ -211,8 +212,9 @@ function goToFormula(slug) {
   // "Page not found" 404 even though the SSR HTML exists on the server.
   // Bypass SPA routing for formula clicks — full page load fetches the
   // correct HTML which loads the correct app chunk for that formula's batch.
-  const basePath = import.meta.env.BASE_URL || '/'
-  window.location.href = `${basePath}browse/${slug}/`
+  // No trailing slash: cleanUrls:true route map expects /browse/foo, and
+  // GitHub Pages serves /browse/foo/index.html for either form.
+  window.location.href = `${basePath}browse/${slug}`
 }
 
 function toggleLicense(value) {
@@ -266,7 +268,7 @@ function toggleSource(value) {
           <div v-for="letter in activeLetters" :key="letter" :id="'letter-' + letter" class="letter-group">
             <h3 class="letter-heading">{{ letter }}</h3>
             <div class="formula-items">
-              <a v-for="f in groupedFormulas[letter]" :key="f.slug" :href="f.slug + '/'" class="formula-item" @click.stop.prevent="goToFormula(f.slug)">
+              <a v-for="f in groupedFormulas[letter]" :key="f.slug" :href="`${basePath}browse/${f.slug}`" class="formula-item" @click.stop.prevent="goToFormula(f.slug)">
                 <div class="formula-main">
                   <span class="formula-name">{{ f.name }}</span>
                   <span class="formula-key">{{ f.formulaName }}</span>

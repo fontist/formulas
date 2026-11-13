@@ -12,18 +12,18 @@ description: 'Sixtyfour and Workbench fonts are inspired by the article Raster C
   contribute, see github.com/jenskutilek/homecomputer-fonts'
 homepage: https://fonts.google.com/specimen/Sixtyfour
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Sixtyfour
     files:
-    - https://fonts.gstatic.com/s/sixtyfour/v3/OD5vuMCT1numDm3nakXtp2h4jg463t9haG_3mBkVsV20uFT3BAE5f73dnyS5ZuOV.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/sixtyfour/Sixtyfour[BLED,SCAN].ttf
     urls:
-    - https://fonts.gstatic.com/s/sixtyfour/v3/OD5vuMCT1numDm3nakXtp2h4jg463t9haG_3mBkVsV20uFT3BAE5f73dnyS5ZuOV.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/sixtyfour/Sixtyfour[BLED,SCAN].ttf
+    format: ttf
     variable_axes:
     - BLED
     - SCAN
-  ttf_variable:
+  ttf_static:
     source: google
     family: Sixtyfour
     files:
@@ -31,9 +31,14 @@ resources:
     urls:
     - https://fonts.gstatic.com/s/sixtyfour/v3/OD5vuMCT1numDm3nakXtp2h4jg463t9haG_3mBkVsV20uFT3BAE5f73YnyS5ZuOV.ttf
     format: ttf
-    variable_axes:
-    - BLED
-    - SCAN
+  woff2_static:
+    source: google
+    family: Sixtyfour
+    files:
+    - https://fonts.gstatic.com/s/sixtyfour/v3/OD5vuMCT1numDm3nakXtp2h4jg463t9haG_3mBkVsV20uFT3BAE5f73dnyS5ZuOV.woff2
+    urls:
+    - https://fonts.gstatic.com/s/sixtyfour/v3/OD5vuMCT1numDm3nakXtp2h4jg463t9haG_3mBkVsV20uFT3BAE5f73dnyS5ZuOV.woff2
+    format: woff2
 fonts:
 - name: Sixtyfour
   styles:
@@ -49,10 +54,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Sixtyfour
+    type: Regular
+    full_name: Sixtyfour Regular
+    post_script_name: Sixtyfour-Regular
+    copyright: Copyright 2021 The Sixtyfour Project Authors (https://github.com/jenskutilek/homecomputer-fonts)
+    font: Sixtyfour[BLED,SCAN].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - BLED
     - SCAN
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2021 The Sixtyfour Project Authors (https://github.com/jenskutilek/homecomputer-fonts)
 spdx_license: OFL-1.1-no-RFN

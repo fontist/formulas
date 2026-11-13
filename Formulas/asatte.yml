@@ -9,6 +9,7 @@ resources:
     - https://web.archive.org/web/20260505172325/https://modi.jpn.org/download/MODI_asatte_2017_0527.zip
     sha256: 4ff975a13b196595a769fe3478bb5a0c7c9c1ec2cd9605885799da4d80522c2e
     file_size: 136737
+    format: otf
 fonts:
 - name: ASATTE
   styles:
@@ -21,6 +22,8 @@ fonts:
     version: '1.00'
     copyright: MODI
     font: asatte.otf
+    formats:
+    - otf
 extract: {}
 copyright: MODI
 command: create-formula https://modi.jpn.org/download/MODI_asatte_2017_0527.zip

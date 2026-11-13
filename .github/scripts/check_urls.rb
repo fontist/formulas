@@ -10,6 +10,8 @@ require "uri"
 require "optparse"
 require "date"
 require "concurrent"
+require "json"
+require "fileutils"
 
 class CheckUrls
   TIMEOUT_SECONDS = 10
@@ -40,6 +42,14 @@ class CheckUrls
       opts.on("--verbose", "Show all URLs checked") do
         @verbose = true
       end
+
+      opts.on("--json-output FILE", "Write structured results as JSON") do |file|
+        @json_output = file
+      end
+
+      opts.on("--only PATHS", "Comma-separated list of formula paths (skip glob)") do |paths|
+        @only = paths.split(",").map(&:strip)
+      end
     end.parse!
 
     @directory ||= "Formulas"
@@ -47,11 +57,13 @@ class CheckUrls
     @sample_size ||= nil
     @google_only ||= false
     @verbose ||= false
+    @json_output ||= nil
 
     @errors = []
     @warnings = []
     @checked_urls = {}
     @mutex = Mutex.new
+    @started_at = Time.now.utc
   end
 
   def call
@@ -79,13 +91,19 @@ class CheckUrls
     pool.wait_for_termination
 
     print_results
+    write_json_results(formulas.size) if @json_output
+
     exit 1 if @errors.any?
   end
 
   private
 
   def collect_formulas
-    files = Dir.glob(File.join(@directory, "**/*.yml"))
+    files = if @only
+              @only.select { |f| File.exist?(f) }
+            else
+              Dir.glob(File.join(@directory, "**/*.yml"))
+            end
 
     files.select do |file|
       next false if file.include?("BACKUP")
@@ -180,60 +198,63 @@ class CheckUrls
     retries = 0
     redirects = 0
 
-    begin
-      http = Net::HTTP.new(uri.host, uri.port)
-      http.use_ssl = (uri.scheme == "https")
-      http.open_timeout = @timeout
-      http.read_timeout = @timeout
+    loop do
+      response = nil
+      begin
+        http = Net::HTTP.new(uri.host, uri.port)
+        http.use_ssl = (uri.scheme == "https")
+        http.open_timeout = @timeout
+        http.read_timeout = @timeout
 
-      request = Net::HTTP::Head.new(uri.request_uri)
-      request["User-Agent"] = "fontist-formula-check/1.0"
+        request = Net::HTTP::Head.new(uri.request_uri)
+        request["User-Agent"] = "fontist-formula-check/1.0"
 
-      response = http.request(request)
+        response = http.request(request)
+      rescue Net::OpenTimeout, Net::ReadTimeout
+        retries += 1
+        if retries <= MAX_RETRIES
+          sleep(RETRY_DELAY)
+          next
+        end
+        @mutex.synchronize { @checked_urls[url] = :error }
+        return { status: :error, message: "Timeout after #{@timeout}s" }
+      rescue SocketError => e
+        @mutex.synchronize { @checked_urls[url] = :error }
+        return { status: :error, message: "DNS/Network error: #{e.message}" }
+      rescue StandardError => e
+        @mutex.synchronize { @checked_urls[url] = :error }
+        return { status: :error, message: "Error: #{e.message}" }
+      end
 
       case response.code.to_i
       when 200..299
         @mutex.synchronize { @checked_urls[url] = :ok }
-        { status: :ok, message: "OK (#{response.code})" }
+        return { status: :ok, message: "OK (#{response.code})" }
       when 301, 302, 303, 307, 308
         location = response["Location"]
         if location && redirects < 3
           redirects += 1
           uri = URI.parse(location)
-          retry
+          next
         end
         @mutex.synchronize { @checked_urls[url] = :warning }
-        { status: :warning, message: "Redirect (#{response.code}) -> #{location}" }
+        return { status: :warning, message: "Redirect (#{response.code}) -> #{location}" }
       when 403
         @mutex.synchronize { @checked_urls[url] = :warning }
-        { status: :warning, message: "Forbidden (403) - may need special headers" }
+        return { status: :warning, message: "Forbidden (403) - may need special headers" }
       when 404
         @mutex.synchronize { @checked_urls[url] = :error }
-        { status: :error, message: "Not Found (404)" }
+        return { status: :error, message: "Not Found (404)" }
       when 429
         @mutex.synchronize { @checked_urls[url] = :warning }
-        { status: :warning, message: "Rate Limited (429)" }
+        return { status: :warning, message: "Rate Limited (429)" }
       when 500..599
         @mutex.synchronize { @checked_urls[url] = :error }
-        { status: :error, message: "Server Error (#{response.code})" }
+        return { status: :error, message: "Server Error (#{response.code})" }
       else
         @mutex.synchronize { @checked_urls[url] = :warning }
-        { status: :warning, message: "Unexpected status: #{response.code}" }
+        return { status: :warning, message: "Unexpected status: #{response.code}" }
       end
-    rescue Net::OpenTimeout, Net::ReadTimeout
-      retries += 1
-      if retries <= MAX_RETRIES
-        sleep(RETRY_DELAY)
-        retry
-      end
-      @mutex.synchronize { @checked_urls[url] = :error }
-      { status: :error, message: "Timeout after #{@timeout}s" }
-    rescue SocketError => e
-      @mutex.synchronize { @checked_urls[url] = :error }
-      { status: :error, message: "DNS/Network error: #{e.message}" }
-    rescue StandardError => e
-      @mutex.synchronize { @checked_urls[url] = :error }
-      { status: :error, message: "Error: #{e.message}" }
     end
   end
 
@@ -266,6 +287,66 @@ class CheckUrls
       puts "All URLs are accessible."
     else
       puts "URL check FAILED."
+    end
+  end
+
+  def write_json_results(total_formulas)
+    failures = @errors.map do |e|
+      {
+        "formula" => derive_formula_name(e[:file]),
+        "formula_path" => relativise(e[:file]),
+        "url" => e[:url],
+        "message" => e[:message],
+        "severity" => "error",
+      }
+    end
+
+    warnings = @warnings.map do |w|
+      {
+        "formula" => derive_formula_name(w[:file]),
+        "formula_path" => relativise(w[:file]),
+        "url" => w[:url],
+        "message" => w[:message],
+        "severity" => "warning",
+      }
+    end
+
+    data = {
+      "check" => "urls",
+      "platform" => "all",
+      "scope" => @google_only ? "google" : derive_scope_from_dir,
+      "started_at" => @started_at.iso8601,
+      "completed_at" => Time.now.utc.iso8601,
+      "summary" => {
+        "total" => @checked_urls.size,
+        "passed" => @checked_urls.size - @errors.size - @warnings.size,
+        "failed" => @errors.size,
+        "warnings" => @warnings.size,
+        "skipped" => 0,
+      },
+      "failures" => failures,
+      "warnings" => warnings,
+    }
+
+    FileUtils.mkdir_p(File.dirname(@json_output))
+    File.write(@json_output, JSON.pretty_generate(data))
+    puts "JSON results written to: #{@json_output}"
+  end
+
+  def derive_formula_name(file)
+    File.basename(file, ".yml")
+  end
+
+  def relativise(file)
+    file.sub(%r{^\./}, "")
+  end
+
+  def derive_scope_from_dir
+    case @directory
+    when %r{google}i then "google"
+    when %r{sil}i then "sil"
+    when %r{macos}i then "macos"
+    else "all"
     end
   end
 end

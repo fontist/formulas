@@ -10,23 +10,17 @@ description: The AU School handwriting Fonts are an English language, OpenType, 
   .
 homepage: https://fonts.google.com/specimen/Edu+AU+VIC+WA+NT+Hand
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Edu AU VIC WA NT Hand
     files:
-    - https://fonts.gstatic.com/s/eduauvicwanthand/v3/C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtCJ1lK5FbYfTEUU.woff2
-    - https://fonts.gstatic.com/s/eduauvicwanthand/v3/C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtBB1lK5FbYfTEUU.woff2
-    - https://fonts.gstatic.com/s/eduauvicwanthand/v3/C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtPxylK5FbYfTEUU.woff2
-    - https://fonts.gstatic.com/s/eduauvicwanthand/v3/C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtMVylK5FbYfTEUU.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/eduauvicwanthand/EduAUVICWANTHand[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/eduauvicwanthand/v3/C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtCJ1lK5FbYfTEUU.woff2
-    - https://fonts.gstatic.com/s/eduauvicwanthand/v3/C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtBB1lK5FbYfTEUU.woff2
-    - https://fonts.gstatic.com/s/eduauvicwanthand/v3/C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtPxylK5FbYfTEUU.woff2
-    - https://fonts.gstatic.com/s/eduauvicwanthand/v3/C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtMVylK5FbYfTEUU.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/eduauvicwanthand/EduAUVICWANTHand[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Edu AU VIC WA NT Hand
     files:
@@ -40,8 +34,20 @@ resources:
     - https://fonts.gstatic.com/s/eduauvicwanthand/v3/C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtPxylKtFbYfTEUU.ttf
     - https://fonts.gstatic.com/s/eduauvicwanthand/v3/C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtMVylKtFbYfTEUU.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Edu AU VIC WA NT Hand
+    files:
+    - https://fonts.gstatic.com/s/eduauvicwanthand/v3/C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtCJ1lK5FbYfTEUU.woff2
+    - https://fonts.gstatic.com/s/eduauvicwanthand/v3/C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtBB1lK5FbYfTEUU.woff2
+    - https://fonts.gstatic.com/s/eduauvicwanthand/v3/C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtPxylK5FbYfTEUU.woff2
+    - https://fonts.gstatic.com/s/eduauvicwanthand/v3/C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtMVylK5FbYfTEUU.woff2
+    urls:
+    - https://fonts.gstatic.com/s/eduauvicwanthand/v3/C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtCJ1lK5FbYfTEUU.woff2
+    - https://fonts.gstatic.com/s/eduauvicwanthand/v3/C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtBB1lK5FbYfTEUU.woff2
+    - https://fonts.gstatic.com/s/eduauvicwanthand/v3/C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtPxylK5FbYfTEUU.woff2
+    - https://fonts.gstatic.com/s/eduauvicwanthand/v3/C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtMVylK5FbYfTEUU.woff2
+    format: woff2
 fonts:
 - name: Edu AU VIC WA NT Hand
   styles:
@@ -58,9 +64,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Edu AU VIC WA NT Hand
     type: Bold
     full_name: Edu AU VIC WA NT Hand Bold
@@ -74,9 +79,21 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Edu AU VIC WA NT Hand
+    type: Regular
+    full_name: Edu AU VIC WA NT Hand Regular
+    post_script_name: EduAUVICWANTHand-Regular
+    copyright: Copyright 2023 The VIC WA NT School Hand Australia Project Authors
+      (https://github.com/SorkinType/VICWANTSchoolhandAustralia)
+    font: EduAUVICWANTHand[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Edu AU VIC WA NT Hand Medium
   styles:
   - family_name: Edu AU VIC WA NT Hand Medium
@@ -94,9 +111,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Edu AU VIC WA NT Hand SemiBold
   styles:
   - family_name: Edu AU VIC WA NT Hand SemiBold
@@ -114,9 +130,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2023 The VIC WA NT School Hand Australia Project Authors (https://github.com/SorkinType/VICWANTSchoolhandAustralia)
 spdx_license: OFL-1.1-no-RFN

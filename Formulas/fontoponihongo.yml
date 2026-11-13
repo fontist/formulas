@@ -9,6 +9,7 @@ resources:
     - https://web.archive.org/web/20260504064628/https://fontopo.com/fontdata/nihongo.zip
     sha256: b11b0c03ea7e3494cae58662d97f5bb4c7e7d705aabb267aa9b1f90dde1e6be4
     file_size: 1502499
+    format: otf
 fonts:
 - name: FontopoNIHONGO
   styles:
@@ -21,6 +22,8 @@ fonts:
     version: '1.10'
     copyright: Fontopo
     font: FontopoNIHONGO.otf
+    formats:
+    - otf
 extract: {}
 copyright: Fontopo
 command: create-formula https://fontopo.com/fontdata/nihongo.zip

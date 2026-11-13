@@ -10,6 +10,7 @@ resources:
     - https://archive.org/download/ExcelViewer/ExcelViewer.exe
     sha256: 4fc8e08237e8b458091c83dde68139e779fe401b4884d92d66ec843b5ca4a2ca
     file_size: 77738888
+    format: ttf
 fonts:
 - name: Segoe UI
   styles:
@@ -20,6 +21,8 @@ fonts:
     version: '1.00'
     copyright: "© 2006 Microsoft Corporation. All Rights Reserved."
     font: SEGOEUI.TTF
+    formats:
+    - ttf
   - family_name: Segoe UI
     type: Bold
     full_name: Segoe UI Bold
@@ -27,6 +30,8 @@ fonts:
     version: '1.00'
     copyright: "© 2006 Microsoft Corporation. All Rights Reserved."
     font: SEGOEUIB.TTF
+    formats:
+    - ttf
   - family_name: Segoe UI
     type: Italic
     full_name: Segoe UI Italic
@@ -34,6 +39,8 @@ fonts:
     version: '1.00'
     copyright: "© 2006 Microsoft Corporation. All Rights Reserved."
     font: SEGOEUII.TTF
+    formats:
+    - ttf
   - family_name: Segoe UI
     type: Bold Italic
     full_name: Segoe UI Bold Italic
@@ -41,6 +48,8 @@ fonts:
     version: '1.00'
     copyright: "© 2006 Microsoft Corporation. All Rights Reserved."
     font: SEGOEUIZ.TTF
+    formats:
+    - ttf
 extract:
 - format: exe
 - format: msi

@@ -1,0 +1,30 @@
+---
+schema_version: 5
+name: Cherokee Supplemental Fonts
+description: Cherokee Supplemental Fonts for Windows
+homepage: https://learn.microsoft.com/en-us/typography/fonts/windows_11_font_list
+platforms:
+- windows
+open_license: |
+  Licensed under the Microsoft Software License Terms for Windows.
+  These fonts are provided as part of the Windows operating system
+  and are subject to the Windows license agreement accepted during
+  installation. No additional license agreement is required.
+resources:
+  cherokee_supplemental_fonts:
+    source: windows_fod
+    capability_name: Language.Fonts.Cher~~~und-CHER~0.0.1.0
+    format: ttf
+fonts:
+- name: Plantagenet Cherokee
+  styles:
+  - family_name: Plantagenet Cherokee
+    type: Regular
+    font: Plantc.ttf
+    formats:
+    - ttf
+    variable_font: false
+import_source:
+  type: windows
+  capability_name: Language.Fonts.Cher~~~und-CHER~0.0.1.0
+  min_windows_version: '10.0'

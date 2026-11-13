@@ -7,25 +7,17 @@ description: Marhey is a playful Display typeface, custom hand lettering with co
   Urdu and Jawi). To contribute, see github.com/namelatype/Marhey .
 homepage: https://fonts.google.com/specimen/Marhey
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Marhey
     files:
-    - https://fonts.gstatic.com/s/marhey/v8/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBZVwO2IXiGevOMw.woff2
-    - https://fonts.gstatic.com/s/marhey/v8/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBctwO2IXiGevOMw.woff2
-    - https://fonts.gstatic.com/s/marhey/v8/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBflwO2IXiGevOMw.woff2
-    - https://fonts.gstatic.com/s/marhey/v8/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBRV3O2IXiGevOMw.woff2
-    - https://fonts.gstatic.com/s/marhey/v8/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBSx3O2IXiGevOMw.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/marhey/Marhey[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/marhey/v8/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBZVwO2IXiGevOMw.woff2
-    - https://fonts.gstatic.com/s/marhey/v8/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBctwO2IXiGevOMw.woff2
-    - https://fonts.gstatic.com/s/marhey/v8/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBflwO2IXiGevOMw.woff2
-    - https://fonts.gstatic.com/s/marhey/v8/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBRV3O2IXiGevOMw.woff2
-    - https://fonts.gstatic.com/s/marhey/v8/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBSx3O2IXiGevOMw.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/marhey/Marhey[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Marhey
     files:
@@ -41,8 +33,22 @@ resources:
     - https://fonts.gstatic.com/s/marhey/v8/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBRV3O2cXiGevOMw.ttf
     - https://fonts.gstatic.com/s/marhey/v8/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBSx3O2cXiGevOMw.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Marhey
+    files:
+    - https://fonts.gstatic.com/s/marhey/v8/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBZVwO2IXiGevOMw.woff2
+    - https://fonts.gstatic.com/s/marhey/v8/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBctwO2IXiGevOMw.woff2
+    - https://fonts.gstatic.com/s/marhey/v8/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBflwO2IXiGevOMw.woff2
+    - https://fonts.gstatic.com/s/marhey/v8/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBRV3O2IXiGevOMw.woff2
+    - https://fonts.gstatic.com/s/marhey/v8/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBSx3O2IXiGevOMw.woff2
+    urls:
+    - https://fonts.gstatic.com/s/marhey/v8/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBZVwO2IXiGevOMw.woff2
+    - https://fonts.gstatic.com/s/marhey/v8/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBctwO2IXiGevOMw.woff2
+    - https://fonts.gstatic.com/s/marhey/v8/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBflwO2IXiGevOMw.woff2
+    - https://fonts.gstatic.com/s/marhey/v8/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBRV3O2IXiGevOMw.woff2
+    - https://fonts.gstatic.com/s/marhey/v8/x3d8ck7Laq-T7wl7mqfVrEe9sDvtBSx3O2IXiGevOMw.woff2
+    format: woff2
 fonts:
 - name: Marhey Light
   styles:
@@ -60,9 +66,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Marhey
   styles:
   - family_name: Marhey
@@ -77,9 +82,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Marhey
     type: Bold
     full_name: Marhey Bold
@@ -92,9 +96,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Marhey
+    type: Regular
+    full_name: Marhey Light
+    post_script_name: Marhey-Light
+    copyright: Copyright 2022 The Marhey Project Authors (https://github.com/namelatype/Marhey)
+    font: Marhey[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Marhey Medium
   styles:
   - family_name: Marhey Medium
@@ -111,9 +126,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Marhey SemiBold
   styles:
   - family_name: Marhey SemiBold
@@ -130,9 +144,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Marhey Project Authors (https://github.com/namelatype/Marhey)
 spdx_license: OFL-1.1-no-RFN

@@ -8,25 +8,17 @@ description: 'Red Rose Pro is a latin display typeface designed by Jaikishan Pat
   as well as Vietnamese. To contribute, see github.com/magictype/redrose'
 homepage: https://fonts.google.com/specimen/Red+Rose
 resources:
-  woff2_variable:
+  ttf_variable:
     source: google
     family: Red Rose
     files:
-    - https://fonts.gstatic.com/s/redrose/v25/QdVISTYiLBjouPgEUajvsfWwDtc3MH8y8_sDdzSsYUVUjg.woff2
-    - https://fonts.gstatic.com/s/redrose/v25/QdVISTYiLBjouPgEUajvsfWwDtc3MH8yrfsDdzSsYUVUjg.woff2
-    - https://fonts.gstatic.com/s/redrose/v25/QdVISTYiLBjouPgEUajvsfWwDtc3MH8yn_sDdzSsYUVUjg.woff2
-    - https://fonts.gstatic.com/s/redrose/v25/QdVISTYiLBjouPgEUajvsfWwDtc3MH8yc_wDdzSsYUVUjg.woff2
-    - https://fonts.gstatic.com/s/redrose/v25/QdVISTYiLBjouPgEUajvsfWwDtc3MH8ySvwDdzSsYUVUjg.woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/redrose/RedRose[wght].ttf
     urls:
-    - https://fonts.gstatic.com/s/redrose/v25/QdVISTYiLBjouPgEUajvsfWwDtc3MH8y8_sDdzSsYUVUjg.woff2
-    - https://fonts.gstatic.com/s/redrose/v25/QdVISTYiLBjouPgEUajvsfWwDtc3MH8yrfsDdzSsYUVUjg.woff2
-    - https://fonts.gstatic.com/s/redrose/v25/QdVISTYiLBjouPgEUajvsfWwDtc3MH8yn_sDdzSsYUVUjg.woff2
-    - https://fonts.gstatic.com/s/redrose/v25/QdVISTYiLBjouPgEUajvsfWwDtc3MH8yc_wDdzSsYUVUjg.woff2
-    - https://fonts.gstatic.com/s/redrose/v25/QdVISTYiLBjouPgEUajvsfWwDtc3MH8ySvwDdzSsYUVUjg.woff2
-    format: woff2
+    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/redrose/RedRose[wght].ttf
+    format: ttf
     variable_axes:
     - wght
-  ttf_variable:
+  ttf_static:
     source: google
     family: Red Rose
     files:
@@ -42,8 +34,22 @@ resources:
     - https://fonts.gstatic.com/s/redrose/v25/QdVISTYiLBjouPgEUajvsfWwDtc3MH8yc_wDcjSsYUVUjg.ttf
     - https://fonts.gstatic.com/s/redrose/v25/QdVISTYiLBjouPgEUajvsfWwDtc3MH8ySvwDcjSsYUVUjg.ttf
     format: ttf
-    variable_axes:
-    - wght
+  woff2_static:
+    source: google
+    family: Red Rose
+    files:
+    - https://fonts.gstatic.com/s/redrose/v25/QdVISTYiLBjouPgEUajvsfWwDtc3MH8y8_sDdzSsYUVUjg.woff2
+    - https://fonts.gstatic.com/s/redrose/v25/QdVISTYiLBjouPgEUajvsfWwDtc3MH8yrfsDdzSsYUVUjg.woff2
+    - https://fonts.gstatic.com/s/redrose/v25/QdVISTYiLBjouPgEUajvsfWwDtc3MH8yn_sDdzSsYUVUjg.woff2
+    - https://fonts.gstatic.com/s/redrose/v25/QdVISTYiLBjouPgEUajvsfWwDtc3MH8yc_wDdzSsYUVUjg.woff2
+    - https://fonts.gstatic.com/s/redrose/v25/QdVISTYiLBjouPgEUajvsfWwDtc3MH8ySvwDdzSsYUVUjg.woff2
+    urls:
+    - https://fonts.gstatic.com/s/redrose/v25/QdVISTYiLBjouPgEUajvsfWwDtc3MH8y8_sDdzSsYUVUjg.woff2
+    - https://fonts.gstatic.com/s/redrose/v25/QdVISTYiLBjouPgEUajvsfWwDtc3MH8yrfsDdzSsYUVUjg.woff2
+    - https://fonts.gstatic.com/s/redrose/v25/QdVISTYiLBjouPgEUajvsfWwDtc3MH8yn_sDdzSsYUVUjg.woff2
+    - https://fonts.gstatic.com/s/redrose/v25/QdVISTYiLBjouPgEUajvsfWwDtc3MH8yc_wDdzSsYUVUjg.woff2
+    - https://fonts.gstatic.com/s/redrose/v25/QdVISTYiLBjouPgEUajvsfWwDtc3MH8ySvwDdzSsYUVUjg.woff2
+    format: woff2
 fonts:
 - name: Red Rose Light
   styles:
@@ -61,9 +67,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Red Rose
   styles:
   - family_name: Red Rose
@@ -78,9 +83,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Red Rose
     type: Bold
     full_name: Red Rose Bold
@@ -93,9 +97,20 @@ fonts:
     formats:
     - ttf
     - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Red Rose
+    type: Regular
+    full_name: Red Rose Regular
+    post_script_name: RedRose-Regular
+    copyright: Copyright 2018 The Red Rose Project Authors (https://github.com/magictype/redrose)
+    font: RedRose[wght].ttf
+    formats:
+    - ttf
     variable_font: true
     variable_axes:
     - wght
+    source_resource: ttf_variable
 - name: Red Rose Medium
   styles:
   - family_name: Red Rose Medium
@@ -112,9 +127,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 - name: Red Rose SemiBold
   styles:
   - family_name: Red Rose SemiBold
@@ -131,9 +145,8 @@ fonts:
     formats:
     - ttf
     - woff2
-    variable_font: true
-    variable_axes:
-    - wght
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2018 The Red Rose Project Authors (https://github.com/magictype/redrose)
 spdx_license: OFL-1.1-no-RFN
