@@ -4,6 +4,8 @@
 require "thor"
 require "yaml"
 require "time"
+require "json"
+require "fileutils"
 require_relative "archive_fonts/registry"
 require_relative "archive_fonts/registry_entry"
 require_relative "archive_fonts/url_collector"
@@ -49,7 +51,15 @@ class ArchiveFontsCLI < Thor
   desc "archive URL", "Archive a specific URL to the Wayback Machine"
   option :formula, type: :string, desc: "Formula file to update with mirror"
   option :registry, type: :string, default: "process/archive_registry.yml"
+  option :json_output, type: :string, desc: "Append result as JSONL to this file"
   def archive(url)
+    result = {
+      url: url,
+      formula: options[:formula],
+      started_at: Time.now.utc.iso8601,
+      status: nil,
+    }
+
     registry = ArchiveFonts::Registry.load(options[:registry])
     client = ArchiveFonts::ArchiveClient.new
     updater = ArchiveFonts::FormulaUpdater.new
@@ -59,32 +69,134 @@ class ArchiveFontsCLI < Thor
     archive_url = client.check_availability(url)
     if archive_url && client.validate_snapshot(archive_url)
       puts "Already archived: #{archive_url}"
+      result[:status] = "archived"
+      result[:archive_url] = archive_url
+      result[:note] = "already_archived"
     else
       archive_url = client.submit(url)
       if archive_url
         puts "Archived: #{archive_url}"
+        result[:status] = "archived"
+        result[:archive_url] = archive_url
+        result[:note] = "newly_archived"
       else
         puts "FAILED to archive"
-        return
+        result[:status] = "failed"
+        result[:error] = "archive.org submission returned no URL"
       end
     end
 
-    entry = ArchiveFonts::RegistryEntry.new(
-      url: url,
-      status: "archived",
-      archive_url: archive_url,
-      original_alive: true,
-      last_checked: Time.now.utc.iso8601,
-      formulas: options[:formula] ? [options[:formula]] : [],
-    )
-    registry.upsert(entry)
+    if result[:status] == "archived"
+      entry = ArchiveFonts::RegistryEntry.new(
+        url: url,
+        status: "archived",
+        archive_url: archive_url,
+        original_alive: true,
+        last_checked: Time.now.utc.iso8601,
+        formulas: options[:formula] ? [options[:formula]] : [],
+      )
+      registry.upsert(entry)
 
-    if options[:formula]
-      updater.add_mirror(options[:formula], url, archive_url, dry_run: options[:dry_run])
+      if options[:formula]
+        updater.add_mirror(options[:formula], url, archive_url, dry_run: options[:dry_run])
+      end
+
+      registry.save
+      puts "Registry saved."
     end
 
-    registry.save
-    puts "Registry saved."
+    result[:completed_at] = Time.now.utc.iso8601
+    append_jsonl(result)
+  end
+
+  desc "report", "Aggregate JSONL chunk results into render_report-compatible JSON"
+  option :input_dir, type: :string, default: "results", desc: "Dir with chunk-*.jsonl files"
+  option :output, type: :string, default: "results/archive.json", desc: "Output JSON path"
+  option :formula_dir, type: :string, default: "Formulas"
+  def report
+    files = Dir.glob(File.join(options[:input_dir], "**/*.jsonl")).sort
+    records = []
+    files.each do |f|
+      File.foreach(f) { |line| records << JSON.parse(line) if line.strip! && !line.empty? }
+    rescue StandardError => e
+      warn "WARN: Failed to parse #{f}: #{e.message}"
+    end
+
+    url_to_formulas = build_url_to_formula_map
+
+    failures = records.select { |r| r["status"] != "archived" }.map do |r|
+      formula_paths = url_to_formulas[r["url"]] || []
+      {
+        "formula" => formula_paths.first || File.basename(r["url"]),
+        "formula_path" => formula_paths.first,
+        "url" => r["url"],
+        "message" => r["error"] || r["status"],
+        "severity" => "error",
+      }
+    end
+
+    warnings = records.select { |r| r["note"] == "already_archived" }.map do |r|
+      formula_paths = url_to_formulas[r["url"]] || []
+      {
+        "formula" => formula_paths.first || File.basename(r["url"]),
+        "formula_path" => formula_paths.first,
+        "url" => r["url"],
+        "message" => "Already archived (skipped submission)",
+        "severity" => "warning",
+      }
+    end
+
+    summary = {
+      "total" => records.size,
+      "passed" => records.count { |r| r["status"] == "archived" && r["note"] != "already_archived" },
+      "failed" => records.count { |r| r["status"] != "archived" },
+      "warnings" => warnings.size,
+      "skipped" => records.count { |r| r["note"] == "already_archived" },
+    }
+
+    timestamps = records.map { |r| r["started_at"] }.compact.sort
+    data = {
+      "check" => "archive",
+      "platform" => "all",
+      "scope" => "full",
+      "started_at" => timestamps.first,
+      "completed_at" => Time.now.utc.iso8601,
+      "summary" => summary,
+      "failures" => failures,
+      "warnings" => warnings,
+    }
+
+    FileUtils.mkdir_p(File.dirname(options[:output]))
+    File.write(options[:output], JSON.pretty_generate(data))
+    puts "Report: #{records.size} URLs processed, #{summary["failed"]} failed"
+    puts "Output: #{options[:output]}"
+  end
+
+  private
+
+  def append_jsonl(result)
+    return unless options[:json_output]
+
+    FileUtils.mkdir_p(File.dirname(options[:json_output]))
+    File.open(options[:json_output], "a") { |f| f.puts(JSON.generate(result)) }
+  end
+
+  def build_url_to_formula_map
+    map = {}
+    Dir.glob(File.join(options[:formula_dir] || "Formulas", "**/*.yml")).each do |path|
+      content = YAML.load_file(path) rescue next
+      next unless content.is_a?(Hash) && content["resources"]
+
+      content["resources"].each_value do |res|
+        next unless res.is_a?(Hash) && res["urls"]
+
+        res["urls"].each do |url|
+          map[url] ||= []
+          map[url] << path unless map[url].include?(path)
+        end
+      end
+    end
+    map
   end
 
   desc "check", "Check archival status of URLs"
