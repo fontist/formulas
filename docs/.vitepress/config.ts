@@ -168,6 +168,7 @@ export default defineConfig({
           items: [
             { text: "What is a Formula?", link: "/guide/what-is-formula" },
             { text: "Formula Structure", link: "/guide/formula-structure" },
+            { text: "Static and Variable Fonts", link: "/guide/static-and-variable-fonts" },
             { text: "Choosing a Formula", link: "/guide/choosing-formula" },
           ],
         },
