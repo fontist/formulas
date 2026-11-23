@@ -75,8 +75,28 @@ fonts:
         full_name: "Family Name Regular"
         post_script_name: "FamilyName-Regular"
         version: "1.0"
-        font: "filename.ttf"      # Actual font file name
+        font: "filename.ttf"      # Install name of the font file
         copyright: "..."
+```
+
+Google formulas add format metadata to each style. The `font` field holds
+the install name, the `source_font` field holds the basename of the URL the
+file is downloaded from, the `source_resource` field names the resource that
+holds the file, and the `variable_font` and `variable_axes` fields describe
+the variable files. See [Static and Variable Fonts](/guide/static-and-variable-fonts)
+for the full treatment.
+
+```yaml
+fonts:
+  - name: Work Sans Black
+    styles:
+      - family_name: Work Sans Black
+        type: Regular
+        font: WorkSans-Black.ttf
+        source_font: QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K-DQNigDp6_cOyA.ttf
+        formats: [ttf, woff2]
+        variable_font: false
+        source_resource: ttf_static
 ```
 
 ### Font Collections (TTC)
