@@ -20,7 +20,6 @@ jobs:
 
       - name: Import SIL fonts
         id: import
-        continue-on-error: true
         run: |
           # Run import with timing
           START_TIME=$(date +%s)

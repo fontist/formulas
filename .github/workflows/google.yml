@@ -47,7 +47,8 @@ jobs:
 
       - name: Import new fonts
         id: import
-        continue-on-error: true
+        env:
+          GOOGLE_FONTS_API_KEY: ${{ secrets.FONTIST_CI_GOOGLE_FONTS_API_KEY }}
         run: |
           bundle exec fontist import google \
             --source-path ~/.fontist/google/fonts \

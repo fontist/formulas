@@ -58,7 +58,6 @@ jobs:
 
       - name: Import macOS ${{ matrix.framework }} fonts
         id: import
-        continue-on-error: true
         run: |
           # Run import with timing
           START_TIME=$(date +%s)
