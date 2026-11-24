@@ -39,7 +39,7 @@ fonts:
     copyright: |-
       wmk69
       SIL - Open Font License v.1.1
-    font: Cn-0JtiGWQ5Ajb--MRKfYGxYrdM9Sg.ttf
+    font: NovaMono.ttf
     description: |
       Copyright (c) 2011, wmk69, (wmk69@o2.pl),
       with Reserved Font Name NovaMono.
@@ -47,6 +47,7 @@ fonts:
       This Font Software is licensed under the SIL Open Font License, Version 1.1.
       This license is copied below, and is also available with a FAQ at:
       http://scripts.sil.org/OFL
+    source_font: Cn-0JtiGWQ5Ajb--MRKfYGxYrdM9Sg.ttf
     formats:
     - ttf
     - woff2
@@ -55,7 +56,6 @@ extract: {}
 copyright: |-
   wmk69
   SIL - Open Font License v.1.1
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: |
   Copyright (c) 2011, wmk69 (wmk69@o2.pl),
@@ -269,4 +269,9 @@ open_license: |
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: nova_mono

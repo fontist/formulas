@@ -35,9 +35,10 @@ fonts:
     version: 1.002; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.23]
     copyright: Copyright 2012 The Orienta Project Authors (https://github.com/etunni/orienta)
       with Reserved Font Name 'Orienta'
-    font: PlI9FlK4Jrl5Y9zNeyeo9HRFhcU.ttf
+    font: Orienta-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: PlI9FlK4Jrl5Y9zNeyeo9HRFhcU.ttf
     formats:
     - ttf
     - woff2
@@ -45,7 +46,6 @@ fonts:
 extract: {}
 copyright: Copyright 2012 The Orienta Project Authors (https://github.com/etunni/orienta)
   with Reserved Font Name 'Orienta'
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2012 The Orienta Project Authors (https://github.com/etunni/orienta)
   with Reserved Font Name 'Orienta'\r\n\r\nThis Font Software is licensed under the
@@ -159,4 +159,9 @@ open_license: "Copyright 2012 The Orienta Project Authors (https://github.com/et
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: orienta

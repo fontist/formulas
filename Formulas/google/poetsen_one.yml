@@ -33,9 +33,10 @@ fonts:
     version: 1.000; ttfautohint (v0.8) -G 200 -r 50
     copyright: Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com)
       and Rodrigo Fuenzalida (www.rfuenzalida.com), with Reserved Font Name Poetsen.
-    font: ke8hOgIaMUB37xCgvCntWtIvq_KREbG9.ttf
+    font: PoetsenOne-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: ke8hOgIaMUB37xCgvCntWtIvq_KREbG9.ttf
     formats:
     - ttf
     - woff2
@@ -43,7 +44,6 @@ fonts:
 extract: {}
 copyright: Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com)
   and Rodrigo Fuenzalida (www.rfuenzalida.com), with Reserved Font Name Poetsen.
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com),
   Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved Font
@@ -157,4 +157,9 @@ open_license: "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-05-30'
+  family_id: poetsen_one

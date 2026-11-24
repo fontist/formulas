@@ -17,17 +17,17 @@ resources:
     source: google
     family: Cactus Classical Serif
     files:
-    - https://fonts.gstatic.com/s/cactusclassicalserif/v14/sZlVdQ6K-zJOCzUaS90zMNN-Ep-OoC8dZr0JFuBIFX-pv-E.ttf
+    - https://fonts.gstatic.com/s/cactusclassicalserif/v16/sZlVdQ6K-zJOCzUaS90zMNN-Ep-OoC8dZr0JFuBIFX-pv-E.ttf
     urls:
-    - https://fonts.gstatic.com/s/cactusclassicalserif/v14/sZlVdQ6K-zJOCzUaS90zMNN-Ep-OoC8dZr0JFuBIFX-pv-E.ttf
+    - https://fonts.gstatic.com/s/cactusclassicalserif/v16/sZlVdQ6K-zJOCzUaS90zMNN-Ep-OoC8dZr0JFuBIFX-pv-E.ttf
     format: ttf
   woff2_static:
     source: google
     family: Cactus Classical Serif
     files:
-    - https://fonts.gstatic.com/s/cactusclassicalserif/v14/sZlVdQ6K-zJOCzUaS90zMNN-Ep-OoC8dZr0JFuVIFX-pv-E.woff2
+    - https://fonts.gstatic.com/s/cactusclassicalserif/v16/sZlVdQ6K-zJOCzUaS90zMNN-Ep-OoC8dZr0JFuVIFX-pv-E.woff2
     urls:
-    - https://fonts.gstatic.com/s/cactusclassicalserif/v14/sZlVdQ6K-zJOCzUaS90zMNN-Ep-OoC8dZr0JFuVIFX-pv-E.woff2
+    - https://fonts.gstatic.com/s/cactusclassicalserif/v16/sZlVdQ6K-zJOCzUaS90zMNN-Ep-OoC8dZr0JFuVIFX-pv-E.woff2
     format: woff2
 fonts:
 - name: Cactus Classical Serif
@@ -38,9 +38,10 @@ fonts:
     post_script_name: CactusClassicalSerif-Regular
     version: '1.005'
     copyright:
-    font: sZlVdQ6K-zJOCzUaS90zMNN-Ep-OoC8dZr0JFuBIFX-pv-E.ttf
+    font: CactusClassicalSerif-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: sZlVdQ6K-zJOCzUaS90zMNN-Ep-OoC8dZr0JFuBIFX-pv-E.ttf
     formats:
     - ttf
     - woff2
@@ -98,7 +99,6 @@ copyright: "Copyright 2024 The Caactus Classical Serif Project Authors (https://
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2024 The Caactus Classical Serif Project Authors (https://github.com/MoonlitOwen/CactusSerif)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -204,4 +204,9 @@ open_license: "Copyright 2024 The Caactus Classical Serif Project Authors (https
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2026-10-01'
+  family_id: cactus_classical_serif

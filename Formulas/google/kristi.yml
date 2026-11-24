@@ -35,14 +35,14 @@ fonts:
     version: '1.004 '
     copyright: Copyright (c) 2010, Birgit Pulk (birgitpulk@gmail.com). All rights
       reserved. Licenced under SIL OFL v1.1
-    font: uK_y4ricdeU6zwdRCh0TMv6EXw.ttf
+    font: Kristi-Regular.ttf
     description: http://scripts.sil.org/OFL
+    source_font: uK_y4ricdeU6zwdRCh0TMv6EXw.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
-spdx_license: OFL-1.1-no-RFN
 copyright: Copyright (c) 2010, Birgit Pulk (birgitpulk@gmail.com). All rights reserved.
   Licenced under SIL OFL v1.1
 license_url: https://scripts.sil.org/OFL
@@ -150,4 +150,9 @@ open_license: "Copyright (c) 2010, Birgit Pulk (birgitpulk@gmail.com)\n\nThis Fo
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: kristi

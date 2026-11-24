@@ -2,8 +2,8 @@
 name: sarala
 schema_version: 5
 description: Sarala is a Devanagari typeface family designed by Andrés Torresi and
-  Carolina Giovagnoli for Huerta Tipográfica. It is based on the original Latin typeface
-  Telex , a sans serif typeface for text. It is a humanist sans serif design, conceived
+  Carolina Giovagnoli for HT Fonts. It is based on the original Latin typeface Telex
+  , a sans serif typeface for text. It is a humanist sans serif design, conceived
   to be a web font with nice legibility at normal text sizes. Originally based on
   grid fitting shapes it became a multi-purpose typeface with low contrast, open counter
   forms, wide proportions and a touch of freshness. Thanks to José Nicolás Silva,
@@ -15,21 +15,21 @@ resources:
     source: google
     family: Sarala
     files:
-    - https://fonts.gstatic.com/s/sarala/v14/uK_y4riEZv4o1w9RCh0TMv6EXw.ttf
-    - https://fonts.gstatic.com/s/sarala/v14/uK_x4riEZv4o1w9ptjI3OtWYVkMpXA.ttf
+    - https://fonts.gstatic.com/s/sarala/v16/uK_y4riEZv4o1w9RCh0TMv6EXw.ttf
+    - https://fonts.gstatic.com/s/sarala/v16/uK_x4riEZv4o1w9ptjI3OtWYVkMpXA.ttf
     urls:
-    - https://fonts.gstatic.com/s/sarala/v14/uK_y4riEZv4o1w9RCh0TMv6EXw.ttf
-    - https://fonts.gstatic.com/s/sarala/v14/uK_x4riEZv4o1w9ptjI3OtWYVkMpXA.ttf
+    - https://fonts.gstatic.com/s/sarala/v16/uK_y4riEZv4o1w9RCh0TMv6EXw.ttf
+    - https://fonts.gstatic.com/s/sarala/v16/uK_x4riEZv4o1w9ptjI3OtWYVkMpXA.ttf
     format: ttf
   woff2_static:
     source: google
     family: Sarala
     files:
-    - https://fonts.gstatic.com/s/sarala/v14/uK_y4riEZv4o1w9RDx0TMv6EXw.woff2
-    - https://fonts.gstatic.com/s/sarala/v14/uK_x4riEZv4o1w9ptjI3P9WYVkMpXA.woff2
+    - https://fonts.gstatic.com/s/sarala/v16/uK_y4riEZv4o1w9RDx0TMv6EXw.woff2
+    - https://fonts.gstatic.com/s/sarala/v16/uK_x4riEZv4o1w9ptjI3P9WYVkMpXA.woff2
     urls:
-    - https://fonts.gstatic.com/s/sarala/v14/uK_y4riEZv4o1w9RDx0TMv6EXw.woff2
-    - https://fonts.gstatic.com/s/sarala/v14/uK_x4riEZv4o1w9ptjI3P9WYVkMpXA.woff2
+    - https://fonts.gstatic.com/s/sarala/v16/uK_y4riEZv4o1w9RDx0TMv6EXw.woff2
+    - https://fonts.gstatic.com/s/sarala/v16/uK_x4riEZv4o1w9ptjI3P9WYVkMpXA.woff2
     format: woff2
 fonts:
 - name: Sarala
@@ -41,9 +41,10 @@ fonts:
     version: 1.004;PS 001.003;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT; ttfautohint
       (v1.00) -l 8 -r 50 -G 200 -x 14 -D latn -f none -w G
     copyright: Copyright 2015 by Andres Torresi. All rights reserved.
-    font: uK_y4riEZv4o1w9RCh0TMv6EXw.ttf
+    font: Sarala-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: uK_y4riEZv4o1w9RCh0TMv6EXw.ttf
     formats:
     - ttf
     - woff2
@@ -55,16 +56,16 @@ fonts:
     version: 1.004;PS 001.003;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT; ttfautohint
       (v1.00) -l 8 -r 50 -G 200 -x 14 -D latn -f none -w G
     copyright: Copyright 2015 by Andres Torresi. All rights reserved.
-    font: uK_x4riEZv4o1w9ptjI3OtWYVkMpXA.ttf
+    font: Sarala-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: uK_x4riEZv4o1w9ptjI3OtWYVkMpXA.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2015 by Andres Torresi. All rights reserved.
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2015 by Andres Torresi. All rights reserved.\r\n\r\nThis Font
   Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis license
@@ -176,4 +177,9 @@ open_license: "Copyright 2015 by Andres Torresi. All rights reserved.\r\n\r\nThi
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2026-06-30'
+  family_id: sarala

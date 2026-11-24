@@ -59,12 +59,13 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name
       'Averia' and 'Averia Libre'.
-    font: ga6SaxZG_G5OvCf_rt7FH3B6BHLMEd3lMKcQJZP1LmD9.ttf
+    font: AveriaSansLibre-Light.ttf
     preferred_family_name: Averia Sans Libre
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is copied below, and is also available with a FAQ
       at: http://scripts.sil.org/OFL'
+    source_font: ga6SaxZG_G5OvCf_rt7FH3B6BHLMEd3lMKcQJZP1LmD9.ttf
     formats:
     - ttf
     - woff2
@@ -76,12 +77,13 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name
       'Averia' and 'Averia Libre'.
-    font: ga6caxZG_G5OvCf_rt7FH3B6BHLMEdVLKisSL5fXK3D9qtg.ttf
+    font: AveriaSansLibre-LightItalic.ttf
     preferred_family_name: Averia Sans Libre
     preferred_type: Light Italic
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is copied below, and is also available with a FAQ
       at: http://scripts.sil.org/OFL'
+    source_font: ga6caxZG_G5OvCf_rt7FH3B6BHLMEdVLKisSL5fXK3D9qtg.ttf
     formats:
     - ttf
     - woff2
@@ -95,10 +97,11 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name
       'Averia' and 'Averia Libre'.
-    font: ga6XaxZG_G5OvCf_rt7FH3B6BHLMEeVJGIMYDo_8.ttf
+    font: AveriaSansLibre-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is copied below, and is also available with a FAQ
       at: http://scripts.sil.org/OFL'
+    source_font: ga6XaxZG_G5OvCf_rt7FH3B6BHLMEeVJGIMYDo_8.ttf
     formats:
     - ttf
     - woff2
@@ -110,10 +113,11 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name
       'Averia' and 'Averia Libre'.
-    font: ga6RaxZG_G5OvCf_rt7FH3B6BHLMEdVLEoc6C5_8N3k.ttf
+    font: AveriaSansLibre-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is copied below, and is also available with a FAQ
       at: http://scripts.sil.org/OFL'
+    source_font: ga6RaxZG_G5OvCf_rt7FH3B6BHLMEdVLEoc6C5_8N3k.ttf
     formats:
     - ttf
     - woff2
@@ -125,10 +129,11 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name
       'Averia' and 'Averia Libre'.
-    font: ga6SaxZG_G5OvCf_rt7FH3B6BHLMEd31N6cQJZP1LmD9.ttf
+    font: AveriaSansLibre-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is copied below, and is also available with a FAQ
       at: http://scripts.sil.org/OFL'
+    source_font: ga6SaxZG_G5OvCf_rt7FH3B6BHLMEd31N6cQJZP1LmD9.ttf
     formats:
     - ttf
     - woff2
@@ -140,10 +145,11 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name
       'Averia' and 'Averia Libre'.
-    font: ga6caxZG_G5OvCf_rt7FH3B6BHLMEdVLKjsVL5fXK3D9qtg.ttf
+    font: AveriaSansLibre-BoldItalic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is copied below, and is also available with a FAQ
       at: http://scripts.sil.org/OFL'
+    source_font: ga6caxZG_G5OvCf_rt7FH3B6BHLMEdVLKjsVL5fXK3D9qtg.ttf
     formats:
     - ttf
     - woff2
@@ -151,7 +157,6 @@ fonts:
 extract: {}
 copyright: Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name 'Averia'
   and 'Averia Libre'.
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011, Dan Sayers (i@iotic.com),\nwith Reserved Font Name 'Averia'
   and 'Averia Libre'.\n\nThis Font Software is licensed under the SIL Open Font License,
@@ -258,4 +263,9 @@ open_license: "Copyright (c) 2011, Dan Sayers (i@iotic.com),\nwith Reserved Font
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-06-02'
+  family_id: averia_sans_libre

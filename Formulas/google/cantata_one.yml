@@ -5,8 +5,8 @@ description: 'Foundry: Sorkin Type Co Cantata One is a high contrast extended Di
   style text face. In addition to being useful in medium to large text sizes, Cantata
   One is meant to evoke luxury when used in display sizes. Cantata One was originally
   inspired by hand written letters made with a pointed pen on an old map handmade
-  map of NYC. Source files are available from Google Code . To contribute to the project
-  contact Eben Sorkin .'
+  map of NYC. Source files are available from github.com/googlefonts/cantataone .
+  To contribute to the project contact Eben Sorkin .'
 homepage: https://fonts.google.com/specimen/Cantata+One
 resources:
   ttf_static:
@@ -37,11 +37,12 @@ fonts:
       Reserved Font Name \"Cantata\"\r\rThis Font Software is licensed under the SIL
       Open Font License, Version 1.1. This license is copied below, and is also available
       with a FAQ at: http://scripts.sil.org/OFL"
-    font: PlI5Fl60Nb5obNzNe2jslVxEt8CwfGaD.ttf
+    font: CantataOne-Regular.ttf
     preferred_family_name: Cantata One
     preferred_type: Regular
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: PlI5Fl60Nb5obNzNe2jslVxEt8CwfGaD.ttf
     formats:
     - ttf
     - woff2
@@ -51,7 +52,6 @@ copyright: "Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com)\rwith R
   Font Name \"Cantata\"\r\rThis Font Software is licensed under the SIL Open Font
   License, Version 1.1. This license is copied below, and is also available with a
   FAQ at: http://scripts.sil.org/OFL"
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),\nwith Reserved
   Font Name \"Cantata\".\n\nThis Font Software is licensed under the SIL Open Font
@@ -159,4 +159,9 @@ open_license: "Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),\nwith 
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: cantata_one

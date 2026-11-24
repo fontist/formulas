@@ -5,7 +5,7 @@ description: Orelega is a whimsical Clarendon font with oversized ears. Its desi
   was based on Sagona Extra Bold by René Bieder, but it is not a shameless copy. Everything
   has been redrawn from the ground up, with many new aesthetic changes. Orelega is
   Esperanto for “large-eared”. It is composed of orel- “ear”, -eg- [augments degree
-  or size], and -a [adjective ending]. To contribute, see github.com/JapanYoshi/Orelega
+  or size], and -a [adjective ending]. To contribute, see gitlab.com/haleyhalcyon/orelega
 homepage: https://fonts.google.com/specimen/Orelega+One
 resources:
   ttf_static:
@@ -33,16 +33,16 @@ fonts:
     post_script_name: OrelegaOne-Regular
     version: 1.1 ; ttfautohint (v1.8.3)
     copyright: Copyright 2021 The Orelega One Project Authors (https://github.com/JapanYoshi/Orelega)
-    font: 3qTpojOggD2XtAdFb-QXZGt61EcYaQ7F.ttf
+    font: OrelegaOne-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: 3qTpojOggD2XtAdFb-QXZGt61EcYaQ7F.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2021 The Orelega One Project Authors (https://github.com/JapanYoshi/Orelega)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2021 The Orelega One Project Authors (https://github.com/JapanYoshi/Orelega)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -148,4 +148,9 @@ open_license: "Copyright 2021 The Orelega One Project Authors (https://github.co
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: orelega_one

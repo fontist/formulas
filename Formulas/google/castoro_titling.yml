@@ -13,17 +13,17 @@ resources:
     source: google
     family: Castoro Titling
     files:
-    - https://fonts.gstatic.com/s/castorotitling/v10/buEupouwccj03leTfjUAhEZWlrNqYgckeo9RMw.ttf
+    - https://fonts.gstatic.com/s/castorotitling/v13/buEupouwccj03leTfjUAhEZWlrNqYgckeo9RMw.ttf
     urls:
-    - https://fonts.gstatic.com/s/castorotitling/v10/buEupouwccj03leTfjUAhEZWlrNqYgckeo9RMw.ttf
+    - https://fonts.gstatic.com/s/castorotitling/v13/buEupouwccj03leTfjUAhEZWlrNqYgckeo9RMw.ttf
     format: ttf
   woff2_static:
     source: google
     family: Castoro Titling
     files:
-    - https://fonts.gstatic.com/s/castorotitling/v10/buEupouwccj03leTfjUAhEZWlrNqZwckeo9RMw.woff2
+    - https://fonts.gstatic.com/s/castorotitling/v13/buEupouwccj03leTfjUAhEZWlrNqZwckeo9RMw.woff2
     urls:
-    - https://fonts.gstatic.com/s/castorotitling/v10/buEupouwccj03leTfjUAhEZWlrNqZwckeo9RMw.woff2
+    - https://fonts.gstatic.com/s/castorotitling/v13/buEupouwccj03leTfjUAhEZWlrNqZwckeo9RMw.woff2
     format: woff2
 fonts:
 - name: Castoro Titling
@@ -32,22 +32,22 @@ fonts:
     type: Regular
     full_name: Castoro Titling Regular
     post_script_name: CastoroTitling-Regular
-    version: '2.04'
+    version: 3.000; ttfautohint (v1.8.4.16-eb64)
     copyright: Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)
-    font: buEupouwccj03leTfjUAhEZWlrNqYgckeo9RMw.ttf
+    font: CastoroTitling-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
-      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: buEupouwccj03leTfjUAhEZWlrNqYgckeo9RMw.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
-  is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL\n\n\n-----------------------------------------------------------\nSIL
+  is copied below, and is also available with a FAQ at:\nhttps://openfontlicense.org\n\n\n-----------------------------------------------------------\nSIL
   OPEN FONT LICENSE Version 1.1 - 26 February 2007\n-----------------------------------------------------------\n\nPREAMBLE\nThe
   goals of the Open Font License (OFL) are to stimulate worldwide\ndevelopment of
   collaborative font projects, to support the font creation\nefforts of academic and
@@ -99,7 +99,7 @@ license: "Copyright 2020 The Castoro Project Authors (https://github.com/TiroTyp
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
 open_license: "Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
-  is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL\n\n\n-----------------------------------------------------------\nSIL
+  is copied below, and is also available with a FAQ at:\nhttps://openfontlicense.org\n\n\n-----------------------------------------------------------\nSIL
   OPEN FONT LICENSE Version 1.1 - 26 February 2007\n-----------------------------------------------------------\n\nPREAMBLE\nThe
   goals of the Open Font License (OFL) are to stimulate worldwide\ndevelopment of
   collaborative font projects, to support the font creation\nefforts of academic and
@@ -149,4 +149,9 @@ open_license: "Copyright 2020 The Castoro Project Authors (https://github.com/Ti
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2026-10-27'
+  family_id: castoro_titling

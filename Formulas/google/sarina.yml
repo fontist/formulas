@@ -4,7 +4,8 @@ schema_version: 5
 description: 'Foundry: Sorkin Type Co Sarina is a display typeface with brush style
   letterforms. Sarina''s medium contrast and wide setting offers a casual breezy feeling.
   Sarina is appropriate for medium to larger sizes. Source files are available from
-  Google Code . To contribute to the project contact Eben Sorkin .'
+  github.com/googlefonts/googlefontdirectory-hg . To contribute to the project contact
+  Eben Sorkin .'
 homepage: https://fonts.google.com/specimen/Sarina
 resources:
   ttf_static:
@@ -33,9 +34,10 @@ fonts:
     version: '1.001'
     copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)\rwith Reserved
       Font Name \"Sarina\"."
-    font: "-F6wfjF3ITQwasLhLkDUriBQxw.ttf"
+    font: Sarina-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: "-F6wfjF3ITQwasLhLkDUriBQxw.ttf"
     formats:
     - ttf
     - woff2
@@ -43,7 +45,6 @@ fonts:
 extract: {}
 copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)\rwith Reserved
   Font Name \"Sarina\"."
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),\nwith Reserved
   Font Name \"Sarina\".\n\nThis Font Software is licensed under the SIL Open Font
@@ -151,4 +152,9 @@ open_license: "Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),\nwith 
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: sarina

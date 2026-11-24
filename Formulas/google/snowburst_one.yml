@@ -6,8 +6,8 @@ description: 'Foundry: Sorkin Type Co Snowburst One is a low contrast serifed di
   One''s personality consistently shows in both small and large sizes. Because of
   the thin stokes this font is best used from medium to large sizes. Despite its surprising
   forms Snowburst is highly legible. Readers are likely to be both surprised and entertained
-  by its unusual but friendly forms. Source files are available from Google Code .
-  To contribute to the project contact Eben Sorkin .'
+  by its unusual but friendly forms. Source files are available from github.com/googlefonts/googlefontdirectory-hg
+  . To contribute to the project contact Eben Sorkin .'
 homepage: https://fonts.google.com/specimen/Snowburst+One
 resources:
   ttf_static:
@@ -36,9 +36,10 @@ fonts:
     version: '1.001'
     copyright: "Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com)\rwith
       Reserved Font Name 'Snowburst'"
-    font: MQpS-WezKdujBsXY3B7I-UT7eZ-UPyacPbo.ttf
+    font: SnowburstOne-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: MQpS-WezKdujBsXY3B7I-UT7eZ-UPyacPbo.ttf
     formats:
     - ttf
     - woff2
@@ -46,7 +47,6 @@ fonts:
 extract: {}
 copyright: "Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com)\rwith Reserved
   Font Name 'Snowburst'"
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2012 by Sorkin Type Co (www.sorkintype.com), with Reserved
   Font Name 'Snowburst'\n\nThis Font Software is licensed under the SIL Open Font
@@ -154,4 +154,9 @@ open_license: "Copyright (c) 2012 by Sorkin Type Co (www.sorkintype.com), with R
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-02'
+  family_id: snowburst_one

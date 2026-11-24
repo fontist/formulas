@@ -45,8 +45,9 @@ fonts:
     post_script_name: Caudex
     version: '1.01 '
     copyright: Copyright (c) 2011 Hjort Nidudsson
-    font: esDQ311QOP6BJUrIyviAnb4eEw.ttf
+    font: Caudex.ttf
     description: SIL Open Font License
+    source_font: esDQ311QOP6BJUrIyviAnb4eEw.ttf
     formats:
     - ttf
     - woff2
@@ -57,8 +58,9 @@ fonts:
     post_script_name: Caudex-Italic
     version: '1.01 '
     copyright: Copyright (c) 2011 Hjort Nidudsson
-    font: esDS311QOP6BJUr4yPKEv7sOE4in.ttf
+    font: Caudex-Italic.ttf
     description: SIL Open Font License
+    source_font: esDS311QOP6BJUr4yPKEv7sOE4in.ttf
     formats:
     - ttf
     - woff2
@@ -69,8 +71,9 @@ fonts:
     post_script_name: Caudex-Bold
     version: '1.01 '
     copyright: Copyright (c) 2011 Hjort Nidudsson
-    font: esDT311QOP6BJUrwdteklZUCGpG-GQ.ttf
+    font: Caudex-Bold.ttf
     description: SIL Open Font License
+    source_font: esDT311QOP6BJUrwdteklZUCGpG-GQ.ttf
     formats:
     - ttf
     - woff2
@@ -81,15 +84,15 @@ fonts:
     post_script_name: Caudex-BoldItalic
     version: '1.01 '
     copyright: Copyright (c) 2011 Hjort Nidudsson
-    font: esDV311QOP6BJUr4yMo4kJ8GOJSuGdLB.ttf
+    font: Caudex-BoldItalic.ttf
     description: SIL Open Font License
+    source_font: esDV311QOP6BJUr4yMo4kJ8GOJSuGdLB.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2011 Hjort Nidudsson
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011, Hjort Nidudsson (http://caudex.sf.net),\nwith Reserved
   Font Name Caudex.\n\nThis Font Software is licensed under the SIL Open Font License,
@@ -195,4 +198,9 @@ open_license: "Copyright (c) 2011, Hjort Nidudsson (http://caudex.sf.net),\nwith
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: caudex

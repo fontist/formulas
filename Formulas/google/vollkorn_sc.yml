@@ -10,7 +10,7 @@ description: Vollkorn came into being as my first type designing attempt. I publ
   be used as body type as well as for headlines or titles. »Vollkorn« (pronounced
   »Follkorn«) is German for »wholemeal« which refers to the old term »Brotschrift«.
   It stood for the small fonts for every day use in hand setting times. This is the
-  Small Cap sister family to the main Vollkorn family.
+  Small Caps sister family to the main Vollkorn family.
 homepage: https://fonts.google.com/specimen/Vollkorn+SC
 resources:
   ttf_static:
@@ -50,9 +50,10 @@ fonts:
     post_script_name: VollkornSC-Regular
     version: '4.015'
     copyright: Copyright 2017 The Vollkorn Project Authors (https://github.com/FAlthausen/Vollkorn-Typeface)
-    font: j8_v6-zQ3rXpceZj9cqnVhF5NH-iSq_E.ttf
+    font: VollkornSC-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: j8_v6-zQ3rXpceZj9cqnVhF5NH-iSq_E.ttf
     formats:
     - ttf
     - woff2
@@ -63,9 +64,10 @@ fonts:
     post_script_name: VollkornSC-Bold
     version: '4.015'
     copyright: Copyright 2017 The Vollkorn Project Authors (https://github.com/FAlthausen/Vollkorn-Typeface)
-    font: j8_y6-zQ3rXpceZj9cqnVinFG1uqYbPN5Yjn.ttf
+    font: VollkornSC-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: j8_y6-zQ3rXpceZj9cqnVinFG1uqYbPN5Yjn.ttf
     formats:
     - ttf
     - woff2
@@ -78,11 +80,12 @@ fonts:
     post_script_name: VollkornSC-SemiBold
     version: '4.015'
     copyright: Copyright 2017 The Vollkorn Project Authors (https://github.com/FAlthausen/Vollkorn-Typeface)
-    font: j8_y6-zQ3rXpceZj9cqnVimhGluqYbPN5Yjn.ttf
+    font: VollkornSC-SemiBold.ttf
     preferred_family_name: Vollkorn SC
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: j8_y6-zQ3rXpceZj9cqnVimhGluqYbPN5Yjn.ttf
     formats:
     - ttf
     - woff2
@@ -95,18 +98,18 @@ fonts:
     post_script_name: VollkornSC-Black
     version: '4.015'
     copyright: Copyright 2017 The Vollkorn Project Authors (https://github.com/FAlthausen/Vollkorn-Typeface)
-    font: j8_y6-zQ3rXpceZj9cqnVin9GVuqYbPN5Yjn.ttf
+    font: VollkornSC-Black.ttf
     preferred_family_name: Vollkorn SC
     preferred_type: Black
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: j8_y6-zQ3rXpceZj9cqnVin9GVuqYbPN5Yjn.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2017 The Vollkorn Project Authors (https://github.com/FAlthausen/Vollkorn-Typeface)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2017 The Vollkorn Project Authors (https://github.com/FAlthausen/Vollkorn-Typeface)\n\r\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis
@@ -218,4 +221,9 @@ open_license: "Copyright 2017 The Vollkorn Project Authors (https://github.com/F
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-11'
+  family_id: vollkorn_sc

@@ -34,9 +34,10 @@ fonts:
     version: 1.004; ttfautohint (v1.4.1)
     copyright: Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com) with Reserved
       Font Name 'Kavoon'
-    font: pxiFyp4_scRYhlU4NLr6f1pdEQ.ttf
+    font: Kavoon-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: pxiFyp4_scRYhlU4NLr6f1pdEQ.ttf
     formats:
     - ttf
     - woff2
@@ -44,7 +45,6 @@ fonts:
 extract: {}
 copyright: Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com) with Reserved
   Font Name 'Kavoon'
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com) with Reserved
   Font Name 'Kavoon'\n\nThis Font Software is licensed under the SIL Open Font License,
@@ -150,4 +150,9 @@ open_license: "Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com) with
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: kavoon

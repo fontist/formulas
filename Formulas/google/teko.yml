@@ -24,9 +24,9 @@ resources:
     source: google
     family: Teko
     files:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/teko/Teko[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/teko/Teko[wght].ttf
     urls:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/teko/Teko[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/teko/Teko[wght].ttf
     format: ttf
     variable_axes:
     - wght
@@ -71,11 +71,12 @@ fonts:
     post_script_name: Teko-Light
     version: 2.000;gftools[0.9.28.dev9+g7d2139d.d20230707]
     copyright: Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)
-    font: LYjYdG7kmE0gV69VVPPdFl06VN9JG7Sy3TKEvkCF.ttf
+    font: Teko-Light.ttf
     preferred_family_name: Teko
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: LYjYdG7kmE0gV69VVPPdFl06VN9JG7Sy3TKEvkCF.ttf
     formats:
     - ttf
     - woff2
@@ -89,9 +90,10 @@ fonts:
     post_script_name: Teko-Regular
     version: 2.000;gftools[0.9.28.dev9+g7d2139d.d20230707]
     copyright: Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)
-    font: LYjYdG7kmE0gV69VVPPdFl06VN8XG7Sy3TKEvkCF.ttf
+    font: Teko-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: LYjYdG7kmE0gV69VVPPdFl06VN8XG7Sy3TKEvkCF.ttf
     formats:
     - ttf
     - woff2
@@ -103,9 +105,10 @@ fonts:
     post_script_name: Teko-Bold
     version: 2.000;gftools[0.9.28.dev9+g7d2139d.d20230707]
     copyright: Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)
-    font: LYjYdG7kmE0gV69VVPPdFl06VN_wHLSy3TKEvkCF.ttf
+    font: Teko-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: LYjYdG7kmE0gV69VVPPdFl06VN_wHLSy3TKEvkCF.ttf
     formats:
     - ttf
     - woff2
@@ -131,11 +134,12 @@ fonts:
     post_script_name: Teko-Medium
     version: 2.000;gftools[0.9.28.dev9+g7d2139d.d20230707]
     copyright: Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)
-    font: LYjYdG7kmE0gV69VVPPdFl06VN8lG7Sy3TKEvkCF.ttf
+    font: Teko-Medium.ttf
     preferred_family_name: Teko
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: LYjYdG7kmE0gV69VVPPdFl06VN8lG7Sy3TKEvkCF.ttf
     formats:
     - ttf
     - woff2
@@ -149,11 +153,12 @@ fonts:
     post_script_name: Teko-SemiBold
     version: 2.000;gftools[0.9.28.dev9+g7d2139d.d20230707]
     copyright: Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)
-    font: LYjYdG7kmE0gV69VVPPdFl06VN_JHLSy3TKEvkCF.ttf
+    font: Teko-SemiBold.ttf
     preferred_family_name: Teko
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: LYjYdG7kmE0gV69VVPPdFl06VN_JHLSy3TKEvkCF.ttf
     formats:
     - ttf
     - woff2
@@ -161,7 +166,6 @@ fonts:
     source_resource: ttf_static
 extract: {}
 copyright: Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -267,4 +271,9 @@ open_license: "Copyright 2023 The Teko Project Authors (https://www.github.com/g
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: teko

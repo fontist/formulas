@@ -49,9 +49,10 @@ fonts:
     post_script_name: Sansation-Light
     version: '1.301'
     copyright: Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'
-    font: LYjFdGPjnEg8DNA0z01YAVgPVPXbUJWq9g.ttf
+    font: Sansation-Light.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: LYjFdGPjnEg8DNA0z01YAVgPVPXbUJWq9g.ttf
     formats:
     - ttf
     - woff2
@@ -62,9 +63,10 @@ fonts:
     post_script_name: Sansation-LightItalic
     version: '1.301'
     copyright: Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'
-    font: LYjbdGPjnEg8DNA0z01Qr0KDVv_fcpC69i6N.ttf
+    font: Sansation-LightItalic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: LYjbdGPjnEg8DNA0z01Qr0KDVv_fcpC69i6N.ttf
     formats:
     - ttf
     - woff2
@@ -77,9 +79,10 @@ fonts:
     post_script_name: Sansation-Regular
     version: '1.301'
     copyright: Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'
-    font: LYjAdGPjnEg8DNA0z01grXArXN7HWQ.ttf
+    font: Sansation-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: LYjAdGPjnEg8DNA0z01grXArXN7HWQ.ttf
     formats:
     - ttf
     - woff2
@@ -90,9 +93,10 @@ fonts:
     post_script_name: Sansation-Italic
     version: '1.301'
     copyright: Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'
-    font: LYjGdGPjnEg8DNA0z01Qr3ovftvXWYyz.ttf
+    font: Sansation-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: LYjGdGPjnEg8DNA0z01Qr3ovftvXWYyz.ttf
     formats:
     - ttf
     - woff2
@@ -103,9 +107,10 @@ fonts:
     post_script_name: Sansation-Bold
     version: '1.301'
     copyright: Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'
-    font: LYjFdGPjnEg8DNA0z01YEV8PVPXbUJWq9g.ttf
+    font: Sansation-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: LYjFdGPjnEg8DNA0z01YEV8PVPXbUJWq9g.ttf
     formats:
     - ttf
     - woff2
@@ -116,16 +121,16 @@ fonts:
     post_script_name: Sansation-BoldItalic
     version: '1.301'
     copyright: Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'
-    font: LYjbdGPjnEg8DNA0z01Qr0KTUf_fcpC69i6N.ttf
+    font: Sansation-BoldItalic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: LYjbdGPjnEg8DNA0z01Qr0KTUf_fcpC69i6N.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'\r\n\r\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis
@@ -237,4 +242,9 @@ open_license: "Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sans
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-04-23'
+  family_id: sansation

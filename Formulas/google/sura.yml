@@ -40,9 +40,10 @@ fonts:
     version: 1.003;PS 001.002;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT; ttfautohint
       (v1.00) -l 8 -r 50 -G 200 -x 14 -D latn -f none -w G
     copyright: Copyright 2015 by Carolina Giovagnoli. All rights reserved.
-    font: SZc23FL5PbyzFf5UWzXtjUM.ttf
+    font: Sura-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: SZc23FL5PbyzFf5UWzXtjUM.ttf
     formats:
     - ttf
     - woff2
@@ -54,16 +55,16 @@ fonts:
     version: 1.002;PS 001.002;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT; ttfautohint
       (v1.00) -l 8 -r 50 -G 200 -x 14 -D latn -f none -w G
     copyright: Copyright 2015 by Carolina Giovagnoli. All rights reserved.
-    font: SZc53FL5PbyzLUJ7fz3GkUrS8DI.ttf
+    font: Sura-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: SZc53FL5PbyzLUJ7fz3GkUrS8DI.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2015 by Carolina Giovagnoli. All rights reserved.
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2015 by Carolina Giovagnoli. All rights reserved.\n\nThis Font
   Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -169,4 +170,9 @@ open_license: "Copyright 2015 by Carolina Giovagnoli. All rights reserved.\n\nTh
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: sura

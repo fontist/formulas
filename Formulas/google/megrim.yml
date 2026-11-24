@@ -31,15 +31,15 @@ fonts:
     version: '20110427 '
     copyright: Copyright (c) 2010, 2011 by Daniel Johnson. Released under the terms
       of the SIL Open Font License.
-    font: 46kulbz5WjvLqJZlbWXgd0RY1g.ttf
+    font: Megrim.ttf
     preferred_family_name: Megrim
     preferred_type: Medium
+    source_font: 46kulbz5WjvLqJZlbWXgd0RY1g.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
-spdx_license: OFL-1.1-no-RFN
 copyright: Copyright (c) 2010, 2011 by Daniel Johnson. Released under the terms of
   the SIL Open Font License.
 license_url: https://scripts.sil.org/OFL
@@ -147,4 +147,9 @@ open_license: "Copyright (c) 2009, 2010, 2011 Daniel Johnson (<il.basso.buffo@gm
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: megrim

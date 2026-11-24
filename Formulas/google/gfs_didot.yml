@@ -41,7 +41,7 @@ fonts:
     version: '1.0 '
     copyright: Copyright (c) Takis Katsoulidis and George D. Matthiopoulos, 2001.
       All rights reserved.
-    font: Jqzh5TybZ9vZMWFssvwiF-fGFSCGAA.ttf
+    font: GFSDidot-Regular.ttf
     preferred_family_name: GFS Didot
     preferred_type: Regular
     description: "This Font Software is Copyright (c) 2001-2006, Greek Font Society
@@ -103,6 +103,7 @@ fonts:
       INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\r\rDAMAGES, WHETHER IN AN ACTION OF CONTRACT,
       TORT OR OTHERWISE, ARISING\r\rFROM, OUT OF THE USE OR INABILITY TO USE THE FONT
       SOFTWARE OR FROM\r\rOTHER DEALINGS IN THE FONT SOFTWARE."
+    source_font: Jqzh5TybZ9vZMWFssvwiF-fGFSCGAA.ttf
     formats:
     - ttf
     - woff2
@@ -110,7 +111,6 @@ fonts:
 extract: {}
 copyright: Copyright (c) Takis Katsoulidis and George D. Matthiopoulos, 2001. All
   rights reserved.
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) <17/12/07>, <GREEK FONT SOCIETY> (<http://www.greekfontsociety.org|gfs@greekfontsociety.org>),\r\nwith
   Reserved Font Name <GFS Didot>.\r\n\r\nThis Font Software is licensed under the
@@ -224,4 +224,9 @@ open_license: "Copyright (c) <17/12/07>, <GREEK FONT SOCIETY> (<http://www.greek
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: gfs_didot

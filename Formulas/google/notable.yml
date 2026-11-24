@@ -34,16 +34,16 @@ fonts:
     post_script_name: Notable-Regular
     version: '1.100'
     copyright: Copyright 2018 The Notable Project Authors (https://github.com/googlefonts/notable)
-    font: gNMEW3N_SIqx-WX9-HMoFIez5MI.ttf
+    font: Notable-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: gNMEW3N_SIqx-WX9-HMoFIez5MI.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2018 The Notable Project Authors (https://github.com/googlefonts/notable)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2018 The Notable Project Authors (https://github.com/googlefonts/notable)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -149,4 +149,9 @@ open_license: "Copyright 2018 The Notable Project Authors (https://github.com/go
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-02'
+  family_id: notable

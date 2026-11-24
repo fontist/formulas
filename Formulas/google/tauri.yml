@@ -5,8 +5,8 @@ description: 'Foundry: Sorkin Type Co Tauri is a semi condensed sans typeface wi
   a sense of restraint, clarity and rigor. Tauri''s unique qualities do not shout
   and instead emerge slowly and organically as it is used. Tauri is useful from small
   to medium sizes but has enough subtle detail to be used at large sizes as well if
-  it is more tightly spaced. Source files are available from Google Code . To contribute
-  to the project contact Eben Sorkin .'
+  it is more tightly spaced. Source files are available from github.com/googlefonts/googlefontdirectory-hg
+  . To contribute to the project contact Eben Sorkin .'
 homepage: https://fonts.google.com/specimen/Tauri
 resources:
   ttf_static:
@@ -36,9 +36,10 @@ fonts:
       -c
     copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)\rwith Reserved
       Font Name 'Tauri'."
-    font: TwMA-IISS0AM3IpVWHU_TBqO.ttf
+    font: TauriRegular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: TwMA-IISS0AM3IpVWHU_TBqO.ttf
     formats:
     - ttf
     - woff2
@@ -46,7 +47,6 @@ fonts:
 extract: {}
 copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)\rwith Reserved
   Font Name 'Tauri'."
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2013 by Sorkin Type Co (www.sorkintype.com), with Reserved
   Font Name 'Tauri'\n\nThis Font Software is licensed under the SIL Open Font License,
@@ -152,4 +152,9 @@ open_license: "Copyright (c) 2013 by Sorkin Type Co (www.sorkintype.com), with R
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: tauri

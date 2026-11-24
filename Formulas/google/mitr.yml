@@ -62,11 +62,12 @@ fonts:
     post_script_name: Mitr-ExtraLight
     version: '1.001'
     copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: pxiEypw5ucZF8fMZFJDUc1NECPY.ttf
+    font: Mitr-ExtraLight.ttf
     preferred_family_name: Mitr
     preferred_type: ExtraLight
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: pxiEypw5ucZF8fMZFJDUc1NECPY.ttf
     formats:
     - ttf
     - woff2
@@ -79,11 +80,12 @@ fonts:
     post_script_name: Mitr-Light
     version: '1.003'
     copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: pxiEypw5ucZF8ZcaFJDUc1NECPY.ttf
+    font: Mitr-Light.ttf
     preferred_family_name: Mitr
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: pxiEypw5ucZF8ZcaFJDUc1NECPY.ttf
     formats:
     - ttf
     - woff2
@@ -96,9 +98,10 @@ fonts:
     post_script_name: Mitr-Regular
     version: '1.003'
     copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: pxiLypw5ucZFyTsyMJj_b1o.ttf
+    font: Mitr-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: pxiLypw5ucZFyTsyMJj_b1o.ttf
     formats:
     - ttf
     - woff2
@@ -109,9 +112,10 @@ fonts:
     post_script_name: Mitr-Bold
     version: '1.003'
     copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: pxiEypw5ucZF8YcdFJDUc1NECPY.ttf
+    font: Mitr-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: pxiEypw5ucZF8YcdFJDUc1NECPY.ttf
     formats:
     - ttf
     - woff2
@@ -124,11 +128,12 @@ fonts:
     post_script_name: Mitr-Medium
     version: '1.003'
     copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: pxiEypw5ucZF8c8bFJDUc1NECPY.ttf
+    font: Mitr-Medium.ttf
     preferred_family_name: Mitr
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: pxiEypw5ucZF8c8bFJDUc1NECPY.ttf
     formats:
     - ttf
     - woff2
@@ -141,18 +146,18 @@ fonts:
     post_script_name: Mitr-SemiBold
     version: '1.003'
     copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: pxiEypw5ucZF8eMcFJDUc1NECPY.ttf
+    font: Mitr-SemiBold.ttf
     preferred_family_name: Mitr
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: pxiEypw5ucZF8eMcFJDUc1NECPY.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2015 The Mitr Project Authors (https://github.com/cadsondemak/mitr)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -258,4 +263,9 @@ open_license: "Copyright 2015 The Mitr Project Authors (https://github.com/cadso
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: mitr

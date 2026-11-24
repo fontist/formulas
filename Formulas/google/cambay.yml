@@ -45,9 +45,10 @@ fonts:
     post_script_name: Cambay-Regular
     version: 1.181;PS 001.181;hotconv 1.0.70;makeotf.lib2.5.58329
     copyright: Copyright (c) 2014 Pooja Saxena (www.poojasaxena.in)
-    font: SLXJc1rY6H0_ZDsGbrSIz9JsaA.ttf
+    font: Cambay-Regular.ttf
     description: This Font Software is licensed under the SIL Open Font License Version
       1.1. This license is available with a FAQ at http://scripts.sil.org/OFL
+    source_font: SLXJc1rY6H0_ZDsGbrSIz9JsaA.ttf
     formats:
     - ttf
     - woff2
@@ -58,9 +59,10 @@ fonts:
     post_script_name: Cambay-Italic
     version: 1.019;PS 001.019;hotconv 1.0.70;makeotf.lib2.5.58329
     copyright: Copyright (c) 2014 Pooja Saxena (www.poojasaxena.in)
-    font: SLXLc1rY6H0_ZDs2bL6M7dd8aGZk.ttf
+    font: Cambay-Italic.ttf
     description: This Font Software is licensed under the SIL Open Font License Version
       1.1. This license is available with a FAQ at http://scripts.sil.org/OFL
+    source_font: SLXLc1rY6H0_ZDs2bL6M7dd8aGZk.ttf
     formats:
     - ttf
     - woff2
@@ -71,9 +73,10 @@ fonts:
     post_script_name: Cambay-Bold
     version: 1.096;PS 001.096;hotconv 1.0.70;makeotf.lib2.5.58329
     copyright: Copyright (c) 2014 Pooja Saxena (www.poojasaxena.in)
-    font: SLXKc1rY6H0_ZDs-0pusx_lwYX99kA.ttf
+    font: Cambay-Bold.ttf
     description: This Font Software is licensed under the SIL Open Font License Version
       1.1. This license is available with a FAQ at http://scripts.sil.org/OFL
+    source_font: SLXKc1rY6H0_ZDs-0pusx_lwYX99kA.ttf
     formats:
     - ttf
     - woff2
@@ -84,16 +87,16 @@ fonts:
     post_script_name: Cambay-BoldItalic
     version: 1.006;PS 001.006;hotconv 1.0.70;makeotf.lib2.5.58329
     copyright: Copyright (c) 2014 Pooja Saxena (www.poojasaxena.in)
-    font: SLXMc1rY6H0_ZDs2bIYwwvN0Q3ptkDMN.ttf
+    font: Cambay-BoldItalic.ttf
     description: This Font Software is licensed under the SIL Open Font License Version
       1.1. This license is available with a FAQ at http://scripts.sil.org/OFL
+    source_font: SLXMc1rY6H0_ZDs2bIYwwvN0Q3ptkDMN.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2014 Pooja Saxena (www.poojasaxena.in)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: |+
   Copyright (c) 2014 Pooja Saxena (www.poojasaxena.in)
@@ -285,5 +288,10 @@ open_license: |+
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-11'
+  family_id: cambay
 ...

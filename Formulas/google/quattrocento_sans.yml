@@ -48,9 +48,10 @@ fonts:
       (c) 2011, Igino Marini. (www.ikern.com|mail@iginomarini.com),\rCopyright (c)
       2011, Brenda Gallo. (gbrenda1987@gmail.com),\rwith Reserved Font Name Quattrocento
       Sans."
-    font: va9c4lja2NVIDdIAAoMR5MfuElaRB3zOvU7eHGHJ.ttf
+    font: QuattrocentoSans.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: va9c4lja2NVIDdIAAoMR5MfuElaRB3zOvU7eHGHJ.ttf
     formats:
     - ttf
     - woff2
@@ -64,9 +65,10 @@ fonts:
       (c) 2011, Igino Marini. (www.ikern.com|mail@iginomarini.com),\rCopyright (c)
       2011, Brenda Gallo. (gbrenda1987@gmail.com),\rwith Reserved Font Name Quattrocento
       Sans."
-    font: va9a4lja2NVIDdIAAoMR5MfuElaRB0zMt0r8GXHJkLI.ttf
+    font: QuattrocentoSans-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: va9a4lja2NVIDdIAAoMR5MfuElaRB0zMt0r8GXHJkLI.ttf
     formats:
     - ttf
     - woff2
@@ -80,9 +82,10 @@ fonts:
       (c) 2011, Igino Marini. (www.ikern.com|mail@iginomarini.com),\rCopyright (c)
       2011, Brenda Gallo. (gbrenda1987@gmail.com),\rwith Reserved Font Name Quattrocento
       Sans."
-    font: va9Z4lja2NVIDdIAAoMR5MfuElaRB0RykmrWN33AiasJ.ttf
+    font: QuattrocentoSans-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: va9Z4lja2NVIDdIAAoMR5MfuElaRB0RykmrWN33AiasJ.ttf
     formats:
     - ttf
     - woff2
@@ -96,9 +99,10 @@ fonts:
       (c) 2011, Igino Marini. (www.ikern.com|mail@iginomarini.com),\rCopyright (c)
       2011, Brenda Gallo. (gbrenda1987@gmail.com),\rwith Reserved Font Name Quattrocento
       Sans."
-    font: va9X4lja2NVIDdIAAoMR5MfuElaRB0zMj_bTPXnijLsJV7E.ttf
+    font: QuattrocentoSans-BoldItalic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: va9X4lja2NVIDdIAAoMR5MfuElaRB0zMj_bTPXnijLsJV7E.ttf
     formats:
     - ttf
     - woff2
@@ -107,7 +111,6 @@ extract: {}
 copyright: "Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),\rCopyright
   (c) 2011, Igino Marini. (www.ikern.com|mail@iginomarini.com),\rCopyright (c) 2011,
   Brenda Gallo. (gbrenda1987@gmail.com),\rwith Reserved Font Name Quattrocento Sans."
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),\nCopyright
   (c) 2011, Igino Marini. (www.ikern.com|mail@iginomarini.com),\nCopyright (c) 2011,
@@ -217,4 +220,9 @@ open_license: "Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: quattrocento_sans

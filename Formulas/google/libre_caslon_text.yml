@@ -12,6 +12,18 @@ description: Libre Caslon Text is optimized for web body text (typically set at 
   as a variable font. To contribute, see github.com/thundernixon/Libre-Caslon
 homepage: https://fonts.google.com/specimen/Libre+Caslon+Text
 resources:
+  ttf_variable:
+    source: google
+    family: Libre Caslon Text
+    files:
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/librecaslontext/LibreCaslonText[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/librecaslontext/LibreCaslonText-Italic[wght].ttf
+    urls:
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/librecaslontext/LibreCaslonText[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/librecaslontext/LibreCaslonText-Italic[wght].ttf
+    format: ttf
+    variable_axes:
+    - wght
   ttf_static:
     source: google
     family: Libre Caslon Text
@@ -46,13 +58,15 @@ fonts:
     version: 1.100; ttfautohint (v1.6) -l 8 -r 50 -G 200 -x 14 -D latn -f none -w
       G -X ""
     copyright: Copyright 2012 The Libre Caslon Text Project Authors (https://github.com/impallari/Libre-Caslon-Text)
-    font: DdT878IGsGw1aF1JU10PUbTvNNaDMcq_3eNrHgO1.ttf
+    font: LibreCaslonText-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: DdT878IGsGw1aF1JU10PUbTvNNaDMcq_3eNrHgO1.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
+    source_resource: ttf_static
   - family_name: Libre Caslon Text
     type: Italic
     full_name: Libre Caslon Text Italic
@@ -60,13 +74,15 @@ fonts:
     version: 1.100; ttfautohint (v1.6) -l 8 -r 50 -G 200 -x 14 -D latn -f none -w
       G -X ""
     copyright: Copyright 2012 The Libre Caslon Text Project Authors (https://github.com/impallari/Libre-Caslon-Text)
-    font: DdT678IGsGw1aF1JU10PUbTvNNaDMfq91-dJGxO1q9o.ttf
+    font: LibreCaslonText-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: DdT678IGsGw1aF1JU10PUbTvNNaDMfq91-dJGxO1q9o.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
+    source_resource: ttf_static
   - family_name: Libre Caslon Text
     type: Bold
     full_name: Libre Caslon Text Bold
@@ -74,16 +90,41 @@ fonts:
     version: 1.100; ttfautohint (v1.6) -l 8 -r 50 -G 200 -x 14 -D latn -f none -w
       G -X ""
     copyright: Copyright 2012 The Libre Caslon Text Project Authors (https://github.com/impallari/Libre-Caslon-Text)
-    font: DdT578IGsGw1aF1JU10PUbTvNNaDMfID8sdjNR-8ssPt.ttf
+    font: LibreCaslonText-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: DdT578IGsGw1aF1JU10PUbTvNNaDMfID8sdjNR-8ssPt.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
+    source_resource: ttf_static
+  - family_name: Libre Caslon Text
+    type: Regular
+    full_name: Libre Caslon Text Regular
+    post_script_name: LibreCaslonText-Regular
+    copyright: Copyright 2020 The Libre Caslon Text Project Authors (https://github.com/thundernixon/Libre-Caslon)
+    font: LibreCaslonText[wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wght
+    source_resource: ttf_variable
+  - family_name: Libre Caslon Text
+    type: Italic
+    full_name: Libre Caslon Text Italic
+    post_script_name: LibreCaslonText-Italic
+    copyright: Copyright 2020 The Libre Caslon Text Project Authors (https://github.com/thundernixon/Libre-Caslon)
+    font: LibreCaslonText-Italic[wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wght
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2012 The Libre Caslon Text Project Authors (https://github.com/impallari/Libre-Caslon-Text)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2018 The Libre Caslon Text Project Authors (https://github.com/thundernixon/Libre-Caslon)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -189,4 +230,9 @@ open_license: "Copyright 2018 The Libre Caslon Text Project Authors (https://git
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-05-30'
+  family_id: libre_caslon_text

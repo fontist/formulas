@@ -43,9 +43,10 @@ fonts:
     post_script_name: CabinCondensed-Regular
     version: '2.200'
     copyright: Copyright 2016 The Cabin Project Authors (impallari@gmail.com)
-    font: nwpMtK6mNhBK2err_hqkYhHRqmwaYOjZ5HZl8Q.ttf
+    font: CabinCondensed-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: nwpMtK6mNhBK2err_hqkYhHRqmwaYOjZ5HZl8Q.ttf
     formats:
     - ttf
     - woff2
@@ -56,9 +57,10 @@ fonts:
     post_script_name: CabinCondensed-Bold
     version: '2.200'
     copyright: Copyright 2016 The Cabin Project Authors (impallari@gmail.com)
-    font: nwpJtK6mNhBK2err_hqkYhHRqmwi3Mf97F15-K1oqQ.ttf
+    font: CabinCondensed-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: nwpJtK6mNhBK2err_hqkYhHRqmwi3Mf97F15-K1oqQ.ttf
     formats:
     - ttf
     - woff2
@@ -71,11 +73,12 @@ fonts:
     post_script_name: CabinCondensed-Medium
     version: '2.200'
     copyright: Copyright 2016 The Cabin Project Authors (impallari@gmail.com)
-    font: nwpJtK6mNhBK2err_hqkYhHRqmwilMH97F15-K1oqQ.ttf
+    font: CabinCondensed-Medium.ttf
     preferred_family_name: Cabin Condensed
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: nwpJtK6mNhBK2err_hqkYhHRqmwilMH97F15-K1oqQ.ttf
     formats:
     - ttf
     - woff2
@@ -88,18 +91,18 @@ fonts:
     post_script_name: CabinCondensed-SemiBold
     version: '2.200'
     copyright: Copyright 2016 The Cabin Project Authors (impallari@gmail.com)
-    font: nwpJtK6mNhBK2err_hqkYhHRqmwiuMb97F15-K1oqQ.ttf
+    font: CabinCondensed-SemiBold.ttf
     preferred_family_name: Cabin Condensed
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: nwpJtK6mNhBK2err_hqkYhHRqmwiuMb97F15-K1oqQ.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2016 The Cabin Project Authors (impallari@gmail.com)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)\r\n\r\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis
@@ -211,4 +214,9 @@ open_license: "Copyright 2016 The Cabin Project Authors (impallari@gmail.com)\r\
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: cabin_condensed

@@ -10,17 +10,17 @@ resources:
     source: google
     family: Noto Sans Mongolian
     files:
-    - https://fonts.gstatic.com/s/notosansmongolian/v23/VdGCAYADGIwE0EopZx8xQfHlgEAMsrToxLsg6-av1x0.ttf
+    - https://fonts.gstatic.com/s/notosansmongolian/v24/VdGCAYADGIwE0EopZx8xQfHlgEAMsrToxLsg6-av1x0.ttf
     urls:
-    - https://fonts.gstatic.com/s/notosansmongolian/v23/VdGCAYADGIwE0EopZx8xQfHlgEAMsrToxLsg6-av1x0.ttf
+    - https://fonts.gstatic.com/s/notosansmongolian/v24/VdGCAYADGIwE0EopZx8xQfHlgEAMsrToxLsg6-av1x0.ttf
     format: ttf
   woff2_static:
     source: google
     family: Noto Sans Mongolian
     files:
-    - https://fonts.gstatic.com/s/notosansmongolian/v23/VdGCAYADGIwE0EopZx8xQfHlgEAMsrToxL4g6-av1x0.woff2
+    - https://fonts.gstatic.com/s/notosansmongolian/v24/VdGCAYADGIwE0EopZx8xQfHlgEAMsrToxL4g6-av1x0.woff2
     urls:
-    - https://fonts.gstatic.com/s/notosansmongolian/v23/VdGCAYADGIwE0EopZx8xQfHlgEAMsrToxL4g6-av1x0.woff2
+    - https://fonts.gstatic.com/s/notosansmongolian/v24/VdGCAYADGIwE0EopZx8xQfHlgEAMsrToxL4g6-av1x0.woff2
     format: woff2
 fonts:
 - name: Noto Sans Mongolian
@@ -29,22 +29,22 @@ fonts:
     type: Regular
     full_name: Noto Sans Mongolian Regular
     post_script_name: NotoSansMongolian-Regular
-    version: 3.002; ttfautohint (v1.8.4.7-5d5b)
+    version: 3.103;fontc 1.0.0; tilvisan (v0.1.1)
     copyright: Copyright 2023 The Noto Project Authors (https://github.com/notofonts/mongolian)
-    font: VdGCAYADGIwE0EopZx8xQfHlgEAMsrToxLsg6-av1x0.ttf
+    font: NotoSansMongolian-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
-      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org/'
+    source_font: VdGCAYADGIwE0EopZx8xQfHlgEAMsrToxLsg6-av1x0.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2023 The Noto Project Authors (https://github.com/notofonts/mongolian)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mongolian)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
-  is copied below, and is also available with a FAQ at:\nhttps://scripts.sil.org/OFL\n\n\n-----------------------------------------------------------\nSIL
+  is copied below, and is also available with a FAQ at:\nhttps://openfontlicense.org\n\n\n-----------------------------------------------------------\nSIL
   OPEN FONT LICENSE Version 1.1 - 26 February 2007\n-----------------------------------------------------------\n\nPREAMBLE\nThe
   goals of the Open Font License (OFL) are to stimulate worldwide\ndevelopment of
   collaborative font projects, to support the font creation\nefforts of academic and
@@ -96,7 +96,7 @@ license: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
 open_license: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mongolian)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
-  is copied below, and is also available with a FAQ at:\nhttps://scripts.sil.org/OFL\n\n\n-----------------------------------------------------------\nSIL
+  is copied below, and is also available with a FAQ at:\nhttps://openfontlicense.org\n\n\n-----------------------------------------------------------\nSIL
   OPEN FONT LICENSE Version 1.1 - 26 February 2007\n-----------------------------------------------------------\n\nPREAMBLE\nThe
   goals of the Open Font License (OFL) are to stimulate worldwide\ndevelopment of
   collaborative font projects, to support the font creation\nefforts of academic and
@@ -146,4 +146,9 @@ open_license: "Copyright 2022 The Noto Project Authors (https://github.com/notof
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2026-11-11'
+  family_id: noto_sans_mongolian

@@ -11,17 +11,17 @@ resources:
     source: google
     family: Yuji Mai
     files:
-    - https://fonts.gstatic.com/s/yujimai/v8/ZgNQjPxdJ7DEHrS0gC38hmHmNpCO.ttf
+    - https://fonts.gstatic.com/s/yujimai/v9/ZgNQjPxdJ7DEHrS0gC38hmHmNpCO.ttf
     urls:
-    - https://fonts.gstatic.com/s/yujimai/v8/ZgNQjPxdJ7DEHrS0gC38hmHmNpCO.ttf
+    - https://fonts.gstatic.com/s/yujimai/v9/ZgNQjPxdJ7DEHrS0gC38hmHmNpCO.ttf
     format: ttf
   woff2_static:
     source: google
     family: Yuji Mai
     files:
-    - https://fonts.gstatic.com/s/yujimai/v8/ZgNQjPxdJ7DEHrS0gC35hmHmNpCO.woff2
+    - https://fonts.gstatic.com/s/yujimai/v9/ZgNQjPxdJ7DEHrS0gC35hmHmNpCO.woff2
     urls:
-    - https://fonts.gstatic.com/s/yujimai/v8/ZgNQjPxdJ7DEHrS0gC35hmHmNpCO.woff2
+    - https://fonts.gstatic.com/s/yujimai/v9/ZgNQjPxdJ7DEHrS0gC35hmHmNpCO.woff2
     format: woff2
 fonts:
 - name: Yuji Mai
@@ -32,16 +32,16 @@ fonts:
     post_script_name: YujiMai-Regular
     version: '3.002'
     copyright: Copyright 2021 The Yuji Project Authors (https://github.com/Kinutafontfactory/Yuji)
-    font: ZgNQjPxdJ7DEHrS0gC38hmHmNpCO.ttf
+    font: YujiMai-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: ZgNQjPxdJ7DEHrS0gC38hmHmNpCO.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2021 The Yuji Project Authors (https://github.com/Kinutafontfactory/Yuji)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2021 The Yuji Project Authors (https://github.com/Kinutafontfactory/Yuji)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -147,4 +147,9 @@ open_license: "Copyright 2021 The Yuji Project Authors (https://github.com/Kinut
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2026-10-01'
+  family_id: yuji_mai

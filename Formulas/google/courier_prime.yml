@@ -45,9 +45,10 @@ fonts:
     post_script_name: CourierPrime-Regular
     version: '3.018'
     copyright: Copyright 2015 The Courier Prime Project Authors (https://github.com/quoteunquoteapps/CourierPrime).
-    font: u-450q2lgwslOqpF_6gQ8kELWwZjW-_-tvg.ttf
+    font: CourierPrime-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: u-450q2lgwslOqpF_6gQ8kELWwZjW-_-tvg.ttf
     formats:
     - ttf
     - woff2
@@ -58,9 +59,10 @@ fonts:
     post_script_name: CourierPrime-Italic
     version: '3.018'
     copyright: Copyright 2015 The Courier Prime Project Authors (https://github.com/quoteunquoteapps/CourierPrime).
-    font: u-4n0q2lgwslOqpF_6gQ8kELawRpX837pvjxPA.ttf
+    font: CourierPrime-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: u-4n0q2lgwslOqpF_6gQ8kELawRpX837pvjxPA.ttf
     formats:
     - ttf
     - woff2
@@ -71,9 +73,10 @@ fonts:
     post_script_name: CourierPrime-Bold
     version: '3.018'
     copyright: Copyright 2015 The Courier Prime Project Authors (https://github.com/quoteunquoteapps/CourierPrime).
-    font: u-4k0q2lgwslOqpF_6gQ8kELY7pMf-fVqvHoJXw.ttf
+    font: CourierPrime-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: u-4k0q2lgwslOqpF_6gQ8kELY7pMf-fVqvHoJXw.ttf
     formats:
     - ttf
     - woff2
@@ -84,16 +87,16 @@ fonts:
     post_script_name: CourierPrime-BoldItalic
     version: '3.018'
     copyright: Copyright 2015 The Courier Prime Project Authors (https://github.com/quoteunquoteapps/CourierPrime).
-    font: u-4i0q2lgwslOqpF_6gQ8kELawRR4-LfrtPtNXyeAg.ttf
+    font: CourierPrime-BoldItalic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: u-4i0q2lgwslOqpF_6gQ8kELawRR4-LfrtPtNXyeAg.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2015 The Courier Prime Project Authors (https://github.com/quoteunquoteapps/CourierPrime).
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2015 The Courier Prime Project Authors (https://github.com/quoteunquoteapps/CourierPrime).\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -199,4 +202,9 @@ open_license: "Copyright 2015 The Courier Prime Project Authors (https://github.
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-11'
+  family_id: courier_prime

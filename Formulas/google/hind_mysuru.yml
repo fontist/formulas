@@ -68,11 +68,12 @@ fonts:
     post_script_name: HindMysuru-Light
     version: 0.703;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406
     copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-    font: sykq-yB3k7wiAJ-U5l_li8pppHWQBVTqU4sY.ttf
+    font: HindMysuru-Light.ttf
     preferred_family_name: Hind Mysuru
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: sykq-yB3k7wiAJ-U5l_li8pppHWQBVTqU4sY.ttf
     formats:
     - ttf
     - woff2
@@ -85,9 +86,10 @@ fonts:
     post_script_name: HindMysuru-Regular
     version: 0.703;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406
     copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-    font: syk3-yB3k7wiAJ-U5l_li_LFjFGYLkjj.ttf
+    font: HindMysuru-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: syk3-yB3k7wiAJ-U5l_li_LFjFGYLkjj.ttf
     formats:
     - ttf
     - woff2
@@ -98,9 +100,10 @@ fonts:
     post_script_name: HindMysuru-Bold
     version: 0.703;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406
     copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-    font: sykq-yB3k7wiAJ-U5l_li8p5o3WQBVTqU4sY.ttf
+    font: HindMysuru-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: sykq-yB3k7wiAJ-U5l_li8p5o3WQBVTqU4sY.ttf
     formats:
     - ttf
     - woff2
@@ -113,11 +116,12 @@ fonts:
     post_script_name: HindMysuru-Medium
     version: 0.703;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406
     copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-    font: sykq-yB3k7wiAJ-U5l_li8oxpXWQBVTqU4sY.ttf
+    font: HindMysuru-Medium.ttf
     preferred_family_name: Hind Mysuru
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: sykq-yB3k7wiAJ-U5l_li8oxpXWQBVTqU4sY.ttf
     formats:
     - ttf
     - woff2
@@ -130,18 +134,18 @@ fonts:
     post_script_name: HindMysuru-SemiBold
     version: 0.703;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406
     copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-    font: sykq-yB3k7wiAJ-U5l_li8odonWQBVTqU4sY.ttf
+    font: HindMysuru-SemiBold.ttf
     preferred_family_name: Hind Mysuru
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: sykq-yB3k7wiAJ-U5l_li8odonWQBVTqU4sY.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -247,4 +251,9 @@ open_license: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.co
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-05-30'
+  family_id: hind_mysuru

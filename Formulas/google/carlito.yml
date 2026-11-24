@@ -43,9 +43,10 @@ fonts:
     post_script_name: Carlito-Regular
     version: '1.104'
     copyright: Copyright 2013 The Carlito Project Authors (https://github.com/googlefonts/carlito)
-    font: 3Jn9SDPw3m-pk039PDCLTXUETuE.ttf
+    font: Carlito-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: 3Jn9SDPw3m-pk039PDCLTXUETuE.ttf
     formats:
     - ttf
     - woff2
@@ -56,9 +57,10 @@ fonts:
     post_script_name: Carlito-Italic
     version: '1.104'
     copyright: Copyright 2013 The Carlito Project Authors (https://github.com/googlefonts/carlito)
-    font: 3Jn_SDPw3m-pk039DDKBSVcBXuFb0Q.ttf
+    font: Carlito-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: 3Jn_SDPw3m-pk039DDKBSVcBXuFb0Q.ttf
     formats:
     - ttf
     - woff2
@@ -69,9 +71,10 @@ fonts:
     post_script_name: Carlito-Bold
     version: '1.104'
     copyright: Copyright 2013 The Carlito Project Authors (https://github.com/googlefonts/carlito)
-    font: 3Jn4SDPw3m-pk039BIykaX0vUuhCyOo.ttf
+    font: Carlito-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: 3Jn4SDPw3m-pk039BIykaX0vUuhCyOo.ttf
     formats:
     - ttf
     - woff2
@@ -82,16 +85,16 @@ fonts:
     post_script_name: Carlito-BoldItalic
     version: '1.104'
     copyright: Copyright 2013 The Carlito Project Authors (https://github.com/googlefonts/carlito)
-    font: 3Jn6SDPw3m-pk039DDK59XglVspH2OprMQ.ttf
+    font: Carlito-BoldItalic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: 3Jn6SDPw3m-pk039DDK59XglVspH2OprMQ.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2013 The Carlito Project Authors (https://github.com/googlefonts/carlito)
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2013 The Carlito Project Authors (https://github.com/googlefonts/carlito),
   with Reserved Font Name \"Carlito\"\n\n\nThis Font Software is licensed under the
@@ -199,4 +202,9 @@ open_license: "Copyright 2013 The Carlito Project Authors (https://github.com/go
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: carlito

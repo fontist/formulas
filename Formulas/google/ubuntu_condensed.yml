@@ -45,15 +45,15 @@ fonts:
     version: '0.83'
     copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
       1.0
-    font: u-4k0rCzjgs5J7oXnJcM_0kACGMtf-fVqvHoJXw.ttf
+    font: UbuntuCondensed-Regular.ttf
     preferred_family_name: Ubuntu Condensed
     preferred_type: Regular
+    source_font: u-4k0rCzjgs5J7oXnJcM_0kACGMtf-fVqvHoJXw.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
-spdx_license: Ubuntu-font-1.0
 copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0
 license_url: https://scripts.sil.org/OFL
 license: |
@@ -250,4 +250,9 @@ open_license: |
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER
   DEALINGS IN THE FONT SOFTWARE.
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-02'
+  family_id: ubuntu_condensed

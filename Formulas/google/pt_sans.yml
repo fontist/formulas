@@ -55,7 +55,7 @@ fonts:
     post_script_name: PTSans-Regular
     version: 2.003W OFL
     copyright: Copyright © 2009 ParaType Ltd. All rights reserved.
-    font: jizaRExUiTo99u79P0WOxOGMMDQ.ttf
+    font: PTSans-Regular.ttf
     description: "Copyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),
       with Reserved Font Names \"PT Sans\", \"PT Serif\" and \"ParaType\".\r\n\r\nThis
       Font Software is licensed under the Open Font License, Version 1.1 This license
@@ -112,6 +112,7 @@ fonts:
       OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
       ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER
       DEALINGS IN THE FONT SOFTWARE.\r\n"
+    source_font: jizaRExUiTo99u79P0WOxOGMMDQ.ttf
     formats:
     - ttf
     - woff2
@@ -122,7 +123,7 @@ fonts:
     post_script_name: PTSans-Italic
     version: 2.003W OFL
     copyright: Copyright © 2009 ParaType Ltd. All rights reserved.
-    font: jizYRExUiTo99u79D0eEwMOJIDQA-g.ttf
+    font: PTSans-Italic.ttf
     description: "Copyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),
       with Reserved Font Names \"PT Sans\", \"PT Serif\" and \"ParaType\".\r\n\r\nThis
       Font Software is licensed under the Open Font License, Version 1.1 This license
@@ -179,6 +180,7 @@ fonts:
       OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
       ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER
       DEALINGS IN THE FONT SOFTWARE.\r\n"
+    source_font: jizYRExUiTo99u79D0eEwMOJIDQA-g.ttf
     formats:
     - ttf
     - woff2
@@ -189,7 +191,7 @@ fonts:
     post_script_name: PTSans-Bold
     version: 2.003W OFL
     copyright: Copyright © 2009 ParaType Ltd. All rights reserved.
-    font: jizfRExUiTo99u79B_mh4OmnLD0Z4zM.ttf
+    font: PTSans-Bold.ttf
     description: "Copyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),
       with Reserved Font Names \"PT Sans\", \"PT Serif\" and \"ParaType\".\r\n\r\nThis
       Font Software is licensed under the Open Font License, Version 1.1 This license
@@ -246,6 +248,7 @@ fonts:
       OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
       ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER
       DEALINGS IN THE FONT SOFTWARE.\r\n"
+    source_font: jizfRExUiTo99u79B_mh4OmnLD0Z4zM.ttf
     formats:
     - ttf
     - woff2
@@ -256,7 +259,7 @@ fonts:
     post_script_name: PTSans-BoldItalic
     version: 2.003W OFL
     copyright: Copyright © 2009 ParaType Ltd. All rights reserved.
-    font: jizdRExUiTo99u79D0e8fOytKB8c8zMrig.ttf
+    font: PTSans-BoldItalic.ttf
     description: "Copyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),
       with Reserved Font Names \"PT Sans\", \"PT Serif\" and \"ParaType\".\r\n\r\nThis
       Font Software is licensed under the Open Font License, Version 1.1 This license
@@ -313,13 +316,13 @@ fonts:
       OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
       ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER
       DEALINGS IN THE FONT SOFTWARE.\r\n"
+    source_font: jizdRExUiTo99u79D0e8fOytKB8c8zMrig.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright © 2009 ParaType Ltd. All rights reserved.
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "\uFEFFCopyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),\nwith
   Reserved Font Names \"PT Sans\" and \"ParaType\".\n\nThis Font Software is licensed
@@ -427,4 +430,9 @@ open_license: "\uFEFFCopyright (c) 2010, ParaType Ltd. (http://www.paratype.com/
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: pt_sans

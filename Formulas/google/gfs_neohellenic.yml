@@ -60,9 +60,10 @@ fonts:
     version: '1.0 '
     copyright: Copyright (c) Takis Katsoulidis and George D. Matthiopoulos, 1993-2001.
       All rights reserved.
-    font: 8QIRdiDOrfiq0b7R8O1Iw9WLcY5TLahP46UDUw.ttf
+    font: GFSNeohellenic-Regular.ttf
     preferred_family_name: GFS Neohellenic
     preferred_type: Regular
+    source_font: 8QIRdiDOrfiq0b7R8O1Iw9WLcY5TLahP46UDUw.ttf
     formats:
     - ttf
     - woff2
@@ -74,9 +75,10 @@ fonts:
     version: '1.0 '
     copyright: Copyright (c) Takis Katsoulidis and George D. Matthiopoulos  , 2001.
       All rights reserved.
-    font: 8QITdiDOrfiq0b7R8O1Iw9WLcY5jL6JLwaATU91X.ttf
+    font: GFSNeohellenic-Italic.ttf
     preferred_family_name: GFS Neohellenic
     preferred_type: Italic
+    source_font: 8QITdiDOrfiq0b7R8O1Iw9WLcY5jL6JLwaATU91X.ttf
     formats:
     - ttf
     - woff2
@@ -88,9 +90,10 @@ fonts:
     version: '1.0 '
     copyright: Copyright (c) Designed by Takis Katsoulidis and George D. Matthiopoulos.,
       2001. All rights reserved.
-    font: 8QIUdiDOrfiq0b7R8O1Iw9WLcY5rkYdr644fWsRO9w.ttf
+    font: GFSNeohellenic-Bold.ttf
     preferred_family_name: GFS Neohellenic
     preferred_type: Bold
+    source_font: 8QIUdiDOrfiq0b7R8O1Iw9WLcY5rkYdr644fWsRO9w.ttf
     formats:
     - ttf
     - woff2
@@ -102,15 +105,15 @@ fonts:
     version: '1.0 '
     copyright: Copyright (c) Designed by Takis Katsoulidis and George D. Matthiopoulos.,
       2001. All rights reserved.
-    font: 8QIWdiDOrfiq0b7R8O1Iw9WLcY5jL5r37oQbeMFe985V.ttf
+    font: GFSNeohellenic-BoldItalic.ttf
     preferred_family_name: GFS Neohellenic
     preferred_type: Bold Italic
+    source_font: 8QIWdiDOrfiq0b7R8O1Iw9WLcY5jL5r37oQbeMFe985V.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
-spdx_license: OFL-1.1-RFN
 copyright: Copyright (c) Takis Katsoulidis and George D. Matthiopoulos, 1993-2001.
   All rights reserved.
 license_url: https://scripts.sil.org/OFL
@@ -226,4 +229,9 @@ open_license: "Copyright (c) 2007, Greek Font Society (www.greekfontsociety.org 
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: gfs_neohellenic

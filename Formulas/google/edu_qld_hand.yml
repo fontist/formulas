@@ -41,9 +41,10 @@ fonts:
     post_script_name: EduQLDHand-Regular
     version: '2.000'
     copyright: Copyright 2023 The QLD School Hand Australia Project Authors (https://github.com/SorkinType/QLDSchoolHandAustralia)
-    font: d6lakaOkTtjy2QhuzWtup1rW3NCQVvjKPjPjngAUeRt5gGCzkrs.ttf
+    font: EduQLDHand-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: d6lakaOkTtjy2QhuzWtup1rW3NCQVvjKPjPjngAUeRt5gGCzkrs.ttf
     formats:
     - ttf
     - woff2
@@ -54,9 +55,10 @@ fonts:
     post_script_name: EduQLDHand-Bold
     version: '2.000'
     copyright: Copyright 2023 The QLD School Hand Australia Project Authors (https://github.com/SorkinType/QLDSchoolHandAustralia)
-    font: d6lakaOkTtjy2QhuzWtup1rW3NCQVvjKPjPjnucTeRt5gGCzkrs.ttf
+    font: EduQLDHand-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: d6lakaOkTtjy2QhuzWtup1rW3NCQVvjKPjPjnucTeRt5gGCzkrs.ttf
     formats:
     - ttf
     - woff2
@@ -69,11 +71,12 @@ fonts:
     post_script_name: EduQLDHand-Medium
     version: '2.000'
     copyright: Copyright 2023 The QLD School Hand Australia Project Authors (https://github.com/SorkinType/QLDSchoolHandAustralia)
-    font: d6lakaOkTtjy2QhuzWtup1rW3NCQVvjKPjPjnjIUeRt5gGCzkrs.ttf
+    font: EduQLDHand-Medium.ttf
     preferred_family_name: Edu QLD Hand
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: d6lakaOkTtjy2QhuzWtup1rW3NCQVvjKPjPjnjIUeRt5gGCzkrs.ttf
     formats:
     - ttf
     - woff2
@@ -86,19 +89,24 @@ fonts:
     post_script_name: EduQLDHand-SemiBold
     version: '2.000'
     copyright: Copyright 2023 The QLD School Hand Australia Project Authors (https://github.com/SorkinType/QLDSchoolHandAustralia)
-    font: d6lakaOkTtjy2QhuzWtup1rW3NCQVvjKPjPjnt4TeRt5gGCzkrs.ttf
+    font: EduQLDHand-SemiBold.ttf
     preferred_family_name: Edu QLD Hand
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: d6lakaOkTtjy2QhuzWtup1rW3NCQVvjKPjPjnt4TeRt5gGCzkrs.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2023 The QLD School Hand Australia Project Authors (https://github.com/SorkinType/QLDSchoolHandAustralia)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: SIL Open Font License v1.1
 open_license: SIL Open Font License v1.1
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-11'
+  family_id: edu_qld_hand

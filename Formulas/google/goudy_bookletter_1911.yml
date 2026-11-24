@@ -35,7 +35,7 @@ fonts:
     post_script_name: GoudyBookletter1911
     version: '2010.07.03 '
     copyright: Copyright (c) 2010, Barry Schwartz (crudfactory.com)
-    font: sykt-z54laciWfKv-kX8krex0jDiD2HbY6I5tRbXZ4IXAA.ttf
+    font: GoudyBookletter1911.ttf
     description: "Copyright (c) 2010, Barry Schwartz (crudfactory.com)\n\nThis Font
       Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
       is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL\n\n\n-----------------------------------------------------------\nSIL
@@ -91,13 +91,13 @@ fonts:
       INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT,
       TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT
       SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
+    source_font: sykt-z54laciWfKv-kX8krex0jDiD2HbY6I5tRbXZ4IXAA.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2010, Barry Schwartz (crudfactory.com)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2010, Barry Schwartz (crudfactory.com)\n\nThis Font Software
   is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied
@@ -203,4 +203,9 @@ open_license: "Copyright (c) 2010, Barry Schwartz (crudfactory.com)\n\nThis Font
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-11'
+  family_id: goudy_bookletter_1911

@@ -31,16 +31,16 @@ fonts:
     post_script_name: ArbutusSlab-Regular
     version: 1.002; ttfautohint (v0.92) -l 10 -r 16 -G 200 -x 7 -w "GD"
     copyright: Copyright (c) 2012 by Sorkin Type Co.. All rights reserved.
-    font: oY1Z8e7OuLXkJGbXtr5ba7ZVa68dJlaFAQ.ttf
+    font: ArbutusSlab-Regular.ttf
     description: This Font Software is licensed under the SIL Open Font License, Version
       1.1.
+    source_font: oY1Z8e7OuLXkJGbXtr5ba7ZVa68dJlaFAQ.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2012 by Sorkin Type Co.. All rights reserved.
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2012 by Sorkin Type Co (www.sorkintype.com),\nwith Reserved
   Font Name \"ArbutusSlab\".\n\nThis Font Software is licensed under the SIL Open
@@ -148,4 +148,9 @@ open_license: "Copyright (c) 2012 by Sorkin Type Co (www.sorkintype.com),\nwith 
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-11'
+  family_id: arbutus_slab

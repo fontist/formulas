@@ -49,11 +49,12 @@ fonts:
     version: 1.032; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Tsukimi Rounded Project Authors (https://github.com/mt-funa/Tsukimi-Rounded),
       all rights reserved.
-    font: sJoZ3LJNksWZO0LvnZwkF3HtoB7VkVsqN7MT3T9X8g.ttf
+    font: TsukimiRounded-Light.ttf
     preferred_family_name: Tsukimi Rounded
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: sJoZ3LJNksWZO0LvnZwkF3HtoB7VkVsqN7MT3T9X8g.ttf
     formats:
     - ttf
     - woff2
@@ -67,9 +68,10 @@ fonts:
     version: 1.032; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Tsukimi Rounded Project Authors (https://github.com/mt-funa/Tsukimi-Rounded),
       all rights reserved.
-    font: sJoc3LJNksWZO0LvnZwkF3HtoB7tPXMOP5gP1A.ttf
+    font: TsukimiRounded-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: sJoc3LJNksWZO0LvnZwkF3HtoB7tPXMOP5gP1A.ttf
     formats:
     - ttf
     - woff2
@@ -81,9 +83,10 @@ fonts:
     version: 1.032; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Tsukimi Rounded Project Authors (https://github.com/mt-funa/Tsukimi-Rounded),
       all rights reserved.
-    font: sJoZ3LJNksWZO0LvnZwkF3HtoB7VgVwqN7MT3T9X8g.ttf
+    font: TsukimiRounded-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: sJoZ3LJNksWZO0LvnZwkF3HtoB7VgVwqN7MT3T9X8g.ttf
     formats:
     - ttf
     - woff2
@@ -97,11 +100,12 @@ fonts:
     version: 1.032; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Tsukimi Rounded Project Authors (https://github.com/mt-funa/Tsukimi-Rounded),
       all rights reserved.
-    font: sJoZ3LJNksWZO0LvnZwkF3HtoB7VyVoqN7MT3T9X8g.ttf
+    font: TsukimiRounded-Medium.ttf
     preferred_family_name: Tsukimi Rounded
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: sJoZ3LJNksWZO0LvnZwkF3HtoB7VyVoqN7MT3T9X8g.ttf
     formats:
     - ttf
     - woff2
@@ -115,11 +119,12 @@ fonts:
     version: 1.032; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The Tsukimi Rounded Project Authors (https://github.com/mt-funa/Tsukimi-Rounded),
       all rights reserved.
-    font: sJoZ3LJNksWZO0LvnZwkF3HtoB7V5V0qN7MT3T9X8g.ttf
+    font: TsukimiRounded-SemiBold.ttf
     preferred_family_name: Tsukimi Rounded
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: sJoZ3LJNksWZO0LvnZwkF3HtoB7V5V0qN7MT3T9X8g.ttf
     formats:
     - ttf
     - woff2
@@ -127,7 +132,6 @@ fonts:
 extract: {}
 copyright: Copyright 2020 The Tsukimi Rounded Project Authors (https://github.com/mt-funa/Tsukimi-Rounded),
   all rights reserved.
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2020 The Tsukimi Rounded Project Authors (https://github.com/mt-funa/Tsukimi-Rounded),
   all rights reserved.\n\nThis Font Software is licensed under the SIL Open Font License,
@@ -233,4 +237,9 @@ open_license: "Copyright 2020 The Tsukimi Rounded Project Authors (https://githu
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: tsukimi_rounded

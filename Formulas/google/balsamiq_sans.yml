@@ -45,9 +45,10 @@ fonts:
     post_script_name: BalsamiqSans-Regular
     version: 1.020; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.26]
     copyright: Copyright 2011 The Balsamiq Sans Project Authors (https://github.com/balsamiq/balsamiqsans)
-    font: P5sEzZiAbNrN8SB3lQQX7Pnc8dkdIYdNHzs.ttf
+    font: BalsamiqSans-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: P5sEzZiAbNrN8SB3lQQX7Pnc8dkdIYdNHzs.ttf
     formats:
     - ttf
     - woff2
@@ -58,9 +59,10 @@ fonts:
     post_script_name: BalsamiqSans-Italic
     version: 1.020; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.26]
     copyright: Copyright 2011 The Balsamiq Sans Project Authors (https://github.com/balsamiq/balsamiqsans)
-    font: P5sazZiAbNrN8SB3lQQX7PncwdsXJaVIDzvcXA.ttf
+    font: BalsamiqSans-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: P5sazZiAbNrN8SB3lQQX7PncwdsXJaVIDzvcXA.ttf
     formats:
     - ttf
     - woff2
@@ -71,9 +73,10 @@ fonts:
     post_script_name: BalsamiqSans-Bold
     version: 1.020; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.26]
     copyright: Copyright 2011 The Balsamiq Sans Project Authors (https://github.com/balsamiq/balsamiqsans)
-    font: P5sZzZiAbNrN8SB3lQQX7PncyWUyBY9mAzLFRQI.ttf
+    font: BalsamiqSans-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: P5sZzZiAbNrN8SB3lQQX7PncyWUyBY9mAzLFRQI.ttf
     formats:
     - ttf
     - woff2
@@ -84,16 +87,16 @@ fonts:
     post_script_name: BalsamiqSans-BoldItalic
     version: 1.020; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.26]
     copyright: Copyright 2011 The Balsamiq Sans Project Authors (https://github.com/balsamiq/balsamiqsans)
-    font: P5sfzZiAbNrN8SB3lQQX7PncwdsvmYpsBxDAVQI4aA.ttf
+    font: BalsamiqSans-BoldItalic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: P5sfzZiAbNrN8SB3lQQX7PncwdsvmYpsBxDAVQI4aA.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2011 The Balsamiq Sans Project Authors (https://github.com/balsamiq/balsamiqsans)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2011 The Balsamiq Sans Project Authors (https://github.com/balsamiq/balsamiqsans)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -199,4 +202,9 @@ open_license: "Copyright 2011 The Balsamiq Sans Project Authors (https://github.
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: balsamiq_sans

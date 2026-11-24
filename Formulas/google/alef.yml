@@ -36,7 +36,8 @@ fonts:
     post_script_name: Alef-Regular
     version: 1.002;PS 001.002;hotconv 1.0.56;makeotf.lib2.0.21325
     copyright: Copyright (c) 2012 by Hagilda. All rights reserved.
-    font: FeVfS0NQpLYgrjJbC5FxxbU.ttf
+    font: Alef-Regular.ttf
+    source_font: FeVfS0NQpLYgrjJbC5FxxbU.ttf
     formats:
     - ttf
     - woff2
@@ -47,13 +48,13 @@ fonts:
     post_script_name: Alef-Bold
     version: 1.002;PS 001.002;hotconv 1.0.56;makeotf.lib2.0.21325
     copyright: Copyright (c) 2012 by Hagilda. All rights reserved.
-    font: FeVQS0NQpLYglo50L5la2bxii28.ttf
+    font: Alef-Bold.ttf
+    source_font: FeVQS0NQpLYglo50L5la2bxii28.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
-spdx_license: OFL-1.1-RFN
 copyright: Copyright (c) 2012 by Hagilda. All rights reserved.
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2012, HaGilda & Mushon Zer-Aviv (<http://alef.hagilda.com|alef@hagilda.com>),\r\nwith
@@ -168,4 +169,9 @@ open_license: "Copyright (c) 2012, HaGilda & Mushon Zer-Aviv (<http://alef.hagil
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: alef

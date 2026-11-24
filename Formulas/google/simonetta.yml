@@ -51,7 +51,8 @@ fonts:
     version: '1.004'
     copyright: Copyright (c) 2011-2012, Brownfox (www.brownfox.org gayaneh.b@gmail.com),
       with Reserved Font Name "Simonetta"
-    font: x3dickHVYrCU5BU15c4BfPACvy_1BA.ttf
+    font: Simonetta-Regular.ttf
+    source_font: x3dickHVYrCU5BU15c4BfPACvy_1BA.ttf
     formats:
     - ttf
     - woff2
@@ -63,7 +64,8 @@ fonts:
     version: '1.004'
     copyright: Copyright (c) 2011-2012, Brownfox (www.brownfox.org gayaneh.b@gmail.com),
       with Reserved Font Name "Simonetta"
-    font: x3dkckHVYrCU5BU15c4xfvoGnSrlBBsy.ttf
+    font: Simonetta-Italic.ttf
+    source_font: x3dkckHVYrCU5BU15c4xfvoGnSrlBBsy.ttf
     formats:
     - ttf
     - woff2
@@ -77,9 +79,10 @@ fonts:
     version: '1.004'
     copyright: Copyright (c) 2011-2012, Brownfox (www.brownfox.org gayaneh.b@gmail.com),
       with Reserved Font Name "Simonetta"
-    font: x3dnckHVYrCU5BU15c45-N0mtwTpDQIrGg.ttf
+    font: Simonetta-Black.ttf
     preferred_family_name: Simonetta
     preferred_type: Black
+    source_font: x3dnckHVYrCU5BU15c45-N0mtwTpDQIrGg.ttf
     formats:
     - ttf
     - woff2
@@ -91,9 +94,10 @@ fonts:
     version: '1.004'
     copyright: Copyright (c) 2011-2012, Brownfox (www.brownfox.org gayaneh.b@gmail.com),
       with Reserved Font Name "Simonetta"
-    font: x3d5ckHVYrCU5BU15c4xfsKCsA7tLwc7Gn88.ttf
+    font: Simonetta-BlackItalic.ttf
     preferred_family_name: Simonetta
     preferred_type: Black Italic
+    source_font: x3d5ckHVYrCU5BU15c4xfsKCsA7tLwc7Gn88.ttf
     formats:
     - ttf
     - woff2
@@ -101,7 +105,6 @@ fonts:
 extract: {}
 copyright: Copyright (c) 2011-2012, Brownfox (www.brownfox.org gayaneh.b@gmail.com),
   with Reserved Font Name "Simonetta"
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011, BrownFox (www.brownfox.org), \nwith Reserved Font Name
   \"Simonetta\"\n\nThis Font Software is licensed under the SIL Open Font License,
@@ -215,4 +218,9 @@ open_license: "Copyright (c) 2011, BrownFox (www.brownfox.org), \nwith Reserved 
   Original Surfer\nGo to: \t\nProject members, sign in to write a code review\nOlder
   revisions\nAll revisions of this file\nFile info\nSize: 4531 bytes, 94 lines\nView
   raw file\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-11'
+  family_id: simonetta

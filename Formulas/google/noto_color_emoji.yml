@@ -3,25 +3,26 @@ name: noto_color_emoji
 schema_version: 5
 description: Noto Color Emoji is an open source font that has you covered for all
   your emoji needs, including support for the latest Unicode emoji specification.
-  It features thousands of emoji. This font uses the COLRv1, CPAL and SVG tables.
-  Please visit the gf-guide color page to learn more about Color Fonts technology.
+  It features thousands of emoji. This font is available in the COLRv1/CPAL and SVG
+  format. Please visit the Chrome Developer blog to learn more about COLRv1 color
+  fonts technology.
 homepage: https://fonts.google.com/specimen/Noto+Color+Emoji
 resources:
   ttf_static:
     source: google
     family: Noto Color Emoji
     files:
-    - https://fonts.gstatic.com/s/notocoloremoji/v39/Yq6P-KqIXTD0t4D9z1ESnKM3-HpFab5s79iz64w.ttf
+    - https://fonts.gstatic.com/s/notocoloremoji/v50/Yq6P-KqIXTD0t4D9z1ESnKM3-HpFab5s79iz64w.ttf
     urls:
-    - https://fonts.gstatic.com/s/notocoloremoji/v39/Yq6P-KqIXTD0t4D9z1ESnKM3-HpFab5s79iz64w.ttf
+    - https://fonts.gstatic.com/s/notocoloremoji/v50/Yq6P-KqIXTD0t4D9z1ESnKM3-HpFab5s79iz64w.ttf
     format: ttf
   woff2_static:
     source: google
     family: Noto Color Emoji
     files:
-    - https://fonts.gstatic.com/s/notocoloremoji/v39/Yq6P-KqIXTD0t4D9z1ESnKM3-HpFabts79iz64w.woff2
+    - https://fonts.gstatic.com/s/notocoloremoji/v50/Yq6P-KqIXTD0t4D9z1ESnKM3-HpFabts79iz64w.woff2
     urls:
-    - https://fonts.gstatic.com/s/notocoloremoji/v39/Yq6P-KqIXTD0t4D9z1ESnKM3-HpFabts79iz64w.woff2
+    - https://fonts.gstatic.com/s/notocoloremoji/v50/Yq6P-KqIXTD0t4D9z1ESnKM3-HpFabts79iz64w.woff2
     format: woff2
 fonts:
 - name: Noto Color Emoji
@@ -30,21 +31,21 @@ fonts:
     type: Regular
     full_name: Noto Color Emoji
     post_script_name: NotoColorEmoji
-    version: 2.051;GOOG;noto-emoji:20250818:e92753bfa55fd449e427d4d325f9c8c40408c74e
+    version: 2.055;GOOG;noto-emoji:20260909:d95d1b76f2c62771c34acbbcd7269145e8398e10
     copyright: Copyright 2022 Google Inc.
-    font: Yq6P-KqIXTD0t4D9z1ESnKM3-HpFab5s79iz64w.ttf
+    font: NotoColorEmoji.ttf
     description: This Font Software is licensed under the SIL Open Font License, Version
       1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES
       OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font
       License for the specific language, permissions and limitations governing your
       use of this Font Software.
+    source_font: Yq6P-KqIXTD0t4D9z1ESnKM3-HpFab5s79iz64w.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2022 Google Inc.
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: |
   Copyright 2021 Google Inc. All Rights Reserved.
@@ -222,4 +223,9 @@ open_license: |
   LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES,
   WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR
   INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2026-10-29'
+  family_id: noto_color_emoji

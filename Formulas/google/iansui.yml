@@ -8,17 +8,17 @@ resources:
     source: google
     family: Iansui
     files:
-    - https://fonts.gstatic.com/s/iansui/v8/w8gbH2UoTuUp5bOajSGD1FcXoQ.ttf
+    - https://fonts.gstatic.com/s/iansui/v14/w8gbH2UoTuUp5bOajSGD1FcXoQ.ttf
     urls:
-    - https://fonts.gstatic.com/s/iansui/v8/w8gbH2UoTuUp5bOajSGD1FcXoQ.ttf
+    - https://fonts.gstatic.com/s/iansui/v14/w8gbH2UoTuUp5bOajSGD1FcXoQ.ttf
     format: ttf
   woff2_static:
     source: google
     family: Iansui
     files:
-    - https://fonts.gstatic.com/s/iansui/v8/w8gbH2UoTuUp5bOaiCGD1FcXoQ.woff2
+    - https://fonts.gstatic.com/s/iansui/v14/w8gbH2UoTuUp5bOaiCGD1FcXoQ.woff2
     urls:
-    - https://fonts.gstatic.com/s/iansui/v8/w8gbH2UoTuUp5bOaiCGD1FcXoQ.woff2
+    - https://fonts.gstatic.com/s/iansui/v14/w8gbH2UoTuUp5bOaiCGD1FcXoQ.woff2
     format: woff2
 fonts:
 - name: Iansui
@@ -29,18 +29,18 @@ fonts:
     post_script_name: Iansui-Regular
     version: '1.012'
     copyright: Copyright 2025 The Iansui Project Authors (https://github.com/ButTaiwan/iansui)
-    font: w8gbH2UoTuUp5bOajSGD1FcXoQ.ttf
+    font: Iansui-Regular.ttf
     preferred_family_name: Iansui
     preferred_type: Regular
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: w8gbH2UoTuUp5bOajSGD1FcXoQ.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2025 The Iansui Project Authors (https://github.com/ButTaiwan/iansui)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "\uFEFFCopyright 2022 The Iansui Project Authors (https://github.com/ButTaiwan/iansui).\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -146,4 +146,9 @@ open_license: "\uFEFFCopyright 2022 The Iansui Project Authors (https://github.c
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2026-10-01'
+  family_id: iansui

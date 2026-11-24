@@ -63,11 +63,12 @@ fonts:
     post_script_name: AgravePro-Thin
     version: '1.100'
     copyright: Copyright 2026 The Agràve Pro Project Authors (https://github.com/daanjobsis/agrave-pro)
-    font: q5uXsoe7JuBj6YLv6lsHOR9UdVTNs822plVRRA5cEr8zXcyx.ttf
+    font: AgravePro-Thin.ttf
     preferred_family_name: Agrave Pro
     preferred_type: Thin
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: q5uXsoe7JuBj6YLv6lsHOR9UdVTNs822plVRRA5cEr8zXcyx.ttf
     formats:
     - ttf
     - woff2
@@ -81,11 +82,12 @@ fonts:
     post_script_name: AgravePro-ExtraLight
     version: '1.100'
     copyright: Copyright 2026 The Agràve Pro Project Authors (https://github.com/daanjobsis/agrave-pro)
-    font: q5uXsoe7JuBj6YLv6lsHOR9UdVTNs822plXRRQ5cEr8zXcyx.ttf
+    font: AgravePro-ExtraLight.ttf
     preferred_family_name: Agrave Pro
     preferred_type: ExtraLight
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: q5uXsoe7JuBj6YLv6lsHOR9UdVTNs822plXRRQ5cEr8zXcyx.ttf
     formats:
     - ttf
     - woff2
@@ -99,11 +101,12 @@ fonts:
     post_script_name: AgravePro-Light
     version: '1.100'
     copyright: Copyright 2026 The Agràve Pro Project Authors (https://github.com/daanjobsis/agrave-pro)
-    font: q5uXsoe7JuBj6YLv6lsHOR9UdVTNs822plUPRQ5cEr8zXcyx.ttf
+    font: AgravePro-Light.ttf
     preferred_family_name: Agrave Pro
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: q5uXsoe7JuBj6YLv6lsHOR9UdVTNs822plUPRQ5cEr8zXcyx.ttf
     formats:
     - ttf
     - woff2
@@ -117,9 +120,10 @@ fonts:
     post_script_name: AgravePro-Regular
     version: '1.100'
     copyright: Copyright 2026 The Agràve Pro Project Authors (https://github.com/daanjobsis/agrave-pro)
-    font: q5uXsoe7JuBj6YLv6lsHOR9UdVTNs822plVRRQ5cEr8zXcyx.ttf
+    font: AgravePro-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: q5uXsoe7JuBj6YLv6lsHOR9UdVTNs822plVRRQ5cEr8zXcyx.ttf
     formats:
     - ttf
     - woff2
@@ -131,14 +135,27 @@ fonts:
     post_script_name: AgravePro-Bold
     version: '1.100'
     copyright: Copyright 2026 The Agràve Pro Project Authors (https://github.com/daanjobsis/agrave-pro)
-    font: q5uXsoe7JuBj6YLv6lsHOR9UdVTNs822plW2Qg5cEr8zXcyx.ttf
+    font: AgravePro-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: q5uXsoe7JuBj6YLv6lsHOR9UdVTNs822plW2Qg5cEr8zXcyx.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
     source_resource: ttf_static
+  - family_name: Agrave Pro
+    type: Regular
+    full_name: Agrave Pro Thin
+    post_script_name: AgravePro-Thin
+    copyright: Copyright 2026 The Agràve Pro Project Authors (https://github.com/daanjobsis/agrave-pro)
+    font: AgravePro[wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wght
+    source_resource: ttf_variable
 - name: Agrave Pro Medium
   styles:
   - family_name: Agrave Pro Medium
@@ -147,11 +164,12 @@ fonts:
     post_script_name: AgravePro-Medium
     version: '1.100'
     copyright: Copyright 2026 The Agràve Pro Project Authors (https://github.com/daanjobsis/agrave-pro)
-    font: q5uXsoe7JuBj6YLv6lsHOR9UdVTNs822plVjRQ5cEr8zXcyx.ttf
+    font: AgravePro-Medium.ttf
     preferred_family_name: Agrave Pro
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: q5uXsoe7JuBj6YLv6lsHOR9UdVTNs822plVjRQ5cEr8zXcyx.ttf
     formats:
     - ttf
     - woff2
@@ -165,30 +183,17 @@ fonts:
     post_script_name: AgravePro-SemiBold
     version: '1.100'
     copyright: Copyright 2026 The Agràve Pro Project Authors (https://github.com/daanjobsis/agrave-pro)
-    font: q5uXsoe7JuBj6YLv6lsHOR9UdVTNs822plWPQg5cEr8zXcyx.ttf
+    font: AgravePro-SemiBold.ttf
     preferred_family_name: Agrave Pro
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: q5uXsoe7JuBj6YLv6lsHOR9UdVTNs822plWPQg5cEr8zXcyx.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
     source_resource: ttf_static
-- name:
-  styles:
-  - family_name: Agrave Pro
-    type: Regular
-    full_name: Agrave Pro Thin
-    post_script_name: AgravePro-Thin
-    copyright: Copyright 2026 The Agràve Pro Project Authors (https://github.com/daanjobsis/agrave-pro)
-    font: AgravePro[wght].ttf
-    formats:
-    - ttf
-    variable_font: true
-    variable_axes:
-    - wght
-    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2026 The Agràve Pro Project Authors (https://github.com/daanjobsis/agrave-pro)
 license_url: https://scripts.sil.org/OFL
@@ -297,6 +302,7 @@ open_license: "Copyright 2026 The Agràve Pro Project Authors (https://github.co
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
 import_source:
+  type: google
   commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
   api_version: v1
   last_modified: '2026-11-11'

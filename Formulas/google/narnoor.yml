@@ -54,7 +54,7 @@ fonts:
       Additions and modifications copyright (c) 2015-2023 SIL International (https://www.sil.org/).
       Latin glyphs copyright (c) 2010, 2012, 2014, 2021 Adobe Systems Incorporated
       (http://www.adobe.com/), with Reserved Font Name 'Source'.
-    font: cIf9MaFWuVo-UTyPxCmrYGkHgIs.ttf
+    font: Narnoor-Regular.ttf
     description: |
       Original font copyright (c) 2014-2017 CDAST, University of Hyderabad, Hyderabad (cdast@uohyd.ernet.in).
       Additions and modifications copyright (c) 2015-2023 SIL International (https://www.sil.org/).
@@ -152,6 +152,7 @@ fonts:
       DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
       FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
       OTHER DEALINGS IN THE FONT SOFTWARE.
+    source_font: cIf9MaFWuVo-UTyPxCmrYGkHgIs.ttf
     formats:
     - ttf
     - woff2
@@ -166,7 +167,7 @@ fonts:
       Additions and modifications copyright (c) 2015-2023 SIL International (https://www.sil.org/).
       Latin glyphs copyright (c) 2010, 2012, 2014, 2021 Adobe Systems Incorporated
       (http://www.adobe.com/), with Reserved Font Name 'Source'.
-    font: cIf4MaFWuVo-UTyP_JWERGEsnIJkWL4.ttf
+    font: Narnoor-Bold.ttf
     description: |
       Original font copyright (c) 2014-2017 CDAST, University of Hyderabad, Hyderabad (cdast@uohyd.ernet.in).
       Additions and modifications copyright (c) 2015-2023 SIL International (https://www.sil.org/).
@@ -264,6 +265,7 @@ fonts:
       DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
       FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
       OTHER DEALINGS IN THE FONT SOFTWARE.
+    source_font: cIf4MaFWuVo-UTyP_JWERGEsnIJkWL4.ttf
     formats:
     - ttf
     - woff2
@@ -280,7 +282,7 @@ fonts:
       Additions and modifications copyright (c) 2015-2023 SIL International (https://www.sil.org/).
       Latin glyphs copyright (c) 2010, 2012, 2014, 2021 Adobe Systems Incorporated
       (http://www.adobe.com/), with Reserved Font Name 'Source'.
-    font: cIf4MaFWuVo-UTyP_N2CRGEsnIJkWL4.ttf
+    font: Narnoor-Medium.ttf
     preferred_family_name: Narnoor
     preferred_type: Medium
     description: |
@@ -380,6 +382,7 @@ fonts:
       DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
       FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
       OTHER DEALINGS IN THE FONT SOFTWARE.
+    source_font: cIf4MaFWuVo-UTyP_N2CRGEsnIJkWL4.ttf
     formats:
     - ttf
     - woff2
@@ -396,7 +399,7 @@ fonts:
       Additions and modifications copyright (c) 2015-2023 SIL International (https://www.sil.org/).
       Latin glyphs copyright (c) 2010, 2012, 2014, 2021 Adobe Systems Incorporated
       (http://www.adobe.com/), with Reserved Font Name 'Source'.
-    font: cIf4MaFWuVo-UTyP_PGFRGEsnIJkWL4.ttf
+    font: Narnoor-SemiBold.ttf
     preferred_family_name: Narnoor
     preferred_type: SemiBold
     description: |
@@ -496,6 +499,7 @@ fonts:
       DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
       FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
       OTHER DEALINGS IN THE FONT SOFTWARE.
+    source_font: cIf4MaFWuVo-UTyP_PGFRGEsnIJkWL4.ttf
     formats:
     - ttf
     - woff2
@@ -512,7 +516,7 @@ fonts:
       Additions and modifications copyright (c) 2015-2023 SIL International (https://www.sil.org/).
       Latin glyphs copyright (c) 2010, 2012, 2014, 2021 Adobe Systems Incorporated
       (http://www.adobe.com/), with Reserved Font Name 'Source'.
-    font: cIf4MaFWuVo-UTyP_ImHRGEsnIJkWL4.ttf
+    font: Narnoor-ExtraBold.ttf
     preferred_family_name: Narnoor
     preferred_type: ExtraBold
     description: |
@@ -612,6 +616,7 @@ fonts:
       DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
       FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
       OTHER DEALINGS IN THE FONT SOFTWARE.
+    source_font: cIf4MaFWuVo-UTyP_ImHRGEsnIJkWL4.ttf
     formats:
     - ttf
     - woff2
@@ -622,7 +627,6 @@ copyright: |
   Additions and modifications copyright (c) 2015-2023 SIL International (https://www.sil.org/).
   Latin glyphs copyright (c) 2010, 2012, 2014, 2021 Adobe Systems Incorporated
   (http://www.adobe.com/), with Reserved Font Name 'Source'.
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Original font copyright (c) 2014-2017 CDAST, University of Hyderabad, Hyderabad
   (cdast@uohyd.ernet.in).\r\nAdditions and modifications copyright (c) 2015-2023 SIL
@@ -742,4 +746,9 @@ open_license: "Original font copyright (c) 2014-2017 CDAST, University of Hydera
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-06-25'
+  family_id: narnoor

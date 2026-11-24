@@ -33,9 +33,10 @@ fonts:
     version: 1.007; ttfautohint (v0.92) -l 24 -r 24 -G 200 -x 7 -w "GD"
     copyright: Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com) with Reserved
       Font Name 'Autour'
-    font: UqyVK80cP25l3fJgbdfbk5lWVscxdKE.ttf
+    font: AutourOne-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: UqyVK80cP25l3fJgbdfbk5lWVscxdKE.ttf
     formats:
     - ttf
     - woff2
@@ -43,7 +44,6 @@ fonts:
 extract: {}
 copyright: Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com) with Reserved
   Font Name 'Autour'
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com), with Reserved Font
   Name 'Autour'\n\nThis Font Software is licensed under the SIL Open Font License,
@@ -149,4 +149,9 @@ open_license: "Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com), with Res
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-11'
+  family_id: autour_one

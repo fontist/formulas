@@ -4,7 +4,7 @@ schema_version: 5
 description: Mochiy Pop is a casual Gothic font created based on characters written
   by girls in their 20s in Japan. A cute display font, you can use it widely, such
   as for manga, magazines, movies, and signs. The included Kanji are modified versions
-  of Noto Sans JP. Mochiy Pop P includes proportional-wdith kana. Mochiy Pop ( https://fonts.google.com/specimen/Mochiy+Pop
+  of Noto Sans JP. Mochiy Pop P includes proportional-width kana. Mochiy Pop ( fonts.google.com/specimen/Mochiy+Pop+One
   ) includes full-width kana. To contribute to the project, visit github.com/fontdasu/Mochiypop
 homepage: https://fonts.google.com/specimen/Mochiy+Pop+P+One
 resources:
@@ -33,16 +33,16 @@ fonts:
     post_script_name: MochiyPopPOne-Regular
     version: '2.000'
     copyright: Copyright 2020 The MochiyPop Project Authors (https://github.com/fontdasu/Mochiypop)
-    font: Ktk2AKuPeY_td1-h9LayHYWCjAqyN4O3WYZB_sU.ttf
+    font: MochiyPopPOne-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: Ktk2AKuPeY_td1-h9LayHYWCjAqyN4O3WYZB_sU.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2020 The MochiyPop Project Authors (https://github.com/fontdasu/Mochiypop)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2020 The Mochiypop Project Authors (https://github.com/fontdasu/Mochiypop)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -148,4 +148,9 @@ open_license: "Copyright 2020 The Mochiypop Project Authors (https://github.com/
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-02'
+  family_id: mochiy_pop_p_one

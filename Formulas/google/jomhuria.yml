@@ -24,17 +24,17 @@ resources:
     source: google
     family: Jomhuria
     files:
-    - https://fonts.gstatic.com/s/jomhuria/v22/Dxxp8j-TMXf-llKur2b1MOGbC3Dh.ttf
+    - https://fonts.gstatic.com/s/jomhuria/v23/Dxxp8j-TMXf-llKur2b1MOGbC3Dh.ttf
     urls:
-    - https://fonts.gstatic.com/s/jomhuria/v22/Dxxp8j-TMXf-llKur2b1MOGbC3Dh.ttf
+    - https://fonts.gstatic.com/s/jomhuria/v23/Dxxp8j-TMXf-llKur2b1MOGbC3Dh.ttf
     format: ttf
   woff2_static:
     source: google
     family: Jomhuria
     files:
-    - https://fonts.gstatic.com/s/jomhuria/v22/Dxxp8j-TMXf-llKur2bwMOGbC3Dh.woff2
+    - https://fonts.gstatic.com/s/jomhuria/v23/Dxxp8j-TMXf-llKur2bwMOGbC3Dh.woff2
     urls:
-    - https://fonts.gstatic.com/s/jomhuria/v22/Dxxp8j-TMXf-llKur2bwMOGbC3Dh.woff2
+    - https://fonts.gstatic.com/s/jomhuria/v23/Dxxp8j-TMXf-llKur2bwMOGbC3Dh.woff2
     format: woff2
 fonts:
 - name: Jomhuria
@@ -47,10 +47,11 @@ fonts:
     copyright: Copyright 2015 KB-Studio (www.k-b-studio.com|tarobish@gmail.com). Copyright
       2015 Lasse Fister (lasse@graphicore.de). Copyright 2015 Sorkin Type Co (www.sorkintype.com).
       Copyright 2010-2015 Khaled Hosny (khaledhosny@eglug.org).
-    font: Dxxp8j-TMXf-llKur2b1MOGbC3Dh.ttf
+    font: Jomhuria-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is copied below, and is also available with a FAQ
       at: http://scripts.sil.org/OFL'
+    source_font: Dxxp8j-TMXf-llKur2b1MOGbC3Dh.ttf
     formats:
     - ttf
     - woff2
@@ -59,7 +60,6 @@ extract: {}
 copyright: Copyright 2015 KB-Studio (www.k-b-studio.com|tarobish@gmail.com). Copyright
   2015 Lasse Fister (lasse@graphicore.de). Copyright 2015 Sorkin Type Co (www.sorkintype.com).
   Copyright 2010-2015 Khaled Hosny (khaledhosny@eglug.org).
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2015 KB-Studio (www.k-b-studio.com|tarobish@gmail.com). Copyright
   2015 Lasse Fister (lasse@graphicore.de). Copyright 2015 Sorkin Type Co (www.sorkintype.com).
@@ -175,4 +175,9 @@ open_license: "Copyright 2015 KB-Studio (www.k-b-studio.com|tarobish@gmail.com).
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2026-06-30'
+  family_id: jomhuria

@@ -11,17 +11,17 @@ resources:
     source: google
     family: Stick
     files:
-    - https://fonts.gstatic.com/s/stick/v20/Qw3TZQpMCyTtJSvfvPVDMPoF.ttf
+    - https://fonts.gstatic.com/s/stick/v21/Qw3TZQpMCyTtJSvfvPVDMPoF.ttf
     urls:
-    - https://fonts.gstatic.com/s/stick/v20/Qw3TZQpMCyTtJSvfvPVDMPoF.ttf
+    - https://fonts.gstatic.com/s/stick/v21/Qw3TZQpMCyTtJSvfvPVDMPoF.ttf
     format: ttf
   woff2_static:
     source: google
     family: Stick
     files:
-    - https://fonts.gstatic.com/s/stick/v20/Qw3TZQpMCyTtJSvavPVDMPoF.woff2
+    - https://fonts.gstatic.com/s/stick/v21/Qw3TZQpMCyTtJSvavPVDMPoF.woff2
     urls:
-    - https://fonts.gstatic.com/s/stick/v20/Qw3TZQpMCyTtJSvavPVDMPoF.woff2
+    - https://fonts.gstatic.com/s/stick/v21/Qw3TZQpMCyTtJSvavPVDMPoF.woff2
     format: woff2
 fonts:
 - name: Stick
@@ -32,16 +32,16 @@ fonts:
     post_script_name: Stick-Regular
     version: '1.100'
     copyright: Copyright 2020 The Stick Project Authors (https://github.com/fontworks-fonts/Stick/)
-    font: Qw3TZQpMCyTtJSvfvPVDMPoF.ttf
+    font: Stick-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: Qw3TZQpMCyTtJSvfvPVDMPoF.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2020 The Stick Project Authors (https://github.com/fontworks-fonts/Stick/)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2020 The Stick Project Authors (https://github.com/fontworks-fonts/Stick)\r\n\r\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis
@@ -153,4 +153,9 @@ open_license: "Copyright 2020 The Stick Project Authors (https://github.com/font
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2026-10-01'
+  family_id: stick

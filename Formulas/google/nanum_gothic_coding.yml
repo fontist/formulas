@@ -38,9 +38,10 @@ fonts:
     version: 2.000;PS 1;hotconv 1.0.49;makeotf.lib2.0.14853
     copyright: Copyright © 2009 NHN Corporation. All rights reserved. Font designed
       by Sandoll Communications Inc.
-    font: 8QIVdjzHisX_8vv59_xMxtPFW4IXROwsy6QxVs1X7tc.ttf
+    font: NanumGothicCoding.ttf
     description: This Font Software is licensed under the SIL Open Font License, Version
       1.1.
+    source_font: 8QIVdjzHisX_8vv59_xMxtPFW4IXROwsy6QxVs1X7tc.ttf
     formats:
     - ttf
     - woff2
@@ -52,9 +53,10 @@ fonts:
     version: 2.000;PS 1;hotconv 1.0.49;makeotf.lib2.0.14853
     copyright: Copyright © 2009 NHN Corporation. All rights reserved. Font designed
       by Sandoll Communications Inc.
-    font: 8QIYdjzHisX_8vv59_xMxtPFW4IXROws8xgecsV88t5V9r4.ttf
+    font: NanumGothicCoding-Bold.ttf
     description: This Font Software is licensed under the SIL Open Font License, Version
       1.1.
+    source_font: 8QIYdjzHisX_8vv59_xMxtPFW4IXROws8xgecsV88t5V9r4.ttf
     formats:
     - ttf
     - woff2
@@ -62,7 +64,6 @@ fonts:
 extract: {}
 copyright: Copyright © 2009 NHN Corporation. All rights reserved. Font designed by
   Sandoll Communications Inc.
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2010, NHN Corporation (http://www.nhncorp.com),\nwith Reserved
   Font Name Nanum, Naver Nanum, NanumGothic, Naver \nNanumGothic, NanumMyeongjo, Naver
@@ -172,4 +173,9 @@ open_license: "Copyright (c) 2010, NHN Corporation (http://www.nhncorp.com),\nwi
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: nanum_gothic_coding

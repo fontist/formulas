@@ -40,9 +40,10 @@ fonts:
     version: 5.200; ttfautohint (v1.8.3)
     copyright: Copyright 2014 - 2017 Adobe Systems Incorporated (http://www.adobe.com/),
       with Reserved Font Name 'Source'. Copyright 2019 Google LLC.
-    font: "-nFnOHM81r4j6k0gjAW3mujVU2B2K_d709jy92k.ttf"
+    font: DMSerifDisplay-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: "-nFnOHM81r4j6k0gjAW3mujVU2B2K_d709jy92k.ttf"
     formats:
     - ttf
     - woff2
@@ -54,9 +55,10 @@ fonts:
     version: 5.200; ttfautohint (v1.8.3)
     copyright: Copyright 2014 - 2017 Adobe Systems Incorporated (http://www.adobe.com/),
       with Reserved Font Name 'Source'. Copyright 2019 Google LLC.
-    font: "-nFhOHM81r4j6k0gjAW3mujVU2B2G_Vx1_r352np3Q.ttf"
+    font: DMSerifDisplay-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: "-nFhOHM81r4j6k0gjAW3mujVU2B2G_Vx1_r352np3Q.ttf"
     formats:
     - ttf
     - woff2
@@ -64,7 +66,6 @@ fonts:
 extract: {}
 copyright: Copyright 2014 - 2017 Adobe Systems Incorporated (http://www.adobe.com/),
   with Reserved Font Name 'Source'. Copyright 2019 Google LLC.
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2014-2018 Adobe (http://www.adobe.com/), with Reserved Font Name
   'Source'. All Rights Reserved. Source is a trademark of Adobe in the United States
@@ -180,4 +181,9 @@ open_license: "Copyright 2014-2018 Adobe (http://www.adobe.com/), with Reserved 
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-11'
+  family_id: dm_serif_display

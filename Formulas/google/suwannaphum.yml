@@ -46,11 +46,12 @@ fonts:
     post_script_name: Suwannaphum-Thin
     version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Suwannaphum Project Authors (https://github.com/danhhong/Suwannaphum)
-    font: jAnAgHV7GtDvc8jbe8hXXL3B9cSWXx2VZmk.ttf
+    font: Suwannaphum-Thin.ttf
     preferred_family_name: Suwannaphum
     preferred_type: Thin
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: jAnAgHV7GtDvc8jbe8hXXL3B9cSWXx2VZmk.ttf
     formats:
     - ttf
     - woff2
@@ -63,11 +64,12 @@ fonts:
     post_script_name: Suwannaphum-Light
     version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Suwannaphum Project Authors (https://github.com/danhhong/Suwannaphum)
-    font: jAnfgHV7GtDvc8jbe8hXXL0J1-S8cRGcf3Ai.ttf
+    font: Suwannaphum-Light.ttf
     preferred_family_name: Suwannaphum
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: jAnfgHV7GtDvc8jbe8hXXL0J1-S8cRGcf3Ai.ttf
     formats:
     - ttf
     - woff2
@@ -80,9 +82,10 @@ fonts:
     post_script_name: Suwannaphum-Regular
     version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Suwannaphum Project Authors (https://github.com/danhhong/Suwannaphum)
-    font: jAnCgHV7GtDvc8jbe8hXXIWl_8C0Wg2V.ttf
+    font: Suwannaphum-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: jAnCgHV7GtDvc8jbe8hXXIWl_8C0Wg2V.ttf
     formats:
     - ttf
     - woff2
@@ -93,9 +96,10 @@ fonts:
     post_script_name: Suwannaphum-Bold
     version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Suwannaphum Project Authors (https://github.com/danhhong/Suwannaphum)
-    font: jAnfgHV7GtDvc8jbe8hXXL0Z0OS8cRGcf3Ai.ttf
+    font: Suwannaphum-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: jAnfgHV7GtDvc8jbe8hXXL0Z0OS8cRGcf3Ai.ttf
     formats:
     - ttf
     - woff2
@@ -108,18 +112,18 @@ fonts:
     post_script_name: Suwannaphum-Black
     version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Suwannaphum Project Authors (https://github.com/danhhong/Suwannaphum)
-    font: jAnfgHV7GtDvc8jbe8hXXL0h0uS8cRGcf3Ai.ttf
+    font: Suwannaphum-Black.ttf
     preferred_family_name: Suwannaphum
     preferred_type: Black
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: jAnfgHV7GtDvc8jbe8hXXL0h0uS8cRGcf3Ai.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2019 The Suwannaphum Project Authors (https://github.com/danhhong/Suwannaphum)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2019 The Suwannaphum Project Authors (https://github.com/danhhong/Suwannaphum)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -225,4 +229,9 @@ open_license: "Copyright 2019 The Suwannaphum Project Authors (https://github.co
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-02'
+  family_id: suwannaphum

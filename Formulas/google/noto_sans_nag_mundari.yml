@@ -10,9 +10,9 @@ resources:
     source: google
     family: Noto Sans Nag Mundari
     files:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosansnagmundari/NotoSansNagMundari[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/notosansnagmundari/NotoSansNagMundari[wght].ttf
     urls:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosansnagmundari/NotoSansNagMundari[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/notosansnagmundari/NotoSansNagMundari[wght].ttf
     format: ttf
     variable_axes:
     - wght
@@ -53,9 +53,10 @@ fonts:
     post_script_name: NotoSansNagMundari-Regular
     version: '1.001'
     copyright: Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nag-mundari)
-    font: 3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHRxirbUGA0whP19M.ttf
+    font: NotoSansNagMundari-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: 3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHRxirbUGA0whP19M.ttf
     formats:
     - ttf
     - woff2
@@ -67,9 +68,10 @@ fonts:
     post_script_name: NotoSansNagMundari-Bold
     version: '1.001'
     copyright: Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nag-mundari)
-    font: 3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHR_-sbUGA0whP19M.ttf
+    font: NotoSansNagMundari-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: 3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHR_-sbUGA0whP19M.ttf
     formats:
     - ttf
     - woff2
@@ -95,11 +97,12 @@ fonts:
     post_script_name: NotoSansNagMundari-Medium
     version: '1.001'
     copyright: Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nag-mundari)
-    font: 3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHRyqrbUGA0whP19M.ttf
+    font: NotoSansNagMundari-Medium.ttf
     preferred_family_name: Noto Sans Nag Mundari
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: 3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHRyqrbUGA0whP19M.ttf
     formats:
     - ttf
     - woff2
@@ -113,11 +116,12 @@ fonts:
     post_script_name: NotoSansNagMundari-SemiBold
     version: '1.001'
     copyright: Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nag-mundari)
-    font: 3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHR8asbUGA0whP19M.ttf
+    font: NotoSansNagMundari-SemiBold.ttf
     preferred_family_name: Noto Sans Nag Mundari
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: 3qTAoi2hnSyU8TNFIdhZTyod3g5lBnKlQFk2kS9fr9Eq09RHR8asbUGA0whP19M.ttf
     formats:
     - ttf
     - woff2
@@ -125,7 +129,6 @@ fonts:
     source_resource: ttf_static
 extract: {}
 copyright: Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nag-mundari)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2023 The Noto Project Authors (https://github.com/notofonts/nag-mundari)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -231,4 +234,9 @@ open_license: "Copyright 2023 The Noto Project Authors (https://github.com/notof
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: noto_sans_nag_mundari

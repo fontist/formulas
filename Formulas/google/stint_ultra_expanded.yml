@@ -37,9 +37,10 @@ fonts:
     version: '1.000'
     copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI)
       (astigma@astigmatic.com), with Reserved\rFont Name \"Stint Ultra Expanded\""
-    font: CSRg4yNNh-GbW3o3JkwoDcdvMKMf0oBAd0qoATQkWwam.ttf
+    font: StintUltraExpanded-Regular.ttf
     description: "This Font Software is licensed under the SIL Open Font License,\rVersion
       1.1. This license is available with a FAQ at:\rhttp://scripts.sil.org/OFL"
+    source_font: CSRg4yNNh-GbW3o3JkwoDcdvMKMf0oBAd0qoATQkWwam.ttf
     formats:
     - ttf
     - woff2
@@ -47,7 +48,6 @@ fonts:
 extract: {}
 copyright: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com),
   with Reserved\rFont Name \"Stint Ultra Expanded\""
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI)\n(astigma@astigmatic.com),
   with Reserved Font Names \"Stint Ultra\nExpanded\"\n\nThis Font Software is licensed
@@ -155,4 +155,9 @@ open_license: "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI)
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: stint_ultra_expanded

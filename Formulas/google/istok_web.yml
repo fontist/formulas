@@ -1,7 +1,7 @@
 ---
 name: istok_web
 schema_version: 5
-description: 'Istok Web is an original typeface, in development since 2008. At first
+description: Istok Web is an original typeface, in development since 2008. At first
   some basic letters were based on specially modified METAFONT sources from the CM
   Bright font family from the TeX community. (METAFONT is very flexible technology.)
   But in fact Istok fonts are now very far from this origin. Contours of the font
@@ -11,8 +11,8 @@ description: 'Istok Web is an original typeface, in development since 2008. At f
   automatic instructions produced by FontForge autohinting, until manual hinting can
   be done. Manual and automatic instructions are intended to look homogeneous. The
   original sources and truetype fonts are available at code.google.com/p/istok and
-  this ''Web'' version has modified vertical metrics. Updated: June 2014 to version
-  1.0.2g'
+  this 'Web' version has modified vertical metrics. To contribute, see github.com/m4rc1e/Istok-Web
+  .
 homepage: https://fonts.google.com/specimen/Istok+Web
 resources:
   ttf_static:
@@ -53,9 +53,10 @@ fonts:
     version: 1.0.2g
     copyright: Copyright (c) 2008-2014, Andrey V. Panov (panov@canopus.iacp.dvo.ru),
       with Reserved Font Name Istok
-    font: 3qTvojGmgSyUukBzKslZAWF-9kIIaQ.ttf
+    font: IstokWeb-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: 3qTvojGmgSyUukBzKslZAWF-9kIIaQ.ttf
     formats:
     - ttf
     - woff2
@@ -67,9 +68,10 @@ fonts:
     version: 1.0.2g
     copyright: Copyright (c) 2008-2014, Andrey V. Panov (panov@canopus.iacp.dvo.ru),
       with Reserved Font Name Istok
-    font: 3qTpojGmgSyUukBzKslpA2t61EcYaQ7F.ttf
+    font: IstokWeb-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: 3qTpojGmgSyUukBzKslpA2t61EcYaQ7F.ttf
     formats:
     - ttf
     - woff2
@@ -81,9 +83,10 @@ fonts:
     version: 1.0.2g
     copyright: Copyright (c) 2008-2014, Andrey V. Panov (panov@canopus.iacp.dvo.ru),
       with Reserved Font Name Istok
-    font: 3qTqojGmgSyUukBzKslhvU5a_mkUYBfcMw.ttf
+    font: IstokWeb-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: 3qTqojGmgSyUukBzKslhvU5a_mkUYBfcMw.ttf
     formats:
     - ttf
     - woff2
@@ -95,9 +98,10 @@ fonts:
     version: 1.0.2g
     copyright: Copyright (c) 2008-2014, Andrey V. Panov (panov@canopus.iacp.dvo.ru),
       with Reserved Font Name Istok
-    font: 3qT0ojGmgSyUukBzKslpA1PG-2MQQhLMMygN.ttf
+    font: IstokWeb-BoldItalic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: 3qT0ojGmgSyUukBzKslpA1PG-2MQQhLMMygN.ttf
     formats:
     - ttf
     - woff2
@@ -105,7 +109,6 @@ fonts:
 extract: {}
 copyright: Copyright (c) 2008-2014, Andrey V. Panov (panov@canopus.iacp.dvo.ru), with
   Reserved Font Name Istok
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2008-2012, 2014, Andrey V. Panov (panov@canopus.iacp.dvo.ru),\nwith
   Reserved Font Name Istok.\n\nThis Font Software is licensed under the SIL Open Font
@@ -213,4 +216,9 @@ open_license: "Copyright (c) 2008-2012, 2014, Andrey V. Panov (panov@canopus.iac
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: istok_web

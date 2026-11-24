@@ -56,7 +56,7 @@ fonts:
     post_script_name: PTSerif-Regular
     version: 1.000W OFL
     copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
-    font: EJRVQgYoZZY2vCFuvDFRxL6ddjb-.ttf
+    font: PTSerif-Regular.ttf
     description: "Copyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),
       with Reserved Font Names \"PT Sans\", \"PT Serif\" and \"ParaType\".\r\n\r\nThis
       Font Software is licensed under the Open Font License, Version 1.1 This license
@@ -113,6 +113,7 @@ fonts:
       OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
       ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER
       DEALINGS IN THE FONT SOFTWARE.\r\n"
+    source_font: EJRVQgYoZZY2vCFuvDFRxL6ddjb-.ttf
     formats:
     - ttf
     - woff2
@@ -123,7 +124,7 @@ fonts:
     post_script_name: PTSerif-Italic
     version: 1.000W OFL
     copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
-    font: EJRTQgYoZZY2vCFuvAFTzrq_cyb-vco.ttf
+    font: PTSerif-Italic.ttf
     description: "Copyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),
       with Reserved Font Names \"PT Sans\", \"PT Serif\" and \"ParaType\".\r\n\r\nThis
       Font Software is licensed under the Open Font License, Version 1.1 This license
@@ -180,6 +181,7 @@ fonts:
       OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
       ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER
       DEALINGS IN THE FONT SOFTWARE.\r\n"
+    source_font: EJRTQgYoZZY2vCFuvAFTzrq_cyb-vco.ttf
     formats:
     - ttf
     - woff2
@@ -190,7 +192,7 @@ fonts:
     post_script_name: PTSerif-Bold
     version: 1.000W OFL
     copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
-    font: EJRSQgYoZZY2vCFuvAnt65qVXSr3pNNB.ttf
+    font: PTSerif-Bold.ttf
     description: "Copyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),
       with Reserved Font Names \"PT Sans\", \"PT Serif\" and \"ParaType\".\r\n\r\nThis
       Font Software is licensed under the Open Font License, Version 1.1 This license
@@ -247,6 +249,7 @@ fonts:
       OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
       ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER
       DEALINGS IN THE FONT SOFTWARE.\r\n"
+    source_font: EJRSQgYoZZY2vCFuvAnt65qVXSr3pNNB.ttf
     formats:
     - ttf
     - woff2
@@ -257,7 +260,7 @@ fonts:
     post_script_name: PTSerif-BoldItalic
     version: 1.000W OFL
     copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
-    font: EJRQQgYoZZY2vCFuvAFT9gaQVy7VocNB6Iw.ttf
+    font: PTSerif-BoldItalic.ttf
     description: "Copyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),
       with Reserved Font Names \"PT Sans\", \"PT Serif\" and \"ParaType\".\r\n\r\nThis
       Font Software is licensed under the Open Font License, Version 1.1 This license
@@ -314,13 +317,13 @@ fonts:
       OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
       ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER
       DEALINGS IN THE FONT SOFTWARE.\r\n"
+    source_font: EJRQQgYoZZY2vCFuvAFT9gaQVy7VocNB6Iw.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),\nwith
   Reserved Font Names \"PT Sans\", \"PT Serif\" and \"ParaType\".\n\nThis Font Software
@@ -428,4 +431,9 @@ open_license: "Copyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: pt_serif

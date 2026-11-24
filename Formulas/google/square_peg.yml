@@ -34,16 +34,16 @@ fonts:
     post_script_name: SquarePeg-Regular
     version: 1.010; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 1995-2021 The Square Peg Project Authors (https://github.com/googlefonts/square-peg)
-    font: y83eW48Nzw6ZlUHc-phrBDHrHHfrFPE.ttf
+    font: SquarePeg-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: y83eW48Nzw6ZlUHc-phrBDHrHHfrFPE.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 1995-2021 The Square Peg Project Authors (https://github.com/googlefonts/square-peg)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 1995-2021 The Square Peg Project Authors (https://github.com/googlefonts/square-peg)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -149,4 +149,9 @@ open_license: "Copyright 1995-2021 The Square Peg Project Authors (https://githu
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: square_peg

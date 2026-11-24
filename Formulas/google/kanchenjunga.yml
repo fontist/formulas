@@ -41,7 +41,7 @@ fonts:
     post_script_name: Kanchenjunga-Regular
     version: '2.001'
     copyright: Copyright (c) 2021-2024 SIL International
-    font: RWmPoKKd5fUmrILiWsjCI6TiqYsGBGBzCw.ttf
+    font: Kanchenjunga-Regular.ttf
     description: |-
       Copyright (c) 2021-2024 SIL International (https://www.sil.org/) with Reserved Font Names "Kanchenjunga", "Andika", and "SIL".
 
@@ -86,6 +86,7 @@ fonts:
 
       DISCLAIMER
       THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+    source_font: RWmPoKKd5fUmrILiWsjCI6TiqYsGBGBzCw.ttf
     formats:
     - ttf
     - woff2
@@ -96,7 +97,7 @@ fonts:
     post_script_name: Kanchenjunga-Bold
     version: '2.001'
     copyright: Copyright (c) 2021-2024 SIL International
-    font: RWmQoKKd5fUmrILiWsjCI6TaFaQiDEtvAlaMKw.ttf
+    font: Kanchenjunga-Bold.ttf
     description: |-
       Copyright (c) 2021-2024 SIL International (https://www.sil.org/) with Reserved Font Names "Kanchenjunga", "Andika", and "SIL".
 
@@ -141,6 +142,7 @@ fonts:
 
       DISCLAIMER
       THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+    source_font: RWmQoKKd5fUmrILiWsjCI6TaFaQiDEtvAlaMKw.ttf
     formats:
     - ttf
     - woff2
@@ -153,7 +155,7 @@ fonts:
     post_script_name: Kanchenjunga-Medium
     version: '2.001'
     copyright: Copyright (c) 2021-2024 SIL International
-    font: RWmQoKKd5fUmrILiWsjCI6TaXaIiDEtvAlaMKw.ttf
+    font: Kanchenjunga-Medium.ttf
     preferred_family_name: Kanchenjunga
     preferred_type: Medium
     description: |-
@@ -200,6 +202,7 @@ fonts:
 
       DISCLAIMER
       THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+    source_font: RWmQoKKd5fUmrILiWsjCI6TaXaIiDEtvAlaMKw.ttf
     formats:
     - ttf
     - woff2
@@ -212,7 +215,7 @@ fonts:
     post_script_name: Kanchenjunga-SemiBold
     version: '2.001'
     copyright: Copyright (c) 2021-2024 SIL International
-    font: RWmQoKKd5fUmrILiWsjCI6TacaUiDEtvAlaMKw.ttf
+    font: Kanchenjunga-SemiBold.ttf
     preferred_family_name: Kanchenjunga
     preferred_type: SemiBold
     description: |-
@@ -259,13 +262,13 @@ fonts:
 
       DISCLAIMER
       THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+    source_font: RWmQoKKd5fUmrILiWsjCI6TacaUiDEtvAlaMKw.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2021-2024 SIL International
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2021-2024 SIL International  (https://www.sil.org/)\r\nwith
   Reserved Font Names \"Kanchenjunga\", \"Andika\", and \"SIL\".\r\n\r\nThis Font
@@ -379,4 +382,9 @@ open_license: "Copyright (c) 2021-2024 SIL International  (https://www.sil.org/)
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-04-23'
+  family_id: kanchenjunga

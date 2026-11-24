@@ -34,16 +34,16 @@ fonts:
     post_script_name: MySoul-Regular
     version: 1.010; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2016 The My Soul Project Authors (https://github.com/googlefonts/my-soul)
-    font: 3XFqErcuy945_u6KF_Ulk2nnXf0.ttf
+    font: MySoul-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: 3XFqErcuy945_u6KF_Ulk2nnXf0.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2016 The My Soul Project Authors (https://github.com/googlefonts/my-soul)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2016 The My Soul Project Authors (https://github.com/googlefonts/my-soul)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -149,4 +149,9 @@ open_license: "Copyright 2016 The My Soul Project Authors (https://github.com/go
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: my_soul

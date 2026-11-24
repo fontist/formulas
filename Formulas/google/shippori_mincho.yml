@@ -56,9 +56,10 @@ fonts:
     post_script_name: ShipporiMincho-Regular
     version: 3.110; ttfautohint (v1.8.3)
     copyright: Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)
-    font: VdGGAZweH5EbgHY6YExcZfDoj0BA2_-C7LoS7g.ttf
+    font: ShipporiMincho-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: VdGGAZweH5EbgHY6YExcZfDoj0BA2_-C7LoS7g.ttf
     formats:
     - ttf
     - woff2
@@ -69,9 +70,10 @@ fonts:
     post_script_name: ShipporiMincho-Bold
     version: 3.110; ttfautohint (v1.8.3)
     copyright: Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)
-    font: VdGDAZweH5EbgHY6YExcZfDoj0B4Z9Cm5JEO5--2zg.ttf
+    font: ShipporiMincho-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: VdGDAZweH5EbgHY6YExcZfDoj0B4Z9Cm5JEO5--2zg.ttf
     formats:
     - ttf
     - woff2
@@ -84,11 +86,12 @@ fonts:
     post_script_name: ShipporiMincho-Medium
     version: 3.110; ttfautohint (v1.8.3)
     copyright: Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)
-    font: VdGDAZweH5EbgHY6YExcZfDoj0B4L9am5JEO5--2zg.ttf
+    font: ShipporiMincho-Medium.ttf
     preferred_family_name: Shippori Mincho
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: VdGDAZweH5EbgHY6YExcZfDoj0B4L9am5JEO5--2zg.ttf
     formats:
     - ttf
     - woff2
@@ -101,11 +104,12 @@ fonts:
     post_script_name: ShipporiMincho-SemiBold
     version: 3.110; ttfautohint (v1.8.3)
     copyright: Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)
-    font: VdGDAZweH5EbgHY6YExcZfDoj0B4A9Gm5JEO5--2zg.ttf
+    font: ShipporiMincho-SemiBold.ttf
     preferred_family_name: Shippori Mincho
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: VdGDAZweH5EbgHY6YExcZfDoj0B4A9Gm5JEO5--2zg.ttf
     formats:
     - ttf
     - woff2
@@ -118,18 +122,18 @@ fonts:
     post_script_name: ShipporiMincho-ExtraBold
     version: 3.110; ttfautohint (v1.8.3)
     copyright: Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)
-    font: VdGDAZweH5EbgHY6YExcZfDoj0B4e9Om5JEO5--2zg.ttf
+    font: ShipporiMincho-ExtraBold.ttf
     preferred_family_name: Shippori Mincho
     preferred_type: ExtraBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: VdGDAZweH5EbgHY6YExcZfDoj0B4e9Om5JEO5--2zg.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -235,4 +239,9 @@ open_license: "Copyright 2021 The Shippori Mincho Project Authors (https://githu
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: shippori_mincho

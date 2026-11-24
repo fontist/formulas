@@ -60,11 +60,12 @@ fonts:
     post_script_name: MPLUS1p-Thin
     version: '1.062'
     copyright: Copyright 2016 The M+ Project Authors.
-    font: e3tleuShHdiFyPFzBRrQnDQAUW3aq-5N.ttf
+    font: MPLUS1p-Thin.ttf
     preferred_family_name: M PLUS 1p
     preferred_type: Thin
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: e3tleuShHdiFyPFzBRrQnDQAUW3aq-5N.ttf
     formats:
     - ttf
     - woff2
@@ -77,11 +78,12 @@ fonts:
     post_script_name: MPLUS1p-Light
     version: '1.062'
     copyright: Copyright 2016 The M+ Project Authors.
-    font: e3tmeuShHdiFyPFzBRrQVBYge0PWovdU4w.ttf
+    font: MPLUS1p-Light.ttf
     preferred_family_name: M PLUS 1p
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: e3tmeuShHdiFyPFzBRrQVBYge0PWovdU4w.ttf
     formats:
     - ttf
     - woff2
@@ -94,9 +96,10 @@ fonts:
     post_script_name: MPLUS1p-Regular
     version: '1.062'
     copyright: Copyright 2016 The M+ Project Authors.
-    font: e3tjeuShHdiFyPFzBRro-D4Ec2jKqw.ttf
+    font: MPLUS1p-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: e3tjeuShHdiFyPFzBRro-D4Ec2jKqw.ttf
     formats:
     - ttf
     - woff2
@@ -107,9 +110,10 @@ fonts:
     post_script_name: MPLUS1p-Bold
     version: '1.062'
     copyright: Copyright 2016 The M+ Project Authors.
-    font: e3tmeuShHdiFyPFzBRrQRBEge0PWovdU4w.ttf
+    font: MPLUS1p-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: e3tmeuShHdiFyPFzBRrQRBEge0PWovdU4w.ttf
     formats:
     - ttf
     - woff2
@@ -122,11 +126,12 @@ fonts:
     post_script_name: MPLUS1p-Medium
     version: '1.062'
     copyright: Copyright 2016 The M+ Project Authors.
-    font: e3tmeuShHdiFyPFzBRrQDBcge0PWovdU4w.ttf
+    font: MPLUS1p-Medium.ttf
     preferred_family_name: M PLUS 1p
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: e3tmeuShHdiFyPFzBRrQDBcge0PWovdU4w.ttf
     formats:
     - ttf
     - woff2
@@ -139,11 +144,12 @@ fonts:
     post_script_name: MPLUS1p-ExtraBold
     version: '1.062'
     copyright: Copyright 2016 The M+ Project Authors.
-    font: e3tmeuShHdiFyPFzBRrQWBIge0PWovdU4w.ttf
+    font: MPLUS1p-ExtraBold.ttf
     preferred_family_name: M PLUS 1p
     preferred_type: ExtraBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: e3tmeuShHdiFyPFzBRrQWBIge0PWovdU4w.ttf
     formats:
     - ttf
     - woff2
@@ -156,18 +162,18 @@ fonts:
     post_script_name: MPLUS1p-Black
     version: '1.062'
     copyright: Copyright 2016 The M+ Project Authors.
-    font: e3tmeuShHdiFyPFzBRrQfBMge0PWovdU4w.ttf
+    font: MPLUS1p-Black.ttf
     preferred_family_name: M PLUS 1p
     preferred_type: Black
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: e3tmeuShHdiFyPFzBRrQfBMge0PWovdU4w.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2016 The M+ Project Authors.
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2016 The M+ Project Authors.\n\nThis Font Software is licensed
   under the SIL Open Font License, Version 1.1.\nThis license is copied below, and
@@ -275,4 +281,9 @@ open_license: "Copyright 2016 The M+ Project Authors.\n\nThis Font Software is l
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\nCopyright
   2016 The Rounded M+ Project Authors.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2026-01-07'
+  family_id: m_plus_1p

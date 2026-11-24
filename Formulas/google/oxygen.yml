@@ -43,11 +43,12 @@ fonts:
       0 -w "gGD" -c
     copyright: Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk), with Reserved
       Font Names 'Oxygen'
-    font: 2sDcZG1Wl4LcnbuCJW8Db2-4C7wFZQ.ttf
+    font: Oxygen-Light.ttf
     preferred_family_name: Oxygen
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: 2sDcZG1Wl4LcnbuCJW8Db2-4C7wFZQ.ttf
     formats:
     - ttf
     - woff2
@@ -62,9 +63,10 @@ fonts:
       0 -w "gGD" -c
     copyright: Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk), with Reserved
       Font Names 'Oxygen'
-    font: 2sDfZG1Wl4Lcnbu6iUcnZ0SkAg.ttf
+    font: Oxygen-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: 2sDfZG1Wl4Lcnbu6iUcnZ0SkAg.ttf
     formats:
     - ttf
     - woff2
@@ -77,9 +79,10 @@ fonts:
       -c
     copyright: Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk), with Reserved
       Font Names 'Oxygen'
-    font: 2sDcZG1Wl4LcnbuCNWgDb2-4C7wFZQ.ttf
+    font: Oxygen-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: 2sDcZG1Wl4LcnbuCNWgDb2-4C7wFZQ.ttf
     formats:
     - ttf
     - woff2
@@ -87,7 +90,6 @@ fonts:
 extract: {}
 copyright: Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk), with Reserved
   Font Names 'Oxygen'
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved
   Font Names 'Oxygen'\n\nThis Font Software is licensed under the SIL Open Font License,
@@ -193,4 +195,9 @@ open_license: "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: oxygen

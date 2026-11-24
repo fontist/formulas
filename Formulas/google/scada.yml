@@ -44,9 +44,10 @@ fonts:
     post_script_name: Scada-Regular
     version: '4.000'
     copyright: Copyright 2012 The Scada Project Authors (lemonad@jovanny.ru)
-    font: RLpxK5Pv5qumeWJoxzUobkvv.ttf
+    font: Scada-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: RLpxK5Pv5qumeWJoxzUobkvv.ttf
     formats:
     - ttf
     - woff2
@@ -57,9 +58,10 @@ fonts:
     post_script_name: Scada-Italic
     version: '4.000'
     copyright: Copyright 2012 The Scada Project Authors (lemonad@jovanny.ru)
-    font: RLp_K5Pv5qumeVJqzTEKa1vvffg.ttf
+    font: Scada-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: RLp_K5Pv5qumeVJqzTEKa1vvffg.ttf
     formats:
     - ttf
     - woff2
@@ -70,9 +72,10 @@ fonts:
     post_script_name: Scada-Bold
     version: '4.000'
     copyright: Copyright 2012 The Scada Project Authors (lemonad@jovanny.ru)
-    font: RLp8K5Pv5qumeVrU6BEgRVfmZOE5.ttf
+    font: Scada-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: RLp8K5Pv5qumeVrU6BEgRVfmZOE5.ttf
     formats:
     - ttf
     - woff2
@@ -83,16 +86,16 @@ fonts:
     post_script_name: Scada-BoldItalic
     version: '4.000'
     copyright: Copyright 2012 The Scada Project Authors (lemonad@jovanny.ru)
-    font: RLp6K5Pv5qumeVJq9Y0lT1PEYfE5p6g.ttf
+    font: Scada-BoldItalic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: RLp6K5Pv5qumeVJq9Y0lT1PEYfE5p6g.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2012 The Scada Project Authors (lemonad@jovanny.ru)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2012 The Scada Project Authors (lemonad@jovanny.ru)\n\nThis Font
   Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -198,4 +201,9 @@ open_license: "Copyright 2012 The Scada Project Authors (lemonad@jovanny.ru)\n\n
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: scada

@@ -39,16 +39,16 @@ fonts:
     version: 1.001; ttfautohint (v1.4.1) -l 11 -r 50 -G 50 -x 14 -D latn -f latn -m
       "ttfautohint.ctrl" -w G -X ""
     copyright: Copyright 2015 Dalton Maag Ltd (info@daltonmaag.com)
-    font: WBLnrEXKYFlGHrOKmGD1W0_MJMGxiQ.ttf
+    font: ScopeOne-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License Version
       1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: WBLnrEXKYFlGHrOKmGD1W0_MJMGxiQ.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2015 Dalton Maag Ltd (info@daltonmaag.com)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2015 Dalton Maag Ltd (info@daltonmaag.com)\r\n\r\nThis Font Software
   is licensed under the SIL Open Font License, Version 1.1.\r\nThis license is copied
@@ -160,4 +160,9 @@ open_license: "Copyright 2015 Dalton Maag Ltd (info@daltonmaag.com)\r\n\r\nThis 
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: scope_one

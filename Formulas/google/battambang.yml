@@ -47,11 +47,12 @@ fonts:
     post_script_name: Battambang-Thin
     version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Battambang Khmer Project Authors (https://github.com/danhhong/Battambang)
-    font: uk-kEGe7raEw-HjkzZabNhGp5w50_o9T7Q.ttf
+    font: Battambang-Thin.ttf
     preferred_family_name: Battambang
     preferred_type: Thin
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: uk-kEGe7raEw-HjkzZabNhGp5w50_o9T7Q.ttf
     formats:
     - ttf
     - woff2
@@ -64,11 +65,12 @@ fonts:
     post_script_name: Battambang-Light
     version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Battambang Khmer Project Authors (https://github.com/danhhong/Battambang)
-    font: uk-lEGe7raEw-HjkzZabNtmLxyRa8oZK9I0.ttf
+    font: Battambang-Light.ttf
     preferred_family_name: Battambang
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: uk-lEGe7raEw-HjkzZabNtmLxyRa8oZK9I0.ttf
     formats:
     - ttf
     - woff2
@@ -81,9 +83,10 @@ fonts:
     post_script_name: Battambang-Regular
     version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Battambang Khmer Project Authors (https://github.com/danhhong/Battambang)
-    font: uk-mEGe7raEw-HjkzZabDnWj4yxx7o8.ttf
+    font: Battambang-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: uk-mEGe7raEw-HjkzZabDnWj4yxx7o8.ttf
     formats:
     - ttf
     - woff2
@@ -94,9 +97,10 @@ fonts:
     post_script_name: Battambang-Bold
     version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Battambang Khmer Project Authors (https://github.com/danhhong/Battambang)
-    font: uk-lEGe7raEw-HjkzZabNsmMxyRa8oZK9I0.ttf
+    font: Battambang-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: uk-lEGe7raEw-HjkzZabNsmMxyRa8oZK9I0.ttf
     formats:
     - ttf
     - woff2
@@ -109,18 +113,18 @@ fonts:
     post_script_name: Battambang-Black
     version: 8.002; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Battambang Khmer Project Authors (https://github.com/danhhong/Battambang)
-    font: uk-lEGe7raEw-HjkzZabNvGOxyRa8oZK9I0.ttf
+    font: Battambang-Black.ttf
     preferred_family_name: Battambang
     preferred_type: Black
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: uk-lEGe7raEw-HjkzZabNvGOxyRa8oZK9I0.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2019 The Battambang Khmer Project Authors (https://github.com/danhhong/Battambang)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2019 The Battambang Project Authors (https://github.com/danhhong/Battambang)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -226,4 +230,9 @@ open_license: "Copyright 2019 The Battambang Project Authors (https://github.com
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: battambang

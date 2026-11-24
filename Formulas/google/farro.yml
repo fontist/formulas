@@ -43,11 +43,12 @@ fonts:
     post_script_name: Farro-Light
     version: '1.101'
     copyright: Copyright 2018 The Farro Project Authors (https://github.com/grayscaleltd/farro)
-    font: i7dJIFl3byGNHa3hNJ6-WkJUQUq7.ttf
+    font: Farro-Light.ttf
     preferred_family_name: Farro
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: i7dJIFl3byGNHa3hNJ6-WkJUQUq7.ttf
     formats:
     - ttf
     - woff2
@@ -60,9 +61,10 @@ fonts:
     post_script_name: Farro-Regular
     version: '1.101'
     copyright: Copyright 2018 The Farro Project Authors (https://github.com/grayscaleltd/farro)
-    font: i7dEIFl3byGNHZVNHLq2cV5d.ttf
+    font: Farro-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: i7dEIFl3byGNHZVNHLq2cV5d.ttf
     formats:
     - ttf
     - woff2
@@ -73,9 +75,10 @@ fonts:
     post_script_name: Farro-Bold
     version: '1.101'
     copyright: Copyright 2018 The Farro Project Authors (https://github.com/grayscaleltd/farro)
-    font: i7dJIFl3byGNHa3xM56-WkJUQUq7.ttf
+    font: Farro-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: i7dJIFl3byGNHa3xM56-WkJUQUq7.ttf
     formats:
     - ttf
     - woff2
@@ -88,18 +91,18 @@ fonts:
     post_script_name: Farro-Medium
     version: '1.101'
     copyright: Copyright 2018 The Farro Project Authors (https://github.com/grayscaleltd/farro)
-    font: i7dJIFl3byGNHa25NZ6-WkJUQUq7.ttf
+    font: Farro-Medium.ttf
     preferred_family_name: Farro
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: i7dJIFl3byGNHa25NZ6-WkJUQUq7.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2018 The Farro Project Authors (https://github.com/grayscaleltd/farro)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2018 The Farro Project Authors (https://github.com/grayscaleltd/farro)\r\n\r\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis
@@ -211,4 +214,9 @@ open_license: "Copyright 2018 The Farro Project Authors (https://github.com/gray
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: farro

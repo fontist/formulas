@@ -35,9 +35,10 @@ fonts:
     copyright: "Copyright (c) 2011 Angel Koziupa (sudtipos@sudtipos.com),\rCopyright
       (c) 2011 Alejandro Paul (sudtipos@sudtipos.com),\rwith Reserved Font Name \"Bubblegum
       Sans\""
-    font: AYCSpXb_Z9EORv1M5QTjEzMEtdaHzoPPb7R4.ttf
+    font: BubblegumSans-Regular.ttf
     description: "This Font Software is licensed under the SIL Open Font License,\rVersion
       1.1. This license is available with a FAQ at:\rhttp://scripts.sil.org/OFL"
+    source_font: AYCSpXb_Z9EORv1M5QTjEzMEtdaHzoPPb7R4.ttf
     formats:
     - ttf
     - woff2
@@ -46,7 +47,6 @@ extract: {}
 copyright: "Copyright (c) 2011 Angel Koziupa (sudtipos@sudtipos.com),\rCopyright (c)
   2011 Alejandro Paul (sudtipos@sudtipos.com),\rwith Reserved Font Name \"Bubblegum
   Sans\""
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011 Angel Koziupa (sudtipos@sudtipos.com), \nCopyright (c)
   2011 Alejandro Paul (sudtipos@sudtipos.com), \nwith Reserved Font Name \"Bubblegum
@@ -154,4 +154,9 @@ open_license: "Copyright (c) 2011 Angel Koziupa (sudtipos@sudtipos.com), \nCopyr
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-02'
+  family_id: bubblegum_sans

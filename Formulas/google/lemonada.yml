@@ -17,9 +17,9 @@ resources:
     source: google
     family: Lemonada
     files:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/lemonada/Lemonada[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/lemonada/Lemonada[wght].ttf
     urls:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/lemonada/Lemonada[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/lemonada/Lemonada[wght].ttf
     format: ttf
     variable_axes:
     - wght
@@ -64,11 +64,12 @@ fonts:
     post_script_name: Lemonada-Light
     version: '4.005'
     copyright: Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)
-    font: 0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGJOt2mfWc3Z2pTg.ttf
+    font: Lemonada-Light.ttf
     preferred_family_name: Lemonada
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: 0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGJOt2mfWc3Z2pTg.ttf
     formats:
     - ttf
     - woff2
@@ -82,9 +83,10 @@ fonts:
     post_script_name: Lemonada-Regular
     version: '4.005'
     copyright: Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)
-    font: 0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGeut2mfWc3Z2pTg.ttf
+    font: Lemonada-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: 0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGeut2mfWc3Z2pTg.ttf
     formats:
     - ttf
     - woff2
@@ -96,9 +98,10 @@ fonts:
     post_script_name: Lemonada-Bold
     version: '4.005'
     copyright: Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)
-    font: 0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGnex2mfWc3Z2pTg.ttf
+    font: Lemonada-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: 0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGnex2mfWc3Z2pTg.ttf
     formats:
     - ttf
     - woff2
@@ -124,11 +127,12 @@ fonts:
     post_script_name: Lemonada-Medium
     version: '4.005'
     copyright: Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)
-    font: 0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGSOt2mfWc3Z2pTg.ttf
+    font: Lemonada-Medium.ttf
     preferred_family_name: Lemonada
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: 0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGSOt2mfWc3Z2pTg.ttf
     formats:
     - ttf
     - woff2
@@ -142,11 +146,12 @@ fonts:
     post_script_name: Lemonada-SemiBold
     version: '4.005'
     copyright: Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)
-    font: 0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGpOx2mfWc3Z2pTg.ttf
+    font: Lemonada-SemiBold.ttf
     preferred_family_name: Lemonada
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: 0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGpOx2mfWc3Z2pTg.ttf
     formats:
     - ttf
     - woff2
@@ -154,7 +159,6 @@ fonts:
     source_resource: ttf_static
 extract: {}
 copyright: Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2011 The Lemonada Project Authors (https://github.com/Gue3bara/Lemonada)\r\n\r\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis
@@ -266,4 +270,9 @@ open_license: "Copyright 2011 The Lemonada Project Authors (https://github.com/G
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-02'
+  family_id: lemonada

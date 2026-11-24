@@ -39,9 +39,10 @@ fonts:
     post_script_name: Bevan-Regular
     version: 2.100; ttfautohint (v1.8.3)
     copyright: Copyright 2016 The Bevan Project Authors (https://github.com/googlefonts/BevanFont)
-    font: 4iCj6KZ0a9NXjF8aUir7tlSJ.ttf
+    font: Bevan-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: 4iCj6KZ0a9NXjF8aUir7tlSJ.ttf
     formats:
     - ttf
     - woff2
@@ -52,16 +53,16 @@ fonts:
     post_script_name: Bevan-Italic
     version: 2.100; ttfautohint (v1.8.3)
     copyright: Copyright 2016 The Bevan Project Authors (https://github.com/googlefonts/BevanFont)
-    font: 4iCt6KZ0a9NXjG8YWC7Zs0SJD4U.ttf
+    font: Bevan-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: 4iCt6KZ0a9NXjG8YWC7Zs0SJD4U.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2016 The Bevan Project Authors (https://github.com/googlefonts/BevanFont)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2016 The Bevan Project Authors (https://github.com/googlefonts/BevanFont)\r\n\r\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis
@@ -173,4 +174,9 @@ open_license: "Copyright 2016 The Bevan Project Authors (https://github.com/goog
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: bevan

@@ -19,9 +19,9 @@ resources:
     source: google
     family: DynaPuff
     files:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/dynapuff/DynaPuff[wdth,wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/dynapuff/DynaPuff[wdth,wght].ttf
     urls:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/dynapuff/DynaPuff[wdth,wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/dynapuff/DynaPuff[wdth,wght].ttf
     format: ttf
     variable_axes:
     - wdth
@@ -63,9 +63,10 @@ fonts:
     post_script_name: DynaPuff-Regular
     version: '2.000'
     copyright: Copyright 2021 The DynaPuff Project Authors (https://github.com/googlefonts/dynapuff)
-    font: z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RSxYu6YjrSRs4wn8.ttf
+    font: DynaPuff-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RSxYu6YjrSRs4wn8.ttf
     formats:
     - ttf
     - woff2
@@ -77,9 +78,10 @@ fonts:
     post_script_name: DynaPuff-Bold
     version: '2.000'
     copyright: Copyright 2021 The DynaPuff Project Authors (https://github.com/googlefonts/dynapuff)
-    font: z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RS_Ep6YjrSRs4wn8.ttf
+    font: DynaPuff-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RS_Ep6YjrSRs4wn8.ttf
     formats:
     - ttf
     - woff2
@@ -106,11 +108,12 @@ fonts:
     post_script_name: DynaPuff-Medium
     version: '2.000'
     copyright: Copyright 2021 The DynaPuff Project Authors (https://github.com/googlefonts/dynapuff)
-    font: z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RSyQu6YjrSRs4wn8.ttf
+    font: DynaPuff-Medium.ttf
     preferred_family_name: DynaPuff
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RSyQu6YjrSRs4wn8.ttf
     formats:
     - ttf
     - woff2
@@ -124,11 +127,12 @@ fonts:
     post_script_name: DynaPuff-SemiBold
     version: '2.000'
     copyright: Copyright 2021 The DynaPuff Project Authors (https://github.com/googlefonts/dynapuff)
-    font: z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RS8gp6YjrSRs4wn8.ttf
+    font: DynaPuff-SemiBold.ttf
     preferred_family_name: DynaPuff
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RS8gp6YjrSRs4wn8.ttf
     formats:
     - ttf
     - woff2
@@ -136,7 +140,6 @@ fonts:
     source_resource: ttf_static
 extract: {}
 copyright: Copyright 2021 The DynaPuff Project Authors (https://github.com/googlefonts/dynapuff)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2021 The DynaPuff Project Authors (https://github.com/googlefonts/dynapuff)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -244,4 +247,9 @@ open_license: "Copyright 2021 The DynaPuff Project Authors (https://github.com/g
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n© 2022 GitHub,
   Inc.\nTerms\nPrivacy\nSecurity\nStatus\nDocs\nContact GitHub\nPricing\nAPI\nTraining\nBlog\nAbout"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: dynapuff

@@ -51,9 +51,10 @@ fonts:
     post_script_name: VesperLibre-Regular
     version: '1.058'
     copyright:
-    font: bx6CNxyWnf-uxPdXDHUD_Rd4D0-N2qIWVQ.ttf
+    font: VesperLibre-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: bx6CNxyWnf-uxPdXDHUD_Rd4D0-N2qIWVQ.ttf
     formats:
     - ttf
     - woff2
@@ -64,9 +65,10 @@ fonts:
     post_script_name: VesperLibre-Bold
     version: '1.058'
     copyright: Copyright (c) 2007, Robert Keller (www.motaitalic.com)
-    font: bx6dNxyWnf-uxPdXDHUD_RdAs2Cp0okKXKvPlw.ttf
+    font: VesperLibre-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: bx6dNxyWnf-uxPdXDHUD_RdAs2Cp0okKXKvPlw.ttf
     formats:
     - ttf
     - woff2
@@ -79,11 +81,12 @@ fonts:
     post_script_name: VesperLibre-Medium
     version: '1.058'
     copyright: Copyright (c) 2007, Robert Keller (www.motaitalic.com)
-    font: bx6dNxyWnf-uxPdXDHUD_RdA-2ap0okKXKvPlw.ttf
+    font: VesperLibre-Medium.ttf
     preferred_family_name: Vesper Libre
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: bx6dNxyWnf-uxPdXDHUD_RdA-2ap0okKXKvPlw.ttf
     formats:
     - ttf
     - woff2
@@ -96,11 +99,12 @@ fonts:
     post_script_name: VesperLibre-Heavy
     version: '1.058'
     copyright: Copyright (c) 2007, Robert Keller (www.motaitalic.com)
-    font: bx6dNxyWnf-uxPdXDHUD_RdAi2Kp0okKXKvPlw.ttf
+    font: VesperLibre-Heavy.ttf
     preferred_family_name: Vesper Libre
     preferred_type: Heavy
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: bx6dNxyWnf-uxPdXDHUD_RdAi2Kp0okKXKvPlw.ttf
     formats:
     - ttf
     - woff2
@@ -158,7 +162,6 @@ copyright: "Copyright (c) 2007, Robert Keller (www.motaitalic.com)\n\nThis Font 
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2007, Robert Keller (www.motaitalic.com)\n\nThis Font Software
   is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied
@@ -264,4 +267,9 @@ open_license: "Copyright (c) 2007, Robert Keller (www.motaitalic.com)\n\nThis Fo
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: vesper_libre

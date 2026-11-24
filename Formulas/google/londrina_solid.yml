@@ -50,11 +50,12 @@ fonts:
     version: '1.002'
     copyright: Copyright 2011 The Londrina Solid Authors (https://github.com/marcelommp/Londrina-Typeface),
       with Reserved Font Name "Londrina Solid"
-    font: flUjRq6sw40kQEJxWNgkLuudGfs9KBYesZHhV64.ttf
+    font: LondrinaSolid-Thin.ttf
     preferred_family_name: Londrina Solid
     preferred_type: Thin
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: flUjRq6sw40kQEJxWNgkLuudGfs9KBYesZHhV64.ttf
     formats:
     - ttf
     - woff2
@@ -68,11 +69,12 @@ fonts:
     version: '1.002'
     copyright: Copyright 2011 The Londrina Solid Authors (https://github.com/marcelommp/Londrina-Typeface),
       with Reserved Font Name "Londrina Solid"
-    font: flUiRq6sw40kQEJxWNgkLuudGfv1CjY0n53oTrcL.ttf
+    font: LondrinaSolid-Light.ttf
     preferred_family_name: Londrina Solid
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: flUiRq6sw40kQEJxWNgkLuudGfv1CjY0n53oTrcL.ttf
     formats:
     - ttf
     - woff2
@@ -86,9 +88,10 @@ fonts:
     version: '1.002'
     copyright: Copyright 2011 The Londrina Solid Authors (https://github.com/marcelommp/Londrina-Typeface),
       with Reserved Font Name "Londrina Solid"
-    font: flUhRq6sw40kQEJxWNgkLuudGcNZIhI8tIHh.ttf
+    font: LondrinaSolid-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: flUhRq6sw40kQEJxWNgkLuudGcNZIhI8tIHh.ttf
     formats:
     - ttf
     - woff2
@@ -102,11 +105,12 @@ fonts:
     version: '1.002'
     copyright: Copyright 2011 The Londrina Solid Authors (https://github.com/marcelommp/Londrina-Typeface),
       with Reserved Font Name "Londrina Solid"
-    font: flUiRq6sw40kQEJxWNgkLuudGfvdDzY0n53oTrcL.ttf
+    font: LondrinaSolid-Black.ttf
     preferred_family_name: Londrina Solid
     preferred_type: Black
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: flUiRq6sw40kQEJxWNgkLuudGfvdDzY0n53oTrcL.ttf
     formats:
     - ttf
     - woff2
@@ -114,7 +118,6 @@ fonts:
 extract: {}
 copyright: Copyright 2011 The Londrina Solid Authors (https://github.com/marcelommp/Londrina-Typeface),
   with Reserved Font Name "Londrina Solid"
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2011 The Londrina Solid Authors (https://github.com/marcelommp/Londrina-Typeface),
   with Reserved Font Name \"Londrina Solid”\n\nThis Font Software is licensed under
@@ -222,4 +225,9 @@ open_license: "Copyright 2011 The Londrina Solid Authors (https://github.com/mar
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: londrina_solid

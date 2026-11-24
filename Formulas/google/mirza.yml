@@ -47,10 +47,11 @@ fonts:
     copyright: Copyright 2015, 2016 KB-Studio (www.k-b-studio.com|tarobish@gmail.com).
       Copyright 2015, 2016 Lasse Fister (lasse@graphicore.de). Copyright 2015, 2016
       Eduardo Tunni(edu@tipo.net.ar).
-    font: co3ImWlikiN5EurdKMewsrvI.ttf
+    font: Mirza-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is copied below, and is also available with a FAQ
       at: http://scripts.sil.org/OFL'
+    source_font: co3ImWlikiN5EurdKMewsrvI.ttf
     formats:
     - ttf
     - woff2
@@ -63,10 +64,11 @@ fonts:
     copyright: Copyright 2015, 2016 KB-Studio (www.k-b-studio.com|tarobish@gmail.com).
       Copyright 2015, 2016 Lasse Fister (lasse@graphicore.de). Copyright 2015, 2016
       Eduardo Tunni(edu@tipo.net.ar).
-    font: co3FmWlikiN5EtJhB-O4mafBomDi.ttf
+    font: Mirza-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is copied below, and is also available with a FAQ
       at: http://scripts.sil.org/OFL'
+    source_font: co3FmWlikiN5EtJhB-O4mafBomDi.ttf
     formats:
     - ttf
     - woff2
@@ -81,12 +83,13 @@ fonts:
     copyright: Copyright 2015, 2016 KB-Studio (www.k-b-studio.com|tarobish@gmail.com).
       Copyright 2015, 2016 Lasse Fister (lasse@graphicore.de). Copyright 2015, 2016
       Eduardo Tunni(edu@tipo.net.ar).
-    font: co3FmWlikiN5EtIpAeO4mafBomDi.ttf
+    font: Mirza-Medium.ttf
     preferred_family_name: Mirza
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is copied below, and is also available with a FAQ
       at: http://scripts.sil.org/OFL'
+    source_font: co3FmWlikiN5EtIpAeO4mafBomDi.ttf
     formats:
     - ttf
     - woff2
@@ -101,12 +104,13 @@ fonts:
     copyright: Copyright 2015, 2016 KB-Studio (www.k-b-studio.com|tarobish@gmail.com).
       Copyright 2015, 2016 Lasse Fister (lasse@graphicore.de). Copyright 2015, 2016
       Eduardo Tunni(edu@tipo.net.ar).
-    font: co3FmWlikiN5EtIFBuO4mafBomDi.ttf
+    font: Mirza-SemiBold.ttf
     preferred_family_name: Mirza
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is copied below, and is also available with a FAQ
       at: http://scripts.sil.org/OFL'
+    source_font: co3FmWlikiN5EtIFBuO4mafBomDi.ttf
     formats:
     - ttf
     - woff2
@@ -115,7 +119,6 @@ extract: {}
 copyright: Copyright 2015, 2016 KB-Studio (www.k-b-studio.com|tarobish@gmail.com).
   Copyright 2015, 2016 Lasse Fister (lasse@graphicore.de). Copyright 2015, 2016 Eduardo
   Tunni(edu@tipo.net.ar).
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2015 The Mirza Project Authors (https://github.com/Tarobish/Mirza)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -221,4 +224,9 @@ open_license: "Copyright 2015 The Mirza Project Authors (https://github.com/Taro
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: mirza

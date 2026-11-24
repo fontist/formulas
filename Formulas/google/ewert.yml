@@ -33,10 +33,11 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011, Johan Kallas (johankallas@gmail.com), Copyright
       (c) 2011 Mihkel Virkus (mihkelvirkus@gmail.com) with Reserved Font Name Ewert.
-    font: va9I4kzO2tFODYBvS-J3kbDP.ttf
+    font: Ewert-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is copied below, and is also available with a FAQ
       at: http://scripts.sil.org/OFL'
+    source_font: va9I4kzO2tFODYBvS-J3kbDP.ttf
     formats:
     - ttf
     - woff2
@@ -44,7 +45,6 @@ fonts:
 extract: {}
 copyright: Copyright (c) 2011, Johan Kallas (johankallas@gmail.com), Copyright (c)
   2011 Mihkel Virkus (mihkelvirkus@gmail.com) with Reserved Font Name Ewert.
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011 Johan Kallas (johankallas@gmail.com), \nCopyright (c)
   2011 Mihkel Virkus (mihkelvirkus@gmail.com), \nwith Reserved Font Name Ewert.\n\nThis
@@ -152,4 +152,9 @@ open_license: "Copyright (c) 2011 Johan Kallas (johankallas@gmail.com), \nCopyri
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: ewert

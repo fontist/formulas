@@ -57,9 +57,10 @@ fonts:
     version: '1.003'
     copyright: Copyright (c) 2011 JM Sole (info@jmsole.cl), with Reserved Font Name
       "Noticia Text".
-    font: VuJ2dNDF2Yv9qppOePKYRP1GYTFZt0rNpQ.ttf
+    font: NoticiaText-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: VuJ2dNDF2Yv9qppOePKYRP1GYTFZt0rNpQ.ttf
     formats:
     - ttf
     - woff2
@@ -71,9 +72,10 @@ fonts:
     version: '1.003'
     copyright: Copyright (c) 2011 JM Sole (info@jmsole.cl), with Reserved Font Name
       "Noticia Text".
-    font: VuJodNDF2Yv9qppOePKYRP12YztdlU_dpSjt.ttf
+    font: NoticiaText-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: VuJodNDF2Yv9qppOePKYRP12YztdlU_dpSjt.ttf
     formats:
     - ttf
     - woff2
@@ -85,9 +87,10 @@ fonts:
     version: '1.003'
     copyright: Copyright (c) 2011 JM Sole (info@jmsole.cl), with Reserved Font Name
       "Noticia Text".
-    font: VuJpdNDF2Yv9qppOePKYRP1-3R59v2HRrDH0eA.ttf
+    font: NoticiaText-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: VuJpdNDF2Yv9qppOePKYRP1-3R59v2HRrDH0eA.ttf
     formats:
     - ttf
     - woff2
@@ -99,9 +102,10 @@ fonts:
     version: '1.003'
     copyright: Copyright (c) 2011 JM Sole (info@jmsole.cl), with Reserved Font Name
       "Noticia Text".
-    font: VuJrdNDF2Yv9qppOePKYRP12YwPhumvVjjTkeMnz.ttf
+    font: NoticiaText-BoldItalic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: VuJrdNDF2Yv9qppOePKYRP12YwPhumvVjjTkeMnz.ttf
     formats:
     - ttf
     - woff2
@@ -109,7 +113,6 @@ fonts:
 extract: {}
 copyright: Copyright (c) 2011 JM Sole (info@jmsole.cl), with Reserved Font Name "Noticia
   Text".
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011, JM Sole (http://jmsole.cl|info@jmsole.cl),\nwith Reserved
   Font Name \"Noticia Text\".\n\n\nThis Font Software is licensed under the SIL Open
@@ -217,4 +220,9 @@ open_license: "Copyright (c) 2011, JM Sole (http://jmsole.cl|info@jmsole.cl),\nw
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: noticia_text

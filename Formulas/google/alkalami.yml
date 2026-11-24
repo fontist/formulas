@@ -37,7 +37,7 @@ fonts:
     post_script_name: Alkalami-Regular
     version: '3.000'
     copyright: Copyright (c) SIL International, 2015-2023
-    font: zOL_4pfDmqRL95WXi5eLw8BMuvhH.ttf
+    font: Alkalami-Regular.ttf
     description: |
       Copyright (c) 2015-2023, SIL International (http://www.sil.org/),
       with Reserved Font Names "Alkalami" and "SIL".
@@ -124,7 +124,7 @@ fonts:
       not met.
 
       DISCLAIMER
-      THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+      THE FONT SOFTWARE IS PROVIDED AAS IS,, WITHOUT WARRANTY OF ANY KIND,
       EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
       MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
       OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
@@ -133,13 +133,13 @@ fonts:
       DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
       FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
       OTHER DEALINGS IN THE FONT SOFTWARE.
+    source_font: zOL_4pfDmqRL95WXi5eLw8BMuvhH.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) SIL International, 2015-2023
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2015-2023, SIL International (http://www.sil.org/),\r\nwith
   Reserved Font Names \"Alkalami\" and \"SIL\".\r\n\r\nThis Font Software is licensed
@@ -253,4 +253,9 @@ open_license: "Copyright (c) 2015-2023, SIL International (http://www.sil.org/),
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: alkalami

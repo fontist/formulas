@@ -34,9 +34,10 @@ fonts:
     post_script_name: SortsMillGoudy-Regular
     version: '003.101 '
     copyright: "Copyright (c) 2010, Barry Schwartz (chemoelectric@chemoelectric.org)\r\n"
-    font: Qw3GZR9MED_6PSuS_50nEaVrfzgEXH0OjpM75PE.ttf
+    font: SortsMillGoudy-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: Qw3GZR9MED_6PSuS_50nEaVrfzgEXH0OjpM75PE.ttf
     formats:
     - ttf
     - woff2
@@ -47,16 +48,16 @@ fonts:
     post_script_name: SortsMillGoudy-Italic
     version: '003.101 '
     copyright: Copyright (c) 2010, Barry Schwartz (chemoelectric@chemoelectric.org)
-    font: Qw3AZR9MED_6PSuS_50nEaVrfzgEbH8EirE-9PGLfQ.ttf
+    font: SortsMillGoudy-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: Qw3AZR9MED_6PSuS_50nEaVrfzgEbH8EirE-9PGLfQ.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: "Copyright (c) 2010, Barry Schwartz (chemoelectric@chemoelectric.org)\r\n"
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2010, Barry Schwartz (chemoelectric@chemoelectric.org)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -162,4 +163,9 @@ open_license: "Copyright (c) 2010, Barry Schwartz (chemoelectric@chemoelectric.o
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: sorts_mill_goudy

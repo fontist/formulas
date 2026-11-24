@@ -38,8 +38,9 @@ fonts:
     post_script_name: ZillaSlabHighlight-Regular
     version: 1.1; 2017; ttfautohint (v1.6)
     copyright: Copyright 2017, The Mozilla Foundation
-    font: gNMbW2BrTpK8-inLtBJgMMfbm6uNVDvRxhtIY2DwSXlM.ttf
+    font: ZillaSlabHighlight-Regular.ttf
     description: Licensed under the Open Font License, version 1.1 or later.
+    source_font: gNMbW2BrTpK8-inLtBJgMMfbm6uNVDvRxhtIY2DwSXlM.ttf
     formats:
     - ttf
     - woff2
@@ -50,15 +51,15 @@ fonts:
     post_script_name: ZillaSlabHighlight-Bold
     version: 1.1; 2017; ttfautohint (v1.6)
     copyright: Copyright 2017, The Mozilla Foundation
-    font: gNMUW2BrTpK8-inLtBJgMMfbm6uNVDvRxiP0TET4YmVF0Mb6.ttf
+    font: ZillaSlabHighlight-Bold.ttf
     description: Licensed under the Open Font License, version 1.1 or later.
+    source_font: gNMUW2BrTpK8-inLtBJgMMfbm6uNVDvRxiP0TET4YmVF0Mb6.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2017, The Mozilla Foundation
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2017, The Mozilla Foundation\r\n\r\nThis Font Software is licensed
   under the SIL Open Font License, Version 1.1.\r\nThis license is copied below, and
@@ -170,4 +171,9 @@ open_license: "Copyright 2017, The Mozilla Foundation\r\n\r\nThis Font Software 
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-11'
+  family_id: zilla_slab_highlight

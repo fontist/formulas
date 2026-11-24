@@ -44,9 +44,10 @@ fonts:
     post_script_name: Amiko-Regular
     version: 1.001; ttfautohint (v1.3)
     copyright: Copyright (c) 2014, Impallari Type (www.impallari.com).
-    font: WwkQxPq1DFK04tqlc17MMZgJ.ttf
+    font: Amiko-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: WwkQxPq1DFK04tqlc17MMZgJ.ttf
     formats:
     - ttf
     - woff2
@@ -57,9 +58,10 @@ fonts:
     post_script_name: Amiko-Bold
     version: 1.001; ttfautohint (v1.3)
     copyright: Copyright (c) 2014, Impallari Type (www.impallari.com).
-    font: WwkdxPq1DFK04uIZXHrEGoQAUco5.ttf
+    font: Amiko-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: WwkdxPq1DFK04uIZXHrEGoQAUco5.ttf
     formats:
     - ttf
     - woff2
@@ -72,18 +74,18 @@ fonts:
     post_script_name: Amiko-SemiBold
     version: 1.001; ttfautohint (v1.3)
     copyright: Copyright (c) 2014, Impallari Type (www.impallari.com).
-    font: WwkdxPq1DFK04uJ9XXrEGoQAUco5.ttf
+    font: Amiko-SemiBold.ttf
     preferred_family_name: Amiko
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: WwkdxPq1DFK04uJ9XXrEGoQAUco5.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2014, Impallari Type (www.impallari.com).
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2012, Impallari Type (www.impallari.com).\r\n\r\nThis Font
   Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis license
@@ -195,4 +197,9 @@ open_license: "Copyright (c) 2012, Impallari Type (www.impallari.com).\r\n\r\nTh
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: amiko

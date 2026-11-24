@@ -1,11 +1,11 @@
 ---
 name: sawarabi_mincho
 schema_version: 5
-description: Sawarabi Mincho (さわらび明朝) is a Japanese font by mshio . With a delicate
+description: Sawarabi Mincho (さわらび明朝) is a Japanese font by mshio. With a delicate
   and beautiful design, it is suitable for text and headline usage. It already has
   many hiragana, katakana, ruled lines, and so on, and this version includes 3297
   kanji glyphs. There is also another related family, Sawarabi Gothic. To contribute
-  to the project, visit osdn.net/projects/sawarabi-fonts/
+  to the project, visit github.com/googlefonts/sawarabi-mincho
 homepage: https://fonts.google.com/specimen/Sawarabi+Mincho
 resources:
   ttf_static:
@@ -33,16 +33,16 @@ fonts:
     post_script_name: SawarabiMincho-Regular
     version: 1.082; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2024 The Sawarabi Mincho Project Authors (https://github.com/googlefonts/sawarabi-mincho)
-    font: 8QIRdiDaitzr7brc8ahpxt6GcIJTLahP46UDUw.ttf
+    font: SawarabiMincho-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: 8QIRdiDaitzr7brc8ahpxt6GcIJTLahP46UDUw.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2024 The Sawarabi Mincho Project Authors (https://github.com/googlefonts/sawarabi-mincho)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2024 The Sawarabi Mincho Project Authors (https://github.com/googlefonts/sawarabi-mincho/)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -148,4 +148,9 @@ open_license: "Copyright 2024 The Sawarabi Mincho Project Authors (https://githu
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: sawarabi_mincho

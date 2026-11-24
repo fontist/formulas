@@ -10,7 +10,7 @@ description: 'In 2011 Andrij ''s typeface became a winner of Ukrainian Type Desi
   grace and expressivity. Arsenal''s somewhat lyrical sentiment abides to the Ukrainian
   nature of the font. Main design features: narrow proportions that allow for economical
   type-setting, moderate aperture and observable contrast. Notable traits: neutrality,
-  clarity, swiftness. This is the Small Cap sibling family to the main Arsenal family.'
+  clarity, swiftness. This is the Small Caps sibling family to the main Arsenal family.'
 homepage: https://fonts.google.com/specimen/Arsenal+SC
 resources:
   ttf_static:
@@ -50,9 +50,10 @@ fonts:
     post_script_name: ArsenalSC-Regular
     version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2012 The Arsenal Project Authors (andrij.design@gmail.com)
-    font: x3dlckLHea6e5BEtsfxiXNossybsHQI.ttf
+    font: ArsenalSC-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: x3dlckLHea6e5BEtsfxiXNossybsHQI.ttf
     formats:
     - ttf
     - woff2
@@ -63,9 +64,10 @@ fonts:
     post_script_name: ArsenalSC-Italic
     version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2012 The Arsenal Project Authors (andrij.design@gmail.com)
-    font: x3dnckLHea6e5BEtsfxibNgmtwTpDQIrGg.ttf
+    font: ArsenalSC-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: x3dnckLHea6e5BEtsfxibNgmtwTpDQIrGg.ttf
     formats:
     - ttf
     - woff2
@@ -76,9 +78,10 @@ fonts:
     post_script_name: ArsenalSC-Bold
     version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2012 The Arsenal Project Authors (andrij.design@gmail.com)
-    font: x3dmckLHea6e5BEtsfxiZGYDly7HAQsyA2Y.ttf
+    font: ArsenalSC-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: x3dmckLHea6e5BEtsfxiZGYDly7HAQsyA2Y.ttf
     formats:
     - ttf
     - woff2
@@ -89,16 +92,16 @@ fonts:
     post_script_name: ArsenalSC-BoldItalic
     version: 2.001; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2012 The Arsenal Project Authors (andrij.design@gmail.com)
-    font: x3d4ckLHea6e5BEtsfxibNgeCyvNBSk3E2YljQ.ttf
+    font: ArsenalSC-BoldItalic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: x3d4ckLHea6e5BEtsfxibNgeCyvNBSk3E2YljQ.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2012 The Arsenal Project Authors (andrij.design@gmail.com)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2012 The Arsenal Project Authors (andrij.design@gmail.com)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -204,4 +207,9 @@ open_license: "Copyright 2012 The Arsenal Project Authors (andrij.design@gmail.c
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-05-30'
+  family_id: arsenal_sc

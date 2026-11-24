@@ -58,9 +58,10 @@ fonts:
     post_script_name: CrimsonText-Regular
     version: 1.100; ttfautohint (v1.8.4)
     copyright: Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)
-    font: wlp2gwHKFkZgtmSR3NB0oRJvaAJSA_JN3Q.ttf
+    font: CrimsonText-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: wlp2gwHKFkZgtmSR3NB0oRJvaAJSA_JN3Q.ttf
     formats:
     - ttf
     - woff2
@@ -71,9 +72,10 @@ fonts:
     post_script_name: CrimsonText-Italic
     version: 1.100; ttfautohint (v1.8.4)
     copyright: Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)
-    font: wlpogwHKFkZgtmSR3NB0oRJfaghWIfdd3ahG.ttf
+    font: CrimsonText-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: wlpogwHKFkZgtmSR3NB0oRJfaghWIfdd3ahG.ttf
     formats:
     - ttf
     - woff2
@@ -84,9 +86,10 @@ fonts:
     post_script_name: CrimsonText-Bold
     version: 1.100; ttfautohint (v1.8.4)
     copyright: Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)
-    font: wlppgwHKFkZgtmSR3NB0oRJX1C12C9lR1LFffg.ttf
+    font: CrimsonText-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: wlppgwHKFkZgtmSR3NB0oRJX1C12C9lR1LFffg.ttf
     formats:
     - ttf
     - woff2
@@ -97,9 +100,10 @@ fonts:
     post_script_name: CrimsonText-BoldItalic
     version: 1.100; ttfautohint (v1.8.4)
     copyright: Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)
-    font: wlprgwHKFkZgtmSR3NB0oRJfajDqDtNV9rRPfrKu.ttf
+    font: CrimsonText-BoldItalic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: wlprgwHKFkZgtmSR3NB0oRJfajDqDtNV9rRPfrKu.ttf
     formats:
     - ttf
     - woff2
@@ -112,11 +116,12 @@ fonts:
     post_script_name: CrimsonText-SemiBold
     version: 1.100; ttfautohint (v1.8.4)
     copyright: Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)
-    font: wlppgwHKFkZgtmSR3NB0oRJXsCx2C9lR1LFffg.ttf
+    font: CrimsonText-SemiBold.ttf
     preferred_family_name: Crimson Text
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: wlppgwHKFkZgtmSR3NB0oRJXsCx2C9lR1LFffg.ttf
     formats:
     - ttf
     - woff2
@@ -127,18 +132,18 @@ fonts:
     post_script_name: CrimsonText-SemiBoldItalic
     version: 1.100; ttfautohint (v1.8.4)
     copyright: Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)
-    font: wlprgwHKFkZgtmSR3NB0oRJfajCOD9NV9rRPfrKu.ttf
+    font: CrimsonText-SemiBoldItalic.ttf
     preferred_family_name: Crimson Text
     preferred_type: SemiBold Italic
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: wlprgwHKFkZgtmSR3NB0oRJfajCOD9NV9rRPfrKu.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -244,4 +249,9 @@ open_license: "Copyright 2010 The Crimson Text Project Authors (https://github.c
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-05-30'
+  family_id: crimson_text

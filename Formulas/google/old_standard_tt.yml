@@ -49,9 +49,10 @@ fonts:
     post_script_name: OldStandardTT-Regular
     version: '3.000'
     copyright: Copyright 2011 The Old Standard Project Authors (amkryukov@gmail.com)
-    font: MwQubh3o1vLImiwAVvYawgcf2eVurVC5RHdCZg.ttf
+    font: OldStandardTT-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: MwQubh3o1vLImiwAVvYawgcf2eVurVC5RHdCZg.ttf
     formats:
     - ttf
     - woff2
@@ -62,9 +63,10 @@ fonts:
     post_script_name: OldStandardTT-Italic
     version: '3.000'
     copyright: Copyright 2011 The Old Standard Project Authors (amkryukov@gmail.com)
-    font: MwQsbh3o1vLImiwAVvYawgcf2eVer1q9ZnJSZtQG.ttf
+    font: OldStandardTT-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: MwQsbh3o1vLImiwAVvYawgcf2eVer1q9ZnJSZtQG.ttf
     formats:
     - ttf
     - woff2
@@ -75,16 +77,16 @@ fonts:
     post_script_name: OldStandardTT-Bold
     version: '3.000'
     copyright: Copyright 2011 The Old Standard Project Authors (amkryukov@gmail.com)
-    font: MwQrbh3o1vLImiwAVvYawgcf2eVWEX-dTFxeb80flQ.ttf
+    font: OldStandardTT-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: MwQrbh3o1vLImiwAVvYawgcf2eVWEX-dTFxeb80flQ.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2011 The Old Standard Project Authors (amkryukov@gmail.com)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2011 The Old Standard Project Authors (amkryukov@gmail.com)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -190,4 +192,9 @@ open_license: "Copyright 2011 The Old Standard Project Authors (amkryukov@gmail.
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-11'
+  family_id: old_standard_tt

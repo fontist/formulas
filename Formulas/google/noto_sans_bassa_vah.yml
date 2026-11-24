@@ -10,9 +10,9 @@ resources:
     source: google
     family: Noto Sans Bassa Vah
     files:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosansbassavah/NotoSansBassaVah[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/notosansbassavah/NotoSansBassaVah[wght].ttf
     urls:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosansbassavah/NotoSansBassaVah[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/notosansbassavah/NotoSansBassaVah[wght].ttf
     format: ttf
     variable_axes:
     - wght
@@ -53,9 +53,10 @@ fonts:
     post_script_name: NotoSansBassaVah-Regular
     version: '2.002'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bassa-vah)
-    font: PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4MaAc6p34gH-GD7.ttf
+    font: NotoSansBassaVah-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4MaAc6p34gH-GD7.ttf
     formats:
     - ttf
     - woff2
@@ -67,9 +68,10 @@ fonts:
     post_script_name: NotoSansBassaVah-Bold
     version: '2.002'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bassa-vah)
-    font: PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4P9Bs6p34gH-GD7.ttf
+    font: NotoSansBassaVah-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4P9Bs6p34gH-GD7.ttf
     formats:
     - ttf
     - woff2
@@ -95,11 +97,12 @@ fonts:
     post_script_name: NotoSansBassaVah-Medium
     version: '2.002'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bassa-vah)
-    font: PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4MoAc6p34gH-GD7.ttf
+    font: NotoSansBassaVah-Medium.ttf
     preferred_family_name: Noto Sans Bassa Vah
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4MoAc6p34gH-GD7.ttf
     formats:
     - ttf
     - woff2
@@ -113,11 +116,12 @@ fonts:
     post_script_name: NotoSansBassaVah-SemiBold
     version: '2.002'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bassa-vah)
-    font: PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4PEBs6p34gH-GD7.ttf
+    font: NotoSansBassaVah-SemiBold.ttf
     preferred_family_name: Noto Sans Bassa Vah
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: PN_bRee-r3f7LnqsD5sax12gjZn7mBpL5YwUpA2MBdcFn4PEBs6p34gH-GD7.ttf
     formats:
     - ttf
     - woff2
@@ -125,7 +129,6 @@ fonts:
     source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bassa-vah)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bassa-vah)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -231,4 +234,9 @@ open_license: "Copyright 2022 The Noto Project Authors (https://github.com/notof
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: noto_sans_bassa_vah

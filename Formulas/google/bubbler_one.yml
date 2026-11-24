@@ -4,7 +4,7 @@ schema_version: 5
 description: Bubbler One is an original font with thin strokes that are particularly
   straight. It is a legible typeface in small sizes. You can use Bubbler One for any
   kind of text, formal or informal, big or small; I hope you find it useful! Designed
-  by Brenda Gallo and Gustavo Dipre .
+  by Brenda Gallo and Gustavo Dipre.
 homepage: https://fonts.google.com/specimen/Bubbler+One
 resources:
   ttf_static:
@@ -33,9 +33,10 @@ fonts:
     version: '1.003'
     copyright: Copyright (c) 2011 by Brenda Gallo (gbrenda1987@gmail.com), with Reserved
       Font Name "Bubbler"
-    font: f0Xy0eqj68ppQV9KBLmAouHH26MPePkt.ttf
+    font: BubblerOne-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: f0Xy0eqj68ppQV9KBLmAouHH26MPePkt.ttf
     formats:
     - ttf
     - woff2
@@ -43,7 +44,6 @@ fonts:
 extract: {}
 copyright: Copyright (c) 2011 by Brenda Gallo (gbrenda1987@gmail.com), with Reserved
   Font Name "Bubbler"
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011 by Brenda Gallo (gbrenda1987@gmail.com),\r\nwith Reserved
   Font Name Bubbler.\r\n\r\nThis Font Software is licensed under the SIL Open Font
@@ -157,4 +157,9 @@ open_license: "Copyright (c) 2011 by Brenda Gallo (gbrenda1987@gmail.com),\r\nwi
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: bubbler_one

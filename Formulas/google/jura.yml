@@ -16,9 +16,9 @@ resources:
     source: google
     family: Jura
     files:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/jura/Jura[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/jura/Jura[wght].ttf
     urls:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/jura/Jura[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/jura/Jura[wght].ttf
     format: ttf
     variable_axes:
     - wght
@@ -63,11 +63,12 @@ fonts:
     post_script_name: Jura-Light
     version: '5.106'
     copyright: Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)
-    font: z7NOdRfiaC4Vd8hhoPzfb5vBTP0D7auhTfmrH_rt.ttf
+    font: Jura-Light.ttf
     preferred_family_name: Jura
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: z7NOdRfiaC4Vd8hhoPzfb5vBTP0D7auhTfmrH_rt.ttf
     formats:
     - ttf
     - woff2
@@ -81,9 +82,10 @@ fonts:
     post_script_name: Jura-Regular
     version: '5.106'
     copyright: Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)
-    font: z7NOdRfiaC4Vd8hhoPzfb5vBTP1d7auhTfmrH_rt.ttf
+    font: Jura-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: z7NOdRfiaC4Vd8hhoPzfb5vBTP1d7auhTfmrH_rt.ttf
     formats:
     - ttf
     - woff2
@@ -95,9 +97,10 @@ fonts:
     post_script_name: Jura-Bold
     version: '5.106'
     copyright: Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)
-    font: z7NOdRfiaC4Vd8hhoPzfb5vBTP266quhTfmrH_rt.ttf
+    font: Jura-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: z7NOdRfiaC4Vd8hhoPzfb5vBTP266quhTfmrH_rt.ttf
     formats:
     - ttf
     - woff2
@@ -123,11 +126,12 @@ fonts:
     post_script_name: Jura-Medium
     version: '5.106'
     copyright: Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)
-    font: z7NOdRfiaC4Vd8hhoPzfb5vBTP1v7auhTfmrH_rt.ttf
+    font: Jura-Medium.ttf
     preferred_family_name: Jura
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: z7NOdRfiaC4Vd8hhoPzfb5vBTP1v7auhTfmrH_rt.ttf
     formats:
     - ttf
     - woff2
@@ -141,11 +145,12 @@ fonts:
     post_script_name: Jura-SemiBold
     version: '5.106'
     copyright: Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)
-    font: z7NOdRfiaC4Vd8hhoPzfb5vBTP2D6quhTfmrH_rt.ttf
+    font: Jura-SemiBold.ttf
     preferred_family_name: Jura
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: z7NOdRfiaC4Vd8hhoPzfb5vBTP2D6quhTfmrH_rt.ttf
     formats:
     - ttf
     - woff2
@@ -153,7 +158,6 @@ fonts:
     source_resource: ttf_static
 extract: {}
 copyright: Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2019 The Jura Project Authors (https://github.com/ossobuffo/jura)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -259,4 +263,9 @@ open_license: "Copyright 2019 The Jura Project Authors (https://github.com/ossob
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: jura

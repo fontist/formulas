@@ -41,9 +41,10 @@ fonts:
     version: 1.002;PS 001.002;hotconv 1.0.56;makeotf.lib2.0.21325
     copyright: Copyright © 2012 Natanael Gama (info@ndiscovered.com), with Reserved
       Font Name 'Cinzel'
-    font: daaCSScvJGqLYhG8nNt8KPPswUAPnh7URs1LaCyC.ttf
+    font: CinzelDecorative-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: daaCSScvJGqLYhG8nNt8KPPswUAPnh7URs1LaCyC.ttf
     formats:
     - ttf
     - woff2
@@ -55,9 +56,10 @@ fonts:
     version: 1.002;PS 001.002;hotconv 1.0.56;makeotf.lib2.0.21325
     copyright: Copyright © 2012 Natanael Gama (info@ndiscovered.com), with Reserved
       Font Name 'Cinzel'
-    font: daaHSScvJGqLYhG8nNt8KPPswUAPniZoaelDQzCLlQXE.ttf
+    font: CinzelDecorative-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: daaHSScvJGqLYhG8nNt8KPPswUAPniZoaelDQzCLlQXE.ttf
     formats:
     - ttf
     - woff2
@@ -71,11 +73,12 @@ fonts:
     version: 1.002;PS 001.002;hotconv 1.0.56;makeotf.lib2.0.21325
     copyright: Copyright © 2012 Natanael Gama (info@ndiscovered.com), with Reserved
       Font Name 'Cinzel'
-    font: daaHSScvJGqLYhG8nNt8KPPswUAPniZQa-lDQzCLlQXE.ttf
+    font: CinzelDecorative-Black.ttf
     preferred_family_name: Cinzel Decorative
     preferred_type: Black
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: daaHSScvJGqLYhG8nNt8KPPswUAPniZQa-lDQzCLlQXE.ttf
     formats:
     - ttf
     - woff2
@@ -83,7 +86,6 @@ fonts:
 extract: {}
 copyright: Copyright © 2012 Natanael Gama (info@ndiscovered.com), with Reserved Font
   Name 'Cinzel'
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2012 Natanael Gama (info@ndiscovered.com), with Reserved Font
   Name 'Cinzel'\n\nThis Font Software is licensed under the SIL Open Font License,
@@ -189,4 +191,9 @@ open_license: "Copyright (c) 2012 Natanael Gama (info@ndiscovered.com), with Res
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: cinzel_decorative

@@ -56,7 +56,7 @@ fonts:
     post_script_name: Andika
     version: '6.101'
     copyright: Copyright (c) 2004-2022 SIL International
-    font: mem_Ya6iyW-LwqgAbbwRWrwGVA.ttf
+    font: Andika.ttf
     description: |-
       Copyright (c) 2004-2022 SIL International (http://www.sil.org/) with Reserved Font Names "Andika" and "SIL".
 
@@ -101,6 +101,7 @@ fonts:
 
       DISCLAIMER
       THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+    source_font: mem_Ya6iyW-LwqgAbbwRWrwGVA.ttf
     formats:
     - ttf
     - woff2
@@ -111,7 +112,7 @@ fonts:
     post_script_name: Andika-Italic
     version: '6.101'
     copyright: Copyright (c) 2004-2022 SIL International
-    font: mem9Ya6iyW-Lwqgwb7YVeLkWVNBt.ttf
+    font: Andika-Italic.ttf
     description: |-
       Copyright (c) 2004-2022 SIL International (http://www.sil.org/) with Reserved Font Names "Andika" and "SIL".
 
@@ -156,6 +157,7 @@ fonts:
 
       DISCLAIMER
       THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+    source_font: mem9Ya6iyW-Lwqgwb7YVeLkWVNBt.ttf
     formats:
     - ttf
     - woff2
@@ -166,7 +168,7 @@ fonts:
     post_script_name: Andika-Bold
     version: '6.101'
     copyright: Copyright (c) 2004-2022 SIL International
-    font: mem8Ya6iyW-Lwqg40ZM1UpcaXcl0Aw.ttf
+    font: Andika-Bold.ttf
     description: |-
       Copyright (c) 2004-2022 SIL International (http://www.sil.org/) with Reserved Font Names "Andika" and "SIL".
 
@@ -211,6 +213,7 @@ fonts:
 
       DISCLAIMER
       THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+    source_font: mem8Ya6iyW-Lwqg40ZM1UpcaXcl0Aw.ttf
     formats:
     - ttf
     - woff2
@@ -221,7 +224,7 @@ fonts:
     post_script_name: Andika-BoldItalic
     version: '6.101'
     copyright: Copyright (c) 2004-2022 SIL International
-    font: mem6Ya6iyW-Lwqgwb46pV50ef8xkA76a.ttf
+    font: Andika-BoldItalic.ttf
     description: |-
       Copyright (c) 2004-2022 SIL International (http://www.sil.org/) with Reserved Font Names "Andika" and "SIL".
 
@@ -266,13 +269,13 @@ fonts:
 
       DISCLAIMER
       THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+    source_font: mem6Ya6iyW-Lwqgwb46pV50ef8xkA76a.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2004-2022 SIL International
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2004-2022 SIL International  (http://www.sil.org/)\r\nwith
   Reserved Font Names \"Andika\" and \"SIL\".\r\n\r\nThis Font Software is licensed
@@ -386,4 +389,9 @@ open_license: "Copyright (c) 2004-2022 SIL International  (http://www.sil.org/)\
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: andika

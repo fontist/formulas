@@ -15,17 +15,17 @@ resources:
     source: google
     family: Kurale
     files:
-    - https://fonts.gstatic.com/s/kurale/v14/4iCs6KV9e9dXjho6eAT3v02QFg.ttf
+    - https://fonts.gstatic.com/s/kurale/v16/4iCs6KV9e9dXjho6eAT3v02QFg.ttf
     urls:
-    - https://fonts.gstatic.com/s/kurale/v14/4iCs6KV9e9dXjho6eAT3v02QFg.ttf
+    - https://fonts.gstatic.com/s/kurale/v16/4iCs6KV9e9dXjho6eAT3v02QFg.ttf
     format: ttf
   woff2_static:
     source: google
     family: Kurale
     files:
-    - https://fonts.gstatic.com/s/kurale/v14/4iCs6KV9e9dXjho6fQT3v02QFg.woff2
+    - https://fonts.gstatic.com/s/kurale/v16/4iCs6KV9e9dXjho6fQT3v02QFg.woff2
     urls:
-    - https://fonts.gstatic.com/s/kurale/v14/4iCs6KV9e9dXjho6fQT3v02QFg.woff2
+    - https://fonts.gstatic.com/s/kurale/v16/4iCs6KV9e9dXjho6fQT3v02QFg.woff2
     format: woff2
 fonts:
 - name: Kurale
@@ -34,18 +34,18 @@ fonts:
     type: Regular
     full_name: Kurale Regular
     post_script_name: Kurale-Regular
-    version: '2.000'
+    version: 2.000; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2013 The Kurale Project Authors (edu@tipo.net.ar)
-    font: 4iCs6KV9e9dXjho6eAT3v02QFg.ttf
+    font: Kurale-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
-      Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: 4iCs6KV9e9dXjho6eAT3v02QFg.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2013 The Kurale Project Authors (edu@tipo.net.ar)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2013 The Kurale Project Authors (edu@tipo.net.ar)\n\nThis Font
   Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -151,4 +151,9 @@ open_license: "Copyright 2013 The Kurale Project Authors (edu@tipo.net.ar)\n\nTh
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2026-03-11'
+  family_id: kurale

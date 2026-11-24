@@ -16,9 +16,9 @@ resources:
     source: google
     family: Eczar
     files:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/eczar/Eczar[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/eczar/Eczar[wght].ttf
     urls:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/eczar/Eczar[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/eczar/Eczar[wght].ttf
     format: ttf
     variable_axes:
     - wght
@@ -63,9 +63,10 @@ fonts:
     post_script_name: Eczar-Regular
     version: '2.000'
     copyright: Copyright 2014 The Eczar Project Authors (https://github.com/rosettatype/eczar)
-    font: BXR2vF3Pi-DLmxcpJB-qbNTyTMDXHd6WqTIVKWJKWg.ttf
+    font: Eczar-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: BXR2vF3Pi-DLmxcpJB-qbNTyTMDXHd6WqTIVKWJKWg.ttf
     formats:
     - ttf
     - woff2
@@ -77,9 +78,10 @@ fonts:
     post_script_name: Eczar-Bold
     version: '2.000'
     copyright: Copyright 2014 The Eczar Project Authors (https://github.com/rosettatype/eczar)
-    font: BXR2vF3Pi-DLmxcpJB-qbNTyTMDX-tmWqTIVKWJKWg.ttf
+    font: Eczar-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: BXR2vF3Pi-DLmxcpJB-qbNTyTMDX-tmWqTIVKWJKWg.ttf
     formats:
     - ttf
     - woff2
@@ -105,11 +107,12 @@ fonts:
     post_script_name: Eczar-Medium
     version: '2.000'
     copyright: Copyright 2014 The Eczar Project Authors (https://github.com/rosettatype/eczar)
-    font: BXR2vF3Pi-DLmxcpJB-qbNTyTMDXL96WqTIVKWJKWg.ttf
+    font: Eczar-Medium.ttf
     preferred_family_name: Eczar
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: BXR2vF3Pi-DLmxcpJB-qbNTyTMDXL96WqTIVKWJKWg.ttf
     formats:
     - ttf
     - woff2
@@ -123,11 +126,12 @@ fonts:
     post_script_name: Eczar-SemiBold
     version: '2.000'
     copyright: Copyright 2014 The Eczar Project Authors (https://github.com/rosettatype/eczar)
-    font: BXR2vF3Pi-DLmxcpJB-qbNTyTMDXw9mWqTIVKWJKWg.ttf
+    font: Eczar-SemiBold.ttf
     preferred_family_name: Eczar
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: BXR2vF3Pi-DLmxcpJB-qbNTyTMDXw9mWqTIVKWJKWg.ttf
     formats:
     - ttf
     - woff2
@@ -141,11 +145,12 @@ fonts:
     post_script_name: Eczar-ExtraBold
     version: '2.000'
     copyright: Copyright 2014 The Eczar Project Authors (https://github.com/rosettatype/eczar)
-    font: BXR2vF3Pi-DLmxcpJB-qbNTyTMDXndmWqTIVKWJKWg.ttf
+    font: Eczar-ExtraBold.ttf
     preferred_family_name: Eczar
     preferred_type: ExtraBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: BXR2vF3Pi-DLmxcpJB-qbNTyTMDXndmWqTIVKWJKWg.ttf
     formats:
     - ttf
     - woff2
@@ -153,7 +158,6 @@ fonts:
     source_resource: ttf_static
 extract: {}
 copyright: Copyright 2014 The Eczar Project Authors (https://github.com/rosettatype/eczar)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2014 The Eczar Project Authors (https://github.com/rosettatype/eczar)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -259,4 +263,9 @@ open_license: "Copyright 2014 The Eczar Project Authors (https://github.com/rose
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: eczar

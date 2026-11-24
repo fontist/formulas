@@ -70,11 +70,12 @@ fonts:
     version: 1.001;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.5.33-1714)
       -l 8 -r 50 -G 200 -x 13 -D latn -f beng -w G -W -c -X ""
     copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-    font: ijwOs5juQtsyLLR5jN4cxBEoRDf44uEfKiGvxts.ttf
+    font: HindSiliguri-Light.ttf
     preferred_family_name: Hind Siliguri
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: ijwOs5juQtsyLLR5jN4cxBEoRDf44uEfKiGvxts.ttf
     formats:
     - ttf
     - woff2
@@ -88,9 +89,10 @@ fonts:
     version: 1.001;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.5.33-1714)
       -l 8 -r 50 -G 200 -x 13 -D latn -f beng -w G -W -c -X ""
     copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-    font: ijwTs5juQtsyLLR5jN4cxBEofJvQxuk0Nig.ttf
+    font: HindSiliguri-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: ijwTs5juQtsyLLR5jN4cxBEofJvQxuk0Nig.ttf
     formats:
     - ttf
     - woff2
@@ -102,9 +104,10 @@ fonts:
     version: 1.001;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.5.33-1714)
       -l 8 -r 50 -G 200 -x 13 -D latn -f beng -w G -W -c -X ""
     copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-    font: ijwOs5juQtsyLLR5jN4cxBEoRCf_4uEfKiGvxts.ttf
+    font: HindSiliguri-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: ijwOs5juQtsyLLR5jN4cxBEoRCf_4uEfKiGvxts.ttf
     formats:
     - ttf
     - woff2
@@ -118,11 +121,12 @@ fonts:
     version: 1.001;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.5.33-1714)
       -l 8 -r 50 -G 200 -x 13 -D latn -f beng -w G -W -c -X ""
     copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-    font: ijwOs5juQtsyLLR5jN4cxBEoRG_54uEfKiGvxts.ttf
+    font: HindSiliguri-Medium.ttf
     preferred_family_name: Hind Siliguri
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: ijwOs5juQtsyLLR5jN4cxBEoRG_54uEfKiGvxts.ttf
     formats:
     - ttf
     - woff2
@@ -136,18 +140,18 @@ fonts:
     version: 1.001;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.5.33-1714)
       -l 8 -r 50 -G 200 -x 13 -D latn -f beng -w G -W -c -X ""
     copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-    font: ijwOs5juQtsyLLR5jN4cxBEoREP-4uEfKiGvxts.ttf
+    font: HindSiliguri-SemiBold.ttf
     preferred_family_name: Hind Siliguri
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: ijwOs5juQtsyLLR5jN4cxBEoREP-4uEfKiGvxts.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -253,4 +257,9 @@ open_license: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.co
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: hind_siliguri

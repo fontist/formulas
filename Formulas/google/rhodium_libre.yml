@@ -41,16 +41,16 @@ fonts:
     post_script_name: RhodiumLibre-Regular
     version: 1.001; ttfautohint (v1.3)
     copyright: Copyright © 2015 by James Puckett. All rights reserved.
-    font: 1q2AY5adA0tn_ukeHcQHqpx6pETLeo2gm2U.ttf
+    font: RhodiumLibre-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: 1q2AY5adA0tn_ukeHcQHqpx6pETLeo2gm2U.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright © 2015 by James Puckett. All rights reserved.
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2014, Dunwich Type Founders (http://dunwichtype.com). Rhodium
   is a trademark of Dunwich Type Founders.\r\n\r\nThis Font Software is licensed under
@@ -164,4 +164,9 @@ open_license: "Copyright (c) 2014, Dunwich Type Founders (http://dunwichtype.com
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-02'
+  family_id: rhodium_libre

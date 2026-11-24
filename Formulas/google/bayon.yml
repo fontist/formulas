@@ -30,16 +30,16 @@ fonts:
     post_script_name: Bayon-Regular
     version: 8.001; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Bayon Project Authors (https://github.com/danhhong/Bayon)
-    font: 9XUrlJNmn0LPFl-pOhYEd2NJ.ttf
+    font: Bayon-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: 9XUrlJNmn0LPFl-pOhYEd2NJ.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2019 The Bayon Project Authors (https://github.com/danhhong/Bayon)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2019 The Bayon Project Authors (https://github.com/danhhong/Bayon)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -145,4 +145,9 @@ open_license: "Copyright 2019 The Bayon Project Authors (https://github.com/danh
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-11'
+  family_id: bayon

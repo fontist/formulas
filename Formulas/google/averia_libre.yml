@@ -55,12 +55,13 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name
       'Averia' and 'Averia Libre'.
-    font: 2V0FKIcMGZEnV6xygz7eNjEarovtb07t-pQgTw.ttf
+    font: AveriaLibre-Light.ttf
     preferred_family_name: Averia Libre
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is copied below, and is also available with a FAQ
       at: http://scripts.sil.org/OFL'
+    source_font: 2V0FKIcMGZEnV6xygz7eNjEarovtb07t-pQgTw.ttf
     formats:
     - ttf
     - woff2
@@ -72,12 +73,13 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name
       'Averia' and 'Averia Libre'.
-    font: 2V0HKIcMGZEnV6xygz7eNjESAJFhbUTp2JEwT4Sk.ttf
+    font: AveriaLibre-LightItalic.ttf
     preferred_family_name: Averia Libre
     preferred_type: Light Italic
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is copied below, and is also available with a FAQ
       at: http://scripts.sil.org/OFL'
+    source_font: 2V0HKIcMGZEnV6xygz7eNjESAJFhbUTp2JEwT4Sk.ttf
     formats:
     - ttf
     - woff2
@@ -91,10 +93,11 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name
       'Averia' and 'Averia Libre'.
-    font: 2V0aKIcMGZEnV6xygz7eNjEiAqPJZ2Xx8w.ttf
+    font: AveriaLibre-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is copied below, and is also available with a FAQ
       at: http://scripts.sil.org/OFL'
+    source_font: 2V0aKIcMGZEnV6xygz7eNjEiAqPJZ2Xx8w.ttf
     formats:
     - ttf
     - woff2
@@ -106,10 +109,11 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name
       'Averia' and 'Averia Libre'.
-    font: 2V0EKIcMGZEnV6xygz7eNjESAKnNRWDh8405.ttf
+    font: AveriaLibre-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is copied below, and is also available with a FAQ
       at: http://scripts.sil.org/OFL'
+    source_font: 2V0EKIcMGZEnV6xygz7eNjESAKnNRWDh8405.ttf
     formats:
     - ttf
     - woff2
@@ -120,10 +124,11 @@ fonts:
     post_script_name: AveriaLibre-Bold
     version: '1.002'
     copyright: 2011, Dan Sayers (i@iotic.com
-    font: 2V0FKIcMGZEnV6xygz7eNjEavoztb07t-pQgTw.ttf
+    font: AveriaLibre-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is copied below, and is also available with a FAQ
       at: http://scripts.sil.org/OFL'
+    source_font: 2V0FKIcMGZEnV6xygz7eNjEavoztb07t-pQgTw.ttf
     formats:
     - ttf
     - woff2
@@ -134,10 +139,11 @@ fonts:
     post_script_name: AveriaLibre-BoldItalic
     version: '1.002'
     copyright: 2011, Dan Sayers (i@iotic.com
-    font: 2V0HKIcMGZEnV6xygz7eNjESAJFxakTp2JEwT4Sk.ttf
+    font: AveriaLibre-BoldItalic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is copied below, and is also available with a FAQ
       at: http://scripts.sil.org/OFL'
+    source_font: 2V0HKIcMGZEnV6xygz7eNjESAJFxakTp2JEwT4Sk.ttf
     formats:
     - ttf
     - woff2
@@ -145,7 +151,6 @@ fonts:
 extract: {}
 copyright: Copyright (c) 2011, Dan Sayers (i@iotic.com), with Reserved Font Name 'Averia'
   and 'Averia Libre'.
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011, Dan Sayers (i@iotic.com),\nwith Reserved Font Name 'Averia'
   and 'Averia Libre'.\n\nThis Font Software is licensed under the SIL Open Font License,
@@ -252,4 +257,9 @@ open_license: "Copyright (c) 2011, Dan Sayers (i@iotic.com),\nwith Reserved Font
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-05-30'
+  family_id: averia_libre

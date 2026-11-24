@@ -55,11 +55,12 @@ fonts:
     post_script_name: InriaSerif-Light
     version: 1.000; ttfautohint (v1.8.3)
     copyright: Copyright 2017 The Inria Serif Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
-    font: fC14PYxPY3rXxEndZJAzN3wAVQjFhFyta3xN.ttf
+    font: InriaSerif-Light.ttf
     preferred_family_name: Inria Serif
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: fC14PYxPY3rXxEndZJAzN3wAVQjFhFyta3xN.ttf
     formats:
     - ttf
     - woff2
@@ -70,11 +71,12 @@ fonts:
     post_script_name: InriaSerif-LightItalic
     version: 1.000; ttfautohint (v1.8.3)
     copyright: Copyright 2017 The Inria Serif Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
-    font: fC16PYxPY3rXxEndZJAzN3SuT4THjliPbmxN0_E.ttf
+    font: InriaSerif-LightItalic.ttf
     preferred_family_name: Inria Serif
     preferred_type: Light Italic
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: fC16PYxPY3rXxEndZJAzN3SuT4THjliPbmxN0_E.ttf
     formats:
     - ttf
     - woff2
@@ -87,9 +89,10 @@ fonts:
     post_script_name: InriaSerif-Regular
     version: 1.000; ttfautohint (v1.8.3)
     copyright: Copyright 2017 The Inria Serif Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
-    font: fC1lPYxPY3rXxEndZJAzN0SsfSzNr0Ck.ttf
+    font: InriaSerif-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: fC1lPYxPY3rXxEndZJAzN0SsfSzNr0Ck.ttf
     formats:
     - ttf
     - woff2
@@ -100,9 +103,10 @@ fonts:
     post_script_name: InriaSerif-Italic
     version: 1.000; ttfautohint (v1.8.3)
     copyright: Copyright 2017 The Inria Serif Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
-    font: fC1nPYxPY3rXxEndZJAzN3SudyjvqlCkcmU.ttf
+    font: InriaSerif-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: fC1nPYxPY3rXxEndZJAzN3SudyjvqlCkcmU.ttf
     formats:
     - ttf
     - woff2
@@ -113,9 +117,10 @@ fonts:
     post_script_name: InriaSerif-Bold
     version: 1.000; ttfautohint (v1.8.3)
     copyright: Copyright 2017 The Inria Serif Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
-    font: fC14PYxPY3rXxEndZJAzN3wQUgjFhFyta3xN.ttf
+    font: InriaSerif-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: fC14PYxPY3rXxEndZJAzN3wQUgjFhFyta3xN.ttf
     formats:
     - ttf
     - woff2
@@ -126,16 +131,16 @@ fonts:
     post_script_name: InriaSerif-BoldItalic
     version: 1.000; ttfautohint (v1.8.3)
     copyright: Copyright 2017 The Inria Serif Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
-    font: fC16PYxPY3rXxEndZJAzN3SuT5TAjliPbmxN0_E.ttf
+    font: InriaSerif-BoldItalic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: fC16PYxPY3rXxEndZJAzN3SuT5TAjliPbmxN0_E.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2017 The Inria Serif Project Authors (https://github.com/BlackFoundryCom/InriaFonts)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2017 The Inria Serif Project Authors (https://github.com/BlackFoundryCom/InriaFonts)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -241,4 +246,9 @@ open_license: "Copyright 2017 The Inria Serif Project Authors (https://github.co
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-11'
+  family_id: inria_serif

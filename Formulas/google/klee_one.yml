@@ -10,21 +10,21 @@ resources:
     source: google
     family: Klee One
     files:
-    - https://fonts.gstatic.com/s/kleeone/v13/LDIxapCLNRc6A8oT4q4AOeekWPrP.ttf
-    - https://fonts.gstatic.com/s/kleeone/v13/LDI2apCLNRc6A8oT4pbYF8Osc-bGkqIw.ttf
+    - https://fonts.gstatic.com/s/kleeone/v14/LDIxapCLNRc6A8oT4q4AOeekWPrP.ttf
+    - https://fonts.gstatic.com/s/kleeone/v14/LDI2apCLNRc6A8oT4pbYF8Osc-bGkqIw.ttf
     urls:
-    - https://fonts.gstatic.com/s/kleeone/v13/LDIxapCLNRc6A8oT4q4AOeekWPrP.ttf
-    - https://fonts.gstatic.com/s/kleeone/v13/LDI2apCLNRc6A8oT4pbYF8Osc-bGkqIw.ttf
+    - https://fonts.gstatic.com/s/kleeone/v14/LDIxapCLNRc6A8oT4q4AOeekWPrP.ttf
+    - https://fonts.gstatic.com/s/kleeone/v14/LDI2apCLNRc6A8oT4pbYF8Osc-bGkqIw.ttf
     format: ttf
   woff2_static:
     source: google
     family: Klee One
     files:
-    - https://fonts.gstatic.com/s/kleeone/v13/LDIxapCLNRc6A8oT4q4FOeekWPrP.woff2
-    - https://fonts.gstatic.com/s/kleeone/v13/LDI2apCLNRc6A8oT4pbYF8Opc-bGkqIw.woff2
+    - https://fonts.gstatic.com/s/kleeone/v14/LDIxapCLNRc6A8oT4q4FOeekWPrP.woff2
+    - https://fonts.gstatic.com/s/kleeone/v14/LDI2apCLNRc6A8oT4pbYF8Opc-bGkqIw.woff2
     urls:
-    - https://fonts.gstatic.com/s/kleeone/v13/LDIxapCLNRc6A8oT4q4FOeekWPrP.woff2
-    - https://fonts.gstatic.com/s/kleeone/v13/LDI2apCLNRc6A8oT4pbYF8Opc-bGkqIw.woff2
+    - https://fonts.gstatic.com/s/kleeone/v14/LDIxapCLNRc6A8oT4q4FOeekWPrP.woff2
+    - https://fonts.gstatic.com/s/kleeone/v14/LDI2apCLNRc6A8oT4pbYF8Opc-bGkqIw.woff2
     format: woff2
 fonts:
 - name: Klee One
@@ -35,9 +35,10 @@ fonts:
     post_script_name: KleeOne-Regular
     version: '1.100'
     copyright: Copyright 2020 The Klee Project Authors (https://github.com/fontworks-fonts/Klee)
-    font: LDIxapCLNRc6A8oT4q4AOeekWPrP.ttf
+    font: KleeOne-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: LDIxapCLNRc6A8oT4q4AOeekWPrP.ttf
     formats:
     - ttf
     - woff2
@@ -50,18 +51,18 @@ fonts:
     post_script_name: KleeOne-SemiBold
     version: '1.100'
     copyright: Copyright 2020 The Klee Project Authors (https://github.com/fontworks-fonts/Klee)
-    font: LDI2apCLNRc6A8oT4pbYF8Osc-bGkqIw.ttf
+    font: KleeOne-SemiBold.ttf
     preferred_family_name: Klee One
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: LDI2apCLNRc6A8oT4pbYF8Osc-bGkqIw.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2020 The Klee Project Authors (https://github.com/fontworks-fonts/Klee)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2020 The Klee Project Authors (https://github.com/fontworks-fonts/Klee)\r\n\r\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis
@@ -173,4 +174,9 @@ open_license: "Copyright 2020 The Klee Project Authors (https://github.com/fontw
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2026-10-01'
+  family_id: klee_one

@@ -61,7 +61,7 @@ fonts:
     version: 2.0a
     copyright: Copyright 1999-2010 Ben Weiner. Licensed under the Open Font License
       v1.1 (http://scripts.sil.org/OFL)
-    font: 845YNMgkAJ2VTtIo9JrwRdaI50M.ttf
+    font: Puritan-Regular.ttf
     description: "Copyright (c) 1999-2010 Ben Weiner (ben@readingtype.org.uk),\nwith
       Reserved Font Name Puritan\n\nThis Font Software is licensed under the SIL Open
       Font License, Version 1.1.\nThis license is copied below, and is also available
@@ -118,6 +118,7 @@ fonts:
       INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT,
       TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT
       SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
+    source_font: 845YNMgkAJ2VTtIo9JrwRdaI50M.ttf
     formats:
     - ttf
     - woff2
@@ -129,7 +130,7 @@ fonts:
     version: 2.0a
     copyright: Copyright 1999-2010 Ben Weiner. Licensed under the Open Font License
       v1.1 (http://scripts.sil.org/OFL)
-    font: 845aNMgkAJ2VTtIoxJj6QfSN90PfXA.ttf
+    font: Puritan-Italic.ttf
     description: "Copyright (c) 1999-2010 Ben Weiner (ben@readingtype.org.uk),\nwith
       Reserved Font Name Puritan\n\nThis Font Software is licensed under the SIL Open
       Font License, Version 1.1.\nThis license is copied below, and is also available
@@ -186,6 +187,7 @@ fonts:
       INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT,
       TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT
       SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
+    source_font: 845aNMgkAJ2VTtIoxJj6QfSN90PfXA.ttf
     formats:
     - ttf
     - woff2
@@ -197,7 +199,7 @@ fonts:
     version: '2.1'
     copyright: Copyright 1999-2010 Ben Weiner. Licensed under the Open Font License
       v1.1 (http://scripts.sil.org/OFL)
-    font: 845dNMgkAJ2VTtIozCbfYd6j-0rGRes.ttf
+    font: Puritan-Bold.ttf
     description: "Copyright (c) 1999-2010 Ben Weiner (ben@readingtype.org.uk),\nwith
       Reserved Font Name Puritan\n\nThis Font Software is licensed under the SIL Open
       Font License, Version 1.1.\nThis license is copied below, and is also available
@@ -254,6 +256,7 @@ fonts:
       INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT,
       TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT
       SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
+    source_font: 845dNMgkAJ2VTtIozCbfYd6j-0rGRes.ttf
     formats:
     - ttf
     - woff2
@@ -265,7 +268,7 @@ fonts:
     version: '2.1'
     copyright: Copyright 1999-2010 Ben Weiner. Licensed under the Open Font License
       v1.1 (http://scripts.sil.org/OFL)
-    font: 845fNMgkAJ2VTtIoxJjC_dup_2jDVevnLQ.ttf
+    font: Puritan-BoldItalic.ttf
     description: "Copyright (c) 1999-2010 Ben Weiner (ben@readingtype.org.uk),\nwith
       Reserved Font Name Puritan\n\nThis Font Software is licensed under the SIL Open
       Font License, Version 1.1.\nThis license is copied below, and is also available
@@ -322,6 +325,7 @@ fonts:
       INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT,
       TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT
       SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
+    source_font: 845fNMgkAJ2VTtIoxJjC_dup_2jDVevnLQ.ttf
     formats:
     - ttf
     - woff2
@@ -329,7 +333,6 @@ fonts:
 extract: {}
 copyright: Copyright 1999-2010 Ben Weiner. Licensed under the Open Font License v1.1
   (http://scripts.sil.org/OFL)
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 1999-2010 Ben Weiner (ben@readingtype.org.uk),\nwith Reserved
   Font Name Puritan\n\nThis Font Software is licensed under the SIL Open Font License,
@@ -436,4 +439,9 @@ open_license: "Copyright (c) 1999-2010 Ben Weiner (ben@readingtype.org.uk),\nwit
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: puritan

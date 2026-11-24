@@ -60,11 +60,12 @@ fonts:
     version: '1.560'
     copyright: Copyright 2010 The Neuton Project Authors (http://www.21326.info/),
       with Reserved Font Name "Neuton".
-    font: UMBQrPtMoH62xUZKAKkfegD5Drog6Q.ttf
+    font: Neuton-ExtraLight.ttf
     preferred_family_name: Neuton
     preferred_type: ExtraLight
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: UMBQrPtMoH62xUZKAKkfegD5Drog6Q.ttf
     formats:
     - ttf
     - woff2
@@ -78,11 +79,12 @@ fonts:
     version: '1.560'
     copyright: Copyright 2010 The Neuton Project Authors (http://www.21326.info/),
       with Reserved Font Name "Neuton".
-    font: UMBQrPtMoH62xUZKZKofegD5Drog6Q.ttf
+    font: Neuton-Light.ttf
     preferred_family_name: Neuton
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: UMBQrPtMoH62xUZKZKofegD5Drog6Q.ttf
     formats:
     - ttf
     - woff2
@@ -96,9 +98,10 @@ fonts:
     version: '1.560'
     copyright: Copyright 2010 The Neuton Project Authors (http://www.21326.info/),
       with Reserved Font Name "Neuton".
-    font: UMBTrPtMoH62xUZyyII7civlBw.ttf
+    font: Neuton-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: UMBTrPtMoH62xUZyyII7civlBw.ttf
     formats:
     - ttf
     - woff2
@@ -110,9 +113,10 @@ fonts:
     version: '1.560'
     copyright: Copyright 2010 The Neuton Project Authors (http://www.21326.info/),
       with Reserved Font Name "Neuton".
-    font: UMBRrPtMoH62xUZCyog_UC71B6M5.ttf
+    font: Neuton-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: UMBRrPtMoH62xUZCyog_UC71B6M5.ttf
     formats:
     - ttf
     - woff2
@@ -124,9 +128,10 @@ fonts:
     version: '1.560'
     copyright: Copyright 2010 The Neuton Project Authors (http://www.21326.info/),
       with Reserved Font Name "Neuton".
-    font: UMBQrPtMoH62xUZKdK0fegD5Drog6Q.ttf
+    font: Neuton-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: UMBQrPtMoH62xUZKdK0fegD5Drog6Q.ttf
     formats:
     - ttf
     - woff2
@@ -140,11 +145,12 @@ fonts:
     version: '1.560'
     copyright: Copyright 2010 The Neuton Project Authors (http://www.21326.info/),
       with Reserved Font Name "Neuton".
-    font: UMBQrPtMoH62xUZKaK4fegD5Drog6Q.ttf
+    font: Neuton-ExtraBold.ttf
     preferred_family_name: Neuton
     preferred_type: ExtraBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: UMBQrPtMoH62xUZKaK4fegD5Drog6Q.ttf
     formats:
     - ttf
     - woff2
@@ -152,7 +158,6 @@ fonts:
 extract: {}
 copyright: Copyright 2010 The Neuton Project Authors (http://www.21326.info/), with
   Reserved Font Name "Neuton".
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2010 The Neuton Project Authors (http://www.21326.info/), with
   Reserved Font Name \"Neuton\".\n\nThis Font Software is licensed under the SIL Open
@@ -260,4 +265,9 @@ open_license: "Copyright 2010 The Neuton Project Authors (http://www.21326.info/
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: neuton
