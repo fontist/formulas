@@ -49,16 +49,16 @@ fonts:
     post_script_name: AmiriQuran-Regular
     version: '1.003'
     copyright: Copyright 2010-2022 The Amiri Project Authors (https://github.com/aliftype/amiri).
-    font: _Xmo-Hk0rD6DbUL4_vH8Zq5t7Cycsu-2.ttf
+    font: AmiriQuran-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: _Xmo-Hk0rD6DbUL4_vH8Zq5t7Cycsu-2.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2010-2022 The Amiri Project Authors (https://github.com/aliftype/amiri).
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2010-2022 The Amiri Quran Project Authors (https://github.com/aliftype/amiri).\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -164,4 +164,9 @@ open_license: "Copyright 2010-2022 The Amiri Quran Project Authors (https://gith
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-08-26'
+  family_id: amiri_quran

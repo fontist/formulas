@@ -39,16 +39,16 @@ fonts:
     post_script_name: ReemKufiInk-Regular
     version: '1.899'
     copyright: Copyright 2015-2022 The Reem Kufi Project Authors (https://github.com/aliftype/reem-kufi).
-    font: oPWJ_kJmmu8hCvB9iFumxZSnRj5dQnSX1ko.ttf
+    font: ReemKufiInk-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: oPWJ_kJmmu8hCvB9iFumxZSnRj5dQnSX1ko.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2015-2022 The Reem Kufi Project Authors (https://github.com/aliftype/reem-kufi).
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2015-2022 The Reem Kufi Project Authors (https://github.com/aliftype/reem-kufi),
   with Reserved Font Name \"Josefin Sans\".\n\nThis Font Software is licensed under
@@ -156,4 +156,9 @@ open_license: "Copyright 2015-2022 The Reem Kufi Project Authors (https://github
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-06-25'
+  family_id: reem_kufi_ink

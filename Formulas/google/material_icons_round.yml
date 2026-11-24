@@ -11,7 +11,7 @@ resources:
     - https://fonts.gstatic.com/s/materialiconsround/v109/LDItaoyNOAY6Uewc665JcIzCKsKc_M9flwmMq_fTTvg-.otf
     urls:
     - https://fonts.gstatic.com/s/materialiconsround/v109/LDItaoyNOAY6Uewc665JcIzCKsKc_M9flwmMq_fTTvg-.otf
-    format: ttf
+    format: otf
   woff2_static:
     source: google
     family: Material Icons Round
@@ -29,15 +29,20 @@ fonts:
     post_script_name: MaterialIconsRound-Regular
     version: '2022-08-02T22:00:44.367947'
     copyright: Copyright 2019 Google LLC. All Rights Reserved.
-    font: LDItaoyNOAY6Uewc665JcIzCKsKc_M9flwmMq_fTTvg-.otf
+    font: MaterialIconsRound-Regular.otf
+    source_font: LDItaoyNOAY6Uewc665JcIzCKsKc_M9flwmMq_fTTvg-.otf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
-spdx_license: Apache-2.0
 copyright: Copyright 2019 Google LLC. All Rights Reserved.
 license_url: https://scripts.sil.org/OFL
 license: SIL Open Font License v1.1
 open_license: SIL Open Font License v1.1
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-06-17'
+  family_id: material_icons_round

@@ -54,11 +54,12 @@ fonts:
     version: 1.001;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.3)
     copyright: Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright
       2010, Google Inc. All Rights Reserved.
-    font: flU-Rqu5zY00QEpyWJYWN5-QXeNzDB41rZg.ttf
+    font: Yantramanav-Thin.ttf
     preferred_family_name: Yantramanav
     preferred_type: Thin
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: flU-Rqu5zY00QEpyWJYWN5-QXeNzDB41rZg.ttf
     formats:
     - ttf
     - woff2
@@ -72,11 +73,12 @@ fonts:
     version: 1.001;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.3)
     copyright: Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright
       2010, Google Inc. All Rights Reserved.
-    font: flUhRqu5zY00QEpyWJYWN59Yf8NZIhI8tIHh.ttf
+    font: Yantramanav-Light.ttf
     preferred_family_name: Yantramanav
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: flUhRqu5zY00QEpyWJYWN59Yf8NZIhI8tIHh.ttf
     formats:
     - ttf
     - woff2
@@ -90,9 +92,10 @@ fonts:
     version: 1.001;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.3)
     copyright: Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright
       2010, Google Inc. All Rights Reserved.
-    font: flU8Rqu5zY00QEpyWJYWN6f0V-dRCQ41.ttf
+    font: Yantramanav-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: flU8Rqu5zY00QEpyWJYWN6f0V-dRCQ41.ttf
     formats:
     - ttf
     - woff2
@@ -104,9 +107,10 @@ fonts:
     version: 1.001;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.3)
     copyright: Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright
       2010, Google Inc. All Rights Reserved.
-    font: flUhRqu5zY00QEpyWJYWN59IeMNZIhI8tIHh.ttf
+    font: Yantramanav-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: flUhRqu5zY00QEpyWJYWN59IeMNZIhI8tIHh.ttf
     formats:
     - ttf
     - woff2
@@ -120,11 +124,12 @@ fonts:
     version: 1.001;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.3)
     copyright: Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright
       2010, Google Inc. All Rights Reserved.
-    font: flUhRqu5zY00QEpyWJYWN58AfsNZIhI8tIHh.ttf
+    font: Yantramanav-Medium.ttf
     preferred_family_name: Yantramanav
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: flUhRqu5zY00QEpyWJYWN58AfsNZIhI8tIHh.ttf
     formats:
     - ttf
     - woff2
@@ -138,11 +143,12 @@ fonts:
     version: 1.001;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900; ttfautohint (v1.3)
     copyright: Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright
       2010, Google Inc. All Rights Reserved.
-    font: flUhRqu5zY00QEpyWJYWN59wesNZIhI8tIHh.ttf
+    font: Yantramanav-Black.ttf
     preferred_family_name: Yantramanav
     preferred_type: Black
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: flUhRqu5zY00QEpyWJYWN59wesNZIhI8tIHh.ttf
     formats:
     - ttf
     - woff2
@@ -150,7 +156,6 @@ fonts:
 extract: {}
 copyright: Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright 2010,
   Google Inc. All Rights Reserved.
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyright 2010,
   Google Inc. All Rights Reserved.\n\nThis Font Software is licensed under the SIL
@@ -258,4 +263,9 @@ open_license: "Copyright 2014, Erin McLaughlin (hello@erinmclaughlin.com). Copyr
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: yantramanav

@@ -47,13 +47,14 @@ fonts:
     post_script_name: BioRhymeExpanded-ExtraLight
     version: '1.000'
     copyright: Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)
-    font: i7dVIE1zZzytGswgU577CDY9LjbffxxcblSHSdTXrb_z.ttf
+    font: BioRhymeExpanded-ExtraLight.ttf
     preferred_family_name: BioRhyme Expanded
     preferred_type: ExtraLight
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
 
       '
+    source_font: i7dVIE1zZzytGswgU577CDY9LjbffxxcblSHSdTXrb_z.ttf
     formats:
     - ttf
     - woff2
@@ -66,13 +67,14 @@ fonts:
     post_script_name: BioRhymeExpanded-Light
     version: '1.000'
     copyright: Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)
-    font: i7dVIE1zZzytGswgU577CDY9Ljbffxw4bVSHSdTXrb_z.ttf
+    font: BioRhymeExpanded-Light.ttf
     preferred_family_name: BioRhyme Expanded
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
 
       '
+    source_font: i7dVIE1zZzytGswgU577CDY9Ljbffxw4bVSHSdTXrb_z.ttf
     formats:
     - ttf
     - woff2
@@ -85,11 +87,12 @@ fonts:
     post_script_name: BioRhymeExpanded-Regular
     version: '1.000'
     copyright: Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)
-    font: i7dQIE1zZzytGswgU577CDY9LjbffySURXCPYsje.ttf
+    font: BioRhymeExpanded-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
 
       '
+    source_font: i7dQIE1zZzytGswgU577CDY9LjbffySURXCPYsje.ttf
     formats:
     - ttf
     - woff2
@@ -100,11 +103,12 @@ fonts:
     post_script_name: BioRhymeExpanded-Bold
     version: '1.000'
     copyright: Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)
-    font: i7dVIE1zZzytGswgU577CDY9LjbffxwoalSHSdTXrb_z.ttf
+    font: BioRhymeExpanded-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
 
       '
+    source_font: i7dVIE1zZzytGswgU577CDY9LjbffxwoalSHSdTXrb_z.ttf
     formats:
     - ttf
     - woff2
@@ -117,20 +121,20 @@ fonts:
     post_script_name: BioRhymeExpanded-ExtraBold
     version: '1.000'
     copyright: Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)
-    font: i7dVIE1zZzytGswgU577CDY9Ljbffxw0aVSHSdTXrb_z.ttf
+    font: BioRhymeExpanded-ExtraBold.ttf
     preferred_family_name: BioRhyme Expanded
     preferred_type: ExtraBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
 
       '
+    source_font: i7dVIE1zZzytGswgU577CDY9Ljbffxw0aVSHSdTXrb_z.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemooney.org)\r\n\r\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis
@@ -242,4 +246,9 @@ open_license: "Copyright 2016 Aoife Mooney (aoifemooney@gmail.com www.aoifemoone
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: biorhyme_expanded

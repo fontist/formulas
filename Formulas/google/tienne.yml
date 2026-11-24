@@ -46,7 +46,8 @@ fonts:
       Font Software is licensed under the SIL Open Font License, Version
       1.1. This license is available with a FAQ at:
       http://scripts.sil.org/OFL
-    font: AYCKpX7pe9YCRP0LkEPHSFNyxw.ttf
+    font: Tienne-Regular.ttf
+    source_font: AYCKpX7pe9YCRP0LkEPHSFNyxw.ttf
     formats:
     - ttf
     - woff2
@@ -60,7 +61,8 @@ fonts:
       Font Names \"Tienne\" and \"Tienne Regular\". This\rFont Software is licensed
       under the SIL Open Font License, Version\r1.1. This license is available with
       a FAQ at:\rhttp://scripts.sil.org/OFL"
-    font: AYCJpX7pe9YCRP0zLGzjQHhuzvef5Q.ttf
+    font: Tienne-Bold.ttf
+    source_font: AYCJpX7pe9YCRP0zLGzjQHhuzvef5Q.ttf
     formats:
     - ttf
     - woff2
@@ -78,9 +80,10 @@ fonts:
       Font Software is licensed under the SIL Open Font License, Version
       1.1. This license is available with a FAQ at:
       http://scripts.sil.org/OFL
-    font: AYCJpX7pe9YCRP0zFG7jQHhuzvef5Q.ttf
+    font: Tienne-Black.ttf
     preferred_family_name: Tienne
     preferred_type: Black
+    source_font: AYCJpX7pe9YCRP0zFG7jQHhuzvef5Q.ttf
     formats:
     - ttf
     - woff2
@@ -92,7 +95,6 @@ copyright: |-
   Font Software is licensed under the SIL Open Font License, Version
   1.1. This license is available with a FAQ at:
   http://scripts.sil.org/OFL
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011, Cyreal (www.cyreal.org),\nCopyright (c) 2011 by vernon
   adams (vern@newtypography.co.uk),\nCopyright (c) 2009, 2010, 2011 Google, Inc (www.google.com/webfonts),\nwith
@@ -202,4 +204,9 @@ open_license: "Copyright (c) 2011, Cyreal (www.cyreal.org),\nCopyright (c) 2011 
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: tienne

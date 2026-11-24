@@ -11,17 +11,17 @@ resources:
     source: google
     family: Reggae One
     files:
-    - https://fonts.gstatic.com/s/reggaeone/v19/7r3DqX5msMIkeuwJwOJt_a5L5uH-mts.ttf
+    - https://fonts.gstatic.com/s/reggaeone/v20/7r3DqX5msMIkeuwJwOJt_a5L5uH-mts.ttf
     urls:
-    - https://fonts.gstatic.com/s/reggaeone/v19/7r3DqX5msMIkeuwJwOJt_a5L5uH-mts.ttf
+    - https://fonts.gstatic.com/s/reggaeone/v20/7r3DqX5msMIkeuwJwOJt_a5L5uH-mts.ttf
     format: ttf
   woff2_static:
     source: google
     family: Reggae One
     files:
-    - https://fonts.gstatic.com/s/reggaeone/v19/7r3DqX5msMIkeuwJwOJt_atL5uH-mts.woff2
+    - https://fonts.gstatic.com/s/reggaeone/v20/7r3DqX5msMIkeuwJwOJt_atL5uH-mts.woff2
     urls:
-    - https://fonts.gstatic.com/s/reggaeone/v19/7r3DqX5msMIkeuwJwOJt_atL5uH-mts.woff2
+    - https://fonts.gstatic.com/s/reggaeone/v20/7r3DqX5msMIkeuwJwOJt_atL5uH-mts.woff2
     format: woff2
 fonts:
 - name: Reggae One
@@ -33,9 +33,10 @@ fonts:
     version: '1.100'
     copyright: Copyright 2020 The Reggae Project Authors (https://github.com/fontworks-fonts/Reggae/),
       all rights reserved.
-    font: 7r3DqX5msMIkeuwJwOJt_a5L5uH-mts.ttf
+    font: ReggaeOne-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: 7r3DqX5msMIkeuwJwOJt_a5L5uH-mts.ttf
     formats:
     - ttf
     - woff2
@@ -43,7 +44,6 @@ fonts:
 extract: {}
 copyright: Copyright 2020 The Reggae Project Authors (https://github.com/fontworks-fonts/Reggae/),
   all rights reserved.
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2020 The Reggae Project Authors (https://github.com/fontworks-fonts/Reggae)\r\n\r\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis
@@ -155,4 +155,9 @@ open_license: "Copyright 2020 The Reggae Project Authors (https://github.com/fon
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2026-10-01'
+  family_id: reggae_one

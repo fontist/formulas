@@ -34,14 +34,14 @@ fonts:
     version: 1.100;PS 1;hotconv 1.0.57;makeotf.lib2.0.21895
     copyright: Copyright © 2010 NHN Corporation. All rights reserved. Font designed
       by Sandoll Communications Inc.
-    font: wXK2E2wfpokopxzthSqPbcR5_gVaxazyjqBr1lO97Q.ttf
+    font: NanumBrush.ttf
     description: NHN Corporation
+    source_font: wXK2E2wfpokopxzthSqPbcR5_gVaxazyjqBr1lO97Q.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
-spdx_license: OFL-1.1-RFN
 copyright: Copyright © 2010 NHN Corporation. All rights reserved. Font designed by
   Sandoll Communications Inc.
 license_url: https://scripts.sil.org/OFL
@@ -153,4 +153,9 @@ open_license: "Copyright (c) 2010, NHN Corporation (http://www.nhncorp.com),\nwi
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: nanum_brush_script

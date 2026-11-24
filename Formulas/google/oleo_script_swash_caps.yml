@@ -8,9 +8,8 @@ description: Oleo is a flowy yet legible non-connected script typeface. It is pe
   Caps is currently available in two weights, Regular and Bold. It has also a Oleo
   Script sister family, also available in Regular and Bold. Oleo Script Swash Caps
   is a Unicode typeface family that supports languages that use the Latin script and
-  its variants, and could be expanded to support other scripts. For more information
-  see the Soytutype website, follow us on Twitter @soytutype or Google+ or contact
-  Soytutype .
+  its variants, and could be expanded to support other scripts. For more information,
+  contact Muk Monsalve
 homepage: https://fonts.google.com/specimen/Oleo+Script+Swash+Caps
 resources:
   ttf_static:
@@ -43,9 +42,10 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2012, Soytutype (contact@soytutype.com.ar|soytutype@gmail.com),
       with reserved fontname 'Oleo'
-    font: Noaj6Vb-w5SFbTTAsZP_7JkCS08K-jCzDn_HMXquSY0Hg90.ttf
+    font: OleoScriptSwashCaps-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL.'
+    source_font: Noaj6Vb-w5SFbTTAsZP_7JkCS08K-jCzDn_HMXquSY0Hg90.ttf
     formats:
     - ttf
     - woff2
@@ -57,9 +57,10 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2012, Soytutype (contact@soytutype.com.ar|soytutype@gmail.com),
       with reserved fontname 'Oleo'
-    font: Noag6Vb-w5SFbTTAsZP_7JkCS08K-jCzDn_HCcaBbYUsn9T5dt0.ttf
+    font: OleoScriptSwashCaps-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL.'
+    source_font: Noag6Vb-w5SFbTTAsZP_7JkCS08K-jCzDn_HCcaBbYUsn9T5dt0.ttf
     formats:
     - ttf
     - woff2
@@ -67,7 +68,6 @@ fonts:
 extract: {}
 copyright: Copyright (c) 2012, Soytutype (contact@soytutype.com.ar|soytutype@gmail.com),
   with reserved fontname 'Oleo'
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2012, Soytutype (contact@soytutype.com.ar|soytutype@gmail.com),
   with Reserved Font Name \"Oleo Script\"\n\nThis Font Software is licensed under
@@ -175,4 +175,9 @@ open_license: "Copyright (c) 2012, Soytutype (contact@soytutype.com.ar|soytutype
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: oleo_script_swash_caps

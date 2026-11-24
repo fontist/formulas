@@ -32,7 +32,7 @@ fonts:
     version: 1.000 preliminary
     copyright: "Font designed by Christopher J. Fynn. \r\nCopyright © 2010 by Dzongkha
       Development Commission."
-    font: nKKZ-GokGZ1baIaSEQGodLxA.ttf
+    font: Uchen-Regular.ttf
     description: "Copyright (c) 2010, Dzongkha Development Commission (ddc@dzongkha.gov.bt),\r\nwith
       Reserved Font Name DDC Uchen.\r\n\r\nFont created by Christopher John Fynn\r\nfor
       the Dzongkha Development Commission\r\n\r\nThis Font Software is licensed under
@@ -91,6 +91,7 @@ fonts:
       DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
       OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS
       IN THE FONT SOFTWARE."
+    source_font: nKKZ-GokGZ1baIaSEQGodLxA.ttf
     formats:
     - ttf
     - woff2
@@ -98,7 +99,6 @@ fonts:
 extract: {}
 copyright: "Font designed by Christopher J. Fynn. \r\nCopyright © 2010 by Dzongkha
   Development Commission."
-spdx_license: OFL-1.0-RFN
 license_url: https://scripts.sil.org/OFL
 license: "This Font Software is Copyright (c) 2006, Christopher J Fynn\r\nAll Rights
   Reserved.\r\n\r\n\"Uchen\" is a Reserved Font Name for this Font Software.\r\n\r\nThis
@@ -208,4 +208,9 @@ open_license: "This Font Software is Copyright (c) 2006, Christopher J Fynn\r\nA
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: uchen

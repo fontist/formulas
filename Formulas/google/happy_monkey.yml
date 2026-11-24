@@ -3,7 +3,7 @@ name: happy_monkey
 schema_version: 5
 description: Happy Monkey is a display sans serif typeface family, with thin and rounded
   strokes. Suitable for informal headlines and all your fun typography! Designed by
-  Brenda Gallo and Gustavo Dipre .
+  Brenda Gallo and Gustavo Dipre.
 homepage: https://fonts.google.com/specimen/Happy+Monkey
 resources:
   ttf_static:
@@ -32,9 +32,10 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011 by Brenda Gallo (gbrenda1987@gmail.com), with Reserved
       Font Name "Happy Monkey".
-    font: K2F2fZZcl-9SXwl5F_C4R_OABwD2bWqVjw.ttf
+    font: HappyMonkey-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: K2F2fZZcl-9SXwl5F_C4R_OABwD2bWqVjw.ttf
     formats:
     - ttf
     - woff2
@@ -42,7 +43,6 @@ fonts:
 extract: {}
 copyright: Copyright (c) 2011 by Brenda Gallo (gbrenda1987@gmail.com), with Reserved
   Font Name "Happy Monkey".
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011 by Brenda Gallo (gbrenda1987@gmail.com), with Reserved
   Font Name \"Happy Monkey\".\n\nThis Font Software is licensed under the SIL Open
@@ -150,4 +150,9 @@ open_license: "Copyright (c) 2011 by Brenda Gallo (gbrenda1987@gmail.com), with 
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: happy_monkey

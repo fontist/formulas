@@ -42,11 +42,12 @@ fonts:
     version: '1.006'
     copyright: Copyright (c) 2011 by Pablo Impallari. www.impallari.com. All rights
       reserved.
-    font: BngMUXZGTXPUvIoyV6yN59fK7KSJ4ACD.ttf
+    font: LobsterTwo.ttf
     description: "Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),\r\nwith
       Reserved Font Name Lobster.\r\nThis Font Software is licensed under the SIL
       Open Font License, Version 1.1.\r\nThis license is available with a FAQ at:
       http://scripts.sil.org/OFL"
+    source_font: BngMUXZGTXPUvIoyV6yN59fK7KSJ4ACD.ttf
     formats:
     - ttf
     - woff2
@@ -58,11 +59,12 @@ fonts:
     version: '1.006'
     copyright: Copyright (c) 2011 by Pablo Impallari. www.impallari.com. All rights
       reserved.
-    font: BngOUXZGTXPUvIoyV6yN5-fI5qCr5RCDY_k.ttf
+    font: LobsterTwo-Italic.ttf
     description: "Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),\r\nwith
       Reserved Font Name Lobster.\r\nThis Font Software is licensed under the SIL
       Open Font License, Version 1.1.\r\nThis license is available with a FAQ at:
       http://scripts.sil.org/OFL"
+    source_font: BngOUXZGTXPUvIoyV6yN5-fI5qCr5RCDY_k.ttf
     formats:
     - ttf
     - woff2
@@ -74,11 +76,12 @@ fonts:
     version: '1.006'
     copyright: Copyright (c) 2011 by Pablo Impallari. www.impallari.com. All rights
       reserved.
-    font: BngRUXZGTXPUvIoyV6yN5-92w4CByxyKeuDp.ttf
+    font: LobsterTwo-Bold.ttf
     description: "Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),\r\nwith
       Reserved Font Name Lobster.\r\nThis Font Software is licensed under the SIL
       Open Font License, Version 1.1.\r\nThis license is available with a FAQ at:
       http://scripts.sil.org/OFL"
+    source_font: BngRUXZGTXPUvIoyV6yN5-92w4CByxyKeuDp.ttf
     formats:
     - ttf
     - woff2
@@ -90,18 +93,18 @@ fonts:
     version: '1.006'
     copyright: Copyright (c) 2011 by Pablo Impallari. www.impallari.com. All rights
       reserved.
-    font: BngTUXZGTXPUvIoyV6yN5-fI3hyEwRiof_DpXMY.ttf
+    font: LobsterTwo-BoldItalic.ttf
     description: "Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),\r\nwith
       Reserved Font Name Lobster.\r\nThis Font Software is licensed under the SIL
       Open Font License, Version 1.1.\r\nThis license is available with a FAQ at:
       http://scripts.sil.org/OFL"
+    source_font: BngTUXZGTXPUvIoyV6yN5-fI3hyEwRiof_DpXMY.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2011 by Pablo Impallari. www.impallari.com. All rights reserved.
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),\nCopyright
   (c) 2011, Igino Marini. (www.ikern.com|mail@iginomarini.com),\nwith Reserved Font
@@ -211,4 +214,9 @@ open_license: "Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-11'
+  family_id: lobster_two

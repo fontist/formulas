@@ -42,7 +42,8 @@ fonts:
     version: 1.272; ttfautohint (v1.6)
     copyright: Copyright (c) 2011, Thatcher Ulrich (http://tulrich.com), Karoly Barta,
       Michael Everson (http://www.evertype.com), with Reserved Font Name "Tuffy"
-    font: 1q2IY56bHkJl7rxzF4xmyfYe.ttf
+    font: Tuffy-Regular.ttf
+    source_font: 1q2IY56bHkJl7rxzF4xmyfYe.ttf
     formats:
     - ttf
     - woff2
@@ -54,7 +55,8 @@ fonts:
     version: 1.272; ttfautohint (v1.6)
     copyright: Copyright (c) 2011, Thatcher Ulrich (http://tulrich.com), Karoly Barta,
       Michael Everson (http://www.evertype.com), with Reserved Font Name "Tuffy
-    font: 1q2GY56bHkJl7oxxHYhEzOYenEU.ttf
+    font: Tuffy-Italic.ttf
+    source_font: 1q2GY56bHkJl7oxxHYhEzOYenEU.ttf
     formats:
     - ttf
     - woff2
@@ -68,11 +70,12 @@ fonts:
       Michael Everson (http://www.evertype.com), with Reserved Font Name "Tuffy"
 
       '
-    font: 1q2FY56bHkJl7oTPOKhu4uoXhVzg.ttf
+    font: Tuffy-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
 
       '
+    source_font: 1q2FY56bHkJl7oTPOKhu4uoXhVzg.ttf
     formats:
     - ttf
     - woff2
@@ -86,11 +89,12 @@ fonts:
       Michael Everson (http://www.evertype.com), with Reserved Font Name "Tuffy"
 
       '
-    font: 1q2DY56bHkJl7oxxJTRr6O41gEzgZoQ.ttf
+    font: Tuffy-BoldItalic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
 
       '
+    source_font: 1q2DY56bHkJl7oxxJTRr6O41gEzgZoQ.ttf
     formats:
     - ttf
     - woff2
@@ -98,7 +102,6 @@ fonts:
 extract: {}
 copyright: Copyright (c) 2011, Thatcher Ulrich (http://tulrich.com), Karoly Barta,
   Michael Everson (http://www.evertype.com), with Reserved Font Name "Tuffy"
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011, Thatcher Ulrich (http://tulrich.com), Copyright (c)
   2011, Karoly Barta, Copyright (c) 2011, Michael Everson (http://www.evertype.com),
@@ -208,4 +211,9 @@ open_license: "Copyright (c) 2011, Thatcher Ulrich (http://tulrich.com), Copyrig
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-04-23'
+  family_id: tuffy

@@ -38,16 +38,16 @@ fonts:
     post_script_name: SecularOne-Regular
     version: 1.002; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.29]
     copyright: Copyright 2016 The Secular One Project Authors (https://github.com/googlefonts/secular)
-    font: 8QINdiTajsj_87rMuMdKypDlMul7LJpK.ttf
+    font: SecularOne-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: 8QINdiTajsj_87rMuMdKypDlMul7LJpK.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2016 The Secular One Project Authors (https://github.com/googlefonts/secular)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2016 The Secular One Project Authors (https://github.com/googlefonts/secular)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -153,4 +153,9 @@ open_license: "Copyright 2016 The Secular One Project Authors (https://github.co
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: secular_one

@@ -35,16 +35,16 @@ fonts:
     post_script_name: CherryBombOne-Regular
     version: 4.100; ttfautohint (v1.8.3)
     copyright: Copyright 2019 The Cherry Bomb Project Authors (https://github.com/satsuyako/CherryBomb)
-    font: y83DW4od1h6KlV3c6JJhRhGOdhrKDNpF41fr-w.ttf
+    font: CherryBombOne-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: y83DW4od1h6KlV3c6JJhRhGOdhrKDNpF41fr-w.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2019 The Cherry Bomb Project Authors (https://github.com/satsuyako/CherryBomb)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2019 The Cherry Bomb Project Authors (https://github.com/satsuyako/CherryBomb)\r\n\r\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis
@@ -156,4 +156,9 @@ open_license: "Copyright 2019 The Cherry Bomb Project Authors (https://github.co
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: cherry_bomb_one

@@ -43,8 +43,9 @@ fonts:
     version: '3.206'
     copyright: Digitized data copyright © 2012-2015, The Mozilla Foundation and Telefonica
       S.A.
-    font: N0bX2SlFPv1weGeLZDtQIfTTkdbJYA.ttf
+    font: FiraMono-Regular.ttf
     description: Licensed under the Open Font License, version 1.1 or later
+    source_font: N0bX2SlFPv1weGeLZDtQIfTTkdbJYA.ttf
     formats:
     - ttf
     - woff2
@@ -56,8 +57,9 @@ fonts:
     version: '3.206'
     copyright: Digitized data copyright © 2012-2015, The Mozilla Foundation and Telefonica
       S.A.
-    font: N0bS2SlFPv1weGeLZDtondv3mf3VaZBRBQ.ttf
+    font: FiraMono-Bold.ttf
     description: Licensed under the Open Font License, version 1.1 or later
+    source_font: N0bS2SlFPv1weGeLZDtondv3mf3VaZBRBQ.ttf
     formats:
     - ttf
     - woff2
@@ -71,10 +73,11 @@ fonts:
     version: '3.206'
     copyright: Digitized data copyright © 2012-2015, The Mozilla Foundation and Telefonica
       S.A.
-    font: N0bS2SlFPv1weGeLZDto1d33mf3VaZBRBQ.ttf
+    font: FiraMono-Medium.ttf
     preferred_family_name: Fira Mono
     preferred_type: Medium
     description: Licensed under the Open Font License, version 1.1 or later
+    source_font: N0bS2SlFPv1weGeLZDto1d33mf3VaZBRBQ.ttf
     formats:
     - ttf
     - woff2
@@ -82,7 +85,6 @@ fonts:
 extract: {}
 copyright: Digitized data copyright © 2012-2015, The Mozilla Foundation and Telefonica
   S.A.
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: |
   Copyright (c) 2012-2013, The Mozilla Corporation and Telefonica S.A.
@@ -272,4 +274,9 @@ open_license: |
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: fira_mono

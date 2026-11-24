@@ -45,9 +45,10 @@ fonts:
     post_script_name: Amiri-Regular
     version: '1.002'
     copyright: Copyright 2010-2022 The Amiri Project Authors (https://github.com/aliftype/amiri).
-    font: J7aRnpd8CGxBHqUpvrIw74NL.ttf
+    font: Amiri-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: J7aRnpd8CGxBHqUpvrIw74NL.ttf
     formats:
     - ttf
     - woff2
@@ -58,9 +59,10 @@ fonts:
     post_script_name: Amiri-Italic
     version: '1.002'
     copyright: Copyright 2010-2022 The Amiri Project Authors (https://github.com/aliftype/amiri).
-    font: J7afnpd8CGxBHpUrtLYS6pNLAjk.ttf
+    font: Amiri-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: J7afnpd8CGxBHpUrtLYS6pNLAjk.ttf
     formats:
     - ttf
     - woff2
@@ -71,9 +73,10 @@ fonts:
     post_script_name: Amiri-Bold
     version: '1.002'
     copyright: Copyright 2010-2022 The Amiri Project Authors (https://github.com/aliftype/amiri).
-    font: J7acnpd8CGxBHp2VkZY4xJ9CGyAa.ttf
+    font: Amiri-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: J7acnpd8CGxBHp2VkZY4xJ9CGyAa.ttf
     formats:
     - ttf
     - woff2
@@ -84,16 +87,16 @@ fonts:
     post_script_name: Amiri-BoldItalic
     version: '1.002'
     copyright: Copyright 2010-2022 The Amiri Project Authors (https://github.com/aliftype/amiri).
-    font: J7aanpd8CGxBHpUrjAo9zptgHjAavCA.ttf
+    font: Amiri-BoldItalic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: J7aanpd8CGxBHpUrjAo9zptgHjAavCA.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2010-2022 The Amiri Project Authors (https://github.com/aliftype/amiri).
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2010-2022 The Amiri Project Authors (https://github.com/aliftype/amiri).\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -199,4 +202,9 @@ open_license: "Copyright 2010-2022 The Amiri Project Authors (https://github.com
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-08-26'
+  family_id: amiri

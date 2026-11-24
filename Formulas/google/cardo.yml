@@ -43,9 +43,10 @@ fonts:
     post_script_name: Cardo-Regular
     version: '1.0451'
     copyright: Copyright (c) 2002-2011, David J. Perry (hospes02@scholarsfonts.net)
-    font: wlp_gwjKBV1pqiv_1oAZ2H5O.ttf
+    font: Cardo-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1.  This license is available with a FAQ at: http://scripts.sil.org/OFL.'
+    source_font: wlp_gwjKBV1pqiv_1oAZ2H5O.ttf
     formats:
     - ttf
     - woff2
@@ -56,9 +57,10 @@ fonts:
     post_script_name: Cardo-Italic
     version: '0.991'
     copyright: Copyright (c) 2002-2011, David J. Perry (hospes02@scholarsfonts.net)
-    font: wlpxgwjKBV1pqhv93IQ73W5OcCk.ttf
+    font: Cardo-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1.  This license is available with a FAQ at: http://scripts.sil.org/OFL.'
+    source_font: wlpxgwjKBV1pqhv93IQ73W5OcCk.ttf
     formats:
     - ttf
     - woff2
@@ -69,16 +71,16 @@ fonts:
     post_script_name: Cardo-Bold
     version: '1.0011'
     copyright: Copyright (c) 2002-2011, David J. Perry (hospes02@scholarsfonts.net)
-    font: wlpygwjKBV1pqhND-aQR82JHaTBX.ttf
+    font: Cardo-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: wlpygwjKBV1pqhND-aQR82JHaTBX.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2002-2011, David J. Perry (hospes02@scholarsfonts.net)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2002-2011, David J. Perry (hospes02@scholarsfonts.net)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -184,4 +186,9 @@ open_license: "Copyright (c) 2002-2011, David J. Perry (hospes02@scholarsfonts.n
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: cardo

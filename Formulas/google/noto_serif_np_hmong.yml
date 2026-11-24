@@ -10,9 +10,9 @@ resources:
     source: google
     family: Noto Serif NP Hmong
     files:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notoserifnphmong/NotoSerifNPHmong[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/notoserifnphmong/NotoSerifNPHmong[wght].ttf
     urls:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notoserifnphmong/NotoSerifNPHmong[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/notoserifnphmong/NotoSerifNPHmong[wght].ttf
     format: ttf
     variable_axes:
     - wght
@@ -53,9 +53,10 @@ fonts:
     post_script_name: NotoSerifNPHmong-Regular
     version: '1.001'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nyiakeng-puachue-hmong)
-    font: pONN1gItFMO79E4L1GPUi-2sixKHZyFj9Jy6_KhXPwzdvbjPhFLp3u0rVO-d.ttf
+    font: NotoSerifNPHmong-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: pONN1gItFMO79E4L1GPUi-2sixKHZyFj9Jy6_KhXPwzdvbjPhFLp3u0rVO-d.ttf
     formats:
     - ttf
     - woff2
@@ -67,9 +68,10 @@ fonts:
     post_script_name: NotoSerifNPHmong-Bold
     version: '1.001'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nyiakeng-puachue-hmong)
-    font: pONN1gItFMO79E4L1GPUi-2sixKHZyFj9Jy6_KhXPwzdvbgog1Lp3u0rVO-d.ttf
+    font: NotoSerifNPHmong-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: pONN1gItFMO79E4L1GPUi-2sixKHZyFj9Jy6_KhXPwzdvbgog1Lp3u0rVO-d.ttf
     formats:
     - ttf
     - woff2
@@ -95,11 +97,12 @@ fonts:
     post_script_name: NotoSerifNPHmong-Medium
     version: '1.001'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nyiakeng-puachue-hmong)
-    font: pONN1gItFMO79E4L1GPUi-2sixKHZyFj9Jy6_KhXPwzdvbj9hFLp3u0rVO-d.ttf
+    font: NotoSerifNPHmong-Medium.ttf
     preferred_family_name: Noto Serif NP Hmong
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: pONN1gItFMO79E4L1GPUi-2sixKHZyFj9Jy6_KhXPwzdvbj9hFLp3u0rVO-d.ttf
     formats:
     - ttf
     - woff2
@@ -113,11 +116,12 @@ fonts:
     post_script_name: NotoSerifNPHmong-SemiBold
     version: '1.001'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nyiakeng-puachue-hmong)
-    font: pONN1gItFMO79E4L1GPUi-2sixKHZyFj9Jy6_KhXPwzdvbgRg1Lp3u0rVO-d.ttf
+    font: NotoSerifNPHmong-SemiBold.ttf
     preferred_family_name: Noto Serif NP Hmong
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: pONN1gItFMO79E4L1GPUi-2sixKHZyFj9Jy6_KhXPwzdvbgRg1Lp3u0rVO-d.ttf
     formats:
     - ttf
     - woff2
@@ -125,7 +129,6 @@ fonts:
     source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nyiakeng-puachue-hmong)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nyiakeng-puachue-hmong)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -231,4 +234,9 @@ open_license: "Copyright 2022 The Noto Project Authors (https://github.com/notof
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: noto_serif_np_hmong

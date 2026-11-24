@@ -44,9 +44,10 @@ fonts:
     version: '20110429 '
     copyright: Copyright (c) 2010, 2011 by Daniel Johnson. Released under the terms
       of the SIL Open Font License v1.1.
-    font: FeVRS0Fbvbc14VxRD7N01bV7kg.ttf
+    font: Judson-Regular.ttf
     preferred_family_name: Judson
     preferred_type: Regular
+    source_font: FeVRS0Fbvbc14VxRD7N01bV7kg.ttf
     formats:
     - ttf
     - woff2
@@ -58,9 +59,10 @@ fonts:
     version: '20110429 '
     copyright: Copyright (c) 2010, 2011 by Daniel Johnson.  Released under the terms
       of the SIL Open Font License v1.1.
-    font: FeVTS0Fbvbc14VxhDblw97BrknZf.ttf
+    font: Judson-Italic.ttf
     preferred_family_name: Judson
     preferred_type: Italic
+    source_font: FeVTS0Fbvbc14VxhDblw97BrknZf.ttf
     formats:
     - ttf
     - woff2
@@ -72,9 +74,10 @@ fonts:
     version: '20110429 '
     copyright: Copyright (c) 2010, 2011 by Daniel Johnson. Released under the terms
       of the SIL Open Font License v1.1.
-    font: FeVSS0Fbvbc14Vxps5xQ3Z5nm29Gww.ttf
+    font: Judson-Bold.ttf
     preferred_family_name: Judson
     preferred_type: Bold
+    source_font: FeVSS0Fbvbc14Vxps5xQ3Z5nm29Gww.ttf
     formats:
     - ttf
     - woff2
@@ -82,7 +85,6 @@ fonts:
 extract: {}
 copyright: Copyright (c) 2010, 2011 by Daniel Johnson. Released under the terms of
   the SIL Open Font License v1.1.
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2009, 2010, 2011 Daniel Johnson (<il.basso.buffo@gmail.com>).\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -188,4 +190,9 @@ open_license: "Copyright (c) 2009, 2010, 2011 Daniel Johnson (<il.basso.buffo@gm
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-11'
+  family_id: judson

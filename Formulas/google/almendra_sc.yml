@@ -8,7 +8,7 @@ description: "Almendra is a typeface design based on calligraphy. Its style is r
   sizes. The main challenge was to make compatible dialectic elements, especially
   balancing legibility and formal identity. Almendra was selected to be exhibited
   at the Bienal Iberoamericana de Dise\x96o in 2010 and was part of the German editorial
-  project Typodarium 2012. This is the Small Cap family, and there are sister Regular
+  project Typodarium 2012. This is the Small Caps family, and there are sister Regular
   and Display families."
 homepage: https://fonts.google.com/specimen/Almendra+SC
 resources:
@@ -38,9 +38,10 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011 by Ana Sanfelippo (anasanfe@gmail.com). Reserved
       Font Names "Almendra" "Almendra SC"
-    font: Iure6Yx284eebowr7hbyTZZJprVA4XQ0.ttf
+    font: AlmendraSC-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: Iure6Yx284eebowr7hbyTZZJprVA4XQ0.ttf
     formats:
     - ttf
     - woff2
@@ -48,7 +49,6 @@ fonts:
 extract: {}
 copyright: Copyright (c) 2011 by Ana Sanfelippo (anasanfe@gmail.com). Reserved Font
   Names "Almendra" "Almendra SC"
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved
   Font Name 'Almendra'\n\nThis Font Software is licensed under the SIL Open Font License,
@@ -155,4 +155,9 @@ open_license: "Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), wit
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: almendra_sc

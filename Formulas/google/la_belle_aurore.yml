@@ -30,7 +30,7 @@ fonts:
     post_script_name: LaBelleAurore
     version: 1.001 2001
     copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
-    font: RrQIbot8-mNYKnGNDkWlocovHeIIG-eFNVmULg.ttf
+    font: LaBelleAurore.ttf
     description: "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)\r\n\r\nThis
       Font Software is licensed under the SIL Open Font License, Version 1.1.  This
       license is copied below, and is also available with a FAQ at:  http://scripts.sil.org/OFL\r\n\r\n\r\n-----------------------------------------------------------\r\nSIL
@@ -86,13 +86,13 @@ fonts:
       INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT
       OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE
       OR FROM OTHER DEALINGS IN THE FONT SOFTWARE."
+    source_font: RrQIbot8-mNYKnGNDkWlocovHeIIG-eFNVmULg.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)\n\nThis Font
   Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -198,4 +198,9 @@ open_license: "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)\n\nThi
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: la_belle_aurore

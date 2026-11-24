@@ -11,9 +11,9 @@ resources:
     source: google
     family: Marhey
     files:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/marhey/Marhey[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/marhey/Marhey[wght].ttf
     urls:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/marhey/Marhey[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/marhey/Marhey[wght].ttf
     format: ttf
     variable_axes:
     - wght
@@ -58,11 +58,12 @@ fonts:
     post_script_name: Marhey-Light
     version: '1.000'
     copyright: Copyright 2022 The Marhey Project Authors (https://github.com/namelatype/Marhey)
-    font: x3d8ck7Laq-T7wl7mqfVrEe9sDvtBZVwO2cXiGevOMw.ttf
+    font: Marhey-Light.ttf
     preferred_family_name: Marhey
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: x3d8ck7Laq-T7wl7mqfVrEe9sDvtBZVwO2cXiGevOMw.ttf
     formats:
     - ttf
     - woff2
@@ -76,9 +77,10 @@ fonts:
     post_script_name: Marhey-Regular
     version: '1.000'
     copyright: Copyright 2022 The Marhey Project Authors (https://github.com/namelatype/Marhey)
-    font: x3d8ck7Laq-T7wl7mqfVrEe9sDvtBctwO2cXiGevOMw.ttf
+    font: Marhey-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: x3d8ck7Laq-T7wl7mqfVrEe9sDvtBctwO2cXiGevOMw.ttf
     formats:
     - ttf
     - woff2
@@ -90,9 +92,10 @@ fonts:
     post_script_name: Marhey-Bold
     version: '1.000'
     copyright: Copyright 2022 The Marhey Project Authors (https://github.com/namelatype/Marhey)
-    font: x3d8ck7Laq-T7wl7mqfVrEe9sDvtBSx3O2cXiGevOMw.ttf
+    font: Marhey-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: x3d8ck7Laq-T7wl7mqfVrEe9sDvtBSx3O2cXiGevOMw.ttf
     formats:
     - ttf
     - woff2
@@ -118,11 +121,12 @@ fonts:
     post_script_name: Marhey-Medium
     version: '1.000'
     copyright: Copyright 2022 The Marhey Project Authors (https://github.com/namelatype/Marhey)
-    font: x3d8ck7Laq-T7wl7mqfVrEe9sDvtBflwO2cXiGevOMw.ttf
+    font: Marhey-Medium.ttf
     preferred_family_name: Marhey
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: x3d8ck7Laq-T7wl7mqfVrEe9sDvtBflwO2cXiGevOMw.ttf
     formats:
     - ttf
     - woff2
@@ -136,11 +140,12 @@ fonts:
     post_script_name: Marhey-SemiBold
     version: '1.000'
     copyright: Copyright 2022 The Marhey Project Authors (https://github.com/namelatype/Marhey)
-    font: x3d8ck7Laq-T7wl7mqfVrEe9sDvtBRV3O2cXiGevOMw.ttf
+    font: Marhey-SemiBold.ttf
     preferred_family_name: Marhey
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: x3d8ck7Laq-T7wl7mqfVrEe9sDvtBRV3O2cXiGevOMw.ttf
     formats:
     - ttf
     - woff2
@@ -148,7 +153,6 @@ fonts:
     source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Marhey Project Authors (https://github.com/namelatype/Marhey)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2022 The Marhey Project Authors (https://github.com/namelatype/Marhey)\r\n\r\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis
@@ -260,4 +264,9 @@ open_license: "Copyright 2022 The Marhey Project Authors (https://github.com/nam
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: marhey

@@ -32,16 +32,16 @@ fonts:
     post_script_name: CaveatBrush-Regular
     version: 1.096; ttfautohint (v1.3)
     copyright: Copyright 2015 Google Inc. All Rights Reserved.
-    font: EYq0maZfwr9S9-ETZc3fKXtMW7mT03pdQw.ttf
+    font: CaveatBrush-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: EYq0maZfwr9S9-ETZc3fKXtMW7mT03pdQw.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2015 Google Inc. All Rights Reserved.
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2015 Google Inc. All Rights Reserved.\r\n\r\nThis Font Software
   is licensed under the SIL Open Font License, Version 1.1.\r\nThis license is copied
@@ -153,4 +153,9 @@ open_license: "Copyright 2015 Google Inc. All Rights Reserved.\r\n\r\nThis Font 
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: caveat_brush

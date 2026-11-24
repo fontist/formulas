@@ -55,11 +55,12 @@ fonts:
     version: 1.202;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
       -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G
     copyright: Copyright 2014 Indian Type Foundry. All rights reserved.
-    font: va9F4kzAzMZRGLjDY8Z_uqzGQC_-.ttf
+    font: Karma-Light.ttf
     preferred_family_name: Karma
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: va9F4kzAzMZRGLjDY8Z_uqzGQC_-.ttf
     formats:
     - ttf
     - woff2
@@ -73,9 +74,10 @@ fonts:
     version: 1.202;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
       -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G
     copyright: Copyright 2014 Indian Type Foundry. All rights reserved.
-    font: va9I4kzAzMZRGIBvS-J3kbDP.ttf
+    font: Karma-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: va9I4kzAzMZRGIBvS-J3kbDP.ttf
     formats:
     - ttf
     - woff2
@@ -87,9 +89,10 @@ fonts:
     version: 1.202;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
       -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G
     copyright: Copyright 2014 Indian Type Foundry. All rights reserved.
-    font: va9F4kzAzMZRGLjTZMZ_uqzGQC_-.ttf
+    font: Karma-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: va9F4kzAzMZRGLjTZMZ_uqzGQC_-.ttf
     formats:
     - ttf
     - woff2
@@ -103,11 +106,12 @@ fonts:
     version: 1.202;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
       -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G
     copyright: Copyright 2014 Indian Type Foundry. All rights reserved.
-    font: va9F4kzAzMZRGLibYsZ_uqzGQC_-.ttf
+    font: Karma-Medium.ttf
     preferred_family_name: Karma
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: va9F4kzAzMZRGLibYsZ_uqzGQC_-.ttf
     formats:
     - ttf
     - woff2
@@ -121,18 +125,18 @@ fonts:
     version: 1.202;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1)
       -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G
     copyright: Copyright 2014 Indian Type Foundry. All rights reserved.
-    font: va9F4kzAzMZRGLi3ZcZ_uqzGQC_-.ttf
+    font: Karma-SemiBold.ttf
     preferred_family_name: Karma
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: va9F4kzAzMZRGLi3ZcZ_uqzGQC_-.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2014 Indian Type Foundry. All rights reserved.
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2014, Indian Type Foundry (info@indiantypefoundry.com).\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -238,4 +242,9 @@ open_license: "Copyright (c) 2014, Indian Type Foundry (info@indiantypefoundry.c
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: karma

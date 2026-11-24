@@ -44,7 +44,7 @@ fonts:
     version: '001.2 '
     copyright: Copyright (c) 2000-2010, Ben Weiner (ben@readingtype.org.uk), with
       Reserved Font Name Geo.
-    font: CSRz4zRZlufVL3BmQjlCbQ.ttf
+    font: Geo-Regular.ttf
     description: "Copyright (c) 2000-2010, Ben Weiner (ben@readingtype.org.uk),\nwith
       Reserved Font Name Geo.\n\nThis Font Software is licensed under the SIL Open
       Font License, Version 1.1.\nThis license is copied below, and is also available
@@ -101,6 +101,7 @@ fonts:
       INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT,
       TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT
       SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
+    source_font: CSRz4zRZlufVL3BmQjlCbQ.ttf
     formats:
     - ttf
     - woff2
@@ -112,7 +113,7 @@ fonts:
     version: '001.2 '
     copyright: Copyright (c) 2000-2010, Ben Weiner (ben@readingtype.org.uk), with
       Reserved Font Name Geo.
-    font: CSRx4zRZluflLXpiYDxSbf8r.ttf
+    font: Geo-Oblique.ttf
     description: "Copyright (c) 2000-2010, Ben Weiner (ben@readingtype.org.uk),\nwith
       Reserved Font Name Geo.\n\nThis Font Software is licensed under the SIL Open
       Font License, Version 1.1.\nThis license is copied below, and is also available
@@ -169,6 +170,7 @@ fonts:
       INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT,
       TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT
       SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
+    source_font: CSRx4zRZluflLXpiYDxSbf8r.ttf
     formats:
     - ttf
     - woff2
@@ -176,7 +178,6 @@ fonts:
 extract: {}
 copyright: Copyright (c) 2000-2010, Ben Weiner (ben@readingtype.org.uk), with Reserved
   Font Name Geo.
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2000-2010, Ben Weiner (ben@readingtype.org.uk), \r\nwith Reserved
   Font Name Geo.\r\n\r\nThis Font Software is licensed under the SIL Open Font License,
@@ -289,4 +290,9 @@ open_license: "Copyright (c) 2000-2010, Ben Weiner (ben@readingtype.org.uk), \r\
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: geo

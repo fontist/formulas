@@ -4,7 +4,7 @@ schema_version: 5
 description: Cambo is a modern Latin typeface inspired by the contrast, style and
   ornaments of Khmer typefaces and writing styles. Its main objective is to be used
   to write Latin texts in a Khmer context, but it is also an elegant choice for all
-  kinds of texts. Designed by Carolina Giovagnoli and Andrés Torresi for Huerta Tipográfica
+  kinds of texts. Designed by Carolina Giovagnoli and Andrés Torresi for HT Fonts
   .
 homepage: https://fonts.google.com/specimen/Cambo
 resources:
@@ -12,17 +12,17 @@ resources:
     source: google
     family: Cambo
     files:
-    - https://fonts.gstatic.com/s/cambo/v19/IFSqHeNEk8FJk416ok7xkPm8.ttf
+    - https://fonts.gstatic.com/s/cambo/v21/IFSqHeNEk8FJk416ok7xkPm8.ttf
     urls:
-    - https://fonts.gstatic.com/s/cambo/v19/IFSqHeNEk8FJk416ok7xkPm8.ttf
+    - https://fonts.gstatic.com/s/cambo/v21/IFSqHeNEk8FJk416ok7xkPm8.ttf
     format: ttf
   woff2_static:
     source: google
     family: Cambo
     files:
-    - https://fonts.gstatic.com/s/cambo/v19/IFSqHeNEk8FJk41_ok7xkPm8.woff2
+    - https://fonts.gstatic.com/s/cambo/v21/IFSqHeNEk8FJk41_ok7xkPm8.woff2
     urls:
-    - https://fonts.gstatic.com/s/cambo/v19/IFSqHeNEk8FJk41_ok7xkPm8.woff2
+    - https://fonts.gstatic.com/s/cambo/v21/IFSqHeNEk8FJk41_ok7xkPm8.woff2
     format: woff2
 fonts:
 - name: Cambo
@@ -35,11 +35,12 @@ fonts:
     copyright: "Copyright (c) 2011, Carolina Giovagnoli (caro@huertatipografica.com.ar),\rCopyright
       (c) 2011, Andres Torresi (andres@huertatipografica.com.ar),\rwith Reserved Font
       Name Cambo."
-    font: IFSqHeNEk8FJk416ok7xkPm8.ttf
+    font: Cambo-Regular.ttf
     preferred_family_name: Cambo
     preferred_type: Regular
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: IFSqHeNEk8FJk416ok7xkPm8.ttf
     formats:
     - ttf
     - woff2
@@ -48,11 +49,10 @@ extract: {}
 copyright: "Copyright (c) 2011, Carolina Giovagnoli (caro@huertatipografica.com.ar),\rCopyright
   (c) 2011, Andres Torresi (andres@huertatipografica.com.ar),\rwith Reserved Font
   Name Cambo."
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
-license: "Copyright (c) 2011, Carolina Giovagnoli (caro@huertatipografica.com.ar),\nCopyright
-  (c) 2011, Andres Torresi (andres@huertatipografica.com.ar),\nwith Reserved Font
-  Name Cambo.\n\nThis Font Software is licensed under the SIL Open Font License, Version
+license: "Copyright (c) 2011, Carolina Giovagnoli (carolina.giovagnoli@htfonts.com),\nCopyright
+  (c) 2011, Andres Torresi (andres.torresi@htfonts.com),\nwith Reserved Font Name
+  Cambo.\n\nThis Font Software is licensed under the SIL Open Font License, Version
   1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL\n\n\n-----------------------------------------------------------\nSIL
   OPEN FONT LICENSE Version 1.1 - 26 February 2007\n-----------------------------------------------------------\n\nPREAMBLE\nThe
   goals of the Open Font License (OFL) are to stimulate worldwide\ndevelopment of
@@ -103,9 +103,9 @@ license: "Copyright (c) 2011, Carolina Giovagnoli (caro@huertatipografica.com.ar
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
-open_license: "Copyright (c) 2011, Carolina Giovagnoli (caro@huertatipografica.com.ar),\nCopyright
-  (c) 2011, Andres Torresi (andres@huertatipografica.com.ar),\nwith Reserved Font
-  Name Cambo.\n\nThis Font Software is licensed under the SIL Open Font License, Version
+open_license: "Copyright (c) 2011, Carolina Giovagnoli (carolina.giovagnoli@htfonts.com),\nCopyright
+  (c) 2011, Andres Torresi (andres.torresi@htfonts.com),\nwith Reserved Font Name
+  Cambo.\n\nThis Font Software is licensed under the SIL Open Font License, Version
   1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL\n\n\n-----------------------------------------------------------\nSIL
   OPEN FONT LICENSE Version 1.1 - 26 February 2007\n-----------------------------------------------------------\n\nPREAMBLE\nThe
   goals of the Open Font License (OFL) are to stimulate worldwide\ndevelopment of
@@ -156,4 +156,9 @@ open_license: "Copyright (c) 2011, Carolina Giovagnoli (caro@huertatipografica.c
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2026-06-30'
+  family_id: cambo

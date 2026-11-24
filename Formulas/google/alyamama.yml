@@ -63,11 +63,12 @@ fonts:
     post_script_name: Alyamama-Light
     version: '1.213'
     copyright: Copyright 2025 The Alyamama Project Authors (https://github.com/Mestaratype/AlYamama)
-    font: snf0s0a6-txy62q5QqIBNi2sXSGcdTeZ3dR3qNHRIJlgTQ.ttf
+    font: Alyamama-Light.ttf
     preferred_family_name: Alyamama
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: snf0s0a6-txy62q5QqIBNi2sXSGcdTeZ3dR3qNHRIJlgTQ.ttf
     formats:
     - ttf
     - woff2
@@ -81,9 +82,10 @@ fonts:
     post_script_name: Alyamama-Regular
     version: '1.213'
     copyright: Copyright 2025 The Alyamama Project Authors (https://github.com/Mestaratype/AlYamama)
-    font: snf0s0a6-txy62q5QqIBNi2sXSGcdTeZg9R3qNHRIJlgTQ.ttf
+    font: Alyamama-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: snf0s0a6-txy62q5QqIBNi2sXSGcdTeZg9R3qNHRIJlgTQ.ttf
     formats:
     - ttf
     - woff2
@@ -95,14 +97,27 @@ fonts:
     post_script_name: Alyamama-Bold
     version: '1.213'
     copyright: Copyright 2025 The Alyamama Project Authors (https://github.com/Mestaratype/AlYamama)
-    font: snf0s0a6-txy62q5QqIBNi2sXSGcdTeZZNN3qNHRIJlgTQ.ttf
+    font: Alyamama-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: snf0s0a6-txy62q5QqIBNi2sXSGcdTeZZNN3qNHRIJlgTQ.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
     source_resource: ttf_static
+  - family_name: Alyamama
+    type: Regular
+    full_name: Alyamama Light
+    post_script_name: Alyamama-Light
+    copyright: Copyright 2025 The Alyamama Project Authors (https://github.com/Mestaratype/AlYamama)
+    font: Alyamama[wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wght
+    source_resource: ttf_variable
 - name: Alyamama Medium
   styles:
   - family_name: Alyamama Medium
@@ -111,11 +126,12 @@ fonts:
     post_script_name: Alyamama-Medium
     version: '1.213'
     copyright: Copyright 2025 The Alyamama Project Authors (https://github.com/Mestaratype/AlYamama)
-    font: snf0s0a6-txy62q5QqIBNi2sXSGcdTeZsdR3qNHRIJlgTQ.ttf
+    font: Alyamama-Medium.ttf
     preferred_family_name: Alyamama
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: snf0s0a6-txy62q5QqIBNi2sXSGcdTeZsdR3qNHRIJlgTQ.ttf
     formats:
     - ttf
     - woff2
@@ -129,11 +145,12 @@ fonts:
     post_script_name: Alyamama-SemiBold
     version: '1.213'
     copyright: Copyright 2025 The Alyamama Project Authors (https://github.com/Mestaratype/AlYamama)
-    font: snf0s0a6-txy62q5QqIBNi2sXSGcdTeZXdN3qNHRIJlgTQ.ttf
+    font: Alyamama-SemiBold.ttf
     preferred_family_name: Alyamama
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: snf0s0a6-txy62q5QqIBNi2sXSGcdTeZXdN3qNHRIJlgTQ.ttf
     formats:
     - ttf
     - woff2
@@ -147,11 +164,12 @@ fonts:
     post_script_name: Alyamama-ExtraBold
     version: '1.213'
     copyright: Copyright 2025 The Alyamama Project Authors (https://github.com/Mestaratype/AlYamama)
-    font: snf0s0a6-txy62q5QqIBNi2sXSGcdTeZA9N3qNHRIJlgTQ.ttf
+    font: Alyamama-ExtraBold.ttf
     preferred_family_name: Alyamama
     preferred_type: ExtraBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: snf0s0a6-txy62q5QqIBNi2sXSGcdTeZA9N3qNHRIJlgTQ.ttf
     formats:
     - ttf
     - woff2
@@ -165,30 +183,17 @@ fonts:
     post_script_name: Alyamama-Black
     version: '1.213'
     copyright: Copyright 2025 The Alyamama Project Authors (https://github.com/Mestaratype/AlYamama)
-    font: snf0s0a6-txy62q5QqIBNi2sXSGcdTeZKtN3qNHRIJlgTQ.ttf
+    font: Alyamama-Black.ttf
     preferred_family_name: Alyamama
     preferred_type: Black
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: snf0s0a6-txy62q5QqIBNi2sXSGcdTeZKtN3qNHRIJlgTQ.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
     source_resource: ttf_static
-- name:
-  styles:
-  - family_name: Alyamama
-    type: Regular
-    full_name: Alyamama Light
-    post_script_name: Alyamama-Light
-    copyright: Copyright 2025 The Alyamama Project Authors (https://github.com/Mestaratype/AlYamama)
-    font: Alyamama[wght].ttf
-    formats:
-    - ttf
-    variable_font: true
-    variable_axes:
-    - wght
-    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2025 The Alyamama Project Authors (https://github.com/Mestaratype/AlYamama)
 license_url: https://scripts.sil.org/OFL
@@ -297,6 +302,7 @@ open_license: "Copyright 2025 The Alyamama Project Authors (https://github.com/M
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
 import_source:
+  type: google
   commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
   api_version: v1
   last_modified: '2026-02-19'

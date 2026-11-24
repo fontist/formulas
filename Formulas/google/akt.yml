@@ -71,11 +71,12 @@ fonts:
     post_script_name: Akt-Thin
     version: '1.100'
     copyright: Copyright 2024 The Akt Project Authors (https://github.com/dimgrenev/akt)
-    font: d6lTkaygQdnog0zePb60zivs1xAmpmVbPS7ihsk.ttf
+    font: Akt-Thin.ttf
     preferred_family_name: Akt
     preferred_type: Thin
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: d6lTkaygQdnog0zePb60zivs1xAmpmVbPS7ihsk.ttf
     formats:
     - ttf
     - woff2
@@ -89,11 +90,12 @@ fonts:
     post_script_name: Akt-ExtraLight
     version: '1.100'
     copyright: Copyright 2024 The Akt Project Authors (https://github.com/dimgrenev/akt)
-    font: d6lTkaygQdnog0zePb60zivs15AnpmVbPS7ihsk.ttf
+    font: Akt-ExtraLight.ttf
     preferred_family_name: Akt
     preferred_type: ExtraLight
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: d6lTkaygQdnog0zePb60zivs15AnpmVbPS7ihsk.ttf
     formats:
     - ttf
     - woff2
@@ -107,11 +109,12 @@ fonts:
     post_script_name: Akt-Light
     version: '1.100'
     copyright: Copyright 2024 The Akt Project Authors (https://github.com/dimgrenev/akt)
-    font: d6lTkaygQdnog0zePb60zivs104npmVbPS7ihsk.ttf
+    font: Akt-Light.ttf
     preferred_family_name: Akt
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: d6lTkaygQdnog0zePb60zivs104npmVbPS7ihsk.ttf
     formats:
     - ttf
     - woff2
@@ -125,9 +128,10 @@ fonts:
     post_script_name: Akt-Regular
     version: '1.100'
     copyright: Copyright 2024 The Akt Project Authors (https://github.com/dimgrenev/akt)
-    font: d6lTkaygQdnog0zePb60zivs1xAnpmVbPS7ihsk.ttf
+    font: Akt-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: d6lTkaygQdnog0zePb60zivs1xAnpmVbPS7ihsk.ttf
     formats:
     - ttf
     - woff2
@@ -139,14 +143,27 @@ fonts:
     post_script_name: Akt-Bold
     version: '1.100'
     copyright: Copyright 2024 The Akt Project Authors (https://github.com/dimgrenev/akt)
-    font: d6lTkaygQdnog0zePb60zivs1_cgpmVbPS7ihsk.ttf
+    font: Akt-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: d6lTkaygQdnog0zePb60zivs1_cgpmVbPS7ihsk.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
     source_resource: ttf_static
+  - family_name: Akt
+    type: Regular
+    full_name: Akt Regular
+    post_script_name: Akt-Regular
+    copyright: Copyright 2024 The Akt Project Authors (https://github.com/dimgrenev/akt)
+    font: Akt[wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wght
+    source_resource: ttf_variable
 - name: Akt Medium
   styles:
   - family_name: Akt Medium
@@ -155,11 +172,12 @@ fonts:
     post_script_name: Akt-Medium
     version: '1.100'
     copyright: Copyright 2024 The Akt Project Authors (https://github.com/dimgrenev/akt)
-    font: d6lTkaygQdnog0zePb60zivs1yInpmVbPS7ihsk.ttf
+    font: Akt-Medium.ttf
     preferred_family_name: Akt
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: d6lTkaygQdnog0zePb60zivs1yInpmVbPS7ihsk.ttf
     formats:
     - ttf
     - woff2
@@ -173,11 +191,12 @@ fonts:
     post_script_name: Akt-SemiBold
     version: '1.100'
     copyright: Copyright 2024 The Akt Project Authors (https://github.com/dimgrenev/akt)
-    font: d6lTkaygQdnog0zePb60zivs184gpmVbPS7ihsk.ttf
+    font: Akt-SemiBold.ttf
     preferred_family_name: Akt
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: d6lTkaygQdnog0zePb60zivs184gpmVbPS7ihsk.ttf
     formats:
     - ttf
     - woff2
@@ -191,11 +210,12 @@ fonts:
     post_script_name: Akt-ExtraBold
     version: '1.100'
     copyright: Copyright 2024 The Akt Project Authors (https://github.com/dimgrenev/akt)
-    font: d6lTkaygQdnog0zePb60zivs15AgpmVbPS7ihsk.ttf
+    font: Akt-ExtraBold.ttf
     preferred_family_name: Akt
     preferred_type: ExtraBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: d6lTkaygQdnog0zePb60zivs15AgpmVbPS7ihsk.ttf
     formats:
     - ttf
     - woff2
@@ -209,30 +229,17 @@ fonts:
     post_script_name: Akt-Black
     version: '1.100'
     copyright: Copyright 2024 The Akt Project Authors (https://github.com/dimgrenev/akt)
-    font: d6lTkaygQdnog0zePb60zivs17kgpmVbPS7ihsk.ttf
+    font: Akt-Black.ttf
     preferred_family_name: Akt
     preferred_type: Black
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: d6lTkaygQdnog0zePb60zivs17kgpmVbPS7ihsk.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
     source_resource: ttf_static
-- name:
-  styles:
-  - family_name: Akt
-    type: Regular
-    full_name: Akt Regular
-    post_script_name: Akt-Regular
-    copyright: Copyright 2024 The Akt Project Authors (https://github.com/dimgrenev/akt)
-    font: Akt[wght].ttf
-    formats:
-    - ttf
-    variable_font: true
-    variable_axes:
-    - wght
-    source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2024 The Akt Project Authors (https://github.com/dimgrenev/akt)
 license_url: https://scripts.sil.org/OFL
@@ -341,6 +348,7 @@ open_license: "Copyright 2024 The Akt Project Authors (https://github.com/dimgre
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
 import_source:
+  type: google
   commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
   api_version: v1
   last_modified: '2026-05-13'

@@ -35,9 +35,10 @@ fonts:
     copyright: Copyright (c) 2010 - 2012, Matt McInerney (matt@pixelspread.com), Pablo
       Impallari(impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) and
       Brenda Gallo(gbrenda1987@gmail.com), with Reserved Font Name "Raleway"
-    font: 6NUR8FifJg6AfQvzpshgwJ8kyf9Fdty2ew.ttf
+    font: RalewayDots-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: 6NUR8FifJg6AfQvzpshgwJ8kyf9Fdty2ew.ttf
     formats:
     - ttf
     - woff2
@@ -46,7 +47,6 @@ extract: {}
 copyright: Copyright (c) 2010 - 2012, Matt McInerney (matt@pixelspread.com), Pablo
   Impallari(impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) and Brenda
   Gallo(gbrenda1987@gmail.com), with Reserved Font Name "Raleway"
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2010, Matt McInerney (matt@pixelspread.com), Copyright (c)
   2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2012,
@@ -164,4 +164,9 @@ open_license: "Copyright (c) 2010, Matt McInerney (matt@pixelspread.com), Copyri
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-11'
+  family_id: raleway_dots

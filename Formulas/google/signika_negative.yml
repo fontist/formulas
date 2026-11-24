@@ -16,9 +16,9 @@ resources:
     source: google
     family: Signika Negative
     files:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/signikanegative/SignikaNegative[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/signikanegative/SignikaNegative[wght].ttf
     urls:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/signikanegative/SignikaNegative[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/signikanegative/SignikaNegative[wght].ttf
     format: ttf
     variable_axes:
     - wght
@@ -63,11 +63,12 @@ fonts:
     post_script_name: SignikaNegative-Light
     version: '2.001'
     copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
-    font: E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RAr5S73st9hiuEq8.ttf
+    font: SignikaNegative-Light.ttf
     preferred_family_name: Signika Negative
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RAr5S73st9hiuEq8.ttf
     formats:
     - ttf
     - woff2
@@ -81,9 +82,10 @@ fonts:
     post_script_name: SignikaNegative-Regular
     version: '2.001'
     copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
-    font: E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RAqnS73st9hiuEq8.ttf
+    font: SignikaNegative-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RAqnS73st9hiuEq8.ttf
     formats:
     - ttf
     - woff2
@@ -95,9 +97,10 @@ fonts:
     post_script_name: SignikaNegative-Bold
     version: '2.001'
     copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
-    font: E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RApATL3st9hiuEq8.ttf
+    font: SignikaNegative-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RApATL3st9hiuEq8.ttf
     formats:
     - ttf
     - woff2
@@ -123,11 +126,12 @@ fonts:
     post_script_name: SignikaNegative-Medium
     version: '2.001'
     copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
-    font: E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RAqVS73st9hiuEq8.ttf
+    font: SignikaNegative-Medium.ttf
     preferred_family_name: Signika Negative
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RAqVS73st9hiuEq8.ttf
     formats:
     - ttf
     - woff2
@@ -141,11 +145,12 @@ fonts:
     post_script_name: SignikaNegative-SemiBold
     version: '2.001'
     copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
-    font: E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RAp5TL3st9hiuEq8.ttf
+    font: SignikaNegative-SemiBold.ttf
     preferred_family_name: Signika Negative
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: E21x_cfngu7HiRpPX3ZpNE4kY5zKSPmJXkF0VDD2RAp5TL3st9hiuEq8.ttf
     formats:
     - ttf
     - woff2
@@ -153,7 +158,6 @@ fonts:
     source_resource: ttf_static
 extract: {}
 copyright: Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -259,4 +263,9 @@ open_license: "Copyright 2018 The Signika Project Authors (https://github.com/go
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-02'
+  family_id: signika_negative

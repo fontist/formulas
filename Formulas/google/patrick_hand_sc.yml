@@ -36,16 +36,16 @@ fonts:
     version: 1.003;PS 001.003;hotconv 1.0.70;makeotf.lib2.5.58329; ttfautohint (v0.94.20-1c74)
       -l 8 -r 50 -G 200 -x 14 -w "gGD" -c -f
     copyright: Copyright (c) 2012 Patrick Wagesreiter (mail@patrickwagesreiter.at)
-    font: 0nkwC9f7MfsBiWcLtY65AWDK873ViSi6JQc7Vg.ttf
+    font: PatrickHandSC-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: 0nkwC9f7MfsBiWcLtY65AWDK873ViSi6JQc7Vg.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2012 Patrick Wagesreiter (mail@patrickwagesreiter.at)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2012 The Patrick Hand Authors (mail@patrickwagesreiter.at)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -151,4 +151,9 @@ open_license: "Copyright 2012 The Patrick Hand Authors (mail@patrickwagesreiter.
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: patrick_hand_sc

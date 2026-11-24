@@ -37,9 +37,10 @@ fonts:
     post_script_name: LibertinusSans-Regular
     version: 7.051;RELEASE
     copyright:
-    font: YA9Lr0-a6k7ZLbw_dle4knJh2cqMjt3V_dB0Yw.ttf
+    font: LibertinusSans-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: YA9Lr0-a6k7ZLbw_dle4knJh2cqMjt3V_dB0Yw.ttf
     formats:
     - ttf
     - woff2
@@ -50,9 +51,10 @@ fonts:
     post_script_name: LibertinusSans-Italic
     version: 7.051;RELEASE
     copyright:
-    font: YA9Jr0-a6k7ZLbw_dle4knJh2cq8jNfR39VkYzCp.ttf
+    font: LibertinusSans-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: YA9Jr0-a6k7ZLbw_dle4knJh2cq8jNfR39VkYzCp.ttf
     formats:
     - ttf
     - woff2
@@ -63,9 +65,10 @@ fonts:
     post_script_name: LibertinusSans-Bold
     version: 7.051;RELEASE
     copyright:
-    font: YA9Or0-a6k7ZLbw_dle4knJh2cq0MvLx9ftoaimwmw.ttf
+    font: LibertinusSans-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: YA9Or0-a6k7ZLbw_dle4knJh2cq0MvLx9ftoaimwmw.ttf
     formats:
     - ttf
     - woff2
@@ -123,7 +126,6 @@ copyright: "Copyright 2025 The Libertinus Sans Project Authors (https://github.c
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2025 The Libertinus Sans Project Authors (https://github.com/googlefonts/libertinus)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -229,4 +231,9 @@ open_license: "Copyright 2025 The Libertinus Sans Project Authors (https://githu
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-07-30'
+  family_id: libertinus_sans

@@ -4,8 +4,8 @@ schema_version: 5
 description: 'Foundry: Sorkin Type Co Trykker is a high contrast serifed text face.
   Trykker has a pleasant old fashioned elegance derived from on 16th century text
   faces. Trykker can be used from small sizes to larger display settings. Source files
-  are available from Google Code . To contribute to the project contact Eben Sorkin
-  .'
+  are available from github.com/SorkinType/Trykker . To contribute to the project
+  contact Eben Sorkin .'
 homepage: https://fonts.google.com/specimen/Trykker
 resources:
   ttf_static:
@@ -34,9 +34,10 @@ fonts:
     version: '1.001'
     copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved
       Font Name "Trykker".
-    font: KtktALyWZJXudUPzhNnoOd2j22U.ttf
+    font: Trykker-Regular.ttf
     description: This Font Software is licensed under the SIL Open Font License, Version
       1.1.
+    source_font: KtktALyWZJXudUPzhNnoOd2j22U.ttf
     formats:
     - ttf
     - woff2
@@ -44,7 +45,6 @@ fonts:
 extract: {}
 copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved Font
   Name "Trykker".
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),\nwith Reserved
   Font Name \"Trykker\".\n\nThis Font Software is licensed under the SIL Open Font
@@ -152,4 +152,9 @@ open_license: "Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),\nwith 
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: trykker

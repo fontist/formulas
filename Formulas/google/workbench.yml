@@ -16,9 +16,9 @@ resources:
     source: google
     family: Workbench
     files:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/workbench/Workbench[BLED,SCAN].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/workbench/Workbench[BLED,SCAN].ttf
     urls:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/workbench/Workbench[BLED,SCAN].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/workbench/Workbench[BLED,SCAN].ttf
     format: ttf
     variable_axes:
     - BLED
@@ -48,9 +48,10 @@ fonts:
     post_script_name: Workbench-Regular
     version: '2.001'
     copyright: Copyright 2021 The Workbench Project Authors (https://github.com/jenskutilek/homecomputer-fonts)
-    font: FeV8S05Gp6Et7FcfbPFK1rynGd_MxtkvNFmoUDFhgF2VKTGQk6vapdOL0GKqgZyb.ttf
+    font: Workbench-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: FeV8S05Gp6Et7FcfbPFK1rynGd_MxtkvNFmoUDFhgF2VKTGQk6vapdOL0GKqgZyb.ttf
     formats:
     - ttf
     - woff2
@@ -71,7 +72,6 @@ fonts:
     source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2021 The Workbench Project Authors (https://github.com/jenskutilek/homecomputer-fonts)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2021 The Workbench Project Authors (https://github.com/jenskutilek/homecomputer-fonts)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -177,4 +177,9 @@ open_license: "Copyright 2021 The Workbench Project Authors (https://github.com/
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-11'
+  family_id: workbench

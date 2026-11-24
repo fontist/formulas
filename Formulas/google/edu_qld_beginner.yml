@@ -23,9 +23,9 @@ resources:
     source: google
     family: Edu QLD Beginner
     files:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/eduqldbeginner/EduQLDBeginner[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/eduqldbeginner/EduQLDBeginner[wght].ttf
     urls:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/eduqldbeginner/EduQLDBeginner[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/eduqldbeginner/EduQLDBeginner[wght].ttf
     format: ttf
     variable_axes:
     - wght
@@ -66,9 +66,10 @@ fonts:
     post_script_name: EduQLDBeginner-Regular
     version: '1.003'
     copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
-    font: AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE4E3oebi6vyVWCN.ttf
+    font: EduQLDBeginner-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE4E3oebi6vyVWCN.ttf
     formats:
     - ttf
     - woff2
@@ -80,9 +81,10 @@ fonts:
     post_script_name: EduQLDBeginner-Bold
     version: '1.003'
     copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
-    font: AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE7j2Yebi6vyVWCN.ttf
+    font: EduQLDBeginner-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE7j2Yebi6vyVWCN.ttf
     formats:
     - ttf
     - woff2
@@ -108,11 +110,12 @@ fonts:
     post_script_name: EduQLDBeginner-Medium
     version: '1.003'
     copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
-    font: AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE423oebi6vyVWCN.ttf
+    font: EduQLDBeginner-Medium.ttf
     preferred_family_name: Edu QLD Beginner
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE423oebi6vyVWCN.ttf
     formats:
     - ttf
     - woff2
@@ -126,11 +129,12 @@ fonts:
     post_script_name: EduQLDBeginner-SemiBold
     version: '1.003'
     copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
-    font: AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE7a2Yebi6vyVWCN.ttf
+    font: EduQLDBeginner-SemiBold.ttf
     preferred_family_name: Edu QLD Beginner
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: AMOHz5iUuHLEMNXyohhc_Y56PR3A8dNLF_w3Ka4HKE7a2Yebi6vyVWCN.ttf
     formats:
     - ttf
     - woff2
@@ -138,7 +142,6 @@ fonts:
     source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -244,4 +247,9 @@ open_license: "Copyright 2022 The AU School Handwriting Fonts Project Authors (h
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: edu_qld_beginner

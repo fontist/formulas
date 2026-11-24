@@ -12,9 +12,9 @@ resources:
     source: google
     family: Pixelify Sans
     files:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/pixelifysans/PixelifySans[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/pixelifysans/PixelifySans[wght].ttf
     urls:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/pixelifysans/PixelifySans[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/pixelifysans/PixelifySans[wght].ttf
     format: ttf
     variable_axes:
     - wght
@@ -55,9 +55,10 @@ fonts:
     post_script_name: PixelifySans-Regular
     version: '1.000'
     copyright: Copyright 2021 The Pixelify Sans Project Authors (https://github.com/eifetx/Pixelify-Sans)
-    font: CHy2V-3HFUT7aC4iv1TxGDR9DHEserHN25py2TTp0H1Yb5JagkmX.ttf
+    font: PixelifySans-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: CHy2V-3HFUT7aC4iv1TxGDR9DHEserHN25py2TTp0H1Yb5JagkmX.ttf
     formats:
     - ttf
     - woff2
@@ -69,9 +70,10 @@ fonts:
     post_script_name: PixelifySans-Bold
     version: '1.000'
     copyright: Copyright 2021 The Pixelify Sans Project Authors (https://github.com/eifetx/Pixelify-Sans)
-    font: CHy2V-3HFUT7aC4iv1TxGDR9DHEserHN25py2TQO131Yb5JagkmX.ttf
+    font: PixelifySans-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: CHy2V-3HFUT7aC4iv1TxGDR9DHEserHN25py2TQO131Yb5JagkmX.ttf
     formats:
     - ttf
     - woff2
@@ -97,11 +99,12 @@ fonts:
     post_script_name: PixelifySans-Medium
     version: '1.000'
     copyright: Copyright 2021 The Pixelify Sans Project Authors (https://github.com/eifetx/Pixelify-Sans)
-    font: CHy2V-3HFUT7aC4iv1TxGDR9DHEserHN25py2TTb0H1Yb5JagkmX.ttf
+    font: PixelifySans-Medium.ttf
     preferred_family_name: Pixelify Sans
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: CHy2V-3HFUT7aC4iv1TxGDR9DHEserHN25py2TTb0H1Yb5JagkmX.ttf
     formats:
     - ttf
     - woff2
@@ -115,11 +118,12 @@ fonts:
     post_script_name: PixelifySans-SemiBold
     version: '1.000'
     copyright: Copyright 2021 The Pixelify Sans Project Authors (https://github.com/eifetx/Pixelify-Sans)
-    font: CHy2V-3HFUT7aC4iv1TxGDR9DHEserHN25py2TQ3131Yb5JagkmX.ttf
+    font: PixelifySans-SemiBold.ttf
     preferred_family_name: Pixelify Sans
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: CHy2V-3HFUT7aC4iv1TxGDR9DHEserHN25py2TQ3131Yb5JagkmX.ttf
     formats:
     - ttf
     - woff2
@@ -127,7 +131,6 @@ fonts:
     source_resource: ttf_static
 extract: {}
 copyright: Copyright 2021 The Pixelify Sans Project Authors (https://github.com/eifetx/Pixelify-Sans)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2021 The Pixelify Sans Project Authors (https://github.com/eifetx/Pixelify-Sans)\r\n\r\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis
@@ -239,4 +242,9 @@ open_license: "Copyright 2021 The Pixelify Sans Project Authors (https://github.
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: pixelify_sans

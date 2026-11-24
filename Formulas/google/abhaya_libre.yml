@@ -68,9 +68,10 @@ fonts:
     copyright: Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com)
       Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak
       (hello@mooniak.com)
-    font: e3tmeuGtX-Co5MNzeAOqinEge0PWovdU4w.ttf
+    font: AbhayaLibre-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: e3tmeuGtX-Co5MNzeAOqinEge0PWovdU4w.ttf
     formats:
     - ttf
     - woff2
@@ -83,9 +84,10 @@ fonts:
     copyright: Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com)
       Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak
       (hello@mooniak.com)
-    font: e3t5euGtX-Co5MNzeAOqinEYx2zyqtxI6oYtBA.ttf
+    font: AbhayaLibre-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: e3t5euGtX-Co5MNzeAOqinEYx2zyqtxI6oYtBA.ttf
     formats:
     - ttf
     - woff2
@@ -100,9 +102,10 @@ fonts:
     copyright: Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com)
       Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak
       (hello@mooniak.com)
-    font: e3t5euGtX-Co5MNzeAOqinEYj2ryqtxI6oYtBA.ttf
+    font: AbhayaLibre-Medium.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: e3t5euGtX-Co5MNzeAOqinEYj2ryqtxI6oYtBA.ttf
     formats:
     - ttf
     - woff2
@@ -117,9 +120,10 @@ fonts:
     copyright: Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com)
       Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak
       (hello@mooniak.com)
-    font: e3t5euGtX-Co5MNzeAOqinEYo23yqtxI6oYtBA.ttf
+    font: AbhayaLibre-SemiBold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: e3t5euGtX-Co5MNzeAOqinEYo23yqtxI6oYtBA.ttf
     formats:
     - ttf
     - woff2
@@ -134,9 +138,10 @@ fonts:
     copyright: Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com)
       Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak
       (hello@mooniak.com)
-    font: e3t5euGtX-Co5MNzeAOqinEY22_yqtxI6oYtBA.ttf
+    font: AbhayaLibre-ExtraBold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: e3t5euGtX-Co5MNzeAOqinEY22_yqtxI6oYtBA.ttf
     formats:
     - ttf
     - woff2
@@ -145,7 +150,6 @@ extract: {}
 copyright: Copyright (c) 1996-2015 Pushpananda Ekanayake (pushpanandae@gmail.com)
   Copyright (c) 2015 Sol Matas (sol@sonnenshine.com.ar) Copyright (c) 2015 Mooniak
   (hello@mooniak.com)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: |
   Copyright (c) 2013-2016 Abhaya Libre Project Authors (https://github.com/mooniak/abhaya-libre-font).
@@ -337,4 +341,9 @@ open_license: |
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: abhaya_libre

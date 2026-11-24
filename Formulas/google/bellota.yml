@@ -54,11 +54,12 @@ fonts:
     post_script_name: Bellota-Light
     version: '4.001'
     copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
-    font: MwQzbhXl3_qEpiwAID55kGMViblPtXs.ttf
+    font: Bellota-Light.ttf
     preferred_family_name: Bellota
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: MwQzbhXl3_qEpiwAID55kGMViblPtXs.ttf
     formats:
     - ttf
     - woff2
@@ -69,11 +70,12 @@ fonts:
     post_script_name: Bellota-LightItalic
     version: '4.001'
     copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
-    font: MwQxbhXl3_qEpiwAKJBjHGEfjZtKpXulTQ.ttf
+    font: Bellota-LightItalic.ttf
     preferred_family_name: Bellota
     preferred_type: Light Italic
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: MwQxbhXl3_qEpiwAKJBjHGEfjZtKpXulTQ.ttf
     formats:
     - ttf
     - woff2
@@ -86,9 +88,10 @@ fonts:
     post_script_name: Bellota-Regular
     version: '4.001'
     copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
-    font: MwQ2bhXl3_qEpiwAGJJRtGs-lbA.ttf
+    font: Bellota-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: MwQ2bhXl3_qEpiwAGJJRtGs-lbA.ttf
     formats:
     - ttf
     - woff2
@@ -99,9 +102,10 @@ fonts:
     post_script_name: Bellota-Italic
     version: '4.001'
     copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
-    font: MwQ0bhXl3_qEpiwAKJBbsEk7hbBWrA.ttf
+    font: Bellota-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: MwQ0bhXl3_qEpiwAKJBbsEk7hbBWrA.ttf
     formats:
     - ttf
     - woff2
@@ -112,9 +116,10 @@ fonts:
     post_script_name: Bellota-Bold
     version: '4.001'
     copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
-    font: MwQzbhXl3_qEpiwAIC5-kGMViblPtXs.ttf
+    font: Bellota-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: MwQzbhXl3_qEpiwAIC5-kGMViblPtXs.ttf
     formats:
     - ttf
     - woff2
@@ -125,16 +130,16 @@ fonts:
     post_script_name: Bellota-BoldItalic
     version: '4.001'
     copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
-    font: MwQxbhXl3_qEpiwAKJBjDGYfjZtKpXulTQ.ttf
+    font: Bellota-BoldItalic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: MwQxbhXl3_qEpiwAKJBjDGYfjZtKpXulTQ.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2019 The Bellota Project Authors (https://github.com/kemie/Bellota-Font)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -240,4 +245,9 @@ open_license: "Copyright 2019 The Bellota Project Authors (https://github.com/ke
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: bellota

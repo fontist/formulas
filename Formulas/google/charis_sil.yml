@@ -49,7 +49,7 @@ fonts:
     post_script_name: CharisSIL
     version: '6.101'
     copyright: Copyright (c) 1997-2022 SIL International
-    font: oPWK_kV3l-s-Q8govXvKrPrmYjZ2Xn0.ttf
+    font: CharisSIL.ttf
     description: |-
       Copyright (c) 1997-2022 SIL International (http://www.sil.org/) with Reserved Font Names "Charis" and "SIL".
 
@@ -94,6 +94,7 @@ fonts:
 
       DISCLAIMER
       THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+    source_font: oPWK_kV3l-s-Q8govXvKrPrmYjZ2Xn0.ttf
     formats:
     - ttf
     - woff2
@@ -104,7 +105,7 @@ fonts:
     post_script_name: CharisSIL-Italic
     version: '6.101'
     copyright: Copyright (c) 1997-2022 SIL International
-    font: oPWI_kV3l-s-Q8govXvKnPjsZhRzTn2Ozw.ttf
+    font: CharisSIL-Italic.ttf
     description: |-
       Copyright (c) 1997-2022 SIL International (http://www.sil.org/) with Reserved Font Names "Charis" and "SIL".
 
@@ -149,6 +150,7 @@ fonts:
 
       DISCLAIMER
       THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+    source_font: oPWI_kV3l-s-Q8govXvKnPjsZhRzTn2Ozw.ttf
     formats:
     - ttf
     - woff2
@@ -159,7 +161,7 @@ fonts:
     post_script_name: CharisSIL-Bold
     version: '6.101'
     copyright: Copyright (c) 1997-2022 SIL International
-    font: oPWJ_kV3l-s-Q8govXvKlEbJRj5dQnSX1ko.ttf
+    font: CharisSIL-Bold.ttf
     description: |-
       Copyright (c) 1997-2022 SIL International (http://www.sil.org/) with Reserved Font Names "Charis" and "SIL".
 
@@ -204,6 +206,7 @@ fonts:
 
       DISCLAIMER
       THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+    source_font: oPWJ_kV3l-s-Q8govXvKlEbJRj5dQnSX1ko.ttf
     formats:
     - ttf
     - woff2
@@ -214,7 +217,7 @@ fonts:
     post_script_name: CharisSIL-BoldItalic
     version: '6.101'
     copyright: Copyright (c) 1997-2022 SIL International
-    font: oPWX_kV3l-s-Q8govXvKnPjU2jtXRlaSxkrMCQ.ttf
+    font: CharisSIL-BoldItalic.ttf
     description: |-
       Copyright (c) 1997-2022 SIL International (http://www.sil.org/) with Reserved Font Names "Charis" and "SIL".
 
@@ -259,13 +262,13 @@ fonts:
 
       DISCLAIMER
       THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+    source_font: oPWX_kV3l-s-Q8govXvKnPjU2jtXRlaSxkrMCQ.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 1997-2022 SIL International
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 1997-2022 SIL International (http://www.sil.org/)\r\nwith
   Reserved Font Names \"Charis\" and \"SIL\".\r\n\r\nThis Font Software is licensed
@@ -379,4 +382,9 @@ open_license: "Copyright (c) 1997-2022 SIL International (http://www.sil.org/)\r
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-05-30'
+  family_id: charis_sil

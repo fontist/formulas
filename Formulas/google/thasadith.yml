@@ -42,9 +42,10 @@ fonts:
     post_script_name: Thasadith-Regular
     version: 1.000; ttfautohint (v1.6)
     copyright: Copyright 2018 The Thasadith Project Authors (https://github.com/cadsondemak/Thasadith)
-    font: mtG44_1TIqPYrd_f5R1YsEkU0CWuFw.ttf
+    font: Thasadith-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: mtG44_1TIqPYrd_f5R1YsEkU0CWuFw.ttf
     formats:
     - ttf
     - woff2
@@ -55,9 +56,10 @@ fonts:
     post_script_name: Thasadith-Italic
     version: 1.000; ttfautohint (v1.6)
     copyright: Copyright 2018 The Thasadith Project Authors (https://github.com/cadsondemak/Thasadith)
-    font: mtG-4_1TIqPYrd_f5R1oskMQ8iC-F1ZE.ttf
+    font: Thasadith-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: mtG-4_1TIqPYrd_f5R1oskMQ8iC-F1ZE.ttf
     formats:
     - ttf
     - woff2
@@ -68,9 +70,10 @@ fonts:
     post_script_name: Thasadith-Bold
     version: 1.000; ttfautohint (v1.6)
     copyright: Copyright 2018 The Thasadith Project Authors (https://github.com/cadsondemak/Thasadith)
-    font: mtG94_1TIqPYrd_f5R1gDGYw2A6yHk9d8w.ttf
+    font: Thasadith-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: mtG94_1TIqPYrd_f5R1gDGYw2A6yHk9d8w.ttf
     formats:
     - ttf
     - woff2
@@ -81,16 +84,16 @@ fonts:
     post_script_name: Thasadith-BoldItalic
     version: 1.000; ttfautohint (v1.6)
     copyright: Copyright 2018 The Thasadith Project Authors (https://github.com/cadsondemak/Thasadith)
-    font: mtGj4_1TIqPYrd_f5R1osnus3QS2PEpN8zxA.ttf
+    font: Thasadith-BoldItalic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: mtGj4_1TIqPYrd_f5R1osnus3QS2PEpN8zxA.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2018 The Thasadith Project Authors (https://github.com/cadsondemak/Thasadith)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2018 The Thasadith Project Authors (https://github.com/cadsondemak/Thasadith)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -196,4 +199,9 @@ open_license: "Copyright 2018 The Thasadith Project Authors (https://github.com/
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: thasadith

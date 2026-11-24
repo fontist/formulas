@@ -8,17 +8,17 @@ resources:
     source: google
     family: WDXL Lubrifont JP N
     files:
-    - https://fonts.gstatic.com/s/wdxllubrifontjpn/v2/8At1GtSkFqazDiO949fzWta9_T-SVxJiIZctoLhFRNU.ttf
+    - https://fonts.gstatic.com/s/wdxllubrifontjpn/v3/8At1GtSkFqazDiO949fzWta9_T-SVxJiIZctoLhFRNU.ttf
     urls:
-    - https://fonts.gstatic.com/s/wdxllubrifontjpn/v2/8At1GtSkFqazDiO949fzWta9_T-SVxJiIZctoLhFRNU.ttf
+    - https://fonts.gstatic.com/s/wdxllubrifontjpn/v3/8At1GtSkFqazDiO949fzWta9_T-SVxJiIZctoLhFRNU.ttf
     format: ttf
   woff2_static:
     source: google
     family: WDXL Lubrifont JP N
     files:
-    - https://fonts.gstatic.com/s/wdxllubrifontjpn/v2/8At1GtSkFqazDiO949fzWta9_T-SVxJiIZItoLhFRNU.woff2
+    - https://fonts.gstatic.com/s/wdxllubrifontjpn/v3/8At1GtSkFqazDiO949fzWta9_T-SVxJiIZItoLhFRNU.woff2
     urls:
-    - https://fonts.gstatic.com/s/wdxllubrifontjpn/v2/8At1GtSkFqazDiO949fzWta9_T-SVxJiIZItoLhFRNU.woff2
+    - https://fonts.gstatic.com/s/wdxllubrifontjpn/v3/8At1GtSkFqazDiO949fzWta9_T-SVxJiIZItoLhFRNU.woff2
     format: woff2
 fonts:
 - name: WDXL Lubrifont JP N
@@ -29,16 +29,16 @@ fonts:
     post_script_name: WDXLLubrifontJPN-Regular
     version: 2.001;hotconv 1.1.1;makeotfexe 2.6.0
     copyright: Copyright 2025 The WDXL Lubrifont Project Authors (https://github.com/NightFurySL2001/WD-XL-font)
-    font: 8At1GtSkFqazDiO949fzWta9_T-SVxJiIZctoLhFRNU.ttf
+    font: WDXLLubrifontJPN-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: 8At1GtSkFqazDiO949fzWta9_T-SVxJiIZctoLhFRNU.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2025 The WDXL Lubrifont Project Authors (https://github.com/NightFurySL2001/WD-XL-font)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2025 The WDXL Lubrifont Project Authors (https://github.com/NightFurySL2001/WD-XL-font)\nCopyright
   2018-2020 The ZCOOL QingKe HuangYou Project Authors (https://www.github.com/googlefonts/zcool-qingke-huangyou)\n\nThis
@@ -146,4 +146,9 @@ open_license: "Copyright 2025 The WDXL Lubrifont Project Authors (https://github
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2026-10-01'
+  family_id: wdxl_lubrifont_jp_n

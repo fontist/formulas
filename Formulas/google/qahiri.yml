@@ -12,17 +12,17 @@ resources:
     source: google
     family: Qahiri
     files:
-    - https://fonts.gstatic.com/s/qahiri/v11/tsssAp1RZy0C_hGuU3Chrnmupw.ttf
+    - https://fonts.gstatic.com/s/qahiri/v13/tsssAp1RZy0C_hGuU3Chrnmupw.ttf
     urls:
-    - https://fonts.gstatic.com/s/qahiri/v11/tsssAp1RZy0C_hGuU3Chrnmupw.ttf
+    - https://fonts.gstatic.com/s/qahiri/v13/tsssAp1RZy0C_hGuU3Chrnmupw.ttf
     format: ttf
   woff2_static:
     source: google
     family: Qahiri
     files:
-    - https://fonts.gstatic.com/s/qahiri/v11/tsssAp1RZy0C_hGuVnChrnmupw.woff2
+    - https://fonts.gstatic.com/s/qahiri/v13/tsssAp1RZy0C_hGuVnChrnmupw.woff2
     urls:
-    - https://fonts.gstatic.com/s/qahiri/v11/tsssAp1RZy0C_hGuVnChrnmupw.woff2
+    - https://fonts.gstatic.com/s/qahiri/v13/tsssAp1RZy0C_hGuVnChrnmupw.woff2
     format: woff2
 fonts:
 - name: Qahiri
@@ -31,20 +31,20 @@ fonts:
     type: Regular
     full_name: Qahiri Regular
     post_script_name: Qahiri-Regular
-    version: '3.00'
-    copyright: Copyright 2021 The Qahiri Project Authors (github.com/alif-type/qahiri).
-    font: tsssAp1RZy0C_hGuU3Chrnmupw.ttf
+    version: '4.000'
+    copyright: Copyright 2021 The Qahiri Project Authors (github.com/aliftype/qahiri).
+    font: Qahiri-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: tsssAp1RZy0C_hGuU3Chrnmupw.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
-copyright: Copyright 2021 The Qahiri Project Authors (github.com/alif-type/qahiri).
-spdx_license: OFL-1.1-no-RFN
+copyright: Copyright 2021 The Qahiri Project Authors (github.com/aliftype/qahiri).
 license_url: https://scripts.sil.org/OFL
-license: "Copyright 2021 The Qahiri Project Authors (github.com/alif-type/qahiri)\n\nThis
+license: "Copyright 2021 The Qahiri Project Authors (github.com/aliftype/qahiri).\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
   is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL\n\n\n-----------------------------------------------------------\nSIL
   OPEN FONT LICENSE Version 1.1 - 26 February 2007\n-----------------------------------------------------------\n\nPREAMBLE\nThe
@@ -95,8 +95,8 @@ license: "Copyright 2021 The Qahiri Project Authors (github.com/alif-type/qahiri
   NO EVENT SHALL THE\nCOPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nINCLUDING
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
-  TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-open_license: "Copyright 2021 The Qahiri Project Authors (github.com/alif-type/qahiri)\n\nThis
+  TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n\n"
+open_license: "Copyright 2021 The Qahiri Project Authors (github.com/aliftype/qahiri).\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
   is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL\n\n\n-----------------------------------------------------------\nSIL
   OPEN FONT LICENSE Version 1.1 - 26 February 2007\n-----------------------------------------------------------\n\nPREAMBLE\nThe
@@ -147,5 +147,10 @@ open_license: "Copyright 2021 The Qahiri Project Authors (github.com/alif-type/q
   NO EVENT SHALL THE\nCOPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nINCLUDING
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
-  TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+  TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n\n"
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2026-08-25'
+  family_id: qahiri

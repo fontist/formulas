@@ -48,9 +48,10 @@ fonts:
     post_script_name: AtkinsonHyperlegible-Regular
     version: 1.006; ttfautohint (v1.8.3)
     copyright: Copyright 2020 Braille Institute of America, Inc.
-    font: 9Bt23C1KxNDXMspQ1lPyU89-1h6ONRlW45GE5ZgpewSSbQ.ttf
+    font: AtkinsonHyperlegible-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: 9Bt23C1KxNDXMspQ1lPyU89-1h6ONRlW45GE5ZgpewSSbQ.ttf
     formats:
     - ttf
     - woff2
@@ -61,9 +62,10 @@ fonts:
     post_script_name: AtkinsonHyperlegible-Italic
     version: 1.006; ttfautohint (v1.8.3)
     copyright: Copyright 2020 Braille Institute of America, Inc.
-    font: 9Bt43C1KxNDXMspQ1lPyU89-1h6ONRlW45G055ItWQGCbUWn.ttf
+    font: AtkinsonHyperlegible-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: 9Bt43C1KxNDXMspQ1lPyU89-1h6ONRlW45G055ItWQGCbUWn.ttf
     formats:
     - ttf
     - woff2
@@ -74,9 +76,10 @@ fonts:
     post_script_name: AtkinsonHyperlegible-Bold
     version: 1.006; ttfautohint (v1.8.3)
     copyright: Copyright 2020 Braille Institute of America, Inc.
-    font: 9Bt73C1KxNDXMspQ1lPyU89-1h6ONRlW45G8WbcNcy-OZFy-FA.ttf
+    font: AtkinsonHyperlegible-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: 9Bt73C1KxNDXMspQ1lPyU89-1h6ONRlW45G8WbcNcy-OZFy-FA.ttf
     formats:
     - ttf
     - woff2
@@ -87,16 +90,16 @@ fonts:
     post_script_name: AtkinsonHyperlegible-BoldItalic
     version: 1.006; ttfautohint (v1.8.3)
     copyright: Copyright 2020 Braille Institute of America, Inc.
-    font: 9Bt93C1KxNDXMspQ1lPyU89-1h6ONRlW45G056qRdiWKRlmuFH24.ttf
+    font: AtkinsonHyperlegible-BoldItalic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: 9Bt93C1KxNDXMspQ1lPyU89-1h6ONRlW45G056qRdiWKRlmuFH24.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2020 Braille Institute of America, Inc.
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2020 Braille Institute of America, Inc.\n\nThis Font Software
   is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied
@@ -202,4 +205,9 @@ open_license: "Copyright 2020 Braille Institute of America, Inc.\n\nThis Font So
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: atkinson_hyperlegible

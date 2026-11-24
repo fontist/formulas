@@ -51,11 +51,12 @@ fonts:
       \"Volkhov\" and \"Volkhov Regular\".\r\rThis Font Software is licensed under
       the SIL Open Font License,\rVersion 1.1. This license is available with a FAQ
       at:\rhttp://scripts.sil.org/OFL"
-    font: SlGQmQieoJcKemNeQTIOhHxzcD0.ttf
+    font: Volkhov-Regular.ttf
     description: "Copyright (c) 2011, Cyreal (www.cyreal.org)\rwith Reserved Font
       Name \"Volkhov\" and \"Volkhov Regular\".\r\rThis Font Software is licensed
       under the SIL Open Font License,\rVersion 1.1. This license is available with
       a FAQ at:\rhttp://scripts.sil.org/OFL"
+    source_font: SlGQmQieoJcKemNeQTIOhHxzcD0.ttf
     formats:
     - ttf
     - woff2
@@ -69,11 +70,12 @@ fonts:
       \"Volkhov\" and \"Volkhov Italic\".\r\rThis Font Software is licensed under
       the SIL Open Font License,\rVersion 1.1. This license is available with a FAQ
       at:\rhttp://scripts.sil.org/OFL"
-    font: SlGSmQieoJcKemNecTAEgF52YD0NYw.ttf
+    font: Volkhov-Italic.ttf
     description: "Copyright (c) 2011, Cyreal (www.cyreal.org)\rwith Reserved Font
       Name \"Volkhov\" and \"Volkhov Italic\".\r\rThis Font Software is licensed under
       the SIL Open Font License,\rVersion 1.1. This license is available with a FAQ
       at:\rhttp://scripts.sil.org/OFL"
+    source_font: SlGSmQieoJcKemNecTAEgF52YD0NYw.ttf
     formats:
     - ttf
     - woff2
@@ -86,11 +88,12 @@ fonts:
     copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org)\rwith Reserved Font Name
       \"Volkhov\" and \"Volkhov Bold\".\r\rThis Font Software is licensed under the
       SIL Open Font License,\rVersion 1.1. This license is available with a FAQ at:\rhttp://scripts.sil.org/OFL"
-    font: SlGVmQieoJcKemNeeY4hoHRYbDQUego.ttf
+    font: Volkhov-Bold.ttf
     description: "Copyright (c) 2011, Cyreal (www.cyreal.org)\rwith Reserved Font
       Name \"Volkhov\" and \"Volkhov Bold\".\r\rThis Font Software is licensed under
       the SIL Open Font License,\rVersion 1.1. This license is available with a FAQ
       at:\rhttp://scripts.sil.org/OFL"
+    source_font: SlGVmQieoJcKemNeeY4hoHRYbDQUego.ttf
     formats:
     - ttf
     - woff2
@@ -104,11 +107,12 @@ fonts:
       \"Volkhov\" and \"Volkhov Bold Italic\".\r\rThis Font Software is licensed under
       the SIL Open Font License,\rVersion 1.1. This license is available with a FAQ
       at:\rhttp://scripts.sil.org/OFL"
-    font: SlGXmQieoJcKemNecTA8PHFSaBYRagrQrA.ttf
+    font: Volkhov-BoldItalic.ttf
     description: "Copyright (c) 2011, Cyreal (www.cyreal.org)\rwith Reserved Font
       Name \"Volkhov\" and \"Volkhov Bold Italic\".\r\rThis Font Software is licensed
       under the SIL Open Font License,\rVersion 1.1. This license is available with
       a FAQ at:\rhttp://scripts.sil.org/OFL"
+    source_font: SlGXmQieoJcKemNecTA8PHFSaBYRagrQrA.ttf
     formats:
     - ttf
     - woff2
@@ -117,7 +121,6 @@ extract: {}
 copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org)\rwith Reserved Font Name \"Volkhov\"
   and \"Volkhov Regular\".\r\rThis Font Software is licensed under the SIL Open Font
   License,\rVersion 1.1. This license is available with a FAQ at:\rhttp://scripts.sil.org/OFL"
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011, Cyreal (www.cyreal.org),\nwith Reserved Font Name \"Volkhov\".\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -223,4 +226,9 @@ open_license: "Copyright (c) 2011, Cyreal (www.cyreal.org),\nwith Reserved Font 
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: volkhov

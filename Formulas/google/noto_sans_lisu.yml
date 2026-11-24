@@ -10,9 +10,9 @@ resources:
     source: google
     family: Noto Sans Lisu
     files:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosanslisu/NotoSansLisu[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/notosanslisu/NotoSansLisu[wght].ttf
     urls:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/notosanslisu/NotoSansLisu[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/notosanslisu/NotoSansLisu[wght].ttf
     format: ttf
     variable_axes:
     - wght
@@ -53,9 +53,10 @@ fonts:
     post_script_name: NotoSansLisu-Regular
     version: '2.102'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/lisu)
-    font: uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHP2Vwt29IlxkVdig.ttf
+    font: NotoSansLisu-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHP2Vwt29IlxkVdig.ttf
     formats:
     - ttf
     - woff2
@@ -67,9 +68,10 @@ fonts:
     post_script_name: NotoSansLisu-Bold
     version: '2.102'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/lisu)
-    font: uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHPPlst29IlxkVdig.ttf
+    font: NotoSansLisu-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHPPlst29IlxkVdig.ttf
     formats:
     - ttf
     - woff2
@@ -95,11 +97,12 @@ fonts:
     post_script_name: NotoSansLisu-Medium
     version: '2.102'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/lisu)
-    font: uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHP61wt29IlxkVdig.ttf
+    font: NotoSansLisu-Medium.ttf
     preferred_family_name: Noto Sans Lisu
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHP61wt29IlxkVdig.ttf
     formats:
     - ttf
     - woff2
@@ -113,11 +116,12 @@ fonts:
     post_script_name: NotoSansLisu-SemiBold
     version: '2.102'
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/lisu)
-    font: uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHPB1st29IlxkVdig.ttf
+    font: NotoSansLisu-SemiBold.ttf
     preferred_family_name: Noto Sans Lisu
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: uk-3EGO3o6EruUbnwovcYhz6kh57_nqbcTdjJnHPB1st29IlxkVdig.ttf
     formats:
     - ttf
     - woff2
@@ -125,7 +129,6 @@ fonts:
     source_resource: ttf_static
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/lisu)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/lisu)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -231,4 +234,9 @@ open_license: "Copyright 2022 The Noto Project Authors (https://github.com/notof
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: noto_sans_lisu

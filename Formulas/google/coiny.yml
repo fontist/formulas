@@ -35,7 +35,7 @@ fonts:
     post_script_name: Coiny-Regular
     version: '001.001'
     copyright: Copyright (c) 2015, Marcelo Magalhaes
-    font: gyByhwU1K989PXwbElSvO5Tc.ttf
+    font: Coiny-Regular.ttf
     description: "Copyright (c) 2015, Marcelo Magalhães (<www.marcelomagalhaes.net|marcelommp@gmail.com>),\nwith
       Reserved Font Name Coiny Regular.\n\nThis Font Software is licensed under the
       SIL Open Font License, Version 1.1.\nThis license is copied below, and is also
@@ -92,13 +92,13 @@ fonts:
       INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT,
       TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT
       SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
+    source_font: gyByhwU1K989PXwbElSvO5Tc.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2015, Marcelo Magalhaes
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2015 Marcelo Magalhaes (marcelommp@gmail.com @marcelommp)\r\n\r\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis
@@ -210,4 +210,9 @@ open_license: "Copyright 2015 Marcelo Magalhaes (marcelommp@gmail.com @marcelomm
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: coiny

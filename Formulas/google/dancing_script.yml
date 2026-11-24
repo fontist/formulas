@@ -14,9 +14,9 @@ resources:
     source: google
     family: Dancing Script
     files:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/dancingscript/DancingScript[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/dancingscript/DancingScript[wght].ttf
     urls:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/dancingscript/DancingScript[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/dancingscript/DancingScript[wght].ttf
     format: ttf
     variable_axes:
     - wght
@@ -58,9 +58,10 @@ fonts:
     version: '2.001'
     copyright: Copyright 2016 The Dancing Script Project Authors (https://github.com/googlefonts/DancingScript),
       with Reserved Font Name "Dancing Script".
-    font: If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTeB9ptDqpw.ttf
+    font: DancingScript-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTeB9ptDqpw.ttf
     formats:
     - ttf
     - woff2
@@ -73,9 +74,10 @@ fonts:
     version: '2.001'
     copyright: Copyright 2016 The Dancing Script Project Authors (https://github.com/googlefonts/DancingScript),
       with Reserved Font Name "Dancing Script".
-    font: If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B1i0HTeB9ptDqpw.ttf
+    font: DancingScript-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B1i0HTeB9ptDqpw.ttf
     formats:
     - ttf
     - woff2
@@ -103,11 +105,12 @@ fonts:
     version: '2.001'
     copyright: Copyright 2016 The Dancing Script Project Authors (https://github.com/googlefonts/DancingScript),
       with Reserved Font Name "Dancing Script".
-    font: If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BAyoHTeB9ptDqpw.ttf
+    font: DancingScript-Medium.ttf
     preferred_family_name: Dancing Script
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BAyoHTeB9ptDqpw.ttf
     formats:
     - ttf
     - woff2
@@ -122,11 +125,12 @@ fonts:
     version: '2.001'
     copyright: Copyright 2016 The Dancing Script Project Authors (https://github.com/googlefonts/DancingScript),
       with Reserved Font Name "Dancing Script".
-    font: If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B7y0HTeB9ptDqpw.ttf
+    font: DancingScript-SemiBold.ttf
     preferred_family_name: Dancing Script
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B7y0HTeB9ptDqpw.ttf
     formats:
     - ttf
     - woff2
@@ -135,7 +139,6 @@ fonts:
 extract: {}
 copyright: Copyright 2016 The Dancing Script Project Authors (https://github.com/googlefonts/DancingScript),
   with Reserved Font Name "Dancing Script".
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2016 The Dancing Script Project Authors (https://github.com/googlefonts/DancingScript),
   with Reserved Font Name 'Dancing Script'.\n\nThis Font Software is licensed under
@@ -243,4 +246,9 @@ open_license: "Copyright 2016 The Dancing Script Project Authors (https://github
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: dancing_script

@@ -33,9 +33,10 @@ fonts:
     version: 1.003; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.26]
     copyright: Copyright 2013 The Pathway Gothic Project Authors (https://github.com/etunni/pathway-gothic),
       with Reserved Font Name 'Pathway'
-    font: MwQrbgD32-KAvjkYGNUUxAtW7pEBwx-dTFxeb80flQ.ttf
+    font: PathwayGothicOne-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: MwQrbgD32-KAvjkYGNUUxAtW7pEBwx-dTFxeb80flQ.ttf
     formats:
     - ttf
     - woff2
@@ -43,7 +44,6 @@ fonts:
 extract: {}
 copyright: Copyright 2013 The Pathway Gothic Project Authors (https://github.com/etunni/pathway-gothic),
   with Reserved Font Name 'Pathway'
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2013 The Pathway Gothic Project Authors (https://github.com/etunni/pathway-gothic),
   with Reserved Font Name 'Pathway'\r\n\r\nThis Font Software is licensed under the
@@ -157,4 +157,9 @@ open_license: "Copyright 2013 The Pathway Gothic Project Authors (https://github
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: pathway_gothic_one

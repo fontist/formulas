@@ -34,8 +34,9 @@ fonts:
     post_script_name: Unkempt-Regular
     version: '1.001'
     copyright: Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.
-    font: 2EbnL-Z2DFZue0DSSYYf8z2Yt_c.ttf
+    font: Unkempt-Regular.ttf
     description: Licensed under the Apache License, Version 2.0
+    source_font: 2EbnL-Z2DFZue0DSSYYf8z2Yt_c.ttf
     formats:
     - ttf
     - woff2
@@ -47,17 +48,17 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com)
       with Reseved Font Name "Unkempt Bold"
-    font: 2EbiL-Z2DFZue0DScTow1zWzq_5uT84.ttf
+    font: Unkempt-Bold.ttf
     description: "This Font Software is licensed under the SIL Open Font License,\rVersion
       1.1. This license is available with a FAQ at:\rhttp://scripts.sil.org/OFL"
+    source_font: 2EbiL-Z2DFZue0DScTow1zWzq_5uT84.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.
-spdx_license: Apache-2.0
-license_url: http://www.apache.org/licenses/LICENSE-2.0
+license_url: https://scripts.sil.org/OFL
 license: |2
 
                                    Apache License
@@ -464,4 +465,9 @@ open_license: |2
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-06-02'
+  family_id: unkempt

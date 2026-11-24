@@ -25,9 +25,9 @@ resources:
     source: google
     family: Domine
     files:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/domine/Domine[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/domine/Domine[wght].ttf
     urls:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/domine/Domine[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/domine/Domine[wght].ttf
     format: ttf
     variable_axes:
     - wght
@@ -68,9 +68,10 @@ fonts:
     post_script_name: Domine-Regular
     version: '2.000'
     copyright: Copyright 2020 The Domine Project Authors (https://github.com/googlefonts/domine)
-    font: L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X3LAI10VErGuW8Q.ttf
+    font: Domine-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X3LAI10VErGuW8Q.ttf
     formats:
     - ttf
     - woff2
@@ -82,9 +83,10 @@ fonts:
     post_script_name: Domine-Bold
     version: '2.000'
     copyright: Copyright 2020 The Domine Project Authors (https://github.com/googlefonts/domine)
-    font: L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X5XHI10VErGuW8Q.ttf
+    font: Domine-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X5XHI10VErGuW8Q.ttf
     formats:
     - ttf
     - woff2
@@ -110,11 +112,12 @@ fonts:
     post_script_name: Domine-Medium
     version: '2.000'
     copyright: Copyright 2020 The Domine Project Authors (https://github.com/googlefonts/domine)
-    font: L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X0DAI10VErGuW8Q.ttf
+    font: Domine-Medium.ttf
     preferred_family_name: Domine
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X0DAI10VErGuW8Q.ttf
     formats:
     - ttf
     - woff2
@@ -128,11 +131,12 @@ fonts:
     post_script_name: Domine-SemiBold
     version: '2.000'
     copyright: Copyright 2020 The Domine Project Authors (https://github.com/googlefonts/domine)
-    font: L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X6zHI10VErGuW8Q.ttf
+    font: Domine-SemiBold.ttf
     preferred_family_name: Domine
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: L0xhDFMnlVwD4h3Lt9JWnbX3jG-2X6zHI10VErGuW8Q.ttf
     formats:
     - ttf
     - woff2
@@ -140,7 +144,6 @@ fonts:
     source_resource: ttf_static
 extract: {}
 copyright: Copyright 2020 The Domine Project Authors (https://github.com/googlefonts/domine)
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2020 The Domine Project Authors (https://github.com/googlefonts/domine)\nCopyright
   (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com),\nCopyright (c)
@@ -254,4 +257,9 @@ open_license: "Copyright 2020 The Domine Project Authors (https://github.com/goo
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-11'
+  family_id: domine

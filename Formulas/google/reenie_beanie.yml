@@ -32,7 +32,7 @@ fonts:
     post_script_name: ReenieBeanie
     version: '1.000'
     copyright: Copyright (c) 2010 Typeco. All rights reserved.
-    font: z7NSdR76eDkaJKZJFkkjuvWxbP2_qoOgf_w.ttf
+    font: ReenieBeanie.ttf
     description: "Copyright (c) 2010, James Grieshaber (www.typeco.com),\rwith Reserved
       Font Name Reenie Beanie.\r\rThis Font Software is licensed under the SIL Open
       Font License, Version 1.1.\r\rThis license is copied below, and is also available
@@ -90,13 +90,13 @@ fonts:
       INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\r\rDAMAGES, WHETHER IN AN ACTION OF CONTRACT,
       TORT OR OTHERWISE, ARISING\r\rFROM, OUT OF THE USE OR INABILITY TO USE THE FONT
       SOFTWARE OR FROM\r\rOTHER DEALINGS IN THE FONT SOFTWARE."
+    source_font: z7NSdR76eDkaJKZJFkkjuvWxbP2_qoOgf_w.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2010 Typeco. All rights reserved.
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2010, James Grieshaber (james@typeco.com)\r\n\r\nThis Font
   Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis license
@@ -208,4 +208,9 @@ open_license: "Copyright (c) 2010, James Grieshaber (james@typeco.com)\r\n\r\nTh
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: reenie_beanie

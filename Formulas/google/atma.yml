@@ -49,11 +49,12 @@ fonts:
     post_script_name: Atma-Light
     version: 1.102;PS 1.100;hotconv 1.0.86;makeotf.lib2.5.63406
     copyright: Copyright 2015 The Atma Project Authors (www.black-foundry.com)
-    font: uK_z4rqWc-Eoo8JzKjc9PvedRkM.ttf
+    font: Atma-Light.ttf
     preferred_family_name: Atma
     preferred_type: Light
     description: This Font Software is licensed under the SIL Open Font License, Version
       1.1. This license is available with a FAQ at http://scripts.sil.org/OFL
+    source_font: uK_z4rqWc-Eoo8JzKjc9PvedRkM.ttf
     formats:
     - ttf
     - woff2
@@ -66,9 +67,10 @@ fonts:
     post_script_name: Atma-Regular
     version: 1.102;PS 1.100;hotconv 1.0.86;makeotf.lib2.5.63406
     copyright: Copyright 2015 The Atma Project Authors (www.black-foundry.com)
-    font: uK_84rqWc-Eom25bDj8WIv4.ttf
+    font: Atma-Regular.ttf
     description: This Font Software is licensed under the SIL Open Font License, Version
       1.1. This license is available with a FAQ at http://scripts.sil.org/OFL
+    source_font: uK_84rqWc-Eom25bDj8WIv4.ttf
     formats:
     - ttf
     - woff2
@@ -79,9 +81,10 @@ fonts:
     post_script_name: Atma-Bold
     version: 1.102;PS 1.100;hotconv 1.0.86;makeotf.lib2.5.63406
     copyright: Copyright 2015 The Atma Project Authors (www.black-foundry.com)
-    font: uK_z4rqWc-Eoo9J0Kjc9PvedRkM.ttf
+    font: Atma-Bold.ttf
     description: This Font Software is licensed under the SIL Open Font License, Version
       1.1. This license is available with a FAQ at http://scripts.sil.org/OFL
+    source_font: uK_z4rqWc-Eoo9J0Kjc9PvedRkM.ttf
     formats:
     - ttf
     - woff2
@@ -94,11 +97,12 @@ fonts:
     post_script_name: Atma-Medium
     version: 1.102;PS 1.100;hotconv 1.0.86;makeotf.lib2.5.63406
     copyright: Copyright 2015 The Atma Project Authors (www.black-foundry.com)
-    font: uK_z4rqWc-Eoo5pyKjc9PvedRkM.ttf
+    font: Atma-Medium.ttf
     preferred_family_name: Atma
     preferred_type: Medium
     description: This Font Software is licensed under the SIL Open Font License, Version
       1.1. This license is available with a FAQ at http://scripts.sil.org/OFL
+    source_font: uK_z4rqWc-Eoo5pyKjc9PvedRkM.ttf
     formats:
     - ttf
     - woff2
@@ -111,18 +115,18 @@ fonts:
     post_script_name: Atma-SemiBold
     version: 1.102;PS 1.100;hotconv 1.0.86;makeotf.lib2.5.63406
     copyright: Copyright 2015 The Atma Project Authors (www.black-foundry.com)
-    font: uK_z4rqWc-Eoo7Z1Kjc9PvedRkM.ttf
+    font: Atma-SemiBold.ttf
     preferred_family_name: Atma
     preferred_type: SemiBold
     description: This Font Software is licensed under the SIL Open Font License, Version
       1.1. This license is available with a FAQ at http://scripts.sil.org/OFL
+    source_font: uK_z4rqWc-Eoo7Z1Kjc9PvedRkM.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2015 The Atma Project Authors (www.black-foundry.com)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2010 The Atma Project Authors (https://github.com/BlackFoundryCom/Atma)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -228,4 +232,9 @@ open_license: "Copyright 2010 The Atma Project Authors (https://github.com/Black
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: atma

@@ -68,11 +68,12 @@ fonts:
     version: 1.001;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.5.33-1714)
       -l 8 -r 50 -G 200 -x 13 -D latn -f taml -w G -W -c -X ""
     copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-    font: f0Xu0e2p98ZvDXdZQIOcpqjfXaUnecsoMJ0b_g.ttf
+    font: HindMadurai-Light.ttf
     preferred_family_name: Hind Madurai
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: f0Xu0e2p98ZvDXdZQIOcpqjfXaUnecsoMJ0b_g.ttf
     formats:
     - ttf
     - woff2
@@ -86,9 +87,10 @@ fonts:
     version: 1.001;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.5.33-1714)
       -l 8 -r 50 -G 200 -x 13 -D latn -f taml -w G -W -c -X ""
     copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-    font: f0Xx0e2p98ZvDXdZQIOcpqjn8Y0DceA0OQ.ttf
+    font: HindMadurai-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: f0Xx0e2p98ZvDXdZQIOcpqjn8Y0DceA0OQ.ttf
     formats:
     - ttf
     - woff2
@@ -100,9 +102,10 @@ fonts:
     version: 1.001;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.5.33-1714)
       -l 8 -r 50 -G 200 -x 13 -D latn -f taml -w G -W -c -X ""
     copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-    font: f0Xu0e2p98ZvDXdZQIOcpqjfTaInecsoMJ0b_g.ttf
+    font: HindMadurai-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: f0Xu0e2p98ZvDXdZQIOcpqjfTaInecsoMJ0b_g.ttf
     formats:
     - ttf
     - woff2
@@ -116,11 +119,12 @@ fonts:
     version: 1.001;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.5.33-1714)
       -l 8 -r 50 -G 200 -x 13 -D latn -f taml -w G -W -c -X ""
     copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-    font: f0Xu0e2p98ZvDXdZQIOcpqjfBaQnecsoMJ0b_g.ttf
+    font: HindMadurai-Medium.ttf
     preferred_family_name: Hind Madurai
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: f0Xu0e2p98ZvDXdZQIOcpqjfBaQnecsoMJ0b_g.ttf
     formats:
     - ttf
     - woff2
@@ -134,18 +138,18 @@ fonts:
     version: 1.001;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.5.33-1714)
       -l 8 -r 50 -G 200 -x 13 -D latn -f taml -w G -W -c -X ""
     copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-    font: f0Xu0e2p98ZvDXdZQIOcpqjfKaMnecsoMJ0b_g.ttf
+    font: HindMadurai-SemiBold.ttf
     preferred_family_name: Hind Madurai
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: f0Xu0e2p98ZvDXdZQIOcpqjfKaMnecsoMJ0b_g.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -251,4 +255,9 @@ open_license: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.co
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-02'
+  family_id: hind_madurai

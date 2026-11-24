@@ -44,9 +44,10 @@ fonts:
     version: '1.007'
     copyright: Copyright (c) 2011-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com)
       with Reserved Font Name 'Jaldi' and 'Asap'
-    font: or3sQ67z0_CI30NUZpD_B6g8.ttf
+    font: Jaldi-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. '
+    source_font: or3sQ67z0_CI30NUZpD_B6g8.ttf
     formats:
     - ttf
     - woff2
@@ -58,9 +59,10 @@ fonts:
     version: '1.007'
     copyright: Copyright (c) 2011-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com)
       with Reserved Font Name 'Jaldi' and 'Asap'
-    font: or3hQ67z0_CI33voSbT3LLQ1niPn.ttf
+    font: Jaldi-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. '
+    source_font: or3hQ67z0_CI33voSbT3LLQ1niPn.ttf
     formats:
     - ttf
     - woff2
@@ -68,7 +70,6 @@ fonts:
 extract: {}
 copyright: Copyright (c) 2011-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com)
   with Reserved Font Name 'Jaldi' and 'Asap'
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2012-2015, Omnibus-Type (www.omnibus-type.com|omnibus.type@gmail.com)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -174,4 +175,9 @@ open_license: "Copyright (c) 2012-2015, Omnibus-Type (www.omnibus-type.com|omnib
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: jaldi

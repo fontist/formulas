@@ -45,9 +45,10 @@ fonts:
     copyright: "Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),\rCopyright
       (c) 2011, Igino Marini. (www.ikern.com|mail@iginomarini.com),\rCopyright (c)
       2011, Brenda Gallo. (gbrenda1987@gmail.com),\rwith Reserved Font Name Quattrocento."
-    font: OZpEg_xvsDZQL_LKIF7q4jPHxGL7f4jFuA.ttf
+    font: Quattrocento.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: OZpEg_xvsDZQL_LKIF7q4jPHxGL7f4jFuA.ttf
     formats:
     - ttf
     - woff2
@@ -60,9 +61,10 @@ fonts:
     copyright: "Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),\rCopyright
       (c) 2011, Igino Marini. (www.ikern.com|mail@iginomarini.com),\rCopyright (c)
       2011, Brenda Gallo. (gbrenda1987@gmail.com),\rwith Reserved Font Name Quattrocento."
-    font: OZpbg_xvsDZQL_LKIF7q4jP_eE3fd6PZsXcM9w.ttf
+    font: Quattrocento-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: OZpbg_xvsDZQL_LKIF7q4jP_eE3fd6PZsXcM9w.ttf
     formats:
     - ttf
     - woff2
@@ -71,7 +73,6 @@ extract: {}
 copyright: "Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),\rCopyright
   (c) 2011, Igino Marini. (www.ikern.com|mail@iginomarini.com),\rCopyright (c) 2011,
   Brenda Gallo. (gbrenda1987@gmail.com),\rwith Reserved Font Name Quattrocento."
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com),
   Copyright (c) 2012, Igino Marini. (www.ikern.com|mail@iginomarini.com), Copyright
@@ -181,4 +182,9 @@ open_license: "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: quattrocento

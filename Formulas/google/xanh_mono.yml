@@ -42,9 +42,10 @@ fonts:
     post_script_name: XanhMono-Regular
     version: 3.101; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The XanhMono Project Authors (https://github.com/yellow-type-foundry/xanhmono)
-    font: R70YjykVmvKCep-vWhSYmACQXzLhTg.ttf
+    font: XanhMono-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: R70YjykVmvKCep-vWhSYmACQXzLhTg.ttf
     formats:
     - ttf
     - woff2
@@ -55,16 +56,16 @@ fonts:
     post_script_name: XanhMono-Italic
     version: 3.101; ttfautohint (v1.8.3)
     copyright: Copyright 2020 The XanhMono Project Authors (https://github.com/yellow-type-foundry/xanhmono)
-    font: R70ejykVmvKCep-vWhSomgqUfTfxTo24.ttf
+    font: XanhMono-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: R70ejykVmvKCep-vWhSomgqUfTfxTo24.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2020 The XanhMono Project Authors (https://github.com/yellow-type-foundry/xanhmono)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: |
   Copyright 2020 The XanhMono Project Authors (https://github.com/yellow-type-foundry/xanhmono).
@@ -254,4 +255,9 @@ open_license: |
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: xanh_mono

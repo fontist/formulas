@@ -40,11 +40,12 @@ fonts:
     post_script_name: Dongle-Light
     version: '2.000'
     copyright: Copyright 2021 The Dongle Project Authors (https://github.com/yangheeryu/Dongle)
-    font: sJoG3Ltdjt6VPkqeEcxrYjWNzXvVPA.ttf
+    font: Dongle-Light.ttf
     preferred_family_name: Dongle
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: sJoG3Ltdjt6VPkqeEcxrYjWNzXvVPA.ttf
     formats:
     - ttf
     - woff2
@@ -57,9 +58,10 @@ fonts:
     post_script_name: Dongle-Regular
     version: '2.000'
     copyright: Copyright 2021 The Dongle Project Authors (https://github.com/yangheeryu/Dongle)
-    font: sJoF3Ltdjt6VPkqmveRPah6RxA.ttf
+    font: Dongle-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: sJoF3Ltdjt6VPkqmveRPah6RxA.ttf
     formats:
     - ttf
     - woff2
@@ -70,16 +72,16 @@ fonts:
     post_script_name: Dongle-Bold
     version: '2.000'
     copyright: Copyright 2021 The Dongle Project Authors (https://github.com/yangheeryu/Dongle)
-    font: sJoG3Ltdjt6VPkqeActrYjWNzXvVPA.ttf
+    font: Dongle-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: sJoG3Ltdjt6VPkqeActrYjWNzXvVPA.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2021 The Dongle Project Authors (https://github.com/yangheeryu/Dongle)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2021 The Dongle Project Authors (https://github.com/yangheeryu/Dongle)
   \n\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis
@@ -185,4 +187,9 @@ open_license: "Copyright 2021 The Dongle Project Authors (https://github.com/yan
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: dongle

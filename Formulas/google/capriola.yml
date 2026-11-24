@@ -14,6 +14,16 @@ description: Capriola is a sans-serif typeface whose unique style draws upon for
   .
 homepage: https://fonts.google.com/specimen/Capriola
 resources:
+  ttf_variable:
+    source: google
+    family: Capriola
+    files:
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/capriola/Capriola[wght].ttf
+    urls:
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/capriola/Capriola[wght].ttf
+    format: ttf
+    variable_axes:
+    - wght
   ttf_static:
     source: google
     family: Capriola
@@ -40,17 +50,30 @@ fonts:
     version: '1.007'
     copyright: Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com) with Reserved
       Font Name "Capriola".
-    font: wXKoE3YSppcvo1PDln_8L-AinG8y.ttf
+    font: Capriola-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: wXKoE3YSppcvo1PDln_8L-AinG8y.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
+    source_resource: ttf_static
+  - family_name: Capriola
+    type: Regular
+    full_name: Capriola Regular
+    post_script_name: Capriola-Regular
+    copyright: Copyright 2025 The Capriola Project Authors (https://github.com/SorkinType/Capriola-VF)
+    font: Capriola[wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wght
+    source_resource: ttf_variable
 extract: {}
 copyright: Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com) with Reserved Font
   Name "Capriola".
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2025 The Capriola Project Authors (https://github.com/SorkinType/Capriola-VF)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -156,4 +179,9 @@ open_license: "Copyright 2025 The Capriola Project Authors (https://github.com/S
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: capriola

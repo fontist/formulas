@@ -14,9 +14,9 @@ resources:
     source: google
     family: Buenard
     files:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/buenard/Buenard[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/buenard/Buenard[wght].ttf
     urls:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/buenard/Buenard[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/buenard/Buenard[wght].ttf
     format: ttf
     variable_axes:
     - wght
@@ -57,9 +57,10 @@ fonts:
     post_script_name: Buenard-Regular
     version: '2.000'
     copyright: Copyright 2024 The Buenard Project Authors (https://github.com/googlefonts/buenard)
-    font: OD5cuM6Cyma8FnnsJTzfWLAhv7i92sqpK0_3iBYVfsc4.ttf
+    font: Buenard-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: OD5cuM6Cyma8FnnsJTzfWLAhv7i92sqpK0_3iBYVfsc4.ttf
     formats:
     - ttf
     - woff2
@@ -71,9 +72,10 @@ fonts:
     post_script_name: Buenard-Bold
     version: '2.000'
     copyright: Copyright 2024 The Buenard Project Authors (https://github.com/googlefonts/buenard)
-    font: OD5cuM6Cyma8FnnsJTzfWLAhv7i92spOLE_3iBYVfsc4.ttf
+    font: Buenard-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: OD5cuM6Cyma8FnnsJTzfWLAhv7i92spOLE_3iBYVfsc4.ttf
     formats:
     - ttf
     - woff2
@@ -99,11 +101,12 @@ fonts:
     post_script_name: Buenard-Medium
     version: '2.000'
     copyright: Copyright 2024 The Buenard Project Authors (https://github.com/googlefonts/buenard)
-    font: OD5cuM6Cyma8FnnsJTzfWLAhv7i92sqbK0_3iBYVfsc4.ttf
+    font: Buenard-Medium.ttf
     preferred_family_name: Buenard
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: OD5cuM6Cyma8FnnsJTzfWLAhv7i92sqbK0_3iBYVfsc4.ttf
     formats:
     - ttf
     - woff2
@@ -117,11 +120,12 @@ fonts:
     post_script_name: Buenard-SemiBold
     version: '2.000'
     copyright: Copyright 2024 The Buenard Project Authors (https://github.com/googlefonts/buenard)
-    font: OD5cuM6Cyma8FnnsJTzfWLAhv7i92sp3LE_3iBYVfsc4.ttf
+    font: Buenard-SemiBold.ttf
     preferred_family_name: Buenard
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: OD5cuM6Cyma8FnnsJTzfWLAhv7i92sp3LE_3iBYVfsc4.ttf
     formats:
     - ttf
     - woff2
@@ -129,7 +133,6 @@ fonts:
     source_resource: ttf_static
 extract: {}
 copyright: Copyright 2024 The Buenard Project Authors (https://github.com/googlefonts/buenard)
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2011-2025 The Buenard Project Authors (https://github.com/googlefonts/buenard)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -235,4 +238,9 @@ open_license: "Copyright 2011-2025 The Buenard Project Authors (https://github.c
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: buenard

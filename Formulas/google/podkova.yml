@@ -14,9 +14,9 @@ resources:
     source: google
     family: Podkova
     files:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/podkova/Podkova[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/podkova/Podkova[wght].ttf
     urls:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/podkova/Podkova[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/podkova/Podkova[wght].ttf
     format: ttf
     variable_axes:
     - wght
@@ -61,9 +61,10 @@ fonts:
     post_script_name: Podkova-Regular
     version: '2.103'
     copyright: Copyright 2011 The Podkova Project Authors (https://github.com/cyrealtype/Podkova)
-    font: K2FufZ1EmftJSV9VQpXb1lo9vC3nZWtFzcU4EoporSHH.ttf
+    font: Podkova-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: K2FufZ1EmftJSV9VQpXb1lo9vC3nZWtFzcU4EoporSHH.ttf
     formats:
     - ttf
     - woff2
@@ -75,9 +76,10 @@ fonts:
     post_script_name: Podkova-Bold
     version: '2.103'
     copyright: Copyright 2011 The Podkova Project Authors (https://github.com/cyrealtype/Podkova)
-    font: K2FufZ1EmftJSV9VQpXb1lo9vC3nZWuiysU4EoporSHH.ttf
+    font: Podkova-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: K2FufZ1EmftJSV9VQpXb1lo9vC3nZWuiysU4EoporSHH.ttf
     formats:
     - ttf
     - woff2
@@ -103,11 +105,12 @@ fonts:
     post_script_name: Podkova-Medium
     version: '2.103'
     copyright: Copyright 2011 The Podkova Project Authors (https://github.com/cyrealtype/Podkova)
-    font: K2FufZ1EmftJSV9VQpXb1lo9vC3nZWt3zcU4EoporSHH.ttf
+    font: Podkova-Medium.ttf
     preferred_family_name: Podkova
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: K2FufZ1EmftJSV9VQpXb1lo9vC3nZWt3zcU4EoporSHH.ttf
     formats:
     - ttf
     - woff2
@@ -121,11 +124,12 @@ fonts:
     post_script_name: Podkova-SemiBold
     version: '2.103'
     copyright: Copyright 2011 The Podkova Project Authors (https://github.com/cyrealtype/Podkova)
-    font: K2FufZ1EmftJSV9VQpXb1lo9vC3nZWubysU4EoporSHH.ttf
+    font: Podkova-SemiBold.ttf
     preferred_family_name: Podkova
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: K2FufZ1EmftJSV9VQpXb1lo9vC3nZWubysU4EoporSHH.ttf
     formats:
     - ttf
     - woff2
@@ -139,11 +143,12 @@ fonts:
     post_script_name: Podkova-ExtraBold
     version: '2.103'
     copyright: Copyright 2011 The Podkova Project Authors (https://github.com/cyrealtype/Podkova)
-    font: K2FufZ1EmftJSV9VQpXb1lo9vC3nZWvFysU4EoporSHH.ttf
+    font: Podkova-ExtraBold.ttf
     preferred_family_name: Podkova
     preferred_type: ExtraBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: K2FufZ1EmftJSV9VQpXb1lo9vC3nZWvFysU4EoporSHH.ttf
     formats:
     - ttf
     - woff2
@@ -151,7 +156,6 @@ fonts:
     source_resource: ttf_static
 extract: {}
 copyright: Copyright 2011 The Podkova Project Authors (https://github.com/cyrealtype/Podkova)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2011 The Podkova Project Authors (https://github.com/cyrealtype/Podkova)\n\r\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis
@@ -263,4 +267,9 @@ open_license: "Copyright 2011 The Podkova Project Authors (https://github.com/cy
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: podkova

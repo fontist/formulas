@@ -38,7 +38,8 @@ fonts:
     post_script_name: Tangerine-Regular
     version: '1.3'
     copyright: Copyright (c) 2010 by Toshi Omagari. All rights reserved.
-    font: IurY6Y5j_oScZZow4VOBDpxNhLBQ4Q.ttf
+    font: Tangerine-Regular.ttf
+    source_font: IurY6Y5j_oScZZow4VOBDpxNhLBQ4Q.ttf
     formats:
     - ttf
     - woff2
@@ -49,13 +50,13 @@ fonts:
     post_script_name: Tangerine-Bold
     version: '1.3'
     copyright: Copyright (c) 2010 by Toshi Omagari. All rights reserved.
-    font: Iurd6Y5j_oScZZow4VO5srNpjJtM6G0t9w.ttf
+    font: Tangerine-Bold.ttf
+    source_font: Iurd6Y5j_oScZZow4VO5srNpjJtM6G0t9w.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
-spdx_license: OFL-1.1-no-RFN
 copyright: Copyright (c) 2010 by Toshi Omagari. All rights reserved.
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2010, Toshi Omagari (tosche@mac.com)\n\nThis Font Software
@@ -162,4 +163,9 @@ open_license: "Copyright (c) 2010, Toshi Omagari (tosche@mac.com)\n\nThis Font S
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-11'
+  family_id: tangerine

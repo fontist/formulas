@@ -1,29 +1,30 @@
 ---
 name: sawarabi_gothic
 schema_version: 5
-description: Sawarabi Gothic (さわらびゴシック) is a Japanese font by mshio . Carefully designed
+description: Sawarabi Gothic (さわらびゴシック) is a Japanese font by mshio. Carefully designed
   for high legibility, it works well in small text sizes. It already has many hiragana,
   katakana, ruled lines, and so on, but it does not yet have enough kanji glyphs.
   Only 4,469 kanji are available in this version, and the project is under active
   development. There is also another related family, Sawarabi Mincho. 6,945 glyphs.
-  Now released under the SIL Open Font License.
+  Now released under the SIL Open Font License. To contribute to the project, visit
+  github.com/googlefonts/sawarabi-mincho
 homepage: https://fonts.google.com/specimen/Sawarabi+Gothic
 resources:
   ttf_static:
     source: google
     family: Sawarabi Gothic
     files:
-    - https://fonts.gstatic.com/s/sawarabigothic/v16/x3d4ckfVaqqa-BEj-I9mE65u3k3NBSk3E2YljQ.ttf
+    - https://fonts.gstatic.com/s/sawarabigothic/v17/x3d4ckfVaqqa-BEj-I9mE65u3k3NBSk3E2YljQ.ttf
     urls:
-    - https://fonts.gstatic.com/s/sawarabigothic/v16/x3d4ckfVaqqa-BEj-I9mE65u3k3NBSk3E2YljQ.ttf
+    - https://fonts.gstatic.com/s/sawarabigothic/v17/x3d4ckfVaqqa-BEj-I9mE65u3k3NBSk3E2YljQ.ttf
     format: ttf
   woff2_static:
     source: google
     family: Sawarabi Gothic
     files:
-    - https://fonts.gstatic.com/s/sawarabigothic/v16/x3d4ckfVaqqa-BEj-I9mE65u3k3NACk3E2YljQ.woff2
+    - https://fonts.gstatic.com/s/sawarabigothic/v17/x3d4ckfVaqqa-BEj-I9mE65u3k3NACk3E2YljQ.woff2
     urls:
-    - https://fonts.gstatic.com/s/sawarabigothic/v16/x3d4ckfVaqqa-BEj-I9mE65u3k3NACk3E2YljQ.woff2
+    - https://fonts.gstatic.com/s/sawarabigothic/v17/x3d4ckfVaqqa-BEj-I9mE65u3k3NACk3E2YljQ.woff2
     format: woff2
 fonts:
 - name: Sawarabi Gothic
@@ -34,16 +35,16 @@ fonts:
     post_script_name: SawarabiGothic-Regular
     version: '20141215 '
     copyright: Copyright 2016 The Sawarabi Gothic Project Authors.
-    font: x3d4ckfVaqqa-BEj-I9mE65u3k3NBSk3E2YljQ.ttf
+    font: SawarabiGothic-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: x3d4ckfVaqqa-BEj-I9mE65u3k3NBSk3E2YljQ.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2016 The Sawarabi Gothic Project Authors.
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2016 The Sawarabi Gothic Project Authors.\n\nThis Font Software
   is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied
@@ -149,4 +150,9 @@ open_license: "Copyright 2016 The Sawarabi Gothic Project Authors.\n\nThis Font 
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2026-08-25'
+  family_id: sawarabi_gothic

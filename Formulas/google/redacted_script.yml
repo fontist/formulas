@@ -41,11 +41,12 @@ fonts:
     post_script_name: RedactedScript-Light
     version: 1.001; ttfautohint (v1.8.3)
     copyright: Copyright 2013 The Redacted Project Authors (https://github.com/christiannaths/redacted-font)
-    font: ypvEbXGRglhokR7dcC3d1-R6zmxqHUzVmbI397ldkg.ttf
+    font: RedactedScript-Light.ttf
     preferred_family_name: Redacted Script
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: ypvEbXGRglhokR7dcC3d1-R6zmxqHUzVmbI397ldkg.ttf
     formats:
     - ttf
     - woff2
@@ -58,9 +59,10 @@ fonts:
     post_script_name: RedactedScript-Regular
     version: 1.001; ttfautohint (v1.8.3)
     copyright: Copyright 2013 The Redacted Project Authors (https://github.com/christiannaths/redacted-font)
-    font: ypvBbXGRglhokR7dcC3d1-R6zmxSsWTxkZkr_g.ttf
+    font: RedactedScript-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: ypvBbXGRglhokR7dcC3d1-R6zmxSsWTxkZkr_g.ttf
     formats:
     - ttf
     - woff2
@@ -71,16 +73,16 @@ fonts:
     post_script_name: RedactedScript-Bold
     version: 1.001; ttfautohint (v1.8.3)
     copyright: Copyright 2013 The Redacted Project Authors (https://github.com/christiannaths/redacted-font)
-    font: ypvEbXGRglhokR7dcC3d1-R6zmxqDUvVmbI397ldkg.ttf
+    font: RedactedScript-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: ypvEbXGRglhokR7dcC3d1-R6zmxqDUvVmbI397ldkg.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2013 The Redacted Project Authors (https://github.com/christiannaths/redacted-font)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2013 The Redacted Project Authors (https://github.com/christiannaths/redacted-font)\r\n\r\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis
@@ -192,4 +194,9 @@ open_license: "Copyright 2013 The Redacted Project Authors (https://github.com/c
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-17'
+  family_id: redacted_script

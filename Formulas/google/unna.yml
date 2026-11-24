@@ -43,9 +43,10 @@ fonts:
     post_script_name: Unna-Regular
     version: 2.007; ttfautohint (v1.5)
     copyright: Copyright 2016 The Unna Project Authors (omnibus.type@gmail.com)
-    font: AYCEpXzofN0NCpgBlGHCWFM.ttf
+    font: Unna-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: AYCEpXzofN0NCpgBlGHCWFM.ttf
     formats:
     - ttf
     - woff2
@@ -56,9 +57,10 @@ fonts:
     post_script_name: Unna-Italic
     version: 2.007; ttfautohint (v1.5)
     copyright: Copyright 2016 The Unna Project Authors (omnibus.type@gmail.com)
-    font: AYCKpXzofN0NOpoLkEPHSFNyxw.ttf
+    font: Unna-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: AYCKpXzofN0NOpoLkEPHSFNyxw.ttf
     formats:
     - ttf
     - woff2
@@ -69,9 +71,10 @@ fonts:
     post_script_name: Unna-Bold
     version: 2.007; ttfautohint (v1.5)
     copyright: Copyright 2016 The Unna Project Authors (omnibus.type@gmail.com)
-    font: AYCLpXzofN0NMiQusGnpRFpr3vc.ttf
+    font: Unna-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: AYCLpXzofN0NMiQusGnpRFpr3vc.ttf
     formats:
     - ttf
     - woff2
@@ -82,16 +85,16 @@ fonts:
     post_script_name: Unna-BoldItalic
     version: 2.007; ttfautohint (v1.5)
     copyright: Copyright 2016 The Unna Project Authors (omnibus.type@gmail.com)
-    font: AYCJpXzofN0NOpozLGzjQHhuzvef5Q.ttf
+    font: Unna-BoldItalic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: AYCJpXzofN0NOpozLGzjQHhuzvef5Q.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2016 The Unna Project Authors (omnibus.type@gmail.com)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: |+
   Copyright 2016 The Unna Project Authors (omnibus.type@gmail.com)
@@ -283,5 +286,10 @@ open_license: |+
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
   OTHER DEALINGS IN THE FONT SOFTWARE.
 
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-11'
+  family_id: unna
 ...

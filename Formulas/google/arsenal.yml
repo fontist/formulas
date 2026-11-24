@@ -50,9 +50,10 @@ fonts:
     post_script_name: Arsenal-Regular
     version: '2.000'
     copyright: Copyright 2012 The Arsenal Project Authors (andrij.design@gmail.com)
-    font: wXKrE3kQtZQ4pF3D11_WAewrhXY.ttf
+    font: Arsenal-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: wXKrE3kQtZQ4pF3D11_WAewrhXY.ttf
     formats:
     - ttf
     - woff2
@@ -63,9 +64,10 @@ fonts:
     post_script_name: Arsenal-Italic
     version: '1.001'
     copyright: Copyright 2012 The Arsenal Project Authors (andrij.design@gmail.com)
-    font: wXKpE3kQtZQ4pF3D513cBc4ulXYrtA.ttf
+    font: Arsenal-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: wXKpE3kQtZQ4pF3D513cBc4ulXYrtA.ttf
     formats:
     - ttf
     - woff2
@@ -76,9 +78,10 @@ fonts:
     post_script_name: Arsenal-Bold
     version: '2.000'
     copyright: Copyright 2012 The Arsenal Project Authors (andrij.design@gmail.com)
-    font: wXKuE3kQtZQ4pF3D7-P5JeQAmX8yrdk.ttf
+    font: Arsenal-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: wXKuE3kQtZQ4pF3D7-P5JeQAmX8yrdk.ttf
     formats:
     - ttf
     - woff2
@@ -89,16 +92,16 @@ fonts:
     post_script_name: Arsenal-BoldItalic
     version: '1.001'
     copyright: Copyright 2012 The Arsenal Project Authors (andrij.design@gmail.com)
-    font: wXKsE3kQtZQ4pF3D513kueEKnV03vdnKjw.ttf
+    font: Arsenal-BoldItalic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: wXKsE3kQtZQ4pF3D513kueEKnV03vdnKjw.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2012 The Arsenal Project Authors (andrij.design@gmail.com)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2012 The Arsenal Project Authors (andrij.design@gmail.com)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -204,4 +207,9 @@ open_license: "Copyright 2012 The Arsenal Project Authors (andrij.design@gmail.c
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: arsenal

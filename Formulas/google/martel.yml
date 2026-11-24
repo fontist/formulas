@@ -66,12 +66,13 @@ fonts:
     version: 1.001; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
       -W -c
     copyright: Copyright (c) 2015 Dan Reynolds.
-    font: PN_yRfK9oXHga0XVqekahRbX9vnDzw.ttf
+    font: Martel-UltraLight.ttf
     preferred_family_name: Martel
     preferred_type: UltraLight
     description: |-
       This Font Software is licensed under the SIL Open Font License
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+    source_font: PN_yRfK9oXHga0XVqekahRbX9vnDzw.ttf
     formats:
     - ttf
     - woff2
@@ -85,12 +86,13 @@ fonts:
     version: 1.001; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
       -W -c
     copyright: Copyright (c) 2015 Dan Reynolds.
-    font: PN_yRfK9oXHga0XVzeoahRbX9vnDzw.ttf
+    font: Martel-Light.ttf
     preferred_family_name: Martel
     preferred_type: Light
     description: |-
       This Font Software is licensed under the SIL Open Font License
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+    source_font: PN_yRfK9oXHga0XVzeoahRbX9vnDzw.ttf
     formats:
     - ttf
     - woff2
@@ -104,10 +106,11 @@ fonts:
     version: 1.001; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
       -W -c
     copyright: Copyright (c) 2015 Dan Reynolds.
-    font: PN_xRfK9oXHga0XtYcI-jT3L_w.ttf
+    font: Martel-Regular.ttf
     description: |-
       This Font Software is licensed under the SIL Open Font License
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+    source_font: PN_xRfK9oXHga0XtYcI-jT3L_w.ttf
     formats:
     - ttf
     - woff2
@@ -119,10 +122,11 @@ fonts:
     version: 1.001; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
       -W -c
     copyright: Copyright (c) 2015 Dan Reynolds.
-    font: PN_yRfK9oXHga0XV3e0ahRbX9vnDzw.ttf
+    font: Martel-Bold.ttf
     description: |-
       This Font Software is licensed under the SIL Open Font License
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+    source_font: PN_yRfK9oXHga0XV3e0ahRbX9vnDzw.ttf
     formats:
     - ttf
     - woff2
@@ -136,12 +140,13 @@ fonts:
     version: 1.001; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
       -W -c
     copyright: Copyright (c) 2015 Dan Reynolds.
-    font: PN_yRfK9oXHga0XVuewahRbX9vnDzw.ttf
+    font: Martel-DemiBold.ttf
     preferred_family_name: Martel
     preferred_type: DemiBold
     description: |-
       This Font Software is licensed under the SIL Open Font License
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+    source_font: PN_yRfK9oXHga0XVuewahRbX9vnDzw.ttf
     formats:
     - ttf
     - woff2
@@ -155,12 +160,13 @@ fonts:
     version: 1.001; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
       -W -c
     copyright: Copyright (c) 2015 Dan Reynolds.
-    font: PN_yRfK9oXHga0XVwe4ahRbX9vnDzw.ttf
+    font: Martel-ExtraBold.ttf
     preferred_family_name: Martel
     preferred_type: ExtraBold
     description: |-
       This Font Software is licensed under the SIL Open Font License
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+    source_font: PN_yRfK9oXHga0XVwe4ahRbX9vnDzw.ttf
     formats:
     - ttf
     - woff2
@@ -174,19 +180,19 @@ fonts:
     version: 1.001; ttfautohint (v1.1) -l 5 -r 5 -G 72 -x 0 -D latn -f none -w gGD
       -W -c
     copyright: Copyright (c) 2015 Dan Reynolds.
-    font: PN_yRfK9oXHga0XV5e8ahRbX9vnDzw.ttf
+    font: Martel-Heavy.ttf
     preferred_family_name: Martel
     preferred_type: Heavy
     description: |-
       This Font Software is licensed under the SIL Open Font License
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+    source_font: PN_yRfK9oXHga0XV5e8ahRbX9vnDzw.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2015 Dan Reynolds.
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2010-2015, Sorkin Type Co
   (www.sorkintype.com) with Reserved Font Name 'Merriweather'\n\nThis Font Software
@@ -294,4 +300,9 @@ open_license: "Copyright (c) 2015 Dan Reynolds. Copyright (c) 2010-2015, Sorkin 
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: martel

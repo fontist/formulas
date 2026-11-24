@@ -39,7 +39,8 @@ fonts:
     copyright: "Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),\r\nwith Reserved
       Font Name Content.\r\nThis Font Software is licensed under the SIL Open Font
       License, Version 1.1.\r\nThis license is available with a FAQ at: http://scripts.sil.org/OFL"
-    font: zrfl0HLayePhU_AwUaDyIiL0RCg.ttf
+    font: Content.ttf
+    source_font: zrfl0HLayePhU_AwUaDyIiL0RCg.ttf
     formats:
     - ttf
     - woff2
@@ -52,7 +53,8 @@ fonts:
     copyright: "Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),\r\nwith Reserved
       Font Name Content.\r\nThis Font Software is licensed under the SIL Open Font
       License, Version 1.1.\r\nThis license is available with a FAQ at: http://scripts.sil.org/OFL"
-    font: zrfg0HLayePhU_AwaRzdBirfWCHvkAI.ttf
+    font: Content-Bold.ttf
+    source_font: zrfg0HLayePhU_AwaRzdBirfWCHvkAI.ttf
     formats:
     - ttf
     - woff2
@@ -61,7 +63,6 @@ extract: {}
 copyright: "Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),\r\nwith Reserved
   Font Name Content.\r\nThis Font Software is licensed under the SIL Open Font License,
   Version 1.1.\r\nThis license is available with a FAQ at: http://scripts.sil.org/OFL"
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),\nwith Reserved Font
   Name Content.\n\nThis Font Software is licensed under the SIL Open Font License,
@@ -167,4 +168,9 @@ open_license: "Copyright (c) 2010, Danh Hong (khmertype.blogspot.com),\nwith Res
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2024-12-04'
+  family_id: content

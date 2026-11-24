@@ -61,11 +61,12 @@ fonts:
     post_script_name: Palanquin-Thin
     version: '1.001'
     copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
-    font: 9XUhlJ90n1fBFg7ceXwUEltI7rWmZzTH.ttf
+    font: Palanquin-Thin.ttf
     preferred_family_name: Palanquin
     preferred_type: Thin
     description: 'Licenced under the SIL Open Font License, Version 1.1, available
       with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: 9XUhlJ90n1fBFg7ceXwUEltI7rWmZzTH.ttf
     formats:
     - ttf
     - woff2
@@ -78,11 +79,12 @@ fonts:
     post_script_name: Palanquin-ExtraLight
     version: '1.001'
     copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
-    font: 9XUilJ90n1fBFg7ceXwUvnpoxJuqbi3ezg.ttf
+    font: Palanquin-ExtraLight.ttf
     preferred_family_name: Palanquin
     preferred_type: ExtraLight
     description: 'Licenced under the SIL Open Font License, Version 1.1, available
       with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: 9XUilJ90n1fBFg7ceXwUvnpoxJuqbi3ezg.ttf
     formats:
     - ttf
     - woff2
@@ -95,11 +97,12 @@ fonts:
     post_script_name: Palanquin-Light
     version: 1.0.4
     copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
-    font: 9XUilJ90n1fBFg7ceXwU2nloxJuqbi3ezg.ttf
+    font: Palanquin-Light.ttf
     preferred_family_name: Palanquin
     preferred_type: Light
     description: 'Licenced under the SIL Open Font License, Version 1.1, available
       with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: 9XUilJ90n1fBFg7ceXwU2nloxJuqbi3ezg.ttf
     formats:
     - ttf
     - woff2
@@ -112,9 +115,10 @@ fonts:
     post_script_name: Palanquin-Regular
     version: 1.0.4
     copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
-    font: 9XUnlJ90n1fBFg7ceXwsdlFMzLC2Zw.ttf
+    font: Palanquin-Regular.ttf
     description: 'Licenced under the SIL Open Font License, Version 1.1, available
       with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: 9XUnlJ90n1fBFg7ceXwsdlFMzLC2Zw.ttf
     formats:
     - ttf
     - woff2
@@ -125,9 +129,10 @@ fonts:
     post_script_name: Palanquin-Bold
     version: 1.0.4
     copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
-    font: 9XUilJ90n1fBFg7ceXwUyn5oxJuqbi3ezg.ttf
+    font: Palanquin-Bold.ttf
     description: 'Licenced under the SIL Open Font License, Version 1.1, available
       with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: 9XUilJ90n1fBFg7ceXwUyn5oxJuqbi3ezg.ttf
     formats:
     - ttf
     - woff2
@@ -140,11 +145,12 @@ fonts:
     post_script_name: Palanquin-Medium
     version: 1.0.4
     copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
-    font: 9XUilJ90n1fBFg7ceXwUgnhoxJuqbi3ezg.ttf
+    font: Palanquin-Medium.ttf
     preferred_family_name: Palanquin
     preferred_type: Medium
     description: 'Licenced under the SIL Open Font License, Version 1.1, available
       with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: 9XUilJ90n1fBFg7ceXwUgnhoxJuqbi3ezg.ttf
     formats:
     - ttf
     - woff2
@@ -157,18 +163,18 @@ fonts:
     post_script_name: Palanquin-SemiBold
     version: 1.0.4
     copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
-    font: 9XUilJ90n1fBFg7ceXwUrn9oxJuqbi3ezg.ttf
+    font: Palanquin-SemiBold.ttf
     preferred_family_name: Palanquin
     preferred_type: SemiBold
     description: 'Licenced under the SIL Open Font License, Version 1.1, available
       with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: 9XUilJ90n1fBFg7ceXwUrn9oxJuqbi3ezg.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)\n\nThis Font
   Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -274,4 +280,9 @@ open_license: "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)\n\
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-11'
+  family_id: palanquin

@@ -11,7 +11,7 @@ resources:
     - https://fonts.gstatic.com/s/materialiconsoutlined/v110/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUcdl5GuI2Ze.otf
     urls:
     - https://fonts.gstatic.com/s/materialiconsoutlined/v110/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUcdl5GuI2Ze.otf
-    format: ttf
+    format: otf
   woff2_static:
     source: google
     family: Material Icons Outlined
@@ -29,15 +29,20 @@ fonts:
     post_script_name: MaterialIconsOutlined-Regular
     version: '2022-08-02T22:00:24.736834'
     copyright: Copyright 2019 Google LLC. All Rights Reserved.
-    font: gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUcdl5GuI2Ze.otf
+    font: MaterialIconsOutlined-Regular.otf
+    source_font: gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUcdl5GuI2Ze.otf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
-spdx_license: Apache-2.0
 copyright: Copyright 2019 Google LLC. All Rights Reserved.
 license_url: https://scripts.sil.org/OFL
 license: SIL Open Font License v1.1
 open_license: SIL Open Font License v1.1
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-06-17'
+  family_id: material_icons_outlined

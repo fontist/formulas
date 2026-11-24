@@ -30,13 +30,13 @@ fonts:
     post_script_name: SixCaps
     version: '001.000'
     copyright: Copyright (c) 2010 by vernon adams. All rights reserved.
-    font: 6ae_4KGrU7VR7bNmabcS9XXaPCop.ttf
+    font: SixCaps.ttf
+    source_font: 6ae_4KGrU7VR7bNmabcS9XXaPCop.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
-spdx_license: OFL-1.1-RFN
 copyright: Copyright (c) 2010 by vernon adams. All rights reserved.
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk),\nwith Reserved
@@ -145,4 +145,9 @@ open_license: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk),\nwit
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: six_caps

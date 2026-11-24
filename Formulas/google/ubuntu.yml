@@ -72,9 +72,10 @@ fonts:
     version: '0.83'
     copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
       1.0
-    font: 4iCv6KVjbNBYlgoC1CzTt2aMH4V_gg.ttf
+    font: Ubuntu-Light.ttf
     preferred_family_name: Ubuntu
     preferred_type: Light
+    source_font: 4iCv6KVjbNBYlgoC1CzTt2aMH4V_gg.ttf
     formats:
     - ttf
     - woff2
@@ -86,9 +87,10 @@ fonts:
     version: '0.83'
     copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
       1.0
-    font: 4iCp6KVjbNBYlgoKejZftWyIPYBvgpUI.ttf
+    font: Ubuntu-LightItalic.ttf
     preferred_family_name: Ubuntu
     preferred_type: Light Italic
+    source_font: 4iCp6KVjbNBYlgoKejZftWyIPYBvgpUI.ttf
     formats:
     - ttf
     - woff2
@@ -102,7 +104,8 @@ fonts:
     version: '0.83'
     copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
       1.0
-    font: 4iCs6KVjbNBYlgo6eAT3v02QFg.ttf
+    font: Ubuntu-Regular.ttf
+    source_font: 4iCs6KVjbNBYlgo6eAT3v02QFg.ttf
     formats:
     - ttf
     - woff2
@@ -114,7 +117,8 @@ fonts:
     version: '0.83'
     copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
       1.0
-    font: 4iCu6KVjbNBYlgoKeg7znUiAFpxm.ttf
+    font: Ubuntu-Italic.ttf
+    source_font: 4iCu6KVjbNBYlgoKeg7znUiAFpxm.ttf
     formats:
     - ttf
     - woff2
@@ -126,7 +130,8 @@ fonts:
     version: '0.83'
     copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
       1.0
-    font: 4iCv6KVjbNBYlgoCxCvTt2aMH4V_gg.ttf
+    font: Ubuntu-Bold.ttf
+    source_font: 4iCv6KVjbNBYlgoCxCvTt2aMH4V_gg.ttf
     formats:
     - ttf
     - woff2
@@ -138,7 +143,8 @@ fonts:
     version: '0.83'
     copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
       1.0
-    font: 4iCp6KVjbNBYlgoKejZPsmyIPYBvgpUI.ttf
+    font: Ubuntu-BoldItalic.ttf
+    source_font: 4iCp6KVjbNBYlgoKejZPsmyIPYBvgpUI.ttf
     formats:
     - ttf
     - woff2
@@ -152,9 +158,10 @@ fonts:
     version: '0.83'
     copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
       1.0
-    font: 4iCv6KVjbNBYlgoCjC3Tt2aMH4V_gg.ttf
+    font: Ubuntu-Medium.ttf
     preferred_family_name: Ubuntu
     preferred_type: Medium
+    source_font: 4iCv6KVjbNBYlgoCjC3Tt2aMH4V_gg.ttf
     formats:
     - ttf
     - woff2
@@ -166,15 +173,15 @@ fonts:
     version: '0.83'
     copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence
       1.0
-    font: 4iCp6KVjbNBYlgoKejYHtGyIPYBvgpUI.ttf
+    font: Ubuntu-MediumItalic.ttf
     preferred_family_name: Ubuntu
     preferred_type: Medium Italic
+    source_font: 4iCp6KVjbNBYlgoKejYHtGyIPYBvgpUI.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
-spdx_license: Ubuntu-font-1.0
 copyright: Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0
 license_url: https://scripts.sil.org/OFL
 license: |
@@ -371,4 +378,9 @@ open_license: |
   DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER
   DEALINGS IN THE FONT SOFTWARE.
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-02'
+  family_id: ubuntu

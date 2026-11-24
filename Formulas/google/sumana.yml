@@ -48,7 +48,7 @@ fonts:
     version: 1.015;PS 001.015;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT; ttfautohint
       (v0.94) -l 8 -r 50 -G 200 -x 14 -w "G"
     copyright: Copyright © 2015 by Cyreal. All rights reserved.
-    font: 4UaDrE5TqRBjGj-G8Bji76zR4w.ttf
+    font: Sumana-Regular.ttf
     description: |-
       Copyright (c) 2015
       Cyreal (www.cyreal.org)
@@ -58,6 +58,7 @@ fonts:
 
       Version 1.1. This license is available with a FAQ at:
       http://scripts.sil.org/OFL
+    source_font: 4UaDrE5TqRBjGj-G8Bji76zR4w.ttf
     formats:
     - ttf
     - woff2
@@ -69,7 +70,7 @@ fonts:
     version: 1.015;PS 001.015;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT; ttfautohint
       (v0.94) -l 8 -r 50 -G 200 -x 14 -w "G"
     copyright: Copyright © 2015 by Cyreal. All rights reserved.
-    font: 4UaArE5TqRBjGj--TDfG54fN6ppsKg.ttf
+    font: Sumana-Bold.ttf
     description: |-
       Copyright (c) 2015
       Cyreal (www.cyreal.org)
@@ -79,13 +80,13 @@ fonts:
 
       Version 1.1. This license is available with a FAQ at:
       http://scripts.sil.org/OFL
+    source_font: 4UaArE5TqRBjGj--TDfG54fN6ppsKg.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright © 2015 by Cyreal. All rights reserved.
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011-2015, Cyreal (www.cyreal.org a@cyreal.org)\n\nThis Font
   Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -191,4 +192,9 @@ open_license: "Copyright (c) 2011-2015, Cyreal (www.cyreal.org a@cyreal.org)\n\n
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-11'
+  family_id: sumana

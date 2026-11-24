@@ -59,11 +59,12 @@ fonts:
     post_script_name: Maitree-ExtraLight
     version: '1.002'
     copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: MjQDmil5tffhpBrklhGNWJGovLdh6OE.ttf
+    font: Maitree-ExtraLight.ttf
     preferred_family_name: Maitree
     preferred_type: ExtraLight
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: MjQDmil5tffhpBrklhGNWJGovLdh6OE.ttf
     formats:
     - ttf
     - woff2
@@ -76,11 +77,12 @@ fonts:
     post_script_name: Maitree-Light
     version: '1.000'
     copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: MjQDmil5tffhpBrklnWOWJGovLdh6OE.ttf
+    font: Maitree-Light.ttf
     preferred_family_name: Maitree
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: MjQDmil5tffhpBrklnWOWJGovLdh6OE.ttf
     formats:
     - ttf
     - woff2
@@ -93,9 +95,10 @@ fonts:
     post_script_name: Maitree
     version: '1.000'
     copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: MjQGmil5tffhpBrkrtmmfJmDoL4.ttf
+    font: Maitree.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: MjQGmil5tffhpBrkrtmmfJmDoL4.ttf
     formats:
     - ttf
     - woff2
@@ -106,9 +109,10 @@ fonts:
     post_script_name: Maitree-Bold
     version: '1.002'
     copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: MjQDmil5tffhpBrklmWJWJGovLdh6OE.ttf
+    font: Maitree-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: MjQDmil5tffhpBrklmWJWJGovLdh6OE.ttf
     formats:
     - ttf
     - woff2
@@ -121,11 +125,12 @@ fonts:
     post_script_name: Maitree-Medium
     version: '1.000'
     copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: MjQDmil5tffhpBrkli2PWJGovLdh6OE.ttf
+    font: Maitree-Medium.ttf
     preferred_family_name: Maitree
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: MjQDmil5tffhpBrkli2PWJGovLdh6OE.ttf
     formats:
     - ttf
     - woff2
@@ -138,18 +143,18 @@ fonts:
     post_script_name: Maitree-SemiBold
     version: '1.000'
     copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-    font: MjQDmil5tffhpBrklgGIWJGovLdh6OE.ttf
+    font: Maitree-SemiBold.ttf
     preferred_family_name: Maitree
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: MjQDmil5tffhpBrklgGIWJGovLdh6OE.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)\r\n\r\nThis Font
   Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis license
@@ -261,4 +266,9 @@ open_license: "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)\r\n\r\nTh
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-11'
+  family_id: maitree

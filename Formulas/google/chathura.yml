@@ -53,11 +53,12 @@ fonts:
     post_script_name: Chathura-Thin
     version: 1.002 2016
     copyright: Copyright 2009 The Chathura Project Authors.
-    font: _gP91R7-rzUuVjim42dEq0SbTvZyuDo.ttf
+    font: Chathura-Thin.ttf
     preferred_family_name: Chathura
     preferred_type: Thin
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: _gP91R7-rzUuVjim42dEq0SbTvZyuDo.ttf
     formats:
     - ttf
     - woff2
@@ -70,11 +71,12 @@ fonts:
     post_script_name: Chathura-Light
     version: 1.002 2016
     copyright: Copyright 2009 The Chathura Project Authors.
-    font: _gP81R7-rzUuVjim42eMiWSxYPp7oSNy.ttf
+    font: Chathura-Light.ttf
     preferred_family_name: Chathura
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: _gP81R7-rzUuVjim42eMiWSxYPp7oSNy.ttf
     formats:
     - ttf
     - woff2
@@ -87,9 +89,10 @@ fonts:
     post_script_name: Chathura-Regular
     version: 1.002 2016
     copyright: Copyright 2009 The Chathura Project Authors.
-    font: _gP71R7-rzUuVjim418goUC5S-Zy.ttf
+    font: Chathura-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: _gP71R7-rzUuVjim418goUC5S-Zy.ttf
     formats:
     - ttf
     - woff2
@@ -100,9 +103,10 @@ fonts:
     post_script_name: Chathura-Bold
     version: 1.002 2016
     copyright: Copyright 2009 The Chathura Project Authors.
-    font: _gP81R7-rzUuVjim42ecjmSxYPp7oSNy.ttf
+    font: Chathura-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: _gP81R7-rzUuVjim42ecjmSxYPp7oSNy.ttf
     formats:
     - ttf
     - woff2
@@ -115,18 +119,18 @@ fonts:
     post_script_name: Chathura-ExtraBold
     version: 1.002 2016
     copyright: Copyright 2009 The Chathura Project Authors.
-    font: _gP81R7-rzUuVjim42eAjWSxYPp7oSNy.ttf
+    font: Chathura-ExtraBold.ttf
     preferred_family_name: Chathura
     preferred_type: ExtraBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: _gP81R7-rzUuVjim42eAjWSxYPp7oSNy.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2009 The Chathura Project Authors.
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2009 The Chathura Project Authors (https://github.com/appajid/Chathura)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -232,4 +236,9 @@ open_license: "Copyright 2009 The Chathura Project Authors (https://github.com/a
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: chathura

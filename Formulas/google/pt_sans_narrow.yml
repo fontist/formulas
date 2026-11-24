@@ -47,7 +47,7 @@ fonts:
     post_script_name: PTSans-Narrow
     version: 2.003W OFL
     copyright: Copyright © 2009 ParaType Ltd. All rights reserved.
-    font: BngRUXNadjH0qYEzV7ab-oWlsYCByxyKeuDp.ttf
+    font: PTSans-Narrow.ttf
     description: "Copyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),
       with Reserved Font Names \"PT Sans\", \"PT Serif\" and \"ParaType\".\r\n\r\nThis
       Font Software is licensed under the Open Font License, Version 1.1 This license
@@ -104,6 +104,7 @@ fonts:
       OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
       ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER
       DEALINGS IN THE FONT SOFTWARE.\r\n"
+    source_font: BngRUXNadjH0qYEzV7ab-oWlsYCByxyKeuDp.ttf
     formats:
     - ttf
     - woff2
@@ -114,7 +115,7 @@ fonts:
     post_script_name: PTSans-NarrowBold
     version: 2.003W OFL
     copyright: Copyright © 2009 ParaType Ltd. All rights reserved.
-    font: BngSUXNadjH0qYEzV7ab-oWlsbg95DiCUfzgRd-3.ttf
+    font: PTSans-NarrowBold.ttf
     description: "Copyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),
       with Reserved Font Names \"PT Sans\", \"PT Serif\" and \"ParaType\".\r\n\r\nThis
       Font Software is licensed under the Open Font License, Version 1.1 This license
@@ -171,13 +172,13 @@ fonts:
       OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
       ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER
       DEALINGS IN THE FONT SOFTWARE.\r\n"
+    source_font: BngSUXNadjH0qYEzV7ab-oWlsbg95DiCUfzgRd-3.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright © 2009 ParaType Ltd. All rights reserved.
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "\uFEFFCopyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),\nwith
   Reserved Font Names \"PT Sans\" and \"ParaType\".\n\nThis Font Software is licensed
@@ -285,4 +286,9 @@ open_license: "\uFEFFCopyright (c) 2010, ParaType Ltd. (http://www.paratype.com/
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: pt_sans_narrow

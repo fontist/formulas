@@ -57,9 +57,10 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar),
       with Reserved Font Name "Overlock".
-    font: Z9XVDmdMWRiN1_T9Z4Te4u2El6GC.ttf
+    font: Overlock-Regular.ttf
     description: "This Font Software is licensed under the SIL Open Font License,\rVersion
       1.1. This license is available with a FAQ at:\rhttp://scripts.sil.org/OFL"
+    source_font: Z9XVDmdMWRiN1_T9Z4Te4u2El6GC.ttf
     formats:
     - ttf
     - woff2
@@ -71,9 +72,10 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar),
       with Reserved Font Name "Overlock".
-    font: Z9XTDmdMWRiN1_T9Z7Tc6OmmkrGC7Cs.ttf
+    font: Overlock-Italic.ttf
     description: "This Font Software is licensed under the SIL Open Font License,\rVersion
       1.1. This license is available with a FAQ at:\rhttp://scripts.sil.org/OFL"
+    source_font: Z9XTDmdMWRiN1_T9Z7Tc6OmmkrGC7Cs.ttf
     formats:
     - ttf
     - woff2
@@ -85,9 +87,10 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar),
       with Reserved Font Name "Overlock".
-    font: Z9XSDmdMWRiN1_T9Z7xizcmMvL2L9TLT.ttf
+    font: Overlock-Bold.ttf
     description: "This Font Software is licensed under the SIL Open Font License,\rVersion
       1.1. This license is available with a FAQ at:\rhttp://scripts.sil.org/OFL"
+    source_font: Z9XSDmdMWRiN1_T9Z7xizcmMvL2L9TLT.ttf
     formats:
     - ttf
     - woff2
@@ -99,9 +102,10 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar),
       with Reserved Font Name "Overlock".
-    font: Z9XQDmdMWRiN1_T9Z7Tc0FWJtrmp8CLTlNs.ttf
+    font: Overlock-BoldItalic.ttf
     description: "This Font Software is licensed under the SIL Open Font License,\rVersion
       1.1. This license is available with a FAQ at:\rhttp://scripts.sil.org/OFL"
+    source_font: Z9XQDmdMWRiN1_T9Z7Tc0FWJtrmp8CLTlNs.ttf
     formats:
     - ttf
     - woff2
@@ -115,11 +119,12 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar),
       with Reserved Font Name "Overlock".
-    font: Z9XSDmdMWRiN1_T9Z7xaz8mMvL2L9TLT.ttf
+    font: Overlock-Black.ttf
     preferred_family_name: Overlock
     preferred_type: Black
     description: "This Font Software is licensed under the SIL Open Font License,\rVersion
       1.1. This license is available with a FAQ at:\rhttp://scripts.sil.org/OFL"
+    source_font: Z9XSDmdMWRiN1_T9Z7xaz8mMvL2L9TLT.ttf
     formats:
     - ttf
     - woff2
@@ -131,11 +136,12 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar),
       with Reserved Font Name "Overlock".
-    font: Z9XQDmdMWRiN1_T9Z7Tc0G2Ltrmp8CLTlNs.ttf
+    font: Overlock-BlackItalic.ttf
     preferred_family_name: Overlock
     preferred_type: Black Italic
     description: "This Font Software is licensed under the SIL Open Font License,\rVersion
       1.1. This license is available with a FAQ at:\rhttp://scripts.sil.org/OFL"
+    source_font: Z9XQDmdMWRiN1_T9Z7Tc0G2Ltrmp8CLTlNs.ttf
     formats:
     - ttf
     - woff2
@@ -143,7 +149,6 @@ fonts:
 extract: {}
 copyright: Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar), with
   Reserved Font Name "Overlock".
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar), \nwith
   Reserved Font Names \"Overlock\" \"Overlock SC\"\n\nThis Font Software is licensed
@@ -251,4 +256,9 @@ open_license: "Copyright (c) 2011, Dario Manuel Muhafara (http://www.tipo.net.ar
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: overlock

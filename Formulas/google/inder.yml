@@ -5,7 +5,8 @@ description: 'Foundry: Sorkin Type Co Inder is a low contrast workhorse sans ser
   text face design. It was inspired by German art noveau style lettering and the Amsterdam
   School of architecture. Inder has been carefully adjusted to the restrictions of
   the screen. Inder can be used in a wide range of sizes. Source files are available
-  from Google Code . To contribute to the project contact Eben Sorkin .'
+  from github.com/googlefonts/inder . To contribute to the project contact Eben Sorkin
+  .'
 homepage: https://fonts.google.com/specimen/Inder
 resources:
   ttf_static:
@@ -33,16 +34,16 @@ fonts:
     post_script_name: Inder-Regular
     version: '1.001'
     copyright: Copyright (c) 2010 by Sorkin Type Co with Reserved Font Name Inder.
-    font: w8gUH2YoQe8_4vq6pw-P3U4O.ttf
+    font: Inder-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: w8gUH2YoQe8_4vq6pw-P3U4O.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2010 by Sorkin Type Co with Reserved Font Name Inder.
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),\nwith Reserved
   Font Name \"Inder\".\n\nThis Font Software is licensed under the SIL Open Font License,
@@ -148,4 +149,9 @@ open_license: "Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),\nwith 
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: inder

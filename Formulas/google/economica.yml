@@ -53,9 +53,10 @@ fonts:
     version: '1.101'
     copyright: Copyright (c) 2012, Vicente Lamonaca (produccion.taller@gmail.com www.tipografia-montevideo.info
       www.tipotype.com)
-    font: Qw3fZQZaHCLgIWa29ZBrMcgAAl1lfQ.ttf
+    font: Economica-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: Qw3fZQZaHCLgIWa29ZBrMcgAAl1lfQ.ttf
     formats:
     - ttf
     - woff2
@@ -67,9 +68,10 @@ fonts:
     version: '1.100'
     copyright: Copyright (c) 2012, Vicente Lamonaca (produccion.taller@gmail.com www.tipografia-montevideo.info
       www.tipotype.com)
-    font: Qw3ZZQZaHCLgIWa29ZBbM8IEIFh1fWUl.ttf
+    font: Economica-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: Qw3ZZQZaHCLgIWa29ZBbM8IEIFh1fWUl.ttf
     formats:
     - ttf
     - woff2
@@ -81,9 +83,10 @@ fonts:
     version: '1.100'
     copyright: Copyright (c) 2012, Vicente Lamonaca (produccion.taller@gmail.com www.tipografia-montevideo.info
       www.tipotype.com)
-    font: Qw3aZQZaHCLgIWa29ZBTjeckCnZ5dHw8iw.ttf
+    font: Economica-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: Qw3aZQZaHCLgIWa29ZBTjeckCnZ5dHw8iw.ttf
     formats:
     - ttf
     - woff2
@@ -95,9 +98,10 @@ fonts:
     version: '1.100'
     copyright: Copyright (c) 2012, Vicente Lamonaca (produccion.taller@gmail.com www.tipografia-montevideo.info
       www.tipotype.com)
-    font: Qw3EZQZaHCLgIWa29ZBbM_q4D3x9Vnksi4M7.ttf
+    font: Economica-BoldItalic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: Qw3EZQZaHCLgIWa29ZBbM_q4D3x9Vnksi4M7.ttf
     formats:
     - ttf
     - woff2
@@ -105,7 +109,6 @@ fonts:
 extract: {}
 copyright: Copyright (c) 2012, Vicente Lamonaca (produccion.taller@gmail.com www.tipografia-montevideo.info
   www.tipotype.com)
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2012, Vicente Lamonaca (produccion.taller@gmail.com www.tipografia-montevideo.info
   www.tipotype.com),\nwith Reserved Font Name Economica.\n\nThis Font Software is
@@ -213,4 +216,9 @@ open_license: "Copyright (c) 2012, Vicente Lamonaca (produccion.taller@gmail.com
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: economica

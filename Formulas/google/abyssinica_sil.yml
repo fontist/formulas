@@ -3,7 +3,7 @@ name: abyssinica_sil
 schema_version: 5
 description: Abyssinica SIL is a Unicode font that supports Ethiopic and Latin languages.
   For more information please visit the Abyssinica SIL page on SIL International's
-  Computers and Writing systems website, scripts.sil.org/AbyssinicaSIL To contribute,
+  Computers and Writing systems website, software.sil.org/abyssinica To contribute,
   see github.com/silnrsi/font-abyssinica
 homepage: https://fonts.google.com/specimen/Abyssinica+SIL
 resources:
@@ -32,7 +32,7 @@ fonts:
     post_script_name: AbyssinicaSIL-Regular
     version: '2.300'
     copyright: Copyright (c) 2000-2024 by SIL Global
-    font: oY1H8ezOqK7iI3rK_45WKoc8J6UZBFOVAXuI.ttf
+    font: AbyssinicaSIL-Regular.ttf
     description: |-
       This Font Software is Copyright (c) 2000-2024, SIL Global (https://www.sil.org/) with Reserved Font Names "Abyssinica" and "SIL".
 
@@ -79,13 +79,13 @@ fonts:
 
       DISCLAIMER
       THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+    source_font: oY1H8ezOqK7iI3rK_45WKoc8J6UZBFOVAXuI.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2000-2024 by SIL Global
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "This Font Software is Copyright (c) 2000-2024, SIL Global (https://www.sil.org/)\r\nwith
   Reserved Font Names \"Abyssinica\" and \"SIL\".\r\n\r\nModern Gurage glyphs Copyright
@@ -201,4 +201,9 @@ open_license: "This Font Software is Copyright (c) 2000-2024, SIL Global (https:
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: abyssinica_sil

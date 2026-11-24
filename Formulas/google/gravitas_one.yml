@@ -6,8 +6,8 @@ description: 'Foundry: Sorkin Type Co Gravitas One is modeled on the "UK fat fac
   in England. The letter forms are characterized by an attention getting and strong
   contrast between the very heavy vertical shapes and the thin horizontal ones. The
   contrast of the design means that it will be most useful when set from medium to
-  large sizes. Source files are available from Google Code . To contribute to the
-  project contact Eben Sorkin .'
+  large sizes. Source files are available from github.com/googlefonts/gravitasone
+  . To contribute to the project contact Eben Sorkin .'
 homepage: https://fonts.google.com/specimen/Gravitas+One
 resources:
   ttf_static:
@@ -41,9 +41,10 @@ fonts:
       This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at:
       http://scripts.sil.org/OFL
-    font: 5h1diZ4hJ3cblKy3LWakKQmaDWRNr3DzbQ.ttf
+    font: GravitasOne.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. '
+    source_font: 5h1diZ4hJ3cblKy3LWakKQmaDWRNr3DzbQ.ttf
     formats:
     - ttf
     - woff2
@@ -56,7 +57,6 @@ copyright: |-
   This Font Software is licensed under the SIL Open Font License,
   Version 1.1. This license is available with a FAQ at:
   http://scripts.sil.org/OFL
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),\nwith Reserved
   Font Name \"Gravitas\".\n\nThis Font Software is licensed under the SIL Open Font
@@ -164,4 +164,9 @@ open_license: "Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),\nwith 
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: gravitas_one

@@ -8,17 +8,17 @@ resources:
     source: google
     family: UoqMunThenKhung
     files:
-    - https://fonts.gstatic.com/s/uoqmunthenkhung/v1/Y4GTYa1nVTQLt-D5LoLChg5aJjIjwLL9Th8YYA.ttf
+    - https://fonts.gstatic.com/s/uoqmunthenkhung/v4/Y4GTYa1nVTQLt-D5LoLChg5aJjIjwLL9Th8YYA.ttf
     urls:
-    - https://fonts.gstatic.com/s/uoqmunthenkhung/v1/Y4GTYa1nVTQLt-D5LoLChg5aJjIjwLL9Th8YYA.ttf
+    - https://fonts.gstatic.com/s/uoqmunthenkhung/v4/Y4GTYa1nVTQLt-D5LoLChg5aJjIjwLL9Th8YYA.ttf
     format: ttf
   woff2_static:
     source: google
     family: UoqMunThenKhung
     files:
-    - https://fonts.gstatic.com/s/uoqmunthenkhung/v1/Y4GTYa1nVTQLt-D5LoLChg5aJjIjxbL9Th8YYA.woff2
+    - https://fonts.gstatic.com/s/uoqmunthenkhung/v4/Y4GTYa1nVTQLt-D5LoLChg5aJjIjxbL9Th8YYA.woff2
     urls:
-    - https://fonts.gstatic.com/s/uoqmunthenkhung/v1/Y4GTYa1nVTQLt-D5LoLChg5aJjIjxbL9Th8YYA.woff2
+    - https://fonts.gstatic.com/s/uoqmunthenkhung/v4/Y4GTYa1nVTQLt-D5LoLChg5aJjIjxbL9Th8YYA.woff2
     format: woff2
 fonts:
 - name: UoqMunThenKhung
@@ -29,16 +29,16 @@ fonts:
     post_script_name: UoqMunThenKhung-Regular
     version: '1.197'
     copyright: Copyright 2025 The UoqMunThenKhung Project Authors (https://github.com/MoonlitOwen/ThenKhung)
-    font: Y4GTYa1nVTQLt-D5LoLChg5aJjIjwLL9Th8YYA.ttf
+    font: UoqMunThenKhung-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: Y4GTYa1nVTQLt-D5LoLChg5aJjIjwLL9Th8YYA.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2025 The UoqMunThenKhung Project Authors (https://github.com/MoonlitOwen/ThenKhung)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2025 The UoqMunThenKhung Project Authors (https://github.com/MoonlitOwen/ThenKhung)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -144,4 +144,9 @@ open_license: "Copyright 2025 The UoqMunThenKhung Project Authors (https://githu
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2026-10-01'
+  family_id: uoqmunthenkhung

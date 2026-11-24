@@ -34,13 +34,13 @@ fonts:
     post_script_name: YatraOne-Regular
     version: 1.002g;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.4.1)
     copyright: Copyright 2014 The Yatra Project Authors.
-    font: C8ch4copsHzj8p7NaF0xw1OBbRDvXw.ttf
+    font: YatraOne-Regular.ttf
+    source_font: C8ch4copsHzj8p7NaF0xw1OBbRDvXw.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
-spdx_license: OFL-1.1-no-RFN
 copyright: Copyright 2014 The Yatra Project Authors.
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2014 The Yatra Project Authors.\r\n\r\nThis Font Software is licensed
@@ -153,4 +153,9 @@ open_license: "Copyright 2014 The Yatra Project Authors.\r\n\r\nThis Font Softwa
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: yatra_one

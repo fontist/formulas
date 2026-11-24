@@ -48,9 +48,10 @@ fonts:
     post_script_name: PalanquinDark-Regular
     version: '1.001'
     copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
-    font: xn75YHgl1nqmANMB-26xC7yuF_6OTEo9VtfE.ttf
+    font: PalanquinDark-Regular.ttf
     description: 'Licenced under the SIL Open Font License, Version 1.1, available
       with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: xn75YHgl1nqmANMB-26xC7yuF_6OTEo9VtfE.ttf
     formats:
     - ttf
     - woff2
@@ -61,9 +62,10 @@ fonts:
     post_script_name: PalanquinDark-Bold
     version: '1.001'
     copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
-    font: xn76YHgl1nqmANMB-26xC7yuF8YyY241fcvN2KT4.ttf
+    font: PalanquinDark-Bold.ttf
     description: 'Licenced under the SIL Open Font License, Version 1.1, available
       with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: xn76YHgl1nqmANMB-26xC7yuF8YyY241fcvN2KT4.ttf
     formats:
     - ttf
     - woff2
@@ -76,11 +78,12 @@ fonts:
     post_script_name: PalanquinDark-Medium
     version: '1.001'
     copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
-    font: xn76YHgl1nqmANMB-26xC7yuF8Z6ZW41fcvN2KT4.ttf
+    font: PalanquinDark-Medium.ttf
     preferred_family_name: Palanquin Dark
     preferred_type: Medium
     description: 'Licenced under the SIL Open Font License, Version 1.1, available
       with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: xn76YHgl1nqmANMB-26xC7yuF8Z6ZW41fcvN2KT4.ttf
     formats:
     - ttf
     - woff2
@@ -93,18 +96,18 @@ fonts:
     post_script_name: PalanquinDark-SemiBold
     version: '1.001'
     copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
-    font: xn76YHgl1nqmANMB-26xC7yuF8ZWYm41fcvN2KT4.ttf
+    font: PalanquinDark-SemiBold.ttf
     preferred_family_name: Palanquin Dark
     preferred_type: SemiBold
     description: 'Licenced under the SIL Open Font License, Version 1.1, available
       with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: xn76YHgl1nqmANMB-26xC7yuF8ZWYm41fcvN2KT4.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)\n\nThis Font
   Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -210,4 +213,9 @@ open_license: "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)\n\
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: palanquin_dark

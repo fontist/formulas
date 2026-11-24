@@ -4,24 +4,24 @@ schema_version: 5
 description: Telex is a humanist sans serif conceived to be a web font with nice legibility
   at normal text sizes. Originally based on grid fitting shapes it became a multi-purpose
   typeface with low contrast, open counter forms, wide proportions and a touch of
-  freshness. Designed by Andrés Torresi for Huerta Tipográfica .
+  freshness. Designed by Andrés Torresi for HT Fonts .
 homepage: https://fonts.google.com/specimen/Telex
 resources:
   ttf_static:
     source: google
     family: Telex
     files:
-    - https://fonts.gstatic.com/s/telex/v18/ieVw2Y1fKWmIO9fTB1piKFIf.ttf
+    - https://fonts.gstatic.com/s/telex/v20/ieVw2Y1fKWmIO9fTB1piKFIf.ttf
     urls:
-    - https://fonts.gstatic.com/s/telex/v18/ieVw2Y1fKWmIO9fTB1piKFIf.ttf
+    - https://fonts.gstatic.com/s/telex/v20/ieVw2Y1fKWmIO9fTB1piKFIf.ttf
     format: ttf
   woff2_static:
     source: google
     family: Telex
     files:
-    - https://fonts.gstatic.com/s/telex/v18/ieVw2Y1fKWmIO9fWB1piKFIf.woff2
+    - https://fonts.gstatic.com/s/telex/v20/ieVw2Y1fKWmIO9fWB1piKFIf.woff2
     urls:
-    - https://fonts.gstatic.com/s/telex/v18/ieVw2Y1fKWmIO9fWB1piKFIf.woff2
+    - https://fonts.gstatic.com/s/telex/v20/ieVw2Y1fKWmIO9fWB1piKFIf.woff2
     format: woff2
 fonts:
 - name: Telex
@@ -33,9 +33,10 @@ fonts:
     version: '1.100'
     copyright: Copyright 2011 The Telex Project Authors (info@andrestorresi.com.ar),
       with Reserved Font Name Telex.
-    font: ieVw2Y1fKWmIO9fTB1piKFIf.ttf
+    font: Telex-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: ieVw2Y1fKWmIO9fTB1piKFIf.ttf
     formats:
     - ttf
     - woff2
@@ -43,9 +44,8 @@ fonts:
 extract: {}
 copyright: Copyright 2011 The Telex Project Authors (info@andrestorresi.com.ar), with
   Reserved Font Name Telex.
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
-license: "Copyright 2011 The Telex Project Authors (info@andrestorresi.com.ar), with
+license: "Copyright 2011 The Telex Project Authors (andres.torresi@htfonts.com), with
   Reserved Font Name Telex.\n\nThis Font Software is licensed under the SIL Open Font
   License, Version 1.1.\nThis license is copied below, and is also available with
   a FAQ at:\nhttp://scripts.sil.org/OFL\n\n\n-----------------------------------------------------------\nSIL
@@ -98,7 +98,7 @@ license: "Copyright 2011 The Telex Project Authors (info@andrestorresi.com.ar), 
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
-open_license: "Copyright 2011 The Telex Project Authors (info@andrestorresi.com.ar),
+open_license: "Copyright 2011 The Telex Project Authors (andres.torresi@htfonts.com),
   with Reserved Font Name Telex.\n\nThis Font Software is licensed under the SIL Open
   Font License, Version 1.1.\nThis license is copied below, and is also available
   with a FAQ at:\nhttp://scripts.sil.org/OFL\n\n\n-----------------------------------------------------------\nSIL
@@ -151,4 +151,9 @@ open_license: "Copyright 2011 The Telex Project Authors (info@andrestorresi.com.
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2026-06-30'
+  family_id: telex

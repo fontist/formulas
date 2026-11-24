@@ -8,17 +8,17 @@ resources:
     source: google
     family: Huninn
     files:
-    - https://fonts.gstatic.com/s/huninn/v2/OpNNnoINg9bQ4xkpjiHQjittXw.ttf
+    - https://fonts.gstatic.com/s/huninn/v9/OpNNnoINg9bQ4xkpjiHQjittXw.ttf
     urls:
-    - https://fonts.gstatic.com/s/huninn/v2/OpNNnoINg9bQ4xkpjiHQjittXw.ttf
+    - https://fonts.gstatic.com/s/huninn/v9/OpNNnoINg9bQ4xkpjiHQjittXw.ttf
     format: ttf
   woff2_static:
     source: google
     family: Huninn
     files:
-    - https://fonts.gstatic.com/s/huninn/v2/OpNNnoINg9bQ4xkpiyHQjittXw.woff2
+    - https://fonts.gstatic.com/s/huninn/v9/OpNNnoINg9bQ4xkpiyHQjittXw.woff2
     urls:
-    - https://fonts.gstatic.com/s/huninn/v2/OpNNnoINg9bQ4xkpiyHQjittXw.woff2
+    - https://fonts.gstatic.com/s/huninn/v9/OpNNnoINg9bQ4xkpiyHQjittXw.woff2
     format: woff2
 fonts:
 - name: Huninn
@@ -29,18 +29,18 @@ fonts:
     post_script_name: Huninn-Regular
     version: '1.003'
     copyright: Copyright 2025 The Huninn Project Authors (https://github.com/justfont/Huninn)
-    font: OpNNnoINg9bQ4xkpjiHQjittXw.ttf
+    font: Huninn-Regular.ttf
     preferred_family_name: Huninn
     preferred_type: Regular
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: OpNNnoINg9bQ4xkpjiHQjittXw.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2025 The Huninn Project Authors (https://github.com/justfont/Huninn)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2025 The Huninn Project Authors (https://github.com/justfont/Huninn)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -146,4 +146,9 @@ open_license: "Copyright 2025 The Huninn Project Authors (https://github.com/jus
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2026-10-01'
+  family_id: huninn

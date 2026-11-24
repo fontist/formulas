@@ -55,11 +55,12 @@ fonts:
     post_script_name: ComicNeue-Light
     version: '2.003'
     copyright: Copyright 2014 The Comic Neue Project Authors (https://github.com/crozynski/comicneue)
-    font: 4UaErEJDsxBrF37olUeD_wHLwpteLwtHJlc.ttf
+    font: ComicNeue-Light.ttf
     preferred_family_name: Comic Neue
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: 4UaErEJDsxBrF37olUeD_wHLwpteLwtHJlc.ttf
     formats:
     - ttf
     - woff2
@@ -70,11 +71,12 @@ fonts:
     post_script_name: ComicNeue-LightItalic
     version: '2.003'
     copyright: Copyright 2014 The Comic Neue Project Authors (https://github.com/crozynski/comicneue)
-    font: 4UaarEJDsxBrF37olUeD96_RTplUKylCNlcw_Q.ttf
+    font: ComicNeue-LightItalic.ttf
     preferred_family_name: Comic Neue
     preferred_type: Light Italic
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: 4UaarEJDsxBrF37olUeD96_RTplUKylCNlcw_Q.ttf
     formats:
     - ttf
     - woff2
@@ -87,9 +89,10 @@ fonts:
     post_script_name: ComicNeue-Regular
     version: '2.003'
     copyright: Copyright 2014 The Comic Neue Project Authors (https://github.com/crozynski/comicneue)
-    font: 4UaHrEJDsxBrF37olUeDx63j5pN1MwI.ttf
+    font: ComicNeue-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: 4UaHrEJDsxBrF37olUeDx63j5pN1MwI.ttf
     formats:
     - ttf
     - woff2
@@ -100,9 +103,10 @@ fonts:
     post_script_name: ComicNeue-Italic
     version: '2.003'
     copyright: Copyright 2014 The Comic Neue Project Authors (https://github.com/crozynski/comicneue)
-    font: 4UaFrEJDsxBrF37olUeD96_p4rFwIwJePw.ttf
+    font: ComicNeue-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: 4UaFrEJDsxBrF37olUeD96_p4rFwIwJePw.ttf
     formats:
     - ttf
     - woff2
@@ -113,9 +117,10 @@ fonts:
     post_script_name: ComicNeue-Bold
     version: '2.003'
     copyright: Copyright 2014 The Comic Neue Project Authors (https://github.com/crozynski/comicneue)
-    font: 4UaErEJDsxBrF37olUeD_xHMwpteLwtHJlc.ttf
+    font: ComicNeue-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: 4UaErEJDsxBrF37olUeD_xHMwpteLwtHJlc.ttf
     formats:
     - ttf
     - woff2
@@ -126,16 +131,16 @@ fonts:
     post_script_name: ComicNeue-BoldItalic
     version: '2.003'
     copyright: Copyright 2014 The Comic Neue Project Authors (https://github.com/crozynski/comicneue)
-    font: 4UaarEJDsxBrF37olUeD96_RXp5UKylCNlcw_Q.ttf
+    font: ComicNeue-BoldItalic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: 4UaarEJDsxBrF37olUeD96_RXp5UKylCNlcw_Q.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2014 The Comic Neue Project Authors (https://github.com/crozynski/comicneue)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2014 The Comic Neue Project Authors (https://github.com/crozynski/comicneue)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -241,4 +246,9 @@ open_license: "Copyright 2014 The Comic Neue Project Authors (https://github.com
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: comic_neue

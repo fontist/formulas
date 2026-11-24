@@ -65,9 +65,10 @@ fonts:
     version: 1.100; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2016 The David Libre Project Authors (https://github.com/meirsadan/david-libre),
       with reserved font name "Hadash", "Gentium" and 'SIL'.
-    font: snfus0W_99N64iuYSvp4W_l86p6TYS-Y.ttf
+    font: DavidLibre-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org/'
+    source_font: snfus0W_99N64iuYSvp4W_l86p6TYS-Y.ttf
     formats:
     - ttf
     - woff2
@@ -79,9 +80,10 @@ fonts:
     version: 1.100; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2016 The David Libre Project Authors (https://github.com/meirsadan/david-libre),
       with reserved font name "Hadash", "Gentium" and 'SIL'.
-    font: snfzs0W_99N64iuYSvp4W8HAxbqbSjORSo9W.ttf
+    font: DavidLibre-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org/'
+    source_font: snfzs0W_99N64iuYSvp4W8HAxbqbSjORSo9W.ttf
     formats:
     - ttf
     - woff2
@@ -95,11 +97,12 @@ fonts:
     version: 1.100; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2016 The David Libre Project Authors (https://github.com/meirsadan/david-libre),
       with reserved font name "Hadash", "Gentium" and 'SIL'.
-    font: snfzs0W_99N64iuYSvp4W8GIw7qbSjORSo9W.ttf
+    font: DavidLibre-Medium.ttf
     preferred_family_name: David Libre
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org/'
+    source_font: snfzs0W_99N64iuYSvp4W8GIw7qbSjORSo9W.ttf
     formats:
     - ttf
     - woff2
@@ -107,7 +110,6 @@ fonts:
 extract: {}
 copyright: Copyright 2016 The David Libre Project Authors (https://github.com/meirsadan/david-libre),
   with reserved font name "Hadash", "Gentium" and 'SIL'.
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2016 The David Libre Project Authors (https://github.com/meirsadan/david-libre),
   with reserved font name \"Hadash\", \"Gentium\" and 'SIL'.\r\n\r\nThis Font Software
@@ -221,4 +223,9 @@ open_license: "Copyright 2016 The David Libre Project Authors (https://github.co
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE."
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: david_libre

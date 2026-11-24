@@ -32,16 +32,16 @@ fonts:
     post_script_name: HomemadeApple-Regular
     version: '1.001'
     copyright: Copyright (c) 2010 by Font Diner, Inc. All rights reserved.
-    font: Qw3EZQFXECDrI2q789EKQZJob3x9Vnksi4M7.ttf
+    font: HomemadeApple-Regular.ttf
     description: Licensed under the Apache License, Version 2.0
+    source_font: Qw3EZQFXECDrI2q789EKQZJob3x9Vnksi4M7.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2010 by Font Diner, Inc. All rights reserved.
-spdx_license: Apache-2.0
-license_url: http://www.apache.org/licenses/LICENSE-2.0
+license_url: https://scripts.sil.org/OFL
 license: |2
 
                                    Apache License
@@ -448,4 +448,9 @@ open_license: |2
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: homemade_apple

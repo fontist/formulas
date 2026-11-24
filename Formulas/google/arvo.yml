@@ -71,7 +71,8 @@ fonts:
     post_script_name: Arvo
     version: 1.006 2010 beta release; ttfautohint (v1.8.2)
     copyright: Copyright (c) 2010 Anton Koovit.
-    font: tDbD2oWUg0MKmSAa7Lzr7vs.ttf
+    font: Arvo.ttf
+    source_font: tDbD2oWUg0MKmSAa7Lzr7vs.ttf
     formats:
     - ttf
     - woff2
@@ -82,7 +83,8 @@ fonts:
     post_script_name: Arvo-Italic
     version: 1.006 2010 beta release; ttfautohint (v1.8.2)
     copyright: Copyright 2010 Anton Koovit, Yassin Baggar.
-    font: tDbN2oWUg0MKqSIQ6J7u_vvijQ.ttf
+    font: Arvo-Italic.ttf
+    source_font: tDbN2oWUg0MKqSIQ6J7u_vvijQ.ttf
     formats:
     - ttf
     - woff2
@@ -93,7 +95,8 @@ fonts:
     post_script_name: Arvo-Bold
     version: 1.006 2010 beta release; ttfautohint (v1.8.2)
     copyright: Copyright (c) 2010 by Anton Koovit.
-    font: tDbM2oWUg0MKoZw1yLTA8vL7lAE.ttf
+    font: Arvo-Bold.ttf
+    source_font: tDbM2oWUg0MKoZw1yLTA8vL7lAE.ttf
     formats:
     - ttf
     - woff2
@@ -104,14 +107,14 @@ fonts:
     post_script_name: Arvo-BoldItalic
     version: 1.006 2010 beta release; ttfautohint (v1.8.2)
     copyright: Copyright 2010 Anton Koovit, Yassin Baggar.
-    font: tDbO2oWUg0MKqSIoVLHK9tD-hAHkGg.ttf
+    font: Arvo-BoldItalic.ttf
+    source_font: tDbO2oWUg0MKqSIoVLHK9tD-hAHkGg.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2010 Anton Koovit.
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2010-2013, Anton Koovit (anton@korkork.com), with Reserved
   Font Name 'Arvo'\n\nThis Font Software is licensed under the SIL Open Font License,
@@ -217,4 +220,9 @@ open_license: "Copyright (c) 2010-2013, Anton Koovit (anton@korkork.com), with R
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-06-02'
+  family_id: arvo

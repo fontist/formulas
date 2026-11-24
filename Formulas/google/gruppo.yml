@@ -33,16 +33,16 @@ fonts:
     post_script_name: Gruppo-Regular
     version: 1.001; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.28]
     copyright: Copyright 2010 The Gruppo Project Authors (https://github.com/googlefonts/GruppoFont)
-    font: WwkfxPmzE06v_ZWFWXDAOIEQUQ.ttf
+    font: Gruppo-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: WwkfxPmzE06v_ZWFWXDAOIEQUQ.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2010 The Gruppo Project Authors (https://github.com/googlefonts/GruppoFont)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2010 The Gruppo Project Authors (https://github.com/googlefonts/GruppoFont)\r\n\r\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis
@@ -154,4 +154,9 @@ open_license: "Copyright 2010 The Gruppo Project Authors (https://github.com/goo
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-02'
+  family_id: gruppo

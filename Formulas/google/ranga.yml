@@ -40,7 +40,8 @@ fonts:
     version: 1.0.2
     copyright: Copyright (c) 2014 by TipTopTyp. All rights reserved under SIL openfont
       License 1.1
-    font: C8ct4cYisGb28p6CLDwZwmGE.ttf
+    font: Ranga-Regular.ttf
+    source_font: C8ct4cYisGb28p6CLDwZwmGE.ttf
     formats:
     - ttf
     - woff2
@@ -52,13 +53,13 @@ fonts:
     version: 1.0.2
     copyright: Copyright (c) 2014 by TipTopTyp. All rights reserved under SIL openfont
       License 1.1
-    font: C8cg4cYisGb28qY-AxgR6X2NZAn2.ttf
+    font: Ranga-Bold.ttf
+    source_font: C8cg4cYisGb28qY-AxgR6X2NZAn2.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
-spdx_license: OFL-1.1-no-RFN
 copyright: Copyright (c) 2014 by TipTopTyp. All rights reserved under SIL openfont
   License 1.1
 license_url: https://scripts.sil.org/OFL
@@ -166,4 +167,9 @@ open_license: "Copyright (c) 2014 by TipTopTyp\n\nThis Font Software is licensed
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-04-23'
+  family_id: ranga

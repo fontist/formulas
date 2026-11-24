@@ -43,9 +43,10 @@ fonts:
     post_script_name: PragatiNarrow-Regular
     version: 1.010; ttfautohint (v1.3)
     copyright: Copyright (c) 2012-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com)
-    font: vm8vdRf0T0bS1ffgsPB7WZ-mD17_ytN3M48a.ttf
+    font: PragatiNarrow-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: vm8vdRf0T0bS1ffgsPB7WZ-mD17_ytN3M48a.ttf
     formats:
     - ttf
     - woff2
@@ -56,16 +57,16 @@ fonts:
     post_script_name: PragatiNarrow-Bold
     version: 1.010; ttfautohint (v1.3)
     copyright: Copyright (c) 2012-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com)
-    font: vm8sdRf0T0bS1ffgsPB7WZ-mD2ZD5fd_GJMTlo_4.ttf
+    font: PragatiNarrow-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: vm8sdRf0T0bS1ffgsPB7WZ-mD2ZD5fd_GJMTlo_4.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2012-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2012-2015, Omnibus-Type (www.omnibus-type.com|omnibus.type@gmail.com)\r\n\r\n\r\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis
@@ -177,4 +178,9 @@ open_license: "Copyright (c) 2012-2015, Omnibus-Type (www.omnibus-type.com|omnib
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-11'
+  family_id: pragati_narrow

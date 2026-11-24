@@ -43,10 +43,11 @@ fonts:
     post_script_name: Amaranth-Regular
     version: '1.001'
     copyright: Copyright (c) 2011 by Gesine Todt. All rights reserved.
-    font: KtkuALODe433f0j1zPnCF9GqwnzW.ttf
+    font: Amaranth-Regular.ttf
     description: Copyright (c) 2011 Amaranth by Gesine Todt www.gesine-todt.de. All
       rights reserved. This Font Software is licensed under the SIL Open Font License,
       Version 1.1.
+    source_font: KtkuALODe433f0j1zPnCF9GqwnzW.ttf
     formats:
     - ttf
     - woff2
@@ -57,10 +58,11 @@ fonts:
     post_script_name: Amaranth-Italic
     version: '1.001'
     copyright: Copyright (c) 2011 by Gesine Todt. All rights reserved.
-    font: KtkoALODe433f0j1zMnAHdWIx2zWD4I.ttf
+    font: Amaranth-Italic.ttf
     description: Copyright (c) 2011 Amaranth by Gesine Todt www.gesine-todt.de. All
       rights reserved. This Font Software is licensed under the SIL Open Font License,
       Version 1.1.
+    source_font: KtkoALODe433f0j1zMnAHdWIx2zWD4I.ttf
     formats:
     - ttf
     - woff2
@@ -71,10 +73,11 @@ fonts:
     post_script_name: Amaranth-Bold
     version: '1.001'
     copyright: Copyright (c) 2011 by Gesine Todt. All rights reserved.
-    font: KtkpALODe433f0j1zMF-OPWi6WDfFpuc.ttf
+    font: Amaranth-Bold.ttf
     description: Copyright (c) 2011 Amaranth by Gesine Todt www.gesine-todt.de. All
       rights reserved. This Font Software is licensed under the SIL Open Font License,
       Version 1.1.
+    source_font: KtkpALODe433f0j1zMF-OPWi6WDfFpuc.ttf
     formats:
     - ttf
     - woff2
@@ -85,16 +88,16 @@ fonts:
     post_script_name: Amaranth-BoldItalic
     version: '1.001'
     copyright: Copyright (c) 2011 by Gesine Todt. All rights reserved.
-    font: KtkrALODe433f0j1zMnAJWmn42T9E4ucRY8.ttf
+    font: Amaranth-BoldItalic.ttf
     description: This Font Software is licensed under the SIL Open Font License, Version
       1.1.
+    source_font: KtkrALODe433f0j1zMnAJWmn42T9E4ucRY8.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2011 by Gesine Todt. All rights reserved.
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2016 The Amaranth Project Authors (https://github.com/googlefonts/amaranth)\r\n\r\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\r\nThis
@@ -206,4 +209,9 @@ open_license: "Copyright 2016 The Amaranth Project Authors (https://github.com/g
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: amaranth

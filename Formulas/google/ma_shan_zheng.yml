@@ -3,24 +3,25 @@ name: ma_shan_zheng
 schema_version: 5
 description: This script is reminiscent of fonts used to display "yinglian," the short
   poems and blessings traditionally posted on either side of the entryway to a home
-  or temple. MaShanZheng is heavy and majestic, vital and expansive.
+  or temple. MaShanZheng is heavy and majestic, vital and expansive. To contribute,
+  please visit github.com/googlefonts/mashanzheng .
 homepage: https://fonts.google.com/specimen/Ma+Shan+Zheng
 resources:
   ttf_static:
     source: google
     family: Ma Shan Zheng
     files:
-    - https://fonts.gstatic.com/s/mashanzheng/v17/NaPecZTRCLxvwo41b4gvzkXaRMTsDIRSfr0.ttf
+    - https://fonts.gstatic.com/s/mashanzheng/v18/NaPecZTRCLxvwo41b4gvzkXaRMTsDIRSfr0.ttf
     urls:
-    - https://fonts.gstatic.com/s/mashanzheng/v17/NaPecZTRCLxvwo41b4gvzkXaRMTsDIRSfr0.ttf
+    - https://fonts.gstatic.com/s/mashanzheng/v18/NaPecZTRCLxvwo41b4gvzkXaRMTsDIRSfr0.ttf
     format: ttf
   woff2_static:
     source: google
     family: Ma Shan Zheng
     files:
-    - https://fonts.gstatic.com/s/mashanzheng/v17/NaPecZTRCLxvwo41b4gvzkXaRMHsDIRSfr0.woff2
+    - https://fonts.gstatic.com/s/mashanzheng/v18/NaPecZTRCLxvwo41b4gvzkXaRMHsDIRSfr0.woff2
     urls:
-    - https://fonts.gstatic.com/s/mashanzheng/v17/NaPecZTRCLxvwo41b4gvzkXaRMHsDIRSfr0.woff2
+    - https://fonts.gstatic.com/s/mashanzheng/v18/NaPecZTRCLxvwo41b4gvzkXaRMHsDIRSfr0.woff2
     format: woff2
 fonts:
 - name: Ma Shan Zheng
@@ -29,18 +30,18 @@ fonts:
     type: Regular
     full_name: Ma Shan Zheng Regular
     post_script_name: MaShanZheng-Regular
-    version: '2.002'
+    version: '2.003'
     copyright: Copyright 2018 The MaShanZheng Project Authors (https://github.com/googlefonts/mashanzheng)
-    font: NaPecZTRCLxvwo41b4gvzkXaRMTsDIRSfr0.ttf
+    font: MaShanZheng-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: NaPecZTRCLxvwo41b4gvzkXaRMTsDIRSfr0.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2018 The MaShanZheng Project Authors (https://github.com/googlefonts/mashanzheng)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2018 The Ma Shan Zheng Project Authors (https://github.com/googlefonts/mashanzheng)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -146,4 +147,9 @@ open_license: "Copyright 2018 The Ma Shan Zheng Project Authors (https://github.
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2026-08-25'
+  family_id: ma_shan_zheng

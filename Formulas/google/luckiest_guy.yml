@@ -31,8 +31,9 @@ fonts:
     version: '1.001'
     copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI).
       All rights reserved. Available under the Apache 2.0 licence.\rhttp://www.apache.org/licenses/LICENSE-2.0.html"
-    font: _gP_1RrxsjcxVyin9l9n_j2RStR3qDpraA.ttf
+    font: LuckiestGuy-Regular.ttf
     description: Licensed under the Apache License, Version 2.0
+    source_font: _gP_1RrxsjcxVyin9l9n_j2RStR3qDpraA.ttf
     formats:
     - ttf
     - woff2
@@ -40,8 +41,7 @@ fonts:
 extract: {}
 copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All
   rights reserved. Available under the Apache 2.0 licence.\rhttp://www.apache.org/licenses/LICENSE-2.0.html"
-spdx_license: Apache-2.0
-license_url: http://www.apache.org/licenses/LICENSE-2.0
+license_url: https://scripts.sil.org/OFL
 license: |2
 
                                    Apache License
@@ -448,4 +448,9 @@ open_license: |2
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: luckiest_guy

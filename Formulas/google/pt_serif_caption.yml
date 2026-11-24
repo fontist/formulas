@@ -48,7 +48,7 @@ fonts:
     post_script_name: PTSerif-Caption
     version: 1.000W OFL
     copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
-    font: ieVl2ZhbGCW-JoW6S34pSDpqYKU059WxDCs5cvI.ttf
+    font: PTSerif-Caption.ttf
     description: "Copyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),
       with Reserved Font Names \"PT Sans\", \"PT Serif\" and \"ParaType\".\r\n\r\nThis
       Font Software is licensed under the Open Font License, Version 1.1 This license
@@ -105,6 +105,7 @@ fonts:
       OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
       ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER
       DEALINGS IN THE FONT SOFTWARE.\r\n"
+    source_font: ieVl2ZhbGCW-JoW6S34pSDpqYKU059WxDCs5cvI.ttf
     formats:
     - ttf
     - woff2
@@ -115,7 +116,7 @@ fonts:
     post_script_name: PTSerif-CaptionItalic
     version: 1.000W OFL
     copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
-    font: ieVj2ZhbGCW-JoW6S34pSDpqYKU019e7CAk8YvJEeg.ttf
+    font: PTSerif-CaptionItalic.ttf
     description: "Copyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),
       with Reserved Font Names \"PT Sans\", \"PT Serif\" and \"ParaType\".\r\n\r\nThis
       Font Software is licensed under the Open Font License, Version 1.1 This license
@@ -172,13 +173,13 @@ fonts:
       OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
       ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER
       DEALINGS IN THE FONT SOFTWARE.\r\n"
+    source_font: ieVj2ZhbGCW-JoW6S34pSDpqYKU019e7CAk8YvJEeg.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright © 2010 ParaType Ltd. All rights reserved.
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),\nwith
   Reserved Font Names \"PT Sans\", \"PT Serif\" and \"ParaType\".\n\nThis Font Software
@@ -286,4 +287,9 @@ open_license: "Copyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: pt_serif_caption

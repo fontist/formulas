@@ -41,9 +41,10 @@ fonts:
     post_script_name: SpaceMono-Regular
     version: 1.003; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2016 The Space Mono Project Authors (https://github.com/googlefonts/spacemono)
-    font: i7dPIFZifjKcF5UAWdDRUEZ2RFq7AwU.ttf
+    font: SpaceMono-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: i7dPIFZifjKcF5UAWdDRUEZ2RFq7AwU.ttf
     formats:
     - ttf
     - woff2
@@ -54,9 +55,10 @@ fonts:
     post_script_name: SpaceMono-Italic
     version: 1.003; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2016 The Space Mono Project Authors (https://github.com/googlefonts/spacemono)
-    font: i7dNIFZifjKcF5UAWdDRYER8QHi-EwWMbg.ttf
+    font: SpaceMono-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: i7dNIFZifjKcF5UAWdDRYER8QHi-EwWMbg.ttf
     formats:
     - ttf
     - woff2
@@ -67,9 +69,10 @@ fonts:
     post_script_name: SpaceMono-Bold
     version: 1.003; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2016 The Space Mono Project Authors (https://github.com/googlefonts/spacemono)
-    font: i7dMIFZifjKcF5UAWdDRaPpZYFKQHwyVd3U.ttf
+    font: SpaceMono-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: i7dMIFZifjKcF5UAWdDRaPpZYFKQHwyVd3U.ttf
     formats:
     - ttf
     - woff2
@@ -80,16 +83,16 @@ fonts:
     post_script_name: SpaceMono-BoldItalic
     version: 1.003; ttfautohint (v1.8.4.7-5d5b)
     copyright: Copyright 2016 The Space Mono Project Authors (https://github.com/googlefonts/spacemono)
-    font: i7dSIFZifjKcF5UAWdDRYERE_FeaGy6QZ3WfYg.ttf
+    font: SpaceMono-BoldItalic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: i7dSIFZifjKcF5UAWdDRYERE_FeaGy6QZ3WfYg.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2016 The Space Mono Project Authors (https://github.com/googlefonts/spacemono)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2016 The Space Mono Project Authors (https://github.com/googlefonts/spacemono)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -195,4 +198,9 @@ open_license: "Copyright 2016 The Space Mono Project Authors (https://github.com
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-06-25'
+  family_id: space_mono

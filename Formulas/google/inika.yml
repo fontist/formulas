@@ -40,9 +40,10 @@ fonts:
     post_script_name: Inika
     version: '1.001'
     copyright: Copyright (c) 2011 by Constanza Artigas Preller. All rights reserved.
-    font: rnCm-x5X3QP-phTHRcc2s2XH.ttf
+    font: Inika.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: rnCm-x5X3QP-phTHRcc2s2XH.ttf
     formats:
     - ttf
     - woff2
@@ -53,16 +54,16 @@ fonts:
     post_script_name: Inika-Bold
     version: '1.001'
     copyright: Copyright (c) 2011 by Constanza Artigas Preller. All rights reserved.
-    font: rnCr-x5X3QP-pix7auM-mHnOSOuk.ttf
+    font: Inika-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: rnCr-x5X3QP-pix7auM-mHnOSOuk.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2011 by Constanza Artigas Preller. All rights reserved.
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011, Constanza Artigas Preller (artigasconstanza@gmail.com),\n
   with Reserved Font Name \"Inika\"\n\nThis Font Software is licensed under the SIL
@@ -170,4 +171,9 @@ open_license: "Copyright (c) 2011, Constanza Artigas Preller (artigasconstanza@g
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: inika

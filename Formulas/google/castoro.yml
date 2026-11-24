@@ -1,37 +1,64 @@
 ---
 name: castoro
 schema_version: 5
-description: Castoro began as a synthesis of aspects of assorted Dutch types from
-  the 16–18th Centuries and was initially made for the Indic fonts that Tiro produced
-  for Harvard University Press. The version released as Castoro retains the extensive
-  diacritic set for transliteration of South Asian languages and additional characters
-  for an increased number of European languages. Castoro is named for the North American
-  beaver, Castor canadensis. Robust serif text types with extensive language and typographic
-  layout support are sometimes referred to as &apos;workhorse&apos; types. Castoro
-  may be thought of as a busy beaver. The roman was designed by John Hudson, and the
-  italic with his Tiro colleague Paul Hanslow, assisted by Kaja Słojewska. To contribute,
-  see github.com/TiroTypeworks/Castoro .
+description: Castoro font family
 homepage: https://fonts.google.com/specimen/Castoro
 resources:
+  ttf_variable:
+    source: google
+    family: Castoro
+    files:
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/castoro/Castoro[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/castoro/Castoro-Italic[wght].ttf
+    urls:
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/castoro/Castoro[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/castoro/Castoro-Italic[wght].ttf
+    format: ttf
+    variable_axes:
+    - wght
   ttf_static:
     source: google
     family: Castoro
     files:
-    - https://fonts.gstatic.com/s/castoro/v20/1q2GY5yMCld3-O4cHYhEzOYenEU.ttf
-    - https://fonts.gstatic.com/s/castoro/v20/1q2EY5yMCld3-O4cLYpOyMQbjEX5fw.ttf
+    - https://fonts.gstatic.com/s/castoro/v23/1q2ZY5yMCld3-O4cB4NmPD6CP0P0foVpwERK4Amu7nM1.ttf
+    - https://fonts.gstatic.com/s/castoro/v23/1q2ZY5yMCld3-O4cB4NmPD6CP0P0foVbwERK4Amu7nM1.ttf
+    - https://fonts.gstatic.com/s/castoro/v23/1q2ZY5yMCld3-O4cB4NmPD6CP0P0foW3x0RK4Amu7nM1.ttf
+    - https://fonts.gstatic.com/s/castoro/v23/1q2ZY5yMCld3-O4cB4NmPD6CP0P0foWOx0RK4Amu7nM1.ttf
+    - https://fonts.gstatic.com/s/castoro/v23/1q2XY5yMCld3-O4cLYpUw-brVNlaeZChg6wJ6g2M62M1AXs.ttf
+    - https://fonts.gstatic.com/s/castoro/v23/1q2XY5yMCld3-O4cLYpUw-brVNlaeZChg54J6g2M62M1AXs.ttf
+    - https://fonts.gstatic.com/s/castoro/v23/1q2XY5yMCld3-O4cLYpUw-brVNlaeZChg3IO6g2M62M1AXs.ttf
+    - https://fonts.gstatic.com/s/castoro/v23/1q2XY5yMCld3-O4cLYpUw-brVNlaeZChg0sO6g2M62M1AXs.ttf
     urls:
-    - https://fonts.gstatic.com/s/castoro/v20/1q2GY5yMCld3-O4cHYhEzOYenEU.ttf
-    - https://fonts.gstatic.com/s/castoro/v20/1q2EY5yMCld3-O4cLYpOyMQbjEX5fw.ttf
+    - https://fonts.gstatic.com/s/castoro/v23/1q2ZY5yMCld3-O4cB4NmPD6CP0P0foVpwERK4Amu7nM1.ttf
+    - https://fonts.gstatic.com/s/castoro/v23/1q2ZY5yMCld3-O4cB4NmPD6CP0P0foVbwERK4Amu7nM1.ttf
+    - https://fonts.gstatic.com/s/castoro/v23/1q2ZY5yMCld3-O4cB4NmPD6CP0P0foW3x0RK4Amu7nM1.ttf
+    - https://fonts.gstatic.com/s/castoro/v23/1q2ZY5yMCld3-O4cB4NmPD6CP0P0foWOx0RK4Amu7nM1.ttf
+    - https://fonts.gstatic.com/s/castoro/v23/1q2XY5yMCld3-O4cLYpUw-brVNlaeZChg6wJ6g2M62M1AXs.ttf
+    - https://fonts.gstatic.com/s/castoro/v23/1q2XY5yMCld3-O4cLYpUw-brVNlaeZChg54J6g2M62M1AXs.ttf
+    - https://fonts.gstatic.com/s/castoro/v23/1q2XY5yMCld3-O4cLYpUw-brVNlaeZChg3IO6g2M62M1AXs.ttf
+    - https://fonts.gstatic.com/s/castoro/v23/1q2XY5yMCld3-O4cLYpUw-brVNlaeZChg0sO6g2M62M1AXs.ttf
     format: ttf
   woff2_static:
     source: google
     family: Castoro
     files:
-    - https://fonts.gstatic.com/s/castoro/v20/1q2GY5yMCld3-O4cHY1EzOYenEU.woff2
-    - https://fonts.gstatic.com/s/castoro/v20/1q2EY5yMCld3-O4cLYpOzcQbjEX5fw.woff2
+    - https://fonts.gstatic.com/s/castoro/v23/1q2ZY5yMCld3-O4cB4NmPD6CP0P0foVpwERP4Amu7nM1.woff2
+    - https://fonts.gstatic.com/s/castoro/v23/1q2ZY5yMCld3-O4cB4NmPD6CP0P0foVbwERP4Amu7nM1.woff2
+    - https://fonts.gstatic.com/s/castoro/v23/1q2ZY5yMCld3-O4cB4NmPD6CP0P0foW3x0RP4Amu7nM1.woff2
+    - https://fonts.gstatic.com/s/castoro/v23/1q2ZY5yMCld3-O4cB4NmPD6CP0P0foWOx0RP4Amu7nM1.woff2
+    - https://fonts.gstatic.com/s/castoro/v23/1q2XY5yMCld3-O4cLYpUw-brVNlaeZChg6wJ6giM62M1AXs.woff2
+    - https://fonts.gstatic.com/s/castoro/v23/1q2XY5yMCld3-O4cLYpUw-brVNlaeZChg54J6giM62M1AXs.woff2
+    - https://fonts.gstatic.com/s/castoro/v23/1q2XY5yMCld3-O4cLYpUw-brVNlaeZChg3IO6giM62M1AXs.woff2
+    - https://fonts.gstatic.com/s/castoro/v23/1q2XY5yMCld3-O4cLYpUw-brVNlaeZChg0sO6giM62M1AXs.woff2
     urls:
-    - https://fonts.gstatic.com/s/castoro/v20/1q2GY5yMCld3-O4cHY1EzOYenEU.woff2
-    - https://fonts.gstatic.com/s/castoro/v20/1q2EY5yMCld3-O4cLYpOzcQbjEX5fw.woff2
+    - https://fonts.gstatic.com/s/castoro/v23/1q2ZY5yMCld3-O4cB4NmPD6CP0P0foVpwERP4Amu7nM1.woff2
+    - https://fonts.gstatic.com/s/castoro/v23/1q2ZY5yMCld3-O4cB4NmPD6CP0P0foVbwERP4Amu7nM1.woff2
+    - https://fonts.gstatic.com/s/castoro/v23/1q2ZY5yMCld3-O4cB4NmPD6CP0P0foW3x0RP4Amu7nM1.woff2
+    - https://fonts.gstatic.com/s/castoro/v23/1q2ZY5yMCld3-O4cB4NmPD6CP0P0foWOx0RP4Amu7nM1.woff2
+    - https://fonts.gstatic.com/s/castoro/v23/1q2XY5yMCld3-O4cLYpUw-brVNlaeZChg6wJ6giM62M1AXs.woff2
+    - https://fonts.gstatic.com/s/castoro/v23/1q2XY5yMCld3-O4cLYpUw-brVNlaeZChg54J6giM62M1AXs.woff2
+    - https://fonts.gstatic.com/s/castoro/v23/1q2XY5yMCld3-O4cLYpUw-brVNlaeZChg3IO6giM62M1AXs.woff2
+    - https://fonts.gstatic.com/s/castoro/v23/1q2XY5yMCld3-O4cLYpUw-brVNlaeZChg0sO6giM62M1AXs.woff2
     format: woff2
 fonts:
 - name: Castoro
@@ -40,35 +67,164 @@ fonts:
     type: Regular
     full_name: Castoro Regular
     post_script_name: Castoro-Regular
-    version: '2.04'
+    version: '3.000'
     copyright: Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)
-    font: 1q2GY5yMCld3-O4cHYhEzOYenEU.ttf
+    font: Castoro-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
-      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: 1q2ZY5yMCld3-O4cB4NmPD6CP0P0foVpwERK4Amu7nM1.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
+    source_resource: ttf_static
+  - family_name: Castoro
+    type: Bold
+    full_name: Castoro Bold
+    post_script_name: Castoro-Bold
+    version: '3.000'
+    copyright: Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)
+    font: Castoro-Bold.ttf
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: 1q2ZY5yMCld3-O4cB4NmPD6CP0P0foWOx0RK4Amu7nM1.ttf
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
+    source_resource: ttf_static
   - family_name: Castoro
     type: Italic
     full_name: Castoro Italic
     post_script_name: Castoro-Italic
-    version: '2.04'
+    version: '3.000'
     copyright: Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)
-    font: 1q2EY5yMCld3-O4cLYpOyMQbjEX5fw.ttf
+    font: Castoro-Italic.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
-      Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: 1q2XY5yMCld3-O4cLYpUw-brVNlaeZChg6wJ6g2M62M1AXs.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
+    source_resource: ttf_static
+  - family_name: Castoro
+    type: Bold Italic
+    full_name: Castoro Bold Italic
+    post_script_name: Castoro-BoldItalic
+    version: '3.000'
+    copyright: Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)
+    font: Castoro-BoldItalic.ttf
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: 1q2XY5yMCld3-O4cLYpUw-brVNlaeZChg0sO6g2M62M1AXs.ttf
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Castoro
+    type: Regular
+    full_name: Castoro Regular
+    post_script_name: Castoro-Regular
+    copyright: Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)
+    font: Castoro[wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wght
+    source_resource: ttf_variable
+  - family_name: Castoro
+    type: Italic
+    full_name: Castoro Italic
+    post_script_name: Castoro-Italic
+    copyright: Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)
+    font: Castoro-Italic[wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - wght
+    source_resource: ttf_variable
+- name: Castoro Medium
+  styles:
+  - family_name: Castoro Medium
+    type: Regular
+    full_name: Castoro Medium
+    post_script_name: Castoro-Medium
+    version: '3.000'
+    copyright: Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)
+    font: Castoro-Medium.ttf
+    preferred_family_name: Castoro
+    preferred_type: Medium
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: 1q2ZY5yMCld3-O4cB4NmPD6CP0P0foVbwERK4Amu7nM1.ttf
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Castoro Medium
+    type: Italic
+    full_name: Castoro Medium Italic
+    post_script_name: Castoro-MediumItalic
+    version: '3.000'
+    copyright: Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)
+    font: Castoro-MediumItalic.ttf
+    preferred_family_name: Castoro
+    preferred_type: Medium Italic
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: 1q2XY5yMCld3-O4cLYpUw-brVNlaeZChg54J6g2M62M1AXs.ttf
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
+    source_resource: ttf_static
+- name: Castoro SemiBold
+  styles:
+  - family_name: Castoro SemiBold
+    type: Regular
+    full_name: Castoro SemiBold
+    post_script_name: Castoro-SemiBold
+    version: '3.000'
+    copyright: Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)
+    font: Castoro-SemiBold.ttf
+    preferred_family_name: Castoro
+    preferred_type: SemiBold
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: 1q2ZY5yMCld3-O4cB4NmPD6CP0P0foW3x0RK4Amu7nM1.ttf
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Castoro SemiBold
+    type: Italic
+    full_name: Castoro SemiBold Italic
+    post_script_name: Castoro-SemiBoldItalic
+    version: '3.000'
+    copyright: Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)
+    font: Castoro-SemiBoldItalic.ttf
+    preferred_family_name: Castoro
+    preferred_type: SemiBold Italic
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: 1q2XY5yMCld3-O4cLYpUw-brVNlaeZChg3IO6g2M62M1AXs.ttf
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
 copyright: Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
-  is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL\n\n\n-----------------------------------------------------------\nSIL
+  is copied below, and is also available with a FAQ at:\nhttps://openfontlicense.org\n\n\n-----------------------------------------------------------\nSIL
   OPEN FONT LICENSE Version 1.1 - 26 February 2007\n-----------------------------------------------------------\n\nPREAMBLE\nThe
   goals of the Open Font License (OFL) are to stimulate worldwide\ndevelopment of
   collaborative font projects, to support the font creation\nefforts of academic and
@@ -120,7 +276,7 @@ license: "Copyright 2020 The Castoro Project Authors (https://github.com/TiroTyp
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
 open_license: "Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
-  is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL\n\n\n-----------------------------------------------------------\nSIL
+  is copied below, and is also available with a FAQ at:\nhttps://openfontlicense.org\n\n\n-----------------------------------------------------------\nSIL
   OPEN FONT LICENSE Version 1.1 - 26 February 2007\n-----------------------------------------------------------\n\nPREAMBLE\nThe
   goals of the Open Font License (OFL) are to stimulate worldwide\ndevelopment of
   collaborative font projects, to support the font creation\nefforts of academic and
@@ -170,4 +326,9 @@ open_license: "Copyright 2020 The Castoro Project Authors (https://github.com/Ti
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2026-10-27'
+  family_id: castoro

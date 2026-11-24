@@ -36,9 +36,10 @@ fonts:
     version: '3.004'
     copyright: Copyright (c) 2009-2011, Alexey Maslov, Jovanny Lemonad (lemonad@jovanny.ru),
       with Reserved Font Name 'Stalinist'
-    font: MQpS-WezM9W4Dd7D3B7I-UT7eZ-UPyacPbo.ttf
+    font: StalinistOne-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: MQpS-WezM9W4Dd7D3B7I-UT7eZ-UPyacPbo.ttf
     formats:
     - ttf
     - woff2
@@ -46,7 +47,6 @@ fonts:
 extract: {}
 copyright: Copyright (c) 2009-2011, Alexey Maslov, Jovanny Lemonad (lemonad@jovanny.ru),
   with Reserved Font Name 'Stalinist'
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2009-2011, Alexey Maslov, Jovanny Lemonad (lemonad@jovanny.ru),
   with Reserved Font Name 'Stalinist'\n\nThis Font Software is licensed under the
@@ -154,4 +154,9 @@ open_license: "Copyright (c) 2009-2011, Alexey Maslov, Jovanny Lemonad (lemonad@
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-02'
+  family_id: stalinist_one

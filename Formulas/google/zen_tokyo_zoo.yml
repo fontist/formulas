@@ -32,16 +32,16 @@ fonts:
     post_script_name: ZenTokyoZoo-Regular
     version: 1.002; ttfautohint (v1.8.3)
     copyright: Copyright 2021 The Zen Tokyo Zoo Project Authors (https://github.com/googlefonts/zen-tokyo-zoo)
-    font: NGSyv5ffC0J_BK6aFNtr6sRv8a1uRWe9amg.ttf
+    font: ZenTokyoZoo-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: NGSyv5ffC0J_BK6aFNtr6sRv8a1uRWe9amg.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2021 The Zen Tokyo Zoo Project Authors (https://github.com/googlefonts/zen-tokyo-zoo)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2021 The TokyoZoo Project Authors (https://github.com/googlefonts/zen-tokyo-zoo)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -147,4 +147,9 @@ open_license: "Copyright 2021 The TokyoZoo Project Authors (https://github.com/g
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: zen_tokyo_zoo

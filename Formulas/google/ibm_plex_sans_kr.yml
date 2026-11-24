@@ -65,11 +65,12 @@ fonts:
     post_script_name: IBMPlexSansKR-Thin
     version: '1.001'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: vEFM2-VJISZe3O_rc3ZVYh4aTwNOyra_X5zCpMrMfA.ttf
+    font: IBMPlexSansKR-Thin.ttf
     preferred_family_name: IBM Plex Sans KR
     preferred_type: Thin
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: vEFM2-VJISZe3O_rc3ZVYh4aTwNOyra_X5zCpMrMfA.ttf
     formats:
     - ttf
     - woff2
@@ -82,11 +83,12 @@ fonts:
     post_script_name: IBMPlexSansKR-ExtraLight
     version: '1.001'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: vEFN2-VJISZe3O_rc3ZVYh4aTwNOyhqef7bsqMPVZb4.ttf
+    font: IBMPlexSansKR-ExtraLight.ttf
     preferred_family_name: IBM Plex Sans KR
     preferred_type: ExtraLight
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: vEFN2-VJISZe3O_rc3ZVYh4aTwNOyhqef7bsqMPVZb4.ttf
     formats:
     - ttf
     - woff2
@@ -99,11 +101,12 @@ fonts:
     post_script_name: IBMPlexSansKR-Light
     version: '1.001'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: vEFN2-VJISZe3O_rc3ZVYh4aTwNOyn6df7bsqMPVZb4.ttf
+    font: IBMPlexSansKR-Light.ttf
     preferred_family_name: IBM Plex Sans KR
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: vEFN2-VJISZe3O_rc3ZVYh4aTwNOyn6df7bsqMPVZb4.ttf
     formats:
     - ttf
     - woff2
@@ -116,9 +119,10 @@ fonts:
     post_script_name: IBMPlexSansKR-Regular
     version: '1.001'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: vEFK2-VJISZe3O_rc3ZVYh4aTwNO8tK1W77HtMo.ttf
+    font: IBMPlexSansKR-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: vEFK2-VJISZe3O_rc3ZVYh4aTwNO8tK1W77HtMo.ttf
     formats:
     - ttf
     - woff2
@@ -129,9 +133,10 @@ fonts:
     post_script_name: IBMPlexSansKR-Bold
     version: '1.001'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: vEFN2-VJISZe3O_rc3ZVYh4aTwNOym6af7bsqMPVZb4.ttf
+    font: IBMPlexSansKR-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: vEFN2-VJISZe3O_rc3ZVYh4aTwNOym6af7bsqMPVZb4.ttf
     formats:
     - ttf
     - woff2
@@ -144,11 +149,12 @@ fonts:
     post_script_name: IBMPlexSansKR-Medium
     version: '1.001'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: vEFN2-VJISZe3O_rc3ZVYh4aTwNOyiacf7bsqMPVZb4.ttf
+    font: IBMPlexSansKR-Medium.ttf
     preferred_family_name: IBM Plex Sans KR
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: vEFN2-VJISZe3O_rc3ZVYh4aTwNOyiacf7bsqMPVZb4.ttf
     formats:
     - ttf
     - woff2
@@ -161,18 +167,18 @@ fonts:
     post_script_name: IBMPlexSansKR-SemiBold
     version: '1.001'
     copyright: Copyright 2018 IBM Corp. All rights reserved.
-    font: vEFN2-VJISZe3O_rc3ZVYh4aTwNOygqbf7bsqMPVZb4.ttf
+    font: IBMPlexSansKR-SemiBold.ttf
     preferred_family_name: IBM Plex Sans KR
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: vEFN2-VJISZe3O_rc3ZVYh4aTwNOygqbf7bsqMPVZb4.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2018 IBM Corp. All rights reserved.
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright © 2017 IBM Corp. with Reserved Font Name \"Plex\"\r\n\r\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\r\n\r\nThis
@@ -284,4 +290,9 @@ open_license: "Copyright © 2017 IBM Corp. with Reserved Font Name \"Plex\"\r\n\
   OR CONSEQUENTIAL\r\nDAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
   ARISING\r\nFROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\r\nOTHER
   DEALINGS IN THE FONT SOFTWARE.\r\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: ibm_plex_sans_kr

@@ -8,8 +8,8 @@ description: 'Foundry: Sorkin Type Co Fjord is a serif typeface, originally desi
   well in sizes form 12 px and higher but because of its original design and careful
   detailing Fjord can also be a distinctive font choice for larger text headlines
   and in corporate design. Fjord is inspired by the feeling found in both renaissance
-  and contemporary typeface design. Source files are available from Google Code .
-  To contribute to the project contact Eben Sorkin .'
+  and contemporary typeface design. Source files are available from github.com/googlefonts/fjordone
+  . To contribute to the project contact Eben Sorkin .'
 homepage: https://fonts.google.com/specimen/Fjord+One
 resources:
   ttf_static:
@@ -40,9 +40,10 @@ fonts:
       Font Names \"Fjord\" and \"Fjord One\"\r\rThis Font Software is licensed under
       the SIL Open Font License, Version 1.1. This license is copied below, and is
       also available with a FAQ at: http://scripts.sil.org/OFL"
-    font: zOL-4pbEnKBY_9S1jNKr6e5As-FeiQ.ttf
+    font: Fjord-One.ttf
     description: This Font Software is licensed under the SIL Open Font License, Version
       1.1.
+    source_font: zOL-4pbEnKBY_9S1jNKr6e5As-FeiQ.ttf
     formats:
     - ttf
     - woff2
@@ -52,7 +53,6 @@ copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)\rwith Reserv
   Font Names \"Fjord\" and \"Fjord One\"\r\rThis Font Software is licensed under the
   SIL Open Font License, Version 1.1. This license is copied below, and is also available
   with a FAQ at: http://scripts.sil.org/OFL"
-spdx_license: OFL-1.1-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),\nwith Reserved
   Font Name \"Fjord\" and \"Fjord One\".\n\nThis Font Software is licensed under the
@@ -160,4 +160,9 @@ open_license: "Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),\nwith 
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-11'
+  family_id: fjord_one

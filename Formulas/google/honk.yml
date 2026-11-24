@@ -24,9 +24,9 @@ resources:
     source: google
     family: Honk
     files:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/honk/Honk[MORF,SHLN].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/honk/Honk[MORF,SHLN].ttf
     urls:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/honk/Honk[MORF,SHLN].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/honk/Honk[MORF,SHLN].ttf
     format: ttf
     variable_axes:
     - MORF
@@ -56,9 +56,10 @@ fonts:
     post_script_name: Honk-Regular
     version: '1.000'
     copyright: Copyright 2023 The Honk Project Authors (https://github.com/EkType/Honk)
-    font: m8J7jftUea-XwTaemClumrBQbmvynOmXBji9zFhHRr8WFgVLo7tNepQKvg.ttf
+    font: Honk-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: m8J7jftUea-XwTaemClumrBQbmvynOmXBji9zFhHRr8WFgVLo7tNepQKvg.ttf
     formats:
     - ttf
     - woff2
@@ -79,7 +80,6 @@ fonts:
     source_resource: ttf_variable
 extract: {}
 copyright: Copyright 2023 The Honk Project Authors (https://github.com/EkType/Honk)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2023 The Honk Project Authors (https://github.com/EkType/Honk)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -185,4 +185,9 @@ open_license: "Copyright 2023 The Honk Project Authors (https://github.com/EkTyp
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-05'
+  family_id: honk

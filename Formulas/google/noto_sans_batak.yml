@@ -10,17 +10,17 @@ resources:
     source: google
     family: Noto Sans Batak
     files:
-    - https://fonts.gstatic.com/s/notosansbatak/v23/gok2H6TwAEdtF9N8-mdTCQvT-Zdgo4_PHuk74A.ttf
+    - https://fonts.gstatic.com/s/notosansbatak/v24/gok2H6TwAEdtF9N8-mdTCQvT-Zdgo4_PHuk74A.ttf
     urls:
-    - https://fonts.gstatic.com/s/notosansbatak/v23/gok2H6TwAEdtF9N8-mdTCQvT-Zdgo4_PHuk74A.ttf
+    - https://fonts.gstatic.com/s/notosansbatak/v24/gok2H6TwAEdtF9N8-mdTCQvT-Zdgo4_PHuk74A.ttf
     format: ttf
   woff2_static:
     source: google
     family: Noto Sans Batak
     files:
-    - https://fonts.gstatic.com/s/notosansbatak/v23/gok2H6TwAEdtF9N8-mdTCQvT-Zdgpo_PHuk74A.woff2
+    - https://fonts.gstatic.com/s/notosansbatak/v24/gok2H6TwAEdtF9N8-mdTCQvT-Zdgpo_PHuk74A.woff2
     urls:
-    - https://fonts.gstatic.com/s/notosansbatak/v23/gok2H6TwAEdtF9N8-mdTCQvT-Zdgpo_PHuk74A.woff2
+    - https://fonts.gstatic.com/s/notosansbatak/v24/gok2H6TwAEdtF9N8-mdTCQvT-Zdgpo_PHuk74A.woff2
     format: woff2
 fonts:
 - name: Noto Sans Batak
@@ -29,18 +29,18 @@ fonts:
     type: Regular
     full_name: Noto Sans Batak Regular
     post_script_name: NotoSansBatak-Regular
-    version: 2.004; ttfautohint (v1.8.4.7-5d5b)
+    version: 2.005; ttfautohint (v1.8.4.16-eb64)
     copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/batak)
-    font: gok2H6TwAEdtF9N8-mdTCQvT-Zdgo4_PHuk74A.ttf
+    font: NotoSansBatak-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: gok2H6TwAEdtF9N8-mdTCQvT-Zdgo4_PHuk74A.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/batak)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/batak)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -146,4 +146,9 @@ open_license: "Copyright 2022 The Noto Project Authors (https://github.com/notof
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2026-08-25'
+  family_id: noto_sans_batak

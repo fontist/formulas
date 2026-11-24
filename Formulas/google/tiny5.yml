@@ -4,45 +4,459 @@ schema_version: 5
 description: Tiny5 font family
 homepage: https://fonts.google.com/specimen/Tiny5
 resources:
+  ttf_variable:
+    source: google
+    family: Tiny5
+    files:
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/tiny5/Tiny5[BLED,JITT,ROND,wdth,wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/tiny5/Tiny5-Italic[BLED,JITT,ROND,wdth,wght].ttf
+    urls:
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/tiny5/Tiny5[BLED,JITT,ROND,wdth,wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/tiny5/Tiny5-Italic[BLED,JITT,ROND,wdth,wght].ttf
+    format: ttf
+    variable_axes:
+    - BLED
+    - JITT
+    - ROND
+    - wdth
+    - wght
   ttf_static:
     source: google
     family: Tiny5
     files:
-    - https://fonts.gstatic.com/s/tiny5/v3/KFOpCnmCvdGT7hw-z0hHAi88.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrrZSwwUzBmzqh54.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrjZTwwUzBmzqh54.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSruhTwwUzBmzqh54.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrrZTwwUzBmzqh54.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSroRTwwUzBmzqh54.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrmhUwwUzBmzqh54.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrlFUwwUzBmzqh54.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrjZUwwUzBmzqh54.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrh9UwwUzBmzqh54.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QK0c5Ak7vl570tA.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34Qq0Y5Ak7vl570tA.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QdUY5Ak7vl570tA.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QK0Y5Ak7vl570tA.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QGUY5Ak7vl570tA.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34Q9UE5Ak7vl570tA.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QzEE5Ak7vl570tA.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34Qq0E5Ak7vl570tA.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QgkE5Ak7vl570tA.ttf
     urls:
-    - https://fonts.gstatic.com/s/tiny5/v3/KFOpCnmCvdGT7hw-z0hHAi88.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrrZSwwUzBmzqh54.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrjZTwwUzBmzqh54.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSruhTwwUzBmzqh54.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrrZTwwUzBmzqh54.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSroRTwwUzBmzqh54.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrmhUwwUzBmzqh54.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrlFUwwUzBmzqh54.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrjZUwwUzBmzqh54.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrh9UwwUzBmzqh54.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QK0c5Ak7vl570tA.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34Qq0Y5Ak7vl570tA.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QdUY5Ak7vl570tA.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QK0Y5Ak7vl570tA.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QGUY5Ak7vl570tA.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34Q9UE5Ak7vl570tA.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QzEE5Ak7vl570tA.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34Qq0E5Ak7vl570tA.ttf
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QgkE5Ak7vl570tA.ttf
     format: ttf
   woff2_static:
     source: google
     family: Tiny5
     files:
-    - https://fonts.gstatic.com/s/tiny5/v3/KFOpCnmCvdGT7hw7z0hHAi88.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrrZSwwAzBmzqh54.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrjZTwwAzBmzqh54.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSruhTwwAzBmzqh54.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrrZTwwAzBmzqh54.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSroRTwwAzBmzqh54.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrmhUwwAzBmzqh54.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrlFUwwAzBmzqh54.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrjZUwwAzBmzqh54.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrh9UwwAzBmzqh54.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QK0c5B07vl570tA.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34Qq0Y5B07vl570tA.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QdUY5B07vl570tA.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QK0Y5B07vl570tA.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QGUY5B07vl570tA.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34Q9UE5B07vl570tA.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QzEE5B07vl570tA.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34Qq0E5B07vl570tA.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QgkE5B07vl570tA.woff2
     urls:
-    - https://fonts.gstatic.com/s/tiny5/v3/KFOpCnmCvdGT7hw7z0hHAi88.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrrZSwwAzBmzqh54.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrjZTwwAzBmzqh54.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSruhTwwAzBmzqh54.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrrZTwwAzBmzqh54.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSroRTwwAzBmzqh54.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrmhUwwAzBmzqh54.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrlFUwwAzBmzqh54.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrjZUwwAzBmzqh54.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrh9UwwAzBmzqh54.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QK0c5B07vl570tA.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34Qq0Y5B07vl570tA.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QdUY5B07vl570tA.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QK0Y5B07vl570tA.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QGUY5B07vl570tA.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34Q9UE5B07vl570tA.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QzEE5B07vl570tA.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34Qq0E5B07vl570tA.woff2
+    - https://fonts.gstatic.com/s/tiny5/v4/KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QgkE5B07vl570tA.woff2
     format: woff2
 fonts:
+- name: Tiny5 Thin
+  styles:
+  - family_name: Tiny5 Thin
+    type: Regular
+    full_name: Tiny5 Thin
+    post_script_name: Tiny5-Thin
+    version: '2.007'
+    copyright: Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_Tiny5)
+    font: Tiny5-Thin.ttf
+    preferred_family_name: Tiny5
+    preferred_type: Thin
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrrZSwwUzBmzqh54.ttf
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Tiny5 Thin
+    type: Italic
+    full_name: Tiny5 Thin Italic
+    post_script_name: Tiny5-ThinItalic
+    version: '2.007'
+    copyright: Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_Tiny5)
+    font: Tiny5-ThinItalic.ttf
+    preferred_family_name: Tiny5
+    preferred_type: Thin Italic
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QK0c5Ak7vl570tA.ttf
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
+    source_resource: ttf_static
+- name: Tiny5 ExtraLight
+  styles:
+  - family_name: Tiny5 ExtraLight
+    type: Regular
+    full_name: Tiny5 ExtraLight
+    post_script_name: Tiny5-ExtraLight
+    version: '2.007'
+    copyright: Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_Tiny5)
+    font: Tiny5-ExtraLight.ttf
+    preferred_family_name: Tiny5
+    preferred_type: ExtraLight
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrjZTwwUzBmzqh54.ttf
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Tiny5 ExtraLight
+    type: Italic
+    full_name: Tiny5 ExtraLight Italic
+    post_script_name: Tiny5-ExtraLightItalic
+    version: '2.007'
+    copyright: Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_Tiny5)
+    font: Tiny5-ExtraLightItalic.ttf
+    preferred_family_name: Tiny5
+    preferred_type: ExtraLight Italic
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34Qq0Y5Ak7vl570tA.ttf
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
+    source_resource: ttf_static
+- name: Tiny5 Light
+  styles:
+  - family_name: Tiny5 Light
+    type: Regular
+    full_name: Tiny5 Light
+    post_script_name: Tiny5-Light
+    version: '2.007'
+    copyright: Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_Tiny5)
+    font: Tiny5-Light.ttf
+    preferred_family_name: Tiny5
+    preferred_type: Light
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSruhTwwUzBmzqh54.ttf
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Tiny5 Light
+    type: Italic
+    full_name: Tiny5 Light Italic
+    post_script_name: Tiny5-LightItalic
+    version: '2.007'
+    copyright: Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_Tiny5)
+    font: Tiny5-LightItalic.ttf
+    preferred_family_name: Tiny5
+    preferred_type: Light Italic
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QdUY5Ak7vl570tA.ttf
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
+    source_resource: ttf_static
 - name: Tiny5
   styles:
   - family_name: Tiny5
     type: Regular
     full_name: Tiny5 Regular
     post_script_name: Tiny5-Regular
-    version: 1.002; ttfautohint (v1.8.4.7-5d5b)
-    copyright: Copyright 2024 The tiny5 Project Authors (https://github.com/Gissio/font_tiny5)
-    font: KFOpCnmCvdGT7hw-z0hHAi88.ttf
+    version: '2.007'
+    copyright: Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_Tiny5)
+    font: Tiny5-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrrZTwwUzBmzqh54.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
+    source_resource: ttf_static
+  - family_name: Tiny5
+    type: Bold
+    full_name: Tiny5 Bold
+    post_script_name: Tiny5-Bold
+    version: '2.007'
+    copyright: Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_Tiny5)
+    font: Tiny5-Bold.ttf
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrlFUwwUzBmzqh54.ttf
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Tiny5
+    type: Italic
+    full_name: Tiny5 Italic
+    post_script_name: Tiny5-Italic
+    version: '2.007'
+    copyright: Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_Tiny5)
+    font: Tiny5-Italic.ttf
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QK0Y5Ak7vl570tA.ttf
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Tiny5
+    type: Bold Italic
+    full_name: Tiny5 Bold Italic
+    post_script_name: Tiny5-BoldItalic
+    version: '2.007'
+    copyright: Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_Tiny5)
+    font: Tiny5-BoldItalic.ttf
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QzEE5Ak7vl570tA.ttf
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Tiny5
+    type: Regular
+    full_name: Tiny5 Regular
+    post_script_name: Tiny5-Regular
+    copyright: Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_tiny5)
+    font: Tiny5[BLED,JITT,ROND,wdth,wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - BLED
+    - JITT
+    - ROND
+    - wdth
+    - wght
+    source_resource: ttf_variable
+  - family_name: Tiny5
+    type: Italic
+    full_name: Tiny5 Italic
+    post_script_name: Tiny5-Italic
+    copyright: Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_tiny5)
+    font: Tiny5-Italic[BLED,JITT,ROND,wdth,wght].ttf
+    formats:
+    - ttf
+    variable_font: true
+    variable_axes:
+    - BLED
+    - JITT
+    - ROND
+    - wdth
+    - wght
+    source_resource: ttf_variable
+- name: Tiny5 Medium
+  styles:
+  - family_name: Tiny5 Medium
+    type: Regular
+    full_name: Tiny5 Medium
+    post_script_name: Tiny5-Medium
+    version: '2.007'
+    copyright: Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_Tiny5)
+    font: Tiny5-Medium.ttf
+    preferred_family_name: Tiny5
+    preferred_type: Medium
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSroRTwwUzBmzqh54.ttf
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Tiny5 Medium
+    type: Italic
+    full_name: Tiny5 Medium Italic
+    post_script_name: Tiny5-MediumItalic
+    version: '2.007'
+    copyright: Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_Tiny5)
+    font: Tiny5-MediumItalic.ttf
+    preferred_family_name: Tiny5
+    preferred_type: Medium Italic
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QGUY5Ak7vl570tA.ttf
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
+    source_resource: ttf_static
+- name: Tiny5 SemiBold
+  styles:
+  - family_name: Tiny5 SemiBold
+    type: Regular
+    full_name: Tiny5 SemiBold
+    post_script_name: Tiny5-SemiBold
+    version: '2.007'
+    copyright: Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_Tiny5)
+    font: Tiny5-SemiBold.ttf
+    preferred_family_name: Tiny5
+    preferred_type: SemiBold
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrmhUwwUzBmzqh54.ttf
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Tiny5 SemiBold
+    type: Italic
+    full_name: Tiny5 SemiBold Italic
+    post_script_name: Tiny5-SemiBoldItalic
+    version: '2.007'
+    copyright: Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_Tiny5)
+    font: Tiny5-SemiBoldItalic.ttf
+    preferred_family_name: Tiny5
+    preferred_type: SemiBold Italic
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34Q9UE5Ak7vl570tA.ttf
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
+    source_resource: ttf_static
+- name: Tiny5 ExtraBold
+  styles:
+  - family_name: Tiny5 ExtraBold
+    type: Regular
+    full_name: Tiny5 ExtraBold
+    post_script_name: Tiny5-ExtraBold
+    version: '2.007'
+    copyright: Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_Tiny5)
+    font: Tiny5-ExtraBold.ttf
+    preferred_family_name: Tiny5
+    preferred_type: ExtraBold
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrjZUwwUzBmzqh54.ttf
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Tiny5 ExtraBold
+    type: Italic
+    full_name: Tiny5 ExtraBold Italic
+    post_script_name: Tiny5-ExtraBoldItalic
+    version: '2.007'
+    copyright: Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_Tiny5)
+    font: Tiny5-ExtraBoldItalic.ttf
+    preferred_family_name: Tiny5
+    preferred_type: ExtraBold Italic
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34Qq0E5Ak7vl570tA.ttf
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
+    source_resource: ttf_static
+- name: Tiny5 Black
+  styles:
+  - family_name: Tiny5 Black
+    type: Regular
+    full_name: Tiny5 Black
+    post_script_name: Tiny5-Black
+    version: '2.007'
+    copyright: Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_Tiny5)
+    font: Tiny5-Black.ttf
+    preferred_family_name: Tiny5
+    preferred_type: Black
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: KFPmCnmCvdGT7gY17YjFsqU5P8HylYh0cHNgqfzNZyHYWuYMFEKbbJNjBFkz328200F85S8o1EvtViA7-Im-3J_pQp09C2aSrh9UwwUzBmzqh54.ttf
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
+    source_resource: ttf_static
+  - family_name: Tiny5 Black
+    type: Italic
+    full_name: Tiny5 Black Italic
+    post_script_name: Tiny5-BlackItalic
+    version: '2.007'
+    copyright: Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_Tiny5)
+    font: Tiny5-BlackItalic.ttf
+    preferred_family_name: Tiny5
+    preferred_type: Black Italic
+    description: 'This Font Software is licensed under the SIL Open Font License,
+      Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: KFPkCnmCvdGT7iw830dHx72MuMXnlYhOe0G_CY23xubcT-YMLkmpowcaCuG02no203t318zIrRh7-CcuMMtMla0WmvRWkciVu34QgkE5Ak7vl570tA.ttf
+    formats:
+    - ttf
+    - woff2
+    variable_font: false
+    source_resource: ttf_static
 extract: {}
-copyright: Copyright 2024 The tiny5 Project Authors (https://github.com/Gissio/font_tiny5)
-spdx_license: OFL-1.1-no-RFN
+copyright: Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_Tiny5)
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2022-2024 The Tiny5 Project Authors (https://github.com/Gissio/font_tiny5)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
-  is copied below, and is also available with a FAQ at:\nhttps://scripts.sil.org/OFL\n\n\n-----------------------------------------------------------\nSIL
+  is copied below, and is also available with a FAQ at:\nhttps://openfontlicense.org\n\n\n-----------------------------------------------------------\nSIL
   OPEN FONT LICENSE Version 1.1 - 26 February 2007\n-----------------------------------------------------------\n\nPREAMBLE\nThe
   goals of the Open Font License (OFL) are to stimulate worldwide\ndevelopment of
   collaborative font projects, to support the font creation\nefforts of academic and
@@ -94,7 +508,7 @@ license: "Copyright 2022-2024 The Tiny5 Project Authors (https://github.com/Giss
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
 open_license: "Copyright 2022-2024 The Tiny5 Project Authors (https://github.com/Gissio/font_tiny5)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
-  is copied below, and is also available with a FAQ at:\nhttps://scripts.sil.org/OFL\n\n\n-----------------------------------------------------------\nSIL
+  is copied below, and is also available with a FAQ at:\nhttps://openfontlicense.org\n\n\n-----------------------------------------------------------\nSIL
   OPEN FONT LICENSE Version 1.1 - 26 February 2007\n-----------------------------------------------------------\n\nPREAMBLE\nThe
   goals of the Open Font License (OFL) are to stimulate worldwide\ndevelopment of
   collaborative font projects, to support the font creation\nefforts of academic and
@@ -144,4 +558,9 @@ open_license: "Copyright 2022-2024 The Tiny5 Project Authors (https://github.com
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2026-10-28'
+  family_id: tiny5

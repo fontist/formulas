@@ -45,9 +45,10 @@ fonts:
     post_script_name: BIZUDPGothic-Regular
     version: '1.051'
     copyright: Copyright 2022 The BIZ UDGothic Project Authors (https://github.com/googlefonts/morisawa-biz-ud-gothic)
-    font: hES36X5pHAIBjmS84VL0Bue83nUMQWkMUAk.ttf
+    font: BIZUDPGothic-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: hES36X5pHAIBjmS84VL0Bue83nUMQWkMUAk.ttf
     formats:
     - ttf
     - woff2
@@ -58,16 +59,16 @@ fonts:
     post_script_name: BIZUDPGothic-Bold
     version: '1.051'
     copyright: Copyright 2022 The BIZ UDGothic Project Authors (https://github.com/googlefonts/morisawa-biz-ud-gothic)
-    font: hESq6X5pHAIBjmS84VL0Bue85skjZWEnTABCSQo.ttf
+    font: BIZUDPGothic-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL'
+    source_font: hESq6X5pHAIBjmS84VL0Bue85skjZWEnTABCSQo.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2022 The BIZ UDGothic Project Authors (https://github.com/googlefonts/morisawa-biz-ud-gothic)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2022 The BIZ UDGothic Project Authors (https://github.com/googlefonts/morisawa-biz-ud-mincho)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -173,4 +174,9 @@ open_license: "Copyright 2022 The BIZ UDGothic Project Authors (https://github.c
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2026-01-07'
+  family_id: biz_udpgothic

@@ -14,9 +14,9 @@ resources:
     source: google
     family: Edu AU VIC WA NT Hand
     files:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/eduauvicwanthand/EduAUVICWANTHand[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/eduauvicwanthand/EduAUVICWANTHand[wght].ttf
     urls:
-    - https://raw.githubusercontent.com/google/fonts/6c1dbe27dcf7d817d4b62cec033ba77fa8e2a5ec/ofl/eduauvicwanthand/EduAUVICWANTHand[wght].ttf
+    - https://raw.githubusercontent.com/google/fonts/06bfe0d62a98375cb09c942fa18e68bd32cff057/ofl/eduauvicwanthand/EduAUVICWANTHand[wght].ttf
     format: ttf
     variable_axes:
     - wght
@@ -58,9 +58,10 @@ fonts:
     version: '1.001'
     copyright: Copyright 2023 The VIC WA NT School Hand Australia Project Authors
       (https://github.com/SorkinType/VICWANTSchoolhandAustralia)
-    font: C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtCJ1lKtFbYfTEUU.ttf
+    font: EduAUVICWANTHand-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtCJ1lKtFbYfTEUU.ttf
     formats:
     - ttf
     - woff2
@@ -73,9 +74,10 @@ fonts:
     version: '1.001'
     copyright: Copyright 2023 The VIC WA NT School Hand Australia Project Authors
       (https://github.com/SorkinType/VICWANTSchoolhandAustralia)
-    font: C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtMVylKtFbYfTEUU.ttf
+    font: EduAUVICWANTHand-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtMVylKtFbYfTEUU.ttf
     formats:
     - ttf
     - woff2
@@ -103,11 +105,12 @@ fonts:
     version: '1.001'
     copyright: Copyright 2023 The VIC WA NT School Hand Australia Project Authors
       (https://github.com/SorkinType/VICWANTSchoolhandAustralia)
-    font: C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtBB1lKtFbYfTEUU.ttf
+    font: EduAUVICWANTHand-Medium.ttf
     preferred_family_name: Edu AU VIC WA NT Hand
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtBB1lKtFbYfTEUU.ttf
     formats:
     - ttf
     - woff2
@@ -122,11 +125,12 @@ fonts:
     version: '1.001'
     copyright: Copyright 2023 The VIC WA NT School Hand Australia Project Authors
       (https://github.com/SorkinType/VICWANTSchoolhandAustralia)
-    font: C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtPxylKtFbYfTEUU.ttf
+    font: EduAUVICWANTHand-SemiBold.ttf
     preferred_family_name: Edu AU VIC WA NT Hand
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: https://openfontlicense.org'
+    source_font: C8cO4dY1tX2x0uuiUHFS4y7ERV-jfqJ6x063HfvcsxiYKifhtPxylKtFbYfTEUU.ttf
     formats:
     - ttf
     - woff2
@@ -134,7 +138,6 @@ fonts:
     source_resource: ttf_static
 extract: {}
 copyright: Copyright 2023 The VIC WA NT School Hand Australia Project Authors (https://github.com/SorkinType/VICWANTSchoolhandAustralia)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2023 The VIC WA NT School Hand Australia Project Authors (https://github.com/SorkinType/VICWANTSchoolhandAustralia)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -241,4 +244,9 @@ open_license: "Copyright 2023 The VIC WA NT School Hand Australia Project Author
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: edu_au_vic_wa_nt_hand

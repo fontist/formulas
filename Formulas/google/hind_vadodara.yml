@@ -70,11 +70,12 @@ fonts:
     version: 1.001;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.5.33-1714)
       -l 8 -r 50 -G 200 -x 13 -D latn -f gujr -w G -W -c -X ""
     copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-    font: neIQzCKvrIcn5pbuuuriV9tTSDn3iXM0oSOL2Yw.ttf
+    font: HindVadodara-Light.ttf
     preferred_family_name: Hind Vadodara
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: neIQzCKvrIcn5pbuuuriV9tTSDn3iXM0oSOL2Yw.ttf
     formats:
     - ttf
     - woff2
@@ -88,9 +89,10 @@ fonts:
     version: 1.001;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.5.33-1714)
       -l 8 -r 50 -G 200 -x 13 -D latn -f gujr -w G -W -c -X ""
     copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-    font: neINzCKvrIcn5pbuuuriV9tTcJXfrXsfvSo.ttf
+    font: HindVadodara-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: neINzCKvrIcn5pbuuuriV9tTcJXfrXsfvSo.ttf
     formats:
     - ttf
     - woff2
@@ -102,9 +104,10 @@ fonts:
     version: 1.001;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.5.33-1714)
       -l 8 -r 50 -G 200 -x 13 -D latn -f gujr -w G -W -c -X ""
     copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-    font: neIQzCKvrIcn5pbuuuriV9tTSCnwiXM0oSOL2Yw.ttf
+    font: HindVadodara-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: neIQzCKvrIcn5pbuuuriV9tTSCnwiXM0oSOL2Yw.ttf
     formats:
     - ttf
     - woff2
@@ -118,11 +121,12 @@ fonts:
     version: 1.001;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.5.33-1714)
       -l 8 -r 50 -G 200 -x 13 -D latn -f gujr -w G -W -c -X ""
     copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-    font: neIQzCKvrIcn5pbuuuriV9tTSGH2iXM0oSOL2Yw.ttf
+    font: HindVadodara-Medium.ttf
     preferred_family_name: Hind Vadodara
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: neIQzCKvrIcn5pbuuuriV9tTSGH2iXM0oSOL2Yw.ttf
     formats:
     - ttf
     - woff2
@@ -136,18 +140,18 @@ fonts:
     version: 1.001;PS 1.0;hotconv 1.0.86;makeotf.lib2.5.63406; ttfautohint (v1.5.33-1714)
       -l 8 -r 50 -G 200 -x 13 -D latn -f gujr -w G -W -c -X ""
     copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-    font: neIQzCKvrIcn5pbuuuriV9tTSE3xiXM0oSOL2Yw.ttf
+    font: HindVadodara-SemiBold.ttf
     preferred_family_name: Hind Vadodara
     preferred_type: SemiBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: neIQzCKvrIcn5pbuuuriV9tTSE3xiXM0oSOL2Yw.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -253,4 +257,9 @@ open_license: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.co
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-10'
+  family_id: hind_vadodara

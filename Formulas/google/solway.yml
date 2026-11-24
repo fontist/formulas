@@ -52,11 +52,12 @@ fonts:
     post_script_name: Solway-Light
     version: '1.000'
     copyright: Copyright 2018 The Solway Project Authors (https://github.com/mashavp/Solway)
-    font: AMOTz46Cs2uTAOCuLlgZms0QW3mqyg.ttf
+    font: Solway-Light.ttf
     preferred_family_name: Solway
     preferred_type: Light
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: AMOTz46Cs2uTAOCuLlgZms0QW3mqyg.ttf
     formats:
     - ttf
     - woff2
@@ -69,9 +70,10 @@ fonts:
     post_script_name: Solway-Regular
     version: '1.000'
     copyright: Copyright 2018 The Solway Project Authors (https://github.com/mashavp/Solway)
-    font: AMOQz46Cs2uTAOCWgnA9kuYMUg.ttf
+    font: Solway-Regular.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: AMOQz46Cs2uTAOCWgnA9kuYMUg.ttf
     formats:
     - ttf
     - woff2
@@ -82,9 +84,10 @@ fonts:
     post_script_name: Solway-Bold
     version: '1.000'
     copyright: Copyright 2018 The Solway Project Authors (https://github.com/mashavp/Solway)
-    font: AMOTz46Cs2uTAOCuPl8Zms0QW3mqyg.ttf
+    font: Solway-Bold.ttf
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: AMOTz46Cs2uTAOCuPl8Zms0QW3mqyg.ttf
     formats:
     - ttf
     - woff2
@@ -97,11 +100,12 @@ fonts:
     post_script_name: Solway-Medium
     version: '1.000'
     copyright: Copyright 2018 The Solway Project Authors (https://github.com/mashavp/Solway)
-    font: AMOTz46Cs2uTAOCudlkZms0QW3mqyg.ttf
+    font: Solway-Medium.ttf
     preferred_family_name: Solway
     preferred_type: Medium
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: AMOTz46Cs2uTAOCudlkZms0QW3mqyg.ttf
     formats:
     - ttf
     - woff2
@@ -114,18 +118,18 @@ fonts:
     post_script_name: Solway-ExtraBold
     version: '1.000'
     copyright: Copyright 2018 The Solway Project Authors (https://github.com/mashavp/Solway)
-    font: AMOTz46Cs2uTAOCuIlwZms0QW3mqyg.ttf
+    font: Solway-ExtraBold.ttf
     preferred_family_name: Solway
     preferred_type: ExtraBold
     description: 'This Font Software is licensed under the SIL Open Font License,
       Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL'
+    source_font: AMOTz46Cs2uTAOCuIlwZms0QW3mqyg.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
 copyright: Copyright 2018 The Solway Project Authors (https://github.com/mashavp/Solway)
-spdx_license: OFL-1.1-no-RFN
 license_url: https://scripts.sil.org/OFL
 license: "Copyright 2018 The Solway Project Authors (https://github.com/mashavp/Solway)\n\nThis
   Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license
@@ -231,4 +235,9 @@ open_license: "Copyright 2018 The Solway Project Authors (https://github.com/mas
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE."
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-08'
+  family_id: solway

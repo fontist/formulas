@@ -39,8 +39,9 @@ fonts:
     version: '1.002'
     copyright: Copyright (c) 2010-2012, Anton Koovit (anton@korkork.com), with Reserved
       Font Name 'Allan'
-    font: ea8XadU7WuTxEtb2P9SF8nZE.ttf
+    font: Allan-Regular.ttf
     description: http://scripts.sil.org/OFL
+    source_font: ea8XadU7WuTxEtb2P9SF8nZE.ttf
     formats:
     - ttf
     - woff2
@@ -52,14 +53,14 @@ fonts:
     version: '1.005'
     copyright: Copyright (c) 2010-2012, Anton Koovit (anton@korkork.com), with Reserved
       Font Name 'Allan'
-    font: ea8aadU7WuTxEu5KEPCN2WpNgEKU.ttf
+    font: Allan-Bold.ttf
     description: http://scripts.sil.org/OFL
+    source_font: ea8aadU7WuTxEu5KEPCN2WpNgEKU.ttf
     formats:
     - ttf
     - woff2
     variable_font: false
 extract: {}
-spdx_license: OFL-1.1-RFN
 copyright: Copyright (c) 2010-2012, Anton Koovit (anton@korkork.com), with Reserved
   Font Name 'Allan'
 license_url: https://scripts.sil.org/OFL
@@ -167,4 +168,9 @@ open_license: "Copyright (c) 2010-2012, Anton Koovit (anton@korkork.com), with R
   ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\nDAMAGES, WHETHER IN
   AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF THE USE OR INABILITY
   TO USE THE FONT SOFTWARE OR FROM\nOTHER DEALINGS IN THE FONT SOFTWARE.\n"
-import_source: {}
+import_source:
+  type: google
+  commit_id: 06bfe0d62a98375cb09c942fa18e68bd32cff057
+  api_version: v1
+  last_modified: '2025-09-16'
+  family_id: allan
