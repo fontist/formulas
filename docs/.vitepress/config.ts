@@ -11,22 +11,6 @@ const SITE_BASE = `${SITE_ORIGIN}${SITE_PATH}`;
 export default defineConfig({
   lang: "en-US",
 
-  // Exclude development/design documents from processing
-  srcExclude: [
-    "RESOURCE_ARCHITECTURE.md",
-    "V4_*.md",
-    "broken-formulas-branch-analysis.md",
-    "dual-source-import-plan.md",
-    "formula-font-format-proposal*.md",
-    "google-fonts-import-*.md",
-    "phase4-*.md",
-    "testing-google-import.md",
-    "GOOGLE_FONTS_IMPLEMENTATION.md",
-    "TODO.revamp.md",
-    "TODO.style.md",
-    "V5_MIGRATION_PLAN.md",
-  ],
-
   ignoreDeadLinks: true,
 
   // https://vitepress.dev/guide/routing#generating-clean-url
