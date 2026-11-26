@@ -16,7 +16,7 @@ import { join, relative, sep } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __dirname = fileURLToPath(new URL(".", import.meta.url));
-const DIST = process.argv[2] || join(__dirname, "..", ".vitepress", "dist");
+const DIST = process.argv[2] || join(__dirname, "..", "dist");
 const ORIGIN = process.env.SITE_URL || "http://localhost:5173";
 const BASE_PATH = process.env.BASE_PATH || "/formulas/";
 

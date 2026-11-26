@@ -1,0 +1,10 @@
+---
+import Site from "../../layouts/Site.astro";
+import FormulaBrowser from "../../components/FormulaBrowser.vue";
+---
+<Site title="All Formulas — Fontist Formulas" description="Browse and filter every Fontist formula by license and source">
+  <article class="prose doc-page browse-landing">
+    <h1>All Formulas</h1>
+    <FormulaBrowser client:load />
+  </article>
+</Site>

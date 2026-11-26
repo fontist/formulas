@@ -1,0 +1,28 @@
+---
+import Site from "../../layouts/Site.astro";
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const entries = await getCollection("guide");
+  return entries
+    .filter((entry) => entry.id !== "index")
+    .map((entry) => ({
+      params: { slug: entry.id.replace(/\/index$/, "") },
+      props: { entry },
+    }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const href = (p) => `${base}${p}`;
+---
+<Site title={entry.data.title ?? "Guide"} description={entry.data.description}>
+  <article class="prose doc-page">
+    <Content />
+  </article>
+  <nav class="doc-page-nav">
+    <a href={href("/guide/")}>← Guide overview</a>
+    <a href={href("/licenses/")}>Licenses →</a>
+  </nav>
+</Site>

@@ -1,0 +1,17 @@
+---
+import Site from "../../layouts/Site.astro";
+import { getCollection, render } from "astro:content";
+
+const entry = (await getCollection("guide")).find((e) => e.id === "index");
+const { Content } = await render(entry);
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+<Site title={entry.data?.title ?? "Guide"} description={entry.data?.description ?? "Fontist Formulas guide"}>
+  <article class="prose doc-page">
+    <Content />
+  </article>
+  <nav class="doc-page-nav">
+    <a href={`${base}/licenses/`}>Licenses →</a>
+    <a href={`${base}/browse/`}>Browse formulas →</a>
+  </nav>
+</Site>

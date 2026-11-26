@@ -1,0 +1,27 @@
+---
+import Site from "../../layouts/Site.astro";
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const entries = await getCollection("licenses");
+  return entries.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+// Generated license pages have no frontmatter; the first heading is the title.
+const title =
+  entry.data?.title ?? entry.body?.match(/^# (.+)$/m)?.[1] ?? "License";
+---
+<Site title={`${title} — Fontist Formulas`} description={entry.data?.summary ?? `License reference: ${title}`}>
+  <article class="prose doc-page">
+    <Content />
+  </article>
+  <nav class="doc-page-nav">
+    <a href={`${base}/licenses/`}>← All Licenses</a>
+  </nav>
+</Site>

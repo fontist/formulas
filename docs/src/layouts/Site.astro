@@ -1,0 +1,383 @@
+---
+import "../styles/site.css";
+
+// Section-aware chrome, mirroring the VitePress sidebar config.
+const { pathname } = Astro.url;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const path = pathname.replace(import.meta.env.BASE_URL, "/").replace(/^\//, "");
+
+const isGuide = path.startsWith("guide");
+const isLicenses = path.startsWith("licenses");
+
+const guideNav = [
+  { text: "Overview", link: "/guide/" },
+  {
+    text: "Understanding Formulas",
+    children: [
+      { text: "What is a Formula?", link: "/guide/what-is-formula" },
+      { text: "Formula Structure", link: "/guide/formula-structure" },
+      { text: "Static and Variable Fonts", link: "/guide/static-and-variable-fonts" },
+      { text: "Choosing a Formula", link: "/guide/choosing-formula" },
+    ],
+  },
+  {
+    text: "Use Cases",
+    children: [
+      { text: "Overview", link: "/guide/use-cases/" },
+      { text: "Desktop Publishing", link: "/guide/use-cases/desktop-publishing" },
+      { text: "Web Development", link: "/guide/use-cases/web-development" },
+      { text: "Document Generation", link: "/guide/use-cases/document-generation" },
+      { text: "PDF Generation", link: "/guide/use-cases/pdf-generation" },
+      { text: "CI/CD & Servers", link: "/guide/use-cases/server-side" },
+      { text: "Docker & Containers", link: "/guide/use-cases/containerized" },
+      { text: "Cloud VMs", link: "/guide/use-cases/cloud-vms" },
+    ],
+  },
+  {
+    text: "Creating Formulas",
+    children: [
+      { text: "Create a Formula", link: "/guide/create-formula" },
+      { text: "Private repositories", link: "/guide/private-repositories" },
+    ],
+  },
+];
+
+const licenseNav = [
+  {
+    text: "License Overview",
+    children: [{ text: "All Licenses", link: "/licenses/" }],
+  },
+  {
+    text: "Open Source",
+    children: [
+      { text: "OFL 1.1", link: "/licenses/ofl" },
+      { text: "Apache 2.0", link: "/licenses/apache" },
+      { text: "MIT", link: "/licenses/mit" },
+      { text: "BSD", link: "/licenses/bsd" },
+      { text: "CC0", link: "/licenses/cc0" },
+      { text: "Public Domain", link: "/licenses/public-domain" },
+      { text: "CC-BY 4.0", link: "/licenses/cc-by" },
+      { text: "CC-BY-SA 4.0", link: "/licenses/cc-by-sa" },
+      { text: "UFL 1.0", link: "/licenses/ufl" },
+      { text: "GUST", link: "/licenses/gust" },
+      { text: "LGPL", link: "/licenses/lgpl" },
+      { text: "GPL", link: "/licenses/gpl" },
+      { text: "IPA", link: "/licenses/ipa" },
+      { text: "Bitstream Vera", link: "/licenses/bitstream" },
+    ],
+  },
+  {
+    text: "Freely Distributable",
+    children: [
+      { text: "Freely Usable", link: "/licenses/free-use" },
+      { text: "Microsoft Web Fonts", link: "/licenses/microsoft-web" },
+      { text: "Freeware", link: "/licenses/freeware" },
+    ],
+  },
+  {
+    text: "Platform Restricted",
+    children: [{ text: "Apple-only", link: "/licenses/apple-only" }],
+  },
+  {
+    text: "Bundled Software",
+    children: [
+      { text: "Microsoft Software", link: "/licenses/ms-office" },
+      { text: "Adobe Software", link: "/licenses/adobe" },
+      { text: "Bundled Software", link: "/licenses/bundled" },
+    ],
+  },
+  {
+    text: "Other",
+    children: [{ text: "Unknown", link: "/licenses/unknown" }],
+  },
+];
+
+const sidebar = isGuide ? guideNav : isLicenses ? licenseNav : [];
+
+const showChrome = !path.startsWith("browse/") || path === "browse/index" || path === "browse";
+
+// Header search index: titles across guide, licenses and browse, built at
+// SSG time. The client filters it substring-style; full-text search lives
+// in the formula browser.
+import { getCollection } from "astro:content";
+const [guideEntries, licenseEntries] = await Promise.all([
+  getCollection("guide"),
+  getCollection("licenses"),
+]);
+const searchEntries = [
+  ...guideEntries.map((e) => ({
+    title: e.data?.title ?? e.id,
+    url: `/guide/${e.id === "index" ? "" : e.id}`,
+    section: "Guide",
+  })),
+  ...licenseEntries.map((e) => ({
+    title: e.body?.match(/^# (.+)$/m)?.[1] ?? e.id,
+    url: `/licenses/${e.id}`,
+    section: "Licenses",
+  })),
+];
+---
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{Astro.props.title ?? "Fontist Formulas"}</title>
+    <meta name="description" content={Astro.props.description ?? "Searchable index of all Fontist Formulas"} />
+    <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
+    <link rel="icon" type="image/png" sizes="96x96" href={`${base}/favicon-96x96.png`} />
+    <link rel="shortcut icon" href={`${base}/favicon.ico`} />
+    <link rel="apple-touch-icon" sizes="180x180" href={`${base}/apple-touch-icon.png`} />
+    <script is:inline>
+      // Restore dark mode before paint; matches the VitePress behavior of
+      // persisting the choice in localStorage.
+      const saved = localStorage.getItem("fontist-theme");
+      if (saved === "dark" || (saved === null && matchMedia("(prefers-color-scheme: dark)").matches)) {
+        document.documentElement.classList.add("dark");
+      }
+    </script>
+  </head>
+  <body>
+    {
+      showChrome && (
+        <header class="site-header">
+          <div class="site-header-inner">
+            <a href={`${base}/`} class="site-logo">
+              <img src={`${base}/logo-full.svg`} alt="Fontist Formulas" />
+            </a>
+            <nav class="site-nav">
+              <a href="https://www.fontist.org">← Fontist.org</a>
+              <a href={`${base}/guide/`} class:list={{ active: isGuide }}>Guide</a>
+              <a href={`${base}/licenses/`} class:list={{ active: isLicenses }}>Licenses</a>
+              <a href={`${base}/browse/`}>Formulas</a>
+              <a href="https://www.fontist.org/fontist/">Fontist</a>
+              <a href="https://www.fontist.org/fontisan/">Fontisan</a>
+            </nav>
+            <div class="header-search" id="header-search">
+              <input
+                type="search"
+                id="header-search-input"
+                placeholder="Search docs…"
+                autocomplete="off"
+                data-entries={JSON.stringify(searchEntries)}
+                data-base={base}
+              />
+              <div class="header-search-results" id="header-search-results" hidden></div>
+            </div>
+            <button
+              id="theme-toggle"
+              class="theme-toggle"
+              aria-label="Toggle dark mode"
+              title="Toggle dark mode"
+            >
+              <span class="theme-toggle-sun">☀</span>
+              <span class="theme-toggle-moon">☾</span>
+            </button>
+          </div>
+        </header>
+      )
+    }
+    <main class:list={["site-main", { "with-sidebar": sidebar.length > 0 }]}>
+      {
+        sidebar.length > 0 && (
+          <aside class="site-sidebar">
+            {sidebar.map((group) => (
+              <div class="sidebar-group">
+                {group.link ? (
+                  <div class="sidebar-heading">
+                    <a href={`${base}${group.link}`}>{group.text}</a>
+                  </div>
+                ) : (
+                  <div class="sidebar-heading">{group.text}</div>
+                )}
+                <ul>
+                  {(group.children ?? []).map((item) => (
+                    <li>
+                      <a
+                        href={item.link.startsWith("/")
+                          ? `${base}${item.link}`
+                          : item.link}
+                        class:list={{
+                          active:
+                            path === item.link.replace(/^\//, "").replace(/\/$/, "") ||
+                            path === item.link.replace(/^\//, ""),
+                        }}
+                      >
+                        {item.text}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </aside>
+        )
+      }
+      <div class="site-content">
+        <slot />
+      </div>
+    </main>
+    {
+      showChrome && (
+        <footer class="site-footer">
+          <p>
+            Fontist is a <a href="https://www.ribose.com/">Ribose</a> project ·
+            Copyright © 2026 Ribose Group Inc. All rights reserved.
+          </p>
+        </footer>
+      )
+    }
+    <script is:inline>
+      document.getElementById("theme-toggle")?.addEventListener("click", () => {
+        const dark = document.documentElement.classList.toggle("dark");
+        localStorage.setItem("fontist-theme", dark ? "dark" : "light");
+      });
+
+      // Header docs search: substring filter over the SSG-built entry list.
+      (() => {
+        const wrap = document.getElementById("header-search");
+        if (!wrap) return;
+        const input = document.getElementById("header-search-input");
+        const box = document.getElementById("header-search-results");
+        const entries = JSON.parse(input.dataset.entries);
+        const base = input.dataset.base;
+
+        function render(list) {
+          box.innerHTML = list
+            .map(
+              (e) =>
+                `<a href="${base}${e.url}"><span class="hs-section">${e.section}</span> ${e.title}</a>`,
+            )
+            .join("");
+          box.hidden = list.length === 0;
+        }
+
+        input.addEventListener("input", () => {
+          const q = input.value.trim().toLowerCase();
+          if (!q) return (box.hidden = true);
+          render(
+            entries.filter((e) => e.title.toLowerCase().includes(q)).slice(0, 8),
+          );
+        });
+        input.addEventListener("keydown", (e) => {
+          if (e.key === "Escape") {
+            box.hidden = true;
+            input.blur();
+          }
+        });
+        document.addEventListener("click", (e) => {
+          if (!wrap.contains(e.target)) box.hidden = true;
+        });
+      })();
+    </script>
+    <style>
+      .site-header {
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        background: var(--vp-c-bg);
+        border-bottom: 1px solid var(--vp-c-divider);
+      }
+      .site-header-inner {
+        max-width: 1240px;
+        margin: 0 auto;
+        padding: 0 1.5rem;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+      }
+      .site-logo img {
+        height: 39px;
+        display: block;
+      }
+      .site-nav {
+        display: flex;
+        align-items: center;
+        gap: 1.25rem;
+        flex: 1;
+        font-size: 0.9rem;
+      }
+      .site-nav a {
+        color: var(--vp-c-text-2);
+        text-decoration: none;
+        padding: 0.25rem 0;
+      }
+      .site-nav a:hover,
+      .site-nav a.active {
+        color: var(--vp-c-brand-1);
+      }
+      .theme-toggle {
+        border: 1px solid var(--vp-c-divider);
+        background: var(--vp-c-bg-soft);
+        border-radius: 8px;
+        padding: 0.25rem 0.5rem;
+        cursor: pointer;
+        color: var(--vp-c-text-2);
+      }
+      html:not(.dark) .theme-toggle-moon {
+        display: none;
+      }
+      html.dark .theme-toggle-sun {
+        display: none;
+      }
+      .site-main {
+        max-width: 1240px;
+        margin: 0 auto;
+        padding: 1.5rem;
+        display: flex;
+        gap: 2rem;
+      }
+      .site-main.with-sidebar .site-content {
+        flex: 1;
+        min-width: 0;
+      }
+      .site-sidebar {
+        width: 240px;
+        flex-shrink: 0;
+      }
+      .sidebar-group {
+        margin-bottom: 1.25rem;
+      }
+      .sidebar-heading {
+        font-size: 0.8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        color: var(--vp-c-text-1);
+        margin-bottom: 0.5rem;
+      }
+      .sidebar-group ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .sidebar-group li a {
+        display: block;
+        padding: 0.25rem 0 0.25rem 0.75rem;
+        font-size: 0.875rem;
+        color: var(--vp-c-text-2);
+        text-decoration: none;
+        border-left: 2px solid transparent;
+      }
+      .sidebar-group li a:hover {
+        color: var(--vp-c-brand-1);
+      }
+      .sidebar-group li a.active {
+        color: var(--vp-c-brand-1);
+        border-left-color: var(--vp-c-brand-1);
+      }
+      .site-footer {
+        border-top: 1px solid var(--vp-c-divider);
+        background: var(--vp-c-bg-soft);
+        text-align: center;
+        padding: 1.25rem;
+        font-size: 0.875rem;
+        color: var(--vp-c-text-2);
+      }
+      .site-footer a {
+        color: var(--vp-c-brand-1);
+      }
+    </style>
+  </body>
+</html>
