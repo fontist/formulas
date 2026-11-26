@@ -1,0 +1,29 @@
+---
+import Site from "../../layouts/Site.astro";
+import { getCollection, render } from "astro:content";
+import ShaCopy from "../../components/ShaCopy.vue";
+
+export async function getStaticPaths() {
+  const entries = await getCollection("browse");
+  return entries.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const name = entry.data?.title?.replace(/ - Fontist Formula$/, "") ?? entry.id;
+const description = entry.data?.description ?? `Fontist formula: ${name}`;
+---
+<Site title={`${name} — Fontist Formulas`} description={description}>
+  <article class="prose doc-page formula-page">
+    <Content />
+    <ShaCopy client:load />
+  </article>
+  <nav class="doc-page-nav">
+    <a href={`${base}/browse/`}>← All Formulas</a>
+    <a href={`${base}/`}>Home</a>
+  </nav>
+</Site>

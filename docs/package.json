@@ -1,22 +1,28 @@
 {
   "scripts": {
     "predev": "node generate.js",
-    "dev": "vitepress dev",
+    "dev": "astro dev",
     "prebuild": "node generate.js",
     "build": "node build.js",
-    "preview": "vitepress preview",
+    "preview": "astro preview",
+    "postbuild": "node generate-sitemap.js dist",
     "format": "prettier -w ."
   },
   "type": "module",
   "dependencies": {
+    "@astrojs/vue": "^7.1.6",
+    "@tailwindcss/vite": "^4.3.2",
+    "astro": "^7.4.13",
     "glob": "^13.0.6",
     "marked": "^17.0.4",
+    "tailwindcss": "^4.3.2",
+    "vue": "^3.5.0",
     "yaml": "^2.7.0"
   },
   "devDependencies": {
     "@types/node": "^25.4.0",
     "prettier": "^3.8.1",
     "typescript": "^5.9.3",
-    "vitepress": "^1.6.4"
+    "vite": "^8.3.8"
   }
 }

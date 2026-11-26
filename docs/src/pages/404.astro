@@ -1,0 +1,20 @@
+---
+import Site from "../layouts/Site.astro";
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+<Site title="Page not found — Fontist Formulas">
+  <div class="not-found">
+    <h1>404</h1>
+    <p>This page does not exist. Try the <a href={`${base}/browse/`}>formula browser</a> or the <a href={`${base}/guide/`}>guide</a>.</p>
+  </div>
+  <style>
+    .not-found {
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+    .not-found h1 {
+      font-size: 4rem;
+      color: var(--vp-c-brand-1);
+    }
+  </style>
+</Site>
